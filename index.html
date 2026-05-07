@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Enciclopedia Naturista de Chile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#14180f">
+    <meta name="description" content="Saber herbolario chileno, mapuche y chilote. 85 plantas medicinales, 1058 recetas tradicionales.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Naturista CL">
+</head>
+<body>
+
+    <!-- Fondo animado -->
+    <div class="bg-stage" aria-hidden="true">
+        <div class="bg-orb a"></div>
+        <div class="bg-orb b"></div>
+        <div class="bg-orb c"></div>
+    </div>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <div class="app-container">
+
+        <!-- Header -->
+        <header>
+            <div class="brand">
+                <div class="brand-mark">🌿</div>
+                <div class="brand-text">
+                    <h1>Enciclopedia Naturista</h1>
+                    <div class="sub">Chile · Saber ancestral</div>
+                </div>
+            </div>
+            <div class="header-buttons">
+                <button id="favBtn" class="icon-btn" title="Favoritos"><i class="fas fa-bookmark"></i></button>
+                <button id="emergencyBtn" class="icon-btn alert" title="Emergencia"><i class="fas fa-triangle-exclamation"></i></button>
+                <button id="tweaksBtn" class="icon-btn" title="Ajustes visuales"><i class="fas fa-sliders"></i></button>
+            </div>
+        </header>
+
+        <!-- Búsqueda -->
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Buscar planta, síntoma, receta…" autocomplete="off">
+            <button id="clearSearch" title="Limpiar"><i class="fas fa-times"></i></button>
+        </div>
+
+        <!-- Tabs -->
+        <div class="nav-tabs" id="navTabs">
+            <span class="tab-indicator" id="tabIndicator"></span>
+            <button class="tab-btn active" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
+            <button class="tab-btn" data-tab="recipes"><i class="fas fa-scroll tab-icon"></i><span>Recetario</span></button>
+            <button class="tab-btn" data-tab="maternidad"><i class="fas fa-baby tab-icon"></i><span>Maternidad</span></button>
+            <button class="tab-btn" data-tab="dolencias"><i class="fas fa-heart-pulse tab-icon"></i><span>Dolencias</span></button>
+            <button class="tab-btn" data-tab="tools"><i class="fas fa-mortar-pestle tab-icon"></i><span>Herramientas</span></button>
+            <button class="tab-btn" data-tab="stats"><i class="fas fa-chart-simple tab-icon"></i><span>Estadísticas</span></button>
+        </div>
+
+        <!-- ─────────── PLANTAS ─────────── -->
+        <div id="plantsTab" class="tab-content active">
+
+            <!-- Planta del Día -->
+            <div id="plantaDia" class="planta-dia-section"></div>
+
+            <!-- Banner de temporada -->
+            <div id="temporadaBanner" class="temporada-banner" style="display:none"></div>
+
+            <!-- Barra de progreso de exploración -->
+            <div class="progreso-wrap">
+                <div class="progreso-labels">
+                    <span class="progreso-txt"><i class="fas fa-seedling"></i> Plantas exploradas</span>
+                    <span id="progresoNum" class="progreso-num">0 / 0</span>
+                </div>
+                <div class="progreso-track">
+                    <div id="progresoBar" class="progreso-bar"></div>
+                </div>
+            </div>
+
+            <div class="filter-bar">
+                <button id="resetFiltros" class="chip chip-reset" style="display:none"><i class="fas fa-times-circle"></i> Ver todas</button>
+                <button id="filterChiloe" class="chip"><i class="fas fa-location-dot"></i> Solo Chiloé</button>
+                <button id="symptomSearch" class="chip"><i class="fas fa-stethoscope"></i> Por síntoma</button>
+                <button id="filterFav" class="chip"><i class="fas fa-bookmark"></i> Favoritos</button>
+                <button id="filterTemporada" class="chip"><i class="fas fa-calendar-check"></i> En temporada</button>
+                <button id="filterRegionBtn" class="chip"><i class="fas fa-map"></i> Región</button>
+            </div>
+
+            <!-- Panel de regiones -->
+            <div id="regionPanel" class="region-panel" style="display:none">
+                <div id="regionChips" class="region-chips"></div>
+            </div>
+
+            <!-- Contador dinámico + toggle de vista -->
+            <div id="plantCountBar" class="plant-count-bar" style="display:none">
+                <span id="plantCountTxt"></span>
+            </div>
+            <div class="view-toggle-bar">
+                <button id="viewGrid" class="view-toggle-btn active" title="Vista cuadrícula" aria-label="Vista en cuadrícula">
+                    <i class="fas fa-grip"></i>
+                </button>
+                <button id="viewList" class="view-toggle-btn" title="Vista lista" aria-label="Vista en lista">
+                    <i class="fas fa-list"></i>
+                </button>
+                <span class="sort-label">Ordenar:</span>
+                <select id="sortSelect" class="sort-select">
+                    <option value="default">A → Z</option>
+                    <option value="temporada">En temporada primero</option>
+                    <option value="precaucion">Sin precauciones primero</option>
+                    <option value="chiloe">Chiloé primero</option>
+                </select>
+                <button id="randomPlantBtn" class="random-plant-btn" title="Planta aleatoria">
+                    <i class="fas fa-shuffle"></i>
+                </button>
+            </div>
+
+            <div id="plantList" class="plant-list"></div>
+        </div>
+
+        <!-- ─────────── RECETARIO ─────────── -->
+        <div id="recipesTab" class="tab-content">
+            <!-- Hero recetario -->
+            <div class="recipes-hero">
+                <div class="recipes-hero-icon-wrap">
+                    <div class="recipes-hero-icon">📜</div>
+                    <div class="recipes-hero-ring"></div>
+                </div>
+                <div class="recipes-hero-text">
+                    <h2 class="recipes-hero-title">Recetario Tradicional</h2>
+                    <p class="recipes-hero-sub">Más de <strong>1.058 recetas</strong> organizadas por sistema del cuerpo — sabiduría herbolaria chilena, mapuche y chilota.</p>
+                </div>
+                <div class="recipes-topbar">
+                    <button id="recetaAleatoriaBtn" class="btn-aleatoria">
+                        <i class="fas fa-dice"></i> Sorpréndeme
+                    </button>
+                </div>
+            </div>
+            <div id="systemAccordion" class="system-accordion"></div>
+        </div>
+
+        <!-- ─────────── HERRAMIENTAS ─────────── -->
+        <div id="toolsTab" class="tab-content">
+            <!-- Hero herramientas -->
+            <div class="tools-hero">
+                <div class="tools-hero-icon-wrap">
+                    <div class="tools-hero-icon">🧰</div>
+                    <div class="tools-hero-ring"></div>
+                </div>
+                <div class="tools-hero-text">
+                    <h2 class="tools-hero-title">Herramientas & Recursos</h2>
+                    <p class="tools-hero-sub">Quiz interactivo, guías de uso responsable y contactos de emergencia para un aprovechamiento seguro del saber herbolario chileno.</p>
+                </div>
+            </div>
+            <div class="tools-content">
+                <!-- PWA Install card — shown only when installable -->
+                <div class="tool-card reveal pwa-install-card" id="pwaInstallCard" style="display:none">
+                    <div class="pwa-install-inner">
+                        <div class="pwa-install-icon">📲</div>
+                        <div class="pwa-install-text">
+                            <h3>Instalar en tu dispositivo</h3>
+                            <p>Agrega la enciclopedia a tu pantalla de inicio para acceso rápido sin necesidad de internet.</p>
+                        </div>
+                    </div>
+                    <button id="pwaInstallBtn" class="pwa-install-btn">Instalar app <i class="fas fa-download"></i></button>
+                </div>
+
+                <div class="tool-card reveal">
+                    <h3><i class="fas fa-stethoscope"></i> Búsqueda por Síntoma</h3>
+                    <p>Usa el botón "Por síntoma" en la pestaña de Plantas para hallar remedios según una dolencia específica.</p>
+                </div>
+                <div class="tool-card reveal">
+                    <h3 style="color: var(--terracotta-soft)"><i class="fas fa-triangle-exclamation"></i> Emergencias Toxicológicas</h3>
+                    <p>Si has ingerido una planta tóxica o presentas reacción adversa, contacta de inmediato.</p>
+                    <button id="emergencyToolsBtn" class="emergency-btn">Ver contactos de emergencia</button>
+                </div>
+                <div class="tool-card reveal">
+                    <h3><i class="fas fa-leaf"></i> Código de Buen Uso</h3>
+                    <ul>
+                        <li>No recolectes raíces ni la planta entera.</li>
+                        <li>Recolecta solo lo necesario.</li>
+                        <li>No dañes la planta madre.</li>
+                        <li>Respeta las especies protegidas.</li>
+                        <li>Prefiere el cultivo o compra a fuentes autorizadas.</li>
+                    </ul>
+                </div>
+                <div class="tool-card reveal">
+                    <h3><i class="fas fa-circle-info"></i> Aviso Legal</h3>
+                    <p>Esta enciclopedia es una guía educativa basada en saber tradicional chileno. Consulta siempre a un profesional de la salud antes de iniciar cualquier tratamiento.</p>
+                </div>
+                <div class="tool-card reveal quiz-card">
+                    <div class="quiz-card-header">
+                        <div class="quiz-icon-wrap"><i class="fas fa-brain"></i></div>
+                        <div>
+                            <h3>Quiz de Plantas</h3>
+                            <p>¿Cuánto sabes sobre las plantas medicinales de Chile?</p>
+                        </div>
+                    </div>
+                    <div id="quizScoreBadge" class="quiz-score-badge" style="display:none"></div>
+                    <button id="iniciarQuizBtn" class="quiz-start-btn">
+                        <i class="fas fa-play"></i> Iniciar Quiz
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ─────────── ESTADÍSTICAS ─────────── -->
+        <div id="statsTab" class="tab-content">
+            <div class="stats-intro">
+                <h2>El atlas de la herboristería chilena</h2>
+                <p>Datos etnobotánicos recopilados de fuentes científicas, tradición mapuche y saber chilote.</p>
+            </div>
+            <div class="infografia">
+
+                <!-- Hero stats -->
+                <div class="stat-hero reveal">
+                    <div class="stat-hero-card">
+                        <span class="stat-hero-num" id="statPlantas">0</span>
+                        <span class="stat-hero-label">Plantas medicinales</span>
+                    </div>
+                    <div class="stat-hero-card accent">
+                        <span class="stat-hero-num" id="statRecetas">0</span>
+                        <span class="stat-hero-label">Recetas tradicionales</span>
+                    </div>
+                    <div class="stat-hero-card">
+                        <span class="stat-hero-num" id="statCategorias">0</span>
+                        <span class="stat-hero-label">Categorías de dolencias</span>
+                    </div>
+                    <div class="stat-hero-card">
+                        <span class="stat-hero-num" id="statChiloe">0</span>
+                        <span class="stat-hero-label">Plantas presentes en Chiloé</span>
+                    </div>
+                </div>
+
+                <!-- Tu exploración personal -->
+                <div class="infog-card tuexp-card reveal">
+                    <h3 class="infog-title">🧭 Tu exploración</h3>
+                    <div id="tuExploracion"></div>
+                </div>
+
+                <!-- Gráfico torta: recetas por sistema -->
+                <div class="infog-row reveal">
+                    <div class="infog-card chart-card">
+                        <h3 class="infog-title">🗂️ Recetas por sistema</h3>
+                        <div class="chart-wrap">
+                            <canvas id="chartSistemas"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Alertas y precauciones -->
+                    <div class="infog-card">
+                        <h3 class="infog-title">⚠️ Advertencias de seguridad</h3>
+                        <div class="safety-stats" id="safetyStats"></div>
+                    </div>
+                </div>
+
+                <!-- Plantas más usadas -->
+                <div class="infog-card reveal">
+                    <h3 class="infog-title">🌿 Plantas más usadas en el recetario</h3>
+                    <div id="topPlantas" class="top-plantas-bar"></div>
+                </div>
+
+                <!-- Calendario interactivo -->
+                <div class="infog-card reveal">
+                    <h3 class="infog-title">📅 ¿Qué puedo recolectar este mes?</h3>
+                    <p class="infog-sub">Selecciona un mes para ver qué plantas están en su mejor momento</p>
+                    <div id="calendarChart" class="calendar-bar-wrap"></div>
+                    <div id="calendarPlantas" class="calendar-plantas-result" style="display:none"></div>
+                </div>
+
+                <!-- Plantas por región interactivo -->
+                <div class="infog-card reveal">
+                    <h3 class="infog-title">📍 Plantas de tu zona</h3>
+                    <p class="infog-sub">Selecciona una región para ver las plantas medicinales que puedes encontrar ahí</p>
+                    <div id="regionChart" class="region-bars"></div>
+                    <div id="regionPlantas" class="calendar-plantas-result" style="display:none"></div>
+                </div>
+
+                <!-- Fuentes bibliográficas -->
+                <div class="infog-card fuentes-card reveal">
+                    <h3 class="infog-title">📚 Fuentes y bibliografía</h3>
+                    <p class="infog-sub">Toda la información de esta enciclopedia está basada en las siguientes fuentes verificadas.</p>
+                    <div class="fuentes-grid">
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-oficial">🏛️</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Ministerio de Salud de Chile (MINSAL)</div>
+                                <div class="fuente-desc">Formulario Nacional de Medicamentos · Guía de plantas medicinales de uso habitual en Chile · Programa de Medicina Complementaria y Alternativa.</div>
+                                <div class="fuente-url">www.minsal.cl</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-libro">📖</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Montes, M. & Wilkomirsky, T.</div>
+                                <div class="fuente-desc"><em>Medicina Tradicional Chilena</em> (1985). Universidad de Concepción. Referencia fundamental sobre plantas medicinales del sur de Chile.</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-libro">📖</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Muñoz, M., Barrera, E. & Meza, I.</div>
+                                <div class="fuente-desc"><em>El uso medicinal y alimenticio de plantas nativas y naturalizadas en Chile</em> (1981). Museo Nacional de Historia Natural, Santiago.</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-libro">📖</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Hoffmann, A. et al.</div>
+                                <div class="fuente-desc"><em>Flora Silvestre de Chile: Zona Central</em> (1997). Ediciones Fundación Claudio Gay. Identificación y descripción de especies nativas chilenas.</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-mapuche">🌳</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Medicina Tradicional Mapuche</div>
+                                <div class="fuente-desc">Conocimiento ancestral de machis y lonkos del pueblo mapuche. Recopilaciones etnobotánicas de Villagrán, C. & Castro, V. · Molina, R. (CONAF) · Grebe, M.E. (Universidad de Chile).</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-mapuche">🏝️</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Tradición Chilota</div>
+                                <div class="fuente-desc">Saber medicinal de Chiloé recopilado por Torrejón, E. (INIA Remehue) · Machmar, M. (Plantas medicinales de Chiloé, 2003) · Comunidades huilliches del archipiélago.</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-oficial">🌍</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Organización Mundial de la Salud (OMS/WHO)</div>
+                                <div class="fuente-desc"><em>WHO Monographs on Selected Medicinal Plants</em> (Vol. 1–4) · <em>Traditional Medicine Strategy 2014–2023</em>. Base internacional de seguridad y eficacia.</div>
+                                <div class="fuente-url">www.who.int/medicines/areas/traditional</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-digital">💻</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">CONAF · Flora Chilena</div>
+                                <div class="fuente-desc">Corporación Nacional Forestal. Fichas de especies nativas protegidas, distribución regional y estado de conservación de la flora medicinal chilena.</div>
+                                <div class="fuente-url">www.conaf.cl · florachilena.cl</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-digital">🔬</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">Wikimedia Commons · Wikipedia (en/es)</div>
+                                <div class="fuente-desc">Fotografías de plantas bajo licencia Creative Commons. Artículos revisados en inglés y español para datos botánicos (clasificación, familia, distribución).</div>
+                                <div class="fuente-url">commons.wikimedia.org</div>
+                            </div>
+                        </div>
+
+                        <div class="fuente-item">
+                            <div class="fuente-icon fuente-digital">📊</div>
+                            <div class="fuente-body">
+                                <div class="fuente-titulo">PubMed · SciELO Chile</div>
+                                <div class="fuente-desc">Estudios científicos sobre plantas medicinales chilenas: propiedades farmacológicas, seguridad y contraindicaciones. Investigaciones de universidades chilenas (U. de Chile, PUC, UACH).</div>
+                                <div class="fuente-url">pubmed.ncbi.nlm.nih.gov · scielo.cl</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="fuentes-aviso">
+                        <i class="fas fa-circle-info"></i>
+                        Esta enciclopedia es una guía educativa de saber tradicional. No reemplaza la consulta médica profesional.
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- ─────────── DOLENCIAS ─────────── -->
+        <div id="dolenciasTab" class="tab-content">
+            <div class="dolencias-hero-wrap">
+                <div class="dolencias-hero-icon-wrap">
+                    <div class="dolencias-hero-icon">🩺</div>
+                    <div class="dolencias-hero-ring"></div>
+                </div>
+                <div class="dolencias-hero-text">
+                    <h2 class="dolencias-h2">Buscar por Dolencia</h2>
+                    <p class="dolencias-sub">Encuentra remedios naturales para lo que te afecta</p>
+                    <div class="dolencias-hero-stats">
+                        <span class="dol-stat"><i class="fas fa-leaf"></i> 68 dolencias</span>
+                        <span class="dol-stat-sep">·</span>
+                        <span class="dol-stat"><i class="fas fa-scroll"></i> 1.058 recetas</span>
+                        <span class="dol-stat-sep">·</span>
+                        <span class="dol-stat"><i class="fas fa-seedling"></i> 85 plantas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="dolencias-search-wrap">
+                <i class="fas fa-search dolencias-search-ico"></i>
+                <input type="text" id="dolenciasInput" class="dolencias-search-input" placeholder="Escribe tu dolencia… ej: piedras en el riñón, insomnio, gastritis" autocomplete="off">
+                <button id="dolenciasClear" class="dolencias-clear-btn" style="display:none" title="Limpiar búsqueda"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="dolenciasGrid" class="dolencias-grid"></div>
+            <div id="dolenciasResultados" class="dolencias-resultados" style="display:none"></div>
+        </div>
+
+        <!-- ─────────── MATERNIDAD ─────────── -->
+        <div id="maternidadTab" class="tab-content">
+
+            <!-- Hero -->
+            <div class="matern-hero">
+                <div class="matern-hero-icon-wrap">
+                    <div class="matern-hero-icon">🤰</div>
+                    <div class="matern-hero-ring"></div>
+                </div>
+                <div class="matern-hero-text">
+                    <h2 class="matern-hero-title">Embarazo &amp; Lactancia</h2>
+                    <p class="matern-hero-sub">Guía de uso seguro en embarazo y lactancia</p>
+                    <div class="matern-hero-stats">
+                        <span class="matern-stat"><i class="fas fa-check-circle"></i> <span id="maternStatSeguras">0</span> plantas seguras</span>
+                        <span class="dol-stat-sep">·</span>
+                        <span class="matern-stat"><i class="fas fa-circle-exclamation"></i> <span id="maternStatEvitar">0</span> consultar médico</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disclaimer médico -->
+            <div class="matern-disclaimer">
+                <i class="fas fa-triangle-exclamation"></i>
+                <div><strong>Consulta siempre con tu médico o matrona</strong> antes de usar cualquier planta medicinal durante el embarazo o la lactancia. Esta información es de referencia etnobotánica, no reemplaza la atención profesional.</div>
+            </div>
+
+            <!-- Subtabs Embarazo / Lactancia -->
+            <div class="matern-subtabs">
+                <button class="matern-btn active" data-matern="embarazo"><i class="fas fa-baby-carriage"></i> Embarazo</button>
+                <button class="matern-btn" data-matern="lactancia"><i class="fas fa-droplet"></i> Lactancia</button>
+            </div>
+
+            <!-- Sección EMBARAZO -->
+            <div id="maternEmbarazo" class="matern-section active">
+                <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
+                <div id="maternEmbarazoDestacadas" class="matern-plantas-grid"></div>
+
+                <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones conocidas</div>
+                <div id="maternEmbarazoSeguras" class="matern-plantas-grid"></div>
+
+                <!-- Recetas seguras en embarazo -->
+                <div class="matern-cat-title recetas"><span class="matern-cat-icon">📖</span> Recetas recomendadas para el embarazo</div>
+                <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
+
+                <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar en el embarazo</div>
+                <div id="maternEmbarazoEvitar" class="matern-warn-grid"></div>
+                <div id="maternPrecEmbarazo" class="matern-prec-box"></div>
+            </div>
+
+            <!-- Sección LACTANCIA -->
+            <div id="maternLactancia" class="matern-section">
+                <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
+                <div id="maternLactanciaGal" class="matern-plantas-grid"></div>
+
+                <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones en lactancia</div>
+                <div id="maternLactanciaSeguras" class="matern-plantas-grid"></div>
+
+                <!-- Recetas seguras en lactancia -->
+                <div class="matern-cat-title recetas"><span class="matern-cat-icon">📖</span> Recetas recomendadas en lactancia</div>
+                <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
+
+                <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar durante la lactancia</div>
+                <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
+                <div id="maternPrecLactancia" class="matern-prec-box"></div>
+            </div>
+
+        </div>
+
+        <footer>SABIDURÍA ANCESTRAL CHILENA · CHILOTA · MAPUCHE</footer>
+    </div>
+
+    <!-- Toast container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="modal quiz-modal">
+        <div class="modal-content quiz-modal-content">
+            <button class="close-quiz-btn" id="closeQuizModal">&times;</button>
+            <div id="quizBody"></div>
+        </div>
+    </div>
+
+    <!-- Cursor personalizado -->
+    <div id="cursor-dot" class="cursor-dot"></div>
+    <div id="cursor-ring" class="cursor-ring"></div>
+
+    <!-- Autocomplete -->
+    <div id="searchSuggestions" class="search-suggestions"></div>
+
+    <!-- Modal -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-top-bar">
+                <button class="close-modal" title="Cerrar">&times;</button>
+                <button class="modal-share-btn" id="modalShareBtn" title="Compartir" style="display:none">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+            </div>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Panel lateral de Síntomas -->
+    <div id="symptomPanel" class="side-panel" aria-hidden="true">
+        <div class="side-panel-backdrop"></div>
+        <aside class="side-panel-body" role="dialog" aria-label="Buscar por síntoma">
+            <header class="side-panel-header">
+                <div class="side-panel-title">
+                    <span class="side-panel-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4v6a4 4 0 0 0 8 0V4"/>
+                            <circle cx="18" cy="14" r="2.5"/>
+                            <path d="M8 14v2a6 6 0 0 0 8 5.6"/>
+                        </svg>
+                    </span>
+                    <div>
+                        <h3>Buscar por síntoma</h3>
+                        <p>Encuentra plantas que ayudan</p>
+                    </div>
+                </div>
+                <button class="side-panel-close" aria-label="Cerrar">&times;</button>
+            </header>
+
+            <div class="side-panel-search">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+                <input type="text" id="customSymptom" placeholder="Escribe un síntoma…" autocomplete="off">
+            </div>
+
+            <div class="side-panel-section-label">Síntomas comunes</div>
+            <div class="side-panel-list" id="symptomList"></div>
+
+            <footer class="side-panel-footer">
+                <span class="dot"></span>
+                <span>Toca un síntoma para ver plantas relacionadas</span>
+            </footer>
+        </aside>
+    </div>
+
+    <!-- Tweaks panel -->
+    <div id="tweaksPanel" class="tweaks-panel">
+        <h4>Ajustes</h4>
+        <div class="opt-row">
+            <label>Partículas</label>
+            <div class="seg" data-tweak="particles">
+                <button data-val="leaves" class="on">Hojas</button>
+                <button data-val="dots">Puntos</button>
+                <button data-val="off">Off</button>
+            </div>
+        </div>
+        <div class="opt-row">
+            <label>Movimiento de fondo</label>
+            <div class="seg" data-tweak="bgMotion">
+                <button data-val="on" class="on">Activo</button>
+                <button data-val="calm">Calmo</button>
+                <button data-val="off">Off</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" title="Volver arriba" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="illustrations.js"></script>
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').catch(() => {});
+        }
+    </script>
+</body>
+</html>

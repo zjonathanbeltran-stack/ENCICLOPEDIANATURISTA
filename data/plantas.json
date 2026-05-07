@@ -1,0 +1,2385 @@
+[
+  {
+    "id": 1,
+    "nombre": "Boldo",
+    "cientifico": "Peumus boldus",
+    "familia": "Monimiaceae",
+    "parte": "Hojas",
+    "usos": "Problemas hepáticos, vesícula, digestión lenta, sedante suave.",
+    "chiloe": false,
+    "region": "Centro-norte (Coquimbo a Biobío)",
+    "emoji": "🍃",
+    "precaucion": "No usar en embarazo, lactancia, obstrucción biliar. No superar 4 semanas.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "higado",
+      "vesicula",
+      "digestion",
+      "estomago",
+      "sedante",
+      "colagogo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/330px-Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Canelo",
+    "cientifico": "Drimys winteri",
+    "familia": "Winteraceae",
+    "parte": "Corteza, hojas",
+    "usos": "Analgésico, antiinflamatorio, dolor de muelas, reumatismo, fiebre.",
+    "chiloe": true,
+    "region": "Sur (abundante en Chiloé)",
+    "emoji": "🌳",
+    "precaucion": "La corteza fresca puede irritar piel sensible. Seguro en dosis habituales.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11
+    ],
+    "keywords": [
+      "dolor",
+      "antiinflamatorio",
+      "muelas",
+      "reumatismo",
+      "fiebre",
+      "mapuche",
+      "foye"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Drimys_winteri.jpg/330px-Drimys_winteri.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Matico",
+    "cientifico": "Buddleja globosa",
+    "familia": "Scrophulariaceae",
+    "parte": "Hojas",
+    "usos": "Cicatrizante, úlceras, heridas, gastritis.",
+    "chiloe": true,
+    "region": "Desde Coquimbo a Magallanes",
+    "emoji": "🌿",
+    "precaucion": "Evitar en embarazo. Uso tópico seguro.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "heridas",
+      "ulceras",
+      "cicatrizante",
+      "gastritis"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Buddleja_globosa.jpg/330px-Buddleja_globosa.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Maqui",
+    "cientifico": "Aristotelia chilensis",
+    "familia": "Elaeocarpaceae",
+    "parte": "Frutos, hojas",
+    "usos": "Antioxidante, diarrea, inflamación de garganta, fatiga.",
+    "chiloe": true,
+    "region": "Centro a sur",
+    "emoji": "🫐",
+    "precaucion": "Frutos seguros. Hojas en grandes cantidades pueden causar malestar estomacal.",
+    "peligroso": false,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "antioxidante",
+      "diarrea",
+      "garganta",
+      "fatiga"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Maqui_chileno.jpg/330px-Maqui_chileno.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Murtilla",
+    "cientifico": "Ugni molinae",
+    "familia": "Myrtaceae",
+    "parte": "Hojas, frutos",
+    "usos": "Diurético, afecciones urinarias, estómago, resfriados.",
+    "chiloe": true,
+    "region": "Los Lagos, Chiloé",
+    "emoji": "🍓",
+    "precaucion": "Efecto diurético leve, no exceder 3 tazas al día.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5
+    ],
+    "keywords": [
+      "diuretico",
+      "orina",
+      "estomago",
+      "resfriado"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ugni_molinae.jpg/330px-Ugni_molinae.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Quillay",
+    "cientifico": "Quillaja saponaria",
+    "familia": "Quillajaceae",
+    "parte": "Corteza",
+    "usos": "Expectorante, tos, asma, limpieza de piel.",
+    "chiloe": false,
+    "region": "Centro (Valparaíso a Biobío)",
+    "emoji": "🧼",
+    "precaucion": "Uso preferentemente externo. Internamente en dosis muy bajas. Irrita mucosas.",
+    "peligroso": false,
+    "meses": [
+      6,
+      7,
+      8
+    ],
+    "keywords": [
+      "expectorante",
+      "tos",
+      "asma",
+      "piel"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Quillaja_saponaria.jpg/330px-Quillaja_saponaria.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pangue",
+    "cientifico": "Gunnera chilensis",
+    "familia": "Gunneraceae",
+    "parte": "Tallos, hojas",
+    "usos": "Diarrea, hemorragias, cicatrizante, lavado de anginas.",
+    "chiloe": true,
+    "region": "Zonas húmedas del sur",
+    "emoji": "🌱",
+    "precaucion": "Hojas crudas irritantes (oxalatos). Secar o cocer antes de usar.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "diarrea",
+      "hemorragia",
+      "cicatrizante",
+      "anginas"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gunnera_tinctoria_P2051284.jpg/330px-Gunnera_tinctoria_P2051284.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Quinchamalí",
+    "cientifico": "Quinchamalium chilense",
+    "familia": "Schoepfiaceae",
+    "parte": "Planta entera",
+    "usos": "Afecciones hepáticas, diurético.",
+    "chiloe": true,
+    "region": "Sur (presente en Chiloé, menos común)",
+    "emoji": "🌸",
+    "precaucion": "Evitar en embarazo y lactancia. Dosis altas pueden ser tóxicas para el hígado.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "higado",
+      "diuretico"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Quinchamalium_chilense_Molina.%28pabloendemico%29.jpg/330px-Quinchamalium_chilense_Molina.%28pabloendemico%29.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Arrayán",
+    "cientifico": "Luma apiculata",
+    "familia": "Myrtaceae",
+    "parte": "Hojas, corteza",
+    "usos": "Astringente, diarrea, cicatrización, encías.",
+    "chiloe": true,
+    "region": "Bosques templados del sur",
+    "emoji": "🌸",
+    "precaucion": "Alto en taninos: puede causar estreñimiento en exceso.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "astringente",
+      "diarrea",
+      "encias",
+      "cicatrizante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Parque_Nacional_Los_Arrayanes.jpg/330px-Parque_Nacional_Los_Arrayanes.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Bailahuen",
+    "cientifico": "Haplopappus baylahuen",
+    "familia": "Asteraceae",
+    "parte": "Sumidades floridas",
+    "usos": "Digestivo, hepático, estimulante biliar.",
+    "chiloe": false,
+    "region": "Centro-sur (Coquimbo a La Araucanía)",
+    "emoji": "🌼",
+    "precaucion": "No usar en obstrucción biliar ni hepatopatías graves. Embarazo: evitar.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "digestion",
+      "higado",
+      "vesicula"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Baylahuen_brote_seco.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Calafate",
+    "cientifico": "Berberis microphylla",
+    "familia": "Berberidaceae",
+    "parte": "Corteza, frutos",
+    "usos": "Fiebre, analgésico, vitamina C, diarrea.",
+    "chiloe": true,
+    "region": "Patagonia (desde La Araucanía a Magallanes)",
+    "emoji": "🍇",
+    "precaucion": "Frutos seguros. Corteza en exceso puede causar molestias gástricas.",
+    "peligroso": false,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "fiebre",
+      "dolor",
+      "vitamina c",
+      "diarrea"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Calafate-Berberis_buxifolia.jpg/330px-Calafate-Berberis_buxifolia.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Frutilla blanca",
+    "cientifico": "Fragaria chiloensis",
+    "familia": "Rosaceae",
+    "parte": "Hojas, frutos",
+    "usos": "Antiinflamatorio, diurético, astringente.",
+    "chiloe": true,
+    "region": "Zona centro-sur, endémica de Chiloé",
+    "emoji": "🍓",
+    "precaucion": "Alérgicos a fresas pueden reaccionar. Infusión moderada segura.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "antiinflamatorio",
+      "diuretico",
+      "astringente"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Fragariachileonsis.jpg/330px-Fragariachileonsis.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Culén",
+    "cientifico": "Otholobium glandulosum",
+    "familia": "Fabaceae",
+    "parte": "Hojas",
+    "usos": "Dolor de muelas, sedante, hepático.",
+    "chiloe": false,
+    "region": "Centro (Coquimbo a Biobío)",
+    "emoji": "🌿",
+    "precaucion": "Dosis altas causan vómitos y diarrea. Evitar en embarazo, lactancia y niños.",
+    "peligroso": true,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "dolor muelas",
+      "sedante",
+      "higado"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Otholobium_virgatum.jpg/330px-Otholobium_virgatum.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Palco",
+    "cientifico": "Adesmia arborea",
+    "familia": "Fabaceae",
+    "parte": "Corteza, hojas",
+    "usos": "Analgésico, antiinflamatorio, reumatismo.",
+    "chiloe": true,
+    "region": "Sur (incluye Chiloé)",
+    "emoji": "🌿",
+    "precaucion": "Uso externo tradicional. Internamente puede ser hepatotóxico.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "dolor",
+      "antiinflamatorio",
+      "reumatismo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adesmia_pinifolia_2.jpg/330px-Adesmia_pinifolia_2.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Natre",
+    "cientifico": "Solanum crispum",
+    "familia": "Solanaceae",
+    "parte": "Hojas (uso externo)",
+    "usos": "Verrugas, hongos, inflamaciones.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "⚠️",
+    "precaucion": "TÓXICO POR INGESTIÓN. Solo uso externo. Lavar manos.",
+    "peligroso": true,
+    "meses": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "verrugas",
+      "hongos",
+      "inflamacion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SolanumCrispum.jpg/500px-SolanumCrispum.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Pichi",
+    "cientifico": "Fabiana imbricata",
+    "familia": "Solanaceae",
+    "parte": "Sumidades floridas",
+    "usos": "Diurético potente, problemas renales, edemas.",
+    "chiloe": true,
+    "region": "Sur (Chiloé, Aysén)",
+    "emoji": "🌿",
+    "precaucion": "No usar en insuficiencia renal, deshidratación o presión baja. Evitar embarazo.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "diuretico",
+      "riñon",
+      "edema"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Fabiana_imbricata_kz02.jpg/330px-Fabiana_imbricata_kz02.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Hierba del sapo",
+    "cientifico": "Eryngium paniculatum",
+    "familia": "Apiaceae",
+    "parte": "Raíz",
+    "usos": "Diurético, depurativo, infecciones urinarias.",
+    "chiloe": true,
+    "region": "Zonas húmedas del sur",
+    "emoji": "🌿",
+    "precaucion": "Infusiones cortas (máx 5 días). No usar en embarazo ni niños pequeños.",
+    "peligroso": false,
+    "meses": [
+      6,
+      7,
+      8
+    ],
+    "keywords": [
+      "diuretico",
+      "orina",
+      "infeccion urinaria"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Eryngium_paniculatum_P2051286.jpg/330px-Eryngium_paniculatum_P2051286.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Llareta",
+    "cientifico": "Azorella compacta",
+    "familia": "Apiaceae",
+    "parte": "Planta entera",
+    "usos": "Expectorante, tos, diabetes (tradicional).",
+    "chiloe": false,
+    "region": "Altoandina (especie protegida)",
+    "emoji": "🏔️",
+    "precaucion": "No recolectar (CITES). Sin estudios de seguridad suficientes.",
+    "peligroso": true,
+    "meses": [],
+    "keywords": [
+      "expectorante",
+      "tos",
+      "diabetes"
+    ],
+    "protegida": true,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Yareta_Peru.jpg/330px-Yareta_Peru.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Copihue",
+    "cientifico": "Lapageria rosea",
+    "familia": "Philesiaceae",
+    "parte": "Flores, raíz",
+    "usos": "Antitusivo, reumatismo, resfriados.",
+    "chiloe": true,
+    "region": "Bosques del sur",
+    "emoji": "🌺",
+    "precaucion": "Raíz: evitar en embarazo. Flores seguras en infusión suave.",
+    "peligroso": false,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "tos",
+      "reumatismo",
+      "resfriado"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Lapageria_rosea1.jpg/330px-Lapageria_rosea1.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Radal",
+    "cientifico": "Lomatia hirsuta",
+    "familia": "Proteaceae",
+    "parte": "Corteza, hojas",
+    "usos": "Afecciones respiratorias, tos, bronquitis, antipirético.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌳",
+    "precaucion": "Alergia a Proteaceae: posible reacción.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "respiratorio",
+      "tos",
+      "bronquitis",
+      "fiebre"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lomatia_hirsuta.jpg/330px-Lomatia_hirsuta.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Lingue",
+    "cientifico": "Persea lingue",
+    "familia": "Lauraceae",
+    "parte": "Corteza",
+    "usos": "Analgésico, dolor de muelas, reumatismo, vulnerario.",
+    "chiloe": true,
+    "region": "Sur (Valdivia a Chiloé)",
+    "emoji": "🌳",
+    "precaucion": "Puede irritar estómago en dosis altas. Evitar embarazo y lactancia.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11
+    ],
+    "keywords": [
+      "dolor",
+      "muelas",
+      "reumatismo",
+      "vulnerario"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Persea_lingue.JPG/330px-Persea_lingue.JPG"
+  },
+  {
+    "id": 22,
+    "nombre": "Tineo",
+    "cientifico": "Weinmannia trichosperma",
+    "familia": "Cunoniaceae",
+    "parte": "Corteza",
+    "usos": "Tónico, astringente, diarrea, hemorragias.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🌳",
+    "precaucion": "Alto contenido de taninos: estreñimiento o náuseas si se abusa.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "tonico",
+      "astringente",
+      "diarrea",
+      "hemorragia"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Weinmannia_trichosperma.jpg/330px-Weinmannia_trichosperma.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Algarrobo",
+    "cientifico": "Prosopis chilensis",
+    "familia": "Fabaceae",
+    "parte": "Vainas, corteza",
+    "usos": "Expectorante, tos, digestivo.",
+    "chiloe": false,
+    "region": "Norte y centro (desde Arica a Biobío)",
+    "emoji": "🌳",
+    "precaucion": "Corteza laxante en dosis altas. Evitar en diabetes sin control.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "expectorante",
+      "tos",
+      "digestion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Prosopis_cineraria_-_Khejri.jpg/330px-Prosopis_cineraria_-_Khejri.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Paico",
+    "cientifico": "Dysphania ambrosioides",
+    "familia": "Amaranthaceae",
+    "parte": "Hojas",
+    "usos": "Antiparasitario interno, cólicos, digestivo.",
+    "chiloe": true,
+    "region": "Naturalizada en todo Chile",
+    "emoji": "🌿",
+    "precaucion": "NO en embarazo (abortivo). No más de 5 días seguidos. Daño hepático en tratamientos prolongados.",
+    "peligroso": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "parasitos",
+      "colicos",
+      "digestion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dysphania_ambrosioides_NRCS-1_%28cropped%29.jpg/330px-Dysphania_ambrosioides_NRCS-1_%28cropped%29.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Toronjil cuyano",
+    "cientifico": "Melissa officinalis",
+    "familia": "Lamiaceae",
+    "parte": "Hojas",
+    "usos": "Ansiedad, nerviosismo, insomnio, digestivo.",
+    "chiloe": true,
+    "region": "Cultivada en todo Chile",
+    "emoji": "🍃",
+    "precaucion": "Puede causar somnolencia. Evitar antes de conducir.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "ansiedad",
+      "nervios",
+      "insomnio",
+      "digestion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/330px-Aloysia_citriodora_002.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Manzanilla",
+    "cientifico": "Matricaria chamomilla",
+    "familia": "Asteraceae",
+    "parte": "Flores",
+    "usos": "Antiinflamatorio, cólicos, gases, calmante.",
+    "chiloe": true,
+    "region": "Cultivada",
+    "emoji": "🌸",
+    "precaucion": "Posible alergia en personas alérgicas a asteráceas.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11
+    ],
+    "keywords": [
+      "antiinflamatorio",
+      "colicos",
+      "gases",
+      "calmante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Matricaria_February_2008-1.jpg/330px-Matricaria_February_2008-1.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Ruda macho",
+    "cientifico": "Ruta chalepensis",
+    "familia": "Rutaceae",
+    "parte": "Hojas",
+    "usos": "Dolor de oídos (gotas), menstruación dolorosa.",
+    "chiloe": true,
+    "region": "Cultivada",
+    "emoji": "⚠️",
+    "precaucion": "TÓXICA. ABORTIVA. Uso externo preferible. Causa fotosensibilidad.",
+    "peligroso": true,
+    "meses": [
+      6,
+      7,
+      8
+    ],
+    "keywords": [
+      "oidos",
+      "menstruacion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ruta_chalepensis_ce.JPG/330px-Ruta_chalepensis_ce.JPG"
+  },
+  {
+    "id": 28,
+    "nombre": "Ortiga",
+    "cientifico": "Urtica dioica",
+    "familia": "Urticaceae",
+    "parte": "Hojas, raíz",
+    "usos": "Antialérgico, diurético, dolor articular, anemia.",
+    "chiloe": true,
+    "region": "Cosmopolita, presente en Chile",
+    "emoji": "🌿",
+    "precaucion": "Hojas crudas urtican. Cocida o seca es segura. Evitar en edema por fallo cardíaco.",
+    "peligroso": false,
+    "meses": [
+      8,
+      9,
+      10
+    ],
+    "keywords": [
+      "alergia",
+      "diuretico",
+      "dolor articular",
+      "anemia"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fen_nettle_%28Urtica_dioica_ssp._galeopsifolia%29_-_geograph.org.uk_-_5423125.jpg/330px-Fen_nettle_%28Urtica_dioica_ssp._galeopsifolia%29_-_geograph.org.uk_-_5423125.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Llantén",
+    "cientifico": "Plantago major",
+    "familia": "Plantaginaceae",
+    "parte": "Hojas",
+    "usos": "Cicatrizante, antiinflamatorio, tos, gastritis.",
+    "chiloe": true,
+    "region": "Cosmopolita",
+    "emoji": "🌿",
+    "precaucion": "Seguro. Rara alergia cutánea.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "tos",
+      "gastritis"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Grote_weegbree_bloeiwijze_Plantago_major_subsp._major.jpg/330px-Grote_weegbree_bloeiwijze_Plantago_major_subsp._major.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Poleo",
+    "cientifico": "Mentha pulegium",
+    "familia": "Lamiaceae",
+    "parte": "Hojas",
+    "usos": "Espasmódico, digestivo, cólicos, regulador menstrual.",
+    "chiloe": true,
+    "region": "Naturalizada",
+    "emoji": "🌿",
+    "precaucion": "NO en embarazo ni lactancia. NO en niños <6 años. Daña hígado en altas dosis. No usar más de 7 días.",
+    "peligroso": true,
+    "meses": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "keywords": [
+      "espasmos",
+      "colicos",
+      "digestion",
+      "menstruacion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gardenology.org-IMG_2751_rbgs11jan.jpg/330px-Gardenology.org-IMG_2751_rbgs11jan.jpg"
+  },
+  {
+    "id": 31,
+    "nombre": "Arrayán macho",
+    "cientifico": "Luma chequen",
+    "familia": "Myrtaceae",
+    "parte": "Hojas, corteza",
+    "usos": "Astringente, diarrea, heridas.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "Similar al arrayán, alto en taninos.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "astringente",
+      "diarrea"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Luma_chequen.jpg/330px-Luma_chequen.jpg"
+  },
+  {
+    "id": 32,
+    "nombre": "Barba de piedra",
+    "cientifico": "Usnea barbata",
+    "familia": "Parmeliaceae",
+    "parte": "Líquen",
+    "usos": "Antibiótico natural, tos, infecciones respiratorias.",
+    "chiloe": true,
+    "region": "Bosques del sur",
+    "emoji": "🪨",
+    "precaucion": "Uso externo o interna en dosis bajas. No ingerir grandes cantidades.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "antibiotico",
+      "tos",
+      "infeccion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Usnea_cavernosa_-_Flickr_-_pellaea.jpg/330px-Usnea_cavernosa_-_Flickr_-_pellaea.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "Canchalagua",
+    "cientifico": "Schkuhria pinnata",
+    "familia": "Asteraceae",
+    "parte": "Planta entera",
+    "usos": "Febrífugo, digestivo, amargo.",
+    "chiloe": false,
+    "region": "Norte y centro",
+    "emoji": "🌼",
+    "precaucion": "Evitar en embarazo. Sabor muy amargo.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "fiebre",
+      "digestion",
+      "amargo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Centaurium_erythraea_%28plant%29.jpg/330px-Centaurium_erythraea_%28plant%29.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "Chilco",
+    "cientifico": "Fuchsia magellanica",
+    "familia": "Onagraceae",
+    "parte": "Hojas, flores",
+    "usos": "Diurético, antipirético, dolor de garganta.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🌸",
+    "precaucion": "Seguro en infusiones moderadas.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "diuretico",
+      "fiebre",
+      "garganta"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fuchsia_magellanica.jpg/330px-Fuchsia_magellanica.jpg"
+  },
+  {
+    "id": 35,
+    "nombre": "Duraznillo",
+    "cientifico": "Cestrum parqui",
+    "familia": "Solanaceae",
+    "parte": "Hojas",
+    "usos": "Antipirético, para baños.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "TÓXICO si se ingiere. Solo uso externo en baños.",
+    "peligroso": true,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "fiebre",
+      "baños"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Persicaria_capitata_AF_crop.jpg/330px-Persicaria_capitata_AF_crop.jpg"
+  },
+  {
+    "id": 36,
+    "nombre": "Hierba del clavo",
+    "cientifico": "Geum quellyon",
+    "familia": "Rosaceae",
+    "parte": "Raíz",
+    "usos": "Astringente, antidiarreico, cicatrizante.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌱",
+    "precaucion": "Alta en taninos, no abusar.",
+    "peligroso": false,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "diarrea",
+      "cicatrizante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%28MHNT%29_Geum_urbanum_-_Habit.jpg/330px-%28MHNT%29_Geum_urbanum_-_Habit.jpg"
+  },
+  {
+    "id": 37,
+    "nombre": "Huillilahuén",
+    "cientifico": "Senna arnottiana",
+    "familia": "Fabaceae",
+    "parte": "Hojas",
+    "usos": "Laxante suave, purgante.",
+    "chiloe": false,
+    "region": "Centro",
+    "emoji": "🍃",
+    "precaucion": "No usar en obstrucción intestinal. Evitar en embarazo.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "laxante",
+      "purgante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Senna_multiglandulosa_3.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "Laurel",
+    "cientifico": "Laurelia sempervirens",
+    "familia": "Atherospermataceae",
+    "parte": "Hojas",
+    "usos": "Digestivo, carminativo, resfríos.",
+    "chiloe": true,
+    "region": "Bosques del sur",
+    "emoji": "🍃",
+    "precaucion": "Seguro en infusiones.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "digestion",
+      "gases",
+      "resfrio"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Laurelia_sempervirens_%2831147627908%29.jpg/330px-Laurelia_sempervirens_%2831147627908%29.jpg"
+  },
+  {
+    "id": 39,
+    "nombre": "Llamén",
+    "cientifico": "Viola maculata",
+    "familia": "Violaceae",
+    "parte": "Flores, hojas",
+    "usos": "Emoliente, laxante suave, para la piel.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌸",
+    "precaucion": "Seguro.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "piel",
+      "laxante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Viola_reichenbachiana_LC0128.jpg/330px-Viola_reichenbachiana_LC0128.jpg"
+  },
+  {
+    "id": 40,
+    "nombre": "Macha macha",
+    "cientifico": "Adesmia boronioides",
+    "familia": "Fabaceae",
+    "parte": "Planta entera",
+    "usos": "Expectorante, para la tos y bronquitis.",
+    "chiloe": false,
+    "region": "Cordillera de los Andes",
+    "emoji": "🌿",
+    "precaucion": "Uso moderado.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "tos",
+      "bronquitis",
+      "expectorante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Margyricarpus-pinnatus-berries.jpg/330px-Margyricarpus-pinnatus-berries.jpg"
+  },
+  {
+    "id": 41,
+    "nombre": "Melosa",
+    "cientifico": "Baccharis linearis",
+    "familia": "Asteraceae",
+    "parte": "Hojas",
+    "usos": "Cicatrizante, antiinflamatorio, resfríos.",
+    "chiloe": false,
+    "region": "Centro",
+    "emoji": "🌿",
+    "precaucion": "Evitar en embarazo.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "cicatrizante",
+      "resfrio"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Baccharis130.JPG/330px-Baccharis130.JPG"
+  },
+  {
+    "id": 42,
+    "nombre": "Molle",
+    "cientifico": "Schinus polygamus",
+    "familia": "Anacardiaceae",
+    "parte": "Hojas, frutos",
+    "usos": "Antiséptico, diurético, analgésico.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🍇",
+    "precaucion": "No en embarazo.",
+    "peligroso": false,
+    "meses": [
+      4,
+      5,
+      6
+    ],
+    "keywords": [
+      "antiséptico",
+      "diuretico",
+      "dolor"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Starr_031108-0096_Schinus_terebinthifolius.jpg/330px-Starr_031108-0096_Schinus_terebinthifolius.jpg"
+  },
+  {
+    "id": 43,
+    "nombre": "Nalca",
+    "cientifico": "Gunnera tinctoria",
+    "familia": "Gunneraceae",
+    "parte": "Pecíolos (tallos)",
+    "usos": "Cicatrizante, antiinflamatorio, comestible.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🌿",
+    "precaucion": "Los tallos crudos tienen oxalatos; cocinar antes de comer.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "cicatrizante",
+      "alimento"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gunnera_tinctoria_P2051284.jpg/330px-Gunnera_tinctoria_P2051284.jpg"
+  },
+  {
+    "id": 44,
+    "nombre": "Olivillo",
+    "cientifico": "Aextoxicon punctatum",
+    "familia": "Aextoxicaceae",
+    "parte": "Corteza",
+    "usos": "Tónico, astringente, febrífugo.",
+    "chiloe": true,
+    "region": "Bosques del sur",
+    "emoji": "🌳",
+    "precaucion": "Uso moderado.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11
+    ],
+    "keywords": [
+      "tonico",
+      "fiebre"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Abtao-Parque_Nacional_Chilo%C3%A9.jpg/330px-Abtao-Parque_Nacional_Chilo%C3%A9.jpg"
+  },
+  {
+    "id": 45,
+    "nombre": "Palqui",
+    "cientifico": "Cestrum auriculatum",
+    "familia": "Solanaceae",
+    "parte": "Hojas",
+    "usos": "Cicatrizante, antiinflamatorio, para granos.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "Tóxico en grandes dosis. Uso externo preferente.",
+    "peligroso": true,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "granos",
+      "inflamacion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cestrum_parqui_%288704387661%29.jpg/330px-Cestrum_parqui_%288704387661%29.jpg"
+  },
+  {
+    "id": 46,
+    "nombre": "Peta",
+    "cientifico": "Calceolaria corymbosa",
+    "familia": "Calceolariaceae",
+    "parte": "Hojas",
+    "usos": "Cicatrizante, para heridas.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🌸",
+    "precaucion": "Uso externo.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "heridas",
+      "cicatrizante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Starr_080716-9454_Escallonia_rubra_var._macrantha.jpg/330px-Starr_080716-9454_Escallonia_rubra_var._macrantha.jpg"
+  },
+  {
+    "id": 47,
+    "nombre": "Pimpinela",
+    "cientifico": "Rosa eglanteria",
+    "familia": "Rosaceae",
+    "parte": "Frutos, hojas",
+    "usos": "Vitamina C, astringente, diarrea.",
+    "chiloe": true,
+    "region": "Naturalizada",
+    "emoji": "🌹",
+    "precaucion": "Segura.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5
+    ],
+    "keywords": [
+      "vitamina c",
+      "diarrea"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Wiesenknopf_Bl%C3%BCte_6260037-PSD-PSD.jpg/330px-Wiesenknopf_Bl%C3%BCte_6260037-PSD-PSD.jpg"
+  },
+  {
+    "id": 48,
+    "nombre": "Romerillo",
+    "cientifico": "Senecio fistulosus",
+    "familia": "Asteraceae",
+    "parte": "Sumidades",
+    "usos": "Regulador menstrual, digestivo.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "Evitar en embarazo por efecto emenagogo.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "menstruacion",
+      "digestion"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Baccharis_articulata_1.jpg/330px-Baccharis_articulata_1.jpg"
+  },
+  {
+    "id": 49,
+    "nombre": "Tepa",
+    "cientifico": "Myrceugenia exsucca",
+    "familia": "Myrtaceae",
+    "parte": "Hojas",
+    "usos": "Astringente, diarrea, resfriados.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "Segura.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "diarrea",
+      "resfrio"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tepa_%28Laurelia_phillipiana%29_-_leaf_%26_fruit.jpg/330px-Tepa_%28Laurelia_phillipiana%29_-_leaf_%26_fruit.jpg"
+  },
+  {
+    "id": 50,
+    "nombre": "Topa topa",
+    "cientifico": "Calceolaria thyrsiflora",
+    "familia": "Calceolariaceae",
+    "parte": "Hojas, flores",
+    "usos": "Cicatrizante, antiinflamatorio.",
+    "chiloe": true,
+    "region": "Andes del sur",
+    "emoji": "🌸",
+    "precaucion": "Uso externo.",
+    "peligroso": false,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "cicatrizante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Calceolaria_uniflora.JPG/330px-Calceolaria_uniflora.JPG"
+  },
+  {
+    "id": 51,
+    "nombre": "Valeriana",
+    "cientifico": "Valeriana decussata",
+    "familia": "Caprifoliaceae",
+    "parte": "Raíz",
+    "usos": "Sedante, ansiedad, insomnio.",
+    "chiloe": true,
+    "region": "Zona centro-sur",
+    "emoji": "🌿",
+    "precaucion": "No combinar con alcohol o sedantes. Evitar en embarazo.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5
+    ],
+    "keywords": [
+      "ansiedad",
+      "insomnio",
+      "sedante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Valeriana_officinalis_-_Niitv%C3%A4lja.jpg/330px-Valeriana_officinalis_-_Niitv%C3%A4lja.jpg"
+  },
+  {
+    "id": 52,
+    "nombre": "Violeta",
+    "cientifico": "Viola odorata",
+    "familia": "Violaceae",
+    "parte": "Flores, hojas",
+    "usos": "Expectorante, suavizante bronquial.",
+    "chiloe": true,
+    "region": "Cultivada",
+    "emoji": "🌸",
+    "precaucion": "Segura.",
+    "peligroso": false,
+    "meses": [
+      8,
+      9,
+      10
+    ],
+    "keywords": [
+      "tos",
+      "bronquios"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Viola_odorata_fg01.JPG/330px-Viola_odorata_fg01.JPG"
+  },
+  {
+    "id": 53,
+    "nombre": "Yerba del clavo",
+    "cientifico": "Geum quellyon",
+    "familia": "Rosaceae",
+    "parte": "Raíz",
+    "usos": "Astringente, antidiarreica.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🌱",
+    "precaucion": "No exceder.",
+    "peligroso": false,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "diarrea",
+      "astringente"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%28MHNT%29_Geum_urbanum_-_Habit.jpg/330px-%28MHNT%29_Geum_urbanum_-_Habit.jpg"
+  },
+  {
+    "id": 54,
+    "nombre": "Yerba lúcida",
+    "cientifico": "Hypochaeris radicata",
+    "familia": "Asteraceae",
+    "parte": "Hojas",
+    "usos": "Diurético, depurativo, afecciones hepáticas.",
+    "chiloe": true,
+    "region": "Naturalizada",
+    "emoji": "🌿",
+    "precaucion": "Segura.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "diuretico",
+      "higado"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hypochaeris_radicata_at_Game_Farm_Park_in_Auburn%2C_Washington.jpg/330px-Hypochaeris_radicata_at_Game_Farm_Park_in_Auburn%2C_Washington.jpg"
+  },
+  {
+    "id": 55,
+    "nombre": "Zarzaparrilla",
+    "cientifico": "Ribes magellanicum",
+    "familia": "Grossulariaceae",
+    "parte": "Raíz",
+    "usos": "Diurético, depurativo, reumatismo.",
+    "chiloe": true,
+    "region": "Sur",
+    "emoji": "🍇",
+    "precaucion": "Segura.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5
+    ],
+    "keywords": [
+      "reumatismo",
+      "diuretico"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Smilax_aspera.jpg/330px-Smilax_aspera.jpg"
+  },
+  {
+    "nombre": "Saúco",
+    "cientifico": "Sambucus nigra",
+    "familia": "Adoxaceae",
+    "parte": "flores, bayas, hojas",
+    "usos": "Febrífugo, diaforético, antigripal, expectorante, antiinflamatorio. Las flores en infusión inducen sudoración que baja la fiebre. Las bayas son antivirales.",
+    "chiloe": true,
+    "region": "Chile Central y Sur, frecuente en Chiloé",
+    "emoji": "🌸",
+    "precaucion": "Las bayas crudas y las hojas pueden causar náuseas. Usar siempre flores secas o bayas cocidas. No confundir con saúco negro (Sambucus ebulus) que es tóxico.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "fiebre",
+      "gripe",
+      "resfrio",
+      "sudoracion",
+      "febrífugo",
+      "antigripal",
+      "expectorante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Sambucus_nigra_004.jpg/330px-Sambucus_nigra_004.jpg",
+    "id": 56
+  },
+  {
+    "nombre": "Salvia",
+    "cientifico": "Salvia officinalis",
+    "familia": "Lamiaceae",
+    "parte": "hojas",
+    "usos": "Antiséptica oral, digestiva, antiinflamatoria de encías y garganta, sudorífica, reguladora del ciclo menstrual. Usada en enjuagues bucales y gárgaras.",
+    "chiloe": false,
+    "region": "Chile Central, ampliamente cultivada",
+    "emoji": "🌿",
+    "precaucion": "No usar en embarazo ni lactancia. No sobrepasar 3 tazas al día. En dosis altas puede ser neurotóxica por su contenido de tuyona.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "encías",
+      "garganta",
+      "bucal",
+      "digestivo",
+      "sudor",
+      "menstruacion",
+      "antiseptico"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Salvia_officinalis0.jpg/330px-Salvia_officinalis0.jpg",
+    "id": 57
+  },
+  {
+    "nombre": "Tilo",
+    "cientifico": "Tilia × europea",
+    "familia": "Malvaceae",
+    "parte": "flores y brácteas",
+    "usos": "Sedante suave, ansiolítico, febrífugo, espasmolítico. Infusión clásica para insomnio, nervios, estrés y fiebre leve. Uno de los más populares en Chile.",
+    "chiloe": false,
+    "region": "Chile Central y Sur, muy cultivado en ciudades",
+    "emoji": "🌼",
+    "precaucion": "El uso excesivo y prolongado puede causar cardiotoxicidad. No más de 3 tazas al día. No mezclar con medicamentos para el corazón.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "insomnio",
+      "nervios",
+      "ansiedad",
+      "sedante",
+      "fiebre",
+      "estrés",
+      "relajante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Common_limes%2C_avenue.jpg/330px-Common_limes%2C_avenue.jpg",
+    "id": 58
+  },
+  {
+    "nombre": "Pasiflora",
+    "cientifico": "Passiflora caerulea",
+    "familia": "Passifloraceae",
+    "parte": "partes aéreas (hojas, tallos, flores)",
+    "usos": "Ansiolítica, sedante, antiespasmódica. Excelente para insomnio, ansiedad, nerviosismo y palpitaciones de origen nervioso. Reconocida por la EMA (Agencia Europea de Medicamentos).",
+    "chiloe": false,
+    "region": "Chile Central, cultivada y naturalizada",
+    "emoji": "🌸",
+    "precaucion": "No usar durante el embarazo. Puede potenciar el efecto de sedantes y antidepresivos. Evitar conducir después de consumirla.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "insomnio",
+      "ansiedad",
+      "nervios",
+      "sedante",
+      "ansiolítico",
+      "palpitaciones",
+      "estrés"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Passiflora_caerulea_%282019-06-24%29_frontal-view.jpg/330px-Passiflora_caerulea_%282019-06-24%29_frontal-view.jpg",
+    "id": 59
+  },
+  {
+    "nombre": "Ajenjo",
+    "cientifico": "Artemisia absinthium",
+    "familia": "Asteraceae",
+    "parte": "partes aéreas (hojas y flores)",
+    "usos": "Antiparasitario intestinal (áscaris, oxiuros), digestivo, febrífugo, tónico amargo. Uso tradicional en medicina mapuche y popular chilena contra lombrices.",
+    "chiloe": false,
+    "region": "Chile Central y Sur, naturalizada",
+    "emoji": "🌿",
+    "precaucion": "PLANTA PELIGROSA en dosis altas. Contiene absintina y tuyona que son neurotóxicas. No usar más de 2 semanas. Contraindicado en embarazo, lactancia y epilepsia. Dosis exactas son fundamentales.",
+    "peligroso": true,
+    "meses": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "parásitos",
+      "lombrices",
+      "antiparasitario",
+      "digestivo",
+      "fiebre",
+      "amargo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/330px-Artemisia_absinthium_P1210748.jpg",
+    "id": 60
+  },
+  {
+    "nombre": "Cola de Caballo",
+    "cientifico": "Equisetum bogotense",
+    "familia": "Equisetaceae",
+    "parte": "tallos estériles",
+    "usos": "Diurética, remineralizante (silicio), cicatrizante, antiinflamatoria de vías urinarias. Usada para cistitis, cálculos renales, retención de líquidos y fortalecer huesos y uñas.",
+    "chiloe": true,
+    "region": "Todo Chile, especialmente sur y Chiloé",
+    "emoji": "🌾",
+    "precaucion": "No usar con insuficiencia renal severa ni cardíaca. No consumir planta cruda (contiene tiaminasa). Hervir siempre. No usar más de 4-6 semanas consecutivas.",
+    "peligroso": false,
+    "meses": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "diurético",
+      "riñón",
+      "vejiga",
+      "cistitis",
+      "calculos",
+      "silicio",
+      "huesos",
+      "uñas",
+      "renal"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Equisetum_arvense_foliage.jpg/330px-Equisetum_arvense_foliage.jpg",
+    "id": 61
+  },
+  {
+    "nombre": "Romero",
+    "cientifico": "Salvia rosmarinus",
+    "familia": "Lamiaceae",
+    "parte": "hojas y flores",
+    "usos": "Estimulante circulatorio y cerebral, antioxidante, digestivo, analgésico muscular externo, anticaída del cabello. En Chile se usa en aceites y vapores.",
+    "chiloe": false,
+    "region": "Chile Central, ampliamente cultivado",
+    "emoji": "🌿",
+    "precaucion": "En embarazo solo como condimento. En dosis medicinales puede provocar convulsiones. El aceite esencial es irritante; siempre diluir. No usar en epilepsia.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "circulación",
+      "cabello",
+      "caída cabello",
+      "memoria",
+      "digestivo",
+      "muscular",
+      "analgésico",
+      "antioxidante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/330px-Rosemary_in_bloom.JPG",
+    "id": 62
+  },
+  {
+    "nombre": "Jengibre",
+    "cientifico": "Zingiber officinale",
+    "familia": "Zingiberaceae",
+    "parte": "rizoma (raíz)",
+    "usos": "Antiinflamatorio, digestivo, antinauseas (embarazo, quimioterapia), expectorante, analgésico. Activa la circulación y el metabolismo. Antiviral contra influenza.",
+    "chiloe": false,
+    "region": "Cultivado en zonas templadas de Chile",
+    "emoji": "🫚",
+    "precaucion": "En altas dosis puede interactuar con anticoagulantes y antiplaquetarios. Precaución en pacientes con cálculos biliares. En embarazo, solo dosis bajas para náuseas.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keywords": [
+      "náuseas",
+      "digestivo",
+      "antiinflamatorio",
+      "circulación",
+      "resfrio",
+      "dolor",
+      "metabolismo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/330px-Koeh-146-no_text.jpg",
+    "id": 63
+  },
+  {
+    "nombre": "Cúrcuma",
+    "cientifico": "Curcuma longa",
+    "familia": "Zingiberaceae",
+    "parte": "rizoma",
+    "usos": "Antiinflamatoria crónica (artritis, artrosis), hepatoprotectora, antioxidante, anticancerígena (estudios preliminares), digestiva. La curcumina es su principio activo.",
+    "chiloe": false,
+    "region": "Cultivada en regiones cálidas de Chile",
+    "emoji": "🟡",
+    "precaucion": "Contraindicada en obstrucción de vías biliares. Puede interactuar con anticoagulantes. Asociar siempre con pimienta negra para mejorar absorción. En embarazo, dosis medicinales contraindicadas.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "keywords": [
+      "inflamación",
+      "artritis",
+      "hígado",
+      "antioxidante",
+      "digestivo",
+      "articulaciones"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Turmeric_inflorescence.jpg/330px-Turmeric_inflorescence.jpg",
+    "id": 64
+  },
+  {
+    "nombre": "Lavanda",
+    "cientifico": "Lavandula angustifolia",
+    "familia": "Lamiaceae",
+    "parte": "flores",
+    "usos": "Sedante, ansiolítica, cicatrizante, antiséptica. En aromaterapia para insomnio y ansiedad. Aplicada externamente en quemaduras leves, picaduras e infecciones cutáneas.",
+    "chiloe": false,
+    "region": "Chile Central, ampliamente cultivada",
+    "emoji": "💜",
+    "precaucion": "El aceite esencial puro es irritante; siempre diluir en aceite base. Evitar uso oral excesivo en niños pequeños. Puede causar alergia en piel sensible.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "insomnio",
+      "ansiedad",
+      "sedante",
+      "aromaterapia",
+      "cicatrizante",
+      "quemaduras",
+      "picaduras"
+    ],
+    "protegida": false,
+    "imagen": "img/lavanda.jpg",
+    "id": 65
+  },
+  {
+    "nombre": "Diente de León",
+    "cientifico": "Taraxacum officinale",
+    "familia": "Asteraceae",
+    "parte": "planta entera (hojas, raíz, flores)",
+    "usos": "Diurético potente (preserva el potasio a diferencia de diuréticos farmacológicos), depurativo hepático, digestivo, nutritivo (vitaminas A, C, K, hierro). Hojas comestibles en ensaladas.",
+    "chiloe": true,
+    "region": "Todo Chile, maleza muy común",
+    "emoji": "🌼",
+    "precaucion": "Puede provocar alergia cruzada en alérgicos al áster (margaritas, manzanilla). Puede interactuar con diuréticos farmacológicos. Evitar en obstrucción biliar.",
+    "peligroso": false,
+    "meses": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "diurético",
+      "hígado",
+      "riñón",
+      "depurativo",
+      "nutritivo",
+      "vitaminas",
+      "retención líquidos"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/330px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "id": 66
+  },
+  {
+    "nombre": "Melisa",
+    "cientifico": "Melissa officinalis",
+    "familia": "Lamiaceae",
+    "parte": "hojas",
+    "usos": "Sedante suave, ansiolítica, antiviral (especialmente herpes labial), digestiva (gases, cólicos), antihistamínica suave. Aromática con olor a limón.",
+    "chiloe": false,
+    "region": "Chile Central y Sur, cultivada",
+    "emoji": "🌿",
+    "precaucion": "Puede reducir la actividad tiroidea en uso prolongado. Evitar en hipotiroidismo. Puede interactuar con sedantes y antivirales. No sobrepasar dosis recomendadas.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "insomnio",
+      "ansiedad",
+      "nervios",
+      "digestivo",
+      "herpes",
+      "antiviral",
+      "alergia",
+      "gases"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/330px-Lemon_balm_plant.jpg",
+    "id": 67
+  },
+  {
+    "nombre": "Tomillo",
+    "cientifico": "Thymus vulgaris",
+    "familia": "Lamiaceae",
+    "parte": "hojas y flores",
+    "usos": "Expectorante, broncodilatador, antimicrobiano (timol), antifúngico, digestivo. En Chile usado para tos, bronquitis, laringitis y para conservar alimentos.",
+    "chiloe": false,
+    "region": "Chile Central, ampliamente cultivado",
+    "emoji": "🌿",
+    "precaucion": "El aceite esencial puro puede irritar mucosas. En embarazo usar solo como condimento. Puede causar alergia en personas sensibles a Lamiaceae.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "tos",
+      "bronquitis",
+      "expectorante",
+      "antimicrobiano",
+      "antifúngico",
+      "digestivo",
+      "garganta"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Thymus_vulgaris1.JPG/330px-Thymus_vulgaris1.JPG",
+    "id": 68
+  },
+  {
+    "nombre": "Caléndula",
+    "cientifico": "Calendula officinalis",
+    "familia": "Asteraceae",
+    "parte": "flores",
+    "usos": "Cicatrizante (heridas, quemaduras, úlceras), antiinflamatoria cutánea, antiséptica, antifúngica. Muy usada en cosmética y dermatología natural chilena.",
+    "chiloe": false,
+    "region": "Chile Central, ampliamente cultivada",
+    "emoji": "🌸",
+    "precaucion": "Evitar en alérgicos a las Asteráceas. No usar internamente en embarazo. Para uso externo es una de las plantas más seguras. Teñirá la ropa de color amarillo.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [
+      "cicatrizante",
+      "piel",
+      "heridas",
+      "quemaduras",
+      "antiinflamatorio",
+      "cosmética",
+      "antiséptico",
+      "antifúngico"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Calendula_officinalis%2C_pot_marigold.JPG/330px-Calendula_officinalis%2C_pot_marigold.JPG",
+    "id": 69
+  },
+  {
+    "nombre": "Árnica",
+    "cientifico": "Arnica montana",
+    "familia": "Asteraceae",
+    "parte": "flores",
+    "usos": "Analgésica y antiinflamatoria de uso EXTERNO. Golpes, hematomas, esguinces, dolores musculares y articulares. Prohibido uso interno por toxicidad.",
+    "chiloe": false,
+    "region": "Importada, uso externo muy difundido en Chile",
+    "emoji": "🌼",
+    "precaucion": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel abierta, heridas o mucosas. Puede causar dermatitis de contacto. Alérgicos a Asteráceas deben evitarla.",
+    "peligroso": true,
+    "meses": [
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "golpes",
+      "hematomas",
+      "esguinces",
+      "dolor",
+      "muscular",
+      "articular",
+      "analgésico",
+      "externo"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Arnica_montana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-015.jpg/330px-Arnica_montana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-015.jpg",
+    "id": 70
+  },
+  {
+    "nombre": "Eucalipto",
+    "cientifico": "Eucalyptus globulus",
+    "familia": "Myrtaceae",
+    "parte": "hojas",
+    "usos": "Expectorante, descongestionante nasal y bronquial, antiséptico de vías respiratorias y urinarias, febrífugo. En Chile ampliamente usado en vaporizaciones y tés para resfríos.",
+    "chiloe": true,
+    "region": "Todo Chile, árbol muy abundante",
+    "emoji": "🌿",
+    "precaucion": "El aceite esencial es tóxico en niños menores de 6 años; nunca aplicar cerca de la cara. En dosis elevadas es hepatotóxico. No usar en asma bronquial. Moderación en uso oral.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "tos",
+      "resfrio",
+      "bronquitis",
+      "expectorante",
+      "descongestionante",
+      "sinusitis",
+      "urinario"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Eucalyptus_globulus_subsp._maidenii.jpg/330px-Eucalyptus_globulus_subsp._maidenii.jpg",
+    "id": 71
+  },
+  {
+    "nombre": "Menta",
+    "cientifico": "Mentha × piperita",
+    "familia": "Lamiaceae",
+    "parte": "hojas y tallos",
+    "usos": "Digestiva (gases, náuseas, cólicos), analgésica tópica (migraña, dolor muscular), descongestionante nasal, antiemética, energizante. Ampliamente usada en todo Chile.",
+    "chiloe": true,
+    "region": "Todo Chile, muy cultivada",
+    "emoji": "🍃",
+    "precaucion": "No aplicar aceite esencial en cara de niños menores de 2 años. En dosis altas puede irritar la mucosa gástrica. Evitar en cálculos biliares y reflujo severo.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "keywords": [
+      "digestivo",
+      "náuseas",
+      "gases",
+      "dolor",
+      "cólico",
+      "descongestionante",
+      "energizante",
+      "migraña"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pfefferminze_natur_peppermint.jpg/330px-Pfefferminze_natur_peppermint.jpg",
+    "id": 72
+  },
+  {
+    "nombre": "Lúpulo",
+    "cientifico": "Humulus lupulus",
+    "familia": "Cannabaceae",
+    "parte": "conos (estróbilos) femeninos",
+    "usos": "Sedante, hipnótico (induce el sueño), ansiolítico, antiespasmódico. Usado en almohadas aromáticas y tés para insomnio. También conocido por su uso en la elaboración de cerveza.",
+    "chiloe": false,
+    "region": "Chile Central y Sur, cultivado",
+    "emoji": "🌿",
+    "precaucion": "No usar en depresión endógena. Puede potenciar efectos de sedantes y alcohol. En embarazo está contraindicado. Puede causar somnolencia diurna si se usa en exceso.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "insomnio",
+      "sedante",
+      "sueño",
+      "ansiolítico",
+      "nervios",
+      "ansiedad"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Hopfen1.jpg/330px-Hopfen1.jpg",
+    "id": 73
+  },
+  {
+    "nombre": "Clavo de Olor",
+    "cientifico": "Syzygium aromaticum",
+    "familia": "Myrtaceae",
+    "parte": "capullos florales secos",
+    "usos": "Analgésico dental (eugenol anestésico local), antiséptico bucal, antifúngico, digestivo, carminativo. Imprescindible en la farmacia popular chilena para el dolor de muelas.",
+    "chiloe": false,
+    "region": "Importado, uso muy difundido en toda Chile",
+    "emoji": "🌰",
+    "precaucion": "El aceite esencial puro puede quemar la mucosa oral. Diluir siempre. En dosis altas es anticoagulante. No usar aceite de clavo en niños pequeños ni cerca de mucosas.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "dolor muelas",
+      "dental",
+      "antiséptico",
+      "analgésico",
+      "antifúngico",
+      "digestivo",
+      "bucal"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-030.jpg/330px-Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-030.jpg",
+    "id": 74
+  },
+  {
+    "nombre": "Canela",
+    "cientifico": "Cinnamomum verum",
+    "familia": "Lauraceae",
+    "parte": "corteza interna (canela en rama)",
+    "usos": "Antimicrobiana, antifúngica, digestiva, hipoglucemiante suave (ayuda al control de glicemia), expectorante, antioxidante. Esencial en el recetario medicinal chileno.",
+    "chiloe": false,
+    "region": "Importada de Sri Lanka, uso universal en Chile",
+    "emoji": "🫙",
+    "precaucion": "La canela cassia (China) contiene cumarina hepatotóxica en altas dosis. Preferir canela de Ceylán (C. verum). En embarazo, solo como condimento. Puede interactuar con antidiabéticos.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "digestivo",
+      "antimicrobiano",
+      "antifúngico",
+      "glicemia",
+      "resfrio",
+      "expectorante"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cinnamomum_verum1.jpg/330px-Cinnamomum_verum1.jpg",
+    "id": 75
+  },
+  {
+    "nombre": "Anís Verde",
+    "cientifico": "Pimpinella anisum",
+    "familia": "Apiaceae",
+    "parte": "frutos (semillas)",
+    "usos": "Carminativo (gases), digestivo, expectorante, antiespasmódico intestinal, galactagogo (estimula la leche materna). Muy usado en infusiones digestivas y para la tos.",
+    "chiloe": false,
+    "region": "Importado, uso muy difundido en Chile",
+    "emoji": "🌿",
+    "precaucion": "El aceite esencial de anís es tóxico en dosis altas. No confundir con anís estrellado (diferente especie). En alérgicos a Apiáceas puede dar reacción cruzada.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "digestivo",
+      "gases",
+      "flatulencia",
+      "tos",
+      "expectorante",
+      "cólico",
+      "lactancia"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Koehler1887-PimpinellaAnisum.jpg/330px-Koehler1887-PimpinellaAnisum.jpg",
+    "id": 76
+  },
+  {
+    "nombre": "Ruda",
+    "cientifico": "Ruta graveolens",
+    "familia": "Rutaceae",
+    "parte": "hojas y tallos tiernos",
+    "usos": "Emmenagoga (regula menstruación), antiespasmódica, antiparasitaria, usada en rituales de limpia en Chile. Uso medicinal con precaución extrema.",
+    "chiloe": false,
+    "region": "Chile Central, cultivada en jardines",
+    "emoji": "🌿",
+    "precaucion": "PLANTA PELIGROSA. Abortiva en altas dosis. Contraindicada en embarazo. Puede causar dermatitis por fotosensibilización al contacto con la piel y sol. La savia fresca es irritante. Uso interno solo bajo supervisión.",
+    "peligroso": true,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "menstruación",
+      "ciclo",
+      "parásitos",
+      "espiritual",
+      "limpia"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Die_Weinraute%2C_lat._Ruta_graveolens%2C_Pflanze_mit_den_gelben_Bl%C3%BCten.jpg/330px-Die_Weinraute%2C_lat._Ruta_graveolens%2C_Pflanze_mit_den_gelben_Bl%C3%BCten.jpg",
+    "id": 77
+  },
+  {
+    "nombre": "Apio",
+    "cientifico": "Apium graveolens",
+    "familia": "Apiaceae",
+    "parte": "tallos, hojas, raíz y semillas",
+    "usos": "Diurético, depurativo renal, digestivo, hipotensor suave. Las semillas tienen mayor efecto diurético. Útil en cistitis, cálculos renales e hipertensión leve.",
+    "chiloe": false,
+    "region": "Cultivado en todo Chile",
+    "emoji": "🥬",
+    "precaucion": "Evitar en embarazo en dosis medicinales (puede ser abortivo). En alérgicos a Apiáceas puede dar reacción. Puede aumentar el efecto de medicamentos hipotensores.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "diurético",
+      "riñón",
+      "cistitis",
+      "presión",
+      "depurativo",
+      "renal"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2023-06-22_Apium_graveolens_%28Wild_Celery%29%2C_Elswick%2C_Northumberland_4.jpg/330px-2023-06-22_Apium_graveolens_%28Wild_Celery%29%2C_Elswick%2C_Northumberland_4.jpg",
+    "id": 78
+  },
+  {
+    "nombre": "Perejil",
+    "cientifico": "Petroselinum crispum",
+    "familia": "Apiaceae",
+    "parte": "hojas, raíz, semillas",
+    "usos": "Diurético potente (apiol), digestivo, rico en vitamina C y hierro. Usado para retención de líquidos, infecciones urinarias y como tónico nutritivo.",
+    "chiloe": false,
+    "region": "Cultivado en todo Chile",
+    "emoji": "🌿",
+    "precaucion": "En dosis medicinales altas es ABORTIVO. No usar durante el embarazo más allá de condimento culinario. Puede interactuar con medicamentos hipotensores y diuréticos.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "diurético",
+      "riñón",
+      "vitamina c",
+      "hierro",
+      "nutritivo",
+      "urinario"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Petroselinum.jpg/330px-Petroselinum.jpg",
+    "id": 79
+  },
+  {
+    "nombre": "Mostaza Negra",
+    "cientifico": "Brassica nigra",
+    "familia": "Brassicaceae",
+    "parte": "semillas",
+    "usos": "Rubefaciente (genera calor local), expectorante (cataplasma de mostaza), estimulante circulatorio, revulsivo. La cataplasma de mostaza es un remedio clásico chileno para bronquitis.",
+    "chiloe": false,
+    "region": "Naturalizada en todo Chile",
+    "emoji": "🟡",
+    "precaucion": "Las cataplasmas de mostaza nunca se aplican directamente sobre la piel sin protección (queman). Limitar a 15 minutos. No usar en piel sensible ni en niños pequeños. Puede causar ampollas.",
+    "peligroso": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "expectorante",
+      "bronquitis",
+      "pecho",
+      "cataplasma",
+      "circulación",
+      "calor"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Brassica_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg/330px-Brassica_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg",
+    "id": 80
+  },
+  {
+    "nombre": "Marrubio",
+    "cientifico": "Marrubium vulgare",
+    "familia": "Lamiaceae",
+    "parte": "partes aéreas (hojas y flores)",
+    "usos": "Expectorante, broncodilatador, antitusivo, digestivo amargo. Usado en Chile para tos crónica, bronquitis y asma. Uno de los expectorantes más efectivos de la herbolaria.",
+    "chiloe": false,
+    "region": "Chile Central, naturalizado",
+    "emoji": "🌿",
+    "precaucion": "En dosis altas puede causar arritmias cardíacas. Contraindicado en embarazo y en pacientes con arritmias conocidas. No mezclar con medicamentos cardíacos.",
+    "peligroso": false,
+    "meses": [
+      9,
+      10,
+      11,
+      12,
+      1
+    ],
+    "keywords": [
+      "tos",
+      "bronquitis",
+      "expectorante",
+      "asma",
+      "pulmones",
+      "broncodilatador"
+    ],
+    "protegida": false,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-224.jpg/330px-Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-224.jpg",
+    "id": 81
+  },
+  {
+    "id": 82,
+    "nombre": "Bailahuén",
+    "cientifico": "Haplopappus baylahuen",
+    "familia": "Asteraceae",
+    "parte": "Ramas con hojas y sumidades floridas",
+    "usos": "Digestivo y colerético (estimula la bilis), antiespasmódico intestinal, antiinflamatorio hepático, diurético, febrífugo y diaforético, friega para reumatismo.",
+    "chiloe": false,
+    "region": "Precordillera andina centro-sur (VII a XI Región)",
+    "emoji": "🌼",
+    "precaucion": "Contraindicado en cálculos biliares (puede desencadenar cólicos). Contraindicado en embarazo. No combinar con medicamentos hepatotóxicos.",
+    "peligroso": false,
+    "meses": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "bailahuen",
+      "digestion",
+      "higado",
+      "bilis",
+      "vesicula",
+      "colerético",
+      "diuretico",
+      "reumatismo",
+      "fiebre",
+      "mapuche",
+      "machi"
+    ],
+    "protegida": false,
+    "imagen": ""
+  },
+  {
+    "id": 83,
+    "nombre": "Pañil (Palqui)",
+    "cientifico": "Cestrum parqui",
+    "familia": "Solanaceae",
+    "parte": "Hojas (NUNCA los frutos ni semillas — son tóxicos)",
+    "usos": "Uso ritual en el machitún y guillatún mapuche. Sahumerio purificador. Bajo supervisión machi: antiparasitario y antifebril con las hojas. Remedio de 'contra' espiritual.",
+    "chiloe": false,
+    "region": "Zonas mediterráneas y templadas (III a X Región)",
+    "emoji": "⚠️",
+    "precaucion": "PLANTA TÓXICA: los frutos y semillas son venenosos para humanos y animales. Solo las hojas bajo supervisión machi. CONTRAINDICADO EN EMBARAZO. No confundir con otras solanáceas.",
+    "peligroso": true,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "keywords": [
+      "panil",
+      "palqui",
+      "ritual",
+      "mapuche",
+      "purificacion",
+      "machi",
+      "ceremonial",
+      "espiritual",
+      "sahumerio",
+      "contra"
+    ],
+    "protegida": false,
+    "imagen": ""
+  },
+  {
+    "id": 84,
+    "nombre": "Cochayuyo",
+    "cientifico": "Durvillaea antarctica",
+    "familia": "Durvillaeaceae",
+    "parte": "Talo completo (alga parda macroscópica)",
+    "usos": "Nutritivo mineral excepcional (hierro, yodo, B12, magnesio, calcio). Antiinflamatorio y antirreumático en cataplasmas. Apoyo en anemia y convalecencia. Dentición del bebé (mordedor natural). Potencial antitumoral documentado (UdeC 2024).",
+    "chiloe": true,
+    "region": "Costas rocosas del Pacífico sur (Coquimbo a Cabo de Hornos)",
+    "emoji": "🌊",
+    "precaucion": "CONTRAINDICADO EN HIPERTIROIDISMO (muy alto contenido de yodo). Precaución con anticoagulantes farmacológicos (fucoidanos). Personas con medicación tiroidea deben consultar médico.",
+    "peligroso": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "cochayuyo",
+      "kochayuyo",
+      "alga",
+      "marino",
+      "anemia",
+      "yodo",
+      "minerales",
+      "reumatismo",
+      "articulaciones",
+      "denticion",
+      "lafkenche",
+      "huilliche",
+      "fucoidano",
+      "nutritivo"
+    ],
+    "protegida": false,
+    "imagen": ""
+  },
+  {
+    "id": 85,
+    "nombre": "Peumo",
+    "cientifico": "Cryptocarya alba",
+    "familia": "Lauraceae",
+    "parte": "Hojas, corteza y frutos",
+    "usos": "Tónico y estimulante general. Astringente para diarreas y gastroenteritis. Antiinflamatorio externo. Diurético. Afecciones respiratorias catarales. Cataplasmas para dolores articulares. Árbol nativo endémico de Chile.",
+    "chiloe": false,
+    "region": "Bosque esclerófilo de Chile central (IV a VIII Región)",
+    "emoji": "🌳",
+    "precaucion": "No usar en dosis altas durante el embarazo (alcaloides como boldina). Uso prolongado sin supervisión no recomendado.",
+    "peligroso": false,
+    "meses": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "keywords": [
+      "peumo",
+      "diarrea",
+      "digestivo",
+      "astringente",
+      "tonico",
+      "antiinflamatorio",
+      "articular",
+      "boldina",
+      "diuretico",
+      "catarros",
+      "bosque",
+      "endemico"
+    ],
+    "protegida": false,
+    "imagen": ""
+  }
+]

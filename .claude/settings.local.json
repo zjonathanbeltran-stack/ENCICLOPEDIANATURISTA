@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/usuario/.claude/plugins//**)",
+      "Read(//c/Users/usuario/**)",
+      "Bash(xargs grep *)",
+      "PowerShell(Get-Process -Id 14940 -ErrorAction SilentlyContinue | Select-Object Id, ProcessName, MainWindowTitle; \\(Get-WmiObject Win32_Process -Filter \"ProcessId=14940\"\\).CommandLine)",
+      "Bash(python3 -c ' *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "WebSearch",
+      "WebFetch(domain:kumunwilliche.cl)",
+      "WebFetch(domain:www.serindigena.org)",
+      "WebFetch(domain:www.mapuchediario.cl)",
+      "WebFetch(domain:www.boticadelalma.cl)",
+      "WebFetch(domain:www.medicina-natural.cl)",
+      "WebFetch(domain:laderasur.com)",
+      "WebFetch(domain:ieb-chile.cl)",
+      "WebFetch(domain:www.rochade.cl)",
+      "WebFetch(domain:expochileagricola.cl)",
+      "WebFetch(domain:www.tripleluna.es)",
+      "WebFetch(domain:naturopatiaketer.blogspot.com)",
+      "WebFetch(domain:www.ecovisiones.cl)",
+      "WebFetch(domain:www.pueblosoriginarios.gob.cl)",
+      "WebFetch(domain:fitoterapiahoy.com)",
+      "PowerShell(python \"C:\\\\Users\\\\usuario\\\\Desktop\\\\proyecto\\\\agregar_recetas.py\")",
+      "Bash(python enriquecer_recetas.py)",
+      "Skill(firecrawl-search)",
+      "Skill(firecrawl-search:*)",
+      "Bash(wait)",
+      "Bash(python recetas_machi.py)",
+      "Bash(python agregar_plantas_machi.py)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
