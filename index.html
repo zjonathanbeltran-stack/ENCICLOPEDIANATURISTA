@@ -183,6 +183,32 @@
                     </button>
                 </div>
             </div>
+            <!-- Buscador por síntoma -->
+            <div class="receta-search-section">
+                <div class="receta-search-wrap">
+                    <i class="fas fa-search receta-search-ico"></i>
+                    <input type="text" id="recetaSearchInput"
+                           placeholder="¿Qué dolencia buscas? Ej: dolor de cabeza, tos, insomnio…"
+                           autocomplete="off">
+                    <button id="recetaSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="receta-sugs" id="recetaSugs">
+                    <button class="receta-sug" data-q="dolor de cabeza">🤕 Dolor de cabeza</button>
+                    <button class="receta-sug" data-q="tos">💨 Tos</button>
+                    <button class="receta-sug" data-q="insomnio">🌙 Insomnio</button>
+                    <button class="receta-sug" data-q="digestión">🌿 Digestión</button>
+                    <button class="receta-sug" data-q="resfriado">🤧 Resfriado</button>
+                    <button class="receta-sug" data-q="ansiedad">😰 Ansiedad</button>
+                    <button class="receta-sug" data-q="fiebre">🌡 Fiebre</button>
+                    <button class="receta-sug" data-q="dolor garganta">🔴 Garganta</button>
+                    <button class="receta-sug" data-q="artritis">🦴 Artritis</button>
+                    <button class="receta-sug" data-q="herida">🩹 Heridas</button>
+                </div>
+            </div>
+            <div id="recetaSearchResults" class="receta-search-results"></div>
+
             <div id="systemAccordion" class="system-accordion"></div>
         </div>
 
