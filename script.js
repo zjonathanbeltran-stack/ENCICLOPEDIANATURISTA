@@ -374,6 +374,48 @@ const DOLENCIAS = [
 
 let dolenciaActiva = null;
 
+const SISTEMAS_BUSQUEDA = [
+    { id:'digestivo',      emoji:'🌿', label:'Digestivo',     desc:'Estómago · Hígado · Intestino',     color:'#6a8a52' },
+    { id:'respiratorio',   emoji:'🫁', label:'Respiratorio',  desc:'Tos · Gripe · Sinusitis',           color:'#5b8aa0' },
+    { id:'nervioso',       emoji:'🧠', label:'Nervioso',      desc:'Insomnio · Ansiedad · Migraña',     color:'#8a6aaa' },
+    { id:'musculo',        emoji:'🦴', label:'Dolores',       desc:'Artritis · Muscular · Reumatismo',  color:'#a06a5b' },
+    { id:'piel',           emoji:'✨', label:'Piel',          desc:'Acné · Heridas · Quemaduras',       color:'#c9a84c' },
+    { id:'mujer',          emoji:'🌸', label:'Mujer',         desc:'Menstrual · Menopausia · Lactancia',color:'#c9679a' },
+    { id:'pediatrico',     emoji:'👶', label:'Niños',         desc:'Cólicos · Fiebre · Dentición',      color:'#6aa08a' },
+    { id:'inmuno',         emoji:'🛡', label:'Inmunidad',     desc:'Defensas · Alergias · Fiebre',      color:'#7a9ab8' },
+    { id:'cardiovascular', emoji:'❤️', label:'Corazón',      desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
+    { id:'renal',          emoji:'🫘', label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#8a7a5a' },
+    { id:'energetico',     emoji:'⚡', label:'Energía',       desc:'Fatiga · Vitalidad · Tónico',       color:'#b8a030' },
+    { id:'mapuche',        emoji:'🩶', label:'Mapuche',       desc:'Medicina ancestral mapuche',         color:'#7a8a7a' },
+];
+
+function renderSistemasBusqueda() {
+    const cont = document.getElementById('recetaSistemas');
+    if (!cont) return;
+    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
+        <button class="rsis-btn" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
+            <span class="rsis-ico">${s.emoji}</span>
+            <span class="rsis-label">${s.label}</span>
+            <span class="rsis-desc">${s.desc}</span>
+        </button>
+    `).join('');
+}
+
+function mostrarDolenciasDeSistema(sistemaId) {
+    const panel = document.getElementById('recetaDolenciasPanel');
+    const chips = document.getElementById('rdolChips');
+    if (!panel || !chips) return;
+    const dolencias = DOLENCIAS.filter(d => d.sistema === sistemaId);
+    chips.innerHTML = dolencias.map(d => `
+        <button class="rdol-chip" data-q="${d.nombre}">
+            ${d.emoji} ${d.nombre}
+        </button>
+    `).join('');
+    document.querySelectorAll('.rsis-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.sistema === sistemaId));
+    panel.hidden = false;
+}
+
 function normDol(txt) {
     return (txt || '').toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -383,10 +425,12 @@ function normDol(txt) {
 // ── Buscador de recetas por síntoma (en pestaña Recetario) ──────────
 
 function buscarRecetasPorSintoma(query) {
-    const q = normDol(query);
-    if (q.trim().length < 2) return [];
+    // Quitar frases de lenguaje natural comunes
+    let q = normDol(query)
+        .replace(/^(me duele(n)?|tengo|siento|busco( algo)?|quiero( algo)?|algo para|remedio para|para (el|la|los|las|un|una))\s+/i, '')
+        .trim();
+    if (q.length < 2) return [];
 
-    // Encontrar dolencias que coincidan con la query
     const dolCoincidentes = DOLENCIAS.filter(d => {
         const nombre = normDol(d.nombre);
         return nombre.includes(q) || q.includes(nombre.split(' ')[0]) ||
@@ -405,26 +449,30 @@ function buscarRecetasPorSintoma(query) {
         const ing    = normDol(r.ingredientes);
         const prep   = normDol(r.preparacion);
         const cat    = normDol(r.categoria);
-        const dosis  = normDol(r.dosis);
-        const contra = normDol(r.contraindicaciones);
-        const todo   = [titulo, ing, prep, cat, dosis].join(' ');
+        const uso    = normDol(r.uso);
+        const props  = (r.propiedades || []).map(normDol).join(' ');
 
-        // Categoría relacionada a la dolencia
         if (catsDolencia.has(r.categoria)) score += 5;
 
-        // Keywords de dolencia presentes en la receta
         for (const kw of kwsDolencia) {
             if (titulo.includes(kw)) { score += 4; break; }
         }
         for (const kw of kwsDolencia) {
+            if (uso.includes(kw)) { score += 3; break; }
+        }
+        for (const kw of kwsDolencia) {
             if (ing.includes(kw) || prep.includes(kw)) { score += 2; break; }
         }
+        for (const kw of kwsDolencia) {
+            if (props.includes(kw)) { score += 2; break; }
+        }
 
-        // Búsqueda directa de la query
         if (titulo.includes(q)) score += 4;
-        else if (ing.includes(q)) score += 2;
-        else if (prep.includes(q) || dosis.includes(q)) score += 1;
+        else if (uso.includes(q)) score += 3;
         else if (cat.includes(q)) score += 3;
+        else if (ing.includes(q)) score += 2;
+        else if (prep.includes(q)) score += 1;
+        else if (props.includes(q)) score += 2;
 
         return { r, score };
     });
@@ -441,14 +489,32 @@ function renderRecetaSearchResults(recetas, query) {
     if (!cont) return;
 
     if (recetas.length === 0) {
+        const qn = normDol(query).replace(/^(me duele|tengo|para (el|la|los|las))\s+/i, '').trim();
+        const sugeridas = DOLENCIAS.filter(d =>
+            normDol(d.nombre).includes(qn) || d.keywords.some(k => normDol(k).includes(qn))
+        ).slice(0, 4);
         cont.innerHTML = `
             <div class="rsearch-empty">
                 <div class="rsearch-empty-ico">🌿</div>
                 <p>No encontramos recetas para <strong>"${query}"</strong>.</p>
-                <p class="rsearch-empty-hint">Intenta con otro término, como el nombre de una planta o síntoma.</p>
+                ${sugeridas.length ? `
+                <p class="rsearch-empty-hint">¿Quizás buscabas?</p>
+                <div class="rsearch-empty-sugs">
+                    ${sugeridas.map(d => `<button class="rdol-chip rsearch-sug-chip" data-q="${d.nombre}">${d.emoji} ${d.nombre}</button>`).join('')}
+                </div>` : `<p class="rsearch-empty-hint">Intenta con otro término o elige un sistema corporal arriba.</p>`}
             </div>`;
         cont.style.display = 'block';
         if (accordion) accordion.style.display = 'none';
+        cont.querySelectorAll('.rsearch-sug-chip').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const q2 = btn.dataset.q;
+                const inp = document.getElementById('recetaSearchInput');
+                const clr = document.getElementById('recetaSearchClear');
+                if (inp) inp.value = q2;
+                if (clr) clr.hidden = false;
+                renderRecetaSearchResults(buscarRecetasPorSintoma(q2), q2);
+            });
+        });
         return;
     }
 
@@ -463,17 +529,25 @@ function renderRecetaSearchResults(recetas, query) {
             </button>
         </div>
         <div class="rsearch-grid">
-            ${mostrar.map(r => `
+            ${mostrar.map(r => {
+                const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
+                const props = (r.propiedades || []).slice(0, 3);
+                return `
                 <div class="rsearch-card" data-rid="${r.id}">
                     <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
                     <h4 class="rsearch-titulo">${r.titulo}</h4>
-                    <p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes || '').slice(0, 80)}${r.ingredientes && r.ingredientes.length > 80 ? '…' : ''}</p>
+                    ${uso
+                        ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                        : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
+                    }
+                    ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
                     <div class="rsearch-meta">
-                        <span><i class="fas fa-clock"></i> ${r.tiempo_prep || '—'}</span>
-                        <span><i class="fas fa-signal"></i> ${r.dificultad || '—'}</span>
+                        <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
+                        <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
                     </div>
                     <button class="rsearch-ver-btn">Ver receta <i class="fas fa-arrow-right"></i></button>
-                </div>`).join('')}
+                </div>`;
+            }).join('')}
         </div>
         ${total > 48 ? `<p class="rsearch-mas">Mostrando 48 de ${total} recetas. Afina la búsqueda para ver más.</p>` : ''}`;
 
@@ -483,10 +557,7 @@ function renderRecetaSearchResults(recetas, query) {
     cont.querySelectorAll('.rsearch-card').forEach(card => {
         card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
     });
-
-    document.getElementById('rsearchClearBtn')?.addEventListener('click', () => {
-        limpiarRecetaSearch();
-    });
+    document.getElementById('rsearchClearBtn')?.addEventListener('click', limpiarRecetaSearch);
 }
 
 function limpiarRecetaSearch() {
@@ -494,11 +565,13 @@ function limpiarRecetaSearch() {
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
     const accordion = document.getElementById('systemAccordion');
+    const panel = document.getElementById('recetaDolenciasPanel');
     if (inp) inp.value = '';
     if (clr) clr.hidden = true;
     if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
     if (accordion) accordion.style.display = '';
-    document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
+    if (panel) panel.hidden = true;
+    document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
 }
 
 function recetasParaDolencia(dol) {
@@ -2441,6 +2514,7 @@ async function inicializar() {
 
         renderPlantas();
         renderSystemHub();
+        renderSistemasBusqueda();
         actualizarBtnFavoritos();
         moverIndicador();
 
@@ -2843,9 +2917,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 inicializar();
 
-// ── Recetario: buscador por síntoma ──────────────────────────────────
+// ── Recetario: buscador por síntoma + sistemas corporales ────────────
 (function() {
     let debounceTimer;
+
+    // Input: búsqueda libre
     document.addEventListener('input', (e) => {
         if (e.target.id !== 'recetaSearchInput') return;
         const clr = document.getElementById('recetaSearchClear');
@@ -2854,28 +2930,57 @@ inicializar();
         debounceTimer = setTimeout(() => {
             const q = e.target.value.trim();
             if (q.length < 2) { limpiarRecetaSearch(); return; }
-            document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
-            const res = buscarRecetasPorSintoma(q);
-            renderRecetaSearchResults(res, q);
+            document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('recetaDolenciasPanel').hidden = true;
+            renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
         }, 280);
     });
 
     document.addEventListener('click', (e) => {
+        // Limpiar búsqueda
         if (e.target.id === 'recetaSearchClear' || e.target.closest('#recetaSearchClear')) {
             limpiarRecetaSearch();
             return;
         }
-        const sug = e.target.closest('.receta-sug');
-        if (!sug) return;
-        const q = sug.dataset.q;
+
+        // Botón "Todos los sistemas" (volver)
+        if (e.target.id === 'rdolBack' || e.target.closest('#rdolBack')) {
+            document.getElementById('recetaDolenciasPanel').hidden = true;
+            document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            return;
+        }
+
+        // Clic en sistema corporal
+        const sisBtn = e.target.closest('.rsis-btn');
+        if (sisBtn) {
+            const sistemaId = sisBtn.dataset.sistema;
+            // Si ya estaba activo, lo deselecciona
+            if (sisBtn.classList.contains('active')) {
+                limpiarRecetaSearch();
+            } else {
+                mostrarDolenciasDeSistema(sistemaId);
+                // Limpiar resultados y texto si hubiera
+                const cont = document.getElementById('recetaSearchResults');
+                const accordion = document.getElementById('systemAccordion');
+                if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
+                if (accordion) accordion.style.display = '';
+                const inp = document.getElementById('recetaSearchInput');
+                const clr = document.getElementById('recetaSearchClear');
+                if (inp) inp.value = '';
+                if (clr) clr.hidden = true;
+            }
+            return;
+        }
+
+        // Clic en chip de dolencia
+        const dolChip = e.target.closest('.rdol-chip');
+        if (!dolChip) return;
+        const q = dolChip.dataset.q;
         const inp = document.getElementById('recetaSearchInput');
         const clr = document.getElementById('recetaSearchClear');
-        if (inp) { inp.value = q; }
+        if (inp) inp.value = q;
         if (clr) clr.hidden = false;
-        document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
-        sug.classList.add('active');
-        const res = buscarRecetasPorSintoma(q);
-        renderRecetaSearchResults(res, q);
+        renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
     });
 })();
 
