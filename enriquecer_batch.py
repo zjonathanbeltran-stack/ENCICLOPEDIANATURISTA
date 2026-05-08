@@ -1,515 +1,558 @@
 #!/usr/bin/env python3
 """
-enriquecer_batch.py — Enriquecimiento masivo de recetas con datos fitoterapéuticos reales.
+enriquecer_batch.py — Enriquecimiento enciclopédico de recetas con datos fitoterapéuticos reales.
+Fuentes: Hoffmann 1992, Montes & Wilkomirsky 1985, Muñoz et al. 1999,
+         WHO Monographs Vol.1-4, MINSAL 2010, Aukanaw 2002, Villagrán & Castro 2003.
 Ejecutar: python enriquecer_batch.py
 """
-
 import json, re, os, sys
 
 BASE = os.path.dirname(__file__)
 RECETAS_PATH = os.path.join(BASE, 'data', 'recetas.json')
-PLANTAS_PATH  = os.path.join(BASE, 'data', 'plantas.json')
 
 # ══════════════════════════════════════════════════════════════════════
-# BASE DE DATOS FITOTERAPÉUTICA — principios activos y referencias reales
-# Fuentes principales: Hoffmann 1992, Montes & Wilkomirsky 1985,
-# Muñoz et al. 1999, WHO Monographs (1999-2007), MINSAL 2010,
-# Aukanaw 2002, Villagrán & Castro 2003.
+# BASE FITOTERAPÉUTICA — datos verificados por planta
+# uso_terapeutico: propósito clínico específico con mecanismo
+# pa: principios activos + mecanismo farmacológico
+# prop: propiedades terapéuticas (chips)
+# ref: referencias bibliográficas
 # ══════════════════════════════════════════════════════════════════════
 FITO = {
+    'alcachofa': {
+        'uso_terapeutico': 'Insuficiencia hepática leve y dispepsia biliar: estimula la producción y secreción de bilis facilitando la digestión de grasas y la depuración hepática.',
+        'pa': 'Cinarina (ácido 1,3-dicafeoilquínico): inhibe la síntesis de colesterol hepático y estimula la secreción biliar. Flavonoides (luteolina): hepatoprotectores que inhiben la peroxidación lipídica de los hepatocitos.',
+        'prop': ['colerético', 'colagogo', 'hepatoprotector', 'depurativo', 'hipocolesterolemiante'],
+        'ref': 'Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010'
+    },
     'boldo': {
-        'pa': 'Boldina (alcaloide principal), flavonoides (catequinas) y aceite esencial rico en ascaridol. La boldina estimula la secreción biliar y ejerce efecto hepatoprotector antioxidante.',
+        'uso_terapeutico': 'Afecciones hepáticas y biliares (colelitiasis, dispepsia biliar): estimula el flujo de bilis y protege el hepatocito del daño oxidativo.',
+        'pa': 'Boldina (alcaloide isoquinoléinico): antioxidante lipídico que inhibe la peroxidación de membranas hepatocitarias y ejerce efecto colerético directo. Aceite esencial (ascaridol, eucaliptol): complementa la acción digestiva.',
         'prop': ['colerético', 'colagogo', 'hepatoprotector', 'digestivo', 'diurético', 'antioxidante'],
-        'ref': 'Hoffmann 1992; Montes & Wilkomirsky 1985; WHO Monographs Vol.2 (2002); Muñoz et al. 1999'
+        'ref': 'Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010'
     },
     'canelo': {
-        'pa': 'Poligodial (sesquiterpeno dialdehído), eugenol, taninos y vitamina C. El poligodial inhibe la síntesis de prostaglandinas con potente actividad analgésica y antiinflamatoria.',
-        'prop': ['analgésico', 'antiinflamatorio', 'antiséptico', 'antifúngico', 'febrífugo', 'antioxidante'],
-        'ref': 'Hoffmann 1992; Villagrán & Castro 2003; Aukanaw 2002; MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Dolor neuropático, odontalgias y estados inflamatorios: el poligodial inhibe los canales Nav1.7/Nav1.8 bloqueando la transmisión del impulso doloroso.',
+        'pa': 'Poligodial (sesquiterpeno dialdeído): bloquea canales de sodio voltaje-dependientes Nav1.7/Nav1.8 con efecto antinociceptivo; modula receptores TRPA1. Flavonoides (quercetina, taxifolina): inhiben COX-2 reduciendo prostaglandinas inflamatorias.',
+        'prop': ['analgésico', 'antiinflamatorio', 'antiséptico', 'antifúngico', 'febrífugo'],
+        'ref': 'Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992; MINSAL 2010'
     },
     'foye': {
-        'pa': 'Poligodial (sesquiterpeno), eugenol, taninos y vitamina C (Drimys winteri). El poligodial tiene demostrada actividad analgésica y antiinflamatoria sobre receptores TRPA1.',
-        'prop': ['analgésico', 'antiinflamatorio', 'antiséptico', 'febrífugo'],
-        'ref': 'Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992; MINSAL 2010'
+        'uso_terapeutico': 'Dolor, inflamación y fiebre en medicina mapuche (canelo sagrado): el poligodial bloquea la transmisión dolorosa y reduce mediadores inflamatorios.',
+        'pa': 'Poligodial (sesquiterpeno dialdeído, Drimys winteri): inhibe canales Nav1.7/Nav1.8 y modula receptores TRPA1 con efecto antinociceptivo potente. Vitamina C y taninos: actividad antioxidante y antiséptica complementaria.',
+        'prop': ['analgésico', 'antiinflamatorio', 'antiséptico', 'febrífugo', 'ceremonial mapuche'],
+        'ref': 'Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992'
     },
     'manzanilla': {
-        'pa': 'Apigenina (flavonoide), alfa-bisabolol y camazuleno (aceite esencial). La apigenina modula receptores GABA-A ejerciendo acción ansiolítica y antiinflamatoria.',
-        'prop': ['antiinflamatorio', 'antiespasmódico', 'sedante leve', 'carminativo', 'cicatrizante'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; WHO Monographs Vol.1 (1999); Muñoz et al. 1999'
+        'uso_terapeutico': 'Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.',
+        'pa': 'Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.',
+        'prop': ['antiinflamatorio', 'antiespasmódico', 'carminativo', 'sedante leve', 'cicatrizante'],
+        'ref': 'Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010'
     },
     'matico': {
-        'pa': 'Taninos (maticeína), aucubósido (iridoide), flavonoides y aceite esencial. Los taninos precipitan proteínas bacterianas y ejercen hemostasia local; el aucubósido favorece la cicatrización.',
+        'uso_terapeutico': 'Cicatrización de heridas, úlceras gástricas e inflamación dérmica: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.',
+        'pa': 'Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.',
         'prop': ['cicatrizante', 'hemostático', 'antiséptico', 'antiinflamatorio', 'astringente'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
-    },
-    'menta': {
-        'pa': 'Mentol y mentona (aceite esencial, 30-55%), flavonoides (luteolina). El mentol relaja la musculatura lisa gastrointestinal inhibiendo los canales de calcio.',
-        'prop': ['digestivo', 'antiespasmódico', 'carminativo', 'analgésico local', 'expectorante'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
-    },
-    'hierba buena': {
-        'pa': 'Mentol, mentona y mentofurano (aceite esencial), flavonoides. El mentol relaja la musculatura gastrointestinal y estimula receptores de frío (TRPM8) produciendo alivio local.',
-        'prop': ['carminativo', 'digestivo', 'antiespasmódico', 'antiséptico', 'estimulante'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992'
     },
     'llantén': {
-        'pa': 'Aucubina (iridoide glucosídico), mucílagos (10-12%), pectinas y taninos. Los mucílagos forman una capa protectora sobre la mucosa respiratoria y digestiva facilitando la expectoración.',
+        'uso_terapeutico': 'Catarros, tos y bronquitis leve; heridas y úlceras dérmicas: los mucílagos protegen la mucosa bronquial y la aucubina reduce la inflamación local.',
+        'pa': 'Aucubósido (iridoide glucosídico): inhibe la expresión de genes proinflamatorios vía NF-κB y tiene efecto antiespasmódico bronquial. Mucílagos (10-12%): forman capa protectora sobre mucosas. Taninos: astringentes con acción hemostática en heridas.',
         'prop': ['expectorante', 'emoliente', 'antiinflamatorio', 'cicatrizante', 'astringente'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985'
+        'ref': 'Samuelsen AB. J Ethnopharmacol 2000; 71(1-2):1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'tilo': {
-        'pa': 'Flavonoides (tilirósido, quercetina), mucílagos y aceite esencial (farnesol). Los flavonoides ejercen acción sedante y ansiolítica sobre el sistema nervioso central.',
+        'uso_terapeutico': 'Ansiedad leve, nerviosismo e insomnio: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.',
+        'pa': 'Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario.',
         'prop': ['sedante', 'ansiolítico', 'diaforético', 'antiespasmódico', 'expectorante'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'romero': {
-        'pa': 'Ácido rosmarínico, carnosol y carnosato (diterpenos fenólicos), aceite esencial (1,8-cineol, alcanfor). Potente antioxidante que protege membranas celulares e inhibe la MAO.',
-        'prop': ['antioxidante', 'estimulante circulatorio', 'antiespasmódico', 'antiséptico', 'carminativo'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.3 (2007); Muñoz et al. 1999; MINSAL 2010'
+        'uso_terapeutico': 'Fatiga mental, hipotensión y dolor muscular tópico: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.',
+        'pa': 'Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.',
+        'prop': ['antioxidante', 'estimulante circulatorio', 'antiinflamatorio', 'antiséptico', 'carminativo'],
+        'ref': 'Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'lavanda': {
-        'pa': 'Linalool y acetato de linalilo (aceite esencial, 25-45%), flavonoides (luteolina). El linalool modula receptores NMDA y GABA-A produciendo sedación y ansiolisis.',
-        'prop': ['sedante', 'ansiolítico', 'antiespasmódico', 'antiséptico', 'cicatrizante'],
-        'ref': 'WHO Monographs Vol.3 (2007); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Ansiedad, estrés y trastornos del sueño: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.',
+        'pa': 'Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.',
+        'prop': ['ansiolítico', 'sedante', 'antiespasmódico', 'antiséptico', 'cicatrizante'],
+        'ref': 'Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012; Muñoz et al. 1999'
     },
     'melisa': {
-        'pa': 'Ácido rosmarínico (inhibidor de MAO), citral y citronelal (aceite esencial), flavonoides. El ácido rosmarínico ejerce efecto antidepresivo y ansiolítico inhibiendo la degradación de neurotransmisores.',
+        'uso_terapeutico': 'Ansiedad, insomnio y herpes labial recurrente: el ácido rosmarínico inhibe la degradación del GABA cerebral y bloquea la replicación del virus herpes simple (HSV-1 y HSV-2).',
+        'pa': 'Ácido rosmarínico: inhibe GABA transaminasa (aumenta niveles de GABA, efecto sedante-ansiolítico) y bloquea la adhesión viral del HSV a células huésped. Citral, geraniol y citronelal (aceite esencial): antiviral directo y sedante por modulación del sistema nervioso vegetativo.',
         'prop': ['sedante', 'ansiolítico', 'antiviral', 'carminativo', 'antiespasmódico'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010; Muñoz et al. 1999'
     },
     'toronjil': {
-        'pa': 'Ácido rosmarínico, citral y citronelal (aceite esencial), flavonoides. Inhibe la enzima MAO ejerciendo efecto antidepresivo y sedante comprobado clínicamente.',
+        'uso_terapeutico': 'Nerviosismo, ansiedad e insomnio leve: el ácido rosmarínico inhibe la MAO y la degradación del GABA, elevando los niveles de neurotransmisores calmantes.',
+        'pa': 'Ácido rosmarínico: inhibidor de MAO-A y de GABA transaminasa (efecto antidepresivo y ansiolítico comprobado clínicamente). Citral y citronelal (aceite esencial): sedantes por modulación del sistema nervioso vegetativo.',
         'prop': ['sedante', 'ansiolítico', 'antidepresivo leve', 'carminativo', 'antiespasmódico'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985'
     },
     'valeriana': {
-        'pa': 'Valepotriatos (iridoides éster), ácido valérico y valeranona (sesquiterpenos). Los valepotriatos modulan receptores GABA-A produciendo sedación sin dependencia significativa.',
+        'uso_terapeutico': 'Insomnio leve, ansiedad y nerviosismo: el ácido valerénico inhibe la degradación del GABA cerebral y potencia la inhibición neuronal, con efecto sedante sin dependencia significativa.',
+        'pa': 'Ácido valerénico (sesquiterpeno): inhibe GABA transaminasa y actúa como modulador alostérico positivo de receptores GABAA. Valepotriatos (iridoides): sedación adicional. Flavonoides (linarina, hesperidina): modulación serotoninérgica 5-HT5a complementaria.',
         'prop': ['sedante', 'ansiolítico', 'hipnótico leve', 'antiespasmódico', 'relajante muscular'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'menta': {
+        'uso_terapeutico': 'Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.',
+        'pa': 'Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de "frío" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.',
+        'prop': ['antiespasmódico', 'digestivo', 'carminativo', 'analgésico local', 'expectorante'],
+        'ref': 'Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010'
+    },
+    'hierba buena': {
+        'uso_terapeutico': 'Dispepsia leve, flatulencia y náuseas: la carvona relaja la musculatura digestiva aliviando espasmos y facilitando la expulsión de gases; perfil más suave que la menta, apto para niños.',
+        'pa': 'L-Carvona (29-65% del aceite esencial): antiespasmódico sobre músculo liso intestinal con modulación de la motilidad gastrointestinal y efecto carminativo. Limoneno (6%): colerético leve. 1,8-cineol: antiséptico de mucosas digestivas.',
+        'prop': ['carminativo', 'digestivo', 'antiespasmódico', 'antiséptico', 'suave (pediátrico)'],
+        'ref': 'WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985'
+    },
+    'llantén': {
+        'uso_terapeutico': 'Catarros, tos y bronquitis leve; heridas dérmicas y úlceras: los mucílagos protegen la mucosa bronquial facilitando la expectoración y la aucubina reduce la inflamación local.',
+        'pa': 'Aucubósido (iridoide glucosídico): inhibe expresión génica proinflamatoria vía NF-κB. Mucílagos (10-12%): forman capa protectora sobre mucosas respiratorias y digestivas. Taninos: astringentes con acción hemostática en heridas.',
+        'prop': ['expectorante', 'emoliente', 'antiinflamatorio', 'cicatrizante', 'astringente'],
+        'ref': 'Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'paico': {
-        'pa': 'Ascaridol (terpeno biciclico, 60-80% del aceite esencial), safrol y limoneno. El ascaridol paraliza la musculatura de los helmintos intestinales siendo el vermífugo natural más estudiado.',
+        'uso_terapeutico': 'Parasitosis intestinal (áscaris, anquilostomas, oxiuros): el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.',
+        'pa': 'Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.',
         'prop': ['antiparasitario', 'vermífugo', 'digestivo', 'carminativo'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
+        'ref': 'Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010'
     },
     'ruda': {
-        'pa': 'Rutina (flavonoide), alcaloides (arborina, graveolinina) y furocumarinas. La rutina fortalece la pared capilar; los alcaloides estimulan la musculatura uterina provocando efecto emenagogo.',
+        'uso_terapeutico': 'Amenorrea y dismenorrea: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial. Uso bajo supervisión.',
+        'pa': 'Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas.',
         'prop': ['emenagogo', 'antiespasmódico', 'vasoprotector', 'antiinflamatorio'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; Montes & Wilkomirsky 1985'
+        'ref': 'Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)'
     },
     'cola de caballo': {
-        'pa': 'Silicio orgánico (ácido silícico, 5-8%), flavonoides (isoquercitrina), saponinas (equisetonina). El silicio estimula la síntesis de colágeno y la remineralización ósea y articular.',
+        'uso_terapeutico': 'Edema leve, infecciones urinarias recurrentes y fragilidad de tejidos conectivos: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.',
+        'pa': 'Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.',
         'prop': ['diurético', 'remineralizante', 'hemostático', 'astringente', 'cicatrizante'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010'
     },
     'diente de leon': {
-        'pa': 'Taraxacina y taraxerina (lactonas sesquiterpénicas), inulina (hasta 40%), flavonoides y fitosteroles. La taraxacina estimula la producción y flujo de bilis.',
-        'prop': ['diurético', 'colerético', 'hepatoprotector', 'tónico', 'laxante suave'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
+        'uso_terapeutico': 'Afecciones hepáticas leves, colecistopatías y retención de líquidos: la taraxacina estimula enzimas antioxidantes hepáticas y los flavonoides ejercen acción diurética.',
+        'pa': 'Taraxacina y taraxacerín (eudesmanólidos amargos): estimulan la secreción biliar y aumentan la actividad de catalasa y glutatión peroxidasa hepáticas. Inulina (hasta 40% en otoño): prebiótico. Flavonoides y sales de potasio: efecto diurético sin pérdida de electrolitos.',
+        'prop': ['diurético', 'colerético', 'hepatoprotector', 'tónico digestivo', 'prebiótico'],
+        'ref': 'Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'eucalipto': {
-        'pa': '1,8-cineol (eucaliptol, 70-85% del aceite esencial), flavonoides y taninos. El eucaliptol es mucolítico y antiséptico bronquial comprobado que estimula el reflejo mucociliar.',
-        'prop': ['expectorante', 'mucolítico', 'antiséptico respiratorio', 'febrífugo', 'broncodilatador leve'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.2 (2002); MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Bronquitis, sinusitis y tos productiva: el 1,8-cineol fluidifica el moco, estimula el movimiento ciliar bronquial y ejerce acción antiséptica sobre patógenos respiratorios.',
+        'pa': '1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.',
+        'prop': ['expectorante', 'mucolítico', 'antiséptico respiratorio', 'febrífugo', 'broncodilatador'],
+        'ref': 'Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999; MINSAL 2010'
     },
     'rosa mosqueta': {
-        'pa': 'Vitamina C (ácido ascórbico, 400-1700 mg/100g), carotenoides (betacaroteno, licopeno), ácidos grasos esenciales omega-3 y omega-6. Potente antioxidante y estimulador de la síntesis de colágeno.',
-        'prop': ['antioxidante', 'cicatrizante', 'inmunoestimulante', 'antiinflamatorio', 'regenerador cutáneo'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010'
+        'uso_terapeutico': 'Regeneración cutánea, cicatrización de quemaduras e hiperpigmentación: el aceite del fruto estimula fibroblastos, favorece la síntesis de colágeno y aporta intensa protección antioxidante.',
+        'pa': 'Ácido ascórbico (300-500 mg/100g): cofactor de la hidroxilación del colágeno e inmunomodulador. Ácidos grasos esenciales (ω-6 linoléico, ω-3 α-linolénico): mantienen la barrera lipídica cutánea. Ácido trans-retinoico (precursor vitamina A): estimula la renovación celular epidérmica. Carotenoides (licopeno, β-caroteno): antioxidantes potentes.',
+        'prop': ['cicatrizante', 'regenerador cutáneo', 'antioxidante', 'inmunoestimulante', 'antiinflamatorio'],
+        'ref': 'Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010'
     },
     'calendula': {
-        'pa': 'Saponinas triterpénicas (ácidos oleanólico y ursólico), flavonoides (isorhamnetina, quercetina) y carotenoides. Los flavonoides ejercen marcada acción antiinflamatoria tópica inhibiendo COX-2.',
+        'uso_terapeutico': 'Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.',
+        'pa': 'Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.',
         'prop': ['antiinflamatorio', 'cicatrizante', 'antiséptico', 'emoliente', 'antifúngico'],
-        'ref': 'WHO Monographs Vol.2 (2002); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999; MINSAL 2010'
     },
     'aloe': {
-        'pa': 'Acemanano (polisacárido inmunomulador), aloína y barbaloína (antraquinonas laxantes), enzima bradikinasa. El acemanano acelera la cicatrización estimulando fibroblastos dérmicos.',
-        'prop': ['cicatrizante', 'antiinflamatorio', 'emoliente', 'laxante', 'inmunomodulador'],
-        'ref': 'WHO Monographs Vol.1 (1999); MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Cicatrización de quemaduras, heridas y psoriasis: el acemanano estimula fibroblastos y la síntesis de colágeno; los compuestos antiinflamatorios reducen el eritema y el edema.',
+        'pa': 'Acemanano (polisacárido acetilado de manosa): estimula proliferación de fibroblastos y síntesis de ácido hialurónico e hidroxiprolina; inhibe prostaglandinas y leucotrienos proinflamatorios; reduce la liberación de histamina. Aloína: laxante estimulante para uso interno (mecanismo diferente).',
+        'prop': ['cicatrizante', 'antiinflamatorio', 'emoliente', 'inmunomodulador', 'hidratante'],
+        'ref': 'Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010'
     },
     'jengibre': {
-        'pa': 'Gingeroles y shogaoles (fenilalcanonas), paradoles y zingerona. Los gingeroles inhiben COX-2 y la síntesis de leucotrienos reduciendo inflamación; bloquean receptores 5-HT3 con efecto antiemético.',
+        'uso_terapeutico': 'Náuseas y vómitos (embarazo, quimioterapia, cinetosis) y estados inflamatorios: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.',
+        'pa': '6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB.',
         'prop': ['antiemético', 'antiinflamatorio', 'carminativo', 'estimulante circulatorio', 'analgésico'],
-        'ref': 'WHO Monographs Vol.1 (1999); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999; MINSAL 2010'
     },
     'ajo': {
-        'pa': 'Alicina (tiosulfinato, formada al triturar), ajoeno, sulfuro de dialilo y flavonoides. La alicina inhibe la síntesis de ARN bacteriano; el ajoeno reduce la agregación plaquetaria.',
-        'prop': ['antimicrobiano', 'antifúngico', 'cardiovascular', 'inmunoestimulante', 'antioxidante'],
-        'ref': 'WHO Monographs Vol.1 (1999); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
-    },
-    'oregano': {
-        'pa': 'Carvacrol y timol (fenoles, 60-80% del aceite esencial), flavonoides (luteolina, apigenina). El carvacrol disrumpe la membrana bacteriana y fúngica con alta actividad antimicrobiana.',
-        'prop': ['antimicrobiano', 'antifúngico', 'antioxidante', 'digestivo', 'antiespasmódico'],
-        'ref': 'Hoffmann 1992; WHO Monographs Vol.3 (2007); Muñoz et al. 1999; MINSAL 2010'
-    },
-    'poleo': {
-        'pa': 'Mentona y pulegona (aceite esencial, 80-94%), flavonoides. La pulegona estimula la motilidad intestinal y tiene efecto emenagogo; en dosis altas es hepatotóxica.',
-        'prop': ['digestivo', 'carminativo', 'emenagogo', 'antiespasmódico', 'diaforético'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; Montes & Wilkomirsky 1985'
-    },
-    'maqui': {
-        'pa': 'Delfinidin y cianidina (antocianinas), polifenoles totales y vitamina C. Las antocianinas inhiben la peroxidación lipídica con potente efecto antioxidante y cardioprotector.',
-        'prop': ['antioxidante', 'antiinflamatorio', 'cardioprotector', 'inmunoestimulante', 'antidiabético'],
-        'ref': 'Muñoz et al. 1999; Villagrán & Castro 2003; Hoffmann 1992'
-    },
-    'chilco': {
-        'pa': 'Flavonoides (rutina, quercetina) y taninos (Fuchsia magellanica). Los flavonoides actúan sobre la musculatura uterina lisa estimulando contracciones rítmicas (efecto emenagogo).',
-        'prop': ['emenagogo', 'espasmolítico', 'regulador del ciclo', 'astringente'],
-        'ref': 'Aukanaw 2002; Villagrán & Castro 2003; MINSAL 2010; Montes & Wilkomirsky 1985'
-    },
-    'murta': {
-        'pa': 'Taninos (elagitaninos), antocianinas y vitamina C (Ugni molinae). Los elagitaninos son astringentes que reducen la motilidad intestinal y tienen actividad antidiarreica comprobada.',
-        'prop': ['antidiarreico', 'astringente', 'antioxidante', 'antiséptico', 'nutritivo'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003; Montes & Wilkomirsky 1985'
-    },
-    'arrayan': {
-        'pa': 'Taninos (elagitaninos), eugenol y flavonoides (Luma apiculata). Los taninos precipitan proteínas bacterianas ejerciendo acción antiséptica y astringente sobre mucosas.',
-        'prop': ['astringente', 'antiséptico', 'antiinflamatorio', 'antidiarreico'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Villagrán & Castro 2003'
-    },
-    'quillay': {
-        'pa': 'Saponinas triterpénicas (quilaja saponina, 10%), taninos. Las saponinas actúan como surfactantes naturales con propiedades expectorantes e inmunoestimulantes sistémicas.',
-        'prop': ['expectorante', 'inmunoestimulante', 'emulsificante', 'antiséptico'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
-    },
-    'culen': {
-        'pa': 'Glabreno y bakuchiol (flavonoides prenilados), cumarinas y aceite esencial. El bakuchiol ha demostrado actividad hipoglucemiante y antiespasmódica digestiva.',
-        'prop': ['digestivo', 'hipoglucemiante', 'antiespasmódico', 'antidiarreico', 'carminativo'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
-    },
-    'pinguica': {
-        'pa': 'Arbutina (hidroquinona glucosilada), taninos y flavonoides. La arbutina se hidroliza en la orina alcalina liberando hidroquinona con potente acción antiséptica del tracto urinario.',
-        'prop': ['antiséptico urinario', 'diurético', 'astringente', 'antiinflamatorio urinario'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; Montes & Wilkomirsky 1985'
-    },
-    'clavo': {
-        'pa': 'Eugenol (72-90% del aceite esencial), acetato de eugenilo y β-cariofileno. El eugenol bloquea canales de sodio actuando como anestésico local dental con eficacia clínica demostrada.',
-        'prop': ['analgésico dental', 'antiséptico', 'antiinflamatorio', 'antifúngico', 'carminativo'],
-        'ref': 'WHO Monographs Vol.3 (2007); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
-    },
-    'sauce': {
-        'pa': 'Salicina (glucósido fenólico) metabolizada a ácido salicílico en el hígado. Inhibe COX-1 y COX-2 reduciendo prostaglandinas con mecanismo similar a la aspirina.',
-        'prop': ['analgésico', 'antiinflamatorio', 'antipirético', 'antirreumático'],
-        'ref': 'WHO Monographs Vol.2 (2002); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
-    },
-    'propóleo': {
-        'pa': 'Flavonoides (galangina, pinocembrina, crisina), ácidos fenólicos (cafeico, ferúlico) y terpenos. Los flavonoides inhiben enzimas bacterianas y virales disrumpiendo su replicación.',
-        'prop': ['antimicrobiano', 'antiviral', 'inmunoestimulante', 'antiinflamatorio', 'cicatrizante'],
-        'ref': 'Muñoz et al. 1999; WHO Monographs; Hoffmann 1992; MINSAL 2010'
-    },
-    'miel': {
-        'pa': 'Peróxido de hidrógeno (H₂O₂ enzimático), defensina-1 (proteína antibacteriana), metilglioxal y flavonoides. El pH ácido (3.2-4.5) y la alta osmolaridad crean ambiente antimicrobiano.',
-        'prop': ['antimicrobiano', 'cicatrizante', 'emoliente', 'inmunoestimulante', 'antioxidante'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; WHO Monographs; MINSAL 2010'
-    },
-    'limon': {
-        'pa': 'Vitamina C (ácido ascórbico, 50 mg/100ml), flavonoides (hesperidina, naringenina) y limoneno (terpeno). La vitamina C es cofactor de la síntesis de colágeno e inmunomodulador comprobado.',
-        'prop': ['antiséptico', 'febrífugo', 'inmunoestimulante', 'antioxidante', 'alcalinizante'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
-    },
-    'naranja': {
-        'pa': 'Vitamina C, hesperidina (flavonoide bioflavonoide), limoneno y ácido cítrico. La hesperidina reduce la permeabilidad capilar y tiene acción antiinflamatoria.',
-        'prop': ['inmunoestimulante', 'antioxidante', 'antiinflamatorio', 'digestivo', 'tónico'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Infecciones bacterianas y fúngicas, hipertensión arterial y dislipemia: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).',
+        'pa': 'Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.',
+        'prop': ['antimicrobiano', 'antifúngico', 'hipotensor', 'hipocolesterolemiante', 'inmunoestimulante'],
+        'ref': 'Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999; MINSAL 2010'
     },
     'cebolla': {
-        'pa': 'Quercetina (flavonoide antihistamínico), compuestos organosulfurados (alicina y derivados) y prostaglandinas A1. La quercetina inhibe la liberación de histamina con efecto antialérgico y expectorante.',
-        'prop': ['expectorante', 'antimicrobiano', 'antialérgico', 'antioxidante', 'cardiovascular'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999; WHO Monographs Vol.1 (1999)'
+        'uso_terapeutico': 'Tos, bronquitis leve y reacciones alérgicas: la quercetina estabiliza mastocitos impidiendo la liberación de histamina y los compuestos organosulfurados relajan la musculatura bronquial.',
+        'pa': 'Quercetina: estabilizadora de mastocitos y basófilos que reduce la síntesis de leucotrienos y prostaglandinas broncoespasmódicas. Isoalliína y propil tiosulfinato: espasmolíticos sobre músculo liso bronquial y expectorantes por fluidificación del moco. DPPCE: efecto antiasmático demostrado in vitro.',
+        'prop': ['expectorante', 'antihistamínico', 'antimicrobiano', 'antioxidante', 'cardiovascular'],
+        'ref': 'Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010'
+    },
+    'oregano': {
+        'uso_terapeutico': 'Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.',
+        'pa': 'Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.',
+        'prop': ['antimicrobiano', 'antifúngico', 'antioxidante', 'digestivo', 'antiespasmódico'],
+        'ref': 'Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'clavo': {
+        'uso_terapeutico': 'Odontalgia, gingivitis y afecciones bucales: el eugenol bloquea canales de sodio en terminaciones nerviosas pulpares produciendo analgesia local aprobada por la FDA.',
+        'pa': 'Eugenol (72-95% del aceite esencial): anestésico local por bloqueo de canales Nav en fibras nerviosas C y Aδ; inhibe prostaglandina H sintetasa bloqueando síntesis de PGE2 (antiinflamatorio); inhibe quimiotaxis de neutrófilos. Aprobado por FDA como anestésico dental OTC.',
+        'prop': ['analgésico dental', 'antiséptico', 'antiinflamatorio', 'antifúngico', 'carminativo'],
+        'ref': 'Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985'
+    },
+    'sauce': {
+        'uso_terapeutico': 'Dolor leve a moderado (cefalea, reumatismo, lumbalgia) y estados febriles: la salicina se convierte en ácido salicílico que inhibe COX-1 y COX-2 con mejor tolerancia gástrica que la aspirina.',
+        'pa': 'Salicina (glucósido fenólico): hidrolizada por bacterias intestinales a saligenina, que se oxida a ácido salicílico; inhibe COX-1 y COX-2 reduciendo prostaglandinas proalgésicas y pirógenas. A diferencia del AAS, no acetila irreversiblemente las COX, con menor efecto antiagregante y mejor tolerancia gástrica.',
+        'prop': ['analgésico', 'antiinflamatorio', 'antipirético', 'antirreumático'],
+        'ref': 'Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'propóleo': {
+        'uso_terapeutico': 'Infecciones bacterianas, víricas y fúngicas leves; inmunomodulación en estados infecciosos recurrentes: los flavonoides alteran la membrana bacteriana y el CAPE activa macrófagos.',
+        'pa': 'CAPE (fenetil éster del ácido cafeico): inhibe NF-κB reduciendo citoquinas proinflamatorias y activa la fagocitosis de macrófagos. Artepillin C: antiinflamatorio e inhibidor de PGE2. Flavonoides (galangina, pinocembrina): alteran el potencial de membrana bacteriana inhibiendo síntesis de ATP.',
+        'prop': ['antimicrobiano', 'antiviral', 'inmunoestimulante', 'antiinflamatorio', 'cicatrizante'],
+        'ref': 'Sforcin JM. J Ethnopharmacol 2011; 133(2):253-260; Marcucci MC. Apidologie 1995; 26(2):83-99; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'miel': {
+        'uso_terapeutico': 'Heridas, úlceras cutáneas e infecciones de mucosas: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.',
+        'pa': 'Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.',
+        'prop': ['antimicrobiano', 'cicatrizante', 'emoliente', 'inmunoestimulante', 'antioxidante'],
+        'ref': 'Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'limon': {
+        'uso_terapeutico': 'Estados febriles, defensas bajas y lesiones de mucosas: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.',
+        'pa': 'Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.',
+        'prop': ['inmunoestimulante', 'antiséptico', 'febrífugo', 'antioxidante', 'alcalinizante'],
+        'ref': 'Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985'
+    },
+    'naranja': {
+        'uso_terapeutico': 'Fortalecimiento del sistema inmune, estados carenciales de vitamina C e infecciones leves: la vitamina C y los flavonoides potencian las defensas y reducen la inflamación.',
+        'pa': 'Vitamina C: inmunomodulador que estimula la producción de interferones y la función fagocítica. Hesperidina (flavonoide bioflavonoide): reduce permeabilidad capilar y tiene acción antiinflamatoria. Limoneno y ácido cítrico: antisépticos y estimulantes digestivos.',
+        'prop': ['inmunoestimulante', 'antioxidante', 'antiinflamatorio', 'nutritivo', 'tónico'],
+        'ref': 'Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992'
     },
     'salvia': {
-        'pa': 'Ácido rosmarínico (antiséptico), tujona y borneol (aceite esencial), flavonoides (luteolina). La tujona inhibe la transpiración excesiva (efecto antisudorífico) y ejerce leve acción estrogénica.',
-        'prop': ['antisudorífico', 'antiséptico', 'antiespasmódico', 'astringente', 'estrogénico leve'],
-        'ref': 'WHO Monographs Vol.2 (2002); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Hiperhidrosis (sudoración excesiva), gingivitis, estomatitis y afecciones inflamatorias de mucosas: los diterpenos fenólicos inhiben las glándulas sudoríparas y el aceite esencial ejerce potente acción antiséptica oral.',
+        'pa': 'Ácido rosmarínico: inhibe COMT reduciendo la actividad simpática de glándulas sudoríparas (efecto antisudorífico). Carnosol y ácido carnósico (diterpenos): antimicrobianos potentes contra patógenos orales incluyendo Streptococcus mutans. Thuiona y alcanfor: antisépticos de contacto.',
+        'prop': ['antisudorífico', 'antiséptico oral', 'antiespasmódico', 'astringente', 'estrogénico leve'],
+        'ref': 'Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010'
     },
     'tomillo': {
-        'pa': 'Timol y carvacrol (aceite esencial, 40-60%), flavonoides (luteolina, apigenina). El timol es uno de los antisépticos naturales más potentes; desorganiza la membrana celular bacteriana.',
+        'uso_terapeutico': 'Bronquitis, tos y afecciones respiratorias superiores: el timol y el carvacrol se eliminan por vía pulmonar ejerciendo acción antiséptica directa sobre la mucosa bronquial.',
+        'pa': 'Timol (30-70% del aceite esencial): disrumpe la membrana fosfolipídica bacteriana aumentando la permeabilidad a iones K+ y H+; activo frente a MRSA, Pseudomonas aeruginosa y Klebsiella pneumoniae. Carvacrol (3-15%): mecanismo idéntico y sinérgico. Ambos estimulan la ciliocinesis bronquial.',
         'prop': ['expectorante', 'antiséptico bronquial', 'antiespasmódico', 'antimicrobiano', 'carminativo'],
-        'ref': 'WHO Monographs Vol.2 (2002); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010'
     },
     'cedron': {
-        'pa': 'Citral, limoneno y carvona (aceite esencial), flavonoides (luteolina). El citral ejerce acción carminativa y antiespasmódica sobre la musculatura lisa intestinal.',
-        'prop': ['digestivo', 'carminativo', 'antiespasmódico', 'sedante leve', 'febrífugo'],
-        'ref': 'Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999; Montes & Wilkomirsky 1985'
+        'uso_terapeutico': 'Dispepsia nerviosa, cólicos digestivos y ansiedad leve: el citral ejerce acción espasmolítica digestiva y el verbascósido tiene efecto ansiolítico sobre el sistema nervioso central.',
+        'pa': 'Citral (aldehído monoterpénico principal): espasmolítico sobre músculo liso digestivo y sedante por modulación del sistema nervioso vegetativo. Verbascósido (fenilpropanoide): antioxidante y ansiolítico que inhibe enzimas proinflamatorias. Geraniol: acción carminativa y digestiva complementaria.',
+        'prop': ['digestivo', 'carminativo', 'antiespasmódico', 'ansiolítico leve', 'febrífugo'],
+        'ref': 'Funes L. et al. Food Chem 2009; 117(3):461-467; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985'
     },
     'hinojo': {
-        'pa': 'Anetol y fenchona (aceite esencial, 60-75%), flavonoides y cumarinas. El anetol reduce la flatulencia y el cólico intestinal relajando el músculo liso; tiene efecto galactagogo documentado.',
-        'prop': ['carminativo', 'antiespasmódico', 'expectorante', 'galactagogo', 'digestivo'],
-        'ref': 'WHO Monographs Vol.3 (2007); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'uso_terapeutico': 'Flatulencia, cólicos intestinales del lactante y estimulación de la lactancia: el trans-anetol relaja el músculo liso digestivo y modula receptores dopaminérgicos estimulando la producción de prolactina.',
+        'pa': 'Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.',
+        'prop': ['carminativo', 'antiespasmódico', 'galactagogo', 'expectorante', 'digestivo'],
+        'ref': 'WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010'
     },
     'anis': {
-        'pa': 'Anetol (80-90% del aceite esencial), estragol y pseudoisoeugenol. El anetol tiene efecto galactagogo, carminativo y expectorante comprobado en múltiples estudios.',
+        'uso_terapeutico': 'Flatulencia, dispepsia, cólicos intestinales y tos productiva: el trans-anetol relaja el músculo liso digestivo y actúa como expectorante fluidificando las secreciones bronquiales.',
+        'pa': 'Trans-anetol (75-90% del aceite esencial): carminativo por relajación del músculo liso intestinal; actúa sobre el epitelio bronquial aumentando la secreción de moco facilitando la expectoración. Flavonoides (isoorientina, glucósidos de apigenina): antiinflamatorios y antiespasmódicos complementarios.',
         'prop': ['carminativo', 'expectorante', 'galactagogo', 'antiespasmódico', 'digestivo'],
-        'ref': 'WHO Monographs Vol.2 (2002); Hoffmann 1992; MINSAL 2010; Muñoz et al. 1999'
+        'ref': 'EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010'
     },
     'borraja': {
-        'pa': 'Ácido gamma-linolénico (GLA) en semillas, mucílagos en hojas. El GLA regula prostaglandinas PGE1 con acción antiinflamatoria y diaforética; los mucílagos calman mucosas respiratorias.',
-        'prop': ['diaforético', 'expectorante', 'antiinflamatorio', 'emoliente'],
-        'ref': 'Hoffmann 1992; Muñoz et al. 1999; Montes & Wilkomirsky 1985'
+        'uso_terapeutico': 'Estados febriles, tos y bronquitis, e inflamación crónica (artritis): el GLA de las semillas se convierte en prostaglandinas antiinflamatorias y los mucílagos suavizan las secreciones bronquiales.',
+        'pa': 'Ácido gamma-linolénico/GLA (18-25% del aceite de semillas): precursor de prostaglandina E1 con potente acción antiinflamatoria (inhibe la vía omega-6 proinflamatoria). Mucílagos en hojas (11%): efecto emoliente sobre mucosas bronquiales. Sales de potasio: diaforéticas por estimulación de glándulas sudoríparas.',
+        'prop': ['diaforético', 'expectorante', 'antiinflamatorio', 'emoliente', 'galactagogo'],
+        'ref': 'Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010'
     },
     'hiperico': {
-        'pa': 'Hipericina (naftodiantronas) e hiperforina. La hiperforina inhibe la recaptación de serotonina, dopamina y noradrenalina con efecto antidepresivo clínicamente demostrado en depresión leve-moderada.',
-        'prop': ['antidepresivo leve', 'ansiolítico', 'cicatrizante', 'antiviral', 'antiinflamatorio'],
-        'ref': 'WHO Monographs Vol.2 (2002); MINSAL 2010; Hoffmann 1992; Muñoz et al. 1999'
+        'uso_terapeutico': 'Depresión leve a moderada: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina elevando sus niveles en la sinapsis con eficacia clínica equivalente a antidepresivos convencionales.',
+        'pa': 'Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único, no bloqueo de transportadores). Hipericina (naftodiantrona): inhibidor de MAO-A reduciendo la catabolización de monoaminas.',
+        'prop': ['antidepresivo', 'ansiolítico', 'cicatrizante', 'antiviral', 'antiinflamatorio'],
+        'ref': 'Linde K. et al. Cochrane Database Syst Rev 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999; MINSAL 2010'
+    },
+    'maqui': {
+        'uso_terapeutico': 'Protección antioxidante celular, inflamación crónica y síndrome metabólico: las antocianinas neutralizan radicales libres, mejoran la función endotelial y reducen marcadores inflamatorios sistémicos.',
+        'pa': 'Delfinidin y cianidina (antocianinas, 34% del total): capturan especies reactivas de oxígeno con potencia superior a otras antocianinas por sus múltiples grupos hidroxilo en el anillo B; aumentan expresión de eNOS endotelial y disminuyen síntesis de endotelina-1 vasoconstrictora.',
+        'prop': ['antioxidante', 'antiinflamatorio', 'cardioprotector', 'inmunoestimulante', 'antidiabético'],
+        'ref': 'Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002; Villagrán & Castro 2003'
+    },
+    'chilco': {
+        'uso_terapeutico': 'Trastornos menstruales (amenorrea, dismenorrea, reglas escasas): los flavonoides mejoran la vascularización endometrial y las saponinas reducen la congestión pélvica facilitando el flujo.',
+        'pa': 'Flavonoides (isoquercitrina, quercitrina, kaempferol, hiperósido): refuerzan la pared capilar endometrial y ejercen efecto antiespasmódico suave. Saponinas (escina): mejoran el retorno venoso pélvico. Ácido oleanólico (triterpeno): antiinflamatorio sobre el endometrio.',
+        'prop': ['emenagogo', 'regulador del ciclo menstrual', 'antiespasmódico', 'vasoprotector'],
+        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017'
+    },
+    'murta': {
+        'uso_terapeutico': 'Diarrea, disentería y afecciones del tracto urinario: los taninos condensados contraen la mucosa intestinal y los elagitaninos inhiben la adhesión de patógenos entéricos.',
+        'pa': 'Taninos condensados (proantocianidinas) y elagitaninos: forman complejos con proteínas bacterianas inhibiendo su adhesión a la mucosa intestinal; reducen viabilidad de E. coli y Staphylococcus. Antocianinas (delfinidinas): antioxidantes y antiinflamatorios de la mucosa.',
+        'prop': ['antidiarreico', 'astringente', 'antiséptico', 'antioxidante', 'nutritivo'],
+        'ref': 'López J. et al. J Berry Res 2019; 9(3):401-414; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002'
+    },
+    'arrayan': {
+        'uso_terapeutico': 'Infecciones de piel, heridas, afecciones bucales y problemas digestivos: los taninos producen astringencia sobre tejidos inflamados y el aceite esencial ejerce acción antiséptica directa.',
+        'pa': 'Taninos condensados: forman complejos con proteínas superficiales bacterianas generando efecto antiséptico y hemostático. Aceite esencial (α-pineno, cineol, metil eugenol, mirtenol): disrumpe membranas bacterianas. Flavonoides (miricetina, quercetina): antioxidantes y antiinflamatorios locales.',
+        'prop': ['astringente', 'antiséptico', 'antiinflamatorio', 'antidiarreico', 'cicatrizante'],
+        'ref': 'Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
+    },
+    'quillay': {
+        'uso_terapeutico': 'Expectorante en catarros bronquiales y tos productiva: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.',
+        'pa': 'Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.',
+        'prop': ['expectorante', 'mucolítico', 'inmunoestimulante', 'antiséptico', 'antifúngico'],
+        'ref': 'Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; MINSAL 2010'
+    },
+    'culen': {
+        'uso_terapeutico': 'Dispepsia, flatulencia, diarrea leve y control de glucemia en diabetes tipo 2 leve: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.',
+        'pa': 'Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.',
+        'prop': ['digestivo', 'antiespasmódico', 'hipoglucemiante', 'antidiarreico', 'carminativo'],
+        'ref': 'Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010'
     },
     'radal': {
-        'pa': 'Flavonoides y lactonas sesquiterpénicas (Lomatia hirsuta). Ejercen acción antiespasmódica sobre el músculo liso bronquial reduciendo el broncoespasmo.',
-        'prop': ['antiespasmódico bronquial', 'expectorante', 'sedante leve'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
+        'uso_terapeutico': 'Tos, bronquitis y asma bronquial: la infusión de hojas reduce el espasmo bronquial con un 29,2% de inhibición inflamatoria demostrado en modelo in vivo, y ejerce acción antifúngica sobre patógenos respiratorios.',
+        'pa': '2-Metoxijuglona (naftoquinona): actividad antifúngica y antibacteriana sobre patógenos respiratorios. Flavonoides (quercetina, catequina): broncodilatadores leves por relajación del músculo liso bronquial vía inhibición de fosfodiesterasas. Ácidos fenólicos: acción antiinflamatoria complementaria.',
+        'prop': ['antiespasmódico bronquial', 'expectorante', 'antifúngico', 'antiinflamatorio'],
+        'ref': 'Schmeda-Hirschmann G. et al. BMC Complement Altern Med 2006; 6:29 (PMC1564040); Backhouse N. et al. Phytother Res 1997; 11(3):209-13; Muñoz et al. 1999'
     },
-    'sen': {
-        'pa': 'Senósidos A y B (diántronas glucosiladas), que al hidrolizarse liberan reinantronol, el cual estimula los plexos nerviosos del colon aumentando el peristaltismo.',
-        'prop': ['laxante estimulante', 'purgante', 'colagogo'],
-        'ref': 'WHO Monographs Vol.1 (1999); Hoffmann 1992; MINSAL 2010'
+    'pinguica': {
+        'uso_terapeutico': 'Infecciones del tracto urinario inferior (cistitis, uretritis): la arbutina se hidroliza en la orina liberando hidroquinona con potente acción antiséptica sobre la mucosa urinaria.',
+        'pa': 'Arbutina (glucósido hidroquinónico, 5-16% de la hoja): hidrolizada por glucosidasas a hidroquinona libre, que se excreta activa en orina alcalina (pH >7) inhibiendo E. coli, S. aureus y P. aeruginosa. Taninos (galotaninos): astringentes antiinflamatorios sobre la mucosa vesical.',
+        'prop': ['antiséptico urinario', 'antiinflamatorio urinario', 'diurético', 'astringente'],
+        'ref': 'WHO Monographs Vol.2 (2002); EMA/HMPC Arctostaphylos uva-ursi 2012; ESCOP Uvae ursi folium 2003; Muñoz et al. 1999; MINSAL 2010'
     },
     'palqui': {
-        'pa': 'Alcaloides esteroidales y saponinas (Cestrum parqui). Estimulan el sistema nervioso autónomo produciendo sudoración y favoreciendo el descenso de la fiebre.',
+        'uso_terapeutico': 'Estados febriles en medicina tradicional chilena: los alcaloides esteroidales estimulan las glándulas sudoríparas reduciendo la temperatura corporal por diaforesis. Uso controlado, planta tóxica en dosis elevadas.',
+        'pa': 'Alcaloides glucoesteroidales (tipo solanina): estimulan el sistema nervioso autónomo aumentando la actividad secretora de glándulas sudoríparas (diaforético). Glicósidos kaurenoides: efecto antipirético. Saponinas y compuestos fenólicos: actividad antioxidante complementaria. ADVERTENCIA: tóxica en dosis altas.',
         'prop': ['diaforético', 'febrífugo', 'laxante suave'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
+        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Villagrán & Castro 2003; Catalán C. et al. PMC11314090 (2024)'
     },
     'nalca': {
-        'pa': 'Vitamina C (concentración comparable al kiwi), oxalatos, taninos y fibra (Gunnera tinctoria). Fuente nutritiva ancestral del pueblo mapuche con propiedades antioxidantes.',
-        'prop': ['nutritivo', 'antioxidante', 'astringente', 'digestivo'],
-        'ref': 'Muñoz et al. 1999; Villagrán & Castro 2003; Hoffmann 1992; Aukanaw 2002'
+        'uso_terapeutico': 'Afecciones gastrointestinales, diarrea y estados febriles; fuente nutritiva ancestral: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.',
+        'pa': 'Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.',
+        'prop': ['antioxidante', 'astringente', 'antiinflamatorio', 'nutritivo', 'digestivo'],
+        'ref': 'Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003; Aukanaw 2002'
     },
     'peumo': {
-        'pa': 'Taninos, flavonoides y pequeña proporción de boldina (Cryptocarya alba). Propiedades astringentes y digestivas similares al boldo pero de menor potencia.',
-        'prop': ['astringente', 'digestivo', 'antiinflamatorio leve', 'antidiarreico'],
-        'ref': 'Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
-    },
-    'quila': {
-        'pa': 'Saponinas, flavonoides y fibra (Chusquea quila). Usos en medicina mapuche para afecciones respiratorias y como diurético.',
-        'prop': ['diurético', 'expectorante', 'antiinflamatorio'],
-        'ref': 'Aukanaw 2002; Villagrán & Castro 2003; Muñoz et al. 1999'
+        'uso_terapeutico': 'Diarrea, afecciones hepáticas leves y procesos reumáticos en medicina mapuche: los taninos ejercen acción astringente y los alcaloides bencilisoquinoléínicos son antimicrobianos frente a patógenos resistentes.',
+        'pa': 'Taninos (corteza): forman complejos con proteínas de la mucosa intestinal reduciendo secreción y permeabilidad (antidiarreico). Alcaloides bencilisoquinoléinicos (reticulina): antimicrobianos frente a patógenos Gram+ resistentes. Flavonoides y ácido clorogénico: antioxidantes y hepatoprotectores.',
+        'prop': ['astringente', 'antidiarreico', 'antimicrobiano', 'hepatoprotector leve'],
+        'ref': 'Farias C. et al. Front Pharmacol 2025 (PMC12709134); Concha J. et al. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985'
     },
     'ginkgo': {
-        'pa': 'Flavonoides (ginkgoflavonglucósidos), terpenoides (ginkgólidos A, B, C y bilobalida). Los ginkgólidos son antagonistas del PAF mejorando la microcirculación cerebral y la memoria.',
-        'prop': ['nootrópico', 'vasodilatador cerebral', 'antioxidante', 'neuroprotector'],
-        'ref': 'WHO Monographs Vol.1 (1999); Hoffmann 1992; MINSAL 2010'
+        'uso_terapeutico': 'Insuficiencia cerebrovascular leve, trastornos de la memoria y demencia incipiente: los terpenoides mejoran la microcirculación cerebral y los flavonoides protegen las neuronas del estrés oxidativo.',
+        'pa': 'Ginkgólidos A, B, C (diterpenos lactónicos): antagonistas del factor activador de plaquetas (PAF) reduciendo la viscosidad sanguínea y mejorando la microcirculación cerebral. Bilobalida (sesquiterpeno único): protege la función mitocondrial neuronal. Flavonol glucósidos: neutralizan radicales libres protegiendo membranas neuronales.',
+        'prop': ['nootrópico', 'vasodilatador cerebral', 'neuroprotector', 'antioxidante', 'antiagregante'],
+        'ref': 'Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010'
     },
     'echinacea': {
-        'pa': 'Alquilamidas (moduladoras de CB2), polisacáridos (equinacina) e inulina. Las alquilamidas estimulan macrófagos y células NK potenciando la inmunidad innata.',
+        'uso_terapeutico': 'Prevención y tratamiento coadyuvante de infecciones respiratorias superiores: las alquilamidas activan macrófagos, células NK y neutrófilos potenciando la fagocitosis y la respuesta inmune innata.',
+        'pa': 'Alquilamidas (isobutilamidas): se unen a receptores cannabinoides CB2 de macrófagos aumentando la producción de IL-6 y TNF-α y la capacidad fagocítica. Arabinogalactanos: activan directamente macrófagos y células NK. Ácido chicórico: inhibe hialuronidasa bacteriana protegiendo la barrera epitelial.',
         'prop': ['inmunoestimulante', 'antiviral', 'antiinflamatorio', 'cicatrizante'],
-        'ref': 'WHO Monographs Vol.1 (1999); MINSAL 2010; Hoffmann 1992'
+        'ref': 'Melchart D. et al. Arch Fam Med 1998; 7(6):541-545; ESCOP Echinaceae purpureae herba 2003; WHO Monographs Vol.1 (1999); MINSAL 2010'
     },
-    'ginseng': {
-        'pa': 'Ginsenósidos (saponinas triterpénicas tipo dammarano: Rb1, Rg1), polisacáridos y fitosteroles. Los ginsenósidos modulan el eje HPA reduciendo cortisol en situaciones de estrés crónico.',
-        'prop': ['adaptógeno', 'energizante', 'inmunomodulador', 'nootrópico', 'antifatiga'],
-        'ref': 'WHO Monographs Vol.1 (1999); Hoffmann 1992; MINSAL 2010'
+    'poleo': {
+        'uso_terapeutico': 'Trastornos digestivos (flatulencia, cólicos) y amenorrea: la pulegona estimula la motilidad digestiva y ejerce efecto emenagogo por vasocongestion pélvica. Contraindicado en embarazo.',
+        'pa': 'Pulegona (cetona monoterpénica mayoritaria): estimula secreción de jugos gástricos, aumenta la motilidad intestinal y ejerce efecto emenagogo por estimulación del músculo liso uterino. En dosis altas la pulegona es hepatotóxica (metabolito tóxico mentofurano). CONTRAINDICADO EN EMBARAZO.',
+        'prop': ['digestivo', 'carminativo', 'emenagogo', 'antiespasmódico', 'diaforético'],
+        'ref': 'Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010'
     },
-    'harpagofito': {
-        'pa': 'Harpagósido (iridoide glucosídico), harpagida y procúmbida. El harpagósido inhibe COX-2 y LOX-5 con potente actividad antiinflamatoria articular clínicamente validada.',
-        'prop': ['antiinflamatorio articular', 'analgésico', 'antirreumático', 'digestivo amargo'],
-        'ref': 'WHO Monographs Vol.3 (2007); MINSAL 2010; Hoffmann 1992'
+    'hiperico': {
+        'uso_terapeutico': 'Depresión leve a moderada: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.',
+        'pa': 'Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.',
+        'prop': ['antidepresivo', 'ansiolítico', 'antiviral', 'antiinflamatorio', 'cicatrizante'],
+        'ref': 'Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999; MINSAL 2010'
     },
 }
 
-# Alias para búsqueda flexible
+# Alias de búsqueda → clave FITO
 ALIAS = {
-    'foye': 'canelo', 'canelo': 'canelo', 'drimys': 'canelo',
-    'manzanilla': 'manzanilla', 'camomila': 'manzanilla',
-    'melisa': 'melisa', 'toronjil': 'toronjil',
-    'hierba buena': 'hierba buena', 'hierbabuena': 'hierba buena',
-    'menta': 'menta', 'mentol': 'menta',
-    'clavo de olor': 'clavo', 'clavo': 'clavo',
-    'sauce blanco': 'sauce', 'sauce': 'sauce', 'salix': 'sauce',
-    'eucalipto': 'eucalipto', 'eucalyptus': 'eucalipto',
-    'diente de leon': 'diente de leon', 'diente de león': 'diente de leon',
-    'miel de abeja': 'miel', 'miel': 'miel',
-    'propóleo': 'propóleo', 'propoleo': 'propóleo',
-    'aloe vera': 'aloe', 'aloe': 'aloe', 'penca sábila': 'aloe',
-    'rosa mosqueta': 'rosa mosqueta',
-    'caléndula': 'calendula', 'calendula': 'calendula',
-    'cola de caballo': 'cola de caballo', 'equiseto': 'cola de caballo',
-    'llantén': 'llantén', 'llanten': 'llantén',
+    'alcachofa': 'alcachofa', 'cynara': 'alcachofa',
+    'boldo': 'boldo', 'peumus': 'boldo',
+    'canelo': 'canelo', 'foye': 'foye', 'drimys': 'canelo',
+    'manzanilla': 'manzanilla', 'camomila': 'manzanilla', 'matricaria': 'manzanilla',
+    'matico': 'matico', 'mático': 'matico', 'buddleja': 'matico',
+    'llanten': 'llantén', 'llantén': 'llantén', 'plantago': 'llantén',
     'tilo': 'tilo', 'tila': 'tilo',
-    'valeriana': 'valeriana',
+    'romero': 'romero',
     'lavanda': 'lavanda', 'lavandula': 'lavanda',
-    'romero': 'romero', 'rosmarino': 'romero',
-    'matico': 'matico', 'mático': 'matico',
-    'boldo': 'boldo',
-    'paico': 'paico',
-    'ruda': 'ruda',
-    'maqui': 'maqui',
-    'chilco': 'chilco',
-    'murta': 'murta',
-    'arrayán': 'arrayan', 'arrayan': 'arrayan',
-    'quillay': 'quillay',
-    'culén': 'culen', 'culen': 'culen',
-    'pingüica': 'pinguica', 'pinguica': 'pinguica',
-    'poleo': 'poleo',
+    'melisa': 'melisa', 'melissa': 'melisa',
+    'toronjil': 'toronjil',
+    'valeriana': 'valeriana',
+    'menta': 'menta', 'mentha piperita': 'menta',
+    'hierba buena': 'hierba buena', 'hierbabuena': 'hierba buena', 'mentha spicata': 'hierba buena',
+    'paico': 'paico', 'chenopodium': 'paico', 'dysphania': 'paico',
+    'ruda': 'ruda', 'ruta': 'ruda',
+    'cola de caballo': 'cola de caballo', 'equiseto': 'cola de caballo', 'equisetum': 'cola de caballo',
+    'diente de leon': 'diente de leon', 'diente de león': 'diente de leon', 'taraxacum': 'diente de leon',
+    'eucalipto': 'eucalipto', 'eucalyptus': 'eucalipto',
+    'rosa mosqueta': 'rosa mosqueta', 'escaramujo': 'rosa mosqueta',
+    'calendula': 'calendula', 'caléndula': 'calendula',
+    'aloe': 'aloe', 'aloe vera': 'aloe', 'sabila': 'aloe', 'penca': 'aloe',
+    'jengibre': 'jengibre', 'zingiber': 'jengibre',
+    'ajo': 'ajo', 'allium sativum': 'ajo',
+    'cebolla': 'cebolla', 'allium cepa': 'cebolla',
+    'oregano': 'oregano', 'orégano': 'oregano', 'origanum': 'oregano',
+    'clavo': 'clavo', 'clavo de olor': 'clavo', 'syzygium': 'clavo',
+    'sauce': 'sauce', 'sauce blanco': 'sauce', 'salix': 'sauce',
+    'propoleo': 'propóleo', 'propóleo': 'propóleo', 'propolis': 'propóleo',
+    'miel': 'miel', 'miel de abeja': 'miel',
+    'limon': 'limon', 'limón': 'limon', 'citrus limon': 'limon',
+    'naranja': 'naranja', 'citrus sinensis': 'naranja',
     'salvia': 'salvia',
-    'tomillo': 'tomillo',
-    'cedrón': 'cedron', 'cedron': 'cedron',
-    'hinojo': 'hinojo',
-    'anís': 'anis', 'anis': 'anis',
-    'borraja': 'borraja',
-    'hipérico': 'hiperico', 'hiperico': 'hiperico', 'hierba de san juan': 'hiperico',
-    'radal': 'radal',
-    'sen': 'sen',
-    'palqui': 'palqui',
-    'nalca': 'nalca', 'pangue': 'nalca',
-    'peumo': 'peumo',
-    'quila': 'quila',
+    'tomillo': 'tomillo', 'thymus': 'tomillo',
+    'cedron': 'cedron', 'cedrón': 'cedron', 'aloysia': 'cedron',
+    'hinojo': 'hinojo', 'foeniculum': 'hinojo',
+    'anis': 'anis', 'anís': 'anis', 'pimpinella': 'anis',
+    'borraja': 'borraja', 'borago': 'borraja',
+    'hiperico': 'hiperico', 'hipérico': 'hiperico', 'hypericum': 'hiperico', 'san juan': 'hiperico',
+    'maqui': 'maqui', 'aristotelia': 'maqui',
+    'chilco': 'chilco', 'fuchsia': 'chilco',
+    'murta': 'murta', 'ugni': 'murta',
+    'arrayan': 'arrayan', 'arrayán': 'arrayan', 'luma': 'arrayan',
+    'quillay': 'quillay', 'quillaja': 'quillay',
+    'culen': 'culen', 'culén': 'culen', 'otholobium': 'culen',
+    'radal': 'radal', 'lomatia': 'radal',
+    'pinguica': 'pinguica', 'pingüica': 'pinguica', 'arctostaphylos': 'pinguica', 'uva ursi': 'pinguica',
+    'palqui': 'palqui', 'cestrum': 'palqui',
+    'nalca': 'nalca', 'pangue': 'nalca', 'gunnera': 'nalca',
+    'peumo': 'peumo', 'cryptocarya': 'peumo',
     'ginkgo': 'ginkgo',
-    'equinácea': 'echinacea', 'echinacea': 'echinacea',
-    'ginseng': 'ginseng',
-    'harpagofito': 'harpagofito',
-    'ajo': 'ajo',
-    'cebolla': 'cebolla',
-    'orégano': 'oregano', 'oregano': 'oregano',
-    'jengibre': 'jengibre',
-    'limón': 'limon', 'limon': 'limon',
-    'naranja': 'naranja',
-    'miel': 'miel',
+    'echinacea': 'echinacea', 'equinácea': 'echinacea', 'equinacea': 'echinacea',
+    'poleo': 'poleo', 'mentha pulegium': 'poleo',
 }
 
-# Propiedades por categoría (respaldo si no se encuentra planta)
-CATS_PROP = {
-    'Analgésico':       ['analgésico', 'antiinflamatorio'],
-    'Antiinflamatorio': ['antiinflamatorio', 'antioxidante'],
-    'Digestivo':        ['digestivo', 'carminativo', 'antiespasmódico'],
-    'Hepático':         ['hepatoprotector', 'colerético', 'colagogo'],
-    'Sedante':          ['sedante', 'ansiolítico', 'relajante'],
-    'Nervioso':         ['ansiolítico', 'antiespasmódico', 'sedante leve'],
-    'Respiratorio':     ['expectorante', 'mucolítico', 'broncodilatador leve'],
-    'Tos':              ['antitusivo', 'expectorante', 'emoliente'],
-    'Expectorante':     ['expectorante', 'mucolítico', 'antiséptico bronquial'],
-    'Resfriados':       ['diaforético', 'febrífugo', 'inmunoestimulante'],
-    'Febrífugo':        ['diaforético', 'febrífugo', 'antipirético'],
-    'Cicatrizante':     ['cicatrizante', 'antiséptico', 'antiinflamatorio'],
-    'Dermatológico':    ['antiinflamatorio cutáneo', 'emoliente', 'antiséptico'],
-    'Diurético':        ['diurético', 'depurativo', 'antiséptico urinario'],
-    'Renal':            ['diurético', 'antiséptico urinario', 'nefroprotector'],
-    'Ginecológico':     ['regulador hormonal', 'antiespasmódico uterino'],
-    'Antiparasitario':  ['antiparasitario', 'vermífugo'],
-    'Cardiovascular':   ['vasodilatador', 'antioxidante', 'cardioprotector'],
-    'Reumatismo':       ['antiinflamatorio articular', 'analgésico', 'antirreumático'],
-    'Musculoesquelético': ['analgésico', 'antiinflamatorio', 'relajante muscular'],
-    'Inmunológico':     ['inmunoestimulante', 'antioxidante', 'adaptógeno'],
-    'Energizante':      ['adaptógeno', 'estimulante', 'antifatiga'],
-    'Antifúngico':      ['antifúngico', 'antiséptico'],
-    'Memoria':          ['nootrópico', 'vasodilatador cerebral', 'antioxidante'],
-    'Oftalmológico':    ['antiinflamatorio ocular', 'antiséptico', 'emoliente'],
-    'Dental':           ['analgésico dental', 'antiséptico', 'antiinflamatorio'],
-    'Garganta':         ['antiinflamatorio', 'antiséptico', 'emoliente'],
-    'Oídos':            ['antiinflamatorio', 'antiséptico', 'analgésico'],
-    'Pediátrico':       ['carminativo', 'antiespasmódico', 'emoliente'],
-    'Nutritivo':        ['nutritivo', 'antioxidante', 'vitamínico'],
-    'Alimenticio':      ['nutritivo', 'vitamínico', 'mineralizante'],
-    'Cosmético':        ['antioxidante', 'hidratante', 'regenerador cutáneo'],
-    'Cabello':          ['fortalecedor capilar', 'antiséborreico'],
-    'Baño':             ['relajante', 'antiséptico cutáneo', 'estimulante circulatorio'],
-    'Diarrea':          ['astringente', 'antidiarreico', 'antiespasmódico'],
-    'Alergia':          ['antihistamínico', 'antiinflamatorio', 'inmunomodulador'],
-    'Medicina Mapuche': ['terapéutico ancestral', 'ceremonial'],
-    'General':          ['tónico', 'revitalizante'],
+# Descriptores de propósito por categoría (para construir USO cuando el título no tiene "para")
+CAT_DESCRIPTOR = {
+    'Analgésico':       'Alivio del dolor',
+    'Antiinflamatorio': 'Reducción de la inflamación',
+    'Digestivo':        'Apoyo digestivo',
+    'Hepático':         'Depurativo y protector hepático',
+    'Sedante':          'Sedación y relajación nerviosa',
+    'Nervioso':         'Equilibrio del sistema nervioso',
+    'Respiratorio':     'Apoyo respiratorio',
+    'Tos':              'Alivio de la tos',
+    'Expectorante':     'Expectorante y mucolítico',
+    'Resfriados':       'Tratamiento del resfriado',
+    'Febrífugo':        'Reducción de la fiebre',
+    'Cicatrizante':     'Cicatrización de heridas',
+    'Dermatológico':    'Tratamiento dermatológico',
+    'Diurético':        'Drenaje y depurativo renal',
+    'Renal':            'Apoyo de la función renal',
+    'Ginecológico':     'Apoyo a la salud femenina',
+    'Antiparasitario':  'Eliminación de parásitos intestinales',
+    'Cardiovascular':   'Apoyo cardiovascular',
+    'Reumatismo':       'Alivio del reumatismo y artritis',
+    'Musculoesquelético': 'Alivio muscular y articular',
+    'Inmunológico':     'Fortalecimiento del sistema inmune',
+    'Energizante':      'Energía y vitalidad',
+    'Antifúngico':      'Tratamiento antifúngico',
+    'Memoria':          'Mejora de la memoria y concentración',
+    'Oftalmológico':    'Alivio ocular',
+    'Dental':           'Alivio dental y bucal',
+    'Garganta':         'Alivio de garganta y amígdalas',
+    'Oídos':            'Alivio de afecciones de oídos',
+    'Pediátrico':       'Cuidado pediátrico suave',
+    'Nutritivo':        'Aporte nutricional',
+    'Alimenticio':      'Complemento alimentario',
+    'Cosmético':        'Cuidado cosmético de la piel',
+    'Cabello':          'Cuidado del cabello',
+    'Baño':             'Baño medicinal',
+    'Diarrea':          'Tratamiento de la diarrea',
+    'Alergia':          'Control de alergias',
+    'Medicina Mapuche': 'Preparación medicinal mapuche',
+    'Espiritual':       'Preparación ceremonial y espiritual',
+    'General':          'Bienestar general',
+    'Antifúngico':      'Tratamiento antifúngico',
 }
 
 def norm(txt):
     return re.sub(r'[^a-z0-9 ]', ' ',
-        txt.lower()
+        (txt or '').lower()
         .replace('á','a').replace('é','e').replace('í','i')
-        .replace('ó','o').replace('ú','u').replace('ü','u')
-        .replace('ñ','n'))
+        .replace('ó','o').replace('ú','u').replace('ü','u').replace('ñ','n'))
 
-def buscar_plantas(r):
-    """Encuentra plantas del diccionario FITO mencionadas en la receta."""
+def buscar_plantas_en_receta(r):
     texto = norm(f"{r.get('titulo','')} {r.get('ingredientes','')} {r.get('preparacion','')}")
     encontradas = []
     for alias, clave in ALIAS.items():
-        if norm(alias) in texto and clave not in encontradas:
+        if norm(alias) in texto and clave not in encontradas and clave in FITO:
             encontradas.append(clave)
     return encontradas
 
-def construir_uso(r):
-    """Uso específico: prioriza modo_uso > título > categoría."""
-    # Desde modo_uso (primera oración sustantiva)
-    modo = r.get('modo_uso', '')
-    if modo and len(modo) > 30:
-        primera = re.split(r'(?<=[.;])\s', modo)[0].strip()
-        if len(primera) > 20:
-            return primera if primera.endswith('.') else primera + '.'
-
-    # Desde el título: extraer propósito "para X"
+def construir_uso(r, plantas):
+    """
+    Construye el uso terapéutico específico de la receta.
+    NUNCA usa modo_uso ni dosis (son instrucciones de administración, no propósito).
+    Prioridad: propósito del título > uso_terapeutico de planta + categoría.
+    """
     titulo = r.get('titulo', '')
-    m = re.search(r'\bpara\s+(?:el\s+|la\s+|los\s+|las\s+|un\s+|una\s+)?([A-Za-záéíóúüñÁÉÍÓÚÜÑ][^(\[,]{4,55}?)(?:\s*[(\[,]|$)', titulo, re.I)
+    cat = r.get('categoria', '')
+
+    # 1. Extraer propósito del título (patrón "para X")
+    m = re.search(r'\bpara\s+(?:el\s+|la\s+|los\s+|las\s+|un\s+|una\s+)?([A-Za-záéíóúüñÁÉÍÓÚÜÑ][^(\[,]{4,60}?)(?:\s*[(\[,]|$)', titulo, re.I)
+    prop_titulo = ''
     if m:
-        prop = m.group(1).strip()
-        return prop.capitalize() + '.'
+        prop_titulo = m.group(1).strip().rstrip('.')
+        prop_titulo = prop_titulo[0].upper() + prop_titulo[1:]
 
-    # Desde preparacion
-    prep = r.get('preparacion', '')
-    for pat in [
-        r'[Ee]s usad[ao] (?:como|para) ([^.]{10,70})\.',
-        r'[Ss]e usa (?:como|para) ([^.]{10,70})\.',
-        r'[Ss]irve (?:para|como) ([^.]{10,70})\.',
-    ]:
-        m2 = re.search(pat, prep)
-        if m2:
-            return m2.group(0).strip()
+    # 2. Obtener uso_terapeutico de la primera planta encontrada
+    uso_planta = ''
+    if plantas:
+        uso_planta = FITO[plantas[0]].get('uso_terapeutico', '')
 
-    return ''
+    # 3. Construir el campo uso
+    if prop_titulo and uso_planta:
+        # "Para X: mecanismo de la planta principal"
+        # Tomar solo la primera oración del uso_terapeutico de la planta
+        primera_oracion = re.split(r'(?<=[.!?])\s', uso_planta)[0]
+        return f"{prop_titulo}: {primera_oracion[0].lower() + primera_oracion[1:]}"
+    elif prop_titulo:
+        # Propósito del título + descriptor de categoría
+        desc = CAT_DESCRIPTOR.get(cat, '')
+        return f"{prop_titulo}." + (f" {desc}." if desc and desc.lower() not in prop_titulo.lower() else '')
+    elif uso_planta:
+        # Solo el uso terapéutico de la planta
+        return uso_planta
+    else:
+        desc = CAT_DESCRIPTOR.get(cat, '')
+        return f"{desc}." if desc else ''
 
-def construir_pa(plantas_encontradas):
-    """Combina principios activos de las plantas encontradas."""
-    if not plantas_encontradas:
+def construir_pa(plantas):
+    if not plantas:
         return ''
     partes = []
-    for clave in plantas_encontradas[:2]:  # máximo 2 plantas
-        dato = FITO.get(clave)
-        if dato:
-            partes.append(dato['pa'])
+    for clave in plantas[:2]:
+        pa = FITO[clave].get('pa', '')
+        if pa:
+            partes.append(pa)
     return ' | '.join(partes)
 
-def construir_propiedades(plantas_encontradas, cat):
-    """Combina propiedades de plantas + categoría, sin duplicados."""
+def construir_propiedades(plantas, cat):
     props = []
-    for clave in plantas_encontradas[:2]:
-        dato = FITO.get(clave)
-        if dato:
-            for p in dato['prop']:
-                if p not in props:
-                    props.append(p)
-    for p in CATS_PROP.get(cat, []):
-        if p not in props:
-            props.append(p)
-    return props[:6]  # máximo 6 propiedades
+    for clave in plantas[:2]:
+        for p in FITO[clave].get('prop', []):
+            if p not in props:
+                props.append(p)
+    return props[:6] if props else []
 
-def construir_referencias(plantas_encontradas, r):
-    """Construye referencias combinando fuentes de plantas + fuente_tradicion."""
-    refs = set()
-    for clave in plantas_encontradas[:3]:
-        dato = FITO.get(clave)
-        if dato:
-            for ref in dato['ref'].split('; '):
-                refs.add(ref.strip())
-
-    # Agregar fuente de tradición si tiene formato de referencia
+def construir_referencias(plantas, r):
+    refs = []
+    vistos = set()
+    for clave in plantas[:3]:
+        for ref in FITO[clave].get('ref', '').split('; '):
+            ref = ref.strip()
+            if ref and ref not in vistos:
+                refs.append(ref)
+                vistos.add(ref)
     fuente = r.get('fuente_tradicion', '')
-    if fuente and re.search(r'\d{4}', fuente):
-        refs.add(fuente)
-
+    if fuente and re.search(r'\d{4}', fuente) and fuente not in vistos:
+        refs.append(fuente)
     if not refs:
-        # Referencia general chilena por categoría
-        refs.add('Hoffmann 1992')
-        refs.add('Muñoz et al. 1999')
-
-    # Ordenar: referencias con año primero
-    orden = sorted(refs, key=lambda x: (0 if re.search(r'\d{4}', x) else 1, x))
-    return '; '.join(orden[:5])
+        refs = ['Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010']
+    return '; '.join(refs[:5])
 
 def enriquecer(recetas):
     total = len(recetas)
-    enriquecidas = 0
+    count = 0
     for i, r in enumerate(recetas):
-        plantas = buscar_plantas(r)
+        plantas = buscar_plantas_en_receta(r)
 
-        # Solo llenar campos vacíos (respetar ediciones manuales)
         if not r.get('uso'):
-            uso = construir_uso(r)
+            uso = construir_uso(r, plantas)
             if uso:
-                r['uso'] = uso
+                r['uso'] = uso.strip()
 
         if not r.get('principios_activos'):
             pa = construir_pa(plantas)
@@ -527,41 +570,40 @@ def enriquecer(recetas):
                 r['referencias'] = refs
 
         if any(r.get(c) for c in ['uso', 'principios_activos', 'propiedades', 'referencias']):
-            enriquecidas += 1
+            count += 1
 
-        if (i + 1) % 100 == 0:
-            print(f'  Procesadas {i+1}/{total}...')
+        if (i + 1) % 200 == 0:
+            print(f'  {i+1}/{total} procesadas...')
 
-    return recetas, enriquecidas
+    return recetas, count
 
 def main():
-    print('🌿 Enriquecimiento masivo del Recetario Naturista')
-    print('   Cargando datos...')
-
+    print('Enciclopedia Naturista — Enriquecimiento masivo de recetas')
     with open(RECETAS_PATH, encoding='utf-8') as f:
         recetas = json.load(f)
+    print(f'  {len(recetas)} recetas cargadas. Procesando...\n')
 
-    print(f'   {len(recetas)} recetas cargadas.')
-    print('   Procesando...\n')
+    # Limpiar campos previos (regenerar desde cero con datos correctos)
+    for r in recetas:
+        for campo in ['uso', 'principios_activos', 'propiedades', 'referencias']:
+            r.pop(campo, None)
 
-    recetas_enriquecidas, total_enriq = enriquecer(recetas)
+    recetas, count = enriquecer(recetas)
 
     with open(RECETAS_PATH, 'w', encoding='utf-8') as f:
-        json.dump(recetas_enriquecidas, f, ensure_ascii=False, indent=2)
+        json.dump(recetas, f, ensure_ascii=False, indent=2)
 
-    print(f'\n✅ Completado: {total_enriq}/{len(recetas)} recetas enriquecidas.')
-    print(f'   Archivo guardado: {RECETAS_PATH}')
+    print(f'\nCompletado: {count}/{len(recetas)} recetas enriquecidas.')
 
-    # Muestra 3 ejemplos
-    print('\n── Ejemplos aleatorios ──')
     import random
-    muestras = random.sample([r for r in recetas_enriquecidas if r.get('uso')], min(3, total_enriq))
+    muestras = random.sample([r for r in recetas if r.get('uso')], min(4, count))
+    print('\n-- Ejemplos --')
     for r in muestras:
-        print(f'\n  [{r["id"]}] {r["titulo"]}')
-        print(f'  Uso: {r.get("uso","—")}')
-        print(f'  Principios: {(r.get("principios_activos","—"))[:80]}...')
-        print(f'  Propiedades: {", ".join(r.get("propiedades",[]))}')
-        print(f'  Referencias: {r.get("referencias","—")[:70]}...')
+        print(f"\n[{r['id']}] {r['titulo']}")
+        print(f"  USO: {r.get('uso','')}")
+        print(f"  PA:  {(r.get('principios_activos',''))[:90]}...")
+        print(f"  PROP: {', '.join(r.get('propiedades',[]))}")
+        print(f"  REF: {r.get('referencias','')[:80]}...")
 
 if __name__ == '__main__':
     main()
