@@ -382,6 +382,127 @@ function normDol(txt) {
         .replace(/[^a-z0-9 ]/g, ' ');
 }
 
+// ── Buscador de recetas por síntoma (en pestaña Recetario) ──────────
+
+function buscarRecetasPorSintoma(query) {
+    const q = normDol(query);
+    if (q.trim().length < 2) return [];
+
+    // Encontrar dolencias que coincidan con la query
+    const dolCoincidentes = DOLENCIAS.filter(d => {
+        const nombre = normDol(d.nombre);
+        return nombre.includes(q) || q.includes(nombre.split(' ')[0]) ||
+               d.keywords.some(kw => {
+                   const nkw = normDol(kw);
+                   return nkw.includes(q) || q.includes(nkw);
+               });
+    });
+
+    const catsDolencia = new Set(dolCoincidentes.flatMap(d => d.cats));
+    const kwsDolencia = dolCoincidentes.flatMap(d => d.keywords).map(normDol);
+
+    const scored = recetasDB.map(r => {
+        let score = 0;
+        const titulo = normDol(r.titulo);
+        const ing    = normDol(r.ingredientes);
+        const prep   = normDol(r.preparacion);
+        const cat    = normDol(r.categoria);
+        const dosis  = normDol(r.dosis);
+        const contra = normDol(r.contraindicaciones);
+        const todo   = [titulo, ing, prep, cat, dosis].join(' ');
+
+        // Categoría relacionada a la dolencia
+        if (catsDolencia.has(r.categoria)) score += 5;
+
+        // Keywords de dolencia presentes en la receta
+        for (const kw of kwsDolencia) {
+            if (titulo.includes(kw)) { score += 4; break; }
+        }
+        for (const kw of kwsDolencia) {
+            if (ing.includes(kw) || prep.includes(kw)) { score += 2; break; }
+        }
+
+        // Búsqueda directa de la query
+        if (titulo.includes(q)) score += 4;
+        else if (ing.includes(q)) score += 2;
+        else if (prep.includes(q) || dosis.includes(q)) score += 1;
+        else if (cat.includes(q)) score += 3;
+
+        return { r, score };
+    });
+
+    return scored
+        .filter(x => x.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map(x => x.r);
+}
+
+function renderRecetaSearchResults(recetas, query) {
+    const cont = document.getElementById('recetaSearchResults');
+    const accordion = document.getElementById('systemAccordion');
+    if (!cont) return;
+
+    if (recetas.length === 0) {
+        cont.innerHTML = `
+            <div class="rsearch-empty">
+                <div class="rsearch-empty-ico">🌿</div>
+                <p>No encontramos recetas para <strong>"${query}"</strong>.</p>
+                <p class="rsearch-empty-hint">Intenta con otro término, como el nombre de una planta o síntoma.</p>
+            </div>`;
+        cont.style.display = 'block';
+        if (accordion) accordion.style.display = 'none';
+        return;
+    }
+
+    const total = recetas.length;
+    const mostrar = recetas.slice(0, 48);
+
+    cont.innerHTML = `
+        <div class="rsearch-header">
+            <span class="rsearch-count">${total} receta${total !== 1 ? 's' : ''} para <strong>"${query}"</strong></span>
+            <button class="rsearch-clear-btn" id="rsearchClearBtn">
+                <i class="fas fa-times"></i> Ver todo el recetario
+            </button>
+        </div>
+        <div class="rsearch-grid">
+            ${mostrar.map(r => `
+                <div class="rsearch-card" data-rid="${r.id}">
+                    <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
+                    <h4 class="rsearch-titulo">${r.titulo}</h4>
+                    <p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes || '').slice(0, 80)}${r.ingredientes && r.ingredientes.length > 80 ? '…' : ''}</p>
+                    <div class="rsearch-meta">
+                        <span><i class="fas fa-clock"></i> ${r.tiempo_prep || '—'}</span>
+                        <span><i class="fas fa-signal"></i> ${r.dificultad || '—'}</span>
+                    </div>
+                    <button class="rsearch-ver-btn">Ver receta <i class="fas fa-arrow-right"></i></button>
+                </div>`).join('')}
+        </div>
+        ${total > 48 ? `<p class="rsearch-mas">Mostrando 48 de ${total} recetas. Afina la búsqueda para ver más.</p>` : ''}`;
+
+    cont.style.display = 'block';
+    if (accordion) accordion.style.display = 'none';
+
+    cont.querySelectorAll('.rsearch-card').forEach(card => {
+        card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
+    });
+
+    document.getElementById('rsearchClearBtn')?.addEventListener('click', () => {
+        limpiarRecetaSearch();
+    });
+}
+
+function limpiarRecetaSearch() {
+    const inp = document.getElementById('recetaSearchInput');
+    const clr = document.getElementById('recetaSearchClear');
+    const cont = document.getElementById('recetaSearchResults');
+    const accordion = document.getElementById('systemAccordion');
+    if (inp) inp.value = '';
+    if (clr) clr.hidden = true;
+    if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
+    if (accordion) accordion.style.display = '';
+    document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
+}
+
 function recetasParaDolencia(dol) {
     const kws = dol.keywords.map(normDol);
     return recetasDB.filter(r => {
@@ -2696,6 +2817,42 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 inicializar();
+
+// ── Recetario: buscador por síntoma ──────────────────────────────────
+(function() {
+    let debounceTimer;
+    document.addEventListener('input', (e) => {
+        if (e.target.id !== 'recetaSearchInput') return;
+        const clr = document.getElementById('recetaSearchClear');
+        if (clr) clr.hidden = !e.target.value;
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+            const q = e.target.value.trim();
+            if (q.length < 2) { limpiarRecetaSearch(); return; }
+            document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
+            const res = buscarRecetasPorSintoma(q);
+            renderRecetaSearchResults(res, q);
+        }, 280);
+    });
+
+    document.addEventListener('click', (e) => {
+        if (e.target.id === 'recetaSearchClear' || e.target.closest('#recetaSearchClear')) {
+            limpiarRecetaSearch();
+            return;
+        }
+        const sug = e.target.closest('.receta-sug');
+        if (!sug) return;
+        const q = sug.dataset.q;
+        const inp = document.getElementById('recetaSearchInput');
+        const clr = document.getElementById('recetaSearchClear');
+        if (inp) { inp.value = q; }
+        if (clr) clr.hidden = false;
+        document.querySelectorAll('.receta-sug').forEach(s => s.classList.remove('active'));
+        sug.classList.add('active');
+        const res = buscarRecetasPorSintoma(q);
+        renderRecetaSearchResults(res, q);
+    });
+})();
 
 // ── Dolencias: buscador en tiempo real ──────────────────────────────
 (function() {

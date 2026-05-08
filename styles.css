@@ -4448,3 +4448,208 @@ body.custom-cursor-on .cursor-ring { display: block; }
     font-size: 0.7rem;
     opacity: 0.8;
 }
+
+/* ── RECETARIO — BUSCADOR POR SÍNTOMA ── */
+.receta-search-section {
+    margin: 0 0 18px 0;
+    padding: 20px 24px 16px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r-xl);
+    backdrop-filter: blur(12px);
+}
+.receta-search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0,0,0,0.25);
+    border: 1px solid var(--glass-border-hi);
+    border-radius: var(--r-sm);
+    padding: 10px 14px;
+    transition: border-color 0.2s;
+}
+.receta-search-wrap:focus-within {
+    border-color: rgba(155,187,122,0.45);
+    box-shadow: 0 0 0 3px rgba(155,187,122,0.08);
+}
+.receta-search-ico { color: var(--text-mute); font-size: 0.9rem; flex-shrink: 0; }
+#recetaSearchInput {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+}
+#recetaSearchInput::placeholder { color: var(--text-mute); }
+.receta-search-clear {
+    background: none;
+    border: none;
+    color: var(--text-mute);
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: color 0.15s;
+    display: flex;
+    align-items: center;
+}
+.receta-search-clear:hover { color: var(--text); }
+
+.receta-sugs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+.receta-sug {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    color: var(--text-soft);
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: all 0.18s;
+    white-space: nowrap;
+}
+.receta-sug:hover {
+    background: rgba(155,187,122,0.12);
+    border-color: rgba(155,187,122,0.35);
+    color: var(--moss-bright);
+}
+.receta-sug.active {
+    background: rgba(155,187,122,0.18);
+    border-color: var(--moss-bright);
+    color: var(--moss-bright);
+}
+
+/* Resultados de búsqueda de recetas */
+.receta-search-results { display: none; margin-bottom: 22px; }
+.rsearch-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.rsearch-count {
+    font-size: 0.88rem;
+    color: var(--text-soft);
+}
+.rsearch-count strong { color: var(--moss-bright); }
+.rsearch-clear-btn {
+    background: none;
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    color: var(--text-mute);
+    font-size: 0.78rem;
+    padding: 4px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.18s;
+}
+.rsearch-clear-btn:hover {
+    border-color: rgba(155,187,122,0.35);
+    color: var(--text);
+}
+
+.rsearch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+}
+.rsearch-card {
+    background: var(--bg-2);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+    display: flex;
+    flex-direction: column;
+}
+.rsearch-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border-color: rgba(155,187,122,0.3);
+}
+.rsearch-cat {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.9);
+    padding: 6px 12px;
+}
+.rsearch-titulo {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    padding: 8px 12px 4px;
+    margin: 0;
+    line-height: 1.35;
+}
+.rsearch-ing {
+    font-size: 0.78rem;
+    color: var(--text-mute);
+    padding: 0 12px;
+    margin: 4px 0 8px;
+    line-height: 1.4;
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+.rsearch-ing i { margin-top: 2px; color: var(--moss); flex-shrink: 0; }
+.rsearch-meta {
+    display: flex;
+    gap: 10px;
+    padding: 0 12px;
+    font-size: 0.75rem;
+    color: var(--text-mute);
+    margin-bottom: 8px;
+}
+.rsearch-meta i { margin-right: 3px; }
+.rsearch-ver-btn {
+    margin: auto 12px 10px;
+    background: rgba(155,187,122,0.1);
+    border: 1px solid rgba(155,187,122,0.25);
+    border-radius: var(--r-sm);
+    color: var(--moss-bright);
+    font-size: 0.78rem;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.18s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-self: flex-start;
+}
+.rsearch-ver-btn:hover {
+    background: rgba(155,187,122,0.2);
+}
+.rsearch-empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-soft);
+}
+.rsearch-empty-ico { font-size: 2.5rem; margin-bottom: 10px; }
+.rsearch-empty strong { color: var(--text); }
+.rsearch-empty-hint {
+    font-size: 0.83rem;
+    color: var(--text-mute);
+    margin-top: 6px;
+}
+.rsearch-mas {
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--text-mute);
+    margin-top: 14px;
+}
+@media (max-width: 580px) {
+    .receta-search-section { padding: 14px 14px 12px; }
+    .rsearch-grid { grid-template-columns: 1fr; }
+}
