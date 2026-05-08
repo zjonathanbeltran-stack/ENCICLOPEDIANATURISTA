@@ -494,10 +494,14 @@ def construir_uso(r, plantas):
 
     # 3. Construir el campo uso
     if prop_titulo and uso_planta:
-        # "Para X: mecanismo de la planta principal"
-        # Tomar solo la primera oración del uso_terapeutico de la planta
+        # Extraer solo el mecanismo (después de ': ') para no arrastrar la indicación
+        # original de la planta (ej: "Odontalgia, gingivitis..." no aplica a compresa cefálica)
         primera_oracion = re.split(r'(?<=[.!?])\s', uso_planta)[0]
-        return f"{prop_titulo}: {primera_oracion[0].lower() + primera_oracion[1:]}"
+        if ': ' in primera_oracion:
+            mecanismo = primera_oracion.split(': ', 1)[1]
+        else:
+            mecanismo = primera_oracion
+        return f"{prop_titulo}: {mecanismo[0].lower() + mecanismo[1:]}"
     elif prop_titulo:
         # Propósito del título + descriptor de categoría
         desc = CAT_DESCRIPTOR.get(cat, '')
