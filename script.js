@@ -1,4 +1,4 @@
-/* ════════════════════════════════════════════════════════════════════
+﻿/* ════════════════════════════════════════════════════════════════════
    ENCICLOPEDIA NATURISTA — script.js
    ════════════════════════════════════════════════════════════════════ */
 
@@ -209,6 +209,64 @@ const CATEGORIA_USO = {
     'Piel':             'Trata diversas afecciones dérmicas, suaviza y regenera los tejidos cutáneos.',
     'General':          'Uso polivalente para el bienestar integral; tónico y revitalizante general.',
 };
+
+function getParaQueSirve(r) {
+    const cat = r.categoria || '';
+    const fuente = (r.fuente_tradicion || r.origen || '').toLowerCase();
+    const evidencia = (r.evidencia || '').toLowerCase();
+    const prep = r.preparacion || '';
+    const partes = [];
+
+    // 1. Descripción basada en la planta vinculada (usos reales de la planta)
+    if (typeof plantasDB !== 'undefined' && plantasDB.length) {
+        const plantas = plantasEnReceta(r);
+        if (plantas.length > 0) {
+            const p = plantas[0];
+            const usoBase = (p.usos || '').split(/[.;]/)[0].trim();
+            if (usoBase.length > 15) {
+                const cie = p.cientifico ? ` (${p.cientifico})` : '';
+                partes.push(`${p.nombre}${cie}: ${usoBase.charAt(0).toLowerCase() + usoBase.slice(1)}.`);
+            }
+        }
+    }
+
+    // 2. Extraer uso terapéutico del campo preparacion
+    const prepPats = [
+        /[Ee]s usad[ao] como ([^.]{8,})\./,
+        /[Ee]s usad[ao] para ([^.]{8,})\./,
+        /[Ss]e usa como ([^.]{8,})\./,
+        /[Ss]e usa para ([^.]{8,})\./,
+        /[Ss]irve como ([^.]{8,})\./,
+        /[Ss]irve para ([^.]{8,})\./,
+        /[Aa]yuda a ([^.]{8,})\./,
+        /[Pp]ropiedades ([^.]{8,})\./,
+    ];
+    for (const pat of prepPats) {
+        const m = prep.match(pat);
+        if (m && !partes.some(p => p.toLowerCase().includes(m[1].toLowerCase().slice(0, 20)))) {
+            partes.push(m[0].trim());
+            break;
+        }
+    }
+
+    // 3. Descripción de categoría si no hay suficiente info específica
+    const catBase = CATEGORIA_USO[cat];
+    if (catBase && (partes.length === 0 || (cat !== 'Medicina Mapuche' && partes.length < 2))) {
+        partes.push(catBase);
+    }
+
+    // 4. Contexto de tradición si no está ya mencionado
+    const hasTrad = partes.some(s => /mapuche|chiloé|chilote|williche|lafkenche/i.test(s));
+    if (!hasTrad) {
+        if (evidencia.includes('mapuche') || fuente.includes('mapuche') || fuente.includes('williche') || fuente.includes('lafkenche')) {
+            partes.push('Saber ancestral del pueblo mapuche.');
+        } else if (fuente.includes('chilote') || fuente.includes('chiloé')) {
+            partes.push('Medicina tradicional de Chiloé.');
+        }
+    }
+
+    return partes.filter(Boolean).join(' ') || catBase || '';
+}
 
 // ════════════════════════════════════════════════════════════════════
 // DOLENCIAS — datos y funciones de búsqueda por síntoma/afección
@@ -1318,14 +1376,14 @@ function abrirDetalleReceta(id) {
         </div>
 
         <!-- Para qué sirve -->
-        ${(CATEGORIA_USO[r.categoria] || r.categoria) ? `
+        ${(() => { const pqs = getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
             <div class="para-que-icon">🎯</div>
             <div class="para-que-body">
                 <div class="para-que-label">Para qué sirve</div>
-                <div class="para-que-texto">${CATEGORIA_USO[r.categoria] || r.categoria}</div>
+                <div class="para-que-texto">${pqs}</div>
             </div>
-        </div>` : ''}
+        </div>` : ''; })()}
 
         <div class="modal-divider"></div>
 
