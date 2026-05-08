@@ -4496,32 +4496,116 @@ body.custom-cursor-on .cursor-ring { display: block; }
 }
 .receta-search-clear:hover { color: var(--text); }
 
-.receta-sugs {
+/* Hint text */
+.receta-search-hint {
+    font-size: 0.78rem;
+    color: var(--text-mute);
+    margin: 10px 0 8px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+/* Grid de sistemas corporales */
+.receta-sistemas-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin-top: 4px;
+}
+.rsis-btn {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r-md);
+    color: var(--text-soft);
+    padding: 10px 6px 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.rsis-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--rsis-color, var(--moss));
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.rsis-btn:hover::before { opacity: 0.08; }
+.rsis-btn.active::before { opacity: 0.14; }
+.rsis-btn:hover {
+    border-color: rgba(255,255,255,0.14);
+    transform: translateY(-1px);
+}
+.rsis-btn.active {
+    border-color: rgba(255,255,255,0.22);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--rsis-color, var(--moss)) 40%, transparent);
+}
+.rsis-ico {
+    font-size: 1.35rem;
+    line-height: 1;
+    position: relative;
+}
+.rsis-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.01em;
+    position: relative;
+}
+.rsis-desc {
+    font-size: 0.62rem;
+    color: var(--text-mute);
+    line-height: 1.2;
+    position: relative;
+}
+
+/* Panel de dolencias del sistema seleccionado */
+.receta-dolencias-panel {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+    animation: fadeInUp 0.2s ease;
+}
+.rdol-back {
+    background: none;
+    border: none;
+    color: var(--text-mute);
+    font-size: 0.78rem;
+    cursor: pointer;
+    padding: 0 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.15s;
+}
+.rdol-back:hover { color: var(--text); }
+.rdol-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 12px;
+    gap: 7px;
 }
-.receta-sug {
+.rdol-chip {
     background: rgba(255,255,255,0.04);
     border: 1px solid var(--glass-border);
     border-radius: 999px;
     color: var(--text-soft);
     font-size: 0.8rem;
-    padding: 5px 12px;
+    padding: 5px 13px;
     cursor: pointer;
     transition: all 0.18s;
     white-space: nowrap;
 }
-.receta-sug:hover {
+.rdol-chip:hover {
     background: rgba(155,187,122,0.12);
-    border-color: rgba(155,187,122,0.35);
+    border-color: rgba(155,187,122,0.4);
     color: var(--moss-bright);
-}
-.receta-sug.active {
-    background: rgba(155,187,122,0.18);
-    border-color: var(--moss-bright);
-    color: var(--moss-bright);
+    transform: translateY(-1px);
 }
 
 /* Resultados de búsqueda de recetas */
@@ -4631,6 +4715,38 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-ver-btn:hover {
     background: rgba(155,187,122,0.2);
 }
+/* Campo uso en tarjeta de resultado */
+.rsearch-uso {
+    font-size: 0.78rem;
+    color: var(--text-soft);
+    padding: 0 12px;
+    margin: 4px 0 6px;
+    line-height: 1.4;
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+}
+.rsearch-uso i { color: var(--moss-bright); margin-top: 2px; flex-shrink: 0; font-size: 0.72rem; }
+
+/* Propiedades chips en tarjeta */
+.rsearch-props {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 12px;
+    margin-bottom: 6px;
+}
+.rsearch-prop {
+    background: rgba(155,187,122,0.08);
+    border: 1px solid rgba(155,187,122,0.18);
+    border-radius: 999px;
+    color: var(--moss-bright);
+    font-size: 0.66rem;
+    padding: 2px 7px;
+    text-transform: lowercase;
+}
+
+/* Estado vacío */
 .rsearch-empty {
     text-align: center;
     padding: 40px 20px;
@@ -4643,14 +4759,26 @@ body.custom-cursor-on .cursor-ring { display: block; }
     color: var(--text-mute);
     margin-top: 6px;
 }
+.rsearch-empty-sugs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 12px;
+}
 .rsearch-mas {
     text-align: center;
     font-size: 0.82rem;
     color: var(--text-mute);
     margin-top: 14px;
 }
-@media (max-width: 580px) {
+@media (max-width: 760px) {
+    .receta-sistemas-grid { grid-template-columns: repeat(4, 1fr); }
+    .rsis-desc { display: none; }
+}
+@media (max-width: 480px) {
     .receta-search-section { padding: 14px 14px 12px; }
+    .receta-sistemas-grid { grid-template-columns: repeat(3, 1fr); }
     .rsearch-grid { grid-template-columns: 1fr; }
 }
 
