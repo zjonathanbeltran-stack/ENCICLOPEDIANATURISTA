@@ -513,6 +513,32 @@ def construir_uso(r, plantas):
         desc = CAT_DESCRIPTOR.get(cat, '')
         return f"{desc}." if desc else ''
 
+MODO_USO_REGLAS = [
+    # (patrón en título, modo_uso correcto)
+    (r'\bcompresa', 'Tópico — compresa caliente o fría sobre la zona afectada'),
+    (r'\bcataplasma', 'Tópico — cataplasma aplicada directamente sobre la piel'),
+    (r'\bungüento|\bpomada|\bbálsamo', 'Tópico — aplicar directamente sobre la piel'),
+    (r'\bmasaje', 'Tópico — masaje suave sobre la zona afectada'),
+    (r'\bexfoliante', 'Tópico — aplicar y masajear sobre la piel, luego enjuagar'),
+    (r'\bgel\b', 'Tópico — aplicar en gel sobre la zona'),
+    (r'\bloción|\bcrema\b|\btónico', 'Tópico — aplicar localmente sobre la piel'),
+    (r'\bbaño\b', 'Tópico — baño medicinal'),
+    (r'\blavado|\benjuague|\bgargarismo', 'Tópico — enjuague o lavado local'),
+    (r'\binhalaci[oó]n|\bvahos?\b|\bvapor\b|\bsahumerio', 'Inhalación — respirar los vapores'),
+    (r'\bcolirio|\bgotas oculares', 'Tópico — aplicar gotas en el ojo'),
+    (r'\bemplasto|\bparche\b', 'Tópico — emplasto sobre la zona afectada'),
+    (r'\bjarabe\b', 'Oral — jarabe'),
+    (r'\binfusi[oó]n|\bt[eé]\b|\btisana', 'Oral — infusión caliente'),
+    (r'\bdecocci[oó]n', 'Oral — decocción'),
+]
+
+def corregir_modo_uso(r):
+    titulo_n = norm(r.get('titulo', ''))
+    for patron, modo in MODO_USO_REGLAS:
+        if re.search(patron, titulo_n):
+            return modo
+    return None  # sin cambio si no hay coincidencia clara
+
 def construir_pa(plantas):
     if not plantas:
         return ''
@@ -552,6 +578,10 @@ def enriquecer(recetas):
     count = 0
     for i, r in enumerate(recetas):
         plantas = buscar_plantas_en_receta(r)
+
+        modo_correcto = corregir_modo_uso(r)
+        if modo_correcto:
+            r['modo_uso'] = modo_correcto
 
         if not r.get('uso'):
             uso = construir_uso(r, plantas)
