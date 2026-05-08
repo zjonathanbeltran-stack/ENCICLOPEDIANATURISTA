@@ -212,47 +212,45 @@ const CATEGORIA_USO = {
 
 function getParaQueSirve(r) {
     const cat = r.categoria || '';
+    const titulo = r.titulo || '';
     const fuente = (r.fuente_tradicion || r.origen || '').toLowerCase();
     const evidencia = (r.evidencia || '').toLowerCase();
     const prep = r.preparacion || '';
     const partes = [];
 
-    // 1. Descripción basada en la planta vinculada (usos reales de la planta)
-    if (typeof plantasDB !== 'undefined' && plantasDB.length) {
-        const plantas = plantasEnReceta(r);
-        if (plantas.length > 0) {
-            const p = plantas[0];
-            const usoBase = (p.usos || '').split(/[.;]/)[0].trim();
-            if (usoBase.length > 15) {
-                const cie = p.cientifico ? ` (${p.cientifico})` : '';
-                partes.push(`${p.nombre}${cie}: ${usoBase.charAt(0).toLowerCase() + usoBase.slice(1)}.`);
+    // 1. Propósito específico extraído del título ("para el/la X")
+    const paraMatch = titulo.match(/\bpara\s+(?:el\s+|la\s+|los\s+|las\s+|un\s+|una\s+)?([A-Za-záéíóúüñÁÉÍÓÚÜÑ][^(\[,]{4,50}?)(?:\s*[(\[,]|$)/i);
+    if (paraMatch) {
+        const prop = paraMatch[1].trim().replace(/\s+$/, '');
+        partes.push(prop.charAt(0).toUpperCase() + prop.slice(1) + '.');
+    }
+
+    // 2. Descripción de categoría (base semántica)
+    const catBase = CATEGORIA_USO[cat];
+    if (catBase) {
+        // Evitar duplicar si el título ya lo cubre (comparación simplificada)
+        const yaEnPartes = partes.some(p => p.toLowerCase().slice(0, 15) === catBase.toLowerCase().slice(0, 15));
+        if (!yaEnPartes) partes.push(catBase);
+    }
+
+    // 3. Uso específico extraído del campo preparacion
+    const prepPats = [
+        /[Ee]s usad[ao] (?:como|para) ([^.]{8,60})\./,
+        /[Ss]e usa (?:como|para) ([^.]{8,60})\./,
+        /[Ss]irve (?:como|para) ([^.]{8,60})\./,
+        /[Aa]yuda a ([^.]{8,60})\./,
+    ];
+    if (partes.length < 2) {
+        for (const pat of prepPats) {
+            const m = prep.match(pat);
+            if (m) {
+                const frase = m[0].trim();
+                if (!partes.some(p => p.toLowerCase().includes(m[1].toLowerCase().slice(0, 18)))) {
+                    partes.push(frase);
+                }
+                break;
             }
         }
-    }
-
-    // 2. Extraer uso terapéutico del campo preparacion
-    const prepPats = [
-        /[Ee]s usad[ao] como ([^.]{8,})\./,
-        /[Ee]s usad[ao] para ([^.]{8,})\./,
-        /[Ss]e usa como ([^.]{8,})\./,
-        /[Ss]e usa para ([^.]{8,})\./,
-        /[Ss]irve como ([^.]{8,})\./,
-        /[Ss]irve para ([^.]{8,})\./,
-        /[Aa]yuda a ([^.]{8,})\./,
-        /[Pp]ropiedades ([^.]{8,})\./,
-    ];
-    for (const pat of prepPats) {
-        const m = prep.match(pat);
-        if (m && !partes.some(p => p.toLowerCase().includes(m[1].toLowerCase().slice(0, 20)))) {
-            partes.push(m[0].trim());
-            break;
-        }
-    }
-
-    // 3. Descripción de categoría si no hay suficiente info específica
-    const catBase = CATEGORIA_USO[cat];
-    if (catBase && (partes.length === 0 || (cat !== 'Medicina Mapuche' && partes.length < 2))) {
-        partes.push(catBase);
     }
 
     // 4. Contexto de tradición si no está ya mencionado
