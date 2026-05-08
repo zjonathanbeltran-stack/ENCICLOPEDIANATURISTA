@@ -1494,15 +1494,31 @@ function abrirDetalleReceta(id) {
             ${r.rendimiento ? `<div class="rec-chip"><i class="fas fa-flask"></i> ${r.rendimiento}</div>` : ''}
         </div>
 
-        <!-- Para qué sirve -->
-        ${(() => { const pqs = getParaQueSirve(r); return pqs ? `
+        <!-- Uso -->
+        ${(() => { const pqs = r.uso || getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
             <div class="para-que-icon">🎯</div>
             <div class="para-que-body">
-                <div class="para-que-label">Para qué sirve</div>
+                <div class="para-que-label">Uso</div>
                 <div class="para-que-texto">${pqs}</div>
             </div>
         </div>` : ''; })()}
+
+        <!-- Principios activos -->
+        ${r.principios_activos ? `
+        <div class="receta-principios">
+            <div class="principios-icon">🔬</div>
+            <div class="principios-body">
+                <div class="principios-label">Principios activos</div>
+                <div class="principios-texto">${r.principios_activos}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Propiedades -->
+        ${r.propiedades && r.propiedades.length ? `
+        <div class="receta-propiedades">
+            ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+        </div>` : ''}
 
         <div class="modal-divider"></div>
 
@@ -1559,6 +1575,17 @@ function abrirDetalleReceta(id) {
                 </div>
             </div>
         ` : ''}
+
+        <!-- Referencias -->
+        ${r.referencias ? `
+        <div class="modal-divider"></div>
+        <div class="receta-referencias">
+            <span class="referencias-icon"><i class="fas fa-book-open"></i></span>
+            <div>
+                <div class="referencias-label">Referencias</div>
+                <div class="referencias-texto">${r.referencias}</div>
+            </div>
+        </div>` : ''}
 
         <div class="modal-divider"></div>
         <button class="btn-print-receta" id="btnPrintReceta" data-id="${r.id}">
