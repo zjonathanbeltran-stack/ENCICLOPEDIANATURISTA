@@ -1580,7 +1580,7 @@ function configurarShareBtn(title, text) {
     if (!btn) return;
     btn.style.display = 'flex';
     btn.title = 'Compartir';
-    btn.innerHTML = '<i class="fas fa-share-alt"></i>';
+    btn.innerHTML = '<i class="fas fa-share-nodes"></i><span>Compartir</span>';
     btn.onclick = () => {
         if (navigator.share) {
             navigator.share({ title, text, url: window.location.href }).catch(() => {});

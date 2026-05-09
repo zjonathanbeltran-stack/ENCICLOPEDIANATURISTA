@@ -869,86 +869,52 @@ header {
 
 /* Modal top bar (close + share) */
 .modal-top-bar {
-    position: absolute;
-    top: 14px;
-    right: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
     display: flex;
-    gap: 8px;
+    justify-content: space-between;
     align-items: center;
-    z-index: 10;
+    padding: 10px 14px;
+    background: var(--bg-1);
+    border-bottom: 1px solid var(--glass-border);
 }
+.close-modal,
 .modal-share-btn {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    border-radius: 999px;
-    border: 1.5px solid rgba(155,187,122,0.35);
-    background: rgba(155,187,122,0.12);
-    color: var(--moss-bright);
-    font-size: 0.95rem;
-    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transition: all 0.25s;
-}
-.modal-share-btn:hover {
-    background: rgba(155,187,122,0.25);
-    border-color: var(--moss-bright);
-    transform: scale(1.08);
+    gap: 7px;
+    padding: 7px 16px;
+    border-radius: var(--r-sm);
+    font-size: 0.82rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    transition: background 0.18s, border-color 0.18s, color 0.18s;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
 }
 .close-modal {
-    position: static;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #c47a56 0%, #a85d3d 100%);
-    border: 2px solid rgba(245, 240, 230, 0.92);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1;
-    cursor: pointer;
-    z-index: 100;
-    box-shadow:
-        0 4px 14px rgba(0, 0, 0, 0.5),
-        0 0 0 4px rgba(20, 26, 22, 0.55),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25);
-    transition: all 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-.close-modal::before {
-    content: '';
-    position: absolute;
-    inset: -8px;
-    border-radius: 999px;
-    background: radial-gradient(circle, rgba(196, 122, 86, 0.35), transparent 70%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    z-index: -1;
+    color: var(--text-soft);
 }
 .close-modal:hover {
-    background: linear-gradient(135deg, #d68b65 0%, #b86d49 100%);
-    border-color: #fff;
-    transform: rotate(90deg) scale(1.1);
-    box-shadow:
-        0 6px 22px rgba(196, 122, 86, 0.55),
-        0 0 0 4px rgba(20, 26, 22, 0.55),
-        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    background: rgba(255,255,255,0.07);
+    border-color: var(--glass-border-hi);
+    color: var(--text);
 }
-.close-modal:hover::before { opacity: 1; }
-.close-modal:active { transform: rotate(90deg) scale(0.95); }
-.close-modal:focus-visible {
-    outline: none;
-    box-shadow:
-        0 4px 14px rgba(0, 0, 0, 0.5),
-        0 0 0 4px var(--moss-bright),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+.close-modal:active { opacity: 0.75; }
+.modal-share-btn {
+    color: var(--moss-bright);
+    border-color: rgba(155,187,122,0.3);
+    background: rgba(155,187,122,0.07);
 }
+.modal-share-btn:hover {
+    background: rgba(155,187,122,0.16);
+    border-color: rgba(155,187,122,0.6);
+}
+.modal-share-btn:active { opacity: 0.75; }
 
 .modal-art {
     aspect-ratio: 5/2;
