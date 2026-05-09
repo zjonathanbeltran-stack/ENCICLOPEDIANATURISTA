@@ -509,43 +509,38 @@ function buscarRecetasPorSintoma(query) {
 
     const catsDolencia = new Set(dolCoincidentes.flatMap(d => d.cats));
     const kwsDolencia = dolCoincidentes.flatMap(d => d.keywords).map(normDol);
+    // "analgesi" es demasiado genérico — matchea cualquier receta analgésica aunque no trate la dolencia
+    const kwsContenido = kwsDolencia.filter(kw => kw !== 'analgesi' && kw.length >= 4);
 
     const scored = recetasDB.map(r => {
         let score = 0;
-        const titulo = normDol(r.titulo);
-        const ing    = normDol(r.ingredientes);
-        const prep   = normDol(r.preparacion);
-        const cat    = normDol(r.categoria);
-        const uso    = normDol(r.uso);
-        const props  = (r.propiedades || []).map(normDol).join(' ');
+        let hasContentMatch = false;
 
-        if (catsDolencia.has(r.categoria)) score += 5;
+        const titulo  = normDol(r.titulo);
+        const usoPrim = normDol((r.uso || '').slice(0, 90)); // solo uso primario, ignora menciones secundarias
 
-        for (const kw of kwsDolencia) {
-            if (titulo.includes(kw)) { score += 4; break; }
+        // Match en título (mayor peso)
+        for (const kw of kwsContenido) {
+            if (titulo.includes(kw)) { score += 8; hasContentMatch = true; break; }
         }
-        for (const kw of kwsDolencia) {
-            if (uso.includes(kw)) { score += 3; break; }
+        // Match en uso primario (solo si el título no matcheó)
+        if (!hasContentMatch) {
+            for (const kw of kwsContenido) {
+                if (usoPrim.includes(kw)) { score += 6; hasContentMatch = true; break; }
+            }
         }
-        for (const kw of kwsDolencia) {
-            if (ing.includes(kw) || prep.includes(kw)) { score += 2; break; }
-        }
-        for (const kw of kwsDolencia) {
-            if (props.includes(kw)) { score += 2; break; }
-        }
+        // Query directo en el título
+        if (titulo.includes(q)) { score += 5; hasContentMatch = true; }
 
-        if (titulo.includes(q)) score += 4;
-        else if (uso.includes(q)) score += 3;
-        else if (cat.includes(q)) score += 3;
-        else if (ing.includes(q)) score += 2;
-        else if (prep.includes(q)) score += 1;
-        else if (props.includes(q)) score += 2;
+        // Categoría = bonus SOLO si ya hay match de contenido
+        if (hasContentMatch && catsDolencia.has(r.categoria)) score += 3;
 
-        return { r, score };
+        return { r, score, hasContentMatch };
     });
 
+    // Umbral 6: requiere al menos match en uso primario o título
     return scored
-        .filter(x => x.score > 0)
+        .filter(x => x.hasContentMatch && x.score >= 6)
         .sort((a, b) => b.score - a.score)
         .map(x => x.r);
 }
