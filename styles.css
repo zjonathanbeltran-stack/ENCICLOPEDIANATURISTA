@@ -3451,32 +3451,43 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .matern-prec-box.show { display: block; }
 .matern-prec-box strong { color: var(--terracotta-soft); }
 
-/* ── Menú ancla sticky ── */
-.matern-ancla-nav {
+/* ── Sub-tabs internos de Maternidad ── */
+.matern-sub-nav {
     display: flex; gap: 6px; flex-wrap: wrap;
-    position: sticky; top: 60px; z-index: 10;
-    padding: 8px 0 12px;
-    background: linear-gradient(to bottom, var(--bg-deep) 70%, transparent);
+    margin-bottom: 20px;
 }
-.matern-ancla-btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 7px 16px;
+.matern-sub-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 8px 18px;
     border-radius: 999px;
-    font-size: 0.82rem; font-weight: 500;
+    font-size: 0.84rem; font-weight: 500;
     color: var(--text-soft);
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
     transition: all 0.2s var(--ease);
     white-space: nowrap;
 }
-.matern-ancla-btn:hover {
+.matern-sub-btn i { font-size: 0.72rem; opacity: 0.75; }
+.matern-sub-btn:hover {
     color: var(--text);
     background: var(--glass-bg-hi);
     border-color: var(--glass-border-hi);
 }
-.matern-ancla-btn i { font-size: 0.72rem; opacity: 0.75; }
-.matern-ancla-target { scroll-margin-top: 110px; }
+.matern-sub-btn.active {
+    background: var(--grad-maternidad);
+    color: #fff; font-weight: 600;
+    border-color: transparent;
+    box-shadow: 0 3px 12px rgba(168,112,154,0.35);
+}
+.matern-sub-btn.warn.active {
+    background: linear-gradient(135deg, #8a3a20, #c97b56);
+    box-shadow: 0 3px 12px rgba(201,123,86,0.35);
+}
+/* Paneles: solo el activo visible */
+.matern-sub-panel { display: none; }
+.matern-sub-panel.active { display: block; }
 
 /* ── Badges maternidad en tarjetas de plantas ── */
 .badge.matern-badge {
