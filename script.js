@@ -1363,31 +1363,10 @@ function abrirDetallePlanta(id) {
         });
     }
 
-    // ── Web Share API ──
-    const shareBtn = document.getElementById('modalShareBtn');
-    if (shareBtn) {
-        if (navigator.share) {
-            shareBtn.style.display = 'flex';
-            shareBtn.onclick = () => {
-                navigator.share({
-                    title: `${p.nombre} — Enciclopedia Naturista de Chile`,
-                    text: `${p.nombre} (${p.cientifico}): ${(p.usos || '').split('.')[0]}.`,
-                    url: window.location.href
-                }).catch(() => {});
-            };
-        } else {
-            // Fallback: copy to clipboard
-            shareBtn.style.display = 'flex';
-            shareBtn.title = 'Copiar enlace';
-            shareBtn.innerHTML = '<i class="fas fa-link"></i>';
-            shareBtn.onclick = () => {
-                const text = `${p.nombre} (${p.cientifico}) — ${(p.usos || '').split('.')[0]}`;
-                navigator.clipboard?.writeText(text).then(() => {
-                    mostrarToast('<i class="fas fa-check"></i> Información copiada', 'ok');
-                }).catch(() => {});
-            };
-        }
-    }
+    configurarShareBtn(
+        `${p.nombre} — Enciclopedia Naturista de Chile`,
+        `${p.nombre} (${p.cientifico}): ${(p.usos || '').split('.')[0]}.`
+    );
 
     abrirModal();
 }
@@ -1585,12 +1564,33 @@ function abrirDetalleReceta(id) {
 
     $('#btnPrintReceta')?.addEventListener('click', () => imprimirReceta(r.id));
 
+    configurarShareBtn(
+        `${r.titulo} — Enciclopedia Naturista de Chile`,
+        `${r.titulo}: ${(r.uso || '').split('.')[0]}.`
+    );
+
     abrirModal();
 }
 
 // ════════════════════════════════════════════════════════════════════
 // MODAL
 // ════════════════════════════════════════════════════════════════════
+function configurarShareBtn(title, text) {
+    const btn = document.getElementById('modalShareBtn');
+    if (!btn) return;
+    btn.style.display = 'flex';
+    btn.title = 'Compartir';
+    btn.innerHTML = '<i class="fas fa-share-alt"></i>';
+    if (navigator.share) {
+        btn.onclick = () => navigator.share({ title, text, url: window.location.href }).catch(() => {});
+    } else {
+        btn.title = 'Copiar enlace';
+        btn.innerHTML = '<i class="fas fa-link"></i>';
+        btn.onclick = () => navigator.clipboard?.writeText(window.location.href).then(() =>
+            mostrarToast('<i class="fas fa-check"></i> Enlace copiado', 'ok')).catch(() => {});
+    }
+}
+
 const modal = $('#detailModal');
 function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
 function cerrarModal() {
