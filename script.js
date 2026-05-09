@@ -1037,6 +1037,10 @@ const ANCESTRAL_PUEBLOS = {
     huilliche: { label: 'Huilliche / Chiloé', emoji: '🏝️', color: '#5a8a7a', keys: ['huilliche','chilote'] },
     aymara:    { label: 'Aymara',    emoji: '☀️', color: '#c8922a', keys: ['aymara'] },
     atacameno: { label: 'Atacameño / Likan Antai', emoji: '🌵', color: '#c97b56', keys: ['atacameno','likan antai','atacameño'] },
+    rapanui:   { label: 'Rapa Nui',  emoji: '🗿', color: '#7a5a9a', keys: ['rapa nui','rapanui'] },
+    diaguita:  { label: 'Diaguita', emoji: '⛰️', color: '#9a6a3a', keys: ['diaguita'] },
+    kawesqar:  { label: 'Kawésqar', emoji: '🛶', color: '#3a7a8a', keys: ['kawésqar','kawesqar'] },
+    selknam:   { label: 'Selknam / Yagán', emoji: '❄️', color: '#5a7aaa', keys: ['selknam','yagán','yagan'] },
     ritual:    { label: 'Rituales y Ceremonias', emoji: '🪶', color: '#9b7ab4', keys: ['ritual','ceremonial','machitun','guillatun','machi'] }
 };
 
@@ -1048,6 +1052,10 @@ const ANCESTRAL_CONTEXTO = {
     huilliche: { titulo: 'Huilliche / Chilote — Medicina del Archipiélago', desc: 'En la Isla Grande de Chiloé convergen tradiciones mapuche huilliche con la medicina popular chilota. Características únicas: uso de manteca de chancho o grasa de animal como vehículo para cataplasmas, murtilla como antidiarreico de referencia, y tepú en baños postparto. El concepto de <em>pichi lawen</em> designa los remedios para niños.' },
     aymara:    { titulo: 'Medicina Aymara — Yatiri y Kallawaya', desc: 'El sistema médico aymara del altiplano chileno incluye la figura del <em>yatiri</em> (adivino-curandero) y el <em>kallawaya</em> (médico itinerante). La medicina se adapta a la altura (3.000–4.500 msnm): plantas como rica-rica, muña, tola y yareta contrarrestan el mal de altura y los rigores del clima andino. La Pachamama es eje espiritual de toda práctica curativa.' },
     atacameno: { titulo: 'Medicina Likan Antai — Desierto de Atacama', desc: 'Los Atacameños o Likan Antai desarrollaron farmacopea adaptada al desierto más árido del mundo. Plantas como talhuén, añañuca y supo del desierto (Tessaria absinthioides) son endémicas de quebradas y oasis. Su medicina integra minerales del desierto (salitre, azufre) con plantas y animales del entorno desértico.' },
+    rapanui:   { titulo: 'Medicina Rapa Nui — Taote y Matua Pua\'a', desc: 'La medicina ancestral de Isla de Pascua es administrada por los <em>taote</em> (médicos tradicionales), que desde 2012 atienden en el hospital de Hanga Roa. El <em>matua pua\'a</em> (Microsorum scolopendria) es la planta más utilizada durante más de 800 años — sus ramas se machacan y cuecen para tratar fracturas, dolor óseo y quemaduras. La medicina rapanui combina fitoterapia con <em>tauromi</em> (masaje) y baños de <em>rare rare</em> (lodo volcánico) del Rano Kau.' },
+    diaguita:  { titulo: 'Medicina Diaguita — Meica y Maychicúa', desc: 'En el norte chico chileno (Atacama y Coquimbo), las mujeres diaguita son las guardianas del saber medicinal. La <em>Meica</em> aprende su oficio acompañando a la <em>Maychicúa</em>, autoridad tradicional de sanación. La transmisión es matrilineal e intergeneracional. Sus plantas clave son la borraja para el parto, el palqui para la purificación, la llareta para las articulaciones y el copao (cactus del semidesierto) para afecciones respiratorias.' },
+    kawesqar:  { titulo: 'Medicina Kawésqar — Nómades de los Canales', desc: 'Los Kawésqar habitaron los canales australes desde el golfo de Penas hasta el estrecho de Magallanes. Su medicina, a diferencia de la mapuche, no era secreto del chamán: todo el grupo conocía las plantas y el saber circulaba oralmente. El canelo (<em>saltáxar</em>) era la planta central: masticaban su corteza como anestésico y hacían lavados con sus hojas para heridas. El calafate (<em>Berberis microphylla</em>) y el apio silvestre (<em>ámtak</em>) completaban su farmacopea patagónica.' },
+    selknam:   { titulo: 'Medicina Selknam / Yagán — Tierra del Fuego', desc: 'Los Selknam (cazadores del interior fueguino) y los Yagán (nómades del Cabo de Hornos) desarrollaron medicina adaptada al clima más extremo de Chile. Su conocimiento botánico era compartido por toda la comunidad. Usaban grasa de lobo marino y guanaco como vehículo para ungüentos protectores del frío, el canelo como antiescorbútico y el michay patagónico (<em>Berberis microphylla</em>) para cicatrizar heridas del viento y la sal.' },
     ritual:    { titulo: 'Preparados Rituales y Ceremoniales', desc: 'Muchas recetas ancestrales tienen dimensión espiritual además de física. El <em>machitún</em> mapuche es la ceremonia central de sanación, el <em>nguillatún</em> implica preparados para la comunidad, y el <em>guillatún aymara</em> involucra ofrendas a la Pachamama. Estos preparados requieren conocimiento profundo del contexto cultural para su uso adecuado.' }
 };
 
@@ -1055,16 +1063,26 @@ function esAncestral(r) {
     const fuente = (r.fuente_tradicion || '').toLowerCase();
     const origen = (r.origen || '').toLowerCase();
     const cat    = (r.categoria || '').toLowerCase();
-    return fuente.includes('mapuche') || fuente.includes('aymara') || fuente.includes('atacameno') ||
-           fuente.includes('atacameño') || fuente.includes('likan') ||
+    return fuente.includes('mapuche') || fuente.includes('aymara') ||
+           fuente.includes('atacameno') || fuente.includes('atacameño') || fuente.includes('likan') ||
+           fuente.includes('rapa nui') || fuente.includes('rapanui') ||
+           fuente.includes('diaguita') || fuente.includes('kawésqar') || fuente.includes('kawesqar') ||
+           fuente.includes('selknam') || fuente.includes('yagán') || fuente.includes('yagan') ||
            origen.includes('mapuche') || origen.includes('aymara') ||
-           origen.includes('atacameno') || origen.includes('atacameño') ||
-           origen.includes('likan') || cat === 'medicina mapuche';
+           origen.includes('atacameno') || origen.includes('atacameño') || origen.includes('likan') ||
+           origen.includes('rapa nui') || origen.includes('rapanui') ||
+           origen.includes('diaguita') || origen.includes('kawésqar') || origen.includes('kawesqar') ||
+           origen.includes('selknam') || origen.includes('yagán') || origen.includes('yagan') ||
+           cat === 'medicina mapuche';
 }
 
 function puebloDeReceta(r) {
     const txt = ((r.origen || '') + ' ' + (r.fuente_tradicion || '') + ' ' + (r.titulo || '')).toLowerCase();
     if (txt.includes('ritual') || txt.includes('ceremonial') || txt.includes('machitun') || txt.includes('machitún') || txt.includes('guillatun') || txt.includes('guillatún') || txt.includes('nguillatun')) return 'ritual';
+    if (txt.includes('selknam') || txt.includes('yagán') || txt.includes('yagan')) return 'selknam';
+    if (txt.includes('kawésqar') || txt.includes('kawesqar')) return 'kawesqar';
+    if (txt.includes('diaguita')) return 'diaguita';
+    if (txt.includes('rapa nui') || txt.includes('rapanui')) return 'rapanui';
     if (txt.includes('atacameno') || txt.includes('atacameño') || txt.includes('likan')) return 'atacameno';
     if (txt.includes('aymara')) return 'aymara';
     if (txt.includes('huilliche') || txt.includes('chilote')) return 'huilliche';
