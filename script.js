@@ -1581,14 +1581,15 @@ function configurarShareBtn(title, text) {
     btn.style.display = 'flex';
     btn.title = 'Compartir';
     btn.innerHTML = '<i class="fas fa-share-alt"></i>';
-    if (navigator.share) {
-        btn.onclick = () => navigator.share({ title, text, url: window.location.href }).catch(() => {});
-    } else {
-        btn.title = 'Copiar enlace';
-        btn.innerHTML = '<i class="fas fa-link"></i>';
-        btn.onclick = () => navigator.clipboard?.writeText(window.location.href).then(() =>
-            mostrarToast('<i class="fas fa-check"></i> Enlace copiado', 'ok')).catch(() => {});
-    }
+    btn.onclick = () => {
+        if (navigator.share) {
+            navigator.share({ title, text, url: window.location.href }).catch(() => {});
+        } else {
+            navigator.clipboard?.writeText(window.location.href).then(() =>
+                mostrarToast('<i class="fas fa-share-alt"></i> Enlace copiado al portapapeles', 'ok')
+            ).catch(() => {});
+        }
+    };
 }
 
 const modal = $('#detailModal');
