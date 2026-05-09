@@ -3219,31 +3219,120 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .matern-disclaimer strong { color: var(--terracotta-soft); }
 
 /* Subtabs Embarazo / Lactancia */
-.matern-subtabs {
-    display: flex; gap: 8px; margin-bottom: 22px;
-    padding: 5px;
+/* ── Menú de navegación Maternidad (tarjetas elegantes) ── */
+.matern-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.matern-nav-card {
+    display: flex; align-items: center; gap: 14px;
+    padding: 16px 18px;
+    border-radius: var(--r);
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    border-radius: 999px;
-    width: fit-content;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.25s var(--ease);
+    position: relative; overflow: hidden;
 }
-.matern-btn {
-    padding: 9px 22px; border-radius: 999px;
-    font-size: 0.88rem; font-weight: 500;
-    color: var(--text-soft); font-family: inherit;
-    transition: all 0.3s var(--ease);
-    display: flex; align-items: center; gap: 7px;
+.matern-nav-card::before {
+    content: '';
+    position: absolute; inset: 0;
+    opacity: 0;
+    transition: opacity 0.25s var(--ease);
 }
-.matern-btn.active {
-    background: var(--grad-maternidad);
-    color: #fff; font-weight: 600;
-    box-shadow: 0 4px 16px rgba(168,112,154,0.4);
+.matern-nav-card[data-matern="embarazo"]::before  { background: var(--grad-maternidad); }
+.matern-nav-card[data-matern="lactancia"]::before { background: var(--grad-lactancia); }
+.matern-nav-card[data-matern="recetas"]::before   { background: linear-gradient(135deg,#7a6a3a,#b8963e,#d4b878); }
+
+.matern-nav-card:hover {
+    border-color: var(--glass-border-hi);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
-.matern-btn[data-matern="lactancia"].active {
-    background: var(--grad-lactancia);
-    box-shadow: 0 4px 16px rgba(112,168,204,0.4);
+.matern-nav-card:hover::before  { opacity: 0.08; }
+.matern-nav-card.active {
+    border-color: rgba(255,255,255,0.18);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.3);
 }
-.matern-btn:hover:not(.active) { color: var(--text); background: var(--glass-bg-hi); }
+.matern-nav-card.active::before { opacity: 0.15; }
+
+/* Icono */
+.mnav-icon-wrap {
+    width: 46px; height: 46px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem; flex-shrink: 0;
+    position: relative; z-index: 1;
+    transition: transform 0.25s var(--ease);
+}
+.matern-nav-card:hover .mnav-icon-wrap,
+.matern-nav-card.active .mnav-icon-wrap { transform: scale(1.08); }
+
+.mnav-emb {
+    background: rgba(168,112,154,0.2);
+    color: var(--matern-rose);
+    box-shadow: 0 0 0 1px rgba(168,112,154,0.3);
+}
+.matern-nav-card[data-matern="embarazo"].active .mnav-emb {
+    background: rgba(168,112,154,0.35);
+    box-shadow: 0 0 16px rgba(168,112,154,0.5);
+}
+.mnav-lac {
+    background: rgba(112,168,204,0.2);
+    color: var(--matern-blue);
+    box-shadow: 0 0 0 1px rgba(112,168,204,0.3);
+}
+.matern-nav-card[data-matern="lactancia"].active .mnav-lac {
+    background: rgba(112,168,204,0.35);
+    box-shadow: 0 0 16px rgba(112,168,204,0.5);
+}
+.mnav-rec {
+    background: rgba(180,150,60,0.2);
+    color: #c9a84c;
+    box-shadow: 0 0 0 1px rgba(180,150,60,0.3);
+}
+.matern-nav-card[data-matern="recetas"].active .mnav-rec {
+    background: rgba(180,150,60,0.35);
+    box-shadow: 0 0 16px rgba(180,150,60,0.5);
+}
+
+/* Texto */
+.mnav-body {
+    display: flex; flex-direction: column; gap: 2px;
+    flex: 1; min-width: 0;
+    position: relative; z-index: 1;
+}
+.mnav-title {
+    font-size: 0.95rem; font-weight: 700;
+    color: var(--text); letter-spacing: 0.01em;
+}
+.mnav-desc {
+    font-size: 0.74rem; color: var(--text-mute);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.matern-nav-card.active .mnav-title { color: #fff; }
+.matern-nav-card.active .mnav-desc  { color: rgba(255,255,255,0.65); }
+
+/* Flecha */
+.mnav-arrow {
+    font-size: 0.7rem; color: var(--text-mute);
+    position: relative; z-index: 1;
+    transition: transform 0.2s var(--ease), color 0.2s;
+    flex-shrink: 0;
+}
+.matern-nav-card:hover .mnav-arrow  { transform: translateX(3px); color: var(--text-soft); }
+.matern-nav-card.active .mnav-arrow { color: rgba(255,255,255,0.5); transform: translateX(3px); }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .matern-nav { grid-template-columns: 1fr; gap: 8px; }
+    .matern-nav-card { padding: 13px 14px; }
+    .mnav-icon-wrap { width: 40px; height: 40px; font-size: 1rem; }
+    .mnav-title { font-size: 0.9rem; }
+}
 
 /* Sección */
 .matern-section { display: none; }
