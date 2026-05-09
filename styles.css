@@ -188,9 +188,9 @@ header {
 }
 
 .brand-text h1 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
     line-height: 1.1;
 }
 .brand-text .sub {
@@ -4452,11 +4452,10 @@ body.custom-cursor-on .cursor-ring { display: block; }
 /* ── RECETARIO — BUSCADOR POR SÍNTOMA ── */
 .receta-search-section {
     margin: 0 0 18px 0;
-    padding: 20px 24px 16px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
+    padding: 24px 28px 20px;
+    background: var(--bg-2);
+    border: 1px solid rgba(255,255,255,0.10);
     border-radius: var(--r-xl);
-    backdrop-filter: blur(12px);
 }
 .receta-search-wrap {
     display: flex;
@@ -4513,17 +4512,17 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin-top: 4px;
 }
 .rsis-btn {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid var(--glass-border);
+    background: rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.08);
     border-radius: var(--r-md);
     color: var(--text-soft);
-    padding: 10px 6px 8px;
+    padding: 12px 6px 10px;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: transform 0.18s var(--ease-out), box-shadow 0.18s, border-color 0.18s, background 0.18s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -4536,32 +4535,35 @@ body.custom-cursor-on .cursor-ring { display: block; }
     opacity: 0;
     transition: opacity 0.2s;
 }
-.rsis-btn:hover::before { opacity: 0.08; }
-.rsis-btn.active::before { opacity: 0.14; }
+.rsis-btn:hover::before { opacity: 0.12; }
+.rsis-btn.active::before { opacity: 0.22; }
 .rsis-btn:hover {
-    border-color: rgba(255,255,255,0.14);
-    transform: translateY(-1px);
+    border-color: rgba(255,255,255,0.18);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
 }
 .rsis-btn.active {
-    border-color: rgba(255,255,255,0.22);
-    box-shadow: 0 0 0 2px color-mix(in srgb, var(--rsis-color, var(--moss)) 40%, transparent);
+    border-color: color-mix(in srgb, var(--rsis-color, var(--moss)) 60%, transparent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--rsis-color, var(--moss)) 35%, transparent),
+                0 6px 20px rgba(0,0,0,0.3);
+    color: var(--text);
 }
 .rsis-ico {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     line-height: 1;
     position: relative;
 }
 .rsis-label {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text);
     letter-spacing: 0.01em;
     position: relative;
 }
 .rsis-desc {
-    font-size: 0.62rem;
+    font-size: 0.67rem;
     color: var(--text-mute);
-    line-height: 1.2;
+    line-height: 1.3;
     position: relative;
 }
 
@@ -4602,10 +4604,11 @@ body.custom-cursor-on .cursor-ring { display: block; }
     white-space: nowrap;
 }
 .rdol-chip:hover {
-    background: rgba(155,187,122,0.12);
-    border-color: rgba(155,187,122,0.4);
+    background: rgba(155,187,122,0.14);
+    border-color: rgba(155,187,122,0.45);
     color: var(--moss-bright);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 /* Resultados de búsqueda de recetas */
@@ -4643,39 +4646,63 @@ body.custom-cursor-on .cursor-ring { display: block; }
 
 .rsearch-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
 }
 .rsearch-card {
     background: var(--bg-2);
-    border: 1px solid var(--glass-border);
+    border: 1px solid rgba(255,255,255,0.09);
     border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s, border-color 0.2s;
     display: flex;
     flex-direction: column;
 }
 .rsearch-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-    border-color: rgba(155,187,122,0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(155,187,122,0.2);
+    border-color: rgba(155,187,122,0.35);
 }
 .rsearch-cat {
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.9);
-    padding: 6px 12px;
+    color: rgba(255,255,255,0.95);
+    padding: 7px 14px;
 }
 .rsearch-titulo {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     font-weight: 600;
     color: var(--text);
-    padding: 8px 12px 4px;
+    padding: 10px 14px 4px;
     margin: 0;
     line-height: 1.35;
+}
+/* Click affordance footer */
+.rsearch-card-footer {
+    margin-top: auto;
+    padding: 8px 14px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rsearch-ver {
+    font-size: 0.72rem;
+    color: var(--moss-bright);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.18s, transform 0.18s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.rsearch-card:hover .rsearch-ver {
+    opacity: 1;
+    transform: translateX(0);
 }
 .rsearch-ing {
     font-size: 0.78rem;
@@ -4697,6 +4724,13 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin-bottom: 8px;
 }
 .rsearch-meta i { margin-right: 3px; }
+.rsearch-meta-inline {
+    display: flex;
+    gap: 10px;
+    font-size: 0.73rem;
+    color: var(--text-mute);
+}
+.rsearch-meta-inline i { margin-right: 3px; color: var(--text-mute); }
 .rsearch-ver-btn {
     margin: auto 12px 10px;
     background: rgba(155,187,122,0.1);
@@ -4777,9 +4811,10 @@ body.custom-cursor-on .cursor-ring { display: block; }
     .rsis-desc { display: none; }
 }
 @media (max-width: 480px) {
-    .receta-search-section { padding: 14px 14px 12px; }
+    .receta-search-section { padding: 16px 16px 14px; }
     .receta-sistemas-grid { grid-template-columns: repeat(3, 1fr); }
     .rsearch-grid { grid-template-columns: 1fr; }
+    .rsearch-ver { opacity: 1; transform: none; }
 }
 <<<<<<< HEAD
 =======
