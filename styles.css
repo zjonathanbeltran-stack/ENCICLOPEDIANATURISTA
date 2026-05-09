@@ -4567,14 +4567,28 @@ body.custom-cursor-on .cursor-ring { display: block; }
     color: var(--text);
 }
 .rsis-ico {
-    font-size: 1.9rem;
-    line-height: 1;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 18%, rgba(0,0,0,0.45));
+    border: 1px solid color-mix(in srgb, var(--rsis-color, var(--moss)) 50%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    color: color-mix(in srgb, var(--rsis-color, var(--moss)) 85%, #fff);
+    transition: transform 0.22s var(--ease-out), box-shadow 0.22s;
     position: relative;
-    filter: drop-shadow(0 3px 10px color-mix(in srgb, var(--rsis-color, var(--moss)) 80%, transparent));
-    transition: transform 0.22s var(--ease-out);
+    flex-shrink: 0;
 }
-.rsis-btn:hover .rsis-ico { transform: scale(1.18) translateY(-2px); }
-.rsis-btn.active .rsis-ico { transform: scale(1.1); }
+.rsis-btn:hover .rsis-ico {
+    transform: scale(1.12) translateY(-2px);
+    box-shadow: 0 6px 20px color-mix(in srgb, var(--rsis-color, var(--moss)) 55%, transparent);
+}
+.rsis-btn.active .rsis-ico {
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 32%, rgba(0,0,0,0.3));
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--rsis-color, var(--moss)) 60%, transparent);
+}
 .rsis-label {
     font-size: 0.77rem;
     font-weight: 700;
