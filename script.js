@@ -6,6 +6,31 @@
 let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
+
+// ── Lazy loading de recetas ──
+let _recetasCargadas  = false;
+let _recetasCargando  = null; // Promise en vuelo
+
+async function cargarRecetas() {
+    if (_recetasCargadas) return true;
+    if (_recetasCargando) return _recetasCargando;
+    _recetasCargando = (async () => {
+        try {
+            const r = await fetch('data/recetas.json');
+            if (!r.ok) throw new Error('Error cargando recetas.json');
+            recetasDB = await r.json();
+            _recetasCargadas = true;
+            renderCategoriasChips();
+            actualizarChipCounts();
+            return true;
+        } catch (e) {
+            console.error(e);
+            _recetasCargando = null;
+            return false;
+        }
+    })();
+    return _recetasCargando;
+}
 let filtroChiloe = false;
 let mostrandoFavoritos = false;
 let busqueda = '';
@@ -1810,8 +1835,9 @@ function cambiarTab(tabId) {
         activeTabBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
     if (tabId === 'plants') renderPlantas();
-    if (tabId === 'stats') renderEstadisticas();
-    if (tabId === 'maternidad') renderMaternidad();
+    if (tabId === 'stats') cargarRecetas().then(() => renderEstadisticas());
+    if (tabId === 'maternidad') cargarRecetas().then(() => renderMaternidad());
+    if (tabId === 'recipes' || tabId === 'dolencias') cargarRecetas();
     setTimeout(() => applyReveal(document), 50);
 }
 
@@ -2410,7 +2436,7 @@ function cerrarQuizModal() {
 // ════════════════════════════════════════════════════════════════════
 // HASH ROUTING — URLs amigables por planta y receta
 // ════════════════════════════════════════════════════════════════════
-function resolverHash() {
+async function resolverHash() {
     const hash = location.hash.replace('#', '');
     if (!hash) return;
 
@@ -2420,6 +2446,7 @@ function resolverHash() {
         const planta = plantasDB.find(p => slugify(p.nombre) === valor);
         if (planta) { cambiarTab('plants'); abrirDetallePlanta(planta.id); }
     } else if (tipo === 'receta' && valor) {
+        await cargarRecetas();
         const id = parseInt(valor, 10);
         const receta = recetasDB.find(r => r.id === id);
         if (receta) { cambiarTab('recipes'); abrirDetalleReceta(receta.id); }
@@ -2464,17 +2491,13 @@ function inyectarJsonLdPlantas() {
 // ════════════════════════════════════════════════════════════════════
 async function inicializar() {
     try {
-        const [rPlant, rRecet] = await Promise.all([
-            fetch('data/plantas.json'),
-            fetch('data/recetas.json')
-        ]);
-        if (!rPlant.ok || !rRecet.ok) throw new Error('No se pudieron cargar los datos.');
+        // 1. Cargar solo plantas — render inmediato
+        const rPlant = await fetch('data/plantas.json');
+        if (!rPlant.ok) throw new Error('No se pudieron cargar los datos.');
         plantasDB = await rPlant.json();
-        recetasDB = await rRecet.json();
 
         renderPlantas();
         renderSistemasBusqueda();
-        renderCategoriasChips();
         actualizarBtnFavoritos();
         moverIndicador();
 
@@ -2482,23 +2505,21 @@ async function inicializar() {
         initParticles();
         startParticles();
 
-        // Nuevas features
         renderPlantaDelDia();
         renderTemporadaBanner();
         actualizarProgreso();
         initAutocompletado();
         initCursor();
 
-        // Chip counts (need data to be loaded first)
         actualizarChipCounts();
-
         applyReveal(document);
-
-        // Inyectar JSON-LD dinámico con lista de plantas para SEO
         inyectarJsonLdPlantas();
 
-        // Resolver hash en la URL (enlace directo a planta o receta)
-        resolverHash();
+        // 2. Resolver hash — si apunta a receta, espera carga
+        await resolverHash();
+
+        // 3. Precargar recetas en background sin bloquear
+        cargarRecetas();
     } catch (err) {
         plantListDiv.innerHTML = `
             <div class="empty">
@@ -2893,11 +2914,12 @@ inicializar();
         const clr = document.getElementById('recetaSearchClear');
         if (clr) clr.hidden = !e.target.value;
         clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
+        debounceTimer = setTimeout(async () => {
             const q = e.target.value.trim();
             if (q.length < 2) { limpiarRecetaSearch(); return; }
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            await cargarRecetas();
             renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
         }, 280);
     });
