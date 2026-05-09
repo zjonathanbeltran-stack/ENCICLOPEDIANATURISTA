@@ -239,6 +239,7 @@ Los screenshots del preview pueden timeout por las animaciones CSS (`orbDrift`, 
 | Texto técnico en inglés en el UI | Todo el UI en español de Chile |
 | Modales sin botón de cerrar accesible | Siempre: botón ×, clic en overlay, tecla Esc |
 | Confirmaciones de eliminación sin advertencia | Siempre avisar antes de acciones destructivas |
+| Botones/tarjetas del mismo aspecto genérico oscuro | Cada elemento con identidad visual propia usando `--rsis-color` (fondo tintado, borde y glow del color del sistema) |
 
 ---
 
