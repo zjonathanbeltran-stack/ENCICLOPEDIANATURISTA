@@ -9,8 +9,6 @@ let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 let filtroChiloe = false;
 let mostrandoFavoritos = false;
 let busqueda = '';
-let sistemaActivo = null;        // qué sistema está abierto en el hub
-let categoriaFiltro = null;       // filtro de subcategoría dentro del sistema
 
 const MESES = ['', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 
@@ -372,8 +370,6 @@ const DOLENCIAS = [
     { id:'kume-mogen',       nombre:'Küme Mogen — Bienestar integral', emoji:'🌿', sistema:'mapuche', keywords:['kume','mogen','bienestar','integral','mapuche','equilibrio','machi'],       cats:['Medicina Mapuche'] },
 ];
 
-let dolenciaActiva = null;
-
 const SISTEMAS_BUSQUEDA = [
     { id:'digestivo',      emoji:'🌿', label:'Digestivo',     desc:'Estómago · Hígado · Intestino',     color:'#6a8a52' },
     { id:'respiratorio',   emoji:'🫁', label:'Respiratorio',  desc:'Tos · Gripe · Sinusitis',           color:'#5b8aa0' },
@@ -485,7 +481,6 @@ function buscarRecetasPorSintoma(query) {
 
 function renderRecetaSearchResults(recetas, query) {
     const cont = document.getElementById('recetaSearchResults');
-    const accordion = document.getElementById('systemAccordion');
     if (!cont) return;
 
     if (recetas.length === 0) {
@@ -504,7 +499,6 @@ function renderRecetaSearchResults(recetas, query) {
                 </div>` : `<p class="rsearch-empty-hint">Intenta con otro término o elige un sistema corporal arriba.</p>`}
             </div>`;
         cont.style.display = 'block';
-        if (accordion) accordion.style.display = 'none';
         cont.querySelectorAll('.rsearch-sug-chip').forEach(btn => {
             btn.addEventListener('click', () => {
                 const q2 = btn.dataset.q;
@@ -564,12 +558,10 @@ function limpiarRecetaSearch() {
     const inp = document.getElementById('recetaSearchInput');
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
-    const accordion = document.getElementById('systemAccordion');
     const panel = document.getElementById('recetaDolenciasPanel');
     if (inp) inp.value = '';
     if (clr) clr.hidden = true;
     if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
-    if (accordion) accordion.style.display = '';
     if (panel) panel.hidden = true;
     document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
 }
@@ -581,129 +573,6 @@ function recetasParaDolencia(dol) {
         const hay = normDol([r.titulo, r.ingredientes, r.preparacion, r.dosis].join(' '));
         return kws.some(k => hay.includes(k));
     });
-}
-
-function renderDolencias() {
-    const grid = $('#dolenciasGrid');
-    if (!grid) return;
-    const inputEl = $('#dolenciasInput');
-    const query = normDol(inputEl ? inputEl.value : '');
-
-    const filtradas = query
-        ? DOLENCIAS.filter(d =>
-            normDol(d.nombre).includes(query) ||
-            d.keywords.some(k => k.includes(query)))
-        : DOLENCIAS;
-
-    if (filtradas.length === 0) {
-        grid.innerHTML = '<p class="dol-empty">No se encontraron dolencias para esa búsqueda.</p>';
-        return;
-    }
-
-    const grupos = {};
-    filtradas.forEach(d => {
-        (grupos[d.sistema] = grupos[d.sistema] || []).push(d);
-    });
-
-    let html = '';
-    SISTEMAS_DOL.forEach(sis => {
-        const grupo = grupos[sis.id];
-        if (!grupo) return;
-        html += `<div class="dol-grupo reveal">
-            <div class="dol-grupo-hdr" style="background:${sis.gradient}">
-                <span class="dol-grupo-emoji">${sis.emoji}</span>
-                <span class="dol-grupo-nombre">${sis.nombre}</span>
-            </div>
-            <div class="dol-cards">`;
-        grupo.forEach(d => {
-            const count = recetasParaDolencia(d).length;
-            const isActive = dolenciaActiva && dolenciaActiva.id === d.id;
-            html += `<button class="dol-card${isActive ? ' active' : ''}" data-dol="${d.id}">
-                <span class="dol-card-emoji">${d.emoji}</span>
-                <span class="dol-card-nombre">${d.nombre}</span>
-                <span class="dol-card-badge">${count}</span>
-            </button>`;
-        });
-        html += '</div></div>';
-    });
-
-    grid.innerHTML = html;
-
-    grid.querySelectorAll('.dol-card').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const d = DOLENCIAS.find(x => x.id === btn.dataset.dol);
-            if (d) mostrarResultadosDolencia(d);
-        });
-    });
-
-    setTimeout(() => applyReveal(document), 40);
-}
-
-function mostrarResultadosDolencia(dol) {
-    dolenciaActiva = dol;
-    $$('.dol-card').forEach(b => b.classList.toggle('active', b.dataset.dol === dol.id));
-
-    const matches = recetasParaDolencia(dol);
-    const resultados = $('#dolenciasResultados');
-    if (!resultados) return;
-
-    const backBtn = `<button class="dol-back-btn" id="dolBackBtn"><i class="fas fa-arrow-left"></i> Volver</button>`;
-    const header = `<div class="dol-res-hdr">
-        ${backBtn}
-        <div class="dol-res-title-wrap">
-            <span class="dol-res-emoji">${dol.emoji}</span>
-            <div>
-                <h3 class="dol-res-titulo">${dol.nombre}</h3>
-                <span class="dol-res-count">${matches.length} receta${matches.length !== 1 ? 's' : ''} encontrada${matches.length !== 1 ? 's' : ''}</span>
-            </div>
-        </div>
-    </div>`;
-
-    let cardsHtml = '';
-    if (matches.length === 0) {
-        cardsHtml = '<p class="dol-empty">No encontramos recetas específicas. Intenta buscar en el Recetario.</p>';
-    } else {
-        cardsHtml = '<div class="dol-recetas-grid">';
-        matches.slice(0, 60).forEach(r => {
-            const ing = (r.ingredientes || '').substring(0, 90);
-            const ingCorto = r.ingredientes && r.ingredientes.length > 90 ? ing + '…' : ing;
-            const usoText = CATEGORIA_USO[r.categoria] || '';
-            cardsHtml += `<div class="dol-receta-card" data-rid="${r.id}">
-                <div class="dol-receta-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
-                <h4 class="dol-receta-titulo">${r.titulo}</h4>
-                ${usoText ? `<p class="dol-receta-uso"><i class="fas fa-bullseye"></i> ${usoText}</p>` : ''}
-                <p class="dol-receta-ing"><i class="fas fa-leaf"></i> ${ingCorto}</p>
-                <div class="dol-receta-meta">
-                    <span><i class="fas fa-clock"></i> ${r.tiempo_prep || '—'}</span>
-                    <span><i class="fas fa-signal"></i> ${r.dificultad || '—'}</span>
-                </div>
-                <button class="dol-ver-btn" data-rid="${r.id}">Ver receta <i class="fas fa-arrow-right"></i></button>
-            </div>`;
-        });
-        cardsHtml += '</div>';
-        if (matches.length > 60) {
-            cardsHtml += `<p class="dol-mas">Mostrando 60 de ${matches.length} recetas. Afina la búsqueda para ver más.</p>`;
-        }
-    }
-
-    resultados.innerHTML = header + cardsHtml;
-    resultados.style.display = 'block';
-
-    setTimeout(() => resultados.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
-
-    $('#dolBackBtn').addEventListener('click', cerrarResultadosDolencia);
-    resultados.addEventListener('click', (e) => {
-        const card = e.target.closest('[data-rid]');
-        if (!card) return;
-        abrirDetalleReceta(parseInt(card.dataset.rid));
-    });
-}
-
-function cerrarResultadosDolencia() {
-    dolenciaActiva = null;
-    const r = $('#dolenciasResultados');
-    if (r) { r.style.display = 'none'; r.innerHTML = ''; }
-    $$('.dol-card').forEach(b => b.classList.remove('active'));
 }
 
 // ════════════════════════════════════════════════════════════════════
@@ -1219,17 +1088,16 @@ function abrirDetallePlanta(id) {
     if (recetasDeEstaPlanta.length) {
         $('#verRecetasBtn').addEventListener('click', () => {
             cerrarModal();
-            // Ir a Recetario y filtrar por nombre de la planta
             cambiarTab('recipes');
-            // Si hay un sistema activo de antes, volver al hub
-            volverAlHub();
-            // Buscar recetas con esta planta
-            busqueda = p.nombre;
-            $('#searchInput').value = p.nombre;
-            // Abrir el primer sistema que tenga recetas
-            const primerCat = recetasDeEstaPlanta[0].categoria;
-            const sisDest = sistemaDeCategoria(primerCat);
-            if (sisDest) setTimeout(() => abrirSistema(sisDest.id), 200);
+            // Usar el nuevo buscador del recetario con el nombre de la planta
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            if (inp) { inp.value = p.nombre; }
+            if (clr) clr.hidden = false;
+            setTimeout(() => {
+                const res = buscarRecetasPorSintoma(p.nombre);
+                renderRecetaSearchResults(res, p.nombre);
+            }, 80);
         });
         $$('#relatedRecipes .related-recipe-mini').forEach(btn => {
             btn.addEventListener('click', () => {
@@ -1333,205 +1201,6 @@ function resetearFiltros() {
 // RECETARIO — ACCORDION
 // ════════════════════════════════════════════════════════════════════
 
-// Estado por fila de accordion: { sisId -> categoriaFiltro }
-const accCatFiltros = {};
-
-function renderSystemHub() {
-    const accordion = $('#systemAccordion');
-    if (!accordion) return;
-
-    accordion.innerHTML = SISTEMAS.map((sis, idx) => {
-        const count = recetasDB.filter(r => sis.cats.includes(r.categoria)).length;
-        if (count === 0) return '';
-
-        // Extraer colores representativos del gradiente para stripe e icono
-        return `
-            <div class="acc-row reveal" data-system="${sis.id}" style="--reveal-delay:${idx * 50}ms">
-                <button class="acc-trigger" aria-expanded="false" aria-controls="acc-panel-${sis.id}" style="--_grad: ${sis.gradient};">
-                    <div class="acc-stripe" style="background: ${sis.gradient};"></div>
-                    <div class="acc-icon" style="background: ${sis.gradient}; color: rgba(255,255,255,0.92);">
-                        ${sis.icon}
-                    </div>
-                    <div class="acc-info">
-                        <div class="acc-name">${sis.nombre}</div>
-                        <div class="acc-desc">${sis.descripcion}</div>
-                    </div>
-                    <div class="acc-count" style="background: ${sis.gradient}; color: rgba(255,255,255,0.9);">${count}</div>
-                    <div class="acc-chevron">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M6 9l6 6 6-6"/>
-                        </svg>
-                    </div>
-                </button>
-                <div class="acc-panel" id="acc-panel-${sis.id}" role="region">
-                    <div class="acc-panel-inner">
-                        <div class="acc-cat-filters" data-sis="${sis.id}"></div>
-                        <div class="recipes-list" id="recipes-${sis.id}"></div>
-                    </div>
-                </div>
-            </div>
-        `;
-    }).join('');
-
-    // Listeners de cada trigger
-    accordion.querySelectorAll('.acc-trigger').forEach(trigger => {
-        trigger.addEventListener('click', () => {
-            const row = trigger.closest('.acc-row');
-            const sisId = row.dataset.system;
-            const isOpen = row.classList.contains('open');
-
-            // Cerrar todos
-            accordion.querySelectorAll('.acc-row.open').forEach(r => {
-                r.classList.remove('open');
-                r.querySelector('.acc-trigger').setAttribute('aria-expanded', 'false');
-            });
-
-            // Abrir el clickeado si estaba cerrado
-            if (!isOpen) {
-                row.classList.add('open');
-                trigger.setAttribute('aria-expanded', 'true');
-                sistemaActivo = SISTEMAS.find(s => s.id === sisId);
-                categoriaFiltro = accCatFiltros[sisId] || null;
-                renderAccordionRecetas(sisId);
-                // Scroll suave al trigger
-                setTimeout(() => {
-                    const top = row.getBoundingClientRect().top + window.scrollY - 80;
-                    window.scrollTo({ top, behavior: 'smooth' });
-                }, 60);
-            } else {
-                sistemaActivo = null;
-                categoriaFiltro = null;
-            }
-        });
-    });
-
-    applyReveal(accordion);
-}
-
-function renderAccordionRecetas(sisId) {
-    const sis = SISTEMAS.find(s => s.id === sisId);
-    if (!sis) return;
-
-    const catFiltro = accCatFiltros[sisId] || null;
-    let lista = recetasDB.filter(r => sis.cats.includes(r.categoria));
-    const categoriasUsadas = [...new Set(lista.map(r => r.categoria))];
-
-    // Render filtros de subcategoría
-    const filtersEl = document.querySelector(`.acc-cat-filters[data-sis="${sisId}"]`);
-    if (filtersEl && filtersEl.childElementCount === 0) {
-        // Solo renderizar filtros la primera vez
-        filtersEl.innerHTML = `
-            <button class="chip ${!catFiltro ? 'active' : ''}" data-cat="">Todas</button>
-            ${categoriasUsadas.map(c => {
-                const n = lista.filter(r => r.categoria === c).length;
-                return `<button class="chip ${catFiltro === c ? 'active' : ''}" data-cat="${c}">${c} <span style="opacity:0.55;font-size:0.7em;">${n}</span></button>`;
-            }).join('')}
-        `;
-        filtersEl.querySelectorAll('.chip').forEach(chip => {
-            chip.addEventListener('click', () => {
-                filtersEl.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-                chip.classList.add('active');
-                accCatFiltros[sisId] = chip.dataset.cat || null;
-                categoriaFiltro = accCatFiltros[sisId];
-                renderAccordionRecetas(sisId);
-            });
-        });
-    } else if (filtersEl) {
-        // Actualizar estado active de los chips
-        filtersEl.querySelectorAll('.chip').forEach(chip => {
-            chip.classList.toggle('active', (chip.dataset.cat || null) === catFiltro);
-        });
-    }
-
-    // Filtrar por categoría y búsqueda
-    if (catFiltro) lista = lista.filter(r => r.categoria === catFiltro);
-    if (busqueda) {
-        const t = busqueda.toLowerCase();
-        lista = lista.filter(r =>
-            (r.titulo || '').toLowerCase().includes(t) ||
-            (r.ingredientes || '').toLowerCase().includes(t) ||
-            (r.preparacion || '').toLowerCase().includes(t) ||
-            (r.categoria || '').toLowerCase().includes(t)
-        );
-    }
-
-    const cont = document.getElementById(`recipes-${sisId}`);
-    if (!cont) return;
-
-    if (lista.length === 0) {
-        cont.innerHTML = '<div class="empty" style="grid-column:1/-1"><div class="icon">📖</div><p>No hay recetas con ese filtro.</p></div>';
-        return;
-    }
-
-    cont.innerHTML = lista.map(r => `
-        <div class="recipe-card reveal" data-id="${r.id}">
-            <div class="recipe-art">
-                <div class="grad" style="background: ${gradFromCat(r.categoria)};"></div>
-                <div class="origin-tag">${r.origen}</div>
-                <div class="illus">${ilustracionDeReceta(r)}</div>
-            </div>
-            <div class="recipe-body">
-                <div class="cat-pill">${r.categoria}</div>
-                <h3>${r.titulo}</h3>
-                ${CATEGORIA_USO[r.categoria] ? `<div class="recipe-uso"><i class="fas fa-bullseye"></i> ${CATEGORIA_USO[r.categoria]}</div>` : ''}
-                <div class="ingredients-preview">${r.ingredientes || 'Sin ingredientes registrados'}</div>
-                <div class="read-more">Ver receta completa <i class="fas fa-arrow-right"></i></div>
-            </div>
-        </div>
-    `).join('');
-
-    cont.querySelectorAll('.recipe-card').forEach(card => {
-        const id = parseInt(card.dataset.id);
-        card.addEventListener('click', () => abrirDetalleReceta(id));
-    });
-
-    applyReveal(cont);
-}
-
-// Compatibilidad: mantener función volverAlHub por si se llama desde abrirDetallePlanta
-function volverAlHub() {
-    sistemaActivo = null;
-    categoriaFiltro = null;
-    // Cerrar todos los accordions
-    const accordion = $('#systemAccordion');
-    if (accordion) {
-        accordion.querySelectorAll('.acc-row.open').forEach(r => {
-            r.classList.remove('open');
-            r.querySelector('.acc-trigger').setAttribute('aria-expanded', 'false');
-        });
-    }
-}
-
-function abrirSistema(sisId) {
-    // Redirige a la tab de recetas y abre el accordion del sistema
-    cambiarTab('recipes');
-    setTimeout(() => {
-        const accordion = $('#systemAccordion');
-        if (!accordion) return;
-        // Cerrar todos primero
-        accordion.querySelectorAll('.acc-row.open').forEach(r => {
-            r.classList.remove('open');
-            r.querySelector('.acc-trigger').setAttribute('aria-expanded', 'false');
-        });
-        // Abrir el sistema pedido
-        const row = accordion.querySelector(`.acc-row[data-system="${sisId}"]`);
-        if (!row) return;
-        row.classList.add('open');
-        row.querySelector('.acc-trigger').setAttribute('aria-expanded', 'true');
-        sistemaActivo = SISTEMAS.find(s => s.id === sisId);
-        categoriaFiltro = accCatFiltros[sisId] || null;
-        renderAccordionRecetas(sisId);
-        setTimeout(() => {
-            const top = row.getBoundingClientRect().top + window.scrollY - 80;
-            window.scrollTo({ top, behavior: 'smooth' });
-        }, 100);
-    }, 60);
-}
-
-function renderRecetas() {
-    // Ya no se usa directamente; el accordion llama renderAccordionRecetas
-    if (sistemaActivo) renderAccordionRecetas(sistemaActivo.id);
-}
 
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
@@ -1898,11 +1567,6 @@ function cambiarTab(tabId) {
     }
     if (tabId === 'plants') renderPlantas();
     if (tabId === 'stats') renderEstadisticas();
-    if (tabId === 'dolencias') {
-        dolenciaActiva = null;
-        cerrarResultadosDolencia();
-        renderDolencias();
-    }
     if (tabId === 'maternidad') renderMaternidad();
     setTimeout(() => applyReveal(document), 50);
 }
@@ -2513,7 +2177,6 @@ async function inicializar() {
         recetasDB = await rRecet.json();
 
         renderPlantas();
-        renderSystemHub();
         renderSistemasBusqueda();
         actualizarBtnFavoritos();
         moverIndicador();
@@ -2961,9 +2624,7 @@ inicializar();
                 mostrarDolenciasDeSistema(sistemaId);
                 // Limpiar resultados y texto si hubiera
                 const cont = document.getElementById('recetaSearchResults');
-                const accordion = document.getElementById('systemAccordion');
                 if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
-                if (accordion) accordion.style.display = '';
                 const inp = document.getElementById('recetaSearchInput');
                 const clr = document.getElementById('recetaSearchClear');
                 if (inp) inp.value = '';
@@ -2984,26 +2645,8 @@ inicializar();
     });
 })();
 
-// ── Dolencias: buscador en tiempo real ──────────────────────────────
+// ── Maternidad subtabs ──
 (function() {
-    const inp = $('#dolenciasInput');
-    const clr = $('#dolenciasClear');
-    if (!inp) return;
-    inp.addEventListener('input', () => {
-        if (clr) clr.style.display = inp.value ? 'flex' : 'none';
-        cerrarResultadosDolencia();
-        renderDolencias();
-    });
-    if (clr) {
-        clr.addEventListener('click', () => {
-            inp.value = '';
-            clr.style.display = 'none';
-            cerrarResultadosDolencia();
-            renderDolencias();
-        });
-    }
-
-    // ── Maternidad subtabs ──
     $$('.matern-btn').forEach(btn => {
         btn.addEventListener('click', () => switchMaternSubtab(btn.dataset.matern));
     });

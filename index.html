@@ -100,7 +100,6 @@
             <button class="tab-btn active" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
             <button class="tab-btn" data-tab="recipes"><i class="fas fa-scroll tab-icon"></i><span>Recetario</span></button>
             <button class="tab-btn" data-tab="maternidad"><i class="fas fa-baby tab-icon"></i><span>Maternidad</span></button>
-            <button class="tab-btn" data-tab="dolencias"><i class="fas fa-heart-pulse tab-icon"></i><span>Dolencias</span></button>
             <button class="tab-btn" data-tab="tools"><i class="fas fa-mortar-pestle tab-icon"></i><span>Herramientas</span></button>
             <button class="tab-btn" data-tab="stats"><i class="fas fa-chart-simple tab-icon"></i><span>Estadísticas</span></button>
         </div>
@@ -204,8 +203,6 @@
                 </div>
             </div>
             <div id="recetaSearchResults" class="receta-search-results"></div>
-
-            <div id="systemAccordion" class="system-accordion"></div>
         </div>
 
         <!-- ─────────── HERRAMIENTAS ─────────── -->
@@ -445,34 +442,6 @@
 
 
             </div>
-        </div>
-
-        <!-- ─────────── DOLENCIAS ─────────── -->
-        <div id="dolenciasTab" class="tab-content">
-            <div class="dolencias-hero-wrap">
-                <div class="dolencias-hero-icon-wrap">
-                    <div class="dolencias-hero-icon">🩺</div>
-                    <div class="dolencias-hero-ring"></div>
-                </div>
-                <div class="dolencias-hero-text">
-                    <h2 class="dolencias-h2">Buscar por Dolencia</h2>
-                    <p class="dolencias-sub">Encuentra remedios naturales para lo que te afecta</p>
-                    <div class="dolencias-hero-stats">
-                        <span class="dol-stat"><i class="fas fa-leaf"></i> 68 dolencias</span>
-                        <span class="dol-stat-sep">·</span>
-                        <span class="dol-stat"><i class="fas fa-scroll"></i> 1.058 recetas</span>
-                        <span class="dol-stat-sep">·</span>
-                        <span class="dol-stat"><i class="fas fa-seedling"></i> 85 plantas</span>
-                    </div>
-                </div>
-            </div>
-            <div class="dolencias-search-wrap">
-                <i class="fas fa-search dolencias-search-ico"></i>
-                <input type="text" id="dolenciasInput" class="dolencias-search-input" placeholder="Escribe tu dolencia… ej: piedras en el riñón, insomnio, gastritis" autocomplete="off">
-                <button id="dolenciasClear" class="dolencias-clear-btn" style="display:none" title="Limpiar búsqueda"><i class="fas fa-times"></i></button>
-            </div>
-            <div id="dolenciasGrid" class="dolencias-grid"></div>
-            <div id="dolenciasResultados" class="dolencias-resultados" style="display:none"></div>
         </div>
 
         <!-- ─────────── MATERNIDAD ─────────── -->
