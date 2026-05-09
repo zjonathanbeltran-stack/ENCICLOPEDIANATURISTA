@@ -149,6 +149,7 @@
             <button class="tab-btn active" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
             <button class="tab-btn" data-tab="recipes"><i class="fas fa-scroll tab-icon"></i><span>Recetario</span></button>
             <button class="tab-btn" data-tab="maternidad"><i class="fas fa-baby tab-icon"></i><span>Maternidad</span></button>
+            <button class="tab-btn" data-tab="ancestral"><i class="fas fa-fire tab-icon"></i><span>Medicina Ancestral</span></button>
             <button class="tab-btn" data-tab="tools"><i class="fas fa-mortar-pestle tab-icon"></i><span>Herramientas</span></button>
             <button class="tab-btn" data-tab="stats"><i class="fas fa-chart-simple tab-icon"></i><span>Estadísticas</span></button>
         </div>
@@ -262,6 +263,103 @@
                 </div>
             </div>
             <div id="recetaSearchResults" class="receta-search-results"></div>
+        </div>
+
+        <!-- ─────────── MEDICINA ANCESTRAL ─────────── -->
+        <div id="ancestralTab" class="tab-content">
+
+            <!-- Hero -->
+            <div class="ancestral-hero">
+                <div class="ancestral-hero-bg"></div>
+                <div class="ancestral-hero-content">
+                    <div class="ancestral-hero-icon-wrap">
+                        <div class="ancestral-hero-icon">🔥</div>
+                        <div class="ancestral-hero-ring"></div>
+                    </div>
+                    <div class="ancestral-hero-text">
+                        <h2 class="ancestral-hero-title">Medicina Ancestral</h2>
+                        <p class="ancestral-hero-sub">Saberes curativos de los <strong>pueblos originarios de Chile</strong> — mapuche, aymara y atacameño — transmitidos por generaciones de machis, yatiris y curanderos.</p>
+                        <div class="ancestral-hero-stats">
+                            <span class="anc-stat"><i class="fas fa-scroll"></i> <span id="ancStatRecetas">0</span> recetas ancestrales</span>
+                            <span class="dol-stat-sep">·</span>
+                            <span class="anc-stat"><i class="fas fa-users"></i> <span id="ancStatPueblos">6</span> pueblos originarios</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Patrón decorativo mapuche -->
+                <div class="ancestral-pattern"></div>
+            </div>
+
+            <!-- Disclaimer cultural -->
+            <div class="ancestral-disclaimer">
+                <i class="fas fa-hand-holding-heart"></i>
+                <div><strong>Respeto y contexto cultural:</strong> Estas recetas son parte del patrimonio vivo de pueblos originarios. Úsalas con respeto, sin apropiación. Cuando sea posible, busca orientación de un <em>machi</em> (Mapuche), <em>yatiri</em> (Aymara) o curandera local.</div>
+            </div>
+
+            <!-- Buscador -->
+            <div class="ancestral-search-wrap">
+                <i class="fas fa-search ancestral-search-ico"></i>
+                <input type="text" id="ancestralSearchInput" placeholder="Buscar receta ancestral, planta o dolencia…" autocomplete="off">
+                <button id="ancestralSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Filtros por pueblo -->
+            <div class="ancestral-pueblos-nav">
+                <button class="anc-pueblo-btn active" data-pueblo="todos">
+                    <span class="anc-pueblo-emoji">🌿</span>
+                    <span class="anc-pueblo-name">Todos</span>
+                    <span class="anc-pueblo-count" id="ancCount-todos">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="mapuche">
+                    <span class="anc-pueblo-emoji">🌲</span>
+                    <span class="anc-pueblo-name">Mapuche</span>
+                    <span class="anc-pueblo-count" id="ancCount-mapuche">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="williche">
+                    <span class="anc-pueblo-emoji">🏔️</span>
+                    <span class="anc-pueblo-name">Williche</span>
+                    <span class="anc-pueblo-count" id="ancCount-williche">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="pewenche">
+                    <span class="anc-pueblo-emoji">🌲</span>
+                    <span class="anc-pueblo-name">Pewenche</span>
+                    <span class="anc-pueblo-count" id="ancCount-pewenche">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="lafkenche">
+                    <span class="anc-pueblo-emoji">🌊</span>
+                    <span class="anc-pueblo-name">Lafkenche</span>
+                    <span class="anc-pueblo-count" id="ancCount-lafkenche">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="huilliche">
+                    <span class="anc-pueblo-emoji">🏝️</span>
+                    <span class="anc-pueblo-name">Huilliche</span>
+                    <span class="anc-pueblo-count" id="ancCount-huilliche">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="aymara">
+                    <span class="anc-pueblo-emoji">☀️</span>
+                    <span class="anc-pueblo-name">Aymara</span>
+                    <span class="anc-pueblo-count" id="ancCount-aymara">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="atacameno">
+                    <span class="anc-pueblo-emoji">🌵</span>
+                    <span class="anc-pueblo-name">Atacameño</span>
+                    <span class="anc-pueblo-count" id="ancCount-atacameno">0</span>
+                </button>
+                <button class="anc-pueblo-btn" data-pueblo="ritual">
+                    <span class="anc-pueblo-emoji">🪶</span>
+                    <span class="anc-pueblo-name">Rituales</span>
+                    <span class="anc-pueblo-count" id="ancCount-ritual">0</span>
+                </button>
+            </div>
+
+            <!-- Contexto cultural (se muestra al seleccionar un pueblo) -->
+            <div id="ancestralContexto" class="ancestral-contexto" hidden></div>
+
+            <!-- Grid de recetas -->
+            <div id="ancestralGrid" class="ancestral-grid"></div>
+
         </div>
 
         <!-- ─────────── HERRAMIENTAS ─────────── -->
