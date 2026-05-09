@@ -555,9 +555,26 @@ function _normDif(d) {
     return (d || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
 }
 
+function _normModo(modo) {
+    const s = (modo || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+    if (/infusion|tisana|te\b|herbal/.test(s))             return 'Infusión / Té';
+    if (/compresa|panos|pano|compresas/.test(s))            return 'Compresa';
+    if (/bano\b|banos\b/.test(s))                           return 'Baño';
+    if (/balsa|pomada|crema|unguento|linimento/.test(s))    return 'Ungüento / Bálsamo';
+    if (/jarabe|almíbar|almíbar/.test(s))                   return 'Jarabe';
+    if (/tintura|extracto\b/.test(s))                       return 'Tintura';
+    if (/decocc|coccion/.test(s))                           return 'Decocción';
+    if (/cataplasma|emplasto/.test(s))                      return 'Cataplasma';
+    if (/inhala|vapor|vaporiz/.test(s))                     return 'Inhalación';
+    if (/masaje/.test(s))                                   return 'Masaje';
+    if (/topico|externo|aplicar|frotar/.test(s))            return 'Uso tópico';
+    if (/oral|tomar|beber|ingerir|consumir/.test(s))        return 'Oral';
+    return null; // sin clasificar, no mostrar en chips
+}
+
 function _rfApply() {
     return _rfBase.filter(r => {
-        const catOK = _rfCats.size === 0 || _rfCats.has(r.categoria);
+        const catOK = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
         const difOK = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
         return catOK && difOK;
     });
@@ -666,9 +683,12 @@ function renderRecetaSearchResults(recetas, query) {
 
     const total = recetas.length;
 
-    // Calcular categorías presentes (ordenadas por frecuencia)
+    // Calcular modos de preparación presentes (normalizados, ordenados por frecuencia)
     const catConteo = {};
-    recetas.forEach(r => { catConteo[r.categoria] = (catConteo[r.categoria] || 0) + 1; });
+    recetas.forEach(r => {
+        const modo = _normModo(r.modo_uso);
+        if (modo) catConteo[modo] = (catConteo[modo] || 0) + 1;
+    });
     const cats = Object.entries(catConteo).sort((a, b) => b[1] - a[1]);
 
     // Calcular dificultades presentes
@@ -695,7 +715,7 @@ function renderRecetaSearchResults(recetas, query) {
         ${necesitaFiltros ? `
         <div class="rfilter-bar">
             <div class="rfilter-group">
-                <span class="rfilter-label"><i class="fas fa-tag"></i> Tipo</span>
+                <span class="rfilter-label"><i class="fas fa-mortar-pestle"></i> Preparación</span>
                 <div class="rfilter-chips">
                     ${cats.map(([cat, n]) => `
                     <button class="rfilter-chip" data-cat="${cat}" style="--rfgrad:${gradFromCat(cat)}">
