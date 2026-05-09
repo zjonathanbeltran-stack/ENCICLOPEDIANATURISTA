@@ -550,6 +550,86 @@ function buscarRecetasPorSintoma(query) {
         .map(x => x.r);
 }
 
+// Estado de filtros activos para resultados de recetas
+let _rfBase = [];   // resultado completo sin filtros
+let _rfQuery = '';  // query actual
+let _rfCats  = new Set();
+let _rfDifs  = new Set();
+
+function _normDif(d) {
+    return (d || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
+}
+
+function _rfApply() {
+    return _rfBase.filter(r => {
+        const catOK = _rfCats.size === 0 || _rfCats.has(r.categoria);
+        const difOK = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
+        return catOK && difOK;
+    });
+}
+
+function _rfRenderGrid(filtradas) {
+    const cont = document.getElementById('recetaSearchResults');
+    if (!cont) return;
+    const total = filtradas.length;
+    const base  = _rfBase.length;
+    const mostrar = filtradas.slice(0, 48);
+
+    const countEl = cont.querySelector('.rsearch-count');
+    if (countEl) {
+        countEl.innerHTML = _rfCats.size || _rfDifs.size
+            ? `<strong>${total}</strong> de ${base} recetas para <strong>"${_rfQuery}"</strong>`
+            : `${base} receta${base !== 1 ? 's' : ''} para <strong>"${_rfQuery}"</strong>`;
+    }
+
+    // Actualizar estado activo de chips
+    cont.querySelectorAll('.rfilter-chip[data-cat]').forEach(c =>
+        c.classList.toggle('active', _rfCats.has(c.dataset.cat)));
+    cont.querySelectorAll('.rfilter-chip[data-dif]').forEach(c =>
+        c.classList.toggle('active', _rfDifs.has(c.dataset.dif)));
+
+    const grid = cont.querySelector('.rsearch-grid');
+    if (!grid) return;
+
+    if (total === 0) {
+        grid.innerHTML = `<div class="rsearch-filtro-vacio"><i class="fas fa-filter-circle-xmark"></i> Ninguna receta coincide con estos filtros. <button class="rsearch-filtro-reset">Quitar filtros</button></div>`;
+        grid.querySelector('.rsearch-filtro-reset')?.addEventListener('click', () => {
+            _rfCats.clear(); _rfDifs.clear();
+            _rfRenderGrid(_rfBase);
+        });
+        return;
+    }
+
+    grid.innerHTML = mostrar.map(r => {
+        const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
+        const props = (r.propiedades || []).slice(0, 3);
+        return `
+        <div class="rsearch-card" data-rid="${r.id}">
+            <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
+            <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${uso
+                ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
+            }
+            ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
+            <div class="rsearch-card-footer">
+                <div class="rsearch-meta-inline">
+                    <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
+                    <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
+                </div>
+                <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </div>`;
+    }).join('');
+
+    const mas = cont.querySelector('.rsearch-mas');
+    if (mas) mas.textContent = total > 48 ? `Mostrando 48 de ${total} recetas. Afina los filtros para ver más.` : '';
+
+    grid.querySelectorAll('.rsearch-card').forEach(card => {
+        card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
+    });
+}
+
 function renderRecetaSearchResults(recetas, query) {
     const cont = document.getElementById('recetaSearchResults');
     if (!cont) return;
@@ -583,8 +663,32 @@ function renderRecetaSearchResults(recetas, query) {
         return;
     }
 
+    // Guardar estado base y resetear filtros
+    _rfBase  = recetas;
+    _rfQuery = query;
+    _rfCats.clear();
+    _rfDifs.clear();
+
     const total = recetas.length;
-    const mostrar = recetas.slice(0, 48);
+
+    // Calcular categorías presentes (ordenadas por frecuencia)
+    const catConteo = {};
+    recetas.forEach(r => { catConteo[r.categoria] = (catConteo[r.categoria] || 0) + 1; });
+    const cats = Object.entries(catConteo).sort((a, b) => b[1] - a[1]);
+
+    // Calcular dificultades presentes
+    const difLabel = { facil: 'Fácil', medio: 'Medio', avanzado: 'Avanzado' };
+    const difConteo = {};
+    recetas.forEach(r => {
+        const k = _normDif(r.dificultad);
+        if (difLabel[k]) difConteo[k] = (difConteo[k] || 0) + 1;
+    });
+    const difs = Object.entries(difConteo).sort((a, b) => {
+        const ord = ['facil','medio','avanzado'];
+        return ord.indexOf(a[0]) - ord.indexOf(b[0]);
+    });
+
+    const necesitaFiltros = total > 8;
 
     cont.innerHTML = `
         <div class="rsearch-header">
@@ -593,37 +697,51 @@ function renderRecetaSearchResults(recetas, query) {
                 <i class="fas fa-times"></i> Ver todo el recetario
             </button>
         </div>
-        <div class="rsearch-grid">
-            ${mostrar.map(r => {
-                const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
-                const props = (r.propiedades || []).slice(0, 3);
-                return `
-                <div class="rsearch-card" data-rid="${r.id}">
-                    <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
-                    <h4 class="rsearch-titulo">${r.titulo}</h4>
-                    ${uso
-                        ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
-                        : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
-                    }
-                    ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
-                    <div class="rsearch-card-footer">
-                        <div class="rsearch-meta-inline">
-                            <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
-                            <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
-                        </div>
-                        <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
-                    </div>
-                </div>`;
-            }).join('')}
-        </div>
-        ${total > 48 ? `<p class="rsearch-mas">Mostrando 48 de ${total} recetas. Afina la búsqueda para ver más.</p>` : ''}`;
+        ${necesitaFiltros ? `
+        <div class="rfilter-bar">
+            <div class="rfilter-group">
+                <span class="rfilter-label"><i class="fas fa-tag"></i> Tipo</span>
+                <div class="rfilter-chips">
+                    ${cats.map(([cat, n]) => `
+                    <button class="rfilter-chip" data-cat="${cat}" style="--rfgrad:${gradFromCat(cat)}">
+                        ${cat} <span class="rfilter-n">${n}</span>
+                    </button>`).join('')}
+                </div>
+            </div>
+            ${difs.length > 1 ? `
+            <div class="rfilter-group">
+                <span class="rfilter-label"><i class="fas fa-signal"></i> Dificultad</span>
+                <div class="rfilter-chips">
+                    ${difs.map(([dif, n]) => `
+                    <button class="rfilter-chip rfilter-dif rfilter-dif-${dif}" data-dif="${dif}">
+                        ${difLabel[dif]} <span class="rfilter-n">${n}</span>
+                    </button>`).join('')}
+                </div>
+            </div>` : ''}
+        </div>` : ''}
+        <div class="rsearch-grid"></div>
+        ${total > 48 ? `<p class="rsearch-mas"></p>` : ''}`;
 
     cont.style.display = 'block';
-
-    cont.querySelectorAll('.rsearch-card').forEach(card => {
-        card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
-    });
     document.getElementById('rsearchClearBtn')?.addEventListener('click', limpiarRecetaSearch);
+
+    // Eventos de chips de filtro
+    cont.querySelectorAll('.rfilter-chip[data-cat]').forEach(c => {
+        c.addEventListener('click', () => {
+            if (_rfCats.has(c.dataset.cat)) _rfCats.delete(c.dataset.cat);
+            else _rfCats.add(c.dataset.cat);
+            _rfRenderGrid(_rfApply());
+        });
+    });
+    cont.querySelectorAll('.rfilter-chip[data-dif]').forEach(c => {
+        c.addEventListener('click', () => {
+            if (_rfDifs.has(c.dataset.dif)) _rfDifs.delete(c.dataset.dif);
+            else _rfDifs.add(c.dataset.dif);
+            _rfRenderGrid(_rfApply());
+        });
+    });
+
+    _rfRenderGrid(recetas);
 }
 
 function limpiarRecetaSearch() {
