@@ -437,13 +437,21 @@ function buscarRecetasPorSintoma(query) {
         .trim();
     if (q.length < 2) return [];
 
+    // Matching por palabra completa: evita que "tos" coincida con "parasitos"
+    const palabraCoincide = (haystack, needle) => {
+        if (haystack === needle) return true;
+        if (needle.length >= 4 && haystack.startsWith(needle)) return true;
+        const words = haystack.split(' ');
+        return words.some(w => w === needle || (needle.length >= 4 && w.startsWith(needle)));
+    };
+
     const dolCoincidentes = DOLENCIAS.filter(d => {
         const nombre = normDol(d.nombre);
-        return nombre.includes(q) || q.includes(nombre.split(' ')[0]) ||
-               d.keywords.some(kw => {
-                   const nkw = normDol(kw);
-                   return nkw.includes(q) || q.includes(nkw);
-               });
+        if (q.includes(nombre) || palabraCoincide(nombre, q)) return true;
+        return d.keywords.some(kw => {
+            const nkw = normDol(kw);
+            return q.includes(nkw) || palabraCoincide(nkw, q);
+        });
     });
 
     const catsDolencia = new Set(dolCoincidentes.flatMap(d => d.cats));
