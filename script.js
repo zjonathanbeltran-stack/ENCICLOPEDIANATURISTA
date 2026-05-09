@@ -1025,6 +1025,187 @@ function switchMaternSubPanel(section, panel) {
         .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
 }
 
+// ════════════════════════════════════════════════════════════════════
+// MEDICINA ANCESTRAL
+// ════════════════════════════════════════════════════════════════════
+
+const ANCESTRAL_PUEBLOS = {
+    mapuche:   { label: 'Mapuche',   emoji: '🌲', color: '#6a8a52', keys: ['mapuche'], excl: ['williche','pewenche','lafkenche','huilliche'] },
+    williche:  { label: 'Williche',  emoji: '🏔️', color: '#5a7a42', keys: ['williche'] },
+    pewenche:  { label: 'Pewenche',  emoji: '🌲', color: '#4a6a32', keys: ['pewenche'] },
+    lafkenche: { label: 'Lafkenche', emoji: '🌊', color: '#4a7a8a', keys: ['lafkenche'] },
+    huilliche: { label: 'Huilliche / Chiloé', emoji: '🏝️', color: '#5a8a7a', keys: ['huilliche','chilote'] },
+    aymara:    { label: 'Aymara',    emoji: '☀️', color: '#c8922a', keys: ['aymara'] },
+    atacameno: { label: 'Atacameño / Likan Antai', emoji: '🌵', color: '#c97b56', keys: ['atacameno','likan antai','atacameño'] },
+    ritual:    { label: 'Rituales y Ceremonias', emoji: '🪶', color: '#9b7ab4', keys: ['ritual','ceremonial','machitun','guillatun','machi'] }
+};
+
+const ANCESTRAL_CONTEXTO = {
+    mapuche:   { titulo: 'Medicina Mapuche — Lawen', desc: 'El sistema médico mapuche se centra en el concepto de <em>lawen</em> (remedio/planta medicinal) y el rol del <em>machi</em> como especialista espiritual y herbolario. La enfermedad se comprende como ruptura del equilibrio entre el ser humano, la naturaleza y los espíritus. Las plantas sagradas como el <em>foye</em> (canelo) son pilares de toda práctica curativa.' },
+    williche:  { titulo: 'Mapuche Williche — Küme Mogelen', desc: 'Los Williche del sur (entre Bío-Bío y Los Lagos) desarrollaron una farmacopea rica en plantas del bosque valdiviano húmedo: tepú, patagua, michay y arrayán. Su medicina integra baños rituales y cataplasmas con grasas animales. El concepto de <em>küme mogelen</em> (buen vivir) guía toda práctica de salud.' },
+    pewenche:  { titulo: 'Mapuche Pewenche — Medicina de la Cordillera', desc: 'Los Pewenche habitan la precordillera andina desde Lonquimay hasta el Biobío alto. Su botánica medicinal gira en torno al <em>pewen</em> (araucaria) — árbol sagrado cuya resina y piñones tienen usos curativos. También utilizan hongos del bosque (changle), corteza de lenga y vapores de ñocha en su práctica médica.' },
+    lafkenche:  { titulo: 'Mapuche Lafkenche — Medicina Costera', desc: 'Los Lafkenche (gente del mar) de la costa del Pacífico combinan plantas terrestres con recursos marinos: algas como cochayuyo, luche y luga tienen usos medicinales documentados. Sus preparados incluyen caldos reconstituyentes con algas, baños de mar con hierbas y vapores de laminaria para afecciones respiratorias.' },
+    huilliche: { titulo: 'Huilliche / Chilote — Medicina del Archipiélago', desc: 'En la Isla Grande de Chiloé convergen tradiciones mapuche huilliche con la medicina popular chilota. Características únicas: uso de manteca de chancho o grasa de animal como vehículo para cataplasmas, murtilla como antidiarreico de referencia, y tepú en baños postparto. El concepto de <em>pichi lawen</em> designa los remedios para niños.' },
+    aymara:    { titulo: 'Medicina Aymara — Yatiri y Kallawaya', desc: 'El sistema médico aymara del altiplano chileno incluye la figura del <em>yatiri</em> (adivino-curandero) y el <em>kallawaya</em> (médico itinerante). La medicina se adapta a la altura (3.000–4.500 msnm): plantas como rica-rica, muña, tola y yareta contrarrestan el mal de altura y los rigores del clima andino. La Pachamama es eje espiritual de toda práctica curativa.' },
+    atacameno: { titulo: 'Medicina Likan Antai — Desierto de Atacama', desc: 'Los Atacameños o Likan Antai desarrollaron farmacopea adaptada al desierto más árido del mundo. Plantas como talhuén, añañuca y supo del desierto (Tessaria absinthioides) son endémicas de quebradas y oasis. Su medicina integra minerales del desierto (salitre, azufre) con plantas y animales del entorno desértico.' },
+    ritual:    { titulo: 'Preparados Rituales y Ceremoniales', desc: 'Muchas recetas ancestrales tienen dimensión espiritual además de física. El <em>machitún</em> mapuche es la ceremonia central de sanación, el <em>nguillatún</em> implica preparados para la comunidad, y el <em>guillatún aymara</em> involucra ofrendas a la Pachamama. Estos preparados requieren conocimiento profundo del contexto cultural para su uso adecuado.' }
+};
+
+function esAncestral(r) {
+    const fuente = (r.fuente_tradicion || '').toLowerCase();
+    const origen = (r.origen || '').toLowerCase();
+    const cat    = (r.categoria || '').toLowerCase();
+    return fuente.includes('mapuche') || fuente.includes('aymara') || fuente.includes('atacameno') ||
+           fuente.includes('atacameño') || fuente.includes('likan') ||
+           origen.includes('mapuche') || origen.includes('aymara') ||
+           origen.includes('atacameno') || origen.includes('atacameño') ||
+           origen.includes('likan') || cat === 'medicina mapuche';
+}
+
+function puebloDeReceta(r) {
+    const txt = ((r.origen || '') + ' ' + (r.fuente_tradicion || '') + ' ' + (r.titulo || '')).toLowerCase();
+    if (txt.includes('ritual') || txt.includes('ceremonial') || txt.includes('machitun') || txt.includes('machitún') || txt.includes('guillatun') || txt.includes('guillatún') || txt.includes('nguillatun')) return 'ritual';
+    if (txt.includes('atacameno') || txt.includes('atacameño') || txt.includes('likan')) return 'atacameno';
+    if (txt.includes('aymara')) return 'aymara';
+    if (txt.includes('huilliche') || txt.includes('chilote')) return 'huilliche';
+    if (txt.includes('lafkenche')) return 'lafkenche';
+    if (txt.includes('pewenche')) return 'pewenche';
+    if (txt.includes('williche')) return 'williche';
+    return 'mapuche';
+}
+
+function ancestralRecetaCard(r) {
+    const pueblo = puebloDeReceta(r);
+    const info   = ANCESTRAL_PUEBLOS[pueblo] || ANCESTRAL_PUEBLOS.mapuche;
+    const dif    = r.dificultad || 'Fácil';
+    const tiempo = r.tiempo_prep || '';
+    const modo   = r.modo_uso || '';
+    const uso    = r.uso || r.usos || '';
+    return `
+    <button class="anc-receta-card" data-rid="${r.id}" data-pueblo="${pueblo}">
+        <div class="anc-receta-header">
+            <span class="anc-pueblo-badge" style="--anc-color:${info.color}">${info.emoji} ${info.label}</span>
+            <span class="anc-cat-badge">${r.categoria}</span>
+        </div>
+        <div class="anc-receta-titulo">${r.titulo}</div>
+        ${uso ? `<div class="anc-receta-uso">${uso.slice(0, 90)}${uso.length > 90 ? '…' : ''}</div>` : ''}
+        <div class="anc-receta-meta">
+            ${tiempo ? `<span><i class="fas fa-clock"></i> ${tiempo}</span>` : ''}
+            ${modo   ? `<span><i class="fas fa-mortar-pestle"></i> ${modo}</span>` : ''}
+            <span class="anc-dif anc-dif-${dif.toLowerCase()}">${dif}</span>
+        </div>
+        <div class="anc-receta-arrow"><i class="fas fa-arrow-right"></i></div>
+    </button>`;
+}
+
+let _ancPuebloActivo = 'todos';
+let _ancBusqueda = '';
+
+function renderMedicinaAncestral() {
+    if (!recetasDB || !recetasDB.length) return;
+
+    const todas = recetasDB.filter(esAncestral);
+
+    // Conteos por pueblo
+    const conteos = { todos: todas.length };
+    Object.keys(ANCESTRAL_PUEBLOS).forEach(p => {
+        conteos[p] = todas.filter(r => puebloDeReceta(r) === p).length;
+    });
+
+    // Actualizar stats hero
+    const statRec = $('#ancStatRecetas');
+    if (statRec) statRec.textContent = todas.length;
+
+    // Actualizar conteos en botones
+    Object.keys(conteos).forEach(p => {
+        const el = $(`#ancCount-${p}`);
+        if (el) el.textContent = conteos[p];
+    });
+
+    // Filtrar según pueblo y búsqueda
+    function filtrarYRenderizar() {
+        let lista = todas;
+        if (_ancPuebloActivo !== 'todos') {
+            lista = lista.filter(r => puebloDeReceta(r) === _ancPuebloActivo);
+        }
+        if (_ancBusqueda) {
+            const q = _ancBusqueda.toLowerCase();
+            lista = lista.filter(r =>
+                (r.titulo || '').toLowerCase().includes(q) ||
+                (r.ingredientes || '').toLowerCase().includes(q) ||
+                (r.uso || '').toLowerCase().includes(q) ||
+                (r.origen || '').toLowerCase().includes(q) ||
+                (r.categoria || '').toLowerCase().includes(q)
+            );
+        }
+
+        const grid = $('#ancestralGrid');
+        if (!grid) return;
+
+        if (!lista.length) {
+            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No se encontraron recetas${_ancBusqueda ? ` para "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
+            return;
+        }
+        grid.innerHTML = lista.map(ancestralRecetaCard).join('');
+
+        $$('#ancestralGrid .anc-receta-card').forEach(card => {
+            card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
+        });
+    }
+
+    // Contexto cultural
+    function mostrarContexto(pueblo) {
+        const ctx = $('#ancestralContexto');
+        if (!ctx) return;
+        if (pueblo === 'todos') {
+            ctx.hidden = true;
+            return;
+        }
+        const info = ANCESTRAL_CONTEXTO[pueblo];
+        if (!info) { ctx.hidden = true; return; }
+        const pInfo = ANCESTRAL_PUEBLOS[pueblo] || {};
+        ctx.innerHTML = `
+            <div class="anc-ctx-header" style="--anc-color:${pInfo.color || '#6a8a52'}">
+                <span class="anc-ctx-emoji">${pInfo.emoji || '🌿'}</span>
+                <strong>${info.titulo}</strong>
+            </div>
+            <p>${info.desc}</p>`;
+        ctx.hidden = false;
+    }
+
+    // Eventos filtros pueblo
+    $$('.anc-pueblo-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            $$('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            _ancPuebloActivo = btn.dataset.pueblo;
+            mostrarContexto(_ancPuebloActivo);
+            filtrarYRenderizar();
+        });
+    });
+
+    // Buscador
+    const searchInput = $('#ancestralSearchInput');
+    const searchClear = $('#ancestralSearchClear');
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            _ancBusqueda = searchInput.value.trim();
+            if (searchClear) searchClear.hidden = !_ancBusqueda;
+            filtrarYRenderizar();
+        });
+    }
+    if (searchClear) {
+        searchClear.addEventListener('click', () => {
+            if (searchInput) searchInput.value = '';
+            _ancBusqueda = '';
+            searchClear.hidden = true;
+            filtrarYRenderizar();
+        });
+    }
+
+    filtrarYRenderizar();
+}
+
 // ────────────────────────────────────────────────────────────────────
 
 // Devuelve el sistema correspondiente a una categoría
@@ -1838,6 +2019,7 @@ function cambiarTab(tabId) {
     if (tabId === 'stats') cargarRecetas().then(() => renderEstadisticas());
     if (tabId === 'maternidad') cargarRecetas().then(() => renderMaternidad());
     if (tabId === 'recipes' || tabId === 'dolencias') cargarRecetas();
+    if (tabId === 'ancestral') cargarRecetas().then(() => renderMedicinaAncestral());
     setTimeout(() => applyReveal(document), 50);
 }
 
