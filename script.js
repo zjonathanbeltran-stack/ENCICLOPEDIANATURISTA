@@ -353,6 +353,7 @@ const DOLENCIAS = [
     { id:'fiebre-ninos',        nombre:'Fiebre en niños',                   emoji:'🤒', sistema:'pediatrico',     keywords:['fiebre','nino','pediatrico','infantil','antipiretico'],                              cats:['Pediátrico'] },
     { id:'tos-ninos',           nombre:'Tos en niños',                      emoji:'😮', sistema:'pediatrico',     keywords:['tos','nino','infantil','pediatrico','expectorante'],                                 cats:['Pediátrico'] },
     { id:'denticion',           nombre:'Dentición / Encías inflamadas',     emoji:'🦷', sistema:'pediatrico',     keywords:['diente','encia','denticion','infantil','pediatrico'],                               cats:['Pediátrico','Analgésico'] },
+    { id:'dolor-muela',         nombre:'Dolor de muelas',                   emoji:'🦷', sistema:'pediatrico',     keywords:['muela','muelas','dental','diente','odontalgia','carie','analgesi'],                  cats:['Dental','Analgésico'] },
     // ENERGÉTICO
     { id:'fatiga',              nombre:'Fatiga / Cansancio crónico',        emoji:'⚡', sistema:'energetico',     keywords:['fatiga','cansancio','adaptogeno','energizante','tonico','vigor'],                    cats:['Energizante'] },
     { id:'falta-energia',       nombre:'Vitalidad / Falta de energía',      emoji:'🌟', sistema:'energetico',     keywords:['energia','vitalidad','vigor','tonico','energizante','reactivador'],                   cats:['Energizante'] },
@@ -437,22 +438,30 @@ function buscarRecetasPorSintoma(query) {
         .trim();
     if (q.length < 2) return [];
 
-    // Matching por palabra completa: evita que "tos" coincida con "parasitos"
+    // Coincidencia de palabra completa (sin substring "tos" dentro de "parasitos")
     const palabraCoincide = (haystack, needle) => {
         if (haystack === needle) return true;
         if (needle.length >= 4 && haystack.startsWith(needle)) return true;
-        const words = haystack.split(' ');
-        return words.some(w => w === needle || (needle.length >= 4 && w.startsWith(needle)));
+        return haystack.split(' ').some(w => w === needle || (needle.length >= 4 && w.startsWith(needle)));
     };
 
-    const dolCoincidentes = DOLENCIAS.filter(d => {
+    // Para búsquedas multi-palabra exigir que la mayoría coincida
+    const STOPWORDS = new Set(['las','los','una','uno','del','con','que','mas','sin','por','sus','mis','hay','ese','esa','era','fue','han','has','les','nos','tus']);
+    const qWords = q.split(/\s+/).filter(w => w.length >= 3 && !STOPWORDS.has(w));
+    if (qWords.length === 0) qWords.push(q.split(' ')[0]);
+    const threshold = qWords.length <= 1 ? 1 : Math.ceil(qWords.length * 0.65);
+
+    const dolScore = (d) => {
         const nombre = normDol(d.nombre);
-        if (q.includes(nombre) || palabraCoincide(nombre, q)) return true;
-        return d.keywords.some(kw => {
-            const nkw = normDol(kw);
-            return q.includes(nkw) || palabraCoincide(nkw, q);
-        });
-    });
+        // Coincidencia de frase completa (sin substring)
+        if (nombre === q || q.includes(nombre + ' ') || q.endsWith(nombre)) return qWords.length;
+        return qWords.filter(qw =>
+            palabraCoincide(nombre, qw) ||
+            d.keywords.some(kw => palabraCoincide(normDol(kw), qw))
+        ).length;
+    };
+
+    const dolCoincidentes = DOLENCIAS.filter(d => dolScore(d) >= threshold);
 
     const catsDolencia = new Set(dolCoincidentes.flatMap(d => d.cats));
     const kwsDolencia = dolCoincidentes.flatMap(d => d.keywords).map(normDol);
