@@ -1235,9 +1235,15 @@ function actualizarFavBadge() {
     }
 }
 
+function slugify(str) {
+    return (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 function abrirDetallePlanta(id) {
     const p = plantasDB.find(p => p.id === id);
     if (!p) return;
+    history.replaceState(null, '', '#planta/' + slugify(p.nombre));
     // Registrar como vista para progreso
     marcarPlantaVista(id);
 
@@ -1438,6 +1444,7 @@ function resetearFiltros() {
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
+    history.replaceState(null, '', '#receta/' + id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -1586,7 +1593,11 @@ function abrirDetalleReceta(id) {
 // ════════════════════════════════════════════════════════════════════
 const modal = $('#detailModal');
 function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
-function cerrarModal() { modal.classList.remove('show'); document.body.style.overflow = ''; }
+function cerrarModal() {
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+    history.replaceState(null, '', location.pathname + location.search);
+}
 $('#detailModal .close-modal').addEventListener('click', cerrarModal);
 modal.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
 document.addEventListener('keydown', (e) => {
@@ -2396,6 +2407,25 @@ function cerrarQuizModal() {
 }
 
 // ════════════════════════════════════════════════════════════════════
+// HASH ROUTING — URLs amigables por planta y receta
+// ════════════════════════════════════════════════════════════════════
+function resolverHash() {
+    const hash = location.hash.replace('#', '');
+    if (!hash) return;
+
+    const [tipo, valor] = hash.split('/');
+
+    if (tipo === 'planta' && valor) {
+        const planta = plantasDB.find(p => slugify(p.nombre) === valor);
+        if (planta) { cambiarTab('plants'); abrirDetallePlanta(planta.id); }
+    } else if (tipo === 'receta' && valor) {
+        const id = parseInt(valor, 10);
+        const receta = recetasDB.find(r => r.id === id);
+        if (receta) { cambiarTab('recipes'); abrirDetalleReceta(receta.id); }
+    }
+}
+
+// ════════════════════════════════════════════════════════════════════
 // SEO — JSON-LD dinámico de plantas
 // ════════════════════════════════════════════════════════════════════
 function inyectarJsonLdPlantas() {
@@ -2465,6 +2495,9 @@ async function inicializar() {
 
         // Inyectar JSON-LD dinámico con lista de plantas para SEO
         inyectarJsonLdPlantas();
+
+        // Resolver hash en la URL (enlace directo a planta o receta)
+        resolverHash();
     } catch (err) {
         plantListDiv.innerHTML = `
             <div class="empty">
