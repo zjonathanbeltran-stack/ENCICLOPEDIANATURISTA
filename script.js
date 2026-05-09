@@ -535,11 +535,13 @@ function renderRecetaSearchResults(recetas, query) {
                         : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
                     }
                     ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
-                    <div class="rsearch-meta">
-                        <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
-                        <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
+                    <div class="rsearch-card-footer">
+                        <div class="rsearch-meta-inline">
+                            <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
+                            <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
+                        </div>
+                        <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
                     </div>
-                    <button class="rsearch-ver-btn">Ver receta <i class="fas fa-arrow-right"></i></button>
                 </div>`;
             }).join('')}
         </div>
