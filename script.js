@@ -2395,6 +2395,39 @@ function cerrarQuizModal() {
 }
 
 // ════════════════════════════════════════════════════════════════════
+// SEO — JSON-LD dinámico de plantas
+// ════════════════════════════════════════════════════════════════════
+function inyectarJsonLdPlantas() {
+    if (!plantasDB.length) return;
+    const base = 'https://zjonathanbeltran-stack.github.io/ENCICLOPEDIANATURISTA/';
+    const itemList = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: 'Plantas medicinales chilenas',
+        description: `Catálogo de ${plantasDB.length} plantas medicinales de Chile con usos terapéuticos, contraindicaciones y recetas tradicionales.`,
+        numberOfItems: plantasDB.length,
+        itemListElement: plantasDB.map((p, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+                '@type': 'Drug',
+                name: p.nombre,
+                alternateName: p.cientifico,
+                description: (p.usos || '').split('.')[0].trim(),
+                url: `${base}#planta-${p.id}`,
+                ...(p.precaucion ? { warning: p.precaucion } : {}),
+                ...(p.imagen ? { image: p.imagen } : {})
+            }
+        }))
+    };
+    const tag = document.createElement('script');
+    tag.type = 'application/ld+json';
+    tag.id = 'jsonld-plantas';
+    tag.textContent = JSON.stringify(itemList);
+    document.head.appendChild(tag);
+}
+
+// ════════════════════════════════════════════════════════════════════
 // INIT
 // ════════════════════════════════════════════════════════════════════
 async function inicializar() {
@@ -2428,6 +2461,9 @@ async function inicializar() {
         actualizarChipCounts();
 
         applyReveal(document);
+
+        // Inyectar JSON-LD dinámico con lista de plantas para SEO
+        inyectarJsonLdPlantas();
     } catch (err) {
         plantListDiv.innerHTML = `
             <div class="empty">
