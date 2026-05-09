@@ -806,9 +806,14 @@ function switchMaternSubtab(tipo) {
     $$('.matern-btn').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
     $('#maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
     $('#maternLactancia').classList.toggle('active', tipo === 'lactancia');
+    $('#maternRecetas').classList.toggle('active', tipo === 'recetas');
     // Update hero icon
     const icon = $('#maternidadTab .matern-hero-icon');
-    if (icon) icon.textContent = tipo === 'lactancia' ? '🍼' : '🤰';
+    if (icon) {
+        if (tipo === 'lactancia') icon.textContent = '🍼';
+        else if (tipo === 'recetas') icon.textContent = '📖';
+        else icon.textContent = '🤰';
+    }
 }
 
 // ────────────────────────────────────────────────────────────────────
@@ -955,6 +960,19 @@ function renderPlantas() {
         const placeholderContent = p.emoji
             ? `<span class="placeholder-emoji">${p.emoji}</span>`
             : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="photo-placeholder-icon"><path d="M11 20A7 7 0 0 1 4 13c0-5 4-10 7-10s7 5 7 10a7 7 0 0 1-7 7z"/><path d="M11 20v-9"/></svg>`;
+        const { embarazoUnsafe, lactanciaUnsafe } = clasificarPlantaMatern(p);
+        const embDestacada = EMB_DESTACADAS.includes(p.nombre);
+        const lacGal = LAC_GALACTOGOGAS.includes(p.nombre);
+        const embBadge = embarazoUnsafe
+            ? '<span class="badge matern-badge emb-warn" title="Evitar en embarazo">🤰⛔</span>'
+            : embDestacada
+                ? '<span class="badge matern-badge emb-ok" title="Recomendada en embarazo">🤰✅</span>'
+                : '';
+        const lacBadge = lactanciaUnsafe
+            ? '<span class="badge matern-badge lac-warn" title="Evitar en lactancia">🍼⛔</span>'
+            : lacGal
+                ? '<span class="badge matern-badge lac-ok" title="Galactogoga — favorece la leche">🍼✅</span>'
+                : '';
         return `
         <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}">
             <div class="plant-img-wrap">
@@ -970,6 +988,7 @@ function renderPlantas() {
                 ${p.chiloe ? '<span class="badge chiloe">📍 Chiloé</span>' : ''}
                 ${p.protegida ? '<span class="badge shield">🛡️ Protegida</span>' : ''}
                 ${p.peligroso ? '<span class="badge warn">⚠️ Precaución</span>' : ''}
+                ${embBadge}${lacBadge}
             </div>
             <div class="plant-uso-preview">${usoCorto}</div>
             <button class="fav-btn ${favoritos.includes(p.id) ? 'active' : ''}" data-id="${p.id}" title="Favorito">
