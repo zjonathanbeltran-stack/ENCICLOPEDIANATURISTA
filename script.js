@@ -371,18 +371,18 @@ const DOLENCIAS = [
 ];
 
 const SISTEMAS_BUSQUEDA = [
-    { id:'digestivo',      emoji:'🌿', label:'Digestivo',     desc:'Estómago · Hígado · Intestino',     color:'#6a8a52' },
-    { id:'respiratorio',   emoji:'🫁', label:'Respiratorio',  desc:'Tos · Gripe · Sinusitis',           color:'#5b8aa0' },
-    { id:'nervioso',       emoji:'🧠', label:'Nervioso',      desc:'Insomnio · Ansiedad · Migraña',     color:'#8a6aaa' },
-    { id:'musculo',        emoji:'🦴', label:'Dolores',       desc:'Artritis · Muscular · Reumatismo',  color:'#a06a5b' },
-    { id:'piel',           emoji:'✨', label:'Piel',          desc:'Acné · Heridas · Quemaduras',       color:'#c9a84c' },
-    { id:'mujer',          emoji:'🌸', label:'Mujer',         desc:'Menstrual · Menopausia · Lactancia',color:'#c9679a' },
-    { id:'pediatrico',     emoji:'👶', label:'Niños',         desc:'Cólicos · Fiebre · Dentición',      color:'#6aa08a' },
-    { id:'inmuno',         emoji:'🛡', label:'Inmunidad',     desc:'Defensas · Alergias · Fiebre',      color:'#7a9ab8' },
-    { id:'cardiovascular', emoji:'❤️', label:'Corazón',      desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
-    { id:'renal',          emoji:'🫘', label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#8a7a5a' },
-    { id:'energetico',     emoji:'⚡', label:'Energía',       desc:'Fatiga · Vitalidad · Tónico',       color:'#b8a030' },
-    { id:'mapuche',        emoji:'🩶', label:'Mapuche',       desc:'Medicina ancestral mapuche',         color:'#7a8a7a' },
+    { id:'digestivo',      icon:'seedling',       label:'Digestivo',     desc:'Estómago · Hígado · Intestino',     color:'#6a8a52' },
+    { id:'respiratorio',   icon:'wind',           label:'Respiratorio',  desc:'Tos · Gripe · Sinusitis',           color:'#5b8aa0' },
+    { id:'nervioso',       icon:'brain',          label:'Nervioso',      desc:'Insomnio · Ansiedad · Migraña',     color:'#8a6aaa' },
+    { id:'musculo',        icon:'bone',           label:'Dolores',       desc:'Artritis · Muscular · Reumatismo',  color:'#a06a5b' },
+    { id:'piel',           icon:'spa',            label:'Piel',          desc:'Acné · Heridas · Quemaduras',       color:'#c9a84c' },
+    { id:'mujer',          icon:'venus',          label:'Mujer',         desc:'Menstrual · Menopausia · Lactancia',color:'#c9679a' },
+    { id:'pediatrico',     icon:'child-reaching', label:'Niños',         desc:'Cólicos · Fiebre · Dentición',      color:'#6aa08a' },
+    { id:'inmuno',         icon:'shield-halved',  label:'Inmunidad',     desc:'Defensas · Alergias · Fiebre',      color:'#7a9ab8' },
+    { id:'cardiovascular', icon:'heart-pulse',    label:'Corazón',       desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
+    { id:'renal',          icon:'droplet',        label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#5a8a9a' },
+    { id:'energetico',     icon:'bolt',           label:'Energía',       desc:'Fatiga · Vitalidad · Tónico',       color:'#b8a030' },
+    { id:'mapuche',        icon:'tree',           label:'Mapuche',       desc:'Medicina ancestral mapuche',         color:'#5a7a4a' },
 ];
 
 function renderSistemasBusqueda() {
@@ -390,7 +390,7 @@ function renderSistemasBusqueda() {
     if (!cont) return;
     cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
         <button class="rsis-btn" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
-            <span class="rsis-ico">${s.emoji}</span>
+            <span class="rsis-ico"><i class="fas fa-${s.icon}"></i></span>
             <span class="rsis-label">${s.label}</span>
             <span class="rsis-desc">${s.desc}</span>
         </button>
