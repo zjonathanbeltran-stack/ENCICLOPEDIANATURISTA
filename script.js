@@ -382,7 +382,17 @@ const SISTEMAS_BUSQUEDA = [
     { id:'cardiovascular', icon:'heart-pulse',    label:'Corazón',       desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
     { id:'renal',          icon:'droplet',        label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#5a8a9a' },
     { id:'energetico',     icon:'bolt',           label:'Energía',       desc:'Fatiga · Vitalidad · Tónico',       color:'#b8a030' },
-    { id:'mapuche',        icon:'tree',           label:'Mapuche',       desc:'Medicina ancestral mapuche',         color:'#5a7a4a' },
+    { id:'mapuche', icon:'tree', label:'Mapuche', desc:'Medicina ancestral mapuche', color:'#5a7a4a',
+      svg:`<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:1.3em;height:1.3em">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.7"/>
+        <line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        <path d="M7 4 A5 5 0 0 0 4 7" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+        <path d="M17 4 A5 5 0 0 1 20 7" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+        <path d="M7 20 A5 5 0 0 1 4 17" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+        <path d="M17 20 A5 5 0 0 0 20 17" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="1.8" fill="currentColor"/>
+      </svg>` },
 ];
 
 function renderSistemasBusqueda() {
@@ -390,7 +400,7 @@ function renderSistemasBusqueda() {
     if (!cont) return;
     cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
         <button class="rsis-btn" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
-            <span class="rsis-ico"><i class="fas fa-${s.icon}"></i></span>
+            <span class="rsis-ico">${s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`}</span>
             <span class="rsis-label">${s.label}</span>
             <span class="rsis-desc">${s.desc}</span>
         </button>
