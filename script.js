@@ -546,7 +546,6 @@ function renderRecetaSearchResults(recetas, query) {
         ${total > 48 ? `<p class="rsearch-mas">Mostrando 48 de ${total} recetas. Afina la búsqueda para ver más.</p>` : ''}`;
 
     cont.style.display = 'block';
-    if (accordion) accordion.style.display = 'none';
 
     cont.querySelectorAll('.rsearch-card').forEach(card => {
         card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
@@ -1371,7 +1370,6 @@ $('#searchInput').addEventListener('input', (e) => {
     actualizarBtnFavoritos();
     actualizarBtnReset();
     renderPlantas();
-    if (sistemaActivo) renderRecetas();
 });
 
 $('#clearSearch').addEventListener('click', () => {
@@ -1379,7 +1377,6 @@ $('#clearSearch').addEventListener('click', () => {
     busqueda = '';
     actualizarBtnReset();
     renderPlantas();
-    if (sistemaActivo) renderRecetas();
 });
 
 $('#filterChiloe').addEventListener('click', () => {
