@@ -410,6 +410,48 @@ function renderSistemasBusqueda() {
     `).join('');
 }
 
+function renderCategoriasChips() {
+    const cont = document.getElementById('recetaCategorias');
+    if (!cont || !recetasDB.length) return;
+
+    // Contar recetas por categoría y ordenar por cantidad
+    const conteo = {};
+    recetasDB.forEach(r => { conteo[r.categoria] = (conteo[r.categoria] || 0) + 1; });
+    const cats = Object.entries(conteo).sort((a, b) => b[1] - a[1]);
+
+    cont.innerHTML = cats.map(([cat, n]) => {
+        const grad = gradFromCat(cat);
+        return `
+        <button class="rcat-chip" data-cat="${cat}" style="--rcat-grad:${grad}">
+            <span class="rcat-nombre">${cat}</span>
+            <span class="rcat-count">${n}</span>
+        </button>`;
+    }).join('');
+
+    cont.querySelectorAll('.rcat-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const cat = chip.dataset.cat;
+            const activo = chip.classList.contains('active');
+            cont.querySelectorAll('.rcat-chip').forEach(c => c.classList.remove('active'));
+            if (activo) {
+                limpiarRecetaSearch();
+                return;
+            }
+            chip.classList.add('active');
+            const resultado = recetasDB.filter(r => r.categoria === cat);
+            // Limpiar búsqueda de texto y sistemas
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            const panel = document.getElementById('recetaDolenciasPanel');
+            if (inp) inp.value = '';
+            if (clr) clr.hidden = true;
+            if (panel) panel.hidden = true;
+            document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            renderRecetaSearchResults(resultado, cat);
+        });
+    });
+}
+
 function mostrarDolenciasDeSistema(sistemaId) {
     const panel = document.getElementById('recetaDolenciasPanel');
     const chips = document.getElementById('rdolChips');
@@ -594,6 +636,7 @@ function limpiarRecetaSearch() {
     if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
     if (panel) panel.hidden = true;
     document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.rcat-chip').forEach(b => b.classList.remove('active'));
 }
 
 function recetasParaDolencia(dol) {
@@ -2225,6 +2268,7 @@ async function inicializar() {
 
         renderPlantas();
         renderSistemasBusqueda();
+        renderCategoriasChips();
         actualizarBtnFavoritos();
         moverIndicador();
 
