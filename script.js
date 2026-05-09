@@ -1479,16 +1479,6 @@ function abrirDetalleReceta(id) {
             </div>
         </div>` : ''; })()}
 
-        <!-- Principios activos -->
-        ${r.principios_activos ? `
-        <div class="receta-principios">
-            <div class="principios-icon">🔬</div>
-            <div class="principios-body">
-                <div class="principios-label">Principios activos</div>
-                <div class="principios-texto">${r.principios_activos}</div>
-            </div>
-        </div>` : ''}
-
         <!-- Propiedades -->
         ${r.propiedades && r.propiedades.length ? `
         <div class="receta-propiedades">
@@ -1550,6 +1540,17 @@ function abrirDetalleReceta(id) {
                 </div>
             </div>
         ` : ''}
+
+        <!-- Principios activos -->
+        ${r.principios_activos ? `
+        <div class="modal-divider"></div>
+        <div class="receta-principios">
+            <div class="principios-icon">🔬</div>
+            <div class="principios-body">
+                <div class="principios-label">Principios activos</div>
+                <div class="principios-texto">${r.principios_activos}</div>
+            </div>
+        </div>` : ''}
 
         <!-- Referencias -->
         ${r.referencias ? `
