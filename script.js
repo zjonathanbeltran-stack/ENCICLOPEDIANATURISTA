@@ -846,11 +846,10 @@ function renderMaternidad() {
 }
 
 function switchMaternSubtab(tipo) {
-    $$('.matern-btn').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
+    $$('.matern-nav-card').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
     $('#maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
     $('#maternLactancia').classList.toggle('active', tipo === 'lactancia');
     $('#maternRecetas').classList.toggle('active', tipo === 'recetas');
-    // Update hero icon
     const icon = $('#maternidadTab .matern-hero-icon');
     if (icon) {
         if (tipo === 'lactancia') icon.textContent = '🍼';
@@ -2738,7 +2737,7 @@ inicializar();
 
 // ── Maternidad subtabs ──
 (function() {
-    $$('.matern-btn').forEach(btn => {
+    $$('.matern-nav-card').forEach(btn => {
         btn.addEventListener('click', () => switchMaternSubtab(btn.dataset.matern));
     });
 
