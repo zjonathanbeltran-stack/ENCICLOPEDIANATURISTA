@@ -1100,6 +1100,7 @@ function ancestralRecetaCard(r) {
 
 let _ancPuebloActivo = 'todos';
 let _ancBusqueda = '';
+let _ancSistema = null;
 
 function renderMedicinaAncestral() {
     if (!recetasDB || !recetasDB.length) return;
@@ -1122,12 +1123,62 @@ function renderMedicinaAncestral() {
         if (el) el.textContent = conteos[p];
     });
 
-    // Filtrar según pueblo y búsqueda
+    // ── Render grid de sistemas del cuerpo ──
+    const sisteGrid = $('#ancSistemasGrid');
+    if (sisteGrid) {
+        sisteGrid.innerHTML = SISTEMAS.map(s => `
+            <button class="anc-sistema-chip${_ancSistema === s.id ? ' active' : ''}"
+                    data-sid="${s.id}"
+                    style="--anc-sis-grad:${s.gradient}">
+                <span class="anc-sis-glyph">${s.glyph}</span>
+                <span class="anc-sis-nombre">${s.nombre}</span>
+            </button>`).join('');
+
+        sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const sid = chip.dataset.sid;
+                if (_ancSistema === sid) {
+                    _ancSistema = null;
+                } else {
+                    _ancSistema = sid;
+                }
+                // Re-render chips con estado actualizado
+                sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => {
+                    c.classList.toggle('active', c.dataset.sid === _ancSistema);
+                });
+                const resetBtn = $('#ancDolenciasReset');
+                if (resetBtn) resetBtn.hidden = !_ancSistema;
+                filtrarYRenderizar();
+            });
+        });
+    }
+
+    // Reset dolencias
+    const resetDol = $('#ancDolenciasReset');
+    if (resetDol) {
+        resetDol.addEventListener('click', () => {
+            _ancSistema = null;
+            resetDol.hidden = true;
+            sisteGrid && sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => c.classList.remove('active'));
+            filtrarYRenderizar();
+        });
+    }
+
+    // ── Filtrar según pueblo, sistema y búsqueda ──
     function filtrarYRenderizar() {
         let lista = todas;
+
         if (_ancPuebloActivo !== 'todos') {
             lista = lista.filter(r => puebloDeReceta(r) === _ancPuebloActivo);
         }
+
+        if (_ancSistema) {
+            const sis = SISTEMAS.find(s => s.id === _ancSistema);
+            if (sis) {
+                lista = lista.filter(r => sis.cats.includes(r.categoria));
+            }
+        }
+
         if (_ancBusqueda) {
             const q = _ancBusqueda.toLowerCase();
             lista = lista.filter(r =>
@@ -1139,11 +1190,29 @@ function renderMedicinaAncestral() {
             );
         }
 
+        // Contador de resultados
+        const countEl = $('#ancResultCount');
+        if (countEl) {
+            const filtroActivo = _ancPuebloActivo !== 'todos' || _ancSistema || _ancBusqueda;
+            if (filtroActivo) {
+                const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
+                const partes = [];
+                if (_ancPuebloActivo !== 'todos') partes.push(ANCESTRAL_PUEBLOS[_ancPuebloActivo]?.label);
+                if (sis) partes.push(sis.nombre);
+                if (_ancBusqueda) partes.push(`"${_ancBusqueda}"`);
+                countEl.innerHTML = `<i class="fas fa-filter"></i> <strong>${lista.length}</strong> receta${lista.length !== 1 ? 's' : ''} — ${partes.join(' · ')}`;
+                countEl.hidden = false;
+            } else {
+                countEl.hidden = true;
+            }
+        }
+
         const grid = $('#ancestralGrid');
         if (!grid) return;
 
         if (!lista.length) {
-            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No se encontraron recetas${_ancBusqueda ? ` para "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
+            const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
+            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No hay recetas ancestrales${sis ? ` para <strong>${sis.nombre}</strong>` : ''}${_ancBusqueda ? ` con "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
             return;
         }
         grid.innerHTML = lista.map(ancestralRecetaCard).join('');
@@ -1153,14 +1222,11 @@ function renderMedicinaAncestral() {
         });
     }
 
-    // Contexto cultural
+    // ── Contexto cultural ──
     function mostrarContexto(pueblo) {
         const ctx = $('#ancestralContexto');
         if (!ctx) return;
-        if (pueblo === 'todos') {
-            ctx.hidden = true;
-            return;
-        }
+        if (pueblo === 'todos') { ctx.hidden = true; return; }
         const info = ANCESTRAL_CONTEXTO[pueblo];
         if (!info) { ctx.hidden = true; return; }
         const pInfo = ANCESTRAL_PUEBLOS[pueblo] || {};
@@ -1173,7 +1239,7 @@ function renderMedicinaAncestral() {
         ctx.hidden = false;
     }
 
-    // Eventos filtros pueblo
+    // ── Eventos filtros pueblo ──
     $$('.anc-pueblo-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             $$('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
@@ -1184,7 +1250,7 @@ function renderMedicinaAncestral() {
         });
     });
 
-    // Buscador
+    // ── Buscador ──
     const searchInput = $('#ancestralSearchInput');
     const searchClear = $('#ancestralSearchClear');
     if (searchInput) {
