@@ -516,65 +516,70 @@
 
             <!-- Sección EMBARAZO -->
             <div id="maternEmbarazo" class="matern-section active">
-                <!-- Menú ancla sticky -->
-                <nav class="matern-ancla-nav" aria-label="Secciones embarazo">
-                    <a class="matern-ancla-btn" href="#maternAnclaEmbUtiles"><i class="fas fa-seedling"></i> Útiles</a>
-                    <a class="matern-ancla-btn" href="#maternAnclaEmbSeguras"><i class="fas fa-check"></i> Seguras</a>
-                    <a class="matern-ancla-btn" href="#maternAnclaEmbEvitar"><i class="fas fa-ban"></i> Evitar</a>
+                <nav class="matern-sub-nav" data-section="emb">
+                    <button class="matern-sub-btn active" data-sub="utiles"><i class="fas fa-seedling"></i> Útiles</button>
+                    <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
+                    <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
                 </nav>
 
-                <div id="maternAnclaEmbUtiles" class="matern-ancla-target"></div>
-                <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
-                <div id="maternEmbarazoDestacadas" class="matern-plantas-grid"></div>
+                <div class="matern-sub-panel active" data-section="emb" data-panel="utiles">
+                    <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
+                    <div id="maternEmbarazoDestacadas" class="matern-plantas-grid"></div>
+                </div>
 
-                <div id="maternAnclaEmbSeguras" class="matern-ancla-target"></div>
-                <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones conocidas</div>
-                <div id="maternEmbarazoSeguras" class="matern-plantas-grid"></div>
+                <div class="matern-sub-panel" data-section="emb" data-panel="seguras">
+                    <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones conocidas</div>
+                    <div id="maternEmbarazoSeguras" class="matern-plantas-grid"></div>
+                </div>
 
-                <div id="maternAnclaEmbEvitar" class="matern-ancla-target"></div>
-                <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar en el embarazo</div>
-                <div id="maternEmbarazoEvitar" class="matern-warn-grid"></div>
-                <div id="maternPrecEmbarazo" class="matern-prec-box"></div>
+                <div class="matern-sub-panel" data-section="emb" data-panel="evitar">
+                    <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar en el embarazo</div>
+                    <div id="maternEmbarazoEvitar" class="matern-warn-grid"></div>
+                    <div id="maternPrecEmbarazo" class="matern-prec-box"></div>
+                </div>
             </div>
 
             <!-- Sección LACTANCIA -->
             <div id="maternLactancia" class="matern-section">
-                <!-- Menú ancla sticky -->
-                <nav class="matern-ancla-nav" aria-label="Secciones lactancia">
-                    <a class="matern-ancla-btn" href="#maternAnclaLacGal"><i class="fas fa-star"></i> Galactogogas</a>
-                    <a class="matern-ancla-btn" href="#maternAnclaLacSeguras"><i class="fas fa-check"></i> Seguras</a>
-                    <a class="matern-ancla-btn" href="#maternAnclaLacEvitar"><i class="fas fa-ban"></i> Evitar</a>
+                <nav class="matern-sub-nav" data-section="lac">
+                    <button class="matern-sub-btn active" data-sub="gal"><i class="fas fa-star"></i> Galactogogas</button>
+                    <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
+                    <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
                 </nav>
 
-                <div id="maternAnclaLacGal" class="matern-ancla-target"></div>
-                <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
-                <div id="maternLactanciaGal" class="matern-plantas-grid"></div>
+                <div class="matern-sub-panel active" data-section="lac" data-panel="gal">
+                    <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
+                    <div id="maternLactanciaGal" class="matern-plantas-grid"></div>
+                </div>
 
-                <div id="maternAnclaLacSeguras" class="matern-ancla-target"></div>
-                <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones en lactancia</div>
-                <div id="maternLactanciaSeguras" class="matern-plantas-grid"></div>
+                <div class="matern-sub-panel" data-section="lac" data-panel="seguras">
+                    <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones en lactancia</div>
+                    <div id="maternLactanciaSeguras" class="matern-plantas-grid"></div>
+                </div>
 
-                <div id="maternAnclaLacEvitar" class="matern-ancla-target"></div>
-                <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar durante la lactancia</div>
-                <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
-                <div id="maternPrecLactancia" class="matern-prec-box"></div>
+                <div class="matern-sub-panel" data-section="lac" data-panel="evitar">
+                    <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar durante la lactancia</div>
+                    <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
+                    <div id="maternPrecLactancia" class="matern-prec-box"></div>
+                </div>
             </div>
 
             <!-- Sección RECETAS -->
             <div id="maternRecetas" class="matern-section">
-                <!-- Menú ancla sticky -->
-                <nav class="matern-ancla-nav" aria-label="Recetas maternidad">
-                    <a class="matern-ancla-btn" href="#maternAnclaRecEmb"><i class="fas fa-baby-carriage"></i> Embarazo</a>
-                    <a class="matern-ancla-btn" href="#maternAnclaRecLac"><i class="fas fa-droplet"></i> Lactancia</a>
+                <nav class="matern-sub-nav" data-section="rec">
+                    <button class="matern-sub-btn active" data-sub="emb"><i class="fas fa-baby-carriage"></i> Embarazo</button>
+                    <button class="matern-sub-btn" data-sub="lac"><i class="fas fa-droplet"></i> Lactancia</button>
                 </nav>
 
-                <div id="maternAnclaRecEmb" class="matern-ancla-target"></div>
-                <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas para el embarazo</div>
-                <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
+                <div class="matern-sub-panel active" data-section="rec" data-panel="emb">
+                    <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas para el embarazo</div>
+                    <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
+                </div>
 
-                <div id="maternAnclaRecLac" class="matern-ancla-target"></div>
-                <div class="matern-cat-title gal" style="margin-top:28px"><span class="matern-cat-icon">📖</span> Recetas para la lactancia</div>
-                <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
+                <div class="matern-sub-panel" data-section="rec" data-panel="lac">
+                    <div class="matern-cat-title gal"><span class="matern-cat-icon">📖</span> Recetas para la lactancia</div>
+                    <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
+                </div>
             </div>
 
         </div>

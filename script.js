@@ -858,6 +858,15 @@ function switchMaternSubtab(tipo) {
     }
 }
 
+function switchMaternSubPanel(section, panel) {
+    // Botones de ese nav
+    $$(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
+        .forEach(b => b.classList.toggle('active', b.dataset.sub === panel));
+    // Paneles de esa sección
+    $$(`.matern-sub-panel[data-section="${section}"]`)
+        .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
+}
+
 // ────────────────────────────────────────────────────────────────────
 
 // Devuelve el sistema correspondiente a una categoría
@@ -2739,6 +2748,13 @@ inicializar();
 (function() {
     $$('.matern-nav-card').forEach(btn => {
         btn.addEventListener('click', () => switchMaternSubtab(btn.dataset.matern));
+    });
+
+    $$('.matern-sub-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const nav = btn.closest('.matern-sub-nav');
+            if (nav) switchMaternSubPanel(nav.dataset.section, btn.dataset.sub);
+        });
     });
 
     // ── Back-to-top button ──
