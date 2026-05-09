@@ -3362,6 +3362,43 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .matern-prec-box.show { display: block; }
 .matern-prec-box strong { color: var(--terracotta-soft); }
 
+/* ── Menú ancla sticky ── */
+.matern-ancla-nav {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    position: sticky; top: 60px; z-index: 10;
+    padding: 8px 0 12px;
+    background: linear-gradient(to bottom, var(--bg-deep) 70%, transparent);
+}
+.matern-ancla-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 16px;
+    border-radius: 999px;
+    font-size: 0.82rem; font-weight: 500;
+    color: var(--text-soft);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    text-decoration: none;
+    transition: all 0.2s var(--ease);
+    white-space: nowrap;
+}
+.matern-ancla-btn:hover {
+    color: var(--text);
+    background: var(--glass-bg-hi);
+    border-color: var(--glass-border-hi);
+}
+.matern-ancla-btn i { font-size: 0.72rem; opacity: 0.75; }
+.matern-ancla-target { scroll-margin-top: 110px; }
+
+/* ── Badges maternidad en tarjetas de plantas ── */
+.badge.matern-badge {
+    font-size: 0.72rem; padding: 2px 7px;
+    border-radius: 999px; font-weight: 600; letter-spacing: 0.01em;
+}
+.badge.emb-ok  { background: rgba(106,191,138,0.15); color: #6abf8a; border: 1px solid rgba(106,191,138,0.3); }
+.badge.emb-warn { background: rgba(201,123,86,0.15); color: var(--terracotta-soft); border: 1px solid rgba(201,123,86,0.3); }
+.badge.lac-ok  { background: rgba(112,168,204,0.15); color: var(--matern-blue); border: 1px solid rgba(112,168,204,0.3); }
+.badge.lac-warn { background: rgba(201,123,86,0.15); color: var(--terracotta-soft); border: 1px solid rgba(201,123,86,0.3); }
+
 /* Responsive */
 @media (max-width: 480px) {
     .matern-hero { flex-direction: column; text-align: center; align-items: center; }
@@ -3372,6 +3409,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
     .matern-plantas-grid { grid-template-columns: 1fr; }
     .matern-warn-grid { gap: 6px; }
     .matern-warn-chip { font-size: 0.78rem; padding: 5px 10px 5px 8px; }
+    .matern-ancla-nav { top: 50px; gap: 4px; }
+    .matern-ancla-btn { padding: 6px 12px; font-size: 0.78rem; }
 }
 
 

@@ -223,6 +223,7 @@ python -m http.server 8787
    location.reload(true);
    ```
 4. Verificar cambios con `preview_eval` antes de reportar como completado
+5. **Siempre hacer commit y push al terminar cada tarea** — nunca dejar cambios sin subir
 
 ### Problema conocido: screenshots lentos
 Los screenshots del preview pueden timeout por las animaciones CSS (`orbDrift`, `gradShift`). Usar `preview_eval` para verificar lógica y DOM cuando el screenshot falla.

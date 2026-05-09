@@ -470,24 +470,31 @@
                 <div><strong>Consulta siempre con tu médico o matrona</strong> antes de usar cualquier planta medicinal durante el embarazo o la lactancia. Esta información es de referencia etnobotánica, no reemplaza la atención profesional.</div>
             </div>
 
-            <!-- Subtabs Embarazo / Lactancia -->
+            <!-- Subtabs Embarazo / Lactancia / Recetas -->
             <div class="matern-subtabs">
                 <button class="matern-btn active" data-matern="embarazo"><i class="fas fa-baby-carriage"></i> Embarazo</button>
                 <button class="matern-btn" data-matern="lactancia"><i class="fas fa-droplet"></i> Lactancia</button>
+                <button class="matern-btn" data-matern="recetas"><i class="fas fa-book-open"></i> Recetas</button>
             </div>
 
             <!-- Sección EMBARAZO -->
             <div id="maternEmbarazo" class="matern-section active">
+                <!-- Menú ancla sticky -->
+                <nav class="matern-ancla-nav" aria-label="Secciones embarazo">
+                    <a class="matern-ancla-btn" href="#maternAnclaEmbUtiles"><i class="fas fa-seedling"></i> Útiles</a>
+                    <a class="matern-ancla-btn" href="#maternAnclaEmbSeguras"><i class="fas fa-check"></i> Seguras</a>
+                    <a class="matern-ancla-btn" href="#maternAnclaEmbEvitar"><i class="fas fa-ban"></i> Evitar</a>
+                </nav>
+
+                <div id="maternAnclaEmbUtiles" class="matern-ancla-target"></div>
                 <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
                 <div id="maternEmbarazoDestacadas" class="matern-plantas-grid"></div>
 
+                <div id="maternAnclaEmbSeguras" class="matern-ancla-target"></div>
                 <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones conocidas</div>
                 <div id="maternEmbarazoSeguras" class="matern-plantas-grid"></div>
 
-                <!-- Recetas seguras en embarazo -->
-                <div class="matern-cat-title recetas"><span class="matern-cat-icon">📖</span> Recetas recomendadas para el embarazo</div>
-                <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
-
+                <div id="maternAnclaEmbEvitar" class="matern-ancla-target"></div>
                 <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar en el embarazo</div>
                 <div id="maternEmbarazoEvitar" class="matern-warn-grid"></div>
                 <div id="maternPrecEmbarazo" class="matern-prec-box"></div>
@@ -495,19 +502,42 @@
 
             <!-- Sección LACTANCIA -->
             <div id="maternLactancia" class="matern-section">
+                <!-- Menú ancla sticky -->
+                <nav class="matern-ancla-nav" aria-label="Secciones lactancia">
+                    <a class="matern-ancla-btn" href="#maternAnclaLacGal"><i class="fas fa-star"></i> Galactogogas</a>
+                    <a class="matern-ancla-btn" href="#maternAnclaLacSeguras"><i class="fas fa-check"></i> Seguras</a>
+                    <a class="matern-ancla-btn" href="#maternAnclaLacEvitar"><i class="fas fa-ban"></i> Evitar</a>
+                </nav>
+
+                <div id="maternAnclaLacGal" class="matern-ancla-target"></div>
                 <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
                 <div id="maternLactanciaGal" class="matern-plantas-grid"></div>
 
+                <div id="maternAnclaLacSeguras" class="matern-ancla-target"></div>
                 <div class="matern-cat-title"><span class="matern-cat-icon">🟢</span> Sin contraindicaciones en lactancia</div>
                 <div id="maternLactanciaSeguras" class="matern-plantas-grid"></div>
 
-                <!-- Recetas seguras en lactancia -->
-                <div class="matern-cat-title recetas"><span class="matern-cat-icon">📖</span> Recetas recomendadas en lactancia</div>
-                <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
-
+                <div id="maternAnclaLacEvitar" class="matern-ancla-target"></div>
                 <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar durante la lactancia</div>
                 <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
                 <div id="maternPrecLactancia" class="matern-prec-box"></div>
+            </div>
+
+            <!-- Sección RECETAS -->
+            <div id="maternRecetas" class="matern-section">
+                <!-- Menú ancla sticky -->
+                <nav class="matern-ancla-nav" aria-label="Recetas maternidad">
+                    <a class="matern-ancla-btn" href="#maternAnclaRecEmb"><i class="fas fa-baby-carriage"></i> Embarazo</a>
+                    <a class="matern-ancla-btn" href="#maternAnclaRecLac"><i class="fas fa-droplet"></i> Lactancia</a>
+                </nav>
+
+                <div id="maternAnclaRecEmb" class="matern-ancla-target"></div>
+                <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas para el embarazo</div>
+                <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
+
+                <div id="maternAnclaRecLac" class="matern-ancla-target"></div>
+                <div class="matern-cat-title gal" style="margin-top:28px"><span class="matern-cat-icon">📖</span> Recetas para la lactancia</div>
+                <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
             </div>
 
         </div>
