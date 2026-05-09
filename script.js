@@ -340,25 +340,27 @@ const DOLENCIAS = [
     { id:'reumatismo',          nombre:'Reumatismo',                        emoji:'🌡', sistema:'musculo',        keywords:['reumatismo','reuma','articular','artritis','musculo'],                               cats:['Musculoesquelético'] },
     { id:'gota',                nombre:'Gota / Ácido úrico',                emoji:'🧊', sistema:'musculo',        keywords:['gota','acido urico','urico','articular','antiinflamatorio'],                        cats:['Musculoesquelético','Renal'] },
     { id:'dolores-articulares', nombre:'Dolores articulares generales',      emoji:'🤲', sistema:'musculo',        keywords:['articulacion','dolor','articular','golpe','contusion'],                             cats:['Analgésico','Musculoesquelético'] },
+    { id:'dolor-espalda',       nombre:'Dolor de espalda / Lumbar',         emoji:'🔙', sistema:'musculo',        keywords:['espalda','lumbar','lumbago','columna','contractura','cervical'],                     cats:['Analgésico','Musculoesquelético'] },
+    { id:'ciatico',             nombre:'Nervio ciático',                    emoji:'⚡', sistema:'musculo',        keywords:['ciatico','ciatalgia','nervio','pierna','irradiacion','lumbar'],                      cats:['Analgésico','Nervioso'] },
     // INMUNO
     { id:'defensas-bajas',      nombre:'Defensas bajas / Inmunidad',        emoji:'🛡', sistema:'inmuno',         keywords:['defensa','inmun','inmunoestimulante','adaptogeno','preventivo','virus'],              cats:['Inmunológico'] },
     { id:'alergias',            nombre:'Alergias',                          emoji:'🌼', sistema:'inmuno',         keywords:['alergia','antihistaminico','rinitis','picazon','histamina'],                         cats:['Inmunológico','Respiratorio'] },
     { id:'fiebre',              nombre:'Fiebre',                            emoji:'🌡', sistema:'inmuno',         keywords:['fiebre','antipiretico','febrifugo','temperatura','sudorif'],                         cats:['Inmunológico','Respiratorio'] },
     // METABÓLICO
-    { id:'diabetes',            nombre:'Diabetes (apoyo natural)',           emoji:'🍬', sistema:'metabolico',     keywords:['diabetes','glucosa','hipoglucemi','azucar','glucemiante'],                           cats:['Cardiovascular','Digestivo'] },
-    { id:'tiroides',            nombre:'Tiroides',                          emoji:'🦋', sistema:'metabolico',     keywords:['tiroides','hipotiroid','hipertiroid','metabolismo','glandula'],                      cats:['General'] },
-    { id:'control-peso',        nombre:'Control de peso',                   emoji:'⚖', sistema:'metabolico',     keywords:['obesidad','adelgaz','metabolismo','lipolitic','peso','grasa'],                       cats:['Digestivo','Energizante'] },
+    { id:'diabetes',            nombre:'Diabetes (apoyo natural)',           emoji:'🍬', sistema:'digestivo',      keywords:['diabetes','glucosa','hipoglucemi','azucar','glucemiante'],                           cats:['Cardiovascular','Digestivo'] },
+    { id:'tiroides',            nombre:'Tiroides',                          emoji:'🦋', sistema:'energetico',     keywords:['tiroides','hipotiroid','hipertiroid','metabolismo','glandula'],                      cats:['General'] },
+    { id:'control-peso',        nombre:'Control de peso',                   emoji:'⚖', sistema:'energetico',     keywords:['obesidad','adelgaz','metabolismo','lipolitic','peso','grasa'],                       cats:['Digestivo','Energizante'] },
     // PEDIÁTRICO
     { id:'colicos-bebe',        nombre:'Cólicos del bebé',                  emoji:'👶', sistema:'pediatrico',     keywords:['colico','bebe','lactante','infantil','pediatrico'],                                  cats:['Pediátrico'] },
     { id:'fiebre-ninos',        nombre:'Fiebre en niños',                   emoji:'🤒', sistema:'pediatrico',     keywords:['fiebre','nino','pediatrico','infantil','antipiretico'],                              cats:['Pediátrico'] },
     { id:'tos-ninos',           nombre:'Tos en niños',                      emoji:'😮', sistema:'pediatrico',     keywords:['tos','nino','infantil','pediatrico','expectorante'],                                 cats:['Pediátrico'] },
     { id:'denticion',           nombre:'Dentición / Encías inflamadas',     emoji:'🦷', sistema:'pediatrico',     keywords:['diente','encia','denticion','infantil','pediatrico'],                               cats:['Pediátrico','Analgésico'] },
-    { id:'dolor-muela',         nombre:'Dolor de muelas',                   emoji:'🦷', sistema:'pediatrico',     keywords:['muela','muelas','dental','diente','odontalgia','carie','analgesi'],                  cats:['Dental','Analgésico'] },
+    { id:'dolor-muela',         nombre:'Dolor de muelas',                   emoji:'🦷', sistema:'musculo',         keywords:['muela','muelas','dental','diente','odontalgia','carie','analgesi'],                  cats:['Dental','Analgésico'] },
     // ENERGÉTICO
     { id:'fatiga',              nombre:'Fatiga / Cansancio crónico',        emoji:'⚡', sistema:'energetico',     keywords:['fatiga','cansancio','adaptogeno','energizante','tonico','vigor'],                    cats:['Energizante'] },
     { id:'falta-energia',       nombre:'Vitalidad / Falta de energía',      emoji:'🌟', sistema:'energetico',     keywords:['energia','vitalidad','vigor','tonico','energizante','reactivador'],                   cats:['Energizante'] },
     // ANCESTRAL / MAPUCHE
-    { id:'purificacion',        nombre:'Purificación / Detox',              emoji:'🌿', sistema:'espiritual',     keywords:['purif','depurat','detox','limpieza','toxina','mapuche'],                            cats:['Medicina Mapuche','General'] },
+    { id:'purificacion',        nombre:'Purificación / Detox',              emoji:'🌿', sistema:'mapuche',        keywords:['purif','depurat','detox','limpieza','toxina','mapuche'],                            cats:['Medicina Mapuche','General'] },
     // MEDICINA MACHI MAPUCHE
     { id:'machitun',         nombre:'Machítún / Enfermedad espiritual', emoji:'🩶', sistema:'mapuche', keywords:['machi','mapuche','machitun','espiritual','weda','newen','kutran'],         cats:['Medicina Mapuche'] },
     { id:'puntadas-aire',    nombre:'Puntadas de aire (Weda kürf)',          emoji:'💨', sistema:'mapuche', keywords:['puntada','aire','costado','pleura','weda','intercostal','triwe'],           cats:['Medicina Mapuche','Analégsico'] },
