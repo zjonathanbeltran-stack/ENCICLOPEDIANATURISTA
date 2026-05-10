@@ -2004,15 +2004,18 @@ function configurarShareBtn(title, text) {
 }
 
 const modal = $('#detailModal');
+let _modalClosedByButton = false;
+
 function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
 function cerrarModal() {
     if (!modal.classList.contains('show')) return;
     modal.classList.remove('show');
     document.body.style.overflow = '';
     if (history.state?.modal) {
+        _modalClosedByButton = true;
         history.back();
     } else {
-        history.replaceState(null, '', location.pathname + location.search);
+        history.replaceState({ page: 'plants' }, '', location.pathname + location.search);
     }
 }
 $('#detailModal .close-modal').addEventListener('click', cerrarModal);
@@ -2024,9 +2027,16 @@ document.addEventListener('keydown', (e) => {
     }
 });
 window.addEventListener('popstate', (e) => {
+    if (_modalClosedByButton) { _modalClosedByButton = false; return; }
     if (modal.classList.contains('show')) {
+        // Botón nativo atrás con modal abierto → cierra modal
         modal.classList.remove('show');
         document.body.style.overflow = '';
+    } else {
+        // Botón nativo atrás sin modal → volver a inicio
+        cambiarTab('plants');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        history.pushState({ page: 'plants' }, '', location.pathname + location.search);
     }
 });
 
@@ -2902,6 +2912,11 @@ function inyectarJsonLdPlantas() {
 // INIT
 // ════════════════════════════════════════════════════════════════════
 async function inicializar() {
+    // Asegurar que siempre haya un estado base en el historial
+    // para que el botón nativo de atrás no saque de la app
+    if (!history.state) {
+        history.replaceState({ page: 'plants' }, '', location.pathname + location.search);
+    }
     try {
         // 1. Cargar solo plantas — render inmediato
         const rPlant = await fetch('data/plantas.json');
