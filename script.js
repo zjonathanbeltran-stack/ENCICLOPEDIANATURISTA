@@ -2186,10 +2186,10 @@ function cambiarTab(tabId) {
     // Sincronizar bottom nav
     $$('.bottom-nav-item').forEach(b => b.classList.toggle('active', b.dataset.bottomTab === tabId));
     if (tabId === 'plants') renderPlantas();
-    if (tabId === 'stats') cargarRecetas().then(() => renderEstadisticas());
-    if (tabId === 'maternidad') cargarRecetas().then(() => renderMaternidad());
-    if (tabId === 'recipes' || tabId === 'dolencias') cargarRecetas();
-    if (tabId === 'ancestral') cargarRecetas().then(() => renderMedicinaAncestral());
+    if (tabId === 'stats') { cargarRecetas().then(() => renderEstadisticas()); renderTuExploracion(); }
+    if (tabId === 'maternidad') { cargarRecetas().then(() => renderMaternidad()); setTimeout(() => checkLogros('maternidad'), 500); }
+    if (tabId === 'recipes' || tabId === 'dolencias') { cargarRecetas(); setTimeout(() => checkLogros('recetario'), 500); }
+    if (tabId === 'ancestral') { cargarRecetas().then(() => renderMedicinaAncestral()); setTimeout(() => checkLogros('ancestral'), 500); }
     setTimeout(() => applyReveal(document), 50);
     if (window.innerWidth <= 767) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -2440,6 +2440,9 @@ function marcarPlantaVista(id) {
         localStorage.setItem('plantasVistas', JSON.stringify([...plantasVistas]));
         actualizarProgreso();
     }
+    trackPlantaVisit(id);
+    // Disparar logros después de marcar
+    setTimeout(() => checkLogros(), 400);
 }
 
 function actualizarProgreso() {
@@ -2880,6 +2883,10 @@ async function inicializar() {
         inyectarJsonLdPlantas();
         initBottomSheetGestures();
         initGlobalSearch();
+        initOnboarding();
+        AmbientAudio.init();
+        calcularRacha();
+        checkLogros();
 
         // 2. Resolver hash — si apunta a receta, espera carga
         await resolverHash();
@@ -3495,12 +3502,9 @@ function leerNota(id) {
 }
 function guardarNota(id, texto) {
     const notas = JSON.parse(localStorage.getItem('plantNotas') || '{}');
-    if (texto) {
-        notas[id] = texto;
-    } else {
-        delete notas[id];
-    }
+    if (texto) { notas[id] = texto; } else { delete notas[id]; }
     localStorage.setItem('plantNotas', JSON.stringify(notas));
+    setTimeout(() => checkLogros('nota'), 300);
 }
 
 // ── Filter chip counts (called after plantasDB loads) ──
@@ -3518,6 +3522,355 @@ function actualizarChipCounts() {
         tempChip.innerHTML = `<i class="fas fa-calendar-check"></i> En temporada <span class="chip-count">${tempCount}</span>`;
     }
 }
+
+// ════════════════════════════════════════════════════════════════════
+// SISTEMA DE LOGROS
+// ════════════════════════════════════════════════════════════════════
+const LOGROS = [
+    { id: 'primera_hoja',    icono: '🌿', titulo: 'Primera Hoja',       desc: 'Abriste tu primera planta medicinal',       check: () => plantasVistas.size >= 1 },
+    { id: 'aprendiz',        icono: '🌱', titulo: 'Machi Aprendiz',     desc: 'Exploraste 10 plantas medicinales',         check: () => plantasVistas.size >= 10 },
+    { id: 'herbolario',      icono: '🍃', titulo: 'Herbolario',         desc: 'Exploraste 30 plantas medicinales',         check: () => plantasVistas.size >= 30 },
+    { id: 'machi_mayor',     icono: '🦅', titulo: 'Machi Mayor',        desc: 'Exploraste las 85 plantas del catálogo',    check: () => plantasDB.length > 0 && plantasVistas.size >= plantasDB.length },
+    { id: 'hijo_chiloe',     icono: '🏝️', titulo: 'Hijo de Chiloé',    desc: 'Exploraste todas las plantas de Chiloé',   check: () => { const c = plantasDB.filter(p => p.chiloe); return c.length > 0 && c.every(p => plantasVistas.has(p.id)); } },
+    { id: 'guardian_mapuche',icono: '🔥', titulo: 'Guardián Mapuche',   desc: 'Visitaste la sección Medicina Ancestral',   check: () => !!(JSON.parse(localStorage.getItem('logros_triggers')||'{}').ancestral) },
+    { id: 'coleccionista',   icono: '⭐', titulo: 'Coleccionista',      desc: 'Guardaste 10 plantas en favoritos',         check: () => favoritos.length >= 10 },
+    { id: 'cronista',        icono: '✍️', titulo: 'Cronista Natural',   desc: 'Escribiste notas en 5 plantas',             check: () => Object.keys(JSON.parse(localStorage.getItem('plantNotas')||'{}')).length >= 5 },
+    { id: 'racha_7',         icono: '🔥', titulo: 'Espíritu Constante', desc: '7 días seguidos explorando',               check: () => calcularRacha() >= 7 },
+    { id: 'recetario_vivo',  icono: '🫙', titulo: 'Recetario Vivo',     desc: 'Exploraste el Recetario completo',          check: () => !!(JSON.parse(localStorage.getItem('logros_triggers')||'{}').recetario) },
+    { id: 'quiz_master',     icono: '🧠', titulo: 'Quiz Master',        desc: 'Completaste el quiz de plantas',            check: () => !!(JSON.parse(localStorage.getItem('logros_triggers')||'{}').quiz_done) },
+    { id: 'maternidad',      icono: '🤰', titulo: 'Sabiduría Maternal', desc: 'Visitaste la sección de Maternidad',        check: () => !!(JSON.parse(localStorage.getItem('logros_triggers')||'{}').maternidad) }
+];
+
+function getLogrosDesbloqueados() {
+    return JSON.parse(localStorage.getItem('logrosDesbloqueados') || '[]');
+}
+
+function checkLogros(trigger = null) {
+    if (trigger) {
+        const t = JSON.parse(localStorage.getItem('logros_triggers') || '{}');
+        t[trigger] = true;
+        localStorage.setItem('logros_triggers', JSON.stringify(t));
+    }
+    const desbloqueados = getLogrosDesbloqueados();
+    let nuevos = false;
+    LOGROS.forEach(logro => {
+        if (desbloqueados.includes(logro.id)) return;
+        try {
+            if (logro.check()) {
+                desbloqueados.push(logro.id);
+                nuevos = true;
+                // Delay toasts so they don't stack instantly
+                setTimeout(() => mostrarLogroToast(logro), (desbloqueados.indexOf(logro.id) - 1) * 600);
+            }
+        } catch(e) {}
+    });
+    if (nuevos) {
+        localStorage.setItem('logrosDesbloqueados', JSON.stringify(desbloqueados));
+        actualizarLogrosBadge();
+    }
+}
+
+function mostrarLogroToast(logro) {
+    const toast = document.createElement('div');
+    toast.className = 'logro-toast';
+    toast.innerHTML = `
+        <div class="logro-toast-inner">
+            <div class="logro-toast-icon">${logro.icono}</div>
+            <div class="logro-toast-content">
+                <div class="logro-toast-eyebrow">🏆 Logro desbloqueado</div>
+                <div class="logro-toast-titulo">${logro.titulo}</div>
+                <div class="logro-toast-desc">${logro.desc}</div>
+            </div>
+        </div>`;
+    document.body.appendChild(toast);
+    requestAnimationFrame(() => requestAnimationFrame(() => toast.classList.add('show')));
+    setTimeout(() => {
+        toast.classList.add('hide');
+        setTimeout(() => toast.remove(), 500);
+    }, 4500);
+}
+
+function actualizarLogrosBadge() {
+    const badge = document.getElementById('logrosBadge');
+    if (!badge) return;
+    const n = getLogrosDesbloqueados().length;
+    badge.textContent = `${n}/${LOGROS.length}`;
+    badge.style.display = n > 0 ? 'inline-flex' : 'none';
+}
+
+// ════════════════════════════════════════════════════════════════════
+// SISTEMA DE RACHA + PERFIL CULTURAL
+// ════════════════════════════════════════════════════════════════════
+function calcularRacha() {
+    const hoy = new Date().toDateString();
+    const historial = JSON.parse(localStorage.getItem('visitHistorial') || '[]');
+    if (!historial.includes(hoy)) {
+        historial.push(hoy);
+        if (historial.length > 90) historial.shift();
+        localStorage.setItem('visitHistorial', JSON.stringify(historial));
+    }
+    let racha = 0;
+    const fecha = new Date();
+    for (let i = 0; i < 90; i++) {
+        if (historial.includes(fecha.toDateString())) {
+            racha++;
+            fecha.setDate(fecha.getDate() - 1);
+        } else break;
+    }
+    return racha;
+}
+
+function trackPlantaVisit(id) {
+    const counts = JSON.parse(localStorage.getItem('plantVisitCounts') || '{}');
+    counts[id] = (counts[id] || 0) + 1;
+    localStorage.setItem('plantVisitCounts', JSON.stringify(counts));
+}
+
+function calcularPlantaDelAlma() {
+    const counts = JSON.parse(localStorage.getItem('plantVisitCounts') || '{}');
+    let maxId = null, maxCount = 0;
+    Object.entries(counts).forEach(([id, count]) => {
+        if (count > maxCount) { maxCount = count; maxId = parseInt(id); }
+    });
+    if (!maxId) return null;
+    return plantasDB.find(p => p.id === maxId) || null;
+}
+
+function calcularEspecialidad() {
+    const cats = [
+        ['digestiv', 'Digestivo'], ['hígado', 'Hepático'], ['nervios', 'Nervioso'],
+        ['piel', 'Dermatológico'], ['respirat', 'Respiratorio'], ['dolor', 'Analgésico'],
+        ['mapuche', 'Ancestral'], ['chiloe', 'Chilota'], ['cardio', 'Cardiovascular']
+    ];
+    const score = {};
+    [...plantasVistas].forEach(id => {
+        const p = plantasDB.find(x => x.id === id);
+        if (!p) return;
+        const usos = (p.usos + ' ' + (p.keywords || []).join(' ')).toLowerCase();
+        cats.forEach(([kw, label]) => {
+            if (usos.includes(kw)) score[label] = (score[label] || 0) + 1;
+        });
+    });
+    return Object.entries(score).sort((a,b) => b[1]-a[1]).slice(0,2).map(e => e[0]);
+}
+
+function renderTuExploracion() {
+    const el = document.getElementById('tuExploracion');
+    if (!el) return;
+
+    const vistas      = [...plantasVistas];
+    const pct         = plantasDB.length ? Math.round(vistas.length / plantasDB.length * 100) : 0;
+    const racha       = calcularRacha();
+    const plantaAlma  = calcularPlantaDelAlma();
+    const specs       = calcularEspecialidad();
+    const logrosN     = getLogrosDesbloqueados().length;
+    const nivel = vistas.length < 5  ? 'Curioso Natural'     :
+                  vistas.length < 15 ? 'Aprendiz de Machi'   :
+                  vistas.length < 30 ? 'Herbolario'           :
+                  vistas.length < 60 ? 'Conocedor Ancestral'  : 'Machi Mayor';
+    const recientes = vistas.slice(-4).reverse().map(id => plantasDB.find(p => p.id === id)).filter(Boolean);
+
+    el.innerHTML = `
+    <div class="perfil-card">
+        <div class="perfil-header">
+            <div class="perfil-avatar">${plantaAlma ? (plantaAlma.emoji || '🌿') : '🌱'}</div>
+            <div class="perfil-info">
+                <div class="perfil-titulo">${nivel}</div>
+                <div class="perfil-racha">${racha > 1 ? `🔥 <strong>${racha}</strong> días seguidos` : '🌱 Bienvenido de vuelta'}</div>
+                ${specs.length ? `<div class="perfil-especialidad">${specs.map(s=>`<span class="perfil-spec-badge">${s}</span>`).join('')}</div>` : ''}
+            </div>
+        </div>
+        <div class="perfil-stats-grid">
+            <div class="perfil-stat"><span class="perfil-stat-num">${vistas.length}</span><span class="perfil-stat-lbl">exploradas</span></div>
+            <div class="perfil-stat accent"><span class="perfil-stat-num">${pct}%</span><span class="perfil-stat-lbl">del catálogo</span></div>
+            <div class="perfil-stat"><span class="perfil-stat-num">${favoritos.length}</span><span class="perfil-stat-lbl">favoritas</span></div>
+            <div class="perfil-stat amber"><span class="perfil-stat-num">${logrosN}</span><span class="perfil-stat-lbl">logros</span></div>
+        </div>
+        <div class="perfil-progress">
+            <div class="perfil-progress-bar"><div class="perfil-progress-fill" style="width:${pct}%"></div></div>
+            <span class="perfil-progress-txt">${vistas.length} de ${plantasDB.length} plantas exploradas</span>
+        </div>
+        ${plantaAlma ? `
+        <div class="perfil-alma">
+            <span class="perfil-alma-label">Tu planta del alma</span>
+            <button class="perfil-alma-btn" data-id="${plantaAlma.id}">
+                <span>${plantaAlma.emoji || '🌿'}</span>
+                <strong>${plantaAlma.nombre}</strong>
+                <span>${plantaAlma.cientifico}</span>
+            </button>
+        </div>` : ''}
+        ${recientes.length ? `
+        <div class="perfil-recientes">
+            <span class="perfil-recientes-lbl">Vistas recientemente</span>
+            <div class="perfil-chips">${recientes.map(p=>`<button class="tuexp-chip" data-id="${p.id}">${p.emoji||'🌿'} ${p.nombre}</button>`).join('')}</div>
+        </div>` : '<p class="tuexp-empty">Explora plantas para ver tu progreso aquí</p>'}
+    </div>
+
+    <div class="logros-section">
+        <h3 class="logros-titulo">Mis Logros <span id="logrosBadge" class="logros-count-badge"></span></h3>
+        <div class="logros-grid">
+            ${LOGROS.map(l => {
+                const ok = getLogrosDesbloqueados().includes(l.id);
+                return `<div class="logro-card ${ok ? 'unlocked' : 'locked'}" title="${l.desc}">
+                    <span class="logro-icono">${l.icono}</span>
+                    <span class="logro-nombre">${l.titulo}</span>
+                    <span class="logro-desc">${l.desc}</span>
+                </div>`;
+            }).join('')}
+        </div>
+    </div>`;
+
+    el.querySelector('.perfil-alma-btn')?.addEventListener('click', function() {
+        cambiarTab('plants'); abrirDetallePlanta(parseInt(this.dataset.id));
+    });
+    el.querySelectorAll('.tuexp-chip').forEach(btn => {
+        btn.addEventListener('click', () => { cambiarTab('plants'); abrirDetallePlanta(parseInt(btn.dataset.id)); });
+    });
+    actualizarLogrosBadge();
+}
+
+// ════════════════════════════════════════════════════════════════════
+// MODO EXPLORADOR — ONBOARDING
+// ════════════════════════════════════════════════════════════════════
+const PERFILES_EXPLORER = {
+    curandero:  { titulo: 'Curandero',   tab: 'dolencias'  },
+    viajero:    { titulo: 'Viajero',     tab: 'plants'     },
+    estudioso:  { titulo: 'Estudioso',   tab: 'plants'     },
+    madre:      { titulo: 'Madre',       tab: 'maternidad' },
+    ancestral:  { titulo: 'Ancestral',   tab: 'ancestral'  },
+    general:    { titulo: 'Explorador',  tab: 'plants'     }
+};
+
+function initOnboarding() {
+    if (localStorage.getItem('explorerProfile')) return;
+    const overlay = document.getElementById('onboardingOverlay');
+    if (!overlay) return;
+    // Show after short delay so app loads first
+    setTimeout(() => overlay.classList.add('show'), 800);
+
+    overlay.querySelectorAll('.onb-profile-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const id = btn.dataset.profile;
+            localStorage.setItem('explorerProfile', id);
+            const perfil = PERFILES_EXPLORER[id];
+            overlay.classList.add('closing');
+            setTimeout(() => {
+                overlay.style.display = 'none';
+                if (perfil?.tab && perfil.tab !== 'plants') cambiarTab(perfil.tab);
+                mostrarToast(`¡Bienvenido, ${perfil?.titulo || 'Explorador'}! El saber ancestral te espera. 🌿`, 'ok');
+                checkLogros();
+            }, 500);
+        });
+    });
+    overlay.querySelector('.onb-skip')?.addEventListener('click', () => {
+        localStorage.setItem('explorerProfile', 'general');
+        overlay.classList.add('closing');
+        setTimeout(() => overlay.style.display = 'none', 500);
+    });
+}
+
+// ════════════════════════════════════════════════════════════════════
+// SONIDOS AMBIENTALES — Web Audio API
+// ════════════════════════════════════════════════════════════════════
+const AmbientAudio = (() => {
+    let ctx = null, masterGain = null, activeNodes = [], currentMood = null;
+
+    function initCtx() {
+        if (ctx) return;
+        ctx = new (window.AudioContext || window.webkitAudioContext)();
+        masterGain = ctx.createGain();
+        masterGain.gain.setValueAtTime(0, ctx.currentTime);
+        masterGain.connect(ctx.destination);
+    }
+
+    function createNoiseBuffer() {
+        const sr  = ctx.sampleRate;
+        const buf = ctx.createBuffer(2, sr * 4, sr);
+        for (let ch = 0; ch < 2; ch++) {
+            const d = buf.getChannelData(ch);
+            let b0=0,b1=0,b2=0,b3=0,b4=0,b5=0,b6=0;
+            for (let i = 0; i < d.length; i++) {
+                const w = Math.random()*2-1;
+                b0=0.99886*b0+w*0.0555179; b1=0.99332*b1+w*0.0750759;
+                b2=0.96900*b2+w*0.1538520; b3=0.86650*b3+w*0.3104856;
+                b4=0.55000*b4+w*0.5329522; b5=-0.7616*b5-w*0.0168980;
+                d[i]=(b0+b1+b2+b3+b4+b5+b6+w*0.5362)*0.10; b6=w*0.115926;
+            }
+        }
+        return buf;
+    }
+
+    function playMood(mood) {
+        if (mood === currentMood) { stop(); return; }
+        stop();
+        currentMood = mood;
+        initCtx();
+        if (ctx.state === 'suspended') ctx.resume();
+
+        const buf    = createNoiseBuffer();
+        const src    = ctx.createBufferSource();
+        src.buffer   = buf; src.loop = true;
+
+        const filt   = ctx.createBiquadFilter();
+        const gNode  = ctx.createGain();
+
+        if (mood === 'bosque') {
+            filt.type = 'lowpass';  filt.frequency.value = 700;  filt.Q.value = 0.5; gNode.gain.value = 0.38;
+        } else if (mood === 'costa') {
+            filt.type = 'bandpass'; filt.frequency.value = 350;  filt.Q.value = 0.3; gNode.gain.value = 0.30;
+        } else {
+            filt.type = 'highpass'; filt.frequency.value = 1400; filt.Q.value = 0.4; gNode.gain.value = 0.20;
+        }
+
+        src.connect(filt); filt.connect(gNode); gNode.connect(masterGain);
+        src.start();
+        activeNodes = [src, filt, gNode];
+        masterGain.gain.setValueAtTime(0, ctx.currentTime);
+        masterGain.gain.linearRampToValueAtTime(1, ctx.currentTime + 2.5);
+        updateSoundUI();
+    }
+
+    function stop() {
+        if (!ctx || !masterGain) return;
+        masterGain.gain.setValueAtTime(masterGain.gain.value, ctx.currentTime);
+        masterGain.gain.linearRampToValueAtTime(0, ctx.currentTime + 1.5);
+        setTimeout(() => {
+            activeNodes.forEach(n => { try { n.stop?.(); n.disconnect?.(); } catch(e){} });
+            activeNodes = [];
+        }, 1600);
+        currentMood = null;
+        updateSoundUI();
+    }
+
+    function updateSoundUI() {
+        document.querySelectorAll('.sound-btn').forEach(b => b.classList.toggle('active', b.dataset.mood === currentMood));
+        const tog = document.getElementById('soundToggle');
+        if (tog) {
+            tog.classList.toggle('sound-on', !!currentMood);
+            const labels = { bosque:'Bosque Sur', costa:'Costa Chiloé', altura:'Cordillera' };
+            tog.title = currentMood ? `Sonido: ${labels[currentMood]}` : 'Sonidos ambientales';
+        }
+    }
+
+    function init() {
+        const tog   = document.getElementById('soundToggle');
+        const panel = document.getElementById('soundPanel');
+        const stopB = document.getElementById('soundStop');
+        if (!tog || !panel) return;
+
+        tog.addEventListener('click', e => { e.stopPropagation(); panel.classList.toggle('open'); });
+        stopB?.addEventListener('click', () => { stop(); panel.classList.remove('open'); });
+        panel.querySelectorAll('.sound-btn').forEach(btn => {
+            btn.addEventListener('click', () => { playMood(btn.dataset.mood); panel.classList.remove('open'); });
+        });
+        document.addEventListener('click', e => {
+            if (!e.target.closest('#soundToggle') && !e.target.closest('#soundPanel'))
+                panel.classList.remove('open');
+        });
+    }
+
+    return { init, playMood, stop };
+})();
 
 // ── A4: Bottom Sheet swipe-to-dismiss ──
 function initBottomSheetGestures() {
