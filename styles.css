@@ -7024,32 +7024,16 @@ h1, h2, h3, .plant-name, .brand-text h1 {
         linear-gradient(180deg, rgba(20,24,15,0.5) 0%, rgba(20,24,15,0.1) 35%, rgba(20,24,15,0.7) 100%);
     pointer-events: none;
 }
-.hhSunLayer { animation: hhSunPulse 9s ease-in-out infinite; transform-origin: 78% 22%; }
-.hhLayer1 { animation: hhDriftSlow 60s ease-in-out infinite alternate; }
-.hhLayer2 { animation: hhDriftSlow 45s ease-in-out infinite alternate-reverse; }
-.hhLayer3 { animation: hhDriftSlow 30s ease-in-out infinite alternate; }
-.hhMist { animation: hhMistFloat 14s ease-in-out infinite alternate; }
-.hhParticles circle { animation: hhParticleFloat 8s ease-in-out infinite alternate; }
-.hhParticles circle:nth-child(2n) { animation-duration: 11s; animation-delay: -2s; }
-.hhParticles circle:nth-child(3n) { animation-duration: 14s; animation-delay: -4s; }
-.hhParticles circle:nth-child(5n) { animation-duration: 9s; animation-delay: -1s; }
+.hhSunLayer { animation: hhSunPulse 9s ease-in-out infinite; transform-origin: 78% 22%; will-change: opacity; }
+.hhMist { animation: hhMistFloat 18s ease-in-out infinite alternate; will-change: opacity; }
 
 @keyframes hhSunPulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.75; transform: scale(1.05); }
-}
-@keyframes hhDriftSlow {
-    0% { transform: translateX(0) translateY(0); }
-    100% { transform: translateX(-12px) translateY(-3px); }
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
 }
 @keyframes hhMistFloat {
-    0% { transform: translateX(0); opacity: 0.85; }
-    100% { transform: translateX(40px); opacity: 0.65; }
-}
-@keyframes hhParticleFloat {
-    0% { transform: translateY(0); opacity: 0.4; }
-    50% { opacity: 0.8; }
-    100% { transform: translateY(-30px); opacity: 0.3; }
+    0% { opacity: 0.85; }
+    100% { opacity: 0.5; }
 }
 
 .hh-content {
@@ -7132,10 +7116,9 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     box-shadow: 0 22px 54px -10px rgba(155,187,122,0.78), 0 0 0 1px rgba(155,187,122,0.6);
 }
 .hh-cta-secondary {
-    background: rgba(245,241,232,0.06);
+    background: rgba(245,241,232,0.08);
     color: var(--text);
     border: 1px solid rgba(245,241,232,0.18);
-    backdrop-filter: blur(12px);
 }
 .hh-cta-secondary:hover {
     background: rgba(245,241,232,0.12);
@@ -7223,9 +7206,8 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     text-align: left;
     padding: 26px 24px 64px;
     border-radius: var(--r);
-    background: var(--glass-bg);
+    background: var(--bg-2);
     border: 1px solid var(--glass-border);
-    backdrop-filter: blur(14px);
     cursor: pointer;
     overflow: hidden;
     transition: transform 0.36s var(--ease-out), border-color 0.32s var(--ease), box-shadow 0.36s var(--ease-out), background 0.32s var(--ease);
@@ -7235,6 +7217,7 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     min-height: 200px;
     display: flex;
     flex-direction: column;
+    will-change: transform;
 }
 .ha-card::before {
     content: '';
@@ -7356,11 +7339,10 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.3fr);
     gap: 32px;
     align-items: stretch;
-    background: var(--glass-bg);
+    background: var(--bg-2);
     border: 1px solid var(--glass-border);
     border-radius: var(--r-lg);
     padding: 36px;
-    backdrop-filter: blur(14px);
     box-shadow: 0 20px 60px -30px rgba(0,0,0,0.5);
 }
 .ha-map {
@@ -7509,11 +7491,10 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
     gap: 32px;
     align-items: center;
-    background: var(--glass-bg);
+    background: var(--bg-2);
     border: 1px solid var(--glass-border);
     border-radius: var(--r-lg);
     padding: 36px;
-    backdrop-filter: blur(14px);
     box-shadow: 0 20px 60px -30px rgba(0,0,0,0.5);
 }
 .hc-wheel {
@@ -7590,7 +7571,7 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     text-anchor: middle;
     pointer-events: none;
 }
-.hc-center-ring { fill: none; stroke: rgba(155,187,122,0.18); stroke-width: 1; stroke-dasharray: 2 4; animation: hcRing 60s linear infinite; transform-origin: center; transform-box: fill-box; }
+.hc-center-ring { fill: none; stroke: rgba(155,187,122,0.18); stroke-width: 1; stroke-dasharray: 2 4; animation: hcRing 60s linear infinite; transform-origin: center; transform-box: fill-box; will-change: transform; }
 @keyframes hcRing { to { transform: rotate(360deg); } }
 
 .hc-detail { display: flex; flex-direction: column; min-height: 360px; }
@@ -7709,7 +7690,7 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     box-shadow:
         inset 0 1px 0 rgba(255,255,255,0.06),
         0 12px 32px -16px rgba(0,0,0,0.5);
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(8px);
     padding: 5px;
 }
 .tab-indicator {
@@ -7758,4 +7739,12 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     .ha-detail-name, .hc-detail h3 { font-size: 1.4rem; }
     .ha-map svg { max-height: 380px; }
     .hc-wheel { max-width: 320px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
