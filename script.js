@@ -1642,7 +1642,7 @@ function slugify(str) {
 function abrirDetallePlanta(id) {
     const p = plantasDB.find(p => p.id === id);
     if (!p) return;
-    history.replaceState(null, '', '#planta/' + slugify(p.nombre));
+    history.pushState({ modal: 'planta', id }, '', '#planta/' + slugify(p.nombre));
     // Registrar como vista para progreso
     marcarPlantaVista(id);
 
@@ -1834,7 +1834,7 @@ function resetearFiltros() {
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
-    history.replaceState(null, '', '#receta/' + id);
+    history.pushState({ modal: 'receta', id }, '', '#receta/' + id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -2006,9 +2006,14 @@ function configurarShareBtn(title, text) {
 const modal = $('#detailModal');
 function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
 function cerrarModal() {
+    if (!modal.classList.contains('show')) return;
     modal.classList.remove('show');
     document.body.style.overflow = '';
-    history.replaceState(null, '', location.pathname + location.search);
+    if (history.state?.modal) {
+        history.back();
+    } else {
+        history.replaceState(null, '', location.pathname + location.search);
+    }
 }
 $('#detailModal .close-modal').addEventListener('click', cerrarModal);
 modal.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
@@ -2016,6 +2021,12 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         if (document.getElementById('quizModal')?.classList.contains('show')) cerrarQuizModal();
         else cerrarModal();
+    }
+});
+window.addEventListener('popstate', (e) => {
+    if (modal.classList.contains('show')) {
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
     }
 });
 
