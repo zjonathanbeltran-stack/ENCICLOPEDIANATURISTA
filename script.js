@@ -1398,9 +1398,26 @@ function renderSearchHero() {
         { emoji: '😣', label: 'Dolor' },
         { emoji: '💆', label: 'Ansiedad' },
     ];
+    const nPlantas = plantasDB.length || 85;
+    const nRecetas = (window.recetasDB || []).length || 1058;
     container.innerHTML = `
         <section class="search-hero">
-            <p class="search-hero-eyebrow">85 plantas · 1.058 recetas · Saber ancestral chileno</p>
+            <div class="search-hero-stats">
+                <div class="shs-stat">
+                    <span class="shs-num" data-target="${nPlantas}">0</span>
+                    <span class="shs-label">plantas</span>
+                </div>
+                <div class="shs-sep">·</div>
+                <div class="shs-stat">
+                    <span class="shs-num" data-target="${nRecetas}">0</span>
+                    <span class="shs-label">recetas</span>
+                </div>
+                <div class="shs-sep">·</div>
+                <div class="shs-stat">
+                    <span class="shs-num">∞</span>
+                    <span class="shs-label">saber ancestral</span>
+                </div>
+            </div>
             <h2 class="search-hero-title">¿Qué necesitas hoy?</h2>
             <div class="search-hero-wrap">
                 <i class="fas fa-search search-hero-icon-left"></i>
@@ -1413,6 +1430,22 @@ function renderSearchHero() {
                 ${pills.map(p => `<button class="search-pill" data-term="${p.label}">${p.emoji} ${p.label}</button>`).join('')}
             </div>
         </section>`;
+
+    // Animated counters
+    container.querySelectorAll('.shs-num[data-target]').forEach(el => {
+        const target = +el.dataset.target;
+        const steps = 28;
+        const interval = 32; // ~30fps via setTimeout (works even in background tabs)
+        let step = 0;
+        const tick = () => {
+            step++;
+            const p = step / steps;
+            const ease = 1 - Math.pow(1 - p, 3);
+            el.textContent = Math.round(ease * target);
+            if (step < steps) setTimeout(tick, interval);
+        };
+        setTimeout(tick, interval);
+    });
 
     const heroInput = document.getElementById('searchHeroInput');
     const mainInput = document.getElementById('searchInput');
