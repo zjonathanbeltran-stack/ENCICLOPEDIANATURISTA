@@ -4,8 +4,8 @@
     {
       "name": "Enciclopedia Medicinal",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8787"],
-      "port": 8787
+      "runtimeArgs": ["-m", "http.server", "8790"],
+      "port": 8790
     }
   ]
 }

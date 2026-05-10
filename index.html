@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=ux4">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -156,6 +156,9 @@
 
         <!-- ─────────── PLANTAS ─────────── -->
         <div id="plantsTab" class="tab-content active">
+
+            <!-- Search Hero — sección de búsqueda prominente (renderizada por JS) -->
+            <div id="plantsSearchHero"></div>
 
             <!-- Planta del Día -->
             <div id="plantaDia" class="planta-dia-section"></div>
@@ -789,6 +792,7 @@
     <!-- Modal -->
     <div id="detailModal" class="modal">
         <div class="modal-content">
+            <div class="sheet-handle" aria-hidden="true"></div>
             <div class="modal-top-bar">
                 <button class="close-modal" title="Cerrar">
                     <i class="fas fa-chevron-left"></i>
@@ -865,9 +869,46 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- Bottom Navigation — visible solo en mobile (≤767px via CSS) -->
+    <nav class="bottom-nav" id="bottomNav" aria-label="Navegación principal">
+        <button class="bottom-nav-item active" data-bottom-tab="plants" title="Plantas">
+            <i class="fas fa-seedling"></i>
+            <span>Plantas</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="recipes" title="Recetario">
+            <i class="fas fa-mortar-pestle"></i>
+            <span>Recetario</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="ancestral" title="Cultural">
+            <i class="fas fa-fire"></i>
+            <span>Cultural</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="stats" title="Mi espacio">
+            <i class="fas fa-chart-simple"></i>
+            <span>Mi espacio</span>
+            <span class="bottom-nav-badge" id="bottomFavBadge" style="display:none">0</span>
+        </button>
+    </nav>
+
+    <!-- A1: Global Search Overlay -->
+    <div id="globalSearchOverlay" class="global-search-overlay" role="dialog" aria-modal="true" aria-label="Búsqueda global">
+        <div class="gso-backdrop" id="gsoBackdrop"></div>
+        <div class="gso-panel">
+            <div class="gso-input-wrap">
+                <i class="fas fa-search gso-icon" aria-hidden="true"></i>
+                <input type="search" id="gsoInput" placeholder="Buscar plantas, recetas, síntomas…" autocomplete="off" spellcheck="false" />
+                <button class="gso-close" id="gsoClose" aria-label="Cerrar búsqueda">Esc</button>
+            </div>
+            <div class="gso-results" id="gsoResults" role="listbox"></div>
+            <div class="gso-shortcut-hint">
+                <kbd>↑↓</kbd> navegar &nbsp;·&nbsp; <kbd>Enter</kbd> abrir &nbsp;·&nbsp; <kbd>Esc</kbd> cerrar
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
     <script src="illustrations.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js?v=ux4"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').catch(() => {});
