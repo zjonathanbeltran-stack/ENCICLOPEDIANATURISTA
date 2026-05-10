@@ -11,15 +11,33 @@ let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 let _recetasCargadas  = false;
 let _recetasCargando  = null; // Promise en vuelo
 
+function _mostrarSkeletonRecetas() {
+    const grid = document.getElementById('recetaCategorias');
+    if (!grid || grid.dataset.skeleton) return;
+    grid.dataset.skeleton = '1';
+    grid.classList.add('skeleton-grid');
+    grid.innerHTML = Array.from({ length: 8 }, () => `
+        <div class="skeleton-card">
+            <div class="skeleton-img"></div>
+            <div class="skeleton-body">
+                <div class="skeleton-line w-85"></div>
+                <div class="skeleton-line w-50"></div>
+            </div>
+        </div>`).join('');
+}
+
 async function cargarRecetas() {
     if (_recetasCargadas) return true;
     if (_recetasCargando) return _recetasCargando;
+    _mostrarSkeletonRecetas();
     _recetasCargando = (async () => {
         try {
             const r = await fetch('data/recetas.json');
             if (!r.ok) throw new Error('Error cargando recetas.json');
             recetasDB = await r.json();
             _recetasCargadas = true;
+            const grid = document.getElementById('recetaCategorias');
+            if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
             renderCategoriasChips();
             actualizarChipCounts();
             return true;
@@ -1367,6 +1385,62 @@ function applyReveal(scope = document) {
 }
 
 // ════════════════════════════════════════════════════════════════════
+// SEARCH HERO
+// ════════════════════════════════════════════════════════════════════
+function renderSearchHero() {
+    const container = document.getElementById('plantsSearchHero');
+    if (!container) return;
+    const pills = [
+        { emoji: '🫁', label: 'Tos' },
+        { emoji: '🧠', label: 'Insomnio' },
+        { emoji: '🤢', label: 'Digestión' },
+        { emoji: '🤧', label: 'Resfriado' },
+        { emoji: '😣', label: 'Dolor' },
+        { emoji: '💆', label: 'Ansiedad' },
+    ];
+    container.innerHTML = `
+        <section class="search-hero">
+            <p class="search-hero-eyebrow">85 plantas · 1.058 recetas · Saber ancestral chileno</p>
+            <h2 class="search-hero-title">¿Qué necesitas hoy?</h2>
+            <div class="search-hero-wrap">
+                <i class="fas fa-search search-hero-icon-left"></i>
+                <input class="search-hero-input" type="search" id="searchHeroInput"
+                    placeholder="Buscar planta o síntoma…" autocomplete="off"
+                    aria-label="Buscar planta o síntoma" />
+                <kbd class="search-hero-kbd">/</kbd>
+            </div>
+            <div class="search-hero-pills">
+                ${pills.map(p => `<button class="search-pill" data-term="${p.label}">${p.emoji} ${p.label}</button>`).join('')}
+            </div>
+        </section>`;
+
+    const heroInput = document.getElementById('searchHeroInput');
+    const mainInput = document.getElementById('searchInput');
+
+    heroInput?.addEventListener('input', () => {
+        busqueda = heroInput.value;
+        if (mainInput) mainInput.value = heroInput.value;
+        actualizarBtnReset();
+        renderPlantas();
+        if (heroInput.value.length > 0) {
+            document.getElementById('plantList')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    });
+
+    container.querySelectorAll('.search-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            const term = pill.dataset.term;
+            busqueda = term;
+            if (mainInput) mainInput.value = term;
+            if (heroInput) heroInput.value = term;
+            actualizarBtnReset();
+            renderPlantas();
+            document.getElementById('plantList')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+}
+
+// ════════════════════════════════════════════════════════════════════
 // PLANTAS
 // ════════════════════════════════════════════════════════════════════
 const plantListDiv = $('#plantList');
@@ -1392,11 +1466,11 @@ function renderPlantas() {
     if (filtradas.length === 0) {
         if (mostrandoFavoritos) {
             plantListDiv.innerHTML = `
-            <div class="empty">
-                <span class="icon">🌿</span>
-                <p class="empty-title">Aún no tienes favoritas</p>
-                <p class="empty-sub">Explora el catálogo y guarda las plantas que más usas<br>tocando el <i class="fas fa-bookmark"></i> en cada tarjeta.</p>
-                <button class="empty-cta" id="emptyFavBtn"><i class="fas fa-seedling"></i> Explorar plantas</button>
+            <div class="empty-state-v2">
+                <span class="es-icon">🌿</span>
+                <h3 class="es-title">Aún no tienes favoritas</h3>
+                <p class="es-desc">Explora el catálogo y guarda las plantas que más usas tocando el ♥ en cada tarjeta.</p>
+                <button class="es-btn" id="emptyFavBtn"><i class="fas fa-seedling"></i> Explorar plantas</button>
             </div>`;
             document.getElementById('emptyFavBtn')?.addEventListener('click', () => {
                 mostrandoFavoritos = false;
@@ -1405,14 +1479,16 @@ function renderPlantas() {
             });
         } else {
             plantListDiv.innerHTML = `
-            <div class="empty">
-                <span class="icon">🔍</span>
-                <p class="empty-title">Sin resultados</p>
-                <p class="empty-sub">No encontramos plantas con ese criterio.<br>Prueba con otro término o quita los filtros activos.</p>
-                <button class="empty-cta" id="emptySearchBtn"><i class="fas fa-times-circle"></i> Limpiar filtros</button>
+            <div class="empty-state-v2">
+                <span class="es-icon">🔍</span>
+                <h3 class="es-title">Sin resultados</h3>
+                <p class="es-desc">No encontramos plantas con ese criterio. Prueba con otro término o quita los filtros.</p>
+                <button class="es-btn" id="emptySearchBtn"><i class="fas fa-times-circle"></i> Limpiar filtros</button>
             </div>`;
             document.getElementById('emptySearchBtn')?.addEventListener('click', () => {
                 busqueda = '';
+                const heroInput = document.getElementById('searchHeroInput');
+                if (heroInput) heroInput.value = '';
                 $('#searchInput').value = '';
                 filtroChiloe = false;
                 filtroTemporada = false;
@@ -1454,24 +1530,21 @@ function renderPlantas() {
                     ? `<img src="${p.imagen}" alt="${p.nombre}" class="plant-img" loading="lazy" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">`
                     : ''}
                 <div class="photo-placeholder${p.imagen ? ' hidden' : ''}">${placeholderContent}</div>
-                ${tieneNota ? '<span class="card-note-dot" title="Tienes una nota guardada">✏️</span>' : ''}
+                ${tieneNota ? '<span class="card-note-dot" title="Nota guardada"><i class="fas fa-pen"></i></span>' : ''}
             </div>
             <div class="plant-name">${p.nombre}</div>
             <div class="plant-sci">${p.cientifico}</div>
+            <div class="plant-uso-preview">${usoCorto}</div>
             <div class="plant-badges">
                 ${p.chiloe ? '<span class="badge chiloe">📍 Chiloé</span>' : ''}
                 ${p.protegida ? '<span class="badge shield">🛡️ Protegida</span>' : ''}
                 ${p.peligroso ? '<span class="badge warn">⚠️ Precaución</span>' : ''}
                 ${embBadge}${lacBadge}
             </div>
-            <div class="plant-uso-preview">${usoCorto}</div>
-            <button class="fav-btn ${favoritos.includes(p.id) ? 'active' : ''}" data-id="${p.id}" title="Favorito">
+            <button class="fav-btn ${favoritos.includes(p.id) ? 'active' : ''}" data-id="${p.id}" title="${favoritos.includes(p.id) ? 'Quitar de favoritos' : 'Guardar planta'}">
                 <i class="fas fa-bookmark"></i>
             </button>
-            <div class="card-hover-overlay">
-                <div class="card-hover-uso">${usoCorto}</div>
-                <div class="card-hover-cta"><i class="fas fa-arrow-right"></i> Ver detalle</div>
-            </div>
+            <div class="card-cta"><i class="fas fa-arrow-right"></i> Ver detalle</div>
         </div>
     `}).join('');
 
@@ -1680,6 +1753,18 @@ function actualizarBtnFavoritos() {
     const favBtn = $('#favBtn');
     favBtn.title = favoritos.length > 0 ? `Favoritos (${favoritos.length})` : 'Favoritos';
     actualizarFavBadge();
+    actualizarBottomNavBadge();
+}
+
+function actualizarBottomNavBadge() {
+    const badge = document.getElementById('bottomFavBadge');
+    if (!badge) return;
+    if (favoritos.length > 0) {
+        badge.textContent = favoritos.length > 9 ? '9+' : favoritos.length;
+        badge.style.display = 'flex';
+    } else {
+        badge.style.display = 'none';
+    }
 }
 
 function actualizarBtnReset() {
@@ -2094,22 +2179,33 @@ function cambiarTab(tabId) {
     $$('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
     $$('.tab-content').forEach(t => t.classList.toggle('active', t.id === tabId + 'Tab'));
     moverIndicador();
-    // Scroll active tab button into view (for mobile scrollable nav)
     const activeTabBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
     if (activeTabBtn) {
         activeTabBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
+    // Sincronizar bottom nav
+    $$('.bottom-nav-item').forEach(b => b.classList.toggle('active', b.dataset.bottomTab === tabId));
     if (tabId === 'plants') renderPlantas();
     if (tabId === 'stats') cargarRecetas().then(() => renderEstadisticas());
     if (tabId === 'maternidad') cargarRecetas().then(() => renderMaternidad());
     if (tabId === 'recipes' || tabId === 'dolencias') cargarRecetas();
     if (tabId === 'ancestral') cargarRecetas().then(() => renderMedicinaAncestral());
     setTimeout(() => applyReveal(document), 50);
+    if (window.innerWidth <= 767) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 $$('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => cambiarTab(btn.dataset.tab));
 });
+
+// Bottom navigation — delega en cambiarTab
+$$('.bottom-nav-item').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.dataset.bottomTab;
+        if (tab) cambiarTab(tab);
+    });
+});
+
 window.addEventListener('resize', moverIndicador);
 
 // ════════════════════════════════════════════════════════════════════
@@ -2762,9 +2858,11 @@ async function inicializar() {
         if (!rPlant.ok) throw new Error('No se pudieron cargar los datos.');
         plantasDB = await rPlant.json();
 
+        renderSearchHero();
         renderPlantas();
         renderSistemasBusqueda();
         actualizarBtnFavoritos();
+        actualizarBottomNavBadge();
         moverIndicador();
 
         resizeCanvas();
@@ -2780,6 +2878,8 @@ async function inicializar() {
         actualizarChipCounts();
         applyReveal(document);
         inyectarJsonLdPlantas();
+        initBottomSheetGestures();
+        initGlobalSearch();
 
         // 2. Resolver hash — si apunta a receta, espera carga
         await resolverHash();
@@ -3249,6 +3349,14 @@ inicializar();
         });
     });
 
+    // ── Header scroll-state ──
+    const headerEl = document.querySelector('header');
+    if (headerEl) {
+        window.addEventListener('scroll', () => {
+            headerEl.classList.toggle('scrolled', window.scrollY > 40);
+        }, { passive: true });
+    }
+
     // ── Back-to-top button ──
     const backToTopBtn = document.getElementById('backToTop');
     if (backToTopBtn) {
@@ -3409,6 +3517,188 @@ function actualizarChipCounts() {
     if (tempChip) {
         tempChip.innerHTML = `<i class="fas fa-calendar-check"></i> En temporada <span class="chip-count">${tempCount}</span>`;
     }
+}
+
+// ── A4: Bottom Sheet swipe-to-dismiss ──
+function initBottomSheetGestures() {
+    const modal = document.getElementById('detailModal');
+    if (!modal) return;
+    const content = modal.querySelector('.modal-content');
+    if (!content) return;
+
+    let startY = 0, startScrollTop = 0, dragging = false;
+
+    content.addEventListener('touchstart', e => {
+        if (window.innerWidth > 767) return;
+        startY = e.touches[0].clientY;
+        startScrollTop = content.scrollTop;
+        dragging = true;
+    }, { passive: true });
+
+    content.addEventListener('touchmove', e => {
+        if (!dragging || window.innerWidth > 767) return;
+        const dy = e.touches[0].clientY - startY;
+        // Only drag when scrolled to top and pulling down
+        if (dy > 0 && content.scrollTop <= 0) {
+            content.style.transform = `translateY(${Math.min(dy * 0.55, 180)}px)`;
+            content.style.transition = 'none';
+        }
+    }, { passive: true });
+
+    content.addEventListener('touchend', e => {
+        if (!dragging || window.innerWidth > 767) return;
+        dragging = false;
+        const dy = e.changedTouches[0].clientY - startY;
+        content.style.transition = '';
+        if (dy > 100 && content.scrollTop <= 0) {
+            content.classList.add('sheet-dismissing');
+            setTimeout(() => {
+                content.classList.remove('sheet-dismissing');
+                content.style.transform = '';
+                cerrarModal();
+            }, 260);
+        } else {
+            content.style.transform = '';
+        }
+    }, { passive: true });
+}
+
+// ── A1: Global Search Overlay ──
+let _gsoSelectedIdx = -1;
+
+function abrirGlobalSearch() {
+    const overlay = document.getElementById('globalSearchOverlay');
+    if (!overlay) return;
+    overlay.classList.add('open');
+    const input = document.getElementById('gsoInput');
+    if (input) { input.value = ''; input.focus(); }
+    _gsoSelectedIdx = -1;
+    renderGsoResults('');
+}
+
+function cerrarGlobalSearch() {
+    const overlay = document.getElementById('globalSearchOverlay');
+    if (!overlay) return;
+    overlay.classList.remove('open');
+}
+
+function renderGsoResults(q) {
+    const container = document.getElementById('gsoResults');
+    if (!container) return;
+    const query = q.trim().toLowerCase();
+
+    if (!query) { container.innerHTML = ''; return; }
+
+    const plantas = (plantasDB || []).filter(p =>
+        p.nombre.toLowerCase().includes(query) ||
+        (p.cientifico || '').toLowerCase().includes(query) ||
+        (p.usos || '').toLowerCase().includes(query) ||
+        (p.keywords || []).some(k => k.toLowerCase().includes(query))
+    ).slice(0, 6);
+
+    const recetas = (recetasDB || []).filter(r =>
+        r.titulo.toLowerCase().includes(query) ||
+        (r.categoria || '').toLowerCase().includes(query) ||
+        (r.ingredientes || '').toLowerCase().includes(query)
+    ).slice(0, 5);
+
+    if (!plantas.length && !recetas.length) {
+        container.innerHTML = `<div class="gso-no-results">Sin resultados para <strong>"${q.trim()}"</strong></div>`;
+        return;
+    }
+
+    let html = '';
+    if (plantas.length) {
+        html += `<div class="gso-section-label"><i class="fas fa-seedling"></i> Plantas</div>`;
+        html += plantas.map((p, i) => `
+            <div class="gso-item" role="option" data-gso-type="planta" data-gso-id="${p.id}" tabindex="-1">
+                ${p.imagen ? `<img class="gso-item-img" src="${p.imagen}" alt="${p.nombre}" loading="lazy">` : `<span class="gso-item-emoji">${p.emoji || '🌿'}</span>`}
+                <div>
+                    <div class="gso-item-name">${p.nombre}</div>
+                    <div class="gso-item-sub">${p.cientifico || ''}</div>
+                </div>
+                <span class="gso-item-badge gso-badge-planta">Planta</span>
+            </div>`).join('');
+    }
+    if (recetas.length) {
+        html += `<div class="gso-section-label"><i class="fas fa-mortar-pestle"></i> Recetas</div>`;
+        html += recetas.map(r => `
+            <div class="gso-item" role="option" data-gso-type="receta" data-gso-id="${r.id}" tabindex="-1">
+                <span class="gso-item-emoji">🫙</span>
+                <div>
+                    <div class="gso-item-name">${r.titulo}</div>
+                    <div class="gso-item-sub">${r.categoria || ''}</div>
+                </div>
+                <span class="gso-item-badge gso-badge-receta">Receta</span>
+            </div>`).join('');
+    }
+
+    container.innerHTML = html;
+    _gsoSelectedIdx = -1;
+
+    container.querySelectorAll('.gso-item').forEach(item => {
+        item.addEventListener('click', () => _gsoNavigateTo(item));
+    });
+}
+
+function _gsoNavigateTo(item) {
+    const type = item.dataset.gsoType;
+    const id   = parseInt(item.dataset.gsoId, 10);
+    cerrarGlobalSearch();
+    if (type === 'planta') {
+        cambiarTab('plants');
+        setTimeout(() => abrirDetallePlanta(id), 120);
+    } else if (type === 'receta') {
+        cambiarTab('recipes');
+        setTimeout(() => abrirDetalleReceta(id), 250);
+    }
+}
+
+function _gsoMoveSelection(dir) {
+    const items = [...document.querySelectorAll('#gsoResults .gso-item')];
+    if (!items.length) return;
+    items.forEach(i => i.classList.remove('selected'));
+    _gsoSelectedIdx = Math.max(0, Math.min(items.length - 1, _gsoSelectedIdx + dir));
+    items[_gsoSelectedIdx].classList.add('selected');
+    items[_gsoSelectedIdx].scrollIntoView({ block: 'nearest' });
+}
+
+function initGlobalSearch() {
+    const overlay  = document.getElementById('globalSearchOverlay');
+    const backdrop = document.getElementById('gsoBackdrop');
+    const closeBtn = document.getElementById('gsoClose');
+    const input    = document.getElementById('gsoInput');
+    if (!overlay || !input) return;
+
+    backdrop?.addEventListener('click', cerrarGlobalSearch);
+    closeBtn?.addEventListener('click', cerrarGlobalSearch);
+
+    input.addEventListener('input', () => renderGsoResults(input.value));
+
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { cerrarGlobalSearch(); return; }
+        if (e.key === 'ArrowDown') { e.preventDefault(); _gsoMoveSelection(1); return; }
+        if (e.key === 'ArrowUp')   { e.preventDefault(); _gsoMoveSelection(-1); return; }
+        if (e.key === 'Enter') {
+            const sel = document.querySelector('#gsoResults .gso-item.selected');
+            if (sel) _gsoNavigateTo(sel);
+        }
+    });
+
+    // Global keyboard shortcut: '/' opens overlay (when not typing in an input)
+    document.addEventListener('keydown', e => {
+        if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
+            // Skip if already on plants tab (the main search input handles it there)
+            const activeTab = document.querySelector('.tab-btn.active')?.dataset?.tab;
+            if (activeTab && activeTab !== 'plants') {
+                e.preventDefault();
+                abrirGlobalSearch();
+            }
+        }
+        if (e.key === 'Escape' && overlay.classList.contains('open')) {
+            cerrarGlobalSearch();
+        }
+    });
 }
 
 // ── View sort helper (called from renderPlantas) ──
