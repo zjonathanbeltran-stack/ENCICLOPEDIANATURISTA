@@ -177,7 +177,131 @@
         <!-- ─────────── PLANTAS ─────────── -->
         <div id="plantsTab" class="tab-content active">
 
-            <!-- Search Hero — sección de búsqueda prominente (renderizada por JS) -->
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · HERO CINEMATOGRÁFICO
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-hero" id="homeHero">
+                <div class="hh-bg" aria-hidden="true">
+                    <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" class="hh-svg">
+                        <defs>
+                            <linearGradient id="hhSky" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#1d2618"/>
+                                <stop offset="38%" stop-color="#222a1c"/>
+                                <stop offset="100%" stop-color="#14180f"/>
+                            </linearGradient>
+                            <linearGradient id="hhMistGrad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="rgba(155,187,122,0.18)"/>
+                                <stop offset="100%" stop-color="rgba(155,187,122,0)"/>
+                            </linearGradient>
+                            <radialGradient id="hhSun" cx="0.78" cy="0.22" r="0.4">
+                                <stop offset="0%" stop-color="rgba(212,165,116,0.55)"/>
+                                <stop offset="40%" stop-color="rgba(212,165,116,0.15)"/>
+                                <stop offset="100%" stop-color="rgba(212,165,116,0)"/>
+                            </radialGradient>
+                        </defs>
+                        <rect width="1600" height="900" fill="url(#hhSky)"/>
+                        <rect width="1600" height="900" fill="url(#hhSun)" class="hhSunLayer"/>
+                        <!-- Cordillera lejana (más clara) -->
+                        <path class="hhLayer hhLayer1" d="M0,510 L80,420 L160,455 L260,360 L340,400 L420,330 L520,370 L620,295 L720,340 L820,290 L920,360 L1020,310 L1120,380 L1240,330 L1340,400 L1460,350 L1600,395 L1600,900 L0,900 Z" fill="rgba(155,187,122,0.07)"/>
+                        <!-- Cerros intermedios -->
+                        <path class="hhLayer hhLayer2" d="M0,640 C160,580 320,610 480,560 C640,520 800,580 960,540 C1120,500 1280,560 1440,520 C1520,500 1580,540 1600,530 L1600,900 L0,900 Z" fill="rgba(106,138,82,0.16)"/>
+                        <!-- Bosque silueta foreground -->
+                        <path class="hhLayer hhLayer3" d="M0,750 L40,710 Q60,690 80,710 L100,690 Q120,670 140,690 L170,720 Q190,700 210,720 L240,690 Q260,670 280,690 L310,720 Q330,700 350,720 L380,685 Q400,665 420,685 L450,720 Q470,700 490,720 L520,685 Q540,665 560,685 L600,725 Q620,705 640,725 L680,690 Q700,670 720,690 L760,725 Q780,705 800,725 L840,690 Q860,670 880,690 L920,725 Q940,705 960,725 L1000,690 Q1020,670 1040,690 L1080,725 Q1100,705 1120,725 L1160,690 Q1180,670 1200,690 L1240,725 Q1260,705 1280,725 L1320,690 Q1340,670 1360,690 L1400,725 Q1420,705 1440,725 L1480,690 Q1500,670 1520,690 L1560,725 L1600,705 L1600,900 L0,900 Z" fill="rgba(20,40,18,0.55)"/>
+                        <!-- Niebla baja -->
+                        <rect class="hhMist" x="0" y="600" width="1600" height="200" fill="url(#hhMistGrad)" opacity="0.85"/>
+                        <!-- Partículas flotantes -->
+                        <g class="hhParticles" opacity="0.6">
+                            <circle cx="180" cy="240" r="1.5" fill="#9bbb7a"/>
+                            <circle cx="320" cy="180" r="2" fill="#d4a574"/>
+                            <circle cx="480" cy="260" r="1.2" fill="#9bbb7a"/>
+                            <circle cx="620" cy="200" r="1.6" fill="#cfe1b3"/>
+                            <circle cx="760" cy="280" r="1.4" fill="#d4a574"/>
+                            <circle cx="900" cy="220" r="1.8" fill="#9bbb7a"/>
+                            <circle cx="1040" cy="250" r="1.2" fill="#cfe1b3"/>
+                            <circle cx="1180" cy="190" r="1.6" fill="#d4a574"/>
+                            <circle cx="1320" cy="270" r="1.4" fill="#9bbb7a"/>
+                            <circle cx="1450" cy="220" r="1.8" fill="#cfe1b3"/>
+                        </g>
+                    </svg>
+                    <div class="hh-vignette"></div>
+                </div>
+                <div class="hh-content">
+                    <span class="hh-eyebrow">Saber ancestral · Chile</span>
+                    <h2 class="hh-title">El saber herbolario<br>de Chile, <em>vivo</em>.</h2>
+                    <p class="hh-sub">Un atlas medicinal de la cordillera al mar — plantas mapuches, chilotas y populares con sus usos, contraindicaciones y temporadas.</p>
+                    <div class="hh-ctas">
+                        <button class="hh-cta-primary" id="hhExploreBtn">
+                            <i class="fas fa-leaf"></i>
+                            <span>Comenzar a explorar</span>
+                        </button>
+                        <button class="hh-cta-secondary" id="hhRandomBtn">
+                            <i class="fas fa-shuffle"></i>
+                            <span>Sorpréndeme</span>
+                        </button>
+                    </div>
+                    <div class="hh-stats">
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="85">0</span>
+                            <span class="hh-stat-label">plantas medicinales</span>
+                        </div>
+                        <div class="hh-stat-sep"></div>
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="1058">0</span>
+                            <span class="hh-stat-label">recetas tradicionales</span>
+                        </div>
+                        <div class="hh-stat-sep"></div>
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="16">0</span>
+                            <span class="hh-stat-label">sistemas del cuerpo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hh-scroll-hint" aria-hidden="true">
+                    <span>Desliza</span>
+                    <span class="hh-scroll-line"></span>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · ACCESO A LAS 4 SECCIONES
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-access" data-reveal>
+                <button class="ha-card" data-target-tab="plants" data-action="scroll-plants" type="button">
+                    <span class="ha-glyph"><i class="fas fa-seedling"></i></span>
+                    <h3>Plantas medicinales</h3>
+                    <p>85 especies con usos, contraindicaciones y época de recolección.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="recipes" type="button">
+                    <span class="ha-glyph"><i class="fas fa-scroll"></i></span>
+                    <h3>Recetario</h3>
+                    <p>1.058 recetas por sistema del cuerpo, mapuche y popular.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="maternidad" type="button">
+                    <span class="ha-glyph"><i class="fas fa-baby"></i></span>
+                    <h3>Maternidad</h3>
+                    <p>Plantas seguras en embarazo y lactancia.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="ancestral" type="button">
+                    <span class="ha-glyph"><i class="fas fa-fire"></i></span>
+                    <h3>Medicina Ancestral</h3>
+                    <p>Saber mapuche, rituales y palabras de sanación.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 EXPLORAR · Catálogo completo (continuación)
+                 ═══════════════════════════════════════════════════════════ -->
+            <header class="home-section-divider" id="exploreAnchor" data-reveal>
+                <span class="hsd-eyebrow">03 · Catálogo</span>
+                <h2 class="hsd-h2">Explorar las 85 plantas.</h2>
+                <p class="hsd-lede">Filtra por región, temporada o síntoma — o deja que la tierra te sorprenda.</p>
+            </header>
+
+            <!-- Search Hero — search compacto integrado -->
             <div id="plantsSearchHero"></div>
 
             <!-- Planta del Día -->
@@ -267,16 +391,7 @@
                     </button>
                 </div>
 
-                <!-- Explorador de categorías -->
-                <div class="rcats-section">
-                    <div class="rcats-header">
-                        <span class="rcats-title"><i class="fas fa-th-large"></i> Explorar por categoría</span>
-                        <span class="rcats-hint">Toca cualquiera para ver sus recetas</span>
-                    </div>
-                    <div id="recetaCategorias" class="rcats-grid"></div>
-                </div>
-
-                <p class="receta-search-hint">O elige un sistema corporal</p>
+                <p class="receta-search-hint">Elige un sistema corporal</p>
                 <div class="receta-sistemas-grid" id="recetaSistemas"></div>
                 <div class="receta-dolencias-panel" id="recetaDolenciasPanel" hidden>
                     <button class="rdol-back" id="rdolBack">
@@ -538,22 +653,6 @@
                 <div class="infog-card reveal">
                     <h3 class="infog-title">🌿 Plantas más usadas en el recetario</h3>
                     <div id="topPlantas" class="top-plantas-bar"></div>
-                </div>
-
-                <!-- Calendario interactivo -->
-                <div class="infog-card reveal">
-                    <h3 class="infog-title">📅 ¿Qué puedo recolectar este mes?</h3>
-                    <p class="infog-sub">Selecciona un mes para ver qué plantas están en su mejor momento</p>
-                    <div id="calendarChart" class="calendar-bar-wrap"></div>
-                    <div id="calendarPlantas" class="calendar-plantas-result" style="display:none"></div>
-                </div>
-
-                <!-- Plantas por región interactivo -->
-                <div class="infog-card reveal">
-                    <h3 class="infog-title">📍 Plantas de tu zona</h3>
-                    <p class="infog-sub">Selecciona una región para ver las plantas medicinales que puedes encontrar ahí</p>
-                    <div id="regionChart" class="region-bars"></div>
-                    <div id="regionPlantas" class="calendar-plantas-result" style="display:none"></div>
                 </div>
 
                 <!-- Fuentes bibliográficas -->

@@ -1,4 +1,4 @@
-﻿/* ════════════════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════════
    ENCICLOPEDIA NATURISTA — script.js
    ════════════════════════════════════════════════════════════════════ */
 
@@ -35,7 +35,10 @@ async function cargarRecetas() {
             const r = await fetch('data/recetas.json');
             if (!r.ok) throw new Error('Error cargando recetas.json');
             recetasDB = await r.json();
+            window.recetasDB = recetasDB;
             _recetasCargadas = true;
+            // Refrescar contadores y secciones del homepage que dependen de recetas
+            try { if (typeof renderHomeHero === 'function') renderHomeHero(); } catch(e){}
             const grid = document.getElementById('recetaCategorias');
             if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
             renderCategoriasChips();
@@ -2893,6 +2896,7 @@ async function inicializar() {
         const rPlant = await fetch('data/plantas.json');
         if (!rPlant.ok) throw new Error('No se pudieron cargar los datos.');
         plantasDB = await rPlant.json();
+        window.plantasDB = plantasDB;
 
         renderSearchHero();
         renderPlantas();
@@ -3079,128 +3083,6 @@ function renderEstadisticas() {
             <span class="bar-count">${cnt}</span>
         </div>
     `).join('');
-
-    // ── Calendario interactivo de recolección ──
-    const MESES_LABEL = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-    const MESES_FULL  = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-    const mesCount = Array(12).fill(0);
-    plantasDB.forEach(p => {
-        if (p.meses && p.meses.length) {
-            p.meses.forEach(m => { if (m >= 1 && m <= 12) mesCount[m-1]++; });
-        }
-    });
-    const maxMes = Math.max(...mesCount, 1);
-    const mesActualStats = new Date().getMonth(); // 0-indexed
-
-    const calEl = document.getElementById('calendarChart');
-    if (calEl) {
-        calEl.innerHTML = MESES_LABEL.map((mes, i) => `
-            <div class="cal-col${i === mesActualStats ? ' cal-actual' : ''}" data-mes="${i+1}" title="${MESES_FULL[i]}: ${mesCount[i]} plantas">
-                <span class="cal-count">${mesCount[i]}</span>
-                <div class="cal-bar" style="height:${Math.round(mesCount[i]/maxMes*90)}px"></div>
-                <span class="cal-label">${mes}</span>
-            </div>
-        `).join('');
-
-        const calResultEl = document.getElementById('calendarPlantas');
-        let mesSeleccionado = mesActualStats + 1; // start with current month
-
-        function mostrarPlantasMes(mesNum) {
-            mesSeleccionado = mesNum;
-            calEl.querySelectorAll('.cal-col').forEach(col => {
-                col.classList.toggle('selected', parseInt(col.dataset.mes) === mesNum);
-            });
-            const enMes = plantasDB.filter(p => p.meses && p.meses.includes(mesNum));
-            if (!calResultEl) return;
-            if (!enMes.length) {
-                calResultEl.style.display = 'block';
-                calResultEl.innerHTML = `<p class="cal-empty">No hay registros de plantas para este mes.</p>`;
-                return;
-            }
-            calResultEl.style.display = 'block';
-            calResultEl.innerHTML = `
-                <div class="cal-result-header">
-                    <span class="cal-result-mes">${MESES_FULL[mesNum-1]}</span>
-                    <span class="cal-result-count">${enMes.length} plantas en temporada</span>
-                </div>
-                <div class="cal-result-chips">
-                    ${enMes.map(p => `
-                        <button class="cal-planta-chip" data-id="${p.id}">
-                            ${p.emoji || '🌿'} <span>${p.nombre}</span>
-                        </button>
-                    `).join('')}
-                </div>
-            `;
-            calResultEl.querySelectorAll('.cal-planta-chip').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    cambiarTab('plants');
-                    abrirDetallePlanta(parseInt(btn.dataset.id));
-                });
-            });
-        }
-
-        calEl.querySelectorAll('.cal-col').forEach(col => {
-            col.addEventListener('click', () => mostrarPlantasMes(parseInt(col.dataset.mes)));
-        });
-        // Show current month by default
-        mostrarPlantasMes(mesActualStats + 1);
-    }
-
-    // ── Plantas de tu zona (interactivo) ──
-    const regionMap = {};
-    plantasDB.forEach(p => {
-        const r = (p.region || 'Todo Chile').split(',')[0].split(' y ')[0].trim();
-        if (!regionMap[r]) regionMap[r] = [];
-        regionMap[r].push(p);
-    });
-    const regiones = Object.entries(regionMap).sort((a,b) => b[1].length - a[1].length).slice(0, 12);
-
-    const regChartEl = document.getElementById('regionChart');
-    const regPlantasEl = document.getElementById('regionPlantas');
-    const maxReg = regiones[0]?.[1].length || 1;
-
-    if (regChartEl) {
-        regChartEl.innerHTML = regiones.map(([reg, plantas]) => `
-            <div class="region-row region-row-btn" data-reg="${reg}" title="Ver las ${plantas.length} plantas de ${reg}">
-                <span class="bar-label">${reg}</span>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:${Math.round(plantas.length/maxReg*100)}%"></div>
-                </div>
-                <span class="bar-count">${plantas.length} <i class="fas fa-chevron-right bar-arrow"></i></span>
-            </div>
-        `).join('');
-
-        regChartEl.querySelectorAll('.region-row-btn').forEach(row => {
-            row.addEventListener('click', () => {
-                const reg = row.dataset.reg;
-                const plantas = regionMap[reg] || [];
-                regChartEl.querySelectorAll('.region-row-btn').forEach(r => r.classList.remove('selected'));
-                row.classList.add('selected');
-                if (!regPlantasEl) return;
-                regPlantasEl.style.display = 'block';
-                regPlantasEl.innerHTML = `
-                    <div class="cal-result-header">
-                        <span class="cal-result-mes">📍 ${reg}</span>
-                        <span class="cal-result-count">${plantas.length} plantas</span>
-                    </div>
-                    <div class="cal-result-chips">
-                        ${plantas.map(p => `
-                            <button class="cal-planta-chip" data-id="${p.id}">
-                                ${p.emoji || '🌿'} <span>${p.nombre}</span>
-                            </button>
-                        `).join('')}
-                    </div>
-                `;
-                regPlantasEl.querySelectorAll('.cal-planta-chip').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        cambiarTab('plants');
-                        abrirDetallePlanta(parseInt(btn.dataset.id));
-                    });
-                });
-                regPlantasEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            });
-        });
-    }
 
     // ── Tu exploración personal ──
     renderTuExploracion();
@@ -4115,4 +3997,128 @@ function getSortedPlantas(lista) {
         sorted.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
     }
     return sorted;
+}
+
+
+// ════════════════════════════════════════════════════════════════════
+// HOMEPAGE — Hero CTAs, Access cards, Atlas Chile, Calendario, Reveal
+// ════════════════════════════════════════════════════════════════════
+
+// Animated stats counters in the hero
+function renderHomeHero() {
+    const hero = document.getElementById('homeHero');
+    if (!hero) return;
+    // Update targets to live counts
+    const nP = (window.plantasDB || []).length || 85;
+    const nR = (window.recetasDB || []).length || 1058;
+    const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
+    if (stats[0]) stats[0].dataset.target = nP;
+    if (stats[1]) stats[1].dataset.target = nR;
+    // Counter animation
+    stats.forEach(el => {
+        const target = +el.dataset.target;
+        const steps = 36;
+        let step = 0;
+        el.textContent = '0';
+        const tick = () => {
+            step++;
+            const p = step / steps;
+            const ease = 1 - Math.pow(1 - p, 3);
+            el.textContent = Math.round(ease * target).toLocaleString('es-CL');
+            if (step < steps) setTimeout(tick, 28);
+        };
+        setTimeout(tick, 600);
+    });
+
+    // CTAs
+    const explore = document.getElementById('hhExploreBtn');
+    explore?.addEventListener('click', () => {
+        const anchor = document.getElementById('exploreAnchor');
+        if (anchor) {
+            const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
+            window.scrollTo({ top, behavior: 'smooth' });
+        }
+    });
+
+    const random = document.getElementById('hhRandomBtn');
+    random?.addEventListener('click', () => {
+        const list = window.plantasDB || [];
+        if (!list.length) return;
+        const p = list[Math.floor(Math.random() * list.length)];
+        if (typeof abrirDetallePlanta === 'function') abrirDetallePlanta(p.id);
+    });
+
+    // Subtle parallax on hero SVG layers
+    const svg = hero.querySelector('.hh-svg');
+    if (svg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        let raf = null;
+        const onScroll = () => {
+            if (raf) return;
+            raf = requestAnimationFrame(() => {
+                const y = Math.min(window.scrollY, 600);
+                svg.style.transform = 'translate3d(0,' + (y * 0.18) + 'px,0)';
+                raf = null;
+            });
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+    }
+}
+
+// Acceso rápido cards → cambian de tab
+function wireHomeAccess() {
+    document.querySelectorAll('.ha-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const tab = card.dataset.targetTab;
+            const action = card.dataset.action;
+            if (action === 'scroll-plants') {
+                const anchor = document.getElementById('exploreAnchor');
+                if (anchor) {
+                    const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+                return;
+            }
+            if (tab && typeof cambiarTab === 'function') {
+                cambiarTab(tab);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+    });
+}
+
+// ── REVEAL ON SCROLL ──
+function setupHomeReveal() {
+    const els = document.querySelectorAll('[data-reveal]');
+    if (!('IntersectionObserver' in window)) {
+        els.forEach(e => e.classList.add('is-revealed'));
+        return;
+    }
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(en => {
+            if (en.isIntersecting) {
+                en.target.classList.add('is-revealed');
+                io.unobserve(en.target);
+            }
+        });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.05 });
+    els.forEach(e => io.observe(e));
+}
+
+// Bootstrap home — call after DB loaded
+function initHomepage() {
+    renderHomeHero();
+    wireHomeAccess();
+    setupHomeReveal();
+}
+
+// Patch initialisation: call initHomepage after DB load (added to existing renderSearchHero call site)
+const _origRenderSearchHero = typeof renderSearchHero === 'function' ? renderSearchHero : null;
+if (_origRenderSearchHero) {
+    window._initHomeOnce = false;
+    const wrap = function() {
+        try { _origRenderSearchHero.apply(null, arguments); } catch(e){ console.warn(e); }
+        if (!window._initHomeOnce) { window._initHomeOnce = true; initHomepage(); }
+    };
+    // Override
+    window.renderSearchHero = wrap;
 }
