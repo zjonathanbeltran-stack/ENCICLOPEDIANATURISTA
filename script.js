@@ -6,7 +6,6 @@
 let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
-let lastFocusedElement = null; // ← MEJORA v11: retorno de foco al cerrar modal
 
 // ── Lazy loading de recetas ──
 let _recetasCargadas  = false;
@@ -919,15 +918,15 @@ function renderMaternidad() {
     });
 
     // Actualizar stats del hero
-    const statSeg  = document.getElementById('maternStatSeguras');
-    const statEvit = document.getElementById('maternStatEvitar');
+    const statSeg  = $('#maternStatSeguras');
+    const statEvit = $('#maternStatEvitar');
     if (statSeg)  statSeg.textContent  = destEm.length + segEm.length;
     if (statEvit) statEvit.textContent = warnEm.length;
 
     // ── EMBARAZO ──
-    const gDestEm = document.getElementById('maternEmbarazoDestacadas');
-    const gSegEm  = document.getElementById('maternEmbarazoSeguras');
-    const gWarnEm = document.getElementById('maternEmbarazoEvitar');
+    const gDestEm = $('#maternEmbarazoDestacadas');
+    const gSegEm  = $('#maternEmbarazoSeguras');
+    const gWarnEm = $('#maternEmbarazoEvitar');
     if (gDestEm) gDestEm.innerHTML = destEm.map(p => maternPlantaCard(p, 'destacada')).join('');
     if (gSegEm)  gSegEm.innerHTML  = segEm.map(p => maternPlantaCard(p, '')).join('');
     if (gWarnEm) gWarnEm.innerHTML = warnEm.map(p => `
@@ -937,9 +936,9 @@ function renderMaternidad() {
         </button>`).join('');
 
     // ── LACTANCIA ──
-    const gGalLac  = document.getElementById('maternLactanciaGal');
-    const gSegLac  = document.getElementById('maternLactanciaSeguras');
-    const gWarnLac = document.getElementById('maternLactanciaEvitar');
+    const gGalLac  = $('#maternLactanciaGal');
+    const gSegLac  = $('#maternLactanciaSeguras');
+    const gWarnLac = $('#maternLactanciaEvitar');
     if (gGalLac)  gGalLac.innerHTML  = galLac.map(p => maternPlantaCard(p, 'galactogoga')).join('');
     if (gSegLac)  gSegLac.innerHTML  = segLac.map(p => maternPlantaCard(p, '')).join('');
     if (gWarnLac) gWarnLac.innerHTML = warnLac.map(p => `
@@ -949,19 +948,19 @@ function renderMaternidad() {
         </button>`).join('');
 
     // Click en planta segura → abre modal
-    document.querySelectorAll('#maternEmbarazoDestacadas .matern-planta-card, #maternEmbarazoSeguras .matern-planta-card,' +
+    $$('#maternEmbarazoDestacadas .matern-planta-card, #maternEmbarazoSeguras .matern-planta-card,' +
        '#maternLactanciaGal .matern-planta-card, #maternLactanciaSeguras .matern-planta-card').forEach(card => {
         card.addEventListener('click', () => abrirDetallePlanta(parseInt(card.dataset.id)));
     });
 
     // Click en chip "evitar" → muestra/oculta precaución
-    document.querySelectorAll('.matern-warn-chip').forEach(chip => {
+    $$('.matern-warn-chip').forEach(chip => {
         chip.addEventListener('click', () => {
             const p   = plantasDB.find(x => x.id === parseInt(chip.dataset.id));
             const tipo = chip.dataset.tipo;
-            const box  = tipo === 'emb' ? document.getElementById('maternPrecEmbarazo') : document.getElementById('maternPrecLactancia');
+            const box  = tipo === 'emb' ? $('#maternPrecEmbarazo') : $('#maternPrecLactancia');
             if (!p || !box) return;
-            document.querySelectorAll('.matern-warn-chip').forEach(c => c.style.opacity = '1');
+            $$('.matern-warn-chip').forEach(c => c.style.opacity = '1');
             if (box.dataset.activeId === String(p.id) && box.classList.contains('show')) {
                 box.classList.remove('show'); box.dataset.activeId = '';
             } else {
@@ -1006,8 +1005,8 @@ function renderMaternidad() {
         </button>`;
     }
 
-    const rEmbEl = document.getElementById('maternRecetasEmbarazo');
-    const rLacEl = document.getElementById('maternRecetasLactancia');
+    const rEmbEl = $('#maternRecetasEmbarazo');
+    const rLacEl = $('#maternRecetasLactancia');
     if (rEmbEl) {
         rEmbEl.innerHTML = recetasEmb.length
             ? recetasEmb.map(maternRecetaCard).join('')
@@ -1020,17 +1019,17 @@ function renderMaternidad() {
     }
 
     // Click en receta maternidad → abre modal receta
-    document.querySelectorAll('.matern-receta-card').forEach(btn => {
+    $$('.matern-receta-card').forEach(btn => {
         btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
     });
 }
 
 function switchMaternSubtab(tipo) {
-    document.querySelectorAll('.matern-nav-card').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
-    document.getElementById('maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
-    document.getElementById('maternLactancia').classList.toggle('active', tipo === 'lactancia');
-    document.getElementById('maternRecetas').classList.toggle('active', tipo === 'recetas');
-    const icon = document.querySelector('#maternidadTab .matern-hero-icon');
+    $$('.matern-nav-card').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
+    $('#maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
+    $('#maternLactancia').classList.toggle('active', tipo === 'lactancia');
+    $('#maternRecetas').classList.toggle('active', tipo === 'recetas');
+    const icon = $('#maternidadTab .matern-hero-icon');
     if (icon) {
         if (tipo === 'lactancia') icon.textContent = '🍼';
         else if (tipo === 'recetas') icon.textContent = '📖';
@@ -1040,10 +1039,10 @@ function switchMaternSubtab(tipo) {
 
 function switchMaternSubPanel(section, panel) {
     // Botones de ese nav
-    document.querySelectorAll(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
+    $$(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
         .forEach(b => b.classList.toggle('active', b.dataset.sub === panel));
     // Paneles de esa sección
-    document.querySelectorAll(`.matern-sub-panel[data-section="${section}"]`)
+    $$(`.matern-sub-panel[data-section="${section}"]`)
         .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
 }
 
@@ -1154,17 +1153,17 @@ function renderMedicinaAncestral() {
     });
 
     // Actualizar stats hero
-    const statRec = document.getElementById('ancStatRecetas');
+    const statRec = $('#ancStatRecetas');
     if (statRec) statRec.textContent = todas.length;
 
     // Actualizar conteos en botones
     Object.keys(conteos).forEach(p => {
-        const el = document.getElementById(`ancCount-${p}`);
+        const el = $(`#ancCount-${p}`);
         if (el) el.textContent = conteos[p];
     });
 
     // ── Render grid de sistemas del cuerpo ──
-    const sisteGrid = document.getElementById('ancSistemasGrid');
+    const sisteGrid = $('#ancSistemasGrid');
     if (sisteGrid) {
         sisteGrid.innerHTML = SISTEMAS.map(s => `
             <button class="anc-sistema-chip${_ancSistema === s.id ? ' active' : ''}"
@@ -1186,7 +1185,7 @@ function renderMedicinaAncestral() {
                 sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => {
                     c.classList.toggle('active', c.dataset.sid === _ancSistema);
                 });
-                const resetBtn = document.getElementById('ancDolenciasReset');
+                const resetBtn = $('#ancDolenciasReset');
                 if (resetBtn) resetBtn.hidden = !_ancSistema;
                 filtrarYRenderizar();
             });
@@ -1194,7 +1193,7 @@ function renderMedicinaAncestral() {
     }
 
     // Reset dolencias
-    const resetDol = document.getElementById('ancDolenciasReset');
+    const resetDol = $('#ancDolenciasReset');
     if (resetDol) {
         resetDol.addEventListener('click', () => {
             _ancSistema = null;
@@ -1231,7 +1230,7 @@ function renderMedicinaAncestral() {
         }
 
         // Contador de resultados
-        const countEl = document.getElementById('ancResultCount');
+        const countEl = $('#ancResultCount');
         if (countEl) {
             const filtroActivo = _ancPuebloActivo !== 'todos' || _ancSistema || _ancBusqueda;
             if (filtroActivo) {
@@ -1247,7 +1246,7 @@ function renderMedicinaAncestral() {
             }
         }
 
-        const grid = document.getElementById('ancestralGrid');
+        const grid = $('#ancestralGrid');
         if (!grid) return;
 
         if (!lista.length) {
@@ -1257,14 +1256,14 @@ function renderMedicinaAncestral() {
         }
         grid.innerHTML = lista.map(ancestralRecetaCard).join('');
 
-        document.querySelectorAll('#ancestralGrid .anc-receta-card').forEach(card => {
+        $$('#ancestralGrid .anc-receta-card').forEach(card => {
             card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
         });
     }
 
     // ── Contexto cultural ──
     function mostrarContexto(pueblo) {
-        const ctx = document.getElementById('ancestralContexto');
+        const ctx = $('#ancestralContexto');
         if (!ctx) return;
         if (pueblo === 'todos') { ctx.hidden = true; return; }
         const info = ANCESTRAL_CONTEXTO[pueblo];
@@ -1280,9 +1279,9 @@ function renderMedicinaAncestral() {
     }
 
     // ── Eventos filtros pueblo ──
-    document.querySelectorAll('.anc-pueblo-btn').forEach(btn => {
+    $$('.anc-pueblo-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            document.querySelectorAll('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
+            $$('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             _ancPuebloActivo = btn.dataset.pueblo;
             mostrarContexto(_ancPuebloActivo);
@@ -1291,8 +1290,8 @@ function renderMedicinaAncestral() {
     });
 
     // ── Buscador ──
-    const searchInput = document.getElementById('ancestralSearchInput');
-    const searchClear = document.getElementById('ancestralSearchClear');
+    const searchInput = $('#ancestralSearchInput');
+    const searchClear = $('#ancestralSearchClear');
     if (searchInput) {
         searchInput.addEventListener('input', () => {
             _ancBusqueda = searchInput.value.trim();
@@ -1360,44 +1359,6 @@ function plantasEnReceta(receta) {
 }
 
 // ════════════════════════════════════════════════════════════════════
-// TRAMPA DE FOCO EN MODALES (accesibilidad)
-// ════════════════════════════════════════════════════════════════════
-const FOCUSABLE_SELECTOR = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
-
-function trapFocusInModal(modalElement) {
-    const focusable = modalElement.querySelectorAll(FOCUSABLE_SELECTOR);
-    if (focusable.length === 0) return;
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
-
-    function handleTab(e) {
-        if (e.key !== 'Tab') return;
-        if (e.shiftKey) {
-            if (document.activeElement === first) {
-                e.preventDefault();
-                last.focus();
-            }
-        } else {
-            if (document.activeElement === last) {
-                e.preventDefault();
-                first.focus();
-            }
-        }
-    }
-    modalElement._trapHandler = handleTab;
-    modalElement.addEventListener('keydown', handleTab);
-    // Focus first element
-    setTimeout(() => first.focus(), 150);
-}
-
-function releaseFocusTrap(modalElement) {
-    if (modalElement._trapHandler) {
-        modalElement.removeEventListener('keydown', modalElement._trapHandler);
-        delete modalElement._trapHandler;
-    }
-}
-
-// ════════════════════════════════════════════════════════════════════
 // REVEAL ON SCROLL
 // ════════════════════════════════════════════════════════════════════
 const revealObserver = new IntersectionObserver((entries) => {
@@ -1410,10 +1371,13 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.01, rootMargin: '0px 0px 200px 0px' });
 
 function applyReveal(scope = document) {
+    // Si el elemento ya está en (o cerca de) el viewport al renderizar,
+    // muéstralo de inmediato sin animación de stagger para evitar el "demora al scrollear".
     const vh = window.innerHeight;
     scope.querySelectorAll('.reveal:not(.in)').forEach((el, i) => {
         const rect = el.getBoundingClientRect();
         if (rect.top < vh + 100) {
+            // visible o casi visible -> reveal sin delay (cascada corta)
             el.style.setProperty('--reveal-delay', Math.min(i, 8) * 30 + 'ms');
             requestAnimationFrame(() => el.classList.add('in'));
         } else {
@@ -1474,7 +1438,7 @@ function renderSearchHero() {
     container.querySelectorAll('.shs-num[data-target]').forEach(el => {
         const target = +el.dataset.target;
         const steps = 28;
-        const interval = 32;
+        const interval = 32; // ~30fps via setTimeout (works even in background tabs)
         let step = 0;
         const tick = () => {
             step++;
@@ -1515,9 +1479,12 @@ function renderSearchHero() {
 // ════════════════════════════════════════════════════════════════════
 // PLANTAS
 // ════════════════════════════════════════════════════════════════════
-const plantListDiv = document.getElementById('plantList');
+const plantListDiv = $('#plantList');
 
 function renderPlantas() {
+    // Remove initial skeleton state
+    plantListDiv?.classList.remove('plant-list--loading');
+
     let lista = mostrandoFavoritos
         ? plantasDB.filter(p => favoritos.includes(p.id))
         : plantasDB;
@@ -1525,8 +1492,8 @@ function renderPlantas() {
     const mesActualFiltro = new Date().getMonth() + 1;
     let filtradas = lista.filter(p => {
         if (filtroChiloe && !p.chiloe) return false;
-        if (window.filtroTemporada && !(p.meses && p.meses.includes(mesActualFiltro))) return false;
-        if (window.filtroRegion && !(p.region || '').includes(window.filtroRegion)) return false;
+        if (filtroTemporada && !(p.meses && p.meses.includes(mesActualFiltro))) return false;
+        if (filtroRegion && !(p.region || '').includes(filtroRegion)) return false;
         const term = busqueda.toLowerCase();
         if (term === '') return true;
         return p.nombre.toLowerCase().includes(term) ||
@@ -1546,7 +1513,7 @@ function renderPlantas() {
             </div>`;
             document.getElementById('emptyFavBtn')?.addEventListener('click', () => {
                 mostrandoFavoritos = false;
-                document.getElementById('filterFav').classList.remove('active');
+                $('#filterFav').classList.remove('active');
                 renderPlantas();
             });
         } else {
@@ -1561,12 +1528,12 @@ function renderPlantas() {
                 busqueda = '';
                 const heroInput = document.getElementById('searchHeroInput');
                 if (heroInput) heroInput.value = '';
-                document.getElementById('searchInput').value = '';
+                $('#searchInput').value = '';
                 filtroChiloe = false;
-                window.filtroTemporada = false;
-                window.filtroRegion = null;
+                filtroTemporada = false;
+                filtroRegion = null;
                 mostrandoFavoritos = false;
-                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+                $$('.chip').forEach(c => c.classList.remove('active'));
                 renderPlantas();
             });
         }
@@ -1620,7 +1587,7 @@ function renderPlantas() {
         </div>
     `}).join('');
 
-    document.querySelectorAll('.plant-card').forEach(card => {
+    $$('.plant-card').forEach(card => {
         const id = parseInt(card.dataset.id);
         card.addEventListener('click', (e) => {
             if (e.target.closest('.fav-btn')) return;
@@ -1637,7 +1604,7 @@ function renderPlantas() {
     // Update plant count bar
     const countBar = document.getElementById('plantCountBar');
     const countTxt = document.getElementById('plantCountTxt');
-    const hayFiltroActivo = filtroChiloe || mostrandoFavoritos || window.filtroTemporada || window.filtroRegion || busqueda;
+    const hayFiltroActivo = filtroChiloe || mostrandoFavoritos || filtroTemporada || filtroRegion || busqueda;
     if (countBar && countTxt) {
         if (hayFiltroActivo) {
             countBar.style.display = 'flex';
@@ -1671,14 +1638,14 @@ function actualizarFavBadge() {
 }
 
 function slugify(str) {
-    return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    return (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
         .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 function abrirDetallePlanta(id) {
     const p = plantasDB.find(p => p.id === id);
     if (!p) return;
-    history.pushState({ modal: 'planta', id }, '', '#planta/' + slugify(p.nombre));
+    history.replaceState(null, '', '#planta/' + slugify(p.nombre));
     // Registrar como vista para progreso
     marcarPlantaVista(id);
 
@@ -1695,7 +1662,7 @@ function abrirDetallePlanta(id) {
         return t.includes(nombre);
     });
 
-    document.getElementById('modalBody').innerHTML = `
+    $('#modalBody').innerHTML = `
         <div class="modal-art${p.imagen ? ' modal-art-photo' : ''}" style="${p.imagen ? '' : 'background:' + sis.gradient + ';'}">
             ${p.imagen
                 ? `<img src="${p.imagen}" alt="${p.nombre}" class="modal-plant-img" onerror="this.parentElement.classList.remove('modal-art-photo'); this.parentElement.style.background='${sis.gradient}'; this.remove();">`
@@ -1760,7 +1727,7 @@ function abrirDetallePlanta(id) {
     `;
 
     if (recetasDeEstaPlanta.length) {
-        document.getElementById('verRecetasBtn').addEventListener('click', () => {
+        $('#verRecetasBtn').addEventListener('click', () => {
             cerrarModal();
             cambiarTab('recipes');
             // Usar el nuevo buscador del recetario con el nombre de la planta
@@ -1773,7 +1740,7 @@ function abrirDetallePlanta(id) {
                 renderRecetaSearchResults(res, p.nombre);
             }, 80);
         });
-        document.querySelectorAll('#relatedRecipes .related-recipe-mini').forEach(btn => {
+        $$('#relatedRecipes .related-recipe-mini').forEach(btn => {
             btn.addEventListener('click', () => {
                 const rid = parseInt(btn.dataset.id);
                 cerrarModal();
@@ -1822,7 +1789,7 @@ function toggleFavorito(id) {
 }
 
 function actualizarBtnFavoritos() {
-    const favBtn = document.getElementById('favBtn');
+    const favBtn = $('#favBtn');
     favBtn.title = favoritos.length > 0 ? `Favoritos (${favoritos.length})` : 'Favoritos';
     actualizarFavBadge();
     actualizarBottomNavBadge();
@@ -1840,24 +1807,24 @@ function actualizarBottomNavBadge() {
 }
 
 function actualizarBtnReset() {
-    const hayFiltro = filtroChiloe || mostrandoFavoritos || window.filtroTemporada || window.filtroRegion || busqueda;
-    const btn = document.getElementById('resetFiltros');
+    const hayFiltro = filtroChiloe || mostrandoFavoritos || filtroTemporada || filtroRegion || busqueda;
+    const btn = $('#resetFiltros');
     if (btn) btn.style.display = hayFiltro ? 'inline-flex' : 'none';
 }
 
 function resetearFiltros() {
     filtroChiloe = false;
     mostrandoFavoritos = false;
-    window.filtroTemporada = false;
-    window.filtroRegion = null;
+    filtroTemporada = false;
+    filtroRegion = null;
     busqueda = '';
-    document.getElementById('searchInput').value = '';
-    document.getElementById('filterChiloe').classList.remove('active');
-    document.getElementById('filterFav').classList.remove('active');
-    document.getElementById('filterTemporada').classList.remove('active');
-    document.getElementById('filterRegionBtn').classList.remove('active');
-    document.getElementById('regionPanel').style.display = 'none';
-    document.querySelectorAll('.region-chip').forEach(c => c.classList.remove('active'));
+    $('#searchInput').value = '';
+    $('#filterChiloe').classList.remove('active');
+    $('#filterFav').classList.remove('active');
+    $('#filterTemporada').classList.remove('active');
+    $('#filterRegionBtn').classList.remove('active');
+    $('#regionPanel').style.display = 'none';
+    $$('.region-chip').forEach(c => c.classList.remove('active'));
     actualizarBtnReset();
     renderPlantas();
 }
@@ -1870,7 +1837,7 @@ function resetearFiltros() {
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
-    history.pushState({ modal: 'receta', id }, '', '#receta/' + id);
+    history.replaceState(null, '', '#receta/' + id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -1882,7 +1849,7 @@ function abrirDetalleReceta(id) {
     };
     const ev = evidenciaBadge[r.evidencia] || { color: 'var(--text-mute)', icon: '📖' };
 
-    document.getElementById('modalBody').innerHTML = `
+    $('#modalBody').innerHTML = `
         <div class="modal-art" style="background: ${gradFromCat(r.categoria)};">
             <div class="illus illus-lg">${ilustracionDeReceta(r)}</div>
         </div>
@@ -2002,14 +1969,14 @@ function abrirDetalleReceta(id) {
         </button>
     `;
 
-    document.querySelectorAll('.linked-plant-chip').forEach(chip => {
+    $$('.linked-plant-chip').forEach(chip => {
         chip.addEventListener('click', () => {
             cerrarModal();
             setTimeout(() => abrirDetallePlanta(parseInt(chip.dataset.id)), 250);
         });
     });
 
-    document.getElementById('btnPrintReceta')?.addEventListener('click', () => imprimirReceta(r.id));
+    $('#btnPrintReceta')?.addEventListener('click', () => imprimirReceta(r.id));
 
     configurarShareBtn(
         `${r.titulo} — Enciclopedia Naturista de Chile`,
@@ -2039,61 +2006,26 @@ function configurarShareBtn(title, text) {
     };
 }
 
-const modal = document.getElementById('detailModal');
-let _modalClosedByButton = false;
-
-function abrirModal() {
-    lastFocusedElement = document.activeElement;
-    modal.classList.add('show');
-    document.body.style.overflow = 'hidden';
-    trapFocusInModal(modal);
-}
-
+const modal = $('#detailModal');
+function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
 function cerrarModal() {
-    if (!modal.classList.contains('show')) return;
-    releaseFocusTrap(modal);
     modal.classList.remove('show');
     document.body.style.overflow = '';
-    if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
-        setTimeout(() => lastFocusedElement.focus(), 100);
-        lastFocusedElement = null;
-    }
-    if (history.state?.modal) {
-        _modalClosedByButton = true;
-        history.back();
-    } else {
-        history.replaceState({ page: 'plants' }, '', location.pathname + location.search);
-    }
+    history.replaceState(null, '', location.pathname + location.search);
 }
-
-document.getElementById('detailModal')?.querySelector('.close-modal')?.addEventListener('click', cerrarModal);
-modal?.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
+$('#detailModal .close-modal').addEventListener('click', cerrarModal);
+modal.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         if (document.getElementById('quizModal')?.classList.contains('show')) cerrarQuizModal();
-        else if (document.getElementById('globalSearchOverlay')?.classList.contains('open')) cerrarGlobalSearch();
         else cerrarModal();
-    }
-});
-window.addEventListener('popstate', (e) => {
-    if (_modalClosedByButton) { _modalClosedByButton = false; return; }
-    if (modal.classList.contains('show')) {
-        // Botón nativo atrás con modal abierto → cierra modal
-        releaseFocusTrap(modal);
-        modal.classList.remove('show');
-        document.body.style.overflow = '';
-    } else {
-        // Botón nativo atrás sin modal → volver a inicio
-        cambiarTab('plants');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        history.pushState({ page: 'plants' }, '', location.pathname + location.search);
     }
 });
 
 // ════════════════════════════════════════════════════════════════════
 // BÚSQUEDA Y FILTROS
 // ════════════════════════════════════════════════════════════════════
-document.getElementById('searchInput').addEventListener('input', (e) => {
+$('#searchInput').addEventListener('input', (e) => {
     busqueda = e.target.value;
     mostrandoFavoritos = false;
     actualizarBtnFavoritos();
@@ -2101,44 +2033,44 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
     renderPlantas();
 });
 
-document.getElementById('clearSearch').addEventListener('click', () => {
-    document.getElementById('searchInput').value = '';
+$('#clearSearch').addEventListener('click', () => {
+    $('#searchInput').value = '';
     busqueda = '';
     actualizarBtnReset();
     renderPlantas();
 });
 
-document.getElementById('filterChiloe').addEventListener('click', () => {
+$('#filterChiloe').addEventListener('click', () => {
     filtroChiloe = !filtroChiloe;
-    document.getElementById('filterChiloe').classList.toggle('active', filtroChiloe);
+    $('#filterChiloe').classList.toggle('active', filtroChiloe);
     mostrandoFavoritos = false;
-    document.getElementById('filterFav').classList.remove('active');
+    $('#filterFav').classList.remove('active');
     actualizarBtnReset();
     renderPlantas();
 });
 
-document.getElementById('filterFav').addEventListener('click', () => {
+$('#filterFav').addEventListener('click', () => {
     mostrandoFavoritos = !mostrandoFavoritos;
-    document.getElementById('filterFav').classList.toggle('active', mostrandoFavoritos);
+    $('#filterFav').classList.toggle('active', mostrandoFavoritos);
     if (mostrandoFavoritos) {
         filtroChiloe = false;
-        document.getElementById('filterChiloe').classList.remove('active');
+        $('#filterChiloe').classList.remove('active');
     }
     actualizarBtnReset();
     renderPlantas();
 });
 
-document.getElementById('symptomSearch').addEventListener('click', () => {
+$('#symptomSearch').addEventListener('click', () => {
     abrirSintomasMenu();
 });
 
 let filtroTemporada = false;
 let filtroRegion = null;
 
-document.getElementById('filterTemporada').addEventListener('click', () => {
-    window.filtroTemporada = !window.filtroTemporada;
-    document.getElementById('filterTemporada').classList.toggle('active', window.filtroTemporada);
-    if (window.filtroTemporada) {
+$('#filterTemporada').addEventListener('click', () => {
+    filtroTemporada = !filtroTemporada;
+    $('#filterTemporada').classList.toggle('active', filtroTemporada);
+    if (filtroTemporada) {
         const mes = new Date().getMonth() + 1;
         const count = plantasDB.filter(p => p.meses && p.meses.includes(mes)).length;
         mostrarToast(`<i class="fas fa-calendar-check"></i> ${count} plantas en temporada ahora`, 'info');
@@ -2147,17 +2079,17 @@ document.getElementById('filterTemporada').addEventListener('click', () => {
     renderPlantas();
 });
 
-document.getElementById('filterRegionBtn').addEventListener('click', () => {
-    const panel = document.getElementById('regionPanel');
+$('#filterRegionBtn').addEventListener('click', () => {
+    const panel = $('#regionPanel');
     const visible = panel.style.display !== 'none';
     panel.style.display = visible ? 'none' : 'block';
-    document.getElementById('filterRegionBtn').classList.toggle('active', !visible);
-    if (!visible && document.getElementById('regionChips').childElementCount === 0) {
+    $('#filterRegionBtn').classList.toggle('active', !visible);
+    if (!visible && $('#regionChips').childElementCount === 0) {
         renderRegionChips();
     }
 });
 
-document.getElementById('resetFiltros').addEventListener('click', resetearFiltros);
+$('#resetFiltros').addEventListener('click', resetearFiltros);
 
 function renderRegionChips() {
     const regMap = {};
@@ -2166,12 +2098,12 @@ function renderRegionChips() {
         if (r && r.length > 3) regMap[r] = (regMap[r] || 0) + 1;
     });
     const sorted = Object.entries(regMap).sort((a,b) => b[1]-a[1]).slice(0, 12);
-    document.getElementById('regionChips').innerHTML = `<button class="region-chip ${!filtroRegion ? 'active' : ''}" data-region="">Todas</button>` +
+    $('#regionChips').innerHTML = `<button class="region-chip ${!filtroRegion ? 'active' : ''}" data-region="">Todas</button>` +
         sorted.map(([r, n]) => `<button class="region-chip ${filtroRegion === r ? 'active' : ''}" data-region="${r}">${r} <span style="opacity:0.5;font-size:0.7em;">${n}</span></button>`).join('');
-    document.querySelectorAll('.region-chip').forEach(chip => {
+    $$('.region-chip').forEach(chip => {
         chip.addEventListener('click', () => {
-            window.filtroRegion = chip.dataset.region || null;
-            document.querySelectorAll('.region-chip').forEach(c => c.classList.remove('active'));
+            filtroRegion = chip.dataset.region || null;
+            $$('.region-chip').forEach(c => c.classList.remove('active'));
             chip.classList.add('active');
             actualizarBtnReset();
             renderPlantas();
@@ -2200,8 +2132,8 @@ const SINTOMAS_PRESET = [
 ];
 
 function abrirSintomasMenu() {
-    const panel = document.getElementById('symptomPanel');
-    const list = document.getElementById('symptomList');
+    const panel = $('#symptomPanel');
+    const list = $('#symptomList');
     list.innerHTML = SINTOMAS_PRESET.map((s, i) => `
         <button class="symptom-row" data-term="${s.term}" style="--i:${i};">
             <span class="symptom-row-icon">${s.icon}</span>
@@ -2212,13 +2144,13 @@ function abrirSintomasMenu() {
         </button>
     `).join('');
 
-    document.querySelectorAll('.symptom-row').forEach(row => {
+    $$('.symptom-row').forEach(row => {
         row.addEventListener('click', () => {
             aplicarSintoma(row.dataset.term);
         });
     });
 
-    const input = document.getElementById('customSymptom');
+    const input = $('#customSymptom');
     input.value = '';
     input.onkeydown = (e) => {
         if (e.key === 'Enter' && e.target.value.trim()) {
@@ -2233,7 +2165,7 @@ function abrirSintomasMenu() {
 }
 
 function cerrarSintomasMenu() {
-    const panel = document.getElementById('symptomPanel');
+    const panel = $('#symptomPanel');
     panel.classList.remove('open');
     panel.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -2242,7 +2174,7 @@ function cerrarSintomasMenu() {
 function aplicarSintoma(term) {
     cerrarSintomasMenu();
     busqueda = term;
-    document.getElementById('searchInput').value = term;
+    $('#searchInput').value = term;
     mostrandoFavoritos = false;
     actualizarBtnReset();
     renderPlantas();
@@ -2252,8 +2184,8 @@ function aplicarSintoma(term) {
 document.addEventListener('DOMContentLoaded', () => {
     const panel = document.getElementById('symptomPanel');
     if (!panel) return;
-    panel.querySelector('.side-panel-close')?.addEventListener('click', cerrarSintomasMenu);
-    panel.querySelector('.side-panel-backdrop')?.addEventListener('click', cerrarSintomasMenu);
+    panel.querySelector('.side-panel-close').addEventListener('click', cerrarSintomasMenu);
+    panel.querySelector('.side-panel-backdrop').addEventListener('click', cerrarSintomasMenu);
 });
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
@@ -2262,10 +2194,10 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-document.getElementById('favBtn').addEventListener('click', () => {
+$('#favBtn').addEventListener('click', () => {
     cambiarTab('plants');
     mostrandoFavoritos = true;
-    document.getElementById('filterFav').classList.add('active');
+    $('#filterFav').classList.add('active');
     renderPlantas();
 });
 
@@ -2273,8 +2205,8 @@ document.getElementById('favBtn').addEventListener('click', () => {
 // TABS — con indicador móvil
 // ════════════════════════════════════════════════════════════════════
 function moverIndicador() {
-    const activeBtn = document.querySelector('#navTabs .tab-btn.active');
-    const indicator = document.getElementById('tabIndicator');
+    const activeBtn = $('#navTabs .tab-btn.active');
+    const indicator = $('#tabIndicator');
     if (!activeBtn || !indicator) return;
     const rect = activeBtn.getBoundingClientRect();
     const parentRect = activeBtn.parentElement.getBoundingClientRect();
@@ -2283,33 +2215,17 @@ function moverIndicador() {
 }
 
 function cambiarTab(tabId) {
-    document.querySelectorAll('.tab-btn').forEach(b => {
-        const isActive = b.dataset.tab === tabId;
-        b.classList.toggle('active', isActive);
-        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
-    });
-    document.querySelectorAll('.tab-content').forEach(t => t.classList.toggle('active', t.id === tabId + 'Tab'));
+    $$('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    $$('.tab-content').forEach(t => t.classList.toggle('active', t.id === tabId + 'Tab'));
     moverIndicador();
     const activeTabBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
     if (activeTabBtn) {
         activeTabBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
-
-    // MEJORA v11: enfocar panel correspondiente
-    const panel = document.getElementById(tabId + 'Tab');
-    if (panel) {
-        panel.setAttribute('tabindex', '-1');
-        setTimeout(() => { panel.focus({ preventScroll: true }); }, 100);
-    }
-
-    // Sincronizar bottom nav
-    document.querySelectorAll('.bottom-nav-item').forEach(b => {
-        const isActive = b.dataset.bottomTab === tabId;
-        b.classList.toggle('active', isActive);
-        b.setAttribute('aria-current', isActive ? 'page' : 'false');
-    });
-
+    // Sincronizar bottom nav (home → home, plants → plants, etc.)
+    $$('.bottom-nav-item').forEach(b => b.classList.toggle('active', b.dataset.bottomTab === tabId));
     if (tabId === 'plants') renderPlantas();
+    if (tabId === 'home') { /* home is static; re-run reveal animations */ setTimeout(() => applyReveal(document), 50); }
     if (tabId === 'stats') { cargarRecetas().then(() => renderEstadisticas()); renderTuExploracion(); }
     if (tabId === 'maternidad') { cargarRecetas().then(() => renderMaternidad()); setTimeout(() => checkLogros('maternidad'), 500); }
     if (tabId === 'recipes' || tabId === 'dolencias') { cargarRecetas(); setTimeout(() => checkLogros('recetario'), 500); }
@@ -2318,12 +2234,12 @@ function cambiarTab(tabId) {
     if (window.innerWidth <= 767) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-document.querySelectorAll('.tab-btn').forEach(btn => {
+$$('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => cambiarTab(btn.dataset.tab));
 });
 
 // Bottom navigation — delega en cambiarTab
-document.querySelectorAll('.bottom-nav-item').forEach(btn => {
+$$('.bottom-nav-item').forEach(btn => {
     btn.addEventListener('click', () => {
         const tab = btn.dataset.bottomTab;
         if (tab) cambiarTab(tab);
@@ -2338,13 +2254,13 @@ window.addEventListener('resize', moverIndicador);
 function showEmergency() {
     alert('🚨 EMERGENCIA TOXICOLÓGICA 🚨\n\nSAMU: 131\nCITUC: +56 2 2635 3800\n\nSi ingirió una planta tóxica, llame de inmediato.');
 }
-document.getElementById('emergencyBtn').addEventListener('click', showEmergency);
-document.getElementById('emergencyToolsBtn')?.addEventListener('click', showEmergency);
+$('#emergencyBtn').addEventListener('click', showEmergency);
+$('#emergencyToolsBtn')?.addEventListener('click', showEmergency);
 
 // ════════════════════════════════════════════════════════════════════
 // PARTÍCULAS — hojas flotantes
 // ════════════════════════════════════════════════════════════════════
-const canvas = document.getElementById('particle-canvas');
+const canvas = $('#particle-canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
 let particleMode = 'leaves';
@@ -2428,12 +2344,12 @@ window.addEventListener('resize', () => { resizeCanvas(); initParticles(); });
 // ════════════════════════════════════════════════════════════════════
 // TWEAKS PANEL
 // ════════════════════════════════════════════════════════════════════
-const tweaksPanel = document.getElementById('tweaksPanel');
-document.getElementById('tweaksBtn').addEventListener('click', () => {
+const tweaksPanel = $('#tweaksPanel');
+$('#tweaksBtn').addEventListener('click', () => {
     tweaksPanel.classList.toggle('open');
 });
 
-document.querySelectorAll('.tweaks-panel .seg').forEach(seg => {
+$$('.tweaks-panel .seg').forEach(seg => {
     seg.querySelectorAll('button').forEach(btn => {
         btn.addEventListener('click', () => {
             seg.querySelectorAll('button').forEach(b => b.classList.remove('on'));
@@ -2453,13 +2369,16 @@ function applyTweak(tweak, val) {
     }
     if (tweak === 'bgMotion') {
         bgMotion = val;
-        const orbs = document.querySelectorAll('.bg-orb');
+        const orbs = $$('.bg-orb');
         if (val === 'off') orbs.forEach(o => o.style.animationPlayState = 'paused');
         else if (val === 'calm') orbs.forEach(o => { o.style.animationPlayState = 'running'; o.style.animationDuration = '60s'; });
         else orbs.forEach(o => { o.style.animationPlayState = 'running'; o.style.animationDuration = '22s'; });
         startParticles();
     }
+    // hubStyle tweak eliminado (accordion no usa grid de tarjetas)
 }
+
+
 
 // ════════════════════════════════════════════════════════════════════
 // TOAST NOTIFICATIONS
@@ -2568,12 +2487,16 @@ function marcarPlantaVista(id) {
 
 function actualizarProgreso() {
     const total = plantasDB.length;
+    if (!total) return;
     const vistas = plantasVistas.size;
-    const pct = total > 0 ? Math.round(vistas / total * 100) : 0;
+    const pct = Math.round(vistas / total * 100);
     const numEl = document.getElementById('progresoNum');
     const barEl = document.getElementById('progresoBar');
     if (numEl) numEl.textContent = `${vistas} / ${total}`;
     if (barEl) barEl.style.width = pct + '%';
+    // Reveal the bar once we have real data
+    const wrap = document.querySelector('.progreso-wrap[data-loading]');
+    if (wrap) delete wrap.dataset.loading;
 }
 
 // ════════════════════════════════════════════════════════════════════
@@ -2976,11 +2899,6 @@ function inyectarJsonLdPlantas() {
 // INIT
 // ════════════════════════════════════════════════════════════════════
 async function inicializar() {
-    // Asegurar que siempre haya un estado base en el historial
-    // para que el botón nativo de atrás no saque de la app
-    if (!history.state) {
-        history.replaceState({ page: 'plants' }, '', location.pathname + location.search);
-    }
     try {
         // 1. Cargar solo plantas — render inmediato
         const rPlant = await fetch('data/plantas.json');
@@ -3010,6 +2928,7 @@ async function inicializar() {
         inyectarJsonLdPlantas();
         initBottomSheetGestures();
         initGlobalSearch();
+        initOnboarding();
         AmbientAudio.init();
         calcularRacha();
         checkLogros();
@@ -3021,11 +2940,13 @@ async function inicializar() {
         cargarRecetas();
     } catch (err) {
         plantListDiv.innerHTML = `
-            <div class="empty-state-v2" role="alert">
-                <span class="es-icon">⚠️</span>
-                <h3 class="es-title">Error al cargar los datos</h3>
-                <p class="es-desc">No se pudieron cargar las plantas medicinales. Verifica la conexión e intenta de nuevo.</p>
-                <button class="es-btn" onclick="location.reload()"><i class="fas fa-redo"></i> Reintentar</button>
+            <div class="empty">
+                <div class="icon">⚠️</div>
+                <p><strong>Error al cargar los datos.</strong></p>
+                <p style="font-size:0.85rem;margin-top:12px;max-width:480px;margin-left:auto;margin-right:auto;">
+                    No abras el archivo directamente — usa <strong>iniciar_servidor.bat</strong>
+                    de la misma carpeta para que la página se cargue mediante un servidor local.
+                </p>
             </div>`;
         console.error(err);
     }
@@ -3239,6 +3160,33 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === document.getElementById('quizModal')) cerrarQuizModal();
     });
 
+    // Cursor personalizado — agregar toggle al tweaks panel
+    const tweaksPanel = document.getElementById('tweaksPanel');
+    if (tweaksPanel) {
+        const existingOpts = tweaksPanel.querySelector('.opt-row:last-child');
+        const cursorRow = document.createElement('div');
+        cursorRow.className = 'opt-row';
+        cursorRow.innerHTML = `
+            <label>Cursor hoja</label>
+            <div class="seg" data-tweak="cursor">
+                <button data-val="on">On</button>
+                <button data-val="off" class="on">Off</button>
+            </div>
+        `;
+        tweaksPanel.appendChild(cursorRow);
+        cursorRow.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                cursorRow.querySelectorAll('button').forEach(b => b.classList.remove('on'));
+                btn.classList.add('on');
+                if (btn.dataset.val === 'on') {
+                    document.body.classList.add('custom-cursor-on');
+                } else {
+                    document.body.classList.remove('custom-cursor-on');
+                }
+            });
+        });
+    }
+
     // Mostrar mejor puntuación si existe
     const mejorScore = localStorage.getItem('quizMejorScore');
     if (mejorScore && parseInt(mejorScore) > 0) {
@@ -3320,11 +3268,11 @@ inicializar();
 
 // ── Maternidad subtabs ──
 (function() {
-    document.querySelectorAll('.matern-nav-card').forEach(btn => {
+    $$('.matern-nav-card').forEach(btn => {
         btn.addEventListener('click', () => switchMaternSubtab(btn.dataset.matern));
     });
 
-    document.querySelectorAll('.matern-sub-btn').forEach(btn => {
+    $$('.matern-sub-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const nav = btn.closest('.matern-sub-nav');
             if (nav) switchMaternSubPanel(nav.dataset.section, btn.dataset.sub);
@@ -3629,6 +3577,121 @@ function calcularEspecialidad() {
     return Object.entries(score).sort((a,b) => b[1]-a[1]).slice(0,2).map(e => e[0]);
 }
 
+function renderTuExploracion() {
+    const el = document.getElementById('tuExploracion');
+    if (!el) return;
+
+    const vistas      = [...plantasVistas];
+    const pct         = plantasDB.length ? Math.round(vistas.length / plantasDB.length * 100) : 0;
+    const racha       = calcularRacha();
+    const plantaAlma  = calcularPlantaDelAlma();
+    const specs       = calcularEspecialidad();
+    const logrosN     = getLogrosDesbloqueados().length;
+    const nivel = vistas.length < 5  ? 'Curioso Natural'     :
+                  vistas.length < 15 ? 'Aprendiz de Machi'   :
+                  vistas.length < 30 ? 'Herbolario'           :
+                  vistas.length < 60 ? 'Conocedor Ancestral'  : 'Machi Mayor';
+    const recientes = vistas.slice(-4).reverse().map(id => plantasDB.find(p => p.id === id)).filter(Boolean);
+
+    el.innerHTML = `
+    <div class="perfil-card">
+        <div class="perfil-header">
+            <div class="perfil-avatar">${plantaAlma ? (plantaAlma.emoji || '🌿') : '🌱'}</div>
+            <div class="perfil-info">
+                <div class="perfil-titulo">${nivel}</div>
+                <div class="perfil-racha">${racha > 1 ? `🔥 <strong>${racha}</strong> días seguidos` : '🌱 Bienvenido de vuelta'}</div>
+                ${specs.length ? `<div class="perfil-especialidad">${specs.map(s=>`<span class="perfil-spec-badge">${s}</span>`).join('')}</div>` : ''}
+            </div>
+        </div>
+        <div class="perfil-stats-grid">
+            <div class="perfil-stat"><span class="perfil-stat-num">${vistas.length}</span><span class="perfil-stat-lbl">exploradas</span></div>
+            <div class="perfil-stat accent"><span class="perfil-stat-num">${pct}%</span><span class="perfil-stat-lbl">del catálogo</span></div>
+            <div class="perfil-stat"><span class="perfil-stat-num">${favoritos.length}</span><span class="perfil-stat-lbl">favoritas</span></div>
+            <div class="perfil-stat amber"><span class="perfil-stat-num">${logrosN}</span><span class="perfil-stat-lbl">logros</span></div>
+        </div>
+        <div class="perfil-progress">
+            <div class="perfil-progress-bar"><div class="perfil-progress-fill" style="width:${pct}%"></div></div>
+            <span class="perfil-progress-txt">${vistas.length} de ${plantasDB.length} plantas exploradas</span>
+        </div>
+        ${plantaAlma ? `
+        <div class="perfil-alma">
+            <span class="perfil-alma-label">Tu planta del alma</span>
+            <button class="perfil-alma-btn" data-id="${plantaAlma.id}">
+                <span>${plantaAlma.emoji || '🌿'}</span>
+                <strong>${plantaAlma.nombre}</strong>
+                <span>${plantaAlma.cientifico}</span>
+            </button>
+        </div>` : ''}
+        ${recientes.length ? `
+        <div class="perfil-recientes">
+            <span class="perfil-recientes-lbl">Vistas recientemente</span>
+            <div class="perfil-chips">${recientes.map(p=>`<button class="tuexp-chip" data-id="${p.id}">${p.emoji||'🌿'} ${p.nombre}</button>`).join('')}</div>
+        </div>` : '<p class="tuexp-empty">Explora plantas para ver tu progreso aquí</p>'}
+    </div>
+
+    <div class="logros-section">
+        <h3 class="logros-titulo">Mis Logros <span id="logrosBadge" class="logros-count-badge"></span></h3>
+        <div class="logros-grid">
+            ${LOGROS.map(l => {
+                const ok = getLogrosDesbloqueados().includes(l.id);
+                return `<div class="logro-card ${ok ? 'unlocked' : 'locked'}" title="${l.desc}">
+                    <span class="logro-icono">${l.icono}</span>
+                    <span class="logro-nombre">${l.titulo}</span>
+                    <span class="logro-desc">${l.desc}</span>
+                </div>`;
+            }).join('')}
+        </div>
+    </div>`;
+
+    el.querySelector('.perfil-alma-btn')?.addEventListener('click', function() {
+        cambiarTab('plants'); abrirDetallePlanta(parseInt(this.dataset.id));
+    });
+    el.querySelectorAll('.tuexp-chip').forEach(btn => {
+        btn.addEventListener('click', () => { cambiarTab('plants'); abrirDetallePlanta(parseInt(btn.dataset.id)); });
+    });
+    actualizarLogrosBadge();
+}
+
+// ════════════════════════════════════════════════════════════════════
+// MODO EXPLORADOR — ONBOARDING
+// ════════════════════════════════════════════════════════════════════
+const PERFILES_EXPLORER = {
+    curandero:  { titulo: 'Curandero',   tab: 'dolencias'  },
+    viajero:    { titulo: 'Viajero',     tab: 'plants'     },
+    estudioso:  { titulo: 'Estudioso',   tab: 'plants'     },
+    madre:      { titulo: 'Madre',       tab: 'maternidad' },
+    ancestral:  { titulo: 'Ancestral',   tab: 'ancestral'  },
+    general:    { titulo: 'Explorador',  tab: 'plants'     }
+};
+
+function initOnboarding() {
+    if (localStorage.getItem('explorerProfile')) return;
+    const overlay = document.getElementById('onboardingOverlay');
+    if (!overlay) return;
+    // Show after short delay so app loads first
+    setTimeout(() => overlay.classList.add('show'), 800);
+
+    overlay.querySelectorAll('.onb-profile-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const id = btn.dataset.profile;
+            localStorage.setItem('explorerProfile', id);
+            const perfil = PERFILES_EXPLORER[id];
+            overlay.classList.add('closing');
+            setTimeout(() => {
+                overlay.style.display = 'none';
+                if (perfil?.tab && perfil.tab !== 'plants') cambiarTab(perfil.tab);
+                mostrarToast(`¡Bienvenido, ${perfil?.titulo || 'Explorador'}! El saber ancestral te espera. 🌿`, 'ok');
+                checkLogros();
+            }, 500);
+        });
+    });
+    overlay.querySelector('.onb-skip')?.addEventListener('click', () => {
+        localStorage.setItem('explorerProfile', 'general');
+        overlay.classList.add('closing');
+        setTimeout(() => overlay.style.display = 'none', 500);
+    });
+}
+
 // ════════════════════════════════════════════════════════════════════
 // SONIDOS AMBIENTALES — Web Audio API
 // ════════════════════════════════════════════════════════════════════
@@ -3881,13 +3944,10 @@ function initGlobalSearch() {
     const backdrop = document.getElementById('gsoBackdrop');
     const closeBtn = document.getElementById('gsoClose');
     const input    = document.getElementById('gsoInput');
-    // MEJORA v11: conectar botón visible
-    const triggerBtn = document.getElementById('globalSearchBtn');
     if (!overlay || !input) return;
 
     backdrop?.addEventListener('click', cerrarGlobalSearch);
     closeBtn?.addEventListener('click', cerrarGlobalSearch);
-    triggerBtn?.addEventListener('click', abrirGlobalSearch);
 
     input.addEventListener('input', () => renderGsoResults(input.value));
 
@@ -3947,6 +4007,7 @@ function getSortedPlantas(lista) {
     return sorted;
 }
 
+
 // ════════════════════════════════════════════════════════════════════
 // HOMEPAGE — Hero CTAs, Access cards, Atlas Chile, Calendario, Reveal
 // ════════════════════════════════════════════════════════════════════
@@ -3961,30 +4022,29 @@ function renderHomeHero() {
     const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
     if (stats[0]) stats[0].dataset.target = nP;
     if (stats[1]) stats[1].dataset.target = nR;
-    // Counter animation
-    stats.forEach(el => {
-        const target = +el.dataset.target;
-        const steps = 36;
-        let step = 0;
-        el.textContent = '0';
-        const tick = () => {
-            step++;
-            const p = step / steps;
-            const ease = 1 - Math.pow(1 - p, 3);
-            el.textContent = Math.round(ease * target).toLocaleString('es-CL');
-            if (step < steps) setTimeout(tick, 28);
-        };
-        setTimeout(tick, 600);
-    });
+    // Counter animation — only animate once, never reset to 0
+    if (!hero.dataset.heroAnimated) {
+        hero.dataset.heroAnimated = '1';
+        stats.forEach(el => {
+            const target = +el.dataset.target;
+            const steps = 36;
+            let step = 0;
+            const start = +el.textContent.replace(/\D/g, '') || target;
+            const tick = () => {
+                step++;
+                const p = step / steps;
+                const ease = 1 - Math.pow(1 - p, 3);
+                el.textContent = Math.round(start + (target - start) * ease).toLocaleString('es-CL');
+                if (step < steps) setTimeout(tick, 28);
+            };
+            setTimeout(tick, 400);
+        });
+    }
 
     // CTAs
     const explore = document.getElementById('hhExploreBtn');
     explore?.addEventListener('click', () => {
-        const anchor = document.getElementById('exploreAnchor');
-        if (anchor) {
-            const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
-            window.scrollTo({ top, behavior: 'smooth' });
-        }
+        cambiarTab('plants');
     });
 
     const random = document.getElementById('hhRandomBtn');
@@ -4018,11 +4078,7 @@ function wireHomeAccess() {
             const tab = card.dataset.targetTab;
             const action = card.dataset.action;
             if (action === 'scroll-plants') {
-                const anchor = document.getElementById('exploreAnchor');
-                if (anchor) {
-                    const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
-                    window.scrollTo({ top, behavior: 'smooth' });
-                }
+                cambiarTab('plants');
                 return;
             }
             if (tab && typeof cambiarTab === 'function') {
@@ -4051,10 +4107,46 @@ function setupHomeReveal() {
     els.forEach(e => io.observe(e));
 }
 
+// ── Categorías medicinales — navegación ──
+function wireCategorias() {
+    document.querySelectorAll('.hcat-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const tab = card.dataset.gotoTab;
+            const sistema = card.dataset.gotoSistema;
+            const filter = card.dataset.gotoFilter;
+
+            if (tab) {
+                cambiarTab(tab);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                return;
+            }
+            if (filter === 'chiloe') {
+                filtroChiloe = true;
+                document.getElementById('filterChiloe')?.classList.add('active');
+                actualizarBtnReset();
+                renderPlantas();
+                cambiarTab('plants');
+                return;
+            }
+            if (sistema) {
+                cambiarTab('recipes');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // Open the matching accordion after a short delay
+                setTimeout(() => {
+                    const acc = document.querySelector(`.acc-trigger[data-sistema="${sistema}"]`);
+                    if (acc) acc.click();
+                }, 350);
+                return;
+            }
+        });
+    });
+}
+
 // Bootstrap home — call after DB loaded
 function initHomepage() {
     renderHomeHero();
     wireHomeAccess();
+    wireCategorias();
     setupHomeReveal();
 }
 
