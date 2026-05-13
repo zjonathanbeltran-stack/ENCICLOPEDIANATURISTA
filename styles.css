@@ -8050,3 +8050,68 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     .home-seguridad-grid { grid-template-columns: 1fr; }
     .home-seguridad-title { font-size: 1.3rem; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   UX v8 — CORRECCIONES MOBILE PRIORITARIAS
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── 1. Header: forzar una sola fila en móvil ── */
+@media (max-width: 480px) {
+    /* Anular el override de 44px que rompe el header */
+    .icon-btn { width: 36px !important; height: 36px !important; font-size: 0.88rem; }
+    header { flex-wrap: nowrap !important; align-items: center; gap: 8px; padding: 12px 14px; }
+    .brand { min-width: 0; flex-shrink: 1; }
+    .brand-text h1 { font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+    .brand-text .sub { display: none; }
+    .header-buttons { flex-shrink: 0; gap: 5px; }
+}
+
+/* ── 2. Hero: menos espacio muerto en móvil ── */
+@media (max-width: 600px) {
+    .home-hero { min-height: 520px !important; }
+    .hh-content { padding: 48px 0 72px; }
+    /* Scroll hint: ocultar en móvil para evitar solapamiento con stats */
+    .hh-scroll-hint { display: none; }
+    /* Stats más compactos */
+    .hh-stats { padding-top: 20px; gap: 10px; }
+    .hh-stat-num { font-size: 1.4rem; }
+    .hh-stat-label { font-size: 0.6rem; }
+}
+
+/* ── 3. Home-access: 2 columnas en móvil (no 1 columna) ── */
+@media (max-width: 600px) {
+    .home-access { grid-template-columns: repeat(2, 1fr) !important; gap: 10px; margin-bottom: 48px; }
+    .ha-card { min-height: 140px !important; padding: 18px 16px 50px !important; }
+    .ha-card h3 { font-size: 1rem; }
+    .ha-card p { font-size: 0.78rem; line-height: 1.4; }
+    .ha-glyph { width: 38px; height: 38px; font-size: 1rem; margin-bottom: 12px; }
+    .ha-arrow { width: 28px; height: 28px; bottom: 14px; right: 14px; font-size: 0.7rem; }
+}
+
+/* ── 4. Search box: solo visible cuando el usuario llega al catálogo ── */
+@media (max-width: 600px) {
+    /* Ocultar el search hero secundario (el de búsqueda rápida en home)
+       para no duplicar con el buscador global del header */
+    .search-hero { display: none; }
+}
+
+/* ── 5. Planta del día: más compacta en móvil ── */
+@media (max-width: 600px) {
+    .planta-dia-section { margin-bottom: 24px; }
+}
+
+/* ── 6. View-toggle-bar: más compacta ── */
+@media (max-width: 480px) {
+    .view-toggle-bar { gap: 6px; }
+    .sort-label { display: none; }
+}
+
+/* ── 7. Nav tabs — ocultar en móvil (usa bottom-nav) ── */
+@media (max-width: 600px) {
+    .nav-tabs { display: none; }
+}
+
+/* ── 8. Search box — margen reducido en móvil ── */
+@media (max-width: 600px) {
+    .search-box { margin-bottom: 16px; }
+}
