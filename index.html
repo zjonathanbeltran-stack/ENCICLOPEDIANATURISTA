@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css?v=ux7">
+    <link rel="stylesheet" href="styles.css?v=ux8">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -241,17 +241,17 @@
                     </div>
                     <div class="hh-stats">
                         <div class="hh-stat">
-                            <span class="hh-stat-num" data-target="85">0</span>
+                            <span class="hh-stat-num" data-target="85">85</span>
                             <span class="hh-stat-label">plantas medicinales</span>
                         </div>
                         <div class="hh-stat-sep"></div>
                         <div class="hh-stat">
-                            <span class="hh-stat-num" data-target="1058">0</span>
+                            <span class="hh-stat-num" data-target="1058">1.058</span>
                             <span class="hh-stat-label">recetas tradicionales</span>
                         </div>
                         <div class="hh-stat-sep"></div>
                         <div class="hh-stat">
-                            <span class="hh-stat-num" data-target="16">0</span>
+                            <span class="hh-stat-num" data-target="16">16</span>
                             <span class="hh-stat-label">sistemas del cuerpo</span>
                         </div>
                     </div>
@@ -293,6 +293,105 @@
             </section>
 
             <!-- ═══════════════════════════════════════════════════════════
+                 HOME · CATEGORÍAS MEDICINALES
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-categorias" data-reveal aria-label="Categorías medicinales">
+                <div class="home-categorias-head">
+                    <span class="home-categorias-eyebrow">02 · Categorías</span>
+                    <h2 class="home-categorias-title">¿Qué necesitas aliviar?</h2>
+                    <p class="home-categorias-sub">Explora el catálogo por sistema del cuerpo o tradición cultural.</p>
+                </div>
+                <div class="home-categorias-grid">
+                    <button class="hcat-card" data-cat="respiratorio" data-goto-sistema="respiratorio" type="button">
+                        <span class="hcat-icon">🫁</span>
+                        <p class="hcat-name">Respiratorio</p>
+                        <p class="hcat-desc">Tos, resfríos, bronquios</p>
+                    </button>
+                    <button class="hcat-card" data-cat="digestivo" data-goto-sistema="digestivo" type="button">
+                        <span class="hcat-icon">🌾</span>
+                        <p class="hcat-name">Digestivo</p>
+                        <p class="hcat-desc">Estómago, hígado, digestión</p>
+                    </button>
+                    <button class="hcat-card" data-cat="nervioso" data-goto-sistema="nervioso" type="button">
+                        <span class="hcat-icon">🌙</span>
+                        <p class="hcat-name">Relajante</p>
+                        <p class="hcat-desc">Estrés, ansiedad, insomnio</p>
+                    </button>
+                    <button class="hcat-card" data-cat="piel" data-goto-sistema="piel" type="button">
+                        <span class="hcat-icon">✋</span>
+                        <p class="hcat-name">Piel y Heridas</p>
+                        <p class="hcat-desc">Cicatrización, quemaduras</p>
+                    </button>
+                    <button class="hcat-card" data-cat="mujer" data-goto-sistema="mujer" type="button">
+                        <span class="hcat-icon">🌸</span>
+                        <p class="hcat-name">Salud Femenina</p>
+                        <p class="hcat-desc">Embarazo, ciclo, lactancia</p>
+                    </button>
+                    <button class="hcat-card" data-cat="mapuche" data-goto-tab="ancestral" type="button">
+                        <span class="hcat-icon">🔥</span>
+                        <p class="hcat-name">Medicina Mapuche</p>
+                        <p class="hcat-desc">Saber ancestral y ritual</p>
+                    </button>
+                    <button class="hcat-card" data-cat="chiloe" data-goto-filter="chiloe" type="button">
+                        <span class="hcat-icon">🏝️</span>
+                        <p class="hcat-name">Chiloé</p>
+                        <p class="hcat-desc">Plantas del archipiélago</p>
+                    </button>
+                    <button class="hcat-card" data-cat="defensas" data-goto-sistema="defensas" type="button">
+                        <span class="hcat-icon">🛡️</span>
+                        <p class="hcat-name">Defensas</p>
+                        <p class="hcat-desc">Sistema inmune, antivirales</p>
+                    </button>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · USO RESPONSABLE
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-seguridad" data-reveal aria-label="Uso responsable">
+                <div class="home-seguridad-head">
+                    <span class="home-seguridad-icon">🌿</span>
+                    <div>
+                        <h2 class="home-seguridad-title">Uso responsable de plantas medicinales</h2>
+                        <p class="home-seguridad-sub">Información de uso seguro y ético del saber herbolario chileno.</p>
+                    </div>
+                </div>
+                <div class="home-seguridad-grid">
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">⚕️</div>
+                        <div class="hseg-item-text">
+                            <strong>Consulta a un profesional</strong>
+                            <span>Las plantas medicinales complementan pero no reemplazan la atención médica.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">🤰</div>
+                        <div class="hseg-item-text">
+                            <strong>Embarazo y lactancia</strong>
+                            <span>Muchas plantas están contraindicadas. Usa la sección Maternidad para orientación segura.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">⚠️</div>
+                        <div class="hseg-item-text">
+                            <strong>Ojo con las precauciones</strong>
+                            <span>Las plantas con badge rojo pueden ser tóxicas en dosis incorrectas o combinadas.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">🌱</div>
+                        <div class="hseg-item-text">
+                            <strong>Recolecta con respeto</strong>
+                            <span>Solo lo necesario, nunca la planta entera. Respeta las especies protegidas y nativas.</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="home-seguridad-disclaimer">
+                    <strong>Aviso legal:</strong> Esta enciclopedia es una guía educativa basada en saber tradicional chileno. La información no constituye consejo médico. Ante cualquier duda o emergencia, consulta a un profesional de la salud o llama al <strong>CITUC: 2 2635 3800</strong>.
+                </p>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
                  EXPLORAR · Catálogo completo (continuación)
                  ═══════════════════════════════════════════════════════════ -->
             <header class="home-section-divider" id="exploreAnchor" data-reveal>
@@ -311,10 +410,10 @@
             <div id="temporadaBanner" class="temporada-banner" style="display:none"></div>
 
             <!-- Barra de progreso de exploración -->
-            <div class="progreso-wrap">
+            <div class="progreso-wrap" data-loading="true">
                 <div class="progreso-labels">
                     <span class="progreso-txt"><i class="fas fa-seedling"></i> Plantas exploradas</span>
-                    <span id="progresoNum" class="progreso-num">0 / 0</span>
+                    <span id="progresoNum" class="progreso-num"></span>
                 </div>
                 <div class="progreso-track">
                     <div id="progresoBar" class="progreso-bar"></div>
@@ -358,7 +457,14 @@
                 </button>
             </div>
 
-            <div id="plantList" class="plant-list"></div>
+            <div id="plantList" class="plant-list plant-list--loading">
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+            </div>
         </div>
 
         <!-- ─────────── RECETARIO ─────────── -->

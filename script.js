@@ -1482,6 +1482,9 @@ function renderSearchHero() {
 const plantListDiv = $('#plantList');
 
 function renderPlantas() {
+    // Remove initial skeleton state
+    plantListDiv?.classList.remove('plant-list--loading');
+
     let lista = mostrandoFavoritos
         ? plantasDB.filter(p => favoritos.includes(p.id))
         : plantasDB;
@@ -2483,12 +2486,16 @@ function marcarPlantaVista(id) {
 
 function actualizarProgreso() {
     const total = plantasDB.length;
+    if (!total) return;
     const vistas = plantasVistas.size;
-    const pct = total > 0 ? Math.round(vistas / total * 100) : 0;
+    const pct = Math.round(vistas / total * 100);
     const numEl = document.getElementById('progresoNum');
     const barEl = document.getElementById('progresoBar');
     if (numEl) numEl.textContent = `${vistas} / ${total}`;
     if (barEl) barEl.style.width = pct + '%';
+    // Reveal the bar once we have real data
+    const wrap = document.querySelector('.progreso-wrap[data-loading]');
+    if (wrap) delete wrap.dataset.loading;
 }
 
 // ════════════════════════════════════════════════════════════════════
@@ -4014,21 +4021,24 @@ function renderHomeHero() {
     const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
     if (stats[0]) stats[0].dataset.target = nP;
     if (stats[1]) stats[1].dataset.target = nR;
-    // Counter animation
-    stats.forEach(el => {
-        const target = +el.dataset.target;
-        const steps = 36;
-        let step = 0;
-        el.textContent = '0';
-        const tick = () => {
-            step++;
-            const p = step / steps;
-            const ease = 1 - Math.pow(1 - p, 3);
-            el.textContent = Math.round(ease * target).toLocaleString('es-CL');
-            if (step < steps) setTimeout(tick, 28);
-        };
-        setTimeout(tick, 600);
-    });
+    // Counter animation — only animate once, never reset to 0
+    if (!hero.dataset.heroAnimated) {
+        hero.dataset.heroAnimated = '1';
+        stats.forEach(el => {
+            const target = +el.dataset.target;
+            const steps = 36;
+            let step = 0;
+            const start = +el.textContent.replace(/\D/g, '') || target;
+            const tick = () => {
+                step++;
+                const p = step / steps;
+                const ease = 1 - Math.pow(1 - p, 3);
+                el.textContent = Math.round(start + (target - start) * ease).toLocaleString('es-CL');
+                if (step < steps) setTimeout(tick, 28);
+            };
+            setTimeout(tick, 400);
+        });
+    }
 
     // CTAs
     const explore = document.getElementById('hhExploreBtn');
@@ -4104,10 +4114,50 @@ function setupHomeReveal() {
     els.forEach(e => io.observe(e));
 }
 
+// ── Categorías medicinales — navegación ──
+function wireCategorias() {
+    document.querySelectorAll('.hcat-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const tab = card.dataset.gotoTab;
+            const sistema = card.dataset.gotoSistema;
+            const filter = card.dataset.gotoFilter;
+
+            if (tab) {
+                cambiarTab(tab);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                return;
+            }
+            if (filter === 'chiloe') {
+                filtroChiloe = true;
+                document.getElementById('filterChiloe')?.classList.add('active');
+                actualizarBtnReset();
+                renderPlantas();
+                const anchor = document.getElementById('exploreAnchor');
+                if (anchor) {
+                    const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+                return;
+            }
+            if (sistema) {
+                cambiarTab('recipes');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // Open the matching accordion after a short delay
+                setTimeout(() => {
+                    const acc = document.querySelector(`.acc-trigger[data-sistema="${sistema}"]`);
+                    if (acc) acc.click();
+                }, 350);
+                return;
+            }
+        });
+    });
+}
+
 // Bootstrap home — call after DB loaded
 function initHomepage() {
     renderHomeHero();
     wireHomeAccess();
+    wireCategorias();
     setupHomeReveal();
 }
 
