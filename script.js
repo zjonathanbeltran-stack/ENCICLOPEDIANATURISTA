@@ -2222,9 +2222,10 @@ function cambiarTab(tabId) {
     if (activeTabBtn) {
         activeTabBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
-    // Sincronizar bottom nav
+    // Sincronizar bottom nav (home → home, plants → plants, etc.)
     $$('.bottom-nav-item').forEach(b => b.classList.toggle('active', b.dataset.bottomTab === tabId));
     if (tabId === 'plants') renderPlantas();
+    if (tabId === 'home') { /* home is static; re-run reveal animations */ setTimeout(() => applyReveal(document), 50); }
     if (tabId === 'stats') { cargarRecetas().then(() => renderEstadisticas()); renderTuExploracion(); }
     if (tabId === 'maternidad') { cargarRecetas().then(() => renderMaternidad()); setTimeout(() => checkLogros('maternidad'), 500); }
     if (tabId === 'recipes' || tabId === 'dolencias') { cargarRecetas(); setTimeout(() => checkLogros('recetario'), 500); }
@@ -4043,11 +4044,7 @@ function renderHomeHero() {
     // CTAs
     const explore = document.getElementById('hhExploreBtn');
     explore?.addEventListener('click', () => {
-        const anchor = document.getElementById('exploreAnchor');
-        if (anchor) {
-            const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
-            window.scrollTo({ top, behavior: 'smooth' });
-        }
+        cambiarTab('plants');
     });
 
     const random = document.getElementById('hhRandomBtn');
@@ -4081,11 +4078,7 @@ function wireHomeAccess() {
             const tab = card.dataset.targetTab;
             const action = card.dataset.action;
             if (action === 'scroll-plants') {
-                const anchor = document.getElementById('exploreAnchor');
-                if (anchor) {
-                    const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
-                    window.scrollTo({ top, behavior: 'smooth' });
-                }
+                cambiarTab('plants');
                 return;
             }
             if (tab && typeof cambiarTab === 'function') {
@@ -4132,11 +4125,7 @@ function wireCategorias() {
                 document.getElementById('filterChiloe')?.classList.add('active');
                 actualizarBtnReset();
                 renderPlantas();
-                const anchor = document.getElementById('exploreAnchor');
-                if (anchor) {
-                    const top = anchor.getBoundingClientRect().top + window.scrollY - 90;
-                    window.scrollTo({ top, behavior: 'smooth' });
-                }
+                cambiarTab('plants');
                 return;
             }
             if (sistema) {

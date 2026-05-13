@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css?v=ux8">
+    <link rel="stylesheet" href="styles.css?v=ux9">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -166,16 +166,17 @@
         <!-- Tabs -->
         <div class="nav-tabs" id="navTabs">
             <span class="tab-indicator" id="tabIndicator"></span>
-            <button class="tab-btn active" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
+            <button class="tab-btn active" data-tab="home"><i class="fas fa-house tab-icon"></i><span>Inicio</span></button>
+            <button class="tab-btn" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
             <button class="tab-btn" data-tab="recipes"><i class="fas fa-scroll tab-icon"></i><span>Recetario</span></button>
             <button class="tab-btn" data-tab="maternidad"><i class="fas fa-baby tab-icon"></i><span>Maternidad</span></button>
-            <button class="tab-btn" data-tab="ancestral"><i class="fas fa-fire tab-icon"></i><span>Medicina Ancestral</span></button>
+            <button class="tab-btn" data-tab="ancestral"><i class="fas fa-fire tab-icon"></i><span>Ancestral</span></button>
             <button class="tab-btn" data-tab="tools"><i class="fas fa-mortar-pestle tab-icon"></i><span>Herramientas</span></button>
             <button class="tab-btn" data-tab="stats"><i class="fas fa-chart-simple tab-icon"></i><span>Estadísticas</span></button>
         </div>
 
-        <!-- ─────────── PLANTAS ─────────── -->
-        <div id="plantsTab" class="tab-content active">
+        <!-- ─────────── HOME ─────────── -->
+        <div id="homeTab" class="tab-content active">
 
             <!-- ═══════════════════════════════════════════════════════════
                  HOME · HERO CINEMATOGRÁFICO
@@ -391,12 +392,17 @@
                 </p>
             </section>
 
+        </div><!-- /#homeTab -->
+
+        <!-- ─────────── PLANTAS ─────────── -->
+        <div id="plantsTab" class="tab-content">
+
             <!-- ═══════════════════════════════════════════════════════════
-                 EXPLORAR · Catálogo completo (continuación)
+                 PLANTAS · Cabecera del catálogo
                  ═══════════════════════════════════════════════════════════ -->
-            <header class="home-section-divider" id="exploreAnchor" data-reveal>
-                <span class="hsd-eyebrow">03 · Catálogo</span>
-                <h2 class="hsd-h2">Explorar las 85 plantas.</h2>
+            <header class="home-section-divider plants-tab-header" data-reveal>
+                <span class="hsd-eyebrow">Catálogo completo</span>
+                <h2 class="hsd-h2">Las 85 plantas de Chile.</h2>
                 <p class="hsd-lede">Filtra por región, temporada o síntoma — o deja que la tierra te sorprenda.</p>
             </header>
 
@@ -1096,7 +1102,11 @@
 
     <!-- Bottom Navigation — visible solo en mobile (≤767px via CSS) -->
     <nav class="bottom-nav" id="bottomNav" aria-label="Navegación principal">
-        <button class="bottom-nav-item active" data-bottom-tab="plants" title="Plantas">
+        <button class="bottom-nav-item active" data-bottom-tab="home" title="Inicio">
+            <i class="fas fa-house"></i>
+            <span>Inicio</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="plants" title="Plantas">
             <i class="fas fa-seedling"></i>
             <span>Plantas</span>
         </button>
