@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css?v=ux10">
+    <link rel="stylesheet" href="styles.css?v=ux11">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -517,14 +517,16 @@
                 <div><strong>Respeto y contexto cultural:</strong> Estas recetas son parte del patrimonio vivo de pueblos originarios. Úsalas con respeto, sin apropiación. Cuando sea posible, busca orientación de un <em>machi</em> (Mapuche), <em>yatiri</em> (Aymara) o curandera local.</div>
             </div>
 
-            <!-- Buscador -->
-            <div class="ancestral-search-wrap">
-                <i class="fas fa-search ancestral-search-ico"></i>
-                <input type="text" id="ancestralSearchInput" placeholder="Buscar receta ancestral, planta o dolencia…" autocomplete="off">
-                <button id="ancestralSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
+            <!-- Buscador + Filtros — mismo método que Recetario -->
+            <div class="receta-search-section">
+                <div class="receta-search-wrap">
+                    <i class="fas fa-search receta-search-ico"></i>
+                    <input type="text" id="ancestralSearchInput" placeholder="Buscar receta ancestral, planta o dolencia…" autocomplete="off">
+                    <button id="ancestralSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <p class="receta-search-hint">Filtra por pueblo originario</p>
 
             <!-- Filtros por pueblo -->
             <div class="ancestral-pueblos-nav">
@@ -605,6 +607,7 @@
                 </div>
                 <div id="ancSistemasGrid" class="anc-sistemas-grid"></div>
             </div>
+            </div><!-- /receta-search-section -->
 
             <!-- Contexto cultural (se muestra al seleccionar un pueblo) -->
             <div id="ancestralContexto" class="ancestral-contexto" hidden></div>
@@ -866,39 +869,36 @@
                 <div><strong>Consulta siempre con tu médico o matrona</strong> antes de usar cualquier planta medicinal durante el embarazo o la lactancia. Esta información es de referencia etnobotánica, no reemplaza la atención profesional.</div>
             </div>
 
-            <!-- Menú de navegación Maternidad -->
-            <nav class="matern-nav" aria-label="Secciones de maternidad">
-                <button class="matern-nav-card active" data-matern="embarazo">
-                    <div class="mnav-icon-wrap mnav-emb">
-                        <i class="fas fa-baby-carriage"></i>
-                    </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Embarazo</span>
-                        <span class="mnav-desc">Plantas seguras y a evitar</span>
-                    </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-                <button class="matern-nav-card" data-matern="lactancia">
-                    <div class="mnav-icon-wrap mnav-lac">
-                        <i class="fas fa-droplet"></i>
-                    </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Lactancia</span>
-                        <span class="mnav-desc">Galactogogas y contraindicadas</span>
-                    </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-                <button class="matern-nav-card" data-matern="recetas">
-                    <div class="mnav-icon-wrap mnav-rec">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Recetas</span>
-                        <span class="mnav-desc">Preparaciones recomendadas</span>
-                    </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-            </nav>
+            <!-- Buscador + Navegación — mismo método que Recetario -->
+            <div class="receta-search-section">
+                <div class="receta-search-wrap">
+                    <i class="fas fa-search receta-search-ico"></i>
+                    <input type="text" id="maternSearchInput"
+                           placeholder="¿Qué te aqueja? Ej: náuseas, lactancia, insomnio…"
+                           autocomplete="off">
+                    <button id="maternSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <p class="receta-search-hint">Elige una categoría</p>
+                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(3, 1fr);">
+                    <button class="rsis-btn matern-nav-card active" data-matern="embarazo" style="--rsis-color:#c9679a">
+                        <span class="rsis-ico"><i class="fas fa-baby-carriage"></i></span>
+                        <span class="rsis-label">Embarazo</span>
+                        <span class="rsis-desc">Plantas seguras y a evitar</span>
+                    </button>
+                    <button class="rsis-btn matern-nav-card" data-matern="lactancia" style="--rsis-color:#7a9ab8">
+                        <span class="rsis-ico"><i class="fas fa-droplet"></i></span>
+                        <span class="rsis-label">Lactancia</span>
+                        <span class="rsis-desc">Galactogogas y contraindicadas</span>
+                    </button>
+                    <button class="rsis-btn matern-nav-card" data-matern="recetas" style="--rsis-color:#6a8a52">
+                        <span class="rsis-ico"><i class="fas fa-book-open"></i></span>
+                        <span class="rsis-label">Recetas</span>
+                        <span class="rsis-desc">Preparaciones recomendadas</span>
+                    </button>
+                </div>
+            </div>
 
             <!-- Sección EMBARAZO -->
             <div id="maternEmbarazo" class="matern-section active">
@@ -1084,6 +1084,10 @@
         <button class="bottom-nav-item" data-bottom-tab="recipes" title="Recetario">
             <i class="fas fa-mortar-pestle"></i>
             <span>Recetario</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="maternidad" title="Maternidad">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Maternidad</span>
         </button>
         <button class="bottom-nav-item" data-bottom-tab="ancestral" title="Cultural">
             <i class="fas fa-fire"></i>

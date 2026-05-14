@@ -1562,7 +1562,7 @@ footer {
 @media (max-width: 767px) {
     .bottom-nav {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         position: fixed;
         bottom: 0;
         left: 0;
@@ -5083,7 +5083,13 @@ body.custom-cursor-on .cursor-ring { display: block; }
     font-size: 0.95rem;
     font-family: 'Inter', sans-serif;
 }
-#recetaSearchInput::placeholder { color: var(--text-mute); }
+#recetaSearchInput::placeholder,
+#ancestralSearchInput::placeholder,
+#maternSearchInput::placeholder { color: var(--text-mute); }
+#ancestralSearchInput, #maternSearchInput {
+    flex: 1; background: none; border: none; outline: none;
+    color: var(--text); font-size: 0.95rem; font-family: 'Inter', sans-serif;
+}
 .receta-search-clear {
     background: none;
     border: none;
