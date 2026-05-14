@@ -7,6 +7,28 @@ let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 
+// ── Módulos de recetas (carga lazy) ──
+const MODULO_MAP = {
+    mapuche:        { file: 'data/modulos/mapuche.json',        cats: ['Medicina Mapuche','Espiritual'] },
+    digestivo:      { file: 'data/modulos/digestivo.json',      cats: ['Digestivo','Hepático','Diarrea','Antiparasitario','Nutritivo','Alimenticio'] },
+    respiratorio:   { file: 'data/modulos/respiratorio.json',   cats: ['Respiratorio','Tos','Expectorante','Resfriados','Garganta','Febrífugo'] },
+    nervioso:       { file: 'data/modulos/nervioso.json',       cats: ['Nervioso','Sedante','Memoria'] },
+    piel:           { file: 'data/modulos/piel.json',           cats: ['Dermatológico','Cicatrizante','Cosmético','Cabello','Baño','Antifúngico'] },
+    mujer:          { file: 'data/modulos/mujer.json',          cats: ['Ginecológico'] },
+    cardiovascular: { file: 'data/modulos/cardiovascular.json', cats: ['Cardiovascular','Renal','Diurético'] },
+    dolores:        { file: 'data/modulos/dolores.json',        cats: ['Analgésico','Antiinflamatorio','Reumatismo','Dental'] },
+    pediatrico:     { file: 'data/modulos/pediatrico.json',     cats: ['Pediátrico'] },
+    general:        { file: 'data/modulos/general.json',        cats: ['Energizante','General','Alergia','Oftalmológico','Oídos'] },
+};
+const SISTEMA_A_MODULO = {
+    digestivo: 'digestivo', respiratorio: 'respiratorio', nervioso: 'nervioso',
+    musculo: 'dolores', piel: 'piel', mujer: 'mujer',
+    pediatrico: 'pediatrico', inmuno: 'general', cardiovascular: 'cardiovascular',
+    renal: 'cardiovascular', energetico: 'general', mapuche: 'mapuche',
+};
+const modulosCache = {};  // { moduloId: [...recetas] }
+let _moduloActivo = null; // módulo seleccionado en recetario (null = catálogo completo)
+
 // ── Lazy loading de recetas ──
 let _recetasCargadas  = false;
 let _recetasCargando  = null; // Promise en vuelo
@@ -26,18 +48,30 @@ function _mostrarSkeletonRecetas() {
         </div>`).join('');
 }
 
+async function cargarModulo(moduloId) {
+    if (modulosCache[moduloId]) return modulosCache[moduloId];
+    const res = await fetch(MODULO_MAP[moduloId].file);
+    if (!res.ok) throw new Error('Error cargando modulo ' + moduloId);
+    const data = await res.json();
+    modulosCache[moduloId] = data;
+    return data;
+}
+
+async function asegurarCatalogoCompleto() {
+    if (recetasDB.length > 0) return;
+    const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
+    recetasDB = todos.flat();
+    window.recetasDB = recetasDB;
+}
+
 async function cargarRecetas() {
     if (_recetasCargadas) return true;
     if (_recetasCargando) return _recetasCargando;
     _mostrarSkeletonRecetas();
     _recetasCargando = (async () => {
         try {
-            const r = await fetch('data/recetas.json');
-            if (!r.ok) throw new Error('Error cargando recetas.json');
-            recetasDB = await r.json();
-            window.recetasDB = recetasDB;
+            await asegurarCatalogoCompleto();
             _recetasCargadas = true;
-            // Refrescar contadores y secciones del homepage que dependen de recetas
             try { if (typeof renderHomeHero === 'function') renderHomeHero(); } catch(e){}
             const grid = document.getElementById('recetaCategorias');
             if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
@@ -499,6 +533,10 @@ function renderCategoriasChips() {
 }
 
 function mostrarDolenciasDeSistema(sistemaId) {
+    _moduloActivo = SISTEMA_A_MODULO[sistemaId] || null;
+    if (_moduloActivo && !modulosCache[_moduloActivo]) {
+        cargarModulo(_moduloActivo); // pre-carga sin bloquear
+    }
     const panel = document.getElementById('recetaDolenciasPanel');
     const chips = document.getElementById('rdolChips');
     if (!panel || !chips) return;
@@ -521,7 +559,8 @@ function normDol(txt) {
 
 // ── Buscador de recetas por síntoma (en pestaña Recetario) ──────────
 
-function buscarRecetasPorSintoma(query) {
+function buscarRecetasPorSintoma(query, pool) {
+    const recetas = pool || recetasDB;
     // Quitar frases de lenguaje natural comunes
     let q = normDol(query)
         .replace(/^(me duele(n)?|tengo|siento|busco( algo)?|quiero( algo)?|algo para|remedio para|para (el|la|los|las|un|una))\s+/i, '')
@@ -558,12 +597,12 @@ function buscarRecetasPorSintoma(query) {
     // "analgesi" es demasiado genérico — matchea cualquier receta analgésica aunque no trate la dolencia
     const kwsContenido = kwsDolencia.filter(kw => kw !== 'analgesi' && kw.length >= 4);
 
-    const scored = recetasDB.map(r => {
+    const scored = recetas.map(r => {
         let score = 0;
         let hasContentMatch = false;
 
         const titulo  = normDol(r.titulo);
-        const usoPrim = normDol((r.uso || '').slice(0, 90)); // solo uso primario, ignora menciones secundarias
+        const usoPrim = normDol((r.uso || '').slice(0, 90));
 
         // Match en título (mayor peso)
         for (const kw of kwsContenido) {
@@ -806,6 +845,7 @@ function renderRecetaSearchResults(recetas, query) {
 }
 
 function limpiarRecetaSearch() {
+    _moduloActivo = null;
     const inp = document.getElementById('recetaSearchInput');
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
@@ -3215,6 +3255,7 @@ inicializar();
             if (q.length < 2) { limpiarRecetaSearch(); return; }
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            _moduloActivo = null; // búsqueda libre = catálogo completo
             await cargarRecetas();
             renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
         }, 280);
@@ -3262,7 +3303,16 @@ inicializar();
         const clr = document.getElementById('recetaSearchClear');
         if (inp) inp.value = q;
         if (clr) clr.hidden = false;
-        renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
+        (async () => {
+            let pool;
+            if (_moduloActivo) {
+                pool = await cargarModulo(_moduloActivo);
+            } else {
+                await cargarRecetas();
+                pool = recetasDB;
+            }
+            renderRecetaSearchResults(buscarRecetasPorSintoma(q, pool), q);
+        })();
     });
 })();
 
