@@ -1,0 +1,109 @@
+{
+  "mapuche": {
+    "label": "Mapuche",
+    "cats": [
+      "Medicina Mapuche",
+      "Espiritual"
+    ],
+    "file": "data/modulos/mapuche.json",
+    "count": 146
+  },
+  "digestivo": {
+    "label": "Digestivo",
+    "cats": [
+      "Digestivo",
+      "Hepatico",
+      "Diarrea",
+      "Antiparasitario",
+      "Nutritivo",
+      "Alimenticio"
+    ],
+    "file": "data/modulos/digestivo.json",
+    "count": 181
+  },
+  "respiratorio": {
+    "label": "Respiratorio",
+    "cats": [
+      "Respiratorio",
+      "Tos",
+      "Expectorante",
+      "Resfriados",
+      "Garganta",
+      "Febrifugo"
+    ],
+    "file": "data/modulos/respiratorio.json",
+    "count": 102
+  },
+  "nervioso": {
+    "label": "Nervioso",
+    "cats": [
+      "Nervioso",
+      "Sedante",
+      "Memoria"
+    ],
+    "file": "data/modulos/nervioso.json",
+    "count": 92
+  },
+  "piel": {
+    "label": "Piel",
+    "cats": [
+      "Dermatologico",
+      "Cicatrizante",
+      "Cosmetico",
+      "Cabello",
+      "Bano",
+      "Antifungico"
+    ],
+    "file": "data/modulos/piel.json",
+    "count": 165
+  },
+  "mujer": {
+    "label": "Mujer",
+    "cats": [
+      "Ginecologico"
+    ],
+    "file": "data/modulos/mujer.json",
+    "count": 59
+  },
+  "cardiovascular": {
+    "label": "Cardiovascular",
+    "cats": [
+      "Cardiovascular",
+      "Renal",
+      "Diuretico"
+    ],
+    "file": "data/modulos/cardiovascular.json",
+    "count": 97
+  },
+  "dolores": {
+    "label": "Dolores",
+    "cats": [
+      "Analgesico",
+      "Antiinflamatorio",
+      "Reumatismo",
+      "Dental"
+    ],
+    "file": "data/modulos/dolores.json",
+    "count": 91
+  },
+  "pediatrico": {
+    "label": "Pediatrico",
+    "cats": [
+      "Pediatrico"
+    ],
+    "file": "data/modulos/pediatrico.json",
+    "count": 51
+  },
+  "general": {
+    "label": "General",
+    "cats": [
+      "Energizante",
+      "General",
+      "Alergia",
+      "Oftalmologico",
+      "Oidos"
+    ],
+    "file": "data/modulos/general.json",
+    "count": 119
+  }
+}
