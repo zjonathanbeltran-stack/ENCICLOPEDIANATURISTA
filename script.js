@@ -675,6 +675,7 @@ function mostrarDolenciasDeSistema(sistemaId) {
         </button>
     `).join('');
     panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
 }
 
 function mostrarSubmodulos(sistemaId) {
@@ -696,6 +697,7 @@ function mostrarSubmodulos(sistemaId) {
     `).join('');
     document.getElementById('recetaDolenciasPanel').hidden = true;
     panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
 }
 
 function mostrarCondicionesDeSubmodulo(sistemaId, subId) {
@@ -715,6 +717,7 @@ function mostrarCondicionesDeSubmodulo(sistemaId, subId) {
     `).join('');
     document.getElementById('recetaSubmodulosPanel').hidden = true;
     panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
 }
 
 // Búsqueda directa por keywords de condición (sin pasar por DOLENCIAS)
@@ -818,6 +821,8 @@ let _rfBase = [];   // resultado completo sin filtros
 let _rfQuery = '';  // query actual
 let _rfCats  = new Set();
 let _rfDifs  = new Set();
+// Origen de navegación para botón "Volver" inteligente
+let _rsearchOrigen = null; // { type:'submod'|'dolencias', sistemaKey } | null
 
 function _normDif(d) {
     return (d || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
@@ -973,11 +978,14 @@ function renderRecetaSearchResults(recetas, query) {
 
     const necesitaFiltros = total > 8;
 
+    const clearLabel = _rsearchOrigen
+        ? '<i class="fas fa-arrow-left"></i> Volver'
+        : '<i class="fas fa-times"></i> Ver todo el recetario';
     cont.innerHTML = `
         <div class="rsearch-header">
             <span class="rsearch-count">${total} receta${total !== 1 ? 's' : ''} para <strong>"${query}"</strong></span>
             <button class="rsearch-clear-btn" id="rsearchClearBtn">
-                <i class="fas fa-times"></i> Ver todo el recetario
+                ${clearLabel}
             </button>
         </div>
         ${necesitaFiltros ? `
@@ -1006,7 +1014,30 @@ function renderRecetaSearchResults(recetas, query) {
         ${total > 48 ? `<p class="rsearch-mas"></p>` : ''}`;
 
     cont.style.display = 'block';
-    document.getElementById('rsearchClearBtn')?.addEventListener('click', limpiarRecetaSearch);
+    setTimeout(() => cont.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    document.getElementById('rsearchClearBtn')?.addEventListener('click', () => {
+        if (_rsearchOrigen) {
+            const { type, sistemaKey } = _rsearchOrigen;
+            cont.innerHTML = ''; cont.style.display = 'none';
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            if (inp) inp.value = '';
+            if (clr) clr.hidden = true;
+            if (type === 'submod') {
+                const subKey = SUBMODULOS[sistemaKey] ? sistemaKey
+                    : (SISTEMA_A_MODULO[sistemaKey] && SUBMODULOS[SISTEMA_A_MODULO[sistemaKey]]
+                       ? SISTEMA_A_MODULO[sistemaKey] : null);
+                if (subKey) { _rsearchOrigen = null; mostrarSubmodulos(subKey); return; }
+            }
+            if (type === 'dolencias') {
+                _rsearchOrigen = null;
+                mostrarDolenciasDeSistema(sistemaKey);
+                return;
+            }
+            _rsearchOrigen = null;
+        }
+        limpiarRecetaSearch();
+    });
 
     // Eventos de chips de filtro
     cont.querySelectorAll('.rfilter-chip[data-cat]').forEach(c => {
@@ -1028,8 +1059,9 @@ function renderRecetaSearchResults(recetas, query) {
 }
 
 function limpiarRecetaSearch() {
-    _moduloActivo  = null;
-    _sistemaActivo = null;
+    _moduloActivo   = null;
+    _sistemaActivo  = null;
+    _rsearchOrigen  = null;
     const inp = document.getElementById('recetaSearchInput');
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
@@ -1871,7 +1903,7 @@ function slugify(str) {
 function abrirDetallePlanta(id) {
     const p = plantasDB.find(p => p.id === id);
     if (!p) return;
-    history.replaceState(null, '', '#planta/' + slugify(p.nombre));
+    history.pushState({ tipo: 'planta', id }, '', '#planta/' + slugify(p.nombre));
     // Registrar como vista para progreso
     marcarPlantaVista(id);
 
@@ -2063,7 +2095,7 @@ function resetearFiltros() {
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
-    history.replaceState(null, '', '#receta/' + id);
+    history.pushState({ tipo: 'receta', id }, '', '#receta/' + id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -2233,12 +2265,25 @@ function configurarShareBtn(title, text) {
 }
 
 const modal = $('#detailModal');
-function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
+let _modalAbiertoPorPush = false;
+function abrirModal() {
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+    _modalAbiertoPorPush = true;
+}
 function cerrarModal() {
     modal.classList.remove('show');
     document.body.style.overflow = '';
-    history.replaceState(null, '', location.pathname + location.search);
+    _modalAbiertoPorPush = false;
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
 }
+window.addEventListener('popstate', () => {
+    if (modal.classList.contains('show')) {
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+        _modalAbiertoPorPush = false;
+    }
+});
 $('#detailModal .close-modal').addEventListener('click', cerrarModal);
 modal.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
 document.addEventListener('keydown', (e) => {
@@ -3441,7 +3486,9 @@ inicializar();
             if (q.length < 2) { limpiarRecetaSearch(); return; }
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            document.getElementById('recetaSubmodulosPanel').hidden = true;
             _moduloActivo = null; // búsqueda libre = catálogo completo
+            _rsearchOrigen = null;
             await cargarRecetas();
             renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
         }, 280);
@@ -3457,8 +3504,13 @@ inicializar();
         // Botón volver desde panel de condiciones → sub-módulos (si los hay) o sistemas
         if (e.target.id === 'rdolBack' || e.target.closest('#rdolBack')) {
             document.getElementById('recetaDolenciasPanel').hidden = true;
-            if (_sistemaActivo && SUBMODULOS[_sistemaActivo]) {
-                mostrarSubmodulos(_sistemaActivo);
+            const backSubKey = _sistemaActivo
+                ? (SUBMODULOS[_sistemaActivo] ? _sistemaActivo
+                   : (SISTEMA_A_MODULO[_sistemaActivo] && SUBMODULOS[SISTEMA_A_MODULO[_sistemaActivo]]
+                      ? SISTEMA_A_MODULO[_sistemaActivo] : null))
+                : null;
+            if (backSubKey) {
+                mostrarSubmodulos(backSubKey);
             } else {
                 document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
             }
@@ -3491,6 +3543,7 @@ inicializar();
                     const clr = document.getElementById('recetaSearchClear');
                     if (inp) inp.value = sub.label;
                     if (clr) clr.hidden = false;
+                    _rsearchOrigen = { type: 'submod', sistemaKey: sistemaId };
                     renderRecetaSearchResults(data.recetas, sub.label);
                 })();
             } else {
@@ -3527,6 +3580,7 @@ inicializar();
             const clr = document.getElementById('recetaSearchClear');
             if (inp) inp.value = q;
             if (clr) clr.hidden = false;
+            _rsearchOrigen = { type: 'dolencias', sistemaKey: _sistemaActivo };
             (async () => {
                 const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
                 renderRecetaSearchResults(buscarPorCondicion(kws, pool), q);
@@ -3542,6 +3596,7 @@ inicializar();
         const clr = document.getElementById('recetaSearchClear');
         if (inp) inp.value = q;
         if (clr) clr.hidden = false;
+        _rsearchOrigen = { type: 'dolencias', sistemaKey: _sistemaActivo };
         (async () => {
             const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
             renderRecetaSearchResults(buscarRecetasPorSintoma(q, pool), q);
