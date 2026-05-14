@@ -653,12 +653,18 @@ function mostrarDolenciasDeSistema(sistemaId) {
         b.classList.toggle('active', b.dataset.sistema === sistemaId));
 
     // Si el sistema tiene sub-módulos → mostrar nivel intermedio
-    if (SUBMODULOS[sistemaId]) {
-        mostrarSubmodulos(sistemaId);
+    // Resolver clave: algunos sistemas usan id diferente al de SUBMODULOS (ej: 'musculo' → 'dolores')
+    const subKey = SUBMODULOS[sistemaId] ? sistemaId
+                 : (SISTEMA_A_MODULO[sistemaId] && SUBMODULOS[SISTEMA_A_MODULO[sistemaId]]
+                    ? SISTEMA_A_MODULO[sistemaId] : null);
+    if (subKey) {
+        document.getElementById('recetaDolenciasPanel').hidden = true;
+        mostrarSubmodulos(subKey);
         return;
     }
 
     // Sin sub-módulos → mostrar dolencias directamente (comportamiento anterior)
+    document.getElementById('recetaSubmodulosPanel').hidden = true;
     const panel = document.getElementById('recetaDolenciasPanel');
     const chips = document.getElementById('rdolChips');
     if (!panel || !chips) return;
