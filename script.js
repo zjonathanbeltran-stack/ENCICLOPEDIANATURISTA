@@ -479,12 +479,46 @@ const SISTEMAS_BUSQUEDA = [
 ];
 
 // ── Sub-módulos por sistema — 3 niveles: sistema → sub-módulo → condición ──
+// Sub-módulos con "file" cargan directo su JSON de condición (resultados precisos).
+// Sub-módulos con "condiciones" muestran chips de dolencia (búsqueda por keywords).
 const SUBMODULOS = {
+    digestivo: {
+        label: 'Digestivo',
+        submods: [
+            { id:'gastritis_acidez',   label:'Gastritis / Acidez',    emoji:'🔥', color:'#c97b56', count:9,
+              desc:'Gastritis · Acidez · Reflujo',
+              file:'data/modulos/digestivo/gastritis_acidez/recetas.json' },
+            { id:'estrenimiento',      label:'Estreñimiento',          emoji:'🌾', color:'#8a9a52', count:6,
+              desc:'Tránsito · Psyllium · Ciruelas',
+              file:'data/modulos/digestivo/estrenimiento/recetas.json' },
+            { id:'diarrea',            label:'Diarrea',                emoji:'💧', color:'#5a8aaa', count:12,
+              desc:'Astringentes · Diarrea aguda',
+              file:'data/modulos/digestivo/diarrea/recetas.json' },
+            { id:'colicos_gases',      label:'Cólicos / Gases',        emoji:'💨', color:'#7a6aaa', count:9,
+              desc:'Meteorismo · Flatulencias · Carminativos',
+              file:'data/modulos/digestivo/colicos_gases/recetas.json' },
+            { id:'higado_vesicula',    label:'Hígado / Vesícula',      emoji:'🫒', color:'#a08a42', count:21,
+              desc:'Hígado graso · Vesícula · Detox',
+              file:'data/modulos/digestivo/higado_vesicula/recetas.json' },
+            { id:'parasitos',          label:'Parásitos',              emoji:'🦠', color:'#6a5a4a', count:23,
+              desc:'Lombrices · Oxiuros · Tenias',
+              file:'data/modulos/digestivo/parasitos/recetas.json' },
+            { id:'nauseas_indigestion',label:'Náuseas / Indigestión',  emoji:'🤢', color:'#8a6a8a', count:8,
+              desc:'Náuseas · Vómitos · Indigestión',
+              file:'data/modulos/digestivo/nauseas_indigestion/recetas.json' },
+            { id:'digestion_lenta',    label:'Digestión lenta',        emoji:'🌿', color:'#6a8a52', count:38,
+              desc:'Digestión pesada · Depurativo · Probióticos',
+              file:'data/modulos/digestivo/digestion_lenta/recetas.json' },
+            { id:'nutricion',          label:'Nutrición medicinal',    emoji:'🥗', color:'#52aa7a', count:55,
+              desc:'Alimentos funcionales · Recetas nutritivas',
+              file:'data/modulos/digestivo/nutricion/recetas.json' },
+        ],
+    },
     pediatrico: {
         label: 'Pediátrico',
         submods: [
             {
-                id: 'resp-ninos', label: 'Respiratorio', emoji: '🫁',
+                id: 'resp-ninos', label: 'Respiratorio', emoji: '🫁', color: '#5b8aa0',
                 desc: 'Gripe · Tos · Bronquitis · Congestión',
                 condiciones: [
                     { nombre: 'Gripe / Resfríos',    emoji: '🤧', kws: ['resfri','catarro','gripe','influenza','sauco resfri'] },
@@ -494,45 +528,40 @@ const SUBMODULOS = {
                     { nombre: 'Garganta',             emoji: '🗣', kws: ['garganta infantil','gargar','amigdal'] },
                 ],
             },
-            {
-                id: 'fiebre-ninos', label: 'Fiebre', emoji: '🌡',
-                desc: 'Temperatura · Antipirético',
-                condiciones: [
-                    { nombre: 'Fiebre infantil', emoji: '🤒', kws: ['fiebre infantil','fiebre nino','antipiretico','febril nino'] },
-                ],
+            { id: 'fiebre-ninos',    label: 'Fiebre',          emoji: '🌡', color: '#c97b56',
+              desc: 'Temperatura · Antipirético',
+              condiciones: [
+                { nombre: 'Fiebre infantil', emoji: '🤒', kws: ['fiebre infantil','fiebre nino','antipiretico','febril nino'] },
+              ],
             },
-            {
-                id: 'digestivo-ninos', label: 'Digestivo', emoji: '🫃',
-                desc: 'Cólicos · Gases · Dolor abdominal',
-                condiciones: [
-                    { nombre: 'Cólicos del bebé',     emoji: '👶', kws: ['colico','lactante','recien nacido','anticolico','colic'] },
-                    { nombre: 'Gases / Flatulencias', emoji: '💨', kws: ['gas','flatulencia','carminativo','inflacion abdominal'] },
-                    { nombre: 'Dolor abdominal',      emoji: '🤢', kws: ['dolor abdominal infantil','poleo','abdominal nino'] },
-                ],
+            { id: 'digestivo-ninos', label: 'Digestivo',       emoji: '🫃', color: '#8a9a52',
+              desc: 'Cólicos · Gases · Dolor abdominal',
+              condiciones: [
+                { nombre: 'Cólicos del bebé',     emoji: '👶', kws: ['colico','lactante','recien nacido','anticolico','colic'] },
+                { nombre: 'Gases / Flatulencias', emoji: '💨', kws: ['gas','flatulencia','carminativo','inflacion abdominal'] },
+                { nombre: 'Dolor abdominal',      emoji: '🤢', kws: ['dolor abdominal infantil','poleo','abdominal nino'] },
+              ],
             },
-            {
-                id: 'piel-ninos', label: 'Piel', emoji: '🩹',
-                desc: 'Dermatitis · Eczema · Baño calmante',
-                condiciones: [
-                    { nombre: 'Dermatitis / Eczema',  emoji: '🩹', kws: ['dermatit','eczema','irritacion piel','crema llanten'] },
-                    { nombre: 'Baño calmante',        emoji: '🛁', kws: ['bano lavanda','bano manzanilla','irritabilidad bebe'] },
-                ],
+            { id: 'piel-ninos',     label: 'Piel',             emoji: '🩹', color: '#c9a84c',
+              desc: 'Dermatitis · Eczema · Baño calmante',
+              condiciones: [
+                { nombre: 'Dermatitis / Eczema', emoji: '🩹', kws: ['dermatit','eczema','irritacion piel','crema llanten'] },
+                { nombre: 'Baño calmante',       emoji: '🛁', kws: ['bano lavanda','bano manzanilla','irritabilidad bebe'] },
+              ],
             },
-            {
-                id: 'nervioso-ninos', label: 'Sueño y Nervios', emoji: '🌙',
-                desc: 'Insomnio · Nerviosismo · Hiperactividad',
-                condiciones: [
-                    { nombre: 'Insomnio infantil',  emoji: '😴', kws: ['insomnio infantil','sueno nino','dormir infantil'] },
-                    { nombre: 'Nerviosismo / TDAH', emoji: '⚡', kws: ['nerviosismo','hiperactividad','ansiolitic'] },
-                ],
+            { id: 'nervioso-ninos', label: 'Sueño y Nervios',  emoji: '🌙', color: '#8a6aaa',
+              desc: 'Insomnio · Nerviosismo · Hiperactividad',
+              condiciones: [
+                { nombre: 'Insomnio infantil',  emoji: '😴', kws: ['insomnio infantil','sueno nino','dormir infantil'] },
+                { nombre: 'Nerviosismo / TDAH', emoji: '⚡', kws: ['nerviosismo','hiperactividad','ansiolitic'] },
+              ],
             },
-            {
-                id: 'otros-ninos', label: 'Otros', emoji: '✨',
-                desc: 'Dentición · Conjuntivitis',
-                condiciones: [
-                    { nombre: 'Dentición',       emoji: '🦷', kws: ['denticion','encia','diente nino'] },
-                    { nombre: 'Conjuntivitis',   emoji: '👁', kws: ['conjuntivit','ojo nino','compresa manzanilla'] },
-                ],
+            { id: 'otros-ninos',    label: 'Otros',             emoji: '✨', color: '#7a9ab8',
+              desc: 'Dentición · Conjuntivitis',
+              condiciones: [
+                { nombre: 'Dentición',      emoji: '🦷', kws: ['denticion','encia','diente nino'] },
+                { nombre: 'Conjuntivitis',  emoji: '👁', kws: ['conjuntivit','ojo nino','compresa manzanilla'] },
+              ],
             },
         ],
     },
@@ -631,9 +660,11 @@ function mostrarSubmodulos(sistemaId) {
     if (!panel || !chips) return;
     if (titulo) titulo.textContent = subData.label;
     chips.innerHTML = subData.submods.map(sub => `
-        <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}">
+        <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}"
+                style="--rsub-color:${sub.color || '#6a8a52'}">
             <span class="rsub-emoji">${sub.emoji}</span>
             <span class="rsub-label">${sub.label}</span>
+            ${sub.count ? `<span class="rsub-count">${sub.count} recetas</span>` : ''}
             <span class="rsub-desc">${sub.desc}</span>
         </button>
     `).join('');
@@ -3416,10 +3447,30 @@ inicializar();
             return;
         }
 
-        // Clic en botón de sub-módulo → mostrar condiciones
+        // Clic en tarjeta de sub-módulo
         const subChip = e.target.closest('.rsub-chip');
         if (subChip) {
-            mostrarCondicionesDeSubmodulo(subChip.dataset.sistema, subChip.dataset.subid);
+            const sistemaId = subChip.dataset.sistema;
+            const subId     = subChip.dataset.subid;
+            const subData   = SUBMODULOS[sistemaId];
+            const sub       = subData?.submods.find(s => s.id === subId);
+            if (!sub) return;
+            if (sub.file) {
+                // Condición con archivo propio → cargar y mostrar resultados directo
+                (async () => {
+                    const res  = await fetch(sub.file);
+                    const data = await res.json();
+                    document.getElementById('recetaSubmodulosPanel').hidden = true;
+                    const inp = document.getElementById('recetaSearchInput');
+                    const clr = document.getElementById('recetaSearchClear');
+                    if (inp) inp.value = sub.label;
+                    if (clr) clr.hidden = false;
+                    renderRecetaSearchResults(data.recetas, sub.label);
+                })();
+            } else {
+                // Sub-módulo con condiciones/dolencias → mostrar panel intermedio
+                mostrarCondicionesDeSubmodulo(sistemaId, subId);
+            }
             return;
         }
 
