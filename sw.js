@@ -1,5 +1,5 @@
 // ── Enciclopedia Naturista de Chile — Service Worker ──
-const CACHE_NAME = 'naturista-v4';
+const CACHE_NAME = 'naturista-v5';
 
 // Only pre-cache truly static assets (fonts, icons from CDN)
 const PRECACHE = [
