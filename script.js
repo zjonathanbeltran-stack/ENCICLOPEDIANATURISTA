@@ -4526,31 +4526,6 @@ function initHomepage() {
     setupHomeReveal();
 }
 
-// ── Onboarding — primera visita ──
-function initOnboarding() {
-    if (localStorage.getItem('onboardingDone')) return;
-    const overlay = document.getElementById('onboardingOverlay');
-    if (!overlay) return;
-
-    function cerrarOnboarding(tab) {
-        overlay.style.animation = 'obFadeIn 0.25s reverse both';
-        setTimeout(() => {
-            overlay.hidden = true;
-            overlay.style.animation = '';
-        }, 220);
-        localStorage.setItem('onboardingDone', '1');
-        if (tab) cambiarTab(tab);
-    }
-
-    overlay.hidden = false;
-    document.getElementById('obBtnPlantas')?.addEventListener('click', () => cerrarOnboarding('plants'));
-    document.getElementById('obBtnRecetas')?.addEventListener('click', () => cerrarOnboarding('recipes'));
-    document.getElementById('obBtnExplorar')?.addEventListener('click', () => cerrarOnboarding(null));
-    overlay.addEventListener('click', (e) => { if (e.target === overlay) cerrarOnboarding(null); });
-}
-
-document.addEventListener('DOMContentLoaded', () => setTimeout(initOnboarding, 900));
-
 // Patch initialisation: call initHomepage after DB load (added to existing renderSearchHero call site)
 const _origRenderSearchHero = typeof renderSearchHero === 'function' ? renderSearchHero : null;
 if (_origRenderSearchHero) {

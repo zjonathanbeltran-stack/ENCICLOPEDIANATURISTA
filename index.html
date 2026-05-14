@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css?v=ux13">
+    <link rel="stylesheet" href="styles.css?v=ux14">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -1095,53 +1095,6 @@
         </button>
     </nav>
 
-    <!-- Onboarding — Modo Explorador (se muestra solo la primera vez) -->
-    <div id="onboardingOverlay" class="onboarding-overlay" role="dialog" aria-modal="true" aria-label="Elige tu perfil de exploración">
-        <div class="onb-panel">
-            <div class="onb-eyebrow">🌿 Enciclopedia Naturista de Chile</div>
-            <h2 class="onb-title">¿Cómo quieres explorar?</h2>
-            <p class="onb-subtitle">Elige tu perfil y personalizamos tu experiencia desde el primer momento.</p>
-            <div class="onb-profiles">
-                <button class="onb-profile-btn" data-profile="curandero">
-                    <span class="onb-prof-icon">🌿</span>
-                    <div class="onb-prof-info">
-                        <div class="onb-prof-titulo">Curandero</div>
-                        <div class="onb-prof-desc">Busco remedios naturales</div>
-                    </div>
-                </button>
-                <button class="onb-profile-btn" data-profile="viajero">
-                    <span class="onb-prof-icon">🗺️</span>
-                    <div class="onb-prof-info">
-                        <div class="onb-prof-titulo">Viajero</div>
-                        <div class="onb-prof-desc">Me interesa la cultura regional</div>
-                    </div>
-                </button>
-                <button class="onb-profile-btn" data-profile="estudioso">
-                    <span class="onb-prof-icon">📚</span>
-                    <div class="onb-prof-info">
-                        <div class="onb-prof-titulo">Estudioso</div>
-                        <div class="onb-prof-desc">Quiero profundidad botánica</div>
-                    </div>
-                </button>
-                <button class="onb-profile-btn" data-profile="madre">
-                    <span class="onb-prof-icon">🤰</span>
-                    <div class="onb-prof-info">
-                        <div class="onb-prof-titulo">Madre</div>
-                        <div class="onb-prof-desc">Embarazo, lactancia y niños</div>
-                    </div>
-                </button>
-                <button class="onb-profile-btn" data-profile="ancestral" style="grid-column: 1 / -1">
-                    <span class="onb-prof-icon">🦅</span>
-                    <div class="onb-prof-info">
-                        <div class="onb-prof-titulo">Ancestral</div>
-                        <div class="onb-prof-desc">Medicina mapuche y ritual</div>
-                    </div>
-                </button>
-            </div>
-            <button class="onb-skip">Explorar libremente →</button>
-        </div>
-    </div>
-
     <!-- A1: Global Search Overlay -->
     <div id="globalSearchOverlay" class="global-search-overlay" role="dialog" aria-modal="true" aria-label="Búsqueda global">
         <div class="gso-backdrop" id="gsoBackdrop"></div>
@@ -1155,27 +1108,6 @@
             <div class="gso-shortcut-hint">
                 <kbd>↑↓</kbd> navegar &nbsp;·&nbsp; <kbd>Enter</kbd> abrir &nbsp;·&nbsp; <kbd>Esc</kbd> cerrar
             </div>
-        </div>
-    </div>
-
-    <!-- Onboarding — primera visita -->
-    <div id="onboardingOverlay" class="onboarding-overlay" role="dialog" aria-modal="true" aria-label="Bienvenida" hidden>
-        <div class="onboarding-card">
-            <div class="onboarding-icon">🌿</div>
-            <h2 class="onboarding-title">Enciclopedia Naturista de Chile</h2>
-            <p class="onboarding-sub">El saber herbolario mapuche, chilote y popular — todo en un lugar.</p>
-            <ul class="onboarding-features">
-                <li><span class="ob-icon">🌱</span><span><strong>85 plantas medicinales</strong> con usos, contraindicaciones y temporadas</span></li>
-                <li><span class="ob-icon">📜</span><span><strong>1.058 recetas</strong> organizadas por sistema del cuerpo</span></li>
-                <li><span class="ob-icon">🤰</span><span><strong>Guía de Maternidad</strong> — plantas seguras y a evitar</span></li>
-                <li><span class="ob-icon">🔥</span><span><strong>Medicina Ancestral</strong> — saber mapuche, aymara y atacameño</span></li>
-            </ul>
-            <div class="onboarding-actions">
-                <button class="ob-btn ob-btn-primary" id="obBtnPlantas">🌿 Ver plantas</button>
-                <button class="ob-btn ob-btn-secondary" id="obBtnRecetas">📜 Ver recetas</button>
-                <button class="ob-btn ob-btn-ghost" id="obBtnExplorar">Comenzar a explorar</button>
-            </div>
-            <p class="onboarding-disclaimer">Esta enciclopedia es de referencia. Siempre consulta con un profesional de salud antes de usar plantas medicinales.</p>
         </div>
     </div>
 
