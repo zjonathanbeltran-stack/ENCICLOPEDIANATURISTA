@@ -929,6 +929,35 @@ header {
     background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.55) 100%);
     pointer-events: none;
 }
+/* Modal receta con foto de preparación */
+.modal-art-receta { animation: none; }
+.modal-receta-foto {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.4s;
+}
+.modal-receta-svg {
+    position: absolute;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+}
+.modal-receta-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.08) 0%,
+        transparent 35%,
+        rgba(0,0,0,0.5) 100%
+    );
+    pointer-events: none;
+}
+
 /* Placeholder en modal cuando tampoco hay foto */
 .modal-plant-placeholder {
     position: absolute;

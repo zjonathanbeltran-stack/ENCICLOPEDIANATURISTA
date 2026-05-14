@@ -2092,6 +2092,46 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
+// ── Fotos por modo de preparación (Unsplash curadas) ──
+const _RECETA_FOTOS = {
+    infusion:   'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&h=350&fit=crop&q=82&auto=format',
+    decoccion:  'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&h=350&fit=crop&q=82&auto=format',
+    cataplasma: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=350&fit=crop&q=82&auto=format',
+    compresa:   'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&h=350&fit=crop&q=82&auto=format',
+    jarabe:     'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&h=350&fit=crop&q=82&auto=format',
+    vapor:      'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=350&fit=crop&q=82&auto=format',
+    bano:       'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&h=350&fit=crop&q=82&auto=format',
+    crema:      'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=350&fit=crop&q=82&auto=format',
+    masaje:     'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=350&fit=crop&q=82&auto=format',
+    enjuague:   'https://images.unsplash.com/photo-1559181567-c3190976b3d1?w=800&h=350&fit=crop&q=82&auto=format',
+    ritual:     'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&h=350&fit=crop&q=82&auto=format',
+    aceite:     'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=350&fit=crop&q=82&auto=format',
+    default:    'https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=350&fit=crop&q=82&auto=format',
+};
+
+function fotoDeReceta(r) {
+    const m = (r.modo_uso || '').toLowerCase();
+    if (m.includes('infusi') || m.includes('té') || m.includes('tisana') || m.includes('mate'))
+        return _RECETA_FOTOS.infusion;
+    if (m.includes('decoc'))   return _RECETA_FOTOS.decoccion;
+    if (m.includes('cataplas')) return _RECETA_FOTOS.cataplasma;
+    if (m.includes('compres')) return _RECETA_FOTOS.compresa;
+    if (m.includes('jarabe') || m.includes('miel') || m.includes('sirope'))
+        return _RECETA_FOTOS.jarabe;
+    if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer'))
+        return _RECETA_FOTOS.vapor;
+    if (m.includes('ritual') || m.includes('ceremon')) return _RECETA_FOTOS.ritual;
+    if (m.includes('masaje') || m.includes('fricci')) return _RECETA_FOTOS.masaje;
+    if (m.includes('crema') || m.includes('mascaril') || m.includes('ungüent') || m.includes('pomada'))
+        return _RECETA_FOTOS.crema;
+    if (m.includes('aceite') || m.includes('oil'))  return _RECETA_FOTOS.aceite;
+    if (m.includes('enjuag') || m.includes('lavad') || m.includes('gargar'))
+        return _RECETA_FOTOS.enjuague;
+    if (m.includes('baño') || m.includes('bano') || m.includes('inmersi'))
+        return _RECETA_FOTOS.bano;
+    return _RECETA_FOTOS.default;
+}
+
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
@@ -2108,9 +2148,14 @@ function abrirDetalleReceta(id) {
     };
     const ev = evidenciaBadge[r.evidencia] || { color: 'var(--text-mute)', icon: '📖' };
 
+    const _fotoUrl = fotoDeReceta(r);
     $('#modalBody').innerHTML = `
-        <div class="modal-art" style="background: ${gradFromCat(r.categoria)};">
-            <div class="illus illus-lg">${ilustracionDeReceta(r)}</div>
+        <div class="modal-art modal-art-receta" style="background:${gradFromCat(r.categoria)}">
+            <img class="modal-receta-foto" src="${_fotoUrl}" alt="${r.modo_uso || ''}"
+                 loading="lazy" decoding="async"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="illus illus-lg modal-receta-svg" style="display:none">${ilustracionDeReceta(r)}</div>
+            <div class="modal-receta-overlay"></div>
         </div>
 
         <!-- Encabezado -->
