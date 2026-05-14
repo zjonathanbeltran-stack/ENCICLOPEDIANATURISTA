@@ -2534,7 +2534,7 @@ $('#emergencyToolsBtn')?.addEventListener('click', showEmergency);
 const canvas = $('#particle-canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
-let particleMode = 'leaves';
+let particleMode = 'off';
 let bgMotion = 'on';
 let rafId;
 
