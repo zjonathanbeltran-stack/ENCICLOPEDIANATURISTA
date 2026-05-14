@@ -1,12 +1,12 @@
 {
-  "condicion": "Salud Bucal",
+  "condicion": "Salud Bucal / Dolor de Muelas",
   "modulo": "dolores",
   "submodulo": "salud_bucal",
   "emoji": "🦷",
-  "descripcion": "Enjuagues, gárgaras y remedios naturales para dientes, encías y aftas.",
+  "descripcion": "Enjuagues, gárgaras y remedios naturales para dolor de muelas, encías y aftas bucales.",
   "maternidad": {
     "seguridad_general": "segura",
-    "nota": "Los enjuagues bucales y la higiene dental son seguros y recomendados en embarazo. El clavo de olor aplicado localmente es seguro. Evitar ingestión de aceite de árbol de té."
+    "nota": "Los enjuagues bucales y la higiene dental son seguros y recomendados en embarazo. El clavo aplicado localmente es seguro para el dolor de muelas."
   },
   "recetas": [
     {

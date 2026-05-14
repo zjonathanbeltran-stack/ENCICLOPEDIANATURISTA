@@ -1,0 +1,95 @@
+{
+  "condicion": "Dolor de Cabeza / Migraña",
+  "modulo": "dolores",
+  "submodulo": "dolor_cabeza_migrana",
+  "emoji": "🤯",
+  "descripcion": "Remedios naturales específicos para dolor de cabeza, migraña y cefalea tensional.",
+  "maternidad": {
+    "seguridad_general": "advertencia",
+    "nota": "Las compresas frías de manzanilla y las compresas de clavo (externamente) son seguras. Evitar ruda internamente en embarazo. Para migraña persistente consultar médico."
+  },
+  "recetas": [
+    {
+      "titulo": "Compresas de Clavo de Olor para Dolor de Cabeza",
+      "categoria": "Analgésico",
+      "origen": "Popular Chileno",
+      "ingredientes": "10 g de clavo de olor, 200 ml de agua.",
+      "preparacion": "Hervir los clavos en el agua 8 minutos. Remojar un paño de algodón en la decocción caliente (con cuidado de no quemarse). Aplicar sobre la frente o sienes durante 15 minutos mientras se descansa en posición recostada. El eugenol del clavo tiene efecto analgésico demostrado.",
+      "id": 228,
+      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
+      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
+      "tiempo_prep": "13 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
+      "uso": "Dolor de Cabeza: el eugenol bloquea canales de sodio en terminaciones nerviosas pulpares produciendo analgesia local aprobada por la FDA.",
+      "principios_activos": "Eugenol (72-95% del aceite esencial): anestésico local por bloqueo de canales Nav en fibras nerviosas C y Aδ; inhibe prostaglandina H sintetasa bloqueando síntesis de PGE2 (antiinflamatorio); inhibe quimiotaxis de neutrófilos. Aprobado por FDA como anestésico dental OTC.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico",
+        "antiinflamatorio",
+        "antifúngico",
+        "carminativo"
+      ],
+      "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+      "maternidad_segura": "segura"
+    },
+    {
+      "id": 973,
+      "titulo": "Infusion de Ruda para el Dolor de Cabeza",
+      "categoria": "Analgésico",
+      "origen": "Herbolaria Latinoamericana",
+      "ingredientes": "3 hojitas de ruda fresca, 250 ml de agua",
+      "preparacion": "Hervir el agua. Infundir la ruda 5 min SOLO. Colar.",
+      "dosis": "1 taza al inicio del dolor de cabeza",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "7 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Herbolaria latinoamericana popular",
+      "contraindicaciones": "Abortigeno; CONTRAINDICADO EN EMBARAZO; no exceder dosis; toxico en cantidad",
+      "uso": "Dolor de Cabeza: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
+      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas.",
+      "propiedades": [
+        "emenagogo",
+        "antiespasmódico",
+        "vasoprotector",
+        "antiinflamatorio"
+      ],
+      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+      "maternidad_segura": "no_recomendada"
+    },
+    {
+      "id": 1080,
+      "titulo": "Cataplasma de Chachacoma y Grasa de Llama para Dolor de Cabeza de Altura Aymara",
+      "categoria": "Analgésico",
+      "origen": "Aymara (Parinacota, Putre, Lago Chunga)",
+      "ingredientes": "30 g de hojas y flores de chachacoma (Senecio nutans / chakakuma en aymara); 3 cucharadas de grasa de llama (o grasa de vacuno); 1 cucharada de alcohol de cana; 1 cucharada de tintura de rica-rica (opcional)",
+      "preparacion": "1. Secar las hojas de chachacoma al sol durante 2 dias o en lugar ventilado. 2. Triturar las hojas secas en mortero hasta polvo grueso. 3. Mezclar la grasa de llama tibia con el polvo de chachacoma y el alcohol. 4. Revolver hasta obtener pasta homogenea. 5. Agregar la tintura de rica-rica si se dispone. 6. Aplicar sobre la frente, sienes y nuca con masaje suave.",
+      "dosis": "Aplicar sobre frente, sienes y nuca al inicio del dolor de cabeza. Mantener 30-60 minutos. Repetir hasta 3 veces al dia en casos intensos.",
+      "modo_uso": "Topico (cataplasma/unguento)",
+      "tiempo_prep": "30 minutos (mas 2 dias de secado)",
+      "dificultad": "Media",
+      "rendimiento": "10-15 aplicaciones",
+      "conservacion": "Refrigerar en tarro cerrado hasta 2 semanas.",
+      "evidencia": "La chachacoma (Senecio nutans) es la planta aymara mas especifica para el dolor de cabeza de altura. Contiene alcaloides pirrolizidinicos con efecto analgesico y vasodilatador cerebral. Documentada por Villagran & Castro (2004) como una de las tres plantas sagradas del altiplano chileno (junto con la rica-rica y la yareta).",
+      "fuente_tradicion": "Andina / Aymara",
+      "contraindicaciones": "Solo uso externo (topico). Los alcaloides pirrolizidinicos de Senecio son hepatotoxicos si se ingieren en dosis repetidas. NO INGERIR esta preparacion. Contraindicado en embarazo (incluso uso externo prolongado). No aplicar en cara de ninos pequenos.",
+      "uso": "Tratamiento de la cefalea de altitude, migrania relacionada con la puna y dolores de cabeza tensionales en la cordillera. La grasa de llama actua como vehiculo liposoluble que facilita la penetracion transcutanea de los principios activos de la chachacoma.",
+      "principios_activos": "Alcaloides pirrolizidinicos (Senecio: senecionina, retrorsina - solo uso externo); flavonoides; sesquiterpenos; grasa animal (vehiculo)",
+      "propiedades": [
+        "analgesico topico",
+        "vasodilatador craneal",
+        "antipiretico",
+        "relajante nervioso"
+      ],
+      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Morandini AC. (2013) Plantas medicinales del altiplano chileno. Bol Latinoam Caribe Plant Med Aromat.",
+      "maternidad_segura": "advertencia"
+    }
+  ]
+}

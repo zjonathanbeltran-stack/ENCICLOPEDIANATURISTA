@@ -3,10 +3,10 @@
   "modulo": "nervioso",
   "submodulo": "insomnio",
   "emoji": "🌙",
-  "descripcion": "Sedantes naturales, tisanas y rituales nocturnos para conciliar el sueño.",
+  "descripcion": "Sedantes naturales, tisanas nocturnas, almohadas de hierbas y rituales para conciliar el sueño.",
   "maternidad": {
     "seguridad_general": "advertencia",
-    "nota": "El tilo, la manzanilla y la pasiflora son seguros en embarazo en dosis moderadas. Evitar valeriana en primer trimestre. Los rituales de relajación son siempre seguros."
+    "nota": "Tilo, pasiflora y manzanilla son seguros. Evitar valeriana en primer trimestre. Los rituales de relajación sin plantas son siempre seguros."
   },
   "recetas": [
     {
@@ -863,33 +863,6 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 1082,
-      "titulo": "Infusion de Ananuca del Desierto para Tristeza y Pena del Corazon Likan Antai",
-      "categoria": "Sedante",
-      "origen": "Atacameno / Likan Antai (Valle de la Luna, Quebrada de Jerez, Toconao)",
-      "ingredientes": "10 flores frescas o secas de ananuca del desierto (Rhodophiala bagnoldii o Zephyranthes atacamensis); 20 g de flor de salvia del desierto (Salvia atacamensis); 400 ml de agua; 1 cucharada de miel; 1 pizca de sal de Atacama",
-      "preparacion": "1. Las flores de ananuca se recolectan solo en epoca de floracion (generalmente tras primeras lluvias de verano, enero-febrero). 2. Secar las flores a la sombra en lugar ventilado durante 3 dias. 3. Hervir el agua y apagar el fuego. 4. Agregar las flores secas y la salvia. Tapar inmediatamente. 5. Infundir 12 minutos sin destapar. 6. Colar con suavidad para no romper los petalos. Endulzar con miel, agregar la pizca de sal.",
-      "dosis": "1 taza antes de dormir durante 14 dias en periodos de tristeza profunda o duelo. No exceder 2 tazas al dia.",
-      "modo_uso": "Oral (infusion de flores)",
-      "tiempo_prep": "25 minutos (mas 3 dias de secado)",
-      "dificultad": "Dificil (por rareza de ingredientes)",
-      "rendimiento": "2 tazas",
-      "conservacion": "Consumir fresco. Las flores secas conservar en bolsa de tela en lugar oscuro hasta 6 meses.",
-      "evidencia": "La ananuca es flor sagrada del desierto de Atacama, con aparicion efimera despues de las lluvias. Su uso medicinal esta documentado por Castro V. & Aldunate C. (2003) en estudios de etnobotanica atacamena. Contiene alcaloides isoquinolinicos (familia Amaryllidaceae) con posibles efectos ansiolíticos segun investigaciones preliminares de la Universidad de Chile.",
-      "fuente_tradicion": "Atacameno / Likan Antai",
-      "contraindicaciones": "La familia Amaryllidaceae contiene alcaloides potencialmente toxicos en dosis altas (licorina, galantamina). No exceder la dosis indicada. No usar en embarazo. La ananuca es escasa: recolectar solo la cantidad necesaria, nunca el bulbo (que es la parte mas peligrosa).",
-      "uso": "Tratamiento tradicional de la tristeza profunda, duelo, ansiedad y alteraciones del sueno en los Likan Antai del desierto. La ananuca representa la renovacion de vida (florece tras la lluvia en el desierto seco) y su medicina se asocia a la recuperacion del espiritu.",
-      "principios_activos": "Alcaloides isoquinolinicos (familia Amaryllidaceae: licorina en baja concentracion en flores); flavonoides; antocianinas rojas; aceites volatiles (salvia)",
-      "propiedades": [
-        "sedante leve",
-        "ansiolítico",
-        "antidepresivo ritual",
-        "inductor del sueno"
-      ],
-      "referencias": "Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara. / Reyes-Garcia V. (2010) The relevance of traditional knowledge systems for ethnopharmacological research. J Ethnobiol Ethnomed.",
       "maternidad_segura": "segura"
     }
   ]

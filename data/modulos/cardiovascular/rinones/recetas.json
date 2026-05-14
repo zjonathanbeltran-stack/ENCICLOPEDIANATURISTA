@@ -1,12 +1,12 @@
 {
-  "condicion": "Riñones",
+  "condicion": "Riñones / Vías Urinarias",
   "modulo": "cardiovascular",
   "submodulo": "rinones",
   "emoji": "🫘",
-  "descripcion": "Infusiones y depurativos para los riñones, cálculos renales e infecciones urinarias.",
+  "descripcion": "Infusiones depurativas para los riñones, cálculos renales e infecciones urinarias.",
   "maternidad": {
     "seguridad_general": "advertencia",
-    "nota": "La cola de caballo y el agua de perejil en grandes cantidades son contraindicados en embarazo. El agua de maíz (pelos de choclo) y la limonada depurativa son seguros. Consultar médico ante infecciones urinarias en embarazo."
+    "nota": "El agua de maíz y la limonada depurativa son seguros. Cola de caballo y perejil concentrado se evitan en primer trimestre. Consultar médico ante infecciones urinarias en embarazo."
   },
   "recetas": [
     {
