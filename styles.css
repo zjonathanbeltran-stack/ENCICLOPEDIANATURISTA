@@ -62,7 +62,7 @@
 html { scroll-behavior: smooth; }
 body {
     font-family: 'Inter', -apple-system, 'Segoe UI', system-ui, sans-serif;
-    background: #0a0e08;
+    background: #000;
     color: var(--text);
     min-height: 100vh;
     overflow-x: hidden;
