@@ -188,9 +188,6 @@ header {
     display: flex;
     align-items: center;
     gap: 14px;
-    min-width: 0;
-    flex-shrink: 1;
-    overflow: hidden;
 }
 
 .brand-mark {
@@ -209,18 +206,11 @@ header {
     50%     { box-shadow: 0 4px 24px rgba(155,187,122,0.7), inset 0 1px 0 rgba(255,255,255,0.4); }
 }
 
-.brand-text {
-    min-width: 0;
-    overflow: hidden;
-}
 .brand-text h1 {
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.01em;
     line-height: 1.1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .brand-text .sub {
     font-size: 0.72rem;
@@ -1387,7 +1377,7 @@ footer {
 @media (max-width: 700px) {
     .app-container { padding: 90px 12px 60px; }
     header { padding: 14px 18px; top: 8px; width: calc(100% - 24px); }
-    .plants-tab-header { top: 76px; margin: 0 -12px 20px; padding: 12px 12px 8px; }
+    /* plants-tab-header: static, sin sticky */
     .brand-text h1 { font-size: 0.95rem; }
     .brand-text .sub { display: none; }
     .icon-btn { width: 38px; height: 38px; }
@@ -3555,6 +3545,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
     .brand-text .sub { font-size: 0.58rem; letter-spacing: 0.1em; white-space: nowrap; }
     .icon-btn { width: 38px; height: 38px; border-radius: 12px; }
     .header-buttons { gap: 6px; flex-shrink: 0; }
+    /* Ocultar botones secundarios en móvil para dar espacio al título */
+    #soundToggle, #tweaksBtn { display: none; }
     /* Hero dolencias centrado */
     .dolencias-hero-wrap { flex-direction: column; text-align: center; align-items: center; }
     .dolencias-hero-stats { justify-content: center; }
@@ -7837,16 +7829,24 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     margin: 0 0 28px;
     padding: 16px 0 4px;
 }
-.plants-tab-header {
-    position: sticky;
-    top: 88px;
-    z-index: 40;
-    background: rgba(20,24,15,0.88);
-    backdrop-filter: blur(16px) saturate(130%);
-    -webkit-backdrop-filter: blur(16px) saturate(130%);
-    border-bottom: 1px solid var(--glass-border);
-    margin: 0 -24px 28px;
-    padding: 14px 24px 10px;
+/* El plants-tab-header usa <header> pero debe ser estático, no fixed */
+header.plants-tab-header {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    transform: none !important;
+    z-index: auto !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 0 4px !important;
+    margin: 0 0 28px !important;
+    text-align: center;
 }
 .hsd-eyebrow {
     display: block;
@@ -8245,8 +8245,7 @@ h1, h2, h3, .plant-name, .brand-text h1 {
     /* Anular el override de 44px que rompe el header */
     .icon-btn { width: 36px !important; height: 36px !important; font-size: 0.88rem; }
     header { flex-wrap: nowrap !important; align-items: center; gap: 8px; padding: 12px 14px; }
-    .brand { min-width: 0; flex-shrink: 1; }
-    .brand-text h1 { font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+    .brand-text h1 { font-size: 0.9rem; }
     .brand-text .sub { display: none; }
     .header-buttons { flex-shrink: 0; gap: 5px; }
 }
