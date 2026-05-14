@@ -2092,10 +2092,12 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
-// ── Fotos por modo de preparación (Unsplash curadas) ──
+// ── Fotos curadas por tipo de preparación (Unsplash) ──
 const _RECETA_FOTOS = {
     infusion:   'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&h=350&fit=crop&q=82&auto=format',
+    caldo:      'https://images.unsplash.com/photo-1547592180-85f173990554?w=800&h=350&fit=crop&q=82&auto=format',
     decoccion:  'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&h=350&fit=crop&q=82&auto=format',
+    tintura:    'https://images.unsplash.com/photo-1611073615831-b1c0e9e15e44?w=800&h=350&fit=crop&q=82&auto=format',
     cataplasma: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=350&fit=crop&q=82&auto=format',
     compresa:   'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&h=350&fit=crop&q=82&auto=format',
     jarabe:     'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&h=350&fit=crop&q=82&auto=format',
@@ -2106,29 +2108,67 @@ const _RECETA_FOTOS = {
     enjuague:   'https://images.unsplash.com/photo-1559181567-c3190976b3d1?w=800&h=350&fit=crop&q=82&auto=format',
     ritual:     'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&h=350&fit=crop&q=82&auto=format',
     aceite:     'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=350&fit=crop&q=82&auto=format',
+    mate:       'https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?w=800&h=350&fit=crop&q=82&auto=format',
+    jugo:       'https://images.unsplash.com/photo-1546173159-315724a31696?w=800&h=350&fit=crop&q=82&auto=format',
+    polvo:      'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=800&h=350&fit=crop&q=82&auto=format',
     default:    'https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=350&fit=crop&q=82&auto=format',
 };
 
 function fotoDeReceta(r) {
+    // Primero buscar en el TÍTULO (más específico)
+    const t = (r.titulo || '').toLowerCase();
     const m = (r.modo_uso || '').toLowerCase();
-    if (m.includes('infusi') || m.includes('té') || m.includes('tisana') || m.includes('mate'))
-        return _RECETA_FOTOS.infusion;
-    if (m.includes('decoc'))   return _RECETA_FOTOS.decoccion;
-    if (m.includes('cataplas')) return _RECETA_FOTOS.cataplasma;
-    if (m.includes('compres')) return _RECETA_FOTOS.compresa;
-    if (m.includes('jarabe') || m.includes('miel') || m.includes('sirope'))
+
+    if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé'))
+        return _RECETA_FOTOS.caldo;
+    if (t.includes('jarabe') || t.includes('sirope'))
         return _RECETA_FOTOS.jarabe;
+    if (t.includes('tintura'))
+        return _RECETA_FOTOS.tintura;
+    if (t.includes('cataplasma') || t.includes('emplasto') || t.includes('parche'))
+        return _RECETA_FOTOS.cataplasma;
+    if (t.includes('compresa'))
+        return _RECETA_FOTOS.compresa;
+    if (t.includes('pomada') || t.includes('ungüento') || t.includes('bálsamo'))
+        return _RECETA_FOTOS.crema;
+    if (t.includes('crema') || t.includes('loción') || t.includes('mascarilla'))
+        return _RECETA_FOTOS.crema;
+    if (t.includes('aceite'))
+        return _RECETA_FOTOS.aceite;
+    if (t.includes('baño') || t.includes('tina'))
+        return _RECETA_FOTOS.bano;
+    if (t.includes('vapor') || t.includes('inhalación') || t.includes('sahumerio'))
+        return _RECETA_FOTOS.vapor;
+    if (t.includes('mate ') || t.startsWith('mate'))
+        return _RECETA_FOTOS.mate;
+    if (t.includes('jugo') || t.includes('zumo'))
+        return _RECETA_FOTOS.jugo;
+    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té '))
+        return _RECETA_FOTOS.infusion;
+    if (t.includes('decocción') || t.includes('decoccion'))
+        return _RECETA_FOTOS.decoccion;
+    if (t.includes('polvo') || t.includes('especia'))
+        return _RECETA_FOTOS.polvo;
+
+    // Luego por modo_uso
+    if (m.includes('decoc'))    return _RECETA_FOTOS.decoccion;
+    if (m.includes('cataplas')) return _RECETA_FOTOS.cataplasma;
+    if (m.includes('compres'))  return _RECETA_FOTOS.compresa;
+    if (m.includes('jarabe'))   return _RECETA_FOTOS.jarabe;
     if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer'))
         return _RECETA_FOTOS.vapor;
-    if (m.includes('ritual') || m.includes('ceremon')) return _RECETA_FOTOS.ritual;
-    if (m.includes('masaje') || m.includes('fricci')) return _RECETA_FOTOS.masaje;
+    if (m.includes('ritual') || m.includes('ceremon'))  return _RECETA_FOTOS.ritual;
+    if (m.includes('masaje') || m.includes('fricci'))   return _RECETA_FOTOS.masaje;
     if (m.includes('crema') || m.includes('mascaril') || m.includes('ungüent') || m.includes('pomada'))
         return _RECETA_FOTOS.crema;
-    if (m.includes('aceite') || m.includes('oil'))  return _RECETA_FOTOS.aceite;
+    if (m.includes('aceite'))   return _RECETA_FOTOS.aceite;
     if (m.includes('enjuag') || m.includes('lavad') || m.includes('gargar'))
         return _RECETA_FOTOS.enjuague;
     if (m.includes('baño') || m.includes('bano') || m.includes('inmersi'))
         return _RECETA_FOTOS.bano;
+    if (m.includes('infusi') || m.includes('tisana'))
+        return _RECETA_FOTOS.infusion;
+
     return _RECETA_FOTOS.default;
 }
 
