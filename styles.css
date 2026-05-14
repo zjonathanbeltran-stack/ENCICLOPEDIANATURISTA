@@ -99,53 +99,12 @@ img { max-width: 100%; display: block; }
     100% { transform: scale(1.05) translate(-2%, 1.5%); }
 }
 
-.bg-stage {
-    position: fixed;
-    inset: 0;
-    z-index: -2;
-    overflow: hidden;
-    pointer-events: none;
-    /* Solo viñeta perimetral — no tapar el fondo */
-    background:
-        radial-gradient(ellipse 110% 80% at 50% 50%, transparent 35%, rgba(10,14,8,0.60) 100%),
-        linear-gradient(180deg, rgba(10,14,8,0.50) 0%, transparent 14%, transparent 86%, rgba(10,14,8,0.60) 100%);
-}
-.bg-orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.22;
-    mix-blend-mode: screen;
-    animation: orbDrift 22s var(--ease) infinite alternate;
-    will-change: transform;
-}
-.bg-orb.a { width: 60vmin; height: 60vmin; left: -10vmin; top: -10vmin; background: radial-gradient(circle, #6a8a52, transparent 70%); animation-delay: 0s; }
-.bg-orb.b { width: 70vmin; height: 70vmin; right: -15vmin; top: 30%; background: radial-gradient(circle, #c97b56, transparent 70%); animation-delay: -7s; opacity: 0.14; }
-.bg-orb.c { width: 50vmin; height: 50vmin; left: 30%; bottom: -10vmin; background: radial-gradient(circle, #d4a574, transparent 70%); animation-delay: -14s; opacity: 0.12; }
-
-@keyframes orbDrift {
-    0%   { transform: translate(0,0)        scale(1); }
-    50%  { transform: translate(8vw,5vh)    scale(1.15); }
-    100% { transform: translate(-6vw,-4vh)  scale(0.92); }
-}
-
 #particle-canvas {
     position: fixed;
     inset: 0;
     z-index: -1;
     pointer-events: none;
     opacity: 0.55;
-}
-
-/* Grano sutil para textura */
-.bg-stage::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/><feColorMatrix values='0 0 0 0 0.96, 0 0 0 0 0.94, 0 0 0 0 0.91, 0 0 0 0.06 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-    opacity: 0.5;
-    mix-blend-mode: overlay;
-    pointer-events: none;
 }
 
 /* ════════════════════════════════════════════════════════════════════
