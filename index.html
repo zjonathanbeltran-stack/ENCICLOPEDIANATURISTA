@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" as="image" fetchpriority="high" href="img/araucarias-bg.webp" type="image/webp">
     <link rel="preload" as="image" fetchpriority="high" href="img/araucarias-bg.jpg">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css?v=ux12">
+    <link rel="stylesheet" href="styles.css?v=ux13">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
     <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
@@ -113,9 +114,12 @@
 
     <!-- Fondo foto global — araucarias fijas detrás de todo -->
     <div class="global-bg" aria-hidden="true">
-        <img class="global-bg-photo"
-             src="img/araucarias-bg.jpg"
-             alt="" loading="eager" decoding="async" fetchpriority="high">
+        <picture>
+            <source srcset="img/araucarias-bg.webp" type="image/webp">
+            <img class="global-bg-photo"
+                 src="img/araucarias-bg.jpg"
+                 alt="" loading="eager" decoding="async" fetchpriority="high">
+        </picture>
     </div>
     <canvas id="particle-canvas" aria-hidden="true"></canvas>
 
@@ -1154,9 +1158,30 @@
         </div>
     </div>
 
+    <!-- Onboarding — primera visita -->
+    <div id="onboardingOverlay" class="onboarding-overlay" role="dialog" aria-modal="true" aria-label="Bienvenida" hidden>
+        <div class="onboarding-card">
+            <div class="onboarding-icon">🌿</div>
+            <h2 class="onboarding-title">Enciclopedia Naturista de Chile</h2>
+            <p class="onboarding-sub">El saber herbolario mapuche, chilote y popular — todo en un lugar.</p>
+            <ul class="onboarding-features">
+                <li><span class="ob-icon">🌱</span><span><strong>85 plantas medicinales</strong> con usos, contraindicaciones y temporadas</span></li>
+                <li><span class="ob-icon">📜</span><span><strong>1.058 recetas</strong> organizadas por sistema del cuerpo</span></li>
+                <li><span class="ob-icon">🤰</span><span><strong>Guía de Maternidad</strong> — plantas seguras y a evitar</span></li>
+                <li><span class="ob-icon">🔥</span><span><strong>Medicina Ancestral</strong> — saber mapuche, aymara y atacameño</span></li>
+            </ul>
+            <div class="onboarding-actions">
+                <button class="ob-btn ob-btn-primary" id="obBtnPlantas">🌿 Ver plantas</button>
+                <button class="ob-btn ob-btn-secondary" id="obBtnRecetas">📜 Ver recetas</button>
+                <button class="ob-btn ob-btn-ghost" id="obBtnExplorar">Comenzar a explorar</button>
+            </div>
+            <p class="onboarding-disclaimer">Esta enciclopedia es de referencia. Siempre consulta con un profesional de salud antes de usar plantas medicinales.</p>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
     <script src="illustrations.js"></script>
-    <script src="script.js?v=ux8"></script>
+    <script src="script.js?v=ux9"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').catch(() => {});

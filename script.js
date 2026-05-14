@@ -2096,6 +2096,7 @@ function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
     history.pushState({ tipo: 'receta', id }, '', '#receta/' + id);
+    marcarRecetaVista(id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -2744,6 +2745,16 @@ function renderTemporadaBanner() {
 // PROGRESO DE EXPLORACIÓN
 // ════════════════════════════════════════════════════════════════════
 let plantasVistas = new Set(JSON.parse(localStorage.getItem('plantasVistas') || '[]'));
+let recetasVistas = new Set(JSON.parse(localStorage.getItem('recetasVistas') || '[]'));
+// Ordered list for "recently viewed recipes" (newest first, max 20)
+let _recetasRecientes = JSON.parse(localStorage.getItem('recetasRecientes') || '[]');
+
+function marcarRecetaVista(id) {
+    recetasVistas.add(id);
+    localStorage.setItem('recetasVistas', JSON.stringify([...recetasVistas]));
+    _recetasRecientes = [id, ..._recetasRecientes.filter(x => x !== id)].slice(0, 20);
+    localStorage.setItem('recetasRecientes', JSON.stringify(_recetasRecientes));
+}
 
 function marcarPlantaVista(id) {
     if (!plantasVistas.has(id)) {
@@ -3374,10 +3385,16 @@ function renderTuExploracion() {
     const vistas = [...plantasVistas];
     const favs = favoritos.length;
     const pct = plantasDB.length ? Math.round(vistas.length / plantasDB.length * 100) : 0;
+    const recetasVistasCount = recetasVistas.size;
 
-    // Last 4 viewed plants
+    // Last 4 viewed plants (most recent first)
     const recientes = vistas.slice(-4).reverse()
         .map(id => plantasDB.find(p => p.id === id))
+        .filter(Boolean);
+
+    // Last 3 viewed recipes
+    const recetasRec = _recetasRecientes.slice(0, 3)
+        .map(id => recetasDB.find(r => r.id === id))
         .filter(Boolean);
 
     el.innerHTML = `
@@ -3394,27 +3411,48 @@ function renderTuExploracion() {
                 <span class="tuexp-num">${favs}</span>
                 <span class="tuexp-lbl">favoritas guardadas</span>
             </div>
+            <div class="tuexp-stat">
+                <span class="tuexp-num">${recetasVistasCount}</span>
+                <span class="tuexp-lbl">recetas vistas</span>
+            </div>
         </div>
         <div class="tuexp-bar-wrap" title="${vistas.length} de ${plantasDB.length} plantas">
             <div class="tuexp-bar-fill" style="width:${pct}%"></div>
         </div>
         ${recientes.length ? `
         <div class="tuexp-recientes">
-            <span class="tuexp-recientes-label">Vistas recientemente</span>
+            <span class="tuexp-recientes-label">Plantas vistas recientemente</span>
             <div class="tuexp-chips">
                 ${recientes.map(p => `
-                    <button class="tuexp-chip" data-id="${p.id}">
+                    <button class="tuexp-chip" data-tipo="planta" data-id="${p.id}">
                         ${p.emoji ? `<span>${p.emoji}</span>` : '🌿'} ${p.nombre}
                     </button>
                 `).join('')}
             </div>
         </div>` : `<p class="tuexp-empty">Explora plantas para ver tu progreso aquí</p>`}
+        ${recetasRec.length ? `
+        <div class="tuexp-recientes">
+            <span class="tuexp-recientes-label">Recetas vistas recientemente</span>
+            <div class="tuexp-chips">
+                ${recetasRec.map(r => `
+                    <button class="tuexp-chip tuexp-chip-receta" data-tipo="receta" data-id="${r.id}">
+                        🫙 ${r.titulo}
+                    </button>
+                `).join('')}
+            </div>
+        </div>` : ''}
     `;
 
     el.querySelectorAll('.tuexp-chip').forEach(btn => {
         btn.addEventListener('click', () => {
-            cambiarTab('plants');
-            abrirDetallePlanta(parseInt(btn.dataset.id));
+            const id = parseInt(btn.dataset.id);
+            if (btn.dataset.tipo === 'receta') {
+                cambiarTab('recipes');
+                cargarRecetas().then(() => setTimeout(() => abrirDetalleReceta(id), 150));
+            } else {
+                cambiarTab('plants');
+                abrirDetallePlanta(id);
+            }
         });
     });
 }
@@ -4487,6 +4525,31 @@ function initHomepage() {
     wireCategorias();
     setupHomeReveal();
 }
+
+// ── Onboarding — primera visita ──
+function initOnboarding() {
+    if (localStorage.getItem('onboardingDone')) return;
+    const overlay = document.getElementById('onboardingOverlay');
+    if (!overlay) return;
+
+    function cerrarOnboarding(tab) {
+        overlay.style.animation = 'obFadeIn 0.25s reverse both';
+        setTimeout(() => {
+            overlay.hidden = true;
+            overlay.style.animation = '';
+        }, 220);
+        localStorage.setItem('onboardingDone', '1');
+        if (tab) cambiarTab(tab);
+    }
+
+    overlay.hidden = false;
+    document.getElementById('obBtnPlantas')?.addEventListener('click', () => cerrarOnboarding('plants'));
+    document.getElementById('obBtnRecetas')?.addEventListener('click', () => cerrarOnboarding('recipes'));
+    document.getElementById('obBtnExplorar')?.addEventListener('click', () => cerrarOnboarding(null));
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) cerrarOnboarding(null); });
+}
+
+document.addEventListener('DOMContentLoaded', () => setTimeout(initOnboarding, 900));
 
 // Patch initialisation: call initHomepage after DB load (added to existing renderSearchHero call site)
 const _origRenderSearchHero = typeof renderSearchHero === 'function' ? renderSearchHero : null;
