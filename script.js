@@ -460,7 +460,7 @@ const SISTEMAS_BUSQUEDA = [
     { id:'musculo',        icon:'bone',           label:'Dolores',       desc:'Artritis · Muscular · Reumatismo',  color:'#a06a5b' },
     { id:'piel',           icon:'spa',            label:'Piel',          desc:'Acné · Heridas · Quemaduras',       color:'#c9a84c' },
     { id:'mujer',          icon:'venus',          label:'Mujer',         desc:'Menstrual · Menopausia · Lactancia',color:'#c9679a' },
-    { id:'pediatrico',     icon:'child-reaching', label:'Niños',         desc:'Cólicos · Fiebre · Dentición',      color:'#6aa08a' },
+    { id:'pediatrico',     icon:'child-reaching', label:'Pediátrico',    desc:'Respiratorio · Fiebre · Cólicos',   color:'#6aa08a' },
     { id:'inmuno',         icon:'shield-halved',  label:'Inmunidad',     desc:'Defensas · Alergias · Fiebre',      color:'#7a9ab8' },
     { id:'cardiovascular', icon:'heart-pulse',    label:'Corazón',       desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
     { id:'renal',          icon:'droplet',        label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#5a8a9a' },
@@ -477,6 +477,68 @@ const SISTEMAS_BUSQUEDA = [
         <circle cx="12" cy="12" r="1.8" fill="currentColor"/>
       </svg>` },
 ];
+
+// ── Sub-módulos por sistema — 3 niveles: sistema → sub-módulo → condición ──
+const SUBMODULOS = {
+    pediatrico: {
+        label: 'Pediátrico',
+        submods: [
+            {
+                id: 'resp-ninos', label: 'Respiratorio', emoji: '🫁',
+                desc: 'Gripe · Tos · Bronquitis · Congestión',
+                condiciones: [
+                    { nombre: 'Gripe / Resfríos',    emoji: '🤧', kws: ['resfri','catarro','gripe','influenza','sauco resfri'] },
+                    { nombre: 'Tos infantil',         emoji: '😮', kws: ['tos infantil','jarabe tos','antitusiv','tos nino'] },
+                    { nombre: 'Bronquitis',           emoji: '💨', kws: ['bronquit','mucosid','expector','flema infantil'] },
+                    { nombre: 'Congestión nasal',     emoji: '👃', kws: ['congest','inhalacion','vapor eucalipto','nasal infantil'] },
+                    { nombre: 'Garganta',             emoji: '🗣', kws: ['garganta infantil','gargar','amigdal'] },
+                ],
+            },
+            {
+                id: 'fiebre-ninos', label: 'Fiebre', emoji: '🌡',
+                desc: 'Temperatura · Antipirético',
+                condiciones: [
+                    { nombre: 'Fiebre infantil', emoji: '🤒', kws: ['fiebre infantil','fiebre nino','antipiretico','febril nino'] },
+                ],
+            },
+            {
+                id: 'digestivo-ninos', label: 'Digestivo', emoji: '🫃',
+                desc: 'Cólicos · Gases · Dolor abdominal',
+                condiciones: [
+                    { nombre: 'Cólicos del bebé',     emoji: '👶', kws: ['colico','lactante','recien nacido','anticolico','colic'] },
+                    { nombre: 'Gases / Flatulencias', emoji: '💨', kws: ['gas','flatulencia','carminativo','inflacion abdominal'] },
+                    { nombre: 'Dolor abdominal',      emoji: '🤢', kws: ['dolor abdominal infantil','poleo','abdominal nino'] },
+                ],
+            },
+            {
+                id: 'piel-ninos', label: 'Piel', emoji: '🩹',
+                desc: 'Dermatitis · Eczema · Baño calmante',
+                condiciones: [
+                    { nombre: 'Dermatitis / Eczema',  emoji: '🩹', kws: ['dermatit','eczema','irritacion piel','crema llanten'] },
+                    { nombre: 'Baño calmante',        emoji: '🛁', kws: ['bano lavanda','bano manzanilla','irritabilidad bebe'] },
+                ],
+            },
+            {
+                id: 'nervioso-ninos', label: 'Sueño y Nervios', emoji: '🌙',
+                desc: 'Insomnio · Nerviosismo · Hiperactividad',
+                condiciones: [
+                    { nombre: 'Insomnio infantil',  emoji: '😴', kws: ['insomnio infantil','sueno nino','dormir infantil'] },
+                    { nombre: 'Nerviosismo / TDAH', emoji: '⚡', kws: ['nerviosismo','hiperactividad','ansiolitic'] },
+                ],
+            },
+            {
+                id: 'otros-ninos', label: 'Otros', emoji: '✨',
+                desc: 'Dentición · Conjuntivitis',
+                condiciones: [
+                    { nombre: 'Dentición',       emoji: '🦷', kws: ['denticion','encia','diente nino'] },
+                    { nombre: 'Conjuntivitis',   emoji: '👁', kws: ['conjuntivit','ojo nino','compresa manzanilla'] },
+                ],
+            },
+        ],
+    },
+};
+
+let _sistemaActivo = null; // sistema seleccionado actualmente en recetario
 
 function renderSistemasBusqueda() {
     const cont = document.getElementById('recetaSistemas');
@@ -533,10 +595,21 @@ function renderCategoriasChips() {
 }
 
 function mostrarDolenciasDeSistema(sistemaId) {
-    _moduloActivo = SISTEMA_A_MODULO[sistemaId] || null;
+    _moduloActivo  = SISTEMA_A_MODULO[sistemaId] || null;
+    _sistemaActivo = sistemaId;
     if (_moduloActivo && !modulosCache[_moduloActivo]) {
         cargarModulo(_moduloActivo); // pre-carga sin bloquear
     }
+    document.querySelectorAll('.rsis-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.sistema === sistemaId));
+
+    // Si el sistema tiene sub-módulos → mostrar nivel intermedio
+    if (SUBMODULOS[sistemaId]) {
+        mostrarSubmodulos(sistemaId);
+        return;
+    }
+
+    // Sin sub-módulos → mostrar dolencias directamente (comportamiento anterior)
     const panel = document.getElementById('recetaDolenciasPanel');
     const chips = document.getElementById('rdolChips');
     if (!panel || !chips) return;
@@ -546,9 +619,62 @@ function mostrarDolenciasDeSistema(sistemaId) {
             ${d.emoji} ${d.nombre}
         </button>
     `).join('');
-    document.querySelectorAll('.rsis-btn').forEach(b =>
-        b.classList.toggle('active', b.dataset.sistema === sistemaId));
     panel.hidden = false;
+}
+
+function mostrarSubmodulos(sistemaId) {
+    const subData = SUBMODULOS[sistemaId];
+    if (!subData) return;
+    const panel  = document.getElementById('recetaSubmodulosPanel');
+    const chips  = document.getElementById('rsubChips');
+    const titulo = document.getElementById('rsubTitulo');
+    if (!panel || !chips) return;
+    if (titulo) titulo.textContent = subData.label;
+    chips.innerHTML = subData.submods.map(sub => `
+        <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}">
+            <span class="rsub-emoji">${sub.emoji}</span>
+            <span class="rsub-label">${sub.label}</span>
+            <span class="rsub-desc">${sub.desc}</span>
+        </button>
+    `).join('');
+    document.getElementById('recetaDolenciasPanel').hidden = true;
+    panel.hidden = false;
+}
+
+function mostrarCondicionesDeSubmodulo(sistemaId, subId) {
+    const subData = SUBMODULOS[sistemaId];
+    if (!subData) return;
+    const sub = subData.submods.find(s => s.id === subId);
+    if (!sub) return;
+    const panel     = document.getElementById('recetaDolenciasPanel');
+    const chips     = document.getElementById('rdolChips');
+    const backLabel = document.getElementById('rdolBackLabel');
+    if (!panel || !chips) return;
+    if (backLabel) backLabel.textContent = sub.label;
+    chips.innerHTML = sub.condiciones.map(c => `
+        <button class="rdol-chip rdol-chip-cond" data-kws='${JSON.stringify(c.kws)}' data-q="${c.nombre}">
+            ${c.emoji} ${c.nombre}
+        </button>
+    `).join('');
+    document.getElementById('recetaSubmodulosPanel').hidden = true;
+    panel.hidden = false;
+}
+
+// Búsqueda directa por keywords de condición (sin pasar por DOLENCIAS)
+function buscarPorCondicion(kws, pool) {
+    const nkws = kws.map(k => normDol(k));
+    const scored = pool.map(r => {
+        const titulo = normDol(r.titulo);
+        const uso    = normDol((r.uso || '').slice(0, 150));
+        const prep   = normDol((r.preparacion || '').slice(0, 150));
+        const ing    = normDol((r.ingredientes || '').slice(0, 100));
+        let score = 0;
+        for (const kw of nkws) { if (titulo.includes(kw)) { score += 10; break; } }
+        for (const kw of nkws) { if (uso.includes(kw))    { score += 7;  break; } }
+        for (const kw of nkws) { if (prep.includes(kw) || ing.includes(kw)) { score += 4; break; } }
+        return { r, score };
+    });
+    return scored.filter(x => x.score >= 4).sort((a, b) => b.score - a.score).map(x => x.r);
 }
 
 function normDol(txt) {
@@ -845,15 +971,18 @@ function renderRecetaSearchResults(recetas, query) {
 }
 
 function limpiarRecetaSearch() {
-    _moduloActivo = null;
+    _moduloActivo  = null;
+    _sistemaActivo = null;
     const inp = document.getElementById('recetaSearchInput');
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
     const panel = document.getElementById('recetaDolenciasPanel');
+    const subPanel = document.getElementById('recetaSubmodulosPanel');
     if (inp) inp.value = '';
     if (clr) clr.hidden = true;
     if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
     if (panel) panel.hidden = true;
+    if (subPanel) subPanel.hidden = true;
     document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.rcat-chip').forEach(b => b.classList.remove('active'));
 }
@@ -3268,10 +3397,29 @@ inicializar();
             return;
         }
 
-        // Botón "Todos los sistemas" (volver)
+        // Botón volver desde panel de condiciones → sub-módulos (si los hay) o sistemas
         if (e.target.id === 'rdolBack' || e.target.closest('#rdolBack')) {
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            if (_sistemaActivo && SUBMODULOS[_sistemaActivo]) {
+                mostrarSubmodulos(_sistemaActivo);
+            } else {
+                document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            }
+            return;
+        }
+
+        // Botón volver desde sub-módulos → sistemas
+        if (e.target.id === 'rsubBack' || e.target.closest('#rsubBack')) {
+            document.getElementById('recetaSubmodulosPanel').hidden = true;
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            _sistemaActivo = null;
+            return;
+        }
+
+        // Clic en botón de sub-módulo → mostrar condiciones
+        const subChip = e.target.closest('.rsub-chip');
+        if (subChip) {
+            mostrarCondicionesDeSubmodulo(subChip.dataset.sistema, subChip.dataset.subid);
             return;
         }
 
@@ -3279,12 +3427,10 @@ inicializar();
         const sisBtn = e.target.closest('.rsis-btn');
         if (sisBtn) {
             const sistemaId = sisBtn.dataset.sistema;
-            // Si ya estaba activo, lo deselecciona
             if (sisBtn.classList.contains('active')) {
                 limpiarRecetaSearch();
             } else {
                 mostrarDolenciasDeSistema(sistemaId);
-                // Limpiar resultados y texto si hubiera
                 const cont = document.getElementById('recetaSearchResults');
                 if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
                 const inp = document.getElementById('recetaSearchInput');
@@ -3295,7 +3441,23 @@ inicializar();
             return;
         }
 
-        // Clic en chip de dolencia
+        // Clic en chip de condición precisa (sub-módulo) → buscarPorCondicion
+        const condChip = e.target.closest('.rdol-chip-cond');
+        if (condChip) {
+            const q = condChip.dataset.q;
+            const kws = JSON.parse(condChip.dataset.kws || '[]');
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            if (inp) inp.value = q;
+            if (clr) clr.hidden = false;
+            (async () => {
+                const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
+                renderRecetaSearchResults(buscarPorCondicion(kws, pool), q);
+            })();
+            return;
+        }
+
+        // Clic en chip de dolencia genérica → buscarRecetasPorSintoma
         const dolChip = e.target.closest('.rdol-chip');
         if (!dolChip) return;
         const q = dolChip.dataset.q;
@@ -3304,13 +3466,7 @@ inicializar();
         if (inp) inp.value = q;
         if (clr) clr.hidden = false;
         (async () => {
-            let pool;
-            if (_moduloActivo) {
-                pool = await cargarModulo(_moduloActivo);
-            } else {
-                await cargarRecetas();
-                pool = recetasDB;
-            }
+            const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
             renderRecetaSearchResults(buscarRecetasPorSintoma(q, pool), q);
         })();
     });
