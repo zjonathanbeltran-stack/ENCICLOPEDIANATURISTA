@@ -165,7 +165,7 @@ img { max-width: 100%; display: block; }
 .app-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 104px 24px 80px;
+    padding: 20px 24px 80px;
     position: relative;
     z-index: 1;
 }
@@ -185,13 +185,8 @@ header {
     -webkit-backdrop-filter: blur(24px) saturate(140%);
     border: 1px solid var(--glass-border);
     box-shadow: var(--glass-shadow);
-    position: fixed;
-    top: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 48px);
-    max-width: calc(1280px - 48px);
-    z-index: 100;
+    position: relative;
+    z-index: 10;
 }
 
 .brand {
@@ -1385,8 +1380,8 @@ footer {
    RESPONSIVE
    ════════════════════════════════════════════════════════════════════ */
 @media (max-width: 700px) {
-    .app-container { padding: 90px 12px 60px; }
-    header { padding: 14px 18px; top: 8px; width: calc(100% - 24px); }
+    .app-container { padding: 16px 12px 60px; }
+    header { padding: 14px 18px; }
     /* plants-tab-header: static, sin sticky */
     .brand-text h1 { font-size: 0.95rem; }
     .brand-text .sub { display: none; }
@@ -3562,7 +3557,7 @@ body.custom-cursor-on .cursor-ring { display: block; }
     .dolencias-hero-stats { justify-content: center; }
     .dolencias-hero-wrap::before { display: none; }
     /* App container: menos padding lateral */
-    .app-container { padding: 96px 14px 70px; }
+    .app-container { padding: 16px 14px 70px; }
 }
 @media (max-width: 360px) {
     .tab-btn { padding: 9px 10px; }
@@ -3594,8 +3589,10 @@ body.custom-cursor-on .cursor-ring { display: block; }
         linear-gradient(0deg, rgba(20,14,18,0.88) 0%, transparent 65%);
 }
 .matern-hero {
-    background: #180f14;
-    border: 1px solid rgba(212,120,154,0.3);
+    background: rgba(10,8,12,0.52);
+    backdrop-filter: blur(18px) saturate(130%);
+    -webkit-backdrop-filter: blur(18px) saturate(130%);
+    border: 1px solid rgba(212,120,154,0.22);
     border-radius: var(--r-lg);
     padding: 24px 28px;
     margin-bottom: 20px;
@@ -4197,8 +4194,10 @@ body.custom-cursor-on .cursor-ring { display: block; }
     align-items: center;
     gap: 20px;
     padding: 22px 28px;
-    background: #14180f;
-    border: 1px solid rgba(201,123,86,0.25);
+    background: rgba(10,14,8,0.52);
+    backdrop-filter: blur(18px) saturate(130%);
+    -webkit-backdrop-filter: blur(18px) saturate(130%);
+    border: 1px solid rgba(201,123,86,0.22);
     border-radius: var(--r-lg);
     margin-bottom: 24px;
     position: relative;
@@ -5769,12 +5768,14 @@ body.custom-cursor-on .cursor-ring { display: block; }
 
 .ancestral-hero {
     position: relative;
-    background: #14180f;
+    background: rgba(10,14,8,0.52);
+    backdrop-filter: blur(18px) saturate(130%);
+    -webkit-backdrop-filter: blur(18px) saturate(130%);
     border-radius: var(--r-xl);
     padding: 2.2rem 2rem 2rem;
     margin-bottom: 1.2rem;
     overflow: hidden;
-    border: 1px solid rgba(212, 165, 116, 0.2);
+    border: 1px solid rgba(212,165,116,0.20);
 }
 .ancestral-hero-bg {
     position: absolute; inset: 0;
