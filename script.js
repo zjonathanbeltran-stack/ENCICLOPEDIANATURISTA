@@ -2092,26 +2092,46 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
-// ── Fotos curadas por tipo de preparación (Unsplash) ──
+// ── Fotos curadas por tipo de preparación — estética editorial oscura ──
+const _Q = 'w=800&h=350&fit=crop&q=88&auto=format';
+const _U = id => `https://images.unsplash.com/photo-${id}?${_Q}`;
 const _RECETA_FOTOS = {
-    infusion:   'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&h=350&fit=crop&q=82&auto=format',
-    caldo:      'https://images.unsplash.com/photo-1547592180-85f173990554?w=800&h=350&fit=crop&q=82&auto=format',
-    decoccion:  'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&h=350&fit=crop&q=82&auto=format',
-    tintura:    'https://images.unsplash.com/photo-1611073615831-b1c0e9e15e44?w=800&h=350&fit=crop&q=82&auto=format',
-    cataplasma: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=350&fit=crop&q=82&auto=format',
-    compresa:   'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&h=350&fit=crop&q=82&auto=format',
-    jarabe:     'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&h=350&fit=crop&q=82&auto=format',
-    vapor:      'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=350&fit=crop&q=82&auto=format',
-    bano:       'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&h=350&fit=crop&q=82&auto=format',
-    crema:      'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=350&fit=crop&q=82&auto=format',
-    masaje:     'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=350&fit=crop&q=82&auto=format',
-    enjuague:   'https://images.unsplash.com/photo-1559181567-c3190976b3d1?w=800&h=350&fit=crop&q=82&auto=format',
-    ritual:     'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&h=350&fit=crop&q=82&auto=format',
-    aceite:     'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=350&fit=crop&q=82&auto=format',
-    mate:       'https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?w=800&h=350&fit=crop&q=82&auto=format',
-    jugo:       'https://images.unsplash.com/photo-1546173159-315724a31696?w=800&h=350&fit=crop&q=82&auto=format',
-    polvo:      'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=800&h=350&fit=crop&q=82&auto=format',
-    default:    'https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=350&fit=crop&q=82&auto=format',
+    // Infusión: taza de té humeante sobre mesa oscura con hierbas secas
+    infusion:   _U('1556679343-c7306c1976bc'),
+    // Caldo/sopa: bol negro profundo con caldo oscuro humeante
+    caldo:      _U('1547592180-85f173990554'),
+    // Decocción: hierbas hirviendo en olla de barro sobre fuego
+    decoccion:  _U('1544787219-7f47ccb76574'),
+    // Tintura: frascos de vidrio ámbar con gotero, fondo oscuro artesanal
+    tintura:    _U('1608571423902-eed4a5ad8108'),
+    // Cataplasma: manos trabajando pasta de hierbas en mortero de piedra
+    cataplasma: _U('1540553016722-983e3db4f328'),
+    // Compresa: tela enrollada con hierbas y flores sobre superficie oscura
+    compresa:   _U('1507652313519-d4e9174996dd'),
+    // Jarabe: cuchara con miel ámbar y hierbas sobre piedra negra
+    jarabe:     _U('1587049352846-4a222e784d38'),
+    // Vapor/inhalación: cuenco humeante con eucalipto, ambiente íntimo
+    vapor:      _U('1600334129128-685c5582fd35'),
+    // Baño herbal: bañera oscura con pétalos y hojas flotando
+    bano:       _U('1585565882088-68a97e0a7a5e'),
+    // Crema/ungüento: frascos de vidrio oscuro con tapa dorada, botánica
+    crema:      _U('1596755389378-c31d21fd1273'),
+    // Masaje: manos aplicando aceite sobre piel, iluminación cálida lateral
+    masaje:     _U('1519823551278-64ac92734fb1'),
+    // Enjuague/gargarismo: líquido verde oscuro en vaso de cristal
+    enjuague:   _U('1559181567-c3190976b3d1'),
+    // Ritual/espiritual: velas y hierbas en espacio ceremonial oscuro
+    ritual:     _U('1519681393784-d120267933ba'),
+    // Aceite esencial: frascos ámbar con hierbas, madera oscura
+    aceite:     _U('1474979266404-7eaacbcd87c5'),
+    // Mate: mate tradicional con bombilla sobre mesa rústica
+    mate:       _U('1589396575653-c09c794ff6a6'),
+    // Jugo/zumo: vaso de jugo verde oscuro con hierbas frescas
+    jugo:       _U('1546173159-315724a31696'),
+    // Polvo: especias y polvos medicinales en cucharas de madera oscura
+    polvo:      _U('1615485290382-441e4d049cb5'),
+    // Default: colección botánica de hierbas medicinales sobre fondo negro
+    default:    _U('1515377905703-c4788e51af15'),
 };
 
 function fotoDeReceta(r) {
