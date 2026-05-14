@@ -77,13 +77,28 @@ img { max-width: 100%; display: block; }
 /* ════════════════════════════════════════════════════════════════════
    FONDO ANIMADO — GRADIENTES QUE RESPIRAN + PARTÍCULAS
    ════════════════════════════════════════════════════════════════════ */
+/* ── Fondo foto global (araucarias) ── */
+.global-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    overflow: hidden;
+    pointer-events: none;
+}
+.global-bg-photo {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: saturate(0.35) brightness(0.18) sepia(0.2);
+}
+
 .bg-stage {
     position: fixed;
     inset: 0;
     z-index: -2;
     overflow: hidden;
     pointer-events: none;
-    background: radial-gradient(120% 80% at 50% 0%, #1f2a1a 0%, #14180f 60%);
+    background: radial-gradient(120% 80% at 50% 0%, rgba(31,42,26,0.85) 0%, rgba(20,24,15,0.92) 60%);
 }
 .bg-orb {
     position: absolute;
@@ -140,12 +155,12 @@ img { max-width: 100%; display: block; }
 .app-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 24px 24px 80px;
+    padding: 104px 24px 80px;
     position: relative;
     z-index: 1;
 }
 
-/* ── Header ── */
+/* ── Header — fixed, siempre visible ── */
 header {
     display: flex;
     justify-content: space-between;
@@ -154,15 +169,19 @@ header {
     gap: 16px;
     padding: 20px 28px;
     border-radius: var(--r-lg);
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background: var(--glass-bg);
     backdrop-filter: blur(24px) saturate(140%);
     -webkit-backdrop-filter: blur(24px) saturate(140%);
     border: 1px solid var(--glass-border);
     box-shadow: var(--glass-shadow);
-    position: sticky;
+    position: fixed;
     top: 12px;
-    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 48px);
+    max-width: calc(1280px - 48px);
+    z-index: 100;
 }
 
 .brand {
@@ -1356,8 +1375,9 @@ footer {
    RESPONSIVE
    ════════════════════════════════════════════════════════════════════ */
 @media (max-width: 700px) {
-    .app-container { padding: 12px 12px 60px; }
-    header { padding: 14px 18px; }
+    .app-container { padding: 90px 12px 60px; }
+    header { padding: 14px 18px; top: 8px; width: calc(100% - 24px); }
+    .plants-tab-header { top: 76px; margin: 0 -12px 20px; padding: 12px 12px 8px; }
     .brand-text h1 { font-size: 0.95rem; }
     .brand-text .sub { display: none; }
     .icon-btn { width: 38px; height: 38px; }
@@ -3530,7 +3550,7 @@ body.custom-cursor-on .cursor-ring { display: block; }
     .dolencias-hero-stats { justify-content: center; }
     .dolencias-hero-wrap::before { display: none; }
     /* App container: menos padding lateral */
-    .app-container { padding: 16px 14px 70px; }
+    .app-container { padding: 96px 14px 70px; }
 }
 @media (max-width: 360px) {
     .tab-btn { padding: 9px 10px; }
@@ -7805,7 +7825,18 @@ h1, h2, h3, .plant-name, .brand-text h1 {
 .home-section-divider {
     text-align: center;
     margin: 0 0 28px;
-    padding: 0 0 4px;
+    padding: 16px 0 4px;
+}
+.plants-tab-header {
+    position: sticky;
+    top: 88px;
+    z-index: 40;
+    background: rgba(20,24,15,0.88);
+    backdrop-filter: blur(16px) saturate(130%);
+    -webkit-backdrop-filter: blur(16px) saturate(130%);
+    border-bottom: 1px solid var(--glass-border);
+    margin: 0 -24px 28px;
+    padding: 14px 24px 10px;
 }
 .hsd-eyebrow {
     display: block;
