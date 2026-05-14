@@ -511,9 +511,10 @@ const SUBMODULOS = {
     nervioso: {
         label: 'Nervioso',
         submods: [
-            { id:'ansiedad_estres',       label:'Ansiedad / Estrés',     emoji:'🧘', color:'#9a7aaa', count:36, desc:'Ansiedad · Estrés · Tensión nerviosa',          file:'data/modulos/nervioso/ansiedad_estres/recetas.json' },
-            { id:'insomnio',              label:'Insomnio / Sueño',      emoji:'🌙', color:'#6a7aaa', count:34, desc:'Insomnio · Sedantes naturales · Relajación',    file:'data/modulos/nervioso/insomnio/recetas.json' },
-            { id:'memoria_concentracion', label:'Memoria / Concentración',emoji:'🧠', color:'#5a9aaa', count:22, desc:'Memoria · Concentración · Agilidad mental',     file:'data/modulos/nervioso/memoria_concentracion/recetas.json' },
+            { id:'estres_ansiedad',       label:'Estrés / Ansiedad',     emoji:'🧘', color:'#9a7aaa', count:20, desc:'Ansiedad · Tensión nerviosa · Nerviosismo',     file:'data/modulos/nervioso/estres_ansiedad/recetas.json' },
+            { id:'animo_depresion',       label:'Ánimo / Depresión',     emoji:'☀️', color:'#c9a052', count:17, desc:'Bajo ánimo · Burnout · Agotamiento · Tristeza', file:'data/modulos/nervioso/animo_depresion/recetas.json' },
+            { id:'insomnio',              label:'Insomnio / Sueño',      emoji:'🌙', color:'#6a7aaa', count:33, desc:'Insomnio · Sedantes naturales · Relajación',    file:'data/modulos/nervioso/insomnio/recetas.json' },
+            { id:'memoria_concentracion', label:'Memoria / Concentración',emoji:'🧠', color:'#5a9aaa', count:22, desc:'Memoria · Concentración · Agilidad mental',    file:'data/modulos/nervioso/memoria_concentracion/recetas.json' },
         ],
     },
     piel: {
@@ -539,18 +540,24 @@ const SUBMODULOS = {
     cardiovascular: {
         label: 'Cardiovascular',
         submods: [
-            { id:'corazon_circulacion', label:'Corazón / Circulación', emoji:'❤️', color:'#c96a6a', count:62, desc:'Presión · Colesterol · Circulación · Corazón', file:'data/modulos/cardiovascular/corazon_circulacion/recetas.json' },
-            { id:'rinones',             label:'Riñones',               emoji:'🫘', color:'#8a7a5a', count:22, desc:'Riñones · Cálculos · Infección urinaria',       file:'data/modulos/cardiovascular/rinones/recetas.json' },
-            { id:'diuretico',           label:'Diurético',             emoji:'💧', color:'#5a8aaa', count:13, desc:'Retención de líquidos · Edema · Diurético',    file:'data/modulos/cardiovascular/diuretico/recetas.json' },
+            { id:'colesterol',          label:'Colesterol',             emoji:'🫀', color:'#c96a6a', count:21, desc:'Colesterol LDL · Triglicéridos · Arterias',      file:'data/modulos/cardiovascular/colesterol/recetas.json' },
+            { id:'presion_arterial',    label:'Presión Arterial',       emoji:'🩺', color:'#aa5a5a', count:11, desc:'Hipertensión · Presión alta · Antihipertensivo', file:'data/modulos/cardiovascular/presion_arterial/recetas.json' },
+            { id:'circulacion_varices', label:'Circulación / Várices',  emoji:'🦵', color:'#7a6aaa', count:9,  desc:'Mala circulación · Várices · Piernas cansadas',  file:'data/modulos/cardiovascular/circulacion_varices/recetas.json' },
+            { id:'palpitaciones_corazon',label:'Palpitaciones',         emoji:'💓', color:'#c98a7a', count:7,  desc:'Palpitaciones · Arritmia leve · Taquicardia',   file:'data/modulos/cardiovascular/palpitaciones_corazon/recetas.json' },
+            { id:'sangre_antioxidantes',label:'Sangre / Antioxidantes', emoji:'🩸', color:'#8a5a5a', count:14, desc:'Anemia · Depurativo · Antioxidantes cardiovasc.',file:'data/modulos/cardiovascular/sangre_antioxidantes/recetas.json' },
+            { id:'rinones',             label:'Riñones',                emoji:'🫘', color:'#8a7a5a', count:22, desc:'Riñones · Cálculos · Infección urinaria',        file:'data/modulos/cardiovascular/rinones/recetas.json' },
+            { id:'diuretico',           label:'Diurético',              emoji:'💧', color:'#5a8aaa', count:13, desc:'Retención de líquidos · Edema · Hinchazón',      file:'data/modulos/cardiovascular/diuretico/recetas.json' },
         ],
     },
     dolores: {
         label: 'Dolores',
         submods: [
-            { id:'reumatismo_artritis', label:'Reumatismo / Artritis', emoji:'🦴', color:'#aa7a5a', count:39, desc:'Artritis · Gota · Reumatismo · Articulaciones', file:'data/modulos/dolores/reumatismo_artritis/recetas.json' },
-            { id:'dolor_analgesia',     label:'Alivio del Dolor',      emoji:'💊', color:'#8a6a9a', count:20, desc:'Analgésicos naturales · Lumbago · Neuralgias',  file:'data/modulos/dolores/dolor_analgesia/recetas.json' },
-            { id:'antiinflamatorio',    label:'Antiinflamatorio',      emoji:'🌡️', color:'#6a9a8a', count:13, desc:'Inflamación · Cúrcuma · Árnica · Aloe',         file:'data/modulos/dolores/antiinflamatorio/recetas.json' },
-            { id:'salud_bucal',         label:'Salud Bucal',           emoji:'🦷', color:'#9a8a6a', count:19, desc:'Encias · Dolor de muelas · Enjuagues bucales',  file:'data/modulos/dolores/salud_bucal/recetas.json' },
+            { id:'reumatismo_artritis',   label:'Reumatismo / Artritis',  emoji:'🦴', color:'#aa7a5a', count:39, desc:'Artritis · Gota · Reumatismo · Articulaciones', file:'data/modulos/dolores/reumatismo_artritis/recetas.json' },
+            { id:'dolor_cabeza_migrana',  label:'Dolor de Cabeza',        emoji:'🤯', color:'#9a6aaa', count:3,  desc:'Cefalea · Migraña · Dolor tensional',           file:'data/modulos/dolores/dolor_cabeza_migrana/recetas.json' },
+            { id:'dolor_muscular_lumbago',label:'Dolor Muscular / Lumbago',emoji:'💪', color:'#8a7a6a', count:7,  desc:'Lumbago · Contracturas · Neuralgias · Aceites', file:'data/modulos/dolores/dolor_muscular_lumbago/recetas.json' },
+            { id:'dolor_cronico_general', label:'Dolor Crónico',          emoji:'💊', color:'#8a6a9a', count:10, desc:'Dolor crónico · Neuropático · Analgésicos',     file:'data/modulos/dolores/dolor_cronico_general/recetas.json' },
+            { id:'antiinflamatorio',      label:'Antiinflamatorio',       emoji:'🌡️', color:'#6a9a8a', count:13, desc:'Inflamación · Cúrcuma · Árnica · Aloe',         file:'data/modulos/dolores/antiinflamatorio/recetas.json' },
+            { id:'salud_bucal',           label:'Dolor de Muelas / Boca', emoji:'🦷', color:'#9a8a6a', count:19, desc:'Dolor de muelas · Encías · Enjuagues bucales',  file:'data/modulos/dolores/salud_bucal/recetas.json' },
         ],
     },
     pediatrico: {
