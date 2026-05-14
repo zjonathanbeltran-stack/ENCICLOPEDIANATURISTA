@@ -20,9 +20,9 @@
     --text-mute:      rgba(245,241,232,0.50);
     --text-secondary: rgba(245,241,232,0.55);
 
-    /* Glass tokens — semitransparentes oscuros para que el fondo se vea */
-    --glass-bg:       rgba(12,16,9,0.62);
-    --glass-bg-hi:    rgba(12,16,9,0.75);
+    /* Glass tokens — opacos para que las cards sean legibles sobre el fondo */
+    --glass-bg:       rgba(12,16,9,0.88);
+    --glass-bg-hi:    rgba(12,16,9,0.94);
     --glass-border:   rgba(255,255,255,0.10);
     --glass-border-hi:rgba(255,255,255,0.20);
     --glass-shadow:   0 8px 32px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.06);
@@ -4885,8 +4885,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
     flex-direction: column;
     gap: 4px;
     padding: 12px 14px;
-    background: rgba(155,187,122,0.06);
-    border: 1px solid rgba(155,187,122,0.15);
+    background: rgba(14,24,12,0.90);
+    border: 1px solid rgba(155,187,122,0.20);
     border-radius: var(--r-md);
     text-align: left;
     cursor: pointer;
