@@ -2620,7 +2620,21 @@
       "hidratante",
       "inmunoestimulante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 411,
@@ -2667,7 +2681,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); MINSAL 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 413,
@@ -2694,7 +2722,21 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 415,
@@ -2740,7 +2782,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 418,
@@ -2768,7 +2824,21 @@
       "hidratante",
       "inmunoestimulante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 419,
@@ -2795,7 +2865,21 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 420,
@@ -2822,7 +2906,20 @@
       "depurativo",
       "hipocolesterolemiante"
     ],
-    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 421,
@@ -2850,7 +2947,21 @@
       "expectorante",
       "inmunoestimulante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 422,
@@ -2896,7 +3007,20 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 489,
@@ -2942,7 +3066,20 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 493,
@@ -2988,7 +3125,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 599,
@@ -3016,7 +3167,21 @@
       "expectorante",
       "antiemético"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 600,
@@ -3043,7 +3208,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 601,
@@ -3070,7 +3249,21 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 602,
@@ -3097,7 +3290,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 603,
@@ -3125,7 +3332,21 @@
       "antimicrobiano",
       "cicatrizante"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 604,
@@ -3153,7 +3374,21 @@
       "carminativo",
       "antiemético"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 605,
@@ -3180,7 +3415,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 606,
@@ -3207,7 +3456,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 607,
@@ -3234,7 +3497,21 @@
       "nutritivo",
       "tónico"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 608,
@@ -3280,7 +3557,21 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 610,
@@ -3307,7 +3598,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 611,
@@ -3354,7 +3659,21 @@
       "antiemético",
       "carminativo"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 668,
@@ -3382,7 +3701,20 @@
       "antiemético",
       "carminativo"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 669,
@@ -3429,7 +3761,20 @@
       "hipocolesterolemiante",
       "digestivo"
     ],
-    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994"
+    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 671,
@@ -3475,7 +3820,20 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 673,
@@ -3502,7 +3860,20 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 674,
@@ -3530,7 +3901,20 @@
       "antimicrobiano",
       "cicatrizante"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 675,
@@ -3615,7 +3999,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 694,
@@ -3661,7 +4059,21 @@
       "depurativo",
       "hipocolesterolemiante"
     ],
-    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 696,
@@ -3688,7 +4100,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 697,
@@ -3715,7 +4141,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 698,
@@ -3743,7 +4183,21 @@
       "expectorante",
       "antiemético"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 699,
@@ -3770,7 +4224,21 @@
       "expectorante",
       "digestivo"
     ],
-    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 700,
@@ -3797,7 +4265,21 @@
       "inmunomodulador",
       "hidratante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 701,
@@ -3843,7 +4325,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 703,
@@ -3890,7 +4386,21 @@
       "analgésico",
       "antiespasmódico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 705,
@@ -3917,7 +4427,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 706,
@@ -4039,7 +4563,21 @@
       "expectorante",
       "digestivo"
     ],
-    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012"
+    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 712,
@@ -4104,7 +4642,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 715,
@@ -4131,7 +4683,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 716,
@@ -4158,7 +4724,21 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 717,
@@ -4205,7 +4785,20 @@
       "antimicrobiano",
       "cicatrizante"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 719,
@@ -4231,7 +4824,20 @@
       "digestivo",
       "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010"
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 720,
@@ -4258,7 +4864,20 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 721,
@@ -4323,7 +4942,20 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 724,
@@ -4350,7 +4982,20 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 725,
@@ -4378,7 +5023,20 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 726,
@@ -4405,7 +5063,20 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 727,
@@ -4451,7 +5122,20 @@
       "nutritivo",
       "tónico"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 729,
@@ -4478,7 +5162,20 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 730,
@@ -4505,7 +5202,20 @@
       "antimicrobiano",
       "carminativo"
     ],
-    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 731,
@@ -4552,7 +5262,20 @@
       "carminativo",
       "antiespasmódico"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 888,
@@ -4580,7 +5303,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 889,
@@ -4608,7 +5345,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 890,
@@ -4655,7 +5406,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 892,
@@ -4683,7 +5448,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 893,
@@ -4711,7 +5490,21 @@
       "expectorante",
       "inmunoestimulante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 894,
@@ -4757,7 +5550,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 896,
@@ -4785,7 +5592,21 @@
       "inmunoestimulante",
       "expectorante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 897,
@@ -4832,7 +5653,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 899,
@@ -4860,7 +5695,21 @@
       "carminativo",
       "ansiolítico"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 900,
@@ -4887,7 +5736,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 901,
@@ -4914,7 +5777,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 902,
@@ -4941,7 +5818,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 938,
@@ -4987,7 +5878,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 940,
@@ -5071,7 +5976,21 @@
       "inmunomodulador",
       "hidratante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 944,
@@ -5097,7 +6016,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 945,
@@ -5125,7 +6058,21 @@
       "expectorante",
       "emenagogo"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 946,
@@ -5153,7 +6100,21 @@
       "expectorante",
       "antiemético"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 947,
@@ -5180,7 +6141,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 1065,
@@ -5206,7 +6181,20 @@
       "antioxidante",
       "reconstituyente"
     ],
-    "referencias": "Cruz G. (1995) Hongos comestibles y venenosos de Chile. Fonck Museum. / Villagran C. & Hinojosa F. (1997) Historia de los bosques del sur de Sudamerica II. Rev Chilena Hist Nat."
+    "referencias": "Cruz G. (1995) Hongos comestibles y venenosos de Chile. Fonck Museum. / Villagran C. & Hinojosa F. (1997) Historia de los bosques del sur de Sudamerica II. Rev Chilena Hist Nat.",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 1073,
@@ -5232,7 +6220,21 @@
       "antiinflamatorio digestivo",
       "cicatrizante mucosas"
     ],
-    "referencias": "Montenegro G. (2000) Medicinal plants of Chile. Universidad de Chile. / Murano E. (1995) Chemical structure of carrageenans. J Appl Phycol."
+    "referencias": "Montenegro G. (2000) Medicinal plants of Chile. Universidad de Chile. / Murano E. (1995) Chemical structure of carrageenans. J Appl Phycol.",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 1077,
@@ -5258,7 +6260,21 @@
       "digestivo",
       "antinausea"
     ],
-    "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Arango G. et al. (2016) Actividad antiespasmódica de Minthostachys mollis. Rev Soc Quim Peru."
+    "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Arango G. et al. (2016) Actividad antiespasmódica de Minthostachys mollis. Rev Soc Quim Peru.",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 1078,
@@ -5284,7 +6300,20 @@
       "recuperacion energetica",
       "digestivo"
     ],
-    "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / INTA-Chile (2001) Valor nutricional de alimentos andinos tradicionales."
+    "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / INTA-Chile (2001) Valor nutricional de alimentos andinos tradicionales.",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 1109,
