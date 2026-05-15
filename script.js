@@ -2096,18 +2096,18 @@ function resetearFiltros() {
 const _Q = 'w=800&h=350&fit=crop&q=88&auto=format';
 const _U = id => `https://images.unsplash.com/photo-${id}?${_Q}`;
 const _RECETA_FOTOS = {
-    // Infusión: taza de té humeante sobre mesa oscura con hierbas secas
-    infusion:   _U('1556679343-c7306c1976bc'),
+    // Imagen local: taza de infusión de manzanilla con hierbas medicinales
+    infusion:   'img/receta-infusion.png',
     // Caldo/sopa: bol negro profundo con caldo oscuro humeante
     caldo:      _U('1547592180-85f173990554'),
-    // Decocción: hierbas hirviendo en olla de barro sobre fuego
-    decoccion:  _U('1544787219-7f47ccb76574'),
+    // Imagen local: tetera negra humeante con hierbas en mesa rústica
+    decoccion:  'img/receta-decoccion.png',
     // Tintura: frascos de vidrio ámbar con gotero, fondo oscuro artesanal
     tintura:    _U('1608571423902-eed4a5ad8108'),
-    // Cataplasma: manos trabajando pasta de hierbas en mortero de piedra
-    cataplasma: _U('1540553016722-983e3db4f328'),
-    // Compresa: tela enrollada con hierbas y flores sobre superficie oscura
-    compresa:   _U('1507652313519-d4e9174996dd'),
+    // Imagen local: pasta de hierbas sobre tela, cataplasma tradicional
+    cataplasma: 'img/receta-cataplasma.png',
+    // Imagen local: misma base de cataplasma (compresa de hierbas)
+    compresa:   'img/receta-cataplasma.png',
     // Jarabe: cuchara con miel ámbar y hierbas sobre piedra negra
     jarabe:     _U('1587049352846-4a222e784d38'),
     // Vapor/inhalación: cuenco humeante con eucalipto, ambiente íntimo
@@ -2135,10 +2135,14 @@ const _RECETA_FOTOS = {
 };
 
 function fotoDeReceta(r) {
-    // Primero buscar en el TÍTULO (más específico)
     const t = (r.titulo || '').toLowerCase();
     const m = (r.modo_uso || '').toLowerCase();
 
+    // Tipos de preparación explícitos en el título — mayor prioridad
+    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té '))
+        return _RECETA_FOTOS.infusion;
+    if (t.includes('decocción') || t.includes('decoccion'))
+        return _RECETA_FOTOS.decoccion;
     if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé'))
         return _RECETA_FOTOS.caldo;
     if (t.includes('jarabe') || t.includes('sirope'))
@@ -2155,20 +2159,17 @@ function fotoDeReceta(r) {
         return _RECETA_FOTOS.crema;
     if (t.includes('aceite'))
         return _RECETA_FOTOS.aceite;
-    if (t.includes('baño') || t.includes('tina'))
-        return _RECETA_FOTOS.bano;
     if (t.includes('vapor') || t.includes('inhalación') || t.includes('sahumerio'))
         return _RECETA_FOTOS.vapor;
     if (t.includes('mate ') || t.startsWith('mate'))
         return _RECETA_FOTOS.mate;
     if (t.includes('jugo') || t.includes('zumo'))
         return _RECETA_FOTOS.jugo;
-    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té '))
-        return _RECETA_FOTOS.infusion;
-    if (t.includes('decocción') || t.includes('decoccion'))
-        return _RECETA_FOTOS.decoccion;
     if (t.includes('polvo') || t.includes('especia'))
         return _RECETA_FOTOS.polvo;
+    // "baño" al final del título-check: solo gana si la receta es realmente un baño
+    if (t.startsWith('baño') || t.startsWith('tina') || t.startsWith('pedilu'))
+        return _RECETA_FOTOS.bano;
 
     // Luego por modo_uso
     if (m.includes('decoc'))    return _RECETA_FOTOS.decoccion;
