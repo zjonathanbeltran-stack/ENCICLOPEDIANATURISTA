@@ -44,7 +44,24 @@
       "Bash(gh api *)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":8787 \")",
+      "Bash(findstr \":8790 \")",
+      "Bash(gh pr *)",
+      "Bash(powershell -Command ' *)",
+      "Bash(python partir_recetas.py)",
+      "Bash(python crear_condiciones_digestivo.py)",
+      "Bash(python crear_condiciones_respiratorio.py)",
+      "Bash(python crear_condiciones_nervioso.py)",
+      "Bash(python crear_condiciones_piel.py)",
+      "Bash(python crear_condiciones_cardiovascular.py)",
+      "Bash(python crear_condiciones_dolores.py)",
+      "Bash([ -d \"$src/$d\" ])",
+      "Bash(cp -r /c/Users/usuario/Desktop/proyecto/data/modulos/__TRACKED_VAR__ /c/Users/usuario/Desktop/proyecto/.claude/worktrees/goofy-leavitt-dbc53f/data/modulos/__TRACKED_VAR__)",
+      "mcp__Claude_in_Chrome__switch_browser",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:unsplash.com)"
     ]
   }
 }

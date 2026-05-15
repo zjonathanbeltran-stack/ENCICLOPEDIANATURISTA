@@ -2294,5 +2294,131 @@
       "litotriptico"
     ],
     "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Loyola LA. et al. (1990) Diterpenoids from Azorella compacta. Phytochemistry."
+  },
+  {
+    "id": 1121,
+    "titulo": "Tintura cardiotónica de espino y melisa",
+    "categoria": "Cardiovascular",
+    "origen": "Tradicional europeo",
+    "ingredientes": "40 g flores y hojas de espino (Crataegus), 20 g melisa, 250 ml alcohol 60°",
+    "preparacion": "Macerar 21 días en frasco oscuro, agitar diariamente. Filtrar.",
+    "dosis": "20-30 gotas en agua, 2-3 veces al día",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días maceración",
+    "dificultad": "Media",
+    "rendimiento": "Aprox. 220 ml",
+    "conservacion": "2 años frasco oscuro",
+    "evidencia": "Pittler MH. et al. (2008) Cochrane: Crataegus como adyuvante en insuficiencia cardíaca clase I-II NYHA. Monografía ESCOP Crataegi folium cum flore.",
+    "fuente_tradicion": "Herbolaria europea medieval; muy usada en herbolaria chilena de origen español",
+    "contraindicaciones": "Insuficiencia cardíaca severa sin supervisión médica. Vigilar con digoxina, betabloqueadores, antihipertensivos.",
+    "uso": "Oligómeros procianidínicos (OPC) aumentan fuerza contráctil cardíaca (inotrópico positivo suave) y dilatan coronarias; vitexina mejora flujo cerebral; ácido rosmarínico aporta efecto ansiolítico modulando palpitaciones por estrés.",
+    "principios_activos": "Vitexina-2-O-ramnósido, hiperósido, oligómeros procianidínicos, ácido rosmarínico.",
+    "propiedades": [
+      "cardiotónico",
+      "vasodilatador coronario",
+      "ansiolítico",
+      "antiarrítmico suave",
+      "antihipertensivo leve"
+    ],
+    "referencias": "Pittler MH. et al., Cochrane Database 2008;CD005312. ESCOP Crataegi folium cum flore 2003.",
+    "indicaciones_principales": [
+      "palpitaciones por ansiedad",
+      "hipertensión leve",
+      "insuficiencia cardíaca leve (con MD)",
+      "extrasístoles benignas"
+    ],
+    "interacciones_medicamentos": "Potencia digoxina, betabloqueadores, antihipertensivos, nitratos. Consultar siempre con cardiólogo.",
+    "embarazo_lactancia": "Datos insuficientes; evitar.",
+    "duracion_tratamiento": "Uso prolongado (3-6 meses) con seguimiento",
+    "sinergia_plantas": [
+      "Espino blanco",
+      "Melisa",
+      "Tilo",
+      "Pasiflora"
+    ]
+  },
+  {
+    "id": 1155,
+    "titulo": "Tisana cardiotónica de espino, melisa y tilo para palpitaciones ansiosas",
+    "categoria": "Cardiovascular",
+    "origen": "Europeo adaptado chileno",
+    "ingredientes": "1 cdta de flores y hojas de espino blanco (Crataegus), 1 cdta de melisa, 1 cdta de tilo, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C, verter sobre hierbas, tapar 10 min, colar.",
+    "dosis": "1 taza 2 veces al día por la mañana y noche durante 6 a 8 semanas",
+    "modo_uso": "Oral - infusión",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza grande",
+    "conservacion": "Consumir de inmediato",
+    "evidencia": "ESCOP monograph Crataegus; meta-análisis Pittler 2008 sobre Crataegus en insuficiencia cardíaca leve",
+    "fuente_tradicion": "Europeo y popular chileno",
+    "contraindicaciones": "Pacientes con digoxina (consultar), hipotensión severa, arritmias graves bajo tratamiento",
+    "uso": "Proantocianidinas oligoméricas mejoran perfusión coronaria y modulan respuesta cronotrópica adrenérgica en estados ansiosos.",
+    "principios_activos": "Vitexina y proantocianidinas (espino), ácido rosmarínico (melisa), tiliroside (tilo); cardiotónico y ansiolítico suave",
+    "propiedades": [
+      "cardiotónico",
+      "antiarrítmico suave",
+      "ansiolítico cardiovascular",
+      "vasodilatador coronario",
+      "hipotensor leve"
+    ],
+    "referencias": "Pittler MH et al. 2008 Cochrane Database; ESCOP 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "palpitaciones por ansiedad",
+      "hipertensión leve",
+      "extrasístoles benignas",
+      "insuficiencia cardíaca leve (apoyo)",
+      "estrés cardiovascular"
+    ],
+    "interacciones_medicamentos": "Digoxina, betabloqueadores, antihipertensivos, antiarrítmicos (consultar)",
+    "embarazo_lactancia": "Precaución en embarazo (espino); aceptable en lactancia",
+    "duracion_tratamiento": "Tratamientos de 8 semanas con descansos",
+    "sinergia_plantas": [
+      "valeriana",
+      "pasiflora",
+      "olivo"
+    ]
+  },
+  {
+    "id": 1156,
+    "titulo": "Decocción diurética de cola de caballo, equiseto y barbas de choclo para retención de líquidos",
+    "categoria": "Diurético",
+    "origen": "Tradicional latinoamericano",
+    "ingredientes": "1 cdta de cola de caballo, 1 cdta de equiseto fresco (si está disponible), 1 cda de barbas de choclo secas, 500 ml de agua",
+    "preparacion": "Cocer todo a fuego bajo 7 min, reposar 10 min, colar.",
+    "dosis": "2 tazas al día por la mañana y mediodía durante 7 a 10 días",
+    "modo_uso": "Oral - decocción diurética",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerado 24 h",
+    "evidencia": "ESCOP Equisetum arvense; estudios sobre Zea mays barbas como diurético osmótico (Velazquez 2005)",
+    "fuente_tradicion": "Tradicional latinoamericano y popular chileno",
+    "contraindicaciones": "Insuficiencia renal, insuficiencia cardíaca descompensada, embarazo, déficit de tiamina (equiseto contiene tiaminasa), tratamiento con litio",
+    "uso": "Saponinas y flavonoides aumentan filtración glomerular sin afectar electrolitos plasmáticos y el silicio fortalece tejido conectivo urinario.",
+    "principios_activos": "Equisetonina, silicio y kaempferol (equiseto y cola de caballo), maicina y allantoína (barbas de choclo); diuréticos osmóticos y reepitelizantes urinarios",
+    "propiedades": [
+      "diurético",
+      "remineralizante",
+      "antiedematoso",
+      "antilitiásico",
+      "antiséptico urinario suave"
+    ],
+    "referencias": "Velazquez DV et al. 2005 J Ethnopharmacol; ESCOP 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "retención hídrica premenstrual",
+      "edema de miembros inferiores",
+      "hipertensión leve con edema",
+      "cálculos renales pequeños (prevención)",
+      "infección urinaria leve (apoyo)"
+    ],
+    "interacciones_medicamentos": "Litio (aumenta toxicidad), diuréticos farmacológicos (potencia), digoxina, anticoagulantes",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Máximo 10 días, descansar 1 semana",
+    "sinergia_plantas": [
+      "diente de león",
+      "abedul",
+      "pilosella"
+    ]
   }
 ]

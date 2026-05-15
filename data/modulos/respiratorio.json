@@ -2603,5 +2603,341 @@
       "antiinflamatorio"
     ],
     "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Muñoz O. et al. Boletín LAMP 2001; Font Quer P. Plantas Medicinales, Planeta 1961."
+  },
+  {
+    "id": 1108,
+    "titulo": "Jarabe expectorante de hierba del paño y tomillo",
+    "categoria": "Respiratorio",
+    "origen": "Tradicional latinoamericano",
+    "ingredientes": "2 cdas flores de hierba del paño, 1 cda tomillo seco, 1 cda hojas de matico, 500 ml agua, 300 g miel pura",
+    "preparacion": "Decocción suave 10 min con tomillo y matico. Retirar, agregar flores de paño y reposar 15 min tapado. Filtrar dos veces (los pelos de paño irritan). Mezclar con miel tibia hasta disolver.",
+    "dosis": "1 cucharada cada 4 horas en adultos; 1 cdta en niños mayores de 5 años",
+    "modo_uso": "Jarabe",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Media",
+    "rendimiento": "Aprox. 600 ml",
+    "conservacion": "Refrigerado, hasta 3 semanas",
+    "evidencia": "Comisión E alemana avala Verbascum para catarro. Tomillo (Thymus) tiene actividad mucolítica por timol (ESCOP).",
+    "fuente_tradicion": "Combinación de herbolaria mediterránea y matico mapuche/peruano",
+    "contraindicaciones": "No dar miel a menores de 1 año. Filtrar muy bien. Precaución en asmáticos sensibles a timol.",
+    "uso": "Mucílagos del paño recubren y calman la mucosa irritada; saponinas y timol fluidifican secreciones bronquiales facilitando expectoración; miel actúa como antitusivo demulcente (validado por OMS).",
+    "principios_activos": "Mucílagos, verbascosaponina, aucubina, timol, carvacrol, flavonoides.",
+    "propiedades": [
+      "expectorante",
+      "demulcente",
+      "antitusivo",
+      "antiséptico bronquial",
+      "emoliente"
+    ],
+    "referencias": "Blumenthal M., Complete German Commission E Monographs 1998. Paul IM. et al., Arch Pediatr Adolesc Med 2007.",
+    "indicaciones_principales": [
+      "bronquitis aguda",
+      "tos productiva",
+      "laringitis",
+      "traqueitis"
+    ],
+    "interacciones_medicamentos": "Tomillo puede potenciar anticoagulantes en altas dosis. Sin interacciones mayores conocidas.",
+    "embarazo_lactancia": "Tomillo en dosis culinarias-medicinales bajas es seguro; evitar aceite esencial. Paño con precaución.",
+    "duracion_tratamiento": "Hasta 10 días",
+    "sinergia_plantas": [
+      "Tomillo",
+      "Matico",
+      "Pañil",
+      "Hierba del paño",
+      "Eucalipto"
+    ]
+  },
+  {
+    "id": 1123,
+    "titulo": "Decocción antitusiva de hierba del paño y miel",
+    "categoria": "Tos",
+    "origen": "Tradicional europeo-chileno",
+    "ingredientes": "1 cda flores secas de hierba del paño, 250 ml agua, 1 cda miel, gotas de limón opcional",
+    "preparacion": "Agua a hervor leve, retirar y agregar flores, tapar 12 min. Colar DOS VECES con tela fina para eliminar los pelos irritantes. Mezclar con miel tibia.",
+    "dosis": "1 taza 3 veces al día por máximo 7 días",
+    "modo_uso": "Infusión filtrada",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Media (filtrado riguroso)",
+    "rendimiento": "1 taza",
+    "conservacion": "Recién hecha",
+    "evidencia": "Comisión E aprueba Verbascum thapsus para catarros respiratorios. Tatli II. et al. (2007) revisión Verbascum.",
+    "fuente_tradicion": "Herbolaria europea desde Dioscórides; introducida en Chile y muy usada en zonas rurales",
+    "contraindicaciones": "Filtrar muy bien. Sin miel para menores de 1 año. Embarazo (datos limitados).",
+    "uso": "Mucílagos forman película protectora sobre mucosa irritada, saponinas (verbascosaponina) facilitan expectoración y aucubina reduce inflamación bronquial. Miel aporta efecto antitusivo demulcente.",
+    "principios_activos": "Mucílagos (3%), verbascosaponina, aucubina, verbascósido, harpagósido.",
+    "propiedades": [
+      "expectorante",
+      "antitusivo",
+      "demulcente",
+      "emoliente bronquial",
+      "antiinflamatorio"
+    ],
+    "referencias": "Tatli II. et al., Pharm Biol 2007;45:1-15. Commission E Monographs 1998.",
+    "indicaciones_principales": [
+      "tos seca irritativa",
+      "laringitis",
+      "traqueitis",
+      "tos por reflujo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones mayores. Filtrar bien para evitar irritación.",
+    "embarazo_lactancia": "Precaución; usar bajo consejo.",
+    "duracion_tratamiento": "Máximo 7-10 días",
+    "sinergia_plantas": [
+      "Hierba del paño",
+      "Llantén",
+      "Tomillo",
+      "Malva"
+    ]
+  },
+  {
+    "id": 1129,
+    "titulo": "Decocción broncodilatadora de pañil y matico",
+    "categoria": "Respiratorio",
+    "origen": "Mapuche-chileno",
+    "ingredientes": "1 cda hojas de pañil, 1 cda hojas de matico, 400 ml agua, miel",
+    "preparacion": "Hervir 5 min a fuego suave, retirar y tapar 10 min. Colar. Endulzar con miel.",
+    "dosis": "1 taza 3 veces al día durante crisis bronquial",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "Aprox. 350 ml",
+    "conservacion": "Refrigerado 24 h",
+    "evidencia": "Schmeda-Hirschmann G. (Buddleja globosa), Malheiros A. (matico).",
+    "fuente_tradicion": "Mapuche y popular chilena",
+    "contraindicaciones": "Embarazo (matico), úlcera péptica activa.",
+    "uso": "Verbascósido del pañil es antiinflamatorio bronquial y mucoprotector; dilapiol y aceite del matico actúan como expectorante y antimicrobiano respiratorio.",
+    "principios_activos": "Verbascósido, mussaenosídico, dilapiol, β-cariofileno.",
+    "propiedades": [
+      "expectorante",
+      "antiinflamatorio bronquial",
+      "antimicrobiano",
+      "demulcente"
+    ],
+    "referencias": "Schmeda-Hirschmann G. et al., J Ethnopharmacol 2004.",
+    "indicaciones_principales": [
+      "bronquitis",
+      "asma leve coadyuvante",
+      "tos productiva",
+      "catarro persistente"
+    ],
+    "interacciones_medicamentos": "Sin interacciones mayores conocidas.",
+    "embarazo_lactancia": "Evitar matico.",
+    "duracion_tratamiento": "Hasta 10 días",
+    "sinergia_plantas": [
+      "Pañil",
+      "Matico",
+      "Tomillo",
+      "Hierba del paño"
+    ]
+  },
+  {
+    "id": 1139,
+    "titulo": "Vaporización descongestiva de eucalipto, tomillo y ulmo para sinusitis",
+    "categoria": "Respiratorio",
+    "origen": "Mapuche y popular chileno",
+    "ingredientes": "1 puñado de hojas de eucalipto, 1 cda de tomillo seco, 1 cda de flores secas de ulmo, 1.5 L de agua",
+    "preparacion": "Hervir agua, agregar hierbas y retirar del fuego. Cubrir cabeza con toalla sobre el recipiente a 30 cm de distancia. Inhalar 8 a 10 min con ojos cerrados.",
+    "dosis": "1 a 2 veces al día durante 5 a 7 días",
+    "modo_uso": "Inhalación - vapor",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "Usar de inmediato",
+    "evidencia": "ESCOP monograph Eucalyptus globulus; estudios sobre 1,8-cineol como mucolítico (Juergens 2014)",
+    "fuente_tradicion": "Mapuche y popular chileno",
+    "contraindicaciones": "Niños menores de 6 años (laringoespasmo por 1,8-cineol), asma activa, embarazo en primer trimestre",
+    "uso": "Aceites esenciales volátiles fluidifican secreciones bronquiales y ejercen acción antimicrobiana directa sobre mucosa respiratoria.",
+    "principios_activos": "1,8-cineol (eucalipto), timol y carvacrol (tomillo), flavonoides del ulmo; mucolítico, antibacteriano y antiinflamatorio respiratorio",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antiséptico respiratorio",
+      "descongestivo",
+      "antiviral"
+    ],
+    "referencias": "Juergens UR. 2014 Drug Res; ESCOP 2003; Hoffmann 1992; Schmeda-Hirschmann 2003",
+    "indicaciones_principales": [
+      "sinusitis aguda",
+      "rinitis viral",
+      "bronquitis",
+      "congestión nasal",
+      "faringitis"
+    ],
+    "interacciones_medicamentos": "Asmáticos en tratamiento con broncodilatadores (vigilar)",
+    "embarazo_lactancia": "Contraindicado primer trimestre; aceptable en lactancia evitando rostro del bebé",
+    "duracion_tratamiento": "Máximo 7 días consecutivos",
+    "sinergia_plantas": [
+      "pino",
+      "menta",
+      "salvia"
+    ]
+  },
+  {
+    "id": 1140,
+    "titulo": "Jarabe de hierba del paño y saúco para tos seca persistente",
+    "categoria": "Tos",
+    "origen": "Europeo adaptado chileno",
+    "ingredientes": "20 g de flores de hierba del paño (Verbascum thapsus), 15 g de flores de saúco, 500 ml de agua, 250 g de azúcar rubia",
+    "preparacion": "Infusión de hierbas en agua caliente 15 min. Colar dos veces con filtro fino de café (importante para retirar pelos). Reducir con azúcar a fuego bajo hasta consistencia de jarabe ligero (20 min).",
+    "dosis": "1 cucharada sopera 3 veces al día en adultos; 1 cdta en niños mayores de 6 años",
+    "modo_uso": "Oral - jarabe",
+    "tiempo_prep": "45 min",
+    "dificultad": "Media",
+    "rendimiento": "300 ml",
+    "conservacion": "Refrigerado hasta 4 semanas",
+    "evidencia": "Comisión E alemana monograph Verbasci flos; ESCOP saúco; usos tradicionales documentados (Blumenthal 2000)",
+    "fuente_tradicion": "Europeo y popular chileno",
+    "contraindicaciones": "Diabetes (por azúcar), alergia a Caprifoliaceae, filtrar muy bien para evitar irritación por pelos",
+    "uso": "Saponinas y mucílagos lubrican mucosa irritada y reducen el reflejo tusivo seco mientras flavonoides modulan inflamación.",
+    "principios_activos": "Verbascósido, saponinas e iridoides (hierba del paño), antocianinas y ácido clorogénico (saúco); antitusivos, antiinflamatorios y antivirales",
+    "propiedades": [
+      "antitusivo",
+      "emoliente respiratorio",
+      "antiinflamatorio",
+      "antiviral",
+      "expectorante suave"
+    ],
+    "referencias": "Blumenthal M. 2000 Herbal Medicine Expanded Commission E; ESCOP 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "tos seca irritativa",
+      "laringitis",
+      "traqueítis",
+      "post-resfriado con tos residual",
+      "faringitis seca"
+    ],
+    "interacciones_medicamentos": "Antitusivos opioides (no combinar), antidiabéticos (por azúcar del jarabe)",
+    "embarazo_lactancia": "Precaución; preferir versión sin saúco fermentado",
+    "duracion_tratamiento": "Máximo 10 días",
+    "sinergia_plantas": [
+      "malva",
+      "tilo",
+      "llantén"
+    ]
+  },
+  {
+    "id": 1141,
+    "titulo": "Gárgaras antisépticas de salvia, tomillo y quillay para faringitis aguda",
+    "categoria": "Garganta",
+    "origen": "Popular chileno",
+    "ingredientes": "1 cdta de salvia seca, 1 cdta de tomillo seco, 1/4 cdta de corteza de quillay molida, 300 ml de agua, 1 pizca de sal marina",
+    "preparacion": "Decocción de quillay 5 min, retirar del fuego, agregar salvia y tomillo, tapar 10 min. Colar muy fino, agregar sal.",
+    "dosis": "Gárgaras 30 segundos cada 3 horas mientras dure el dolor, no tragar",
+    "modo_uso": "Tópico - gárgaras",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml para varias gárgaras",
+    "conservacion": "Refrigerado 24 h, entibiar antes de usar",
+    "evidencia": "ESCOP monographs Salvia officinalis y Thymus vulgaris; estudios sobre saponinas de quillay como tensoactivos mucolíticos",
+    "fuente_tradicion": "Popular chileno con tradición mapuche del quillay",
+    "contraindicaciones": "No tragar (saponinas de quillay irritan tubo digestivo), niños menores de 6 años",
+    "uso": "Saponinas y aceites esenciales rompen biofilms bacterianos y ejercen acción antiséptica directa sobre faringe.",
+    "principios_activos": "Tuyona y 1,8-cineol (salvia), timol y carvacrol (tomillo), saponinas triterpénicas (quillay); antibacterianas y antiinflamatorias locales",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio local",
+      "astringente",
+      "antimicrobiano",
+      "expectorante"
+    ],
+    "referencias": "ESCOP 2003; San Martín R. 1999 Bioresour Technol (quillay); Hoffmann 1992",
+    "indicaciones_principales": [
+      "faringitis aguda",
+      "amigdalitis leve",
+      "afonía",
+      "aftas bucales",
+      "encías inflamadas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones sistémicas relevantes en uso tópico correcto",
+    "embarazo_lactancia": "Aceptable como gárgara sin tragar",
+    "duracion_tratamiento": "Máximo 7 días",
+    "sinergia_plantas": [
+      "caléndula",
+      "llantén",
+      "matico"
+    ]
+  },
+  {
+    "id": 1142,
+    "titulo": "Cataplasma pectoral de mostaza y romero para bronquitis productiva",
+    "categoria": "Expectorante",
+    "origen": "Popular chileno",
+    "ingredientes": "2 cdas de semillas de mostaza molidas, 2 cdas de harina de linaza, 1 cdta de romero seco molido, agua tibia (no hirviendo)",
+    "preparacion": "Mezclar polvos, agregar agua tibia hasta pasta espesa. Extender en paño de algodón, cerrar y aplicar sobre pecho protegiendo piel con otra tela fina. Mantener 10 a 15 min máximo.",
+    "dosis": "1 vez al día en horas de descanso, durante 3 a 5 días",
+    "modo_uso": "Tópico - cataplasma rubefaciente",
+    "tiempo_prep": "10 min",
+    "dificultad": "Media",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar al momento",
+    "evidencia": "ESCOP monograph Sinapis nigra; uso documentado como rubefaciente en patologías respiratorias",
+    "fuente_tradicion": "Popular chileno",
+    "contraindicaciones": "Piel sensible, niños menores de 6 años, embarazo, dermatitis, varices",
+    "uso": "Glucosinolatos liberan alil-isotiocianato que provoca vasodilatación cutánea refleja, favoreciendo fluidificación y expulsión de secreciones bronquiales.",
+    "principios_activos": "Sinigrina y alil-isotiocianato (mostaza), 1,8-cineol y alcanfor (romero); rubefacientes y descongestivos torácicos",
+    "propiedades": [
+      "rubefaciente",
+      "expectorante",
+      "descongestivo",
+      "antiinflamatorio",
+      "estimulante circulatorio"
+    ],
+    "referencias": "ESCOP 2003; Blumenthal 2000; Hoffmann 1992",
+    "indicaciones_principales": [
+      "bronquitis productiva",
+      "neumonía en recuperación",
+      "congestión torácica",
+      "tos con flema espesa",
+      "frío en el pecho"
+    ],
+    "interacciones_medicamentos": "Sin interacciones sistémicas; cuidar pacientes con anticoagulantes y piel frágil",
+    "embarazo_lactancia": "Contraindicado en embarazo; precaución en lactancia",
+    "duracion_tratamiento": "Máximo 5 días consecutivos",
+    "sinergia_plantas": [
+      "eucalipto",
+      "jengibre",
+      "pino"
+    ]
+  },
+  {
+    "id": 1143,
+    "titulo": "Infusión balsámica de pillopillo y bailahuén para asma leve estable",
+    "categoria": "Respiratorio",
+    "origen": "Mapuche y chilota",
+    "ingredientes": "1/2 cdta de hojas de pillopillo (Ovidia pillopillo) muy poca cantidad por su potencia, 1/2 cdta de bailahuén, 250 ml de agua, miel",
+    "preparacion": "Hervir agua, agregar hierbas, cocer 3 min a fuego bajo, retirar y reposar 5 min. Colar muy fino y endulzar.",
+    "dosis": "1/2 taza una sola vez al día por la mañana, máximo 10 días",
+    "modo_uso": "Oral - decocción corta",
+    "tiempo_prep": "15 min",
+    "dificultad": "Avanzada",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir de inmediato",
+    "evidencia": "Etnobotánica chilota Villagrán et al. 1983; registros del uso de Ovidia con precaución por toxicidad de dafnanos",
+    "fuente_tradicion": "Chilota y mapuche",
+    "contraindicaciones": "Embarazo, lactancia, niños, hepatopatía, gastritis activa, mucosas irritadas. No exceder dosis por riesgo de toxicidad por daphnanos del pillopillo.",
+    "uso": "Diterpenos y flavonoides modulan broncoconstricción leve mientras los amargos del bailahuén drenan secreciones espesas.",
+    "principios_activos": "Daphnanos (pillopillo, usar con extrema moderación), flavonoides de Haplopappus baylahuen; broncodilatadores tradicionales y antiinflamatorios",
+    "propiedades": [
+      "broncodilatador suave",
+      "expectorante",
+      "antiinflamatorio respiratorio",
+      "antitusivo",
+      "amargo"
+    ],
+    "referencias": "Villagrán C et al. 1983 An Mus Hist Nat Valparaíso; Hoffmann 1992; Schmeda-Hirschmann 2003",
+    "indicaciones_principales": [
+      "asma leve estable",
+      "bronquitis crónica reagudizada",
+      "tos productiva crónica",
+      "EPOC leve (apoyo)",
+      "rinitis crónica"
+    ],
+    "interacciones_medicamentos": "Broncodilatadores (consultar), corticoides (no reemplazar tratamiento médico)",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Máximo 10 días, descansar 3 semanas",
+    "sinergia_plantas": [
+      "matico",
+      "tomillo",
+      "llantén"
+    ]
   }
 ]

@@ -19,7 +19,7 @@
       "Alimenticio"
     ],
     "file": "data/modulos/digestivo.json",
-    "count": 181
+    "count": 189
   },
   "respiratorio": {
     "label": "Respiratorio",
@@ -32,7 +32,7 @@
       "Febrifugo"
     ],
     "file": "data/modulos/respiratorio.json",
-    "count": 102
+    "count": 110
   },
   "nervioso": {
     "label": "Nervioso",
@@ -42,7 +42,7 @@
       "Memoria"
     ],
     "file": "data/modulos/nervioso.json",
-    "count": 92
+    "count": 97
   },
   "piel": {
     "label": "Piel",
@@ -55,7 +55,7 @@
       "Antifungico"
     ],
     "file": "data/modulos/piel.json",
-    "count": 165
+    "count": 175
   },
   "mujer": {
     "label": "Mujer",
@@ -63,7 +63,7 @@
       "Ginecologico"
     ],
     "file": "data/modulos/mujer.json",
-    "count": 59
+    "count": 63
   },
   "cardiovascular": {
     "label": "Cardiovascular",
@@ -73,7 +73,7 @@
       "Diuretico"
     ],
     "file": "data/modulos/cardiovascular.json",
-    "count": 97
+    "count": 100
   },
   "dolores": {
     "label": "Dolores",
@@ -84,7 +84,7 @@
       "Dental"
     ],
     "file": "data/modulos/dolores.json",
-    "count": 91
+    "count": 93
   },
   "pediatrico": {
     "label": "Pediatrico",
@@ -92,7 +92,7 @@
       "Pediatrico"
     ],
     "file": "data/modulos/pediatrico.json",
-    "count": 51
+    "count": 52
   },
   "general": {
     "label": "General",
@@ -105,5 +105,13 @@
     ],
     "file": "data/modulos/general.json",
     "count": 119
+  },
+  "inmunidad": {
+    "label": "Inmunidad",
+    "cats": [
+      "Inmunidad"
+    ],
+    "file": "data/modulos/inmunidad.json",
+    "count": 10
   }
 }

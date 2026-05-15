@@ -5748,6 +5748,46 @@ body.custom-cursor-on .cursor-ring { display: block; }
     letter-spacing: 0.02em;
 }
 
+/* ── Indicaciones principales (chips ámbar) ── */
+.receta-indicaciones {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: rgba(212,165,116,0.06);
+    border: 1px solid rgba(212,165,116,0.18);
+    border-radius: var(--r-md);
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+.indic-icon { font-size: 1.2rem; flex-shrink: 0; opacity: 0.85; }
+.indic-body { flex: 1; }
+.indic-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 8px;
+}
+.indic-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.indic-chip {
+    display: inline-block;
+    padding: 4px 11px;
+    border-radius: 999px;
+    background: rgba(212,165,116,0.10);
+    border: 1px solid rgba(212,165,116,0.30);
+    color: var(--amber);
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+
+/* ── Alerta de interacciones medicamentosas ── */
+.receta-interacciones {
+    background: rgba(201,123,86,0.08);
+    border-color: rgba(201,123,86,0.28);
+    margin: 12px 0;
+}
+
 .receta-referencias {
     display: flex;
     gap: 12px;

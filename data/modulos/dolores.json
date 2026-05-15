@@ -2168,5 +2168,88 @@
       "antimicrobiano"
     ],
     "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Muñoz O. et al. Boletín Latinoamericano de Plantas Medicinales 2001; Schmeda-Hirschmann G. et al. J Ethnopharmacol 1992."
+  },
+  {
+    "id": 1112,
+    "titulo": "Infusión analgésica de sauce blanco para cefalea",
+    "categoria": "Analgésico",
+    "origen": "Tradicional europeo (precursor de la aspirina)",
+    "ingredientes": "1 cda corteza de sauce blanco seca y picada, 1 cdta menta, 250 ml agua",
+    "preparacion": "Hervir la corteza 10 minutos a fuego suave. Retirar, agregar menta, reposar 5 min. Colar.",
+    "dosis": "1 taza al inicio del dolor; máximo 3 tazas al día",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir recién hecha",
+    "evidencia": "Chrubasik S. et al. (2001) BMJ: extracto de Salix eficaz en lumbalgia. Monografía EMA Salicis cortex 2017.",
+    "fuente_tradicion": "Uso documentado desde Hipócrates; aislada salicina en 1828",
+    "contraindicaciones": "Alergia a salicilatos/AINE, úlcera péptica, asma sensible a aspirina, niños con cuadros virales (Reye), embarazo (3er trimestre).",
+    "uso": "Salicina se metaboliza en intestino y hígado a saligenina y luego ácido salicílico, que inhibe ciclooxigenasas reduciendo prostaglandinas pro-inflamatorias y pirogénicas, con menos irritación gástrica que aspirina sintética.",
+    "principios_activos": "Salicina, salicortina, tremulacina, taninos, flavonoides (naringenina, eriodictiol).",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antipirético",
+      "antirreumático"
+    ],
+    "referencias": "Chrubasik S. et al., BMJ 2001;322:1148. EMA HMPC Monograph Salicis cortex 2017.",
+    "indicaciones_principales": [
+      "cefalea tensional",
+      "dolor lumbar",
+      "artralgias leves",
+      "fiebre",
+      "dismenorrea"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina), AINEs (sinergia tóxica), metotrexato, antidiabéticos orales, IECA.",
+    "embarazo_lactancia": "Contraindicado especialmente en tercer trimestre; evitar en lactancia.",
+    "duracion_tratamiento": "Máximo 7-10 días seguidos",
+    "sinergia_plantas": [
+      "Sauce blanco",
+      "Matico",
+      "Manzanilla",
+      "Ulmaria"
+    ]
+  },
+  {
+    "id": 1127,
+    "titulo": "Vinagre de sauce y romero para dolores musculares",
+    "categoria": "Reumatismo",
+    "origen": "Tradicional europeo",
+    "ingredientes": "50 g corteza de sauce blanco, 30 g romero, 500 ml vinagre de manzana",
+    "preparacion": "Macerar 21 días en frasco vidrio agitando 2 veces por semana. Filtrar.",
+    "dosis": "Friccionar la zona dolorida 2-3 veces al día",
+    "modo_uso": "Linimento tópico",
+    "tiempo_prep": "21 días maceración",
+    "dificultad": "Media",
+    "rendimiento": "Aprox. 450 ml",
+    "conservacion": "1 año en frasco oscuro",
+    "evidencia": "Chrubasik S. para Salix. Pérez-Fons L. romero antiinflamatorio.",
+    "fuente_tradicion": "Linimentos europeos clásicos del siglo XIX",
+    "contraindicaciones": "Piel rota, dermatitis. Alergia a salicilatos. Evitar mucosas y ojos.",
+    "uso": "Salicilatos cutáneos inhiben COX local reduciendo dolor; ácido carnósico es antioxidante y mejora microcirculación; vinagre actúa como vehículo astringente.",
+    "principios_activos": "Salicina, salicortina, ácido carnósico, cineol, alcanfor.",
+    "propiedades": [
+      "analgésico tópico",
+      "antiinflamatorio",
+      "rubefaciente",
+      "circulatorio"
+    ],
+    "referencias": "Chrubasik S. et al., BMJ 2001;322:1148.",
+    "indicaciones_principales": [
+      "dolor lumbar",
+      "contracturas musculares",
+      "artralgias",
+      "tendinitis"
+    ],
+    "interacciones_medicamentos": "Uso tópico: poco riesgo sistémico.",
+    "embarazo_lactancia": "Evitar en abdomen.",
+    "duracion_tratamiento": "Hasta 14 días por episodio",
+    "sinergia_plantas": [
+      "Sauce",
+      "Romero",
+      "Árnica",
+      "Matico"
+    ]
   }
 ]

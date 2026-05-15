@@ -2381,5 +2381,278 @@
     ],
     "protegida": false,
     "imagen": ""
+  },
+  {
+    "id": 86,
+    "nombre": "Cedrón",
+    "cientifico": "Aloysia citrodora",
+    "familia": "Verbenaceae",
+    "parte": "Hojas",
+    "usos": "Digestivo carminativo, sedante suave, antiespasmódico. Tradicional para nervios, indigestión y cólicos. Aroma a limón muy apreciado en infusiones tarde-noche.",
+    "principios_activos": "Aceite esencial rico en citral (geranial + neral, 30-45%), limoneno, verbascósido (antioxidante y antiinflamatorio), flavonoides (luteolina). El citral actúa como espasmolítico sobre musculatura lisa intestinal; verbascósido inhibe ciclooxigenasa.",
+    "region": "Cultivada en todo Chile central y sur; introducida desde Sudamérica andina",
+    "chiloe": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Evitar dosis altas en embarazo (efecto uterotónico teórico del citral). Puede potenciar sedantes. No usar en insuficiencia hepática severa por uso prolongado.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "digestivo",
+      "nervios",
+      "insomnio",
+      "carminativo"
+    ],
+    "emoji": "🍋"
+  },
+  {
+    "id": 87,
+    "nombre": "Maitén",
+    "cientifico": "Maytenus boaria",
+    "familia": "Celastraceae",
+    "parte": "Corteza y hojas",
+    "usos": "Febrífugo, antiinflamatorio, vermífugo tradicional mapuche. Cataplasmas para dolores reumáticos. Las hojas se usaron para tratar fiebres palúdicas.",
+    "principios_activos": "Maitenina y pristimerina (triterpenos quinonametidos con actividad citotóxica y antitumoral estudiada), tinguenona, taninos. Pristimerina tiene actividad antiinflamatoria via NF-kB.",
+    "region": "Desde Coquimbo a Aysén; muy abundante en zona central y precordillera",
+    "chiloe": true,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "precaucion": "Maitenina es citotóxica: no usar internamente sin supervisión. Evitar en embarazo, lactancia y niños. Uso preferentemente externo.",
+    "peligroso": true,
+    "protegida": false,
+    "keywords": [
+      "mapuche",
+      "fiebre",
+      "reumatismo",
+      "antitumoral"
+    ],
+    "emoji": "🌳"
+  },
+  {
+    "id": 88,
+    "nombre": "Cardo Mariano",
+    "cientifico": "Silybum marianum",
+    "familia": "Asteraceae",
+    "parte": "Frutos (semillas)",
+    "usos": "Hepatoprotector de primer orden. Hígado graso, hepatitis tóxica, cirrosis, intoxicación por Amanita phalloides. Coadyuvante en quimioterapia. Aprobado por ESCOP y Comisión E alemana.",
+    "principios_activos": "Silimarina (complejo flavonolignanos: silibinina A y B, silicristina, silidianina) 1.5-3%. Silibinina estabiliza membrana hepatocítica, inhibe peroxidación lipídica, estimula síntesis proteica ribosomal y regenera hepatocitos.",
+    "region": "Naturalizado en zona central de Chile (Valparaíso a Biobío); maleza común",
+    "chiloe": false,
+    "meses": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Generalmente muy seguro. Posible diarrea leve. Cuidado en alérgicos a Asteraceae. Puede alterar metabolismo de fármacos vía CYP2C9 y CYP3A4 (warfarina, estatinas).",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "hígado",
+      "hepatoprotector",
+      "silimarina",
+      "desintoxicación"
+    ],
+    "emoji": "🌼"
+  },
+  {
+    "id": 89,
+    "nombre": "Bardana",
+    "cientifico": "Arctium lappa",
+    "familia": "Asteraceae",
+    "parte": "Raíz y hojas",
+    "usos": "Depurativo sanguíneo, diurético suave. Acné, eczema, psoriasis, forunculosis. Tradicionalmente para 'limpiar la sangre' en cuadros dermatológicos crónicos.",
+    "principios_activos": "Inulina (45% en raíz, prebiótico), arctigenina y arctiína (lignanos antiinflamatorios e inmunomoduladores), poliacetilenos antimicrobianos, ácido cafeoilquínico. Arctigenina inhibe NF-kB y TNF-α.",
+    "region": "Naturalizada en zona central y sur; bordes de caminos",
+    "chiloe": true,
+    "meses": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "precaucion": "Evitar en embarazo (efecto uterotónico). Diabéticos vigilar glicemia (hipoglucemiante). Posible alergia cruzada con Asteraceae.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "depurativo",
+      "piel",
+      "acné",
+      "sangre"
+    ],
+    "emoji": "🌱"
+  },
+  {
+    "id": 90,
+    "nombre": "Hierba del Paño",
+    "cientifico": "Verbascum thapsus",
+    "familia": "Scrophulariaceae",
+    "parte": "Flores y hojas",
+    "usos": "Expectorante y emoliente respiratorio. Bronquitis, tos seca, laringitis. Aceite floral para otitis. Aprobada por Comisión E alemana para catarros respiratorios.",
+    "principios_activos": "Mucílagos (3%) que recubren mucosas, saponinas (verbascosaponina) expectorantes, iridoides (aucubina, antiinflamatorio), verbascósido antioxidante, flavonoides.",
+    "region": "Naturalizada desde Coquimbo a Los Lagos; suelos áridos y caminos",
+    "chiloe": true,
+    "meses": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Filtrar muy bien las infusiones: los pelos de las hojas irritan garganta. Generalmente seguro. Precaución en embarazo por falta de datos.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "tos",
+      "bronquitis",
+      "expectorante",
+      "otitis"
+    ],
+    "emoji": "🕯️"
+  },
+  {
+    "id": 91,
+    "nombre": "Sauce Blanco",
+    "cientifico": "Salix alba",
+    "familia": "Salicaceae",
+    "parte": "Corteza",
+    "usos": "Analgésico, antipirético y antiinflamatorio natural. Precursor histórico de la aspirina. Cefaleas, dolores articulares, lumbalgia, fiebre. Avalado por ESCOP y EMA.",
+    "principios_activos": "Salicina (1-11%) que se metaboliza a ácido salicílico (inhibidor COX-1/COX-2), salicortina, taninos (10%), flavonoides. Acción más suave y gástrica-amigable que la aspirina por liberación lenta.",
+    "region": "Cultivado en zona central; orillas de ríos y canales en zona mediterránea",
+    "chiloe": false,
+    "meses": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "precaucion": "Contraindicado en alergia a salicilatos, asma sensible, úlcera péptica, niños con cuadros virales (riesgo Reye), embarazo (3er trimestre). Interacción con anticoagulantes, AINEs, metotrexato.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "dolor",
+      "fiebre",
+      "aspirina natural",
+      "inflamación"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": 92,
+    "nombre": "Achicoria",
+    "cientifico": "Cichorium intybus",
+    "familia": "Asteraceae",
+    "parte": "Raíz y hojas",
+    "usos": "Colerético, colagogo, aperitivo y prebiótico. Dispepsia, falta de apetito, congestión hepática leve. La raíz tostada sustituye al café sin cafeína.",
+    "principios_activos": "Inulina (40% en raíz, fibra prebiótica para Bifidobacterium), lactucina y lactucopicrina (sesquiterpenos amargos colagogos), ácido chicórico (antioxidante), cumarinas.",
+    "region": "Naturalizada en todo Chile central y sur; maleza de huertos",
+    "chiloe": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Evitar en obstrucción biliar y cálculos biliares grandes. Posible alergia en sensibles a Asteraceae. Hipoglucemiante leve: vigilar diabéticos.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "hígado",
+      "digestivo",
+      "prebiótico",
+      "amargo"
+    ],
+    "emoji": "🌸"
+  },
+  {
+    "id": 93,
+    "nombre": "Equiseto",
+    "cientifico": "Equisetum bogotense",
+    "familia": "Equisetaceae",
+    "parte": "Tallos estériles",
+    "usos": "Conocido como 'limpiaplata' o 'hierba de la plata'. Diurético remineralizante, hemostático, cicatrizante. Cistitis, edemas, fragilidad ungueal y capilar. Uso mapuche para heridas.",
+    "principios_activos": "Sílice soluble (5-8%, remineralizante de tejido conectivo), flavonoides (isoquercitrina, kenferol-glicósido) diuréticos, equisetonina (saponina), potasio. La sílice estimula síntesis de colágeno.",
+    "region": "Especie nativa sudamericana, desde Atacama a Magallanes; lugares húmedos",
+    "chiloe": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "precaucion": "No usar más de 6 semanas seguidas (riesgo de déficit de tiamina por tiaminasa). Contraindicado en cardiopatía, nefropatía severa, embarazo. Vigilar con diuréticos y digitálicos.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "diurético",
+      "huesos",
+      "uñas",
+      "cistitis"
+    ],
+    "emoji": "🌾"
+  },
+  {
+    "id": 94,
+    "nombre": "Ulmo",
+    "cientifico": "Eucryphia cordifolia",
+    "familia": "Cunoniaceae",
+    "parte": "Flores (miel monofloral) y corteza",
+    "usos": "Miel de ulmo: cicatrizante de heridas y úlceras, antibacteriano (validado contra MRSA en estudios chilenos). Corteza astringente para diarreas. Patrimonio del bosque valdiviano.",
+    "principios_activos": "Miel: peróxido de hidrógeno enzimático, metilglioxal, flavonoides (pinocembrina), bajo pH. Estudios de la U. Austral muestran actividad antimicrobiana comparable a miel de manuka. Corteza: taninos.",
+    "region": "Endémica del bosque valdiviano: Cautín a Chiloé",
+    "chiloe": true,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Miel: no dar a menores de 1 año (botulismo infantil). Diabéticos con moderación. Corteza: evitar uso prolongado por taninos.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "miel",
+      "cicatrizante",
+      "valdiviano",
+      "antibacteriano"
+    ],
+    "emoji": "🍯"
+  },
+  {
+    "id": 95,
+    "nombre": "Pillopillo",
+    "cientifico": "Ovidia pillopillo",
+    "familia": "Thymelaeaceae",
+    "parte": "Corteza y hojas (uso restringido)",
+    "usos": "Uso tradicional mapuche y chilote como purgante drástico, antirreumático y emético. Aplicado externamente en cataplasmas para dolores articulares severos. HOY se considera de uso reservado a especialistas.",
+    "principios_activos": "Daphnetoxina y mezereína (diterpenos altamente irritantes y cocarcinogénicos), cumarinas. Estos compuestos activan proteína quinasa C; son potentes vesicantes.",
+    "region": "Bosque valdiviano y chilote: Cautín a Aysén",
+    "chiloe": true,
+    "meses": [
+      12,
+      1,
+      2
+    ],
+    "precaucion": "PLANTA TÓXICA. No uso interno casero. Contacto con piel puede causar dermatitis severa. Documentar solo con fines etnobotánicos. Contraindicado siempre en embarazo, lactancia, niños.",
+    "peligroso": true,
+    "protegida": false,
+    "keywords": [
+      "mapuche",
+      "tóxica",
+      "etnobotánica",
+      "purgante"
+    ],
+    "emoji": "⚠️"
   }
 ]

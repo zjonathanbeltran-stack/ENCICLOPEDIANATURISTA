@@ -19,6 +19,7 @@ const MODULO_MAP = {
     dolores:        { file: 'data/modulos/dolores.json',        cats: ['Analgésico','Antiinflamatorio','Reumatismo','Dental'] },
     pediatrico:     { file: 'data/modulos/pediatrico.json',     cats: ['Pediátrico'] },
     general:        { file: 'data/modulos/general.json',        cats: ['Energizante','General','Alergia','Oftalmológico','Oídos'] },
+    inmunidad:      { file: 'data/modulos/inmunidad.json',      cats: ['Inmunidad'] },
 };
 const SISTEMA_A_MODULO = {
     digestivo: 'digestivo', respiratorio: 'respiratorio', nervioso: 'nervioso',
@@ -165,7 +166,7 @@ const SISTEMAS = [
         descripcion: 'Sistema inmune, fiebre y energía',
         gradient: 'var(--grad-defensas)',
         glyph: '⚡',
-        cats: ['Febrífugo', 'Energizante', 'Nutritivo', 'Alergia'],
+        cats: ['Inmunidad', 'Febrífugo', 'Energizante', 'Nutritivo', 'Alergia'],
         icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>'
     },
     {
@@ -283,6 +284,7 @@ const CATEGORIA_USO = {
     'Alimenticio':      'Rico en nutrientes esenciales; complementa la alimentación y apoya la salud integral.',
     'Medicina Mapuche': 'Preparación de la medicina tradicional mapuche; uso ceremonial y terapéutico ancestral.',
     'Inmunológico':     'Fortalece las defensas del organismo y ayuda a prevenir enfermedades infecciosas.',
+    'Inmunidad':        'Refuerza el sistema inmune, modula la respuesta defensiva y ayuda a prevenir infecciones recurrentes.',
     'Musculoesquelético': 'Alivia dolores musculares, contracturas y molestias en huesos y articulaciones.',
     'Piel':             'Trata diversas afecciones dérmicas, suaviza y regenera los tejidos cutáneos.',
     'General':          'Uso polivalente para el bienestar integral; tónico y revitalizante general.',
@@ -1585,7 +1587,7 @@ const CAT_GLYPHS = {
     'Reumatismo': '🦴', 'Antiinflamatorio': '🔥',
     'Diurético': '💧', 'Renal': '💧',
     'Oftalmológico': '👁️', 'Oídos': '👂', 'Dental': '🦷',
-    'Febrífugo': '🌡️', 'Energizante': '⚡', 'Nutritivo': '🌰', 'Alergia': '🌼', 'Medicina Mapuche': '🌳',
+    'Febrífugo': '🌡️', 'Energizante': '⚡', 'Nutritivo': '🌰', 'Alergia': '🌼', 'Medicina Mapuche': '🌳', 'Inmunidad': '🛡️',
     'Cosmético': '🌸', 'Cabello': '💇', 'Baño': '🛁', 'Espiritual': '✨', 'General': '🍃'
 };
 
@@ -2315,6 +2317,54 @@ function abrirDetalleReceta(id) {
                 <div class="principios-label">Principios activos</div>
                 <div class="principios-texto">${r.principios_activos}</div>
             </div>
+        </div>` : ''}
+
+        <!-- Indicaciones principales -->
+        ${r.indicaciones_principales && r.indicaciones_principales.length ? `
+        <div class="modal-divider"></div>
+        <div class="receta-indicaciones">
+            <div class="indic-icon">🎯</div>
+            <div class="indic-body">
+                <div class="indic-label">Indicaciones principales</div>
+                <div class="indic-chips">${r.indicaciones_principales.map(i => `<span class="indic-chip">${i}</span>`).join('')}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Sinergia con otras plantas -->
+        ${r.sinergia_plantas && r.sinergia_plantas.length ? `
+        <div class="modal-row">
+            <div class="ico">🌿</div>
+            <div>
+                <div class="label">Sinergia con</div>
+                <div class="value">${r.sinergia_plantas.join(' · ')}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Duración del tratamiento -->
+        ${r.duracion_tratamiento ? `
+        <div class="modal-row">
+            <div class="ico">⏳</div>
+            <div>
+                <div class="label">Duración del tratamiento</div>
+                <div class="value">${r.duracion_tratamiento}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Embarazo y lactancia -->
+        ${r.embarazo_lactancia ? `
+        <div class="modal-row">
+            <div class="ico">🤰</div>
+            <div>
+                <div class="label">Embarazo y lactancia</div>
+                <div class="value">${r.embarazo_lactancia}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Interacciones con medicamentos -->
+        ${r.interacciones_medicamentos ? `
+        <div class="alert-box warn receta-interacciones">
+            <span class="ico">💊</span>
+            <div><strong>Interacciones con medicamentos:</strong> ${r.interacciones_medicamentos}</div>
         </div>` : ''}
 
         <!-- Referencias -->
