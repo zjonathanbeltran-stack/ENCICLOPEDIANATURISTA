@@ -2099,98 +2099,200 @@ const _Q = 'w=800&h=350&fit=crop&q=88&auto=format';
 const _U = id => `https://images.unsplash.com/photo-${id}?${_Q}`;
 const _RECETA_FOTOS = {
     // Imagen local: taza de infusión de manzanilla con hierbas medicinales
-    infusion:   'img/receta-infusion.png',
+    infusion:      'img/receta-infusion.png',
+    // Imagen local: tetera con hierbas frescas (Wikimedia CC BY 3.0)
+    infusion2:     'img/receta-infusion-herbal.jpg',
     // Caldo/sopa: bol negro profundo con caldo oscuro humeante
-    caldo:      _U('1547592180-85f173990554'),
+    caldo:         _U('1547592180-85f173990554'),
     // Imagen local: tetera negra humeante con hierbas en mesa rústica
-    decoccion:  'img/receta-decoccion.png',
+    decoccion:     'img/receta-decoccion.png',
     // Tintura: frascos de vidrio ámbar con gotero, fondo oscuro artesanal
-    tintura:    _U('1608571423902-eed4a5ad8108'),
+    tintura:       _U('1608571423902-eed4a5ad8108'),
     // Imagen local: pasta de hierbas sobre tela, cataplasma tradicional
-    cataplasma: 'img/receta-cataplasma.png',
+    cataplasma:    'img/receta-cataplasma.png',
     // Imagen local: misma base de cataplasma (compresa de hierbas)
-    compresa:   'img/receta-cataplasma.png',
+    compresa:      'img/receta-cataplasma.png',
     // Jarabe: cuchara con miel ámbar y hierbas sobre piedra negra
-    jarabe:     _U('1587049352846-4a222e784d38'),
+    jarabe:        _U('1587049352846-4a222e784d38'),
     // Vapor/inhalación: cuenco humeante con eucalipto, ambiente íntimo
-    vapor:      _U('1600334129128-685c5582fd35'),
+    vapor:         _U('1600334129128-685c5582fd35'),
     // Baño herbal: bañera oscura con pétalos y hojas flotando
-    bano:       _U('1585565882088-68a97e0a7a5e'),
+    bano:          _U('1585565882088-68a97e0a7a5e'),
     // Crema/ungüento: frascos de vidrio oscuro con tapa dorada, botánica
-    crema:      _U('1596755389378-c31d21fd1273'),
+    crema:         _U('1596755389378-c31d21fd1273'),
     // Masaje: manos aplicando aceite sobre piel, iluminación cálida lateral
-    masaje:     _U('1519823551278-64ac92734fb1'),
+    masaje:        _U('1519823551278-64ac92734fb1'),
     // Enjuague/gargarismo: líquido verde oscuro en vaso de cristal
-    enjuague:   _U('1559181567-c3190976b3d1'),
+    enjuague:      _U('1559181567-c3190976b3d1'),
     // Ritual/espiritual: velas y hierbas en espacio ceremonial oscuro
-    ritual:     _U('1519681393784-d120267933ba'),
+    ritual:        _U('1519681393784-d120267933ba'),
     // Aceite esencial: frascos ámbar con hierbas, madera oscura
-    aceite:     _U('1474979266404-7eaacbcd87c5'),
+    aceite:        _U('1474979266404-7eaacbcd87c5'),
     // Mate: mate tradicional con bombilla sobre mesa rústica
-    mate:       _U('1589396575653-c09c794ff6a6'),
+    mate:          _U('1589396575653-c09c794ff6a6'),
     // Jugo/zumo: vaso de jugo verde oscuro con hierbas frescas
-    jugo:       _U('1546173159-315724a31696'),
+    jugo:          _U('1546173159-315724a31696'),
     // Polvo: especias y polvos medicinales en cucharas de madera oscura
-    polvo:      _U('1615485290382-441e4d049cb5'),
+    polvo:         _U('1615485290382-441e4d049cb5'),
+    // Imagen local: palitos de aromaterapia e incienso (Wikimedia CC0)
+    aromaterapia:  'img/receta-aromaterapia.jpg',
+    // Imagen local: batido verde saludable en bowl (Wikimedia CC BY-SA 4.0)
+    batido:        'img/receta-batido.jpg',
+    // Imagen local: ensalada fresca de jardín con hierbas (Wikimedia CC BY-SA 2.0)
+    ensalada:      'img/receta-ensalada.jpg',
+    // Imagen local: bebida medicinal con raíz de ginseng (Wikimedia CC BY-SA 2.0)
+    bebida:        'img/receta-bebida.jpg',
+    // Mermelada/confitura: Unsplash frascos artesanales con frutas
+    mermelada:     _U('1558618666-fcd25c85cd64'),
+    // Licor/macerado: Unsplash botella de licor artesanal oscura
+    licor:         _U('1569529465841-dfecdab7503b'),
     // Default: colección botánica de hierbas medicinales sobre fondo negro
-    default:    _U('1515377905703-c4788e51af15'),
+    default:       _U('1515377905703-c4788e51af15'),
 };
 
 function fotoDeReceta(r) {
     const t = (r.titulo || '').toLowerCase();
     const m = (r.modo_uso || '').toLowerCase();
+    const cat = (r.categoria || '').toLowerCase();
 
-    // Tipos de preparación explícitos en el título — mayor prioridad
-    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té '))
+    // ── Por título (mayor prioridad) ──────────────────────────────────
+    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té ') || t.includes('agüita') || t.includes('aguita'))
         return _RECETA_FOTOS.infusion;
     if (t.includes('decocción') || t.includes('decoccion'))
         return _RECETA_FOTOS.decoccion;
-    if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé'))
+    if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé') || t.includes('consome'))
         return _RECETA_FOTOS.caldo;
     if (t.includes('jarabe') || t.includes('sirope'))
         return _RECETA_FOTOS.jarabe;
     if (t.includes('tintura'))
         return _RECETA_FOTOS.tintura;
-    if (t.includes('cataplasma') || t.includes('emplasto') || t.includes('parche'))
+    if (t.includes('cataplasma') || t.includes('emplasto') || t.includes('parche') || t.includes('fomento'))
         return _RECETA_FOTOS.cataplasma;
     if (t.includes('compresa'))
         return _RECETA_FOTOS.compresa;
-    if (t.includes('pomada') || t.includes('ungüento') || t.includes('bálsamo'))
+    if (t.includes('pomada') || t.includes('ungüento') || t.includes('bálsamo') || t.includes('balsa'))
         return _RECETA_FOTOS.crema;
-    if (t.includes('crema') || t.includes('loción') || t.includes('mascarilla'))
+    if (t.includes('crema') || t.includes('loción') || t.includes('mascarilla') || t.includes('pasta dental'))
         return _RECETA_FOTOS.crema;
-    if (t.includes('aceite'))
+    if (t.includes('aceite') || t.includes('linimento'))
         return _RECETA_FOTOS.aceite;
-    if (t.includes('vapor') || t.includes('inhalación') || t.includes('sahumerio'))
+    if (t.includes('vapor') || t.includes('inhalación') || t.includes('inhalacion') || t.includes('sahumerio') || t.includes('vahos'))
         return _RECETA_FOTOS.vapor;
-    if (t.includes('mate ') || t.startsWith('mate'))
-        return _RECETA_FOTOS.mate;
+    if (t.includes('mate ') || t.startsWith('mate') || t.includes('lawen'))
+        return _RECETA_FOTOS.infusion2;
     if (t.includes('jugo') || t.includes('zumo'))
         return _RECETA_FOTOS.jugo;
-    if (t.includes('polvo') || t.includes('especia'))
+    if (t.includes('batido') || t.includes('smoothie') || t.includes('licuado') || t.includes('tónico') || t.includes('tonico'))
+        return _RECETA_FOTOS.batido;
+    if (t.includes('ensalada') || t.includes('vinagreta') || t.includes('aderezo'))
+        return _RECETA_FOTOS.ensalada;
+    if (t.includes('mermelada') || t.includes('confitura') || t.includes('jalea'))
+        return _RECETA_FOTOS.mermelada;
+    if (t.includes('licor') || t.includes('aguardiente') || t.includes('vino ') || t.includes('macerado') || t.includes('maceración'))
+        return _RECETA_FOTOS.licor;
+    if (t.includes('vinagre') || t.includes('shrub'))
+        return _RECETA_FOTOS.licor;
+    if (t.includes('polvo') || t.includes('especia') || t.startsWith('semillas'))
         return _RECETA_FOTOS.polvo;
-    // "baño" al final del título-check: solo gana si la receta es realmente un baño
-    if (t.startsWith('baño') || t.startsWith('tina') || t.startsWith('pedilu'))
+    if (t.includes('avena') || t.includes('granola') || t.includes('muesli'))
+        return _RECETA_FOTOS.batido;
+    if (t.startsWith('agua de') || t.startsWith('agua tibia') || t.startsWith('agua alcalin') || t.includes('bebida ') || t.includes('tónico de') || t.includes('tonico de'))
+        return _RECETA_FOTOS.bebida;
+    if (t.includes('aromaterapia') || t.includes('almohada') || t.includes('difusor'))
+        return _RECETA_FOTOS.aromaterapia;
+    if (t.includes('compota') || t.includes('caramelo') || t.includes('pastilla') || t.includes('gominola'))
+        return _RECETA_FOTOS.mermelada;
+    if (t.includes('kéfir') || t.includes('kefir') || t.includes('leche de') || t.startsWith('latte') || t.includes('latte '))
+        return _RECETA_FOTOS.batido;
+    if (t.includes('spray') || t.includes('gargarismo') || t.includes('enjuague'))
+        return _RECETA_FOTOS.enjuague;
+    if (t.startsWith('compress') || t.includes('arcilla'))
+        return _RECETA_FOTOS.cataplasma;
+    if (t.includes('suplemento') || t.includes('protocolo') || t.includes('melatonina'))
+        return _RECETA_FOTOS.bebida;
+    if (t.startsWith('mezcla de tés') || t.startsWith('mezcla de te') || t.includes('kava ') || t.startsWith('kava'))
+        return _RECETA_FOTOS.infusion;
+    if (t.startsWith('miel ') || t.startsWith('miel de') || t.startsWith('miel con'))
+        return _RECETA_FOTOS.jarabe;
+    if (t.startsWith('baño') || t.startsWith('tina') || t.startsWith('pedilu') || t.startsWith('bano'))
         return _RECETA_FOTOS.bano;
 
-    // Luego por modo_uso
+    // ── Por modo_uso (segundo nivel) ───────────────────────────────────
     if (m.includes('decoc'))    return _RECETA_FOTOS.decoccion;
-    if (m.includes('cataplas')) return _RECETA_FOTOS.cataplasma;
+    if (m.includes('cataplas') || m.includes('emplasto')) return _RECETA_FOTOS.cataplasma;
     if (m.includes('compres'))  return _RECETA_FOTOS.compresa;
     if (m.includes('jarabe'))   return _RECETA_FOTOS.jarabe;
-    if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer'))
-        return _RECETA_FOTOS.vapor;
-    if (m.includes('ritual') || m.includes('ceremon'))  return _RECETA_FOTOS.ritual;
+    if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer') || m.includes('aromaterapia') || m.includes('ambiental'))
+        return _RECETA_FOTOS.aromaterapia;
+    if (m.includes('ritual') || m.includes('ceremon') || m.includes('ngillatun') || m.includes('machitun'))
+        return _RECETA_FOTOS.ritual;
     if (m.includes('masaje') || m.includes('fricci'))   return _RECETA_FOTOS.masaje;
     if (m.includes('crema') || m.includes('mascaril') || m.includes('ungüent') || m.includes('pomada'))
         return _RECETA_FOTOS.crema;
-    if (m.includes('aceite'))   return _RECETA_FOTOS.aceite;
-    if (m.includes('enjuag') || m.includes('lavad') || m.includes('gargar'))
+    if (m.includes('aceite') || m.includes('tópico') || m.includes('topico'))   return _RECETA_FOTOS.aceite;
+    if (m.includes('enjuag') || m.includes('gargar') || m.includes('no tragar') || m.includes('escupir'))
         return _RECETA_FOTOS.enjuague;
-    if (m.includes('baño') || m.includes('bano') || m.includes('inmersi'))
+    if (m.includes('lavad') && (m.includes('vaginal') || m.includes('intim') || m.includes('nasal')))
+        return _RECETA_FOTOS.enjuague;
+    if (m.includes('baño') || m.includes('bano') || m.includes('inmersi') || m.includes('pediluvio'))
         return _RECETA_FOTOS.bano;
     if (m.includes('infusi') || m.includes('tisana'))
         return _RECETA_FOTOS.infusion;
+    // Preparaciones orales específicas
+    if (m.includes('ensalada') || m.includes('crudo') || m.includes('fresco'))
+        return _RECETA_FOTOS.ensalada;
+    if (m.includes('batido') || m.includes('licuado') || m.includes('smoothie') || m.includes('bowl'))
+        return _RECETA_FOTOS.batido;
+    if (m.includes('mermelada') || m.includes('confitura') || m.includes('jalea'))
+        return _RECETA_FOTOS.mermelada;
+    if (m.includes('licor') || m.includes('aguardiente') || m.includes('vino') || m.includes('macerac') || m.includes('macerado'))
+        return _RECETA_FOTOS.licor;
+    if (m.includes('jugo') || m.includes('zumo'))
+        return _RECETA_FOTOS.jugo;
+    if (m.includes('caldo') || m.includes('sopa') || m.includes('consomé'))
+        return _RECETA_FOTOS.caldo;
+    // Bebidas orales genéricas (Tomar / Beber / Consumir)
+    if (m.startsWith('tomar') || m.startsWith('beber') || m.includes('oral') || m.includes('bebida'))
+        return _RECETA_FOTOS.bebida;
+    if (m.startsWith('consumir') || m.startsWith('servir') || m.startsWith('comer'))
+        return _RECETA_FOTOS.ensalada;
+    // Condimentos y preparaciones culinarias
+    if (m.includes('condimento') || m.includes('culinari') || m.includes('vinagre') || m.includes('adobo') || m.includes('aderezo'))
+        return _RECETA_FOTOS.ensalada;
+    // Masticar / semillas
+    if (m.startsWith('masticar') || m.includes('moler') || m.includes('semilla'))
+        return _RECETA_FOTOS.polvo;
+    // Uso tópico externo genérico
+    if (m.includes('solo') && (m.includes('externo') || m.includes('extern')))
+        return _RECETA_FOTOS.crema;
+    if (m.includes('aplicación tópica') || m.includes('aplicacion topica'))
+        return _RECETA_FOTOS.crema;
+    // Gárgaras / pasta dental
+    if (m.includes('gárgar') || m.includes('gargar') || m.includes('pasta dental') || m.includes('dental'))
+        return _RECETA_FOTOS.enjuague;
+    // Tintura amarga / tintura
+    if (m.includes('tintura'))
+        return _RECETA_FOTOS.tintura;
+    // Secar pies / hongos → es un baño de pies
+    if (m.includes('pies') || m.includes('hongos proliferan'))
+        return _RECETA_FOTOS.bano;
+    // Incienso / difusión aromática
+    if (m.includes('difusi') || m.includes('incienso') || m.includes('incens'))
+        return _RECETA_FOTOS.aromaterapia;
+    // Hidratación / electrolitos / recuperación → bebida
+    if (m.includes('hidrat') || m.includes('electrolit') || m.includes('ejercicio') || m.includes('rehidrat'))
+        return _RECETA_FOTOS.bebida;
+    // Fermentados / probióticos → batido/ensalada
+    if (m.includes('ferment') || m.includes('probiótic') || m.includes('probiotic'))
+        return _RECETA_FOTOS.batido;
+
+    // ── Por categoría como último recurso ──────────────────────────────
+    if (cat === 'espiritual' || cat === 'medicina mapuche') return _RECETA_FOTOS.ritual;
+    if (cat === 'alimenticio' || cat === 'nutritivo')       return _RECETA_FOTOS.ensalada;
+    if (cat === 'cosmético' || cat === 'cabello')           return _RECETA_FOTOS.crema;
+    if (cat === 'baño')                                     return _RECETA_FOTOS.bano;
+    if (cat === 'antiparasitario')                          return _RECETA_FOTOS.bebida;
+    if (cat === 'energizante')                              return _RECETA_FOTOS.batido;
 
     return _RECETA_FOTOS.default;
 }
