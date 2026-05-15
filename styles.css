@@ -5001,11 +5001,16 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 14px 0 6px;
 }
 .para-que-icon {
-    font-size: 1.5rem;
-    line-height: 1;
+    width: 34px; height: 34px;
+    border-radius: 10px;
+    background: rgba(155,187,122,0.10);
+    border: 1px solid rgba(155,187,122,0.28);
+    display: grid;
+    place-items: center;
+    color: var(--moss-bright);
     flex-shrink: 0;
-    margin-top: 2px;
 }
+.para-que-icon svg { display: block; }
 .para-que-body {
     flex: 1;
     min-width: 0;

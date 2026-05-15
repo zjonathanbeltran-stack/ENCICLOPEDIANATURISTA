@@ -2319,7 +2319,7 @@ function abrirDetalleReceta(id) {
         <!-- Uso -->
         ${(() => { const pqs = r.uso || getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
-            <div class="para-que-icon">🎯</div>
+            <div class="para-que-icon">${_SVG_INDIC}</div>
             <div class="para-que-body">
                 <div class="para-que-label">Uso</div>
                 <div class="para-que-texto">${pqs}</div>
