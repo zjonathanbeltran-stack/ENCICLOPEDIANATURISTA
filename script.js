@@ -2094,60 +2094,33 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
-// ── Fotos curadas por tipo de preparación — estética editorial oscura ──
-const _Q = 'w=800&h=350&fit=crop&q=88&auto=format';
-const _U = id => `https://images.unsplash.com/photo-${id}?${_Q}`;
+// ── Fotos curadas por tipo de preparación ──
 const _RECETA_FOTOS = {
-    // Imagen local: taza de infusión de manzanilla con hierbas medicinales
-    infusion:      'img/receta-infusion.png',
-    // Imagen local: tetera con hierbas frescas (Wikimedia CC BY 3.0)
-    infusion2:     'img/receta-infusion-herbal.jpg',
-    // Caldo/sopa: bol negro profundo con caldo oscuro humeante
-    caldo:         _U('1547592180-85f173990554'),
-    // Imagen local: tetera negra humeante con hierbas en mesa rústica
+    infusion:      'img/receta-tisana.png',
+    infusion2:     'img/receta-infusion-herbal.png',
     decoccion:     'img/receta-decoccion.png',
-    // Tintura: frascos de vidrio ámbar con gotero, fondo oscuro artesanal
-    tintura:       _U('1608571423902-eed4a5ad8108'),
-    // Imagen local: pasta de hierbas sobre tela, cataplasma tradicional
+    caldo:         'img/receta-decoccion.png',
+    jarabe:        'img/receta-tisana.png',
+    tintura:       'img/receta-aceite.png',
     cataplasma:    'img/receta-cataplasma.png',
-    // Imagen local: misma base de cataplasma (compresa de hierbas)
-    compresa:      'img/receta-cataplasma.png',
-    // Jarabe: cuchara con miel ámbar y hierbas sobre piedra negra
-    jarabe:        _U('1587049352846-4a222e784d38'),
-    // Vapor/inhalación: cuenco humeante con eucalipto, ambiente íntimo
-    vapor:         _U('1600334129128-685c5582fd35'),
-    // Baño herbal: bañera oscura con pétalos y hojas flotando
-    bano:          _U('1585565882088-68a97e0a7a5e'),
-    // Crema/ungüento: frascos de vidrio oscuro con tapa dorada, botánica
-    crema:         _U('1596755389378-c31d21fd1273'),
-    // Masaje: manos aplicando aceite sobre piel, iluminación cálida lateral
-    masaje:        _U('1519823551278-64ac92734fb1'),
-    // Enjuague/gargarismo: líquido verde oscuro en vaso de cristal
-    enjuague:      _U('1559181567-c3190976b3d1'),
-    // Ritual/espiritual: velas y hierbas en espacio ceremonial oscuro
-    ritual:        _U('1519681393784-d120267933ba'),
-    // Aceite esencial: frascos ámbar con hierbas, madera oscura
-    aceite:        _U('1474979266404-7eaacbcd87c5'),
-    // Mate: mate tradicional con bombilla sobre mesa rústica
-    mate:          _U('1589396575653-c09c794ff6a6'),
-    // Jugo/zumo: vaso de jugo verde oscuro con hierbas frescas
-    jugo:          _U('1546173159-315724a31696'),
-    // Polvo: especias y polvos medicinales en cucharas de madera oscura
-    polvo:         _U('1615485290382-441e4d049cb5'),
-    // Imagen local: palitos de aromaterapia e incienso (Wikimedia CC0)
-    aromaterapia:  'img/receta-aromaterapia.jpg',
-    // Imagen local: batido verde saludable en bowl (Wikimedia CC BY-SA 4.0)
-    batido:        'img/receta-batido.jpg',
-    // Imagen local: ensalada fresca de jardín con hierbas (Wikimedia CC BY-SA 2.0)
+    compresa:      'img/receta-compresa.png',
+    crema:         'img/receta-unguento.png',
+    aceite:        'img/receta-aceite.png',
+    vapor:         'img/receta-aromaterapia.png',
+    aromaterapia:  'img/receta-aromaterapia.png',
+    bano:          'img/receta-bano.png',
+    masaje:        'img/receta-aceite.png',
+    enjuague:      'img/receta-compresa2.png',
+    ritual:        'img/receta-aromaterapia.png',
+    jugo:          'img/receta-zumo.png',
+    batido:        'img/receta-batido.png',
     ensalada:      'img/receta-ensalada.jpg',
-    // Imagen local: bebida medicinal con raíz de ginseng (Wikimedia CC BY-SA 2.0)
-    bebida:        'img/receta-bebida.jpg',
-    // Mermelada/confitura: Unsplash frascos artesanales con frutas
-    mermelada:     _U('1558618666-fcd25c85cd64'),
-    // Licor/macerado: Unsplash botella de licor artesanal oscura
-    licor:         _U('1569529465841-dfecdab7503b'),
-    // Default: colección botánica de hierbas medicinales sobre fondo negro
-    default:       _U('1515377905703-c4788e51af15'),
+    bebida:        'img/receta-bebida.png',
+    mermelada:     'img/receta-tisana.png',
+    licor:         'img/receta-bebida.png',
+    polvo:         'img/receta-tisana.png',
+    mate:          'img/receta-infusion-herbal.png',
+    default:       'img/receta-infusion-herbal.png',
 };
 
 function fotoDeReceta(r) {
