@@ -234,7 +234,22 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Sudoración nocturna",
+      "Sofocos menopáusicos",
+      "Hiperhidrosis",
+      "Inflamación oral",
+      "Trastornos menstruales"
+    ],
+    "interacciones_medicamentos": "Tujona interactúa con anticonvulsivos, sedantes, antidiabéticos; suprime lactancia.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (abortivo) y lactancia (antigalactogogo).",
+    "duracion_tratamiento": "Máximo 4-8 semanas continuas; descansar entre ciclos.",
+    "sinergia_plantas": [
+      "pasiflora",
+      "melisa",
+      "tila"
+    ]
   },
   {
     "id": 87,
@@ -261,7 +276,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ojos cansados",
+      "Conjuntivitis leve",
+      "Orzuelo",
+      "Irritación ocular",
+      "Blefaritis"
+    ],
+    "interacciones_medicamentos": "Uso tópico ocular, sin interacciones sistémicas; precaución con alergia a asteráceas.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia para uso tópico.",
+    "duracion_tratamiento": "Aplicación 2-3 veces al día por máximo 7 días.",
+    "sinergia_plantas": [
+      "caléndula",
+      "llantén",
+      "rosa mosqueta"
+    ]
   },
   {
     "id": 108,
@@ -326,7 +356,22 @@
       "emoliente",
       "galactagogo"
     ],
-    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Líbido baja",
+      "Astenia sexual",
+      "Fatiga",
+      "Piel seca",
+      "Síntomas climatéricos leves"
+    ],
+    "interacciones_medicamentos": "Alcaloides pirrolizidínicos hepatotóxicos; evitar con paracetamol y otros hepatotóxicos; precaución con anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por alcaloides hepatotóxicos.",
+    "duracion_tratamiento": "Máximo 7 días; no uso prolongado por hepatotoxicidad.",
+    "sinergia_plantas": [
+      "maca",
+      "melisa",
+      "cedrón"
+    ]
   },
   {
     "id": 125,
@@ -353,7 +398,22 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Otalgia leve",
+      "Otitis externa no perforante",
+      "Infecciones óticas leves",
+      "Tapón ceruminoso",
+      "Dolor referido"
+    ],
+    "interacciones_medicamentos": "Carvacrol potencia anticoagulantes e hipoglucemiantes; uso tópico ótico con baja absorción.",
+    "embarazo_lactancia": "Precaución en embarazo en uso medicinal; uso tópico ótico aceptable.",
+    "duracion_tratamiento": "Máximo 3-5 días; si no mejora consultar otorrino.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "matico",
+      "tomillo"
+    ]
   },
   {
     "id": 128,
@@ -380,7 +440,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Falta de concentración",
+      "Fatiga mental",
+      "Astenia",
+      "Mala memoria",
+      "Cefalea por estrés"
+    ],
+    "interacciones_medicamentos": "Potencia anticoagulantes y antihipertensivos; reduce eficacia de hierro oral y litio.",
+    "embarazo_lactancia": "Contraindicado en embarazo en dosis medicinales (emenagogo); precaución en lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1 semana.",
+    "sinergia_plantas": [
+      "melisa",
+      "cedrón",
+      "menta"
+    ]
   },
   {
     "id": 129,

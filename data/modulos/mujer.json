@@ -236,7 +236,22 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Síntomas de menopausia",
+      "Insomnio menopáusico",
+      "Sofocos leves",
+      "Ansiedad climatérica",
+      "Irritabilidad"
+    ],
+    "interacciones_medicamentos": "Potencia benzodiazepinas, antidepresivos y antihipertensivos; precaución con IMAOs y anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo (uterotónico) y lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "salvia",
+      "melisa",
+      "tila"
+    ]
   },
   {
     "id": 288,
@@ -264,7 +279,22 @@
       "antioxidante",
       "antisudorífico"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Sofocos menopáusicos",
+      "Sudoración nocturna",
+      "Hiperhidrosis",
+      "Inflamación oral",
+      "Trastornos menstruales"
+    ],
+    "interacciones_medicamentos": "Tujona en salvia interactúa con anticonvulsivos, sedantes, antidiabéticos e inhibe lactancia (antigalactogogo).",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (abortivo por tujona) y lactancia (suprime producción de leche).",
+    "duracion_tratamiento": "Máximo 8 semanas continuas; descansar entre ciclos.",
+    "sinergia_plantas": [
+      "pasiflora",
+      "melisa",
+      "tila"
+    ]
   },
   {
     "id": 289,
@@ -291,7 +321,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Desequilibrio hormonal menopáusico",
+      "Insomnio menopáusico",
+      "Sofocos",
+      "Ansiedad climatérica",
+      "Libido baja"
+    ],
+    "interacciones_medicamentos": "Lúpulo potencia sedantes, alcohol y anticonceptivos (fitoestrógenos); precaución con tamoxifeno y terapia hormonal.",
+    "embarazo_lactancia": "Contraindicado en embarazo por fitoestrógenos; precaución en lactancia.",
+    "duracion_tratamiento": "Máximo 6 semanas; descansar 2 semanas.",
+    "sinergia_plantas": [
+      "salvia",
+      "melisa",
+      "pasiflora"
+    ]
   },
   {
     "id": 290,
@@ -319,7 +364,22 @@
       "cicatrizante",
       "sedante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dismenorrea nocturna",
+      "Cólicos menstruales",
+      "Insomnio premenstrual",
+      "Tensión pélvica",
+      "Ansiedad cíclica"
+    ],
+    "interacciones_medicamentos": "Valeriana potencia sedantes, benzodiazepinas y alcohol; manzanilla potencia anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por valeriana.",
+    "duracion_tratamiento": "Uso cíclico durante menstruación; máximo 5-7 días por mes.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "melisa",
+      "pasiflora"
+    ]
   },
   {
     "id": 291,
@@ -346,7 +406,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "Mastitis leve",
+      "Ingurgitación mamaria",
+      "Inflamación localizada",
+      "Congestión láctea",
+      "Dolor mamario"
+    ],
+    "interacciones_medicamentos": "Uso tópico, sin interacciones sistémicas; precaución con alergias a nalca.",
+    "embarazo_lactancia": "Aceptable en lactancia para uso tópico; limpiar antes de amamantar.",
+    "duracion_tratamiento": "Aplicación cada hora por 24-48 horas; si no mejora, consultar.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "manzanilla"
+    ]
   },
   {
     "id": 292,

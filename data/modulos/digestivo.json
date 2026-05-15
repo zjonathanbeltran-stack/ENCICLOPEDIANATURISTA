@@ -351,7 +351,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia funcional",
+      "Flatulencia",
+      "Espasmos intestinales",
+      "Náuseas leves",
+      "Síndrome de intestino irritable"
+    ],
+    "interacciones_medicamentos": "Mentol puede reducir absorción de hierro; precaución con ciclosporina y antiácidos; té verde con anticoagulantes (warfarina).",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia por cafeína del té verde y mentol; consultar profesional.",
+    "duracion_tratamiento": "Uso continuo moderado seguro (1 taza/día); en dosis altas máximo 4 semanas.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "cedrón",
+      "boldo"
+    ]
   },
   {
     "id": 65,
@@ -378,7 +393,22 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Diarrea aguda no infecciosa",
+      "Espasmos abdominales",
+      "Flatulencia",
+      "Dispepsia",
+      "Náuseas"
+    ],
+    "interacciones_medicamentos": "Eugenol potencia anticoagulantes (warfarina, aspirina) por inhibición plaquetaria; precaución con paracetamol e inductores de CYP.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia; no usar dosis altas.",
+    "duracion_tratamiento": "Máximo 48 horas; si persiste consultar médico.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "manzanilla"
+    ]
   },
   {
     "id": 66,
@@ -424,7 +454,22 @@
       "expectorante",
       "digestivo"
     ],
-    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Meteorismo",
+      "Flatulencia",
+      "Cólicos del lactante",
+      "Dispepsia",
+      "Estimulación de la lactancia"
+    ],
+    "interacciones_medicamentos": "Trans-anetol potencia estrógenos (terapia hormonal, anticonceptivos) y tamoxifeno; precaución con ciprofloxacino.",
+    "embarazo_lactancia": "Seguro en lactancia como galactogogo en dosis moderadas; evitar dosis altas en embarazo.",
+    "duracion_tratamiento": "Hasta 2 semanas continuas; descansar 1 semana.",
+    "sinergia_plantas": [
+      "anís",
+      "manzanilla",
+      "cedrón"
+    ]
   },
   {
     "id": 84,
@@ -451,7 +496,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Digestión lenta",
+      "Flatulencia",
+      "Espasmos intestinales",
+      "Náuseas leves",
+      "Halitosis"
+    ],
+    "interacciones_medicamentos": "Mentol y catequinas del té verde pueden interactuar con anticoagulantes, hierro oral y ciclosporina.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia por cafeína; consultar profesional.",
+    "duracion_tratamiento": "Uso continuo moderado (1 taza/día); evitar dosis altas prolongadas.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "boldo",
+      "cedrón"
+    ]
   },
   {
     "id": 92,
@@ -478,7 +538,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Anemia ferropénica leve",
+      "Astenia",
+      "Fatiga crónica",
+      "Convalecencia",
+      "Déficit nutricional"
+    ],
+    "interacciones_medicamentos": "Ortiga potencia antihipertensivos, antidiabéticos, diuréticos y anticoagulantes; romero potencia anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo por el romero (emenagogo); ortiga sola es aceptable en lactancia.",
+    "duracion_tratamiento": "Curas de 3 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "llantén",
+      "diente de león",
+      "maqui"
+    ]
   },
   {
     "id": 101,

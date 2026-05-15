@@ -294,7 +294,22 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Tensión muscular",
+      "Estrés",
+      "Dolor articular leve",
+      "Insomnio",
+      "Fatiga corporal"
+    ],
+    "interacciones_medicamentos": "Uso tópico, baja absorción sistémica; canelo poligodial puede ser irritante en piel sensible.",
+    "embarazo_lactancia": "Contraindicado en embarazo avanzado por canelo; precaución general en embarazo.",
+    "duracion_tratamiento": "Uso puntual 2-3 veces por semana.",
+    "sinergia_plantas": [
+      "lavanda",
+      "manzanilla",
+      "matico"
+    ]
   },
   {
     "id": 40,
@@ -322,7 +337,22 @@
       "expectorante",
       "mucolítico"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Eccema",
+      "Prurito",
+      "Irritaciones cutáneas leves",
+      "Dolor muscular localizado",
+      "Picaduras de insecto"
+    ],
+    "interacciones_medicamentos": "Uso tópico; quillay contiene saponinas que pueden irritar mucosas; sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Aceptable en embarazo y lactancia en uso tópico moderado; evitar en mamas durante lactancia.",
+    "duracion_tratamiento": "Aplicación 2-3 veces al día hasta 2 semanas.",
+    "sinergia_plantas": [
+      "caléndula",
+      "matico",
+      "llantén"
+    ]
   },
   {
     "id": 46,
@@ -387,7 +417,22 @@
       "antiinflamatorio",
       "cicatrizante"
     ],
-    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Quemaduras leves de primer grado",
+      "Cortes superficiales",
+      "Dolor muscular",
+      "Cicatrización",
+      "Neuralgias localizadas"
+    ],
+    "interacciones_medicamentos": "Hipérico induce potentemente CYP3A4, reduciendo eficacia de anticonceptivos, anticoagulantes, ISRS, antirretrovirales, ciclosporina; uso tópico tiene menor riesgo pero precaución por fotosensibilidad.",
+    "embarazo_lactancia": "Contraindicado uso oral en embarazo y lactancia; uso tópico con precaución.",
+    "duracion_tratamiento": "Aplicación 2-3 veces al día hasta cicatrización; evitar exposición solar.",
+    "sinergia_plantas": [
+      "caléndula",
+      "matico",
+      "llantén"
+    ]
   },
   {
     "id": 60,
@@ -414,7 +459,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Caída del cabello",
+      "Alopecia leve",
+      "Cuero cabelludo graso",
+      "Caspa",
+      "Debilidad capilar"
+    ],
+    "interacciones_medicamentos": "Uso tópico, baja absorción; precaución si hay heridas en cuero cabelludo.",
+    "embarazo_lactancia": "Evitar uso tópico extenso en embarazo en primer trimestre; aceptable en lactancia.",
+    "duracion_tratamiento": "Aplicación diaria por 8-12 semanas; evaluar resultados.",
+    "sinergia_plantas": [
+      "ortiga",
+      "matico",
+      "lavanda"
+    ]
   },
   {
     "id": 62,
@@ -441,7 +501,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hemorroides",
+      "Inflamación perianal",
+      "Irritación vulvovaginal leve",
+      "Cicatrización postparto",
+      "Prurito anal"
+    ],
+    "interacciones_medicamentos": "Uso externo, sin interacciones sistémicas relevantes; precaución si hay alergia a asteráceas.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia para baños de asiento.",
+    "duracion_tratamiento": "1-2 baños diarios hasta resolución; máximo 2 semanas.",
+    "sinergia_plantas": [
+      "caléndula",
+      "matico",
+      "llantén"
+    ]
   },
   {
     "id": 63,

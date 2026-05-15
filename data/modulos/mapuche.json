@@ -258,7 +258,22 @@
       "antiespasmódico",
       "diaforético"
     ],
-    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza ritual",
+      "Dispepsia leve",
+      "Flatulencia",
+      "Estrés post-discusión",
+      "Estados de ansiedad situacional"
+    ],
+    "interacciones_medicamentos": "Pulegona potencia hepatotoxicidad con paracetamol y fármacos hepatotóxicos; precaución con anticoagulantes y antiepilépticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por efecto emenagogo y abortivo de la pulegona.",
+    "duracion_tratamiento": "Máximo 5 días consecutivos; no usar de forma prolongada por hepatotoxicidad.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "cedrón",
+      "melisa"
+    ]
   },
   {
     "id": 122,
@@ -285,7 +300,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga mental",
+      "Mala circulación periférica",
+      "Astenia",
+      "Estrés oxidativo",
+      "Limpieza energética del hogar"
+    ],
+    "interacciones_medicamentos": "Puede potenciar antihipertensivos (eleva presión arterial) y antidiabéticos; precaución con anticoagulantes y litio.",
+    "embarazo_lactancia": "Contraindicado en embarazo por efecto emenagogo; precaución en lactancia.",
+    "duracion_tratamiento": "Máximo 3 semanas; descansar 1 semana entre ciclos.",
+    "sinergia_plantas": [
+      "ruda",
+      "albahaca",
+      "cedrón"
+    ]
   },
   {
     "id": 123,
@@ -313,7 +343,22 @@
       "carminativo",
       "emenagogo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Vahídos",
+      "Mareos por hipotensión",
+      "Mala circulación cerebral",
+      "Astenia",
+      "Vértigo leve"
+    ],
+    "interacciones_medicamentos": "Ruda y romero potencian anticoagulantes, antihipertensivos y fotosensibilizantes; evitar con AINEs.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (riesgo abortivo de la ruda y romero) y en lactancia.",
+    "duracion_tratamiento": "Uso puntual; no exceder 7 días seguidos.",
+    "sinergia_plantas": [
+      "cedrón",
+      "melisa",
+      "manzanilla"
+    ]
   },
   {
     "id": 138,
@@ -341,7 +386,22 @@
       "carminativo",
       "emenagogo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza ritual",
+      "Fatiga mental",
+      "Tensión muscular",
+      "Estrés",
+      "Cansancio crónico"
+    ],
+    "interacciones_medicamentos": "Uso tópico con baja absorción sistémica; precaución si hay heridas abiertas por absorción de aceites esenciales.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (ruda abortiva) incluso por vía tópica en baños prolongados.",
+    "duracion_tratamiento": "Uso puntual ceremonial; no más de 1 vez por semana.",
+    "sinergia_plantas": [
+      "albahaca",
+      "cedrón",
+      "lavanda"
+    ]
   },
   {
     "id": 139,
@@ -368,7 +428,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga mental",
+      "Hipotensión",
+      "Dolor muscular tópico",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico, baja absorción; precaución con anticoagulantes si hay heridas; albahaca puede potenciar antiplaquetarios.",
+    "embarazo_lactancia": "Evitar en embarazo por dosis medicinales de romero; uso ceremonial puntual aceptable en lactancia.",
+    "duracion_tratamiento": "Uso puntual semanal; no diario.",
+    "sinergia_plantas": [
+      "lavanda",
+      "manzanilla",
+      "cedrón"
+    ]
   },
   {
     "titulo": "Decocción de Corteza de Canelo (Foye Lawen) para Fiebre",

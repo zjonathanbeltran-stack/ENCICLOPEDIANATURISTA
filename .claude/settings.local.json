@@ -61,7 +61,8 @@
       "Bash(cp -r /c/Users/usuario/Desktop/proyecto/data/modulos/__TRACKED_VAR__ /c/Users/usuario/Desktop/proyecto/.claude/worktrees/goofy-leavitt-dbc53f/data/modulos/__TRACKED_VAR__)",
       "mcp__Claude_in_Chrome__switch_browser",
       "WebFetch(domain:commons.wikimedia.org)",
-      "WebFetch(domain:unsplash.com)"
+      "WebFetch(domain:unsplash.com)",
+      "Bash(node -e ' *)"
     ]
   }
 }

@@ -256,7 +256,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio de conciliación",
+      "Ansiedad leve",
+      "Nerviosismo",
+      "Estrés",
+      "Palpitaciones nerviosas"
+    ],
+    "interacciones_medicamentos": "Potencia benzodiazepinas, antidepresivos, antihistamínicos y alcohol; precaución con anticoagulantes.",
+    "embarazo_lactancia": "Generalmente seguro en dosis moderadas; consultar profesional antes de uso prolongado.",
+    "duracion_tratamiento": "Máximo 4 semanas; descansar 1 semana.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "melisa",
+      "pasiflora"
+    ]
   },
   {
     "id": 118,
@@ -283,7 +298,22 @@
       "antiespasmódico",
       "diaforético"
     ],
-    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Nerviosismo",
+      "Espasmos digestivos",
+      "Ansiedad situacional",
+      "Cólicos",
+      "Estrés leve"
+    ],
+    "interacciones_medicamentos": "Pulegona es hepatotóxica; evitar con paracetamol, isoniazida y otros hepatotóxicos; precaución con sedantes.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (efecto abortivo) y lactancia.",
+    "duracion_tratamiento": "Máximo 5 días; no usar de forma prolongada.",
+    "sinergia_plantas": [
+      "cedrón",
+      "melisa",
+      "manzanilla"
+    ]
   },
   {
     "id": 148,
@@ -311,7 +341,22 @@
       "cicatrizante",
       "sedante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio",
+      "Ansiedad",
+      "Nerviosismo",
+      "Estrés",
+      "Tensión emocional"
+    ],
+    "interacciones_medicamentos": "Potencia benzodiazepinas, antidepresivos y antihistamínicos; precaución con anticoagulantes (manzanilla).",
+    "embarazo_lactancia": "Manzanilla y tila seguras en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso continuo seguro hasta 4 semanas; descansar 1 semana.",
+    "sinergia_plantas": [
+      "melisa",
+      "pasiflora",
+      "cedrón"
+    ]
   },
   {
     "titulo": "Infusión Calmante de Pasiflora y Tilo",
@@ -339,7 +384,22 @@
       "expectorante",
       "antimicrobiano"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve",
+      "Insomnio",
+      "Nerviosismo",
+      "Palpitaciones nerviosas",
+      "Estrés"
+    ],
+    "interacciones_medicamentos": "Potencia benzodiazepinas, barbitúricos, antidepresivos, antihistamínicos y alcohol; precaución con IMAOs.",
+    "embarazo_lactancia": "Contraindicado en embarazo (pasiflora alcaloides uterotónicos); precaución en lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1 semana.",
+    "sinergia_plantas": [
+      "melisa",
+      "manzanilla",
+      "valeriana"
+    ]
   },
   {
     "titulo": "Té Relajante de Valeriana con Manzanilla",
@@ -367,7 +427,22 @@
       "cicatrizante",
       "sedante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio",
+      "Ansiedad",
+      "Espasmos digestivos nerviosos",
+      "Tensión muscular",
+      "Migraña tensional"
+    ],
+    "interacciones_medicamentos": "Valeriana potencia sedantes, benzodiazepinas, anestésicos y alcohol; precaución con anticoagulantes y CYP3A4.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de datos de seguridad.",
+    "duracion_tratamiento": "Máximo 4-6 semanas; suspender progresivamente.",
+    "sinergia_plantas": [
+      "pasiflora",
+      "melisa",
+      "tila"
+    ]
   },
   {
     "titulo": "Infusión Nocturna de Toronjil y Lavanda",

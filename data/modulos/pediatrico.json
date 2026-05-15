@@ -236,7 +236,22 @@
       "antioxidante",
       "expectorante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tos infantil productiva",
+      "Bronquitis leve",
+      "Catarro",
+      "Faringitis",
+      "Congestión bronquial"
+    ],
+    "interacciones_medicamentos": "Quillay puede potenciar diuréticos; miel sin interacciones relevantes.",
+    "embarazo_lactancia": "No aplica (pediátrico); en lactancia aceptable para la madre.",
+    "duracion_tratamiento": "Máximo 7 días; si la tos persiste consultar pediatra.",
+    "sinergia_plantas": [
+      "llantén",
+      "tomillo",
+      "matico"
+    ]
   },
   {
     "id": 332,
@@ -263,7 +278,22 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Insomnio infantil",
+      "Ansiedad infantil",
+      "Inquietud nocturna",
+      "Sobreestimulación",
+      "Pesadillas"
+    ],
+    "interacciones_medicamentos": "Uso tópico en baño, mínima absorción; sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia; uso tópico en niños mayores de 6 meses.",
+    "duracion_tratamiento": "2-3 baños semanales; uso continuo seguro.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "tila",
+      "melisa"
+    ]
   },
   {
     "id": 333,
@@ -290,7 +320,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hematomas",
+      "Contusiones leves",
+      "Esguinces leves",
+      "Picaduras de insecto",
+      "Inflamación localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico, sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia; uso tópico seguro en niños.",
+    "duracion_tratamiento": "Cambiar compresa cada 2 horas; máximo 48-72 horas.",
+    "sinergia_plantas": [
+      "caléndula",
+      "matico",
+      "manzanilla"
+    ]
   },
   {
     "id": 334,
@@ -317,7 +362,22 @@
       "antiespasmódico",
       "diaforético"
     ],
-    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Dispepsia",
+      "Flatulencia",
+      "Espasmos digestivos",
+      "Náuseas leves"
+    ],
+    "interacciones_medicamentos": "Pulegona es hepatotóxica; no combinar con paracetamol u otros hepatotóxicos.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo (abortivo) y lactancia (pasa a la leche); no usar en menores de 6 años.",
+    "duracion_tratamiento": "Uso puntual máximo 3 días; nunca prolongado.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "cedrón",
+      "melisa"
+    ]
   },
   {
     "id": 335,
@@ -345,7 +405,22 @@
       "antifúngico",
       "antimicrobiano"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Rozaduras del pañal",
+      "Dermatitis irritativa",
+      "Eritema cutáneo",
+      "Pequeñas heridas",
+      "Piel sensible"
+    ],
+    "interacciones_medicamentos": "Uso tópico, sin interacciones sistémicas relevantes; precaución con alergia a asteráceas.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia; seguro en bebés.",
+    "duracion_tratamiento": "Aplicación con cada cambio de pañal hasta resolución; máximo 2 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "manzanilla"
+    ]
   },
   {
     "id": 336,

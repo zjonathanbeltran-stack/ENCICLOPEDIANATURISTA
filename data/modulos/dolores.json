@@ -292,7 +292,22 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Artralgia",
+      "Artrosis leve",
+      "Reumatismo",
+      "Rigidez articular",
+      "Dolor muscular"
+    ],
+    "interacciones_medicamentos": "Potencia anticoagulantes (warfarina, aspirina), antidiabéticos y antihipertensivos; precaución con calcio-antagonistas.",
+    "embarazo_lactancia": "Aceptable en embarazo en dosis bajas (<1g/día); seguro en lactancia.",
+    "duracion_tratamiento": "Uso continuo seguro hasta 4-6 semanas; reevaluar.",
+    "sinergia_plantas": [
+      "cúrcuma",
+      "matico",
+      "romero"
+    ]
   },
   {
     "id": 145,
@@ -319,7 +334,22 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Infecciones bucales",
+      "Gingivitis",
+      "Halitosis",
+      "Dolor dental leve",
+      "Aftas"
+    ],
+    "interacciones_medicamentos": "Eugenol potencia anticoagulantes y puede irritar mucosa; precaución con paracetamol.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia en uso oral concentrado; uso ocasional aceptable.",
+    "duracion_tratamiento": "Enjuagues 2-3 veces al día por máximo 7 días.",
+    "sinergia_plantas": [
+      "tomillo",
+      "matico",
+      "manzanilla"
+    ]
   },
   {
     "id": 161,
@@ -346,7 +376,22 @@
       "antimicrobiano",
       "carminativo"
     ],
-    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Infecciones bucales",
+      "Gingivitis",
+      "Aftas",
+      "Halitosis",
+      "Faringitis"
+    ],
+    "interacciones_medicamentos": "Timol y eugenol potencian anticoagulantes; precaución con antidiabéticos por canela.",
+    "embarazo_lactancia": "Contraindicado en embarazo en dosis medicinales (tomillo y canela emenagogos); precaución en lactancia.",
+    "duracion_tratamiento": "Enjuagues máximo 10 días continuos.",
+    "sinergia_plantas": [
+      "clavo de olor",
+      "matico",
+      "manzanilla"
+    ]
   },
   {
     "titulo": "Infusión de Corteza de Sauce Blanco para el Dolor",
@@ -372,7 +417,22 @@
       "antipirético",
       "antirreumático"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular",
+      "Cefalea tensional",
+      "Lumbalgia",
+      "Fiebre",
+      "Dismenorrea"
+    ],
+    "interacciones_medicamentos": "Salicina potencia anticoagulantes (warfarina), AINEs y antiagregantes; precaución con metotrexato e hipoglucemiantes; contraindicado con alergia a aspirina.",
+    "embarazo_lactancia": "Contraindicado en embarazo (tercer trimestre) y lactancia; riesgo de síndrome de Reye en niños.",
+    "duracion_tratamiento": "Máximo 7-10 días continuos.",
+    "sinergia_plantas": [
+      "matico",
+      "jengibre",
+      "cúrcuma"
+    ]
   },
   {
     "titulo": "Cataplasma Caliente de Árnica para Dolores Musculares",
@@ -418,7 +478,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor muscular",
+      "Contracturas",
+      "Lumbalgia",
+      "Mala circulación local",
+      "Artralgia"
+    ],
+    "interacciones_medicamentos": "Uso tópico, baja absorción sistémica; precaución con anticoagulantes si hay heridas abiertas.",
+    "embarazo_lactancia": "Evitar uso extenso en embarazo (especialmente primer trimestre); aceptable en lactancia.",
+    "duracion_tratamiento": "Masajes 1-2 veces al día hasta 3 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "lavanda",
+      "arnica"
+    ]
   },
   {
     "titulo": "Infusión de Jengibre y Cúrcuma contra el Dolor Crónico",

@@ -330,7 +330,22 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Depuración renal",
+      "Cálculos renales pequeños",
+      "Edema leve",
+      "Apoyo hepatobiliar"
+    ],
+    "interacciones_medicamentos": "Potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas y tetraciclinas.",
+    "embarazo_lactancia": "Aceptable en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Curas de 3 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "llantén",
+      "boldo"
+    ]
   },
   {
     "titulo": "Decocción de Apio y Limón para Infecciones Urinarias",
@@ -357,7 +372,22 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Infecciones urinarias leves",
+      "Cistitis",
+      "Retención de líquidos",
+      "Prevención de cálculos",
+      "Diuresis"
+    ],
+    "interacciones_medicamentos": "Apio potencia anticoagulantes y diuréticos; limón reduce absorción de aluminio; precaución con litio.",
+    "embarazo_lactancia": "Apio contraindicado en embarazo en dosis medicinales (efecto uterotónico); aceptable en lactancia.",
+    "duracion_tratamiento": "Máximo 7-10 días; si no mejora consultar médico.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "llantén",
+      "arándano rojo"
+    ]
   },
   {
     "id": 306,
@@ -403,7 +433,22 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipercolesterolemia leve",
+      "Insuficiencia hepatobiliar",
+      "Dispepsia biliar",
+      "Retención hídrica",
+      "Estreñimiento"
+    ],
+    "interacciones_medicamentos": "Potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas.",
+    "embarazo_lactancia": "Aceptable en dosis moderadas en embarazo y lactancia.",
+    "duracion_tratamiento": "Curas de 4-6 semanas con 2 semanas de descanso.",
+    "sinergia_plantas": [
+      "boldo",
+      "alcachofa",
+      "cardo mariano"
+    ]
   },
   {
     "id": 308,
@@ -431,7 +476,22 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Mala circulación periférica",
+      "Extremidades frías",
+      "Fatiga",
+      "Dispepsia",
+      "Náuseas"
+    ],
+    "interacciones_medicamentos": "Jengibre potencia anticoagulantes (warfarina, aspirina), antidiabéticos y antihipertensivos; precaución con calcio-antagonistas.",
+    "embarazo_lactancia": "Jengibre aceptable en embarazo en dosis bajas (<1g/día); seguro en lactancia.",
+    "duracion_tratamiento": "Uso continuo seguro en dosis culinarias; dosis medicinales máximo 4 semanas.",
+    "sinergia_plantas": [
+      "maqui",
+      "romero",
+      "cedrón"
+    ]
   },
   {
     "id": 309,
@@ -459,7 +519,22 @@
       "antioxidante",
       "antiinflamatorio"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Riesgo cardiovascular",
+      "Hipertensión leve",
+      "Estrés oxidativo",
+      "Hipercolesterolemia",
+      "Diabetes tipo 2"
+    ],
+    "interacciones_medicamentos": "Maqui potencia hipoglucemiantes y anticoagulantes; precaución con antihipertensivos.",
+    "embarazo_lactancia": "Seguro en dosis alimentarias en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso continuo seguro como alimento funcional.",
+    "sinergia_plantas": [
+      "murta",
+      "calafate",
+      "rosa mosqueta"
+    ]
   },
   {
     "id": 310,

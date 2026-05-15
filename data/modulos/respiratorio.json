@@ -331,7 +331,22 @@
       "inmunoestimulante",
       "cicatrizante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tos seca irritativa",
+      "Bronquitis leve",
+      "Faringitis",
+      "Resfriado común",
+      "Catarro de vías altas"
+    ],
+    "interacciones_medicamentos": "Tomillo y ajo potencian anticoagulantes (warfarina, aspirina) e hipoglucemiantes; precaución con antihipertensivos.",
+    "embarazo_lactancia": "Precaución en embarazo en dosis medicinales; aceptable en lactancia en dosis culinarias.",
+    "duracion_tratamiento": "Máximo 7 días; si persiste consultar.",
+    "sinergia_plantas": [
+      "eucalipto",
+      "llantén",
+      "matico"
+    ]
   },
   {
     "id": 41,
@@ -377,7 +392,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Faringitis",
+      "Amigdalitis leve",
+      "Laringitis",
+      "Aftas bucales",
+      "Gingivitis"
+    ],
+    "interacciones_medicamentos": "Mucílagos pueden reducir absorción de medicamentos orales; separar 1-2 horas. Sin interacciones mayores.",
+    "embarazo_lactancia": "Seguro en embarazo y lactancia en uso local (gárgaras).",
+    "duracion_tratamiento": "Hasta resolución de síntomas; máximo 10 días.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "tomillo"
+    ]
   },
   {
     "id": 53,
@@ -404,7 +434,22 @@
       "febrífugo",
       "broncodilatador"
     ],
-    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
+    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Congestión nasal",
+      "Sinusitis",
+      "Bronquitis",
+      "Resfriado común",
+      "Rinitis"
+    ],
+    "interacciones_medicamentos": "1,8-cineol induce CYP3A4 reduciendo niveles de anticonceptivos, anticoagulantes y antidepresivos; precaución.",
+    "embarazo_lactancia": "Precaución en embarazo; contraindicado en niños menores de 6 años (vapores cerca de cara).",
+    "duracion_tratamiento": "Máximo 7 días; 1-2 vaporizaciones diarias.",
+    "sinergia_plantas": [
+      "tomillo",
+      "matico",
+      "menta"
+    ]
   },
   {
     "id": 55,
@@ -450,7 +495,22 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tos productiva",
+      "Bronquitis",
+      "Catarro",
+      "Congestión bronquial",
+      "Estimulación biliar"
+    ],
+    "interacciones_medicamentos": "Diente de león potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas.",
+    "embarazo_lactancia": "Aceptable en embarazo y lactancia en dosis moderadas como jarabe.",
+    "duracion_tratamiento": "Hasta 2 semanas; descansar entre ciclos.",
+    "sinergia_plantas": [
+      "llantén",
+      "tomillo",
+      "eucalipto"
+    ]
   },
   {
     "id": 81,
@@ -477,7 +537,22 @@
       "antimicrobiano",
       "carminativo"
     ],
-    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Faringitis",
+      "Amigdalitis leve",
+      "Laringitis",
+      "Gingivitis",
+      "Mal aliento"
+    ],
+    "interacciones_medicamentos": "Timol potencia anticoagulantes y puede irritar mucosa gástrica con AINEs; precaución con antidiabéticos.",
+    "embarazo_lactancia": "Precaución en embarazo en dosis medicinales; seguro en lactancia en uso local.",
+    "duracion_tratamiento": "Máximo 10 días; gárgaras 3 veces al día.",
+    "sinergia_plantas": [
+      "llantén",
+      "matico",
+      "manzanilla"
+    ]
   },
   {
     "id": 86,
