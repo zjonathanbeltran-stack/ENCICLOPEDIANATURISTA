@@ -2094,6 +2094,11 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
+// ── Iconos SVG botánicos personalizados ──
+const _SVG_USO = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="2.2" d="M13.5 3 L9.5 9"/><circle cx="14.2" cy="2.2" r="1.6" fill="currentColor" stroke="none" opacity="0.75"/><line stroke-width="2" x1="4" y1="9.5" x2="16" y2="9.5"/><path stroke-width="1.8" d="M5 9.5 Q4.5 16 10 16 Q15.5 16 15 9.5"/><path stroke-width="1.1" d="M8 13 Q9.5 11.5 12 13" opacity="0.45"/></svg>`;
+
+const _SVG_INDIC = `<svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z" fill="currentColor" fill-opacity="0.18"/><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z"/><line stroke-width="1.9" x1="13.5" y1="8" x2="20" y2="8"/><line stroke-width="1.9" x1="13.5" y1="12.5" x2="20" y2="12.5"/><line stroke-width="1.9" x1="13.5" y1="17" x2="18.5" y2="17"/></svg>`;
+
 // ── Fotos curadas por tipo de preparación ──
 const _RECETA_FOTOS = {
     infusion:      'img/receta-tisana.png',
@@ -2347,7 +2352,7 @@ function abrirDetalleReceta(id) {
             <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
         </div>
         <div class="modal-row">
-            <div class="ico">🖐️</div>
+            <div class="ico ico-moss">${_SVG_USO}</div>
             <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
         </div>
         <div class="modal-row">
@@ -2398,7 +2403,7 @@ function abrirDetalleReceta(id) {
         ${r.indicaciones_principales && r.indicaciones_principales.length ? `
         <div class="modal-divider"></div>
         <div class="receta-indicaciones">
-            <div class="indic-icon">🎯</div>
+            <div class="indic-icon">${_SVG_INDIC}</div>
             <div class="indic-body">
                 <div class="indic-label">Indicaciones principales</div>
                 <div class="indic-chips">${r.indicaciones_principales.map(i => `<span class="indic-chip">${i}</span>`).join('')}</div>

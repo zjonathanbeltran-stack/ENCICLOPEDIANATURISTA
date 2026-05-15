@@ -1010,7 +1010,14 @@ header {
     display: grid;
     place-items: center;
     font-size: 0.85rem;
+    color: var(--text-mute);
 }
+.modal-row .ico.ico-moss {
+    color: var(--moss-bright);
+    background: rgba(155,187,122,0.08);
+    border-color: rgba(155,187,122,0.22);
+}
+.modal-row .ico svg { display: block; }
 .modal-row .label {
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -5759,7 +5766,17 @@ body.custom-cursor-on .cursor-ring { display: block; }
     padding: 14px 16px;
     margin: 10px 0;
 }
-.indic-icon { font-size: 1.2rem; flex-shrink: 0; opacity: 0.85; }
+.indic-icon {
+    width: 34px; height: 34px;
+    border-radius: 10px;
+    background: rgba(212,165,116,0.10);
+    border: 1px solid rgba(212,165,116,0.28);
+    display: grid;
+    place-items: center;
+    color: var(--amber);
+    flex-shrink: 0;
+}
+.indic-icon svg { display: block; }
 .indic-body { flex: 1; }
 .indic-label {
     font-size: 0.68rem;
