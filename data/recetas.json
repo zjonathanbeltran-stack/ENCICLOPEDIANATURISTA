@@ -5359,7 +5359,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 159,
@@ -5386,7 +5400,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dermatitis e irritación cutánea",
+      "Heridas y cortes superficiales",
+      "Eccema leve",
+      "Inflamación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 160,
@@ -5413,7 +5441,21 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Cicatrización de heridas leves",
+      "Quemaduras de primer grado",
+      "Cortes y abrasiones",
+      "Úlceras superficiales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 161,
@@ -5501,7 +5543,21 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 164,
@@ -5529,7 +5585,21 @@
       "broncodilatador",
       "antiséptico bronquial"
     ],
-    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
+    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 165,
@@ -5556,7 +5626,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Caída de cabello y alopecia leve",
+      "Caspa y seborrea",
+      "Cuero cabelludo irritado",
+      "Debilidad del cabello"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Romero",
+      "Ortiga",
+      "Aceite de coco"
+    ]
   },
   {
     "id": 166,
@@ -5602,7 +5686,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 168,
@@ -5770,7 +5868,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 174,
@@ -5797,7 +5909,21 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 175,
@@ -5824,7 +5950,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 176,
@@ -5851,7 +5991,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 177,
@@ -5897,7 +6051,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 179,
@@ -5924,7 +6092,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 180,
@@ -5951,7 +6133,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 181,
@@ -5978,7 +6174,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 182,
@@ -6005,7 +6215,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 183,
@@ -6032,7 +6256,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 184,
@@ -6059,7 +6297,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 185,
@@ -6086,7 +6338,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 186,
@@ -6132,7 +6398,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 188,
@@ -6159,7 +6439,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 189,
@@ -6186,7 +6480,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 190,
@@ -7882,7 +8190,21 @@
       "antioxidante",
       "antiséptico"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tos con acumulación de moco",
+      "Bronquitis crónica leve",
+      "Congestión bronquial",
+      "Flemas difíciles de eliminar"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Eucalipto",
+      "Llantén",
+      "Matico"
+    ]
   },
   {
     "titulo": "Infusión de Tomillo, Orégano y Miel para Tos Productiva",
@@ -7910,7 +8232,21 @@
       "antiespasmódico",
       "cicatrizante"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tos con acumulación de moco",
+      "Bronquitis crónica leve",
+      "Congestión bronquial",
+      "Flemas difíciles de eliminar"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Eucalipto",
+      "Llantén",
+      "Matico"
+    ]
   },
   {
     "titulo": "Cataplasma Caliente de Mostaza para el Pecho",
@@ -8624,7 +8960,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "titulo": "Infusión de Menta y Saúco para Fiebre Alta",
@@ -8651,7 +9001,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "titulo": "Compresas Frías de Vinagre para Bajar la Fiebre",
@@ -8698,7 +9062,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "titulo": "Baño Tibio con Albahaca y Romero para Bajar la Fiebre",
@@ -8725,7 +9103,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "titulo": "Enjuague de Clavo de Olor para Dolor de Muelas",
@@ -9145,7 +9537,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Resfriado común",
+      "Gripe leve",
+      "Fiebre moderada",
+      "Congestión nasofaríngea"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Ajo",
+      "Saúco",
+      "Jengibre"
+    ]
   },
   {
     "titulo": "Grog Chileno: Miel, Limón, Canela y Clavo",
@@ -9173,7 +9579,21 @@
       "carminativo",
       "antimicrobiano"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Resfriado común",
+      "Gripe leve",
+      "Fiebre moderada",
+      "Congestión nasofaríngea"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Ajo",
+      "Saúco",
+      "Jengibre"
+    ]
   },
   {
     "titulo": "Inhalación de Eucalipto, Menta y Ajo para Congestión del Resfrío",
@@ -9201,7 +9621,21 @@
       "expectorante",
       "mucolítico"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Resfriado común",
+      "Gripe leve",
+      "Fiebre moderada",
+      "Congestión nasofaríngea"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Ajo",
+      "Saúco",
+      "Jengibre"
+    ]
   },
   {
     "titulo": "Jarabe de Cebolla Morada, Ajo y Miel para el Resfrío",
@@ -9229,7 +9663,21 @@
       "antimicrobiano",
       "antifúngico"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014",
+    "indicaciones_principales": [
+      "Resfriado común",
+      "Gripe leve",
+      "Fiebre moderada",
+      "Congestión nasofaríngea"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Ajo",
+      "Saúco",
+      "Jengibre"
+    ]
   },
   {
     "titulo": "Té de Jengibre, Miel y Pimienta de Cayena para el Resfrío",
@@ -9257,7 +9705,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Resfriado común",
+      "Gripe leve",
+      "Fiebre moderada",
+      "Congestión nasofaríngea"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Ajo",
+      "Saúco",
+      "Jengibre"
+    ]
   },
   {
     "id": 282,
@@ -10903,7 +11365,21 @@
       "prebiótico",
       "antiemético"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 326,
@@ -12168,7 +12644,22 @@
       "antiespasmódico",
       "vasoprotector"
     ],
-    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017"
+    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 361,
@@ -12448,7 +12939,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 368,
@@ -12476,7 +12981,21 @@
       "expectorante",
       "antiséptico bronquial"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 369,
@@ -12504,7 +13023,22 @@
       "carminativo",
       "antiespasmódico"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit de memoria y concentración",
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 370,
@@ -12532,7 +13066,21 @@
       "carminativo",
       "antisudorífico"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 371,
@@ -12560,7 +13108,21 @@
       "carminativo",
       "cardioprotector"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 372,
@@ -12587,7 +13149,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit de memoria y concentración",
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 373,
@@ -12988,7 +13565,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 383,
@@ -13015,7 +13606,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 384,
@@ -13042,7 +13647,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 385,
@@ -13070,7 +13689,21 @@
       "expectorante",
       "antiséptico"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 386,
@@ -13098,7 +13731,21 @@
       "cicatrizante",
       "antiséptico"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Zitterl-Eglseer K. et al. J Ethnopharmacol 1997"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Zitterl-Eglseer K. et al. J Ethnopharmacol 1997",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 387,
@@ -13125,7 +13772,21 @@
       "expectorante",
       "digestivo"
     ],
-    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012"
+    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 388,
@@ -13153,7 +13814,20 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 389,
@@ -13180,7 +13854,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 390,
@@ -13207,7 +13895,21 @@
       "antiespasmódico",
       "digestivo"
     ],
-    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 391,
@@ -13234,7 +13936,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 392,
@@ -13260,7 +13976,20 @@
       "digestivo",
       "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010"
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 393,
@@ -13287,7 +14016,21 @@
       "antimicrobiano",
       "carminativo"
     ],
-    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 394,
@@ -13334,7 +14077,21 @@
       "cicatrizante",
       "antimicrobiano"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 396,
@@ -13379,7 +14136,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 398,
@@ -13407,7 +14178,22 @@
       "cicatrizante",
       "colerético"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010; Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010; Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 399,
@@ -13454,7 +14240,21 @@
       "cicatrizante",
       "antimicrobiano"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 401,
@@ -13482,7 +14282,20 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 402,
@@ -13509,7 +14322,20 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 403,
@@ -13536,7 +14362,21 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 404,
@@ -13563,7 +14403,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hormonas tiroideas: puede interferir con la función tiroidea en uso prolongado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 405,
@@ -13591,7 +14445,20 @@
       "hipocolesterolemiante",
       "digestivo"
     ],
-    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994"
+    "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 406,
@@ -13618,7 +14485,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 407,
@@ -13645,7 +14526,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 408,
@@ -13672,7 +14567,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 409,
@@ -13699,7 +14608,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 410,
@@ -13828,7 +14751,21 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Congestión nasal y bronquial",
+      "Sinusitis y catarro",
+      "Bronquitis aguda leve",
+      "Infecciones respiratorias de vías altas"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Eucalipto",
+      "Tomillo",
+      "Llantén"
+    ]
   },
   {
     "id": 415,
@@ -13874,7 +14811,21 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 417,
@@ -14058,7 +15009,21 @@
       "cardiovascular",
       "cicatrizante"
     ],
-    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tos seca irritativa",
+      "Tos productiva con flemas",
+      "Irritación de garganta",
+      "Broncoespasmo leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Cebolla",
+      "Miel de ulmo",
+      "Eucalipto"
+    ]
   },
   {
     "id": 424,
@@ -14085,7 +15050,21 @@
       "febrífugo",
       "broncodilatador"
     ],
-    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
+    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Congestión nasal y bronquial",
+      "Sinusitis y catarro",
+      "Bronquitis aguda leve",
+      "Infecciones respiratorias de vías altas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Eucalipto",
+      "Tomillo",
+      "Llantén"
+    ]
   },
   {
     "id": 425,
@@ -14113,7 +15092,21 @@
       "cicatrizante",
       "antisudorífico"
     ],
-    "referencias": "Sforcin JM. J Ethnopharmacol 2011; 133(2):253-260; Marcucci MC. Apidologie 1995; 26(2):83-99; Muñoz et al. 1999"
+    "referencias": "Sforcin JM. J Ethnopharmacol 2011; 133(2):253-260; Marcucci MC. Apidologie 1995; 26(2):83-99; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Faringitis y amigdalitis leve",
+      "Irritación de garganta",
+      "Laringitis",
+      "Tos por irritación faríngea"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+    "sinergia_plantas": [
+      "Salvia",
+      "Tomillo",
+      "Miel de ulmo"
+    ]
   },
   {
     "id": 426,
@@ -14842,7 +15835,21 @@
       "antiespasmódico",
       "relajante muscular"
     ],
-    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999"
+    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 455,
@@ -14908,7 +15915,21 @@
       "inmunoestimulante",
       "antiséptico"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 458,
@@ -14936,7 +15957,21 @@
       "expectorante",
       "diurético"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 459,
@@ -14982,7 +16017,21 @@
       "antioxidante",
       "antiagregante"
     ],
-    "referencias": "Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010"
+    "referencias": "Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 461,
@@ -15009,7 +16058,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 462,
@@ -15074,7 +16137,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Hipercolesterolemia leve",
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 465,
@@ -15120,7 +16198,21 @@
       "inmunoestimulante",
       "antiinflamatorio"
     ],
-    "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010"
+    "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 467,
@@ -15268,7 +16360,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 472,
@@ -15371,7 +16477,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "id": 477,
@@ -15399,7 +16519,21 @@
       "astringente",
       "antiparasitario"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 478,
@@ -15482,7 +16616,21 @@
       "antipirético",
       "antirreumático"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 482,
@@ -15585,7 +16733,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 487,
@@ -15677,7 +16839,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 491,
@@ -15704,7 +16880,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 492,
@@ -15777,7 +16967,21 @@
       "nutritivo",
       "tónico"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 495,
@@ -15804,7 +17008,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 496,
@@ -15831,7 +17049,21 @@
       "inmunoestimulante",
       "antidiabético"
     ],
-    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002"
+    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 497,
@@ -15896,7 +17128,21 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 500,
@@ -15942,7 +17188,21 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 502,
@@ -16026,7 +17286,21 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 506,
@@ -16053,7 +17327,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 507,
@@ -16080,7 +17368,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 508,
@@ -16126,7 +17428,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 510,
@@ -16191,7 +17507,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 513,
@@ -16218,7 +17548,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 514,
@@ -16264,7 +17608,22 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit de memoria y concentración",
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 516,
@@ -16291,7 +17650,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 517,
@@ -16318,7 +17691,22 @@
       "antiespasmódico",
       "relajante muscular"
     ],
-    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999"
+    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Déficit de memoria y concentración",
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 518,
@@ -16346,7 +17734,21 @@
       "expectorante",
       "antiséptico"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 519,
@@ -16374,7 +17776,21 @@
       "antiespasmódico",
       "antidepresivo leve"
     ],
-    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010"
+    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 520,
@@ -16401,7 +17817,22 @@
       "antiespasmódico",
       "relajante muscular"
     ],
-    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999"
+    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Insomnio leve a moderado",
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 521,
@@ -16836,7 +18267,21 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 540,
@@ -16863,7 +18308,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 541,
@@ -16909,7 +18368,22 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 543,
@@ -16935,7 +18409,21 @@
       "diurético",
       "astringente"
     ],
-    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC Arctostaphylos uva-ursi 2012; ESCOP Uvae ursi folium 2003; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC Arctostaphylos uva-ursi 2012; ESCOP Uvae ursi folium 2003; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 544,
@@ -16981,7 +18469,21 @@
       "antioxidante",
       "cardiovascular"
     ],
-    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 546,
@@ -17028,7 +18530,21 @@
       "expectorante",
       "emenagogo"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 548,
@@ -17168,7 +18684,21 @@
       "cicatrizante",
       "ansiolítico"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 554,
@@ -17252,7 +18782,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 558,
@@ -17298,7 +18842,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 560,
@@ -17344,7 +18902,21 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 562,
@@ -17372,7 +18944,21 @@
       "carminativo",
       "antimicrobiano"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 563,
@@ -17476,7 +19062,21 @@
       "expectorante",
       "antimicrobiano"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 568,
@@ -17504,7 +19104,21 @@
       "antimicrobiano",
       "cicatrizante"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 569,
@@ -17531,7 +19145,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 570,
@@ -17558,7 +19186,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 571,
@@ -17585,7 +19228,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 572,
@@ -17611,7 +19268,22 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "Fiebre moderada y febrícula",
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 573,
@@ -17638,7 +19310,21 @@
       "expectorante",
       "digestivo"
     ],
-    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 574,
@@ -17684,7 +19370,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 576,
@@ -17730,7 +19430,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 578,
@@ -17758,7 +19472,21 @@
       "cardiovascular",
       "cicatrizante"
     ],
-    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 579,
@@ -17785,7 +19513,22 @@
       "inmunomodulador",
       "hidratante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Heridas cutáneas y quemaduras superficiales",
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 580,
@@ -17812,7 +19555,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 581,
@@ -17839,7 +19596,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Cólicos infantiles",
+      "Infecciones respiratorias en niños",
+      "Nerviosismo e insomnio infantil",
+      "Fiebre leve en niños"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+    "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Melisa",
+      "Tilo"
+    ]
   },
   {
     "id": 582,
@@ -17895,7 +19666,21 @@
       "cicatrizante",
       "sedante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 584,
@@ -17922,7 +19707,21 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 585,
@@ -17969,7 +19768,21 @@
       "expectorante",
       "antiséptico"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 587,
@@ -17995,7 +19808,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 588,
@@ -18022,7 +19849,21 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 589,
@@ -18067,7 +19908,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 591,
@@ -18151,7 +20006,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 595,
@@ -18216,7 +20085,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Limpieza y purificación espiritual",
+      "Ritual de protección",
+      "Equilibrio del püllü",
+      "Bienestar ceremonial"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 598,
@@ -19490,7 +21373,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 649,
@@ -19555,7 +21452,21 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Otitis externa leve",
+      "Dolor de oídos",
+      "Acumulación de cera",
+      "Inflamación del conducto auditivo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Caléndula",
+      "Ajo"
+    ]
   },
   {
     "id": 652,
@@ -19601,7 +21512,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve no infecciosa",
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 654,
@@ -19629,7 +21555,21 @@
       "analgésico",
       "antimicrobiano"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Otitis externa leve",
+      "Dolor de oídos",
+      "Acumulación de cera",
+      "Inflamación del conducto auditivo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Caléndula",
+      "Ajo"
+    ]
   },
   {
     "id": 655,
@@ -19656,7 +21596,21 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 656,
@@ -19683,7 +21637,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 657,
@@ -19710,7 +21678,21 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Otitis externa leve",
+      "Dolor de oídos",
+      "Acumulación de cera",
+      "Inflamación del conducto auditivo"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Caléndula",
+      "Ajo"
+    ]
   },
   {
     "id": 658,
@@ -20209,7 +22191,21 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 679,
@@ -20255,7 +22251,21 @@
       "inmunoestimulante",
       "antidiabético"
     ],
-    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002"
+    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 681,
@@ -20282,7 +22292,21 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 682,
@@ -20309,7 +22333,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 683,
@@ -20335,7 +22373,21 @@
       "antimicrobiano",
       "hepatoprotector leve"
     ],
-    "referencias": "Farias C. et al. Front Pharmacol 2025 (PMC12709134); Concha J. et al. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Farias C. et al. Front Pharmacol 2025 (PMC12709134); Concha J. et al. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 684,
@@ -20380,7 +22432,22 @@
       "antiespasmódico",
       "vasoprotector"
     ],
-    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017"
+    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
+    "indicaciones_principales": [
+      "Dolor articular crónico y artritis",
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 686,
@@ -20407,7 +22474,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "Heridas cutáneas y quemaduras superficiales",
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 687,
@@ -20434,7 +22516,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 688,
@@ -20462,7 +22558,21 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 689,
@@ -20490,7 +22600,21 @@
       "expectorante",
       "antioxidante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 690,
@@ -20518,7 +22642,21 @@
       "cicatrizante",
       "antioxidante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ]
   },
   {
     "id": 691,
@@ -21585,7 +23723,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 735,
@@ -21613,7 +23765,21 @@
       "expectorante",
       "inmunoestimulante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 736,
@@ -21660,7 +23826,21 @@
       "antimicrobiano",
       "cicatrizante"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 738,
@@ -23136,7 +25316,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 799,
@@ -23163,7 +25357,22 @@
       "hipocolesterolemiante",
       "inmunoestimulante"
     ],
-    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999"
+    "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Apoyo durante el proceso del parto (uso ceremonial)",
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 800,
@@ -23209,7 +25418,21 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 802,
@@ -23274,7 +25497,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 805,
@@ -23711,7 +25948,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico y artritis",
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 824,
@@ -23814,7 +26066,21 @@
       "emoliente",
       "galactagogo"
     ],
-    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 829,
@@ -23841,7 +26107,21 @@
       "febrífugo",
       "broncodilatador"
     ],
-    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
+    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 830,
@@ -23868,7 +26148,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 831,
@@ -23895,7 +26189,21 @@
       "inmunomodulador",
       "hidratante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 832,
@@ -23940,7 +26248,21 @@
       "antipirético",
       "antirreumático"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 834,

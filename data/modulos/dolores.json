@@ -1111,7 +1111,21 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 472,
@@ -1214,7 +1228,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "id": 477,
@@ -1242,7 +1270,21 @@
       "astringente",
       "antiparasitario"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 478,
@@ -1325,7 +1367,21 @@
       "antipirético",
       "antirreumático"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 482,
@@ -1390,7 +1446,21 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 500,
@@ -1436,7 +1506,21 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 502,
@@ -1520,7 +1604,21 @@
       "antifúngico",
       "carminativo"
     ],
-    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 506,
@@ -1547,7 +1645,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 507,
@@ -1574,7 +1686,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 823,
@@ -1601,7 +1727,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico y artritis",
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 824,
@@ -1704,7 +1845,21 @@
       "emoliente",
       "galactagogo"
     ],
-    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 829,
@@ -1731,7 +1886,21 @@
       "febrífugo",
       "broncodilatador"
     ],
-    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
+    "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 830,
@@ -1758,7 +1927,21 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 831,
@@ -1785,7 +1968,21 @@
       "inmunomodulador",
       "hidratante"
     ],
-    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 832,
@@ -1830,7 +2027,21 @@
       "antipirético",
       "antirreumático"
     ],
-    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 834,
