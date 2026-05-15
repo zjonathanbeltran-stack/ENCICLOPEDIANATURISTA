@@ -543,7 +543,21 @@
       "emoliente",
       "antifúngico"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 64,
@@ -570,7 +584,21 @@
       "emoliente",
       "antifúngico"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dermatitis e irritación cutánea",
+      "Heridas y cortes superficiales",
+      "Eccema leve",
+      "Inflamación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 67,
@@ -597,7 +625,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 68,
@@ -624,7 +666,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Caspa y seborrea del cuero cabelludo",
+      "Caída de cabello y alopecia leve",
+      "Caspa y seborrea",
+      "Cuero cabelludo irritado",
+      "Debilidad del cabello"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Romero",
+      "Ortiga",
+      "Aceite de coco"
+    ]
   },
   {
     "id": 70,
@@ -670,7 +727,21 @@
       "digestivo",
       "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999"
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 74,
@@ -754,7 +825,21 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 88,
@@ -781,7 +866,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 89,
@@ -808,7 +907,21 @@
       "emoliente",
       "antifúngico"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 91,
@@ -836,7 +949,21 @@
       "expectorante",
       "mucolítico"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Dermatitis e irritación cutánea",
+      "Heridas y cortes superficiales",
+      "Eccema leve",
+      "Inflamación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 93,
@@ -863,7 +990,21 @@
       "antiséptico",
       "antifúngico"
     ],
-    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Caída de cabello y alopecia leve",
+      "Caspa y seborrea",
+      "Cuero cabelludo irritado",
+      "Debilidad del cabello"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Romero",
+      "Ortiga",
+      "Aceite de coco"
+    ]
   },
   {
     "id": 95,
@@ -928,7 +1069,21 @@
       "astringente",
       "estrogénico leve"
     ],
-    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Tensión muscular generalizada",
+      "Estrés y fatiga física",
+      "Dolor articular difuso",
+      "Relajación y bienestar"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Lavanda",
+      "Romero",
+      "Salvia"
+    ]
   },
   {
     "id": 102,
@@ -955,7 +1110,21 @@
       "emoliente",
       "antifúngico"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Dermatitis e irritación cutánea",
+      "Heridas y cortes superficiales",
+      "Eccema leve",
+      "Inflamación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 103,
@@ -1001,7 +1170,22 @@
       "antiinflamatorio",
       "cicatrizante"
     ],
-    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Heridas cutáneas y quemaduras superficiales",
+      "Cicatrización de heridas leves",
+      "Quemaduras de primer grado",
+      "Cortes y abrasiones",
+      "Úlceras superficiales"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Ciclosporina, anticonceptivos orales, antiretrovirales: puede reducir su eficacia por inducción de CYP3A4. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Aloe vera",
+      "Matico"
+    ]
   },
   {
     "id": 107,
@@ -1028,7 +1212,21 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 112,
@@ -1132,7 +1330,21 @@
       "antiinflamatorio",
       "digestivo"
     ],
-    "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010"
+    "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 144,
@@ -1159,7 +1371,21 @@
       "antioxidante",
       "alcalinizante"
     ],
-    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 146,
@@ -1186,7 +1412,22 @@
       "emoliente",
       "antifúngico"
     ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
+    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Acné leve a moderado",
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 151,
@@ -1232,7 +1473,21 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Cuidado y nutrición de la piel",
+      "Piel grasa con tendencia al acné",
+      "Envejecimiento cutáneo prematuro",
+      "Hidratación de la piel"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+    "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+    "sinergia_plantas": [
+      "Caléndula",
+      "Rosa mosqueta",
+      "Aceite de oliva"
+    ]
   },
   {
     "id": 155,
