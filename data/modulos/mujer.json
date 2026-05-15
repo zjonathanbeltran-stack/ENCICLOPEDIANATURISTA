@@ -440,7 +440,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Usar solo flores maduras y bien secas. No consumir bayas, hojas o corteza crudas (tóxicas). Consultar en embarazo.",
     "uso": "Sofocos nocturnos. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 293,
@@ -793,7 +807,22 @@
     "fuente_tradicion": "Tradición Europea",
     "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. No aplicar en heridas abiertas, mucosas ni piel lesionada. No ingerir. Probar en zona pequeña primero.",
     "uso": "Traumatismos postparto. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo durante el proceso del parto (uso ceremonial)",
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 302,
@@ -854,7 +883,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Evitar en embarazo. No usar más de 2 semanas seguidas. Datos de seguridad limitados en niños.",
     "uso": "Depuración ginecológica. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 304,
@@ -913,7 +956,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Evitar en embarazo. Consultar en tratamientos anticoagulantes. Si el flujo es excesivo, descartar causa médica.",
     "uso": "Regular el flujo menstrual abundante. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 553,
@@ -974,7 +1031,21 @@
     "fuente_tradicion": "Herbolaria europea y naturopatía",
     "contraindicaciones": "Puede aumentar riesgo de sangrado; no usar en embarazo ni con anticoagulantes",
     "uso": "Síndrome Premenstrual. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 555,
@@ -993,7 +1064,21 @@
     "fuente_tradicion": "Herbolaria anglosajona y nativa americana",
     "contraindicaciones": "No usar en embarazo en el primer trimestre sin supervisión médica",
     "uso": "Útero. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 556,
@@ -1012,7 +1097,21 @@
     "fuente_tradicion": "Medicina tradicional china",
     "contraindicaciones": "No usar en embarazo; fotosensibilizante; puede aumentar el sangrado; múltiples interacciones",
     "uso": "Ciclo Menstrual. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 557,
@@ -1072,7 +1171,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo ni durante la lactancia; puede interactuar con anticonceptivos",
     "uso": "El SPM. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 559,
@@ -1132,7 +1245,21 @@
     "fuente_tradicion": "Medicina nativa americana (Algonquina)",
     "contraindicaciones": "Hepatotóxico en uso prolongado; no en cáncer hormonodependiente; monitorear hígado",
     "uso": "Menopausia. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 561,
@@ -1234,7 +1361,21 @@
     "fuente_tradicion": "Medicina tradicional china y europea",
     "contraindicaciones": "Contraindicado en embarazo (abortivo); epilepsia; no prolongar más de 3 semanas",
     "uso": "Regularizar el Ciclo. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 564,
@@ -1253,7 +1394,21 @@
     "fuente_tradicion": "Naturopatía tradicional (Edgar Cayce)",
     "contraindicaciones": "Uso externo solamente; no ingerir el aceite de ricino; solo quistes benignos confirmados",
     "uso": "Quistes Ováricos. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 565,
@@ -1272,7 +1427,22 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo; puede causar alergia en sensibles a crisantemas",
     "uso": "Acné Hormonal. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Acné leve a moderado",
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 566,
@@ -1291,7 +1461,21 @@
     "fuente_tradicion": "Medicina Ayurveda y árabe medieval",
     "contraindicaciones": "No usar en embarazo; puede simular efectos de estrógenos; diabéticos monitorear glucosa",
     "uso": "Libido. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 567,
@@ -1435,7 +1619,21 @@
     "fuente_tradicion": "Naturopatía y aromaterapia ginecológica",
     "contraindicaciones": "No en embarazo; consultar si se toman anticonceptivos hormonales",
     "uso": "El SPM. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 801,
@@ -1495,7 +1693,21 @@
     "fuente_tradicion": "Naturopatía ginecológica",
     "contraindicaciones": "No usar en embarazo; puede interactuar con tratamientos hormonales",
     "uso": "Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 803,
@@ -1514,7 +1726,21 @@
     "fuente_tradicion": "Medicina Ayurveda (utilizada por mujeres en India)",
     "contraindicaciones": "Contraindicado en embarazo; consultar médico para fibromas",
     "uso": "Útero. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 804,
@@ -1616,7 +1842,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "No en embarazo; puede alterar la glucosa en sangre",
     "uso": "SPM con Antojos de Dulce. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 807,
@@ -1635,7 +1875,21 @@
     "fuente_tradicion": "Medicina nativa americana algonquina",
     "contraindicaciones": "No en cáncer hormonodependiente; monitorear hígado en uso prolongado",
     "uso": "Sofocos Nocturnos. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 808,
@@ -1654,7 +1908,21 @@
     "fuente_tradicion": "Medicina andina peruana (Meseta de Junín)",
     "contraindicaciones": "Puede alterar hormonas en dosis altas; no en cáncer hormonodependiente",
     "uso": "Libido y la Menopausia. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 809,
@@ -1673,7 +1941,21 @@
     "fuente_tradicion": "Aromaterapia ginecológica",
     "contraindicaciones": "No en embarazo; fotosensibilizante (bergamota); solo externo",
     "uso": "Equilibrio Hormonal. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 810,
@@ -1692,7 +1974,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No en embarazo, lactancia, ni con anticonceptivos hormonales",
     "uso": "Hiperprolactinemia. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 811,
@@ -1753,7 +2049,21 @@
     "fuente_tradicion": "Naturopatía moderna basada en evidencia",
     "contraindicaciones": "No exceder dosis de B6 (puede causar neuropatía en exceso); consultar médico",
     "uso": "El SPM. Apoyo a la salud femenina.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Cólicos menstruales",
+      "Irregularidades del ciclo",
+      "Síntomas premenstruales",
+      "Leucorrea e irritación vaginal leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con matrona u obstetra antes de cualquier uso durante embarazo o lactancia.",
+    "duracion_tratamiento": "1-2 ciclos menstruales; revisar con profesional",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Lavanda",
+      "Caléndula"
+    ]
   },
   {
     "id": 999,

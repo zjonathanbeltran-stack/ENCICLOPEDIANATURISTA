@@ -310,7 +310,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
     "uso": "El Frío. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 111,
@@ -329,7 +343,21 @@
     "fuente_tradicion": "Mapuche",
     "contraindicaciones": "No usar si hay perforación timpánica. Consultar otorrinolaringólogo.",
     "uso": "Dolor de Oídos. Alivio de afecciones de oídos.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Otitis externa leve",
+      "Dolor de oídos",
+      "Acumulación de cera",
+      "Inflamación del conducto auditivo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Caléndula",
+      "Ajo"
+    ]
   },
   {
     "id": 113,
@@ -474,7 +502,22 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
     "uso": "Colesterol. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipercolesterolemia leve",
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 130,
@@ -493,7 +536,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo. No usar en niños menores de 6 años.",
     "uso": "Diabetes. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 140,
@@ -554,7 +611,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
     "uso": "Diabetes. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 150,
@@ -573,7 +644,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
     "uso": "Diabetes. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 152,
@@ -675,7 +760,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
     "uso": "Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 170,
@@ -820,7 +919,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
     "uso": "Rinitis Alérgica. Control de alergias.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Rinitis alérgica estacional",
+      "Urticaria leve",
+      "Reacciones alérgicas cutáneas",
+      "Asma alérgica leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Durante la temporada alérgica; suspender si hay reacción",
+    "sinergia_plantas": [
+      "Llantén",
+      "Ortiga",
+      "Manzanilla"
+    ]
   },
   {
     "titulo": "Lavado Nasal con Manzanilla y Sal para Alergia",
@@ -1172,7 +1285,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "No usar en fenilcetonuria; verificar calidad de espirulina; puede causar náuseas inicialmente",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 484,
@@ -1191,7 +1318,21 @@
     "fuente_tradicion": "Naturopatía contemporánea",
     "contraindicaciones": "Alergia al polen posible; iniciar con pequeñas cantidades",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 485,
@@ -1210,7 +1351,21 @@
     "fuente_tradicion": "Medicina tradicional coreana y china",
     "contraindicaciones": "No usar en embarazo, hipertensión no controlada, insomnio; múltiples interacciones",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 486,
@@ -1270,7 +1425,21 @@
     "fuente_tradicion": "Herbolaria apícola europea",
     "contraindicaciones": "Alergia a productos apícolas posible; no dar a menores de 1 año",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 490,
@@ -1494,7 +1663,21 @@
     "fuente_tradicion": "Medicina tradicional rusa, escandinava y tibetana",
     "contraindicaciones": "No usar en embarazo, trastornos bipolares ni con medicamentos psicotrópicos",
     "uso": "Cansancio. Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 648,
@@ -1554,7 +1737,21 @@
     "fuente_tradicion": "Medicina árabe medieval",
     "contraindicaciones": "Solo agua de rosas destilada certificada; no casera sin esterilizar",
     "uso": "Irritación Ocular. Alivio ocular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 650,
@@ -1573,7 +1770,21 @@
     "fuente_tradicion": "Medicina mediterránea y popular",
     "contraindicaciones": "No usar si hay perforación timpánica; consultar médico primero",
     "uso": "Tapón de Cera. Alivio de afecciones de oídos.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Otitis externa leve",
+      "Dolor de oídos",
+      "Acumulación de cera",
+      "Inflamación del conducto auditivo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Caléndula",
+      "Ajo"
+    ]
   },
   {
     "id": 651,
@@ -1633,7 +1844,21 @@
     "fuente_tradicion": "Cosmética natural universal",
     "contraindicaciones": "No dejar que entre en los ojos; si irrita, retirar",
     "uso": "Ojos Hinchados. Alivio ocular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Conjuntivitis leve",
+      "Irritación ocular",
+      "Fatiga visual",
+      "Ojos rojos por alergia"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Eufrasia",
+      "Llantén"
+    ]
   },
   {
     "id": 653,
@@ -1859,7 +2084,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "Generalmente seguro; verificar que la proteína de cáñamo no tenga aditivos",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 734,
@@ -1961,7 +2200,21 @@
     "fuente_tradicion": "Medicina natural amazónica",
     "contraindicaciones": "Generalmente seguro; alto en calorías saludables",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 737,
@@ -2022,7 +2275,21 @@
     "fuente_tradicion": "Medicina árabe y tradición ramadán",
     "contraindicaciones": "Alto en azúcares naturales; monitorear en diabéticos",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 739,
@@ -2207,7 +2474,21 @@
     "fuente_tradicion": "Medicina amazónica (Perú, Ecuador)",
     "contraindicaciones": "Generalmente seguro; puede causar alergia en sensibles a nueces",
     "uso": "Omega-3. Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 744,
@@ -2268,7 +2549,21 @@
     "fuente_tradicion": "Tradición árabe y naturopatía moderna",
     "contraindicaciones": "No consumir en alergia a frutos secos",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 746,
@@ -2452,7 +2747,21 @@
     "fuente_tradicion": "Naturopatía integrativa",
     "contraindicaciones": "Colar muy bien la ortiga; alto en sodio por el miso",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 751,
@@ -2471,7 +2780,21 @@
     "fuente_tradicion": "Naturopatía contemporánea",
     "contraindicaciones": "No recomendado en anticoagulados (espinaca alta en vitamina K)",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 752,
@@ -2490,7 +2813,21 @@
     "fuente_tradicion": "Medicina ceremonial azteca (cacao sagrado)",
     "contraindicaciones": "Contiene teobromina y cafeína; evitar en cardiopatías o insomnio",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 838,
@@ -2551,7 +2888,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede causar fotosensibilidad",
     "uso": "Alergias. Control de alergias.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Rinitis alérgica estacional",
+      "Urticaria leve",
+      "Reacciones alérgicas cutáneas",
+      "Asma alérgica leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Durante la temporada alérgica; suspender si hay reacción",
+    "sinergia_plantas": [
+      "Llantén",
+      "Ortiga",
+      "Manzanilla"
+    ]
   },
   {
     "id": 873,
@@ -2612,7 +2963,21 @@
     "fuente_tradicion": "Medicina andina",
     "contraindicaciones": "Generalmente seguro; la quinoa no contiene gluten",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 875,
@@ -2631,7 +2996,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "El wheatgrass puede causar náuseas al inicio; comenzar con media dosis",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 876,
@@ -2650,7 +3029,21 @@
     "fuente_tradicion": "Naturopatía deportiva moderna",
     "contraindicaciones": "No en alergia al huevo o gluten",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 877,
@@ -2669,7 +3062,21 @@
     "fuente_tradicion": "Naturopatía deportiva",
     "contraindicaciones": "Puede colorear la orina de rojo (normal)",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 878,
@@ -2730,7 +3137,21 @@
     "fuente_tradicion": "Naturopatía marina y macrobiótica",
     "contraindicaciones": "Verificar origen y calidad de las algas; pueden contener metales pesados",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 880,
@@ -2913,7 +3334,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "Verificar calidad de la espirulina",
     "uso": "Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 885,
@@ -3016,7 +3451,21 @@
     "fuente_tradicion": "Medicina amazónica (Amazonia peruana y brasilera)",
     "contraindicaciones": "No exceder; puede tener efectos laxantes en cantidad; verificar origen",
     "uso": "Vitalidad. Energía y vitalidad.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Fatiga física y mental",
+      "Falta de vitalidad",
+      "Recuperación post-esfuerzo",
+      "Bajada de defensas"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Menta"
+    ]
   },
   {
     "id": 903,
@@ -3035,7 +3484,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede causar alergia en algunos; colar muy bien",
     "uso": "Alergia. Control de alergias.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Rinitis alérgica estacional",
+      "Urticaria leve",
+      "Reacciones alérgicas cutáneas",
+      "Asma alérgica leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Durante la temporada alérgica; suspender si hay reacción",
+    "sinergia_plantas": [
+      "Llantén",
+      "Ortiga",
+      "Manzanilla"
+    ]
   },
   {
     "id": 904,
@@ -3219,7 +3682,21 @@
     "fuente_tradicion": "Herbolaria francesa y europea",
     "contraindicaciones": "Puede interactuar con medicamentos para la presión",
     "uso": "Control de alergias.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Rinitis alérgica estacional",
+      "Urticaria leve",
+      "Reacciones alérgicas cutáneas",
+      "Asma alérgica leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Durante la temporada alérgica; suspender si hay reacción",
+    "sinergia_plantas": [
+      "Llantén",
+      "Ortiga",
+      "Manzanilla"
+    ]
   },
   {
     "id": 909,
@@ -3649,7 +4126,21 @@
     "fuente_tradicion": "Hidroterapia Kneipp y tradición escandinava",
     "contraindicaciones": "No en enfermedad cardiovascular severa ni en crisis de hipertensión",
     "uso": "Vitalidad. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 920,
@@ -3668,7 +4159,21 @@
     "fuente_tradicion": "Medicina africana, india (Ayurveda) y naturopatía",
     "contraindicaciones": "No exceder en dosis altas; puede bajar la presión y la glucosa",
     "uso": "Bienestar Diario. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 921,
@@ -3729,7 +4234,21 @@
     "fuente_tradicion": "Medicina natural y naturopatía",
     "contraindicaciones": "No en alergia al aguacate o al látex",
     "uso": "Piel y la Salud. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 923,
@@ -3912,7 +4431,21 @@
     "fuente_tradicion": "Naturopatía japonesa y moderna",
     "contraindicaciones": "No en enfermedad celíaca; puede contener gluten en trazas",
     "uso": "Alcalinizar. Bienestar general.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Debilidad general",
+      "Síntomas de gripe leve",
+      "Infecciones recurrentes leves",
+      "Recuperación de enfermedades"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Ajo",
+      "Limón",
+      "Miel"
+    ]
   },
   {
     "id": 1002,

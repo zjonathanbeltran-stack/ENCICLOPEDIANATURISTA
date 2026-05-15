@@ -58,7 +58,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza el tratamiento médico del reumatismo. Consultar en uso prolongado.",
     "uso": "La Gota. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 42,
@@ -204,7 +218,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
     "uso": "Infecciones Bucales. Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 134,
@@ -223,7 +251,21 @@
     "fuente_tradicion": "Europea (tradición fitoterapéutica)",
     "contraindicaciones": "No reemplaza el tratamiento médico del reumatismo. Consultar en uso prolongado.",
     "uso": "Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 135,
@@ -451,7 +493,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
     "uso": "Dolores Musculares. Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "titulo": "Aceite de Romero para Masaje Analgésico",
@@ -637,7 +693,22 @@
     "fuente_tradicion": "Mapuche",
     "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
     "uso": "Artritis y Reumatismo. Reducción de la inflamación.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico y artritis",
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "titulo": "Gel de Aloe Vera y Cúrcuma para Inflamaciones Cutáneas",
@@ -738,7 +809,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
     "uso": "Contusiones e Inflamaciones. Reducción de la inflamación.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "titulo": "Té Antiinflamatorio de Cola de Caballo y Jengibre",
@@ -799,7 +884,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
     "uso": "Inflamaciones. Reducción de la inflamación.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "titulo": "Enjuague de Clavo de Olor para Dolor de Muelas",
@@ -900,7 +999,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No ingerir el enjuague. No reemplaza atención odontológica profesional.",
     "uso": "Oil Pulling. Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "titulo": "Pasta Dental Natural de Bicarbonato, Coco y Aceite de Árbol del Té",
@@ -1043,7 +1156,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo ni en piel abierta; toxica si se ingiere",
     "uso": "Masaje en Dolor Muscular. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 470,
@@ -1144,7 +1271,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Solo usar flores; bayas/hojas crudas son tóxicas",
     "uso": "Inflamación. Reducción de la inflamación.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "id": 473,
@@ -1163,7 +1304,21 @@
     "fuente_tradicion": "Medicina popular latinoamericana y ayurveda",
     "contraindicaciones": "No usar en piel sensible ni en heridas; puede quemar si se acumula",
     "uso": "Dolor Crónico. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 474,
@@ -1182,7 +1337,21 @@
     "fuente_tradicion": "Medicina casera popular",
     "contraindicaciones": "No usar en piel sensible ni heridas abiertas",
     "uso": "Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 475,
@@ -1201,7 +1370,22 @@
     "fuente_tradicion": "Tradición latinoamericana y herbolaria ancestral",
     "contraindicaciones": "Generalmente seguro; alto en purinas; evitar en gota",
     "uso": "Articulaciones. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico y artritis",
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 476,
@@ -1303,7 +1487,21 @@
     "fuente_tradicion": "Herbolaria africana (Kalahari) y europea integrada",
     "contraindicaciones": "No usar en embarazo; puede interactuar con warfarina",
     "uso": "Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 479,
@@ -1322,7 +1520,21 @@
     "fuente_tradicion": "Herbolaria europea y medicina integrativa",
     "contraindicaciones": "Generalmente seguro; no agregar azúcar si se trata la gota",
     "uso": "Reducción de la inflamación.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Inflamación articular crónica",
+      "Tendinitis y bursitis leve",
+      "Dolor e inflamación muscular",
+      "Artritis leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Cúrcuma",
+      "Jengibre",
+      "Árnica"
+    ]
   },
   {
     "id": 480,
@@ -1341,7 +1553,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede irritar piel muy sensible; no usar en heridas abiertas",
     "uso": "Pies con Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 481,
@@ -1400,7 +1626,21 @@
     "fuente_tradicion": "Tradición europea popular",
     "contraindicaciones": "Generalmente seguro; lavar bien las hojas; retirar si hay irritación",
     "uso": "Inflamación. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 498,
@@ -1419,7 +1659,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "No tragar; puede causar náuseas; no reemplaza el cepillado",
     "uso": "Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 499,
@@ -1479,7 +1733,21 @@
     "fuente_tradicion": "Naturopatía contemporánea",
     "contraindicaciones": "No usar a diario; el bicarbonato puede erosionar el esmalte",
     "uso": "Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 501,
@@ -1539,7 +1807,21 @@
     "fuente_tradicion": "Tradición universal de salud oral",
     "contraindicaciones": "No tragar; puede irritar si hay heridas profundas",
     "uso": "Infección Gingival. Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 503,
@@ -1558,7 +1840,21 @@
     "fuente_tradicion": "Medicina árabe, mediterránea y bíblica",
     "contraindicaciones": "No usar en embarazo; puede irritar mucosas en exceso",
     "uso": "Estomatitis. Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 504,
@@ -1577,7 +1873,21 @@
     "fuente_tradicion": "Naturopatía australiana",
     "contraindicaciones": "Nunca ingerir el aceite esencial sin diluir; tóxico si se traga",
     "uso": "Encías. Alivio dental y bucal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de muelas y caries",
+      "Gingivitis y periodontitis leve",
+      "Aftas y úlceras bucales",
+      "Infecciones bucales leves"
+    ],
+    "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+    "sinergia_plantas": [
+      "Clavo de olor",
+      "Salvia",
+      "Tomillo"
+    ]
   },
   {
     "id": 505,
@@ -1761,7 +2071,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Puede aumentar riesgo de sangrado; interacciones con anticoagulantes",
     "uso": "Inflamación Crónica. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 825,
@@ -1780,7 +2104,21 @@
     "fuente_tradicion": "Medicina del Mar Muerto y talasoterapia",
     "contraindicaciones": "No en hipotensión grave; la sal puede irritar piel con heridas",
     "uso": "Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 826,
@@ -1799,7 +2137,21 @@
     "fuente_tradicion": "Tradición popular europea",
     "contraindicaciones": "La gota debe ser tratada médicamente; el col es apoyo",
     "uso": "La Gota. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 827,
@@ -1818,7 +2170,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede interactuar con anticoagulantes y antidiabéticos",
     "uso": "Ácido Úrico. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 828,
@@ -2001,7 +2367,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Puede interactuar con anticoagulantes; puede causar piedras en la vesícula en exceso",
     "uso": "Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 833,
@@ -2142,7 +2522,21 @@
     "fuente_tradicion": "Herbolaria europea medieval",
     "contraindicaciones": "Puede causar vómitos en exceso; no en embarazo",
     "uso": "La Gota. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 837,
@@ -2161,7 +2555,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Solo externo; la nuez moscada ingerida en exceso es alucinógena y tóxica",
     "uso": "Artritis. Alivio del reumatismo y artritis.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor articular crónico",
+      "Artritis y reumatismo",
+      "Rigidez matutina",
+      "Contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Romero",
+      "Cola de caballo"
+    ]
   },
   {
     "id": 965,
@@ -2261,7 +2669,21 @@
     "fuente_tradicion": "Medicina amazonica brasilena",
     "contraindicaciones": "No ingerir sin supervision; solo uso externo",
     "uso": "Dolor. Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 970,
@@ -2280,7 +2702,21 @@
     "fuente_tradicion": "Medicina tradicional tailandesa y malaya",
     "contraindicaciones": "Potencial de dependencia; verificar legalidad; no en embarazo ni menores",
     "uso": "Dolor Cronico. Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 971,
@@ -2340,7 +2776,21 @@
     "fuente_tradicion": "Medicina tradicional china",
     "contraindicaciones": "Solo externo; puede irritar piel sensible",
     "uso": "Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 973,
@@ -2440,7 +2890,21 @@
     "fuente_tradicion": "Herbolaria nativa norteamericana",
     "contraindicaciones": "No usar en ninos; no en embarazo; contiene salicilato (similar aspirina)",
     "uso": "Dolores Musculares. Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 976,
@@ -2459,7 +2923,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No aplicar en piel irritada; verificar temperatura",
     "uso": "Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 977,
@@ -2478,7 +2956,21 @@
     "fuente_tradicion": "Medicina tradicional china",
     "contraindicaciones": "No en embarazo; puede causar somnolencia; posibles interacciones",
     "uso": "Dolor Neuropatico. Alivio del dolor.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dolor de cabeza tensional",
+      "Dolor muscular leve",
+      "Dolor articular moderado",
+      "Jaquecas frecuentes"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+    "sinergia_plantas": [
+      "Jengibre",
+      "Cúrcuma",
+      "Manzanilla"
+    ]
   },
   {
     "id": 1063,

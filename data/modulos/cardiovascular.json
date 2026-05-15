@@ -16,7 +16,22 @@
     "fuente_tradicion": "Mapuche",
     "contraindicaciones": "No usar en embarazo ni insuficiencia renal. Mantener buena hidratación.",
     "uso": "Riñones. Drenaje y depurativo renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 34,
@@ -204,7 +219,22 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
     "uso": "Cálculos Renales. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 166,
@@ -223,7 +253,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No usar en embarazo ni insuficiencia renal. Mantener buena hidratación.",
     "uso": "Retención de Líquidos. Drenaje y depurativo renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "titulo": "Infusión de Cola de Caballo para Riñones y Vejiga",
@@ -284,7 +328,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
     "uso": "Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "titulo": "Agua de Perejil para Retención de Líquidos",
@@ -303,7 +361,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
     "uso": "Retención de Líquidos. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "titulo": "Infusión de Diente de León para Depurar los Riñones",
@@ -406,7 +478,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No reemplaza medicación antihipertensiva. Controlar la presión regularmente. Evitar en hipotensión.",
     "uso": "Presión arterial alta. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 307,
@@ -760,7 +846,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Evitar en embarazo y niños menores de 12 años. No usar más de 2 semanas seguidas.",
     "uso": "Depuración sanguínea. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 316,
@@ -946,7 +1046,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo. Puede interactuar con medicamentos antiarrítmicos. Consultar cardiólogo antes de usar.",
     "uso": "Regularización cardíaca leve. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 321,
@@ -1008,7 +1122,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No suspender medicación antihipertensiva. Puede potenciar efecto de diuréticos. Evitar en hipotensión.",
     "uso": "Presión arterial. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 323,
@@ -1191,7 +1319,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede potenciar medicamentos cardíacos; consultar médico si se toman digitálicos",
     "uso": "Corazón. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 454,
@@ -1251,7 +1393,21 @@
     "fuente_tradicion": "Tradición tropical latinoamericana y caribeña",
     "contraindicaciones": "Cuidado en insuficiencia renal por alto contenido en potasio",
     "uso": "Electrolitos. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 456,
@@ -1270,7 +1426,22 @@
     "fuente_tradicion": "Naturopatía moderna basada en evidencia",
     "contraindicaciones": "Generalmente seguro; alto en fibra puede causar flatulencia inicial",
     "uso": "Colesterol. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipercolesterolemia leve",
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 457,
@@ -1373,7 +1544,21 @@
     "fuente_tradicion": "Medicina árabe, mediterránea y Ayurveda",
     "contraindicaciones": "Puede interferir con estatinas y algunos medicamentos; consultar médico",
     "uso": "Arterias. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 460,
@@ -1474,7 +1659,21 @@
     "fuente_tradicion": "Naturopatía moderna basada en evidencia",
     "contraindicaciones": "La linaza puede interactuar con anticoagulantes; beber suficiente agua",
     "uso": "Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 463,
@@ -1493,7 +1692,21 @@
     "fuente_tradicion": "Herbolaria popular latinoamericana",
     "contraindicaciones": "No confundir especies; algunas variedades tienen partes tóxicas",
     "uso": "Presión Alta. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 464,
@@ -1554,7 +1767,21 @@
     "fuente_tradicion": "Herbolaria europea y medicina integrativa",
     "contraindicaciones": "Interacciona con anticoagulantes; beber mucha agua",
     "uso": "Corazón. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 466,
@@ -1614,7 +1841,21 @@
     "fuente_tradicion": "Medicina azteca y tradición mesoamericana",
     "contraindicaciones": "Contiene cafeína y teobromina; evitar en migraña o insomnio",
     "uso": "Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 538,
@@ -1633,7 +1874,22 @@
     "fuente_tradicion": "Tradición latinoamericana popular",
     "contraindicaciones": "Contraindicado en embarazo; puede irritar los riñones en patología renal",
     "uso": "Riñones. Drenaje y depurativo renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 539,
@@ -1734,7 +1990,21 @@
     "fuente_tradicion": "Tradición latinoamericana y norteamericana nativa",
     "contraindicaciones": "Diurético suave; puede bajar levemente la presión; controlar en hipotensión",
     "uso": "Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 542,
@@ -1835,7 +2105,22 @@
     "fuente_tradicion": "Tradición mesoamericana",
     "contraindicaciones": "Hipotensivo; puede interactuar con medicamentos para presión; no en embarazo",
     "uso": "Riñones. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 545,
@@ -1895,7 +2180,21 @@
     "fuente_tradicion": "Medicina tradicional javanesa e indonesia",
     "contraindicaciones": "No usar en insuficiencia renal ni embarazo",
     "uso": "Drenaje y depurativo renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 547,
@@ -1956,7 +2255,21 @@
     "fuente_tradicion": "Tradición latinoamericana popular",
     "contraindicaciones": "Diurético moderado; aumentar consumo de agua para no deshidratarse",
     "uso": "Drenaje y depurativo renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Edema leve",
+      "Hipertensión arterial leve",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 549,
@@ -1975,7 +2288,21 @@
     "fuente_tradicion": "Medicina amazónica y Ayurveda",
     "contraindicaciones": "No reemplaza tratamiento médico para cálculos grandes; puede interactuar con anticoagulantes",
     "uso": "Cálculos. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 550,
@@ -2035,7 +2362,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo; puede causar alergias en sensibles a asteráceas",
     "uso": "Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 552,
@@ -2096,7 +2437,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Anticoagulante; no usar con warfarina ni antes de cirugías",
     "uso": "Varices. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 769,
@@ -2115,7 +2470,21 @@
     "fuente_tradicion": "Hidroterapia Kneipp alemana",
     "contraindicaciones": "No usar en enfermedades cardiovasculares graves sin consulta médica",
     "uso": "Circulación. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 770,
@@ -2258,7 +2627,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "Puede aumentar el riesgo de sangrado; no calentar el aceite",
     "uso": "Corazón. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 774,
@@ -2528,7 +2911,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "Alto en vitamina K; precaución en anticoagulados",
     "uso": "Sangre. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 781,
@@ -2547,7 +2944,21 @@
     "fuente_tradicion": "Tradición latinoamericana y africana",
     "contraindicaciones": "Puede bajar la presión arterial; no usar con antihipertensivos sin consulta",
     "uso": "Corazón. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 782,
@@ -2566,7 +2977,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "Generalmente seguro; alto en calorías",
     "uso": "Corazón. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 948,
@@ -2627,7 +3052,21 @@
     "fuente_tradicion": "Naturopatia moderna",
     "contraindicaciones": "Puede potenciar medicamentos para la presion",
     "uso": "Presion. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 950,
@@ -2646,7 +3085,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No en cancer hormono-dependiente; consultar medico",
     "uso": "Circulacion. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 951,
@@ -2749,7 +3202,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "No en embarazo; puede afectar la prostata",
     "uso": "Circulacion. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 954,
@@ -2768,7 +3235,21 @@
     "fuente_tradicion": "Tradicion africana occidental e india",
     "contraindicaciones": "Hipotensivo; precaucion con antihipertensivos",
     "uso": "Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 955,
@@ -2787,7 +3268,22 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Distinguir entre canela de Ceylan y cassia; el aceite de coco es alto en saturados",
     "uso": "Colesterol. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipercolesterolemia leve",
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 956,
@@ -2806,7 +3302,21 @@
     "fuente_tradicion": "Naturopatia moderna",
     "contraindicaciones": "Puede interactuar con anticoagulantes; beber mucha agua",
     "uso": "Corazon. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 957,
@@ -2825,7 +3335,21 @@
     "fuente_tradicion": "Herbolaria europea y china",
     "contraindicaciones": "No en embarazo ni con medicamentos cardiacos sin consulta",
     "uso": "Corazon. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 988,
@@ -2885,7 +3409,21 @@
     "fuente_tradicion": "Naturopatia",
     "contraindicaciones": "Generalmente seguro",
     "uso": "Rinones. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 990,
@@ -2904,7 +3442,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo; puede potenciar diureticos",
     "uso": "Rinones. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 991,
@@ -2923,7 +3475,22 @@
     "fuente_tradicion": "Naturopatia contemporanea",
     "contraindicaciones": "El esparrago puede dar olor caracteristico a la orina",
     "uso": "Detoxificacion Renal. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo renal y diurético suave",
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 992,
@@ -2982,7 +3549,21 @@
     "fuente_tradicion": "Hidroterapia popular",
     "contraindicaciones": "No usar en piel con heridas",
     "uso": "Circulacion. Apoyo cardiovascular.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Hipertensión arterial leve",
+      "Mala circulación periférica",
+      "Colesterol elevado",
+      "Palpitaciones por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+    "sinergia_plantas": [
+      "Ajo",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 1001,
@@ -3001,7 +3582,21 @@
     "fuente_tradicion": "Herbolaria europea medieval",
     "contraindicaciones": "No en embarazo; puede causar fotosensibilidad",
     "uso": "Vias Urinarias. Apoyo de la función renal.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Retención de líquidos",
+      "Infección urinaria leve",
+      "Edema leve de miembros inferiores",
+      "Depuración renal"
+    ],
+    "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Cola de caballo",
+      "Diente de León",
+      "Perejil"
+    ]
   },
   {
     "id": 1071,

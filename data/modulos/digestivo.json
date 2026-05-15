@@ -144,7 +144,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
     "uso": "Anemia. Aporte nutricional.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Anemia ferropénica leve",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 17,
@@ -205,7 +219,20 @@
     "fuente_tradicion": "Mapuche",
     "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
     "uso": "Hígado. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 32,
@@ -267,7 +294,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
     "uso": "Anemia. Aporte nutricional.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Anemia ferropénica leve",
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 51,
@@ -286,7 +327,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
     "uso": "Aliviar el Dolor Abdominal. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 52,
@@ -305,7 +360,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
     "uso": "Estimular el Apetito. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 54,
@@ -324,7 +393,20 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
     "uso": "Hígado. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 59,
@@ -427,7 +509,20 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
     "uso": "Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 80,
@@ -654,7 +749,20 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
     "uso": "Hígado. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 119,
@@ -755,7 +863,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
     "uso": "Indigestión. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 157,
@@ -815,7 +937,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona. | En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
     "uso": "Indigestión. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "titulo": "Decocción de Paico para Parásitos Intestinales",
@@ -954,7 +1090,20 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
     "uso": "Parásitos Intestinales. Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "titulo": "Jugo de Cebolla en Ayunas contra Parásitos",
@@ -1054,7 +1203,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
     "uso": "Diarrea Aguda. Tratamiento de la diarrea.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Diarrea aguda leve",
+      "Cólicos abdominales",
+      "Gastroenteritis viral leve",
+      "Irritación de mucosa intestinal"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Llantén",
+      "Arrayán",
+      "Manzanilla"
+    ]
   },
   {
     "titulo": "Infusión de Llantén y Arrayán para Diarrea con Cólicos",
@@ -1115,7 +1278,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
     "uso": "Diarrea Infantil). Tratamiento de la diarrea.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Diarrea aguda leve",
+      "Cólicos abdominales",
+      "Gastroenteritis viral leve",
+      "Irritación de mucosa intestinal"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Llantén",
+      "Arrayán",
+      "Manzanilla"
+    ]
   },
   {
     "titulo": "Té Astringente de Zarzamora (Hojas) para Diarrea",
@@ -1134,7 +1311,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
     "uso": "Diarrea. Tratamiento de la diarrea.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Diarrea aguda leve",
+      "Cólicos abdominales",
+      "Gastroenteritis viral leve",
+      "Irritación de mucosa intestinal"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Llantén",
+      "Arrayán",
+      "Manzanilla"
+    ]
   },
   {
     "id": 373,
@@ -2019,7 +2210,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Diurético leve: mantenerse bien hidratado. No abusar en insuficiencia renal. Consultar en embarazo.",
     "uso": "Depuración digestiva. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 395,
@@ -2080,7 +2285,20 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo. Puede interactuar con antiarrítmicos. Consultar en enfermedad cardíaca.",
     "uso": "Vesícula biliar. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 397,
@@ -2182,7 +2400,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "Contraindicado en embarazo en dosis medicinales. Si la diarrea tiene sangre o fiebre alta, consultar médico urgente.",
     "uso": "Diarrea y bacterias intestinales. Tratamiento de la diarrea.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Diarrea aguda leve",
+      "Cólicos abdominales",
+      "Gastroenteritis viral leve",
+      "Irritación de mucosa intestinal"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Llantén",
+      "Arrayán",
+      "Manzanilla"
+    ]
   },
   {
     "id": 400,
@@ -2653,7 +2885,21 @@
     "fuente_tradicion": "Medicina herbal mesoamericana y caribeña",
     "contraindicaciones": "Puede interactuar con litio y digoxina; no usar en embarazo",
     "uso": "Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 412,
@@ -2755,7 +3001,21 @@
     "fuente_tradicion": "Tradición mesoamericana y andina",
     "contraindicaciones": "Hipotensivo; no usar con medicamentos para la presión arterial; evitar en embarazo",
     "uso": "Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 417,
@@ -2980,7 +3240,21 @@
     "fuente_tradicion": "Medicina mapuche tradicional",
     "contraindicaciones": "No usar más de 2 semanas seguidas; consultar antes si hay patología hepática",
     "uso": "Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 488,
@@ -3039,7 +3313,20 @@
     "fuente_tradicion": "Medicina tradicional japonesa",
     "contraindicaciones": "Alto en sodio; evitar en hipertensión no controlada e insuficiencia renal",
     "uso": "Aporte nutricional.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 492,
@@ -3098,7 +3385,20 @@
     "fuente_tradicion": "Medicina integrativa y nutrición",
     "contraindicaciones": "Alto en proteína vegetal; puede causar flatulencia inicial",
     "uso": "Aporte nutricional.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 598,
@@ -3530,7 +3830,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "No confundir con cannabis; las semillas peladas no contienen THC",
     "uso": "Complemento alimentario.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 609,
@@ -3631,7 +3945,21 @@
     "fuente_tradicion": "Medicina persa y Ayurveda",
     "contraindicaciones": "El azafrán en grandes cantidades puede ser tóxico; usar solo 2-3 hebras",
     "uso": "Complemento alimentario.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 612,
@@ -3733,7 +4061,20 @@
     "fuente_tradicion": "Herbolaria europea y árabe",
     "contraindicaciones": "Puede causar efecto laxante leve; alergia posible en sensibles a crisantemas",
     "uso": "Hígado. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 670,
@@ -3793,7 +4134,20 @@
     "fuente_tradicion": "Medicina nórdica y tradicional europea",
     "contraindicaciones": "No exceder dosis; alto en vitamina A (tóxica en exceso); no en embarazo sin control",
     "uso": "Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 672,
@@ -3933,7 +4287,20 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "No exceder en gastritis; puede irritar el estómago",
     "uso": "Detox Hepático. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 676,
@@ -3952,7 +4319,20 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede causar efecto laxante leve; alergia posible en sensibles a crisantemas",
     "uso": "Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 677,
@@ -3971,7 +4351,20 @@
     "fuente_tradicion": "Herbolaria europea medieval",
     "contraindicaciones": "No usar más de 3 semanas seguidas; no en embarazo",
     "uso": "Hígado y la Vesícula. Depurativo y protector hepático.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Uso medicinal tradicional",
+      "Apoyo del sistema inmune",
+      "Alivio de síntomas generales"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+    "sinergia_plantas": [
+      "Manzanilla",
+      "Romero",
+      "Ajo"
+    ]
   },
   {
     "id": 693,
@@ -4032,7 +4425,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Fotosensibilizante; no en embarazo; no en diabéticos",
     "uso": "Gases y Cólicos. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 695,
@@ -4298,7 +4705,21 @@
     "fuente_tradicion": "Medicina Ayurveda y árabe",
     "contraindicaciones": "Puede causar alergias; en diabéticos monitorear la glucosa",
     "uso": "Digestión. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 702,
@@ -4358,7 +4779,21 @@
     "fuente_tradicion": "Herbolaria mediterránea",
     "contraindicaciones": "Generalmente seguro en cantidades normales",
     "uso": "Acidez. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 704,
@@ -4460,7 +4895,21 @@
     "fuente_tradicion": "Tradición latinoamericana y asiática",
     "contraindicaciones": "Solo para diarrea leve; buscar atención médica si hay fiebre alta",
     "uso": "Diarrea. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 707,
@@ -4479,7 +4928,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Astringente; no usar en estreñimiento",
     "uso": "Diarrea. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 708,
@@ -4498,7 +4961,21 @@
     "fuente_tradicion": "Tradición universal de medicina popular",
     "contraindicaciones": "No agregar azúcar; la manzana ya endulza",
     "uso": "Estómago. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 709,
@@ -4517,7 +4994,21 @@
     "fuente_tradicion": "Herbolaria europea y árabe",
     "contraindicaciones": "Hipertensivo; no en hipertensión, embarazo, insuficiencia cardiaca",
     "uso": "Gastritis. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 710,
@@ -4536,7 +5027,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Beber mucha agua; puede causar obstrucción si se toma sin agua suficiente",
     "uso": "Estreñimiento. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 711,
@@ -4596,7 +5101,21 @@
     "fuente_tradicion": "Tradición europea y latinoamericana popular",
     "contraindicaciones": "Laxante; no exceder la cantidad recomendada",
     "uso": "Estreñimiento. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 713,
@@ -4615,7 +5134,21 @@
     "fuente_tradicion": "Medicina Ayurveda y árabe",
     "contraindicaciones": "Generalmente seguro; puede interactuar con medicamentos anticoagulantes",
     "uso": "Digestión. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 714,
@@ -4757,7 +5290,21 @@
     "fuente_tradicion": "Tradición universal de medicina popular",
     "contraindicaciones": "Solo para diarrea leve; buscar atención médica si hay sangre o fiebre alta",
     "uso": "Diarrea Infantil. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 718,
@@ -4896,7 +5443,20 @@
     "fuente_tradicion": "Herbolaria nativa americana",
     "contraindicaciones": "No usar en embarazo; puede interactuar con medicamentos tiroideos",
     "uso": "Parásitos. Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 722,
@@ -4915,7 +5475,20 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Tóxico si se abusa; no en embarazo, epilepsia ni menores",
     "uso": "Parásitos. Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 723,
@@ -5095,7 +5668,20 @@
     "fuente_tradicion": "Naturopatía latinoamericana",
     "contraindicaciones": "No reemplaza tratamiento médico confirmado; solo para parásitos leves",
     "uso": "Parásitos. Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 728,
@@ -5234,7 +5820,20 @@
     "fuente_tradicion": "Medicina Gerson y naturopatía",
     "contraindicaciones": "No usar en personas con colon irritable, hemorroides activas o embarazo",
     "uso": "Limpieza Intestinal. Eliminación de parásitos intestinales.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ]
   },
   {
     "id": 732,
@@ -5378,7 +5977,21 @@
     "fuente_tradicion": "Medicina macrobiótica japonesa",
     "contraindicaciones": "Alto en sodio; no en hipertensión severa",
     "uso": "Complemento alimentario.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 891,
@@ -5523,7 +6136,21 @@
     "fuente_tradicion": "Medicina japonesa y tradicional china",
     "contraindicaciones": "El reishi puede interactuar con anticoagulantes; no en embarazo",
     "uso": "Complemento alimentario.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 895,
@@ -5625,7 +6252,21 @@
     "fuente_tradicion": "Medicina polinesia (Hawai, Samoa, Tahití)",
     "contraindicaciones": "Puede interactuar con medicamentos; alto en potasio; no en insuficiencia renal",
     "uso": "Inmunidad. Complemento alimentario.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Apoyo nutricional y vitamínico",
+      "Anemia leve por déficit de hierro",
+      "Fatiga y debilidad general",
+      "Depuración orgánica suave"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+    "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+    "sinergia_plantas": [
+      "Ortiga",
+      "Diente de León",
+      "Maqui"
+    ]
   },
   {
     "id": 898,
@@ -5851,7 +6492,21 @@
     "fuente_tradicion": "Medicina caribena y amazonica",
     "contraindicaciones": "No en embarazo; puede causar alergias",
     "uso": "Digestión. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 939,
@@ -5911,7 +6566,21 @@
     "fuente_tradicion": "Medicina popular universal",
     "contraindicaciones": "No usar en hipertension; no en insuficiencia renal",
     "uso": "Estreñimiento Urgente. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 941,
@@ -5930,7 +6599,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No en embarazo; no en gastritis activa; muy amargo",
     "uso": "Digestion Lenta. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 942,
@@ -5949,7 +6632,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Puede causar alergia en sensibles a asteraceas",
     "uso": "Higado y la Digestion. Apoyo digestivo.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Dispepsia y digestión pesada",
+      "Dolor de estómago y espasmos abdominales",
+      "Gastritis y acidez leve",
+      "Flatulencia y meteorismo"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+    "sinergia_plantas": [
+      "Boldo",
+      "Hinojo",
+      "Manzanilla"
+    ]
   },
   {
     "id": 943,

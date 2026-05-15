@@ -186,7 +186,21 @@
     "fuente_tradicion": "Popular Chileno",
     "contraindicaciones": "No combinar con medicamentos psicotrópicos sin consultar al médico.",
     "uso": "Nervios. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 82,
@@ -1218,7 +1232,22 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "Puede causar problemas digestivos; no usar en embarazo",
     "uso": "Concentración. Mejora de la memoria y concentración.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit de memoria y concentración",
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 509,
@@ -1278,7 +1307,21 @@
     "fuente_tradicion": "Naturopatía moderna y neurociencia nutricional",
     "contraindicaciones": "No consumir en alergia a nueces",
     "uso": "Cerebro. Mejora de la memoria y concentración.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 511,
@@ -1297,7 +1340,21 @@
     "fuente_tradicion": "Medicina Ayurveda y tradicional china",
     "contraindicaciones": "No usar en embarazo; puede causar fotosensibilidad; hepatotóxico en dosis altas",
     "uso": "Mejora de la memoria y concentración.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 512,
@@ -1398,7 +1455,21 @@
     "fuente_tradicion": "Naturopatía moderna",
     "contraindicaciones": "No consumir en alergia a frutos secos",
     "uso": "Mejora de la memoria y concentración.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Déficit leve de concentración",
+      "Fatiga mental y cognitiva",
+      "Estrés oxidativo neuronal",
+      "Rendimiento intelectual reducido"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+    "sinergia_plantas": [
+      "Romero",
+      "Ginkgo",
+      "Salvia"
+    ]
   },
   {
     "id": 515,
@@ -1710,7 +1781,21 @@
     "fuente_tradicion": "Medicina polinesia tradicional",
     "contraindicaciones": "Hepatotóxico en uso prolongado o dosis altas; no combinar con alcohol",
     "uso": "Ansiedad. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 523,
@@ -1770,7 +1855,21 @@
     "fuente_tradicion": "Tradición árabe y mediterránea",
     "contraindicaciones": "Puede potenciar sedantes; evitar en hipotensión",
     "uso": "Tensión Nerviosa. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 525,
@@ -1871,7 +1970,21 @@
     "fuente_tradicion": "Medicina herbal nativa americana californiana",
     "contraindicaciones": "Sedante leve; no conducir; no en embarazo",
     "uso": "Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 528,
@@ -1890,7 +2003,21 @@
     "fuente_tradicion": "Medicina Ayurveda y tradición yóguica",
     "contraindicaciones": "No aplicar en mucosas; evitar durante el embarazo",
     "uso": "Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 529,
@@ -1909,7 +2036,21 @@
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "No usar en dosis altas; no en embarazo",
     "uso": "Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 530,
@@ -1969,7 +2110,21 @@
     "fuente_tradicion": "Tradición latinoamericana popular",
     "contraindicaciones": "Puede causar somnolencia; no conducir",
     "uso": "Ansiedad. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 532,
@@ -2030,7 +2185,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No usar en embarazo; puede estimular contracciones uterinas",
     "uso": "Agotamiento Nervioso. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 534,
@@ -2090,7 +2259,22 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No conducir; no en embarazo; leve efecto depresor del SNC",
     "uso": "Insomnio. Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve a moderado",
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 536,
@@ -2109,7 +2293,21 @@
     "fuente_tradicion": "Medicina herbal integrativa moderna",
     "contraindicaciones": "Verificar legalidad en tu país; interacciones con antiepilépticos y anticoagulantes",
     "uso": "Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 537,
@@ -2210,7 +2408,21 @@
     "fuente_tradicion": "Medicina tradicional china",
     "contraindicaciones": "No en embarazo; puede interactuar con medicamentos hepatoprotectores",
     "uso": "Estrés Crónico. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 755,
@@ -2229,7 +2441,21 @@
     "fuente_tradicion": "Aromaterapia y tradición religiosa mundial",
     "contraindicaciones": "Ventilar el espacio; puede irritar en concentraciones altas",
     "uso": "Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 756,
@@ -2289,7 +2515,21 @@
     "fuente_tradicion": "Medicina tradicional china (suan zao ren)",
     "contraindicaciones": "Puede causar sedación leve; no conducir",
     "uso": "Sueño. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 758,
@@ -2308,7 +2548,21 @@
     "fuente_tradicion": "Herbolaria nativa californiana",
     "contraindicaciones": "Solo externo; la amapola de California no contiene opiáceos",
     "uso": "Piel Nerviosa. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 759,
@@ -2410,7 +2664,21 @@
     "fuente_tradicion": "Medicina Ayurveda",
     "contraindicaciones": "El cardamomo en exceso puede causar irritación; la canela a grandes dosis es anticoagulante",
     "uso": "Calma. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 762,
@@ -2429,7 +2697,21 @@
     "fuente_tradicion": "Medicina tradicional rusa y tibetana",
     "contraindicaciones": "No en embarazo, trastorno bipolar ni con antidepresivos",
     "uso": "Burnout. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 763,
@@ -2532,7 +2814,21 @@
     "fuente_tradicion": "Medicina Ayurveda y tradición de Sri Lanka",
     "contraindicaciones": "No aplicar en mucosas; puede irritar si se usa puro",
     "uso": "Sistema Nervioso. Equilibrio del sistema nervioso.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Ansiedad leve a moderada",
+      "Nerviosismo e irritabilidad",
+      "Tensión emocional",
+      "Insomnio leve"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Melisa",
+      "Tilo",
+      "Lavanda"
+    ]
   },
   {
     "id": 766,
@@ -2634,7 +2930,22 @@
     "fuente_tradicion": "Herbolaria europea medieval",
     "contraindicaciones": "No exceder la dosis; puede causar náuseas en cantidades altas",
     "uso": "Insomnio. Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve a moderado",
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 859,
@@ -2694,7 +3005,21 @@
     "fuente_tradicion": "Naturopatía moderna basada en evidencia",
     "contraindicaciones": "No exceder en diabéticos; el jugo de cereza puede subir la glucosa",
     "uso": "Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 861,
@@ -2713,7 +3038,21 @@
     "fuente_tradicion": "Medicina nativa americana",
     "contraindicaciones": "No en embarazo; puede causar somnolencia",
     "uso": "Estrés. Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 862,
@@ -2732,7 +3071,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "Solo aceite de semillas; verificar que sea legal en tu país",
     "uso": "Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 863,
@@ -2751,7 +3104,21 @@
     "fuente_tradicion": "Herbolaria europea",
     "contraindicaciones": "No en embarazo; no mezclar con benzodiacepinas",
     "uso": "Noche. Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 864,
@@ -2770,7 +3137,21 @@
     "fuente_tradicion": "Tradición budista tibetana",
     "contraindicaciones": "No dormir con incienso encendido; ventilar el espacio",
     "uso": "Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 865,
@@ -3039,7 +3420,21 @@
     "fuente_tradicion": "Tradición europea popular",
     "contraindicaciones": "Solo una pizca de nuez moscada; en exceso es tóxica",
     "uso": "Sueño. Sedación y relajación nerviosa.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010"
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Insomnio leve",
+      "Ansiedad y nerviosismo",
+      "Estrés crónico",
+      "Tensión muscular por estrés"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+    "sinergia_plantas": [
+      "Valeriana",
+      "Pasiflora",
+      "Toronjil"
+    ]
   },
   {
     "id": 872,
