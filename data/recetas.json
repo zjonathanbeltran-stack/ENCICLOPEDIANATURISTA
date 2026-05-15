@@ -29412,5 +29412,2209 @@
       "abedul",
       "pilosella"
     ]
+  },
+  {
+    "id": 1157,
+    "titulo": "Jarabe inmunoestimulante de saúco, equinácea criolla y maqui",
+    "categoria": "General",
+    "origen": "Fusión herbolaria chileno-europea",
+    "ingredientes": "1 taza de bayas de saúco secas, 1 cucharada de raíz de bailahuén, 2 cucharadas de maqui deshidratado, 1 trozo de jengibre fresco (3 cm), 1 ramita de canelo, 500 ml de agua, 1 taza de miel cruda, jugo de medio limón",
+    "preparacion": "Hervir agua con saúco, bailahuén, maqui, jengibre y canelo a fuego bajo 25 minutos hasta reducir a la mitad. Colar presionando. Entibiar a menos de 40°C y mezclar miel y limón. Envasar en frasco oscuro esterilizado.",
+    "dosis": "1 cucharada 2-3 veces al día durante la temporada fría o ante primeros síntomas de resfrío. Niños mayores de 2 años: 1 cucharadita.",
+    "modo_uso": "Jarabe",
+    "tiempo_prep": "35 minutos",
+    "dificultad": "Media",
+    "rendimiento": "Aproximadamente 350 ml",
+    "conservacion": "Refrigerado en frasco oscuro hasta 4 semanas",
+    "evidencia": "Ensayos clínicos con Sambucus nigra muestran reducción de duración y severidad de gripe (Tiralongo et al., 2016)",
+    "fuente_tradicion": "Mezcla de tradición campesina chilena y herbolaria europea",
+    "contraindicaciones": "No usar en menores de 12 meses (miel). Cuidado en autoinmunes activos (lupus, esclerosis múltiple) por efecto inmunoestimulante.",
+    "uso": "Estimula la inmunidad innata aumentando producción de citoquinas y actividad de macrófagos; las antocianinas del saúco y maqui inhiben la entrada viral al bloquear hemaglutininas y reducir replicación de influenza A y B.",
+    "principios_activos": "Antocianinas del saúco y maqui (delfinidina, cianidina): inhiben hemaglutinina viral. Gingeroles del jengibre: TNF-α moduladores. Sesquiterpenos del bailahuén: inmunomoduladores.",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiviral",
+      "antioxidante",
+      "antiinflamatorio",
+      "expectorante"
+    ],
+    "referencias": [
+      "Tiralongo E. et al. Nutrients (2016) 8(4):182",
+      "Krawitz C. et al. BMC Complement Altern Med (2011) 11:16",
+      "Céspedes CL. et al. Food Chem (2008) 107:820"
+    ],
+    "indicaciones_principales": [
+      "prevención de resfríos",
+      "inicio de cuadro gripal",
+      "convalecencia",
+      "tos productiva leve",
+      "fatiga estacional"
+    ],
+    "interacciones_medicamentos": "Puede potenciar inmunosupresores (tacrolimus, ciclosporina). Precaución con diuréticos por efecto leve del saúco.",
+    "embarazo_lactancia": "Evitar en primer trimestre. En lactancia, usar sin bailahuén.",
+    "duracion_tratamiento": "Máximo 10-14 días continuos, luego descansar una semana",
+    "sinergia_plantas": [
+      "tomillo",
+      "matico",
+      "tilo"
+    ]
+  },
+  {
+    "id": 1158,
+    "titulo": "Tintura madre de equinácea criolla y propóleo",
+    "categoria": "General",
+    "origen": "Herbolaria moderna chilena",
+    "ingredientes": "30 g de raíz de bardana seca, 20 g de hierba del paño, 10 g de propóleo en trozos, 250 ml de alcohol de cereal al 70%",
+    "preparacion": "Triturar raíces y hierba. Colocar en frasco oscuro con alcohol y propóleo. Agitar diariamente durante 21 días en lugar fresco y oscuro. Filtrar con gasa y prensar. Envasar en gotero ámbar.",
+    "dosis": "20-30 gotas en agua tibia, 2-3 veces al día por 7-10 días al inicio del resfrío",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días de maceración",
+    "dificultad": "Media",
+    "rendimiento": "Aproximadamente 200 ml",
+    "conservacion": "Frasco ámbar a temperatura ambiente hasta 2 años",
+    "evidencia": "Revisión Cochrane sobre Echinacea (Karsch-Völk, 2014) muestra evidencia moderada de prevención",
+    "fuente_tradicion": "Adaptación moderna con plantas locales",
+    "contraindicaciones": "Alergia a asteráceas o propóleo. Autoinmunes. Embarazo y lactancia por contenido alcohólico.",
+    "uso": "Activa fagocitosis de neutrófilos y aumenta producción de interferón gamma; el propóleo aporta flavonoides como pinocembrina con acción antiviral directa sobre virus envueltos.",
+    "principios_activos": "Inulina y poliacetilenos de bardana (inmunomoduladores). Flavonoides del propóleo (pinocembrina, galangina). Saponinas de hierba del paño (expectorantes).",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiséptico",
+      "antiviral",
+      "antibacteriano"
+    ],
+    "referencias": [
+      "Karsch-Völk M. et al. Cochrane Database Syst Rev (2014) CD000530",
+      "Sforcin JM. J Ethnopharmacol (2007) 113:1-14"
+    ],
+    "indicaciones_principales": [
+      "profilaxis invernal",
+      "primeros síntomas gripales",
+      "amigdalitis recurrente",
+      "infecciones urinarias recurrentes"
+    ],
+    "interacciones_medicamentos": "Inmunosupresores, anticoagulantes (precaución por propóleo)",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 10 días con 5 días de descanso, máximo 8 semanas",
+    "sinergia_plantas": [
+      "matico",
+      "tomillo",
+      "saúco"
+    ]
+  },
+  {
+    "id": 1159,
+    "titulo": "Caldo restaurador de cochayuyo, jengibre y cúrcuma",
+    "categoria": "Nutritivo",
+    "origen": "Cocina medicinal chilota contemporánea",
+    "ingredientes": "30 g de cochayuyo seco hidratado, 1 cucharadita de cúrcuma fresca rallada, 2 cm de jengibre, 1 zanahoria, 1 puerro, 2 dientes de ajo, 1 ramita de orégano fresco, 1 litro de agua, sal marina, pimienta negra (pizca)",
+    "preparacion": "Remojar cochayuyo 30 minutos y picar. Saltear puerro, ajo, jengibre y cúrcuma en aceite de oliva. Agregar cochayuyo, zanahoria y agua. Cocinar 40 minutos. Añadir orégano y pimienta al final. Servir caliente.",
+    "dosis": "1 taza, 1-2 veces al día durante convalecencia o invierno",
+    "modo_uso": "Caldo",
+    "tiempo_prep": "50 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "4 porciones",
+    "conservacion": "Refrigerado hasta 3 días, congelado hasta 2 meses",
+    "evidencia": "Cochayuyo (Durvillaea antarctica) fuente de yodo, hierro y alginatos prebióticos documentados",
+    "fuente_tradicion": "Tradición chilota actualizada",
+    "contraindicaciones": "Hipertiroidismo (alto contenido de yodo). Pacientes anticoagulados (alginatos pueden alterar absorción).",
+    "uso": "Aporta yodo orgánico, hierro y alginatos que modulan microbiota; la curcumina inhibe NF-κB reduciendo inflamación sistémica y la pimienta negra aumenta su biodisponibilidad 2000% por inhibición de glucuronidación hepática.",
+    "principios_activos": "Yodo y alginatos de cochayuyo. Curcumina (inhibidor NF-κB). Piperina (potenciador biodisponibilidad). Gingeroles. Alicina del ajo.",
+    "propiedades": [
+      "nutritivo",
+      "antiinflamatorio",
+      "inmunomodulador",
+      "remineralizante",
+      "prebiótico"
+    ],
+    "referencias": [
+      "Astorga-España MS. et al. Food Chem (2017) 220:204",
+      "Hewlings SJ. Foods (2017) 6:92"
+    ],
+    "indicaciones_principales": [
+      "convalecencia",
+      "fatiga crónica",
+      "anemia leve",
+      "prevención invernal",
+      "déficit de yodo"
+    ],
+    "interacciones_medicamentos": "Levotiroxina (separar 4 horas). Anticoagulantes warfarina.",
+    "embarazo_lactancia": "Seguro en cantidades moderadas (cuidar exceso de yodo)",
+    "duracion_tratamiento": "Uso continuo como alimento funcional",
+    "sinergia_plantas": [
+      "llantén",
+      "ortiga",
+      "diente de león"
+    ]
+  },
+  {
+    "id": 1160,
+    "titulo": "Amargo digestivo de centaura, boldo y achicoria",
+    "categoria": "Digestivo",
+    "origen": "Adaptación de amargos europeos con plantas locales",
+    "ingredientes": "10 g de centaura menor, 5 g de hojas de boldo, 10 g de raíz de achicoria tostada, 5 g de raíz de diente de león, 2 g de cáscara de naranja amarga seca, 200 ml de alcohol al 40%, 100 ml de agua",
+    "preparacion": "Macerar todas las hierbas en alcohol y agua durante 14 días en frasco oscuro, agitando diariamente. Filtrar con tela fina. Envasar en gotero.",
+    "dosis": "20 gotas en poca agua 15 minutos antes de las comidas principales",
+    "modo_uso": "Tintura amarga",
+    "tiempo_prep": "14 días",
+    "dificultad": "Media",
+    "rendimiento": "300 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Amargos estimulan receptores T2R linguales aumentando gastrina y motilidad (McMullen MK, 2015)",
+    "fuente_tradicion": "Tradición de digestivos amargos europeos adaptada",
+    "contraindicaciones": "Úlcera péptica activa, ERGE severa, embarazo, obstrucción biliar, niños menores de 12 años.",
+    "uso": "Los principios amargos activan receptores T2R en lengua y duodeno provocando liberación refleja de gastrina, CCK y secreción biliar, mejorando digestión de grasas y proteínas en personas con hipoclorhidria funcional.",
+    "principios_activos": "Secoiridoides (genciopicrina) de centaura. Boldina y isoboldina de boldo (coleréticos). Lactucina de achicoria (amarga). Taraxacina de diente de león.",
+    "propiedades": [
+      "aperitivo",
+      "colerético",
+      "colagogo",
+      "digestivo",
+      "hepatoprotector"
+    ],
+    "referencias": [
+      "McMullen MK. et al. Chemosens Percept (2015) 8:88",
+      "Wegener T. Wien Med Wochenschr (1999) 149:241"
+    ],
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "inapetencia",
+      "digestión lenta",
+      "intolerancia a grasas",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Puede alterar absorción de medicamentos (separar 1 hora). Cuidado con antiácidos.",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "manzanilla",
+      "menta",
+      "hinojo"
+    ]
+  },
+  {
+    "id": 1161,
+    "titulo": "Infusión carminativa post-prandial de hinojo, anís y manzanilla",
+    "categoria": "Digestivo",
+    "origen": "Tradición mediterránea y chilena",
+    "ingredientes": "1 cucharadita de semillas de hinojo trituradas, 1 cucharadita de anís verde, 1 cucharadita de flores de manzanilla, 1 hojita de menta, 250 ml de agua caliente",
+    "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
+    "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "Hinojo demuestra eficacia en cólicos del lactante y SII (Alexandrovich, 2003; Portincasa, 2016)",
+    "fuente_tradicion": "Herbolaria mediterránea adoptada en Chile",
+    "contraindicaciones": "Alergia a apiáceas. Evitar dosis altas en embarazo. Hiperestrogenismo (cáncer mamario hormono-dependiente) por anetol.",
+    "uso": "El anetol relaja musculatura lisa intestinal mediante bloqueo de canales de calcio, mientras los flavonoides de manzanilla actúan sobre receptores GABA reduciendo espasmo nervioso del eje intestino-cerebro.",
+    "principios_activos": "Anetol (hinojo y anís): espasmolítico. Apigenina (manzanilla): ansiolítico, GABAérgico. Mentol: refrescante y antiespasmódico.",
+    "propiedades": [
+      "carminativo",
+      "espasmolítico",
+      "digestivo",
+      "ansiolítico suave"
+    ],
+    "referencias": [
+      "Alexandrovich I. et al. Altern Ther Health Med (2003) 9:58",
+      "Portincasa P. et al. J Gastrointestin Liver Dis (2016) 25:151"
+    ],
+    "indicaciones_principales": [
+      "distensión abdominal",
+      "flatulencia",
+      "cólicos digestivos",
+      "intestino irritable",
+      "dispepsia nerviosa"
+    ],
+    "interacciones_medicamentos": "Posible interferencia con tamoxifeno (anetol fitoestrógeno).",
+    "embarazo_lactancia": "En lactancia favorece producción de leche en dosis moderadas",
+    "duracion_tratamiento": "Uso continuo seguro hasta 6 semanas",
+    "sinergia_plantas": [
+      "melisa",
+      "cedrón",
+      "menta"
+    ]
+  },
+  {
+    "id": 1162,
+    "titulo": "Decocción hepatobiliar de cardo mariano, boldo y achicoria",
+    "categoria": "Hepático",
+    "origen": "Herbolaria europea adaptada a Chile",
+    "ingredientes": "1 cucharada de semillas de cardo mariano molidas, 1 cucharadita de hojas de boldo, 1 cucharadita de raíz de achicoria tostada, 1/2 cucharadita de diente de león, 350 ml de agua",
+    "preparacion": "Hervir agua con cardo mariano y achicoria 10 minutos. Apagar fuego, añadir boldo y diente de león, tapar e infundir 8 minutos. Colar.",
+    "dosis": "1 taza en ayunas y 1 antes de la cena, durante 21 días",
+    "modo_uso": "Decocción mixta",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Silimarina con evidencia clínica en hepatopatías (Abenavoli, 2018)",
+    "fuente_tradicion": "Combinación de tradiciones europea y chilena",
+    "contraindicaciones": "Obstrucción de vías biliares, cálculos biliares grandes, embarazo, alergia a asteráceas.",
+    "uso": "La silimarina estabiliza la membrana del hepatocito y compite con toxinas por sitios de unión, mientras boldina y cinarina aumentan flujo biliar y solubilizan colesterol biliar previniendo barro y cálculos.",
+    "principios_activos": "Silimarina (silibina, silicristina, silidianina): antioxidante y hepatoprotector. Boldina: colerético. Cinarina: colerético y hipolipemiante.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "colagogo",
+      "antioxidante",
+      "depurativo"
+    ],
+    "referencias": [
+      "Abenavoli L. et al. Phytother Res (2018) 32:2202",
+      "Speroni E. et al. J Ethnopharmacol (2003) 86:203"
+    ],
+    "indicaciones_principales": [
+      "hígado graso no alcohólico",
+      "convalecencia hepática",
+      "exceso de grasas en dieta",
+      "post-fiestas",
+      "elevación leve de transaminasas"
+    ],
+    "interacciones_medicamentos": "Puede alterar metabolismo de fármacos por CYP3A4 (estatinas, anticoagulantes).",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Ciclos de 21 días con descanso de 7",
+    "sinergia_plantas": [
+      "alcachofa",
+      "bailahuén",
+      "menta"
+    ]
+  },
+  {
+    "id": 1163,
+    "titulo": "Aceite antiparasitario de paico, ajo y semilla de zapallo",
+    "categoria": "Antiparasitario",
+    "origen": "Medicina popular latinoamericana",
+    "ingredientes": "1 cucharada de paico fresco picado, 2 dientes de ajo machacados, 2 cucharadas de semillas de zapallo crudas peladas, 1 cucharadita de aceite de oliva extra virgen",
+    "preparacion": "Triturar todos los ingredientes en mortero hasta formar pasta homogénea. Consumir fresco (no almacenar).",
+    "dosis": "1 cucharada en ayunas durante 3 días consecutivos. Repetir a los 15 días.",
+    "modo_uso": "Pasta oral",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 dosis",
+    "conservacion": "Uso inmediato, no almacenar",
+    "evidencia": "Cucurbitina (semilla zapallo) y ascaridol (paico) con acción antihelmíntica documentada",
+    "fuente_tradicion": "Medicina campesina chilena y andina",
+    "contraindicaciones": "Embarazo, lactancia, niños menores de 6 años, enfermedad hepática, renal o cardíaca. Paico contraindicado en dosis altas (ascaridol tóxico).",
+    "uso": "El ascaridol paraliza musculatura del nematodo bloqueando receptores nicotínicos, la cucurbitina inmoviliza tenia y oxiuros impidiendo su fijación intestinal, y la alicina del ajo complementa con acción antiprotozoaria sobre Giardia.",
+    "principios_activos": "Ascaridol (paico): antihelmíntico. Cucurbitina (semillas zapallo): paralizante de tenias. Alicina (ajo): antiprotozoario.",
+    "propiedades": [
+      "antihelmíntico",
+      "antiparasitario",
+      "antiprotozoario"
+    ],
+    "referencias": [
+      "Diaz F. et al. Trop Med Int Health (2003) 8:285",
+      "Grzybek M. et al. Molecules (2016) 21:1456"
+    ],
+    "indicaciones_principales": [
+      "oxiuriasis",
+      "ascariasis",
+      "teniasis",
+      "giardiasis (complemento)",
+      "parasitosis intestinal"
+    ],
+    "interacciones_medicamentos": "Ajo potencia anticoagulantes. Evitar con antihelmínticos farmacológicos.",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Cura de 3 días, repetir una vez",
+    "sinergia_plantas": [
+      "natre",
+      "ruda (uso muy controlado)",
+      "ajenjo (adultos)"
+    ]
+  },
+  {
+    "id": 1164,
+    "titulo": "Infusión digestiva infantil de manzanilla, hinojo y melisa",
+    "categoria": "Pediátrico",
+    "origen": "Herbolaria pediátrica europea",
+    "ingredientes": "1/2 cucharadita de manzanilla, 1/4 cucharadita de semillas de hinojo trituradas, 1/4 cucharadita de melisa, 200 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las hierbas. Tapar e infundir 8 minutos. Colar muy bien y entibiar.",
+    "dosis": "Lactantes 4-12 meses: 30-50 ml repartidos en el día. Niños 1-3 años: 100 ml. Niños mayores: 150-200 ml.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "200 ml",
+    "conservacion": "Preparar fresca, máximo 8 horas refrigerada",
+    "evidencia": "Mezcla similar (Calma) con eficacia documentada en cólicos del lactante (Weizman, 1993)",
+    "fuente_tradicion": "Pediatría herbolaria europea",
+    "contraindicaciones": "Alergia a asteráceas o apiáceas. No usar como sustituto de leche.",
+    "uso": "La apigenina de manzanilla relaja músculo liso intestinal vía receptores benzodiacepínicos periféricos, el anetol del hinojo reduce gases intestinales y la melisa actúa sobre el componente nervioso del cólico a través de receptores GABA y muscarínicos.",
+    "principios_activos": "Apigenina, bisabolol (manzanilla). Anetol (hinojo). Citral y ácido rosmarínico (melisa).",
+    "propiedades": [
+      "espasmolítico",
+      "carminativo",
+      "sedante suave",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Weizman Z. et al. J Pediatr (1993) 122:650",
+      "Savino F. et al. Phytother Res (2005) 19:335"
+    ],
+    "indicaciones_principales": [
+      "cólico del lactante",
+      "dentición dolorosa",
+      "irritabilidad nocturna",
+      "gases en bebés",
+      "indigestión infantil"
+    ],
+    "interacciones_medicamentos": "Ninguna conocida a estas dosis",
+    "embarazo_lactancia": "La madre puede tomarla sin riesgo",
+    "duracion_tratamiento": "Mientras dure el malestar, máximo 2 semanas",
+    "sinergia_plantas": [
+      "tilo",
+      "cedrón",
+      "toronjil"
+    ]
+  },
+  {
+    "id": 1165,
+    "titulo": "Jarabe pectoral de tomillo, llantén, malva y miel",
+    "categoria": "Tos",
+    "origen": "Tradición campesina chilena",
+    "ingredientes": "20 g de tomillo seco, 15 g de llantén, 10 g de hojas de malva (o malvavisco), 1 cebolla morada en rodajas, 500 ml de agua, 1 taza de miel de ulmo, jugo de 1 limón",
+    "preparacion": "Hervir agua con tomillo, llantén, malva y cebolla 20 minutos tapado. Colar y reducir a fuego muy bajo hasta obtener 250 ml. Entibiar bajo 40°C, mezclar miel y limón. Envasar.",
+    "dosis": "Adultos: 1 cucharada 4-5 veces al día. Niños mayores de 2 años: 1 cucharadita 3-4 veces al día.",
+    "modo_uso": "Jarabe",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "350 ml",
+    "conservacion": "Refrigerado hasta 30 días",
+    "evidencia": "Combinación tomillo+hiedra demostró reducir tos en bronquitis aguda (Kemmerich, 2007)",
+    "fuente_tradicion": "Receta campesina central y sur de Chile",
+    "contraindicaciones": "Menores de 1 año (miel). Alergia a labiadas. Asma severa no controlada.",
+    "uso": "El timol y carvacrol del tomillo relajan el músculo liso bronquial y son mucolíticos, los mucílagos del llantén y malva forman una capa protectora sobre la mucosa irritada, y la miel actúa como antitusivo demulcente disminuyendo el reflejo de la tos.",
+    "principios_activos": "Timol y carvacrol (tomillo): antiséptico y broncodilatador. Aucubina e iridoides (llantén): antiinflamatorios. Mucílagos (malva). Defensina-1 (miel): antibacteriana.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antitusivo",
+      "antiséptico respiratorio",
+      "demulcente"
+    ],
+    "referencias": [
+      "Kemmerich B. Arzneimittelforschung (2007) 57:607",
+      "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+    ],
+    "indicaciones_principales": [
+      "tos productiva",
+      "bronquitis aguda",
+      "tos seca irritativa",
+      "resfrío común",
+      "laringitis leve"
+    ],
+    "interacciones_medicamentos": "Ninguna relevante a estas dosis",
+    "embarazo_lactancia": "Usar sin tomillo en primer trimestre",
+    "duracion_tratamiento": "7-14 días",
+    "sinergia_plantas": [
+      "saúco",
+      "violeta",
+      "eucalipto (inhalación)"
+    ]
+  },
+  {
+    "id": 1166,
+    "titulo": "Inhalación descongestionante de eucalipto, romero y pino",
+    "categoria": "Respiratorio",
+    "origen": "Tradición chilena y mediterránea",
+    "ingredientes": "1 puñado de hojas frescas de eucalipto, 1 cucharada de romero, 1 cucharada de tomillo, 5 gotas de aceite esencial de pino (opcional), 1 litro de agua hirviendo",
+    "preparacion": "Hervir agua y verter sobre las hierbas en una olla. Apagar fuego. Cubrir cabeza con toalla e inhalar vapor durante 5-10 minutos manteniendo distancia segura.",
+    "dosis": "2-3 veces al día durante cuadro respiratorio",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "No aplica, uso inmediato",
+    "evidencia": "1,8-cineol (eucalipto) demostró eficacia en rinosinusitis (Kehrl, 2004)",
+    "fuente_tradicion": "Práctica popular mundial",
+    "contraindicaciones": "Asma activa, niños menores de 6 años (riesgo de broncoespasmo con eucalipto), epilepsia (romero).",
+    "uso": "El 1,8-cineol del eucalipto reduce inflamación mucosa inhibiendo la producción de leucotrienos y prostaglandinas, mientras el alcanfor y pineno fluidifican secreciones y estimulan cilios respiratorios facilitando expectoración.",
+    "principios_activos": "1,8-cineol (eucaliptol): mucolítico, antiinflamatorio. Alcanfor y borneol (romero). Alfa-pineno: broncodilatador suave. Timol.",
+    "propiedades": [
+      "descongestionante",
+      "mucolítico",
+      "antiséptico respiratorio",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Kehrl W. et al. Laryngoscope (2004) 114:738",
+      "Juergens UR. Drug Res (2014) 64:638"
+    ],
+    "indicaciones_principales": [
+      "congestión nasal",
+      "sinusitis",
+      "resfrío",
+      "bronquitis",
+      "tos productiva"
+    ],
+    "interacciones_medicamentos": "Ninguna por vía inhalatoria",
+    "embarazo_lactancia": "Usar sin romero en embarazo",
+    "duracion_tratamiento": "Hasta 7 días",
+    "sinergia_plantas": [
+      "saúco",
+      "tomillo",
+      "menta"
+    ]
+  },
+  {
+    "id": 1167,
+    "titulo": "Gargarismo antiséptico de salvia, tomillo y propóleo",
+    "categoria": "Garganta",
+    "origen": "Tradición europea adoptada",
+    "ingredientes": "1 cucharada de salvia, 1 cucharadita de tomillo, 1 cucharadita de sal marina, 10 gotas de tintura de propóleo, 250 ml de agua",
+    "preparacion": "Hervir agua con salvia y tomillo 5 minutos. Apagar, tapar, reposar 10 minutos. Colar. Añadir sal y propóleo cuando esté tibio.",
+    "dosis": "Hacer gárgaras profundas 3-4 veces al día, 30 segundos cada vez",
+    "modo_uso": "Gárgaras",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Salvia con eficacia demostrada en faringitis (Hubbert, 2006)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Alergia al propóleo. No tragar. Embarazo (salvia en altas dosis es uterotónica).",
+    "uso": "El ácido carnósico y tuyona de salvia inhiben crecimiento bacteriano gram positivo, el timol del tomillo penetra biofilms en mucosa orofaríngea y los flavonoides del propóleo reducen adherencia de Streptococcus pyogenes al epitelio.",
+    "principios_activos": "Tuyona, ácido carnósico, ácido rosmarínico (salvia): antibacterianos. Timol (tomillo). Pinocembrina, galangina (propóleo).",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "astringente",
+      "analgésico local"
+    ],
+    "referencias": [
+      "Hubbert M. et al. Eur J Med Res (2006) 11:20",
+      "Almuhayawi MS. Saudi J Biol Sci (2020) 27:3079"
+    ],
+    "indicaciones_principales": [
+      "faringitis",
+      "amigdalitis",
+      "estomatitis aftosa",
+      "gingivitis",
+      "post-extracción dental"
+    ],
+    "interacciones_medicamentos": "Tópico, sin interacciones sistémicas",
+    "embarazo_lactancia": "Evitar salvia, usar solo tomillo y propóleo",
+    "duracion_tratamiento": "5-7 días",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "manzanilla"
+    ]
+  },
+  {
+    "id": 1168,
+    "titulo": "Pasta dental herbal de matico, salvia y arcilla blanca",
+    "categoria": "Dental",
+    "origen": "Cosmética natural moderna",
+    "ingredientes": "2 cucharadas de arcilla blanca (caolín), 1 cucharada de aceite de coco, 1/2 cucharadita de polvo de hojas de matico, 1/2 cucharadita de salvia en polvo, 3 gotas de aceite esencial de menta, pizca de sal marina fina",
+    "preparacion": "Mezclar todos los ingredientes hasta obtener pasta homogénea. Conservar en frasco de vidrio pequeño.",
+    "dosis": "Aplicar pequeña cantidad en cepillo, cepillar 2 veces al día",
+    "modo_uso": "Pasta dental",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "Aprox. 60 g",
+    "conservacion": "1 mes en frasco hermético a temperatura ambiente",
+    "evidencia": "Aceite de coco con eficacia oil pulling (Peedikayil, 2015); arcilla con acción remineralizante",
+    "fuente_tradicion": "Adaptación moderna con plantas chilenas",
+    "contraindicaciones": "Alergia a labiadas. Niños menores de 5 años por riesgo de ingestión.",
+    "uso": "El ácido láurico del coco al saponificarse en boca atraviesa membrana de Streptococcus mutans desestabilizándola, los taninos del matico reducen sangrado gingival contrayendo capilares y la arcilla remineraliza esmalte aportando sílice y calcio.",
+    "principios_activos": "Ácido láurico (coco). Taninos del matico. Tuyona y ácido rosmarínico (salvia). Mentol (menta).",
+    "propiedades": [
+      "antibacteriano oral",
+      "antiplaca",
+      "antigingivitis",
+      "remineralizante",
+      "refrescante"
+    ],
+    "referencias": [
+      "Peedikayil FC. Niger Med J (2015) 56:143",
+      "Hubbert M. et al. Eur J Med Res (2006) 11:20"
+    ],
+    "indicaciones_principales": [
+      "gingivitis leve",
+      "halitosis",
+      "prevención de placa",
+      "encías sensibles"
+    ],
+    "interacciones_medicamentos": "Ninguna",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla"
+    ]
+  },
+  {
+    "id": 1169,
+    "titulo": "Tintura sedante nocturna de pasiflora, valeriana y melisa",
+    "categoria": "Sedante",
+    "origen": "Fitoterapia moderna",
+    "ingredientes": "25 g de pasiflora, 15 g de raíz de valeriana, 20 g de melisa, 10 g de flor de tilo, 250 ml de alcohol al 60%",
+    "preparacion": "Triturar las plantas. Macerar en alcohol 21 días agitando diariamente, en frasco oscuro. Filtrar con presión. Envasar en gotero ámbar.",
+    "dosis": "30-40 gotas en agua, 30-60 minutos antes de acostarse",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Valeriana con efecto sobre latencia del sueño (Bent, 2006); pasiflora con efecto ansiolítico (Akhondzadeh, 2001)",
+    "fuente_tradicion": "Fitoterapia europea contemporánea",
+    "contraindicaciones": "Conducción de vehículos, depresores del SNC, embarazo, niños menores de 12 años, alcoholismo.",
+    "uso": "Los ácidos valerénicos modulan receptores GABA-A aumentando duración de apertura del canal de cloro, mientras la crisina de pasiflora inhibe la enzima aromatasa y se une a receptores benzodiacepínicos reduciendo ansiedad pre-sueño sin alterar arquitectura REM.",
+    "principios_activos": "Ácido valerénico y valepotriatos (valeriana): GABAérgico. Crisina y vitexina (pasiflora). Ácido rosmarínico (melisa). Farnesol (tilo).",
+    "propiedades": [
+      "sedante",
+      "ansiolítico",
+      "hipnótico suave",
+      "miorelajante"
+    ],
+    "referencias": [
+      "Bent S. et al. Am J Med (2006) 119:1005",
+      "Akhondzadeh S. et al. J Clin Pharm Ther (2001) 26:363"
+    ],
+    "indicaciones_principales": [
+      "insomnio de conciliación",
+      "ansiedad",
+      "estrés",
+      "irritabilidad",
+      "tensión muscular nerviosa"
+    ],
+    "interacciones_medicamentos": "Benzodiacepinas, alcohol, opioides, antihistamínicos sedantes, antidepresivos",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Máximo 4 semanas consecutivas",
+    "sinergia_plantas": [
+      "lúpulo",
+      "amapola de california"
+    ]
+  },
+  {
+    "id": 1170,
+    "titulo": "Infusión adaptógena diurna de melisa, romero y menta",
+    "categoria": "Nervioso",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de melisa, 1/2 cucharadita de romero, 1/2 cucharadita de menta, 1 cucharadita de miel de palma o ulmo, 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 7 minutos tapado. Colar. Añadir miel al servir.",
+    "dosis": "1 taza en la mañana y otra al mediodía, durante 21 días",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir fresca",
+    "evidencia": "Melisa mejora rendimiento cognitivo y ánimo (Kennedy, 2003); romero mejora memoria (Moss, 2003)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Hipertensión severa, epilepsia (romero en altas dosis), hipotiroidismo no tratado (melisa).",
+    "uso": "El ácido rosmarínico de melisa y romero inhibe acetilcolinesterasa aumentando acetilcolina cerebral disponible, mejorando memoria de trabajo y atención sin efecto estimulante adrenérgico que generaría ansiedad rebote.",
+    "principios_activos": "Ácido rosmarínico (melisa, romero): inhibidor AChE. 1,8-cineol (romero): nootrópico. Mentol (menta): refrescante cognitivo.",
+    "propiedades": [
+      "adaptógeno",
+      "nootrópico suave",
+      "ansiolítico",
+      "antioxidante",
+      "tónico cerebral"
+    ],
+    "referencias": [
+      "Kennedy DO. et al. Pharmacol Biochem Behav (2003) 75:953",
+      "Moss M. et al. Int J Neurosci (2003) 113:15"
+    ],
+    "indicaciones_principales": [
+      "estrés académico",
+      "fatiga mental",
+      "estudiantes",
+      "memoria de trabajo",
+      "ansiedad funcional"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos (puede antagonizar), levotiroxina (separar 2 horas).",
+    "embarazo_lactancia": "Evitar romero en embarazo",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "albahaca",
+      "tomillo"
+    ]
+  },
+  {
+    "id": 1171,
+    "titulo": "Baño de inmersión relajante de lavanda, tilo y avena",
+    "categoria": "Baño",
+    "origen": "Hidroterapia herbal europea",
+    "ingredientes": "50 g de flores de lavanda, 30 g de flores de tilo, 30 g de melisa, 100 g de avena integral en saco de tela, 2 cucharadas de sales de Epsom",
+    "preparacion": "Hervir 1 litro de agua con lavanda, tilo y melisa 15 minutos. Colar. Verter en tina de baño con agua tibia. Añadir saco de avena y sales. Sumergirse 20-30 minutos.",
+    "dosis": "2-3 veces por semana",
+    "modo_uso": "Baño completo",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Preparar fresco",
+    "evidencia": "Lavanda con efecto ansiolítico por inhalación (Koulivand, 2013); magnesio transdérmico discutido pero relajante",
+    "fuente_tradicion": "Hidroterapia naturista",
+    "contraindicaciones": "Hipertensión severa, cardiopatía descompensada, heridas abiertas extensas, embarazo en agua muy caliente.",
+    "uso": "Los terpenos de lavanda (linalool, acetato de linalilo) se absorben por vía pulmonar y dérmica activando receptores GABA, mientras la beta-glucano de avena forma película hidratante calmante sobre la piel y las sales aportan magnesio relajante muscular.",
+    "principios_activos": "Linalool, acetato de linalilo (lavanda): GABAérgico. Farnesol (tilo). Avenantramidas (avena): antiinflamatorias. Magnesio (sales).",
+    "propiedades": [
+      "relajante",
+      "sedante",
+      "calmante cutáneo",
+      "miorelajante"
+    ],
+    "referencias": [
+      "Koulivand PH. et al. Evid Based Complement Alternat Med (2013) 681304",
+      "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+    ],
+    "indicaciones_principales": [
+      "insomnio",
+      "estrés",
+      "piel sensible",
+      "fatiga muscular",
+      "ansiedad post-trabajo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica relevante",
+    "embarazo_lactancia": "Agua templada (no caliente), sin Epsom en exceso",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "manzanilla",
+      "pasiflora"
+    ]
+  },
+  {
+    "id": 1172,
+    "titulo": "Crema cicatrizante de matico, caléndula y miel",
+    "categoria": "Cicatrizante",
+    "origen": "Etnomedicina mapuche y europea",
+    "ingredientes": "50 ml de oleato de matico, 30 ml de oleato de caléndula, 10 g de cera de abejas, 1 cucharadita de miel de ulmo, 5 gotas de vitamina E, 3 gotas aceite esencial de lavanda",
+    "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
+    "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
+    "modo_uso": "Crema tópica",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "90 g",
+    "conservacion": "6 meses refrigerada o lugar fresco",
+    "evidencia": "Caléndula acelera epitelización en heridas (Khairnar, 2013); matico con uso etnobotánico documentado",
+    "fuente_tradicion": "Mapuche (matico) y europea (caléndula)",
+    "contraindicaciones": "Alergia a asteráceas. Heridas infectadas requieren manejo médico. No usar en quemaduras graves.",
+    "uso": "Los triterpenos de caléndula estimulan fibroblastos y angiogénesis acelerando cicatrización en 30-50% según estudios, mientras el verbascósido del matico tiene acción antibacteriana y antiinflamatoria, y la miel aporta defensina-1 antibacteriana y mantiene ambiente húmedo óptimo.",
+    "principios_activos": "Faradiol (caléndula): cicatrizante. Verbascósido (matico): antibacteriano. Defensina-1 (miel). Tocoferol (vit. E).",
+    "propiedades": [
+      "cicatrizante",
+      "epitelizante",
+      "antibacteriano",
+      "antiinflamatorio",
+      "regenerador"
+    ],
+    "referencias": [
+      "Khairnar MS. et al. J Indian Soc Periodontol (2013) 17:741",
+      "Della Loggia R. et al. Planta Med (1994) 60:516"
+    ],
+    "indicaciones_principales": [
+      "heridas superficiales",
+      "quemaduras leves",
+      "raspaduras",
+      "úlceras pequeñas",
+      "irritación cutánea"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro tópico",
+    "duracion_tratamiento": "Hasta cicatrización completa",
+    "sinergia_plantas": [
+      "llantén",
+      "árnica (no en heridas abiertas)"
+    ]
+  },
+  {
+    "id": 1173,
+    "titulo": "Mascarilla facial purificante de manzanilla, miel y arcilla verde",
+    "categoria": "Cosmético",
+    "origen": "Cosmética natural mediterránea",
+    "ingredientes": "1 cucharada de arcilla verde, 1 cucharada de infusión concentrada de manzanilla, 1 cucharadita de miel, 1/2 cucharadita de jugo de limón (omitir si piel sensible), 2 gotas de aceite de jojoba",
+    "preparacion": "Preparar infusión muy concentrada de manzanilla. Mezclar todos los ingredientes hasta pasta homogénea. Aplicar capa media sobre rostro limpio evitando ojos.",
+    "dosis": "Dejar actuar 10-15 minutos, retirar con agua tibia. 1-2 veces por semana.",
+    "modo_uso": "Mascarilla facial",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Bisabolol de manzanilla con eficacia antiinflamatoria cutánea (Maliehe, 2018)",
+    "fuente_tradicion": "Cosmética natural",
+    "contraindicaciones": "Piel con heridas, rosácea severa, alergia a asteráceas. Omitir limón en pieles muy sensibles.",
+    "uso": "La arcilla verde adsorbe sebo, toxinas y bacterias por intercambio iónico, el bisabolol y camazuleno de manzanilla inhiben la liberación de histamina mastocitaria y la miel mantiene equilibrio osmótico cutáneo aportando ácidos orgánicos exfoliantes suaves.",
+    "principios_activos": "Bisabolol, camazuleno (manzanilla): antiinflamatorios. Silicatos (arcilla): adsorbentes. Glucónico, oxálico (miel). Limoneno (limón).",
+    "propiedades": [
+      "purificante",
+      "antiinflamatorio",
+      "regulador seborreico",
+      "iluminador",
+      "calmante"
+    ],
+    "referencias": [
+      "Maliehe TS. et al. Saudi J Biol Sci (2018) 25:1547",
+      "Burlando B. et al. J Cosmet Dermatol (2013) 12:306"
+    ],
+    "indicaciones_principales": [
+      "piel grasa",
+      "puntos negros",
+      "acné leve",
+      "tez apagada",
+      "poros dilatados"
+    ],
+    "interacciones_medicamentos": "Cuidado con retinoides tópicos (esperar 12 horas)",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "caléndula",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1174,
+    "titulo": "Enjuague capilar fortalecedor de ortiga, romero y cola de caballo",
+    "categoria": "Cabello",
+    "origen": "Cosmética natural europea",
+    "ingredientes": "2 cucharadas de ortiga seca, 1 cucharada de romero, 1 cucharada de cola de caballo, 1 cucharadita de vinagre de manzana, 500 ml de agua",
+    "preparacion": "Hervir agua con hierbas 15 minutos. Apagar y dejar reposar 30 minutos tapado. Colar y añadir vinagre de manzana.",
+    "dosis": "Tras lavado, aplicar como último enjuague masajeando cuero cabelludo. No enjuagar.",
+    "modo_uso": "Enjuague capilar",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "5 días refrigerado",
+    "evidencia": "Romero comparable a minoxidil 2% para alopecia androgénica (Panahi, 2015)",
+    "fuente_tradicion": "Cosmética campesina europea",
+    "contraindicaciones": "Heridas en cuero cabelludo. Alergias específicas.",
+    "uso": "El ácido carnósico del romero inhibe 5-alfa-reductasa reduciendo conversión de testosterona a DHT (causa principal de alopecia androgénica), la sílice de cola de caballo se incorpora a queratina aumentando resistencia capilar y los compuestos de ortiga aumentan microcirculación folicular.",
+    "principios_activos": "Ácido carnósico (romero): inhibidor 5α-reductasa. Sílice y flavonoides (cola de caballo). Histamina y serotonina (ortiga): vasoactivos.",
+    "propiedades": [
+      "estimulante folicular",
+      "antiseborreico",
+      "fortalecedor",
+      "brillo",
+      "anticaída"
+    ],
+    "referencias": [
+      "Panahi Y. et al. Skinmed (2015) 13:15",
+      "Murata K. et al. Phytother Res (2013) 27:212"
+    ],
+    "indicaciones_principales": [
+      "caída de cabello",
+      "cuero cabelludo graso",
+      "cabello opaco",
+      "alopecia androgénica leve",
+      "después de embarazo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro tópico (evitar romero concentrado primer trimestre)",
+    "duracion_tratamiento": "Mínimo 3 meses para ver resultados",
+    "sinergia_plantas": [
+      "llantén",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1175,
+    "titulo": "Infusión menstrual reguladora de milenrama, manzanilla y melisa",
+    "categoria": "Ginecológico",
+    "origen": "Herbolaria femenina europea",
+    "ingredientes": "1 cucharadita de milenrama, 1 cucharadita de manzanilla, 1 cucharadita de melisa, 1/2 cucharadita de hojas de frambuesa o frutilla blanca, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos tapado. Colar.",
+    "dosis": "2 tazas al día desde 7 días antes de la menstruación hasta el 3° día de regla",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Milenrama tradicional para dismenorrea; manzanilla con evidencia en SPM (Sharifi, 2014)",
+    "fuente_tradicion": "Herbolaria femenina europea",
+    "contraindicaciones": "Embarazo (milenrama oxitócica), alergia a asteráceas, anticoagulantes.",
+    "uso": "Los proazulenos de milenrama y apigenina de manzanilla inhiben la síntesis de prostaglandinas PGF2α responsables de las contracciones uterinas dolorosas, mientras los flavonoides de melisa modulan la respuesta al estrés y SPM emocional.",
+    "principios_activos": "Camazuleno, aquileína (milenrama). Apigenina, bisabolol (manzanilla). Ácido rosmarínico (melisa). Taninos (frambuesa).",
+    "propiedades": [
+      "antiespasmódico uterino",
+      "antiinflamatorio",
+      "regulador menstrual",
+      "ansiolítico"
+    ],
+    "referencias": [
+      "Sharifi F. et al. Complement Ther Clin Pract (2014) 20:81",
+      "Jenabi E. J Pak Med Assoc (2013) 63:8"
+    ],
+    "indicaciones_principales": [
+      "dismenorrea",
+      "síndrome premenstrual",
+      "irregularidades menstruales leves",
+      "calambres uterinos",
+      "ansiedad cíclica"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (precaución por milenrama)",
+    "embarazo_lactancia": "Contraindicada en embarazo",
+    "duracion_tratamiento": "3 ciclos consecutivos, evaluar",
+    "sinergia_plantas": [
+      "matricaria",
+      "salvia (no en lactancia)"
+    ]
+  },
+  {
+    "id": 1176,
+    "titulo": "Infusión perimenopáusica de salvia, melisa y trébol rojo",
+    "categoria": "Ginecológico",
+    "origen": "Fitoterapia ginecológica moderna",
+    "ingredientes": "1/2 cucharadita de salvia, 1 cucharadita de melisa, 1 cucharadita de trébol rojo, 1/2 cucharadita de pasiflora, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos. Colar.",
+    "dosis": "1-2 tazas al día, preferentemente noche para sofocos nocturnos",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Salvia reduce sofocos en menopausia (Bommer, 2011); isoflavonas de trébol con evidencia controvertida pero positiva",
+    "fuente_tradicion": "Fitoterapia ginecológica europea",
+    "contraindicaciones": "Cáncer mamario hormono-dependiente o antecedente. Anticoagulantes (trébol). Embarazo. Epilepsia (salvia tuyona).",
+    "uso": "La tuyona y ácido rosmarínico de salvia reducen sudoración por acción anticolinérgica central, las isoflavonas del trébol (formononetina, biocanina A) tienen afinidad por receptores estrogénicos beta amortiguando déficit estrogénico sin proliferación endometrial significativa.",
+    "principios_activos": "Tuyona, ácido carnósico (salvia): anticolinérgica. Isoflavonas (trébol): fitoestrógenos. Ácido rosmarínico (melisa). Crisina (pasiflora).",
+    "propiedades": [
+      "antisudorífico",
+      "fitoestrógeno modulador",
+      "ansiolítico",
+      "antitérmico"
+    ],
+    "referencias": [
+      "Bommer S. et al. Adv Ther (2011) 28:490",
+      "Lipovac M. et al. Maturitas (2010) 65:258"
+    ],
+    "indicaciones_principales": [
+      "sofocos",
+      "sudoración nocturna",
+      "irritabilidad climatérica",
+      "insomnio perimenopáusico"
+    ],
+    "interacciones_medicamentos": "Tamoxifeno, anticonceptivos, anticoagulantes",
+    "embarazo_lactancia": "Contraindicada (salvia suprime lactancia)",
+    "duracion_tratamiento": "Ciclos de 8 semanas con descanso",
+    "sinergia_plantas": [
+      "lúpulo",
+      "valeriana"
+    ]
+  },
+  {
+    "id": 1177,
+    "titulo": "Sitzbath de matico, manzanilla y romero para postparto",
+    "categoria": "Ginecológico",
+    "origen": "Tradición mapuche y europea",
+    "ingredientes": "20 g de hojas de matico, 15 g de manzanilla, 10 g de romero, 10 g de caléndula, 2 litros de agua, 1 cucharada de sal marina",
+    "preparacion": "Hervir agua con hierbas tapado 20 minutos. Apagar y reposar 15 minutos. Colar. Añadir sal. Verter en bidet o lavatorio cuando esté tibio.",
+    "dosis": "Baño de asiento de 15-20 minutos, 1-2 veces al día durante el puerperio",
+    "modo_uso": "Baño de asiento",
+    "tiempo_prep": "40 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 litros",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Manzanilla y caléndula con uso documentado en cicatrización perineal",
+    "fuente_tradicion": "Mapuche y europea",
+    "contraindicaciones": "Heridas con signos de infección requieren manejo médico. Alergia a asteráceas.",
+    "uso": "El verbascósido y taninos del matico contraen capilares hemorroidales y reducen sangrado por astringencia, los triterpenos de caléndula y bisabolol de manzanilla aceleran epitelización del periné desgarrado o episiotomía, y el ácido carnósico del romero previene sobreinfección bacteriana.",
+    "principios_activos": "Verbascósido, taninos (matico). Bisabolol (manzanilla). Faradiol (caléndula). Ácido carnósico (romero).",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "antiséptico",
+      "antihemorroidal",
+      "calmante perineal"
+    ],
+    "referencias": [
+      "Behmanesh F. et al. Caspian J Intern Med (2018) 9:271",
+      "Della Loggia R. et al. Planta Med (1994) 60:516"
+    ],
+    "indicaciones_principales": [
+      "postparto",
+      "episiotomía",
+      "desgarros perineales",
+      "hemorroides",
+      "infecciones vulvares leves"
+    ],
+    "interacciones_medicamentos": "Tópico, sin interacciones",
+    "embarazo_lactancia": "Seguro en puerperio y lactancia",
+    "duracion_tratamiento": "2-3 semanas postparto",
+    "sinergia_plantas": [
+      "llantén",
+      "topa topa"
+    ]
+  },
+  {
+    "id": 1178,
+    "titulo": "Decocción mensual de pimpinela, manzanilla y melisa para SPM",
+    "categoria": "Ginecológico",
+    "origen": "Herbolaria femenina chilena",
+    "ingredientes": "1 cucharadita de pimpinela, 1 cucharadita de manzanilla, 1 cucharadita de melisa, 1/2 cucharadita de cedrón, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar e infundir 10 minutos. Colar.",
+    "dosis": "1-2 tazas al día durante la semana premenstrual",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Manzanilla con evidencia ansiolítica en SPM (Amsterdam, 2009)",
+    "fuente_tradicion": "Herbolaria chilena",
+    "contraindicaciones": "Embarazo, alergia a asteráceas, hipotensión severa.",
+    "uso": "La apigenina de manzanilla se une con baja afinidad a receptores benzodiacepínicos centrales reduciendo irritabilidad sin sedación marcada, mientras el ácido rosmarínico de melisa inhibe la captación de GABA y los compuestos amargos de pimpinela apoyan eliminación hepática de estrógenos.",
+    "principios_activos": "Apigenina (manzanilla). Ácido rosmarínico, citral (melisa). Saponinas (pimpinela). Verbascósido (cedrón).",
+    "propiedades": [
+      "ansiolítico",
+      "antiespasmódico",
+      "regulador hormonal suave",
+      "digestivo"
+    ],
+    "referencias": [
+      "Amsterdam JD. et al. J Clin Psychopharmacol (2009) 29:378",
+      "Jenabi E. J Pak Med Assoc (2013) 63:8"
+    ],
+    "indicaciones_principales": [
+      "síndrome premenstrual",
+      "irritabilidad",
+      "retención de líquidos leve",
+      "ansiedad cíclica",
+      "mastalgia leve"
+    ],
+    "interacciones_medicamentos": "Sedantes, anticoagulantes",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "3-6 ciclos",
+    "sinergia_plantas": [
+      "milenrama",
+      "pasiflora"
+    ]
+  },
+  {
+    "id": 1179,
+    "titulo": "Cardiotónico nocturno de espino blanco, melisa y tilo",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia cardiovascular europea",
+    "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de melisa, 1 cucharadita de flor de tilo, 1/2 cucharadita de pasiflora, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10-12 minutos. Colar.",
+    "dosis": "1 taza después de la cena durante 6-8 semanas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Espino blanco con evidencia en insuficiencia cardíaca NYHA II (Pittler, 2008)",
+    "fuente_tradicion": "Herbolaria cardiovascular europea",
+    "contraindicaciones": "Digitálicos, betabloqueadores sin supervisión, cardiopatías graves no controladas, hipotensión severa.",
+    "uso": "Las procianidinas oligoméricas del espino blanco aumentan tono inotrópico cardíaco e inhiben fosfodiesterasa miocárdica mejorando contractilidad, mientras vasodilatan coronarias por liberación de óxido nítrico endotelial; melisa y tilo aportan modulación parasimpática reduciendo taquicardia ansiosa.",
+    "principios_activos": "Procianidinas oligoméricas, vitexina (espino): inotrópico positivo. Ácido rosmarínico (melisa). Farnesol (tilo). Crisina (pasiflora).",
+    "propiedades": [
+      "cardiotónico",
+      "vasodilatador coronario",
+      "antihipertensivo suave",
+      "ansiolítico"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+      "Tassell MC. et al. Pharmacogn Rev (2010) 4:32"
+    ],
+    "indicaciones_principales": [
+      "hipertensión leve",
+      "palpitaciones nerviosas",
+      "insuficiencia cardíaca NYHA I-II",
+      "ansiedad con somatización cardíaca",
+      "convalecencia cardiovascular"
+    ],
+    "interacciones_medicamentos": "Potencia digoxina, antihipertensivos, betabloqueadores",
+    "embarazo_lactancia": "Datos insuficientes, evitar",
+    "duracion_tratamiento": "Mínimo 6 semanas, máximo 12",
+    "sinergia_plantas": [
+      "valeriana",
+      "hierba del sapo"
+    ]
+  },
+  {
+    "id": 1180,
+    "titulo": "Decocción diurética de cola de caballo, perejil y diente de león",
+    "categoria": "Diurético",
+    "origen": "Herbolaria diurética tradicional",
+    "ingredientes": "1 cucharadita de cola de caballo, 1 cucharadita de hojas de diente de león, 1 cucharadita de perejil fresco, 1/2 cucharadita de pelos de choclo (estigmas de maíz), 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo y diente de león 10 minutos. Apagar, añadir perejil y pelos de choclo. Tapar 5 minutos. Colar.",
+    "dosis": "2 tazas al día durante el día, no después de las 18:00 hrs",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Diente de león con efecto diurético confirmado (Clare, 2009); cola de caballo en uso tradicional",
+    "fuente_tradicion": "Herbolaria europea y americana",
+    "contraindicaciones": "Insuficiencia renal, edema cardíaco o renal severo, embarazo (perejil emenagogo), tratamiento con diuréticos.",
+    "uso": "El diente de león es uno de los pocos diuréticos vegetales que aporta potasio compensando pérdidas, los flavonoides de cola de caballo aumentan filtración glomerular y la apiol del perejil estimula directamente el túbulo distal incrementando excreción de sodio sin alterar electrolitos severamente.",
+    "principios_activos": "Taraxasterol (diente de león): diurético, rico en potasio. Equisetonina, flavonoides (cola de caballo). Apiol, miristicina (perejil). Maizina (pelos de choclo).",
+    "propiedades": [
+      "diurético",
+      "depurativo renal",
+      "antiedematoso",
+      "remineralizante"
+    ],
+    "referencias": [
+      "Clare BA. et al. J Altern Complement Med (2009) 15:929",
+      "Yarnell E. Altern Complement Ther (2002) 8:103"
+    ],
+    "indicaciones_principales": [
+      "retención de líquidos",
+      "edemas leves de miembros inferiores",
+      "infecciones urinarias leves (coadyuvante)",
+      "hipertensión leve"
+    ],
+    "interacciones_medicamentos": "Diuréticos farmacológicos, litio, anticoagulantes",
+    "embarazo_lactancia": "Evitar por contenido de perejil",
+    "duracion_tratamiento": "Ciclos de 2-3 semanas",
+    "sinergia_plantas": [
+      "llantén",
+      "pichi"
+    ]
+  },
+  {
+    "id": 1181,
+    "titulo": "Infusión renal antiinflamatoria de pichi, llantén y cola de caballo",
+    "categoria": "Renal",
+    "origen": "Herbolaria chilena",
+    "ingredientes": "1/2 cucharadita de pichi, 1 cucharadita de llantén, 1 cucharadita de cola de caballo, 1/2 cucharadita de zarzaparrilla, 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo y zarzaparrilla 8 minutos. Apagar, añadir pichi y llantén. Tapar 7 minutos. Colar.",
+    "dosis": "2 tazas al día, alejado de comidas, durante 10 días",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Pichi (Fabiana imbricata) con uso tradicional documentado en cistitis (Houghton, 1994)",
+    "fuente_tradicion": "Tradición chilena y mapuche",
+    "contraindicaciones": "Insuficiencia renal moderada-severa, embarazo, niños menores de 12 años, prostatismo severo.",
+    "uso": "Los flavonoides del pichi tienen acción antiséptica urinaria por excreción renal de derivados fenólicos activos, los iridoides del llantén (aucubina) protegen el urotelio inflamado y la cola de caballo aporta sílice estructural para tejido renal y mucosa vesical.",
+    "principios_activos": "Cumarinas, fabianina (pichi): antiséptico urinario. Aucubina, catalpol (llantén). Equisetonina, sílice (cola de caballo).",
+    "propiedades": [
+      "antiséptico urinario",
+      "antiinflamatorio renal",
+      "diurético suave",
+      "demulcente"
+    ],
+    "referencias": [
+      "Houghton PJ. et al. Phytother Res (1994) 8:373",
+      "Wegener T. et al. Phytomedicine (1999) 6:181"
+    ],
+    "indicaciones_principales": [
+      "cistitis no complicada",
+      "uretritis",
+      "molestias miccionales",
+      "litiasis renal pequeña (coadyuvante)",
+      "prevención de ITU recurrente"
+    ],
+    "interacciones_medicamentos": "Antibióticos urinarios (puede potenciar), diuréticos",
+    "embarazo_lactancia": "Contraindicado pichi",
+    "duracion_tratamiento": "Máximo 10 días continuos",
+    "sinergia_plantas": [
+      "arándano rojo",
+      "matico"
+    ]
+  },
+  {
+    "id": 1182,
+    "titulo": "Linimento muscular de árnica, romero y eucalipto",
+    "categoria": "Antiinflamatorio",
+    "origen": "Herbolaria deportiva europea",
+    "ingredientes": "50 ml de oleato de árnica, 30 ml de oleato de romero, 20 ml de aceite de oliva, 10 ml de aceite de hipérico, 15 gotas de aceite esencial de eucalipto, 10 gotas de aceite esencial de menta, 5 gotas de aceite esencial de lavanda",
+    "preparacion": "Mezclar todos los aceites vegetales. Añadir aceites esenciales agitando vigorosamente. Envasar en botella oscura.",
+    "dosis": "Aplicar masajeando suavemente sobre área afectada 2-3 veces al día",
+    "modo_uso": "Linimento tópico",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "115 ml",
+    "conservacion": "6 meses en frasco oscuro",
+    "evidencia": "Árnica tópica con eficacia comparable a ibuprofeno gel en osteoartritis manos (Widrig, 2007)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Heridas abiertas, alergia a asteráceas, niños menores de 6 años, embarazo en abdomen.",
+    "uso": "Las lactonas sesquiterpénicas de árnica (helenalina) inhiben NF-κB reduciendo cascada inflamatoria local sin necesidad de absorción sistémica, el alcanfor y mentol activan receptores TRPM8 generando sensación fría que distrae del dolor (contrairritante) y el eucaliptol mejora circulación local.",
+    "principios_activos": "Helenalina (árnica): inhibidor NF-κB. Alcanfor, borneol (romero). 1,8-cineol (eucalipto). Mentol (menta). Hiperforina (hipérico).",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "miorrelajante",
+      "rubefaciente",
+      "circulatorio"
+    ],
+    "referencias": [
+      "Widrig R. et al. Rheumatol Int (2007) 27:585",
+      "Iannitti T. et al. Pharmacol Res (2016) 116:23"
+    ],
+    "indicaciones_principales": [
+      "contracturas musculares",
+      "esguinces",
+      "hematomas",
+      "dolor articular",
+      "fatiga muscular post-ejercicio"
+    ],
+    "interacciones_medicamentos": "Tópico, mínimas",
+    "embarazo_lactancia": "Evitar en zona abdominal y mamaria",
+    "duracion_tratamiento": "Hasta resolución, máximo 2 semanas continuas",
+    "sinergia_plantas": [
+      "sauce blanco (interno)",
+      "matico"
+    ]
+  },
+  {
+    "id": 1183,
+    "titulo": "Infusión analgésica de sauce blanco, ulmaria y jengibre",
+    "categoria": "Analgésico",
+    "origen": "Fitoterapia analgésica europea",
+    "ingredientes": "1 cucharadita de corteza de sauce blanco, 1 cucharadita de ulmaria (reina de los prados), 2 cm de jengibre fresco, 1 ramita de menta, 350 ml de agua",
+    "preparacion": "Hervir agua con sauce y jengibre 15 minutos. Apagar, añadir ulmaria y menta. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza cada 6-8 horas máximo 3 dosis al día por 5 días",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "Consumir fresca",
+    "evidencia": "Sauce blanco (Salix alba) con eficacia en lumbago crónico comparable a rofecoxib (Chrubasik, 2000)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Alergia a salicilatos, úlcera péptica, niños menores de 16 años (riesgo Reye), anticoagulantes, embarazo tercer trimestre, asma sensible a AINE.",
+    "uso": "La salicina del sauce es bioconvertida en hígado e intestino a ácido salicílico inhibiendo COX-1 y COX-2 con menor irritación gástrica que aspirina, mientras los gingeroles del jengibre inhiben adicionalmente síntesis de leucotrienos vía 5-LOX y los flavonoides de ulmaria aportan acción antiinflamatoria sinérgica.",
+    "principios_activos": "Salicina (sauce): pro-fármaco de ácido salicílico, inhibidor COX. Salicilatos (ulmaria). Gingeroles y shogaoles (jengibre). Mentol.",
+    "propiedades": [
+      "analgésico",
+      "antipirético",
+      "antiinflamatorio",
+      "antirreumático"
+    ],
+    "referencias": [
+      "Chrubasik S. et al. Am J Med (2000) 109:9",
+      "Vlachojannis JE. et al. Phytother Res (2009) 23:897"
+    ],
+    "indicaciones_principales": [
+      "dolor lumbar",
+      "cefalea tensional",
+      "dolor articular",
+      "fiebre baja",
+      "dolores reumáticos"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes, AAS, AINE, metotrexato, hipoglucemiantes",
+    "embarazo_lactancia": "Contraindicado en tercer trimestre y lactancia",
+    "duracion_tratamiento": "Máximo 5 días para dolor agudo",
+    "sinergia_plantas": [
+      "cúrcuma",
+      "matico"
+    ]
+  },
+  {
+    "id": 1184,
+    "titulo": "Cataplasma articular de hojas de col, romaza y arcilla",
+    "categoria": "Reumatismo",
+    "origen": "Medicina popular europea",
+    "ingredientes": "3-4 hojas grandes de col (repollo), 1 puñado de hojas frescas de romaza, 3 cucharadas de arcilla verde, agua tibia, 1 cucharada de aceite de oliva",
+    "preparacion": "Aplastar hojas de col con rodillo hasta romper nervaduras. Calentar levemente. Mezclar arcilla con agua tibia y aceite. Aplicar arcilla sobre articulación, cubrir con hojas de col machacadas y hojas de romaza encima. Fijar con venda.",
+    "dosis": "Dejar 2-4 horas o toda la noche, una vez al día",
+    "modo_uso": "Cataplasma",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Media",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Uso inmediato",
+    "evidencia": "Hojas de col con efecto antiinflamatorio articular documentado (Lauche, 2016)",
+    "fuente_tradicion": "Medicina rural europea",
+    "contraindicaciones": "Heridas abiertas, dermatitis activa en la zona.",
+    "uso": "Las hojas de col contienen glucosinolatos que al romperse liberan isotiocianatos antiinflamatorios penetrando piel, los oxalatos de romaza tienen acción astringente y antiinflamatoria local, y la arcilla genera efecto osmótico extrayendo metabolitos inflamatorios mientras aporta minerales remineralizantes.",
+    "principios_activos": "Glucosinolatos, sulforafano (col). Antraquinonas, oxalatos (romaza). Silicatos y caolinita (arcilla).",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiedematoso",
+      "analgésico local",
+      "desintoxicante local"
+    ],
+    "referencias": [
+      "Lauche R. et al. Clin Rheumatol (2016) 35:2553",
+      "Brenner SR. Med Hypotheses (2014) 82:223"
+    ],
+    "indicaciones_principales": [
+      "artrosis de rodilla",
+      "artralgias",
+      "esguinces",
+      "tendinitis",
+      "bursitis"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro en extremidades",
+    "duracion_tratamiento": "10-14 días",
+    "sinergia_plantas": [
+      "árnica tópica",
+      "sauce blanco interno"
+    ]
+  },
+  {
+    "id": 1185,
+    "titulo": "Enjuague bucal para alivio dental de clavo, salvia y matico",
+    "categoria": "Dental",
+    "origen": "Odontología tradicional",
+    "ingredientes": "3 clavos de olor, 1 cucharadita de salvia, 1 cucharadita de matico, 1 pizca de sal, 250 ml de agua",
+    "preparacion": "Hervir agua con clavos 5 minutos. Apagar, añadir salvia y matico. Tapar 10 minutos. Añadir sal. Colar.",
+    "dosis": "Enjuagues de 30 segundos cada 3-4 horas mientras dure el dolor",
+    "modo_uso": "Enjuague bucal",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Eugenol de clavo con efecto analgésico dental documentado (Alqareer, 2006)",
+    "fuente_tradicion": "Odontología popular mundial",
+    "contraindicaciones": "Embarazo (salvia en altas dosis), niños menores de 6 años, alergias específicas, no tragar.",
+    "uso": "El eugenol del clavo bloquea canales de sodio en fibras nerviosas dentales generando analgesia local potente y desensibiliza receptores TRPV1, mientras los taninos del matico contraen tejidos gingivales sangrantes y la tuyona de salvia tiene acción antibacteriana sobre Streptococcus mutans.",
+    "principios_activos": "Eugenol (clavo): bloqueador canales Na+, analgésico. Tuyona, ácido carnósico (salvia). Verbascósido, taninos (matico).",
+    "propiedades": [
+      "analgésico dental",
+      "antibacteriano oral",
+      "antiinflamatorio gingival",
+      "hemostático local"
+    ],
+    "referencias": [
+      "Alqareer A. et al. J Dent (2006) 34:747",
+      "Daniel AN. et al. Rev Bras Farmacogn (2009) 19:212"
+    ],
+    "indicaciones_principales": [
+      "dolor dental agudo (mientras consulta dental)",
+      "gingivitis aguda",
+      "pericoronaritis",
+      "alveolitis post-extracción",
+      "estomatitis"
+    ],
+    "interacciones_medicamentos": "Tópico, sin interacciones sistémicas relevantes",
+    "embarazo_lactancia": "Usar solo matico",
+    "duracion_tratamiento": "Máximo 5 días, consultar dentista",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla"
+    ]
+  },
+  {
+    "id": 1186,
+    "titulo": "Infusión pediátrica para resfrío de saúco, tilo y limón",
+    "categoria": "Pediátrico",
+    "origen": "Tradición europea y chilena",
+    "ingredientes": "1 cucharadita de flores de saúco, 1 cucharadita de flores de tilo, 1/2 cucharadita de manzanilla, 1 rodaja de limón, 1 cucharadita de miel (solo mayores 1 año), 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar. Añadir limón y miel al entibiar.",
+    "dosis": "Niños 1-3 años: 50-80 ml hasta 3 veces al día. Niños 4-10 años: 100-150 ml. Mayores: 1 taza.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Saúco con evidencia en cuadros gripales (Tiralongo, 2016); miel mejor que dextrometorfano para tos nocturna (Paul, 2007)",
+    "fuente_tradicion": "Herbolaria pediátrica europea",
+    "contraindicaciones": "Menores de 12 meses (miel). Alergia a asteráceas. Cuadros respiratorios severos requieren consulta médica.",
+    "uso": "Las antocianinas del saúco inhiben hemaglutininas virales bloqueando entrada del virus a células del epitelio respiratorio, los flavonoides del tilo (farnesol) inducen sudoración leve favoreciendo termorregulación febril y la apigenina de manzanilla aporta efecto ansiolítico que mejora descanso.",
+    "principios_activos": "Antocianinas, ácidos fenólicos (saúco): antivirales. Farnesol, tiliacina (tilo): diaforético. Apigenina (manzanilla). Vitamina C (limón).",
+    "propiedades": [
+      "antiviral",
+      "diaforético",
+      "antipirético suave",
+      "antiinflamatorio",
+      "calmante"
+    ],
+    "referencias": [
+      "Tiralongo E. et al. Nutrients (2016) 8:182",
+      "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+    ],
+    "indicaciones_principales": [
+      "resfrío común infantil",
+      "fiebre leve",
+      "tos nocturna",
+      "congestión leve",
+      "malestar general"
+    ],
+    "interacciones_medicamentos": "Ninguna habitual a estas dosis",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta resolución, máximo 7 días",
+    "sinergia_plantas": [
+      "matico (mayor 5 años)",
+      "llantén"
+    ]
+  },
+  {
+    "id": 1187,
+    "titulo": "Compresa pediátrica para fiebre de tilo, saúco y manzanilla",
+    "categoria": "Pediátrico",
+    "origen": "Hidroterapia infantil",
+    "ingredientes": "1 cucharada de flores de tilo, 1 cucharada de flores de saúco, 1 cucharada de manzanilla, 500 ml de agua, 1 paño de algodón",
+    "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 15 minutos. Colar. Enfriar a temperatura corporal o templada.",
+    "dosis": "Empapar paño, escurrir, aplicar en frente, axilas y pliegues inguinales. Cambiar cada 10 minutos.",
+    "modo_uso": "Compresa templada",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "Uso inmediato",
+    "evidencia": "Compresas tibias son método físico antitérmico recomendado (OMS)",
+    "fuente_tradicion": "Hidroterapia naturista pediátrica",
+    "contraindicaciones": "Fiebre superior a 39°C o de origen incierto: consultar médico. No usar agua fría (vasoconstricción contraproducente).",
+    "uso": "El método físico de compresas templadas (no frías) facilita pérdida de calor por evaporación sin generar vasoconstricción reactiva, los terpenos volátiles inhalados del tilo activan reflejo diaforético vía hipotálamo, complementando bajada de temperatura sin estrés metabólico.",
+    "principios_activos": "Farnesol, tiliacina (tilo). Antocianinas (saúco). Bisabolol (manzanilla).",
+    "propiedades": [
+      "antitérmico físico",
+      "calmante",
+      "diaforético",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Meremikwu MM. Cochrane Database Syst Rev (2003) CD004264",
+      "Greisman LA. Pediatr Rev (2002) 23:91"
+    ],
+    "indicaciones_principales": [
+      "fiebre infantil leve a moderada",
+      "complemento de antipirético farmacológico",
+      "agitación febril"
+    ],
+    "interacciones_medicamentos": "Ninguna",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta que ceda la fiebre",
+    "sinergia_plantas": [
+      "llantén"
+    ]
+  },
+  {
+    "id": 1188,
+    "titulo": "Energizante matinal de cedrón, romero y maqui",
+    "categoria": "Energizante",
+    "origen": "Herbolaria chilena moderna",
+    "ingredientes": "1 cucharadita de cedrón, 1/2 cucharadita de romero, 1 cucharada de maqui deshidratado, 1 cucharadita de miel, 1 rodaja de jengibre, 300 ml de agua",
+    "preparacion": "Hervir agua con jengibre y maqui 5 minutos. Apagar, añadir cedrón y romero. Tapar 7 minutos. Colar y añadir miel.",
+    "dosis": "1 taza en la mañana en ayunas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Consumir fresca",
+    "evidencia": "Romero mejora rendimiento cognitivo (Pengelly, 2012); maqui con alta capacidad antioxidante (Céspedes, 2008)",
+    "fuente_tradicion": "Herbolaria chilena contemporánea",
+    "contraindicaciones": "Hipertensión severa, epilepsia, embarazo (romero), niños menores de 12 años.",
+    "uso": "El 1,8-cineol del romero atraviesa la barrera hematoencefálica e inhibe acetilcolinesterasa potenciando neurotransmisión colinérgica relacionada con atención y memoria, las antocianinas del maqui (delfinidina) protegen membranas neuronales del estrés oxidativo y el verbascósido del cedrón modula respuesta al estrés sin sobreestimulación adrenérgica.",
+    "principios_activos": "1,8-cineol, ácido carnósico (romero): nootrópico. Delfinidina (maqui): antioxidante. Verbascósido, citral (cedrón). Gingeroles.",
+    "propiedades": [
+      "energizante cognitivo",
+      "antioxidante",
+      "adaptógeno",
+      "tónico cerebral"
+    ],
+    "referencias": [
+      "Pengelly A. et al. J Med Food (2012) 15:10",
+      "Céspedes CL. et al. Food Chem (2008) 107:820"
+    ],
+    "indicaciones_principales": [
+      "fatiga matinal",
+      "estudiantes en época de exámenes",
+      "trabajo intelectual exigente",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos, antihipertensivos",
+    "embarazo_lactancia": "Evitar romero",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "yerba mate (no incluida)",
+      "menta"
+    ]
+  },
+  {
+    "id": 1189,
+    "titulo": "Compresa ocular calmante de manzanilla y eufrasia",
+    "categoria": "Oftalmológico",
+    "origen": "Herbolaria oftálmica europea",
+    "ingredientes": "1 cucharadita de manzanilla, 1 cucharadita de eufrasia (o llantén si no se consigue), 200 ml de agua filtrada",
+    "preparacion": "Hervir agua. Verter sobre hierbas. Tapar 15 minutos. Filtrar con tela muy fina o filtro de café doble (importante: sin partículas). Enfriar.",
+    "dosis": "Empapar discos de algodón estéril, aplicar sobre párpados cerrados 10 minutos, 2-3 veces al día",
+    "modo_uso": "Compresa oftálmica",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "Preparar fresca cada día, refrigerada",
+    "evidencia": "Manzanilla con efecto antiinflamatorio ocular (Stoss, 1996)",
+    "fuente_tradicion": "Herbolaria oftálmica europea",
+    "contraindicaciones": "Conjuntivitis bacteriana o viral activa requiere manejo médico. Alergia a asteráceas. No introducir en el ojo (solo compresa externa).",
+    "uso": "El bisabolol y camazuleno de manzanilla penetran piel periocular reduciendo inflamación palpebral por inhibición de cicloxigenasa, los iridoides de eufrasia (aucubina) actúan como antiinflamatorios suaves y los taninos generan astringencia que reduce hinchazón sin contraindicación oftálmica.",
+    "principios_activos": "Bisabolol, camazuleno, apigenina (manzanilla). Aucubina, eufrasiósido (eufrasia). Taninos.",
+    "propiedades": [
+      "antiinflamatorio ocular",
+      "calmante palpebral",
+      "antialérgico",
+      "descongestionante"
+    ],
+    "referencias": [
+      "Stoss M. et al. J Altern Complement Med (1996) 2:445",
+      "Paduch R. et al. Curr Eye Res (2014) 39:1207"
+    ],
+    "indicaciones_principales": [
+      "fatiga ocular",
+      "conjuntivitis alérgica leve",
+      "blefaritis",
+      "ojos hinchados",
+      "lagrimeo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta 10 días, consultar oftalmólogo",
+    "sinergia_plantas": [
+      "llantén",
+      "rosas"
+    ]
+  },
+  {
+    "id": 1190,
+    "titulo": "Gotas óticas de aceite de oliva, manzanilla y ajo",
+    "categoria": "Oídos",
+    "origen": "Medicina popular europea",
+    "ingredientes": "100 ml de aceite de oliva extra virgen, 1 cucharada de flores de manzanilla, 1 diente de ajo machacado, 1 ramita de tomillo",
+    "preparacion": "Calentar aceite al baño maría a 60°C. Añadir hierbas y ajo. Mantener 1 hora a baja temperatura. Filtrar con gasa. Envasar en frasco gotero oscuro.",
+    "dosis": "2-3 gotas tibias en el oído afectado, 2 veces al día, máximo 5 días",
+    "modo_uso": "Gotas óticas",
+    "tiempo_prep": "1 hora 30 minutos",
+    "dificultad": "Media",
+    "rendimiento": "100 ml",
+    "conservacion": "3 meses en frasco oscuro y fresco",
+    "evidencia": "Otitis media con extracto herbal con alivio sintomático (Sarrell, 2003)",
+    "fuente_tradicion": "Medicina popular europea",
+    "contraindicaciones": "PERFORACIÓN TIMPÁNICA (absolutamente contraindicado), tubos de timpanostomía, otorrea, otitis externa con dermatitis. Consultar siempre antes de usar.",
+    "uso": "El aceite tibio actúa como vehículo lipófilo que reblandece cerumen y reduce inflamación del conducto auditivo externo, mientras la alicina del ajo y los terpenos antibacterianos de manzanilla y tomillo proporcionan acción antimicrobiana sobre flora del conducto auditivo, complementando manejo médico.",
+    "principios_activos": "Alicina (ajo): antibacteriano. Bisabolol (manzanilla). Timol (tomillo). Ácido oleico (oliva).",
+    "propiedades": [
+      "analgésico ótico",
+      "antibacteriano local",
+      "antiinflamatorio",
+      "ablandador de cerumen"
+    ],
+    "referencias": [
+      "Sarrell EM. et al. Arch Pediatr Adolesc Med (2003) 157:796",
+      "Ernst E. Br J Gen Pract (2003) 53:786"
+    ],
+    "indicaciones_principales": [
+      "otalgia leve con tímpano íntegro",
+      "ablandamiento de cerumen",
+      "otitis externa leve no complicada"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Máximo 5 días, consultar médico",
+    "sinergia_plantas": [
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1191,
+    "titulo": "Infusión antialérgica estacional de ortiga, perilla y manzanilla",
+    "categoria": "Alergia",
+    "origen": "Fitoterapia antialérgica moderna",
+    "ingredientes": "1 cucharadita de hojas secas de ortiga, 1 cucharadita de manzanilla, 1/2 cucharadita de melisa, 1/2 cucharadita de cúrcuma rallada, 350 ml de agua",
+    "preparacion": "Hervir agua con cúrcuma 5 minutos. Apagar, añadir ortiga, manzanilla y melisa. Tapar 10 minutos. Colar.",
+    "dosis": "2 tazas al día durante toda la temporada de polinización",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Ortiga liofilizada con eficacia comparable a antihistamínicos en rinitis alérgica (Mittman, 1990)",
+    "fuente_tradicion": "Fitoterapia europea contemporánea",
+    "contraindicaciones": "Embarazo (cúrcuma en altas dosis), litiasis biliar, anticoagulantes, alergia a asteráceas.",
+    "uso": "Los flavonoides de ortiga (quercetina y kaempferol) estabilizan membrana de mastocitos inhibiendo liberación de histamina, la curcumina inhibe NF-κB reduciendo cascada inflamatoria alérgica y la apigenina de manzanilla complementa con acción antihistamínica H1 periférica.",
+    "principios_activos": "Quercetina (ortiga): estabilizador mastocitario. Curcumina: anti-NF-κB. Apigenina (manzanilla): antihistamínico. Ácido rosmarínico (melisa).",
+    "propiedades": [
+      "antihistamínico",
+      "antiinflamatorio",
+      "estabilizador mastocitario",
+      "antialérgico"
+    ],
+    "referencias": [
+      "Mittman P. Planta Med (1990) 56:44",
+      "Roschek B. et al. Phytother Res (2009) 23:920"
+    ],
+    "indicaciones_principales": [
+      "rinitis alérgica estacional",
+      "asma alérgica leve",
+      "urticaria crónica leve",
+      "conjuntivitis alérgica",
+      "dermatitis atópica leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes, hipoglucemiantes, antihipertensivos",
+    "embarazo_lactancia": "Evitar dosis altas de cúrcuma",
+    "duracion_tratamiento": "Toda la temporada de alergia",
+    "sinergia_plantas": [
+      "llantén",
+      "diente de león"
+    ]
+  },
+  {
+    "id": 1192,
+    "titulo": "Decocción mineralizante de ortiga, cola de caballo y alfalfa",
+    "categoria": "Nutritivo",
+    "origen": "Herbolaria mineralizante",
+    "ingredientes": "1 cucharadita de hojas de ortiga, 1 cucharadita de cola de caballo, 1 cucharadita de alfalfa seca, 1 cucharadita de avena verde, 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo 10 minutos. Apagar, añadir el resto. Tapar 15 minutos. Colar.",
+    "dosis": "2 tazas al día durante 4-6 semanas",
+    "modo_uso": "Decocción mixta",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Ortiga rica en hierro biodisponible (Adhikari, 2015); sílice de cola de caballo para tejido conectivo",
+    "fuente_tradicion": "Herbolaria mineralizante europea",
+    "contraindicaciones": "Anticoagulantes (vit K en ortiga), insuficiencia renal, edema cardíaco. Cuidado con ortiga en alergia a urticáceas.",
+    "uso": "La ortiga aporta hierro orgánico (1.6-4 mg/100g) en forma altamente biodisponible junto a vitamina C cofactora, la cola de caballo proporciona sílice estructural esencial para colágeno y matriz extracelular ósea, y la alfalfa contribuye con vitamina K2 y calcio mineralizante.",
+    "principios_activos": "Hierro orgánico, clorofila (ortiga). Sílice, equisetonina (cola de caballo). Vitamina K, isoflavonas (alfalfa). Avenacósidos (avena).",
+    "propiedades": [
+      "remineralizante",
+      "antianémico",
+      "tónico óseo",
+      "fortalecedor de tejido conectivo"
+    ],
+    "referencias": [
+      "Adhikari BM. et al. Food Sci Nutr (2015) 4:119",
+      "Carrillo-López N. et al. J Am Soc Nephrol (2016) 27:824"
+    ],
+    "indicaciones_principales": [
+      "anemia ferropénica leve",
+      "osteopenia",
+      "uñas y cabello frágiles",
+      "convalecencia",
+      "deportistas"
+    ],
+    "interacciones_medicamentos": "Warfarina (vit K), levotiroxina (separar 4 horas)",
+    "embarazo_lactancia": "Seguro en cantidades moderadas en lactancia",
+    "duracion_tratamiento": "Ciclos de 6 semanas",
+    "sinergia_plantas": [
+      "diente de león",
+      "perejil"
+    ]
+  },
+  {
+    "id": 1193,
+    "titulo": "Aceite de masaje circulatorio de hipérico, romero y castaño de indias",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia vascular europea",
+    "ingredientes": "100 ml de oleato de hipérico, 30 ml de oleato de romero, 20 gotas de aceite esencial de ciprés, 15 gotas de aceite esencial de lavanda, 10 gotas de aceite esencial de limón",
+    "preparacion": "Mezclar oleatos. Añadir aceites esenciales agitando. Envasar en frasco oscuro.",
+    "dosis": "Masajear piernas de tobillos hacia rodillas, ascendiendo, 1-2 veces al día",
+    "modo_uso": "Masaje circulatorio",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "130 ml",
+    "conservacion": "6 meses en frasco oscuro",
+    "evidencia": "Castaño de indias con eficacia en insuficiencia venosa (Pittler, 2012)",
+    "fuente_tradicion": "Fitoterapia vascular europea",
+    "contraindicaciones": "Heridas abiertas. Hipérico tópico: evitar exposición solar (fotosensibilizante). Embarazo abdominal.",
+    "uso": "La escina del castaño de indias reduce permeabilidad capilar inhibiendo elastasa y hialuronidasa que degradan paredes venosas, la hiperforina del hipérico tiene acción venotónica y el ciprés contiene alfa-pineno que mejora retorno venoso por vasoconstricción venosa selectiva.",
+    "principios_activos": "Hiperforina, hipericina (hipérico): venotónico. Alfa-pineno, sabineno (ciprés). Ácido carnósico (romero).",
+    "propiedades": [
+      "venotónico",
+      "circulatorio",
+      "antiedematoso",
+      "descongestivo"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2012) CD003230",
+      "Suter A. et al. Adv Ther (2006) 23:179"
+    ],
+    "indicaciones_principales": [
+      "insuficiencia venosa",
+      "varices",
+      "piernas pesadas",
+      "edema vespertino de piernas",
+      "calambres nocturnos"
+    ],
+    "interacciones_medicamentos": "Tópico, fotosensibilidad",
+    "embarazo_lactancia": "Evitar en abdomen y mamas",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "caléndula",
+      "milenrama"
+    ]
+  },
+  {
+    "id": 1194,
+    "titulo": "Tisana digestiva de albahaca, menta e hinojo",
+    "categoria": "Digestivo",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de albahaca seca, 1 cucharadita de menta, 1 cucharadita de semillas de hinojo trituradas, 1/2 cucharadita de manzanilla, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar.",
+    "dosis": "1 taza después de comidas pesadas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Menta con eficacia en síndrome de intestino irritable (Khanna, 2014)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Reflujo gastroesofágico severo (menta relaja esfínter esofágico inferior). Hernia hiatal grande.",
+    "uso": "El mentol de la menta relaja músculo liso intestinal por bloqueo de canales de calcio, el linalool de albahaca complementa con acción sedante digestiva y los flavonoides de manzanilla actúan sobre eje intestino-cerebro reduciendo somatización digestiva del estrés.",
+    "principios_activos": "Mentol (menta): bloqueador canales Ca++. Linalool, eugenol (albahaca). Anetol (hinojo). Apigenina (manzanilla).",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "espasmolítico",
+      "antinauseoso"
+    ],
+    "referencias": [
+      "Khanna R. et al. J Clin Gastroenterol (2014) 48:505",
+      "Pittler MH. Am J Gastroenterol (1998) 93:1131"
+    ],
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "náuseas postprandiales",
+      "distensión",
+      "síndrome de intestino irritable",
+      "digestión lenta"
+    ],
+    "interacciones_medicamentos": "Antiácidos, IBP (separar 1 hora)",
+    "embarazo_lactancia": "Moderada, evitar dosis altas",
+    "duracion_tratamiento": "Uso continuo según necesidad",
+    "sinergia_plantas": [
+      "melisa",
+      "cedrón"
+    ]
+  },
+  {
+    "id": 1195,
+    "titulo": "Infusión hepatoprotectora de cardo mariano, alcachofa y diente de león",
+    "categoria": "Hepático",
+    "origen": "Fitoterapia hepática europea",
+    "ingredientes": "1 cucharadita de semillas de cardo mariano molidas, 1 cucharadita de hojas de alcachofa, 1 cucharadita de hojas de diente de león, 1/2 cucharadita de menta, 350 ml de agua",
+    "preparacion": "Hervir agua con cardo mariano 8 minutos. Apagar, añadir alcachofa, diente de león y menta. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza en ayunas y otra antes de la cena, 4 semanas",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "25 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Silimarina y cinarina con evidencia en hepatopatías crónicas (Saller, 2008)",
+    "fuente_tradicion": "Fitoterapia europea",
+    "contraindicaciones": "Obstrucción biliar, cálculos sintomáticos, embarazo, alergia a asteráceas, lactancia.",
+    "uso": "La silimarina protege hepatocitos por bloqueo competitivo de receptores hepáticos donde se unen toxinas como amanitina y por estímulo de ARN polimerasa I aumentando síntesis de proteínas regeneradoras; la cinarina y taraxasterol incrementan flujo biliar facilitando excreción de metabolitos y colesterol.",
+    "principios_activos": "Silimarina (cardo mariano): hepatoprotector. Cinarina (alcachofa): colerético, hipolipemiante. Taraxasterol (diente de león). Mentol.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "depurativo",
+      "hipolipemiante",
+      "antioxidante hepático"
+    ],
+    "referencias": [
+      "Saller R. et al. Forsch Komplementmed (2008) 15:9",
+      "Ben Salem M. et al. Plant Foods Hum Nutr (2015) 70:441"
+    ],
+    "indicaciones_principales": [
+      "hígado graso",
+      "convalecencia hepática",
+      "hipercolesterolemia leve",
+      "post-exceso alimenticio o alcohólico",
+      "litiasis biliar pequeña (sin obstrucción)"
+    ],
+    "interacciones_medicamentos": "Estatinas (potencia), warfarina, metronidazol",
+    "embarazo_lactancia": "Evitar",
+    "duracion_tratamiento": "4 semanas con descanso de 1",
+    "sinergia_plantas": [
+      "boldo",
+      "bailahuén"
+    ]
+  },
+  {
+    "id": 1196,
+    "titulo": "Infusión calmante de tilo, melisa y flor de azahar",
+    "categoria": "Nervioso",
+    "origen": "Tradición mediterránea",
+    "ingredientes": "1 cucharadita de flor de tilo, 1 cucharadita de melisa, 1 cucharadita de flor de azahar (naranjo amargo), 1/2 cucharadita de manzanilla, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 2-3 veces al día en momentos de ansiedad o antes de eventos estresantes",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Melisa demostró efecto ansiolítico agudo (Kennedy, 2004)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Hipotensión severa, conducción de vehículos en dosis altas, hipotiroidismo no compensado (melisa).",
+    "uso": "El ácido rosmarínico de melisa inhibe la enzima GABA transaminasa aumentando GABA disponible en sinapsis, el linalool de azahar atraviesa BHE y modula receptores GABA-A y los flavonoides del tilo (farnesol) inducen relajación con leve diaforesis útil en ansiedad somatizada con calor.",
+    "principios_activos": "Ácido rosmarínico (melisa): inhibidor GABA-T. Linalool (azahar). Farnesol (tilo). Apigenina (manzanilla).",
+    "propiedades": [
+      "ansiolítico",
+      "sedante suave",
+      "antiespasmódico",
+      "calmante"
+    ],
+    "referencias": [
+      "Kennedy DO. et al. Psychosom Med (2004) 66:607",
+      "Cases J. et al. Med J Nutr Metab (2011) 4:211"
+    ],
+    "indicaciones_principales": [
+      "ansiedad situacional",
+      "estrés cotidiano",
+      "insomnio de conciliación leve",
+      "palpitaciones por ansiedad",
+      "tensión nerviosa"
+    ],
+    "interacciones_medicamentos": "Sedantes farmacológicos, alcohol, levotiroxina (separar)",
+    "embarazo_lactancia": "Seguro a dosis moderadas",
+    "duracion_tratamiento": "Uso según necesidad, sin límite estricto",
+    "sinergia_plantas": [
+      "pasiflora",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1197,
+    "titulo": "Infusión expectorante de marrubio, tomillo y violeta",
+    "categoria": "Expectorante",
+    "origen": "Herbolaria respiratoria europea",
+    "ingredientes": "1 cucharadita de marrubio, 1 cucharadita de tomillo, 1 cucharadita de flores y hojas de violeta, 1/2 cucharadita de hinojo, 350 ml de agua",
+    "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 3-4 veces al día durante el cuadro respiratorio",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Marrubina con efecto expectorante documentado (Schlemper, 1996)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Embarazo (marrubio uterotónico), hipertensión severa, ulcerosos, niños menores de 6 años en dosis altas.",
+    "uso": "La marrubina del marrubio estimula reflejo gastropulmonar aumentando secreción bronquial y facilitando expulsión de moco espeso, el timol del tomillo es mucolítico por reducción de viscosidad del esputo y las saponinas de violeta complementan acción expectorante por irritación refleja gástrica.",
+    "principios_activos": "Marrubina (marrubio): diterpeno expectorante. Timol (tomillo): mucolítico. Saponinas, violutósido (violeta). Anetol (hinojo).",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antitusivo suave",
+      "broncodilatador"
+    ],
+    "referencias": [
+      "Schlemper V. et al. Phytomedicine (1996) 3:211",
+      "Kemmerich B. Arzneimittelforschung (2007) 57:607"
+    ],
+    "indicaciones_principales": [
+      "bronquitis con esputo espeso",
+      "EPOC estable (coadyuvante)",
+      "tos productiva",
+      "resfrío con flemas",
+      "asma bronquial leve"
+    ],
+    "interacciones_medicamentos": "Antitusivos opiáceos (antagonismo), antihipertensivos",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Hasta resolución, máximo 14 días",
+    "sinergia_plantas": [
+      "saúco",
+      "llantén"
+    ]
+  },
+  {
+    "id": 1198,
+    "titulo": "Decocción depurativa primaveral de bardana, diente de león y zarzaparrilla",
+    "categoria": "General",
+    "origen": "Herbolaria depurativa tradicional",
+    "ingredientes": "1 cucharadita de raíz de bardana, 1 cucharadita de raíz de diente de león, 1 cucharadita de zarzaparrilla, 1/2 cucharadita de cola de caballo, 500 ml de agua",
+    "preparacion": "Hervir agua con todas las raíces 15 minutos. Apagar, tapar 10 minutos. Colar.",
+    "dosis": "2 tazas al día durante 3 semanas en primavera u otoño",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Bardana y diente de león con uso etnomedicinal en dermatosis y depuración (Chan, 2011)",
+    "fuente_tradicion": "Herbolaria depurativa europea",
+    "contraindicaciones": "Embarazo, obstrucción biliar, oclusión intestinal, hipoglucemiantes (bardana puede potenciar), niños menores de 12 años.",
+    "uso": "Los compuestos amargos y fitoesteroles de bardana y diente de león estimulan secreciones biliares y pancreáticas favoreciendo eliminación de metabolitos lipófilos, mientras la zarzaparrilla aporta saponinas que se unen a endotoxinas intestinales y la cola de caballo favorece eliminación renal complementaria.",
+    "principios_activos": "Inulina, arctigenina (bardana). Taraxasterol, taraxacina (diente de león). Sarsasapogenina (zarzaparrilla). Sílice (cola de caballo).",
+    "propiedades": [
+      "depurativo",
+      "diurético",
+      "colerético",
+      "antiinflamatorio sistémico",
+      "tónico general"
+    ],
+    "referencias": [
+      "Chan YS. et al. Inflammopharmacology (2011) 19:245",
+      "Schütz K. et al. J Ethnopharmacol (2006) 107:313"
+    ],
+    "indicaciones_principales": [
+      "acné",
+      "eccemas crónicos leves",
+      "psoriasis (coadyuvante)",
+      "convalecencia",
+      "exceso alimenticio prolongado"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes, diuréticos, anticoagulantes (cuidado)",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 21 días, 2 veces al año",
+    "sinergia_plantas": [
+      "ortiga",
+      "achicoria"
+    ]
+  },
+  {
+    "id": 1199,
+    "titulo": "Tintura nootrópica de romero, melisa y bacopa (alternativa: gotu kola/romero solo)",
+    "categoria": "Memoria",
+    "origen": "Fitoterapia cognitiva moderna",
+    "ingredientes": "30 g de hojas de romero, 30 g de melisa, 20 g de hojas de albahaca, 10 g de jengibre fresco, 250 ml de alcohol al 50%",
+    "preparacion": "Macerar todas las plantas en alcohol durante 21 días en frasco oscuro. Filtrar con presión. Envasar en gotero ámbar.",
+    "dosis": "20-30 gotas en agua, 1-2 veces al día en la mañana y mediodía",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Romero mejoró memoria prospectiva en adultos mayores (Moss, 2018)",
+    "fuente_tradicion": "Fitoterapia cognitiva contemporánea",
+    "contraindicaciones": "Hipertensión severa, epilepsia, embarazo, lactancia, niños, alcoholismo, anticoagulantes.",
+    "uso": "El ácido carnósico del romero protege neuronas hipocampales del estrés oxidativo activando vía Nrf2-ARE, el 1,8-cineol inhibe acetilcolinesterasa mejorando neurotransmisión colinérgica de memoria de trabajo, y el ácido rosmarínico complementa la inhibición de AChE con efecto sumatorio.",
+    "principios_activos": "Ácido carnósico, 1,8-cineol (romero): activador Nrf2, inhibidor AChE. Ácido rosmarínico (melisa, romero). Linalool (albahaca).",
+    "propiedades": [
+      "nootrópico",
+      "neuroprotector",
+      "antioxidante cerebral",
+      "memoria"
+    ],
+    "referencias": [
+      "Moss M. et al. Ther Adv Psychopharmacol (2018) 8:135",
+      "Pengelly A. et al. J Med Food (2012) 15:10"
+    ],
+    "indicaciones_principales": [
+      "deterioro cognitivo leve",
+      "olvidos frecuentes",
+      "fatiga mental",
+      "envejecimiento cognitivo",
+      "exámenes y estudios"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos (antagonismo), anticoagulantes, antihipertensivos",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 8 semanas con 2 de descanso",
+    "sinergia_plantas": [
+      "salvia (memoria)",
+      "cedrón"
+    ]
+  },
+  {
+    "id": 1200,
+    "titulo": "Loción capilar anticaspa de tomillo, romero y vinagre",
+    "categoria": "Cabello",
+    "origen": "Cosmética natural mediterránea",
+    "ingredientes": "3 cucharadas de tomillo, 2 cucharadas de romero, 1 cucharada de salvia, 250 ml de vinagre de manzana, 250 ml de agua",
+    "preparacion": "Calentar agua y vinagre. Verter sobre hierbas. Tapar 30 minutos. Colar. Envasar en botella con dispensador.",
+    "dosis": "Aplicar sobre cuero cabelludo seco, masajear, dejar 20 minutos. Lavar con shampoo suave. 2-3 veces por semana.",
+    "modo_uso": "Loción capilar",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "2 meses a temperatura ambiente",
+    "evidencia": "Timol y carvacrol con eficacia anti-Malassezia (Schmidt-Rose, 2011)",
+    "fuente_tradicion": "Cosmética natural mediterránea",
+    "contraindicaciones": "Heridas en cuero cabelludo, dermatitis seborreica severa, alergia a labiadas.",
+    "uso": "El timol y carvacrol del tomillo penetran la pared celular de Malassezia furfur (hongo causante de caspa), el ácido carnósico del romero estabiliza barrera cutánea del cuero cabelludo y el pH ácido del vinagre restaura manto hidrolipídico inhibiendo proliferación fúngica.",
+    "principios_activos": "Timol, carvacrol (tomillo): antifúngico. Ácido carnósico (romero). Tuyona (salvia). Ácido acético (vinagre): pH ácido.",
+    "propiedades": [
+      "antifúngico",
+      "antiseborreico",
+      "estimulante folicular",
+      "regulador de pH"
+    ],
+    "referencias": [
+      "Schmidt-Rose T. et al. Int J Cosmet Sci (2011) 33:276",
+      "Murata K. et al. Phytother Res (2013) 27:212"
+    ],
+    "indicaciones_principales": [
+      "caspa seca o grasa",
+      "dermatitis seborreica leve",
+      "picor cuero cabelludo",
+      "cabello graso"
+    ],
+    "interacciones_medicamentos": "Ninguna tópica relevante",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Mínimo 6 semanas",
+    "sinergia_plantas": [
+      "ortiga",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1201,
+    "titulo": "Crema corporal nutritiva de caléndula, manzanilla y avena",
+    "categoria": "Dermatológico",
+    "origen": "Cosmética natural moderna",
+    "ingredientes": "50 ml de oleato de caléndula, 30 ml de aceite de almendras, 20 ml de aceite de jojoba, 10 g de cera de abejas, 5 g de manteca de karité, 1 cucharadita de polvo de avena coloidal, 10 gotas de aceite esencial de manzanilla romana, 5 gotas de vitamina E",
+    "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
+    "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
+    "modo_uso": "Crema corporal",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "120 g",
+    "conservacion": "4-6 meses en frasco hermético",
+    "evidencia": "Avena coloidal con evidencia en dermatitis atópica (Reynertson, 2015)",
+    "fuente_tradicion": "Cosmética natural",
+    "contraindicaciones": "Alergia a asteráceas o avena. Pieles con heridas requieren manejo médico.",
+    "uso": "La avena coloidal forma película hidratante que retiene humedad y aporta betaglucanos antiinflamatorios cutáneos, los triterpenos de caléndula promueven reparación de barrera cutánea y el bisabolol de manzanilla reduce histamina mastocitaria local mejorando prurito.",
+    "principios_activos": "Avenantramidas, beta-glucanos (avena). Faradiol (caléndula). Bisabolol (manzanilla). Vitamina E.",
+    "propiedades": [
+      "hidratante",
+      "antiinflamatorio cutáneo",
+      "regenerador",
+      "antipruriginoso",
+      "calmante"
+    ],
+    "referencias": [
+      "Reynertson KA. et al. J Drugs Dermatol (2015) 14:43",
+      "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+    ],
+    "indicaciones_principales": [
+      "piel seca",
+      "dermatitis atópica leve",
+      "eccema",
+      "prurito",
+      "piel sensible reactiva"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "llantén",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1202,
+    "titulo": "Decocción antiparasitaria suave de ajenjo, manzanilla y zanahoria",
+    "categoria": "Antiparasitario",
+    "origen": "Herbolaria europea",
+    "ingredientes": "1/4 cucharadita de ajenjo (cantidad muy controlada), 1 cucharadita de manzanilla, 1 cucharada de zanahoria rallada, 1 diente de ajo machacado, 1 cucharadita de semillas de zapallo, 300 ml de agua",
+    "preparacion": "Hervir agua con zanahoria, ajo y semillas 10 minutos. Apagar, añadir ajenjo y manzanilla. Tapar 5 minutos. Colar muy bien.",
+    "dosis": "Adultos: 1/2 taza en ayunas durante 5 días. Repetir a las 2 semanas.",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Media",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Tuyona del ajenjo con acción antihelmíntica (Bora, 2011); cucurbitina en estudios in vitro",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "EMBARAZO Y LACTANCIA absolutamente. Epilepsia. Hepatopatías. Niños menores de 12 años. Uso prolongado de ajenjo es neurotóxico (tuyona).",
+    "uso": "La tuyona del ajenjo paraliza musculatura de helmintos por bloqueo de receptores GABA en sistema nervioso del parásito, la cucurbitina inmoviliza tenia, la alicina del ajo tiene acción antiprotozoaria sobre Giardia y los betacarotenos crean ambiente intestinal desfavorable para parásitos.",
+    "principios_activos": "Tuyona, artemisinina (ajenjo): antihelmíntico. Cucurbitina (zapallo). Alicina (ajo). Betacarotenos (zanahoria).",
+    "propiedades": [
+      "antihelmíntico",
+      "antiprotozoario",
+      "amargo digestivo"
+    ],
+    "referencias": [
+      "Bora KS. et al. Pharm Biol (2011) 49:101",
+      "Krieglstein CF. et al. Int J Colorectal Dis (2010) 25:373"
+    ],
+    "indicaciones_principales": [
+      "parasitosis intestinal en adultos",
+      "oxiuros",
+      "tenia (coadyuvante)",
+      "giardiasis"
+    ],
+    "interacciones_medicamentos": "Anticonvulsivantes (antagoniza), warfarina, anticonceptivos orales",
+    "embarazo_lactancia": "ABSOLUTAMENTE CONTRAINDICADA",
+    "duracion_tratamiento": "Máximo 5 días, jamás extender",
+    "sinergia_plantas": [
+      "paico (controlado)",
+      "natre"
+    ]
+  },
+  {
+    "id": 1203,
+    "titulo": "Tisana digestiva infantil de manzanilla, hinojo y anís",
+    "categoria": "Pediátrico",
+    "origen": "Herbolaria pediátrica europea",
+    "ingredientes": "1 cucharadita de manzanilla, 1/2 cucharadita de semillas de hinojo trituradas, 1/4 cucharadita de anís verde, 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar muy bien. Entibiar.",
+    "dosis": "Niños 2-5 años: 50-100 ml repartidos durante el día. Mayores: 150-200 ml.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "Preparar fresca, máximo 6 horas refrigerada",
+    "evidencia": "Combinación con eficacia en cólicos del lactante mayor (Savino, 2005)",
+    "fuente_tradicion": "Herbolaria pediátrica europea",
+    "contraindicaciones": "Alergia a apiáceas o asteráceas. Menores de 4 meses sin supervisión pediátrica.",
+    "uso": "El anetol del hinojo y anís relaja músculo liso intestinal por mecanismos colinérgicos y de calcio, mientras la apigenina de manzanilla genera efecto ansiolítico vía receptores benzodiacepínicos periféricos, reduciendo componente nervioso del cólico infantil sin sedación apreciable.",
+    "principios_activos": "Anetol (hinojo, anís): espasmolítico. Apigenina, bisabolol (manzanilla). Fenchona.",
+    "propiedades": [
+      "carminativo",
+      "espasmolítico",
+      "digestivo suave",
+      "sedante ligero"
+    ],
+    "referencias": [
+      "Savino F. et al. Phytother Res (2005) 19:335",
+      "Anheyer D. et al. Pediatrics (2017) 139:e20170062"
+    ],
+    "indicaciones_principales": [
+      "cólicos infantiles",
+      "gases",
+      "indigestión",
+      "irritabilidad postprandial",
+      "dentición con malestar gástrico"
+    ],
+    "interacciones_medicamentos": "Ninguna habitual",
+    "embarazo_lactancia": "Seguro en lactancia",
+    "duracion_tratamiento": "Hasta resolución",
+    "sinergia_plantas": [
+      "melisa",
+      "tilo"
+    ]
+  },
+  {
+    "id": 1204,
+    "titulo": "Infusión hipotensora de espino blanco, olivo y melisa",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia mediterránea",
+    "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de hojas de olivo, 1 cucharadita de melisa, 1/2 cucharadita de tilo, 350 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 2 veces al día durante 8-12 semanas (con control de PA)",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Hojas de olivo reducen presión arterial sistólica y diastólica (Susalit, 2011)",
+    "fuente_tradicion": "Fitoterapia mediterránea",
+    "contraindicaciones": "Hipotensión, embarazo, niños, asociado a antihipertensivos requiere control médico y ajuste de dosis.",
+    "uso": "La oleuropeína de hojas de olivo inhibe enzima convertidora de angiotensina (ECA) y relaja músculo liso vascular por estímulo de óxido nítrico endotelial, las procianidinas del espino vasodilatan coronarias y la melisa modula tono simpático reduciendo HTA reactiva al estrés.",
+    "principios_activos": "Oleuropeína (olivo): inhibidor ECA, vasodilatador. Procianidinas (espino). Ácido rosmarínico (melisa). Farnesol (tilo).",
+    "propiedades": [
+      "antihipertensivo",
+      "vasodilatador",
+      "cardioprotector",
+      "antioxidante vascular"
+    ],
+    "referencias": [
+      "Susalit E. et al. Phytomedicine (2011) 18:251",
+      "Walker AF. et al. Br J Gen Pract (2002) 52:437"
+    ],
+    "indicaciones_principales": [
+      "hipertensión arterial leve",
+      "prehipertensión",
+      "ansiedad con elevación tensional",
+      "complemento de antihipertensivos (con supervisión)"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos (potencia), hipoglucemiantes, digoxina",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "12 semanas con control de presión",
+    "sinergia_plantas": [
+      "hierba del sapo",
+      "ajo"
+    ]
+  },
+  {
+    "id": 1205,
+    "titulo": "Cataplasma de linaza para forúnculos y abscesos",
+    "categoria": "Dermatológico",
+    "origen": "Medicina popular europea",
+    "ingredientes": "3 cucharadas de linaza molida, agua caliente suficiente para pasta, 1 cucharadita de miel, 1 cucharadita de infusión concentrada de manzanilla",
+    "preparacion": "Mezclar linaza con agua caliente y manzanilla concentrada hasta formar pasta espesa. Añadir miel. Aplicar tibia sobre forúnculo cubierta con gasa.",
+    "dosis": "Cambiar cataplasma cada 4-6 horas hasta drenaje espontáneo",
+    "modo_uso": "Cataplasma maduradora",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Uso inmediato",
+    "evidencia": "Cataplasmas húmedas con uso etnomédico documentado para maduración de abscesos",
+    "fuente_tradicion": "Medicina rural europea",
+    "contraindicaciones": "Celulitis extensa, abscesos profundos, diabetes mal controlada (consultar médico). Fiebre alta requiere atención médica.",
+    "uso": "El calor húmedo de la cataplasma promueve vasodilatación local incrementando flujo sanguíneo y migración de neutrófilos al sitio de infección, los mucílagos de linaza retienen calor y forman emoliencia que ablanda piel facilitando drenaje espontáneo, mientras la miel aporta acción antibacteriana por su osmolaridad.",
+    "principios_activos": "Mucílagos (linaza). Defensina-1, peróxido (miel). Bisabolol (manzanilla).",
+    "propiedades": [
+      "emoliente",
+      "antibacteriano",
+      "maduradora",
+      "antiinflamatoria local"
+    ],
+    "referencias": [
+      "Molan PC. J Wound Care (2006) 15:353",
+      "Jull AB. et al. Cochrane Database Syst Rev (2015) CD005083"
+    ],
+    "indicaciones_principales": [
+      "forúnculos no complicados",
+      "abscesos cutáneos pequeños",
+      "uñeros",
+      "infecciones cutáneas localizadas"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta drenaje, máximo 5 días",
+    "sinergia_plantas": [
+      "matico",
+      "caléndula"
+    ]
+  },
+  {
+    "id": 1206,
+    "titulo": "Tintura cardiovascular de espino blanco, hierba del sapo y arnica",
+    "categoria": "Cardiovascular",
+    "origen": "Herbolaria cardiovascular chilena",
+    "ingredientes": "30 g de flores y hojas de espino blanco, 25 g de hierba del sapo, 15 g de melisa, 5 g de flores de árnica, 250 ml de alcohol al 50%",
+    "preparacion": "Macerar todas las plantas en alcohol 21 días en frasco oscuro agitando. Filtrar y envasar en gotero ámbar.",
+    "dosis": "15-20 gotas en agua, 2-3 veces al día",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Hierba del sapo (Eryngium paniculatum) con uso tradicional chileno en cardiopatías",
+    "fuente_tradicion": "Tradición herbolaria chilena",
+    "contraindicaciones": "Cardiopatías graves no controladas, embarazo, lactancia, anticoagulantes, niños. La árnica interna requiere dosis homeopáticas.",
+    "uso": "Las procianidinas del espino blanco aumentan contractilidad cardíaca por inhibición de fosfodiesterasa y mejoran perfusión coronaria, mientras los principios de hierba del sapo (saponinas y flavonoides) tienen acción hipolipemiante y antioxidante vascular, y la melisa atenúa taquicardia ansiosa.",
+    "principios_activos": "Procianidinas, vitexina (espino blanco). Saponinas, flavonoides (hierba del sapo). Ácido rosmarínico (melisa). Helenalina (árnica, microdosis).",
+    "propiedades": [
+      "cardiotónico",
+      "hipolipemiante",
+      "vasodilatador coronario",
+      "antioxidante cardiovascular"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+      "Houghton PJ. Phytother Res (1994) 8:373"
+    ],
+    "indicaciones_principales": [
+      "hipercolesterolemia leve",
+      "ateroesclerosis incipiente",
+      "palpitaciones",
+      "ansiedad cardíaca",
+      "convalecencia post-evento cardíaco"
+    ],
+    "interacciones_medicamentos": "Digitálicos, antihipertensivos, anticoagulantes, estatinas",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "8-12 semanas con control",
+    "sinergia_plantas": [
+      "olivo",
+      "ajo"
+    ]
+  },
+  {
+    "id": 1207,
+    "titulo": "Infusión tonificante de orégano, tomillo y orégano de la sierra",
+    "categoria": "Respiratorio",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de orégano, 1 cucharadita de tomillo, 1/2 cucharadita de hisopo (opcional), 1 ramita de menta, 1 cucharadita de miel, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar y endulzar.",
+    "dosis": "1 taza 2-3 veces al día durante el cuadro respiratorio",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Carvacrol y timol con eficacia antimicrobiana respiratoria (Marchese, 2017)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Embarazo (orégano emenagogo), niños menores de 6 años en altas dosis, alergia a labiadas, hipersensibilidad gástrica.",
+    "uso": "El carvacrol del orégano y timol del tomillo desestabilizan membranas bacterianas y reducen carga viral en vías respiratorias, los aceites volátiles se eliminan por vía pulmonar desinfectando bronquios al ser exhalados y la miel aporta efecto demulcente que calma irritación faríngea.",
+    "principios_activos": "Carvacrol, timol (orégano, tomillo): antimicrobianos. Mentol (menta). Defensina (miel).",
+    "propiedades": [
+      "antiséptico respiratorio",
+      "expectorante",
+      "antitusivo",
+      "inmunoestimulante"
+    ],
+    "referencias": [
+      "Marchese A. et al. Crit Rev Microbiol (2017) 43:668",
+      "Salehi B. et al. Phytother Res (2018) 32:1675"
+    ],
+    "indicaciones_principales": [
+      "bronquitis aguda",
+      "amigdalitis",
+      "resfrío común",
+      "tos productiva",
+      "sinusitis aguda"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (timol)",
+    "embarazo_lactancia": "Contraindicada en embarazo",
+    "duracion_tratamiento": "Hasta 10 días",
+    "sinergia_plantas": [
+      "saúco",
+      "violeta"
+    ]
   }
 ]

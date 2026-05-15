@@ -1377,5 +1377,176 @@
       "Anís verde",
       "Melisa"
     ]
+  },
+  {
+    "id": 1164,
+    "titulo": "Infusión digestiva infantil de manzanilla, hinojo y melisa",
+    "categoria": "Pediátrico",
+    "origen": "Herbolaria pediátrica europea",
+    "ingredientes": "1/2 cucharadita de manzanilla, 1/4 cucharadita de semillas de hinojo trituradas, 1/4 cucharadita de melisa, 200 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las hierbas. Tapar e infundir 8 minutos. Colar muy bien y entibiar.",
+    "dosis": "Lactantes 4-12 meses: 30-50 ml repartidos en el día. Niños 1-3 años: 100 ml. Niños mayores: 150-200 ml.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "200 ml",
+    "conservacion": "Preparar fresca, máximo 8 horas refrigerada",
+    "evidencia": "Mezcla similar (Calma) con eficacia documentada en cólicos del lactante (Weizman, 1993)",
+    "fuente_tradicion": "Pediatría herbolaria europea",
+    "contraindicaciones": "Alergia a asteráceas o apiáceas. No usar como sustituto de leche.",
+    "uso": "La apigenina de manzanilla relaja músculo liso intestinal vía receptores benzodiacepínicos periféricos, el anetol del hinojo reduce gases intestinales y la melisa actúa sobre el componente nervioso del cólico a través de receptores GABA y muscarínicos.",
+    "principios_activos": "Apigenina, bisabolol (manzanilla). Anetol (hinojo). Citral y ácido rosmarínico (melisa).",
+    "propiedades": [
+      "espasmolítico",
+      "carminativo",
+      "sedante suave",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Weizman Z. et al. J Pediatr (1993) 122:650",
+      "Savino F. et al. Phytother Res (2005) 19:335"
+    ],
+    "indicaciones_principales": [
+      "cólico del lactante",
+      "dentición dolorosa",
+      "irritabilidad nocturna",
+      "gases en bebés",
+      "indigestión infantil"
+    ],
+    "interacciones_medicamentos": "Ninguna conocida a estas dosis",
+    "embarazo_lactancia": "La madre puede tomarla sin riesgo",
+    "duracion_tratamiento": "Mientras dure el malestar, máximo 2 semanas",
+    "sinergia_plantas": [
+      "tilo",
+      "cedrón",
+      "toronjil"
+    ]
+  },
+  {
+    "id": 1186,
+    "titulo": "Infusión pediátrica para resfrío de saúco, tilo y limón",
+    "categoria": "Pediátrico",
+    "origen": "Tradición europea y chilena",
+    "ingredientes": "1 cucharadita de flores de saúco, 1 cucharadita de flores de tilo, 1/2 cucharadita de manzanilla, 1 rodaja de limón, 1 cucharadita de miel (solo mayores 1 año), 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar. Añadir limón y miel al entibiar.",
+    "dosis": "Niños 1-3 años: 50-80 ml hasta 3 veces al día. Niños 4-10 años: 100-150 ml. Mayores: 1 taza.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Saúco con evidencia en cuadros gripales (Tiralongo, 2016); miel mejor que dextrometorfano para tos nocturna (Paul, 2007)",
+    "fuente_tradicion": "Herbolaria pediátrica europea",
+    "contraindicaciones": "Menores de 12 meses (miel). Alergia a asteráceas. Cuadros respiratorios severos requieren consulta médica.",
+    "uso": "Las antocianinas del saúco inhiben hemaglutininas virales bloqueando entrada del virus a células del epitelio respiratorio, los flavonoides del tilo (farnesol) inducen sudoración leve favoreciendo termorregulación febril y la apigenina de manzanilla aporta efecto ansiolítico que mejora descanso.",
+    "principios_activos": "Antocianinas, ácidos fenólicos (saúco): antivirales. Farnesol, tiliacina (tilo): diaforético. Apigenina (manzanilla). Vitamina C (limón).",
+    "propiedades": [
+      "antiviral",
+      "diaforético",
+      "antipirético suave",
+      "antiinflamatorio",
+      "calmante"
+    ],
+    "referencias": [
+      "Tiralongo E. et al. Nutrients (2016) 8:182",
+      "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+    ],
+    "indicaciones_principales": [
+      "resfrío común infantil",
+      "fiebre leve",
+      "tos nocturna",
+      "congestión leve",
+      "malestar general"
+    ],
+    "interacciones_medicamentos": "Ninguna habitual a estas dosis",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta resolución, máximo 7 días",
+    "sinergia_plantas": [
+      "matico (mayor 5 años)",
+      "llantén"
+    ]
+  },
+  {
+    "id": 1187,
+    "titulo": "Compresa pediátrica para fiebre de tilo, saúco y manzanilla",
+    "categoria": "Pediátrico",
+    "origen": "Hidroterapia infantil",
+    "ingredientes": "1 cucharada de flores de tilo, 1 cucharada de flores de saúco, 1 cucharada de manzanilla, 500 ml de agua, 1 paño de algodón",
+    "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 15 minutos. Colar. Enfriar a temperatura corporal o templada.",
+    "dosis": "Empapar paño, escurrir, aplicar en frente, axilas y pliegues inguinales. Cambiar cada 10 minutos.",
+    "modo_uso": "Compresa templada",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "Uso inmediato",
+    "evidencia": "Compresas tibias son método físico antitérmico recomendado (OMS)",
+    "fuente_tradicion": "Hidroterapia naturista pediátrica",
+    "contraindicaciones": "Fiebre superior a 39°C o de origen incierto: consultar médico. No usar agua fría (vasoconstricción contraproducente).",
+    "uso": "El método físico de compresas templadas (no frías) facilita pérdida de calor por evaporación sin generar vasoconstricción reactiva, los terpenos volátiles inhalados del tilo activan reflejo diaforético vía hipotálamo, complementando bajada de temperatura sin estrés metabólico.",
+    "principios_activos": "Farnesol, tiliacina (tilo). Antocianinas (saúco). Bisabolol (manzanilla).",
+    "propiedades": [
+      "antitérmico físico",
+      "calmante",
+      "diaforético",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Meremikwu MM. Cochrane Database Syst Rev (2003) CD004264",
+      "Greisman LA. Pediatr Rev (2002) 23:91"
+    ],
+    "indicaciones_principales": [
+      "fiebre infantil leve a moderada",
+      "complemento de antipirético farmacológico",
+      "agitación febril"
+    ],
+    "interacciones_medicamentos": "Ninguna",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta que ceda la fiebre",
+    "sinergia_plantas": [
+      "llantén"
+    ]
+  },
+  {
+    "id": 1203,
+    "titulo": "Tisana digestiva infantil de manzanilla, hinojo y anís",
+    "categoria": "Pediátrico",
+    "origen": "Herbolaria pediátrica europea",
+    "ingredientes": "1 cucharadita de manzanilla, 1/2 cucharadita de semillas de hinojo trituradas, 1/4 cucharadita de anís verde, 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar muy bien. Entibiar.",
+    "dosis": "Niños 2-5 años: 50-100 ml repartidos durante el día. Mayores: 150-200 ml.",
+    "modo_uso": "Infusión tibia",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "Preparar fresca, máximo 6 horas refrigerada",
+    "evidencia": "Combinación con eficacia en cólicos del lactante mayor (Savino, 2005)",
+    "fuente_tradicion": "Herbolaria pediátrica europea",
+    "contraindicaciones": "Alergia a apiáceas o asteráceas. Menores de 4 meses sin supervisión pediátrica.",
+    "uso": "El anetol del hinojo y anís relaja músculo liso intestinal por mecanismos colinérgicos y de calcio, mientras la apigenina de manzanilla genera efecto ansiolítico vía receptores benzodiacepínicos periféricos, reduciendo componente nervioso del cólico infantil sin sedación apreciable.",
+    "principios_activos": "Anetol (hinojo, anís): espasmolítico. Apigenina, bisabolol (manzanilla). Fenchona.",
+    "propiedades": [
+      "carminativo",
+      "espasmolítico",
+      "digestivo suave",
+      "sedante ligero"
+    ],
+    "referencias": [
+      "Savino F. et al. Phytother Res (2005) 19:335",
+      "Anheyer D. et al. Pediatrics (2017) 139:e20170062"
+    ],
+    "indicaciones_principales": [
+      "cólicos infantiles",
+      "gases",
+      "indigestión",
+      "irritabilidad postprandial",
+      "dentición con malestar gástrico"
+    ],
+    "interacciones_medicamentos": "Ninguna habitual",
+    "embarazo_lactancia": "Seguro en lactancia",
+    "duracion_tratamiento": "Hasta resolución",
+    "sinergia_plantas": [
+      "melisa",
+      "tilo"
+    ]
   }
 ]

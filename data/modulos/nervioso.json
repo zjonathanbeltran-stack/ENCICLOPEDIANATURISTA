@@ -2493,5 +2493,178 @@
       "manzanilla",
       "matricaria"
     ]
+  },
+  {
+    "id": 1169,
+    "titulo": "Tintura sedante nocturna de pasiflora, valeriana y melisa",
+    "categoria": "Sedante",
+    "origen": "Fitoterapia moderna",
+    "ingredientes": "25 g de pasiflora, 15 g de raíz de valeriana, 20 g de melisa, 10 g de flor de tilo, 250 ml de alcohol al 60%",
+    "preparacion": "Triturar las plantas. Macerar en alcohol 21 días agitando diariamente, en frasco oscuro. Filtrar con presión. Envasar en gotero ámbar.",
+    "dosis": "30-40 gotas en agua, 30-60 minutos antes de acostarse",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Valeriana con efecto sobre latencia del sueño (Bent, 2006); pasiflora con efecto ansiolítico (Akhondzadeh, 2001)",
+    "fuente_tradicion": "Fitoterapia europea contemporánea",
+    "contraindicaciones": "Conducción de vehículos, depresores del SNC, embarazo, niños menores de 12 años, alcoholismo.",
+    "uso": "Los ácidos valerénicos modulan receptores GABA-A aumentando duración de apertura del canal de cloro, mientras la crisina de pasiflora inhibe la enzima aromatasa y se une a receptores benzodiacepínicos reduciendo ansiedad pre-sueño sin alterar arquitectura REM.",
+    "principios_activos": "Ácido valerénico y valepotriatos (valeriana): GABAérgico. Crisina y vitexina (pasiflora). Ácido rosmarínico (melisa). Farnesol (tilo).",
+    "propiedades": [
+      "sedante",
+      "ansiolítico",
+      "hipnótico suave",
+      "miorelajante"
+    ],
+    "referencias": [
+      "Bent S. et al. Am J Med (2006) 119:1005",
+      "Akhondzadeh S. et al. J Clin Pharm Ther (2001) 26:363"
+    ],
+    "indicaciones_principales": [
+      "insomnio de conciliación",
+      "ansiedad",
+      "estrés",
+      "irritabilidad",
+      "tensión muscular nerviosa"
+    ],
+    "interacciones_medicamentos": "Benzodiacepinas, alcohol, opioides, antihistamínicos sedantes, antidepresivos",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Máximo 4 semanas consecutivas",
+    "sinergia_plantas": [
+      "lúpulo",
+      "amapola de california"
+    ]
+  },
+  {
+    "id": 1170,
+    "titulo": "Infusión adaptógena diurna de melisa, romero y menta",
+    "categoria": "Nervioso",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de melisa, 1/2 cucharadita de romero, 1/2 cucharadita de menta, 1 cucharadita de miel de palma o ulmo, 250 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 7 minutos tapado. Colar. Añadir miel al servir.",
+    "dosis": "1 taza en la mañana y otra al mediodía, durante 21 días",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir fresca",
+    "evidencia": "Melisa mejora rendimiento cognitivo y ánimo (Kennedy, 2003); romero mejora memoria (Moss, 2003)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Hipertensión severa, epilepsia (romero en altas dosis), hipotiroidismo no tratado (melisa).",
+    "uso": "El ácido rosmarínico de melisa y romero inhibe acetilcolinesterasa aumentando acetilcolina cerebral disponible, mejorando memoria de trabajo y atención sin efecto estimulante adrenérgico que generaría ansiedad rebote.",
+    "principios_activos": "Ácido rosmarínico (melisa, romero): inhibidor AChE. 1,8-cineol (romero): nootrópico. Mentol (menta): refrescante cognitivo.",
+    "propiedades": [
+      "adaptógeno",
+      "nootrópico suave",
+      "ansiolítico",
+      "antioxidante",
+      "tónico cerebral"
+    ],
+    "referencias": [
+      "Kennedy DO. et al. Pharmacol Biochem Behav (2003) 75:953",
+      "Moss M. et al. Int J Neurosci (2003) 113:15"
+    ],
+    "indicaciones_principales": [
+      "estrés académico",
+      "fatiga mental",
+      "estudiantes",
+      "memoria de trabajo",
+      "ansiedad funcional"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos (puede antagonizar), levotiroxina (separar 2 horas).",
+    "embarazo_lactancia": "Evitar romero en embarazo",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "albahaca",
+      "tomillo"
+    ]
+  },
+  {
+    "id": 1196,
+    "titulo": "Infusión calmante de tilo, melisa y flor de azahar",
+    "categoria": "Nervioso",
+    "origen": "Tradición mediterránea",
+    "ingredientes": "1 cucharadita de flor de tilo, 1 cucharadita de melisa, 1 cucharadita de flor de azahar (naranjo amargo), 1/2 cucharadita de manzanilla, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 2-3 veces al día en momentos de ansiedad o antes de eventos estresantes",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Melisa demostró efecto ansiolítico agudo (Kennedy, 2004)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Hipotensión severa, conducción de vehículos en dosis altas, hipotiroidismo no compensado (melisa).",
+    "uso": "El ácido rosmarínico de melisa inhibe la enzima GABA transaminasa aumentando GABA disponible en sinapsis, el linalool de azahar atraviesa BHE y modula receptores GABA-A y los flavonoides del tilo (farnesol) inducen relajación con leve diaforesis útil en ansiedad somatizada con calor.",
+    "principios_activos": "Ácido rosmarínico (melisa): inhibidor GABA-T. Linalool (azahar). Farnesol (tilo). Apigenina (manzanilla).",
+    "propiedades": [
+      "ansiolítico",
+      "sedante suave",
+      "antiespasmódico",
+      "calmante"
+    ],
+    "referencias": [
+      "Kennedy DO. et al. Psychosom Med (2004) 66:607",
+      "Cases J. et al. Med J Nutr Metab (2011) 4:211"
+    ],
+    "indicaciones_principales": [
+      "ansiedad situacional",
+      "estrés cotidiano",
+      "insomnio de conciliación leve",
+      "palpitaciones por ansiedad",
+      "tensión nerviosa"
+    ],
+    "interacciones_medicamentos": "Sedantes farmacológicos, alcohol, levotiroxina (separar)",
+    "embarazo_lactancia": "Seguro a dosis moderadas",
+    "duracion_tratamiento": "Uso según necesidad, sin límite estricto",
+    "sinergia_plantas": [
+      "pasiflora",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1199,
+    "titulo": "Tintura nootrópica de romero, melisa y bacopa (alternativa: gotu kola/romero solo)",
+    "categoria": "Memoria",
+    "origen": "Fitoterapia cognitiva moderna",
+    "ingredientes": "30 g de hojas de romero, 30 g de melisa, 20 g de hojas de albahaca, 10 g de jengibre fresco, 250 ml de alcohol al 50%",
+    "preparacion": "Macerar todas las plantas en alcohol durante 21 días en frasco oscuro. Filtrar con presión. Envasar en gotero ámbar.",
+    "dosis": "20-30 gotas en agua, 1-2 veces al día en la mañana y mediodía",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Romero mejoró memoria prospectiva en adultos mayores (Moss, 2018)",
+    "fuente_tradicion": "Fitoterapia cognitiva contemporánea",
+    "contraindicaciones": "Hipertensión severa, epilepsia, embarazo, lactancia, niños, alcoholismo, anticoagulantes.",
+    "uso": "El ácido carnósico del romero protege neuronas hipocampales del estrés oxidativo activando vía Nrf2-ARE, el 1,8-cineol inhibe acetilcolinesterasa mejorando neurotransmisión colinérgica de memoria de trabajo, y el ácido rosmarínico complementa la inhibición de AChE con efecto sumatorio.",
+    "principios_activos": "Ácido carnósico, 1,8-cineol (romero): activador Nrf2, inhibidor AChE. Ácido rosmarínico (melisa, romero). Linalool (albahaca).",
+    "propiedades": [
+      "nootrópico",
+      "neuroprotector",
+      "antioxidante cerebral",
+      "memoria"
+    ],
+    "referencias": [
+      "Moss M. et al. Ther Adv Psychopharmacol (2018) 8:135",
+      "Pengelly A. et al. J Med Food (2012) 15:10"
+    ],
+    "indicaciones_principales": [
+      "deterioro cognitivo leve",
+      "olvidos frecuentes",
+      "fatiga mental",
+      "envejecimiento cognitivo",
+      "exámenes y estudios"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos (antagonismo), anticoagulantes, antihipertensivos",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 8 semanas con 2 de descanso",
+    "sinergia_plantas": [
+      "salvia (memoria)",
+      "cedrón"
+    ]
   }
 ]

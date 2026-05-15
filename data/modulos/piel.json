@@ -4492,5 +4492,308 @@
       "caléndula",
       "centella asiática"
     ]
+  },
+  {
+    "id": 1171,
+    "titulo": "Baño de inmersión relajante de lavanda, tilo y avena",
+    "categoria": "Baño",
+    "origen": "Hidroterapia herbal europea",
+    "ingredientes": "50 g de flores de lavanda, 30 g de flores de tilo, 30 g de melisa, 100 g de avena integral en saco de tela, 2 cucharadas de sales de Epsom",
+    "preparacion": "Hervir 1 litro de agua con lavanda, tilo y melisa 15 minutos. Colar. Verter en tina de baño con agua tibia. Añadir saco de avena y sales. Sumergirse 20-30 minutos.",
+    "dosis": "2-3 veces por semana",
+    "modo_uso": "Baño completo",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Preparar fresco",
+    "evidencia": "Lavanda con efecto ansiolítico por inhalación (Koulivand, 2013); magnesio transdérmico discutido pero relajante",
+    "fuente_tradicion": "Hidroterapia naturista",
+    "contraindicaciones": "Hipertensión severa, cardiopatía descompensada, heridas abiertas extensas, embarazo en agua muy caliente.",
+    "uso": "Los terpenos de lavanda (linalool, acetato de linalilo) se absorben por vía pulmonar y dérmica activando receptores GABA, mientras la beta-glucano de avena forma película hidratante calmante sobre la piel y las sales aportan magnesio relajante muscular.",
+    "principios_activos": "Linalool, acetato de linalilo (lavanda): GABAérgico. Farnesol (tilo). Avenantramidas (avena): antiinflamatorias. Magnesio (sales).",
+    "propiedades": [
+      "relajante",
+      "sedante",
+      "calmante cutáneo",
+      "miorelajante"
+    ],
+    "referencias": [
+      "Koulivand PH. et al. Evid Based Complement Alternat Med (2013) 681304",
+      "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+    ],
+    "indicaciones_principales": [
+      "insomnio",
+      "estrés",
+      "piel sensible",
+      "fatiga muscular",
+      "ansiedad post-trabajo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica relevante",
+    "embarazo_lactancia": "Agua templada (no caliente), sin Epsom en exceso",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "manzanilla",
+      "pasiflora"
+    ]
+  },
+  {
+    "id": 1172,
+    "titulo": "Crema cicatrizante de matico, caléndula y miel",
+    "categoria": "Cicatrizante",
+    "origen": "Etnomedicina mapuche y europea",
+    "ingredientes": "50 ml de oleato de matico, 30 ml de oleato de caléndula, 10 g de cera de abejas, 1 cucharadita de miel de ulmo, 5 gotas de vitamina E, 3 gotas aceite esencial de lavanda",
+    "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
+    "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
+    "modo_uso": "Crema tópica",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "90 g",
+    "conservacion": "6 meses refrigerada o lugar fresco",
+    "evidencia": "Caléndula acelera epitelización en heridas (Khairnar, 2013); matico con uso etnobotánico documentado",
+    "fuente_tradicion": "Mapuche (matico) y europea (caléndula)",
+    "contraindicaciones": "Alergia a asteráceas. Heridas infectadas requieren manejo médico. No usar en quemaduras graves.",
+    "uso": "Los triterpenos de caléndula estimulan fibroblastos y angiogénesis acelerando cicatrización en 30-50% según estudios, mientras el verbascósido del matico tiene acción antibacteriana y antiinflamatoria, y la miel aporta defensina-1 antibacteriana y mantiene ambiente húmedo óptimo.",
+    "principios_activos": "Faradiol (caléndula): cicatrizante. Verbascósido (matico): antibacteriano. Defensina-1 (miel). Tocoferol (vit. E).",
+    "propiedades": [
+      "cicatrizante",
+      "epitelizante",
+      "antibacteriano",
+      "antiinflamatorio",
+      "regenerador"
+    ],
+    "referencias": [
+      "Khairnar MS. et al. J Indian Soc Periodontol (2013) 17:741",
+      "Della Loggia R. et al. Planta Med (1994) 60:516"
+    ],
+    "indicaciones_principales": [
+      "heridas superficiales",
+      "quemaduras leves",
+      "raspaduras",
+      "úlceras pequeñas",
+      "irritación cutánea"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro tópico",
+    "duracion_tratamiento": "Hasta cicatrización completa",
+    "sinergia_plantas": [
+      "llantén",
+      "árnica (no en heridas abiertas)"
+    ]
+  },
+  {
+    "id": 1173,
+    "titulo": "Mascarilla facial purificante de manzanilla, miel y arcilla verde",
+    "categoria": "Cosmético",
+    "origen": "Cosmética natural mediterránea",
+    "ingredientes": "1 cucharada de arcilla verde, 1 cucharada de infusión concentrada de manzanilla, 1 cucharadita de miel, 1/2 cucharadita de jugo de limón (omitir si piel sensible), 2 gotas de aceite de jojoba",
+    "preparacion": "Preparar infusión muy concentrada de manzanilla. Mezclar todos los ingredientes hasta pasta homogénea. Aplicar capa media sobre rostro limpio evitando ojos.",
+    "dosis": "Dejar actuar 10-15 minutos, retirar con agua tibia. 1-2 veces por semana.",
+    "modo_uso": "Mascarilla facial",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Bisabolol de manzanilla con eficacia antiinflamatoria cutánea (Maliehe, 2018)",
+    "fuente_tradicion": "Cosmética natural",
+    "contraindicaciones": "Piel con heridas, rosácea severa, alergia a asteráceas. Omitir limón en pieles muy sensibles.",
+    "uso": "La arcilla verde adsorbe sebo, toxinas y bacterias por intercambio iónico, el bisabolol y camazuleno de manzanilla inhiben la liberación de histamina mastocitaria y la miel mantiene equilibrio osmótico cutáneo aportando ácidos orgánicos exfoliantes suaves.",
+    "principios_activos": "Bisabolol, camazuleno (manzanilla): antiinflamatorios. Silicatos (arcilla): adsorbentes. Glucónico, oxálico (miel). Limoneno (limón).",
+    "propiedades": [
+      "purificante",
+      "antiinflamatorio",
+      "regulador seborreico",
+      "iluminador",
+      "calmante"
+    ],
+    "referencias": [
+      "Maliehe TS. et al. Saudi J Biol Sci (2018) 25:1547",
+      "Burlando B. et al. J Cosmet Dermatol (2013) 12:306"
+    ],
+    "indicaciones_principales": [
+      "piel grasa",
+      "puntos negros",
+      "acné leve",
+      "tez apagada",
+      "poros dilatados"
+    ],
+    "interacciones_medicamentos": "Cuidado con retinoides tópicos (esperar 12 horas)",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "caléndula",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1174,
+    "titulo": "Enjuague capilar fortalecedor de ortiga, romero y cola de caballo",
+    "categoria": "Cabello",
+    "origen": "Cosmética natural europea",
+    "ingredientes": "2 cucharadas de ortiga seca, 1 cucharada de romero, 1 cucharada de cola de caballo, 1 cucharadita de vinagre de manzana, 500 ml de agua",
+    "preparacion": "Hervir agua con hierbas 15 minutos. Apagar y dejar reposar 30 minutos tapado. Colar y añadir vinagre de manzana.",
+    "dosis": "Tras lavado, aplicar como último enjuague masajeando cuero cabelludo. No enjuagar.",
+    "modo_uso": "Enjuague capilar",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "5 días refrigerado",
+    "evidencia": "Romero comparable a minoxidil 2% para alopecia androgénica (Panahi, 2015)",
+    "fuente_tradicion": "Cosmética campesina europea",
+    "contraindicaciones": "Heridas en cuero cabelludo. Alergias específicas.",
+    "uso": "El ácido carnósico del romero inhibe 5-alfa-reductasa reduciendo conversión de testosterona a DHT (causa principal de alopecia androgénica), la sílice de cola de caballo se incorpora a queratina aumentando resistencia capilar y los compuestos de ortiga aumentan microcirculación folicular.",
+    "principios_activos": "Ácido carnósico (romero): inhibidor 5α-reductasa. Sílice y flavonoides (cola de caballo). Histamina y serotonina (ortiga): vasoactivos.",
+    "propiedades": [
+      "estimulante folicular",
+      "antiseborreico",
+      "fortalecedor",
+      "brillo",
+      "anticaída"
+    ],
+    "referencias": [
+      "Panahi Y. et al. Skinmed (2015) 13:15",
+      "Murata K. et al. Phytother Res (2013) 27:212"
+    ],
+    "indicaciones_principales": [
+      "caída de cabello",
+      "cuero cabelludo graso",
+      "cabello opaco",
+      "alopecia androgénica leve",
+      "después de embarazo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro tópico (evitar romero concentrado primer trimestre)",
+    "duracion_tratamiento": "Mínimo 3 meses para ver resultados",
+    "sinergia_plantas": [
+      "llantén",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1200,
+    "titulo": "Loción capilar anticaspa de tomillo, romero y vinagre",
+    "categoria": "Cabello",
+    "origen": "Cosmética natural mediterránea",
+    "ingredientes": "3 cucharadas de tomillo, 2 cucharadas de romero, 1 cucharada de salvia, 250 ml de vinagre de manzana, 250 ml de agua",
+    "preparacion": "Calentar agua y vinagre. Verter sobre hierbas. Tapar 30 minutos. Colar. Envasar en botella con dispensador.",
+    "dosis": "Aplicar sobre cuero cabelludo seco, masajear, dejar 20 minutos. Lavar con shampoo suave. 2-3 veces por semana.",
+    "modo_uso": "Loción capilar",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "2 meses a temperatura ambiente",
+    "evidencia": "Timol y carvacrol con eficacia anti-Malassezia (Schmidt-Rose, 2011)",
+    "fuente_tradicion": "Cosmética natural mediterránea",
+    "contraindicaciones": "Heridas en cuero cabelludo, dermatitis seborreica severa, alergia a labiadas.",
+    "uso": "El timol y carvacrol del tomillo penetran la pared celular de Malassezia furfur (hongo causante de caspa), el ácido carnósico del romero estabiliza barrera cutánea del cuero cabelludo y el pH ácido del vinagre restaura manto hidrolipídico inhibiendo proliferación fúngica.",
+    "principios_activos": "Timol, carvacrol (tomillo): antifúngico. Ácido carnósico (romero). Tuyona (salvia). Ácido acético (vinagre): pH ácido.",
+    "propiedades": [
+      "antifúngico",
+      "antiseborreico",
+      "estimulante folicular",
+      "regulador de pH"
+    ],
+    "referencias": [
+      "Schmidt-Rose T. et al. Int J Cosmet Sci (2011) 33:276",
+      "Murata K. et al. Phytother Res (2013) 27:212"
+    ],
+    "indicaciones_principales": [
+      "caspa seca o grasa",
+      "dermatitis seborreica leve",
+      "picor cuero cabelludo",
+      "cabello graso"
+    ],
+    "interacciones_medicamentos": "Ninguna tópica relevante",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Mínimo 6 semanas",
+    "sinergia_plantas": [
+      "ortiga",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1201,
+    "titulo": "Crema corporal nutritiva de caléndula, manzanilla y avena",
+    "categoria": "Dermatológico",
+    "origen": "Cosmética natural moderna",
+    "ingredientes": "50 ml de oleato de caléndula, 30 ml de aceite de almendras, 20 ml de aceite de jojoba, 10 g de cera de abejas, 5 g de manteca de karité, 1 cucharadita de polvo de avena coloidal, 10 gotas de aceite esencial de manzanilla romana, 5 gotas de vitamina E",
+    "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
+    "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
+    "modo_uso": "Crema corporal",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "120 g",
+    "conservacion": "4-6 meses en frasco hermético",
+    "evidencia": "Avena coloidal con evidencia en dermatitis atópica (Reynertson, 2015)",
+    "fuente_tradicion": "Cosmética natural",
+    "contraindicaciones": "Alergia a asteráceas o avena. Pieles con heridas requieren manejo médico.",
+    "uso": "La avena coloidal forma película hidratante que retiene humedad y aporta betaglucanos antiinflamatorios cutáneos, los triterpenos de caléndula promueven reparación de barrera cutánea y el bisabolol de manzanilla reduce histamina mastocitaria local mejorando prurito.",
+    "principios_activos": "Avenantramidas, beta-glucanos (avena). Faradiol (caléndula). Bisabolol (manzanilla). Vitamina E.",
+    "propiedades": [
+      "hidratante",
+      "antiinflamatorio cutáneo",
+      "regenerador",
+      "antipruriginoso",
+      "calmante"
+    ],
+    "referencias": [
+      "Reynertson KA. et al. J Drugs Dermatol (2015) 14:43",
+      "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+    ],
+    "indicaciones_principales": [
+      "piel seca",
+      "dermatitis atópica leve",
+      "eccema",
+      "prurito",
+      "piel sensible reactiva"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "llantén",
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1205,
+    "titulo": "Cataplasma de linaza para forúnculos y abscesos",
+    "categoria": "Dermatológico",
+    "origen": "Medicina popular europea",
+    "ingredientes": "3 cucharadas de linaza molida, agua caliente suficiente para pasta, 1 cucharadita de miel, 1 cucharadita de infusión concentrada de manzanilla",
+    "preparacion": "Mezclar linaza con agua caliente y manzanilla concentrada hasta formar pasta espesa. Añadir miel. Aplicar tibia sobre forúnculo cubierta con gasa.",
+    "dosis": "Cambiar cataplasma cada 4-6 horas hasta drenaje espontáneo",
+    "modo_uso": "Cataplasma maduradora",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Uso inmediato",
+    "evidencia": "Cataplasmas húmedas con uso etnomédico documentado para maduración de abscesos",
+    "fuente_tradicion": "Medicina rural europea",
+    "contraindicaciones": "Celulitis extensa, abscesos profundos, diabetes mal controlada (consultar médico). Fiebre alta requiere atención médica.",
+    "uso": "El calor húmedo de la cataplasma promueve vasodilatación local incrementando flujo sanguíneo y migración de neutrófilos al sitio de infección, los mucílagos de linaza retienen calor y forman emoliencia que ablanda piel facilitando drenaje espontáneo, mientras la miel aporta acción antibacteriana por su osmolaridad.",
+    "principios_activos": "Mucílagos (linaza). Defensina-1, peróxido (miel). Bisabolol (manzanilla).",
+    "propiedades": [
+      "emoliente",
+      "antibacteriano",
+      "maduradora",
+      "antiinflamatoria local"
+    ],
+    "referencias": [
+      "Molan PC. J Wound Care (2006) 15:353",
+      "Jull AB. et al. Cochrane Database Syst Rev (2015) CD005083"
+    ],
+    "indicaciones_principales": [
+      "forúnculos no complicados",
+      "abscesos cutáneos pequeños",
+      "uñeros",
+      "infecciones cutáneas localizadas"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta drenaje, máximo 5 días",
+    "sinergia_plantas": [
+      "matico",
+      "caléndula"
+    ]
   }
 ]

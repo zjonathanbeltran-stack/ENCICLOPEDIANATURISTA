@@ -2930,5 +2930,306 @@
       "antioxidante"
     ],
     "referencias": "ResearchGate Flora etnobotánica pueblos originarios Patagonia Austral 2022; Dominguezia 2022 vol.38(1); Darwin C. Viaje del Beagle 1839; Schmeda-Hirschmann G. J Ethnopharmacol 1994."
+  },
+  {
+    "id": 1157,
+    "titulo": "Jarabe inmunoestimulante de saúco, equinácea criolla y maqui",
+    "categoria": "General",
+    "origen": "Fusión herbolaria chileno-europea",
+    "ingredientes": "1 taza de bayas de saúco secas, 1 cucharada de raíz de bailahuén, 2 cucharadas de maqui deshidratado, 1 trozo de jengibre fresco (3 cm), 1 ramita de canelo, 500 ml de agua, 1 taza de miel cruda, jugo de medio limón",
+    "preparacion": "Hervir agua con saúco, bailahuén, maqui, jengibre y canelo a fuego bajo 25 minutos hasta reducir a la mitad. Colar presionando. Entibiar a menos de 40°C y mezclar miel y limón. Envasar en frasco oscuro esterilizado.",
+    "dosis": "1 cucharada 2-3 veces al día durante la temporada fría o ante primeros síntomas de resfrío. Niños mayores de 2 años: 1 cucharadita.",
+    "modo_uso": "Jarabe",
+    "tiempo_prep": "35 minutos",
+    "dificultad": "Media",
+    "rendimiento": "Aproximadamente 350 ml",
+    "conservacion": "Refrigerado en frasco oscuro hasta 4 semanas",
+    "evidencia": "Ensayos clínicos con Sambucus nigra muestran reducción de duración y severidad de gripe (Tiralongo et al., 2016)",
+    "fuente_tradicion": "Mezcla de tradición campesina chilena y herbolaria europea",
+    "contraindicaciones": "No usar en menores de 12 meses (miel). Cuidado en autoinmunes activos (lupus, esclerosis múltiple) por efecto inmunoestimulante.",
+    "uso": "Estimula la inmunidad innata aumentando producción de citoquinas y actividad de macrófagos; las antocianinas del saúco y maqui inhiben la entrada viral al bloquear hemaglutininas y reducir replicación de influenza A y B.",
+    "principios_activos": "Antocianinas del saúco y maqui (delfinidina, cianidina): inhiben hemaglutinina viral. Gingeroles del jengibre: TNF-α moduladores. Sesquiterpenos del bailahuén: inmunomoduladores.",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiviral",
+      "antioxidante",
+      "antiinflamatorio",
+      "expectorante"
+    ],
+    "referencias": [
+      "Tiralongo E. et al. Nutrients (2016) 8(4):182",
+      "Krawitz C. et al. BMC Complement Altern Med (2011) 11:16",
+      "Céspedes CL. et al. Food Chem (2008) 107:820"
+    ],
+    "indicaciones_principales": [
+      "prevención de resfríos",
+      "inicio de cuadro gripal",
+      "convalecencia",
+      "tos productiva leve",
+      "fatiga estacional"
+    ],
+    "interacciones_medicamentos": "Puede potenciar inmunosupresores (tacrolimus, ciclosporina). Precaución con diuréticos por efecto leve del saúco.",
+    "embarazo_lactancia": "Evitar en primer trimestre. En lactancia, usar sin bailahuén.",
+    "duracion_tratamiento": "Máximo 10-14 días continuos, luego descansar una semana",
+    "sinergia_plantas": [
+      "tomillo",
+      "matico",
+      "tilo"
+    ]
+  },
+  {
+    "id": 1158,
+    "titulo": "Tintura madre de equinácea criolla y propóleo",
+    "categoria": "General",
+    "origen": "Herbolaria moderna chilena",
+    "ingredientes": "30 g de raíz de bardana seca, 20 g de hierba del paño, 10 g de propóleo en trozos, 250 ml de alcohol de cereal al 70%",
+    "preparacion": "Triturar raíces y hierba. Colocar en frasco oscuro con alcohol y propóleo. Agitar diariamente durante 21 días en lugar fresco y oscuro. Filtrar con gasa y prensar. Envasar en gotero ámbar.",
+    "dosis": "20-30 gotas en agua tibia, 2-3 veces al día por 7-10 días al inicio del resfrío",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días de maceración",
+    "dificultad": "Media",
+    "rendimiento": "Aproximadamente 200 ml",
+    "conservacion": "Frasco ámbar a temperatura ambiente hasta 2 años",
+    "evidencia": "Revisión Cochrane sobre Echinacea (Karsch-Völk, 2014) muestra evidencia moderada de prevención",
+    "fuente_tradicion": "Adaptación moderna con plantas locales",
+    "contraindicaciones": "Alergia a asteráceas o propóleo. Autoinmunes. Embarazo y lactancia por contenido alcohólico.",
+    "uso": "Activa fagocitosis de neutrófilos y aumenta producción de interferón gamma; el propóleo aporta flavonoides como pinocembrina con acción antiviral directa sobre virus envueltos.",
+    "principios_activos": "Inulina y poliacetilenos de bardana (inmunomoduladores). Flavonoides del propóleo (pinocembrina, galangina). Saponinas de hierba del paño (expectorantes).",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiséptico",
+      "antiviral",
+      "antibacteriano"
+    ],
+    "referencias": [
+      "Karsch-Völk M. et al. Cochrane Database Syst Rev (2014) CD000530",
+      "Sforcin JM. J Ethnopharmacol (2007) 113:1-14"
+    ],
+    "indicaciones_principales": [
+      "profilaxis invernal",
+      "primeros síntomas gripales",
+      "amigdalitis recurrente",
+      "infecciones urinarias recurrentes"
+    ],
+    "interacciones_medicamentos": "Inmunosupresores, anticoagulantes (precaución por propóleo)",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 10 días con 5 días de descanso, máximo 8 semanas",
+    "sinergia_plantas": [
+      "matico",
+      "tomillo",
+      "saúco"
+    ]
+  },
+  {
+    "id": 1188,
+    "titulo": "Energizante matinal de cedrón, romero y maqui",
+    "categoria": "Energizante",
+    "origen": "Herbolaria chilena moderna",
+    "ingredientes": "1 cucharadita de cedrón, 1/2 cucharadita de romero, 1 cucharada de maqui deshidratado, 1 cucharadita de miel, 1 rodaja de jengibre, 300 ml de agua",
+    "preparacion": "Hervir agua con jengibre y maqui 5 minutos. Apagar, añadir cedrón y romero. Tapar 7 minutos. Colar y añadir miel.",
+    "dosis": "1 taza en la mañana en ayunas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Consumir fresca",
+    "evidencia": "Romero mejora rendimiento cognitivo (Pengelly, 2012); maqui con alta capacidad antioxidante (Céspedes, 2008)",
+    "fuente_tradicion": "Herbolaria chilena contemporánea",
+    "contraindicaciones": "Hipertensión severa, epilepsia, embarazo (romero), niños menores de 12 años.",
+    "uso": "El 1,8-cineol del romero atraviesa la barrera hematoencefálica e inhibe acetilcolinesterasa potenciando neurotransmisión colinérgica relacionada con atención y memoria, las antocianinas del maqui (delfinidina) protegen membranas neuronales del estrés oxidativo y el verbascósido del cedrón modula respuesta al estrés sin sobreestimulación adrenérgica.",
+    "principios_activos": "1,8-cineol, ácido carnósico (romero): nootrópico. Delfinidina (maqui): antioxidante. Verbascósido, citral (cedrón). Gingeroles.",
+    "propiedades": [
+      "energizante cognitivo",
+      "antioxidante",
+      "adaptógeno",
+      "tónico cerebral"
+    ],
+    "referencias": [
+      "Pengelly A. et al. J Med Food (2012) 15:10",
+      "Céspedes CL. et al. Food Chem (2008) 107:820"
+    ],
+    "indicaciones_principales": [
+      "fatiga matinal",
+      "estudiantes en época de exámenes",
+      "trabajo intelectual exigente",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Anticolinérgicos, antihipertensivos",
+    "embarazo_lactancia": "Evitar romero",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "yerba mate (no incluida)",
+      "menta"
+    ]
+  },
+  {
+    "id": 1189,
+    "titulo": "Compresa ocular calmante de manzanilla y eufrasia",
+    "categoria": "Oftalmológico",
+    "origen": "Herbolaria oftálmica europea",
+    "ingredientes": "1 cucharadita de manzanilla, 1 cucharadita de eufrasia (o llantén si no se consigue), 200 ml de agua filtrada",
+    "preparacion": "Hervir agua. Verter sobre hierbas. Tapar 15 minutos. Filtrar con tela muy fina o filtro de café doble (importante: sin partículas). Enfriar.",
+    "dosis": "Empapar discos de algodón estéril, aplicar sobre párpados cerrados 10 minutos, 2-3 veces al día",
+    "modo_uso": "Compresa oftálmica",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "Preparar fresca cada día, refrigerada",
+    "evidencia": "Manzanilla con efecto antiinflamatorio ocular (Stoss, 1996)",
+    "fuente_tradicion": "Herbolaria oftálmica europea",
+    "contraindicaciones": "Conjuntivitis bacteriana o viral activa requiere manejo médico. Alergia a asteráceas. No introducir en el ojo (solo compresa externa).",
+    "uso": "El bisabolol y camazuleno de manzanilla penetran piel periocular reduciendo inflamación palpebral por inhibición de cicloxigenasa, los iridoides de eufrasia (aucubina) actúan como antiinflamatorios suaves y los taninos generan astringencia que reduce hinchazón sin contraindicación oftálmica.",
+    "principios_activos": "Bisabolol, camazuleno, apigenina (manzanilla). Aucubina, eufrasiósido (eufrasia). Taninos.",
+    "propiedades": [
+      "antiinflamatorio ocular",
+      "calmante palpebral",
+      "antialérgico",
+      "descongestionante"
+    ],
+    "referencias": [
+      "Stoss M. et al. J Altern Complement Med (1996) 2:445",
+      "Paduch R. et al. Curr Eye Res (2014) 39:1207"
+    ],
+    "indicaciones_principales": [
+      "fatiga ocular",
+      "conjuntivitis alérgica leve",
+      "blefaritis",
+      "ojos hinchados",
+      "lagrimeo"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Hasta 10 días, consultar oftalmólogo",
+    "sinergia_plantas": [
+      "llantén",
+      "rosas"
+    ]
+  },
+  {
+    "id": 1190,
+    "titulo": "Gotas óticas de aceite de oliva, manzanilla y ajo",
+    "categoria": "Oídos",
+    "origen": "Medicina popular europea",
+    "ingredientes": "100 ml de aceite de oliva extra virgen, 1 cucharada de flores de manzanilla, 1 diente de ajo machacado, 1 ramita de tomillo",
+    "preparacion": "Calentar aceite al baño maría a 60°C. Añadir hierbas y ajo. Mantener 1 hora a baja temperatura. Filtrar con gasa. Envasar en frasco gotero oscuro.",
+    "dosis": "2-3 gotas tibias en el oído afectado, 2 veces al día, máximo 5 días",
+    "modo_uso": "Gotas óticas",
+    "tiempo_prep": "1 hora 30 minutos",
+    "dificultad": "Media",
+    "rendimiento": "100 ml",
+    "conservacion": "3 meses en frasco oscuro y fresco",
+    "evidencia": "Otitis media con extracto herbal con alivio sintomático (Sarrell, 2003)",
+    "fuente_tradicion": "Medicina popular europea",
+    "contraindicaciones": "PERFORACIÓN TIMPÁNICA (absolutamente contraindicado), tubos de timpanostomía, otorrea, otitis externa con dermatitis. Consultar siempre antes de usar.",
+    "uso": "El aceite tibio actúa como vehículo lipófilo que reblandece cerumen y reduce inflamación del conducto auditivo externo, mientras la alicina del ajo y los terpenos antibacterianos de manzanilla y tomillo proporcionan acción antimicrobiana sobre flora del conducto auditivo, complementando manejo médico.",
+    "principios_activos": "Alicina (ajo): antibacteriano. Bisabolol (manzanilla). Timol (tomillo). Ácido oleico (oliva).",
+    "propiedades": [
+      "analgésico ótico",
+      "antibacteriano local",
+      "antiinflamatorio",
+      "ablandador de cerumen"
+    ],
+    "referencias": [
+      "Sarrell EM. et al. Arch Pediatr Adolesc Med (2003) 157:796",
+      "Ernst E. Br J Gen Pract (2003) 53:786"
+    ],
+    "indicaciones_principales": [
+      "otalgia leve con tímpano íntegro",
+      "ablandamiento de cerumen",
+      "otitis externa leve no complicada"
+    ],
+    "interacciones_medicamentos": "Ninguna sistémica",
+    "embarazo_lactancia": "Seguro",
+    "duracion_tratamiento": "Máximo 5 días, consultar médico",
+    "sinergia_plantas": [
+      "lavanda"
+    ]
+  },
+  {
+    "id": 1191,
+    "titulo": "Infusión antialérgica estacional de ortiga, perilla y manzanilla",
+    "categoria": "Alergia",
+    "origen": "Fitoterapia antialérgica moderna",
+    "ingredientes": "1 cucharadita de hojas secas de ortiga, 1 cucharadita de manzanilla, 1/2 cucharadita de melisa, 1/2 cucharadita de cúrcuma rallada, 350 ml de agua",
+    "preparacion": "Hervir agua con cúrcuma 5 minutos. Apagar, añadir ortiga, manzanilla y melisa. Tapar 10 minutos. Colar.",
+    "dosis": "2 tazas al día durante toda la temporada de polinización",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Ortiga liofilizada con eficacia comparable a antihistamínicos en rinitis alérgica (Mittman, 1990)",
+    "fuente_tradicion": "Fitoterapia europea contemporánea",
+    "contraindicaciones": "Embarazo (cúrcuma en altas dosis), litiasis biliar, anticoagulantes, alergia a asteráceas.",
+    "uso": "Los flavonoides de ortiga (quercetina y kaempferol) estabilizan membrana de mastocitos inhibiendo liberación de histamina, la curcumina inhibe NF-κB reduciendo cascada inflamatoria alérgica y la apigenina de manzanilla complementa con acción antihistamínica H1 periférica.",
+    "principios_activos": "Quercetina (ortiga): estabilizador mastocitario. Curcumina: anti-NF-κB. Apigenina (manzanilla): antihistamínico. Ácido rosmarínico (melisa).",
+    "propiedades": [
+      "antihistamínico",
+      "antiinflamatorio",
+      "estabilizador mastocitario",
+      "antialérgico"
+    ],
+    "referencias": [
+      "Mittman P. Planta Med (1990) 56:44",
+      "Roschek B. et al. Phytother Res (2009) 23:920"
+    ],
+    "indicaciones_principales": [
+      "rinitis alérgica estacional",
+      "asma alérgica leve",
+      "urticaria crónica leve",
+      "conjuntivitis alérgica",
+      "dermatitis atópica leve"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes, hipoglucemiantes, antihipertensivos",
+    "embarazo_lactancia": "Evitar dosis altas de cúrcuma",
+    "duracion_tratamiento": "Toda la temporada de alergia",
+    "sinergia_plantas": [
+      "llantén",
+      "diente de león"
+    ]
+  },
+  {
+    "id": 1198,
+    "titulo": "Decocción depurativa primaveral de bardana, diente de león y zarzaparrilla",
+    "categoria": "General",
+    "origen": "Herbolaria depurativa tradicional",
+    "ingredientes": "1 cucharadita de raíz de bardana, 1 cucharadita de raíz de diente de león, 1 cucharadita de zarzaparrilla, 1/2 cucharadita de cola de caballo, 500 ml de agua",
+    "preparacion": "Hervir agua con todas las raíces 15 minutos. Apagar, tapar 10 minutos. Colar.",
+    "dosis": "2 tazas al día durante 3 semanas en primavera u otoño",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Bardana y diente de león con uso etnomedicinal en dermatosis y depuración (Chan, 2011)",
+    "fuente_tradicion": "Herbolaria depurativa europea",
+    "contraindicaciones": "Embarazo, obstrucción biliar, oclusión intestinal, hipoglucemiantes (bardana puede potenciar), niños menores de 12 años.",
+    "uso": "Los compuestos amargos y fitoesteroles de bardana y diente de león estimulan secreciones biliares y pancreáticas favoreciendo eliminación de metabolitos lipófilos, mientras la zarzaparrilla aporta saponinas que se unen a endotoxinas intestinales y la cola de caballo favorece eliminación renal complementaria.",
+    "principios_activos": "Inulina, arctigenina (bardana). Taraxasterol, taraxacina (diente de león). Sarsasapogenina (zarzaparrilla). Sílice (cola de caballo).",
+    "propiedades": [
+      "depurativo",
+      "diurético",
+      "colerético",
+      "antiinflamatorio sistémico",
+      "tónico general"
+    ],
+    "referencias": [
+      "Chan YS. et al. Inflammopharmacology (2011) 19:245",
+      "Schütz K. et al. J Ethnopharmacol (2006) 107:313"
+    ],
+    "indicaciones_principales": [
+      "acné",
+      "eccemas crónicos leves",
+      "psoriasis (coadyuvante)",
+      "convalecencia",
+      "exceso alimenticio prolongado"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes, diuréticos, anticoagulantes (cuidado)",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "Ciclos de 21 días, 2 veces al año",
+    "sinergia_plantas": [
+      "ortiga",
+      "achicoria"
+    ]
   }
 ]

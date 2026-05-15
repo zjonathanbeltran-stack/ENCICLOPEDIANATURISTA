@@ -2939,5 +2939,224 @@
       "tomillo",
       "llantén"
     ]
+  },
+  {
+    "id": 1165,
+    "titulo": "Jarabe pectoral de tomillo, llantén, malva y miel",
+    "categoria": "Tos",
+    "origen": "Tradición campesina chilena",
+    "ingredientes": "20 g de tomillo seco, 15 g de llantén, 10 g de hojas de malva (o malvavisco), 1 cebolla morada en rodajas, 500 ml de agua, 1 taza de miel de ulmo, jugo de 1 limón",
+    "preparacion": "Hervir agua con tomillo, llantén, malva y cebolla 20 minutos tapado. Colar y reducir a fuego muy bajo hasta obtener 250 ml. Entibiar bajo 40°C, mezclar miel y limón. Envasar.",
+    "dosis": "Adultos: 1 cucharada 4-5 veces al día. Niños mayores de 2 años: 1 cucharadita 3-4 veces al día.",
+    "modo_uso": "Jarabe",
+    "tiempo_prep": "45 minutos",
+    "dificultad": "Media",
+    "rendimiento": "350 ml",
+    "conservacion": "Refrigerado hasta 30 días",
+    "evidencia": "Combinación tomillo+hiedra demostró reducir tos en bronquitis aguda (Kemmerich, 2007)",
+    "fuente_tradicion": "Receta campesina central y sur de Chile",
+    "contraindicaciones": "Menores de 1 año (miel). Alergia a labiadas. Asma severa no controlada.",
+    "uso": "El timol y carvacrol del tomillo relajan el músculo liso bronquial y son mucolíticos, los mucílagos del llantén y malva forman una capa protectora sobre la mucosa irritada, y la miel actúa como antitusivo demulcente disminuyendo el reflejo de la tos.",
+    "principios_activos": "Timol y carvacrol (tomillo): antiséptico y broncodilatador. Aucubina e iridoides (llantén): antiinflamatorios. Mucílagos (malva). Defensina-1 (miel): antibacteriana.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antitusivo",
+      "antiséptico respiratorio",
+      "demulcente"
+    ],
+    "referencias": [
+      "Kemmerich B. Arzneimittelforschung (2007) 57:607",
+      "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+    ],
+    "indicaciones_principales": [
+      "tos productiva",
+      "bronquitis aguda",
+      "tos seca irritativa",
+      "resfrío común",
+      "laringitis leve"
+    ],
+    "interacciones_medicamentos": "Ninguna relevante a estas dosis",
+    "embarazo_lactancia": "Usar sin tomillo en primer trimestre",
+    "duracion_tratamiento": "7-14 días",
+    "sinergia_plantas": [
+      "saúco",
+      "violeta",
+      "eucalipto (inhalación)"
+    ]
+  },
+  {
+    "id": 1166,
+    "titulo": "Inhalación descongestionante de eucalipto, romero y pino",
+    "categoria": "Respiratorio",
+    "origen": "Tradición chilena y mediterránea",
+    "ingredientes": "1 puñado de hojas frescas de eucalipto, 1 cucharada de romero, 1 cucharada de tomillo, 5 gotas de aceite esencial de pino (opcional), 1 litro de agua hirviendo",
+    "preparacion": "Hervir agua y verter sobre las hierbas en una olla. Apagar fuego. Cubrir cabeza con toalla e inhalar vapor durante 5-10 minutos manteniendo distancia segura.",
+    "dosis": "2-3 veces al día durante cuadro respiratorio",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "No aplica, uso inmediato",
+    "evidencia": "1,8-cineol (eucalipto) demostró eficacia en rinosinusitis (Kehrl, 2004)",
+    "fuente_tradicion": "Práctica popular mundial",
+    "contraindicaciones": "Asma activa, niños menores de 6 años (riesgo de broncoespasmo con eucalipto), epilepsia (romero).",
+    "uso": "El 1,8-cineol del eucalipto reduce inflamación mucosa inhibiendo la producción de leucotrienos y prostaglandinas, mientras el alcanfor y pineno fluidifican secreciones y estimulan cilios respiratorios facilitando expectoración.",
+    "principios_activos": "1,8-cineol (eucaliptol): mucolítico, antiinflamatorio. Alcanfor y borneol (romero). Alfa-pineno: broncodilatador suave. Timol.",
+    "propiedades": [
+      "descongestionante",
+      "mucolítico",
+      "antiséptico respiratorio",
+      "antiinflamatorio"
+    ],
+    "referencias": [
+      "Kehrl W. et al. Laryngoscope (2004) 114:738",
+      "Juergens UR. Drug Res (2014) 64:638"
+    ],
+    "indicaciones_principales": [
+      "congestión nasal",
+      "sinusitis",
+      "resfrío",
+      "bronquitis",
+      "tos productiva"
+    ],
+    "interacciones_medicamentos": "Ninguna por vía inhalatoria",
+    "embarazo_lactancia": "Usar sin romero en embarazo",
+    "duracion_tratamiento": "Hasta 7 días",
+    "sinergia_plantas": [
+      "saúco",
+      "tomillo",
+      "menta"
+    ]
+  },
+  {
+    "id": 1167,
+    "titulo": "Gargarismo antiséptico de salvia, tomillo y propóleo",
+    "categoria": "Garganta",
+    "origen": "Tradición europea adoptada",
+    "ingredientes": "1 cucharada de salvia, 1 cucharadita de tomillo, 1 cucharadita de sal marina, 10 gotas de tintura de propóleo, 250 ml de agua",
+    "preparacion": "Hervir agua con salvia y tomillo 5 minutos. Apagar, tapar, reposar 10 minutos. Colar. Añadir sal y propóleo cuando esté tibio.",
+    "dosis": "Hacer gárgaras profundas 3-4 veces al día, 30 segundos cada vez",
+    "modo_uso": "Gárgaras",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Salvia con eficacia demostrada en faringitis (Hubbert, 2006)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Alergia al propóleo. No tragar. Embarazo (salvia en altas dosis es uterotónica).",
+    "uso": "El ácido carnósico y tuyona de salvia inhiben crecimiento bacteriano gram positivo, el timol del tomillo penetra biofilms en mucosa orofaríngea y los flavonoides del propóleo reducen adherencia de Streptococcus pyogenes al epitelio.",
+    "principios_activos": "Tuyona, ácido carnósico, ácido rosmarínico (salvia): antibacterianos. Timol (tomillo). Pinocembrina, galangina (propóleo).",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "astringente",
+      "analgésico local"
+    ],
+    "referencias": [
+      "Hubbert M. et al. Eur J Med Res (2006) 11:20",
+      "Almuhayawi MS. Saudi J Biol Sci (2020) 27:3079"
+    ],
+    "indicaciones_principales": [
+      "faringitis",
+      "amigdalitis",
+      "estomatitis aftosa",
+      "gingivitis",
+      "post-extracción dental"
+    ],
+    "interacciones_medicamentos": "Tópico, sin interacciones sistémicas",
+    "embarazo_lactancia": "Evitar salvia, usar solo tomillo y propóleo",
+    "duracion_tratamiento": "5-7 días",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "manzanilla"
+    ]
+  },
+  {
+    "id": 1197,
+    "titulo": "Infusión expectorante de marrubio, tomillo y violeta",
+    "categoria": "Expectorante",
+    "origen": "Herbolaria respiratoria europea",
+    "ingredientes": "1 cucharadita de marrubio, 1 cucharadita de tomillo, 1 cucharadita de flores y hojas de violeta, 1/2 cucharadita de hinojo, 350 ml de agua",
+    "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 3-4 veces al día durante el cuadro respiratorio",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Marrubina con efecto expectorante documentado (Schlemper, 1996)",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Embarazo (marrubio uterotónico), hipertensión severa, ulcerosos, niños menores de 6 años en dosis altas.",
+    "uso": "La marrubina del marrubio estimula reflejo gastropulmonar aumentando secreción bronquial y facilitando expulsión de moco espeso, el timol del tomillo es mucolítico por reducción de viscosidad del esputo y las saponinas de violeta complementan acción expectorante por irritación refleja gástrica.",
+    "principios_activos": "Marrubina (marrubio): diterpeno expectorante. Timol (tomillo): mucolítico. Saponinas, violutósido (violeta). Anetol (hinojo).",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antitusivo suave",
+      "broncodilatador"
+    ],
+    "referencias": [
+      "Schlemper V. et al. Phytomedicine (1996) 3:211",
+      "Kemmerich B. Arzneimittelforschung (2007) 57:607"
+    ],
+    "indicaciones_principales": [
+      "bronquitis con esputo espeso",
+      "EPOC estable (coadyuvante)",
+      "tos productiva",
+      "resfrío con flemas",
+      "asma bronquial leve"
+    ],
+    "interacciones_medicamentos": "Antitusivos opiáceos (antagonismo), antihipertensivos",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Hasta resolución, máximo 14 días",
+    "sinergia_plantas": [
+      "saúco",
+      "llantén"
+    ]
+  },
+  {
+    "id": 1207,
+    "titulo": "Infusión tonificante de orégano, tomillo y orégano de la sierra",
+    "categoria": "Respiratorio",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de orégano, 1 cucharadita de tomillo, 1/2 cucharadita de hisopo (opcional), 1 ramita de menta, 1 cucharadita de miel, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar y endulzar.",
+    "dosis": "1 taza 2-3 veces al día durante el cuadro respiratorio",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Carvacrol y timol con eficacia antimicrobiana respiratoria (Marchese, 2017)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Embarazo (orégano emenagogo), niños menores de 6 años en altas dosis, alergia a labiadas, hipersensibilidad gástrica.",
+    "uso": "El carvacrol del orégano y timol del tomillo desestabilizan membranas bacterianas y reducen carga viral en vías respiratorias, los aceites volátiles se eliminan por vía pulmonar desinfectando bronquios al ser exhalados y la miel aporta efecto demulcente que calma irritación faríngea.",
+    "principios_activos": "Carvacrol, timol (orégano, tomillo): antimicrobianos. Mentol (menta). Defensina (miel).",
+    "propiedades": [
+      "antiséptico respiratorio",
+      "expectorante",
+      "antitusivo",
+      "inmunoestimulante"
+    ],
+    "referencias": [
+      "Marchese A. et al. Crit Rev Microbiol (2017) 43:668",
+      "Salehi B. et al. Phytother Res (2018) 32:1675"
+    ],
+    "indicaciones_principales": [
+      "bronquitis aguda",
+      "amigdalitis",
+      "resfrío común",
+      "tos productiva",
+      "sinusitis aguda"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (timol)",
+    "embarazo_lactancia": "Contraindicada en embarazo",
+    "duracion_tratamiento": "Hasta 10 días",
+    "sinergia_plantas": [
+      "saúco",
+      "violeta"
+    ]
   }
 ]

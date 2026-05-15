@@ -1591,5 +1591,177 @@
       "trébol rojo",
       "manto de dama"
     ]
+  },
+  {
+    "id": 1175,
+    "titulo": "Infusión menstrual reguladora de milenrama, manzanilla y melisa",
+    "categoria": "Ginecológico",
+    "origen": "Herbolaria femenina europea",
+    "ingredientes": "1 cucharadita de milenrama, 1 cucharadita de manzanilla, 1 cucharadita de melisa, 1/2 cucharadita de hojas de frambuesa o frutilla blanca, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos tapado. Colar.",
+    "dosis": "2 tazas al día desde 7 días antes de la menstruación hasta el 3° día de regla",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Milenrama tradicional para dismenorrea; manzanilla con evidencia en SPM (Sharifi, 2014)",
+    "fuente_tradicion": "Herbolaria femenina europea",
+    "contraindicaciones": "Embarazo (milenrama oxitócica), alergia a asteráceas, anticoagulantes.",
+    "uso": "Los proazulenos de milenrama y apigenina de manzanilla inhiben la síntesis de prostaglandinas PGF2α responsables de las contracciones uterinas dolorosas, mientras los flavonoides de melisa modulan la respuesta al estrés y SPM emocional.",
+    "principios_activos": "Camazuleno, aquileína (milenrama). Apigenina, bisabolol (manzanilla). Ácido rosmarínico (melisa). Taninos (frambuesa).",
+    "propiedades": [
+      "antiespasmódico uterino",
+      "antiinflamatorio",
+      "regulador menstrual",
+      "ansiolítico"
+    ],
+    "referencias": [
+      "Sharifi F. et al. Complement Ther Clin Pract (2014) 20:81",
+      "Jenabi E. J Pak Med Assoc (2013) 63:8"
+    ],
+    "indicaciones_principales": [
+      "dismenorrea",
+      "síndrome premenstrual",
+      "irregularidades menstruales leves",
+      "calambres uterinos",
+      "ansiedad cíclica"
+    ],
+    "interacciones_medicamentos": "Anticoagulantes (precaución por milenrama)",
+    "embarazo_lactancia": "Contraindicada en embarazo",
+    "duracion_tratamiento": "3 ciclos consecutivos, evaluar",
+    "sinergia_plantas": [
+      "matricaria",
+      "salvia (no en lactancia)"
+    ]
+  },
+  {
+    "id": 1176,
+    "titulo": "Infusión perimenopáusica de salvia, melisa y trébol rojo",
+    "categoria": "Ginecológico",
+    "origen": "Fitoterapia ginecológica moderna",
+    "ingredientes": "1/2 cucharadita de salvia, 1 cucharadita de melisa, 1 cucharadita de trébol rojo, 1/2 cucharadita de pasiflora, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos. Colar.",
+    "dosis": "1-2 tazas al día, preferentemente noche para sofocos nocturnos",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Salvia reduce sofocos en menopausia (Bommer, 2011); isoflavonas de trébol con evidencia controvertida pero positiva",
+    "fuente_tradicion": "Fitoterapia ginecológica europea",
+    "contraindicaciones": "Cáncer mamario hormono-dependiente o antecedente. Anticoagulantes (trébol). Embarazo. Epilepsia (salvia tuyona).",
+    "uso": "La tuyona y ácido rosmarínico de salvia reducen sudoración por acción anticolinérgica central, las isoflavonas del trébol (formononetina, biocanina A) tienen afinidad por receptores estrogénicos beta amortiguando déficit estrogénico sin proliferación endometrial significativa.",
+    "principios_activos": "Tuyona, ácido carnósico (salvia): anticolinérgica. Isoflavonas (trébol): fitoestrógenos. Ácido rosmarínico (melisa). Crisina (pasiflora).",
+    "propiedades": [
+      "antisudorífico",
+      "fitoestrógeno modulador",
+      "ansiolítico",
+      "antitérmico"
+    ],
+    "referencias": [
+      "Bommer S. et al. Adv Ther (2011) 28:490",
+      "Lipovac M. et al. Maturitas (2010) 65:258"
+    ],
+    "indicaciones_principales": [
+      "sofocos",
+      "sudoración nocturna",
+      "irritabilidad climatérica",
+      "insomnio perimenopáusico"
+    ],
+    "interacciones_medicamentos": "Tamoxifeno, anticonceptivos, anticoagulantes",
+    "embarazo_lactancia": "Contraindicada (salvia suprime lactancia)",
+    "duracion_tratamiento": "Ciclos de 8 semanas con descanso",
+    "sinergia_plantas": [
+      "lúpulo",
+      "valeriana"
+    ]
+  },
+  {
+    "id": 1177,
+    "titulo": "Sitzbath de matico, manzanilla y romero para postparto",
+    "categoria": "Ginecológico",
+    "origen": "Tradición mapuche y europea",
+    "ingredientes": "20 g de hojas de matico, 15 g de manzanilla, 10 g de romero, 10 g de caléndula, 2 litros de agua, 1 cucharada de sal marina",
+    "preparacion": "Hervir agua con hierbas tapado 20 minutos. Apagar y reposar 15 minutos. Colar. Añadir sal. Verter en bidet o lavatorio cuando esté tibio.",
+    "dosis": "Baño de asiento de 15-20 minutos, 1-2 veces al día durante el puerperio",
+    "modo_uso": "Baño de asiento",
+    "tiempo_prep": "40 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 litros",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Manzanilla y caléndula con uso documentado en cicatrización perineal",
+    "fuente_tradicion": "Mapuche y europea",
+    "contraindicaciones": "Heridas con signos de infección requieren manejo médico. Alergia a asteráceas.",
+    "uso": "El verbascósido y taninos del matico contraen capilares hemorroidales y reducen sangrado por astringencia, los triterpenos de caléndula y bisabolol de manzanilla aceleran epitelización del periné desgarrado o episiotomía, y el ácido carnósico del romero previene sobreinfección bacteriana.",
+    "principios_activos": "Verbascósido, taninos (matico). Bisabolol (manzanilla). Faradiol (caléndula). Ácido carnósico (romero).",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "antiséptico",
+      "antihemorroidal",
+      "calmante perineal"
+    ],
+    "referencias": [
+      "Behmanesh F. et al. Caspian J Intern Med (2018) 9:271",
+      "Della Loggia R. et al. Planta Med (1994) 60:516"
+    ],
+    "indicaciones_principales": [
+      "postparto",
+      "episiotomía",
+      "desgarros perineales",
+      "hemorroides",
+      "infecciones vulvares leves"
+    ],
+    "interacciones_medicamentos": "Tópico, sin interacciones",
+    "embarazo_lactancia": "Seguro en puerperio y lactancia",
+    "duracion_tratamiento": "2-3 semanas postparto",
+    "sinergia_plantas": [
+      "llantén",
+      "topa topa"
+    ]
+  },
+  {
+    "id": 1178,
+    "titulo": "Decocción mensual de pimpinela, manzanilla y melisa para SPM",
+    "categoria": "Ginecológico",
+    "origen": "Herbolaria femenina chilena",
+    "ingredientes": "1 cucharadita de pimpinela, 1 cucharadita de manzanilla, 1 cucharadita de melisa, 1/2 cucharadita de cedrón, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar e infundir 10 minutos. Colar.",
+    "dosis": "1-2 tazas al día durante la semana premenstrual",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Manzanilla con evidencia ansiolítica en SPM (Amsterdam, 2009)",
+    "fuente_tradicion": "Herbolaria chilena",
+    "contraindicaciones": "Embarazo, alergia a asteráceas, hipotensión severa.",
+    "uso": "La apigenina de manzanilla se une con baja afinidad a receptores benzodiacepínicos centrales reduciendo irritabilidad sin sedación marcada, mientras el ácido rosmarínico de melisa inhibe la captación de GABA y los compuestos amargos de pimpinela apoyan eliminación hepática de estrógenos.",
+    "principios_activos": "Apigenina (manzanilla). Ácido rosmarínico, citral (melisa). Saponinas (pimpinela). Verbascósido (cedrón).",
+    "propiedades": [
+      "ansiolítico",
+      "antiespasmódico",
+      "regulador hormonal suave",
+      "digestivo"
+    ],
+    "referencias": [
+      "Amsterdam JD. et al. J Clin Psychopharmacol (2009) 29:378",
+      "Jenabi E. J Pak Med Assoc (2013) 63:8"
+    ],
+    "indicaciones_principales": [
+      "síndrome premenstrual",
+      "irritabilidad",
+      "retención de líquidos leve",
+      "ansiedad cíclica",
+      "mastalgia leve"
+    ],
+    "interacciones_medicamentos": "Sedantes, anticoagulantes",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "3-6 ciclos",
+    "sinergia_plantas": [
+      "milenrama",
+      "pasiflora"
+    ]
   }
 ]

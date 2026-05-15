@@ -4847,5 +4847,398 @@
       "orégano",
       "menta"
     ]
+  },
+  {
+    "id": 1159,
+    "titulo": "Caldo restaurador de cochayuyo, jengibre y cúrcuma",
+    "categoria": "Nutritivo",
+    "origen": "Cocina medicinal chilota contemporánea",
+    "ingredientes": "30 g de cochayuyo seco hidratado, 1 cucharadita de cúrcuma fresca rallada, 2 cm de jengibre, 1 zanahoria, 1 puerro, 2 dientes de ajo, 1 ramita de orégano fresco, 1 litro de agua, sal marina, pimienta negra (pizca)",
+    "preparacion": "Remojar cochayuyo 30 minutos y picar. Saltear puerro, ajo, jengibre y cúrcuma en aceite de oliva. Agregar cochayuyo, zanahoria y agua. Cocinar 40 minutos. Añadir orégano y pimienta al final. Servir caliente.",
+    "dosis": "1 taza, 1-2 veces al día durante convalecencia o invierno",
+    "modo_uso": "Caldo",
+    "tiempo_prep": "50 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "4 porciones",
+    "conservacion": "Refrigerado hasta 3 días, congelado hasta 2 meses",
+    "evidencia": "Cochayuyo (Durvillaea antarctica) fuente de yodo, hierro y alginatos prebióticos documentados",
+    "fuente_tradicion": "Tradición chilota actualizada",
+    "contraindicaciones": "Hipertiroidismo (alto contenido de yodo). Pacientes anticoagulados (alginatos pueden alterar absorción).",
+    "uso": "Aporta yodo orgánico, hierro y alginatos que modulan microbiota; la curcumina inhibe NF-κB reduciendo inflamación sistémica y la pimienta negra aumenta su biodisponibilidad 2000% por inhibición de glucuronidación hepática.",
+    "principios_activos": "Yodo y alginatos de cochayuyo. Curcumina (inhibidor NF-κB). Piperina (potenciador biodisponibilidad). Gingeroles. Alicina del ajo.",
+    "propiedades": [
+      "nutritivo",
+      "antiinflamatorio",
+      "inmunomodulador",
+      "remineralizante",
+      "prebiótico"
+    ],
+    "referencias": [
+      "Astorga-España MS. et al. Food Chem (2017) 220:204",
+      "Hewlings SJ. Foods (2017) 6:92"
+    ],
+    "indicaciones_principales": [
+      "convalecencia",
+      "fatiga crónica",
+      "anemia leve",
+      "prevención invernal",
+      "déficit de yodo"
+    ],
+    "interacciones_medicamentos": "Levotiroxina (separar 4 horas). Anticoagulantes warfarina.",
+    "embarazo_lactancia": "Seguro en cantidades moderadas (cuidar exceso de yodo)",
+    "duracion_tratamiento": "Uso continuo como alimento funcional",
+    "sinergia_plantas": [
+      "llantén",
+      "ortiga",
+      "diente de león"
+    ]
+  },
+  {
+    "id": 1160,
+    "titulo": "Amargo digestivo de centaura, boldo y achicoria",
+    "categoria": "Digestivo",
+    "origen": "Adaptación de amargos europeos con plantas locales",
+    "ingredientes": "10 g de centaura menor, 5 g de hojas de boldo, 10 g de raíz de achicoria tostada, 5 g de raíz de diente de león, 2 g de cáscara de naranja amarga seca, 200 ml de alcohol al 40%, 100 ml de agua",
+    "preparacion": "Macerar todas las hierbas en alcohol y agua durante 14 días en frasco oscuro, agitando diariamente. Filtrar con tela fina. Envasar en gotero.",
+    "dosis": "20 gotas en poca agua 15 minutos antes de las comidas principales",
+    "modo_uso": "Tintura amarga",
+    "tiempo_prep": "14 días",
+    "dificultad": "Media",
+    "rendimiento": "300 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Amargos estimulan receptores T2R linguales aumentando gastrina y motilidad (McMullen MK, 2015)",
+    "fuente_tradicion": "Tradición de digestivos amargos europeos adaptada",
+    "contraindicaciones": "Úlcera péptica activa, ERGE severa, embarazo, obstrucción biliar, niños menores de 12 años.",
+    "uso": "Los principios amargos activan receptores T2R en lengua y duodeno provocando liberación refleja de gastrina, CCK y secreción biliar, mejorando digestión de grasas y proteínas en personas con hipoclorhidria funcional.",
+    "principios_activos": "Secoiridoides (genciopicrina) de centaura. Boldina y isoboldina de boldo (coleréticos). Lactucina de achicoria (amarga). Taraxacina de diente de león.",
+    "propiedades": [
+      "aperitivo",
+      "colerético",
+      "colagogo",
+      "digestivo",
+      "hepatoprotector"
+    ],
+    "referencias": [
+      "McMullen MK. et al. Chemosens Percept (2015) 8:88",
+      "Wegener T. Wien Med Wochenschr (1999) 149:241"
+    ],
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "inapetencia",
+      "digestión lenta",
+      "intolerancia a grasas",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Puede alterar absorción de medicamentos (separar 1 hora). Cuidado con antiácidos.",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Ciclos de 3-4 semanas",
+    "sinergia_plantas": [
+      "manzanilla",
+      "menta",
+      "hinojo"
+    ]
+  },
+  {
+    "id": 1161,
+    "titulo": "Infusión carminativa post-prandial de hinojo, anís y manzanilla",
+    "categoria": "Digestivo",
+    "origen": "Tradición mediterránea y chilena",
+    "ingredientes": "1 cucharadita de semillas de hinojo trituradas, 1 cucharadita de anís verde, 1 cucharadita de flores de manzanilla, 1 hojita de menta, 250 ml de agua caliente",
+    "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
+    "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "Hinojo demuestra eficacia en cólicos del lactante y SII (Alexandrovich, 2003; Portincasa, 2016)",
+    "fuente_tradicion": "Herbolaria mediterránea adoptada en Chile",
+    "contraindicaciones": "Alergia a apiáceas. Evitar dosis altas en embarazo. Hiperestrogenismo (cáncer mamario hormono-dependiente) por anetol.",
+    "uso": "El anetol relaja musculatura lisa intestinal mediante bloqueo de canales de calcio, mientras los flavonoides de manzanilla actúan sobre receptores GABA reduciendo espasmo nervioso del eje intestino-cerebro.",
+    "principios_activos": "Anetol (hinojo y anís): espasmolítico. Apigenina (manzanilla): ansiolítico, GABAérgico. Mentol: refrescante y antiespasmódico.",
+    "propiedades": [
+      "carminativo",
+      "espasmolítico",
+      "digestivo",
+      "ansiolítico suave"
+    ],
+    "referencias": [
+      "Alexandrovich I. et al. Altern Ther Health Med (2003) 9:58",
+      "Portincasa P. et al. J Gastrointestin Liver Dis (2016) 25:151"
+    ],
+    "indicaciones_principales": [
+      "distensión abdominal",
+      "flatulencia",
+      "cólicos digestivos",
+      "intestino irritable",
+      "dispepsia nerviosa"
+    ],
+    "interacciones_medicamentos": "Posible interferencia con tamoxifeno (anetol fitoestrógeno).",
+    "embarazo_lactancia": "En lactancia favorece producción de leche en dosis moderadas",
+    "duracion_tratamiento": "Uso continuo seguro hasta 6 semanas",
+    "sinergia_plantas": [
+      "melisa",
+      "cedrón",
+      "menta"
+    ]
+  },
+  {
+    "id": 1162,
+    "titulo": "Decocción hepatobiliar de cardo mariano, boldo y achicoria",
+    "categoria": "Hepático",
+    "origen": "Herbolaria europea adaptada a Chile",
+    "ingredientes": "1 cucharada de semillas de cardo mariano molidas, 1 cucharadita de hojas de boldo, 1 cucharadita de raíz de achicoria tostada, 1/2 cucharadita de diente de león, 350 ml de agua",
+    "preparacion": "Hervir agua con cardo mariano y achicoria 10 minutos. Apagar fuego, añadir boldo y diente de león, tapar e infundir 8 minutos. Colar.",
+    "dosis": "1 taza en ayunas y 1 antes de la cena, durante 21 días",
+    "modo_uso": "Decocción mixta",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Silimarina con evidencia clínica en hepatopatías (Abenavoli, 2018)",
+    "fuente_tradicion": "Combinación de tradiciones europea y chilena",
+    "contraindicaciones": "Obstrucción de vías biliares, cálculos biliares grandes, embarazo, alergia a asteráceas.",
+    "uso": "La silimarina estabiliza la membrana del hepatocito y compite con toxinas por sitios de unión, mientras boldina y cinarina aumentan flujo biliar y solubilizan colesterol biliar previniendo barro y cálculos.",
+    "principios_activos": "Silimarina (silibina, silicristina, silidianina): antioxidante y hepatoprotector. Boldina: colerético. Cinarina: colerético y hipolipemiante.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "colagogo",
+      "antioxidante",
+      "depurativo"
+    ],
+    "referencias": [
+      "Abenavoli L. et al. Phytother Res (2018) 32:2202",
+      "Speroni E. et al. J Ethnopharmacol (2003) 86:203"
+    ],
+    "indicaciones_principales": [
+      "hígado graso no alcohólico",
+      "convalecencia hepática",
+      "exceso de grasas en dieta",
+      "post-fiestas",
+      "elevación leve de transaminasas"
+    ],
+    "interacciones_medicamentos": "Puede alterar metabolismo de fármacos por CYP3A4 (estatinas, anticoagulantes).",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Ciclos de 21 días con descanso de 7",
+    "sinergia_plantas": [
+      "alcachofa",
+      "bailahuén",
+      "menta"
+    ]
+  },
+  {
+    "id": 1163,
+    "titulo": "Aceite antiparasitario de paico, ajo y semilla de zapallo",
+    "categoria": "Antiparasitario",
+    "origen": "Medicina popular latinoamericana",
+    "ingredientes": "1 cucharada de paico fresco picado, 2 dientes de ajo machacados, 2 cucharadas de semillas de zapallo crudas peladas, 1 cucharadita de aceite de oliva extra virgen",
+    "preparacion": "Triturar todos los ingredientes en mortero hasta formar pasta homogénea. Consumir fresco (no almacenar).",
+    "dosis": "1 cucharada en ayunas durante 3 días consecutivos. Repetir a los 15 días.",
+    "modo_uso": "Pasta oral",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "1 dosis",
+    "conservacion": "Uso inmediato, no almacenar",
+    "evidencia": "Cucurbitina (semilla zapallo) y ascaridol (paico) con acción antihelmíntica documentada",
+    "fuente_tradicion": "Medicina campesina chilena y andina",
+    "contraindicaciones": "Embarazo, lactancia, niños menores de 6 años, enfermedad hepática, renal o cardíaca. Paico contraindicado en dosis altas (ascaridol tóxico).",
+    "uso": "El ascaridol paraliza musculatura del nematodo bloqueando receptores nicotínicos, la cucurbitina inmoviliza tenia y oxiuros impidiendo su fijación intestinal, y la alicina del ajo complementa con acción antiprotozoaria sobre Giardia.",
+    "principios_activos": "Ascaridol (paico): antihelmíntico. Cucurbitina (semillas zapallo): paralizante de tenias. Alicina (ajo): antiprotozoario.",
+    "propiedades": [
+      "antihelmíntico",
+      "antiparasitario",
+      "antiprotozoario"
+    ],
+    "referencias": [
+      "Diaz F. et al. Trop Med Int Health (2003) 8:285",
+      "Grzybek M. et al. Molecules (2016) 21:1456"
+    ],
+    "indicaciones_principales": [
+      "oxiuriasis",
+      "ascariasis",
+      "teniasis",
+      "giardiasis (complemento)",
+      "parasitosis intestinal"
+    ],
+    "interacciones_medicamentos": "Ajo potencia anticoagulantes. Evitar con antihelmínticos farmacológicos.",
+    "embarazo_lactancia": "Contraindicado",
+    "duracion_tratamiento": "Cura de 3 días, repetir una vez",
+    "sinergia_plantas": [
+      "natre",
+      "ruda (uso muy controlado)",
+      "ajenjo (adultos)"
+    ]
+  },
+  {
+    "id": 1192,
+    "titulo": "Decocción mineralizante de ortiga, cola de caballo y alfalfa",
+    "categoria": "Nutritivo",
+    "origen": "Herbolaria mineralizante",
+    "ingredientes": "1 cucharadita de hojas de ortiga, 1 cucharadita de cola de caballo, 1 cucharadita de alfalfa seca, 1 cucharadita de avena verde, 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo 10 minutos. Apagar, añadir el resto. Tapar 15 minutos. Colar.",
+    "dosis": "2 tazas al día durante 4-6 semanas",
+    "modo_uso": "Decocción mixta",
+    "tiempo_prep": "30 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Ortiga rica en hierro biodisponible (Adhikari, 2015); sílice de cola de caballo para tejido conectivo",
+    "fuente_tradicion": "Herbolaria mineralizante europea",
+    "contraindicaciones": "Anticoagulantes (vit K en ortiga), insuficiencia renal, edema cardíaco. Cuidado con ortiga en alergia a urticáceas.",
+    "uso": "La ortiga aporta hierro orgánico (1.6-4 mg/100g) en forma altamente biodisponible junto a vitamina C cofactora, la cola de caballo proporciona sílice estructural esencial para colágeno y matriz extracelular ósea, y la alfalfa contribuye con vitamina K2 y calcio mineralizante.",
+    "principios_activos": "Hierro orgánico, clorofila (ortiga). Sílice, equisetonina (cola de caballo). Vitamina K, isoflavonas (alfalfa). Avenacósidos (avena).",
+    "propiedades": [
+      "remineralizante",
+      "antianémico",
+      "tónico óseo",
+      "fortalecedor de tejido conectivo"
+    ],
+    "referencias": [
+      "Adhikari BM. et al. Food Sci Nutr (2015) 4:119",
+      "Carrillo-López N. et al. J Am Soc Nephrol (2016) 27:824"
+    ],
+    "indicaciones_principales": [
+      "anemia ferropénica leve",
+      "osteopenia",
+      "uñas y cabello frágiles",
+      "convalecencia",
+      "deportistas"
+    ],
+    "interacciones_medicamentos": "Warfarina (vit K), levotiroxina (separar 4 horas)",
+    "embarazo_lactancia": "Seguro en cantidades moderadas en lactancia",
+    "duracion_tratamiento": "Ciclos de 6 semanas",
+    "sinergia_plantas": [
+      "diente de león",
+      "perejil"
+    ]
+  },
+  {
+    "id": 1194,
+    "titulo": "Tisana digestiva de albahaca, menta e hinojo",
+    "categoria": "Digestivo",
+    "origen": "Herbolaria mediterránea",
+    "ingredientes": "1 cucharadita de albahaca seca, 1 cucharadita de menta, 1 cucharadita de semillas de hinojo trituradas, 1/2 cucharadita de manzanilla, 300 ml de agua",
+    "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar.",
+    "dosis": "1 taza después de comidas pesadas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "12 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Menta con eficacia en síndrome de intestino irritable (Khanna, 2014)",
+    "fuente_tradicion": "Herbolaria mediterránea",
+    "contraindicaciones": "Reflujo gastroesofágico severo (menta relaja esfínter esofágico inferior). Hernia hiatal grande.",
+    "uso": "El mentol de la menta relaja músculo liso intestinal por bloqueo de canales de calcio, el linalool de albahaca complementa con acción sedante digestiva y los flavonoides de manzanilla actúan sobre eje intestino-cerebro reduciendo somatización digestiva del estrés.",
+    "principios_activos": "Mentol (menta): bloqueador canales Ca++. Linalool, eugenol (albahaca). Anetol (hinojo). Apigenina (manzanilla).",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "espasmolítico",
+      "antinauseoso"
+    ],
+    "referencias": [
+      "Khanna R. et al. J Clin Gastroenterol (2014) 48:505",
+      "Pittler MH. Am J Gastroenterol (1998) 93:1131"
+    ],
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "náuseas postprandiales",
+      "distensión",
+      "síndrome de intestino irritable",
+      "digestión lenta"
+    ],
+    "interacciones_medicamentos": "Antiácidos, IBP (separar 1 hora)",
+    "embarazo_lactancia": "Moderada, evitar dosis altas",
+    "duracion_tratamiento": "Uso continuo según necesidad",
+    "sinergia_plantas": [
+      "melisa",
+      "cedrón"
+    ]
+  },
+  {
+    "id": 1195,
+    "titulo": "Infusión hepatoprotectora de cardo mariano, alcachofa y diente de león",
+    "categoria": "Hepático",
+    "origen": "Fitoterapia hepática europea",
+    "ingredientes": "1 cucharadita de semillas de cardo mariano molidas, 1 cucharadita de hojas de alcachofa, 1 cucharadita de hojas de diente de león, 1/2 cucharadita de menta, 350 ml de agua",
+    "preparacion": "Hervir agua con cardo mariano 8 minutos. Apagar, añadir alcachofa, diente de león y menta. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza en ayunas y otra antes de la cena, 4 semanas",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "25 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Silimarina y cinarina con evidencia en hepatopatías crónicas (Saller, 2008)",
+    "fuente_tradicion": "Fitoterapia europea",
+    "contraindicaciones": "Obstrucción biliar, cálculos sintomáticos, embarazo, alergia a asteráceas, lactancia.",
+    "uso": "La silimarina protege hepatocitos por bloqueo competitivo de receptores hepáticos donde se unen toxinas como amanitina y por estímulo de ARN polimerasa I aumentando síntesis de proteínas regeneradoras; la cinarina y taraxasterol incrementan flujo biliar facilitando excreción de metabolitos y colesterol.",
+    "principios_activos": "Silimarina (cardo mariano): hepatoprotector. Cinarina (alcachofa): colerético, hipolipemiante. Taraxasterol (diente de león). Mentol.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "depurativo",
+      "hipolipemiante",
+      "antioxidante hepático"
+    ],
+    "referencias": [
+      "Saller R. et al. Forsch Komplementmed (2008) 15:9",
+      "Ben Salem M. et al. Plant Foods Hum Nutr (2015) 70:441"
+    ],
+    "indicaciones_principales": [
+      "hígado graso",
+      "convalecencia hepática",
+      "hipercolesterolemia leve",
+      "post-exceso alimenticio o alcohólico",
+      "litiasis biliar pequeña (sin obstrucción)"
+    ],
+    "interacciones_medicamentos": "Estatinas (potencia), warfarina, metronidazol",
+    "embarazo_lactancia": "Evitar",
+    "duracion_tratamiento": "4 semanas con descanso de 1",
+    "sinergia_plantas": [
+      "boldo",
+      "bailahuén"
+    ]
+  },
+  {
+    "id": 1202,
+    "titulo": "Decocción antiparasitaria suave de ajenjo, manzanilla y zanahoria",
+    "categoria": "Antiparasitario",
+    "origen": "Herbolaria europea",
+    "ingredientes": "1/4 cucharadita de ajenjo (cantidad muy controlada), 1 cucharadita de manzanilla, 1 cucharada de zanahoria rallada, 1 diente de ajo machacado, 1 cucharadita de semillas de zapallo, 300 ml de agua",
+    "preparacion": "Hervir agua con zanahoria, ajo y semillas 10 minutos. Apagar, añadir ajenjo y manzanilla. Tapar 5 minutos. Colar muy bien.",
+    "dosis": "Adultos: 1/2 taza en ayunas durante 5 días. Repetir a las 2 semanas.",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Media",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Tuyona del ajenjo con acción antihelmíntica (Bora, 2011); cucurbitina en estudios in vitro",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "EMBARAZO Y LACTANCIA absolutamente. Epilepsia. Hepatopatías. Niños menores de 12 años. Uso prolongado de ajenjo es neurotóxico (tuyona).",
+    "uso": "La tuyona del ajenjo paraliza musculatura de helmintos por bloqueo de receptores GABA en sistema nervioso del parásito, la cucurbitina inmoviliza tenia, la alicina del ajo tiene acción antiprotozoaria sobre Giardia y los betacarotenos crean ambiente intestinal desfavorable para parásitos.",
+    "principios_activos": "Tuyona, artemisinina (ajenjo): antihelmíntico. Cucurbitina (zapallo). Alicina (ajo). Betacarotenos (zanahoria).",
+    "propiedades": [
+      "antihelmíntico",
+      "antiprotozoario",
+      "amargo digestivo"
+    ],
+    "referencias": [
+      "Bora KS. et al. Pharm Biol (2011) 49:101",
+      "Krieglstein CF. et al. Int J Colorectal Dis (2010) 25:373"
+    ],
+    "indicaciones_principales": [
+      "parasitosis intestinal en adultos",
+      "oxiuros",
+      "tenia (coadyuvante)",
+      "giardiasis"
+    ],
+    "interacciones_medicamentos": "Anticonvulsivantes (antagoniza), warfarina, anticonceptivos orales",
+    "embarazo_lactancia": "ABSOLUTAMENTE CONTRAINDICADA",
+    "duracion_tratamiento": "Máximo 5 días, jamás extender",
+    "sinergia_plantas": [
+      "paico (controlado)",
+      "natre"
+    ]
   }
 ]

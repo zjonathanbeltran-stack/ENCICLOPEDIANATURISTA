@@ -2654,5 +2654,279 @@
       "purgante"
     ],
     "emoji": "⚠️"
+  },
+  {
+    "id": 96,
+    "nombre": "Hinojo",
+    "cientifico": "Foeniculum vulgare",
+    "familia": "Apiaceae",
+    "parte": "Semillas, hojas y raíz",
+    "usos": "Carminativo y digestivo que alivia cólicos, distensión abdominal y flatulencias. Galactogogo tradicional usado por nodrizas para favorecer la producción láctea. Expectorante suave en cuadros bronquiales leves.",
+    "principios_activos": "Anetol (60-70% del aceite esencial, fitoestrógeno débil con acción espasmolítica sobre músculo liso intestinal); fenchona (espasmolítica y expectorante); estragol; flavonoides (quercetina, rutina) con acción antioxidante.",
+    "region": "Cultivado de Coquimbo a Los Lagos, naturalizado en zona central",
+    "chiloe": true,
+    "meses": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "precaucion": "Evitar dosis altas en embarazo por contenido de anetol y estragol. No usar en lactantes menores de 4 meses sin supervisión. Posible alergia cruzada con apiáceas (apio, zanahoria).",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "digestión",
+      "cólicos",
+      "lactancia",
+      "gases",
+      "carminativo"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": 97,
+    "nombre": "Albahaca",
+    "cientifico": "Ocimum basilicum",
+    "familia": "Lamiaceae",
+    "parte": "Hojas y sumidades floridas",
+    "usos": "Digestivo, carminativo y antiespasmódico para indigestión nerviosa. Ansiolítico suave en infusión vespertina. Repelente tópico de insectos y antiséptico bucal en gargarismos.",
+    "principios_activos": "Linalool (sedante y ansiolítico vía modulación GABA); eugenol (antiséptico y analgésico local por bloqueo de canales TRPV1); estragol; ácido rosmarínico (antioxidante e antiinflamatorio).",
+    "region": "Cultivada en todo Chile, especialmente zona central",
+    "chiloe": false,
+    "meses": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Evitar uso terapéutico prolongado en embarazo por estragol (potencialmente genotóxico en altas dosis). Puede potenciar anticoagulantes.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "digestión",
+      "ansiedad",
+      "insomnio",
+      "carminativo"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": 98,
+    "nombre": "Orégano",
+    "cientifico": "Origanum vulgare",
+    "familia": "Lamiaceae",
+    "parte": "Hojas y sumidades floridas",
+    "usos": "Antiséptico respiratorio y digestivo de amplio espectro. Emenagogo tradicional para regular ciclos. Antiparasitario intestinal suave y expectorante en resfríos.",
+    "principios_activos": "Carvacrol y timol (fenoles con potente acción antibacteriana, antifúngica y antiparasitaria por disrupción de membrana microbiana); ácido rosmarínico; flavonoides (apigenina, luteolina).",
+    "region": "Cultivado de Atacama a Los Lagos",
+    "chiloe": true,
+    "meses": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Contraindicado en embarazo (efecto emenagogo y abortivo en dosis altas). Evitar aceite esencial puro vía oral. Puede irritar mucosas.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "antiséptico",
+      "respiratorio",
+      "antiparasitario",
+      "carvacrol"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": 99,
+    "nombre": "Centaura menor",
+    "cientifico": "Centaurium erythraea",
+    "familia": "Gentianaceae",
+    "parte": "Sumidades floridas",
+    "usos": "Amargo tónico que estimula secreciones gástricas, biliares y pancreáticas. Aperitivo en convalecientes con inapetencia y digestiones lentas. Febrífugo tradicional suave.",
+    "principios_activos": "Secoiridoides amargos (genciopicrina, swerciamarina, swertiamarina) que estimulan receptores T2R linguales y duodenales aumentando gastrina y CCK; xantonas; ácidos fenólicos.",
+    "region": "Naturalizada en zona central y sur",
+    "chiloe": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "precaucion": "Contraindicado en úlcera gástrica o duodenal activa y en gastritis hiperclorhídrica. Evitar en embarazo.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "amargo",
+      "aperitivo",
+      "digestivo",
+      "hepático"
+    ],
+    "emoji": "🌼"
+  },
+  {
+    "id": 100,
+    "nombre": "Romaza",
+    "cientifico": "Rumex crispus",
+    "familia": "Polygonaceae",
+    "parte": "Raíz y hojas tiernas",
+    "usos": "Laxante suave por su contenido de antraquinonas. Depurativo hepático tradicional usado en cuadros de piel grasa, acné y eccema. Rica en hierro biodisponible para anemias leves.",
+    "principios_activos": "Antraquinonas (emodina, crisofanol) con acción laxante por estimulación del plexo mientérico; taninos astringentes; oxalatos; hierro orgánico.",
+    "region": "Naturalizada en zona central y sur, abundante en Chiloé",
+    "chiloe": true,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "precaucion": "Alto contenido de oxalatos: contraindicada en litiasis renal, gota e insuficiencia renal. No usar en embarazo ni lactancia. Evitar uso prolongado (riesgo de atonía intestinal).",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "laxante",
+      "depurativo",
+      "hierro",
+      "anemia"
+    ],
+    "emoji": "🌱"
+  },
+  {
+    "id": 101,
+    "nombre": "Espino Blanco",
+    "cientifico": "Crataegus monogyna",
+    "familia": "Rosaceae",
+    "parte": "Flores, hojas y frutos",
+    "usos": "Cardiotónico y vasodilatador coronario. Útil en palpitaciones nerviosas, hipertensión leve, insuficiencia cardíaca incipiente (NYHA I-II) y ansiedad con somatización cardíaca.",
+    "principios_activos": "Procianidinas oligoméricas y flavonoides (vitexina, hiperósido, rutina) con acción inotrópica positiva, cronotrópica negativa e inhibición de fosfodiesterasa miocárdica; aminas (trimetilamina en flor).",
+    "region": "Naturalizado en zona central y sur en cercos",
+    "chiloe": false,
+    "meses": [
+      10,
+      11,
+      12,
+      3,
+      4
+    ],
+    "precaucion": "Puede potenciar digitálicos, betabloqueadores y antihipertensivos. Consultar en cardiopatía estructural. Iniciar con dosis baja.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "corazón",
+      "hipertensión",
+      "palpitaciones",
+      "ansiedad"
+    ],
+    "emoji": "🌸"
+  },
+  {
+    "id": 102,
+    "nombre": "Milenrama",
+    "cientifico": "Achillea millefolium",
+    "familia": "Asteraceae",
+    "parte": "Sumidades floridas",
+    "usos": "Hemostática y cicatrizante (uso tópico en heridas y epistaxis). Antiespasmódica uterina y regulador del ciclo menstrual. Digestiva amarga y antiinflamatoria intestinal.",
+    "principios_activos": "Aceite esencial con camazuleno (antiinflamatorio formado durante destilación) y proazulenos; lactonas sesquiterpénicas (aquilina); flavonoides (apigenina); ácido aquileico (hemostático).",
+    "region": "Naturalizada de Valparaíso a Aysén",
+    "chiloe": true,
+    "meses": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Contraindicada en embarazo (oxitócica). Alergia cruzada con asteráceas (manzanilla, ambrosía). Fotosensibilizante en altas dosis.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "hemostático",
+      "menstruación",
+      "cicatrizante",
+      "digestivo"
+    ],
+    "emoji": "🌼"
+  },
+  {
+    "id": 103,
+    "nombre": "Trun",
+    "cientifico": "Acaena splendens",
+    "familia": "Rosaceae",
+    "parte": "Hojas y raíz",
+    "usos": "Astringente y antidiarreico tradicional mapuche. Cicatrizante tópico en heridas y úlceras cutáneas. Diurético suave usado en cuadros urinarios.",
+    "principios_activos": "Taninos elágicos y gálicos con acción astringente por precipitación de proteínas mucosas; flavonoides; saponinas con efecto diurético leve.",
+    "region": "Cordillera y precordillera de zona central a Aysén",
+    "chiloe": true,
+    "meses": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "precaucion": "Uso prolongado puede reducir absorción de hierro y minerales. Evitar en estreñimiento.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "diarrea",
+      "astringente",
+      "cicatrizante",
+      "mapuche"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": 104,
+    "nombre": "Linaza",
+    "cientifico": "Linum usitatissimum",
+    "familia": "Linaceae",
+    "parte": "Semillas",
+    "usos": "Laxante mecánico por su mucílago, regulador intestinal en estreñimiento crónico y síndrome de intestino irritable. Fuente de omega-3 vegetal (ALA) cardioprotector. Emoliente tópico en cataplasmas.",
+    "principios_activos": "Mucílagos (3-9%) que aumentan volumen del bolo fecal; ácido alfa-linolénico (omega-3); lignanos (secoisolariciresinol diglucósido, SDG) con acción fitoestrogénica moderada; fibra soluble.",
+    "region": "Cultivada en zona sur (La Araucanía, Los Ríos)",
+    "chiloe": true,
+    "meses": [
+      2,
+      3,
+      4
+    ],
+    "precaucion": "Tomar siempre con abundante agua (riesgo de obstrucción intestinal). Contraindicada en oclusión, estenosis esofágica o íleo. Puede reducir absorción de medicamentos: separar 2 horas.",
+    "peligroso": false,
+    "protegida": false,
+    "keywords": [
+      "laxante",
+      "omega-3",
+      "estreñimiento",
+      "fibra"
+    ],
+    "emoji": "🌾"
+  },
+  {
+    "id": 105,
+    "nombre": "Maravilla del campo",
+    "cientifico": "Anagallis arvensis",
+    "familia": "Primulaceae",
+    "parte": "Planta entera florida",
+    "usos": "Expectorante tradicional en bronquitis y tos productiva. Diurético suave. Uso tópico tradicional en dermatosis y verrugas. Empleo restringido por toxicidad.",
+    "principios_activos": "Saponinas triterpénicas (anagaloside) con acción expectorante por irritación refleja de mucosa gástrica; cucurbitacinas (citotóxicas); ácidos fenólicos.",
+    "region": "Naturalizada de Coquimbo a Los Lagos en cultivos",
+    "chiloe": true,
+    "meses": [
+      10,
+      11,
+      12,
+      1
+    ],
+    "precaucion": "Planta tóxica en dosis altas: puede causar gastroenteritis, nefritis y depresión cardíaca. Contraindicada en embarazo, lactancia y niños. Uso solo bajo supervisión experta.",
+    "peligroso": true,
+    "protegida": false,
+    "keywords": [
+      "expectorante",
+      "tóxica",
+      "tradicional",
+      "bronquitis"
+    ],
+    "emoji": "🌺"
   }
 ]

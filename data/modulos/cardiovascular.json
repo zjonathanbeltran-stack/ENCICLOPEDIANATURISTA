@@ -2420,5 +2420,261 @@
       "abedul",
       "pilosella"
     ]
+  },
+  {
+    "id": 1179,
+    "titulo": "Cardiotónico nocturno de espino blanco, melisa y tilo",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia cardiovascular europea",
+    "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de melisa, 1 cucharadita de flor de tilo, 1/2 cucharadita de pasiflora, 300 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10-12 minutos. Colar.",
+    "dosis": "1 taza después de la cena durante 6-8 semanas",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml",
+    "conservacion": "Preparar fresca",
+    "evidencia": "Espino blanco con evidencia en insuficiencia cardíaca NYHA II (Pittler, 2008)",
+    "fuente_tradicion": "Herbolaria cardiovascular europea",
+    "contraindicaciones": "Digitálicos, betabloqueadores sin supervisión, cardiopatías graves no controladas, hipotensión severa.",
+    "uso": "Las procianidinas oligoméricas del espino blanco aumentan tono inotrópico cardíaco e inhiben fosfodiesterasa miocárdica mejorando contractilidad, mientras vasodilatan coronarias por liberación de óxido nítrico endotelial; melisa y tilo aportan modulación parasimpática reduciendo taquicardia ansiosa.",
+    "principios_activos": "Procianidinas oligoméricas, vitexina (espino): inotrópico positivo. Ácido rosmarínico (melisa). Farnesol (tilo). Crisina (pasiflora).",
+    "propiedades": [
+      "cardiotónico",
+      "vasodilatador coronario",
+      "antihipertensivo suave",
+      "ansiolítico"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+      "Tassell MC. et al. Pharmacogn Rev (2010) 4:32"
+    ],
+    "indicaciones_principales": [
+      "hipertensión leve",
+      "palpitaciones nerviosas",
+      "insuficiencia cardíaca NYHA I-II",
+      "ansiedad con somatización cardíaca",
+      "convalecencia cardiovascular"
+    ],
+    "interacciones_medicamentos": "Potencia digoxina, antihipertensivos, betabloqueadores",
+    "embarazo_lactancia": "Datos insuficientes, evitar",
+    "duracion_tratamiento": "Mínimo 6 semanas, máximo 12",
+    "sinergia_plantas": [
+      "valeriana",
+      "hierba del sapo"
+    ]
+  },
+  {
+    "id": 1180,
+    "titulo": "Decocción diurética de cola de caballo, perejil y diente de león",
+    "categoria": "Diurético",
+    "origen": "Herbolaria diurética tradicional",
+    "ingredientes": "1 cucharadita de cola de caballo, 1 cucharadita de hojas de diente de león, 1 cucharadita de perejil fresco, 1/2 cucharadita de pelos de choclo (estigmas de maíz), 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo y diente de león 10 minutos. Apagar, añadir perejil y pelos de choclo. Tapar 5 minutos. Colar.",
+    "dosis": "2 tazas al día durante el día, no después de las 18:00 hrs",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Diente de león con efecto diurético confirmado (Clare, 2009); cola de caballo en uso tradicional",
+    "fuente_tradicion": "Herbolaria europea y americana",
+    "contraindicaciones": "Insuficiencia renal, edema cardíaco o renal severo, embarazo (perejil emenagogo), tratamiento con diuréticos.",
+    "uso": "El diente de león es uno de los pocos diuréticos vegetales que aporta potasio compensando pérdidas, los flavonoides de cola de caballo aumentan filtración glomerular y la apiol del perejil estimula directamente el túbulo distal incrementando excreción de sodio sin alterar electrolitos severamente.",
+    "principios_activos": "Taraxasterol (diente de león): diurético, rico en potasio. Equisetonina, flavonoides (cola de caballo). Apiol, miristicina (perejil). Maizina (pelos de choclo).",
+    "propiedades": [
+      "diurético",
+      "depurativo renal",
+      "antiedematoso",
+      "remineralizante"
+    ],
+    "referencias": [
+      "Clare BA. et al. J Altern Complement Med (2009) 15:929",
+      "Yarnell E. Altern Complement Ther (2002) 8:103"
+    ],
+    "indicaciones_principales": [
+      "retención de líquidos",
+      "edemas leves de miembros inferiores",
+      "infecciones urinarias leves (coadyuvante)",
+      "hipertensión leve"
+    ],
+    "interacciones_medicamentos": "Diuréticos farmacológicos, litio, anticoagulantes",
+    "embarazo_lactancia": "Evitar por contenido de perejil",
+    "duracion_tratamiento": "Ciclos de 2-3 semanas",
+    "sinergia_plantas": [
+      "llantén",
+      "pichi"
+    ]
+  },
+  {
+    "id": 1181,
+    "titulo": "Infusión renal antiinflamatoria de pichi, llantén y cola de caballo",
+    "categoria": "Renal",
+    "origen": "Herbolaria chilena",
+    "ingredientes": "1/2 cucharadita de pichi, 1 cucharadita de llantén, 1 cucharadita de cola de caballo, 1/2 cucharadita de zarzaparrilla, 400 ml de agua",
+    "preparacion": "Hervir agua con cola de caballo y zarzaparrilla 8 minutos. Apagar, añadir pichi y llantén. Tapar 7 minutos. Colar.",
+    "dosis": "2 tazas al día, alejado de comidas, durante 10 días",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "20 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "400 ml",
+    "conservacion": "24 horas refrigerado",
+    "evidencia": "Pichi (Fabiana imbricata) con uso tradicional documentado en cistitis (Houghton, 1994)",
+    "fuente_tradicion": "Tradición chilena y mapuche",
+    "contraindicaciones": "Insuficiencia renal moderada-severa, embarazo, niños menores de 12 años, prostatismo severo.",
+    "uso": "Los flavonoides del pichi tienen acción antiséptica urinaria por excreción renal de derivados fenólicos activos, los iridoides del llantén (aucubina) protegen el urotelio inflamado y la cola de caballo aporta sílice estructural para tejido renal y mucosa vesical.",
+    "principios_activos": "Cumarinas, fabianina (pichi): antiséptico urinario. Aucubina, catalpol (llantén). Equisetonina, sílice (cola de caballo).",
+    "propiedades": [
+      "antiséptico urinario",
+      "antiinflamatorio renal",
+      "diurético suave",
+      "demulcente"
+    ],
+    "referencias": [
+      "Houghton PJ. et al. Phytother Res (1994) 8:373",
+      "Wegener T. et al. Phytomedicine (1999) 6:181"
+    ],
+    "indicaciones_principales": [
+      "cistitis no complicada",
+      "uretritis",
+      "molestias miccionales",
+      "litiasis renal pequeña (coadyuvante)",
+      "prevención de ITU recurrente"
+    ],
+    "interacciones_medicamentos": "Antibióticos urinarios (puede potenciar), diuréticos",
+    "embarazo_lactancia": "Contraindicado pichi",
+    "duracion_tratamiento": "Máximo 10 días continuos",
+    "sinergia_plantas": [
+      "arándano rojo",
+      "matico"
+    ]
+  },
+  {
+    "id": 1193,
+    "titulo": "Aceite de masaje circulatorio de hipérico, romero y castaño de indias",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia vascular europea",
+    "ingredientes": "100 ml de oleato de hipérico, 30 ml de oleato de romero, 20 gotas de aceite esencial de ciprés, 15 gotas de aceite esencial de lavanda, 10 gotas de aceite esencial de limón",
+    "preparacion": "Mezclar oleatos. Añadir aceites esenciales agitando. Envasar en frasco oscuro.",
+    "dosis": "Masajear piernas de tobillos hacia rodillas, ascendiendo, 1-2 veces al día",
+    "modo_uso": "Masaje circulatorio",
+    "tiempo_prep": "10 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "130 ml",
+    "conservacion": "6 meses en frasco oscuro",
+    "evidencia": "Castaño de indias con eficacia en insuficiencia venosa (Pittler, 2012)",
+    "fuente_tradicion": "Fitoterapia vascular europea",
+    "contraindicaciones": "Heridas abiertas. Hipérico tópico: evitar exposición solar (fotosensibilizante). Embarazo abdominal.",
+    "uso": "La escina del castaño de indias reduce permeabilidad capilar inhibiendo elastasa y hialuronidasa que degradan paredes venosas, la hiperforina del hipérico tiene acción venotónica y el ciprés contiene alfa-pineno que mejora retorno venoso por vasoconstricción venosa selectiva.",
+    "principios_activos": "Hiperforina, hipericina (hipérico): venotónico. Alfa-pineno, sabineno (ciprés). Ácido carnósico (romero).",
+    "propiedades": [
+      "venotónico",
+      "circulatorio",
+      "antiedematoso",
+      "descongestivo"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2012) CD003230",
+      "Suter A. et al. Adv Ther (2006) 23:179"
+    ],
+    "indicaciones_principales": [
+      "insuficiencia venosa",
+      "varices",
+      "piernas pesadas",
+      "edema vespertino de piernas",
+      "calambres nocturnos"
+    ],
+    "interacciones_medicamentos": "Tópico, fotosensibilidad",
+    "embarazo_lactancia": "Evitar en abdomen y mamas",
+    "duracion_tratamiento": "Uso continuo",
+    "sinergia_plantas": [
+      "caléndula",
+      "milenrama"
+    ]
+  },
+  {
+    "id": 1204,
+    "titulo": "Infusión hipotensora de espino blanco, olivo y melisa",
+    "categoria": "Cardiovascular",
+    "origen": "Fitoterapia mediterránea",
+    "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de hojas de olivo, 1 cucharadita de melisa, 1/2 cucharadita de tilo, 350 ml de agua",
+    "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+    "dosis": "1 taza 2 veces al día durante 8-12 semanas (con control de PA)",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 minutos",
+    "dificultad": "Fácil",
+    "rendimiento": "350 ml",
+    "conservacion": "24 horas refrigerada",
+    "evidencia": "Hojas de olivo reducen presión arterial sistólica y diastólica (Susalit, 2011)",
+    "fuente_tradicion": "Fitoterapia mediterránea",
+    "contraindicaciones": "Hipotensión, embarazo, niños, asociado a antihipertensivos requiere control médico y ajuste de dosis.",
+    "uso": "La oleuropeína de hojas de olivo inhibe enzima convertidora de angiotensina (ECA) y relaja músculo liso vascular por estímulo de óxido nítrico endotelial, las procianidinas del espino vasodilatan coronarias y la melisa modula tono simpático reduciendo HTA reactiva al estrés.",
+    "principios_activos": "Oleuropeína (olivo): inhibidor ECA, vasodilatador. Procianidinas (espino). Ácido rosmarínico (melisa). Farnesol (tilo).",
+    "propiedades": [
+      "antihipertensivo",
+      "vasodilatador",
+      "cardioprotector",
+      "antioxidante vascular"
+    ],
+    "referencias": [
+      "Susalit E. et al. Phytomedicine (2011) 18:251",
+      "Walker AF. et al. Br J Gen Pract (2002) 52:437"
+    ],
+    "indicaciones_principales": [
+      "hipertensión arterial leve",
+      "prehipertensión",
+      "ansiedad con elevación tensional",
+      "complemento de antihipertensivos (con supervisión)"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos (potencia), hipoglucemiantes, digoxina",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "12 semanas con control de presión",
+    "sinergia_plantas": [
+      "hierba del sapo",
+      "ajo"
+    ]
+  },
+  {
+    "id": 1206,
+    "titulo": "Tintura cardiovascular de espino blanco, hierba del sapo y arnica",
+    "categoria": "Cardiovascular",
+    "origen": "Herbolaria cardiovascular chilena",
+    "ingredientes": "30 g de flores y hojas de espino blanco, 25 g de hierba del sapo, 15 g de melisa, 5 g de flores de árnica, 250 ml de alcohol al 50%",
+    "preparacion": "Macerar todas las plantas en alcohol 21 días en frasco oscuro agitando. Filtrar y envasar en gotero ámbar.",
+    "dosis": "15-20 gotas en agua, 2-3 veces al día",
+    "modo_uso": "Tintura",
+    "tiempo_prep": "21 días",
+    "dificultad": "Media",
+    "rendimiento": "200 ml",
+    "conservacion": "2 años en lugar fresco y oscuro",
+    "evidencia": "Hierba del sapo (Eryngium paniculatum) con uso tradicional chileno en cardiopatías",
+    "fuente_tradicion": "Tradición herbolaria chilena",
+    "contraindicaciones": "Cardiopatías graves no controladas, embarazo, lactancia, anticoagulantes, niños. La árnica interna requiere dosis homeopáticas.",
+    "uso": "Las procianidinas del espino blanco aumentan contractilidad cardíaca por inhibición de fosfodiesterasa y mejoran perfusión coronaria, mientras los principios de hierba del sapo (saponinas y flavonoides) tienen acción hipolipemiante y antioxidante vascular, y la melisa atenúa taquicardia ansiosa.",
+    "principios_activos": "Procianidinas, vitexina (espino blanco). Saponinas, flavonoides (hierba del sapo). Ácido rosmarínico (melisa). Helenalina (árnica, microdosis).",
+    "propiedades": [
+      "cardiotónico",
+      "hipolipemiante",
+      "vasodilatador coronario",
+      "antioxidante cardiovascular"
+    ],
+    "referencias": [
+      "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+      "Houghton PJ. Phytother Res (1994) 8:373"
+    ],
+    "indicaciones_principales": [
+      "hipercolesterolemia leve",
+      "ateroesclerosis incipiente",
+      "palpitaciones",
+      "ansiedad cardíaca",
+      "convalecencia post-evento cardíaco"
+    ],
+    "interacciones_medicamentos": "Digitálicos, antihipertensivos, anticoagulantes, estatinas",
+    "embarazo_lactancia": "Contraindicada",
+    "duracion_tratamiento": "8-12 semanas con control",
+    "sinergia_plantas": [
+      "olivo",
+      "ajo"
+    ]
   }
 ]
