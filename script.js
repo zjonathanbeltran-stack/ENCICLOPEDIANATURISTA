@@ -892,7 +892,10 @@ function _rfRenderGrid(filtradas) {
         const props = (r.propiedades || []).slice(0, 3);
         return `
         <div class="rsearch-card" data-rid="${r.id}">
-            <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
+            <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
+                <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
+                <span class="rsearch-cat">${r.categoria}</span>
+            </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
@@ -2095,9 +2098,13 @@ function resetearFiltros() {
 
 
 // ── Iconos SVG botánicos personalizados ──
-const _SVG_USO = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="2.2" d="M13.5 3 L9.5 9"/><circle cx="14.2" cy="2.2" r="1.6" fill="currentColor" stroke="none" opacity="0.75"/><line stroke-width="2" x1="4" y1="9.5" x2="16" y2="9.5"/><path stroke-width="1.8" d="M5 9.5 Q4.5 16 10 16 Q15.5 16 15 9.5"/><path stroke-width="1.1" d="M8 13 Q9.5 11.5 12 13" opacity="0.45"/></svg>`;
-
+const _SVG_USO   = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="2.2" d="M13.5 3 L9.5 9"/><circle cx="14.2" cy="2.2" r="1.6" fill="currentColor" stroke="none" opacity="0.75"/><line stroke-width="2" x1="4" y1="9.5" x2="16" y2="9.5"/><path stroke-width="1.8" d="M5 9.5 Q4.5 16 10 16 Q15.5 16 15 9.5"/><path stroke-width="1.1" d="M8 13 Q9.5 11.5 12 13" opacity="0.45"/></svg>`;
 const _SVG_INDIC = `<svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z" fill="currentColor" fill-opacity="0.18"/><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z"/><line stroke-width="1.9" x1="13.5" y1="8" x2="20" y2="8"/><line stroke-width="1.9" x1="13.5" y1="12.5" x2="20" y2="12.5"/><line stroke-width="1.9" x1="13.5" y1="17" x2="18.5" y2="17"/></svg>`;
+const _SVG_HERB  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.8" d="M10 17 V9"/><path stroke-width="1.6" d="M10 9 C9 5 5 4 5 4 C5 4 5 8 7 10 C9 12 10 9 10 9Z" fill="currentColor" fill-opacity="0.18"/><path stroke-width="1.6" d="M10 13 C11 9 15 8 15 8 C15 8 15 12 13 14 C11 16 10 13 10 13Z" fill="currentColor" fill-opacity="0.18"/></svg>`;
+const _SVG_PREP  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.8" d="M4 9 Q4 16 10 16 Q16 16 16 9"/><line stroke-width="2" x1="2" y1="9" x2="18" y2="9"/><path stroke-width="1.4" d="M8 7 Q7.5 5 8 3" opacity="0.7"/><path stroke-width="1.4" d="M12 7 Q11.5 5 12 3" opacity="0.7"/></svg>`;
+const _SVG_DOSIS = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M8 3 L12 3 L13 8 Q14 10.5 10 10.5 Q6 10.5 7 8Z"/><path stroke-width="1.7" d="M9.5 10.5 L9.5 16"/><path stroke-width="1.7" d="M10.5 10.5 L10.5 16"/><circle cx="10" cy="17.5" r="1.2" fill="currentColor" stroke="none" opacity="0.65"/></svg>`;
+const _SVG_FRIO  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><rect x="6" y="3" width="8" height="2" rx="1" stroke-width="1.6"/><path stroke-width="1.7" d="M5 5 Q4 5 4 7 L4 16 Q4 17 5 17 L15 17 Q16 17 16 16 L16 7 Q16 5 15 5Z"/><line stroke-width="1.2" x1="4" y1="11" x2="16" y2="11" opacity="0.45"/></svg>`;
+const _SVG_FLASK = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M7 3 L7 9 L3 15 Q2 17 4 17 L16 17 Q18 17 17 15 L13 9 L13 3"/><line stroke-width="2" x1="6" y1="3" x2="14" y2="3"/><path stroke-width="1.3" d="M5 13 Q8 11.5 12 13" opacity="0.5"/></svg>`;
 
 // ── Fotos curadas por tipo de preparación ──
 const _RECETA_FOTOS = {
@@ -2336,11 +2343,11 @@ function abrirDetalleReceta(id) {
 
         <!-- Ingredientes y Preparación -->
         <div class="modal-row">
-            <div class="ico">🌿</div>
+            <div class="ico ico-moss">${_SVG_HERB}</div>
             <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
         </div>
         <div class="modal-row">
-            <div class="ico">📋</div>
+            <div class="ico ico-amber">${_SVG_PREP}</div>
             <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
         </div>
 
@@ -2348,7 +2355,7 @@ function abrirDetalleReceta(id) {
 
         <!-- Dosis y modo de uso -->
         <div class="modal-row">
-            <div class="ico">💊</div>
+            <div class="ico ico-amber">${_SVG_DOSIS}</div>
             <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
         </div>
         <div class="modal-row">
@@ -2356,7 +2363,7 @@ function abrirDetalleReceta(id) {
             <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
         </div>
         <div class="modal-row">
-            <div class="ico">❄️</div>
+            <div class="ico ico-blue">${_SVG_FRIO}</div>
             <div><div class="label">Conservación</div><div class="value">${r.conservacion || '—'}</div></div>
         </div>
 
@@ -2392,7 +2399,7 @@ function abrirDetalleReceta(id) {
         ${r.principios_activos ? `
         <div class="modal-divider"></div>
         <div class="receta-principios">
-            <div class="principios-icon">🔬</div>
+            <div class="principios-icon">${_SVG_FLASK}</div>
             <div class="principios-body">
                 <div class="principios-label">Principios activos</div>
                 <div class="principios-texto">${r.principios_activos}</div>

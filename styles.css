@@ -1017,6 +1017,16 @@ header {
     background: rgba(155,187,122,0.08);
     border-color: rgba(155,187,122,0.22);
 }
+.modal-row .ico.ico-amber {
+    color: var(--amber);
+    background: rgba(212,165,116,0.08);
+    border-color: rgba(212,165,116,0.22);
+}
+.modal-row .ico.ico-blue {
+    color: #7ab8d4;
+    background: rgba(122,184,212,0.08);
+    border-color: rgba(122,184,212,0.22);
+}
 .modal-row .ico svg { display: block; }
 .modal-row .label {
     font-size: 0.7rem;
@@ -5556,13 +5566,34 @@ body.custom-cursor-on .cursor-ring { display: block; }
     box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(155,187,122,0.2);
     border-color: rgba(155,187,122,0.35);
 }
+.rsearch-thumb {
+    position: relative;
+    height: 130px;
+    overflow: hidden;
+}
+.rsearch-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s var(--ease-out), opacity 0.2s;
+}
+.rsearch-card:hover .rsearch-thumb img {
+    transform: scale(1.06);
+}
 .rsearch-cat {
-    font-size: 0.68rem;
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: rgba(255,255,255,0.95);
-    padding: 7px 14px;
+    background: rgba(0,0,0,0.48);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 6px;
+    padding: 3px 9px;
 }
 .rsearch-titulo {
     font-size: 0.93rem;
@@ -5723,11 +5754,16 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 10px 0;
 }
 .principios-icon {
-    font-size: 1.2rem;
+    width: 34px; height: 34px;
+    border-radius: 10px;
+    background: rgba(122,184,212,0.10);
+    border: 1px solid rgba(122,184,212,0.28);
+    display: grid;
+    place-items: center;
+    color: #7ab8d4;
     flex-shrink: 0;
-    margin-top: 2px;
-    opacity: 0.8;
 }
+.principios-icon svg { display: block; }
 .principios-label {
     font-size: 0.68rem;
     font-weight: 700;
