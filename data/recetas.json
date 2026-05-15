@@ -25,7 +25,23 @@
       "cicatrizante",
       "antimicrobiano"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "resfriado común",
+      "gripe inicial",
+      "dolor de garganta leve",
+      "tos irritativa",
+      "gastritis funcional"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (cumarinas de la manzanilla) y sedantes. El limón puede alterar absorción de algunos fármacos.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia; no exceder 2-3 tazas/día.",
+    "duracion_tratamiento": "Uso agudo 5-7 días; si persiste consultar médico.",
+    "sinergia_plantas": [
+      "tilo",
+      "saúco",
+      "llantén",
+      "menta"
+    ]
   },
   {
     "id": 2,
@@ -53,7 +69,23 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "dolor neuropático",
+      "odontalgias",
+      "estados inflamatorios",
+      "dolor articular leve",
+      "neuralgias"
+    ],
+    "interacciones_medicamentos": "Precaución con analgésicos opioides y anticonvulsivantes (bloqueadores de canales de sodio); puede potenciar efecto de AINEs.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de estudios de seguridad y potencial actividad uterotónica de sesquiterpenos.",
+    "duracion_tratamiento": "Máximo 2 semanas; descansar 1 semana antes de retomar.",
+    "sinergia_plantas": [
+      "matico",
+      "natre",
+      "llantén",
+      "manzanilla"
+    ]
   },
   {
     "id": 3,
@@ -80,7 +112,23 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "heridas superficiales",
+      "úlceras dérmicas",
+      "quemaduras leves",
+      "picaduras de insecto",
+      "dermatitis localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Precaución si hay aplicación sobre piel lesionada extensa con anticoagulantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar hasta cicatrización; máximo 2-3 semanas continuas.",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla",
+      "caléndula",
+      "arrayán"
+    ]
   },
   {
     "id": 4,
@@ -108,7 +156,23 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "digestión lenta",
+      "colecistopatía leve",
+      "náuseas tras comidas grasas",
+      "hepatoprotección"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), sedantes y medicamentos hepatotóxicos. La boldina puede potenciar fármacos metabolizados por CYP450.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia (ascaridol potencialmente abortivo y neurotóxico).",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "menta",
+      "manzanilla",
+      "cedrón",
+      "diente de león"
+    ]
   },
   {
     "id": 5,
@@ -136,7 +200,23 @@
       "antioxidante",
       "antiinflamatorio"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "fatiga leve",
+      "estrés oxidativo",
+      "convalecencia",
+      "agotamiento físico ocasional",
+      "soporte antioxidante"
+    ],
+    "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, insulina) y anticoagulantes (warfarina). Vigilar glucemia.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia (alimento tradicional).",
+    "duracion_tratamiento": "Uso continuo seguro como alimento funcional; en infusión, curas de 4-6 semanas.",
+    "sinergia_plantas": [
+      "murtilla",
+      "rosa mosqueta",
+      "calafate",
+      "miel de ulmo"
+    ]
   },
   {
     "id": 6,
@@ -182,7 +262,22 @@
       "antidiarreico",
       "cicatrizante"
     ],
-    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "dolor reumático crónico",
+      "artralgias",
+      "rigidez articular matinal",
+      "contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo avanzado por riesgo de hipertermia. Precaución en lactancia.",
+    "duracion_tratamiento": "2-3 veces por semana durante 4-6 semanas.",
+    "sinergia_plantas": [
+      "romero",
+      "matico",
+      "canelo",
+      "eucalipto"
+    ]
   },
   {
     "id": 8,
@@ -208,7 +303,23 @@
       "digestivo",
       "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010"
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "parasitosis intestinal",
+      "ascariasis",
+      "oxiuriasis",
+      "giardiasis leve",
+      "dispepsia parasitaria"
+    ],
+    "interacciones_medicamentos": "Precaución con antiepilépticos y depresores del SNC; el ascaridol potencia toxicidad de medicamentos hepatotóxicos.",
+    "embarazo_lactancia": "Contraindicado en embarazo (abortivo) y lactancia. No usar en niños menores de 6 años.",
+    "duracion_tratamiento": "Máximo 3 días consecutivos; no repetir antes de 2-3 semanas.",
+    "sinergia_plantas": [
+      "ajenjo",
+      "ajo",
+      "matico",
+      "boldo"
+    ]
   },
   {
     "id": 9,
@@ -235,7 +346,23 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "heridas leves",
+      "picaduras de insecto",
+      "abrasiones cutáneas",
+      "dermatitis localizada",
+      "úlceras superficiales"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Hasta cicatrización; renovar 2 veces al día durante máximo 2 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "caléndula",
+      "arrayán"
+    ]
   },
   {
     "id": 10,
@@ -262,7 +389,22 @@
       "antiespasmódico",
       "diaforético"
     ],
-    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos digestivos",
+      "flatulencia",
+      "dispepsia espasmódica",
+      "dismenorrea leve"
+    ],
+    "interacciones_medicamentos": "Precaución con paracetamol y otros hepatotóxicos (la pulegona es hepatotóxica en dosis altas). Evitar con antiepilépticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo (emenagogo y abortivo). Evitar en lactancia y en niños pequeños.",
+    "duracion_tratamiento": "Máximo 1 semana de uso continuo; consultar si persisten síntomas más de 3 días.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "menta",
+      "cedrón",
+      "toronjil"
+    ]
   },
   {
     "id": 11,
@@ -308,7 +450,22 @@
       "antiséptico",
       "antifúngico"
     ],
-    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "eccemas",
+      "psoriasis leve",
+      "dermatitis seborreica",
+      "picazón crónica localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Evitar en piel con corticoides tópicos potentes simultáneos.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar 2 veces al día por 2-4 semanas; descansar antes de retomar.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "caléndula",
+      "manzanilla"
+    ]
   },
   {
     "id": 13,
@@ -336,7 +493,22 @@
       "antioxidante",
       "antiespasmódico bronquial"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "bronquitis aguda leve",
+      "tos productiva",
+      "resfriado con expectoración difícil",
+      "irritación bronquial"
+    ],
+    "interacciones_medicamentos": "Precaución con antitusivos centrales (el radal favorece expectoración). Vigilar con antidiabéticos por contenido de miel.",
+    "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Máximo 10-14 días; si persisten síntomas consultar médico.",
+    "sinergia_plantas": [
+      "eucalipto",
+      "llantén",
+      "tomillo",
+      "saúco"
+    ]
   },
   {
     "id": 14,
@@ -362,7 +534,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "otalgia leve",
+      "tapón de cerumen blando",
+      "otitis externa leve (uso experto)"
+    ],
+    "interacciones_medicamentos": "Uso tópico ótico: sin interacciones sistémicas. No usar si hay perforación timpánica.",
+    "embarazo_lactancia": "Contraindicado incluso vía tópica en embarazo (riesgo de absorción y abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Uso puntual 2-3 días; si persiste, consultar otorrino. No usar en niños.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "lavanda",
+      "llantén"
+    ]
   },
   {
     "id": 15,
@@ -427,7 +613,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "diarrea aguda no infecciosa",
+      "diarrea del viajero leve",
+      "gastroenteritis viral",
+      "colitis leve"
+    ],
+    "interacciones_medicamentos": "Los taninos reducen la absorción de hierro, fármacos alcaloideos y antibióticos; separar la toma al menos 2 horas.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia por falta de estudios; preferir uso bajo orientación profesional.",
+    "duracion_tratamiento": "Uso máximo 48-72 horas; si persiste o hay sangre, consulta médica urgente.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "llantén",
+      "murtilla"
+    ]
   },
   {
     "id": 18,
@@ -511,7 +712,23 @@
       "carminativo",
       "antiespasmódico"
     ],
-    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985"
+    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "ansiedad leve a moderada",
+      "insomnio de conciliación",
+      "estrés cotidiano",
+      "palpitaciones nerviosas",
+      "irritabilidad"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos (ISRS, IMAO) y hormonas tiroideas (puede inhibir conversión T4-T3).",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia; evitar uso prolongado por efecto sobre tiroides.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "tilo",
+      "lavanda",
+      "cedrón"
+    ]
   },
   {
     "id": 22,
@@ -556,7 +773,21 @@
       "antiespasmódico",
       "vasoprotector"
     ],
-    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017"
+    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
+    "indicaciones_principales": [
+      "fiebre leve infantil",
+      "estados febriles posvirales",
+      "malestar general con calor corporal"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes. Vigilar antitérmicos farmacológicos administrados simultáneamente.",
+    "embarazo_lactancia": "Uso externo seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso puntual mientras dure la fiebre leve; si supera 39°C o dura más de 48 h, urgencias.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "saúco",
+      "tilo",
+      "matico"
+    ]
   },
   {
     "id": 24,
@@ -602,7 +833,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "conjuntivitis irritativa leve",
+      "fatiga ocular",
+      "irritación ocular por polvo",
+      "blefaritis leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia con preparación estéril.",
+    "duracion_tratamiento": "Uso agudo 3-5 días; si hay secreción purulenta o dolor, consultar oftalmólogo.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "matico",
+      "rosa mosqueta",
+      "caléndula"
+    ]
   },
   {
     "id": 26,
@@ -629,7 +875,22 @@
       "antiespasmódico",
       "relajante muscular"
     ],
-    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999"
+    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "insomnio de conciliación",
+      "ansiedad nocturna",
+      "tensión nerviosa",
+      "despertar precoz leve"
+    ],
+    "interacciones_medicamentos": "Contraindicado con benzodiazepinas, barbitúricos, opioides, alcohol y antidepresivos. Potencia depresores del SNC.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4-6 semanas continuas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "toronjil",
+      "lavanda",
+      "manzanilla",
+      "pasiflora"
+    ]
   },
   {
     "id": 27,
@@ -676,7 +937,22 @@
       "astringente",
       "emenagogo"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Monografía ISP-MINSAL: Ruta graveolens"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Monografía ISP-MINSAL: Ruta graveolens",
+    "indicaciones_principales": [
+      "limpieza energética ritual",
+      "cuadros de susto o espanto",
+      "ansiedad situacional",
+      "duelo emocional"
+    ],
+    "interacciones_medicamentos": "Uso ritual externo: sin interacciones sistémicas relevantes. Evitar contacto si se usan fotosensibilizantes (furanocumarinas de ruda).",
+    "embarazo_lactancia": "Contraindicado en embarazo: la ruda es abortiva. Evitar en lactancia.",
+    "duracion_tratamiento": "Aplicación puntual ritual; no requiere uso continuo.",
+    "sinergia_plantas": [
+      "palo santo",
+      "romero",
+      "canelo",
+      "laurel"
+    ]
   },
   {
     "id": 29,
@@ -703,7 +979,22 @@
       "inmunoestimulante",
       "antidiabético"
     ],
-    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002"
+    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+    "indicaciones_principales": [
+      "faringitis aguda",
+      "irritación de garganta",
+      "tos seca",
+      "afonía leve"
+    ],
+    "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, sulfonilureas, insulina). Precaución con anticoagulantes por contenido de antocianinas.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia.",
+    "duracion_tratamiento": "Uso agudo durante 7-10 días.",
+    "sinergia_plantas": [
+      "miel de ulmo",
+      "llantén",
+      "tilo",
+      "eucalipto"
+    ]
   },
   {
     "id": 30,
@@ -749,7 +1040,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "fiebre leve",
+      "estados gripales",
+      "malestar febril",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Precaución con hipoglucemiantes y antihipertensivos por efecto sinérgico. Vigilar con anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo; evitar en lactancia por falta de datos.",
+    "duracion_tratamiento": "Máximo 2 semanas continuas; descansar antes de repetir.",
+    "sinergia_plantas": [
+      "tilo",
+      "saúco",
+      "manzanilla",
+      "boldo"
+    ]
   },
   {
     "id": 32,
@@ -777,7 +1083,22 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "hígado graso leve",
+      "colestasis funcional",
+      "dispepsia hepatobiliar",
+      "hepatoprotección preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, sedantes y medicamentos metabolizados por hígado (CYP450). Evitar con otros hepatotóxicos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 10 días seguidos; descansar 1-2 semanas antes de repetir.",
+    "sinergia_plantas": [
+      "diente de león",
+      "cardo mariano",
+      "alcachofa",
+      "menta"
+    ]
   },
   {
     "id": 33,
@@ -832,7 +1153,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "retención de líquidos leve",
+      "cistitis funcional",
+      "edema leve",
+      "depuración renal preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos (potenciación), litio (riesgo de toxicidad) y antihipertensivos.",
+    "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Evitar en insuficiencia renal.",
+    "duracion_tratamiento": "Máximo 2 semanas; descansar antes de retomar.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "diente de león",
+      "llantén",
+      "perejil"
+    ]
   },
   {
     "id": 35,
@@ -859,7 +1195,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "reumatismo localizado",
+      "neuralgias periféricas",
+      "hematomas",
+      "inflamación articular leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar diariamente durante máximo 2 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "arnica",
+      "romero"
+    ]
   },
   {
     "id": 36,
@@ -886,7 +1237,22 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "reumatismo articular",
+      "artralgias crónicas",
+      "lumbalgia crónica leve",
+      "rigidez matinal"
+    ],
+    "interacciones_medicamentos": "Precaución con AINEs, anticoagulantes y corticoides (potenciación de efectos gástricos).",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de datos de seguridad.",
+    "duracion_tratamiento": "Curas de 2-3 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "matico",
+      "romero",
+      "canelo",
+      "sauce"
+    ]
   },
   {
     "id": 37,
@@ -942,7 +1308,22 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "fatiga emocional",
+      "limpieza energética",
+      "recuperación post-enfermedad",
+      "estrés crónico"
+    ],
+    "interacciones_medicamentos": "Uso externo ritual: sin interacciones sistémicas. Precaución respiratoria al quemar hojas en asmáticos.",
+    "embarazo_lactancia": "Uso externo ritual considerado seguro; evitar inhalación prolongada del humo en embarazo.",
+    "duracion_tratamiento": "Uso ocasional ceremonial; sin restricción de duración.",
+    "sinergia_plantas": [
+      "maqui",
+      "boldo",
+      "romero",
+      "menta"
+    ]
   },
   {
     "id": 39,
@@ -1036,7 +1417,22 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "odontalgia aguda leve",
+      "dolor por caries superficial",
+      "alivio sintomático bucal",
+      "gingivitis localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico bucal: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia; uso puntual aceptable, evitar deglución.",
+    "duracion_tratamiento": "Uso puntual hasta consulta odontológica (no más de 2-3 días).",
+    "sinergia_plantas": [
+      "clavo de olor",
+      "matico",
+      "salvia",
+      "manzanilla"
+    ]
   },
   {
     "id": 43,
@@ -1063,7 +1459,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "halitosis",
+      "higiene bucal",
+      "gingivitis leve",
+      "aftas bucales"
+    ],
+    "interacciones_medicamentos": "Uso tópico bucal: precaución con anticoagulantes y antiarrítmicos por absorción mucosa del mentol en dosis altas.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia: evitar dosis altas o uso prolongado del aceite esencial.",
+    "duracion_tratamiento": "Uso diario tópico; revisar si halitosis persiste más de 2 semanas.",
+    "sinergia_plantas": [
+      "salvia",
+      "tomillo",
+      "romero",
+      "manzanilla"
+    ]
   },
   {
     "id": 44,
@@ -1090,7 +1501,23 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "estrés agudo",
+      "cefalea tensional",
+      "insomnio leve",
+      "ansiedad situacional",
+      "nerviosismo"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y antihipertensivos (puede potenciar hipotensión).",
+    "embarazo_lactancia": "Precaución en embarazo (especialmente primer trimestre); seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Curas de 2-3 semanas con descanso.",
+    "sinergia_plantas": [
+      "toronjil",
+      "manzanilla",
+      "tilo",
+      "valeriana"
+    ]
   },
   {
     "id": 45,
@@ -1343,7 +1770,22 @@
       "carminativo",
       "emenagogo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "limpieza energética",
+      "estrés acumulado",
+      "rituales de bienestar",
+      "transiciones vitales"
+    ],
+    "interacciones_medicamentos": "Uso externo: precaución con fotosensibilizantes y anticoagulantes si hay contacto con ruda en piel.",
+    "embarazo_lactancia": "Contraindicado en embarazo por presencia de ruda (abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Baño ritual único o repetido en momentos específicos; no de uso diario.",
+    "sinergia_plantas": [
+      "romero",
+      "ruda",
+      "albahaca",
+      "laurel"
+    ]
   },
   {
     "id": 57,
@@ -1370,7 +1812,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "alergias estacionales leves",
+      "rinitis alérgica leve",
+      "fortalecimiento inmunitario",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Vigilar con antidiabéticos (contenido de azúcares) y anticoagulantes. Precaución con inmunosupresores.",
+    "embarazo_lactancia": "Precaución en embarazo (riesgo alergénico); evitar miel cruda en niños menores de 12 meses.",
+    "duracion_tratamiento": "Curas de 4-6 semanas en temporada alergénica; introducir gradualmente.",
+    "sinergia_plantas": [
+      "maqui",
+      "saúco",
+      "ortiga",
+      "manzanilla"
+    ]
   },
   {
     "id": 58,
@@ -1478,7 +1935,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "fatiga ocular",
+      "ojeras",
+      "irritación ocular leve",
+      "blefaritis leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes. Evitar en alergia a Asteraceae.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso ocasional o diario por 1-2 semanas; descansar si hay irritación.",
+    "sinergia_plantas": [
+      "rosa mosqueta",
+      "caléndula",
+      "llantén",
+      "lavanda"
+    ]
   },
   {
     "id": 62,
@@ -1686,7 +2158,23 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "retención de líquidos",
+      "hinchazón abdominal",
+      "depuración hepatorrenal",
+      "estreñimiento leve",
+      "colesterol levemente elevado"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos, litio, anticoagulantes, antidiabéticos y antihipertensivos. Puede reducir absorción de quinolonas.",
+    "embarazo_lactancia": "Contraindicado en embarazo y en obstrucción biliar. Precaución en lactancia.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con 1-2 semanas de descanso.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "boldo",
+      "alcachofa",
+      "perejil"
+    ]
   },
   {
     "id": 70,
@@ -1759,7 +2247,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "infecciones urinarias leves",
+      "cistitis recurrente (coadyuvante)",
+      "retención de líquidos",
+      "litiasis renal preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos (potenciación e hipokalemia), digoxina, litio y antidiabéticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas. No uso crónico (riesgo de déficit de tiamina).",
+    "sinergia_plantas": [
+      "llantén",
+      "diente de león",
+      "barbas de choclo",
+      "pichi"
+    ]
   },
   {
     "id": 73,
@@ -1952,7 +2455,22 @@
       "antiespasmódico",
       "antidepresivo leve"
     ],
-    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010"
+    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+    "indicaciones_principales": [
+      "estrés agudo",
+      "nerviosismo situacional",
+      "ansiedad leve",
+      "herpes labial recurrente (uso complementario)"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y hormonas tiroideas. Vigilar con antihipertensivos.",
+    "embarazo_lactancia": "Contraindicada por contenido alcohólico; preferir infusión. Evitar la tintura en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso puntual o curas cortas de 2-3 semanas.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "lavanda",
+      "tilo",
+      "pasiflora"
+    ]
   },
   {
     "id": 83,
@@ -1979,7 +2497,22 @@
       "antiinflamatorio",
       "cicatrizante"
     ],
-    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "dolor ciático",
+      "neuralgia periférica",
+      "dolor lumbar irradiado",
+      "contracturas dolorosas"
+    ],
+    "interacciones_medicamentos": "Precaución con fotosensibilizantes orales (la hiperforina sensibiliza al sol incluso por uso tópico). Vía oral interactúa con anticonceptivos, anticoagulantes, antidepresivos, inmunosupresores y antirretrovirales.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación tópica 2-4 semanas; evitar exposición solar directa en la zona aplicada.",
+    "sinergia_plantas": [
+      "matico",
+      "romero",
+      "árnica",
+      "canelo"
+    ]
   },
   {
     "id": 84,
@@ -2390,7 +2923,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "inflamación articular leve",
+      "dolor musculoesquelético",
+      "artrosis incipiente",
+      "inflamación digestiva crónica"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), antiagregantes, antidiabéticos y AINEs. Puede potenciar sangrado.",
+    "embarazo_lactancia": "Precaución en embarazo (dosis terapéuticas pueden ser uterotónicas); seguro en dosis culinarias durante lactancia.",
+    "duracion_tratamiento": "Curas de 6-8 semanas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "jengibre",
+      "romero",
+      "boldo",
+      "matico"
+    ]
   },
   {
     "id": 100,
@@ -2572,7 +3120,21 @@
       "antimicrobiano",
       "antifúngico"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014",
+    "indicaciones_principales": [
+      "limpieza energética post-laboral",
+      "estrés ocupacional",
+      "ritual purificador externo"
+    ],
+    "interacciones_medicamentos": "Tópico: puede causar fotodermatitis con exposición solar (furanocumarinas). No combinar con fotosensibilizantes orales.",
+    "embarazo_lactancia": "Contraindicado en embarazo incluso por vía externa (riesgo abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Uso puntual; no aplicar diariamente por riesgo de fotosensibilización cutánea.",
+    "sinergia_plantas": [
+      "romero",
+      "albahaca",
+      "matico",
+      "laurel"
+    ]
   },
   {
     "id": 107,
@@ -2821,7 +3383,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "edema localizado",
+      "inflamación venosa leve",
+      "hinchazón de tobillos",
+      "celulitis (uso complementario)"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación diaria por 2-3 semanas; descansar si hay irritación cutánea.",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla",
+      "matico",
+      "diente de león"
+    ]
   },
   {
     "id": 118,
@@ -3245,7 +3822,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "artritis leve",
+      "reumatismo",
+      "fatiga muscular",
+      "circulación periférica deficiente"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, antihipertensivos, diuréticos e inductores enzimáticos hepáticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo en dosis terapéuticas. Seguro en lactancia en dosis culinarias.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con descanso de 1 semana.",
+    "sinergia_plantas": [
+      "matico",
+      "canelo",
+      "lavanda",
+      "manzanilla"
+    ]
   },
   {
     "id": 136,
@@ -6345,7 +6937,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "litiasis renal leve",
+      "cistitis recurrente",
+      "retención de líquidos",
+      "remineralización ósea"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos, digoxina, litio, antidiabéticos y antihipertensivos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas; descansar 1-2 semanas para evitar déficit de tiamina.",
+    "sinergia_plantas": [
+      "llantén",
+      "barbas de choclo",
+      "pichi",
+      "diente de león"
+    ]
   },
   {
     "titulo": "Agua de Pelos de Choclo (Maíz) como Diurético",
@@ -6999,7 +7606,22 @@
       "antiespasmódico",
       "antidepresivo leve"
     ],
-    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010"
+    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+    "indicaciones_principales": [
+      "dismenorrea primaria",
+      "tensión premenstrual",
+      "ansiedad asociada al ciclo",
+      "irritabilidad menstrual"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, hormonas tiroideas (puede inhibir TSH) y medicamentos hormonales.",
+    "embarazo_lactancia": "Contraindicado en embarazo; precaución en lactancia (puede reducir producción láctea).",
+    "duracion_tratamiento": "Durante los días sintomáticos del ciclo; uso intermitente seguro.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "lavanda",
+      "matico",
+      "milenrama"
+    ]
   },
   {
     "id": 283,
@@ -7027,7 +7649,22 @@
       "cicatrizante",
       "ansiolítico"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "dismenorrea",
+      "tensión premenstrual",
+      "insomnio menstrual",
+      "ansiedad cíclica"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, sedantes y antihipertensivos.",
+    "embarazo_lactancia": "Consultar profesional en embarazo; seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso durante los días sintomáticos; ciclos repetidos seguros.",
+    "sinergia_plantas": [
+      "toronjil",
+      "milenrama",
+      "matico",
+      "tilo"
+    ]
   },
   {
     "id": 284,
@@ -7054,7 +7691,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "flujo vaginal inespecífico",
+      "leucorrea leve",
+      "irritación vulvar",
+      "prurito vaginal"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Baños diarios por máximo 7-10 días; si persiste consultar ginecólogo.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "arrayán",
+      "calendula"
+    ]
   },
   {
     "id": 285,
@@ -7081,7 +7733,22 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "amenorrea funcional leve",
+      "ciclos irregulares por estrés",
+      "dismenorrea congestiva",
+      "frialdad uterina tradicional"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), antidiabéticos e hipotensores. Puede potenciar hipoglucemia.",
+    "embarazo_lactancia": "Contraindicado en embarazo (emenagogo). Precaución en lactancia: no exceder dosis culinarias.",
+    "duracion_tratamiento": "Curas de 7-10 días en fase premenstrual; no de uso continuo.",
+    "sinergia_plantas": [
+      "jengibre",
+      "matico",
+      "milenrama",
+      "ruda (uso experto)"
+    ]
   },
   {
     "id": 286,
@@ -7108,7 +7775,22 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "dolor pélvico funcional",
+      "congestión pélvica menstrual",
+      "inflamación pélvica leve complementaria",
+      "dismenorrea"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación diaria durante 7-10 días; consultar médico si hay fiebre o EIP.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "llantén",
+      "arrayán",
+      "milenrama"
+    ]
   },
   {
     "id": 287,
@@ -8135,7 +8817,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos del lactante (mayor de 3 meses)",
+      "gases",
+      "irritabilidad digestiva leve",
+      "dispepsia leve infantil"
+    ],
+    "interacciones_medicamentos": "Vigilar con anticoagulantes y sedantes en niños. Precaución en uso simultáneo con simeticona u otros antigás.",
+    "embarazo_lactancia": "Seguro para la madre que amamanta en dosis moderadas; no endulzar con miel en menores de 12 meses.",
+    "duracion_tratamiento": "Uso puntual; máximo 1-2 cucharaditas por toma, no más de 1-2 veces al día.",
+    "sinergia_plantas": [
+      "hinojo",
+      "anís verde",
+      "cedrón",
+      "toronjil"
+    ]
   },
   {
     "id": 327,
@@ -8163,7 +8860,22 @@
       "cicatrizante",
       "ansiolítico"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "irritabilidad nocturna del bebé",
+      "sueño inquieto leve",
+      "dermatitis irritativa leve",
+      "tensión por cólicos"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso externo seguro en madre y bebé.",
+    "duracion_tratamiento": "Baños 2-3 veces por semana durante 2-4 semanas según necesidad.",
+    "sinergia_plantas": [
+      "tilo",
+      "toronjil",
+      "avena coloidal",
+      "caléndula"
+    ]
   },
   {
     "id": 328,
@@ -8190,7 +8902,22 @@
       "antiespasmódico",
       "digestivo"
     ],
-    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos del lactante (mayor 4 meses)",
+      "gases",
+      "dispepsia leve infantil",
+      "hipo persistente leve"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes y estrógenos por efecto fitoestrogénico leve del anetol en uso prolongado.",
+    "embarazo_lactancia": "Seguro para la madre en lactancia (incluso puede ser galactogogo); no endulzar con miel en menores de 12 meses.",
+    "duracion_tratamiento": "Uso puntual; no exceder 2 tomas al día ni más de 1 semana continua sin consulta.",
+    "sinergia_plantas": [
+      "hinojo",
+      "manzanilla",
+      "comino",
+      "cedrón"
+    ]
   },
   {
     "id": 329,
@@ -8217,7 +8944,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "fiebre leve infantil (>2 años)",
+      "resfriado con malestar",
+      "ansiedad infantil leve",
+      "insomnio infantil ocasional"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes y antitérmicos farmacológicos.",
+    "embarazo_lactancia": "Seguro para la madre en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso agudo 3-5 días; si la fiebre persiste o supera 39°C, consultar pediatra.",
+    "sinergia_plantas": [
+      "saúco",
+      "manzanilla",
+      "menta",
+      "tilo"
+    ]
   },
   {
     "id": 330,
@@ -8244,7 +8986,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "resfriado infantil (>2 años)",
+      "rinorrea",
+      "fiebre leve viral",
+      "tos catarral leve"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos y antihipertensivos por efecto sudorífico-diurético leve.",
+    "embarazo_lactancia": "Solo flores bien secas; seguro para la madre en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso agudo 5-7 días; si los síntomas empeoran consultar pediatra.",
+    "sinergia_plantas": [
+      "tilo",
+      "manzanilla",
+      "menta",
+      "llantén"
+    ]
   },
   {
     "id": 331,

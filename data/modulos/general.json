@@ -25,7 +25,23 @@
       "antioxidante",
       "antiinflamatorio"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "fatiga leve",
+      "estrés oxidativo",
+      "convalecencia",
+      "agotamiento físico ocasional",
+      "soporte antioxidante"
+    ],
+    "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, insulina) y anticoagulantes (warfarina). Vigilar glucemia.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia (alimento tradicional).",
+    "duracion_tratamiento": "Uso continuo seguro como alimento funcional; en infusión, curas de 4-6 semanas.",
+    "sinergia_plantas": [
+      "murtilla",
+      "rosa mosqueta",
+      "calafate",
+      "miel de ulmo"
+    ]
   },
   {
     "id": 14,
@@ -51,7 +67,21 @@
       "vasoprotector",
       "antiinflamatorio"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+    "indicaciones_principales": [
+      "otalgia leve",
+      "tapón de cerumen blando",
+      "otitis externa leve (uso experto)"
+    ],
+    "interacciones_medicamentos": "Uso tópico ótico: sin interacciones sistémicas. No usar si hay perforación timpánica.",
+    "embarazo_lactancia": "Contraindicado incluso vía tópica en embarazo (riesgo de absorción y abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Uso puntual 2-3 días; si persiste, consultar otorrino. No usar en niños.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "lavanda",
+      "llantén"
+    ]
   },
   {
     "id": 25,
@@ -78,7 +108,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "conjuntivitis irritativa leve",
+      "fatiga ocular",
+      "irritación ocular por polvo",
+      "blefaritis leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia con preparación estéril.",
+    "duracion_tratamiento": "Uso agudo 3-5 días; si hay secreción purulenta o dolor, consultar oftalmólogo.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "matico",
+      "rosa mosqueta",
+      "caléndula"
+    ]
   },
   {
     "id": 57,
@@ -105,7 +150,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "alergias estacionales leves",
+      "rinitis alérgica leve",
+      "fortalecimiento inmunitario",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Vigilar con antidiabéticos (contenido de azúcares) y anticoagulantes. Precaución con inmunosupresores.",
+    "embarazo_lactancia": "Precaución en embarazo (riesgo alergénico); evitar miel cruda en niños menores de 12 meses.",
+    "duracion_tratamiento": "Curas de 4-6 semanas en temporada alergénica; introducir gradualmente.",
+    "sinergia_plantas": [
+      "maqui",
+      "saúco",
+      "ortiga",
+      "manzanilla"
+    ]
   },
   {
     "id": 61,
@@ -132,7 +192,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "fatiga ocular",
+      "ojeras",
+      "irritación ocular leve",
+      "blefaritis leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes. Evitar en alergia a Asteraceae.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso ocasional o diario por 1-2 semanas; descansar si hay irritación.",
+    "sinergia_plantas": [
+      "rosa mosqueta",
+      "caléndula",
+      "llantén",
+      "lavanda"
+    ]
   },
   {
     "id": 75,

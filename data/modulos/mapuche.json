@@ -25,7 +25,23 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "dolor neuropático",
+      "odontalgias",
+      "estados inflamatorios",
+      "dolor articular leve",
+      "neuralgias"
+    ],
+    "interacciones_medicamentos": "Precaución con analgésicos opioides y anticonvulsivantes (bloqueadores de canales de sodio); puede potenciar efecto de AINEs.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de estudios de seguridad y potencial actividad uterotónica de sesquiterpenos.",
+    "duracion_tratamiento": "Máximo 2 semanas; descansar 1 semana antes de retomar.",
+    "sinergia_plantas": [
+      "matico",
+      "natre",
+      "llantén",
+      "manzanilla"
+    ]
   },
   {
     "id": 28,
@@ -53,7 +69,22 @@
       "astringente",
       "emenagogo"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Monografía ISP-MINSAL: Ruta graveolens"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Monografía ISP-MINSAL: Ruta graveolens",
+    "indicaciones_principales": [
+      "limpieza energética ritual",
+      "cuadros de susto o espanto",
+      "ansiedad situacional",
+      "duelo emocional"
+    ],
+    "interacciones_medicamentos": "Uso ritual externo: sin interacciones sistémicas relevantes. Evitar contacto si se usan fotosensibilizantes (furanocumarinas de ruda).",
+    "embarazo_lactancia": "Contraindicado en embarazo: la ruda es abortiva. Evitar en lactancia.",
+    "duracion_tratamiento": "Aplicación puntual ritual; no requiere uso continuo.",
+    "sinergia_plantas": [
+      "palo santo",
+      "romero",
+      "canelo",
+      "laurel"
+    ]
   },
   {
     "id": 38,
@@ -81,7 +112,22 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "fatiga emocional",
+      "limpieza energética",
+      "recuperación post-enfermedad",
+      "estrés crónico"
+    ],
+    "interacciones_medicamentos": "Uso externo ritual: sin interacciones sistémicas. Precaución respiratoria al quemar hojas en asmáticos.",
+    "embarazo_lactancia": "Uso externo ritual considerado seguro; evitar inhalación prolongada del humo en embarazo.",
+    "duracion_tratamiento": "Uso ocasional ceremonial; sin restricción de duración.",
+    "sinergia_plantas": [
+      "maqui",
+      "boldo",
+      "romero",
+      "menta"
+    ]
   },
   {
     "id": 45,
@@ -128,7 +174,22 @@
       "carminativo",
       "emenagogo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "limpieza energética",
+      "estrés acumulado",
+      "rituales de bienestar",
+      "transiciones vitales"
+    ],
+    "interacciones_medicamentos": "Uso externo: precaución con fotosensibilizantes y anticoagulantes si hay contacto con ruda en piel.",
+    "embarazo_lactancia": "Contraindicado en embarazo por presencia de ruda (abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Baño ritual único o repetido en momentos específicos; no de uso diario.",
+    "sinergia_plantas": [
+      "romero",
+      "ruda",
+      "albahaca",
+      "laurel"
+    ]
   },
   {
     "id": 106,
@@ -156,7 +217,21 @@
       "antimicrobiano",
       "antifúngico"
     ],
-    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014"
+    "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014",
+    "indicaciones_principales": [
+      "limpieza energética post-laboral",
+      "estrés ocupacional",
+      "ritual purificador externo"
+    ],
+    "interacciones_medicamentos": "Tópico: puede causar fotodermatitis con exposición solar (furanocumarinas). No combinar con fotosensibilizantes orales.",
+    "embarazo_lactancia": "Contraindicado en embarazo incluso por vía externa (riesgo abortivo). Evitar en lactancia.",
+    "duracion_tratamiento": "Uso puntual; no aplicar diariamente por riesgo de fotosensibilización cutánea.",
+    "sinergia_plantas": [
+      "romero",
+      "albahaca",
+      "matico",
+      "laurel"
+    ]
   },
   {
     "id": 121,

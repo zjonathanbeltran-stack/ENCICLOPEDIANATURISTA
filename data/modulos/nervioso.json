@@ -24,7 +24,23 @@
       "carminativo",
       "antiespasmódico"
     ],
-    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985"
+    "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "ansiedad leve a moderada",
+      "insomnio de conciliación",
+      "estrés cotidiano",
+      "palpitaciones nerviosas",
+      "irritabilidad"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos (ISRS, IMAO) y hormonas tiroideas (puede inhibir conversión T4-T3).",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia; evitar uso prolongado por efecto sobre tiroides.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "tilo",
+      "lavanda",
+      "cedrón"
+    ]
   },
   {
     "id": 26,
@@ -51,7 +67,22 @@
       "antiespasmódico",
       "relajante muscular"
     ],
-    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999"
+    "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "insomnio de conciliación",
+      "ansiedad nocturna",
+      "tensión nerviosa",
+      "despertar precoz leve"
+    ],
+    "interacciones_medicamentos": "Contraindicado con benzodiazepinas, barbitúricos, opioides, alcohol y antidepresivos. Potencia depresores del SNC.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4-6 semanas continuas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "toronjil",
+      "lavanda",
+      "manzanilla",
+      "pasiflora"
+    ]
   },
   {
     "id": 43,
@@ -78,7 +109,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "halitosis",
+      "higiene bucal",
+      "gingivitis leve",
+      "aftas bucales"
+    ],
+    "interacciones_medicamentos": "Uso tópico bucal: precaución con anticoagulantes y antiarrítmicos por absorción mucosa del mentol en dosis altas.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia: evitar dosis altas o uso prolongado del aceite esencial.",
+    "duracion_tratamiento": "Uso diario tópico; revisar si halitosis persiste más de 2 semanas.",
+    "sinergia_plantas": [
+      "salvia",
+      "tomillo",
+      "romero",
+      "manzanilla"
+    ]
   },
   {
     "id": 44,
@@ -105,7 +151,23 @@
       "antiséptico",
       "cicatrizante"
     ],
-    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012"
+    "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+    "indicaciones_principales": [
+      "estrés agudo",
+      "cefalea tensional",
+      "insomnio leve",
+      "ansiedad situacional",
+      "nerviosismo"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y antihipertensivos (puede potenciar hipotensión).",
+    "embarazo_lactancia": "Precaución en embarazo (especialmente primer trimestre); seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Curas de 2-3 semanas con descanso.",
+    "sinergia_plantas": [
+      "toronjil",
+      "manzanilla",
+      "tilo",
+      "valeriana"
+    ]
   },
   {
     "id": 50,
@@ -152,7 +214,22 @@
       "antiespasmódico",
       "antidepresivo leve"
     ],
-    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010"
+    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+    "indicaciones_principales": [
+      "estrés agudo",
+      "nerviosismo situacional",
+      "ansiedad leve",
+      "herpes labial recurrente (uso complementario)"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y hormonas tiroideas. Vigilar con antihipertensivos.",
+    "embarazo_lactancia": "Contraindicada por contenido alcohólico; preferir infusión. Evitar la tintura en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso puntual o curas cortas de 2-3 semanas.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "lavanda",
+      "tilo",
+      "pasiflora"
+    ]
   },
   {
     "id": 104,

@@ -25,7 +25,22 @@
       "antiespasmódico",
       "antidepresivo leve"
     ],
-    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010"
+    "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+    "indicaciones_principales": [
+      "dismenorrea primaria",
+      "tensión premenstrual",
+      "ansiedad asociada al ciclo",
+      "irritabilidad menstrual"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes, hormonas tiroideas (puede inhibir TSH) y medicamentos hormonales.",
+    "embarazo_lactancia": "Contraindicado en embarazo; precaución en lactancia (puede reducir producción láctea).",
+    "duracion_tratamiento": "Durante los días sintomáticos del ciclo; uso intermitente seguro.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "lavanda",
+      "matico",
+      "milenrama"
+    ]
   },
   {
     "id": 283,
@@ -53,7 +68,22 @@
       "cicatrizante",
       "ansiolítico"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "dismenorrea",
+      "tensión premenstrual",
+      "insomnio menstrual",
+      "ansiedad cíclica"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, sedantes y antihipertensivos.",
+    "embarazo_lactancia": "Consultar profesional en embarazo; seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso durante los días sintomáticos; ciclos repetidos seguros.",
+    "sinergia_plantas": [
+      "toronjil",
+      "milenrama",
+      "matico",
+      "tilo"
+    ]
   },
   {
     "id": 284,
@@ -80,7 +110,22 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "flujo vaginal inespecífico",
+      "leucorrea leve",
+      "irritación vulvar",
+      "prurito vaginal"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Baños diarios por máximo 7-10 días; si persiste consultar ginecólogo.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "arrayán",
+      "calendula"
+    ]
   },
   {
     "id": 285,
@@ -107,7 +152,22 @@
       "estimulante circulatorio",
       "analgésico"
     ],
-    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999"
+    "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "amenorrea funcional leve",
+      "ciclos irregulares por estrés",
+      "dismenorrea congestiva",
+      "frialdad uterina tradicional"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), antidiabéticos e hipotensores. Puede potenciar hipoglucemia.",
+    "embarazo_lactancia": "Contraindicado en embarazo (emenagogo). Precaución en lactancia: no exceder dosis culinarias.",
+    "duracion_tratamiento": "Curas de 7-10 días en fase premenstrual; no de uso continuo.",
+    "sinergia_plantas": [
+      "jengibre",
+      "matico",
+      "milenrama",
+      "ruda (uso experto)"
+    ]
   },
   {
     "id": 286,
@@ -134,7 +194,22 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "dolor pélvico funcional",
+      "congestión pélvica menstrual",
+      "inflamación pélvica leve complementaria",
+      "dismenorrea"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación diaria durante 7-10 días; consultar médico si hay fiebre o EIP.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "llantén",
+      "arrayán",
+      "milenrama"
+    ]
   },
   {
     "id": 287,

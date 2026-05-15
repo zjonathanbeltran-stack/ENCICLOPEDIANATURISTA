@@ -43,7 +43,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "retención de líquidos leve",
+      "cistitis funcional",
+      "edema leve",
+      "depuración renal preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos (potenciación), litio (riesgo de toxicidad) y antihipertensivos.",
+    "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Evitar en insuficiencia renal.",
+    "duracion_tratamiento": "Máximo 2 semanas; descansar antes de retomar.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "diente de león",
+      "llantén",
+      "perejil"
+    ]
   },
   {
     "id": 69,
@@ -70,7 +85,23 @@
       "tónico digestivo",
       "prebiótico"
     ],
-    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "retención de líquidos",
+      "hinchazón abdominal",
+      "depuración hepatorrenal",
+      "estreñimiento leve",
+      "colesterol levemente elevado"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos, litio, anticoagulantes, antidiabéticos y antihipertensivos. Puede reducir absorción de quinolonas.",
+    "embarazo_lactancia": "Contraindicado en embarazo y en obstrucción biliar. Precaución en lactancia.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con 1-2 semanas de descanso.",
+    "sinergia_plantas": [
+      "cola de caballo",
+      "boldo",
+      "alcachofa",
+      "perejil"
+    ]
   },
   {
     "id": 72,
@@ -97,7 +128,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "infecciones urinarias leves",
+      "cistitis recurrente (coadyuvante)",
+      "retención de líquidos",
+      "litiasis renal preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos (potenciación e hipokalemia), digoxina, litio y antidiabéticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas. No uso crónico (riesgo de déficit de tiamina).",
+    "sinergia_plantas": [
+      "llantén",
+      "diente de león",
+      "barbas de choclo",
+      "pichi"
+    ]
   },
   {
     "id": 117,
@@ -124,7 +170,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "edema localizado",
+      "inflamación venosa leve",
+      "hinchazón de tobillos",
+      "celulitis (uso complementario)"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación diaria por 2-3 semanas; descansar si hay irritación cutánea.",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla",
+      "matico",
+      "diente de león"
+    ]
   },
   {
     "id": 120,
@@ -189,7 +250,22 @@
       "astringente",
       "cicatrizante"
     ],
-    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "litiasis renal leve",
+      "cistitis recurrente",
+      "retención de líquidos",
+      "remineralización ósea"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos, digoxina, litio, antidiabéticos y antihipertensivos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 4 semanas; descansar 1-2 semanas para evitar déficit de tiamina.",
+    "sinergia_plantas": [
+      "llantén",
+      "barbas de choclo",
+      "pichi",
+      "diente de león"
+    ]
   },
   {
     "titulo": "Agua de Pelos de Choclo (Maíz) como Diurético",

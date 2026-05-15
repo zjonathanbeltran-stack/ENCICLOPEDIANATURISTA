@@ -25,7 +25,23 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "dispepsia funcional",
+      "digestión lenta",
+      "colecistopatía leve",
+      "náuseas tras comidas grasas",
+      "hepatoprotección"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), sedantes y medicamentos hepatotóxicos. La boldina puede potenciar fármacos metabolizados por CYP450.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia (ascaridol potencialmente abortivo y neurotóxico).",
+    "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "menta",
+      "manzanilla",
+      "cedrón",
+      "diente de león"
+    ]
   },
   {
     "id": 8,
@@ -51,7 +67,23 @@
       "digestivo",
       "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010"
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "parasitosis intestinal",
+      "ascariasis",
+      "oxiuriasis",
+      "giardiasis leve",
+      "dispepsia parasitaria"
+    ],
+    "interacciones_medicamentos": "Precaución con antiepilépticos y depresores del SNC; el ascaridol potencia toxicidad de medicamentos hepatotóxicos.",
+    "embarazo_lactancia": "Contraindicado en embarazo (abortivo) y lactancia. No usar en niños menores de 6 años.",
+    "duracion_tratamiento": "Máximo 3 días consecutivos; no repetir antes de 2-3 semanas.",
+    "sinergia_plantas": [
+      "ajenjo",
+      "ajo",
+      "matico",
+      "boldo"
+    ]
   },
   {
     "id": 10,
@@ -78,7 +110,22 @@
       "antiespasmódico",
       "diaforético"
     ],
-    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
+    "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos digestivos",
+      "flatulencia",
+      "dispepsia espasmódica",
+      "dismenorrea leve"
+    ],
+    "interacciones_medicamentos": "Precaución con paracetamol y otros hepatotóxicos (la pulegona es hepatotóxica en dosis altas). Evitar con antiepilépticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo (emenagogo y abortivo). Evitar en lactancia y en niños pequeños.",
+    "duracion_tratamiento": "Máximo 1 semana de uso continuo; consultar si persisten síntomas más de 3 días.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "menta",
+      "cedrón",
+      "toronjil"
+    ]
   },
   {
     "id": 11,
@@ -124,7 +171,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "diarrea aguda no infecciosa",
+      "diarrea del viajero leve",
+      "gastroenteritis viral",
+      "colitis leve"
+    ],
+    "interacciones_medicamentos": "Los taninos reducen la absorción de hierro, fármacos alcaloideos y antibióticos; separar la toma al menos 2 horas.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia por falta de estudios; preferir uso bajo orientación profesional.",
+    "duracion_tratamiento": "Uso máximo 48-72 horas; si persiste o hay sangre, consulta médica urgente.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "llantén",
+      "murtilla"
+    ]
   },
   {
     "id": 27,
@@ -171,7 +233,22 @@
       "diurético",
       "antioxidante"
     ],
-    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "hígado graso leve",
+      "colestasis funcional",
+      "dispepsia hepatobiliar",
+      "hepatoprotección preventiva"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, sedantes y medicamentos metabolizados por hígado (CYP450). Evitar con otros hepatotóxicos.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Máximo 10 días seguidos; descansar 1-2 semanas antes de repetir.",
+    "sinergia_plantas": [
+      "diente de león",
+      "cardo mariano",
+      "alcachofa",
+      "menta"
+    ]
   },
   {
     "id": 49,

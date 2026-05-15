@@ -24,7 +24,23 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "heridas superficiales",
+      "úlceras dérmicas",
+      "quemaduras leves",
+      "picaduras de insecto",
+      "dermatitis localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Precaución si hay aplicación sobre piel lesionada extensa con anticoagulantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar hasta cicatrización; máximo 2-3 semanas continuas.",
+    "sinergia_plantas": [
+      "llantén",
+      "manzanilla",
+      "caléndula",
+      "arrayán"
+    ]
   },
   {
     "id": 7,
@@ -51,7 +67,22 @@
       "antidiarreico",
       "cicatrizante"
     ],
-    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "dolor reumático crónico",
+      "artralgias",
+      "rigidez articular matinal",
+      "contracturas musculares"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo avanzado por riesgo de hipertermia. Precaución en lactancia.",
+    "duracion_tratamiento": "2-3 veces por semana durante 4-6 semanas.",
+    "sinergia_plantas": [
+      "romero",
+      "matico",
+      "canelo",
+      "eucalipto"
+    ]
   },
   {
     "id": 9,
@@ -78,7 +109,23 @@
       "cicatrizante",
       "astringente"
     ],
-    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "heridas leves",
+      "picaduras de insecto",
+      "abrasiones cutáneas",
+      "dermatitis localizada",
+      "úlceras superficiales"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Hasta cicatrización; renovar 2 veces al día durante máximo 2 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "manzanilla",
+      "caléndula",
+      "arrayán"
+    ]
   },
   {
     "id": 12,
@@ -105,7 +152,22 @@
       "antiséptico",
       "antifúngico"
     ],
-    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985"
+    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "eccemas",
+      "psoriasis leve",
+      "dermatitis seborreica",
+      "picazón crónica localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Evitar en piel con corticoides tópicos potentes simultáneos.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar 2 veces al día por 2-4 semanas; descansar antes de retomar.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "caléndula",
+      "manzanilla"
+    ]
   },
   {
     "id": 19,
@@ -189,7 +251,22 @@
       "nutritivo",
       "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003"
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "reumatismo localizado",
+      "neuralgias periféricas",
+      "hematomas",
+      "inflamación articular leve"
+    ],
+    "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicar diariamente durante máximo 2 semanas.",
+    "sinergia_plantas": [
+      "matico",
+      "llantén",
+      "arnica",
+      "romero"
+    ]
   },
   {
     "id": 37,

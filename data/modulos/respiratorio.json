@@ -25,7 +25,23 @@
       "cicatrizante",
       "antimicrobiano"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "resfriado común",
+      "gripe inicial",
+      "dolor de garganta leve",
+      "tos irritativa",
+      "gastritis funcional"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (cumarinas de la manzanilla) y sedantes. El limón puede alterar absorción de algunos fármacos.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia; no exceder 2-3 tazas/día.",
+    "duracion_tratamiento": "Uso agudo 5-7 días; si persiste consultar médico.",
+    "sinergia_plantas": [
+      "tilo",
+      "saúco",
+      "llantén",
+      "menta"
+    ]
   },
   {
     "id": 6,
@@ -72,7 +88,22 @@
       "antioxidante",
       "antiespasmódico bronquial"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "bronquitis aguda leve",
+      "tos productiva",
+      "resfriado con expectoración difícil",
+      "irritación bronquial"
+    ],
+    "interacciones_medicamentos": "Precaución con antitusivos centrales (el radal favorece expectoración). Vigilar con antidiabéticos por contenido de miel.",
+    "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Seguro en lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Máximo 10-14 días; si persisten síntomas consultar médico.",
+    "sinergia_plantas": [
+      "eucalipto",
+      "llantén",
+      "tomillo",
+      "saúco"
+    ]
   },
   {
     "id": 15,
@@ -155,7 +186,21 @@
       "antiespasmódico",
       "vasoprotector"
     ],
-    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017"
+    "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
+    "indicaciones_principales": [
+      "fiebre leve infantil",
+      "estados febriles posvirales",
+      "malestar general con calor corporal"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes. Vigilar antitérmicos farmacológicos administrados simultáneamente.",
+    "embarazo_lactancia": "Uso externo seguro en embarazo y lactancia.",
+    "duracion_tratamiento": "Uso puntual mientras dure la fiebre leve; si supera 39°C o dura más de 48 h, urgencias.",
+    "sinergia_plantas": [
+      "manzanilla",
+      "saúco",
+      "tilo",
+      "matico"
+    ]
   },
   {
     "id": 29,
@@ -182,7 +227,22 @@
       "inmunoestimulante",
       "antidiabético"
     ],
-    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002"
+    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+    "indicaciones_principales": [
+      "faringitis aguda",
+      "irritación de garganta",
+      "tos seca",
+      "afonía leve"
+    ],
+    "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, sulfonilureas, insulina). Precaución con anticoagulantes por contenido de antocianinas.",
+    "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia.",
+    "duracion_tratamiento": "Uso agudo durante 7-10 días.",
+    "sinergia_plantas": [
+      "miel de ulmo",
+      "llantén",
+      "tilo",
+      "eucalipto"
+    ]
   },
   {
     "id": 30,
@@ -228,7 +288,22 @@
       "inmunoestimulante",
       "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999"
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "fiebre leve",
+      "estados gripales",
+      "malestar febril",
+      "convalecencia"
+    ],
+    "interacciones_medicamentos": "Precaución con hipoglucemiantes y antihipertensivos por efecto sinérgico. Vigilar con anticoagulantes.",
+    "embarazo_lactancia": "Contraindicado en embarazo; evitar en lactancia por falta de datos.",
+    "duracion_tratamiento": "Máximo 2 semanas continuas; descansar antes de repetir.",
+    "sinergia_plantas": [
+      "tilo",
+      "saúco",
+      "manzanilla",
+      "boldo"
+    ]
   },
   {
     "id": 33,

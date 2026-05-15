@@ -24,7 +24,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos del lactante (mayor de 3 meses)",
+      "gases",
+      "irritabilidad digestiva leve",
+      "dispepsia leve infantil"
+    ],
+    "interacciones_medicamentos": "Vigilar con anticoagulantes y sedantes en niños. Precaución en uso simultáneo con simeticona u otros antigás.",
+    "embarazo_lactancia": "Seguro para la madre que amamanta en dosis moderadas; no endulzar con miel en menores de 12 meses.",
+    "duracion_tratamiento": "Uso puntual; máximo 1-2 cucharaditas por toma, no más de 1-2 veces al día.",
+    "sinergia_plantas": [
+      "hinojo",
+      "anís verde",
+      "cedrón",
+      "toronjil"
+    ]
   },
   {
     "id": 327,
@@ -52,7 +67,22 @@
       "cicatrizante",
       "ansiolítico"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "irritabilidad nocturna del bebé",
+      "sueño inquieto leve",
+      "dermatitis irritativa leve",
+      "tensión por cólicos"
+    ],
+    "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Uso externo seguro en madre y bebé.",
+    "duracion_tratamiento": "Baños 2-3 veces por semana durante 2-4 semanas según necesidad.",
+    "sinergia_plantas": [
+      "tilo",
+      "toronjil",
+      "avena coloidal",
+      "caléndula"
+    ]
   },
   {
     "id": 328,
@@ -79,7 +109,22 @@
       "antiespasmódico",
       "digestivo"
     ],
-    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "cólicos del lactante (mayor 4 meses)",
+      "gases",
+      "dispepsia leve infantil",
+      "hipo persistente leve"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes y estrógenos por efecto fitoestrogénico leve del anetol en uso prolongado.",
+    "embarazo_lactancia": "Seguro para la madre en lactancia (incluso puede ser galactogogo); no endulzar con miel en menores de 12 meses.",
+    "duracion_tratamiento": "Uso puntual; no exceder 2 tomas al día ni más de 1 semana continua sin consulta.",
+    "sinergia_plantas": [
+      "hinojo",
+      "manzanilla",
+      "comino",
+      "cedrón"
+    ]
   },
   {
     "id": 329,
@@ -106,7 +151,22 @@
       "antiespasmódico",
       "expectorante"
     ],
-    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "fiebre leve infantil (>2 años)",
+      "resfriado con malestar",
+      "ansiedad infantil leve",
+      "insomnio infantil ocasional"
+    ],
+    "interacciones_medicamentos": "Precaución con sedantes y antitérmicos farmacológicos.",
+    "embarazo_lactancia": "Seguro para la madre en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso agudo 3-5 días; si la fiebre persiste o supera 39°C, consultar pediatra.",
+    "sinergia_plantas": [
+      "saúco",
+      "manzanilla",
+      "menta",
+      "tilo"
+    ]
   },
   {
     "id": 330,
@@ -133,7 +193,22 @@
       "sedante leve",
       "cicatrizante"
     ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "resfriado infantil (>2 años)",
+      "rinorrea",
+      "fiebre leve viral",
+      "tos catarral leve"
+    ],
+    "interacciones_medicamentos": "Precaución con diuréticos y antihipertensivos por efecto sudorífico-diurético leve.",
+    "embarazo_lactancia": "Solo flores bien secas; seguro para la madre en embarazo y lactancia en dosis moderadas.",
+    "duracion_tratamiento": "Uso agudo 5-7 días; si los síntomas empeoran consultar pediatra.",
+    "sinergia_plantas": [
+      "tilo",
+      "manzanilla",
+      "menta",
+      "llantén"
+    ]
   },
   {
     "id": 331,

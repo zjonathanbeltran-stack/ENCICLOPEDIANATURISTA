@@ -24,7 +24,22 @@
       "antiinflamatorio",
       "astringente"
     ],
-    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992"
+    "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+    "indicaciones_principales": [
+      "reumatismo articular",
+      "artralgias crónicas",
+      "lumbalgia crónica leve",
+      "rigidez matinal"
+    ],
+    "interacciones_medicamentos": "Precaución con AINEs, anticoagulantes y corticoides (potenciación de efectos gástricos).",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de datos de seguridad.",
+    "duracion_tratamiento": "Curas de 2-3 semanas con 1 semana de descanso.",
+    "sinergia_plantas": [
+      "matico",
+      "romero",
+      "canelo",
+      "sauce"
+    ]
   },
   {
     "id": 39,
@@ -71,7 +86,22 @@
       "febrífugo",
       "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992"
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "odontalgia aguda leve",
+      "dolor por caries superficial",
+      "alivio sintomático bucal",
+      "gingivitis localizada"
+    ],
+    "interacciones_medicamentos": "Uso tópico bucal: sin interacciones sistémicas relevantes.",
+    "embarazo_lactancia": "Precaución en embarazo y lactancia; uso puntual aceptable, evitar deglución.",
+    "duracion_tratamiento": "Uso puntual hasta consulta odontológica (no más de 2-3 días).",
+    "sinergia_plantas": [
+      "clavo de olor",
+      "matico",
+      "salvia",
+      "manzanilla"
+    ]
   },
   {
     "id": 83,
@@ -98,7 +128,22 @@
       "antiinflamatorio",
       "cicatrizante"
     ],
-    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
+    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "dolor ciático",
+      "neuralgia periférica",
+      "dolor lumbar irradiado",
+      "contracturas dolorosas"
+    ],
+    "interacciones_medicamentos": "Precaución con fotosensibilizantes orales (la hiperforina sensibiliza al sol incluso por uso tópico). Vía oral interactúa con anticonceptivos, anticoagulantes, antidepresivos, inmunosupresores y antirretrovirales.",
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+    "duracion_tratamiento": "Aplicación tópica 2-4 semanas; evitar exposición solar directa en la zona aplicada.",
+    "sinergia_plantas": [
+      "matico",
+      "romero",
+      "árnica",
+      "canelo"
+    ]
   },
   {
     "id": 99,
@@ -125,7 +170,22 @@
       "analgésico local",
       "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "inflamación articular leve",
+      "dolor musculoesquelético",
+      "artrosis incipiente",
+      "inflamación digestiva crónica"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), antiagregantes, antidiabéticos y AINEs. Puede potenciar sangrado.",
+    "embarazo_lactancia": "Precaución en embarazo (dosis terapéuticas pueden ser uterotónicas); seguro en dosis culinarias durante lactancia.",
+    "duracion_tratamiento": "Curas de 6-8 semanas; descansar 1-2 semanas.",
+    "sinergia_plantas": [
+      "jengibre",
+      "romero",
+      "boldo",
+      "matico"
+    ]
   },
   {
     "id": 127,
@@ -190,7 +250,22 @@
       "antiséptico",
       "carminativo"
     ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
+    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "artritis leve",
+      "reumatismo",
+      "fatiga muscular",
+      "circulación periférica deficiente"
+    ],
+    "interacciones_medicamentos": "Precaución con anticoagulantes, antihipertensivos, diuréticos e inductores enzimáticos hepáticos.",
+    "embarazo_lactancia": "Contraindicado en embarazo en dosis terapéuticas. Seguro en lactancia en dosis culinarias.",
+    "duracion_tratamiento": "Curas de 3-4 semanas con descanso de 1 semana.",
+    "sinergia_plantas": [
+      "matico",
+      "canelo",
+      "lavanda",
+      "manzanilla"
+    ]
   },
   {
     "id": 136,
