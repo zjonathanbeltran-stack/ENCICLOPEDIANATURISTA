@@ -25,7 +25,165 @@
       "colagogo"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/330px-Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/330px-Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg",
+    "categoria_seguridad": "⚠️",
+    "categoria_seguridad_nota": "Precaución — uso acotado a 2–3 semanas continuas. Contiene ascaridol hepatotóxico. Aprobado por EMA/HMPC y Comisión E alemana para uso traditional well-established.",
+    "sistemas": [
+      "digestivo",
+      "hepatobiliar",
+      "nervioso"
+    ],
+    "tradicion_ficha": "Mapuche (Chile central), Popular chileno, Fitoterapia europea (Comisión E, EMA)",
+    "descripcion": "Árbol endémico de Chile central, símbolo de la medicina popular chilena. Sus hojas son el digestivo y hepático más utilizado en la tradición nacional. La Comisión E alemana y la EMA/HMPC lo reconocen oficialmente para aliviar síntomas de dispepsia y espasmos digestivos leves.",
+    "conservacion": "Hojas secas en frasco de vidrio o envase hermético, alejado de luz directa y humedad, hasta 12 meses. Infusión: consumir inmediatamente, máximo 2 horas tras preparar.",
+    "buenas_practicas": {
+      "cosecha": "Recolectar hojas adultas en primavera-verano (sep–dic). No cosechar más del 20% de la copa por árbol. Dejar ramas productoras intactas.",
+      "secado": "Secar a la sombra, bien ventilado, a temperatura <40 °C, 5–10 días. No mezclar con otras plantas durante el secado.",
+      "almacenamiento": "Etiquetar con fecha y especie. Revisar olor cada 3 meses; si pierde aroma, desechar.",
+      "nota_sostenibilidad": "Boldo no está en lista de protección CITES, pero su hábitat (bosque esclerófilo) está amenazado. Preferir material cultivado o de vivero."
+    },
+    "evidencia_resumen": "La Comisión E alemana aprobó las hojas de boldo para dispepsia y trastornos espásticos leves del tracto gastrointestinal. La EMA/HMPC (monografía final 2011, revisada) las clasifica como 'traditional herbal medicinal product' para alivio de dispepsia e indigestión. No existen ensayos clínicos controlados con infusión de hoja de boldo; la evidencia humana disponible es de extracto de boldina (melasma, litiasis). Estudios preclínicos demuestran efecto colerético, hepatoprotector a dosis bajas, y antioxidante (PubMed 8202440, 38234264). Caso de hepatotoxicidad documentado con uso crónico en combinación con laxantes (PMC7806290).",
+    "fuentes": [
+      "EMA/HMPC: Final EU Herbal Monograph on Peumus boldus Molina, folium (EMA/HMPC/277152/2015)",
+      "Comisión E alemana: Monografía Boldo (Peumus boldus) — aprobada",
+      "PubMed PMID 8202440: Boldine and boldo — an emerging case of natural drug",
+      "PubMed PMID 38234264: Boldine narrative review 2024",
+      "PMC7806290: Boldo-Induced Hepatotoxicity case report",
+      "PMC8865971: Boldine vasodilation rat kidney 2022",
+      "drugs.com/npp/boldo (síntesis de monografías)"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Obstrucción de vías biliares (coledocolitiasis, colangitis): estimula contracción de la vesícula, puede desencadenar cólico biliar severo",
+        "Enfermedad hepática activa (hepatitis, cirrosis): ascaridol puede agravar daño hepatocelular",
+        "Cálculos biliares bajo supervisión médica activa",
+        "Embarazo: boldina tiene efectos estimulantes uterinos demostrados en modelos animales; ascaridol es potencialmente teratogénico",
+        "Lactancia: transferencia de alcaloides a la leche materna; e-lactancia.org clasifica como 'riesgo elevado'"
+      ],
+      "relativas": [
+        "Menores de 18 años: falta de datos de seguridad pediátrica (EMA)",
+        "Insuficiencia renal crónica: metabolismo de alcaloides alterado",
+        "Uso simultáneo con otros hepatotóxicos (paracetamol en dosis altas, alcohol)"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Anticoagulantes orales (warfarina)",
+        "mecanismo": "Boldina inhibe CYP2C9 in vitro, potencial aumento de efecto anticoagulante por reducción del metabolismo de warfarina",
+        "recomendacion": "Evitar o monitorizar INR"
+      },
+      {
+        "medicamento": "Diuréticos",
+        "mecanismo": "Boldo tiene efecto diurético leve; puede potenciar pérdida de electrolitos",
+        "recomendacion": "Precaución, vigilar balance hídrico"
+      },
+      {
+        "medicamento": "Hepatotóxicos (estatinas, metotrexato, isoniazida)",
+        "mecanismo": "Efecto aditivo sobre toxicidad hepática vía ascaridol",
+        "recomendacion": "Evitar combinación"
+      }
+    ],
+    "sintomas_sobredosis": {
+      "sintomas": [
+        "Náuseas y vómitos",
+        "Diarrea",
+        "Elevación de transaminasas (AST/ALT) → ictericia",
+        "Dolor abdominal intenso (cólico biliar si hay litiasis)",
+        "Somnolencia (efecto SNC de alcaloides en dosis altas)"
+      ],
+      "que_hacer": "Suspender inmediatamente. Si síntomas gastrointestinales leves: hidratarse. Si hay ictericia, dolor intenso o alteración del estado de consciencia: urgencias médicas con hemograma y perfil hepático."
+    },
+    "cuando_consultar": "",
+    "dosis_estandar": "1–2 g de hojas secas (aprox. 1 cucharadita rasa = 1.5 g) por 150 mL de agua",
+    "dosis_maxima": "3 tazas/día · 4.5 g (EMA máximo) de planta seca · No exceder 2 g por toma ni 4.5 g/día. Nunca usar aceite esencial de boldo internamente.",
+    "tiempo_preparacion": "10–15 minutos de infusión (tapado para retener aceites volátiles)",
+    "duracion_tratamiento": "Máx. 2–3 semanas continuo · Descansar 1–2 semanas antes de reiniciar · EMA: si síntomas persisten más de 2 semanas, consultar médico. No usar más de 4 semanas continuas por riesgo de hepatotoxicidad acumulativa.",
+    "via": [
+      "infusión oral",
+      "tintura hidroalcohólica (uso externo o formulaciones estandarizadas)"
+    ],
+    "identificacion_botanica": {
+      "habito": "Árbol o arbusto perennifolio, 1–8 m de altura, dioico",
+      "hojas": "Elípticas a ovadas, 4–8 cm, coriáceas, glaucas en el envés, aromáticas al frotarse, glándulas oleíferas visibles a trasluz",
+      "flores": "Blancas o crema, pequeñas, en umbelas, muy aromáticas; enero–marzo",
+      "fruto": "Drupa pequeña negra-azulada al madurar",
+      "distribucion_chile": "Desde Región de Coquimbo hasta Los Lagos; bosque esclerófilo y matorral costero. Abundante en zonas de Valparaíso y Maule.",
+      "epoca_recoleccion": "Septiembre–diciembre (hojas adultas, antes de floración plena)",
+      "confusion_posible": "Confusión poco frecuente; en jardines puede confundirse con Laurel de Flor (Nerium oleander), altamente tóxico. Diferenciación: boldo tiene olor fuerte mentolado al frotar hoja; laurel no."
+    },
+    "evidencia_compuestos": [
+      {
+        "compuesto": "Boldina",
+        "tipo": "Alcaloide aporfínico",
+        "accion": "Colerético (aumenta secreción biliar), hepatoprotector a dosis bajas, antioxidante, antiinflamatorio (inhibe TNF-α, iNOS), vasodilatador endotelio-dependiente vía NO y canales K+",
+        "pubmed": "8202440, 38234264, PMC8865971"
+      },
+      {
+        "compuesto": "Ascaridol",
+        "tipo": "Monoterpeno endoperóxido (aceite esencial, 16–25%)",
+        "accion": "Antihelmíntico, antiparasitario. HEPATOTÓXICO a dosis altas o uso prolongado. Solo la infusión acuosa (no el aceite esencial) es segura; el agua extrae mínimo ascaridol.",
+        "pubmed": "PMC7806290 (caso hepatotoxicidad)"
+      },
+      {
+        "compuesto": "Flavonoles (isorhamnetina, kaempferol-glucósidos)",
+        "tipo": "Flavonoides",
+        "accion": "Antioxidante, antiinflamatorio, sinérgico con boldina",
+        "pubmed": "19145575"
+      },
+      {
+        "compuesto": "Taninos",
+        "tipo": "Polifenoles condensados",
+        "accion": "Astringente leve, protector de mucosa gastrointestinal",
+        "pubmed": "ScienceDirect review Peumus boldus"
+      }
+    ],
+    "recetas_verificadas": [
+      {
+        "nombre": "Infusión digestiva clásica de boldo (EMA/Comisión E)",
+        "indicacion": "Dispepsia, distensión abdominal, pesadez post-comida, espasmo digestivo leve",
+        "ingredientes": [
+          "1.5 g de hojas de boldo secas (1 cucharadita rasa)",
+          "150 mL de agua recién hervida"
+        ],
+        "preparacion": "Verter el agua a 95–100 °C sobre las hojas en taza o tetera tapada. Infundir exactamente 10–15 minutos tapado (para conservar aceites volátiles). Colar y beber caliente.",
+        "temperatura_agua": "95–100 °C",
+        "tiempo_preparacion": "15 minutos",
+        "dosis": "1 taza (150 mL), 2–3 veces al día, preferentemente 20–30 min antes de las comidas principales",
+        "duracion": "Máximo 2–3 semanas continuas",
+        "nota_clinica": "Dosis avalada por EMA/HMPC y Comisión E alemana."
+      },
+      {
+        "nombre": "Boldo + menta para náuseas y cólicos",
+        "indicacion": "Náuseas funcionales, cólico intestinal leve, gases",
+        "ingredientes": [
+          "1 g de hojas de boldo secas",
+          "1 g de hojas de menta (Mentha piperita)",
+          "200 mL de agua recién hervida"
+        ],
+        "preparacion": "Mezclar ambas hierbas en tetera tapada. Verter agua a 95 °C. Infundir 10 minutos tapado. Colar.",
+        "temperatura_agua": "95 °C",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1 taza (200 mL) después de las comidas principales, máximo 2 veces al día",
+        "duracion": "No más de 2 semanas continuas",
+        "nota_clinica": "Combinación de uso tradicional chileno; la menta potencia efecto espasmolítico."
+      },
+      {
+        "nombre": "Infusión de boldo para soporte hepático leve (uso ocasional)",
+        "indicacion": "Pesadez hepática post-comidas grasas, apoyo durante dieta de depuración",
+        "ingredientes": [
+          "1 g de hojas de boldo secas (½ cucharadita)",
+          "150 mL de agua recién hervida",
+          "Opcional: unas gotas de jugo de limón al final"
+        ],
+        "preparacion": "Infundir 10 minutos tapado. Colar. Agregar limón si se desea al servir.",
+        "temperatura_agua": "95–100 °C",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1 taza al día, en ayunas o 30 min antes del almuerzo",
+        "duracion": "Máximo 2 semanas; no usar como 'cura hepática' prolongada sin supervisión",
+        "nota_clinica": "A dosis bajas, la boldina tiene efecto hepatoprotector documentado en animales (PMID 19145575). NO usar si hay patología hepática activa."
+      }
+    ],
+    "ficha_completa": true
   },
   {
     "id": 2,
@@ -54,7 +212,164 @@
       "foye"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Drimys_winteri.jpg/330px-Drimys_winteri.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Drimys_winteri.jpg/330px-Drimys_winteri.jpg",
+    "categoria_seguridad": "⚠️",
+    "categoria_seguridad_nota": "Precaución — uso limitado a corto plazo. Contiene safrole (probable carcinógeno a altas dosis) y aceites esenciales potentes. No hay monografías EMA ni Comisión E. Uso medicinal endémico chileno sin estandarización de dosis clínica.",
+    "sistemas": [
+      "respiratorio",
+      "digestivo",
+      "inmunológico",
+      "musculoesquelético",
+      "dermatológico"
+    ],
+    "tradicion_ficha": "Mapuche (árbol sagrado, Foye — árbol de la paz y la justicia). Uso ritual, medicinal y espiritual central en la cultura mapuche. También presente en etnomedicina chilota y popular del sur de Chile.",
+    "descripcion": "El canelo es el árbol más sagrado de la cultura mapuche, símbolo de paz y bienestar. Medicinalmente se usa para tratar infecciones respiratorias, estados febriles, dolores reumáticos y heridas infectadas. Su corteza fue históricamente usada por la Marina europea como fuente de vitamina C (Winter's Bark, s. XVIII). Posee potentes compuestos antifúngicos, antimicrobianos y antiinflamatorios confirmados en investigación reciente.",
+    "conservacion": "Hojas secas: frasco hermético, lugar oscuro y fresco, hasta 12 meses. Hojas frescas: usar el mismo día de recolección. No procesar ni destilar aceite esencial en casa.",
+    "buenas_practicas": {
+      "cosecha": "NUNCA descortezar el árbol — compromete su supervivencia. Recolectar hojas adultas, no más del 15% por árbol. El canelo no está en lista de especies protegidas oficialmente, pero es el árbol sagrado mapuche: respetar los valores culturales comunitarios para su recolección.",
+      "secado": "Sombra, ventilado, <40 °C, 7–10 días. El sabor picante debe mantenerse al masticar (indica integridad del poligodial).",
+      "almacenamiento": "Etiquetar con parte, fecha y procedencia. Si pierde aroma picante, desechar.",
+      "nota_sostenibilidad": "Árbol del bosque templado austral de Chile, habitat amenazado por deforestación. Preferir recolección en bosques manejados o material de vivero."
+    },
+    "evidencia_resumen": "No existe monografía de la Comisión E ni de la EMA para Drimys winteri. La evidencia disponible es preclínica y etnobotánica. El poligodial ha sido aislado y estudiado extensivamente: inhibe canales de sodio voltaje-dependientes NaV1.7/NaV1.8 (analgesia periférica, PMID 35021940), actúa como potente antifúngico contra Gaeumannomyces y organismos multirresistentes (PMC11206827), y muestra actividad antimicrobiana con MBC de 8 μg/mL. El aceite esencial total ha demostrado actividad antiproliferativa sobre líneas cancerígenas in vitro (Frontiers Natural Products 2022). El extracto de fruto indujo relajación del 89% en aorta de rata (efecto hipotensor potencial, PubMed 37444318). El MINSAL Chile no ha publicado monografía oficial para esta especie. Uso medicinal respaldado exclusivamente por tradición mapuche multisecular y estudios preclínicos.",
+    "fuentes": [
+      "PubMed PMID 35021940: Polygodial inhibits voltage-gated sodium channels",
+      "PMC7688224: Antifungal drimane sesquiterpenoids from Drimys winteri",
+      "PMC11043559: Biological activity essential oil Drimys winteri 2024",
+      "PMC11206827: Antimicrobial activity drimanic sesquiterpenes 2024",
+      "PubMed 37444318: Chemical fingerprinting canelo fruits, aorta relaxation",
+      "Frontiers Natural Products 2022: Essential oil Drymis winteri antiproliferative",
+      "ResearchGate: Phytochemistry Drimys winteri var. chilensis (Tapia et al.)"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Embarazo: el aceite esencial contiene safrole y compuestos con actividad uterotónica posible; sin datos de seguridad prenatal",
+        "Lactancia: transferencia de terpenos a la leche no estudiada; evitar por precaución",
+        "Hipersensitivity documentada a Winteraceae"
+      ],
+      "relativas": [
+        "Menores de 12 años: sin datos de seguridad",
+        "Uso interno de aceite esencial: contraindicado absolutamente (concentración de safrole y otros terpenos peligrosa)",
+        "Gastritis activa: el poligodial irrita mucosa en dosis altas"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Anticoagulantes (warfarina, heparina)",
+        "mecanismo": "Posible inhibición de agregación plaquetaria por flavonoides; interacción teórica",
+        "recomendacion": "Precaución; monitorizar"
+      },
+      {
+        "medicamento": "Anestésicos locales",
+        "mecanismo": "El poligodial bloquea canales NaV1.7/NaV1.8, efecto aditivo con anestésicos locales; interacción farmacológica teórica",
+        "recomendacion": "Informar al anestesiólogo si se usa regularmente"
+      }
+    ],
+    "sintomas_sobredosis": {
+      "sintomas": [
+        "Ardor y irritación intensa de mucosa oral y gástrica (poligodial irritante directo)",
+        "Náuseas, vómitos, diarrea",
+        "Con aceite esencial: convulsiones, depresión respiratoria (nunca usar internamente)"
+      ],
+      "que_hacer": "Suspender inmediatamente. Si ingesta de aceite esencial concentrado: urgencias médicas. Si infusión en dosis moderada con irritación gástrica: suspender y tratar sintomáticamente con antiácidos."
+    },
+    "cuando_consultar": "",
+    "dosis_estandar": "{'forma': 'Decocción de hojas (o corteza en tradición mapuche)', 'cantidad_hojas': '3–5 g de hojas frescas (o 1.5–2 g secas) por 200 mL de agua', 'frecuencia': '1–2 tazas al día', 'temperatura_agua': 'Llevar a ebullición suave 5 minutos (decocción), luego reposar 10 minutos tapado', 'tiempo_preparacion': '15 minutos total', 'nota': 'Dosis basadas en uso etnomédico; no existen dosis clínicas estandarizadas publicadas.'}",
+    "dosis_maxima": "2 tazas/día · 4 g de hojas secas (estimado de uso tradicional) de planta seca · No usar aceite esencial puro internamente. Límite seguro para safrole: <0.66 mg/kg/día (FDA reference); la infusión acuosa estándar transfiere cantidades muy inferiores a este límite.",
+    "tiempo_preparacion": "15 minutos (5 min decocción + 10 min reposo)",
+    "duracion_tratamiento": "Máx. 2 semanas continuo · Descansar 2 semanas antes de reiniciar · No documentada duración segura de uso prolongado. Precaución por contenido de safrole.",
+    "via": [
+      "decocción oral",
+      "cataplasma/emplasto de hojas (uso externo en heridas)",
+      "baños con decocción (uso externo reumatismo)"
+    ],
+    "identificacion_botanica": {
+      "habito": "Árbol perennifolio, 5–20 m de altura; corteza grisácea, aromática y picante al masticar",
+      "hojas": "Alternas, oblongas a elípticas, 7–20 cm, coriáceas, verde brillante en el haz, glaucas en el envés; nervadura pinnada; sin estípulas",
+      "flores": "Blancas, fragantes, en umbelas terminales; pétalos 5–7; octubre–diciembre",
+      "fruto": "Baya negra-azulada, 5–8 mm, agrupadas en racimos; madura enero–marzo",
+      "distribucion_chile": "Desde Región del Biobío hasta Magallanes. Bosques templados lluviosos (Valdiviano y Magallánico). Forma parte del bosque siempreverde del sur de Chile.",
+      "epoca_recoleccion": "Hojas: todo el año, preferentemente primavera-verano. Corteza: NO recolectar (amenaza al árbol). Frutos: enero–marzo.",
+      "confusion_posible": "Difícil confusión por su sabor característico muy picante (poligodial irritante en mucosa). En el sur puede confundirse con Laurelia sempervirens (laurel) o Eucryphia cordifolia (ulmo), ambos sin sabor picante."
+    },
+    "evidencia_compuestos": [
+      {
+        "compuesto": "Poligodial (polygodial)",
+        "tipo": "Sesquiterpeno dialdeído de tipo drimano",
+        "accion": "Antifúngico potente (MIC 16 μg/mL vs patógenos), antimicrobiano, analgésico/antinociceptivo (bloquea canales NaV1.7 y NaV1.8; activa TRPA1/TRPV1), antiinflamatorio. Responsable del sabor picante.",
+        "pubmed": "35021940, PMC7688224, PMC11206827"
+      },
+      {
+        "compuesto": "Drimenol",
+        "tipo": "Sesquiterpenol de tipo drimano",
+        "accion": "Antifúngico sinérgico con poligodial, antimicrobiano frente a bacterias resistentes",
+        "pubmed": "PMC7688224"
+      },
+      {
+        "compuesto": "Flavonoides (quercetina, kaempferol, luteolina)",
+        "tipo": "Flavonoles y flavonas",
+        "accion": "Antioxidante, antiinflamatorio, inmunomodulador",
+        "pubmed": "ResearchGate: Phytochemistry Drimys winteri var. chilensis"
+      },
+      {
+        "compuesto": "Aceite esencial (linalool, α-pineno, zafrol, eugenol, safrole)",
+        "tipo": "Mezcla de mono y sesquiterpenos",
+        "accion": "Antimicrobiano, antiproliferativo, antioxidante. Safrole: probable carcinógeno humano a dosis altas (clasificación IARC 2B); en infusión acuosa la concentración es muy baja.",
+        "pubmed": "PMC11043559, Frontiers Natural Products 2022"
+      },
+      {
+        "compuesto": "Vitamina C (ácido ascórbico)",
+        "tipo": "Vitamina hidrosoluble",
+        "accion": "Antioxidante, inmunoestimulante, cofactor síntesis de colágeno",
+        "pubmed": "Wikipedia Drimys winteri — referencia histórica marinera"
+      }
+    ],
+    "recetas_verificadas": [
+      {
+        "nombre": "Decocción de hojas de canelo para resfríos e infecciones respiratorias",
+        "indicacion": "Resfríos, tos productiva, estados febriles leves, gripe",
+        "ingredientes": [
+          "2 g de hojas de canelo secas (puñado pequeño)",
+          "250 mL de agua",
+          "Opcional: 1 cucharadita de miel al final"
+        ],
+        "preparacion": "Poner hojas y agua fría en olla. Llevar a ebullición suave 5 minutos. Bajar fuego, tapar y reposar 10 minutos. Colar y agregar miel al gusto al servir.",
+        "temperatura_agua": "Ebullición (100 °C) para decocción, luego reposar",
+        "tiempo_preparacion": "15 minutos",
+        "dosis": "1 taza (200 mL), 2 veces al día, con comidas",
+        "duracion": "Máximo 7–10 días por episodio agudo",
+        "nota_clinica": "El poligodial en extracto acuoso actúa como antimicrobiano. Tradición mapuche documentada."
+      },
+      {
+        "nombre": "Cataplasma de hojas frescas de canelo para heridas y reumatismo",
+        "indicacion": "Heridas superficiales infectadas, ulceraciones cutáneas, dolor articular/muscular",
+        "ingredientes": [
+          "5–8 hojas frescas de canelo",
+          "Gasa estéril"
+        ],
+        "preparacion": "Machacar ligeramente las hojas frescas en un mortero o con el dorso de una cuchara para liberar los aceites. Aplicar directamente sobre la zona afectada. Cubrir con gasa limpia.",
+        "temperatura_agua": "No aplica (uso externo en frío)",
+        "tiempo_preparacion": "5 minutos",
+        "dosis": "Aplicar 1–2 veces al día durante 20–30 minutos",
+        "duracion": "Hasta 7 días; si la herida no mejora, consultar médico",
+        "nota_clinica": "El poligodial y el aceite esencial tienen actividad antimicrobiana y antifúngica documentada (PMC11206827). Uso externo tradicional mapuche."
+      },
+      {
+        "nombre": "Baño de asiento con decocción de canelo para dolor pélvico y muscular",
+        "indicacion": "Dolores reumáticos, contracturas musculares, dolor pélvico funcional",
+        "ingredientes": [
+          "20 g de hojas de canelo (frescas o secas)",
+          "2 litros de agua"
+        ],
+        "preparacion": "Hervir hojas en 2 litros de agua durante 10 minutos. Dejar enfriar a temperatura tolerable (38–40 °C). Usar como baño de asiento o para empapar compresas y aplicar sobre zona afectada.",
+        "temperatura_agua": "38–40 °C en el momento de usar",
+        "tiempo_preparacion": "20 minutos (incluye enfriamiento)",
+        "dosis": "1 baño de 15–20 minutos, 1 vez al día",
+        "duracion": "5–7 días",
+        "nota_clinica": "Uso externo documentado en etnomedicina mapuche y chilota para reumatismo y dolores musculares."
+      }
+    ],
+    "ficha_completa": true
   },
   {
     "id": 3,
@@ -82,7 +397,162 @@
       "gastritis"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Buddleja_globosa.jpg/330px-Buddleja_globosa.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Buddleja_globosa.jpg/330px-Buddleja_globosa.jpg",
+    "categoria_seguridad": "✅",
+    "categoria_seguridad_nota": "Seguro en uso tópico y oral corto plazo. Monografía oficial del ISP Chile (Instituto de Salud Pública). MINSAL Chile lo reconoce como planta medicinal tradicional. Considerado libre de toxicidad en estudios preclínicos.",
+    "sistemas": [
+      "dermatológico",
+      "digestivo",
+      "musculoesquelético",
+      "cardiovascular (antiagregante)"
+    ],
+    "tradicion_ficha": "Mapuche (pañil — vulnerario principal), Aymara (palquín), Popular chileno y argentino. Uso como cicatrizante y antiinflamatorio documentado desde tiempos precolombinos.",
+    "descripcion": "El matico es la planta cicatrizante por excelencia de la tradición chilena y mapuche. Sus hojas lanosas y aromáticas se usan para curar heridas, úlceras cutáneas y molestias gástricas. El ISP Chile publicó monografía oficial. Los estudios preclínicos confirman acción antiinflamatoria comparable al ibuprofeno (inhibición COX y 5-LOX), cicatrizante y gastroprotectora.",
+    "conservacion": "Hojas secas: frasco hermético, lugar oscuro, hasta 12 meses. La textura lanosa retiene humedad: secar bien antes de guardar. Extracto líquido preparado: refrigerar hasta 48 horas.",
+    "buenas_practicas": {
+      "cosecha": "Recolectar hojas maduras evitando las terminales (meristemas). No exceder 25% de la planta por recolección. El matico se recupera rápidamente y es abundante.",
+      "secado": "Secar en capas delgadas a la sombra, bien ventilado (la pubescencia retiene humedad). Temperatura máxima 40 °C. 7–14 días según humedad ambiental.",
+      "almacenamiento": "El aroma resinoso-balsámico debe conservarse (indica integridad del verbascósido). Verificar mensualmente.",
+      "nota_sostenibilidad": "Especie abundante en Chile, no amenazada. Sin restricciones de recolección, pero preferir práctica sostenible. Existe cultivo artesanal en parcelas del centro-sur de Chile."
+    },
+    "evidencia_resumen": "La Comisión E alemana y la EMA no tienen monografía para Buddleja globosa. El ISP Chile publicó la monografía oficial de matico, reconociendo su uso tradicional. El MINSAL Chile lo incluye en el vademécum de plantas medicinales con indicación de uso externo (cicatrizante) e interno (antiinflamatorio digestivo). Estudios preclínicos (Universidad de Chile, PMID 18164566, 18639621, 11535367, PMC5755983) demuestran inhibición de COX-1, COX-2 y 5-LOX, con potencias comparables al ibuprofeno. El extracto estandarizado aceleró la cicatrización en ratas Sprague-Dawley. Un estudio clínico abierto (randomizado, no cegado) evaluó la eficacia en heridas y úlceras en humanos con resultados positivos (ResearchGate, no publicado en revista indexada de alto impacto). Ausencia de ensayos clínicos controlados doble ciego: limitación reconocida explícitamente por investigadores chilenos.",
+    "fuentes": [
+      "MINSAL Chile: Monografía Matico/Pañil (Buddleja globosa Hope) — código 111",
+      "ISP Chile: Monografía Oficial Buddleja globosa Hope",
+      "PubMed PMID 18164566: Analgesic, anti-inflammatory and antioxidant properties of Buddleja globosa",
+      "PubMed PMID 18639621: Antinociceptive activity of Buddleja globosa in several pain models",
+      "PubMed PMID 11535367: Effects of Buddleja globosa leaf and constituents relevant to wound healing",
+      "PMC5755983: Buddleja globosa prevents collagen-induced platelet activation 2018",
+      "ResearchGate: Efficacy of matico on healing wounds and ulcers (clinical study)",
+      "redalyc.org ISSN: Buddleja globosa — chemistry, biological activity, traditional uses 2009"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Embarazo: sin estudios de seguridad en gestación; la luteolina tiene efecto antiagregante; evitar uso interno",
+        "Alergia conocida a Scrophulariaceae/Buddlejaceae"
+      ],
+      "relativas": [
+        "Lactancia: datos insuficientes sobre transferencia de verbascósido a leche materna; uso externo sin problema",
+        "Uso en heridas profundas o infectadas con tejido necrótico: derivar a médico antes",
+        "Menores de 6 años (interno): falta de datos"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Anticoagulantes y antiagregantes (warfarina, AAS, clopidogrel)",
+        "mecanismo": "Luteolina inhibe fosfolipasa C-γ2 y PKC plaquetaria (PMC5755983), efecto antiagregante aditivo",
+        "recomendacion": "Evitar uso interno en pacientes anticoagulados o con riesgo hemorrágico"
+      },
+      {
+        "medicamento": "AINEs (ibuprofeno, naproxeno)",
+        "mecanismo": "Inhibición aditiva de COX; potencial efecto sinérgico o mayor riesgo de irritación gástrica",
+        "recomendacion": "Monitorizar; puede reducirse necesidad de AINE"
+      }
+    ],
+    "sintomas_sobredosis": {
+      "sintomas": [
+        "Raramente descrita toxicidad en uso oral de infusión",
+        "Dosis muy altas: náuseas, irritación gástrica",
+        "Uso externo: dermatitis de contacto alérgica en personas sensibles (poco frecuente)"
+      ],
+      "que_hacer": "Suspender uso. Si irritación gástrica: tratar con antiácidos. Si dermatitis de contacto: lavar zona y aplicar corticoide tópico de baja potencia. No se han documentado casos de toxicidad sistémica grave."
+    },
+    "cuando_consultar": "",
+    "dosis_estandar": "{'forma': 'Infusión de hojas secas (uso interno) o cataplasma/lavado (uso externo)', 'cantidad_interno': '1 cucharada de hojas (aprox. 3–4 g) por 1 litro de agua hervida', 'frecuencia_interno': '1 taza (250 mL), 3 veces al día', 'uso_externo': 'Decocción concentrada: 10 g de hojas en 500 mL de agua, 10 minutos ebullición; usar para lavados o compresas', 'temperatura_agua': 'Infusión interna: 95 °C, 10 min tapado. Externa: decocción 100 °C, 10 min.', 'tiempo_preparacion': '10–15 minutos', 'fuente_dosis': 'MINSAL Chile / ISP Chile monografía'}",
+    "dosis_maxima": "3 tazas/día · 10–12 g de hojas secas (uso externo sin límite en aplicación tópica normal) de planta seca · Dosis para uso interno: no exceder 4 g por toma. Para uso externo, la aplicación es segura en piel íntegra.",
+    "tiempo_preparacion": "10–15 minutos",
+    "duracion_tratamiento": "Máx. 4 semanas (uso interno); uso externo puede extenderse según indicación continuo · Descansar 1 semana si se renueva el ciclo · No hay datos de toxicidad crónica en humanos; los estudios en ratas S-D mostraron buen perfil de seguridad hasta 30 días.",
+    "via": [
+      "infusión oral (antiinflamatorio digestivo, coadyuvante úlcera gástrica)",
+      "cataplasma de hojas frescas (heridas, hematomas)",
+      "lavado/compresas con decocción (heridas, úlceras cutáneas, hongos)"
+    ],
+    "identificacion_botanica": {
+      "habito": "Arbusto perennifolio ramificado, 1–4 m de altura; ramas jóvenes cubiertas de pelillos glandulares",
+      "hojas": "Opuestas, lanceoladas a oblongas, 7–20 cm; textura lanosa-viscosa al tacto (pubescencia densa); aromáticas; margen crenado-dentado; dorso con nervadura hundida",
+      "flores": "Amarillas brillantes, globosas, en cabezuelas aromáticas (de ahí 'globosa'); octubre–diciembre",
+      "fruto": "Cápsula pequeña, seca",
+      "distribucion_chile": "Regiones de Atacama a Los Lagos (Aysén como límite sur); matorral costero, márgenes de cursos de agua, terrenos perturbados. Muy abundante en el centro y sur de Chile.",
+      "epoca_recoleccion": "Todo el año para las hojas; preferentemente primavera-verano (oct–ene) cuando son más aromáticas",
+      "confusion_posible": "Confusión con Buddleja davidii (mariposa bush) ornamental importada: diferenciación por flores (davidii tiene flores lilas en espiga larga, globosa tiene bolas amarillas). También puede confundirse con Verbascum (gordolobo) en hoja, pero gordolobo tiene flor amarilla en espiga, no en cabezuela."
+    },
+    "evidencia_compuestos": [
+      {
+        "compuesto": "Verbascósido (verbascoside / acteoside)",
+        "tipo": "Éster fenilpropanoide / glicósido fenólico",
+        "accion": "Antiinflamatorio (inhibe COX-1, COX-2, 5-LOX), antioxidante, cicatrizante, antimicrobiano, antiulceroso",
+        "pubmed": "PMC5755983, PMID 11535367"
+      },
+      {
+        "compuesto": "Luteolina y luteolina-7-O-glucósido",
+        "tipo": "Flavona",
+        "accion": "Antiinflamatorio (inhibición NF-κB y COX), antiagregante plaquetario (inhibe fosfolipasa C-γ2 y PKC), antioxidante",
+        "pubmed": "PMC5755983, PMID 18164566"
+      },
+      {
+        "compuesto": "Linarina (acacetin-7-rutinoside)",
+        "tipo": "Flavonoide glucosilado",
+        "accion": "Antiespasmódico, sedante suave, antiinflamatorio",
+        "pubmed": "ResearchGate Buddleja globosa chemistry review"
+      },
+      {
+        "compuesto": "Aucubina",
+        "tipo": "Iridoide glicósido",
+        "accion": "Antiinflamatorio, hepatoprotector leve, cicatrizante",
+        "pubmed": "redalyc.org/Buddleja globosa chemistry 2009"
+      },
+      {
+        "compuesto": "Terpenos (ursólico, oleanólico)",
+        "tipo": "Ácidos triterpénicos",
+        "accion": "Antiinflamatorio, gastroprotector",
+        "pubmed": "PMID 18639621"
+      }
+    ],
+    "recetas_verificadas": [
+      {
+        "nombre": "Infusión de matico para gastritis y úlcera gástrica (uso interno)",
+        "indicacion": "Gastritis crónica, úlcera gástrica leve, dolor epigástrico funcional",
+        "ingredientes": [
+          "3 g de hojas de matico secas (1 cucharada rasa)",
+          "250 mL de agua recién hervida"
+        ],
+        "preparacion": "Verter el agua a 95 °C sobre las hojas en taza tapada. Infundir 10 minutos tapado. Colar bien (la pubescencia puede resultar irritante si no se cuela correctamente).",
+        "temperatura_agua": "95 °C",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1 taza (250 mL), 3 veces al día, 20 minutos antes de las comidas",
+        "duracion": "4 semanas; evaluar respuesta",
+        "nota_clinica": "Aucubina y verbascósido tienen efecto gastroprotector documentado preclínicamente. El MINSAL avala este uso."
+      },
+      {
+        "nombre": "Cataplasma de hojas frescas de matico para heridas y hematomas",
+        "indicacion": "Heridas superficiales, cortes, hematomas, heridas infectadas leves",
+        "ingredientes": [
+          "6–8 hojas frescas de matico",
+          "Gasa estéril y cinta adhesiva médica"
+        ],
+        "preparacion": "Lavar las hojas. Calentar ligeramente sobre llama o pasarlas por agua caliente 30 segundos para ablandar (opcional; también se usan directamente frescas). Aplicar el envés lanoso directamente sobre la herida limpia. Fijar con gasa y cinta.",
+        "temperatura_agua": "No aplica (uso externo)",
+        "tiempo_preparacion": "5 minutos",
+        "dosis": "Cambiar la cataplasma cada 8–12 horas",
+        "duracion": "Hasta cicatrización completa, máximo 14 días sin supervisión",
+        "nota_clinica": "Uso ancestral mapuche; confirmado por estudio preclínico de cicatrización (ResearchGate: Efficacy of matico on healing wounds)."
+      },
+      {
+        "nombre": "Lavado antiséptico y cicatrizante de matico (uso externo)",
+        "indicacion": "Heridas crónicas, úlceras cutáneas, pie diabético leve (como coadyuvante), hongos superficiales",
+        "ingredientes": [
+          "10 g de hojas secas de matico",
+          "500 mL de agua"
+        ],
+        "preparacion": "Hervir hojas en agua durante 10 minutos (decocción). Colar y dejar enfriar a temperatura tolerable (35–38 °C). Lavar la zona afectada con la decocción usando gasa estéril o bañar directamente 15 minutos.",
+        "temperatura_agua": "35–38 °C al momento de aplicar",
+        "tiempo_preparacion": "20 minutos (incluye enfriamiento)",
+        "dosis": "1–2 veces al día",
+        "duracion": "Hasta resolución; si no mejora en 7 días, derivar a médico",
+        "nota_clinica": "Verbascósido tiene actividad antimicrobiana y antifúngica documentada in vitro. Combinación de acción antiinflamatoria (luteolina) y cicatrizante."
+      }
+    ],
+    "ficha_completa": true
   },
   {
     "id": 4,
@@ -108,7 +578,167 @@
       "fatiga"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Maqui_chileno.jpg/330px-Maqui_chileno.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Maqui_chileno.jpg/330px-Maqui_chileno.jpg",
+    "categoria_seguridad": "✅✅",
+    "categoria_seguridad_nota": "Seguro en uso prolongado como alimento funcional. Extracto estandarizado (Delphinol®, MaquiBright™) ha sido evaluado en ensayos clínicos en humanos sin efectos adversos significativos. GRAS (Generally Recognized As Safe) implícito por uso alimentario ancestral.",
+    "sistemas": [
+      "cardiovascular",
+      "endocrino-metabólico",
+      "oftalmológico",
+      "inmunológico",
+      "renal (nefroprotector en investigación)"
+    ],
+    "tradicion_ficha": "Mapuche — el maqui fue alimento y medicina central. Se usaba para tratar diarrea, estados febriles, heridas y como energizante. También alimento ritual fermentado (mudai de maqui). Popular chileno: consumo de bayas frescas en verano.",
+    "descripcion": "El maqui es la baya silvestre con mayor concentración de antocianinas del mundo documentada, con ORAC (Oxygen Radical Absorbance Capacity) superior al arándano y al açaí. Sus delphinidinas son los pigmentos morados responsables de sus propiedades antioxidantes, antiinflamatorias y metabólicas. Múltiples ensayos clínicos en humanos avalan su uso para síndrome de ojo seco, prediabetes y estrés oxidativo.",
+    "conservacion": "Bayas frescas: refrigerar hasta 3 días. Congelar inmediatamente para preservar antocianinas (estables hasta 12 meses a -18 °C). Polvo liofilizado: hermético, oscuro, seco, hasta 24 meses. La luz UV degrada antocianinas: proteger siempre de exposición solar.",
+    "buenas_practicas": {
+      "cosecha": "Recolectar bayas completamente maduras (negro-violáceas uniformes). Usar recipientes pequeños para evitar aplastamiento. Recolectar de mañana (fresco, preserva antocianinas). No tocar frutos verdes.",
+      "procesamiento": "Congelar inmediatamente o consumir fresco. El calor >80 °C degrada antocianinas; preparar jugos a temperatura ambiente o baja. Para polvo: liofilización preferible sobre secado con calor.",
+      "almacenamiento": "Evitar exposición a luz y oxígeno. Los jugos oxidados pierden actividad antioxidante (oscurecen).",
+      "nota_sostenibilidad": "Especie abundante en Chile, no protegida. El maqui tiene alta regeneración natural. Existen iniciativas de cultivo orgánico en el sur de Chile para exportación. No hay riesgo de sobreexplotación conocido a nivel silvestres."
+    },
+    "evidencia_resumen": "Aristotelia chilensis no tiene monografía EMA, Comisión E ni MINSAL, pero su extracto estandarizado (Delphinol®) ha sido evaluado en múltiples ensayos clínicos en humanos. Ensayo clínico piloto (PMID 25208615, n=13): 60 mg/día de MaquiBright™ por 2 meses → aumento significativo de producción lagrimal en ojo seco (cuestionario OSDI). Ensayo clínico randomizado (PMID 26400431, n=42): 162 mg de antocianinas (Delphinol) 3 veces/día por 4 semanas → mejora marcadores de estrés oxidativo en fumadores, adultos con sobrepeso y sanos. Ensayo clínico prediabetes (PMID 28025651): Delphinol redujo glucemia basal e insulinemia de manera dosis-dependiente. Estudio bioavailability (PMC6267473): absorción pico de delphinidinas a los 120 min post-ingesta, excreción urinaria documentada. Evidencia de seguridad en toxicología aguda y crónica a 1 g/kg en animales sin toxicidad (drugs.com/npp/maqui-berry).",
+    "fuentes": [
+      "PubMed PMID 16454470: Anthocyanins in maqui berry (profiling)",
+      "PubMed PMID 25208615: MaquiBright clinical pilot trial dry eye",
+      "PubMed PMID 26400431: Randomized clinical trial oxidative stress biomarkers Delphinol",
+      "PubMed PMID 28025651: Delphinol glycemic insulinemic prediabetes",
+      "PMC6267473: Bioavailability maqui berry extract",
+      "PMC9571323: Cardioprotective effects Aristotelia chilensis review",
+      "PMC10811055: NLRP3 inflammasome maqui Crohn's model",
+      "PMC11944665: Maqui chronic kidney disease nephroprotective review 2025",
+      "MDPI Antioxidants 2025 (vol 15, issue 2): Maqui as Chilean functional food"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "No se han documentado contraindicaciones absolutas para el consumo alimentario de bayas frescas"
+      ],
+      "relativas": [
+        "Embarazo y lactancia: datos insuficientes para extracto concentrado (frutos frescos en cantidades alimentarias son seguros)",
+        "Hipersensibilidad a Elaeocarpaceae (extremadamente rara)",
+        "Terapia anticoagulante: las antocianinas tienen débil efecto antiagregante teórico; monitorizar si se usan extractos concentrados"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Hipoglucemiantes orales (metformina, sulfonilureas)",
+        "mecanismo": "Efecto aditivo en reducción de glucemia; delphinidinas inhiben α-glucosidasa y reducen absorción intestinal de glucosa",
+        "recomendacion": "Monitorizar glucemia; puede requerirse ajuste de dosis de hipoglucemiante"
+      },
+      {
+        "medicamento": "Antidiabéticos en general",
+        "mecanismo": "Misma vía que anterior",
+        "recomendacion": "Informar al médico"
+      }
+    ],
+    "sintomas_sobredosis": {
+      "sintomas": [
+        "Consumo muy alto de frutos frescos (>300 g): heces de color azul-negro (inofensivo, por pigmentos)",
+        "Náuseas leves por exceso de fructosa",
+        "No se ha documentado toxicidad sistémica a ninguna dosis alimentaria razonable"
+      ],
+      "que_hacer": "No se requiere intervención. Reducir cantidad consumida. El color oscuro de heces y orina por antocianinas es normal e inofensivo."
+    },
+    "cuando_consultar": "",
+    "dosis_estandar": "{'forma_1': 'Frutos frescos o congelados (alimentaria)', 'cantidad_fruta': '30–50 g de bayas frescas al día (equivale a 1 puñado)', 'forma_2': 'Extracto estandarizado (Delphinol® / MaquiBright™)', 'cantidad_extracto': '30–60 mg de extracto estandarizado (conteniendo 10.5–21 mg de antocianinas totales), 1–2 veces al día', 'forma_3': 'Polvo de fruto liofilizado', 'cantidad_polvo': '3–5 g al día (en batidos, yogur o agua)', 'tiempo_preparacion': 'Consumo directo o preparación de infusión de hojas: 10 minutos'}",
+    "dosis_maxima": "A dosis de 1 g/kg en estudios de toxicidad animal: sin efectos adversos. No se han reportado efectos adversos en ensayos clínicos humanos.",
+    "tiempo_preparacion": "Consumo directo de frutos. Si se prepara infusión de hojas: 10 minutos a 90 °C.",
+    "duracion_tratamiento": "Máx. No hay límite establecido para frutos frescos (uso alimentario). Extracto estandarizado: ensayos de hasta 4–8 semanas; uso prolongado probable-seguro. continuo · Descansar No requerido con frutos frescos. Con extracto concentrado: descanso de 2 semanas cada 3 meses por precaución. · No hay contraindicaciones documentadas de uso prolongado a dosis alimentarias.",
+    "via": [
+      "oral (frutos frescos, congelados, jugo)",
+      "polvo liofilizado en alimentos",
+      "cápsulas de extracto estandarizado",
+      "infusión de hojas (menor potencia)"
+    ],
+    "identificacion_botanica": {
+      "habito": "Árbol o arbusto dioico, 3–10 m de altura; ramas jóvenes rojo-violáceas",
+      "hojas": "Alternas, lanceoladas a ovadas, 5–10 cm, margen finamente dentado, verde brillante; levemente rojizas en nervadura",
+      "flores": "Blancas-crema, pequeñas, en racimos; octubre–noviembre",
+      "fruto": "Baya esférica, 5–7 mm de diámetro, negro-violácea intensa al madurar (enero–marzo); pulpa morada, sabor agridulce",
+      "distribucion_chile": "Amplia distribución Coquimbo–Magallanes. Asociado a bosque esclerófilo, matorral, orillas de ríos. Muy abundante en precordillera y bosque nativo centro-sur.",
+      "epoca_recoleccion": "Enero–marzo (frutos maduros). Color negro intenso uniforme indica madurez plena.",
+      "confusion_posible": "Posible confusión con Pernettya mucronata (chaura) o Gaultheria spp. (chaura de hoja pequeña), cuyos frutos son tóxicos en cantidad. Diferenciación: maqui tiene fruto negro brillante 5–7 mm en racimos largos colgantes; chaura tiene fruto blanco-rosado-rojo y hoja con margen espinuloso. NUNCA consumir frutos silvestres sin identificación botánica segura."
+    },
+    "evidencia_compuestos": [
+      {
+        "compuesto": "Delfinidina-3-sambubiosida-5-glucósido",
+        "tipo": "Antocianina (delphinidin glycoside)",
+        "accion": "Antioxidante potente (ORAC muy elevado), restaura secreción lagrimal (modelo ojo seco), protege fotorreceptores del daño por luz azul, antiinflamatorio (inhibe NLRP3 inflammasoma)",
+        "pubmed": "16454470, 25208615, 38167061, PMC10811055"
+      },
+      {
+        "compuesto": "Delfinidina-3,5-diglucósido",
+        "tipo": "Antocianina (delphinidin diglycoside)",
+        "accion": "Control glucémico (inhibición α-glucosidasa), reducción de glucemia e insulinemia postprandial (PMID 28025651), nefroprotector en modelos de daño oxidativo renal",
+        "pubmed": "28025651, PMC11944665"
+      },
+      {
+        "compuesto": "Delfinidina-3-sambubiosida",
+        "tipo": "Antocianina",
+        "accion": "Cardioprotector — mejora función endotelial, reduce estrés oxidativo cardiovascular",
+        "pubmed": "PMC9571323"
+      },
+      {
+        "compuesto": "Cianidina y sus glicósidos",
+        "tipo": "Antocianina",
+        "accion": "Antiinflamatorio, anticancerígeno in vitro (inhibe NF-κB), antioxidante celular",
+        "pubmed": "journals.sagepub.com: Cespedes-Acuna 2018"
+      },
+      {
+        "compuesto": "Ácidos fenólicos (ácido elágico, ácido gálico)",
+        "tipo": "Polifenoles no flavonoides",
+        "accion": "Antioxidante, antimicrobiano, antiproliferativo in vitro",
+        "pubmed": "MDPI Antioxidants 2025 (maqui functional food review)"
+      }
+    ],
+    "recetas_verificadas": [
+      {
+        "nombre": "Jugo antioxidante de maqui fresco",
+        "indicacion": "Antioxidante general, apoyo metabólico, ojo seco, prevención cardiovascular",
+        "ingredientes": [
+          "50 g de bayas de maqui frescas o congeladas-descongeladas",
+          "150 mL de agua o jugo de limón",
+          "Opcional: 1 cucharadita de miel"
+        ],
+        "preparacion": "Licuar bayas con el agua a temperatura ambiente (NO calentar). Colar para eliminar semillas si se desea textura suave. Servir inmediatamente.",
+        "temperatura_agua": "Temperatura ambiente (máx. 25 °C)",
+        "tiempo_preparacion": "5 minutos",
+        "dosis": "1 vaso (200 mL), 1 vez al día",
+        "duracion": "Uso continuo posible como alimento funcional",
+        "nota_clinica": "Dosis de antocianinas equivalente a ~60–80 mg de extracto. Comparable a dosis usada en ensayo clínico MaquiBright."
+      },
+      {
+        "nombre": "Polvo de maqui en batido de desayuno (control glucémico y antioxidante)",
+        "indicacion": "Prediabetes, control glucémico postprandial, estrés oxidativo, deportistas",
+        "ingredientes": [
+          "5 g de polvo de maqui liofilizado (1 cucharadita colmada)",
+          "200 mL de leche o bebida vegetal",
+          "1 plátano mediano",
+          "Hielo al gusto"
+        ],
+        "preparacion": "Mezclar todos los ingredientes en licuadora a temperatura ambiente. Consumir inmediatamente al preparar (las antocianinas se degradan rápido al exponerse al oxígeno).",
+        "temperatura_agua": "No aplica; no calentar",
+        "tiempo_preparacion": "3 minutos",
+        "dosis": "1 batido al día, preferentemente en el desayuno o 20 minutos antes de la comida principal",
+        "duracion": "Uso continuo posible; mínimo 4 semanas para observar efecto en glucemia",
+        "nota_clinica": "5 g de polvo liofilizado aporta aprox. 150–200 mg de antocianinas totales. Efecto glucémico demostrado con Delphinol en PMID 28025651."
+      },
+      {
+        "nombre": "Infusión de hojas de maqui para diarrea y estados febriles (uso tradicional mapuche)",
+        "indicacion": "Diarrea funcional, estados febriles leves, astringente digestivo",
+        "ingredientes": [
+          "3 g de hojas secas de maqui (1 cucharadita)",
+          "200 mL de agua recién hervida"
+        ],
+        "preparacion": "Verter agua a 90 °C sobre las hojas. Infundir 10 minutos tapado. Colar y beber templado.",
+        "temperatura_agua": "90 °C",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1 taza, 2–3 veces al día durante el episodio",
+        "duracion": "Hasta resolución del episodio agudo, máximo 5 días",
+        "nota_clinica": "Las hojas contienen taninos con efecto astringente (uso antidiarreico mapuche). Las antocianinas en hojas son menores que en frutos; el efecto antioxidante es menos pronunciado. Uso avalado por tradición etnobotánica."
+      }
+    ],
+    "ficha_completa": true
   },
   {
     "id": 5,
@@ -668,7 +1298,179 @@
       "calmante"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Matricaria_February_2008-1.jpg/330px-Matricaria_February_2008-1.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Matricaria_February_2008-1.jpg/330px-Matricaria_February_2008-1.jpg",
+    "categoria_seguridad": "✅✅",
+    "categoria_seguridad_nota": "Seguro para uso prolongado en adultos. Comisión E alemana APROBADA. EMA/HMPC reconoce como well-established use y traditional use. ESCOP monografía publicada. Una de las plantas medicinales con mayor evidencia y más reguladas en el mundo.",
+    "sistemas": [
+      "digestivo",
+      "nervioso (ansiolítico leve)",
+      "dermatológico",
+      "respiratorio",
+      "ginecológico (dismenorrea)"
+    ],
+    "tradicion_ficha": "Europeo (medicina popular germánica, mediterránea). Introducida a Chile desde la Colonia; actualmente profundamente integrada a la medicina popular chilena y la tradición familiar ('agüita de manzanilla').",
+    "descripcion": "La manzanilla alemana es una de las plantas medicinales más estudiadas y reguladas del mundo. La Comisión E alemana la aprobó para uso interno (espasmolítico digestivo, inflamación gastrointestinal) y uso externo (inflamaciones cutáneas y mucosas). El ESCOP la avala para uso externo e interno. Su apigenina actúa sobre receptores GABA-A produciendo ansiolisis suave sin dependencia.",
+    "conservacion": "Flores secas: frasco hermético y oscuro, hasta 12 meses. El aroma manzanillado debe ser intenso al abrir (pérdida de aroma = pérdida de principios activos). Aceite esencial: frasco ámbar hermético, refrigerado, hasta 3 años.",
+    "buenas_practicas": {
+      "cosecha": "Recolectar en días soleados, mañana (9–11 h), cuando las lígulas blancas están horizontales o ligeramente hacia atrás. No recolectar flores cerradas ni completamente abiertas y caídas. Usar cesta ancha para no aplastar.",
+      "secado": "Capa única, sombra, ventilado, <35 °C (temperatura crítica — el calor destruye bisabolol y camazuleno), 5–8 días. Las flores secas deben quedar íntegras, no desmenuzadas.",
+      "almacenamiento": "Verificar aroma mensualmente. Proteger de luz UV (degrada apigenina). Separar de hierbas con olores fuertes (la manzanilla absorbe aromas).",
+      "nota_sostenibilidad": "Especie naturalizada en Chile, muy abundante y resiliente. Sin restricciones de recolección. Fácil de cultivar en huerto doméstico."
+    },
+    "evidencia_resumen": "Matricaria chamomilla tiene el nivel más alto de evidencia regulatoria entre las 5 plantas estudiadas. La Comisión E alemana aprobó los capítulos florales para: 1) inflamaciones gastrointestinales y espasmos; 2) inflamaciones cutáneas y mucosas (uso externo). El ESCOP indica uso interno para trastornos gastrointestinales espasmódicos, flatulencia y distensión; uso externo para inflamación de piel y mucosas, incluyendo cavidad oral (enjuagues) y vía respiratoria (inhalaciones). La EMA/HMPC (Matricariae flos) otorga well-established medicinal use para ambas vías. Ensayo clínico randomizado largo-plazo (PMID 27912875, n=93, 26 semanas): extracto oral de manzanilla (estandarizado a 1.2% apigenina) redujo significativamente síntomas de Trastorno de Ansiedad Generalizada (TAG) vs placebo. Meta-análisis de ensayos sobre sueño (ScienceDirect 2024): mejora modesta pero significativa en calidad subjetiva de sueño. Crema tópica de manzanilla: superó al hidrocortisona 0.5% en dermatitis y quemaduras solares en ensayo clínico controlado. Efecto sobre warfarina documentado en reporte de caso (PMC1435958); mecanismo: inducción CYP1A2 y efecto antiplaquetario.",
+    "fuentes": [
+      "Comisión E alemana: Monografía Matricariae flos — APROBADA (usos internos y externos)",
+      "ESCOP: Monografía Matricariae flos (European Scientific Cooperative on Phytotherapy)",
+      "EMA/HMPC: Final EU Herbal Monograph on Matricariae flos (well-established use)",
+      "PubMed PMID 27912875: Long-term chamomile for generalized anxiety disorder RCT",
+      "PMC5646235: Same RCT — PMC version",
+      "PMC2809371: Apigenin, bisabolol — extraction, characterization, stability",
+      "PMC9611340: Comprehensive study therapeutic applications chamomile",
+      "PMC1435958: Warfarin interaction with Matricaria chamomilla",
+      "ScienceDirect 2024: Effects of chamomile on sleep — systematic review and meta-analysis",
+      "EMA/HMPC: Matricariae aetheroleum monograph (aceite esencial)"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Alergia a Asteraceae/Compositae (conocida): la manzanilla comparte alérgenos con artemisia, ambrosía, caléndula. Riesgo de reacción cruzada incluyendo anafilaxia (casos documentados)",
+        "Anafilaxia previa a manzanilla"
+      ],
+      "relativas": [
+        "Embarazo: uso oral en dosis medicinales NO recomendado — contiene lactonas sesquiterpénicas con efecto uterotónico potencial a altas dosis. La taza ocasional de infusión diluida es generalmente considerada segura; dosis terapéuticas plenas: evitar.",
+        "Lactancia: datos insuficientes para dosis medicinales; infusión diluida ocasional no problemática",
+        "Menores de 2 años: sin datos de seguridad para uso oral medicinal"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Warfarina y anticoagulantes orales",
+        "mecanismo": "Apigenina inhibe CYP1A2 y CYP3A4 in vitro; podría aumentar niveles de warfarina. Reporte de caso documentado de potenciación de warfarina (PMC1435958). Efecto antiagregante aditivo por flavonoides.",
+        "recomendacion": "Evitar uso simultáneo de extractos concentrados con warfarina. Monitorizar INR si el paciente no puede evitar el consumo."
+      },
+      {
+        "medicamento": "Benzodiazepinas y depresores del SNC (alcohol, zolpidem, barbitúricos)",
+        "mecanismo": "Apigenina es agonista parcial GABA-A (mismo receptor que benzodiazepinas): efecto sedante aditivo",
+        "recomendacion": "Precaución en combinación; informar al médico. Puede ser deseable en algunos contextos (potenciación terapéutica) pero incrementa sedación."
+      },
+      {
+        "medicamento": "Tamoxifeno y antiestrogénicos",
+        "mecanismo": "Apigenina tiene actividad estrogénica débil (fitoestrógeno) en modelos celulares; interferencia teórica con terapia hormonal",
+        "recomendacion": "Evitar dosis altas de extracto concentrado en pacientes con cáncer de mama hormonosensible."
+      },
+      {
+        "medicamento": "Ciclosporina e inmunosupresores metabolizados por CYP3A4",
+        "mecanismo": "Inhibición de CYP3A4 por apigenina: posible aumento de concentración plasmática del inmunosupresor",
+        "recomendacion": "Evitar combinación en trasplantados."
+      }
+    ],
+    "sintomas_sobredosis": {
+      "sintomas": [
+        "Náuseas y vómitos (ingesta muy alta)",
+        "Somnolencia excesiva (dosis muy altas de extracto concentrado estandarizado)",
+        "Reacción alérgica: urticaria, angioedema, broncospasmo (en alérgicos a Asteraceae)",
+        "Anafilaxia (rara pero documentada en alérgicos conocidos)"
+      ],
+      "que_hacer": "Si reacción alérgica leve: suspender y administrar antihistamínico oral. Si angioedema o dificultad respiratoria: urgencias médicas (adrenalina intramuscular según protocolo). Si somnolencia excesiva por sobredosis: reposo, vigilar. No se ha documentado toxicidad sistémica grave por infusión acuosa en dosis razonables."
+    },
+    "cuando_consultar": "",
+    "dosis_estandar": "3 g de flores secas (1 cucharada colmada) por 150–200 mL de agua",
+    "dosis_maxima": "4 tazas/día · 9 g (ESCOP) a 12 g (EMA) de flores secas de planta seca · Para uso sedante/ansiolítico: ensayos clínicos usaron extractos estandarizados 250–500 mg de extracto seco (equiv. a 1.2% apigenina) 3 veces al día. La infusión domiciliaria tiene menor concentración estandarizada.",
+    "tiempo_preparacion": "5–10 minutos de infusión (tapado para conservar aceites volátiles)",
+    "duracion_tratamiento": "Máx. 26 semanas demostrado en ensayo clínico (TAG) sin efectos adversos. Uso digestivo: sin límite establecido como planta medicinal de larga tradición. continuo · Descansar No obligatorio en dosis estándar. En uso prolongado a dosis altas, descanso de 2 semanas cada 3 meses por precaución. · La EMA no establece límite de duración para uso digestivo tradicional. Para uso ansiolítico prolongado: supervisión médica.",
+    "via": [
+      "infusión oral (digestivo, ansiolítico, sedante leve)",
+      "crema o ungüento tópico (inflamación cutánea, dermatitis, quemaduras)",
+      "enjuague bucal con decocción (estomatitis, gingivitis, mucositis)",
+      "inhalación de vapor (congestión nasal, rinitis alérgica leve)",
+      "baño de asiento (inflamación anogenital leve)"
+    ],
+    "identificacion_botanica": {
+      "habito": "Hierba anual o bianual, 20–50 cm de altura, muy ramificada, aromática",
+      "hojas": "Alternas, bipinnadas, con segmentos lineares y muy finos; aspecto plumoso",
+      "flores": "Cabezuela compuesta: lígulas blancas (flores ray) rodeando disco central amarillo; receptáculo cónico hueco al partir (diagnóstico diferencial clave); muy aromáticas",
+      "fruto": "Aquenio pequeño, sin papus",
+      "distribucion_chile": "Cultivada y naturalizada en todo Chile, especialmente Regiones Metropolitana a Los Lagos. Crece espontáneamente en bordes de caminos, terrenos perturbados.",
+      "epoca_recoleccion": "Septiembre–diciembre en Chile (floración plena). Recolectar apenas abren las flores, en días soleados y secos, por la mañana.",
+      "confusion_posible": "Confusión frecuente con Anthemis cotula (manzanilla hedionda/fétida) — olor desagradable vs aroma dulce de Matricaria. Diferenciación: abrir el receptáculo — Matricaria chamomilla tiene receptáculo cónico HUECO; Anthemis y otras tienen receptáculo macizo. También con Chrysanthemum (crisantemo) o Leucanthemum (margarita): estas no tienen aroma intenso al frotar las flores."
+    },
+    "evidencia_compuestos": [
+      {
+        "compuesto": "Apigenina (apigenin-7-glucósido como fuente principal)",
+        "tipo": "Flavona",
+        "accion": "Ansiolítico suave (agonista parcial receptor benzodiazepínico en GABA-A), antiinflamatorio (inhibición NF-κB e IL-6), antioxidante, antiespasmódico. Ensayos clínicos en TAG (PMID 27912875, PMC5646235).",
+        "pubmed": "27912875, PMC5646235, PMC9611340"
+      },
+      {
+        "compuesto": "α-Bisabolol (levomenol)",
+        "tipo": "Sesquiterpenol (aceite esencial)",
+        "accion": "Antiinflamatorio (inhibe 5-LOX), antimicrobiano, antipirético, antiespasmódico, promotor de penetración cutánea (permeabilizador transdérmico). LD50 oral en ratas: ~15 mL/kg (muy baja toxicidad).",
+        "pubmed": "PMC2809371, PMC9611340"
+      },
+      {
+        "compuesto": "Camazuleno (azulene)",
+        "tipo": "Sesquiterpeno (generado durante destilación de aceite esencial desde matricina)",
+        "accion": "Antiinflamatorio potente (inhibición COX y LOX), antialérgico, antiespasmódico. Responsable de gran parte de la actividad tópica.",
+        "pubmed": "PMC2809371, ScienceDirect Matricaria chamomilla overview"
+      },
+      {
+        "compuesto": "Matricina (precursor del camazuleno)",
+        "tipo": "Sesquiterpeno lactona",
+        "accion": "Antiinflamatorio; la infusión caliente activa parcialmente esta conversión",
+        "pubmed": "PMC2809371"
+      },
+      {
+        "compuesto": "Derivados del ácido cafeico (ácido clorogénico)",
+        "tipo": "Hidroxicinámicos",
+        "accion": "Antioxidante, antiinflamatorio, hepatoprotector leve",
+        "pubmed": "PMC9611340"
+      }
+    ],
+    "recetas_verificadas": [
+      {
+        "nombre": "Infusión clásica de manzanilla (Comisión E / ESCOP)",
+        "indicacion": "Dispepsia, espasmo gastrointestinal, flatulencia, distensión abdominal, gastritis leve",
+        "ingredientes": [
+          "3 g de capítulos florales secos de manzanilla (1 cucharada colmada)",
+          "200 mL de agua a 90–95 °C"
+        ],
+        "preparacion": "Verter el agua (NO hirviendo a 100 °C sino a 90–95 °C) sobre las flores en taza tapada. Infundir 5–10 minutos tapado. Colar y beber caliente a tibio.",
+        "temperatura_agua": "90–95 °C (no hervir directamente)",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1 taza (200 mL), 3–4 veces al día, entre comidas o después de las comidas",
+        "duracion": "Uso continuo posible; sin límite establecido para síntomas digestivos",
+        "nota_clinica": "Dosis avalada por Comisión E (3 g/toma, 3 veces al día = 9 g/día). Apigenina y bisabolol actúan sinérgicamente como antiespasmódicos."
+      },
+      {
+        "nombre": "Infusión de manzanilla para ansiedad y trastorno del sueño",
+        "indicacion": "Ansiedad leve, insomnio de conciliación, irritabilidad, tensión nerviosa",
+        "ingredientes": [
+          "3–4 g de flores de manzanilla secas",
+          "200 mL de agua a 90 °C",
+          "Opcional: 1 g de melisa (Melissa officinalis) para efecto sinérgico"
+        ],
+        "preparacion": "Infundir flores (y melisa si se usa) en agua a 90 °C por 10 minutos tapado. Colar. Beber caliente 30–60 minutos antes de dormir.",
+        "temperatura_agua": "90 °C",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "1–2 tazas en las 2 horas previas a acostarse; también 1 taza a media tarde para ansiedad diurna",
+        "duracion": "Sin límite; ensayo clínico de hasta 26 semanas demostró seguridad (PMID 27912875)",
+        "nota_clinica": "La apigenina actúa sobre receptores GABA-A (misma diana que benzodiazepinas) sin dependencia ni tolerancia demostrada. Efecto modesto pero consistente en meta-análisis de sueño (ScienceDirect 2024)."
+      },
+      {
+        "nombre": "Enjuague bucal de manzanilla para mucositis, aftas y gingivitis",
+        "indicacion": "Mucositis oral (post-quimioterapia como coadyuvante), aftas recurrentes, gingivitis, estomatitis",
+        "ingredientes": [
+          "6 g de flores de manzanilla secas (doble concentración)",
+          "250 mL de agua hervida (decocción breve)"
+        ],
+        "preparacion": "Hervir flores en agua 2–3 minutos (decocción ligera para mayor concentración de principios activos). Reposar 5 minutos tapado. Colar muy bien. Dejar enfriar a temperatura tibia (37–40 °C). Usar como enjuague bucal.",
+        "temperatura_agua": "37–40 °C al momento de usar",
+        "tiempo_preparacion": "10 minutos",
+        "dosis": "Enjuagar 1–2 minutos, 3–4 veces al día; no tragar (o tragar en pequeña cantidad: inocuo)",
+        "duracion": "Mientras persistan los síntomas; sin límite de seguridad demostrado",
+        "nota_clinica": "Evidencia clínica en mucositis oral (Commission E uso externo aprobado). El bisabolol reduce inflamación de mucosa y tiene actividad antimicrobiana directa."
+      }
+    ],
+    "ficha_completa": true
   },
   {
     "id": 27,

@@ -8334,3 +8334,223 @@ header.plants-tab-header {
     .search-box { margin-bottom: 16px; }
 }
 
+/* ════════════════════════════════════════════════════════════════
+   FICHA EXTENDIDA — modal de planta verificada
+   ════════════════════════════════════════════════════════════════ */
+
+/* Descripción introductoria */
+.planta-descripcion {
+    color: var(--text-soft);
+    font-size: 0.93rem;
+    line-height: 1.6;
+    margin: 12px 0 0;
+    padding: 12px 14px;
+    background: var(--glass-bg);
+    border-left: 3px solid var(--moss);
+    border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+
+/* Títulos de sección extendida */
+.ficha-rapida-title,
+.ficha-seccion-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--moss-bright);
+    margin-bottom: 10px;
+}
+.ficha-rapida-title i,
+.ficha-seccion-title i { font-size: 0.9rem; }
+
+/* Grid ficha rápida */
+.ficha-rapida-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.ficha-item {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r-sm);
+    padding: 9px 12px;
+}
+.ficha-item-full { grid-column: 1 / -1; }
+.ficha-key {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-mute);
+    margin-bottom: 3px;
+}
+.ficha-val {
+    font-size: 0.85rem;
+    color: var(--text);
+    line-height: 1.45;
+}
+
+/* Seguridad extendida */
+.ficha-seguridad-bloque {
+    margin-bottom: 12px;
+}
+.ficha-seg-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.ficha-lista {
+    margin: 0;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ficha-lista li {
+    font-size: 0.86rem;
+    color: var(--text-soft);
+    line-height: 1.45;
+}
+.ficha-lista-warn li { color: #f0b060; }
+.ficha-sobredosis {
+    font-size: 0.86rem;
+    color: var(--text-soft);
+    background: rgba(201,123,86,0.07);
+    border: 1px solid rgba(201,123,86,0.2);
+    border-radius: var(--r-sm);
+    padding: 8px 12px;
+    line-height: 1.5;
+}
+
+/* Botánica */
+.ficha-botanica {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r-md);
+    overflow: hidden;
+}
+.bot-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 10px;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--glass-border);
+}
+.bot-row:last-child { border-bottom: none; }
+.bot-row:nth-child(even) { background: rgba(255,255,255,0.02); }
+.bot-key {
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: var(--moss-bright);
+    padding-top: 1px;
+}
+.bot-val {
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    line-height: 1.45;
+}
+.bot-row-warn { background: rgba(201,123,86,0.06) !important; }
+.bot-row-warn .bot-key { color: var(--terracotta); }
+
+/* Tabla de compuestos */
+.ficha-compuestos-tabla {
+    border: 1px solid var(--glass-border);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.comp-header {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 2fr;
+    gap: 8px;
+    padding: 7px 12px;
+    background: rgba(106,138,82,0.12);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--moss-bright);
+}
+.comp-row {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 2fr;
+    gap: 8px;
+    padding: 8px 12px;
+    border-top: 1px solid var(--glass-border);
+    align-items: start;
+}
+.comp-row:nth-child(even) { background: rgba(255,255,255,0.015); }
+.comp-nombre {
+    font-size: 0.83rem;
+    font-weight: 600;
+    color: var(--text);
+}
+.comp-tipo {
+    font-size: 0.78rem;
+    color: var(--amber);
+}
+.comp-accion {
+    font-size: 0.8rem;
+    color: var(--text-soft);
+    line-height: 1.4;
+}
+.ficha-evidencia-resumen {
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    padding: 10px 12px;
+    background: var(--glass-bg);
+    border-radius: var(--r-sm);
+    margin-bottom: 10px;
+}
+
+/* Fuentes */
+.ficha-fuentes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+.fuentes-label {
+    font-size: 0.76rem;
+    color: var(--text-mute);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fuente-chip {
+    font-size: 0.73rem;
+    padding: 3px 9px;
+    background: rgba(122,184,212,0.08);
+    border: 1px solid rgba(122,184,212,0.22);
+    color: #7ab8d4;
+    border-radius: 20px;
+}
+
+/* Buenas prácticas */
+.ficha-buenas {
+    font-size: 0.86rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    padding: 10px 14px;
+    background: rgba(155,187,122,0.05);
+    border: 1px solid rgba(155,187,122,0.15);
+    border-radius: var(--r-sm);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .ficha-rapida-grid { grid-template-columns: 1fr; }
+    .comp-header, .comp-row { grid-template-columns: 1fr; gap: 2px; }
+    .comp-header span:not(:first-child), .comp-row span:not(:first-child) { font-size: 0.78rem; }
+    .bot-row { grid-template-columns: 90px 1fr; }
+}
+

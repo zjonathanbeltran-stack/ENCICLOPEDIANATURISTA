@@ -1958,6 +1958,87 @@ function abrirDetallePlanta(id) {
         ${p.protegida ? `<div class="alert-box shield"><span class="ico">🛡️</span><div><strong>Especie protegida.</strong> No recolectar. Compra a proveedores autorizados.</div></div>` : ''}
         <div class="alert-box warn"><span class="ico">⚠️</span><div><strong>Precauciones:</strong> ${p.precaucion}</div></div>
 
+        ${p.ficha_completa ? `
+        <!-- ── FICHA EXTENDIDA ── -->
+
+        <!-- Descripción -->
+        ${p.descripcion ? `<p class="planta-descripcion">${p.descripcion}</p>` : ''}
+
+        <!-- Ficha rápida -->
+        <div class="modal-divider"></div>
+        <div class="ficha-rapida-title"><i class="fas fa-table-cells-large"></i> Ficha rápida</div>
+        <div class="ficha-rapida-grid">
+            ${p.dosis_estandar ? `<div class="ficha-item"><div class="ficha-key">Dosis estándar</div><div class="ficha-val">${p.dosis_estandar}</div></div>` : ''}
+            ${p.dosis_maxima ? `<div class="ficha-item"><div class="ficha-key">Dosis diaria máx.</div><div class="ficha-val">${p.dosis_maxima}</div></div>` : ''}
+            ${p.tiempo_preparacion ? `<div class="ficha-item"><div class="ficha-key">Tiempo de preparación</div><div class="ficha-val">${p.tiempo_preparacion}</div></div>` : ''}
+            ${p.duracion_tratamiento ? `<div class="ficha-item"><div class="ficha-key">Duración máx.</div><div class="ficha-val">${p.duracion_tratamiento}</div></div>` : ''}
+            ${p.via && p.via.length ? `<div class="ficha-item"><div class="ficha-key">Vía</div><div class="ficha-val">${p.via.join(' · ')}</div></div>` : ''}
+            ${p.conservacion ? `<div class="ficha-item ficha-item-full"><div class="ficha-key">Conservación</div><div class="ficha-val">${p.conservacion}</div></div>` : ''}
+        </div>
+
+        <!-- Seguridad extendida -->
+        ${(p.contraindicaciones && p.contraindicaciones.length) || (p.interacciones && p.interacciones.length) ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-shield-halved"></i> Seguridad</div>
+        ${p.contraindicaciones && p.contraindicaciones.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Contraindicaciones</div>
+            <ul class="ficha-lista">${p.contraindicaciones.map(c => `<li>${c}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${p.interacciones && p.interacciones.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Interacciones medicamentosas</div>
+            <ul class="ficha-lista ficha-lista-warn">${p.interacciones.map(i => `<li>${i}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${p.sintomas_sobredosis ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Sobredosis</div>
+            <div class="ficha-sobredosis">${p.sintomas_sobredosis}</div>
+        </div>` : ''}
+        ` : ''}
+
+        <!-- Identificación botánica -->
+        ${p.identificacion_botanica && Object.keys(p.identificacion_botanica).length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-leaf"></i> Identificación botánica</div>
+        <div class="ficha-botanica">
+            ${p.identificacion_botanica.habito ? `<div class="bot-row"><span class="bot-key">Hábito</span><span class="bot-val">${p.identificacion_botanica.habito}</span></div>` : ''}
+            ${p.identificacion_botanica.hojas ? `<div class="bot-row"><span class="bot-key">Hojas</span><span class="bot-val">${p.identificacion_botanica.hojas}</span></div>` : ''}
+            ${p.identificacion_botanica.flores ? `<div class="bot-row"><span class="bot-key">Flores</span><span class="bot-val">${p.identificacion_botanica.flores}</span></div>` : ''}
+            ${p.identificacion_botanica.fruto ? `<div class="bot-row"><span class="bot-key">Fruto</span><span class="bot-val">${p.identificacion_botanica.fruto}</span></div>` : ''}
+            ${p.identificacion_botanica.distribucion_chile ? `<div class="bot-row"><span class="bot-key">Distribución</span><span class="bot-val">${p.identificacion_botanica.distribucion_chile}</span></div>` : ''}
+            ${p.identificacion_botanica.epoca_recoleccion ? `<div class="bot-row"><span class="bot-key">Recolección</span><span class="bot-val">${p.identificacion_botanica.epoca_recoleccion}</span></div>` : ''}
+            ${p.identificacion_botanica.confusion_posible ? `<div class="bot-row bot-row-warn"><span class="bot-key">⚠ Posible confusión</span><span class="bot-val">${p.identificacion_botanica.confusion_posible}</span></div>` : ''}
+        </div>` : ''}
+
+        <!-- Evidencia científica -->
+        ${p.evidencia_compuestos && p.evidencia_compuestos.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-flask"></i> Evidencia científica</div>
+        <div class="ficha-compuestos-tabla">
+            <div class="comp-header"><span>Compuesto</span><span>Tipo</span><span>Acción</span></div>
+            ${p.evidencia_compuestos.map(c => `
+            <div class="comp-row">
+                <span class="comp-nombre">${c.compuesto}</span>
+                <span class="comp-tipo">${c.tipo}</span>
+                <span class="comp-accion">${c.accion}</span>
+            </div>`).join('')}
+        </div>
+        ${p.evidencia_resumen ? `<div class="ficha-evidencia-resumen">${p.evidencia_resumen}</div>` : ''}
+        ${p.fuentes && p.fuentes.length ? `
+        <div class="ficha-fuentes">
+            <span class="fuentes-label"><i class="fas fa-book-open"></i> Fuentes:</span>
+            ${p.fuentes.map(f => `<span class="fuente-chip">${f}</span>`).join('')}
+        </div>` : ''}` : ''}
+
+        <!-- Buenas prácticas -->
+        ${p.buenas_practicas ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-seedling"></i> Buenas prácticas</div>
+        <div class="ficha-buenas">${p.buenas_practicas}</div>` : ''}
+
+        ` : ''}
+
         ${recetasDeEstaPlanta.length ? `
             <div class="modal-divider"></div>
             <button class="recipe-cta" id="verRecetasBtn">
