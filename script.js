@@ -1977,25 +1977,69 @@ function abrirDetallePlanta(id) {
         </div>
 
         <!-- Seguridad extendida -->
-        ${(p.contraindicaciones && p.contraindicaciones.length) || (p.interacciones && p.interacciones.length) ? `
+        ${(() => {
+            // Normalizadores: aceptan string, array de strings, array de objetos {medicamento, mecanismo, recomendacion}, o objeto {absolutas, relativas} / {sintomas, que_hacer}
+            const fmtItem = (x) => {
+                if (typeof x === 'string') return x;
+                if (x && typeof x === 'object') {
+                    if (x.medicamento || x.mecanismo || x.recomendacion) {
+                        const med = x.medicamento ? `<strong>${x.medicamento}</strong>` : '';
+                        const mec = x.mecanismo ? ` — ${x.mecanismo}` : '';
+                        const rec = x.recomendacion ? ` <em>(${x.recomendacion})</em>` : '';
+                        return med + mec + rec;
+                    }
+                    return Object.values(x).filter(v => typeof v === 'string').join(' — ');
+                }
+                return String(x);
+            };
+            const toList = (v) => {
+                if (!v) return [];
+                if (Array.isArray(v)) return v.map(fmtItem);
+                if (typeof v === 'object') {
+                    const out = [];
+                    if (Array.isArray(v.absolutas)) v.absolutas.forEach(s => out.push(`<strong>Absoluta:</strong> ${fmtItem(s)}`));
+                    if (Array.isArray(v.relativas)) v.relativas.forEach(s => out.push(`<strong>Relativa:</strong> ${fmtItem(s)}`));
+                    if (!out.length) Object.values(v).forEach(s => { if (Array.isArray(s)) s.forEach(x => out.push(fmtItem(x))); else if (s) out.push(fmtItem(s)); });
+                    return out;
+                }
+                return [String(v)];
+            };
+            const fmtSobre = (v) => {
+                if (!v) return '';
+                if (typeof v === 'string') return v;
+                if (typeof v === 'object') {
+                    let out = '';
+                    if (Array.isArray(v.sintomas)) out += `<strong>Síntomas:</strong> ${v.sintomas.join(', ')}.`;
+                    if (v.que_hacer) out += ` <strong>Qué hacer:</strong> ${v.que_hacer}`;
+                    if (v.manejo) out += ` <strong>Manejo:</strong> ${v.manejo}`;
+                    return out || Object.values(v).filter(x => typeof x === 'string').join(' · ');
+                }
+                return String(v);
+            };
+            const contraList = toList(p.contraindicaciones);
+            const interList = toList(p.interacciones);
+            const sobreHtml = fmtSobre(p.sintomas_sobredosis);
+            if (!contraList.length && !interList.length && !sobreHtml) return '';
+            return `
         <div class="modal-divider"></div>
         <div class="ficha-seccion-title"><i class="fas fa-shield-halved"></i> Seguridad</div>
-        ${p.contraindicaciones && p.contraindicaciones.length ? `
+        ${contraList.length ? `
         <div class="ficha-seguridad-bloque">
             <div class="ficha-seg-label">Contraindicaciones</div>
-            <ul class="ficha-lista">${p.contraindicaciones.map(c => `<li>${c}</li>`).join('')}</ul>
+            <ul class="ficha-lista">${contraList.map(c => `<li>${c}</li>`).join('')}</ul>
         </div>` : ''}
-        ${p.interacciones && p.interacciones.length ? `
+        ${interList.length ? `
         <div class="ficha-seguridad-bloque">
             <div class="ficha-seg-label">Interacciones medicamentosas</div>
-            <ul class="ficha-lista ficha-lista-warn">${p.interacciones.map(i => `<li>${i}</li>`).join('')}</ul>
+            <ul class="ficha-lista ficha-lista-warn">${interList.map(i => `<li>${i}</li>`).join('')}</ul>
         </div>` : ''}
-        ${p.sintomas_sobredosis ? `
+        ${sobreHtml ? `
         <div class="ficha-seguridad-bloque">
             <div class="ficha-seg-label">Sobredosis</div>
-            <div class="ficha-sobredosis">${p.sintomas_sobredosis}</div>
+            <div class="ficha-sobredosis">${sobreHtml}</div>
         </div>` : ''}
-        ` : ''}
+        `;
+        })()}
 
         <!-- Identificación botánica -->
         ${p.identificacion_botanica && Object.keys(p.identificacion_botanica).length ? `
@@ -2035,7 +2079,7 @@ function abrirDetallePlanta(id) {
         ${p.buenas_practicas ? `
         <div class="modal-divider"></div>
         <div class="ficha-seccion-title"><i class="fas fa-seedling"></i> Buenas prácticas</div>
-        <div class="ficha-buenas">${p.buenas_practicas}</div>` : ''}
+        <div class="ficha-buenas">${typeof p.buenas_practicas === 'string' ? p.buenas_practicas : Object.entries(p.buenas_practicas).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
 
         ` : ''}
 
