@@ -1,42 +1,7 @@
 {
-  "condicion": "Estrés / Ansiedad",
   "modulo": "nervioso",
   "submodulo": "estres_ansiedad",
-  "emoji": "🧘",
-  "descripcion": "Plantas calmantes para la ansiedad, tensión nerviosa, nerviosismo y taquicardia por estrés.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Toronjil, manzanilla, tilo y lavanda son seguros en embarazo. Evitar kava kava. Los baños relajantes de lavanda son especialmente recomendados."
-  },
   "recetas": [
-    {
-      "id": 21,
-      "titulo": "Infusión de Toronjil para la ansiedad",
-      "categoria": "Nervioso",
-      "origen": "Popular",
-      "ingredientes": "1 cucharada de hojas de toronjil, 1 taza de agua.",
-      "preparacion": "Infusión por 5 minutos. Tomar antes de dormir.",
-      "dosis": "1 taza 2–3 veces al día; no superar 3 tazas/día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "8 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No combinar con medicamentos psicotrópicos sin consultar al médico.",
-      "uso": "Ansiedad: el ácido rosmarínico inhibe la MAO y la degradación del GABA, elevando los niveles de neurotransmisores calmantes.",
-      "principios_activos": "Ácido rosmarínico: inhibidor de MAO-A y de GABA transaminasa (efecto antidepresivo y ansiolítico comprobado clínicamente). Citral y citronelal (aceite esencial): sedantes por modulación del sistema nervioso vegetativo.",
-      "propiedades": [
-        "sedante",
-        "ansiolítico",
-        "antidepresivo leve",
-        "carminativo",
-        "antiespasmódico"
-      ],
-      "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
-    },
     {
       "id": 43,
       "titulo": "Tintura de Menta para el Mal Aliento",
@@ -63,7 +28,21 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "halitosis",
+        "higiene bucal",
+        "gingivitis leve",
+        "aftas bucales"
+      ],
+      "interacciones_medicamentos": "Uso tópico bucal: precaución con anticoagulantes y antiarrítmicos por absorción mucosa del mentol en dosis altas.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia: evitar dosis altas o uso prolongado del aceite esencial.",
+      "duracion_tratamiento": "Uso diario tópico; revisar si halitosis persiste más de 2 semanas.",
+      "sinergia_plantas": [
+        "salvia",
+        "tomillo",
+        "romero",
+        "manzanilla"
+      ]
     },
     {
       "id": 44,
@@ -91,7 +70,22 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "estrés agudo",
+        "cefalea tensional",
+        "insomnio leve",
+        "ansiedad situacional",
+        "nerviosismo"
+      ],
+      "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y antihipertensivos (puede potenciar hipotensión).",
+      "embarazo_lactancia": "Precaución en embarazo (especialmente primer trimestre); seguro en lactancia en dosis moderadas.",
+      "duracion_tratamiento": "Curas de 2-3 semanas con descanso.",
+      "sinergia_plantas": [
+        "toronjil",
+        "manzanilla",
+        "tilo",
+        "valeriana"
+      ]
     },
     {
       "id": 50,
@@ -111,7 +105,27 @@
       "contraindicaciones": "No combinar con medicamentos psicotrópicos sin consultar al médico.",
       "uso": "Nervios. Equilibrio del sistema nervioso.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
     },
     {
       "id": 82,
@@ -140,7 +154,21 @@
         "antidepresivo leve"
       ],
       "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "estrés agudo",
+        "nerviosismo situacional",
+        "ansiedad leve",
+        "herpes labial recurrente (uso complementario)"
+      ],
+      "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos y hormonas tiroideas. Vigilar con antihipertensivos.",
+      "embarazo_lactancia": "Contraindicada por contenido alcohólico; preferir infusión. Evitar la tintura en embarazo y lactancia.",
+      "duracion_tratamiento": "Uso puntual o curas cortas de 2-3 semanas.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "lavanda",
+        "tilo",
+        "pasiflora"
+      ]
     },
     {
       "id": 118,
@@ -168,7 +196,21 @@
         "diaforético"
       ],
       "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Nerviosismo",
+        "Espasmos digestivos",
+        "Ansiedad situacional",
+        "Cólicos",
+        "Estrés leve"
+      ],
+      "interacciones_medicamentos": "Pulegona es hepatotóxica; evitar con paracetamol, isoniazida y otros hepatotóxicos; precaución con sedantes.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo (efecto abortivo) y lactancia.",
+      "duracion_tratamiento": "Máximo 5 días; no usar de forma prolongada.",
+      "sinergia_plantas": [
+        "cedrón",
+        "melisa",
+        "manzanilla"
+      ]
     },
     {
       "id": 518,
@@ -197,7 +239,20 @@
         "antiséptico"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 519,
@@ -226,7 +281,20 @@
         "antidepresivo leve"
       ],
       "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 522,
@@ -246,7 +314,27 @@
       "contraindicaciones": "Hepatotóxico en uso prolongado o dosis altas; no combinar con alcohol",
       "uso": "Ansiedad. Equilibrio del sistema nervioso.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
     },
     {
       "id": 524,
@@ -266,7 +354,149 @@
       "contraindicaciones": "Puede potenciar sedantes; evitar en hipotensión",
       "uso": "Tensión Nerviosa. Equilibrio del sistema nervioso.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
+    },
+    {
+      "id": 525,
+      "titulo": "Baño de Pies con Sales y Aceite de Lavanda",
+      "categoria": "Sedante",
+      "origen": "Aromaterapia",
+      "ingredientes": "3 cucharadas de sal gruesa, 5 gotas de aceite esencial de lavanda, 2 L de agua tibia",
+      "preparacion": "Disolver la sal en el agua tibia. Agregar el aceite esencial. Sumergir los pies 20 min.",
+      "dosis": "1 sesión al día, preferiblemente por la noche",
+      "modo_uso": "El punto de acupresión del centro del pie conecta con el sistema nervioso",
+      "tiempo_prep": "5 min + 20 remojo",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Uso inmediato",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia y reflexología",
+      "contraindicaciones": "Generalmente seguro; no usar si hay heridas en los pies",
+      "uso": "Ansiedad, estrés y trastornos del sueño: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
+      "principios_activos": "Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "antiséptico",
+        "cicatrizante"
+      ],
+      "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+      "indicaciones_principales": [
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
+      ]
+    },
+    {
+      "id": 529,
+      "titulo": "Infusión Mapuche de Hierba de la Plata",
+      "categoria": "Nervioso",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "1 cucharada de hierba de la plata (Baccharis spp.) seca, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir la hierba 10 min. Colar.",
+      "dosis": "1-2 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "No usar en dosis altas; no en embarazo",
+      "uso": "Equilibrio del sistema nervioso.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
+    },
+    {
+      "id": 530,
+      "titulo": "Técnica de Respiración con Eucalipto",
+      "categoria": "Nervioso",
+      "origen": "Aromaterapia",
+      "ingredientes": "5 gotas de aceite esencial de eucalipto, cuenco con agua caliente",
+      "preparacion": "Agregar el aceite al agua caliente. Inhalar el vapor durante 5 min con ojos cerrados.",
+      "dosis": "1 sesión de 5-10 min",
+      "modo_uso": "Respiración profunda: 4 tiempos inhala, 4 mantiene, 8 exhala",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Uso inmediato",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia y medicina respiratoria",
+      "contraindicaciones": "No usar en niños menores de 6 años",
+      "uso": "Bronquitis, sinusitis y tos productiva: el 1,8-cineol fluidifica el moco, estimula el movimiento ciliar bronquial y ejerce acción antiséptica sobre patógenos respiratorios.",
+      "principios_activos": "1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "antiséptico respiratorio",
+        "febrífugo",
+        "broncodilatador"
+      ],
+      "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 531,
@@ -286,7 +516,27 @@
       "contraindicaciones": "Puede causar somnolencia; no conducir",
       "uso": "Ansiedad. Equilibrio del sistema nervioso.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
     },
     {
       "id": 532,
@@ -315,7 +565,60 @@
         "inmunoestimulante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
+    },
+    {
+      "id": 533,
+      "titulo": "Infusión de Verbena para el Agotamiento Nervioso",
+      "categoria": "Nervioso",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharada de verbena seca (Verbena officinalis), 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir la verbena 10 min. Colar.",
+      "dosis": "3 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en embarazo; puede estimular contracciones uterinas",
+      "uso": "Agotamiento Nervioso. Equilibrio del sistema nervioso.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
     },
     {
       "id": 534,
@@ -343,7 +646,183 @@
         "antiespasmódico"
       ],
       "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Hormonas tiroideas: puede interferir con la función tiroidea en uso prolongado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
+    },
+    {
+      "id": 536,
+      "titulo": "Aceite de Cannabidiol Artesanal con Cáñamo Industrial",
+      "categoria": "Nervioso",
+      "origen": "Medicina Herbal Moderna",
+      "ingredientes": "50 g de flores de cánamo industrial (Cannabis sativa, variedades sin THC), 500 ml de aceite MCT o aceite de oliva",
+      "preparacion": "Descarboxilar el cánamo al horno 110°C 45 min. Macerar en el aceite a 70°C 4 horas. Filtrar.",
+      "dosis": "5-10 gotas bajo la lengua 2 veces al día",
+      "modo_uso": "Dejar reposar bajo la lengua 60-90 segundos antes de tragar",
+      "tiempo_prep": "5 horas proceso",
+      "dificultad": "Avanzado",
+      "rendimiento": "500 ml",
+      "conservacion": "Frasco oscuro refrigerado 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina herbal integrativa moderna",
+      "contraindicaciones": "Verificar legalidad en tu país; interacciones con antiepilépticos y anticoagulantes",
+      "uso": "Equilibrio del sistema nervioso.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno",
+        "emoliente"
+      ]
+    },
+    {
+      "id": 537,
+      "titulo": "Compresas de Manzanilla Fría para la Cefalea Nerviosa",
+      "categoria": "Nervioso",
+      "origen": "Herbolaria Universal",
+      "ingredientes": "4 cucharadas de manzanilla seca, 500 ml de agua",
+      "preparacion": "Hervir la manzanilla 10 min. Colar. Enfriar en nevera. Empapar una tela limpia.",
+      "dosis": "Aplicar en la frente y sien 20-30 min",
+      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
+      "tiempo_prep": "15 min + enfriado",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria universal",
+      "contraindicaciones": "No usar en alergia a crisantemas",
+      "uso": "Cefalea Nerviosa: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
+    },
+    {
+      "id": 754,
+      "titulo": "Infusión de Schisandra para el Estrés Crónico",
+      "categoria": "Nervioso",
+      "origen": "Medicina Tradicional China",
+      "ingredientes": "1 cucharadita de bayas de schisandra secas, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las bayas 15 min. Colar.",
+      "dosis": "2 tazas al día por 3-6 meses",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina tradicional china",
+      "contraindicaciones": "No en embarazo; puede interactuar con medicamentos hepatoprotectores",
+      "uso": "Estrés Crónico. Equilibrio del sistema nervioso.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
+    },
+    {
+      "id": 755,
+      "titulo": "Meditación con Aceites Esenciales de Incienso y Mirra",
+      "categoria": "Nervioso",
+      "origen": "Aromaterapia",
+      "ingredientes": "3 gotas de incienso (frankincense), 2 gotas de mirra, difusor",
+      "preparacion": "Difundir durante la sesión de meditación.",
+      "dosis": "30-45 min de difusión diaria",
+      "modo_uso": "Practicar respiración profunda durante la sesión",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Aceites: temperatura ambiente 2 años",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia y tradición religiosa mundial",
+      "contraindicaciones": "Ventilar el espacio; puede irritar en concentraciones altas",
+      "uso": "Equilibrio del sistema nervioso.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno",
+        "emoliente"
+      ]
     },
     {
       "id": 756,
@@ -371,7 +850,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 759,
@@ -400,7 +892,20 @@
         "ansiolítico"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 761,
@@ -420,7 +925,68 @@
       "contraindicaciones": "El cardamomo en exceso puede causar irritación; la canela a grandes dosis es anticoagulante",
       "uso": "Calma. Equilibrio del sistema nervioso.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "adaptógeno"
+      ]
+    },
+    {
+      "id": 763,
+      "titulo": "Baño de Leche y Miel para el Bienestar",
+      "categoria": "Nervioso",
+      "origen": "Tradición Egipcia",
+      "ingredientes": "2 tazas de leche en polvo o 1 L de leche, 3 cucharadas de miel, 5 gotas de aceite esencial de rosa",
+      "preparacion": "Disolver la leche en polvo y la miel en agua tibia de la bañera. Agregar el aceite.",
+      "dosis": "Baño de 20 min, 2 veces por semana",
+      "modo_uso": "El ácido láctico de la leche suaviza la piel; el aroma calma la mente",
+      "tiempo_prep": "5 min + baño",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Uso inmediato",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Tradición egipcia antigua (Cleopatra)",
+      "contraindicaciones": "No usar si hay intolerancia severa a la leche",
+      "uso": "Bienestar: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 766,
@@ -449,7 +1015,20 @@
         "antidepresivo leve"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
       "id": 767,
@@ -477,7 +1056,102 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
+    },
+    {
+      "id": 861,
+      "titulo": "Tintura de Escutelaria para el Estrés",
+      "categoria": "Sedante",
+      "origen": "Herbolaria Nativa Americana",
+      "ingredientes": "40 g de escutelaria (Scutellaria lateriflora) seca, 200 ml de alcohol de 40°",
+      "preparacion": "Macerar 4 semanas en frasco oscuro. Filtrar.",
+      "dosis": "20-30 gotas en agua 3 veces al día",
+      "modo_uso": "Tomar la última dosis 1 hora antes de dormir",
+      "tiempo_prep": "28 días maceración",
+      "dificultad": "Medio",
+      "rendimiento": "200 ml",
+      "conservacion": "Frasco oscuro 2 años",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina nativa americana",
+      "contraindicaciones": "No en embarazo; puede causar somnolencia",
+      "uso": "Estrés. Sedación y relajación nerviosa.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
+      ],
+      "principios_activos": "Baicalina y baicaleína (flavonas): ansiolíticas por modulación GABA-A; neuroprotectoras y antiinflamatorias. Escutelarina: antioxidante y anticoagulante. Wogonina: sedante y anticancerígena.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "hipnótico leve",
+        "antiespasmódico"
+      ]
+    },
+    {
+      "id": 868,
+      "titulo": "Spray de Almohada con Aceites de Sueño",
+      "categoria": "Sedante",
+      "origen": "Aromaterapia",
+      "ingredientes": "50 ml de agua destilada, 5 gotas de lavanda, 3 gotas de cedro del atlas, 2 gotas de vetiver",
+      "preparacion": "Mezclar en frasco spray.",
+      "dosis": "Pulverizar sobre la almohada 10 min antes de acostarse",
+      "modo_uso": "No pulverizar sobre la cara",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 2 semanas",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia contemporánea",
+      "contraindicaciones": "Verificar que ningún aceite cause alergia",
+      "uso": "Ansiedad leve, nerviosismo e insomnio: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.",
+      "principios_activos": "Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario. | Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "diaforético",
+        "antiespasmódico",
+        "expectorante",
+        "antiséptico"
+      ],
+      "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
+      ]
     },
     {
       "id": 997,
@@ -505,35 +1179,322 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ansiedad leve a moderada",
+        "Nerviosismo e irritabilidad",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Melisa",
+        "Tilo",
+        "Lavanda"
+      ]
     },
     {
-      "id": 1000,
-      "titulo": "Masaje con Aceite de Almendras y Naranja para el Estres",
+      "id": 1145,
+      "titulo": "Decocción de toronjil y tilo para ansiedad anticipatoria diurna",
       "categoria": "Nervioso",
-      "origen": "Aromaterapia",
-      "ingredientes": "2 cucharadas de aceite de almendras, 5 gotas de aceite esencial de naranja dulce",
-      "preparacion": "Mezclar los aceites.",
-      "dosis": "Masaje corporal 15-20 min antes de dormir",
-      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
-      "tiempo_prep": "2 min",
-      "dificultad": "Facil",
-      "rendimiento": "1 sesion",
-      "conservacion": "Temperatura ambiente 1 mes",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Aromaterapia",
-      "contraindicaciones": "Fotosensibilizante; no salir al sol tras la aplicacion",
-      "uso": "Estres: la vitamina C y los flavonoides potencian las defensas y reducen la inflamación.",
-      "principios_activos": "Vitamina C: inmunomodulador que estimula la producción de interferones y la función fagocítica. Hesperidina (flavonoide bioflavonoide): reduce permeabilidad capilar y tiene acción antiinflamatoria. Limoneno y ácido cítrico: antisépticos y estimulantes digestivos.",
+      "origen": "Europeo adaptado chileno",
+      "ingredientes": "1 cda de toronjil fresco o 1 cdta seco, 1 cdta de flores de tilo, 250 ml de agua",
+      "preparacion": "Calentar agua a 85°C, verter sobre las hierbas, tapar 8 min, colar.",
+      "dosis": "1 taza 2 veces al día en situaciones de estrés anticipatorio o crisis ansiosa",
+      "modo_uso": "Oral - infusión",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir de inmediato",
+      "evidencia": "ESCOP monographs Melissa officinalis y Tilia; estudios sobre ácido rosmarínico y reducción de cortisol (Kennedy 2003)",
+      "fuente_tradicion": "Europeo y popular chileno",
+      "contraindicaciones": "Hipotiroidismo (melisa puede interferir con TSH en altas dosis), hipotensión severa",
+      "uso": "El ácido rosmarínico inhibe GABA transaminasa elevando GABA cerebral y los flavonoides del tilo modulan receptores benzodiacepínicos.",
+      "principios_activos": "Ácido rosmarínico y citral (toronjil), tiliroside y quercetina (tilo); ansiolíticos no sedantes",
       "propiedades": [
-        "inmunoestimulante",
-        "antioxidante",
-        "antiinflamatorio",
-        "nutritivo",
-        "tónico"
+        "ansiolítico diurno",
+        "relajante",
+        "espasmolítico",
+        "antiestrés",
+        "cardiorregulador suave"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "referencias": "Kennedy DO et al. 2003 Psychosom Med; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "ansiedad anticipatoria",
+        "estrés laboral",
+        "palpitaciones por nervios",
+        "irritabilidad",
+        "ataques de pánico leves"
+      ],
+      "interacciones_medicamentos": "Levotiroxina (melisa), sedantes (potencia leve), antihipertensivos",
+      "embarazo_lactancia": "Seguro en dosis moderadas",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "lavanda",
+        "manzanilla",
+        "espino blanco"
+      ]
+    },
+    {
+      "id": 1148,
+      "titulo": "Tintura de pasiflora y sauce blanco para cefalea tensional ansiosa",
+      "categoria": "Nervioso",
+      "origen": "Tradicional latinoamericano",
+      "ingredientes": "30 g de pasiflora seca, 20 g de corteza de sauce blanco molida, 250 ml de alcohol de 40°",
+      "preparacion": "Macerar ambas plantas en alcohol dentro de frasco oscuro por 21 días, agitando 1 vez al día. Colar con gasa y prensar. Envasar en gotero.",
+      "dosis": "20 a 30 gotas en agua hasta 3 veces al día durante episodio",
+      "modo_uso": "Oral - tintura",
+      "tiempo_prep": "21 días",
+      "dificultad": "Media",
+      "rendimiento": "200 ml",
+      "conservacion": "Frasco oscuro a temperatura ambiente hasta 2 años",
+      "evidencia": "ESCOP Passiflora; estudios sobre salicina como precursor de ácido salicílico (Vlachojannis 2009)",
+      "fuente_tradicion": "Tradicional latinoamericano y europeo",
+      "contraindicaciones": "Alergia a salicilatos, asma con sensibilidad a AAS, niños menores de 16 años (riesgo Reye), úlcera péptica, anticoagulación",
+      "uso": "La salicina se convierte en ácido salicílico inhibiendo COX mientras los flavonoides de pasiflora reducen tensión muscular cervical mediada por ansiedad.",
+      "principios_activos": "Salicina y populina (sauce), apigenina y crisina (pasiflora); analgésicos COX inhibidores y ansiolíticos GABAérgicos",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "ansiolítico",
+        "antipirético leve",
+        "relajante muscular"
+      ],
+      "referencias": "Vlachojannis J et al. 2009 Phytother Res; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "cefalea tensional",
+        "migraña leve por estrés",
+        "dolor cervical",
+        "ansiedad con dolor",
+        "dismenorrea"
+      ],
+      "interacciones_medicamentos": "AINES, anticoagulantes, metotrexato, antidiabéticos (potencia)",
+      "embarazo_lactancia": "Contraindicado (alcohol y salicilatos)",
+      "duracion_tratamiento": "Máximo 14 días continuos",
+      "sinergia_plantas": [
+        "lavanda",
+        "manzanilla",
+        "matricaria"
+      ]
+    },
+    {
+      "id": 1196,
+      "titulo": "Infusión calmante de tilo, melisa y flor de azahar",
+      "categoria": "Nervioso",
+      "origen": "Tradición mediterránea",
+      "ingredientes": "1 cucharadita de flor de tilo, 1 cucharadita de melisa, 1 cucharadita de flor de azahar (naranjo amargo), 1/2 cucharadita de manzanilla, 300 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+      "dosis": "1 taza 2-3 veces al día en momentos de ansiedad o antes de eventos estresantes",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "12 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "300 ml",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Melisa demostró efecto ansiolítico agudo (Kennedy, 2004)",
+      "fuente_tradicion": "Herbolaria mediterránea",
+      "contraindicaciones": "Hipotensión severa, conducción de vehículos en dosis altas, hipotiroidismo no compensado (melisa).",
+      "uso": "El ácido rosmarínico de melisa inhibe la enzima GABA transaminasa aumentando GABA disponible en sinapsis, el linalool de azahar atraviesa BHE y modula receptores GABA-A y los flavonoides del tilo (farnesol) inducen relajación con leve diaforesis útil en ansiedad somatizada con calor.",
+      "principios_activos": "Ácido rosmarínico (melisa): inhibidor GABA-T. Linalool (azahar). Farnesol (tilo). Apigenina (manzanilla).",
+      "propiedades": [
+        "ansiolítico",
+        "sedante suave",
+        "antiespasmódico",
+        "calmante"
+      ],
+      "referencias": [
+        "Kennedy DO. et al. Psychosom Med (2004) 66:607",
+        "Cases J. et al. Med J Nutr Metab (2011) 4:211"
+      ],
+      "indicaciones_principales": [
+        "ansiedad situacional",
+        "estrés cotidiano",
+        "insomnio de conciliación leve",
+        "palpitaciones por ansiedad",
+        "tensión nerviosa"
+      ],
+      "interacciones_medicamentos": "Sedantes farmacológicos, alcohol, levotiroxina (separar)",
+      "embarazo_lactancia": "Seguro a dosis moderadas",
+      "duracion_tratamiento": "Uso según necesidad, sin límite estricto",
+      "sinergia_plantas": [
+        "pasiflora",
+        "lavanda"
+      ]
+    },
+    {
+      "titulo": "Infusión de Manzanilla para la ansiedad leve",
+      "categoria": "Sedante",
+      "origen": "Medicina tradicional europea, ampliamente usada en Chile",
+      "ingredientes": "- 1 cucharadita (aprox. 3 g) de flores secas de manzanilla. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Alergia a las asteráceas (margaritas, ambrosía).",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "Uso prolongado seguro.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Cultivada en todo Chile",
+      "efectos_secundarios": "",
+      "id": 1237
+    },
+    {
+      "titulo": "Infusión de Tilo para el estrés y la tensión nerviosa",
+      "categoria": "Sedante",
+      "origen": "Medicina tradicional europea, cultivado en Chile",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores secas de tilo. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "habituales. - Embarazo y lactancia: consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- No se han descrito contraindicaciones graves a las dosis habituales. - Embarazo y lactancia: consultar al médico.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Uso prolongado seguro.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Árbol ornamental presente en parques y plazas de",
+      "efectos_secundarios": "",
+      "id": 1239
+    },
+    {
+      "titulo": "Infusión de Pasiflora para la ansiedad leve",
+      "categoria": "Sedante",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de pasiflora troceadas. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. Colar. 3. Beber tibia, preferiblemente por la noche o en momentos de ansiedad.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- No usar en niños menores de 12 años[reference:14]. - Embarazo y lactancia: aunque no se han descrito riesgos graves, consultar con un profesional antes de su uso.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Consultar al médico si los síntomas persisten más",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro (+12 años)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1266
+    },
+    {
+      "titulo": "Infusión de Manzanilla para la ansiedad leve",
+      "categoria": "Nervioso",
+      "origen": "Medicina tradicional europea, ampliamente usada en Chile",
+      "ingredientes": "- 1 cucharadita (aprox. 3 g) de flores secas de manzanilla.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza.\n2. Verter el agua hirviendo sobre ellas.\n3. Tapar y dejar reposar 10 minutos. Colar.",
+      "dosis": "1 taza, 3-4 veces al día, especialmente en momentos\nde tensión. — Uso prolongado seguro.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Un metaanálisis de 2015 confirmó la eficacia de la\nmanzanilla para reducir la ansiedad leve-moderada. La OMS y\nla Comisión E alemana la avalan como sedante suave.",
+      "fuente_tradicion": "Medicina tradicional europea, ampliamente usada en Chile",
+      "contraindicaciones": "- Alergia a las asteráceas (margaritas, ambrosía).",
+      "id": 1325,
+      "uso": "Alivio de la ansiedad leve, el nerviosismo y la\ninquietud. La manzanilla contiene apigenina, un flavonoide con\nefecto ansiolítico suave comprobado en estudios clínicos.",
+      "planta_principal": "Manzanilla (Matricaria chamomilla)",
+      "interacciones": "Puede potenciar ligeramente el efecto de\nanticoagulantes (warfarina) por su contenido en cumarinas.",
+      "efectos_secundarios_nota": "Muy raros; posible somnolencia leve en\ndosis altas.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Tilo para el estrés y la tensión nerviosa",
+      "categoria": "Nervioso",
+      "origen": "Medicina tradicional europea, cultivado en Chile",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores secas de tilo.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza.\n2. Verter el agua hirviendo sobre ellas.\n3. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "1 taza, 2-3 veces al día. — Uso prolongado seguro.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP y Comisión E alemana avalan el uso de la flor\nde tilo para el alivio de la tensión nerviosa y el estrés\nleve.",
+      "fuente_tradicion": "Medicina tradicional europea, cultivado en Chile",
+      "contraindicaciones": "- No se han descrito contraindicaciones graves a las dosis\n  habituales.\n- Embarazo y lactancia: consultar al médico.",
+      "id": 1327,
+      "uso": "Alivio del estrés, la tensión nerviosa y los estados\nde agitación. El tilo es conocido por sus propiedades relajantes\ny sedantes suaves.",
+      "planta_principal": "Tilo (Tilia spp.)",
+      "interacciones": "Puede potenciar el efecto de sedantes y alcohol.",
+      "efectos_secundarios_nota": "Somnolencia; no conducir tras su consumo.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Pasiflora para la ansiedad leve",
+      "categoria": "Nervioso",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de pasiflora\n  troceadas.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca.\n2. Tapar y dejar reposar 10-15 minutos. Colar.\n3. Beber tibia, preferiblemente por la noche o en momentos de\n   ansiedad.",
+      "dosis": "1 taza, 2-3 veces al día. — Consultar al médico si los síntomas persisten más\nde 2 semanas o empeoran[reference:13].",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre \"Passiflorae\nherba\". La EMA reconoce su uso tradicional para el alivio de síntomas\nleves de estrés mental y para ayudar a dormir[reference:16].",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- No usar en niños menores de 12 años[reference:14].\n- Embarazo y lactancia: aunque no se han descrito riesgos graves,\n  consultar con un profesional antes de su uso.",
+      "id": 1354,
+      "uso": "Alivio de los síntomas leves de estrés mental y ayuda\npara dormir.",
+      "planta_principal": "Pasiflora (Passiflora incarnata)",
+      "interacciones": "Puede potenciar el efecto de sedantes y alcohol.\nEvitar su combinación con otros medicamentos para dormir sin\nsupervisión médica.",
+      "efectos_secundarios_nota": "No se han reportado efectos secundarios al\nusarse en las dosis y tiempos recomendados[reference:15].",
+      "nivel_seguridad": "✅ Seguro (+12 años)"
+    },
+    {
+      "titulo": "Infusión de Lavanda para la ansiedad y el insomnio",
+      "categoria": "Nervioso",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 1-2 g) de flores secas de lavanda.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las flores.\n2. Tapar y dejar reposar 10 minutos. Colar.\n3. Beber tibia, preferiblemente por la noche.",
+      "dosis": "1 taza, 2-3 veces al día. — Uso seguro a largo plazo. Consultar al médico si\nlos síntomas persisten más de 2 semanas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "La Agencia Europea del Medicamento (EMA) ha finalizado la\nevaluación de la flor de lavanda (Lavandulae flos) para trastornos\ndel sueño e insomnio temporal, así como para el estrés mental y\ntrastornos del estado de ánimo[reference:17]. Frontiers in Pharmacology\nconfirma el uso tradicional y la aprobación de la EMA para aliviar\nel estrés y la ansiedad[reference:18].",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- No usar en niños menores de 12 años sin supervisión.\n- Evitar el aceite esencial puro por vía oral sin la supervisión\n  de un profesional.",
+      "id": 1362,
+      "uso": "Alivio del estrés mental, la ansiedad leve y los\ntrastornos temporales del sueño.",
+      "planta_principal": "Lavanda (Lavandula angustifolia)",
+      "interacciones": "Puede potenciar el efecto de sedantes y alcohol.",
+      "efectos_secundarios_nota": "Muy raros; puede causar molestias\ngastrointestinales leves en personas sensibles.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

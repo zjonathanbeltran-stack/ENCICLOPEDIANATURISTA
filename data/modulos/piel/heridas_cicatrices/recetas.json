@@ -1,13 +1,6 @@
 {
-  "condicion": "Heridas / Cicatrices",
   "modulo": "piel",
   "submodulo": "heridas_cicatrices",
-  "emoji": "🩹",
-  "descripcion": "Cataplasmas, ungüentos y aceites para cicatrizar heridas, quemaduras y contusiones.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "El aloe vera, la caléndula y el aceite de rosa mosqueta son seguros en embarazo. El árnica solo en uso externo y lejos de mucosas. Todos los remedios cicatrizantes tópicos son generalmente seguros."
-  },
   "recetas": [
     {
       "id": 3,
@@ -35,7 +28,22 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "heridas superficiales",
+        "úlceras dérmicas",
+        "quemaduras leves",
+        "picaduras de insecto",
+        "dermatitis localizada"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Precaución si hay aplicación sobre piel lesionada extensa con anticoagulantes.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicar hasta cicatrización; máximo 2-3 semanas continuas.",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla",
+        "caléndula",
+        "arrayán"
+      ]
     },
     {
       "id": 9,
@@ -63,7 +71,22 @@
         "astringente"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "heridas leves",
+        "picaduras de insecto",
+        "abrasiones cutáneas",
+        "dermatitis localizada",
+        "úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Hasta cicatrización; renovar 2 veces al día durante máximo 2 semanas.",
+      "sinergia_plantas": [
+        "matico",
+        "manzanilla",
+        "caléndula",
+        "arrayán"
+      ]
     },
     {
       "id": 24,
@@ -83,7 +106,28 @@
       "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
       "uso": "Quemaduras. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Mucílagos: emolientes y cicatrizantes sobre quemaduras y heridas. Taninos: astringentes y hemostáticos. Flavonoides: antioxidantes y antiinflamatorios cutáneos.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
     },
     {
       "id": 35,
@@ -111,7 +155,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "reumatismo localizado",
+        "neuralgias periféricas",
+        "hematomas",
+        "inflamación articular leve"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicar diariamente durante máximo 2 semanas.",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "arnica",
+        "romero"
+      ]
     },
     {
       "id": 46,
@@ -131,7 +189,110 @@
       "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
       "uso": "Golpes. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
+    },
+    {
+      "id": 58,
+      "titulo": "Aceite de Hipérico para Quemaduras",
+      "categoria": "Dermatológico",
+      "origen": "Urbano",
+      "ingredientes": "Flores frescas de Hipérico (Hierba de San Juan), aceite de oliva.",
+      "preparacion": "Macerar las flores en aceite de oliva al sol por 3-4 semanas. Filtrar. Aplicar sobre quemaduras leves, cortes y para aliviar el dolor muscular. También sirve para tratar la ciática y el nervio ciático.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — loción, compresa o lavado",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Medio",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Quemaduras: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.",
+      "principios_activos": "Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.",
+      "propiedades": [
+        "antidepresivo",
+        "ansiolítico",
+        "antiviral",
+        "antiinflamatorio",
+        "cicatrizante"
+      ],
+      "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Quemaduras leves de primer grado",
+        "Cortes superficiales",
+        "Dolor muscular",
+        "Cicatrización",
+        "Neuralgias localizadas"
+      ],
+      "interacciones_medicamentos": "Hipérico induce potentemente CYP3A4, reduciendo eficacia de anticonceptivos, anticoagulantes, ISRS, antirretrovirales, ciclosporina; uso tópico tiene menor riesgo pero precaución por fotosensibilidad.",
+      "embarazo_lactancia": "Contraindicado uso oral en embarazo y lactancia; uso tópico con precaución.",
+      "duracion_tratamiento": "Aplicación 2-3 veces al día hasta cicatrización; evitar exposición solar.",
+      "sinergia_plantas": [
+        "caléndula",
+        "matico",
+        "llantén"
+      ]
+    },
+    {
+      "id": 64,
+      "titulo": "Tintura de Caléndula Cicatrizante",
+      "categoria": "Dermatológico",
+      "origen": "Urbano",
+      "ingredientes": "Flor de caléndula, alcohol 40°.",
+      "preparacion": "Sirve para tratar golpes, heridas sin sangrado, moretones, cicatrices, torceduras, esguinces, para cuidar la piel en general.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — loción, compresa o lavado",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 70,
@@ -151,7 +312,27 @@
       "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
       "uso": "Golpes. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
     },
     {
       "id": 79,
@@ -171,7 +352,68 @@
       "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
       "uso": "Forúnculos. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Beta-glucanos (polisacárido soluble): emolientes, hipocolesterolemiantes e inmunomoduladores. Hordenina (alcaloide feniletilamínico): antimicrobiana. Avenantramidas: antioxidantes y antiinflamatorias cutáneas.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
+    },
+    {
+      "id": 102,
+      "titulo": "Pomada de Calendula y Aceite de Oliva",
+      "categoria": "Dermatológico",
+      "origen": "Popular",
+      "ingredientes": "Flores de caléndula, aceite de oliva, cera de abejas.",
+      "preparacion": "Calentar el aceite con las flores a fuego muy lento (baño maría) por una hora. Colar y añadir cera de abejas hasta que espese. Aplicar sobre piel irritada, quemaduras leves o heridas.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "12 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 103,
@@ -191,7 +433,27 @@
       "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
       "uso": "Inflamación. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
     },
     {
       "id": 105,
@@ -219,55 +481,21 @@
         "cicatrizante"
       ],
       "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 151,
-      "titulo": "Infusión de Pimiento para el Cáncer a la Piel",
-      "categoria": "Cicatrizante",
-      "origen": "Popular",
-      "ingredientes": "Hojas de pimiento.",
-      "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
-      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 aplicaciones por preparación",
-      "conservacion": "Preparar fresco; usar el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-      "uso": "Cáncer a la Piel. Cicatrización de heridas.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 160,
-      "titulo": "Crema de Matico (Pañil)",
-      "categoria": "Cicatrizante",
-      "origen": "Popular",
-      "ingredientes": "Hojas de matico, manteca.",
-      "preparacion": "Derretir la manteca a fuego lento con las hojas de matico. Una vez que tome color verde, retirar, colar y dejar enfriar. Aplicar cuidadosamente sobre heridas para acelerar la recuperación.",
-      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "12 min",
-      "dificultad": "Medio",
-      "rendimiento": "2–3 aplicaciones por preparación",
-      "conservacion": "Preparar fresco; usar el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-      "uso": "Cicatrización de heridas, úlceras gástricas e inflamación dérmica: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
-      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
-      "propiedades": [
-        "cicatrizante",
-        "hemostático",
-        "antiséptico",
-        "antiinflamatorio",
-        "astringente"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
       ],
-      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Ciclosporina, anticonceptivos orales, antiretrovirales: puede reducir su eficacia por inducción de CYP3A4. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 440,
@@ -295,7 +523,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 441,
@@ -323,7 +564,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 442,
@@ -351,7 +605,21 @@
         "astringente"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Picaduras de insectos con reacción local leve",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 443,
@@ -379,7 +647,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 447,
@@ -408,7 +689,20 @@
         "digestivo"
       ],
       "referencias": "Sforcin JM. J Ethnopharmacol 2011; 133(2):253-260; Marcucci MC. Apidologie 1995; 26(2):83-99; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 451,
@@ -435,7 +729,21 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 959,
@@ -463,7 +771,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 963,
@@ -491,7 +812,21 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 964,
@@ -511,7 +846,27 @@
       "contraindicaciones": "No usar en alergia al aguacate",
       "uso": "Cicatrices Antiguas. Cicatrización de heridas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Ácido oleico (omega-9): emoliente profundo y cardioprotector. Luteína y zeaxantina: fotoprotectores oculares y cutáneos. Vitamina E y glutatión: antioxidantes celulares regeneradores.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
     },
     {
       "id": 993,
@@ -539,7 +894,20 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 994,
@@ -567,7 +935,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 995,
@@ -595,7 +976,21 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 998,
@@ -623,7 +1018,20 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 1061,
@@ -650,7 +1058,21 @@
         "barrera protectora"
       ],
       "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Grosberger-Kehayova G. et al. (2016) Araucaria resin antimicrobial properties, J Ethnopharmacol.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 1087,
@@ -678,7 +1100,21 @@
         "antioxidante"
       ],
       "referencias": "Chateauneuf R. Proyecto FONDEF PUCV 2010-2012; Whistler WA. Polynesian Herbal Medicine 1992; Aggarwal BB. et al. Adv Exp Med Biol 2007;595:1-75.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 1102,
@@ -706,7 +1142,21 @@
         "oclusivo húmedo"
       ],
       "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Holdt SL. & Kraan S. J Appl Phycol 2011;23:543-597; Thomas NV. & Kim SK. Evid Based Complement Alternat Med 2011.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 1103,
@@ -734,7 +1184,337 @@
         "hemostático"
       ],
       "referencias": "ResearchGate Flora etnobotánica pueblos originarios Patagonia Austral 2022; Schmeda-Hirschmann G. J Ethnopharmacol 1994; Dominguezia 2022 vol.38(1).",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Fiebre moderada y febrícula",
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
+    },
+    {
+      "id": 1114,
+      "titulo": "Miel de ulmo cicatrizante para heridas",
+      "categoria": "Cicatrizante",
+      "origen": "Chilote-valdiviano",
+      "ingredientes": "Miel pura de ulmo monofloral, gasa estéril",
+      "preparacion": "Limpiar la herida con suero fisiológico. Aplicar capa generosa de miel directamente o impregnar gasa estéril. Cubrir con apósito.",
+      "dosis": "Cambiar curación cada 24 horas hasta cicatrización",
+      "modo_uso": "Aplicación tópica",
+      "tiempo_prep": "5 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Por herida",
+      "conservacion": "Miel a temperatura ambiente sin contaminar el frasco",
+      "evidencia": "Sherlock O. et al. (2010) miel chilena de ulmo activa contra MRSA y P. aeruginosa. Estudios U. Austral de Chile (Montenegro).",
+      "fuente_tradicion": "Conocimiento popular del sur de Chile; usado por enfermeras rurales históricamente",
+      "contraindicaciones": "Alergia a productos apícolas. No usar en menores de 1 año. Diabéticos vigilar absorción. No aplicar en heridas profundas sin atención médica.",
+      "uso": "Alto contenido de peróxido de hidrógeno enzimático genera microambiente bactericida; osmolaridad elevada deshidrata bacterias; metilglioxal de ulmo (similar a manuka) inhibe biofilms de MRSA y Pseudomonas.",
+      "principios_activos": "Peróxido de hidrógeno, metilglioxal, pinocembrina, defensina-1, glucosa oxidasa.",
+      "propiedades": [
+        "antibacteriano",
+        "cicatrizante",
+        "antiinflamatorio",
+        "desbridante natural",
+        "humectante"
+      ],
+      "referencias": "Sherlock O. et al., BMC Complement Altern Med 2010;10:47. Montenegro G. et al., Chil J Agric Res 2008.",
+      "indicaciones_principales": [
+        "heridas quirúrgicas",
+        "úlceras venosas",
+        "quemaduras superficiales",
+        "escaras por presión"
+      ],
+      "interacciones_medicamentos": "Sin interacciones sistémicas relevantes en uso tópico.",
+      "embarazo_lactancia": "Seguro de forma tópica.",
+      "duracion_tratamiento": "Hasta cicatrización completa",
+      "sinergia_plantas": [
+        "Ulmo (miel)",
+        "Matico",
+        "Caléndula",
+        "Llantén"
+      ]
+    },
+    {
+      "id": 1119,
+      "titulo": "Cataplasma de matico y llantén para heridas infectadas",
+      "categoria": "Cicatrizante",
+      "origen": "Mapuche",
+      "ingredientes": "Puñado de hojas frescas de matico, puñado de llantén fresco, sal marina, gasa estéril",
+      "preparacion": "Machacar hojas en mortero con pizca de sal hasta pasta. Aplicar directamente sobre la herida limpia. Cubrir con gasa.",
+      "dosis": "Cambiar cada 12 horas hasta cicatrización",
+      "modo_uso": "Cataplasma",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Por curación",
+      "conservacion": "Preparar fresco cada vez",
+      "evidencia": "Malheiros A. et al. (Piper aduncum/elongatum). Samuelsen AB. (2000) Plantago major revisión farmacológica.",
+      "fuente_tradicion": "Matico llamado 'hierba del soldado' en Chile por su uso histórico militar; llantén universal",
+      "contraindicaciones": "Alergia a Piperaceae o Plantaginaceae. Heridas profundas necesitan atención médica.",
+      "uso": "Aucubina y catalpol (llantén) son antiinflamatorios y antibacterianos; dilapiol y safrol (matico) cicatrizantes; alantoína estimula proliferación de fibroblastos acelerando regeneración tisular.",
+      "principios_activos": "Catequina (682 mg/100g MS, matico): astringente, cicatrizante y antiagregante. Verbascósido (matico): antibacteriano y cicatrizante de heridas. Aucubina y catalpol (matico + llantén, iridoides): antiinflamatorios tisulares. Alantoína (llantén): cicatrizante que estimula la proliferación celular. Mucílagos (llantén): emolientes y protectores de mucosas.",
+      "propiedades": [
+        "cicatrizante",
+        "antibacteriano",
+        "antiinflamatorio",
+        "hemostático",
+        "regenerador"
+      ],
+      "referencias": "Samuelsen AB., J Ethnopharmacol 2000;71:1-21. Hoffmann A., Plantas medicinales de uso común en Chile 1992.",
+      "indicaciones_principales": [
+        "heridas superficiales",
+        "rozaduras",
+        "picaduras infectadas",
+        "úlceras varicosas pequeñas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso tópico seguro.",
+      "duracion_tratamiento": "Hasta cicatrización",
+      "sinergia_plantas": [
+        "Matico",
+        "Llantén",
+        "Caléndula",
+        "Pañil"
+      ]
+    },
+    {
+      "id": 1131,
+      "titulo": "Compresa de equiseto y caléndula cicatrizante",
+      "categoria": "Cicatrizante",
+      "origen": "Tradicional europeo-chileno",
+      "ingredientes": "1 cda equiseto, 1 cda flores de caléndula, 500 ml agua",
+      "preparacion": "Decocción 15 min de equiseto, retirar y agregar caléndula, tapar 10 min. Colar. Empapar gasa.",
+      "dosis": "Aplicar compresa tibia 15 min, 2 veces al día",
+      "modo_uso": "Compresa tópica",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 400 ml",
+      "conservacion": "Refrigerado 48 h",
+      "evidencia": "Della Loggia R. et al. (1994) caléndula cicatrizante. Sílice equiseto regenera colágeno.",
+      "fuente_tradicion": "Herbolaria popular europea y chilena",
+      "contraindicaciones": "Alergia a Asteraceae (caléndula).",
+      "uso": "Sílice estimula síntesis de colágeno y elastina en fibroblastos; faradiol y calendulina aceleran granulación y reducen inflamación cutánea.",
+      "principios_activos": "Sílice, faradiol, calendulina, isoquercitrina.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerador",
+        "antiinflamatorio",
+        "antiséptico suave"
+      ],
+      "referencias": "Della Loggia R. et al., Planta Med 1994;60:516.",
+      "indicaciones_principales": [
+        "úlceras cutáneas",
+        "heridas crónicas",
+        "post-cirugía menor",
+        "estrías recientes"
+      ],
+      "interacciones_medicamentos": "Tópico: sin interacciones relevantes.",
+      "embarazo_lactancia": "Tópico seguro.",
+      "duracion_tratamiento": "Hasta cicatrización",
+      "sinergia_plantas": [
+        "Equiseto",
+        "Caléndula",
+        "Matico",
+        "Llantén"
+      ]
+    },
+    {
+      "id": 1149,
+      "titulo": "Pomada de caléndula y matico para eczema atópico",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche y popular chileno",
+      "ingredientes": "50 g de flores de caléndula secas, 30 g de hojas de matico secas, 250 ml de aceite de oliva extra virgen, 30 g de cera de abejas",
+      "preparacion": "Macerar caléndula y matico en aceite a baño maría 60°C por 2 horas. Colar con gasa. Calentar de nuevo, agregar cera de abejas hasta disolver, verter en frascos pequeños y enfriar.",
+      "dosis": "Aplicar capa fina sobre piel afectada 2 a 3 veces al día",
+      "modo_uso": "Tópico - ungüento",
+      "tiempo_prep": "3 horas",
+      "dificultad": "Media",
+      "rendimiento": "Aprox 250 g",
+      "conservacion": "Frasco cerrado fresco y oscuro hasta 6 meses",
+      "evidencia": "ESCOP Calendula officinalis; estudios sobre Buddleja globosa (matico) en cicatrización (Mosquera 2017)",
+      "fuente_tradicion": "Mapuche (matico) y europeo (caléndula)",
+      "contraindicaciones": "Alergia a Asteraceae, heridas profundas infectadas, alergia a propóleos",
+      "uso": "Triterpenos estimulan fibroblastos y queratinocitos en regeneración mientras flavonoides reducen inflamación y prurito.",
+      "principios_activos": "Faradiol y calendulósidos (caléndula), verbascósido y mimulósido (matico); regeneradores epiteliales y antiinflamatorios cutáneos",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio cutáneo",
+        "emoliente",
+        "antimicrobiano",
+        "antipruriginoso"
+      ],
+      "referencias": "Mosquera OM et al. 2017 Bol Latinoam Plantas Med; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "eczema atópico",
+        "dermatitis del pañal",
+        "psoriasis leve",
+        "heridas superficiales",
+        "quemaduras solares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones sistémicas significativas",
+      "embarazo_lactancia": "Seguro tópico; evitar en aréolas durante lactancia",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla",
+        "olivillo"
+      ]
+    },
+    {
+      "id": 1152,
+      "titulo": "Aceite cicatrizante de hierba del clavo y olivillo para estrías",
+      "categoria": "Cicatrizante",
+      "origen": "Chilota",
+      "ingredientes": "40 g de hierba del clavo seca, 30 g de hojas de olivillo, 300 ml de aceite de almendras dulces, 10 gotas de vitamina E",
+      "preparacion": "Macerar hierbas en aceite a baño maría 60°C por 3 horas. Colar con gasa, agregar vitamina E. Envasar.",
+      "dosis": "Masajear sobre estrías o cicatrices 2 veces al día por 8 a 12 semanas",
+      "modo_uso": "Tópico - aceite",
+      "tiempo_prep": "4 horas",
+      "dificultad": "Media",
+      "rendimiento": "300 ml",
+      "conservacion": "Frasco oscuro hasta 6 meses",
+      "evidencia": "Etnobotánica chilota Villagrán et al. 1983; estudios sobre Aextoxicon punctatum (olivillo) con polifenoles antioxidantes",
+      "fuente_tradicion": "Chilota y mapuche",
+      "contraindicaciones": "Alergia a frutos secos (almendras), heridas abiertas no cicatrizadas",
+      "uso": "Polifenoles y ácidos grasos esenciales estimulan síntesis de colágeno tipo I y mejoran elasticidad dérmica.",
+      "principios_activos": "Geum-glicósidos (hierba del clavo), polifenoles del olivillo, ácidos oleico y linoleico (almendras), tocoferoles; remodeladores de matriz extracelular",
+      "propiedades": [
+        "regenerador dérmico",
+        "antiestrías",
+        "antioxidante cutáneo",
+        "emoliente",
+        "antiinflamatorio"
+      ],
+      "referencias": "Villagrán C et al. 1983 An Mus Hist Nat Valparaíso; Muñoz O 2001; Hoffmann 1992",
+      "indicaciones_principales": [
+        "estrías recientes",
+        "cicatrices postquirúrgicas",
+        "piel seca durante embarazo",
+        "piel envejecida",
+        "marcas postacné"
+      ],
+      "interacciones_medicamentos": "Sin interacciones tópicas relevantes",
+      "embarazo_lactancia": "Seguro tópico (evitar zona mamaria en lactancia)",
+      "duracion_tratamiento": "Uso continuo durante embarazo y posparto",
+      "sinergia_plantas": [
+        "rosa mosqueta",
+        "caléndula",
+        "centella asiática"
+      ]
+    },
+    {
+      "titulo": "Gel de Aloe vera para quemaduras leves",
+      "categoria": "Dermatológico",
+      "origen": "Medicina tradicional universal",
+      "ingredientes": "- 1 hoja fresca de Aloe vera.",
+      "preparacion": "1. Cortar una hoja gruesa de la base de la planta.\n2. Retirar los bordes espinosos con un cuchillo.\n3. Abrir la hoja longitudinalmente y extraer el gel\n   transparente del interior con una cuchara.\n4. Aplicar el gel directamente sobre la quemadura limpia.\n\nAPLICACIÓN: Aplicar una capa generosa 2-3 veces al día.\nDURACIÓN MÁXIMA: Usar hasta la mejoría de los síntomas. No\naplicar sobre heridas abiertas o quemaduras graves.\n\nCONTRAINDICACIONES:\n- Alergia conocida al Aloe vera (poco frecuente).\n- No ingerir el gel de uso tópico (puede contener aloína,\n  un laxante irritante).\n\nINTERACCIONES: No se han descrito para uso externo.\n\nEFECTOS SECUNDARIOS: Muy raros; puede causar escozor transitorio\nen pieles muy sensibles.\n\nFUENTE: La Organización Mundial de la Salud (OMS) incluye el\nAloe vera en sus monografías para el tratamiento de quemaduras.\nUna revisión sistemática publicada en \"Burns\" (2018) confirma\nque el Aloe vera reduce el tiempo de cicatrización de quemaduras\nde primer y segundo grado.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "La Organización Mundial de la Salud (OMS) incluye el\nAloe vera en sus monografías para el tratamiento de quemaduras.\nUna revisión sistemática publicada en \"Burns\" (2018) confirma\nque el Aloe vera reduce el tiempo de cicatrización de quemaduras\nde primer y segundo grado.",
+      "fuente_tradicion": "Medicina tradicional universal",
+      "contraindicaciones": "- Alergia conocida al Aloe vera (poco frecuente).\n- No ingerir el gel de uso tópico (puede contener aloína,\n  un laxante irritante).",
+      "id": 1341,
+      "uso": "Alivio del dolor y ayuda en la cicatrización de\nquemaduras solares y quemaduras térmicas leves de primer grado.",
+      "planta_principal": "Aloe vera (Aloe barbadensis)",
+      "interacciones": "No se han descrito para uso externo.",
+      "efectos_secundarios_nota": "Muy raros; puede causar escozor transitorio\nen pieles muy sensibles.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
+    },
+    {
+      "titulo": "Cataplasma de Llantén para heridas y picaduras",
+      "categoria": "Dermatológico",
+      "origen": "Medicina tradicional mapuche y europea",
+      "ingredientes": "- 4-5 hojas frescas de llantén bien lavadas.\n- Unas gotas de agua limpia (si es necesario).",
+      "preparacion": "1. Lavar bien las hojas con agua limpia.\n2. Machacarlas en un mortero hasta obtener una pasta.\n   Si queda muy seca, añadir unas gotas de agua.\n3. Aplicar directamente la pasta sobre la zona afectada.\n4. Cubrir con una gasa limpia y dejar actuar 20-30 minutos.\n\nAPLICACIÓN: Repetir 2-3 veces al día.\nDURACIÓN MÁXIMA: Usar mientras persistan las molestias. No\naplicar sobre heridas abiertas profundas.\n\nCONTRAINDICACIONES:\n- No aplicar sobre heridas muy profundas o extensas.\n- Suspender si aparece irritación o alergia.\n\nINTERACCIONES: No se han descrito para uso externo.\n\nEFECTOS SECUNDARIOS: Muy raros; posible dermatitis de contacto\nen personas hipersensibles.\n\nFUENTE: La EMA (European Medicines Agency) ha evaluado el\nllantén como producto medicinal tradicional para uso cutáneo,\nrespaldando su eficacia en inflamaciones de la piel y\npicaduras de insectos.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "La EMA (European Medicines Agency) ha evaluado el\nllantén como producto medicinal tradicional para uso cutáneo,\nrespaldando su eficacia en inflamaciones de la piel y\npicaduras de insectos.",
+      "fuente_tradicion": "Medicina tradicional mapuche y europea",
+      "contraindicaciones": "- No aplicar sobre heridas muy profundas o extensas.\n- Suspender si aparece irritación o alergia.",
+      "id": 1349,
+      "uso": "Alivio de picaduras de insectos, pequeñas heridas,\narañazos y rozaduras.",
+      "planta_principal": "Llantén (Plantago major)",
+      "interacciones": "No se han descrito para uso externo.",
+      "efectos_secundarios_nota": "Muy raros; posible dermatitis de contacto\nen personas hipersensibles.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
+    },
+    {
+      "titulo": "Pomada de Caléndula para heridas superficiales",
+      "categoria": "Dermatológico",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "",
+      "preparacion": "",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre\n\"Calendulae flos\". La EMA aprueba su uso para el tratamiento\nde inflamaciones leves de la piel y ayuda en la cicatrización\nde heridas menores. Un ensayo clínico publicado en el\n\"Journal of Family Practice\" confirma su eficacia en la\ncicatrización de heridas.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia conocida a las asteráceas (margaritas, ambrosía).\n- No aplicar sobre heridas profundas, muy sucias o infectadas\n  sin consultar al médico.",
+      "id": 1352,
+      "uso": "Cicatrización de heridas superficiales, cortes,\nrozaduras, grietas en la piel y quemaduras leves.\n\nINGREDIENTES (para 200 g de pomada):\n- 25 g de flores secas de caléndula.\n- 200 g de vaselina sólida o manteca de karité.\n\nPREPARACIÓN (método en caliente):\n1. Derretir la vaselina o manteca a baño María a fuego bajo.\n2. Añadir las flores secas y mantener a fuego bajo durante\n   10-12 minutos, removiendo ocasionalmente.\n3. Retirar del fuego y colar la mezcla con una gasa o filtro\n   de tela mientras aún está líquida.\n4. Verter en frascos de vidrio limpios y dejar enfriar.",
+      "planta_principal": "Caléndula (Calendula officinalis)",
+      "interacciones": "No se han descrito para uso tópico.",
+      "efectos_secundarios_nota": "Muy raros; puede causar dermatitis de\ncontacto en personas sensibles.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
+    },
+    {
+      "titulo": "Cataplasma de Palqui (SOLO USO EXTERNO Y PUNTUAL)",
+      "categoria": "General",
+      "origen": "Medicina tradicional mapuche (uso externo muy limitado)",
+      "ingredientes": "- 2-3 hojas frescas de palqui (manipular con guantes).\n- Agua limpia.",
+      "preparacion": "1. Lavar las hojas cuidadosamente.\n2. Machacarlas hasta obtener una pasta.\n3. Aplicar una CAPA MUY FINA sobre la herida limpia.\n4. Cubrir con gasa durante 20-30 minutos. Retirar y lavar.\n\nAPLICACIÓN: Máximo 1 vez al día.\nDURACIÓN MÁXIMA: No usar por más de 2 días.\n\nCONTRAINDICACIONES ABSOLUTAS:\n- 🛑 NO INGERIR NUNCA.\n- Embarazo, lactancia y niños.\n- Heridas profundas, extensas o infectadas.\n- Personas con enfermedad hepática.\n\nSÍNTOMAS DE INTOXICACIÓN (INGESTIÓN):\nNáuseas, vómitos, dolor abdominal, letargo, signos de daño\nhepático (ictericia). ACUDIR A URGENCIAS INMEDIATAMENTE.\n\nFUENTE: \"Plantas tóxicas en Chile\" (Pontificia Universidad\nCatólica de Chile); \"Toxicología veterinaria y humana de Cestrum\nspp.\" (PubMed).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Plantas tóxicas en Chile\" (Pontificia Universidad\nCatólica de Chile); \"Toxicología veterinaria y humana de Cestrum\nspp.\" (PubMed).",
+      "fuente_tradicion": "Medicina tradicional mapuche (uso externo muy limitado)",
+      "contraindicaciones": "",
+      "id": 1358,
+      "planta_principal": "Palqui (Cestrum parqui)",
+      "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO"
+    },
+    {
+      "titulo": "Cataplasma de Milenrama para pequeñas hemorragias",
+      "categoria": "Dermatológico",
+      "origen": "Medicina tradicional europea y mapuche",
+      "ingredientes": "- Hojas frescas de milenrama, bien lavadas.\n- Una gasa limpia.",
+      "preparacion": "1. Machacar las hojas frescas hasta formar una pasta.\n2. Aplicar directamente sobre la pequeña herida que sangra.\n3. Cubrir con una gasa y presionar suavemente durante 1-2\n   minutos.\n\nAPLICACIÓN: Aplicar solo en el momento necesario.\nDURACIÓN MÁXIMA: Uso puntual. Si la herida es profunda o el\nsangrado no cesa en pocos minutos, buscar atención médica.\n\nCONTRAINDICACIONES:\n- Alergia a las asteráceas.\n- No usar en heridas profundas, mordeduras de animales o\n  quemaduras graves.\n- No ingerir durante el embarazo o la lactancia.\n\nINTERACCIONES: No se han descrito para uso externo.\n\nEFECTOS SECUNDARIOS: Rara vez puede causar dermatitis de\ncontacto en personas sensibles.\n\nFUENTE: El \"Complete German Commission E Monographs\" avala\nel uso tradicional de la milenrama para heridas y cortes\ndebido a sus propiedades astringentes y hemostáticas. La EMA\ntambién la incluye como remedio tradicional para pequeñas\nheridas superficiales.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "El \"Complete German Commission E Monographs\" avala\nel uso tradicional de la milenrama para heridas y cortes\ndebido a sus propiedades astringentes y hemostáticas. La EMA\ntambién la incluye como remedio tradicional para pequeñas\nheridas superficiales.",
+      "fuente_tradicion": "Medicina tradicional europea y mapuche",
+      "contraindicaciones": "- Alergia a las asteráceas.\n- No usar en heridas profundas, mordeduras de animales o\n  quemaduras graves.\n- No ingerir durante el embarazo o la lactancia.",
+      "id": 1379,
+      "uso": "Ayuda en la hemostasia (detener el sangrado) de\npequeños cortes y rozaduras superficiales.",
+      "planta_principal": "Milenrama (Achillea millefolium)",
+      "interacciones": "No se han descrito para uso externo.",
+      "efectos_secundarios_nota": "Rara vez puede causar dermatitis de\ncontacto en personas sensibles.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
     }
   ]
 }

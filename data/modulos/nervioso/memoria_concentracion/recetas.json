@@ -1,13 +1,6 @@
 {
-  "condicion": "Memoria / Concentración",
   "modulo": "nervioso",
   "submodulo": "memoria_concentracion",
-  "emoji": "🧠",
-  "descripcion": "Plantas y recetas para mejorar la memoria, concentración, agilidad mental y protección cognitiva.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Romero, menta y cúrcuma son seguros en dosis culinarias. Brahmi y gotu kola no están suficientemente estudiados en embarazo."
-  },
   "recetas": [
     {
       "id": 361,
@@ -35,7 +28,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 362,
@@ -64,7 +71,21 @@
         "antisudorífico"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 363,
@@ -92,7 +113,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 364,
@@ -120,7 +154,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 365,
@@ -149,7 +196,21 @@
         "ansiolítico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 366,
@@ -178,7 +239,21 @@
         "antimicrobiano"
       ],
       "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 367,
@@ -206,7 +281,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 368,
@@ -235,7 +323,20 @@
         "antiséptico bronquial"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 369,
@@ -264,7 +365,21 @@
         "antiespasmódico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 370,
@@ -293,7 +408,20 @@
         "antisudorífico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 371,
@@ -322,7 +450,20 @@
         "cardioprotector"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 372,
@@ -350,7 +491,21 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 508,
@@ -370,7 +525,28 @@
       "contraindicaciones": "Puede causar problemas digestivos; no usar en embarazo",
       "uso": "Concentración. Mejora de la memoria y concentración.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ],
+      "principios_activos": "Bacósidos A y B (triterpenos saponínicos): mejoran la plasticidad sináptica y la transmisión colinérgica. Bacopasaponinas: neuroprotectoras y antioxidantes cerebrales. Hersaponina: ansiolítica.",
+      "propiedades": [
+        "neuroprotector",
+        "vasodilatador cerebral",
+        "antioxidante",
+        "adaptógeno"
+      ]
     },
     {
       "id": 509,
@@ -398,7 +574,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 510,
@@ -418,7 +607,27 @@
       "contraindicaciones": "No consumir en alergia a nueces",
       "uso": "Cerebro. Mejora de la memoria y concentración.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "neuroprotector",
+        "vasodilatador cerebral",
+        "antioxidante",
+        "adaptógeno"
+      ]
     },
     {
       "id": 511,
@@ -438,7 +647,27 @@
       "contraindicaciones": "No usar en embarazo; puede causar fotosensibilidad; hepatotóxico en dosis altas",
       "uso": "Mejora de la memoria y concentración.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ],
+      "principios_activos": "Asiaticósido y madecasósido (saponinas triterpenoides): regeneran colágeno y mejoran la microcirculación cerebral. Ácido asiático: neuroprotector. Brahmiósidos: ansiolíticos leves.",
+      "propiedades": [
+        "neuroprotector",
+        "vasodilatador cerebral",
+        "antioxidante",
+        "adaptógeno"
+      ]
     },
     {
       "id": 512,
@@ -466,7 +695,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 513,
@@ -494,7 +736,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 514,
@@ -514,7 +769,27 @@
       "contraindicaciones": "No consumir en alergia a frutos secos",
       "uso": "Mejora de la memoria y concentración.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ],
+      "principios_activos": "SDG (lignano): antioxidante y fitoestrogénico. Ácido alfa-linolénico omega-3: antiinflamatorio. Mucílagos: laxante y emoliente.",
+      "propiedades": [
+        "neuroprotector",
+        "vasodilatador cerebral",
+        "antioxidante",
+        "adaptógeno"
+      ]
     },
     {
       "id": 515,
@@ -542,7 +817,21 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 516,
@@ -570,7 +859,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
     },
     {
       "id": 517,
@@ -598,7 +900,159 @@
         "relajante muscular"
       ],
       "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Déficit leve de concentración",
+        "Fatiga mental y cognitiva",
+        "Estrés oxidativo neuronal",
+        "Rendimiento intelectual reducido"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "4-8 semanas; descansar 2 semanas entre ciclos",
+      "sinergia_plantas": [
+        "Romero",
+        "Ginkgo",
+        "Salvia"
+      ]
+    },
+    {
+      "id": 1170,
+      "titulo": "Infusión adaptógena diurna de melisa, romero y menta",
+      "categoria": "Nervioso",
+      "origen": "Herbolaria mediterránea",
+      "ingredientes": "1 cucharadita de melisa, 1/2 cucharadita de romero, 1/2 cucharadita de menta, 1 cucharadita de miel de palma o ulmo, 250 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 7 minutos tapado. Colar. Añadir miel al servir.",
+      "dosis": "1 taza en la mañana y otra al mediodía, durante 21 días",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir fresca",
+      "evidencia": "Melisa mejora rendimiento cognitivo y ánimo (Kennedy, 2003); romero mejora memoria (Moss, 2003)",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Hipertensión severa, epilepsia (romero en altas dosis), hipotiroidismo no tratado (melisa).",
+      "uso": "El ácido rosmarínico de melisa y romero inhibe acetilcolinesterasa aumentando acetilcolina cerebral disponible, mejorando memoria de trabajo y atención sin efecto estimulante adrenérgico que generaría ansiedad rebote.",
+      "principios_activos": "Ácido rosmarínico (melisa, romero): inhibidor AChE. 1,8-cineol (romero): nootrópico. Mentol (menta): refrescante cognitivo.",
+      "propiedades": [
+        "adaptógeno",
+        "nootrópico suave",
+        "ansiolítico",
+        "antioxidante",
+        "tónico cerebral"
+      ],
+      "referencias": [
+        "Kennedy DO. et al. Pharmacol Biochem Behav (2003) 75:953",
+        "Moss M. et al. Int J Neurosci (2003) 113:15"
+      ],
+      "indicaciones_principales": [
+        "estrés académico",
+        "fatiga mental",
+        "estudiantes",
+        "memoria de trabajo",
+        "ansiedad funcional"
+      ],
+      "interacciones_medicamentos": "Anticolinérgicos (puede antagonizar), levotiroxina (separar 2 horas).",
+      "embarazo_lactancia": "Evitar romero en embarazo",
+      "duracion_tratamiento": "Ciclos de 3-4 semanas",
+      "sinergia_plantas": [
+        "albahaca",
+        "tomillo"
+      ]
+    },
+    {
+      "id": 1199,
+      "titulo": "Tintura nootrópica de romero, melisa y bacopa (alternativa: gotu kola/romero solo)",
+      "categoria": "Memoria",
+      "origen": "Fitoterapia cognitiva moderna",
+      "ingredientes": "30 g de hojas de romero, 30 g de melisa, 20 g de hojas de albahaca, 10 g de jengibre fresco, 250 ml de alcohol al 50%",
+      "preparacion": "Macerar todas las plantas en alcohol durante 21 días en frasco oscuro. Filtrar con presión. Envasar en gotero ámbar.",
+      "dosis": "20-30 gotas en agua, 1-2 veces al día en la mañana y mediodía",
+      "modo_uso": "Tintura",
+      "tiempo_prep": "21 días",
+      "dificultad": "Media",
+      "rendimiento": "200 ml",
+      "conservacion": "2 años en lugar fresco y oscuro",
+      "evidencia": "Romero mejoró memoria prospectiva en adultos mayores (Moss, 2018)",
+      "fuente_tradicion": "Fitoterapia cognitiva contemporánea",
+      "contraindicaciones": "Hipertensión severa, epilepsia, embarazo, lactancia, niños, alcoholismo, anticoagulantes.",
+      "uso": "El ácido carnósico del romero protege neuronas hipocampales del estrés oxidativo activando vía Nrf2-ARE, el 1,8-cineol inhibe acetilcolinesterasa mejorando neurotransmisión colinérgica de memoria de trabajo, y el ácido rosmarínico complementa la inhibición de AChE con efecto sumatorio.",
+      "principios_activos": "Ácido carnósico, 1,8-cineol (romero): activador Nrf2, inhibidor AChE. Ácido rosmarínico (melisa, romero). Linalool (albahaca).",
+      "propiedades": [
+        "nootrópico",
+        "neuroprotector",
+        "antioxidante cerebral",
+        "memoria"
+      ],
+      "referencias": [
+        "Moss M. et al. Ther Adv Psychopharmacol (2018) 8:135",
+        "Pengelly A. et al. J Med Food (2012) 15:10"
+      ],
+      "indicaciones_principales": [
+        "deterioro cognitivo leve",
+        "olvidos frecuentes",
+        "fatiga mental",
+        "envejecimiento cognitivo",
+        "exámenes y estudios"
+      ],
+      "interacciones_medicamentos": "Anticolinérgicos (antagonismo), anticoagulantes, antihipertensivos",
+      "embarazo_lactancia": "Contraindicada",
+      "duracion_tratamiento": "Ciclos de 8 semanas con 2 de descanso",
+      "sinergia_plantas": [
+        "salvia (memoria)",
+        "cedrón"
+      ]
+    },
+    {
+      "titulo": "Infusión de Romero para el agotamiento mental",
+      "categoria": "Memoria",
+      "origen": "Medicina tradicional mediterránea, cultivado en Chile",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de romero. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las hojas en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 5-7 minutos. Colar.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "7 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina tradicional mediterránea, cultivado en Chile",
+      "contraindicaciones": "- Embarazo (evitar dosis medicinales; uso culinario seguro). - Epilepsia (precaución por el aceite esencial).",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Uso prolongado seguro.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Cultivado en huertos y jardines de todo Chile,",
+      "efectos_secundarios": "",
+      "id": 1236
+    },
+    {
+      "titulo": "Infusión de Romero para el agotamiento mental",
+      "categoria": "Nervioso",
+      "origen": "Medicina tradicional mediterránea, cultivado en Chile",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de romero.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las hojas en una taza.\n2. Verter el agua hirviendo sobre ellas.\n3. Tapar y dejar reposar 5-7 minutos. Colar.",
+      "dosis": "1 taza, 2 veces al día (por la mañana y al mediodía).\nEvitar por la noche para no interferir con el sueño. — Uso prolongado seguro.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Un estudio publicado en \"Therapeutic Advances in\nPsychopharmacology\" demostró que el aroma del romero puede\nmejorar el rendimiento cognitivo y la memoria. La ESCOP avala\nsu uso como tónico estimulante mental.",
+      "fuente_tradicion": "Medicina tradicional mediterránea, cultivado en Chile",
+      "contraindicaciones": "- Embarazo (evitar dosis medicinales; uso culinario seguro).\n- Epilepsia (precaución por el aceite esencial).",
+      "id": 1324,
+      "uso": "Mejorar la concentración, la memoria y combatir la\nfatiga mental. El romero es tradicionalmente conocido como la\n\"hierba de la memoria\" y estudios recientes avalan sus\npropiedades estimulantes cognitivas.",
+      "planta_principal": "Romero (Salvia rosmarinus)",
+      "interacciones": "No se han descrito interacciones relevantes a\nlas dosis indicadas.",
+      "efectos_secundarios_nota": "En dosis muy altas puede causar irritación\ngástrica.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

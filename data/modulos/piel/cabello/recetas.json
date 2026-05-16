@@ -1,14 +1,49 @@
 {
-  "condicion": "Cuidado del Cabello",
   "modulo": "piel",
   "submodulo": "cabello",
-  "emoji": "💇",
-  "descripcion": "Mascarillas, enjuagues y aceites naturales para el cabello: anticaída, brillo, anticaspa.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los tratamientos capilares naturales son completamente seguros en embarazo. El aceite de ricino, el vinagre de sidra y las mascarillas de huevo son especialmente recomendados."
-  },
   "recetas": [
+    {
+      "id": 60,
+      "titulo": "Loción de Romero para la Caída del Cabello",
+      "categoria": "Cosmético",
+      "origen": "Cosmético",
+      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
+      "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
+      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
+      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3–5 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
+      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Caída del cabello",
+        "Alopecia leve",
+        "Cuero cabelludo graso",
+        "Caspa",
+        "Debilidad capilar"
+      ],
+      "interacciones_medicamentos": "Uso tópico, baja absorción; precaución si hay heridas en cuero cabelludo.",
+      "embarazo_lactancia": "Evitar uso tópico extenso en embarazo en primer trimestre; aceptable en lactancia.",
+      "duracion_tratamiento": "Aplicación diaria por 8-12 semanas; evaluar resultados.",
+      "sinergia_plantas": [
+        "ortiga",
+        "matico",
+        "lavanda"
+      ]
+    },
     {
       "id": 68,
       "titulo": "Loción de Romero y Vinagre para la Caspa",
@@ -35,7 +70,62 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caspa y seborrea del cuero cabelludo",
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
+    },
+    {
+      "id": 85,
+      "titulo": "Loción de Romero para la Caída del Cabello",
+      "categoria": "Cosmético",
+      "origen": "Cosmética Natural",
+      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
+      "preparacion": "Macerar las hojas de romero en la mezcla de alcohol y agua durante 10 días. Aplicar sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
+      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
+      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "3–5 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
+      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 93,
@@ -63,7 +153,20 @@
         "antifúngico"
       ],
       "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 98,
@@ -83,7 +186,27 @@
       "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
       "uso": "Caída del Cabello. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 112,
@@ -103,7 +226,27 @@
       "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
       "uso": "Alopecia. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 124,
@@ -123,7 +266,27 @@
       "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
       "uso": "Caída del Cabello. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 131,
@@ -143,7 +306,27 @@
       "contraindicaciones": "No aplicar en cuero cabelludo con heridas o psoriasis activa sin consulta.",
       "uso": "Cabello. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Cera vegetal (ésteres de ácidos grasos de cadena larga): barrera oclusiva que protege el cuero cabelludo. Ácidos grasos saturados: emolientes y suavizantes del cabello. Esterol vegetal: nutrición capilar.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 165,
@@ -171,7 +354,61 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
+    },
+    {
+      "id": 628,
+      "titulo": "Tinte Natural de Henna para el Cabello",
+      "categoria": "Cosmético",
+      "origen": "Tradición India y Árabe",
+      "ingredientes": "100 g de henna en polvo, 200 ml de té negro fuerte, 1 cucharada de aceite de coco, jugo de limón",
+      "preparacion": "Mezclar la henna con el té hasta obtener pasta. Agregar aceite y limón. Reposar 2 horas.",
+      "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
+      "modo_uso": "Usar guantes; puede manchar la piel",
+      "tiempo_prep": "4 horas total",
+      "dificultad": "Medio",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco (usar el mismo día)",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición india y árabe",
+      "contraindicaciones": "No usar en alergia a la henna; puede interactuar con tintes químicos previos",
+      "uso": "Cabello: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 633,
@@ -199,7 +436,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 634,
@@ -219,7 +469,27 @@
       "contraindicaciones": "El olor es temporal; el uso excesivo puede resecar el cabello",
       "uso": "Cabello. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 635,
@@ -239,7 +509,27 @@
       "contraindicaciones": "Muy espeso; lavar bien para evitar residuos",
       "uso": "Crecimiento Capilar. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 636,
@@ -259,7 +549,27 @@
       "contraindicaciones": "No usar en alergia al huevo; enjuagar con agua fría",
       "uso": "Brillo. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 637,
@@ -279,7 +589,27 @@
       "contraindicaciones": "Colar muy bien; los pelos de la ortiga pueden irritar la piel",
       "uso": "Enjuague Anticaída. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 638,
@@ -299,7 +629,27 @@
       "contraindicaciones": "Generalmente seguro; evitar exceso",
       "uso": "Puntas Abiertas. Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 639,
@@ -327,7 +677,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 640,
@@ -347,7 +710,27 @@
       "contraindicaciones": "No usar en alergia a la seda",
       "uso": "Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 641,
@@ -375,7 +758,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 642,
@@ -404,7 +800,20 @@
         "antiespasmódico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 643,
@@ -424,7 +833,28 @@
       "contraindicaciones": "El bicarbonato puede alterar el pH del cuero cabelludo en uso frecuente",
       "uso": "Cuidado del cabello.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caspa y seborrea del cuero cabelludo",
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "fortalecedor capilar",
+        "anticaspa",
+        "estimulante folicular",
+        "antiséborreico"
+      ]
     },
     {
       "id": 644,
@@ -452,7 +882,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 645,
@@ -480,7 +923,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 646,
@@ -508,7 +964,20 @@
         "cicatrizante"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
     },
     {
       "id": 647,
@@ -536,7 +1005,190 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caída de cabello y alopecia leve",
+        "Caspa y seborrea",
+        "Cuero cabelludo irritado",
+        "Debilidad del cabello"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Romero",
+        "Ortiga",
+        "Aceite de coco"
+      ]
+    },
+    {
+      "id": 1111,
+      "titulo": "Té remineralizante de equiseto para uñas y cabello",
+      "categoria": "Cosmético",
+      "origen": "Tradicional chileno (uso mapuche del 'limpiaplata')",
+      "ingredientes": "1 cda tallos secos de equiseto, 1 cdta ortiga seca, 1 cdta cola de caballo si dispone (refuerza), 400 ml agua",
+      "preparacion": "Decocción de equiseto a fuego suave por 20 min (la sílice necesita tiempo para extraerse). Retirar, agregar ortiga, tapar 10 min. Colar.",
+      "dosis": "1 taza al día por la mañana, ciclos de 4 semanas",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 350 ml",
+      "conservacion": "Refrigerado, 24 h",
+      "evidencia": "Sandhu NS. et al. (2010) Equisetum: revisión etnofarmacológica. Estudios chilenos en U. de Concepción documentan contenido de sílice biodisponible.",
+      "fuente_tradicion": "Uso mapuche documentado por Hoffmann en 'Plantas medicinales de uso común en Chile'",
+      "contraindicaciones": "No usar más de 6 semanas continuas (tiaminasa). Cardiopatía, edema renal-cardíaco, embarazo, lactancia.",
+      "uso": "La sílice orgánica se incorpora a glicosaminoglicanos del tejido conectivo, fortaleciendo queratina de pelo y uñas; flavonoides actúan como diurético acuarético aumentando excreción sin pérdida de electrolitos.",
+      "principios_activos": "Sílice (ácido silícico orgánico), isoquercitrina, equisetonina, ácido cafeico, potasio.",
+      "propiedades": [
+        "remineralizante",
+        "diurético",
+        "fortalecedor",
+        "hemostático",
+        "cicatrizante"
+      ],
+      "referencias": "Sandhu NS. et al., J Pharm Sci Res 2010;2:146-50. Hoffmann A., Plantas medicinales de uso común en Chile, 1992.",
+      "indicaciones_principales": [
+        "uñas frágiles",
+        "caída de cabello",
+        "osteopenia leve",
+        "cicatrización lenta"
+      ],
+      "interacciones_medicamentos": "Potencia diuréticos y digitálicos. Puede reducir absorción de tiamina. Vigilar con litio.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 6 semanas con descanso de 2 semanas",
+      "sinergia_plantas": [
+        "Equiseto",
+        "Ortiga",
+        "Cola de caballo",
+        "Avena verde"
+      ]
+    },
+    {
+      "id": 1151,
+      "titulo": "Loción capilar de ortiga, romero y maitén contra caída estacional",
+      "categoria": "Cabello",
+      "origen": "Mapuche y popular chileno",
+      "ingredientes": "30 g de ortiga seca, 20 g de romero, 15 g de hojas de maitén, 500 ml de agua, 100 ml de alcohol de 40°",
+      "preparacion": "Decocción de hierbas en agua 15 min, reposar 30 min, colar. Mezclar con alcohol. Envasar en botella con dispensador.",
+      "dosis": "Aplicar 10 ml en cuero cabelludo masajeando 3 min, 3 veces por semana",
+      "modo_uso": "Tópico - loción capilar",
+      "tiempo_prep": "1 hora",
+      "dificultad": "Media",
+      "rendimiento": "600 ml",
+      "conservacion": "Frasco oscuro hasta 3 meses",
+      "evidencia": "ESCOP Urtica dioica; estudios sobre Rosmarinus en alopecia androgenética (Panahi 2015 Skinmed)",
+      "fuente_tradicion": "Mapuche y popular chileno",
+      "contraindicaciones": "Heridas en cuero cabelludo, dermatitis seborreica activa, alergia",
+      "uso": "Inhibe 5-alfa-reductasa local reduciendo conversión a DHT, mejora microcirculación folicular y aporta silicio para queratina.",
+      "principios_activos": "Beta-sitosterol y silicio (ortiga), ácido rosmarínico y carnosol (romero), maitenina (maitén); inhibidores 5-alfa-reductasa y estimulantes circulatorios",
+      "propiedades": [
+        "anticaída",
+        "estimulante folicular",
+        "fortalecedor capilar",
+        "antimicrobiano",
+        "antiinflamatorio del cuero cabelludo"
+      ],
+      "referencias": "Panahi Y et al. 2015 Skinmed; ESCOP 2003; Hoffmann 1992; Muñoz O 2001 Plantas medicinales chilenas",
+      "indicaciones_principales": [
+        "caída estacional",
+        "alopecia androgenética leve",
+        "cabello debilitado postparto",
+        "seborrea capilar",
+        "cabello fino"
+      ],
+      "interacciones_medicamentos": "Sin interacciones tópicas",
+      "embarazo_lactancia": "Aceptable tópico evitando alcohol en pieles sensibles",
+      "duracion_tratamiento": "3 meses con descanso de 1 mes",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "salvia",
+        "albahaca"
+      ]
+    },
+    {
+      "id": 1174,
+      "titulo": "Enjuague capilar fortalecedor de ortiga, romero y cola de caballo",
+      "categoria": "Cabello",
+      "origen": "Cosmética natural europea",
+      "ingredientes": "2 cucharadas de ortiga seca, 1 cucharada de romero, 1 cucharada de cola de caballo, 1 cucharadita de vinagre de manzana, 500 ml de agua",
+      "preparacion": "Hervir agua con hierbas 15 minutos. Apagar y dejar reposar 30 minutos tapado. Colar y añadir vinagre de manzana.",
+      "dosis": "Tras lavado, aplicar como último enjuague masajeando cuero cabelludo. No enjuagar.",
+      "modo_uso": "Enjuague capilar",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml",
+      "conservacion": "5 días refrigerado",
+      "evidencia": "Romero comparable a minoxidil 2% para alopecia androgénica (Panahi, 2015)",
+      "fuente_tradicion": "Cosmética campesina europea",
+      "contraindicaciones": "Heridas en cuero cabelludo. Alergias específicas.",
+      "uso": "El ácido carnósico del romero inhibe 5-alfa-reductasa reduciendo conversión de testosterona a DHT (causa principal de alopecia androgénica), la sílice de cola de caballo se incorpora a queratina aumentando resistencia capilar y los compuestos de ortiga aumentan microcirculación folicular.",
+      "principios_activos": "Ácido carnósico (romero): inhibidor 5α-reductasa. Sílice y flavonoides (cola de caballo). Histamina y serotonina (ortiga): vasoactivos.",
+      "propiedades": [
+        "estimulante folicular",
+        "antiseborreico",
+        "fortalecedor",
+        "brillo",
+        "anticaída"
+      ],
+      "referencias": [
+        "Panahi Y. et al. Skinmed (2015) 13:15",
+        "Murata K. et al. Phytother Res (2013) 27:212"
+      ],
+      "indicaciones_principales": [
+        "caída de cabello",
+        "cuero cabelludo graso",
+        "cabello opaco",
+        "alopecia androgénica leve",
+        "después de embarazo"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro tópico (evitar romero concentrado primer trimestre)",
+      "duracion_tratamiento": "Mínimo 3 meses para ver resultados",
+      "sinergia_plantas": [
+        "llantén",
+        "lavanda"
+      ]
+    },
+    {
+      "id": 1200,
+      "titulo": "Loción capilar anticaspa de tomillo, romero y vinagre",
+      "categoria": "Cabello",
+      "origen": "Cosmética natural mediterránea",
+      "ingredientes": "3 cucharadas de tomillo, 2 cucharadas de romero, 1 cucharada de salvia, 250 ml de vinagre de manzana, 250 ml de agua",
+      "preparacion": "Calentar agua y vinagre. Verter sobre hierbas. Tapar 30 minutos. Colar. Envasar en botella con dispensador.",
+      "dosis": "Aplicar sobre cuero cabelludo seco, masajear, dejar 20 minutos. Lavar con shampoo suave. 2-3 veces por semana.",
+      "modo_uso": "Loción capilar",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml",
+      "conservacion": "2 meses a temperatura ambiente",
+      "evidencia": "Timol y carvacrol con eficacia anti-Malassezia (Schmidt-Rose, 2011)",
+      "fuente_tradicion": "Cosmética natural mediterránea",
+      "contraindicaciones": "Heridas en cuero cabelludo, dermatitis seborreica severa, alergia a labiadas.",
+      "uso": "El timol y carvacrol del tomillo penetran la pared celular de Malassezia furfur (hongo causante de caspa), el ácido carnósico del romero estabiliza barrera cutánea del cuero cabelludo y el pH ácido del vinagre restaura manto hidrolipídico inhibiendo proliferación fúngica.",
+      "principios_activos": "Timol, carvacrol (tomillo): antifúngico. Ácido carnósico (romero). Tuyona (salvia). Ácido acético (vinagre): pH ácido.",
+      "propiedades": [
+        "antifúngico",
+        "antiseborreico",
+        "estimulante folicular",
+        "regulador de pH"
+      ],
+      "referencias": [
+        "Schmidt-Rose T. et al. Int J Cosmet Sci (2011) 33:276",
+        "Murata K. et al. Phytother Res (2013) 27:212"
+      ],
+      "indicaciones_principales": [
+        "caspa seca o grasa",
+        "dermatitis seborreica leve",
+        "picor cuero cabelludo",
+        "cabello graso"
+      ],
+      "interacciones_medicamentos": "Ninguna tópica relevante",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Mínimo 6 semanas",
+      "sinergia_plantas": [
+        "ortiga",
+        "lavanda"
+      ]
     }
   ]
 }

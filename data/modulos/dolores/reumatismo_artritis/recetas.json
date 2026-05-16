@@ -1,13 +1,6 @@
 {
-  "condicion": "Reumatismo / Artritis",
   "modulo": "dolores",
   "submodulo": "reumatismo_artritis",
-  "emoji": "🦴",
-  "descripcion": "Remedios para artritis, reumatismo, gota y dolor articular crónico.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Sauce blanco, paico y harpagofito están contraindicados en embarazo. Baños tibios y cataplasmas suaves son seguros. Consultar médico."
-  },
   "recetas": [
     {
       "id": 36,
@@ -35,7 +28,21 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "reumatismo articular",
+        "artralgias crónicas",
+        "lumbalgia crónica leve",
+        "rigidez matinal"
+      ],
+      "interacciones_medicamentos": "Precaución con AINEs, anticoagulantes y corticoides (potenciación de efectos gástricos).",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de datos de seguridad.",
+      "duracion_tratamiento": "Curas de 2-3 semanas con 1 semana de descanso.",
+      "sinergia_plantas": [
+        "matico",
+        "romero",
+        "canelo",
+        "sauce"
+      ]
     },
     {
       "id": 39,
@@ -55,7 +62,27 @@
       "contraindicaciones": "No reemplaza el tratamiento médico del reumatismo. Consultar en uso prolongado.",
       "uso": "La Gota. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Solanina y solamargina (alcaloides glicoalcaloideos): antiinflamatorios y analgésicos tópicos a bajas dosis. Rutina: venotónica y antiinflamatoria. Saponinas esteroidales: antimicrobianas.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 83,
@@ -83,7 +110,21 @@
         "cicatrizante"
       ],
       "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "dolor ciático",
+        "neuralgia periférica",
+        "dolor lumbar irradiado",
+        "contracturas dolorosas"
+      ],
+      "interacciones_medicamentos": "Precaución con fotosensibilizantes orales (la hiperforina sensibiliza al sol incluso por uso tópico). Vía oral interactúa con anticonceptivos, anticoagulantes, antidepresivos, inmunosupresores y antirretrovirales.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicación tópica 2-4 semanas; evitar exposición solar directa en la zona aplicada.",
+      "sinergia_plantas": [
+        "matico",
+        "romero",
+        "árnica",
+        "canelo"
+      ]
     },
     {
       "id": 134,
@@ -103,7 +144,27 @@
       "contraindicaciones": "No reemplaza el tratamiento médico del reumatismo. Consultar en uso prolongado.",
       "uso": "Artritis. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "SDG (lignano): antioxidante y fitoestrogénico. Ácido alfa-linolénico omega-3: antiinflamatorio. Mucílagos: laxante y emoliente.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 135,
@@ -131,7 +192,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "artritis leve",
+        "reumatismo",
+        "fatiga muscular",
+        "circulación periférica deficiente"
+      ],
+      "interacciones_medicamentos": "Precaución con anticoagulantes, antihipertensivos, diuréticos e inductores enzimáticos hepáticos.",
+      "embarazo_lactancia": "Contraindicado en embarazo en dosis terapéuticas. Seguro en lactancia en dosis culinarias.",
+      "duracion_tratamiento": "Curas de 3-4 semanas con descanso de 1 semana.",
+      "sinergia_plantas": [
+        "matico",
+        "canelo",
+        "lavanda",
+        "manzanilla"
+      ]
     },
     {
       "id": 136,
@@ -159,7 +234,143 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Artralgia",
+        "Artrosis leve",
+        "Reumatismo",
+        "Rigidez articular",
+        "Dolor muscular"
+      ],
+      "interacciones_medicamentos": "Potencia anticoagulantes (warfarina, aspirina), antidiabéticos y antihipertensivos; precaución con calcio-antagonistas.",
+      "embarazo_lactancia": "Aceptable en embarazo en dosis bajas (<1g/día); seguro en lactancia.",
+      "duracion_tratamiento": "Uso continuo seguro hasta 4-6 semanas; reevaluar.",
+      "sinergia_plantas": [
+        "cúrcuma",
+        "matico",
+        "romero"
+      ]
+    },
+    {
+      "titulo": "Cataplasma Caliente de Árnica para Dolores Musculares",
+      "categoria": "Analgésico",
+      "origen": "Medicina Popular del Sur de Chile",
+      "ingredientes": "20 g de flores de árnica seca, 500 ml de agua, paño de algodón.",
+      "preparacion": "Hervir el agua con el árnica 5 minutos. Remojar el paño en la decocción tibia-caliente. Escurrir bien y aplicar sobre el músculo o articulación dolorida. Cubrir con un paño seco. Mantener 20 minutos. Repetir 2-3 veces al día. Solo uso externo.",
+      "id": 225,
+      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
+      "uso": "Dolores Musculares. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
+    },
+    {
+      "titulo": "Decocción de Ortiga Verde para Artritis y Reumatismo",
+      "categoria": "Antiinflamatorio",
+      "origen": "Popular Chileno / Mapuche",
+      "ingredientes": "20 g de hojas frescas de ortiga (con guantes), 500 ml de agua.",
+      "preparacion": "Hervir el agua, agregar las hojas de ortiga y cocinar 5 minutos. Colar (el calor elimina el efecto urticante). Beber 2 tazas al día. La ortiga contiene flavonoides, ácidos fenólicos y lectinas con probado efecto antiinflamatorio articular.",
+      "id": 230,
+      "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "10 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–3 tazas o 1 aplicación",
+      "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
+      "uso": "Artritis y Reumatismo. Reducción de la inflamación.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "antioxidante",
+        "inmunomodulador"
+      ]
+    },
+    {
+      "titulo": "Compresas Frías de Manzanilla para Inflamación Articular",
+      "categoria": "Antiinflamatorio",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "30 g de flores de manzanilla, 500 ml de agua, hielo.",
+      "preparacion": "Hervir el agua con manzanilla 5 minutos. Colar y dejar enfriar completamente. Añadir hielo. Remojar un paño limpio y aplicar sobre la articulación inflamada durante 20 minutos. Repetir 3-4 veces al día en fase aguda.",
+      "id": 232,
+      "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
+      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
+      "tiempo_prep": "10 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–3 tazas o 1 aplicación",
+      "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en personas con úlcera péptica activa. Consultar en tratamientos prolongados.",
+      "uso": "Inflamación Articular: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ]
     },
     {
       "id": 468,
@@ -187,7 +398,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 469,
@@ -207,7 +432,28 @@
       "contraindicaciones": "No usar en embarazo ni en piel abierta; toxica si se ingiere",
       "uso": "Masaje en Dolor Muscular. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico",
+        "emoliente"
+      ]
     },
     {
       "id": 471,
@@ -235,7 +481,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 473,
@@ -255,27 +514,27 @@
       "contraindicaciones": "No usar en piel sensible ni en heridas; puede quemar si se acumula",
       "uso": "Dolor Crónico. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 474,
-      "titulo": "Vinagre de Manzana con Chile para Artritis",
-      "categoria": "Reumatismo",
-      "origen": "Medicina Casera",
-      "ingredientes": "1/2 taza de vinagre de sidra, 1 cucharadita de pimienta de cayena, 1 L de agua tibia",
-      "preparacion": "Mezclar todos los ingredientes. Usar para compresas en articulaciones.",
-      "dosis": "Compresa 20 min, 2 veces al día",
-      "modo_uso": "No aplicar en piel con heridas; puede picar",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 L",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Medicina casera popular",
-      "contraindicaciones": "No usar en piel sensible ni heridas abiertas",
-      "uso": "Artritis. Alivio del reumatismo y artritis.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 475,
@@ -295,7 +554,28 @@
       "contraindicaciones": "Generalmente seguro; alto en purinas; evitar en gota",
       "uso": "Articulaciones. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 477,
@@ -324,7 +604,20 @@
         "antiparasitario"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 478,
@@ -344,7 +637,28 @@
       "contraindicaciones": "No usar en embarazo; puede interactuar con warfarina",
       "uso": "Artritis. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico",
+        "emoliente"
+      ]
     },
     {
       "id": 480,
@@ -364,7 +678,27 @@
       "contraindicaciones": "Puede irritar piel muy sensible; no usar en heridas abiertas",
       "uso": "Pies con Artritis. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 481,
@@ -391,7 +725,20 @@
         "antirreumático"
       ],
       "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 482,
@@ -411,7 +758,27 @@
       "contraindicaciones": "Generalmente seguro; lavar bien las hojas; retirar si hay irritación",
       "uso": "Inflamación. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 823,
@@ -439,7 +806,21 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 824,
@@ -459,7 +840,27 @@
       "contraindicaciones": "Puede aumentar riesgo de sangrado; interacciones con anticoagulantes",
       "uso": "Inflamación Crónica. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 825,
@@ -479,7 +880,27 @@
       "contraindicaciones": "No en hipotensión grave; la sal puede irritar piel con heridas",
       "uso": "Artritis. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 826,
@@ -499,7 +920,27 @@
       "contraindicaciones": "La gota debe ser tratada médicamente; el col es apoyo",
       "uso": "La Gota. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación; antiinflamatorio sistémico potente. Glutamina: regeneradora de mucosa. Vitamina K y glucosinolatos: hemostáticos y antimicrobianos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 827,
@@ -519,7 +960,27 @@
       "contraindicaciones": "Puede interactuar con anticoagulantes y antidiabéticos",
       "uso": "Ácido Úrico. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 828,
@@ -547,7 +1008,20 @@
         "galactagogo"
       ],
       "referencias": "Fan YY. & Chapkin RS. J Nutr 1998; 128(9):1411-14; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 829,
@@ -575,7 +1049,20 @@
         "broncodilatador"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 830,
@@ -603,7 +1090,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 831,
@@ -631,7 +1131,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 832,
@@ -651,7 +1164,27 @@
       "contraindicaciones": "Puede interactuar con anticoagulantes; puede causar piedras en la vesícula en exceso",
       "uso": "Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 833,
@@ -678,7 +1211,20 @@
         "antirreumático"
       ],
       "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 834,
@@ -706,7 +1252,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 835,
@@ -734,7 +1293,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 836,
@@ -754,7 +1326,27 @@
       "contraindicaciones": "Puede causar vómitos en exceso; no en embarazo",
       "uso": "La Gota. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 837,
@@ -774,7 +1366,27 @@
       "contraindicaciones": "Solo externo; la nuez moscada ingerida en exceso es alucinógena y tóxica",
       "uso": "Artritis. Alivio del reumatismo y artritis.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Miristicina (fenilpropanoide): analgésica y antiinflamatoria tópica por inhibición de COX-2. Elemicina: analgésica y antiséptica. Safrol: rubefaciente a bajas dosis. Eugenol: anestésico local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 965,
@@ -802,7 +1414,141 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
+    },
+    {
+      "id": 969,
+      "titulo": "Aceite de Copaiba para el Dolor",
+      "categoria": "Analgésico",
+      "origen": "Medicina Amazónica",
+      "ingredientes": "Aceite de copaiba (Copaifera officinalis)",
+      "preparacion": "Aplicar 2-3 gotas en la zona dolorida. Masajear suavemente.",
+      "dosis": "Aplicar 3 veces al dia",
+      "modo_uso": "El aceite de copaiba tiene efecto antiinflamatorio por sesquiterpenos",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco 30 ml",
+      "conservacion": "Temperatura ambiente 1 ano",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina amazonica brasilena",
+      "contraindicaciones": "No ingerir sin supervision; solo uso externo",
+      "uso": "Dolor. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Beta-cariofileno (sesquiterpeno): antiinflamatorio por agonismo sobre receptor CB2; analgésico. Ácido copálico: antimicrobiano de amplio espectro. Resinas diterpénicas: cicatrizantes y antisépticas.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
+    },
+    {
+      "id": 974,
+      "titulo": "Linimento de Alcanfor y Mentol",
+      "categoria": "Analgésico",
+      "origen": "Medicina Popular",
+      "ingredientes": "50 ml de alcohol de 70 grados, 2 g de alcanfor, 3 gotas de aceite esencial de menta",
+      "preparacion": "Disolver el alcanfor en el alcohol. Agregar el aceite de menta.",
+      "dosis": "Aplicar en zona dolorida con masaje suave",
+      "modo_uso": "Solo externo; no aplicar en heridas abiertas",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina popular latinoamericana",
+      "contraindicaciones": "No ingerir; el alcanfor es toxico si se ingiere",
+      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 975,
+      "titulo": "Masaje de Aceite de Wintergreen para Dolores Musculares",
+      "categoria": "Analgésico",
+      "origen": "Herbolaria Norteamericana",
+      "ingredientes": "3 gotas de aceite esencial de wintergreen, 2 cucharadas de aceite de coco",
+      "preparacion": "Mezclar los aceites.",
+      "dosis": "Masajear 5 min en zona muscular dolorida 2 veces al dia",
+      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria nativa norteamericana",
+      "contraindicaciones": "No usar en ninos; no en embarazo; contiene salicilato (similar aspirina)",
+      "uso": "Dolores Musculares. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
     },
     {
       "id": 1063,
@@ -829,7 +1575,60 @@
         "antireumatico"
       ],
       "referencias": "Hoffmann A., Farga C., Lastra J., Veghazi E. (1992) Plantas Medicinales de Uso Comun en Chile. Fundacion Claudio Gay. / UFRO (2019) Informe etnobotanico cordillera del Biobio.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
+    },
+    {
+      "id": 1070,
+      "titulo": "Emplasto de Patagua y Sal de Mar para Inflamacion Articular Williche",
+      "categoria": "Antiinflamatorio",
+      "origen": "Mapuche Williche (zona cordillerana de los Lagos, Puelo, Cochamo)",
+      "ingredientes": "80 g de corteza fresca de patagua (Crinodendron patagua / trompetero); 2 cucharadas de sal de mar gruesa; 3 cucharadas de agua caliente; 1 cucharada de aceite de oliva o grasa de lobo marino (uso tradicional)",
+      "preparacion": "1. Recolectar la corteza interna (liber) de patagua, preferentemente en luna menguante segun practica williche. 2. Machacar la corteza en mortero con la sal hasta obtener pasta aspera. 3. Agregar el agua caliente de a poco sin dejar de machacar. 4. Incorporar el aceite y continuar mezclando hasta homogeneizar. 5. Aplicar la pasta caliente (tolerable) sobre la articulacion inflamada envolviendola.",
+      "dosis": "Aplicar una vez al dia durante 1-2 horas. Cubrir con pano de lana. Repetir durante 10-15 dias.",
+      "modo_uso": "Topico (emplasto caliente)",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Facil",
+      "rendimiento": "2-3 aplicaciones",
+      "conservacion": "Preparar fresco para cada aplicacion. No conservar.",
+      "evidencia": "La patagua (Crinodendron patagua) contiene lectinas y taninos con actividad antiinflamatoria documentada. La sal de mar como osmoregulador reduce el edema articular. Uso documentado por Villagran C. (2000) y el MINSAL en estudios de medicina williche.",
+      "fuente_tradicion": "Mapuche Williche",
+      "contraindicaciones": "No aplicar sobre piel con heridas abiertas. Evitar en personas con alergia a mariscos (la grasa de lobo marino). No aplicar calor si hay artritis septica aguda (infeccion activa). Consultar medico si hay fiebre acompanante.",
+      "uso": "Tratamiento de artritis, artrosis de rodilla, tobillo o muneca, y dolores articulares cronicos en personas mayores williche. La combinacion de calor, sal y compuestos fenolicos de la patagua produce efecto antiinflamatorio local potente.",
+      "principios_activos": "Taninos hidrolizables (patagua); lectinas antiinflamatorias; cloruro de sodio (sal); acido oleico (aceite)",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgesico",
+        "desinflamante articular",
+        "emoliente"
+      ],
+      "referencias": "Villagran C. (2000) Etnobiologia Williche. CONAF. / Moller P. et al. (2003) Medicinal plants of the Chilean temperate rain forest. J Ethnopharmacol.",
+      "indicaciones_principales": [
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ]
     },
     {
       "id": 1074,
@@ -856,7 +1655,20 @@
         "antioxidante"
       ],
       "referencias": "Houghton PJ & Manby J. (1985) Medicinal plants of the Mapuche. J Ethnopharmacol. / Gonzalez B. et al. (2020) Lessonia nigrescens bioactive compounds. J Appl Phycol.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 1090,
@@ -884,7 +1696,20 @@
         "desintoxicante dérmico"
       ],
       "referencias": "Hospital Hanga Roa, programa de medicina tradicional rapanui 2012; Chateauneuf R. Proyecto FONDEF PUCV 2010-2012; Gutmanis J. Kahuna La'au Lapa'au: Hawaiian Healing Plants 1976.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 1092,
@@ -912,7 +1737,20 @@
         "emoliente"
       ],
       "referencias": "Chateauneuf R. Proyecto FONDEF PUCV 2010-2012; Hospital Hanga Roa programa medicina tradicional rapanui 2012; Whistler WA. Polynesian Herbal Medicine 1992.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
     },
     {
       "id": 1095,
@@ -940,7 +1778,63 @@
         "vasodilatador local"
       ],
       "referencias": "Gutiérrez-Jara M. Anthropologica PUCP 2024; Gaceta Médica Boliviana; Villagrán C. & Castro V. Etnobotánica norte de Chile 2003; Romo M. et al. Rev. Chil. Hist. Nat. 2010.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
+    },
+    {
+      "id": 1098,
+      "titulo": "Ungüento de Jarilla para Inflamacion de Piel y Articulaciones (Diaguita)",
+      "categoria": "Antiinflamatorio",
+      "origen": "Diaguita",
+      "ingredientes": "50 g de hojas y ramas tiernas de jarilla (Larrea nitida), 80 ml de aceite de oliva o grasa animal, 1 cucharadita de cera de abeja (opcional para dar consistencia de ungüento)",
+      "preparacion": "1. Recolectar hojas y ramas tiernas de jarilla, material fresco o seco; lavar y secar al sol 30 minutos. 2. Calentar el aceite de oliva a fuego muy bajo (40 °C máximo) y agregar el material vegetal troceado. 3. Mantener a fuego mínimo durante 45 minutos, moviendo suavemente; el aceite tomará color verde-dorado con aroma resinoso característico de la jarilla. 4. Colar con tela fina, presionando el residuo para extraer todo el aceite medicado. 5. Si se desea ungüento sólido: agregar cera de abeja derretida, mezclar y envasar mientras aún está líquido; solidificará al enfriar.",
+      "dosis": "Aplicar el ungüento 2-3 veces al día sobre la zona afectada con masaje suave; no cubrir herméticamente",
+      "modo_uso": "Tópico — aceite medicado o ungüento",
+      "tiempo_prep": "60 min",
+      "dificultad": "Media",
+      "rendimiento": "Aprox. 60 ml de aceite o ungüento",
+      "conservacion": "Conservar en frasco oscuro; hasta 3 semanas en lugar fresco",
+      "evidencia": "Uso etnobotánico de Larrea spp. ampliamente documentado en comunidades del norte árido de Chile y Argentina. La jarilla es una de las plantas más usadas por la medicina tradicional diaguita y atacameña.",
+      "fuente_tradicion": "Diaguita",
+      "contraindicaciones": "No aplicar sobre heridas abiertas. Uso prolongado o a altas concentraciones puede ser hepatotóxico (NDGA presente en Larrea). No ingerir. Consultar si aparece irritación cutánea.",
+      "uso": "Antiinflamatorio y analgésico tópico para artritis, reumatismo, psoriasis, eccema y dolores musculares; la meica diaguita lo usa también para tratar afecciones dérmicas del desierto.",
+      "principios_activos": "Ácido nordihidroguayarético (NDGA): potente antioxidante fenólico e inhibidor de lipooxigenasa; flavonoides: acción antiinflamatoria; saponinas: efecto tensoactivo y penetración dérmica.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico tópico",
+        "antioxidante",
+        "antimicrobiano",
+        "antipruriginoso"
+      ],
+      "referencias": "Gutiérrez-Jara M. Anthropologica PUCP 2024; Villagrán C. & Castro V. Etnobotánica norte de Chile 2003; Arteaga S. et al. J Ethnopharmacol 2005;98(3):231-239.",
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ]
     },
     {
       "id": 1099,
@@ -968,7 +1862,231 @@
         "antimicrobiano"
       ],
       "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Muñoz O. et al. Boletín Latinoamericano de Plantas Medicinales 2001; Schmeda-Hirschmann G. et al. J Ethnopharmacol 1992.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ]
+    },
+    {
+      "id": 1127,
+      "titulo": "Vinagre de sauce y romero para dolores musculares",
+      "categoria": "Reumatismo",
+      "origen": "Tradicional europeo",
+      "ingredientes": "50 g corteza de sauce blanco, 30 g romero, 500 ml vinagre de manzana",
+      "preparacion": "Macerar 21 días en frasco vidrio agitando 2 veces por semana. Filtrar.",
+      "dosis": "Friccionar la zona dolorida 2-3 veces al día",
+      "modo_uso": "Linimento tópico",
+      "tiempo_prep": "21 días maceración",
+      "dificultad": "Media",
+      "rendimiento": "Aprox. 450 ml",
+      "conservacion": "1 año en frasco oscuro",
+      "evidencia": "Chrubasik S. para Salix. Pérez-Fons L. romero antiinflamatorio.",
+      "fuente_tradicion": "Linimentos europeos clásicos del siglo XIX",
+      "contraindicaciones": "Piel rota, dermatitis. Alergia a salicilatos. Evitar mucosas y ojos.",
+      "uso": "Salicilatos cutáneos inhiben COX local reduciendo dolor; ácido carnósico es antioxidante y mejora microcirculación; vinagre actúa como vehículo astringente.",
+      "principios_activos": "Salicina, salicortina, ácido carnósico, cineol, alcanfor.",
+      "propiedades": [
+        "analgésico tópico",
+        "antiinflamatorio",
+        "rubefaciente",
+        "circulatorio"
+      ],
+      "referencias": "Chrubasik S. et al., BMJ 2001;322:1148.",
+      "indicaciones_principales": [
+        "dolor lumbar",
+        "contracturas musculares",
+        "artralgias",
+        "tendinitis"
+      ],
+      "interacciones_medicamentos": "Uso tópico: poco riesgo sistémico.",
+      "embarazo_lactancia": "Evitar en abdomen.",
+      "duracion_tratamiento": "Hasta 14 días por episodio",
+      "sinergia_plantas": [
+        "Sauce",
+        "Romero",
+        "Árnica",
+        "Matico"
+      ]
+    },
+    {
+      "id": 1182,
+      "titulo": "Linimento muscular de árnica, romero y eucalipto",
+      "categoria": "Antiinflamatorio",
+      "origen": "Herbolaria deportiva europea",
+      "ingredientes": "50 ml de oleato de árnica, 30 ml de oleato de romero, 20 ml de aceite de oliva, 10 ml de aceite de hipérico, 15 gotas de aceite esencial de eucalipto, 10 gotas de aceite esencial de menta, 5 gotas de aceite esencial de lavanda",
+      "preparacion": "Mezclar todos los aceites vegetales. Añadir aceites esenciales agitando vigorosamente. Envasar en botella oscura.",
+      "dosis": "Aplicar masajeando suavemente sobre área afectada 2-3 veces al día",
+      "modo_uso": "Linimento tópico",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "115 ml",
+      "conservacion": "6 meses en frasco oscuro",
+      "evidencia": "Árnica tópica con eficacia comparable a ibuprofeno gel en osteoartritis manos (Widrig, 2007)",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Heridas abiertas, alergia a asteráceas, niños menores de 6 años, embarazo en abdomen.",
+      "uso": "Las lactonas sesquiterpénicas de árnica (helenalina) inhiben NF-κB reduciendo cascada inflamatoria local sin necesidad de absorción sistémica, el alcanfor y mentol activan receptores TRPM8 generando sensación fría que distrae del dolor (contrairritante) y el eucaliptol mejora circulación local.",
+      "principios_activos": "Helenalina (árnica): inhibidor NF-κB. Alcanfor, borneol (romero). 1,8-cineol (eucalipto). Mentol (menta). Hiperforina (hipérico).",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "miorrelajante",
+        "rubefaciente",
+        "circulatorio"
+      ],
+      "referencias": [
+        "Widrig R. et al. Rheumatol Int (2007) 27:585",
+        "Iannitti T. et al. Pharmacol Res (2016) 116:23"
+      ],
+      "indicaciones_principales": [
+        "contracturas musculares",
+        "esguinces",
+        "hematomas",
+        "dolor articular",
+        "fatiga muscular post-ejercicio"
+      ],
+      "interacciones_medicamentos": "Tópico, mínimas",
+      "embarazo_lactancia": "Evitar en zona abdominal y mamaria",
+      "duracion_tratamiento": "Hasta resolución, máximo 2 semanas continuas",
+      "sinergia_plantas": [
+        "sauce blanco (interno)",
+        "matico"
+      ]
+    },
+    {
+      "id": 1184,
+      "titulo": "Cataplasma articular de hojas de col, romaza y arcilla",
+      "categoria": "Reumatismo",
+      "origen": "Medicina popular europea",
+      "ingredientes": "3-4 hojas grandes de col (repollo), 1 puñado de hojas frescas de romaza, 3 cucharadas de arcilla verde, agua tibia, 1 cucharada de aceite de oliva",
+      "preparacion": "Aplastar hojas de col con rodillo hasta romper nervaduras. Calentar levemente. Mezclar arcilla con agua tibia y aceite. Aplicar arcilla sobre articulación, cubrir con hojas de col machacadas y hojas de romaza encima. Fijar con venda.",
+      "dosis": "Dejar 2-4 horas o toda la noche, una vez al día",
+      "modo_uso": "Cataplasma",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Media",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Uso inmediato",
+      "evidencia": "Hojas de col con efecto antiinflamatorio articular documentado (Lauche, 2016)",
+      "fuente_tradicion": "Medicina rural europea",
+      "contraindicaciones": "Heridas abiertas, dermatitis activa en la zona.",
+      "uso": "Las hojas de col contienen glucosinolatos que al romperse liberan isotiocianatos antiinflamatorios penetrando piel, los oxalatos de romaza tienen acción astringente y antiinflamatoria local, y la arcilla genera efecto osmótico extrayendo metabolitos inflamatorios mientras aporta minerales remineralizantes.",
+      "principios_activos": "Glucosinolatos, sulforafano (col). Antraquinonas, oxalatos (romaza). Silicatos y caolinita (arcilla).",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiedematoso",
+        "analgésico local",
+        "desintoxicante local"
+      ],
+      "referencias": [
+        "Lauche R. et al. Clin Rheumatol (2016) 35:2553",
+        "Brenner SR. Med Hypotheses (2014) 82:223"
+      ],
+      "indicaciones_principales": [
+        "artrosis de rodilla",
+        "artralgias",
+        "esguinces",
+        "tendinitis",
+        "bursitis"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro en extremidades",
+      "duracion_tratamiento": "10-14 días",
+      "sinergia_plantas": [
+        "árnica tópica",
+        "sauce blanco interno"
+      ]
+    },
+    {
+      "titulo": "Decocción de Sauce para dolores reumáticos",
+      "categoria": "Reumatismo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3 g) de corteza seca de sauce\n  blanco desmenuzada.\n- 250 ml de agua fría.",
+      "preparacion": "1. Colocar la corteza en una olla con el agua fría.\n2. Llevar a ebullición y hervir a fuego lento durante 10-15\n   minutos.\n3. Retirar del fuego, colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día, preferiblemente después de\nlas comidas. — No usar por más de 1 semana sin consultar\nal médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP (European Scientific Cooperative on Phytotherapy).\nMonografía sobre \"Salicis cortex\". La corteza de sauce está\nvalidada para el alivio del dolor lumbar, articular y la fiebre,\ncon un perfil de seguridad gastrointestinal mejor que el de la\naspirina sintética.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia a los salicilatos (aspirina).\n- Úlcera gástrica o duodenal activa.\n- Trastornos de la coagulación.\n- Insuficiencia renal o hepática grave.\n- Embarazo y lactancia.\n- Niños y adolescentes con fiebre o gripe (riesgo de síndrome\n  de Reye).",
+      "id": 1345,
+      "uso": "Alivio de dolores articulares leves, reumatismo y\nfiebre asociada a procesos inflamatorios.",
+      "planta_principal": "Sauce blanco (Salix alba)",
+      "interacciones": "- Puede potenciar el efecto de anticoagulantes (warfarina).\n- Puede interferir con antihipertensivos y diuréticos.\n- No combinar con otros antiinflamatorios sin supervisión\n  médica.",
+      "efectos_secundarios_nota": "Irritación gástrica, náuseas. Dosis altas\npueden causar zumbido de oídos (tinnitus). Suspender y consultar\nsi aparecen estos síntomas.",
+      "nivel_seguridad": "⚠️ Precaución (por salicilatos)"
+    },
+    {
+      "titulo": "Aceite de Ruda (SOLO USO EXTERNO Y DILUIDO)",
+      "categoria": "General",
+      "origen": "Medicina tradicional mediterránea (uso muy restringido)",
+      "ingredientes": "- 10 g de hojas frescas de ruda.\n- 100 ml de aceite de oliva.",
+      "preparacion": "1. Colocar las hojas en un frasco y cubrir con el aceite.\n2. Macerar 15 días en lugar oscuro, agitando a diario.\n3. Filtrar y almacenar en frasco oscuro.\n\nAPLICACIÓN (CON EXTREMA PRECAUCIÓN):\n- Aplicar UNA PEQUEÑA CANTIDAD sobre la zona dolorida.\n- Masajear y LAVARSE LAS MANOS INMEDIATAMENTE.\n- EVITAR LA EXPOSICIÓN SOLAR en la zona tratada durante 24 horas.\n- Usar solo 1 vez al día.\n\nDURACIÓN MÁXIMA: No usar por más de 3 días.\n\nCONTRAINDICACIONES ABSOLUTAS:\n- 🛑 EMBARAZO Y LACTANCIA (ABORTIVA).\n- 🛑 NO INGERIR BAJO NINGUNA CIRCUNSTANCIA.\n- Niños y adolescentes.\n- Piel sensible o con heridas.\n- Personas que trabajan al aire libre.\n\nSÍNTOMAS DE INTOXICACIÓN (USO INTERNO):\nHemorragia uterina, dolor abdominal intenso, vómitos, confusión,\nconvulsiones, daño hepático. ACUDIR A URGENCIAS.\n\nFUENTE: Comisión E alemana (monografía restringida); \"Toxicología\nde plantas medicinales\" (OMS).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Comisión E alemana (monografía restringida); \"Toxicología\nde plantas medicinales\" (OMS).",
+      "fuente_tradicion": "Medicina tradicional mediterránea (uso muy restringido)",
+      "contraindicaciones": "",
+      "id": 1355,
+      "planta_principal": "Ruda (Ruta graveolens)",
+      "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO"
+    },
+    {
+      "titulo": "Decocción de Pillopillo para uso externo (dolores)",
+      "categoria": "General",
+      "origen": "Medicina tradicional mapuche (con restricciones)",
+      "ingredientes": "- 50 g de corteza o ramas de pillopillo.\n- 2 litros de agua.",
+      "preparacion": "1. Hervir la corteza en el agua durante 15 minutos.\n2. Colar y añadir al agua del baño o usar para compresas.\n3. Asegurar que la preparación no esté excesivamente caliente.\n\nAPLICACIÓN:\n- Baño: Remojar la zona afectada durante 10-15 minutos.\n- Compresas: Empapar un paño y aplicar 10-15 minutos, 1-2 veces/día.\nDURACIÓN MÁXIMA: No usar por más de 3-4 días seguidos.\n\nCONTRAINDICACIONES ABSOLUTAS:\n- 🛑 NO INGERIR.\n- No aplicar sobre heridas abiertas o piel irritada.\n- Embarazo y lactancia.\n- Niños.\n\nSÍNTOMAS DE SOBREDOSIS O USO INTERNO:\nIrritación gastrointestinal severa, vómitos, diarrea, daño renal.\n\nFUENTE: \"Plantas medicinales de uso mapuche\" (Universidad de\nConcepción); monografías de toxicidad de flora nativa chilena\n(MINSAL).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Plantas medicinales de uso mapuche\" (Universidad de\nConcepción); monografías de toxicidad de flora nativa chilena\n(MINSAL).",
+      "fuente_tradicion": "Medicina tradicional mapuche (con restricciones)",
+      "contraindicaciones": "",
+      "id": 1360,
+      "planta_principal": "Pillopillo (Drimys winteri)",
+      "nivel_seguridad": "🛑🛑 ALTO RIESGO (USO EXTERNO CONTROLADO)"
+    },
+    {
+      "titulo": "Leche Dorada con Cúrcuma para la artritis",
+      "categoria": "Reumatismo",
+      "origen": "Medicina ayurvédica y fitoterapia clínica",
+      "ingredientes": "- 1 cucharadita (aprox. 3 g) de cúrcuma en polvo.\n- 1 pizca de pimienta negra molida (imprescindible para la\n  absorción de la curcumina).\n- 250 ml de leche vegetal (almendras, avena o coco).\n- Miel al gusto (opcional, no en menores de 1 año).",
+      "preparacion": "1. Calentar la leche vegetal en una olla pequeña.\n2. Añadir la cúrcuma y la pimienta negra.\n3. Remover bien y calentar a fuego bajo durante 5-10 minutos\n   sin que llegue a hervir.\n4. Retirar, añadir miel al gusto si se desea y beber caliente.",
+      "dosis": "1 taza, 1-2 veces al día, preferiblemente después de\nlas comidas. — Puede usarse durante periodos prolongados.\nConsultar al médico si se usa junto con medicamentos.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Organización Mundial de la Salud (OMS). Monografías\nsobre plantas medicinales. Numerosos ensayos clínicos\npublicados en el \"Journal of Medicinal Food\" y revisiones\nCochrane avalan la eficacia de la curcumina como coadyuvante\nen el tratamiento de la artritis y la osteoartritis.",
+      "fuente_tradicion": "Medicina ayurvédica y fitoterapia clínica",
+      "contraindicaciones": "- Cálculos biliares u obstrucción de vías biliares.\n- Úlcera gástrica activa.\n- Embarazo (evitar dosis medicinales; uso culinario seguro).\n- Cirugía programada: suspender 2 semanas antes por leve\n  efecto antiplaquetario.",
+      "id": 1372,
+      "uso": "Alivio complementario del dolor y la inflamación\nen artritis y osteoartritis.",
+      "planta_principal": "Cúrcuma (Curcuma longa)",
+      "interacciones": "- Puede potenciar anticoagulantes y antiplaquetarios\n  (warfarina, aspirina, clopidogrel).\n- Puede interferir con antiácidos y medicamentos para la\n  diabetes.",
+      "efectos_secundarios_nota": "Dosis altas pueden causar molestias\ngástricas, náuseas o diarrea. Raramente, reacciones alérgicas.",
+      "nivel_seguridad": "⚠️ Precaución (interacciones)"
     }
   ]
 }

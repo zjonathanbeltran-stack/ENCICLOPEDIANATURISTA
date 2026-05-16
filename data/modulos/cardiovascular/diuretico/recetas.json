@@ -1,13 +1,6 @@
 {
-  "condicion": "Diurético / Retención de Líquidos",
   "modulo": "cardiovascular",
   "submodulo": "diuretico",
-  "emoji": "💧",
-  "descripcion": "Remedios diuréticos naturales para la retención de líquidos, edema e hinchazón.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La retención de líquidos es común en embarazo. Agua de sandía y jugo de pepino son seguros. Evitar diente de león y cola de caballo en primer trimestre."
-  },
   "recetas": [
     {
       "id": 16,
@@ -27,7 +20,70 @@
       "contraindicaciones": "No usar en embarazo ni insuficiencia renal. Mantener buena hidratación.",
       "uso": "Riñones. Drenaje y depurativo renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides (quercetina, rutina): diuréticos y antiedematosos. Sales de potasio: diuresis osmótica sin hipocalemia. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
+      "propiedades": [
+        "diurético",
+        "depurativo",
+        "antiedematoso",
+        "remineralizante"
+      ]
+    },
+    {
+      "id": 34,
+      "titulo": "Infusión de Nalca para Problemas Renales",
+      "categoria": "Renal",
+      "origen": "Mapuche",
+      "ingredientes": "Hojas frescas de nalca, 1 taza de agua.",
+      "preparacion": "Una infusión de las hojas se utiliza para ayudar a tratar problemas renales y como diurético.",
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Problemas Renales: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+      "propiedades": [
+        "antioxidante",
+        "astringente",
+        "antiinflamatorio",
+        "nutritivo",
+        "digestivo"
+      ],
+      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+      "indicaciones_principales": [
+        "retención de líquidos leve",
+        "cistitis funcional",
+        "edema leve",
+        "depuración renal preventiva"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos (potenciación), litio (riesgo de toxicidad) y antihipertensivos.",
+      "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Evitar en insuficiencia renal.",
+      "duracion_tratamiento": "Máximo 2 semanas; descansar antes de retomar.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "diente de león",
+        "llantén",
+        "perejil"
+      ]
     },
     {
       "id": 69,
@@ -55,7 +111,22 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "retención de líquidos",
+        "hinchazón abdominal",
+        "depuración hepatorrenal",
+        "estreñimiento leve",
+        "colesterol levemente elevado"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos, litio, anticoagulantes, antidiabéticos y antihipertensivos. Puede reducir absorción de quinolonas.",
+      "embarazo_lactancia": "Contraindicado en embarazo y en obstrucción biliar. Precaución en lactancia.",
+      "duracion_tratamiento": "Curas de 3-4 semanas con 1-2 semanas de descanso.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "boldo",
+        "alcachofa",
+        "perejil"
+      ]
     },
     {
       "id": 72,
@@ -83,7 +154,21 @@
         "cicatrizante"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "infecciones urinarias leves",
+        "cistitis recurrente (coadyuvante)",
+        "retención de líquidos",
+        "litiasis renal preventiva"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos (potenciación e hipokalemia), digoxina, litio y antidiabéticos.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas. No uso crónico (riesgo de déficit de tiamina).",
+      "sinergia_plantas": [
+        "llantén",
+        "diente de león",
+        "barbas de choclo",
+        "pichi"
+      ]
     },
     {
       "id": 117,
@@ -111,7 +196,62 @@
         "cicatrizante"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "edema localizado",
+        "inflamación venosa leve",
+        "hinchazón de tobillos",
+        "celulitis (uso complementario)"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicación diaria por 2-3 semanas; descansar si hay irritación cutánea.",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla",
+        "matico",
+        "diente de león"
+      ]
+    },
+    {
+      "id": 120,
+      "titulo": "Infusión de Hierba de la Piedra para los Cálculos Renales",
+      "categoria": "Renal",
+      "origen": "Norte Grande",
+      "ingredientes": "1 cucharada de hojas de hierba de la piedra, 1 taza de agua.",
+      "preparacion": "Preparar una infusión con esta planta, conocida por sus propiedades diuréticas y para disolver cálculos renales.",
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Cálculos Renales. Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 166,
@@ -131,7 +271,274 @@
       "contraindicaciones": "No usar en embarazo ni insuficiencia renal. Mantener buena hidratación.",
       "uso": "Retención de Líquidos. Drenaje y depurativo renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides (quercetina, rutina): diuréticos y antiedematosos. Sales de potasio: diuresis osmótica sin hipocalemia. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
+      "propiedades": [
+        "diurético",
+        "depurativo",
+        "antiedematoso",
+        "remineralizante"
+      ]
+    },
+    {
+      "titulo": "Infusión de Cola de Caballo para Riñones y Vejiga",
+      "categoria": "Renal",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "1 cucharada de cola de caballo seca (Equisetum bogotense), 1 taza de agua.",
+      "preparacion": "Hervir el agua con la cola de caballo 5 minutos. Colar y beber tibio. Tomar 3 tazas al día durante máximo 4 semanas. La silice y los flavonoides de la cola de caballo tienen efecto diurético suave y antiséptico urinario. No usar con insuficiencia renal severa.",
+      "id": 257,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en insuficiencia renal. Evitar uso prolongado. Contraindicado en embarazo.",
+      "uso": "Riñones y Vejiga: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.",
+      "principios_activos": "Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.",
+      "propiedades": [
+        "diurético",
+        "remineralizante",
+        "hemostático",
+        "astringente",
+        "cicatrizante"
+      ],
+      "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "litiasis renal leve",
+        "cistitis recurrente",
+        "retención de líquidos",
+        "remineralización ósea"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos, digoxina, litio, antidiabéticos y antihipertensivos.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 4 semanas; descansar 1-2 semanas para evitar déficit de tiamina.",
+      "sinergia_plantas": [
+        "llantén",
+        "barbas de choclo",
+        "pichi",
+        "diente de león"
+      ]
+    },
+    {
+      "titulo": "Agua de Pelos de Choclo (Maíz) como Diurético",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "Pelos de 2-3 mazorcas de maíz fresco, 1 litro de agua.",
+      "preparacion": "Hervir los pelos de choclo en el agua durante 15 minutos. Colar y beber durante el día. Consumir 2-3 vasos diarios. Los pelos de choclo contienen maysin y flavonoides con efecto diurético y calmante de las vías urinarias. Excelente para cistitis e infecciones urinarias leves.",
+      "id": 258,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "20 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
+    },
+    {
+      "titulo": "Agua de Perejil para Retención de Líquidos",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 manojo de perejil fresco, 1 litro de agua.",
+      "preparacion": "Lavar el perejil. Hervir el agua y agregar el perejil. Apagar el fuego, tapar y reposar 15 minutos. Colar y beber durante el día (hasta 3 vasos). El perejil contiene apiol y miristicina con potente efecto diurético. No usar en dosis altas durante el embarazo.",
+      "id": 259,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "20 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Retención de Líquidos. Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
+    },
+    {
+      "titulo": "Infusión de Diente de León para Depurar los Riñones",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "15 g de hojas y flores de diente de león, 500 ml de agua.",
+      "preparacion": "Hervir el agua y agregar el diente de león. Tapar y reposar 10 minutos. Colar y beber tibio. Tomar 2-3 tazas al día. El diente de león contiene taraxacina con efecto diurético comparable a furosemida en estudios preclínicos, sin perder potasio.",
+      "id": 260,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Depurar los Riñones: la taraxacina estimula enzimas antioxidantes hepáticas y los flavonoides ejercen acción diurética.",
+      "principios_activos": "Taraxacina y taraxacerín (eudesmanólidos amargos): estimulan la secreción biliar y aumentan la actividad de catalasa y glutatión peroxidasa hepáticas. Inulina (hasta 40% en otoño): prebiótico. Flavonoides y sales de potasio: efecto diurético sin pérdida de electrolitos.",
+      "propiedades": [
+        "diurético",
+        "colerético",
+        "hepatoprotector",
+        "tónico digestivo",
+        "prebiótico"
+      ],
+      "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Depuración renal",
+        "Cálculos renales pequeños",
+        "Edema leve",
+        "Apoyo hepatobiliar"
+      ],
+      "interacciones_medicamentos": "Potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas y tetraciclinas.",
+      "embarazo_lactancia": "Aceptable en embarazo y lactancia en dosis moderadas.",
+      "duracion_tratamiento": "Curas de 3 semanas con 1 semana de descanso.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "llantén",
+        "boldo"
+      ]
+    },
+    {
+      "titulo": "Decocción de Apio y Limón para Infecciones Urinarias",
+      "categoria": "Renal",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "1 rama de apio con hojas, jugo de 1 limón, 500 ml de agua.",
+      "preparacion": "Hervir el apio en el agua 10 minutos. Retirar, colar y agregar el limón. Beber tibio. Tomar 2-3 veces al día. El apio tiene apiol con efecto diurético y el limón acidifica la orina dificultando el crecimiento bacteriano en las vías urinarias.",
+      "id": 261,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Infecciones Urinarias: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Infecciones urinarias leves",
+        "Cistitis",
+        "Retención de líquidos",
+        "Prevención de cálculos",
+        "Diuresis"
+      ],
+      "interacciones_medicamentos": "Apio potencia anticoagulantes y diuréticos; limón reduce absorción de aluminio; precaución con litio.",
+      "embarazo_lactancia": "Apio contraindicado en embarazo en dosis medicinales (efecto uterotónico); aceptable en lactancia.",
+      "duracion_tratamiento": "Máximo 7-10 días; si no mejora consultar médico.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "llantén",
+        "arándano rojo"
+      ]
+    },
+    {
+      "id": 312,
+      "titulo": "Infusión de Cola de Caballo para retención hídrica cardiovascular",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharada de cola de caballo seca, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 10 minutos. Colar bien. Beber tibio.",
+      "dosis": "1 taza 2 veces al día (mañana y tarde) durante máximo 4 semanas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en insuficiencia renal y cardíaca severa. No usar sin control médico en edemas de origen cardíaco.",
+      "uso": "Retención hídrica cardiovascular: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.",
+      "principios_activos": "Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.",
+      "propiedades": [
+        "diurético",
+        "remineralizante",
+        "hemostático",
+        "astringente",
+        "cicatrizante"
+      ],
+      "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 538,
@@ -151,7 +558,28 @@
       "contraindicaciones": "Contraindicado en embarazo; puede irritar los riñones en patología renal",
       "uso": "Riñones. Drenaje y depurativo renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+      "propiedades": [
+        "diurético",
+        "depurativo",
+        "antiedematoso",
+        "remineralizante"
+      ]
     },
     {
       "id": 539,
@@ -179,7 +607,20 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 540,
@@ -207,7 +648,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 546,
@@ -227,7 +681,27 @@
       "contraindicaciones": "No usar en insuficiencia renal ni embarazo",
       "uso": "Drenaje y depurativo renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides (quercetina, rutina): diuréticos y antiedematosos. Sales de potasio: diuresis osmótica sin hipocalemia. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
+      "propiedades": [
+        "diurético",
+        "depurativo",
+        "antiedematoso",
+        "remineralizante"
+      ]
     },
     {
       "id": 547,
@@ -256,7 +730,20 @@
         "emenagogo"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 548,
@@ -276,7 +763,27 @@
       "contraindicaciones": "Diurético moderado; aumentar consumo de agua para no deshidratarse",
       "uso": "Drenaje y depurativo renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides (quercetina, rutina): diuréticos y antiedematosos. Sales de potasio: diuresis osmótica sin hipocalemia. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
+      "propiedades": [
+        "diurético",
+        "depurativo",
+        "antiedematoso",
+        "remineralizante"
+      ]
     },
     {
       "id": 550,
@@ -304,7 +811,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 552,
@@ -333,7 +853,188 @@
         "inmunoestimulante"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Edema leve",
+        "Hipertensión arterial leve",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
+    },
+    {
+      "id": 1079,
+      "titulo": "Infusion de Tola Negra y Yareta para Dolor de Rinones Aymara",
+      "categoria": "Renal",
+      "origen": "Aymara (Altiplano chileno, cuenca del salar de Surire, Guallatire)",
+      "ingredientes": "20 g de ramas floridas de tola negra (Parastrephia lepidophylla / tola en aymara); 15 g de yareta fresca (Azorella compacta / yarita); 600 ml de agua; 1 cucharada de miel de abeja altiplanic",
+      "preparacion": "1. Recolectar la tola y yareta del altiplano (solo en cantidad necesaria, plantas de crecimiento muy lento). 2. Hervir el agua y agregar la tola y yareta. 3. Dejar hervir 15 minutos a fuego medio. 4. Apagar, tapar y reposar 10 minutos. 5. Colar bien. Endulzar con miel cuando este tibio. 6. Beber caliente, preferentemente antes del amanecer segun tradicion aymara.",
+      "dosis": "1 taza al despertar en ayunas y 1 taza al anochecer, durante 10-15 dias.",
+      "modo_uso": "Oral (decoccion)",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Media",
+      "rendimiento": "2-3 tazas",
+      "conservacion": "Consumir fresco. Refrigerar no mas de 24 horas.",
+      "evidencia": "La tola negra y la yareta son dos de las plantas mas importantes de la farmacopea aymara altiplanic. La Parastrephia lepidophylla contiene flavonoides y terpenoides con efecto diuretico y antiinflamatorio renal documentado (Villagran & Castro 2004). La yareta (Azorella compacta) contiene azorellanos diterpenicos con efecto espasmolitico en via urinaria.",
+      "fuente_tradicion": "Andina / Aymara",
+      "contraindicaciones": "La yareta es una especie protegida en Chile (recolectar solo cantidades minimas y nunca del nucleo de la planta). No usar en insuficiencia renal severa. Contraindicado en embarazo. Puede interactuar con farmacos diureticos.",
+      "uso": "Tratamiento de inflamacion renal, calculos urinarios (urolitiasis), infecciones de las vias urinarias y edema de origen renal. La tola produce efecto diuretico que facilita la eliminacion de oxalatos; la yareta relaja los espasmos del ureter que causan el dolor colico.",
+      "principios_activos": "Flavonoides (quercetina, kampferol) de tola; azorellanos A-E (diterpenos) de yareta; aceites esenciales; taninos",
+      "propiedades": [
+        "diuretico",
+        "antiespasmódico urinario",
+        "antiinflamatorio renal",
+        "litotriptico"
+      ],
+      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Loyola LA. et al. (1990) Diterpenoids from Azorella compacta. Phytochemistry.",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
+    },
+    {
+      "id": 1156,
+      "titulo": "Decocción diurética de cola de caballo, equiseto y barbas de choclo para retención de líquidos",
+      "categoria": "Diurético",
+      "origen": "Tradicional latinoamericano",
+      "ingredientes": "1 cdta de cola de caballo, 1 cdta de equiseto fresco (si está disponible), 1 cda de barbas de choclo secas, 500 ml de agua",
+      "preparacion": "Cocer todo a fuego bajo 7 min, reposar 10 min, colar.",
+      "dosis": "2 tazas al día por la mañana y mediodía durante 7 a 10 días",
+      "modo_uso": "Oral - decocción diurética",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerado 24 h",
+      "evidencia": "ESCOP Equisetum arvense; estudios sobre Zea mays barbas como diurético osmótico (Velazquez 2005)",
+      "fuente_tradicion": "Tradicional latinoamericano y popular chileno",
+      "contraindicaciones": "Insuficiencia renal, insuficiencia cardíaca descompensada, embarazo, déficit de tiamina (equiseto contiene tiaminasa), tratamiento con litio",
+      "uso": "Saponinas y flavonoides aumentan filtración glomerular sin afectar electrolitos plasmáticos y el silicio fortalece tejido conectivo urinario.",
+      "principios_activos": "Equisetonina, silicio y kaempferol (equiseto y cola de caballo), maicina y allantoína (barbas de choclo); diuréticos osmóticos y reepitelizantes urinarios",
+      "propiedades": [
+        "diurético",
+        "remineralizante",
+        "antiedematoso",
+        "antilitiásico",
+        "antiséptico urinario suave"
+      ],
+      "referencias": "Velazquez DV et al. 2005 J Ethnopharmacol; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "retención hídrica premenstrual",
+        "edema de miembros inferiores",
+        "hipertensión leve con edema",
+        "cálculos renales pequeños (prevención)",
+        "infección urinaria leve (apoyo)"
+      ],
+      "interacciones_medicamentos": "Litio (aumenta toxicidad), diuréticos farmacológicos (potencia), digoxina, anticoagulantes",
+      "embarazo_lactancia": "Contraindicado",
+      "duracion_tratamiento": "Máximo 10 días, descansar 1 semana",
+      "sinergia_plantas": [
+        "diente de león",
+        "abedul",
+        "pilosella"
+      ]
+    },
+    {
+      "id": 1180,
+      "titulo": "Decocción diurética de cola de caballo, perejil y diente de león",
+      "categoria": "Diurético",
+      "origen": "Herbolaria diurética tradicional",
+      "ingredientes": "1 cucharadita de cola de caballo, 1 cucharadita de hojas de diente de león, 1 cucharadita de perejil fresco, 1/2 cucharadita de pelos de choclo (estigmas de maíz), 400 ml de agua",
+      "preparacion": "Hervir agua con cola de caballo y diente de león 10 minutos. Apagar, añadir perejil y pelos de choclo. Tapar 5 minutos. Colar.",
+      "dosis": "2 tazas al día durante el día, no después de las 18:00 hrs",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "400 ml",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Diente de león con efecto diurético confirmado (Clare, 2009); cola de caballo en uso tradicional",
+      "fuente_tradicion": "Herbolaria europea y americana",
+      "contraindicaciones": "Insuficiencia renal, edema cardíaco o renal severo, embarazo (perejil emenagogo), tratamiento con diuréticos.",
+      "uso": "El diente de león es uno de los pocos diuréticos vegetales que aporta potasio compensando pérdidas, los flavonoides de cola de caballo aumentan filtración glomerular y la apiol del perejil estimula directamente el túbulo distal incrementando excreción de sodio sin alterar electrolitos severamente.",
+      "principios_activos": "Taraxasterol (diente de león): diurético, rico en potasio. Equisetonina, flavonoides (cola de caballo). Apiol, miristicina (perejil). Maizina (pelos de choclo).",
+      "propiedades": [
+        "diurético",
+        "depurativo renal",
+        "antiedematoso",
+        "remineralizante"
+      ],
+      "referencias": [
+        "Clare BA. et al. J Altern Complement Med (2009) 15:929",
+        "Yarnell E. Altern Complement Ther (2002) 8:103"
+      ],
+      "indicaciones_principales": [
+        "retención de líquidos",
+        "edemas leves de miembros inferiores",
+        "infecciones urinarias leves (coadyuvante)",
+        "hipertensión leve"
+      ],
+      "interacciones_medicamentos": "Diuréticos farmacológicos, litio, anticoagulantes",
+      "embarazo_lactancia": "Evitar por contenido de perejil",
+      "duracion_tratamiento": "Ciclos de 2-3 semanas",
+      "sinergia_plantas": [
+        "llantén",
+        "pichi"
+      ]
+    },
+    {
+      "titulo": "Decocción de Diente de León como diurético y depurativo",
+      "categoria": "Diurético",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de raíz seca de diente de\n  león troceada.\n- 250 ml de agua fría.",
+      "preparacion": "1. Colocar la raíz en una olla con el agua fría.\n2. Llevar a ebullición y hervir a fuego lento durante 15 minutos.\n3. Retirar del fuego, colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día. — No usar por más de 2-3 semanas sin consultar\nal médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Comisión E alemana. Monografía sobre \"Taraxaci radix\ncum herba\". Aprueba su uso como diurético y para estimular\nla función renal en afecciones urinarias leves.",
+      "fuente_tradicion": "Medicina tradicional europea",
+      "contraindicaciones": "- Obstrucción de las vías biliares (por efecto colerético).\n- Úlcera gástrica activa.\n- Alergia a las asteráceas.\n- Insuficiencia cardíaca o renal que curse con edema.\n- Embarazo y lactancia (evitar dosis medicinales).",
+      "id": 1337,
+      "uso": "Aumento de la diuresis y como depurativo suave.",
+      "planta_principal": "Diente de León (Taraxacum officinale)",
+      "interacciones": "- Puede interferir con diuréticos de asa y tiazídicos.\n- Puede alterar los niveles de litio en sangre.\n- Teóricamente puede interferir con hipoglucemiantes orales\n  (efecto hipoglucemiante leve).",
+      "efectos_secundarios_nota": "En raras ocasiones, molestias gástricas\nleves o reacciones alérgicas.",
+      "nivel_seguridad": "⚠️ Precaución"
+    },
+    {
+      "titulo": "Infusión de Cola de Caballo para retención de líquidos",
+      "categoria": "Diurético",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de tallos estériles secos de cola\n  de caballo desmenuzados.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día. — No usar por más de 2 semanas continuas. Hacer\ndescansos de al menos 1 semana antes de repetir.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre\n\"Equiseti herba\". La EMA aprueba su uso tradicional como\ndiurético para incrementar la cantidad de orina en afecciones\nleves de las vías urinarias.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Insuficiencia cardíaca o renal (la retención de líquidos\n  puede deberse a estas causas; requiere diagnóstico médico).\n- Embarazo y lactancia.\n- Niños menores de 12 años.\n- No usar si hay deshidratación o hipopotasemia.",
+      "id": 1375,
+      "uso": "Aumento de la diuresis en casos de retención leve\nde líquidos y como coadyuvante en infecciones urinarias leves.",
+      "planta_principal": "Cola de Caballo (Equisetum arvense)",
+      "interacciones": "- Puede potenciar el efecto de diuréticos de asa (furosemida)\n  y tiazídicos.\n- Teóricamente puede aumentar la excreción de potasio. Vigilar\n  niveles si se usa junto con digoxina.",
+      "efectos_secundarios_nota": "En raras ocasiones, molestias gástricas\nleves. No se han reportado efectos graves a las dosis\nrecomendadas.",
+      "nivel_seguridad": "⚠️ Precaución"
     }
   ]
 }

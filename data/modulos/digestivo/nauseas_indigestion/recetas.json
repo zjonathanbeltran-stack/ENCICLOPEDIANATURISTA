@@ -1,54 +1,7 @@
 {
-  "condicion": "Nauseas / Indigestion",
   "modulo": "digestivo",
   "submodulo": "nauseas_indigestion",
-  "emoji": "🤢",
-  "descripcion": "Remedios para nauseas, vomitos, indigestion, apetito y malestar estomacal general.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El jengibre en dosis bajas es el remedio mas documentado para nauseas del embarazo. Evitar el ajenjo (abortivo) y la ruda. La menta piperita puede agravar las nauseas en el primer trimestre."
-  },
   "recetas": [
-    {
-      "id": 51,
-      "titulo": "Cataplasma de Ajenjo para Aliviar el Dolor Abdominal",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "Un puñado de hojas de ajenjo, un poco de agua caliente.",
-      "preparacion": "Machacar las hojas hasta formar una pasta y aplicar como cataplasma sobre el vientre para aliviar cólicos y dolores estomacales.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
-      "uso": "Aliviar el Dolor Abdominal. Apoyo digestivo.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 52,
-      "titulo": "Tintura de Ajenjo para Estimular el Apetito",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "1 parte de hojas secas de ajenjo, 5 partes de alcohol de 40°.",
-      "preparacion": "Macerar por 15 días. Tomar de 5 a 10 gotas en un poco de agua antes de las comidas para estimular el apetito y la digestión.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente o tibia",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Avanzado",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
-      "uso": "Estimular el Apetito. Apoyo digestivo.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
-    },
     {
       "id": 137,
       "titulo": "Tintura de Ajenjo para la Indigestión",
@@ -67,7 +20,27 @@
       "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
       "uso": "Indigestión. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 162,
@@ -87,7 +60,27 @@
       "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona. | En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
       "uso": "Indigestión. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 391,
@@ -115,85 +108,42 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 698,
-      "titulo": "Té de Raíz de Jengibre y Menta Piperita",
-      "categoria": "Digestivo",
-      "origen": "Herbolaria Universal",
-      "ingredientes": "2 rodajas de jengibre fresco, 5 hojas de menta piperita, 300 ml de agua",
-      "preparacion": "Hervir el jengibre 5 min. Apagar el fuego. Agregar la menta y reposar 5 min. Colar.",
-      "dosis": "2 tazas al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria universal",
-      "contraindicaciones": "No usar menta en gastritis o reflujo severo",
-      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | 6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "antiemético"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
-      "id": 704,
-      "titulo": "Mezcla de Especias Digestivas (Churna Ayurvédico)",
+      "titulo": "Decocción de Jengibre para las náuseas",
       "categoria": "Digestivo",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "1 cucharadita de comino, 1 cucharadita de cilantro seco, 1/2 cucharadita de hinojo, 1/4 cucharadita de cardamomo, 1/4 cucharadita de jengibre seco",
-      "preparacion": "Moler todas las especias juntas. Guardar en frasco hermético.",
-      "dosis": "1/2 cucharadita mezclada en 1 taza de agua tibia o yogur, después de cada comida",
-      "modo_uso": "La mezcla estimula los agni (fuegos digestivos) del Ayurveda",
-      "tiempo_prep": "10 min",
+      "origen": "Medicina tradicional china y fitoterapia clínica",
+      "ingredientes": "- 0.5-1 g de rizoma de jengibre seco en polvo (o trozo fresco de 1-2 cm).\n- 250 ml de agua.",
+      "preparacion": "1. Cortar en rodajas finas el jengibre fresco o usar el polvo.\n2. Poner en una olla con el agua.\n3. Hervir a fuego lento 10-15 minutos. Colar.\n\nDOSIS ADULTOS: 1 taza, 2-3 veces al día.\nDOSIS EMBARAZADAS: Máximo 1 g de jengibre seco al día, repartido en varias tomas.\nDURACIÓN MÁXIMA: Náuseas agudas, no más de 4 días. En embarazo, tratamientos de hasta 4 meses bajo supervisión médica.\n\nCONTRAINDICACIONES:\n- Hipersensibilidad al jengibre.\n- Cálculos biliares.\n- Suspender 1 semana antes de cirugía programada.\n\nINTERACCIONES: Puede potenciar anticoagulantes orales (warfarina) y antiplaquetarios.\n\nEFECTOS SECUNDARIOS: Dosis >4-6 g/día causan ardor de estómago, diarrea e irritación oral.\n\nFUENTE: ESCOP monographs: Zingiberis rhizoma (Ginger).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
       "dificultad": "Fácil",
-      "rendimiento": "50 g (2 semanas)",
-      "conservacion": "Frasco hermético temperatura ambiente 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina Ayurveda clásica",
-      "contraindicaciones": "Puede causar ardor en personas con gastritis; reducir dosis de jengibre",
-      "uso": "Náuseas y vómitos (embarazo, quimioterapia, cinetosis) y estados inflamatorios: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antiespasmódico"
-      ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 938,
-      "titulo": "Infusion de Anamu para la Digestión",
-      "categoria": "Digestivo",
-      "origen": "Medicina Caribeña",
-      "ingredientes": "1 cucharadita de anamu (Petiveria alliacea) seca, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir el anamu 10 min. Colar.",
-      "dosis": "1 taza despues de las comidas",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina caribena y amazonica",
-      "contraindicaciones": "No en embarazo; puede causar alergias",
-      "uso": "Digestión. Apoyo digestivo.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP monographs: Zingiberis rhizoma (Ginger).",
+      "fuente_tradicion": "Medicina tradicional china y fitoterapia clínica",
+      "contraindicaciones": "- Hipersensibilidad al jengibre.\n- Cálculos biliares.\n- Suspender 1 semana antes de cirugía programada.",
+      "id": 1340,
+      "uso": "Náuseas por cinetosis, dispepsia y náuseas matutinas del embarazo.",
+      "planta_principal": "Jengibre (Zingiber officinale)",
+      "interacciones": "Puede potenciar anticoagulantes orales (warfarina) y antiplaquetarios.",
+      "efectos_secundarios_nota": "Dosis >4-6 g/día causan ardor de estómago, diarrea e irritación oral.",
+      "nivel_seguridad": "⚠️ Precaución (interacciones)"
     }
   ]
 }

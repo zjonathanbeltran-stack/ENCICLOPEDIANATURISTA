@@ -1,13 +1,6 @@
 {
-  "condicion": "Hongos e Infecciones",
   "modulo": "piel",
   "submodulo": "hongos_infecciones",
-  "emoji": "🦠",
-  "descripcion": "Antifúngicos naturales para pie de atleta, candidiasis cutánea, hongos en uñas y piel.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Los baños de vinagre y los geles de aloe son seguros. Evitar aceite de orégano concentrado y aceite de árbol de té en grandes cantidades. Las soluciones tópicas diluidas son aceptables."
-  },
   "recetas": [
     {
       "id": 20,
@@ -27,7 +20,148 @@
       "contraindicaciones": "Consultar médico si no hay mejoría en 2 semanas. No aplicar en mucosas sin indicación.",
       "uso": "Hongos. Tratamiento antifúngico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ],
+      "principios_activos": "Alcaloides esteroídicos (solasonina, solamargina): antiinflamatorios y antifúngicos tópicos. Saponinas esteroidales: actividad antimicrobiana. Flavonoides: antioxidantes cutáneos.",
+      "propiedades": [
+        "antifúngico",
+        "antimicrobiano",
+        "antiséptico",
+        "cicatrizante"
+      ]
+    },
+    {
+      "id": 95,
+      "titulo": "Cataplasma de Gobernadora para la Piel",
+      "categoria": "Dermatológico",
+      "origen": "Norte Grande",
+      "ingredientes": "Hojas de gobernadora, agua.",
+      "preparacion": "Machacar las hojas frescas y aplicarlas sobre heridas, hongos o sarna. Es un potente antiséptico natural.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "La Piel. Tratamiento dermatológico.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
+    },
+    {
+      "id": 151,
+      "titulo": "Infusión de Pimiento para el Cáncer a la Piel",
+      "categoria": "Cicatrizante",
+      "origen": "Popular",
+      "ingredientes": "Hojas de pimiento.",
+      "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
+      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 aplicaciones por preparación",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
+      "uso": "Cáncer a la Piel. Cicatrización de heridas.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ]
+    },
+    {
+      "id": 159,
+      "titulo": "Pomada de Manzanilla de Cobre",
+      "categoria": "Dermatológico",
+      "origen": "Popular",
+      "ingredientes": "Flores de manzanilla, cobre.",
+      "preparacion": "Macerar manzanilla y cobre, se afirma que ayuda a curar aftas, llagas y hongos.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "titulo": "Solución de Ajo y Vinagre para Hongos en Uñas",
@@ -55,7 +189,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Aceite Esencial de Orégano para Hongos Cutáneos",
@@ -83,7 +230,20 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Lavado de Matico y Sal Marina para Pie de Atleta",
@@ -111,7 +271,20 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Ungüento de Ajo y Caléndula para Candidiasis Cutánea",
@@ -140,7 +313,20 @@
         "antimicrobiano"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Enjuague Bucal Antifúngico de Canela y Clavo",
@@ -168,7 +354,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "id": 444,
@@ -196,7 +395,20 @@
         "carminativo"
       ],
       "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "id": 445,
@@ -224,7 +436,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     },
     {
       "id": 450,
@@ -244,7 +469,27 @@
       "contraindicaciones": "No usar en piel con heridas abiertas; puede irritar piel sensible",
       "uso": "Hongos en Pies. Tratamiento antifúngico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antifúngico",
+        "antimicrobiano",
+        "antiséptico",
+        "cicatrizante"
+      ]
     },
     {
       "id": 960,
@@ -272,7 +517,20 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Candidiasis cutánea leve",
+        "Pie de atleta",
+        "Micosis superficiales",
+        "Infecciones por hongos de uñas"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ]
     }
   ]
 }

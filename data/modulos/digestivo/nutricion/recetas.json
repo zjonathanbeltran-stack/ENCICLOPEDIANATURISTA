@@ -1,13 +1,6 @@
 {
-  "condicion": "Nutricion y Alimentacion medicinal",
   "modulo": "digestivo",
   "submodulo": "nutricion",
-  "emoji": "🥗",
-  "descripcion": "Preparaciones alimenticias medicinales, alimentos funcionales y recetas nutritivas con plantas.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "La gran mayoria de estas preparaciones son seguras en el embarazo al ser base de alimentos. Evitar el licor medicinal y las preparaciones alcoholicas. Las sopas, batidos y ensaladas medicinales son excelentes."
-  },
   "recetas": [
     {
       "id": 11,
@@ -27,7 +20,27 @@
       "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
       "uso": "Anemia. Aporte nutricional.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "reconstituyente",
+        "vitaminizante"
+      ]
     },
     {
       "id": 49,
@@ -47,7 +60,27 @@
       "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
       "uso": "Anemia. Aporte nutricional.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "reconstituyente",
+        "vitaminizante"
+      ]
     },
     {
       "id": 92,
@@ -75,7 +108,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Astenia",
+        "Fatiga crónica",
+        "Convalecencia",
+        "Déficit nutricional"
+      ],
+      "interacciones_medicamentos": "Ortiga potencia antihipertensivos, antidiabéticos, diuréticos y anticoagulantes; romero potencia anticoagulantes.",
+      "embarazo_lactancia": "Contraindicado en embarazo por el romero (emenagogo); ortiga sola es aceptable en lactancia.",
+      "duracion_tratamiento": "Curas de 3 semanas con 1 semana de descanso.",
+      "sinergia_plantas": [
+        "llantén",
+        "diente de león",
+        "maqui"
+      ]
     },
     {
       "id": 110,
@@ -103,7 +150,61 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
+      "categoria": "Diarrea",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de arroz blanco, 500 ml de agua, 1 rama de canela, jugo de 1/2 limón.",
+      "preparacion": "Hervir el arroz con la canela en el agua 20 minutos. Colar guardando solo el agua. Agregar el limón. Beber tibia a pequeños sorbos durante el día. El agua de arroz aporta sales minerales, la canela actúa como astringente y el limón acidifica el intestino.",
+      "id": 252,
+      "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "25 min",
+      "dificultad": "Medio",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
+      "uso": "Diarrea: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ]
     },
     {
       "id": 373,
@@ -132,7 +233,20 @@
         "antiséptico"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 374,
@@ -161,7 +275,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 375,
@@ -189,7 +316,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 376,
@@ -217,7 +357,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 377,
@@ -246,7 +399,21 @@
         "inmunoestimulante"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 378,
@@ -275,7 +442,20 @@
         "antiséptico"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 379,
@@ -303,7 +483,20 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 380,
@@ -331,7 +524,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 381,
@@ -359,7 +565,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 382,
@@ -387,7 +606,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 383,
@@ -415,7 +647,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 384,
@@ -443,7 +688,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 385,
@@ -472,7 +730,20 @@
         "antiséptico"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 386,
@@ -501,7 +772,61 @@
         "antiséptico"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Zitterl-Eglseer K. et al. J Ethnopharmacol 1997",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 387,
+      "titulo": "Infusión de Anís Verde y Hinojo para flatulencias y digestión",
+      "categoria": "Alimenticio",
+      "origen": "Tradición Española Colonial",
+      "ingredientes": "1 cucharadita de semillas de anís verde, 1 cucharadita de semillas de hinojo (si se tiene), 1 taza de agua.",
+      "preparacion": "Machacar ligeramente las semillas para liberar los aceites. Infusionar en agua hervida 8 minutos tapado. Colar bien. Beber tibio después de las comidas.",
+      "dosis": "1 taza después de las comidas principales. Máximo 3 tazas/día.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Evitar en alergia al anís o al apio. Consultar en embarazo (el hinojo en dosis altas puede ser estrogénico). No dar a bebés menores de 6 meses.",
+      "uso": "Flatulencias y digestión: el trans-anetol relaja el músculo liso digestivo y modula receptores dopaminérgicos estimulando la producción de prolactina.",
+      "principios_activos": "Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario. | Trans-anetol (75-90% del aceite esencial): carminativo por relajación del músculo liso intestinal; actúa sobre el epitelio bronquial aumentando la secreción de moco facilitando la expectoración. Flavonoides (isoorientina, glucósidos de apigenina): antiinflamatorios y antiespasmódicos complementarios.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "galactagogo",
+        "expectorante",
+        "digestivo"
+      ],
+      "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012",
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 407,
@@ -529,7 +854,62 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 410,
+      "titulo": "Agua de Clorofila con Aloe",
+      "categoria": "Digestivo",
+      "origen": "Naturopatía Moderna",
+      "ingredientes": "2 cucharadas de gel de aloe vera, 1 vaso de agua mineral, 10 gotas de clorofila líquida, jugo de limón",
+      "preparacion": "Mezclar todos los ingredientes. Agitar bien.",
+      "dosis": "1 vaso en ayunas diariamente",
+      "modo_uso": "Beber despacio en 10-15 minutos",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Naturopatía contemporánea",
+      "contraindicaciones": "No exceder dosis de aloe; laxante en grandes cantidades; evitar en embarazo",
+      "uso": "Cicatrización de quemaduras, heridas y psoriasis: el acemanano estimula fibroblastos y la síntesis de colágeno; los compuestos antiinflamatorios reducen el eritema y el edema.",
+      "principios_activos": "Acemanano (polisacárido acetilado de manosa): estimula proliferación de fibroblastos y síntesis de ácido hialurónico e hidroxiprolina; inhibe prostaglandinas y leucotrienos proinflamatorios; reduce la liberación de histamina. Aloína: laxante estimulante para uso interno (mecanismo diferente). | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio",
+        "emoliente",
+        "inmunomodulador",
+        "hidratante",
+        "inmunoestimulante"
+      ],
+      "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 412,
@@ -558,7 +938,20 @@
         "antiséptico"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 488,
@@ -586,7 +979,19 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 489,
@@ -606,7 +1011,26 @@
       "contraindicaciones": "Alto en sodio; evitar en hipertensión no controlada e insuficiencia renal",
       "uso": "Aporte nutricional.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Isoflavonas (genisteína, daidzeína): fitoestrógenas y cardioprotectoras. Vitamina K2 (menaquinona): mineralización ósea. Probióticos (Lactobacillus): modulación de microbiota intestinal.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "reconstituyente",
+        "vitaminizante"
+      ]
     },
     {
       "id": 492,
@@ -634,7 +1058,19 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 493,
@@ -654,7 +1090,26 @@
       "contraindicaciones": "Alto en proteína vegetal; puede causar flatulencia inicial",
       "uso": "Aporte nutricional.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "reconstituyente",
+        "vitaminizante"
+      ]
     },
     {
       "id": 598,
@@ -682,7 +1137,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 599,
@@ -711,7 +1179,20 @@
         "antiemético"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 600,
@@ -739,7 +1220,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 601,
@@ -767,7 +1261,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 602,
@@ -795,7 +1302,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 603,
@@ -824,7 +1344,20 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 604,
@@ -853,7 +1386,20 @@
         "antiemético"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 605,
@@ -881,7 +1427,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 606,
@@ -909,7 +1468,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 607,
@@ -937,7 +1509,20 @@
         "tónico"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 608,
@@ -957,7 +1542,27 @@
       "contraindicaciones": "No confundir con cannabis; las semillas peladas no contienen THC",
       "uso": "Complemento alimentario.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "depurativo",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 609,
@@ -985,7 +1590,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 610,
@@ -1013,7 +1631,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 611,
@@ -1033,7 +1664,27 @@
       "contraindicaciones": "El azafrán en grandes cantidades puede ser tóxico; usar solo 2-3 hebras",
       "uso": "Complemento alimentario.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "depurativo",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 612,
@@ -1062,7 +1713,59 @@
         "carminativo"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 727,
+      "titulo": "Ayuno con Zumo de Piña para Parásitos",
+      "categoria": "Antiparasitario",
+      "origen": "Naturopatía",
+      "ingredientes": "1/2 piña natural, agua mineral",
+      "preparacion": "Extraer el jugo de la piña. Consumir con agua mineral.",
+      "dosis": "1-2 vasos de jugo en ayunas por 3 días, acompañado solo de agua",
+      "modo_uso": "La bromelina de la piña puede debilitar la membrana de parásitos",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 vasos",
+      "conservacion": "Consumir fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía latinoamericana",
+      "contraindicaciones": "No reemplaza tratamiento médico confirmado; solo para parásitos leves",
+      "uso": "Parásitos. Eliminación de parásitos intestinales.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "id": 888,
@@ -1091,7 +1794,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 889,
@@ -1120,7 +1836,20 @@
         "antiséptico"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 890,
@@ -1140,7 +1869,27 @@
       "contraindicaciones": "Alto en sodio; no en hipertensión severa",
       "uso": "Complemento alimentario.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "depurativo",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 891,
@@ -1169,7 +1918,20 @@
         "antiséptico"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 892,
@@ -1198,7 +1960,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 893,
@@ -1227,7 +2002,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 894,
@@ -1247,7 +2035,27 @@
       "contraindicaciones": "El reishi puede interactuar con anticoagulantes; no en embarazo",
       "uso": "Complemento alimentario.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "depurativo",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 895,
@@ -1275,7 +2083,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 896,
@@ -1304,7 +2125,20 @@
         "expectorante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 897,
@@ -1324,7 +2158,27 @@
       "contraindicaciones": "Puede interactuar con medicamentos; alto en potasio; no en insuficiencia renal",
       "uso": "Inmunidad. Complemento alimentario.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+      "propiedades": [
+        "nutritivo",
+        "remineralizante",
+        "depurativo",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 898,
@@ -1353,7 +2207,20 @@
         "antiséptico"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 899,
@@ -1382,7 +2249,20 @@
         "ansiolítico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 900,
@@ -1410,7 +2290,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 901,
@@ -1438,7 +2331,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 902,
@@ -1466,7 +2372,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo nutricional y vitamínico",
+        "Anemia leve por déficit de hierro",
+        "Fatiga y debilidad general",
+        "Depuración orgánica suave"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Uso regular como parte de la alimentación; sin límite definido",
+      "sinergia_plantas": [
+        "Ortiga",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 1065,
@@ -1493,7 +2412,168 @@
         "reconstituyente"
       ],
       "referencias": "Cruz G. (1995) Hongos comestibles y venenosos de Chile. Fonck Museum. / Villagran C. & Hinojosa F. (1997) Historia de los bosques del sur de Sudamerica II. Rev Chilena Hist Nat.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "id": 1078,
+      "titulo": "Chuño Medicinal Aymara para Fortalecer Estomago y Recuperacion de Enfermedad",
+      "categoria": "Nutritivo",
+      "origen": "Aymara (Altiplano de Tarapaca y Parinacota, comunidades de Colchane y Enquelga)",
+      "ingredientes": "200 g de chuño (papa deshidratada por congelacion ancestral / chuno en aymara); 1 litro de agua; 1 cucharada de grasa de llama o vacuno; 1 manojo de muna (Minthostachys mollis); sal de Atacama al gusto",
+      "preparacion": "1. Remojar el chuño en agua fria durante 4 horas, cambiando el agua 2 veces. 2. Lavar bien el chuño remojado, exprimirlo con las manos (proceso tradicional de lavado). 3. Hervir el agua con la grasa de llama. Agregar el chuño entero o partido. 4. Cocer a fuego lento durante 45 minutos revolviendo ocasionalmente. 5. Agregar la muna los ultimos 5 minutos. 6. Salar. Servir caliente como sopa espesa.",
+      "dosis": "1 plato hondo dos veces al dia (manana y noche) durante periodos de convalecencia o debilidad. En enfermedad aguda, puede ser la alimentacion principal por 3-5 dias.",
+      "modo_uso": "Oral (alimento-medicina / sopa medicinal)",
+      "tiempo_prep": "5 horas (incluyendo remojo)",
+      "dificultad": "Media",
+      "rendimiento": "4 raciones",
+      "conservacion": "Refrigerar hasta 2 dias. Recalentar bien.",
+      "evidencia": "El chuño es una tecnologia alimentaria ancestral andina con mas de 2.000 anos de historia. El proceso de deshidratacion por congelacion y sol elimina glucoalcaloides toxicos de la papa mientras concentra el almidon y minerales. Documentado como alimento medicinal aymara por Llagostera (1988) y por el INTA de Chile.",
+      "fuente_tradicion": "Andina / Aymara",
+      "contraindicaciones": "Personas con diabetes deben limitar cantidad por alto indice glucemico del almidon. Verificar que el chuño no tenga moho (descartar en caso positivo). La grasa de llama puede ser dificil de conseguir; sustituir por grasa de vacuno.",
+      "uso": "Recuperacion nutricional en enfermedades debilitantes, convalecencia, diarrea cronica y mal de altitude. El chuño es facil de digerir por su almidon pregelatinizado; la muna facilita su digestion y agrega propiedades antiflatulenta. Es el alimento hospitalario andino por excelencia.",
+      "principios_activos": "Almidon resistente (chuño); proteinas de papa; vitamina C residual; minerales andinos; pulegona (muna)",
+      "propiedades": [
+        "nutritivo",
+        "facil digestion",
+        "recuperacion energetica",
+        "digestivo"
+      ],
+      "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / INTA-Chile (2001) Valor nutricional de alimentos andinos tradicionales.",
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "id": 1159,
+      "titulo": "Caldo restaurador de cochayuyo, jengibre y cúrcuma",
+      "categoria": "Nutritivo",
+      "origen": "Cocina medicinal chilota contemporánea",
+      "ingredientes": "30 g de cochayuyo seco hidratado, 1 cucharadita de cúrcuma fresca rallada, 2 cm de jengibre, 1 zanahoria, 1 puerro, 2 dientes de ajo, 1 ramita de orégano fresco, 1 litro de agua, sal marina, pimienta negra (pizca)",
+      "preparacion": "Remojar cochayuyo 30 minutos y picar. Saltear puerro, ajo, jengibre y cúrcuma en aceite de oliva. Agregar cochayuyo, zanahoria y agua. Cocinar 40 minutos. Añadir orégano y pimienta al final. Servir caliente.",
+      "dosis": "1 taza, 1-2 veces al día durante convalecencia o invierno",
+      "modo_uso": "Caldo",
+      "tiempo_prep": "50 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "4 porciones",
+      "conservacion": "Refrigerado hasta 3 días, congelado hasta 2 meses",
+      "evidencia": "Cochayuyo (Durvillaea antarctica) fuente de yodo, hierro y alginatos prebióticos documentados",
+      "fuente_tradicion": "Tradición chilota actualizada",
+      "contraindicaciones": "Hipertiroidismo (alto contenido de yodo). Pacientes anticoagulados (alginatos pueden alterar absorción).",
+      "uso": "Aporta yodo orgánico, hierro y alginatos que modulan microbiota; la curcumina inhibe NF-κB reduciendo inflamación sistémica y la pimienta negra aumenta su biodisponibilidad 2000% por inhibición de glucuronidación hepática.",
+      "principios_activos": "Yodo y alginatos de cochayuyo. Curcumina (inhibidor NF-κB). Piperina (potenciador biodisponibilidad). Gingeroles. Alicina del ajo.",
+      "propiedades": [
+        "nutritivo",
+        "antiinflamatorio",
+        "inmunomodulador",
+        "remineralizante",
+        "prebiótico"
+      ],
+      "referencias": [
+        "Astorga-España MS. et al. Food Chem (2017) 220:204",
+        "Hewlings SJ. Foods (2017) 6:92"
+      ],
+      "indicaciones_principales": [
+        "convalecencia",
+        "fatiga crónica",
+        "anemia leve",
+        "prevención invernal",
+        "déficit de yodo"
+      ],
+      "interacciones_medicamentos": "Levotiroxina (separar 4 horas). Anticoagulantes warfarina.",
+      "embarazo_lactancia": "Seguro en cantidades moderadas (cuidar exceso de yodo)",
+      "duracion_tratamiento": "Uso continuo como alimento funcional",
+      "sinergia_plantas": [
+        "llantén",
+        "ortiga",
+        "diente de león"
+      ]
+    },
+    {
+      "id": 1192,
+      "titulo": "Decocción mineralizante de ortiga, cola de caballo y alfalfa",
+      "categoria": "Nutritivo",
+      "origen": "Herbolaria mineralizante",
+      "ingredientes": "1 cucharadita de hojas de ortiga, 1 cucharadita de cola de caballo, 1 cucharadita de alfalfa seca, 1 cucharadita de avena verde, 400 ml de agua",
+      "preparacion": "Hervir agua con cola de caballo 10 minutos. Apagar, añadir el resto. Tapar 15 minutos. Colar.",
+      "dosis": "2 tazas al día durante 4-6 semanas",
+      "modo_uso": "Decocción mixta",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "400 ml",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Ortiga rica en hierro biodisponible (Adhikari, 2015); sílice de cola de caballo para tejido conectivo",
+      "fuente_tradicion": "Herbolaria mineralizante europea",
+      "contraindicaciones": "Anticoagulantes (vit K en ortiga), insuficiencia renal, edema cardíaco. Cuidado con ortiga en alergia a urticáceas.",
+      "uso": "La ortiga aporta hierro orgánico (1.6-4 mg/100g) en forma altamente biodisponible junto a vitamina C cofactora, la cola de caballo proporciona sílice estructural esencial para colágeno y matriz extracelular ósea, y la alfalfa contribuye con vitamina K2 y calcio mineralizante.",
+      "principios_activos": "Hierro orgánico, clorofila (ortiga). Sílice, equisetonina (cola de caballo). Vitamina K, isoflavonas (alfalfa). Avenacósidos (avena).",
+      "propiedades": [
+        "remineralizante",
+        "antianémico",
+        "tónico óseo",
+        "fortalecedor de tejido conectivo"
+      ],
+      "referencias": [
+        "Adhikari BM. et al. Food Sci Nutr (2015) 4:119",
+        "Carrillo-López N. et al. J Am Soc Nephrol (2016) 27:824"
+      ],
+      "indicaciones_principales": [
+        "anemia ferropénica leve",
+        "osteopenia",
+        "uñas y cabello frágiles",
+        "convalecencia",
+        "deportistas"
+      ],
+      "interacciones_medicamentos": "Warfarina (vit K), levotiroxina (separar 4 horas)",
+      "embarazo_lactancia": "Seguro en cantidades moderadas en lactancia",
+      "duracion_tratamiento": "Ciclos de 6 semanas",
+      "sinergia_plantas": [
+        "diente de león",
+        "perejil"
+      ]
+    },
+    {
+      "titulo": "Caldo de Cochayuyo como fuente de yodo y minerales",
+      "categoria": "General",
+      "origen": "Medicina tradicional mapuche y chilota",
+      "ingredientes": "- 30 g de cochayuyo seco bien lavado.\n- 1 litro de agua.\n- Verduras al gusto (zapallo, zanahoria, cebolla).",
+      "preparacion": "1. Remojar el cochayuyo en agua limpia durante 2 horas para\n   desalinizarlo, cambiando el agua al menos una vez.\n2. Escurrir y cortar en trozos.\n3. Poner en una olla con 1 litro de agua limpia y las verduras.\n4. Hervir a fuego lento durante 30-40 minutos.\n5. Colar y beber el caldo tibio. Los trozos pueden consumirse\n   en ensaladas o guisos.",
+      "dosis": "1 taza de caldo, 2-3 veces por semana. — No exceder 3 tomas semanales sin supervisión\nmédica.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Composición nutricional de algas chilenas\" (Revista\nChilena de Nutrición). Monografías sobre el contenido de yodo\nen alimentos marinos de la FAO. Estudios de la Universidad\nAustral de Chile sobre las propiedades del cochayuyo.",
+      "fuente_tradicion": "Medicina tradicional mapuche y chilota",
+      "contraindicaciones": "- Hipertiroidismo o bocio nodular.\n- Alergia al yodo.\n- Embarazo y lactancia: consultar al médico antes de su\n  consumo regular.\n- No usar en niños menores de 6 años sin supervisión pediátrica.",
+      "id": 1342,
+      "uso": "Aporte natural de yodo, fibra, calcio y otros\nminerales. Complemento en dietas para el hipotiroidismo leve\npor déficit de yodo.",
+      "planta_principal": "Cochayuyo (Durvillaea antarctica)",
+      "interacciones": "- Puede interferir con medicamentos para la tiroides\n  (levotiroxina). Separar al menos 4 horas.\n- Puede potenciar el efecto de anticoagulantes.",
+      "efectos_secundarios_nota": "El consumo excesivo de yodo puede\ncausar alteraciones tiroideas (hipertiroidismo o hipotiroidismo\nparadójico). No superar las dosis recomendadas.",
+      "nivel_seguridad": "⚠️ Precaución (por yodo)"
     }
   ]
 }

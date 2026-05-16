@@ -1,70 +1,7 @@
 {
-  "condicion": "Estrenimiento",
   "modulo": "digestivo",
   "submodulo": "estrenimiento",
-  "emoji": "🌾",
-  "descripcion": "Remedios naturales para el estrenimiento y transito intestinal lento.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El estrenimiento es muy comun en el embarazo. Las ciruelas, higos y psyllium son seguros. Evitar laxantes fuertes como sen o cascara sagrada. El aceite de aloe (latex) esta contraindicado."
-  },
   "recetas": [
-    {
-      "id": 697,
-      "titulo": "Aceite de Oliva en Ayunas para el Tránsito",
-      "categoria": "Digestivo",
-      "origen": "Tradición Mediterránea",
-      "ingredientes": "1 cucharada de aceite de oliva extra virgen, jugo de medio limón",
-      "preparacion": "Mezclar ambos ingredientes.",
-      "dosis": "1 cucharada en ayunas 20 min antes del desayuno",
-      "modo_uso": "Práctica mediterránea clásica para el estreñimiento crónico",
-      "tiempo_prep": "2 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 dosis",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición mediterránea antigua",
-      "contraindicaciones": "No exceder 1 cucharada al día; en grandes cantidades es laxante fuerte",
-      "uso": "Tránsito: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
-      ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 700,
-      "titulo": "Jugo de Aloe Vera para el Intestino",
-      "categoria": "Digestivo",
-      "origen": "Naturopatía",
-      "ingredientes": "2 cucharadas de gel de aloe vera puro (solo el gel transparente)",
-      "preparacion": "Disolver en 1 vaso de agua fría. Mezclar bien.",
-      "dosis": "1 vaso en ayunas, 3 semanas",
-      "modo_uso": "Asegurarse de usar solo el gel interior, sin las aloínas de la cáscara",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 vaso",
-      "conservacion": "Consumir fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía latinoamericana",
-      "contraindicaciones": "Las aloínas de la cáscara son tóxicas; usar solo gel interior",
-      "uso": "Intestino: el acemanano estimula fibroblastos y la síntesis de colágeno; los compuestos antiinflamatorios reducen el eritema y el edema.",
-      "principios_activos": "Acemanano (polisacárido acetilado de manosa): estimula proliferación de fibroblastos y síntesis de ácido hialurónico e hidroxiprolina; inhibe prostaglandinas y leucotrienos proinflamatorios; reduce la liberación de histamina. Aloína: laxante estimulante para uso interno (mecanismo diferente).",
-      "propiedades": [
-        "cicatrizante",
-        "antiinflamatorio",
-        "emoliente",
-        "inmunomodulador",
-        "hidratante"
-      ],
-      "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
     {
       "id": 710,
       "titulo": "Semillas de Psyllium para el Estreñimiento",
@@ -83,7 +20,27 @@
       "contraindicaciones": "Beber mucha agua; puede causar obstrucción si se toma sin agua suficiente",
       "uso": "Estreñimiento. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Arabinoxilanos (mucílagos solubles): forman gel que retarda absorción de glucosa y colesterol; prebióticos. Beta-glucanos: inmunomoduladores. Efecto mecánico de masa: laxante osmótico sin irritación.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 712,
@@ -103,7 +60,27 @@
       "contraindicaciones": "Laxante; no exceder la cantidad recomendada",
       "uso": "Estreñimiento. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Sorbitol: laxante osmótico natural. Ácido clorogénico: estimulante de la motilidad intestinal. Procianidinas y antocianinas: antioxidantes. Fibra soluble (pectina): prebiótica.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 939,
@@ -131,7 +108,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 940,
@@ -151,7 +141,49 @@
       "contraindicaciones": "No usar en hipertension; no en insuficiencia renal",
       "uso": "Estreñimiento Urgente. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
+    },
+    {
+      "titulo": "Macerado de Semillas de Lino (Linaza) para el estreñimiento",
+      "categoria": "Digestivo",
+      "origen": "Medicina tradicional occidental",
+      "ingredientes": "- 1 cucharada sopera (10-15 g) de semillas de lino enteras.\n- 200 ml de agua a temperatura ambiente.",
+      "preparacion": "1. Colocar las semillas en un vaso. No molerlas.\n2. Verter el agua y remover.\n3. Dejar reposar 2-4 horas (o toda la noche) hasta que espese.\n4. Remover y beber todo el contenido, incluidas las semillas.",
+      "dosis": "1 vaso, 1-2 veces al día. — Uso prolongado seguro como fuente de fibra.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Linseed - herbal medicinal product.",
+      "fuente_tradicion": "Medicina tradicional occidental",
+      "contraindicaciones": "- Obstrucción intestinal o impactación fecal.\n- Estrechamiento del esófago o cardias.\n- Ingerir siempre con abundante líquido.",
+      "id": 1371,
+      "uso": "Estreñimiento ocasional y síndrome de intestino irritable con predominio de estreñimiento.",
+      "planta_principal": "Lino (Linum usitatissimum)",
+      "interacciones": "El mucílago puede retrasar la absorción de otros medicamentos. Tomar la linaza 1-2 horas antes o después de otros fármacos.",
+      "efectos_secundarios_nota": "Flatulencia o distensión abdominal al inicio. Sin suficiente líquido, riesgo de obstrucción.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

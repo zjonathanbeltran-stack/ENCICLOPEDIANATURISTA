@@ -1,41 +1,7 @@
 {
-  "condicion": "Dolor Crónico / General",
   "modulo": "dolores",
   "submodulo": "dolor_cronico_general",
-  "emoji": "💊",
-  "descripcion": "Analgésicos naturales sistémicos para dolor crónico, neuropático y dolor generalizado.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Sauce blanco, kratom y kava kava están contraindicados en embarazo. La cúrcuma con jengibre y el baño de asiento de manzanilla son las opciones más seguras."
-  },
   "recetas": [
-    {
-      "titulo": "Infusión de Corteza de Sauce Blanco para el Dolor",
-      "categoria": "Analgésico",
-      "origen": "Medicina Tradicional Chilena",
-      "ingredientes": "10 g de corteza seca de sauce blanco (Salix sp.), 500 ml de agua.",
-      "preparacion": "Hervir la corteza en el agua durante 15 minutos. Colar y beber tibio. Tomar máximo 3 tazas al día. La corteza de sauce contiene salicina, precursor natural de la aspirina, con efecto analgésico y antiinflamatorio. No usar en niños ni con anticoagulantes.",
-      "id": 224,
-      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "20 min",
-      "dificultad": "Medio",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
-      "uso": "Dolor: la salicina se convierte en ácido salicílico que inhibe COX-1 y COX-2 con mejor tolerancia gástrica que la aspirina.",
-      "principios_activos": "Salicina (glucósido fenólico): hidrolizada por bacterias intestinales a saligenina, que se oxida a ácido salicílico; inhibe COX-1 y COX-2 reduciendo prostaglandinas proalgésicas y pirógenas. A diferencia del AAS, no acetila irreversiblemente las COX, con menor efecto antiagregante y mejor tolerancia gástrica.",
-      "propiedades": [
-        "analgésico",
-        "antiinflamatorio",
-        "antipirético",
-        "antirreumático"
-      ],
-      "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
-    },
     {
       "titulo": "Infusión de Jengibre y Cúrcuma contra el Dolor Crónico",
       "categoria": "Analgésico",
@@ -63,7 +29,20 @@
         "antiemético"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
       "titulo": "Baño de Asiento con Manzanilla y Caléndula para Dolor Pélvico",
@@ -92,7 +71,20 @@
         "antiséptico"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
       "id": 968,
@@ -119,27 +111,20 @@
         "antirreumático"
       ],
       "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 969,
-      "titulo": "Aceite de Copaiba para el Dolor",
-      "categoria": "Analgésico",
-      "origen": "Medicina Amazónica",
-      "ingredientes": "Aceite de copaiba (Copaifera officinalis)",
-      "preparacion": "Aplicar 2-3 gotas en la zona dolorida. Masajear suavemente.",
-      "dosis": "Aplicar 3 veces al dia",
-      "modo_uso": "El aceite de copaiba tiene efecto antiinflamatorio por sesquiterpenos",
-      "tiempo_prep": "2 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 frasco 30 ml",
-      "conservacion": "Temperatura ambiente 1 ano",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina amazonica brasilena",
-      "contraindicaciones": "No ingerir sin supervision; solo uso externo",
-      "uso": "Dolor. Alivio del dolor.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
       "id": 970,
@@ -159,7 +144,27 @@
       "contraindicaciones": "Potencial de dependencia; verificar legalidad; no en embarazo ni menores",
       "uso": "Dolor Cronico. Alivio del dolor.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Mitragynina y 7-hidroximitragynina (alcaloides indólicos): agonistas parciales de receptores mu-opioides; analgésicos potentes y antitusivos. Corynantheidina: antagonista de receptores opioides. Uso regulado; principios activos muy potentes.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
     },
     {
       "id": 972,
@@ -179,7 +184,67 @@
       "contraindicaciones": "Solo externo; puede irritar piel sensible",
       "uso": "Alivio del dolor.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Borneol y alcanfor: analgésicos tópicos por desensibilización de TRPV1. Flavonoides (luteolina, apigenina): antiinflamatorios. Aceites esenciales: antisépticos dérmicos.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
+    },
+    {
+      "id": 976,
+      "titulo": "Cataplasma de Semillas de Lino Calientes",
+      "categoria": "Analgésico",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 taza de semillas de lino, tela de algodon",
+      "preparacion": "Calentar las semillas en sarten seca. Poner en bolsa de tela y anudar.",
+      "dosis": "Aplicar en zona dolorida 20-30 min",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesion",
+      "conservacion": "Reutilizar las semillas",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No aplicar en piel irritada; verificar temperatura",
+      "uso": "Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Ácido alfa-linolénico ALA (omega-3): antiinflamatorio sistémico. Lignanos (SDG): fitoestrogénicos y antioxidantes. Mucílagos: emolientes y antiinflamatorios tópicos por calor húmedo.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
     },
     {
       "id": 977,
@@ -199,7 +264,27 @@
       "contraindicaciones": "No en embarazo; puede causar somnolencia; posibles interacciones",
       "uso": "Dolor Neuropatico. Alivio del dolor.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Tetrahidropalmitina THP (alcaloide isoquinolínico): analgésico no opiáceo por bloqueo de dopamina D1/D2; modulador del dolor neuropático. Coptisina: antiinflamatoria. Dihidropalmatina: sedante.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ]
     },
     {
       "id": 1086,
@@ -226,7 +311,20 @@
         "antioxidante"
       ],
       "referencias": "Chateauneuf R. Etnobotánica medicinal de Rapa Nui, Proyecto FONDEF PUCV 2010-2012; Hospital Hanga Roa, programa de medicina tradicional 2012; Whistler WA. Polynesian Herbal Medicine, 1992.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
       "id": 1091,
@@ -253,7 +351,63 @@
         "antioxidante"
       ],
       "referencias": "Chateauneuf R. Proyecto FONDEF PUCV 2010-2012; Whistler WA. Polynesian Herbal Medicine 1992; Hospital Hanga Roa programa medicina tradicional 2012.",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 1183,
+      "titulo": "Infusión analgésica de sauce blanco, ulmaria y jengibre",
+      "categoria": "Analgésico",
+      "origen": "Fitoterapia analgésica europea",
+      "ingredientes": "1 cucharadita de corteza de sauce blanco, 1 cucharadita de ulmaria (reina de los prados), 2 cm de jengibre fresco, 1 ramita de menta, 350 ml de agua",
+      "preparacion": "Hervir agua con sauce y jengibre 15 minutos. Apagar, añadir ulmaria y menta. Tapar 10 minutos. Colar.",
+      "dosis": "1 taza cada 6-8 horas máximo 3 dosis al día por 5 días",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "350 ml",
+      "conservacion": "Consumir fresca",
+      "evidencia": "Sauce blanco (Salix alba) con eficacia en lumbago crónico comparable a rofecoxib (Chrubasik, 2000)",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Alergia a salicilatos, úlcera péptica, niños menores de 16 años (riesgo Reye), anticoagulantes, embarazo tercer trimestre, asma sensible a AINE.",
+      "uso": "La salicina del sauce es bioconvertida en hígado e intestino a ácido salicílico inhibiendo COX-1 y COX-2 con menor irritación gástrica que aspirina, mientras los gingeroles del jengibre inhiben adicionalmente síntesis de leucotrienos vía 5-LOX y los flavonoides de ulmaria aportan acción antiinflamatoria sinérgica.",
+      "principios_activos": "Salicina (sauce): pro-fármaco de ácido salicílico, inhibidor COX. Salicilatos (ulmaria). Gingeroles y shogaoles (jengibre). Mentol.",
+      "propiedades": [
+        "analgésico",
+        "antipirético",
+        "antiinflamatorio",
+        "antirreumático"
+      ],
+      "referencias": [
+        "Chrubasik S. et al. Am J Med (2000) 109:9",
+        "Vlachojannis JE. et al. Phytother Res (2009) 23:897"
+      ],
+      "indicaciones_principales": [
+        "dolor lumbar",
+        "cefalea tensional",
+        "dolor articular",
+        "fiebre baja",
+        "dolores reumáticos"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes, AAS, AINE, metotrexato, hipoglucemiantes",
+      "embarazo_lactancia": "Contraindicado en tercer trimestre y lactancia",
+      "duracion_tratamiento": "Máximo 5 días para dolor agudo",
+      "sinergia_plantas": [
+        "cúrcuma",
+        "matico"
+      ]
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Medicina Mapuche",
   "modulo": "mapuche",
   "submodulo": "medicina_mapuche",
-  "emoji": "🌿",
-  "descripcion": "Lawen (remedios) de la tradición médica mapuche: plantas sagradas, machis y sabidurías ancestrales.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Muchos lawen mapuche son seguros en embarazo. El canelo (foye), el matico y el maqui son plantas respetadas en la tradición. Siempre consultar a una machi o matrona. Evitar paico y chilco en embarazo."
-  },
   "recetas": [
     {
       "id": 2,
@@ -36,7 +29,22 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "dolor neuropático",
+        "odontalgias",
+        "estados inflamatorios",
+        "dolor articular leve",
+        "neuralgias"
+      ],
+      "interacciones_medicamentos": "Precaución con analgésicos opioides y anticonvulsivantes (bloqueadores de canales de sodio); puede potenciar efecto de AINEs.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de estudios de seguridad y potencial actividad uterotónica de sesquiterpenos.",
+      "duracion_tratamiento": "Máximo 2 semanas; descansar 1 semana antes de retomar.",
+      "sinergia_plantas": [
+        "matico",
+        "natre",
+        "llantén",
+        "manzanilla"
+      ]
     },
     {
       "titulo": "Decocción de Corteza de Canelo (Foye Lawen) para Fiebre",
@@ -65,7 +73,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Lawen de Radal para Tos y Bronquios",
@@ -94,7 +116,20 @@
         "antiespasmódico bronquial"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Broncodilatadores: puede potenciar su efecto vasodilatador.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Cataplasma de Nalca para Quemaduras y Golpes",
@@ -122,7 +157,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Infusión de Luma para Infecciones y Defensas",
@@ -151,7 +200,20 @@
         "astringente"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Decocción de Pangue para los Riñones",
@@ -179,7 +241,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Emplasto de Quilquil para Golpes y Torceduras",
@@ -199,7 +275,27 @@
       "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
       "uso": "Golpes y Torceduras. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Flavonoides y taninos condensados (Blechnum chilense): astringentes y antiinflamatorios. Compuestos fenólicos: antisépticos dérmicos. Mucílagos: emolientes sobre piel inflamada.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "titulo": "Infusión de Triwe (Laurel Chileno) para Digestión",
@@ -227,7 +323,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Decocción de Arrayán para Infecciones de Garganta",
@@ -255,7 +364,20 @@
         "cicatrizante"
       ],
       "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Vapores de Maqui para Afecciones Respiratorias (Lawen de Vapor)",
@@ -283,7 +405,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "titulo": "Mukay de Maqui: Bebida Ceremonial y Nutritiva",
@@ -311,7 +446,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 346,
@@ -331,7 +479,27 @@
       "contraindicaciones": "Usar bajo orientación de machi o especialista en medicina mapuche. Datos de seguridad limitados. Evitar en embarazo.",
       "uso": "Dolores del corazón. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 347,
@@ -359,7 +527,20 @@
         "cicatrizante"
       ],
       "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 348,
@@ -379,7 +560,27 @@
       "contraindicaciones": "Para uso ocular: usar agua bien filtrada y completamente enfriada. No sustituye evaluación oftalmológica. Consultar en embarazo.",
       "uso": "Problemas de visión y claridad. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 349,
@@ -399,7 +600,27 @@
       "contraindicaciones": "No reemplaza antibióticos en infección urinaria confirmada. Si hay fiebre alta, dolor lumbar intenso o sangre en la orina, consultar médico urgente.",
       "uso": "Enfermedades de la orina. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido clorogénico (3-O-caffeoilquínico): antioxidante, antiséptico de vías urinarias y hepatoprotector. p-Hidroxiacetofenona (0.4–6.2% MS): antiséptica y antiinflamatoria. Escopoletina (0.8–1.9% MS): inhibidor no competitivo de β-D-glucuronidasa; diurética y antiinflamatoria de vías urinarias. Rutina (2.1–4.3% MS): venotónica y antiinflamatoria. 11-Hidroxi-4-amorfeno-15-oico (sesquiterpeno): gastroprotector, reduce lesiones gástricas 68% a 100 mg/kg.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 350,
@@ -427,7 +648,21 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 351,
@@ -447,7 +682,27 @@
       "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista en medicina mapuche. Evitar en embarazo.",
       "uso": "Hígado y las penas. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 352,
@@ -476,7 +731,20 @@
         "cicatrizante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 353,
@@ -496,7 +764,27 @@
       "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista. Evitar en embarazo y lactancia.",
       "uso": "Afecciones del estómago mapuche. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Saponinas triterpénicas (en Eryngium paniculatum): antiinflamatorias y digestivas. Flavonoides: antiespasmódicos sobre mucosa gástrica. Aceites esenciales: carminativos.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 354,
@@ -516,7 +804,27 @@
       "contraindicaciones": "Planta de alta cordillera; respetar su hábitat. Usar solo partes obtenidas de forma sostenible. Datos de seguridad limitados.",
       "uso": "Afecciones de la piel. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Iridoides (en Calceolaria): antiinflamatorios tópicos. Flavonoides: antioxidantes dérmicos. Compuestos fenólicos: antimicrobianos cutáneos.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 355,
@@ -544,7 +852,20 @@
         "digestivo"
       ],
       "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 356,
@@ -572,7 +893,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 357,
@@ -600,7 +934,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Picaduras de insectos con reacción local leve",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 358,
@@ -620,7 +968,27 @@
       "contraindicaciones": "Planta nacional protegida: no extraer del bosque. Solo usar hojas cultivadas o de fuente autorizada. Datos de seguridad limitados.",
       "uso": "Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 359,
@@ -640,7 +1008,27 @@
       "contraindicaciones": "Planta protegida: no cosechar. Solo usar resina de fuente sostenible autorizada. Datos de toxicidad limitados; no exceder dosis mínima.",
       "uso": "Dolores de altura. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 360,
@@ -667,7 +1055,21 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 678,
@@ -696,7 +1098,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 679,
@@ -716,7 +1131,27 @@
       "contraindicaciones": "No ingerir el pichi; solo uso externo en cataplasma",
       "uso": "Dolor. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido clorogénico (3-O-caffeoilquínico): antioxidante, antiséptico de vías urinarias y hepatoprotector. p-Hidroxiacetofenona (0.4–6.2% MS): antiséptica y antiinflamatoria. Escopoletina (0.8–1.9% MS): inhibidor no competitivo de β-D-glucuronidasa; diurética y antiinflamatoria de vías urinarias. Rutina (2.1–4.3% MS): venotónica y antiinflamatoria. 11-Hidroxi-4-amorfeno-15-oico (sesquiterpeno): gastroprotector, reduce lesiones gástricas 68% a 100 mg/kg.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 680,
@@ -744,7 +1179,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 681,
@@ -772,7 +1220,20 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 682,
@@ -800,7 +1261,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 683,
@@ -827,7 +1301,20 @@
         "hepatoprotector leve"
       ],
       "referencias": "Farias C. et al. Front Pharmacol 2025 (PMC12709134); Concha J. et al. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 684,
@@ -847,7 +1334,27 @@
       "contraindicaciones": "No usar en exceso; consultar con machi para dosis adecuada",
       "uso": "Riñón. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Diterpenos y taninos (Prumnopitys andina): diuréticos y antisépticos de vías urinarias. Flavonoides: antiinflamatorios renales. Compuestos fenólicos: antioxidantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 685,
@@ -874,7 +1381,21 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 686,
@@ -902,7 +1423,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 687,
@@ -930,7 +1465,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 688,
@@ -959,7 +1507,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 689,
@@ -988,7 +1549,20 @@
         "antioxidante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 690,
@@ -1017,7 +1591,20 @@
         "antioxidante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 691,
@@ -1046,7 +1633,20 @@
         "digestivo"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 692,
@@ -1075,7 +1675,20 @@
         "expectorante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 813,
@@ -1095,7 +1708,27 @@
       "contraindicaciones": "Verificar identificación correcta; el laurel chileno es diferente al europeo",
       "uso": "Purificación. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Eugenol: analgésico y antiinflamatorio; inhibe COX-1/2. Cineol: expectorante y antiséptico. Ácido laúrico: antifúngico y antiviral de amplio espectro.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 814,
@@ -1123,7 +1756,20 @@
         "relajante muscular"
       ],
       "referencias": "Bent S. et al. Am J Med 2006; 119(12):1005-12; WHO Monographs Vol.1 (1999); EMA/HMPC 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 815,
@@ -1151,7 +1797,20 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 816,
@@ -1180,7 +1839,20 @@
         "antioxidante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 817,
@@ -1200,7 +1872,27 @@
       "contraindicaciones": "No exceder; verificar identificación correcta",
       "uso": "Dolor de Garganta. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 818,
@@ -1228,7 +1920,20 @@
         "diaforético"
       ],
       "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 819,
@@ -1256,7 +1961,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 820,
@@ -1276,7 +1994,28 @@
       "contraindicaciones": "Verificar identificación correcta de la especie local",
       "uso": "Articulaciones. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Silicio orgánico: remineralizante articular. Flavonoides: antiinflamatorios. Mucílagos: emolientes sobre articulaciones inflamadas.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 821,
@@ -1305,7 +2044,20 @@
         "expectorante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 822,
@@ -1325,7 +2077,27 @@
       "contraindicaciones": "Verificar identificación correcta de la planta local",
       "uso": "Alma Cansada. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 928,
@@ -1345,7 +2117,28 @@
       "contraindicaciones": "Verificar identificacion correcta",
       "uso": "Riñon. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Cineol y terpineol: antisépticos renales y diuréticos. Taninos: astringentes de vías urinarias. Flavonoides: antiinflamatorios de pelvis renal.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 929,
@@ -1374,7 +2167,20 @@
         "astringente"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 930,
@@ -1394,7 +2200,27 @@
       "contraindicaciones": "Verificar identificacion correcta",
       "uso": "Tos Mapuche. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Flavonoides y taninos (Fascicularia bicolor): antioxidantes y antiinflamatorios. Mucílagos: emolientes sobre bronquios irritados. Saponinas: bequicas y expectorantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 931,
@@ -1414,7 +2240,27 @@
       "contraindicaciones": "Verificar identificacion",
       "uso": "Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Flavonoides y compuestos fenólicos del helecho: antiinflamatorios y antioxidantes tópicos. Taninos: astringentes. Aceites esenciales: antisépticos cutáneos rituales.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 932,
@@ -1434,7 +2280,28 @@
       "contraindicaciones": "No en embarazo; puede interactuar con medicamentos",
       "uso": "Higado. Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Berberina (alcaloide isoquinolínico): antibacteriano, antimicótico y antiinflamatorio; inhibe la síntesis de ADN bacteriano. Berbamina: inmunomoduladora. Palmitina: antiséptica.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante",
+        "antimicrobiano"
+      ]
     },
     {
       "id": 933,
@@ -1454,7 +2321,27 @@
       "contraindicaciones": "Astringente; no usar en estrenimiento",
       "uso": "Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Taninos elagitánicos y catequinas (Nothofagus obliqua): astringentes potentes y antimicrobianos. Ácido elágico: antiinflamatorio. Proantocianidinas: antioxidantes y venotónicos.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 934,
@@ -1482,7 +2369,21 @@
         "cicatrizante"
       ],
       "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Déficit de memoria y concentración",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 935,
@@ -1502,7 +2403,27 @@
       "contraindicaciones": "Solo uso externo",
       "uso": "Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Taninos y compuestos fenólicos: antisépticos y cicatrizantes sobre heridas. Flavonoides: antiinflamatorios. Mucílagos: demulcentes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 936,
@@ -1530,7 +2451,21 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 937,
@@ -1550,7 +2485,27 @@
       "contraindicaciones": "Ventilacion adecuada; no para asmaticos",
       "uso": "Preparación medicinal mapuche.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido boswélico y acetil-boswélico (AKBA): antiinflamatorios potentes; inhiben 5-lipoxigenasa. Monoterpenos (alfa-pineno, limoneno): ansiolíticos aromáticos. Incensol acetato: antidepresivo por activación de canales iónicos cerebrales.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1003,
@@ -1579,7 +2534,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1004,
@@ -1608,7 +2577,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1005,
@@ -1636,7 +2619,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1006,
@@ -1664,7 +2660,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1007,
@@ -1692,7 +2701,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1008,
@@ -1720,7 +2743,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1009,
@@ -1749,7 +2785,20 @@
         "cicatrizante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1010,
@@ -1778,7 +2827,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1011,
@@ -1806,7 +2868,21 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Medicina machi mapuche; Farmacopea Chilena; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1012,
@@ -1834,7 +2910,20 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1013,
@@ -1862,7 +2951,21 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Medicina machi lafkenche; MINSAL 2010; Universidad de Chile",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1014,
@@ -1890,7 +2993,20 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Medicina machi mapuche (CONAF 2004; metodo wvrvvr lawen)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1015,
@@ -1918,7 +3034,20 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1016,
@@ -1946,7 +3075,20 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1017,
@@ -1974,7 +3116,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1018,
@@ -2002,7 +3158,20 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1019,
@@ -2029,7 +3198,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1020,
@@ -2056,7 +3238,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1021,
@@ -2085,7 +3280,20 @@
         "hipoglucemiante"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1022,
@@ -2112,7 +3320,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1023,
@@ -2140,7 +3361,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche; Falkner (s.XVIII); Aukanaw; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1024,
@@ -2168,7 +3402,21 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche; Diego de Rosales (s.XVII); Aukanaw; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1025,
@@ -2196,7 +3444,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (Aukanaw; MINSAL 2010)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1026,
@@ -2224,7 +3485,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1027,
@@ -2252,7 +3526,21 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1028,
@@ -2280,7 +3568,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1029,
@@ -2308,7 +3609,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1030,
@@ -2337,7 +3651,21 @@
         "antioxidante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1031,
@@ -2365,7 +3693,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1032,
@@ -2393,7 +3734,20 @@
         "antifúngico"
       ],
       "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1033,
@@ -2421,7 +3775,21 @@
         "antifúngico"
       ],
       "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Caspa y seborrea del cuero cabelludo",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1034,
@@ -2449,7 +3817,20 @@
         "antifúngico"
       ],
       "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1035,
@@ -2469,7 +3850,27 @@
       "contraindicaciones": "CONTRAINDICADO EN CALCULOSIS BILIAR: puede provocar cólicos al estimular el flujo de bilis. CONTRAINDICADO EN EMBARAZO. Evitar uso prolongado mas de 2 semanas sin supervision",
       "uso": "Indigestion y Higado Cargado. Preparación medicinal mapuche.",
       "referencias": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1036,
@@ -2489,7 +3890,27 @@
       "contraindicaciones": "CONTRAINDICADO con calculos biliares. CONTRAINDICADO EN EMBARAZO. Si hay dolor del hipocondrio derecho intenso, consultar medico (descarte colecistitis aguda)",
       "uso": "Vesicula y la Bilis. Preparación medicinal mapuche.",
       "referencias": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1037,
@@ -2509,7 +3930,28 @@
       "contraindicaciones": "No aplicar en articulaciones con heridas. Si hay artritis reumatoide diagnosticada, consultar reumatologo. Temperatura de la decoccion debe ser caliente pero no quemante",
       "uso": "Reumatismo y Dolores Articulares. Preparación medicinal mapuche.",
       "referencias": "Medicina machi pehuenche (CONAF 2004; MINSAL 2010)",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1038,
@@ -2536,7 +3978,20 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1039,
@@ -2563,7 +4018,21 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1040,
@@ -2590,7 +4059,20 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1041,
@@ -2610,7 +4092,27 @@
       "contraindicaciones": "No usar mas de 2 semanas sin supervision. CONTRAINDICADO EN EMBARAZO y lactancia (datos de seguridad insuficientes). En tos con sangre o dificultad respiratoria grave, consultar medico urgente",
       "uso": "Tos y Bronquitis. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1042,
@@ -2638,7 +4140,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1043,
@@ -2658,7 +4173,27 @@
       "contraindicaciones": "No usar en insuficiencia hepatica grave. Si hay ictericia importante o dolor abdominal derecho, consultar medico. Hepatitis viral requiere seguimiento medico",
       "uso": "Apoyo Hepatico. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1044,
@@ -2678,7 +4213,27 @@
       "contraindicaciones": "Preparar SOLO, sin otras plantas (indicacion de la machi). CONTRAINDICADO EN EMBARAZO en dosis altas (alcaloides). No usar en ninos pequenos",
       "uso": "Indigestion y Gases. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010; Servicio de Salud Talcahuano 2020)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Eugenol: analgésico y antiinflamatorio; inhibe COX-1/2. Cineol: expectorante y antiséptico. Ácido laúrico: antifúngico y antiviral de amplio espectro.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1045,
@@ -2698,7 +4253,27 @@
       "contraindicaciones": "Mantener distancia del vapor caliente. No usar en ninos sin supervision. Asmaticos: consultar antes, ya que vapores intensos pueden provocar broncoespasmo",
       "uso": "Resfrío y Gripe. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1046,
@@ -2718,7 +4293,27 @@
       "contraindicaciones": "Cuidado con quemaduras: las ramas deben estar calientes pero no en brasa activa. Si el dolor es intenso, agudo o acompanado de dificultad respiratoria, consultar medico urgente (descartar neumotorax)",
       "uso": "Puntadas de Aire. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (CONAF 2004; Aukanaw)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1047,
@@ -2738,7 +4333,27 @@
       "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. No usar en dosis altas (alcaloides). Si la irregularidad menstrual persiste, consultar ginecologo",
       "uso": "Ciclos Menstruales Irregulares. Preparación medicinal mapuche.",
       "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1048,
@@ -2758,7 +4373,28 @@
       "contraindicaciones": "CONTRAINDICADO EN HIPERTIROIDISMO (alto contenido de yodo). Precaucion con anticoagulantes farmacologicos (fucoidanos tienen accion anticoagulante)",
       "uso": "Reumatismo Articular. Preparación medicinal mapuche.",
       "referencias": "Medicina machi lafkenche (CONAF 2004; Universidad de Concepcion 2024)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1049,
@@ -2786,7 +4422,21 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1050,
@@ -2806,7 +4456,27 @@
       "contraindicaciones": "Supervisar al bebe en todo momento para evitar atragantamiento. Usar trozos suficientemente grandes que el bebe no pueda tragar enteros. Limpiar el trozo antes de cada uso",
       "uso": "Denticion del Bebe. Preparación medicinal mapuche.",
       "referencias": "Medicina machi huilliche (tradicion lafkenche y chilota; CONAF 2004)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 1051,
@@ -2835,7 +4505,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1052,
@@ -2864,7 +4547,20 @@
         "cicatrizante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1053,
@@ -2892,7 +4588,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1054,
@@ -2920,7 +4629,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1055,
@@ -2948,7 +4670,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1056,
@@ -2977,7 +4712,20 @@
         "antioxidante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1057,
@@ -3006,7 +4754,20 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1058,
@@ -3034,7 +4795,20 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1059,
@@ -3063,7 +4837,21 @@
         "cicatrizante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Heridas cutáneas y quemaduras superficiales",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1060,
@@ -3092,7 +4880,20 @@
         "antioxidante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     }
   ]
 }

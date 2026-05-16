@@ -1,71 +1,7 @@
 {
-  "condicion": "Nerviosismo / Sueño Infantil",
   "modulo": "pediatrico",
   "submodulo": "nervioso_sueno",
-  "emoji": "🌙",
-  "descripcion": "Infusiones y baños relajantes para niños inquietos, ansiedad infantil e insomnio.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "El toronjil, la manzanilla y la lavanda son seguros en embarazo. Los aceites de lavanda para masaje también son seguros."
-  },
   "recetas": [
-    {
-      "id": 336,
-      "titulo": "Té de Melisa para nerviosismo e hiperactividad infantil",
-      "categoria": "Pediátrico",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 cucharadita de hojas de melisa secas, 150 ml de agua.",
-      "preparacion": "Infusionar en agua hervida 7 minutos tapado. Colar. Enfriar a temperatura tibia.",
-      "dosis": "Niños de 5–12 años: media taza 2 veces al día (mañana y noche). Solo en períodos de alta tensión emocional.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "9 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 dosis",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar más de 4 semanas seguidas. No combinar con sedantes. No reemplaza evaluación psicopediátrica si hay trastorno diagnosticado.",
-      "uso": "Nerviosismo e hiperactividad infantil: el ácido rosmarínico inhibe la degradación del GABA cerebral y bloquea la replicación del virus herpes simple (HSV-1 y HSV-2).",
-      "principios_activos": "Ácido rosmarínico: inhibe GABA transaminasa (aumenta niveles de GABA, efecto sedante-ansiolítico) y bloquea la adhesión viral del HSV a células huésped. Citral, geraniol y citronelal (aceite esencial): antiviral directo y sedante por modulación del sistema nervioso vegetativo.",
-      "propiedades": [
-        "sedante",
-        "ansiolítico",
-        "antiviral",
-        "carminativo",
-        "antiespasmódico"
-      ],
-      "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 344,
-      "titulo": "Gárgaras de Miel y Salvia para garganta infantil",
-      "categoria": "Pediátrico",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 cucharadita de hojas de salvia seca, 1 cucharada de miel, 200 ml de agua, jugo de medio limón.",
-      "preparacion": "Infusionar la salvia en agua hervida 8 minutos. Colar. Agregar miel (cuando esté tibio) y limón. Usar para gárgaras cuando el niño ya tenga esta habilidad (mínimo 6 años).",
-      "dosis": "Gárgaras de 30 segundos, 3–4 veces al día. No tragar. Niños mayores de 6 años.",
-      "modo_uso": "Tópico oral — gárgaras",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–4 enjuagues",
-      "conservacion": "Refrigerar hasta 24 h; no usar en bebés",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Solo para niños que ya saben hacer gárgaras (mínimo 6 años). No tragar. No usar miel en menores de 12 meses. Si hay dificultad para tragar, consultar al médico.",
-      "uso": "Garganta infantil: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "antimicrobiano",
-        "cicatrizante",
-        "emoliente",
-        "inmunoestimulante",
-        "antioxidante",
-        "antiséptico"
-      ],
-      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
     {
       "id": 571,
       "titulo": "Aceite de Lavanda para Masaje Infantil",
@@ -92,7 +28,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ]
     },
     {
       "id": 580,
@@ -120,64 +69,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 581,
-      "titulo": "Baño de Sales con Lavanda para Niños Inquietos",
-      "categoria": "Pediátrico",
-      "origen": "Aromaterapia",
-      "ingredientes": "2 cucharadas de sal de Epsom, 3 gotas de lavanda (para >3 años), bañera",
-      "preparacion": "Disolver la sal en el agua tibia de la bañera. Agregar el aceite.",
-      "dosis": "Baño de 15-20 min antes de dormir",
-      "modo_uso": "Agua tibia; no caliente; cantar o leer durante el baño",
-      "tiempo_prep": "5 min + baño",
-      "dificultad": "Fácil",
-      "rendimiento": "1 baño",
-      "conservacion": "Uso inmediato",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Aromaterapia pediátrica",
-      "contraindicaciones": "Solo para mayores de 3 años; diluir bien el aceite esencial",
-      "uso": "Niños Inquietos: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
-      "principios_activos": "Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
-      "propiedades": [
-        "ansiolítico",
-        "sedante",
-        "antiespasmódico",
-        "antiséptico",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
       ],
-      "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 582,
-      "titulo": "Té de Toronjil para Ansiedad Infantil",
-      "categoria": "Pediátrico",
-      "origen": "Herbolaria Europea y Latinoamericana",
-      "ingredientes": "1 cucharadita de toronjil (melisa) seco, 200 ml de agua",
-      "preparacion": "Hervir el agua. Infundir el toronjil 8 min. Colar.",
-      "dosis": "Para niños: 1/4 taza 2-3 veces al día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "200 ml",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria latinoamericana y europea",
-      "contraindicaciones": "No usar en hipotiroidismo; no en bebés menores de 6 meses",
-      "uso": "Ansiedad Infantil: el ácido rosmarínico inhibe la degradación del GABA cerebral y bloquea la replicación del virus herpes simple (HSV-1 y HSV-2).",
-      "principios_activos": "Ácido rosmarínico: inhibe GABA transaminasa (aumenta niveles de GABA, efecto sedante-ansiolítico) y bloquea la adhesión viral del HSV a células huésped. Citral, geraniol y citronelal (aceite esencial): antiviral directo y sedante por modulación del sistema nervioso vegetativo. | Ácido rosmarínico: inhibidor de MAO-A y de GABA transaminasa (efecto antidepresivo y ansiolítico comprobado clínicamente). Citral y citronelal (aceite esencial): sedantes por modulación del sistema nervioso vegetativo.",
-      "propiedades": [
-        "sedante",
-        "ansiolítico",
-        "antiviral",
-        "carminativo",
-        "antiespasmódico",
-        "antidepresivo leve"
-      ],
-      "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ]
     },
     {
       "id": 791,
@@ -197,7 +102,27 @@
       "contraindicaciones": "No en embarazo; no en menores de 3 años",
       "uso": "Niño Hiperactivo. Cuidado pediátrico suave.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "sedante leve",
+        "antipirético"
+      ]
     },
     {
       "id": 794,
@@ -225,7 +150,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ]
     },
     {
       "id": 796,
@@ -253,7 +191,42 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ]
+    },
+    {
+      "titulo": "Infusión de Melisa para la inquietud y dificultad para dormir",
+      "categoria": "Pediátrico",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- ½ cucharadita (aprox. 1 g) de hojas secas de melisa.\n- 150 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 5-7 minutos (infusión suave).\n3. Colar y dejar entibiar.",
+      "dosis": "- Niños 3-6 años: 50 ml (¼ taza), 1 vez al día (por la noche).\n- Niños 6-12 años: 100 ml (½ taza), 1-2 veces al día. — 1 semana. Consultar al pediatra si la\ninquietud persiste.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP (European Scientific Cooperative on Phytotherapy)\nincluye la melisa en sus monografías como sedante suave.\nEstudios publicados en \"Phytomedicine\" avalan su seguridad\ny eficacia en niños para el alivio de la inquietud.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Menores de 3 años.\n- Alergia a las lamiáceas (menta, lavanda).\n- No combinar con medicamentos sedantes.",
+      "id": 1338,
+      "uso": "Alivio de la inquietud, nerviosismo y dificultad\npara conciliar el sueño en niños.",
+      "planta_principal": "Melisa / Toronjil (Melissa officinalis)",
+      "interacciones": "Puede potenciar el efecto de sedantes suaves.\nNo administrar junto con antihistamínicos de primera generación.",
+      "efectos_secundarios_nota": "Muy raros; somnolencia leve.",
+      "nivel_seguridad": "✅ Seguro (+3 años)"
     }
   ]
 }

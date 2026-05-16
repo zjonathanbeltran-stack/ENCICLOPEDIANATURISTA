@@ -1,13 +1,6 @@
 {
-  "condicion": "Ojos / Oídos",
   "modulo": "general",
   "submodulo": "ojos_oidos",
-  "emoji": "👁️",
-  "descripcion": "Colirios naturales, compresas oculares y remedios para el oído y los tapones de cera.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Las compresas de manzanilla para los ojos y el aceite de oliva templado para los oídos son completamente seguros en embarazo."
-  },
   "recetas": [
     {
       "id": 14,
@@ -34,7 +27,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "otalgia leve",
+        "tapón de cerumen blando",
+        "otitis externa leve (uso experto)"
+      ],
+      "interacciones_medicamentos": "Uso tópico ótico: sin interacciones sistémicas. No usar si hay perforación timpánica.",
+      "embarazo_lactancia": "Contraindicado incluso vía tópica en embarazo (riesgo de absorción y abortivo). Evitar en lactancia.",
+      "duracion_tratamiento": "Uso puntual 2-3 días; si persiste, consultar otorrino. No usar en niños.",
+      "sinergia_plantas": [
+        "matico",
+        "manzanilla",
+        "lavanda",
+        "llantén"
+      ]
     },
     {
       "id": 25,
@@ -62,7 +68,21 @@
         "astringente"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "conjuntivitis irritativa leve",
+        "fatiga ocular",
+        "irritación ocular por polvo",
+        "blefaritis leve"
+      ],
+      "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia con preparación estéril.",
+      "duracion_tratamiento": "Uso agudo 3-5 días; si hay secreción purulenta o dolor, consultar oftalmólogo.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "matico",
+        "rosa mosqueta",
+        "caléndula"
+      ]
     },
     {
       "id": 61,
@@ -90,7 +110,21 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "fatiga ocular",
+        "ojeras",
+        "irritación ocular leve",
+        "blefaritis leve"
+      ],
+      "interacciones_medicamentos": "Uso tópico ocular: sin interacciones sistémicas relevantes. Evitar en alergia a Asteraceae.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Uso ocasional o diario por 1-2 semanas; descansar si hay irritación.",
+      "sinergia_plantas": [
+        "rosa mosqueta",
+        "caléndula",
+        "llantén",
+        "lavanda"
+      ]
     },
     {
       "id": 87,
@@ -118,7 +152,21 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Ojos cansados",
+        "Conjuntivitis leve",
+        "Orzuelo",
+        "Irritación ocular",
+        "Blefaritis"
+      ],
+      "interacciones_medicamentos": "Uso tópico ocular, sin interacciones sistémicas; precaución con alergia a asteráceas.",
+      "embarazo_lactancia": "Seguro en embarazo y lactancia para uso tópico.",
+      "duracion_tratamiento": "Aplicación 2-3 veces al día por máximo 7 días.",
+      "sinergia_plantas": [
+        "caléndula",
+        "llantén",
+        "rosa mosqueta"
+      ]
     },
     {
       "id": 111,
@@ -138,7 +186,27 @@
       "contraindicaciones": "No usar si hay perforación timpánica. Consultar otorrinolaringólogo.",
       "uso": "Dolor de Oídos. Alivio de afecciones de oídos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ],
+      "principios_activos": "Flavonoides y saponinas (planta rupícola andina): antiinflamatorios y analgésicos tópicos. Taninos: astringentes. Compuestos fenólicos: antimicrobianos del conducto auditivo.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiséptico",
+        "analgésico",
+        "ceruminolítico"
+      ]
     },
     {
       "id": 125,
@@ -166,7 +234,21 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otalgia leve",
+        "Otitis externa no perforante",
+        "Infecciones óticas leves",
+        "Tapón ceruminoso",
+        "Dolor referido"
+      ],
+      "interacciones_medicamentos": "Carvacrol potencia anticoagulantes e hipoglucemiantes; uso tópico ótico con baja absorción.",
+      "embarazo_lactancia": "Precaución en embarazo en uso medicinal; uso tópico ótico aceptable.",
+      "duracion_tratamiento": "Máximo 3-5 días; si no mejora consultar otorrino.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "matico",
+        "tomillo"
+      ]
     },
     {
       "id": 140,
@@ -195,7 +277,20 @@
         "antiséptico"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ]
     },
     {
       "id": 170,
@@ -223,7 +318,21 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve no infecciosa",
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ]
     },
     {
       "id": 648,
@@ -251,7 +360,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ]
     },
     {
       "id": 649,
@@ -271,7 +393,27 @@
       "contraindicaciones": "Solo agua de rosas destilada certificada; no casera sin esterilizar",
       "uso": "Irritación Ocular. Alivio ocular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ],
+      "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "antiinflamatorio ocular",
+        "astringente",
+        "antiséptico",
+        "emoliente"
+      ]
     },
     {
       "id": 650,
@@ -291,7 +433,28 @@
       "contraindicaciones": "No usar si hay perforación timpánica; consultar médico primero",
       "uso": "Tapón de Cera. Alivio de afecciones de oídos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiséptico",
+        "analgésico",
+        "ceruminolítico",
+        "emoliente"
+      ]
     },
     {
       "id": 651,
@@ -319,7 +482,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ]
     },
     {
       "id": 652,
@@ -339,7 +515,27 @@
       "contraindicaciones": "No dejar que entre en los ojos; si irrita, retirar",
       "uso": "Ojos Hinchados. Alivio ocular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ],
+      "principios_activos": "Cucurbitacinas B y D: antiinflamatorias y hepatoprotectoras. Silicio orgánico: regenerador dérmico y antiedad. Vitaminas C y K: antioxidante y hemostática. Ácido cafeico: antiinflamatorio.",
+      "propiedades": [
+        "antiinflamatorio ocular",
+        "astringente",
+        "antiséptico",
+        "emoliente"
+      ]
     },
     {
       "id": 653,
@@ -367,7 +563,21 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve no infecciosa",
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ]
     },
     {
       "id": 654,
@@ -396,7 +606,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ]
     },
     {
       "id": 655,
@@ -424,7 +647,20 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ]
     },
     {
       "id": 656,
@@ -452,7 +688,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ]
     },
     {
       "id": 657,
@@ -480,34 +729,103 @@
         "expectorante"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Otitis externa leve",
+        "Dolor de oídos",
+        "Acumulación de cera",
+        "Inflamación del conducto auditivo"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Caléndula",
+        "Ajo"
+      ]
     },
     {
-      "id": 1083,
-      "titulo": "Lavado de Ojos con Supo del Desierto para Conjuntivitis Atacamena (Likan Antai)",
+      "id": 1189,
+      "titulo": "Compresa ocular calmante de manzanilla y eufrasia",
       "categoria": "Oftalmológico",
-      "origen": "Atacameno / Likan Antai (oasis de Atacama: Peine, Toconao, Camar)",
-      "ingredientes": "15 g de flores de supo (Tessaria absinthioides / supo en atacameno); 300 ml de agua pura de vertiente (o agua destilada); 2.7 g de sal de Atacama (para isotonizar: 0.9 g por 100 ml)",
-      "preparacion": "1. Recolectar flores jovenes del supo del oasis (planta de lugares con agua). 2. Hervir el agua y apagar el fuego. Dejar bajar temperatura a 60°C. 3. Agregar las flores de supo y tapar. Infundir 15 minutos. 4. Colar con tela muy fina o gasa doblada tres veces hasta obtener liquido transparente. 5. Agregar la sal de Atacama (0.9 g por 100 ml para isotonizar). 6. Dejar enfriar completamente a temperatura ambiente antes de usar.",
-      "dosis": "Lavado ocular: 3-4 gotas en cada ojo cada 4-6 horas, durante 5-7 dias. Usar gotero limpio para cada aplicacion.",
-      "modo_uso": "Topico ocular (coliro/lavado de ojos)",
+      "origen": "Herbolaria oftálmica europea",
+      "ingredientes": "1 cucharadita de manzanilla, 1 cucharadita de eufrasia (o llantén si no se consigue), 200 ml de agua filtrada",
+      "preparacion": "Hervir agua. Verter sobre hierbas. Tapar 15 minutos. Filtrar con tela muy fina o filtro de café doble (importante: sin partículas). Enfriar.",
+      "dosis": "Empapar discos de algodón estéril, aplicar sobre párpados cerrados 10 minutos, 2-3 veces al día",
+      "modo_uso": "Compresa oftálmica",
       "tiempo_prep": "30 minutos",
       "dificultad": "Media",
-      "rendimiento": "10-15 aplicaciones",
-      "conservacion": "Refrigerar hasta 48 horas en frasco esterilizado. Desechar si se enturbia.",
-      "evidencia": "El supo (Tessaria absinthioides) crece en los oasis atacamenos y es el colirio natural mas usado por los Likan Antai. Contiene flavonoides y taninos con efecto astringente y antiseptico oftalmico. Documentado por Castro V. (2003). La conjuntivitis por arena y polvo del desierto es endemica en la cultura atacamena.",
-      "fuente_tradicion": "Atacameno / Likan Antai",
-      "contraindicaciones": "Usar agua destilada o hervida y enfriada para evitar infecciones secundarias. Si la conjuntivitis no mejora en 48 horas, consultar medico (puede ser bacteriana y requerir antibioticos). No usar en personas con alergia a plantas de la familia Asteraceae. No aplicar en lactantes.",
-      "uso": "Tratamiento de la conjuntivitis alergica causada por el polvo del desierto (suara), irritacion ocular, leganas excesivas y enrojecimiento ocular. Los Likan Antai trabajan en un ambiente de arena y polvo constante que irrita los ojos; el supo del oasis es el remedio tradicional especifico para esta condicion ambiental.",
-      "principios_activos": "Flavonoides (quercetina, apigenina); taninos astringentes; acidos fenolicos (acido cafeoilquinico); mucilagos suavizantes",
+      "rendimiento": "200 ml",
+      "conservacion": "Preparar fresca cada día, refrigerada",
+      "evidencia": "Manzanilla con efecto antiinflamatorio ocular (Stoss, 1996)",
+      "fuente_tradicion": "Herbolaria oftálmica europea",
+      "contraindicaciones": "Conjuntivitis bacteriana o viral activa requiere manejo médico. Alergia a asteráceas. No introducir en el ojo (solo compresa externa).",
+      "uso": "El bisabolol y camazuleno de manzanilla penetran piel periocular reduciendo inflamación palpebral por inhibición de cicloxigenasa, los iridoides de eufrasia (aucubina) actúan como antiinflamatorios suaves y los taninos generan astringencia que reduce hinchazón sin contraindicación oftálmica.",
+      "principios_activos": "Bisabolol, camazuleno, apigenina (manzanilla). Aucubina, eufrasiósido (eufrasia). Taninos.",
       "propiedades": [
-        "astringente",
-        "antiseptico ocular",
-        "antiinflamatorio",
-        "antipruriginoso"
+        "antiinflamatorio ocular",
+        "calmante palpebral",
+        "antialérgico",
+        "descongestionante"
       ],
-      "referencias": "Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara Revista Antropologica. / Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile.",
-      "maternidad_segura": "segura"
+      "referencias": [
+        "Stoss M. et al. J Altern Complement Med (1996) 2:445",
+        "Paduch R. et al. Curr Eye Res (2014) 39:1207"
+      ],
+      "indicaciones_principales": [
+        "fatiga ocular",
+        "conjuntivitis alérgica leve",
+        "blefaritis",
+        "ojos hinchados",
+        "lagrimeo"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Hasta 10 días, consultar oftalmólogo",
+      "sinergia_plantas": [
+        "llantén",
+        "rosas"
+      ]
+    },
+    {
+      "id": 1190,
+      "titulo": "Gotas óticas de aceite de oliva, manzanilla y ajo",
+      "categoria": "Oídos",
+      "origen": "Medicina popular europea",
+      "ingredientes": "100 ml de aceite de oliva extra virgen, 1 cucharada de flores de manzanilla, 1 diente de ajo machacado, 1 ramita de tomillo",
+      "preparacion": "Calentar aceite al baño maría a 60°C. Añadir hierbas y ajo. Mantener 1 hora a baja temperatura. Filtrar con gasa. Envasar en frasco gotero oscuro.",
+      "dosis": "2-3 gotas tibias en el oído afectado, 2 veces al día, máximo 5 días",
+      "modo_uso": "Gotas óticas",
+      "tiempo_prep": "1 hora 30 minutos",
+      "dificultad": "Media",
+      "rendimiento": "100 ml",
+      "conservacion": "3 meses en frasco oscuro y fresco",
+      "evidencia": "Otitis media con extracto herbal con alivio sintomático (Sarrell, 2003)",
+      "fuente_tradicion": "Medicina popular europea",
+      "contraindicaciones": "PERFORACIÓN TIMPÁNICA (absolutamente contraindicado), tubos de timpanostomía, otorrea, otitis externa con dermatitis. Consultar siempre antes de usar.",
+      "uso": "El aceite tibio actúa como vehículo lipófilo que reblandece cerumen y reduce inflamación del conducto auditivo externo, mientras la alicina del ajo y los terpenos antibacterianos de manzanilla y tomillo proporcionan acción antimicrobiana sobre flora del conducto auditivo, complementando manejo médico.",
+      "principios_activos": "Alicina (ajo): antibacteriano. Bisabolol (manzanilla). Timol (tomillo). Ácido oleico (oliva).",
+      "propiedades": [
+        "analgésico ótico",
+        "antibacteriano local",
+        "antiinflamatorio",
+        "ablandador de cerumen"
+      ],
+      "referencias": [
+        "Sarrell EM. et al. Arch Pediatr Adolesc Med (2003) 157:796",
+        "Ernst E. Br J Gen Pract (2003) 53:786"
+      ],
+      "indicaciones_principales": [
+        "otalgia leve con tímpano íntegro",
+        "ablandamiento de cerumen",
+        "otitis externa leve no complicada"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Máximo 5 días, consultar médico",
+      "sinergia_plantas": [
+        "lavanda"
+      ]
     }
   ]
 }

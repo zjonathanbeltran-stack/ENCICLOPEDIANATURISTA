@@ -1,13 +1,6 @@
 {
-  "condicion": "Fiebre",
   "modulo": "respiratorio",
   "submodulo": "fiebre",
-  "emoji": "🌡️",
-  "descripcion": "Remedios para bajar la fiebre: infusiones diaforéticas, compresas y baños febrífugos.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La fiebre alta en embarazo es riesgosa. Los métodos físicos (compresas frías, baño tibio) son seguros. El sauce contiene salicilatos (evitar). Consultar médico si fiebre supera 38°C."
-  },
   "recetas": [
     {
       "id": 18,
@@ -27,7 +20,28 @@
       "contraindicaciones": "Si la fiebre supera 39 °C o dura más de 48 h, acudir a urgencias.",
       "uso": "Fiebre. Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Antocianinas (cianidina-3,7-β-O-diglucósido, y derivados de delfinidina, petunidina, peonidina y malvidina): potentes antioxidantes vasculares; reducen LDL oxidado. Ácido 5-caffeoilquínico: el hidroxicinamato más concentrado; antioxidante y hepatoprotector. Ácidos caffeoilglucáricos: antiinflamatorios y antioxidantes. Flavonoles (kaempferol, quercetina): antiinflamatorios.",
+      "propiedades": [
+        "antipirético",
+        "diaforético",
+        "antiinflamatorio",
+        "inmunoestimulante",
+        "antimicrobiano"
+      ]
     },
     {
       "id": 23,
@@ -54,7 +68,20 @@
         "vasoprotector"
       ],
       "referencias": "Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985; Aukanaw 2002; Tesis U. La Plata 2017",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "fiebre leve infantil",
+        "estados febriles posvirales",
+        "malestar general con calor corporal"
+      ],
+      "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes. Vigilar antitérmicos farmacológicos administrados simultáneamente.",
+      "embarazo_lactancia": "Uso externo seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Uso puntual mientras dure la fiebre leve; si supera 39°C o dura más de 48 h, urgencias.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "saúco",
+        "tilo",
+        "matico"
+      ]
     },
     {
       "id": 31,
@@ -82,7 +109,21 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "fiebre leve",
+        "estados gripales",
+        "malestar febril",
+        "convalecencia"
+      ],
+      "interacciones_medicamentos": "Precaución con hipoglucemiantes y antihipertensivos por efecto sinérgico. Vigilar con anticoagulantes.",
+      "embarazo_lactancia": "Contraindicado en embarazo; evitar en lactancia por falta de datos.",
+      "duracion_tratamiento": "Máximo 2 semanas continuas; descansar antes de repetir.",
+      "sinergia_plantas": [
+        "tilo",
+        "saúco",
+        "manzanilla",
+        "boldo"
+      ]
     },
     {
       "titulo": "Infusión de Saúco para Bajar la Fiebre",
@@ -110,7 +151,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "titulo": "Infusión de Menta y Saúco para Fiebre Alta",
@@ -138,7 +192,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "titulo": "Compresas Frías de Vinagre para Bajar la Fiebre",
@@ -158,7 +225,27 @@
       "contraindicaciones": "Si la fiebre supera 39 °C o dura más de 48 h, acudir a urgencias.",
       "uso": "Bajar la Fiebre. Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Ácido acético: antimicrobiano por reducción de pH. Ácido málico y ácido tartárico: alcalinizantes urinarios. Polifenoles (en vinagre de manzana): antioxidantes.",
+      "propiedades": [
+        "antipirético",
+        "diaforético",
+        "antiinflamatorio",
+        "inmunoestimulante"
+      ]
     },
     {
       "titulo": "Infusión de Corteza de Sauce con Limón para la Fiebre",
@@ -187,7 +274,20 @@
         "antiséptico"
       ],
       "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "titulo": "Baño Tibio con Albahaca y Romero para Bajar la Fiebre",
@@ -215,7 +315,61 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "id": 430,
+      "titulo": "Leche con Cúrcuma y Pimienta para Respiratorio",
+      "categoria": "Respiratorio",
+      "origen": "Medicina Ayurveda",
+      "ingredientes": "1 taza de leche (vegetal o animal), 1 cucharadita de cúrcuma, 1 pizca de pimienta negra, 1 cucharadita de miel",
+      "preparacion": "Calentar la leche. Disolver la cúrcuma y pimienta. Agregar miel al servir.",
+      "dosis": "1 taza antes de dormir",
+      "modo_uso": "Tomar caliente; sirve para inflamación de garganta y tos",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina Ayurveda (Golden Milk)",
+      "contraindicaciones": "Puede interactuar con anticoagulantes en dosis altas de cúrcuma",
+      "uso": "Respiratorio: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ]
     },
     {
       "id": 658,
@@ -244,7 +398,19 @@
         "analgésico"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 659,
@@ -264,7 +430,27 @@
       "contraindicaciones": "La fiebre alta en niños requiere atención médica urgente",
       "uso": "Bajar la Fiebre. Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antipirético",
+        "diaforético",
+        "antiinflamatorio",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 660,
@@ -284,7 +470,27 @@
       "contraindicaciones": "Solo flores; otras partes del saúco crudo son tóxicas",
       "uso": "Fiebre. Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
+      "propiedades": [
+        "antipirético",
+        "diaforético",
+        "antiinflamatorio",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 661,
@@ -311,7 +517,19 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 662,
@@ -338,7 +556,20 @@
         "cicatrizante"
       ],
       "referencias": "Melchart D. et al. Arch Fam Med 1998; 7(6):541-545; ESCOP Echinaceae purpureae herba 2003; WHO Monographs Vol.1 (1999); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 663,
@@ -366,7 +597,20 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 664,
@@ -395,7 +639,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 665,
@@ -423,7 +680,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 666,
@@ -443,7 +713,26 @@
       "contraindicaciones": "No usar en piel con heridas; el alcanfor puede ser tóxico si se ingiere",
       "uso": "Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Alcanfor (monoterpeno bicíclico): analgésico tópico por activación/desensibilización de TRPV1 y TRPM8; rubefaciente. Borneol: antiinflamatorio y antimicrobiano. Cineol: descongestionante y anestésico local.",
+      "propiedades": [
+        "antipirético",
+        "diaforético",
+        "antiinflamatorio",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 667,
@@ -463,61 +752,110 @@
       "contraindicaciones": "No usar en embarazo; fotosensibilizante; no en diabéticos",
       "uso": "Sudación Febrífuga. Reducción de la fiebre.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 1069,
-      "titulo": "Mudai de Murtilla con Tepu para Fiebre Alta en Ninos (Pichi Lawen Chilote)",
-      "categoria": "Febrífugo",
-      "origen": "Mapuche Huilliche / Chilote (Isla Grande de Chiloe, Quinchao, Lemuy)",
-      "ingredientes": "1 taza de frutos maduros de murtilla (Ugni molinae / uni en mapudungun); 5 hojas medianas de tepu (Tepualia stipularis); 750 ml de agua; 2 cucharadas de miel de colmena chilota; jugo de medio limon silvestre (si disponible)",
-      "preparacion": "1. Lavar bien las murtillas y las hojas de tepu. 2. Hervir el agua y agregar las hojas de tepu. Cocer 10 minutos. 3. Agregar las murtillas al caldo caliente, aplastar con cuchara de madera para liberar jugos. 4. Continuar a fuego bajo 5 minutos mas. 5. Colar con cedazo fino, expresando bien los frutos. 6. Agregar la miel cuando este tibio y el jugo de limon. El resultado debe ser una bebida rosada y dulce.",
-      "dosis": "Ninos 2-5 anos: media taza (100 ml) cada 4 horas. Ninos 6-12 anos: 1 taza (200 ml) cada 4 horas. Adultos: 2 tazas cada 4 horas. Continuar hasta que baje la fiebre.",
-      "modo_uso": "Oral (bebida medicinal)",
-      "tiempo_prep": "25 minutos",
-      "dificultad": "Facil",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 horas. Preparar fresco para cada dia.",
-      "evidencia": "La murtilla (Ugni molinae) es reconocida por su alto contenido de vitamina C y antocianinas con actividad antipiretica y antioxidante. Documentada por Villagran (2000) como lawen chilote fundamental. El tepu aporta propiedades diaforeticas (sudorificas) que facilitan la disminucion de la fiebre.",
-      "fuente_tradicion": "Mapuche Huilliche / Chilota",
-      "contraindicaciones": "La miel no debe darse a ninos menores de 1 ano (riesgo de botulismo infantil). Si la fiebre supera 39°C o dura mas de 48 horas, consultar medico. No sustituir tratamiento medico urgente con esta preparacion.",
-      "uso": "Control de fiebre moderada en ninos y adultos, especialmente en contexto de resfriados, gripe e infecciones respiratorias de invierno chilote. La vitamina C de la murtilla fortalece el sistema inmune; las antocianinas tienen efecto antiviral documentado; el tepu favorece la sudoracion que baja la temperatura corporal.",
-      "principios_activos": "Vitamina C (murtilla: 40-80 mg/100g); antocianinas (cianidina-3-glucosido); quercetina; metilheptanoato; poligodial (tepu)",
-      "propiedades": [
-        "antipiretico",
-        "antiviral",
-        "diaforetico",
-        "antioxidante"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
       ],
-      "referencias": "Villagran C. (2000) Etnobiologia Williche. CONAF. / Rubilar M. et al. (2011) Antioxidant and antipyretic properties of Ugni molinae. Food Chem. / Hoffmann A. et al. (1992) Plantas Medicinales de Chile.",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 1081,
-      "titulo": "Decoccion de Talhuen para Fiebre e Infecciones del Desierto Likan Antai",
-      "categoria": "Febrífugo",
-      "origen": "Atacameno / Likan Antai (San Pedro de Atacama, Toconao, Socaire)",
-      "ingredientes": "25 g de ramas floridas de talhuen (Eupatorium glechonophyllum / talhuen en atacameno); 1 litro de agua; 1 cucharadita de sal de Atacama; 1 cucharada de miel de abeja del desierto (si disponible)",
-      "preparacion": "1. Recolectar el talhuen al amanecer, cuando el rocio del desierto ha humectado las hojas y los aceites estan concentrados. 2. Hervir el litro de agua. 3. Agregar el talhuen al agua hirviendo. 4. Reducir el fuego y cocer 20 minutos semitapado. 5. Apagar, tapar completamente y reposar 20 minutos. 6. Colar expresando bien el material. Agregar sal y miel cuando este tibio.",
-      "dosis": "En fiebre aguda: 1 taza cada 3 horas hasta que baje la temperatura. En fase de mantencion: 2 tazas al dia durante 7 dias.",
-      "modo_uso": "Oral (decoccion) + aplicar compresa humedecida en la infusion sobre frente y munecas",
-      "tiempo_prep": "50 minutos",
-      "dificultad": "Facil",
-      "rendimiento": "4-5 tazas",
-      "conservacion": "Refrigerar hasta 48 horas.",
-      "evidencia": "El talhuen (Eupatorium glechonophyllum) es uno de los febrifugos mas importantes de la medicina atacamena del desierto de Atacama. Contiene lactonas sesquiterpenicas con actividad antipiretica y propiedades inmunomoduladoras. Documentado por Llagostera (1988) y el Museo Atacameno de San Pedro.",
-      "fuente_tradicion": "Atacameno / Likan Antai",
-      "contraindicaciones": "El genero Eupatorium contiene alcaloides pirrolizidinicos: no usar en dosis altas por mas de 7-10 dias (hepatotoxico en uso cronico). Contraindicado en embarazo, lactancia e insuficiencia hepatica. No usar en ninos menores de 6 anos.",
-      "uso": "Tratamiento de fiebres altas y estados febriles de origen infeccioso e inflamatorio en el ambiente del desierto atacameno. Los Likan Antai (hombres del Atacama) usaban el talhuen como primera medicina para la fiebre del desierto, combinandolo con reposo en lugar fresco y consumo de agua de manantial.",
-      "principios_activos": "Lactonas sesquiterpenicas (eupatoriopicrina, eupatoriina); flavonoides; aceites esenciales (cineol, borneol); alcaloides pirrolizidinicos (uso limitado)",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
       "propiedades": [
-        "antipiretico",
-        "inmunomodulador",
+        "antipirético",
+        "diaforético",
         "antiinflamatorio",
-        "diaforetico"
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 849,
+      "titulo": "Leche de Almendras con Cúrcuma y Ajo para la Gripe",
+      "categoria": "Respiratorio",
+      "origen": "Naturopatía",
+      "ingredientes": "1 taza de leche de almendras, 1/2 cucharadita de cúrcuma, 1 diente de ajo machacado, miel",
+      "preparacion": "Calentar la leche. Agregar la cúrcuma y el ajo. Hervir 3 min. Colar. Endulzar.",
+      "dosis": "2 tazas al día durante la gripe",
+      "modo_uso": "Colar el ajo antes de beber",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No en úlcera gástrica activa",
+      "uso": "Gripe: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
+      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "hipotensor",
+        "hipocolesterolemiante",
+        "inmunoestimulante",
+        "cicatrizante"
       ],
-      "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara Revista Antropologica.",
-      "maternidad_segura": "advertencia"
+      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ]
+    },
+    {
+      "id": 857,
+      "titulo": "Caramelos de Jengibre y Miel para la Garganta",
+      "categoria": "Garganta",
+      "origen": "Herbolaria Natural",
+      "ingredientes": "4 cucharadas de miel, 1 cucharadita de jengibre en polvo, 1/2 cucharadita de canela",
+      "preparacion": "Calentar la miel a 150°C (punto de caramelo). Agregar el jengibre y la canela. Verter en molde de silicona. Dejar solidificar.",
+      "dosis": "1 caramelo cada 3-4 horas",
+      "modo_uso": "Dejar que se disuelva lentamente en la boca",
+      "tiempo_prep": "15 min + solidificado",
+      "dificultad": "Medio",
+      "rendimiento": "15-20 caramelos",
+      "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria popular y confitería medicinal",
+      "contraindicaciones": "No en diabéticos; no para menores de 1 año (miel)",
+      "uso": "Garganta: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antimicrobiano"
+      ],
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 1100,
@@ -545,7 +883,20 @@
         "antioxidante"
       ],
       "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Schmeda-Hirschmann G. J Ethnopharmacol 1994; Küster I. et al. Berberis en medicina austral, Rev Méd Chile 2005.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 1101,
@@ -573,7 +924,70 @@
         "antiinflamatorio"
       ],
       "referencias": "Dominguezia 2022 vol.38(1); Estudio Isla Kalau SciELO Chile 2012; Muñoz O. et al. Boletín LAMP 2001; Font Quer P. Plantas Medicinales, Planeta 1961.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "titulo": "Infusión de Natre para bajar la fiebre",
+      "categoria": "Febrífugo",
+      "origen": "Medicina tradicional chilena.",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas y tallos secos de natre. - 1 litro de agua recién hervida.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición chilena",
+      "contraindicaciones": "- Hipotensión arterial (presión baja). - Embarazo y lactancia.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "2-3 días. Si la fiebre persiste, consultar al médico.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "⚠️ Precaución (hipotensión)",
+      "distribucion": "Arbusto común entre Coquimbo y Colchagua.",
+      "efectos_secundarios": "",
+      "id": 1244
+    },
+    {
+      "titulo": "Infusión de Natre para bajar la fiebre",
+      "categoria": "Respiratorio",
+      "origen": "Medicina tradicional chilena.",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas y tallos secos de natre.\n- 1 litro de agua recién hervida.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca.\n2. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "1 taza, 3 veces al día. — 2-3 días. Si la fiebre persiste, consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Natre: la planta nativa con la que puedes bajar la fiebre\"\n(¿Cuál es tu huella?, 2022). Estudio de la Universidad de Chile confirma\nsu uso tradicional[reference:2][reference:3].",
+      "fuente_tradicion": "Medicina tradicional chilena.",
+      "contraindicaciones": "- Hipotensión arterial (presión baja).\n- Embarazo y lactancia.",
+      "id": 1332,
+      "uso": "Reducir la fiebre de cualquier origen. El natre es uno de los\nantipiréticos tradicionales más efectivos y documentados de Chile.",
+      "planta_principal": "Natre (Solanum ligustrinum)",
+      "interacciones": "Podría potenciar el efecto de medicamentos antihipertensivos.",
+      "efectos_secundarios_nota": "Sabor muy amargo. En dosis altas, puede causar mareos\npor descenso de la presión.",
+      "nivel_seguridad": "⚠️ Precaución (hipotensión)"
     }
   ]
 }

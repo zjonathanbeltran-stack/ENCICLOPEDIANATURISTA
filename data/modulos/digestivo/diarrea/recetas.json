@@ -1,13 +1,6 @@
 {
-  "condicion": "Diarrea",
   "modulo": "digestivo",
   "submodulo": "diarrea",
-  "emoji": "💧",
-  "descripcion": "Remedios astringentes y antidiarreicos naturales para adultos y ninos.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "La mayoria de los remedios para diarrea son seguros en el embarazo. Priorizar la hidratacion. El agua de arroz, membrillo y zarzamora son muy seguros."
-  },
   "recetas": [
     {
       "id": 17,
@@ -35,7 +28,21 @@
         "digestivo"
       ],
       "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "diarrea aguda no infecciosa",
+        "diarrea del viajero leve",
+        "gastroenteritis viral",
+        "colitis leve"
+      ],
+      "interacciones_medicamentos": "Los taninos reducen la absorción de hierro, fármacos alcaloideos y antibióticos; separar la toma al menos 2 horas.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia por falta de estudios; preferir uso bajo orientación profesional.",
+      "duracion_tratamiento": "Uso máximo 48-72 horas; si persiste o hay sangre, consulta médica urgente.",
+      "sinergia_plantas": [
+        "matico",
+        "manzanilla",
+        "llantén",
+        "murtilla"
+      ]
     },
     {
       "id": 65,
@@ -63,35 +70,21 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
-      "categoria": "Diarrea",
-      "origen": "Popular Chileno",
-      "ingredientes": "2 cucharadas de arroz blanco, 500 ml de agua, 1 rama de canela, jugo de 1/2 limón.",
-      "preparacion": "Hervir el arroz con la canela en el agua 20 minutos. Colar guardando solo el agua. Agregar el limón. Beber tibia a pequeños sorbos durante el día. El agua de arroz aporta sales minerales, la canela actúa como astringente y el limón acidifica el intestino.",
-      "id": 252,
-      "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
-      "modo_uso": "Oral — infusión tibia o fría",
-      "tiempo_prep": "25 min",
-      "dificultad": "Medio",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
-      "uso": "Diarrea: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
+      "indicaciones_principales": [
+        "Diarrea aguda no infecciosa",
+        "Espasmos abdominales",
+        "Flatulencia",
+        "Dispepsia",
+        "Náuseas"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Eugenol potencia anticoagulantes (warfarina, aspirina) por inhibición plaquetaria; precaución con paracetamol e inductores de CYP.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia; no usar dosis altas.",
+      "duracion_tratamiento": "Máximo 48 horas; si persiste consultar médico.",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "manzanilla"
+      ]
     },
     {
       "titulo": "Decocción de Hojas de Membrillo para Diarrea Aguda",
@@ -111,7 +104,27 @@
       "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
       "uso": "Diarrea Aguda. Tratamiento de la diarrea.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "principios_activos": "Taninos hidrolizables (ácido quínico, ácido cítrico): potentes astringentes antidiarreicos. Pectina: emoliente y reguladora del tránsito intestinal. Quercetina y kaempferol: antiinflamatorios.",
+      "propiedades": [
+        "antidiarreico",
+        "astringente",
+        "antiespasmódico",
+        "antiinflamatorio"
+      ]
     },
     {
       "titulo": "Infusión de Llantén y Arrayán para Diarrea con Cólicos",
@@ -140,7 +153,20 @@
         "antiséptico"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ]
     },
     {
       "titulo": "Manzanas Ralladas Oxidadas (Astringente Natural para Diarrea Infantil)",
@@ -160,7 +186,27 @@
       "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
       "uso": "Diarrea Infantil). Tratamiento de la diarrea.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antidiarreico",
+        "astringente",
+        "antiespasmódico",
+        "antiinflamatorio"
+      ]
     },
     {
       "titulo": "Té Astringente de Zarzamora (Hojas) para Diarrea",
@@ -180,7 +226,27 @@
       "contraindicaciones": "Si la diarrea dura más de 48 h o hay sangre, consultar médico de inmediato.",
       "uso": "Diarrea. Tratamiento de la diarrea.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
+      "propiedades": [
+        "antidiarreico",
+        "astringente",
+        "antiespasmódico",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 399,
@@ -200,7 +266,27 @@
       "contraindicaciones": "Contraindicado en embarazo en dosis medicinales. Si la diarrea tiene sangre o fiebre alta, consultar médico urgente.",
       "uso": "Diarrea y bacterias intestinales. Tratamiento de la diarrea.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "antidiarreico",
+        "astringente",
+        "antiespasmódico",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 706,
@@ -220,7 +306,27 @@
       "contraindicaciones": "Solo para diarrea leve; buscar atención médica si hay fiebre alta",
       "uso": "Diarrea. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Almidón resistente (prebiótico): nutre microbiota intestinal y regula el tránsito. Inositol: precursor de fosfoinosítidos; regulador del peristaltismo. Agua de arroz: demulcente y astringente suave.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 707,
@@ -240,7 +346,27 @@
       "contraindicaciones": "Astringente; no usar en estreñimiento",
       "uso": "Diarrea. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 717,
@@ -260,7 +386,27 @@
       "contraindicaciones": "Solo para diarrea leve; buscar atención médica si hay sangre o fiebre alta",
       "uso": "Diarrea Infantil. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Beta-caroteno: precursor de vitamina A; antioxidante y regenerador epitelial. Falcarinol: antifúngico y anticancerígeno. Vitamina K: hemostática.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 947,
@@ -288,7 +434,42 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "titulo": "Decocción de corteza de Roble para la diarrea aguda",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (2-3 g) de corteza seca de roble desmenuzada.\n- 250 ml de agua fría.",
+      "preparacion": "1. Colocar la corteza en una olla con el agua fría.\n2. Llevar a ebullición y hervir a fuego lento durante 10 minutos.\n3. Retirar del fuego, colar inmediatamente y dejar entibiar.",
+      "dosis": "1 taza, 2-3 veces al día, entre comidas. — 3-4 días seguidos.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Quercus cortex - herbal medicinal product.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Estreñimiento crónico, obstrucción intestinal.\n- Heridas o eccemas exudativos extensos (uso tópico).\n- No usar en niños <6 años sin supervisión médica.\n- Evitar en embarazo y lactancia.",
+      "id": 1368,
+      "uso": "Diarrea aguda inespecífica.",
+      "planta_principal": "Roble (Quercus robur)",
+      "interacciones": "Los taninos pueden reducir la absorción de hierro, zinc y otros minerales. Separar de otros medicamentos y comidas por al menos 2 horas.",
+      "efectos_secundarios_nota": "En dosis altas o uso prolongado, náuseas y vómitos por irritación gástrica.",
+      "nivel_seguridad": "⚠️ Precaución"
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Congestión / Sinusitis",
   "modulo": "respiratorio",
   "submodulo": "congestion_sinusitis",
-  "emoji": "👃",
-  "descripcion": "Vapores, inhalaciones y remedios para la congestión nasal y sinusitis.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los vapores de eucalipto y las inhalaciones de hierbas son seguros en embarazo. Evitar aceites esenciales concentrados en primer trimestre."
-  },
   "recetas": [
     {
       "id": 53,
@@ -35,7 +28,21 @@
         "broncodilatador"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Congestión nasal",
+        "Sinusitis",
+        "Bronquitis",
+        "Resfriado común",
+        "Rinitis"
+      ],
+      "interacciones_medicamentos": "1,8-cineol induce CYP3A4 reduciendo niveles de anticonceptivos, anticoagulantes y antidepresivos; precaución.",
+      "embarazo_lactancia": "Precaución en embarazo; contraindicado en niños menores de 6 años (vapores cerca de cara).",
+      "duracion_tratamiento": "Máximo 7 días; 1-2 vaporizaciones diarias.",
+      "sinergia_plantas": [
+        "tomillo",
+        "matico",
+        "menta"
+      ]
     },
     {
       "id": 86,
@@ -63,35 +70,104 @@
         "broncodilatador"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ]
     },
     {
-      "id": 424,
-      "titulo": "Inhalación de Pino y Eucalipto",
-      "categoria": "Respiratorio",
-      "origen": "Herbolaria Andina",
-      "ingredientes": "10 hojas de eucalipto, 5 ramitas de pino, 2 L de agua",
-      "preparacion": "Hervir el agua. Agregar las plantas. Inclinar la cabeza sobre el vapor con toalla cubriendo la cabeza.",
-      "dosis": "Inhalación de 10 min, 2 veces al día",
-      "modo_uso": "Inhalación — respirar los vapores",
-      "tiempo_prep": "10 min",
+      "id": 96,
+      "titulo": "Infusión de Limón, Jengibre y Miel para los Resfriados",
+      "categoria": "Resfriados",
+      "origen": "Popular",
+      "ingredientes": "1 rodaja de jengibre, 1/2 limón, 1 cucharada de miel, 1 taza de agua.",
+      "preparacion": "Hervir el agua con el jengibre. Retirar del fuego, añadir el jugo de limón y la miel. Tomar caliente para aliviar la congestión y fortalecer las defensas, ya que el jengibre y el limón son ricos en vitamina C.",
+      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
       "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Uso inmediato",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición andina y mapuche",
-      "contraindicaciones": "No usar en niños menores de 6 años; riesgo de quemadura",
-      "uso": "Bronquitis, sinusitis y tos productiva: el 1,8-cineol fluidifica el moco, estimula el movimiento ciliar bronquial y ejerce acción antiséptica sobre patógenos respiratorios.",
-      "principios_activos": "1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis altas, contraindicado en cálculos biliares. Consultar si se toman anticoagulantes.",
+      "uso": "Resfriados: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
       "propiedades": [
-        "expectorante",
-        "mucolítico",
-        "antiséptico respiratorio",
-        "febrífugo",
-        "broncodilatador"
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antimicrobiano"
       ],
-      "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Resfriado común",
+        "Gripe leve",
+        "Fiebre moderada",
+        "Congestión nasofaríngea"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Ajo",
+        "Saúco",
+        "Jengibre"
+      ]
+    },
+    {
+      "titulo": "Inhalación de Eucalipto, Menta y Ajo para Congestión del Resfrío",
+      "categoria": "Resfriados",
+      "origen": "Popular Chileno",
+      "ingredientes": "10 hojas de eucalipto, 1 cucharada de menta, 3 dientes de ajo machacados, 1 litro de agua.",
+      "preparacion": "Hervir todo en olla grande. Retirar del fuego. Cubrirse la cabeza con toalla gruesa e inhalar los vapores 10-15 minutos a distancia segura. Hacer 2-3 veces al día. El eucaliptol, el mentol y la alicina del ajo crean una sinergia antimicrobiana y descongestionante potente.",
+      "id": 279,
+      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
+      "modo_uso": "Inhalación — respirar los vapores",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar aceite esencial puro en pieles sensibles ni cerca de mucosas de niños.",
+      "uso": "Congestión del Resfrío: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | 1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "mucolítico"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Resfriado común",
+        "Gripe leve",
+        "Fiebre moderada",
+        "Congestión nasofaríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Ajo",
+        "Saúco",
+        "Jengibre"
+      ]
     },
     {
       "id": 428,
@@ -119,92 +195,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 437,
-      "titulo": "Bálsamo de Vicks Casero",
-      "categoria": "Respiratorio",
-      "origen": "Medicina Casera",
-      "ingredientes": "2 cucharadas de cera de abeja, 1/4 taza de aceite de coco, 10 gotas aceite esencial eucalipto, 5 gotas menta",
-      "preparacion": "Fundir la cera de abeja con el aceite de coco a baño maría. Retirar del fuego. Agregar aceites esenciales. Verter en recipiente y dejar solidificar.",
-      "dosis": "Aplicar en pecho y espalda antes de dormir",
-      "modo_uso": "Solo uso externo; masajear suavemente",
-      "tiempo_prep": "20 min + enfriado",
-      "dificultad": "Medio",
-      "rendimiento": "100 g",
-      "conservacion": "Temperatura ambiente 2 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina casera contemporánea",
-      "contraindicaciones": "No aplicar en niños menores de 2 años; no ingerir",
-      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | 1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "mucolítico"
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 843,
-      "titulo": "Spray Nasal de Agua de Mar Isotónica",
-      "categoria": "Respiratorio",
-      "origen": "Medicina del Mar",
-      "ingredientes": "1/4 cucharadita de sal marina fina, 100 ml de agua destilada",
-      "preparacion": "Disolver la sal perfectamente en el agua destilada. Transferir a frasco spray.",
-      "dosis": "2-3 aplicaciones nasales por día",
-      "modo_uso": "Usar con la cabeza inclinada; insuflar suavemente",
-      "tiempo_prep": "3 min",
-      "dificultad": "Fácil",
-      "rendimiento": "100 ml",
-      "conservacion": "Refrigerar 3 días",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina marina y naturopatía",
-      "contraindicaciones": "Usar solo agua destilada; no reutilizar el mismo frasco indefinidamente",
-      "uso": "Ansiedad leve, nerviosismo e insomnio: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.",
-      "principios_activos": "Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario.",
-      "propiedades": [
-        "sedante",
-        "ansiolítico",
-        "diaforético",
-        "antiespasmódico",
-        "expectorante"
-      ],
-      "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 847,
-      "titulo": "Inhalación de Mentol para el Alivio Nasal",
-      "categoria": "Respiratorio",
-      "origen": "Medicina Popular",
-      "ingredientes": "5 gotas de aceite esencial de menta piperita, 1 L de agua hirviendo",
-      "preparacion": "Agregar el aceite al agua. Inhalar el vapor con toalla.",
-      "dosis": "Sesión de 10 min, 2-3 veces al día",
-      "modo_uso": "Inhalación — respirar los vapores",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Uso inmediato",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina popular universal",
-      "contraindicaciones": "No usar en niños menores de 6 años; el mentol puede causar espasmos",
-      "uso": "Alivio Nasal: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante"
-      ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ]
     },
     {
       "id": 852,
@@ -233,35 +237,157 @@
         "expectorante"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ]
     },
     {
-      "id": 856,
-      "titulo": "Vapores de Pino y Menta para los Pulmones",
+      "id": 1139,
+      "titulo": "Vaporización descongestiva de eucalipto, tomillo y ulmo para sinusitis",
       "categoria": "Respiratorio",
-      "origen": "Herbolaria Andina",
-      "ingredientes": "4 ramitas de pino silvestre, 5 gotas de aceite esencial de menta",
-      "preparacion": "Hervir el pino en 2 L de agua. Retirar del fuego. Agregar el aceite. Inhalar vapor.",
-      "dosis": "Sesión de 10 min con toalla, 2 veces al día",
-      "modo_uso": "Mantener ojos cerrados; distancia cómoda del vapor",
-      "tiempo_prep": "12 min",
+      "origen": "Mapuche y popular chileno",
+      "ingredientes": "1 puñado de hojas de eucalipto, 1 cda de tomillo seco, 1 cda de flores secas de ulmo, 1.5 L de agua",
+      "preparacion": "Hervir agua, agregar hierbas y retirar del fuego. Cubrir cabeza con toalla sobre el recipiente a 30 cm de distancia. Inhalar 8 a 10 min con ojos cerrados.",
+      "dosis": "1 a 2 veces al día durante 5 a 7 días",
+      "modo_uso": "Inhalación - vapor",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1 sesión",
-      "conservacion": "Uso inmediato",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Herbolaria andina y mapuche",
-      "contraindicaciones": "No en niños menores de 6 años",
-      "uso": "Pulmones: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "conservacion": "Usar de inmediato",
+      "evidencia": "ESCOP monograph Eucalyptus globulus; estudios sobre 1,8-cineol como mucolítico (Juergens 2014)",
+      "fuente_tradicion": "Mapuche y popular chileno",
+      "contraindicaciones": "Niños menores de 6 años (laringoespasmo por 1,8-cineol), asma activa, embarazo en primer trimestre",
+      "uso": "Aceites esenciales volátiles fluidifican secreciones bronquiales y ejercen acción antimicrobiana directa sobre mucosa respiratoria.",
+      "principios_activos": "1,8-cineol (eucalipto), timol y carvacrol (tomillo), flavonoides del ulmo; mucolítico, antibacteriano y antiinflamatorio respiratorio",
       "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante"
+        "expectorante",
+        "mucolítico",
+        "antiséptico respiratorio",
+        "descongestivo",
+        "antiviral"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "referencias": "Juergens UR. 2014 Drug Res; ESCOP 2003; Hoffmann 1992; Schmeda-Hirschmann 2003",
+      "indicaciones_principales": [
+        "sinusitis aguda",
+        "rinitis viral",
+        "bronquitis",
+        "congestión nasal",
+        "faringitis"
+      ],
+      "interacciones_medicamentos": "Asmáticos en tratamiento con broncodilatadores (vigilar)",
+      "embarazo_lactancia": "Contraindicado primer trimestre; aceptable en lactancia evitando rostro del bebé",
+      "duracion_tratamiento": "Máximo 7 días consecutivos",
+      "sinergia_plantas": [
+        "pino",
+        "menta",
+        "salvia"
+      ]
+    },
+    {
+      "id": 1166,
+      "titulo": "Inhalación descongestionante de eucalipto, romero y pino",
+      "categoria": "Respiratorio",
+      "origen": "Tradición chilena y mediterránea",
+      "ingredientes": "1 puñado de hojas frescas de eucalipto, 1 cucharada de romero, 1 cucharada de tomillo, 5 gotas de aceite esencial de pino (opcional), 1 litro de agua hirviendo",
+      "preparacion": "Hervir agua y verter sobre las hierbas en una olla. Apagar fuego. Cubrir cabeza con toalla e inhalar vapor durante 5-10 minutos manteniendo distancia segura.",
+      "dosis": "2-3 veces al día durante cuadro respiratorio",
+      "modo_uso": "Inhalación de vapor",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "No aplica, uso inmediato",
+      "evidencia": "1,8-cineol (eucalipto) demostró eficacia en rinosinusitis (Kehrl, 2004)",
+      "fuente_tradicion": "Práctica popular mundial",
+      "contraindicaciones": "Asma activa, niños menores de 6 años (riesgo de broncoespasmo con eucalipto), epilepsia (romero).",
+      "uso": "El 1,8-cineol del eucalipto reduce inflamación mucosa inhibiendo la producción de leucotrienos y prostaglandinas, mientras el alcanfor y pineno fluidifican secreciones y estimulan cilios respiratorios facilitando expectoración.",
+      "principios_activos": "1,8-cineol (eucaliptol): mucolítico, antiinflamatorio. Alcanfor y borneol (romero). Alfa-pineno: broncodilatador suave. Timol.",
+      "propiedades": [
+        "descongestionante",
+        "mucolítico",
+        "antiséptico respiratorio",
+        "antiinflamatorio"
+      ],
+      "referencias": [
+        "Kehrl W. et al. Laryngoscope (2004) 114:738",
+        "Juergens UR. Drug Res (2014) 64:638"
+      ],
+      "indicaciones_principales": [
+        "congestión nasal",
+        "sinusitis",
+        "resfrío",
+        "bronquitis",
+        "tos productiva"
+      ],
+      "interacciones_medicamentos": "Ninguna por vía inhalatoria",
+      "embarazo_lactancia": "Usar sin romero en embarazo",
+      "duracion_tratamiento": "Hasta 7 días",
+      "sinergia_plantas": [
+        "saúco",
+        "tomillo",
+        "menta"
+      ]
+    },
+    {
+      "titulo": "Decocción de Pingo-pingo para la sinusitis y congestión nasal",
+      "categoria": "Respiratorio",
+      "origen": "Medicina tradicional chilena (Norte-Centro).",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de ramas secas de pingo-pingo. - 1 litro de agua.",
+      "preparacion": "1. Colocar las ramas en una olla con el agua. 2. Hervir durante 5 minutos. 3. Retirar del fuego, colar y beber tibio.",
+      "dosis": "",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "5 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición chilena",
+      "contraindicaciones": "- Hipertensión arterial y problemas cardíacos. - Embarazo y lactancia.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "5 días.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "⚠️ Precaución (efecto cardioestimulante)",
+      "distribucion": "Regiones de Arica a La Araucanía.",
+      "efectos_secundarios": "",
+      "id": 1242
+    },
+    {
+      "titulo": "Decocción de Pingo-pingo para la sinusitis y congestión nasal",
+      "categoria": "Respiratorio",
+      "origen": "Medicina tradicional chilena (Norte-Centro).",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de ramas secas de pingo-pingo.\n- 1 litro de agua.",
+      "preparacion": "1. Colocar las ramas en una olla con el agua.\n2. Hervir durante 5 minutos.\n3. Retirar del fuego, colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día. — 5 días.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"La decocción de los tallos sirve para dilatar y descongestionar\nlas vías respiratorias, eliminar cálculos renales y para la sinusitis\"\n(CEAB, Ficha de Ephedra chilensis)[reference:1].",
+      "fuente_tradicion": "Medicina tradicional chilena (Norte-Centro).",
+      "contraindicaciones": "- Hipertensión arterial y problemas cardíacos.\n- Embarazo y lactancia.",
+      "id": 1330,
+      "uso": "Descongestionar las vías respiratorias altas y aliviar la\npresión sinusal asociada a la sinusitis.",
+      "planta_principal": "Pingo-pingo (Ephedra chilensis)",
+      "interacciones": "No combinar con otros estimulantes (café, bebidas energéticas).",
+      "efectos_secundarios_nota": "Taquicardia o nerviosismo en personas sensibles.",
+      "nivel_seguridad": "⚠️ Precaución (efecto cardioestimulante)"
     }
   ]
 }

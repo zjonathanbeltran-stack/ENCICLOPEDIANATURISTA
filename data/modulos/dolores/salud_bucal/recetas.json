@@ -1,13 +1,6 @@
 {
-  "condicion": "Salud Bucal / Dolor de Muelas",
   "modulo": "dolores",
   "submodulo": "salud_bucal",
-  "emoji": "🦷",
-  "descripcion": "Enjuagues, gárgaras y remedios naturales para dolor de muelas, encías y aftas bucales.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los enjuagues bucales y la higiene dental son seguros y recomendados en embarazo. El clavo aplicado localmente es seguro para el dolor de muelas."
-  },
   "recetas": [
     {
       "id": 42,
@@ -36,7 +29,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "odontalgia aguda leve",
+        "dolor por caries superficial",
+        "alivio sintomático bucal",
+        "gingivitis localizada"
+      ],
+      "interacciones_medicamentos": "Uso tópico bucal: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia; uso puntual aceptable, evitar deglución.",
+      "duracion_tratamiento": "Uso puntual hasta consulta odontológica (no más de 2-3 días).",
+      "sinergia_plantas": [
+        "clavo de olor",
+        "matico",
+        "salvia",
+        "manzanilla"
+      ]
     },
     {
       "id": 127,
@@ -56,7 +63,27 @@
       "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
       "uso": "Infecciones Bucales. Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "id": 145,
@@ -84,7 +111,21 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Infecciones bucales",
+        "Gingivitis",
+        "Halitosis",
+        "Dolor dental leve",
+        "Aftas"
+      ],
+      "interacciones_medicamentos": "Eugenol potencia anticoagulantes y puede irritar mucosa; precaución con paracetamol.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia en uso oral concentrado; uso ocasional aceptable.",
+      "duracion_tratamiento": "Enjuagues 2-3 veces al día por máximo 7 días.",
+      "sinergia_plantas": [
+        "tomillo",
+        "matico",
+        "manzanilla"
+      ]
     },
     {
       "id": 161,
@@ -112,7 +153,21 @@
         "carminativo"
       ],
       "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Infecciones bucales",
+        "Gingivitis",
+        "Aftas",
+        "Halitosis",
+        "Faringitis"
+      ],
+      "interacciones_medicamentos": "Timol y eugenol potencian anticoagulantes; precaución con antidiabéticos por canela.",
+      "embarazo_lactancia": "Contraindicado en embarazo en dosis medicinales (tomillo y canela emenagogos); precaución en lactancia.",
+      "duracion_tratamiento": "Enjuagues máximo 10 días continuos.",
+      "sinergia_plantas": [
+        "clavo de olor",
+        "matico",
+        "manzanilla"
+      ]
     },
     {
       "titulo": "Enjuague de Clavo de Olor para Dolor de Muelas",
@@ -140,7 +195,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Enjuague de Salvia y Sal Marina para las Encías",
@@ -168,7 +236,20 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Aceite de Coco para Oil Pulling (Enjuague Bucal Ancestral)",
@@ -188,7 +269,27 @@
       "contraindicaciones": "No ingerir el enjuague. No reemplaza atención odontológica profesional.",
       "uso": "Oil Pulling. Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "titulo": "Pasta Dental Natural de Bicarbonato, Coco y Aceite de Árbol del Té",
@@ -216,7 +317,20 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "titulo": "Enjuague de Orégano y Agua Oxigenada para Infecciones Bucales",
@@ -244,7 +358,60 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
+    },
+    {
+      "id": 474,
+      "titulo": "Vinagre de Manzana con Chile para Artritis",
+      "categoria": "Reumatismo",
+      "origen": "Medicina Casera",
+      "ingredientes": "1/2 taza de vinagre de sidra, 1 cucharadita de pimienta de cayena, 1 L de agua tibia",
+      "preparacion": "Mezclar todos los ingredientes. Usar para compresas en articulaciones.",
+      "dosis": "Compresa 20 min, 2 veces al día",
+      "modo_uso": "No aplicar en piel con heridas; puede picar",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 L",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina casera popular",
+      "contraindicaciones": "No usar en piel sensible ni heridas abiertas",
+      "uso": "Artritis. Alivio del reumatismo y artritis.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor articular crónico",
+        "Artritis y reumatismo",
+        "Rigidez matutina",
+        "Contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Cola de caballo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "rubefaciente",
+        "antiartrítico"
+      ]
     },
     {
       "id": 498,
@@ -264,7 +431,27 @@
       "contraindicaciones": "No tragar; puede causar náuseas; no reemplaza el cepillado",
       "uso": "Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "id": 499,
@@ -292,7 +479,20 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "id": 500,
@@ -312,7 +512,28 @@
       "contraindicaciones": "No usar a diario; el bicarbonato puede erosionar el esmalte",
       "uso": "Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente",
+        "emoliente"
+      ]
     },
     {
       "id": 501,
@@ -340,7 +561,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "id": 502,
@@ -360,7 +594,27 @@
       "contraindicaciones": "No tragar; puede irritar si hay heridas profundas",
       "uso": "Infección Gingival. Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "id": 503,
@@ -380,7 +634,27 @@
       "contraindicaciones": "No usar en embarazo; puede irritar mucosas en exceso",
       "uso": "Estomatitis. Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Sesquiterpenos (curzereno, lindestreno): antiinflamatorios orales. Guggulsterones: antiinflamatorios. Fenoles: antisépticos bucales.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "id": 504,
@@ -400,7 +674,27 @@
       "contraindicaciones": "Nunca ingerir el aceite esencial sin diluir; tóxico si se traga",
       "uso": "Encías. Alivio dental y bucal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ],
+      "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico bucal",
+        "antiinflamatorio",
+        "astringente"
+      ]
     },
     {
       "id": 505,
@@ -428,7 +722,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "id": 506,
@@ -456,7 +763,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
     },
     {
       "id": 507,
@@ -484,7 +804,106 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de muelas y caries",
+        "Gingivitis y periodontitis leve",
+        "Aftas y úlceras bucales",
+        "Infecciones bucales leves"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta consulta odontológica; máximo 3-5 días",
+      "sinergia_plantas": [
+        "Clavo de olor",
+        "Salvia",
+        "Tomillo"
+      ]
+    },
+    {
+      "id": 1168,
+      "titulo": "Pasta dental herbal de matico, salvia y arcilla blanca",
+      "categoria": "Dental",
+      "origen": "Cosmética natural moderna",
+      "ingredientes": "2 cucharadas de arcilla blanca (caolín), 1 cucharada de aceite de coco, 1/2 cucharadita de polvo de hojas de matico, 1/2 cucharadita de salvia en polvo, 3 gotas de aceite esencial de menta, pizca de sal marina fina",
+      "preparacion": "Mezclar todos los ingredientes hasta obtener pasta homogénea. Conservar en frasco de vidrio pequeño.",
+      "dosis": "Aplicar pequeña cantidad en cepillo, cepillar 2 veces al día",
+      "modo_uso": "Pasta dental",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 60 g",
+      "conservacion": "1 mes en frasco hermético a temperatura ambiente",
+      "evidencia": "Aceite de coco con eficacia oil pulling (Peedikayil, 2015); arcilla con acción remineralizante",
+      "fuente_tradicion": "Adaptación moderna con plantas chilenas",
+      "contraindicaciones": "Alergia a labiadas. Niños menores de 5 años por riesgo de ingestión.",
+      "uso": "El ácido láurico del coco al saponificarse en boca atraviesa membrana de Streptococcus mutans desestabilizándola, los taninos del matico reducen sangrado gingival contrayendo capilares y la arcilla remineraliza esmalte aportando sílice y calcio.",
+      "principios_activos": "Ácido láurico (coco). Taninos del matico. Tuyona y ácido rosmarínico (salvia). Mentol (menta).",
+      "propiedades": [
+        "antibacteriano oral",
+        "antiplaca",
+        "antigingivitis",
+        "remineralizante",
+        "refrescante"
+      ],
+      "referencias": [
+        "Peedikayil FC. Niger Med J (2015) 56:143",
+        "Hubbert M. et al. Eur J Med Res (2006) 11:20"
+      ],
+      "indicaciones_principales": [
+        "gingivitis leve",
+        "halitosis",
+        "prevención de placa",
+        "encías sensibles"
+      ],
+      "interacciones_medicamentos": "Ninguna",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla"
+      ]
+    },
+    {
+      "id": 1185,
+      "titulo": "Enjuague bucal para alivio dental de clavo, salvia y matico",
+      "categoria": "Dental",
+      "origen": "Odontología tradicional",
+      "ingredientes": "3 clavos de olor, 1 cucharadita de salvia, 1 cucharadita de matico, 1 pizca de sal, 250 ml de agua",
+      "preparacion": "Hervir agua con clavos 5 minutos. Apagar, añadir salvia y matico. Tapar 10 minutos. Añadir sal. Colar.",
+      "dosis": "Enjuagues de 30 segundos cada 3-4 horas mientras dure el dolor",
+      "modo_uso": "Enjuague bucal",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Eugenol de clavo con efecto analgésico dental documentado (Alqareer, 2006)",
+      "fuente_tradicion": "Odontología popular mundial",
+      "contraindicaciones": "Embarazo (salvia en altas dosis), niños menores de 6 años, alergias específicas, no tragar.",
+      "uso": "El eugenol del clavo bloquea canales de sodio en fibras nerviosas dentales generando analgesia local potente y desensibiliza receptores TRPV1, mientras los taninos del matico contraen tejidos gingivales sangrantes y la tuyona de salvia tiene acción antibacteriana sobre Streptococcus mutans.",
+      "principios_activos": "Eugenol (clavo): bloqueador canales Na+, analgésico. Tuyona, ácido carnósico (salvia). Verbascósido, taninos (matico).",
+      "propiedades": [
+        "analgésico dental",
+        "antibacteriano oral",
+        "antiinflamatorio gingival",
+        "hemostático local"
+      ],
+      "referencias": [
+        "Alqareer A. et al. J Dent (2006) 34:747",
+        "Daniel AN. et al. Rev Bras Farmacogn (2009) 19:212"
+      ],
+      "indicaciones_principales": [
+        "dolor dental agudo (mientras consulta dental)",
+        "gingivitis aguda",
+        "pericoronaritis",
+        "alveolitis post-extracción",
+        "estomatitis"
+      ],
+      "interacciones_medicamentos": "Tópico, sin interacciones sistémicas relevantes",
+      "embarazo_lactancia": "Usar solo matico",
+      "duracion_tratamiento": "Máximo 5 días, consultar dentista",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla"
+      ]
     }
   ]
 }

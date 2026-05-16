@@ -1,13 +1,6 @@
 {
-  "condicion": "Baños Terapéuticos",
   "modulo": "piel",
   "submodulo": "banos_terapeuticos",
-  "emoji": "🛁",
-  "descripcion": "Baños de hierbas medicinales para la piel, el relajamiento muscular y la salud general.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los baños de hierbas son seguros en embarazo con agua tibia (no caliente). Evitar temperaturas superiores a 37°C. La avena, la manzanilla y la lavanda son especialmente beneficiosos."
-  },
   "recetas": [
     {
       "id": 7,
@@ -35,7 +28,21 @@
         "cicatrizante"
       ],
       "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "dolor reumático crónico",
+        "artralgias",
+        "rigidez articular matinal",
+        "contracturas musculares"
+      ],
+      "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Contraindicado en embarazo avanzado por riesgo de hipertermia. Precaución en lactancia.",
+      "duracion_tratamiento": "2-3 veces por semana durante 4-6 semanas.",
+      "sinergia_plantas": [
+        "romero",
+        "matico",
+        "canelo",
+        "eucalipto"
+      ]
     },
     {
       "id": 37,
@@ -64,7 +71,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular",
+        "Estrés",
+        "Dolor articular leve",
+        "Insomnio",
+        "Fatiga corporal"
+      ],
+      "interacciones_medicamentos": "Uso tópico, baja absorción sistémica; canelo poligodial puede ser irritante en piel sensible.",
+      "embarazo_lactancia": "Contraindicado en embarazo avanzado por canelo; precaución general en embarazo.",
+      "duracion_tratamiento": "Uso puntual 2-3 veces por semana.",
+      "sinergia_plantas": [
+        "lavanda",
+        "manzanilla",
+        "matico"
+      ]
     },
     {
       "id": 48,
@@ -84,7 +105,28 @@
       "contraindicaciones": "Verificar temperatura del agua (no exceder 38 °C). Contraindicado en embarazo avanzado.",
       "uso": "Fiebre Infantil. Baño medicinal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ],
+      "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+      "propiedades": [
+        "relajante muscular",
+        "descongestionante",
+        "antiinflamatorio",
+        "sedante"
+      ]
     },
     {
       "id": 62,
@@ -112,7 +154,21 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hemorroides",
+        "Inflamación perianal",
+        "Irritación vulvovaginal leve",
+        "Cicatrización postparto",
+        "Prurito anal"
+      ],
+      "interacciones_medicamentos": "Uso externo, sin interacciones sistémicas relevantes; precaución si hay alergia a asteráceas.",
+      "embarazo_lactancia": "Seguro en embarazo y lactancia para baños de asiento.",
+      "duracion_tratamiento": "1-2 baños diarios hasta resolución; máximo 2 semanas.",
+      "sinergia_plantas": [
+        "caléndula",
+        "matico",
+        "llantén"
+      ]
     },
     {
       "id": 71,
@@ -140,7 +196,20 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 88,
@@ -168,7 +237,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 100,
@@ -196,7 +278,20 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 158,
@@ -224,7 +319,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 164,
@@ -253,7 +361,20 @@
         "antiséptico bronquial"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 169,
@@ -273,7 +394,27 @@
       "contraindicaciones": "Verificar temperatura del agua (no exceder 38 °C). Contraindicado en embarazo avanzado.",
       "uso": "Baño medicinal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ],
+      "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+      "propiedades": [
+        "relajante muscular",
+        "descongestionante",
+        "antiinflamatorio",
+        "sedante"
+      ]
     },
     {
       "id": 173,
@@ -301,7 +442,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 174,
@@ -329,7 +483,20 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 983,
@@ -358,7 +525,20 @@
         "antioxidante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 984,
@@ -386,7 +566,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 985,
@@ -406,7 +599,27 @@
       "contraindicaciones": "No usar en piel con heridas o muy sensible",
       "uso": "Resfriados y Frio. Baño medicinal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ],
+      "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+      "propiedades": [
+        "relajante muscular",
+        "descongestionante",
+        "antiinflamatorio",
+        "sedante"
+      ]
     },
     {
       "id": 986,
@@ -434,7 +647,20 @@
         "broncodilatador"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
       "id": 987,
@@ -463,34 +689,105 @@
         "emenagogo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ]
     },
     {
-      "id": 1064,
-      "titulo": "Bano de Vapor con Nocha para Dolores Musculares (Mapun Lawen Pewenche)",
+      "id": 1147,
+      "titulo": "Baño herbal de lavanda y melisa para crisis de pánico",
       "categoria": "Baño",
-      "origen": "Mapuche Pewenche (Alto Biobio, Ralco, Quinquen)",
-      "ingredientes": "1 manojo grande (500 g aprox.) de hojas frescas de Nocha (Fascicularia bicolor o Bromelia sp.); 1 manojo de ramas de Quila (Chusquea quila); 10 piedras medianas de rio; 5 litros de agua",
-      "preparacion": "1. Calentar las piedras de rio en fogon a fuego intenso durante 40 minutos. 2. Preparar ruka improvisada (tienda de vapor) con mantas sobre estructura de quila formando una camara cerrada. 3. Introducir las piedras calientes en recipiente dentro de la camara. 4. Verter el agua de a poco sobre las piedras calientes para generar vapor. 5. Colocar las hojas de nocha sobre las piedras humedas (el vapor arrastrara sus aceites). 6. El paciente entra a la camara de vapor cubierto. Sesion de 15-20 minutos.",
-      "dosis": "Una sesion de 20 minutos, 2-3 veces por semana durante periodos de dolor agudo. Beber agua fresca despues de cada sesion.",
-      "modo_uso": "Bano de vapor (inhalacion y absorcion cutanea)",
-      "tiempo_prep": "60 minutos (incluyendo calentamiento de piedras)",
-      "dificultad": "Dificil",
-      "rendimiento": "1 sesion de vapor",
-      "conservacion": "No aplica (preparacion de uso inmediato)",
-      "evidencia": "Tecnica del ruka lawen (casa de la medicina) documentada en etnobotanica pewenche por el MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. Las bromeliáceas contienen saponinas triterpenicas con propiedades antiinflamatorias.",
-      "fuente_tradicion": "Mapuche Pewenche",
-      "contraindicaciones": "Contraindicado en hipertension arterial no controlada, enfermedades cardiovasculares agudas, epilepsia. No usar en embarazo avanzado (tercer trimestre). Evitar si hay fiebre activa. Acompanar siempre con persona de confianza por riesgo de mareo.",
-      "uso": "Tratamiento de dolores musculares, contracturas, reumatismo y fatiga profunda. Los pewenche lo usan especialmente para los peones y arrieros que trabajan en la cordillera. El vapor con nocha relaja la musculatura y abre los poros facilitando la eliminacion de toxinas.",
-      "principios_activos": "Saponinas esteroidas (nocha); acido silicico (quila); vapor de agua como vehiculo termoterapeutico",
+      "origen": "Europeo adaptado chileno",
+      "ingredientes": "1 puñado de flores secas de lavanda, 1 puñado de melisa, 1 puñado de hojas de tilo, 2 L de agua",
+      "preparacion": "Decocción de 10 min, colar y agregar al agua tibia de la tina. Sumergirse 15 a 20 min con luz baja respirando profundo.",
+      "dosis": "2 a 3 baños por semana en periodos de alta ansiedad",
+      "modo_uso": "Tópico - balneoterapia",
+      "tiempo_prep": "30 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Preparar al momento",
+      "evidencia": "ESCOP Lavandula angustifolia; estudios sobre linalol inhalado y reducción de cortisol salival (Koulivand 2013)",
+      "fuente_tradicion": "Europeo y popular chileno",
+      "contraindicaciones": "Hipotensión severa, heridas abiertas, embarazo primer trimestre",
+      "uso": "El linalol absorbido por piel y vías olfatorias activa receptores GABA y reduce actividad simpática autonómica.",
+      "principios_activos": "Linalol y acetato de linalilo (lavanda), citral y ácido rosmarínico (melisa), tiliroside (tilo); ansiolíticos por vía olfativa y dérmica",
       "propiedades": [
-        "analgesico",
+        "ansiolítico",
         "relajante muscular",
-        "antiinflamatorio",
-        "diaforetico"
+        "sedante",
+        "antiestrés",
+        "hipotensor suave"
       ],
-      "referencias": "MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. Gobierno de Chile. / Munoz-Schick M. (1973) Flores de Chile. Editorial Universitaria.",
-      "maternidad_segura": "segura"
+      "referencias": "Koulivand PH et al. 2013 Evid Based Complement Alternat Med; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "crisis de pánico",
+        "ansiedad generalizada",
+        "tensión muscular",
+        "estrés agudo",
+        "insomnio por agitación"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos (potencia hipotensión), sedantes",
+      "embarazo_lactancia": "Precaución primer trimestre; aceptable en lactancia",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "manzanilla",
+        "rosa",
+        "pasiflora"
+      ]
+    },
+    {
+      "id": 1171,
+      "titulo": "Baño de inmersión relajante de lavanda, tilo y avena",
+      "categoria": "Baño",
+      "origen": "Hidroterapia herbal europea",
+      "ingredientes": "50 g de flores de lavanda, 30 g de flores de tilo, 30 g de melisa, 100 g de avena integral en saco de tela, 2 cucharadas de sales de Epsom",
+      "preparacion": "Hervir 1 litro de agua con lavanda, tilo y melisa 15 minutos. Colar. Verter en tina de baño con agua tibia. Añadir saco de avena y sales. Sumergirse 20-30 minutos.",
+      "dosis": "2-3 veces por semana",
+      "modo_uso": "Baño completo",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Lavanda con efecto ansiolítico por inhalación (Koulivand, 2013); magnesio transdérmico discutido pero relajante",
+      "fuente_tradicion": "Hidroterapia naturista",
+      "contraindicaciones": "Hipertensión severa, cardiopatía descompensada, heridas abiertas extensas, embarazo en agua muy caliente.",
+      "uso": "Los terpenos de lavanda (linalool, acetato de linalilo) se absorben por vía pulmonar y dérmica activando receptores GABA, mientras la beta-glucano de avena forma película hidratante calmante sobre la piel y las sales aportan magnesio relajante muscular.",
+      "principios_activos": "Linalool, acetato de linalilo (lavanda): GABAérgico. Farnesol (tilo). Avenantramidas (avena): antiinflamatorias. Magnesio (sales).",
+      "propiedades": [
+        "relajante",
+        "sedante",
+        "calmante cutáneo",
+        "miorelajante"
+      ],
+      "referencias": [
+        "Koulivand PH. et al. Evid Based Complement Alternat Med (2013) 681304",
+        "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+      ],
+      "indicaciones_principales": [
+        "insomnio",
+        "estrés",
+        "piel sensible",
+        "fatiga muscular",
+        "ansiedad post-trabajo"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica relevante",
+      "embarazo_lactancia": "Agua templada (no caliente), sin Epsom en exceso",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "manzanilla",
+        "pasiflora"
+      ]
     }
   ]
 }

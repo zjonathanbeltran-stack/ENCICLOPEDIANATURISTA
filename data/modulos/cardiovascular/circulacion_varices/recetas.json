@@ -1,14 +1,50 @@
 {
-  "condicion": "Circulación / Várices",
   "modulo": "cardiovascular",
   "submodulo": "circulacion_varices",
-  "emoji": "🦵",
-  "descripcion": "Remedios para mejorar la circulación periférica, várices, piernas cansadas y mala circulación.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los baños de contraste frío/caliente y el meliloto son muy útiles para várices del embarazo. Evitar ginkgo biloba en primer trimestre. La elevación de piernas complementa estos remedios."
-  },
   "recetas": [
+    {
+      "id": 308,
+      "titulo": "Té de Jengibre y Canela para mejorar la circulación",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 trozo de jengibre fresco (2 cm) rallado, 1 rama de canela, 1 cucharadita de miel, 1 taza de agua.",
+      "preparacion": "Hervir jengibre y canela en agua por 10 minutos. Colar, agregar miel. Beber caliente.",
+      "dosis": "1 taza en la mañana y 1 taza en la tarde. No superar 2 tazas/día.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "13 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Consultar en tratamiento con anticoagulantes (warfarina, aspirina). Contraindicado en cálculos biliares en dosis altas.",
+      "uso": "Mejorar la circulación: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antimicrobiano"
+      ],
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Mala circulación periférica",
+        "Extremidades frías",
+        "Fatiga",
+        "Dispepsia",
+        "Náuseas"
+      ],
+      "interacciones_medicamentos": "Jengibre potencia anticoagulantes (warfarina, aspirina), antidiabéticos y antihipertensivos; precaución con calcio-antagonistas.",
+      "embarazo_lactancia": "Jengibre aceptable en embarazo en dosis bajas (<1g/día); seguro en lactancia.",
+      "duracion_tratamiento": "Uso continuo seguro en dosis culinarias; dosis medicinales máximo 4 semanas.",
+      "sinergia_plantas": [
+        "maqui",
+        "romero",
+        "cedrón"
+      ]
+    },
     {
       "id": 311,
       "titulo": "Té de Romero para la circulación periférica",
@@ -35,7 +71,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 319,
@@ -64,7 +113,101 @@
         "ansiolítico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 323,
+      "titulo": "Infusión de Paico para depuración y circulación",
+      "categoria": "Cardiovascular",
+      "origen": "Saber Ancestral",
+      "ingredientes": "1 cucharadita de hojas de paico seco, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 8 minutos tapado. Colar. Beber tibio.",
+      "dosis": "1 taza en ayunas, máximo 3 veces por semana. No usar más de 2 semanas seguidas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo (puede causar aborto). Tóxico en dosis altas. No exceder la dosis recomendada.",
+      "uso": "Depuración y circulación: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+      "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
+      "propiedades": [
+        "antiparasitario",
+        "vermífugo",
+        "digestivo",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 324,
+      "titulo": "Té de Molle para circulación y dolor reumático cardiovascular",
+      "categoria": "Cardiovascular",
+      "origen": "Saber Ancestral",
+      "ingredientes": "1 cucharadita de hojas de molle seca, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio.",
+      "dosis": "1 taza 2 veces al día. Máximo 3 semanas continuas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Consultar en embarazo. Puede causar reacciones alérgicas en personas sensibles a la familia Anacardiaceae (relacionado con el mango).",
+      "uso": "Circulación y dolor reumático cardiovascular: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
+      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
+      "propiedades": [
+        "cicatrizante",
+        "hemostático",
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente"
+      ],
+      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 460,
@@ -92,35 +235,20 @@
         "antiagregante"
       ],
       "referencias": "Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 466,
-      "titulo": "Té de Rosa Canina y Escaramujo",
-      "categoria": "Cardiovascular",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "2 cucharadas de escaramujos (frutos de rosa canina) secos, 400 ml de agua",
-      "preparacion": "Hervir los escaramujos aplastados 15 min. Colar con malla fina.",
-      "dosis": "2 tazas al día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "18 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 48 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "En grandes cantidades puede favorecer cálculos renales de oxalato",
-      "uso": "Regeneración cutánea, cicatrización de quemaduras e hiperpigmentación: el aceite del fruto estimula fibroblastos, favorece la síntesis de colágeno y aporta intensa protección antioxidante.",
-      "principios_activos": "Ácido ascórbico (300-500 mg/100g): cofactor de la hidroxilación del colágeno e inmunomodulador. Ácidos grasos esenciales (ω-6 linoléico, ω-3 α-linolénico): mantienen la barrera lipídica cutánea. Ácido trans-retinoico (precursor vitamina A): estimula la renovación celular epidérmica. Carotenoides (licopeno, β-caroteno): antioxidantes potentes.",
-      "propiedades": [
-        "cicatrizante",
-        "regenerador cutáneo",
-        "antioxidante",
-        "inmunoestimulante",
-        "antiinflamatorio"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 768,
@@ -140,7 +268,27 @@
       "contraindicaciones": "Anticoagulante; no usar con warfarina ni antes de cirugías",
       "uso": "Varices. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 769,
@@ -160,35 +308,67 @@
       "contraindicaciones": "No usar en enfermedades cardiovasculares graves sin consulta médica",
       "uso": "Circulación. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
-      "id": 771,
-      "titulo": "Té de Ginkgo y Espino Blanco",
+      "id": 950,
+      "titulo": "Infusion de Trébol Rojo para la Circulacion",
       "categoria": "Cardiovascular",
-      "origen": "Medicina Integrativa",
-      "ingredientes": "1/2 cucharadita de ginkgo biloba seco, 1/2 cucharadita de espino blanco seco, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
-      "dosis": "2 tazas al día",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharada de flores de trebol rojo seco, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir 12 min. Colar.",
+      "dosis": "2 tazas al dia",
       "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "18 min",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "2 tazas",
       "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina integrativa europea",
-      "contraindicaciones": "Anticoagulantes naturales; no usar con warfarina; consultar médico",
-      "uso": "Insuficiencia cerebrovascular leve, trastornos de la memoria y demencia incipiente: los terpenoides mejoran la microcirculación cerebral y los flavonoides protegen las neuronas del estrés oxidativo.",
-      "principios_activos": "Ginkgólidos A, B, C (diterpenos lactónicos): antagonistas del factor activador de plaquetas (PAF) reduciendo la viscosidad sanguínea y mejorando la microcirculación cerebral. Bilobalida (sesquiterpeno único): protege la función mitocondrial neuronal. Flavonol glucósidos: neutralizan radicales libres protegiendo membranas neuronales.",
-      "propiedades": [
-        "nootrópico",
-        "vasodilatador cerebral",
-        "neuroprotector",
-        "antioxidante",
-        "antiagregante"
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No en cancer hormono-dependiente; consultar medico",
+      "uso": "Circulacion. Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 953,
@@ -208,7 +388,27 @@
       "contraindicaciones": "No en embarazo; puede afectar la prostata",
       "uso": "Circulacion. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 996,
@@ -228,7 +428,27 @@
       "contraindicaciones": "No usar en piel con heridas",
       "uso": "Circulacion. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     }
   ]
 }

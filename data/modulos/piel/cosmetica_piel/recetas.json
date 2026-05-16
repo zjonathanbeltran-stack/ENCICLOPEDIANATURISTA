@@ -1,42 +1,7 @@
 {
-  "condicion": "Cosmética Natural",
   "modulo": "piel",
   "submodulo": "cosmetica_piel",
-  "emoji": "✨",
-  "descripcion": "Mascarillas, cremas, tónicos y cosméticos naturales para el cuidado de la piel.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Los cosméticos naturales con avena, miel, aloe y aceites vegetales son seguros y recomendados en embarazo. Evitar retinol concentrado y aceites esenciales en primer trimestre."
-  },
   "recetas": [
-    {
-      "id": 60,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmético",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
     {
       "id": 63,
       "titulo": "Enjuague de Caléndula para la Piel Grasa",
@@ -63,7 +28,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 67,
@@ -91,7 +69,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 78,
@@ -111,35 +102,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Seca. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 85,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmética Natural",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Macerar las hojas de romero en la mezcla de alcohol y agua durante 10 días. Aplicar sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Avanzado",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
       ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 89,
@@ -167,7 +150,20 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 107,
@@ -195,7 +191,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 132,
@@ -215,7 +224,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 133,
@@ -244,7 +273,20 @@
         "digestivo"
       ],
       "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 144,
@@ -272,7 +314,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 146,
@@ -300,7 +355,21 @@
         "antifúngico"
       ],
       "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Acné leve a moderado",
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 154,
@@ -328,7 +397,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 155,
@@ -348,7 +430,68 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
+    },
+    {
+      "id": 160,
+      "titulo": "Crema de Matico (Pañil)",
+      "categoria": "Cicatrizante",
+      "origen": "Popular",
+      "ingredientes": "Hojas de matico, manteca.",
+      "preparacion": "Derretir la manteca a fuego lento con las hojas de matico. Una vez que tome color verde, retirar, colar y dejar enfriar. Aplicar cuidadosamente sobre heridas para acelerar la recuperación.",
+      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "12 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–3 aplicaciones por preparación",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
+      "uso": "Cicatrización de heridas, úlceras gástricas e inflamación dérmica: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
+      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
+      "propiedades": [
+        "cicatrizante",
+        "hemostático",
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente"
+      ],
+      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 163,
@@ -376,7 +519,20 @@
         "astringente"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 167,
@@ -404,7 +560,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 168,
@@ -424,7 +593,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Seca. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 175,
@@ -452,7 +641,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 176,
@@ -480,7 +682,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 177,
@@ -500,7 +715,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "La Piel. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Cucurbitacinas B y D: antiinflamatorias y hepatoprotectoras. Silicio orgánico: regenerador dérmico y antiedad. Vitaminas C y K: antioxidante y hemostática. Ácido cafeico: antiinflamatorio.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 178,
@@ -528,7 +763,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 179,
@@ -556,7 +804,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 180,
@@ -584,7 +845,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 181,
@@ -612,7 +886,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 182,
@@ -640,7 +927,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 183,
@@ -668,7 +968,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 184,
@@ -696,7 +1009,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 185,
@@ -724,7 +1050,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 186,
@@ -744,7 +1083,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Grasa. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 187,
@@ -772,7 +1131,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 188,
@@ -800,7 +1172,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 189,
@@ -828,7 +1213,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 190,
@@ -848,7 +1246,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Grasa. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Silicatos de aluminio hidratados (montmorillonita, caolín): adsorbentes de toxinas y agentes antimicrobianos físicos. Minerales (sílice, magnesio, calcio, hierro): remineralizantes. Efecto osmótico: reduce la inflamación cutánea y el exceso de sebo.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 191,
@@ -877,7 +1295,20 @@
         "antimicrobiano"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 192,
@@ -897,7 +1328,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Mixta. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Carbón activado (carbono amorfo poroso): adsorbente de toxinas y exceso de sebo; efecto detox dérmico. Minerales de silicato: absorbentes de impurezas. pH neutro: compatible con todos los tipos de piel.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 193,
@@ -917,7 +1368,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Grasa. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Vitaminas del complejo B (B1, B2, B3, B6, B9): cofactores de renovación celular epidérmica. Beta-glucanos de Saccharomyces: inmunomoduladores y equilibradores de sebo. Zinc y selenio: antiséborreicos y antioxidantes.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 194,
@@ -945,7 +1416,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 195,
@@ -973,7 +1457,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 196,
@@ -1001,7 +1498,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 197,
@@ -1021,7 +1531,27 @@
       "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
       "uso": "Piel Seca. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 198,
@@ -1049,7 +1579,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 199,
@@ -1077,7 +1620,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 200,
@@ -1105,7 +1661,102 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
+    },
+    {
+      "id": 438,
+      "titulo": "Crema de Caléndula y Manteca de Cacao",
+      "categoria": "Dermatológico",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1/2 taza de aceite de caléndula macerado, 2 cucharadas de cera de abeja, 2 cucharadas de manteca de cacao",
+      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el aceite. Mezclar bien. Verter en tarros. Dejar solidificar.",
+      "dosis": "Aplicar 2-3 veces al día en zona afectada",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "25 min + enfriado",
+      "dificultad": "Medio",
+      "rendimiento": "150 g",
+      "conservacion": "Temperatura ambiente 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en heridas abiertas profundas; alergia a crisantemas posible",
+      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
+    },
+    {
+      "id": 446,
+      "titulo": "Mascarilla de Arcilla Blanca y Manzanilla",
+      "categoria": "Dermatológico",
+      "origen": "Cosmética Natural",
+      "ingredientes": "2 cucharadas de arcilla blanca (caolín), infusión concentrada de manzanilla",
+      "preparacion": "Preparar infusión concentrada de manzanilla. Mezclar con la arcilla hasta obtener pasta.",
+      "dosis": "Aplicar en rostro 15 min, 1 vez por semana",
+      "modo_uso": "Aplicar capa uniforme; retirar con agua tibia",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 mascarilla",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Cosmética natural",
+      "contraindicaciones": "No usar en piel muy seca; puede resecar",
+      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 448,
@@ -1125,7 +1776,27 @@
       "contraindicaciones": "Generalmente seguro; puede manchar temporalmente",
       "uso": "Ojeras. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Catequinas (galato de epigalocatequina — EGCG): antioxidantes vasculares y antiinflamatorios. Cafeína y teobromina: vasoconstrictores que reducen ojeras y edema periocular. Taninos: astringentes que tensan la piel.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 452,
@@ -1153,7 +1824,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 613,
@@ -1181,7 +1865,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 614,
@@ -1209,7 +1906,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 615,
@@ -1229,7 +1939,27 @@
       "contraindicaciones": "No aplicar directamente en el ojo",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 616,
@@ -1258,7 +1988,20 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 617,
@@ -1278,7 +2021,27 @@
       "contraindicaciones": "No usar en alergia a productos apícolas",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 618,
@@ -1298,7 +2061,27 @@
       "contraindicaciones": "Generalmente seguro; puede tapar poros en acné severo",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 619,
@@ -1326,7 +2109,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 620,
@@ -1355,7 +2151,20 @@
         "digestivo"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 621,
@@ -1383,7 +2192,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 622,
@@ -1412,7 +2234,20 @@
         "emoliente"
       ],
       "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 623,
@@ -1440,7 +2275,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 624,
@@ -1460,7 +2308,27 @@
       "contraindicaciones": "No aplicar en heridas; diferente al aluminio de antitranspirantes industriales",
       "uso": "Desodorante. Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Sulfato de aluminio y potasio (KAl(SO₄)₂): astringente que contrae los poros y reduce la transpiración. Actividad antimicrobiana: inhibe bacterias causantes del olor por cambio de pH. Efecto hemostático leve.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 625,
@@ -1480,7 +2348,28 @@
       "contraindicaciones": "No usar puro sin diluir; puede irritar mucosas; no en embarazo",
       "uso": "Cuidado cosmético de la piel.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Acné leve a moderado",
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "principios_activos": "Ésteres de cera líquida (ácido gadolénico y erúcico): estructuralmente análogos al sebo humano; regulan el sebo sin obstruir poros. Vitamina E y vitamina B: nutritivos. Miristo: antiinflamatorio dérmico.",
+      "propiedades": [
+        "emoliente",
+        "antioxidante",
+        "regenerante celular",
+        "fotoprotector"
+      ]
     },
     {
       "id": 626,
@@ -1509,7 +2398,20 @@
         "antimicrobiano"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 627,
@@ -1537,35 +2439,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 628,
-      "titulo": "Tinte Natural de Henna para el Cabello",
-      "categoria": "Cosmético",
-      "origen": "Tradición India y Árabe",
-      "ingredientes": "100 g de henna en polvo, 200 ml de té negro fuerte, 1 cucharada de aceite de coco, jugo de limón",
-      "preparacion": "Mezclar la henna con el té hasta obtener pasta. Agregar aceite y limón. Reposar 2 horas.",
-      "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
-      "modo_uso": "Usar guantes; puede manchar la piel",
-      "tiempo_prep": "4 horas total",
-      "dificultad": "Medio",
-      "rendimiento": "1 aplicación",
-      "conservacion": "Preparar fresco (usar el mismo día)",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición india y árabe",
-      "contraindicaciones": "No usar en alergia a la henna; puede interactuar con tintes químicos previos",
-      "uso": "Cabello: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 629,
@@ -1593,7 +2480,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 630,
@@ -1621,7 +2521,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 631,
@@ -1649,7 +2562,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 632,
@@ -1677,7 +2603,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
     },
     {
       "id": 962,
@@ -1705,7 +2644,181 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ]
+    },
+    {
+      "id": 1172,
+      "titulo": "Crema cicatrizante de matico, caléndula y miel",
+      "categoria": "Cicatrizante",
+      "origen": "Etnomedicina mapuche y europea",
+      "ingredientes": "50 ml de oleato de matico, 30 ml de oleato de caléndula, 10 g de cera de abejas, 1 cucharadita de miel de ulmo, 5 gotas de vitamina E, 3 gotas aceite esencial de lavanda",
+      "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
+      "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
+      "modo_uso": "Crema tópica",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Media",
+      "rendimiento": "90 g",
+      "conservacion": "6 meses refrigerada o lugar fresco",
+      "evidencia": "Caléndula acelera epitelización en heridas (Khairnar, 2013); matico con uso etnobotánico documentado",
+      "fuente_tradicion": "Mapuche (matico) y europea (caléndula)",
+      "contraindicaciones": "Alergia a asteráceas. Heridas infectadas requieren manejo médico. No usar en quemaduras graves.",
+      "uso": "Los triterpenos de caléndula estimulan fibroblastos y angiogénesis acelerando cicatrización en 30-50% según estudios, mientras el verbascósido del matico tiene acción antibacteriana y antiinflamatoria, y la miel aporta defensina-1 antibacteriana y mantiene ambiente húmedo óptimo.",
+      "principios_activos": "Faradiol (caléndula): cicatrizante. Verbascósido (matico): antibacteriano. Defensina-1 (miel). Tocoferol (vit. E).",
+      "propiedades": [
+        "cicatrizante",
+        "epitelizante",
+        "antibacteriano",
+        "antiinflamatorio",
+        "regenerador"
+      ],
+      "referencias": [
+        "Khairnar MS. et al. J Indian Soc Periodontol (2013) 17:741",
+        "Della Loggia R. et al. Planta Med (1994) 60:516"
+      ],
+      "indicaciones_principales": [
+        "heridas superficiales",
+        "quemaduras leves",
+        "raspaduras",
+        "úlceras pequeñas",
+        "irritación cutánea"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro tópico",
+      "duracion_tratamiento": "Hasta cicatrización completa",
+      "sinergia_plantas": [
+        "llantén",
+        "árnica (no en heridas abiertas)"
+      ]
+    },
+    {
+      "id": 1173,
+      "titulo": "Mascarilla facial purificante de manzanilla, miel y arcilla verde",
+      "categoria": "Cosmético",
+      "origen": "Cosmética natural mediterránea",
+      "ingredientes": "1 cucharada de arcilla verde, 1 cucharada de infusión concentrada de manzanilla, 1 cucharadita de miel, 1/2 cucharadita de jugo de limón (omitir si piel sensible), 2 gotas de aceite de jojoba",
+      "preparacion": "Preparar infusión muy concentrada de manzanilla. Mezclar todos los ingredientes hasta pasta homogénea. Aplicar capa media sobre rostro limpio evitando ojos.",
+      "dosis": "Dejar actuar 10-15 minutos, retirar con agua tibia. 1-2 veces por semana.",
+      "modo_uso": "Mascarilla facial",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Bisabolol de manzanilla con eficacia antiinflamatoria cutánea (Maliehe, 2018)",
+      "fuente_tradicion": "Cosmética natural",
+      "contraindicaciones": "Piel con heridas, rosácea severa, alergia a asteráceas. Omitir limón en pieles muy sensibles.",
+      "uso": "La arcilla verde adsorbe sebo, toxinas y bacterias por intercambio iónico, el bisabolol y camazuleno de manzanilla inhiben la liberación de histamina mastocitaria y la miel mantiene equilibrio osmótico cutáneo aportando ácidos orgánicos exfoliantes suaves.",
+      "principios_activos": "Bisabolol, camazuleno (manzanilla): antiinflamatorios. Silicatos (arcilla): adsorbentes. Glucónico, oxálico (miel). Limoneno (limón).",
+      "propiedades": [
+        "purificante",
+        "antiinflamatorio",
+        "regulador seborreico",
+        "iluminador",
+        "calmante"
+      ],
+      "referencias": [
+        "Maliehe TS. et al. Saudi J Biol Sci (2018) 25:1547",
+        "Burlando B. et al. J Cosmet Dermatol (2013) 12:306"
+      ],
+      "indicaciones_principales": [
+        "piel grasa",
+        "puntos negros",
+        "acné leve",
+        "tez apagada",
+        "poros dilatados"
+      ],
+      "interacciones_medicamentos": "Cuidado con retinoides tópicos (esperar 12 horas)",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "caléndula",
+        "lavanda"
+      ]
+    },
+    {
+      "id": 1201,
+      "titulo": "Crema corporal nutritiva de caléndula, manzanilla y avena",
+      "categoria": "Dermatológico",
+      "origen": "Cosmética natural moderna",
+      "ingredientes": "50 ml de oleato de caléndula, 30 ml de aceite de almendras, 20 ml de aceite de jojoba, 10 g de cera de abejas, 5 g de manteca de karité, 1 cucharadita de polvo de avena coloidal, 10 gotas de aceite esencial de manzanilla romana, 5 gotas de vitamina E",
+      "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
+      "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
+      "modo_uso": "Crema corporal",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Media",
+      "rendimiento": "120 g",
+      "conservacion": "4-6 meses en frasco hermético",
+      "evidencia": "Avena coloidal con evidencia en dermatitis atópica (Reynertson, 2015)",
+      "fuente_tradicion": "Cosmética natural",
+      "contraindicaciones": "Alergia a asteráceas o avena. Pieles con heridas requieren manejo médico.",
+      "uso": "La avena coloidal forma película hidratante que retiene humedad y aporta betaglucanos antiinflamatorios cutáneos, los triterpenos de caléndula promueven reparación de barrera cutánea y el bisabolol de manzanilla reduce histamina mastocitaria local mejorando prurito.",
+      "principios_activos": "Avenantramidas, beta-glucanos (avena). Faradiol (caléndula). Bisabolol (manzanilla). Vitamina E.",
+      "propiedades": [
+        "hidratante",
+        "antiinflamatorio cutáneo",
+        "regenerador",
+        "antipruriginoso",
+        "calmante"
+      ],
+      "referencias": [
+        "Reynertson KA. et al. J Drugs Dermatol (2015) 14:43",
+        "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+      ],
+      "indicaciones_principales": [
+        "piel seca",
+        "dermatitis atópica leve",
+        "eccema",
+        "prurito",
+        "piel sensible reactiva"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "llantén",
+        "lavanda"
+      ]
+    },
+    {
+      "titulo": "Aceite de Rosa Mosqueta para prevención de estrías",
+      "categoria": "Cosmético",
+      "origen": "Medicina tradicional chilena",
+      "ingredientes": "- Aceite puro de rosa mosqueta prensado en frío (uso directo).",
+      "preparacion": "- El aceite se usa directamente, sin preparación adicional.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición chilena",
+      "contraindicaciones": "- Alergia conocida al aceite de rosa mosqueta. - No aplicar sobre heridas abiertas. - Evitar el contacto con los ojos.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Sí (uso externo)",
+      "duracion_tratamiento": "Uso prolongado seguro durante todo el embarazo",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro (uso externo)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1294
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Gastritis / Acidez / Reflujo",
   "modulo": "digestivo",
   "submodulo": "gastritis_acidez",
-  "emoji": "🔥",
-  "descripcion": "Remedios para gastritis, acidez estomacal, reflujo gastroesofagico e inflamacion de mucosa gastrica.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La gastritis es comun en el embarazo. La manzanilla y el matico son seguros. Evitar regaliz en dosis altas. Consultar medico si los sintomas son intensos."
-  },
   "recetas": [
     {
       "id": 126,
@@ -35,7 +28,20 @@
         "astringente"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 393,
@@ -63,7 +69,20 @@
         "carminativo"
       ],
       "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 400,
@@ -92,7 +111,20 @@
         "antimicrobiano"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 703,
@@ -112,27 +144,27 @@
       "contraindicaciones": "Generalmente seguro en cantidades normales",
       "uso": "Acidez. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 708,
-      "titulo": "Caldo de Manzana y Canela para el Estómago",
-      "categoria": "Digestivo",
-      "origen": "Tradición Universal",
-      "ingredientes": "3 manzanas peladas y cortadas, 1 rama de canela, 500 ml de agua",
-      "preparacion": "Hervir todo 20 min. Colar o servir como compota.",
-      "dosis": "1 taza del caldo o 1/2 taza de compota con las comidas",
-      "modo_uso": "La pectina de la manzana tiene efecto protector gástrico",
-      "tiempo_prep": "25 min",
-      "dificultad": "Fácil",
-      "rendimiento": "500 ml",
-      "conservacion": "Refrigerar 3 días",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición universal de medicina popular",
-      "contraindicaciones": "No agregar azúcar; la manzana ya endulza",
-      "uso": "Estómago. Apoyo digestivo.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 709,
@@ -152,35 +184,27 @@
       "contraindicaciones": "Hipertensivo; no en hipertensión, embarazo, insuficiencia cardiaca",
       "uso": "Gastritis. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 715,
-      "titulo": "Té de Manzanilla con Regaliz para Intestino Irritable",
-      "categoria": "Digestivo",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "1 cucharadita de manzanilla seca, 1/4 cucharadita de raíz de regaliz seca, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir ambas plantas 12 min. Colar.",
-      "dosis": "2-3 tazas al día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "El regaliz es hipertensivo; no usar en embarazo o hipertensión",
-      "uso": "Intestino Irritable: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-      "propiedades": [
-        "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
       ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Glicirricina (triterpeno saponínnico): antiinflamatoria 50x más potente que cortisona a dosis terapéuticas; gastroprotectora. Glicirretina: inhibidora de 11-β-HSD (efecto mineralocorticoide). Isoflavonoides: antioxidantes.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 943,
@@ -208,7 +232,20 @@
         "hidratante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 1073,
@@ -235,7 +272,104 @@
         "cicatrizante mucosas"
       ],
       "referencias": "Montenegro G. (2000) Medicinal plants of Chile. Universidad de Chile. / Murano E. (1995) Chemical structure of carrageenans. J Appl Phycol.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 1137,
+      "titulo": "Cocimiento gástrico de matico y llantén para gastritis y reflujo",
+      "categoria": "Digestivo",
+      "origen": "Mapuche",
+      "ingredientes": "1 cda de hojas de matico secas, 1 cda de hojas de llantén secas, 500 ml de agua",
+      "preparacion": "Calentar agua, agregar hierbas y cocer 5 min a fuego muy bajo. Reposar tapado 10 min. Colar.",
+      "dosis": "1/2 taza tibia 20 min antes de cada comida principal por 14 días",
+      "modo_uso": "Oral - decocción suave",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerado 24 h en vidrio",
+      "evidencia": "Estudios de Backhouse et al. sobre Buddleja globosa (matico) con actividad gastroprotectora y antiulcerosa; ESCOP Plantago",
+      "fuente_tradicion": "Mapuche y chilota",
+      "contraindicaciones": "Hipersensibilidad, no exceder 3 semanas continuas, precaución en hipotensión",
+      "uso": "Mucílagos forman película protectora sobre la mucosa gástrica y los iridoides reducen inflamación local.",
+      "principios_activos": "Verbascósido y mimulósido del matico, aucubina y mucílagos del llantén; antiinflamatorios y citoprotectores gástricos",
+      "propiedades": [
+        "gastroprotector",
+        "cicatrizante de mucosas",
+        "antiinflamatorio",
+        "antiácido suave",
+        "antimicrobiano"
+      ],
+      "referencias": "Backhouse N et al. 2008 J Ethnopharmacol; Hoffmann 1992; Mosquera 2017 Bol Latinoam Plantas Med",
+      "indicaciones_principales": [
+        "gastritis crónica",
+        "reflujo leve",
+        "úlcera péptica no sangrante",
+        "dispepsia funcional",
+        "post-erradicación H. pylori"
+      ],
+      "interacciones_medicamentos": "Antiácidos y omeprazol (puede reducir absorción si se toman juntos, separar 2 h)",
+      "embarazo_lactancia": "Precaución en embarazo; aceptable en lactancia en dosis bajas",
+      "duracion_tratamiento": "Máximo 3 semanas, evaluar continuidad",
+      "sinergia_plantas": [
+        "manzanilla",
+        "regaliz",
+        "caléndula"
+      ]
+    },
+    {
+      "titulo": "Infusión de Regaliz DGL para gastritis y acidez",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de raíz de regaliz\n  desglicirrizinado (DGL) cortada.\n- 150 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la raíz.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día, preferiblemente 20-30\nminutos antes de las comidas. — El DGL puede usarse durante periodos\nprolongados.\n\nCONTRAINDICACIONES (REGALIZ NORMAL):\n- Hipertensión arterial, hipopotasemia, insuficiencia\n  renal, cirrosis, embarazo y lactancia.\n- El DGL elimina la mayoría de estos riesgos, pero debe\n  usarse con precaución en estos grupos.\n\nINTERACCIONES (REGALIZ NORMAL): Potencia corticosteroides,\ncausa pérdida de potasio (riesgo con diuréticos/digoxina),\naumenta la presión arterial. El DGL tiene interacciones muy\nreducidas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Modern phytotherapy and its uses in gastrointestinal\nconditions\" (PubMed). Diversos estudios in vitro e in vivo\nrespaldan su uso para proteger la mucosa gástrica y combatir\nH. pylori.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "",
+      "id": 1363,
+      "uso": "Alivio de los síntomas de gastritis, acidez\ny reflujo gastroesofágico. Protección de la mucosa gástrica.",
+      "planta_principal": "Regaliz (Glycyrrhiza glabra) desglicirrizinado (DGL)",
+      "efectos_secundarios_nota": "El consumo excesivo y prolongado de\nregaliz normal puede causar pseudoaldosteronismo. El DGL\ncarece de estos efectos graves.",
+      "nivel_seguridad": "✅ Seguro (DGL)"
+    },
+    {
+      "titulo": "Infusión de Regaliz DGL para protección gástrica",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (2 g) de raíz de regaliz desglicirrizinado (DGL) cortada.\n- 150 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la raíz.\n2. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "1 taza, 2-3 veces al día después de las comidas o al aparecer molestias. — El DGL puede usarse por periodos prolongados.\n\nCONTRAINDICACIONES (REGALIZ NORMAL):\n- Hipertensión, hipopotasemia, insuficiencia renal, cirrosis, embarazo y lactancia.\n- El DGL elimina la mayoría de estos riesgos, pero usar con precaución.\n\nINTERACCIONES (REGALIZ NORMAL): Potencia corticosteroides, causa pérdida de potasio (riesgo con diuréticos/digoxina), aumenta presión arterial. El DGL tiene interacciones muy reducidas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Modern phytotherapy and its uses in gastrointestinal conditions\" - PubMed.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "",
+      "id": 1369,
+      "uso": "Alivio de la acidez gástrica, pirosis y molestias por hiperacidez.",
+      "planta_principal": "Regaliz (Glycyrrhiza glabra) desglicirrizinado",
+      "efectos_secundarios_nota": "El consumo excesivo y prolongado de regaliz normal puede causar pseudoaldosteronismo. El DGL carece de estos efectos graves.",
+      "nivel_seguridad": "✅ Seguro (DGL)"
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Problemas de Piel",
   "modulo": "piel",
   "submodulo": "problemas_piel",
-  "emoji": "🌿",
-  "descripcion": "Remedios para eccema, dermatitis, acné, psoriasis, verrugas y afecciones cutáneas.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "La mayoría de los remedios dermatológicos tópicos son seguros en embarazo. Evitar gobernadora por vía interna. El aceite de coco, la manzanilla y la caléndula son especialmente seguros."
-  },
   "recetas": [
     {
       "id": 12,
@@ -35,7 +28,21 @@
         "antifúngico"
       ],
       "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "eccemas",
+        "psoriasis leve",
+        "dermatitis seborreica",
+        "picazón crónica localizada"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Evitar en piel con corticoides tópicos potentes simultáneos.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicar 2 veces al día por 2-4 semanas; descansar antes de retomar.",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "caléndula",
+        "manzanilla"
+      ]
     },
     {
       "id": 19,
@@ -55,7 +62,27 @@
       "contraindicaciones": "Uso bajo orientación de especialista. Datos de seguridad limitados.",
       "uso": "Alergias. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 40,
@@ -84,63 +111,21 @@
         "mucolítico"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 58,
-      "titulo": "Aceite de Hipérico para Quemaduras",
-      "categoria": "Dermatológico",
-      "origen": "Urbano",
-      "ingredientes": "Flores frescas de Hipérico (Hierba de San Juan), aceite de oliva.",
-      "preparacion": "Macerar las flores en aceite de oliva al sol por 3-4 semanas. Filtrar. Aplicar sobre quemaduras leves, cortes y para aliviar el dolor muscular. También sirve para tratar la ciática y el nervio ciático.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — loción, compresa o lavado",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Quemaduras: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.",
-      "principios_activos": "Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.",
-      "propiedades": [
-        "antidepresivo",
-        "ansiolítico",
-        "antiviral",
-        "antiinflamatorio",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Eccema",
+        "Prurito",
+        "Irritaciones cutáneas leves",
+        "Dolor muscular localizado",
+        "Picaduras de insecto"
       ],
-      "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 64,
-      "titulo": "Tintura de Caléndula Cicatrizante",
-      "categoria": "Dermatológico",
-      "origen": "Urbano",
-      "ingredientes": "Flor de caléndula, alcohol 40°.",
-      "preparacion": "Sirve para tratar golpes, heridas sin sangrado, moretones, cicatrices, torceduras, esguinces, para cuidar la piel en general.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — loción, compresa o lavado",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antiséptico",
-        "emoliente",
-        "antifúngico"
-      ],
-      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Uso tópico; quillay contiene saponinas que pueden irritar mucosas; sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Aceptable en embarazo y lactancia en uso tópico moderado; evitar en mamas durante lactancia.",
+      "duracion_tratamiento": "Aplicación 2-3 veces al día hasta 2 semanas.",
+      "sinergia_plantas": [
+        "caléndula",
+        "matico",
+        "llantén"
+      ]
     },
     {
       "id": 74,
@@ -160,7 +145,27 @@
       "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
       "uso": "La Piel. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 91,
@@ -189,83 +194,20 @@
         "mucolítico"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 95,
-      "titulo": "Cataplasma de Gobernadora para la Piel",
-      "categoria": "Dermatológico",
-      "origen": "Norte Grande",
-      "ingredientes": "Hojas de gobernadora, agua.",
-      "preparacion": "Machacar las hojas frescas y aplicarlas sobre heridas, hongos o sarna. Es un potente antiséptico natural.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La Piel. Tratamiento dermatológico.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 102,
-      "titulo": "Pomada de Calendula y Aceite de Oliva",
-      "categoria": "Dermatológico",
-      "origen": "Popular",
-      "ingredientes": "Flores de caléndula, aceite de oliva, cera de abejas.",
-      "preparacion": "Calentar el aceite con las flores a fuego muy lento (baño maría) por una hora. Colar y añadir cera de abejas hasta que espese. Aplicar sobre piel irritada, quemaduras leves o heridas.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "12 min",
-      "dificultad": "Medio",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antiséptico",
-        "emoliente",
-        "antifúngico"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
       ],
-      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 159,
-      "titulo": "Pomada de Manzanilla de Cobre",
-      "categoria": "Dermatológico",
-      "origen": "Popular",
-      "ingredientes": "Flores de manzanilla, cobre.",
-      "preparacion": "Macerar manzanilla y cobre, se afirma que ayuda a curar aftas, llagas y hongos.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-      "propiedades": [
-        "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante"
-      ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
     },
     {
       "id": 172,
@@ -285,35 +227,27 @@
       "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
       "uso": "La Piel. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 438,
-      "titulo": "Crema de Caléndula y Manteca de Cacao",
-      "categoria": "Dermatológico",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "1/2 taza de aceite de caléndula macerado, 2 cucharadas de cera de abeja, 2 cucharadas de manteca de cacao",
-      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el aceite. Mezclar bien. Verter en tarros. Dejar solidificar.",
-      "dosis": "Aplicar 2-3 veces al día en zona afectada",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "25 min + enfriado",
-      "dificultad": "Medio",
-      "rendimiento": "150 g",
-      "conservacion": "Temperatura ambiente 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No usar en heridas abiertas profundas; alergia a crisantemas posible",
-      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
       "propiedades": [
         "antiinflamatorio",
         "cicatrizante",
-        "antiséptico",
-        "emoliente",
-        "antifúngico"
-      ],
-      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 439,
@@ -333,35 +267,27 @@
       "contraindicaciones": "Generalmente seguro; muy raro que cause alergia a avena",
       "uso": "Dermatitis. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 446,
-      "titulo": "Mascarilla de Arcilla Blanca y Manzanilla",
-      "categoria": "Dermatológico",
-      "origen": "Cosmética Natural",
-      "ingredientes": "2 cucharadas de arcilla blanca (caolín), infusión concentrada de manzanilla",
-      "preparacion": "Preparar infusión concentrada de manzanilla. Mezclar con la arcilla hasta obtener pasta.",
-      "dosis": "Aplicar en rostro 15 min, 1 vez por semana",
-      "modo_uso": "Aplicar capa uniforme; retirar con agua tibia",
-      "tiempo_prep": "20 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 mascarilla",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Cosmética natural",
-      "contraindicaciones": "No usar en piel muy seca; puede resecar",
-      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
       "propiedades": [
         "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante"
-      ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 449,
@@ -381,7 +307,27 @@
       "contraindicaciones": "Puede tapar poros en acné; no aplicar en heridas infectadas",
       "uso": "Piel Reseca. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 958,
@@ -401,7 +347,27 @@
       "contraindicaciones": "Puede irritar piel muy sensible; verificar alergia",
       "uso": "Eccema. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Timoquinona (benzoquinona): antiinflamatoria potente; inhibe COX-1/2, LOX y producción de citoquinas. Nigelona: antihistamínica y antiasmática. Aceite fijo (ácido linoleico, ácido linolénico): regenerador dérmico y antiinflamatorio.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 961,
@@ -421,7 +387,27 @@
       "contraindicaciones": "Generalmente seguro",
       "uso": "Piel Inflamada. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "EGCG (epigalocatequina galato): antioxidante 25x más potente que vitamina C; antiinflamatorio. L-teanina: ansiolítico y neuroprotector. Cafeína: estimulante circulatorio y energizante.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 966,
@@ -441,7 +427,27 @@
       "contraindicaciones": "No usar en verrugas genitales; puede causar irritacion",
       "uso": "Verrugas. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 967,
@@ -461,61 +467,27 @@
       "contraindicaciones": "Puede causar vomitos en exceso; no en embarazo",
       "uso": "La Piel. Tratamiento dermatológico.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 1067,
-      "titulo": "Cataplasma de Michay (Berberis darwinii) para Infecciones de Piel Williche",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche Williche (Osorno, Frutillar, lago Llanquihue)",
-      "ingredientes": "50 g de corteza fresca de michay / calafate del sur (Berberis darwinii / ngulla o puni en mapudungun); 30 ml de agua; 1 cucharada de grasa animal (preferentemente grasa de capon o manteca de cerdo)",
-      "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
-      "dosis": "Aplicar 2-3 veces al dia sobre la zona afectada. Dejar actuar 4 horas y limpiar con agua tibia. Continuar durante 7-10 dias.",
-      "modo_uso": "Topico (cataplasma/pomada)",
-      "tiempo_prep": "20 minutos",
-      "dificultad": "Media",
-      "rendimiento": "8-10 aplicaciones",
-      "conservacion": "Refrigerar hasta 5 dias en tarro cerrado.",
-      "evidencia": "La berberina, alcaloide isoquinolinico del genero Berberis, tiene amplia documentacion cientifica como antibacteriano de amplio espectro y antifungico. Usado por machis williche documentado por Hoffmann et al. (1992). La raiz y corteza contienen 2-4% de berberina.",
-      "fuente_tradicion": "Mapuche Williche",
-      "contraindicaciones": "No aplicar en mucosas, ojos ni heridas muy profundas. La berberina puede manchar la piel temporalmente de amarillo. No ingerir esta preparacion topica. Contraindicado en embarazo (berberina oral es abortiva).",
-      "uso": "Tratamiento de infecciones bacterianas y fungicas de la piel, psoriasis, heridas infectadas y erupciones cutaneas. La berberina de la corteza interior inhibe el crecimiento de Staphylococcus aureus, Candida albicans y otras bacterias comunes.",
-      "principios_activos": "Berberina (2-4%); palmatina; jatrorricina; oxicantina; berbamina; taninos",
-      "propiedades": [
-        "antibacteriano",
-        "antifungico",
-        "antiinflamatorio",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
       ],
-      "referencias": "Hoffmann A. et al. (1992) Plantas Medicinales de Uso Comun en Chile. / Shaheen F. et al. (2012) Berberis species: traditional uses, phytochemistry and pharmacology. Phytother Res.",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 1072,
-      "titulo": "Bano de Luche y Sal de Mar para Eczema y Psoriasis Lafkenche",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche Lafkenche (costa entre Lebu y Carahue)",
-      "ingredientes": "300 g de luche fresco (Porphyra columbina / wutre en mapudungun) o 100 g seco; 500 g de sal de mar gruesa; 5 litros de agua de mar (o agua dulce con 100 g sal de mar)",
-      "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
-      "dosis": "Bano diario durante la primera semana; luego 3 veces por semana. Mantener 3-4 semanas.",
-      "modo_uso": "Bano topico (talasoterapia)",
-      "tiempo_prep": "40 minutos",
-      "dificultad": "Facil",
-      "rendimiento": "1 bano por preparacion",
-      "conservacion": "No aplica (preparacion de uso inmediato)",
-      "evidencia": "La Porphyra columbina contiene ficobilinas, porfiranos sulfatados y phycobiliproteinas con potente actividad antiinflamatoria y regeneradora de la piel. La talasoterapia con algas es reconocida por la medicina integrativa para condiciones inflamatorias cronicas de la piel.",
-      "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004)",
-      "contraindicaciones": "No usar en piel con heridas abiertas o infectadas activamente. Personas con alergia al yodo deben hacer prueba previa. El agua de mar no pasteurizada puede contener bacterias: usar sal de mar comercial en agua dulce caliente.",
-      "uso": "Tratamiento de eczema atopico, psoriasis, dermatitis seborreica y piel seca. Los lafkenche aplican el conocimiento del mar (lof lafken: comunidad del mar) en su medicina dermica: el luche abre los poros y los polisacaridos forman una pelicula protectora e hidratante que calma el prurito.",
-      "principios_activos": "Porfiranos sulfatados; ficoeritrina (fitobilina); taurina; vitaminas del grupo B; yodo organico; cloruro de sodio",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
       "propiedades": [
         "antiinflamatorio",
-        "antipruriginoso",
-        "hidratante",
-        "regenerador cutaneo"
-      ],
-      "referencias": "Ortiz J. et al. (2009) Propiedades de Porphyra columbina de la costa sur de Chile. Bot Mar. / Villagran C. (2004) Botanica y Botanicos de Chile. Museo de Historia Natural.",
-      "maternidad_segura": "segura"
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ]
     },
     {
       "id": 1104,
@@ -543,7 +515,170 @@
         "termorregulador"
       ],
       "referencias": "Darwin C. Viaje del Beagle 1839; Gusinde M. Los indios de Tierra del Fuego 1919-1924; ResearchGate Flora etnobotánica pueblos originarios Patagonia Austral 2022; Dominguezia 2022.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
+    },
+    {
+      "id": 1110,
+      "titulo": "Decocción depurativa de bardana y diente de león para piel",
+      "categoria": "Dermatológico",
+      "origen": "Tradicional europeo-latinoamericano",
+      "ingredientes": "1 cda raíz seca de bardana, 1 cda raíz de diente de león, 1 cdta hojas de ortiga, 500 ml agua",
+      "preparacion": "Hervir las raíces 15 minutos a fuego suave. Retirar, agregar la ortiga, tapar 10 min. Colar.",
+      "dosis": "1 taza, 2 veces al día (mañana y tarde), durante 3 semanas",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "25 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 400 ml",
+      "conservacion": "Refrigerado, 48 horas",
+      "evidencia": "Chan YS. et al. (2011, Inflammopharmacology) revisión antiinflamatoria de bardana. Schütz K. et al. (2006) diente de león como depurativo.",
+      "fuente_tradicion": "Herbolaria europea medieval y popular chilena",
+      "contraindicaciones": "Embarazo, obstrucción biliar, alergia a Asteraceae. Diabéticos vigilar glicemia.",
+      "uso": "Arctigenina (bardana) inhibe NF-kB y producción de TNF-α reduciendo inflamación cutánea; inulina actúa como prebiótico mejorando eje intestino-piel; ácidos taraxacósidos estimulan eliminación biliar de toxinas lipofílicas.",
+      "principios_activos": "Arctigenina, arctiína, inulina, taraxacina, ácido chicórico, flavonoides.",
+      "propiedades": [
+        "depurativo",
+        "antiinflamatorio",
+        "diurético",
+        "hepatobiliar",
+        "prebiótico"
+      ],
+      "referencias": "Chan YS. et al., Inflammopharmacology 2011;19:245-54. Schütz K. et al., J Ethnopharmacol 2006;107:313-23.",
+      "indicaciones_principales": [
+        "acné juvenil",
+        "eczema crónico",
+        "psoriasis leve",
+        "forúnculos recurrentes",
+        "dermatitis seborreica"
+      ],
+      "interacciones_medicamentos": "Diente de león con diuréticos y litio. Bardana hipoglucemiante: vigilar antidiabéticos.",
+      "embarazo_lactancia": "Contraindicado en embarazo; precaución en lactancia.",
+      "duracion_tratamiento": "Curas de 21 días con descanso de 7 días",
+      "sinergia_plantas": [
+        "Bardana",
+        "Diente de león",
+        "Ortiga",
+        "Zarzaparrilla",
+        "Pensamiento"
+      ]
+    },
+    {
+      "id": 1150,
+      "titulo": "Cataplasma de bardana y llantén para acné inflamatorio",
+      "categoria": "Dermatológico",
+      "origen": "Europeo adaptado chileno",
+      "ingredientes": "1 cda de raíz de bardana en polvo, 1 cda de hojas de llantén frescas trituradas, agua tibia, 1 cdta de miel cruda",
+      "preparacion": "Mezclar polvos con miel y agua hasta pasta. Aplicar sobre zonas afectadas limpias, dejar 15 min y retirar con agua tibia.",
+      "dosis": "3 veces por semana durante 4 a 6 semanas",
+      "modo_uso": "Tópico - mascarilla",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar al momento",
+      "evidencia": "ESCOP Arctium lappa; estudios sobre arctigenina como antiinflamatorio cutáneo (Predes 2011)",
+      "fuente_tradicion": "Europeo y popular chileno",
+      "contraindicaciones": "Alergia a Asteraceae, piel muy seca o irritada, dermatitis perioral",
+      "uso": "Lignanos y poliacetilenos modulan respuesta inflamatoria sebácea mientras la aucubina del llantén ejerce acción antimicrobiana sobre Cutibacterium acnes.",
+      "principios_activos": "Arctigenina y inulina (bardana), aucubina y aloctina (llantén); antimicrobianos y antiinflamatorios cutáneos",
+      "propiedades": [
+        "antiacneico",
+        "antibacteriano",
+        "depurativo cutáneo",
+        "antiinflamatorio",
+        "regulador sebáceo"
+      ],
+      "referencias": "Predes FS et al. 2011 J Med Plants Res; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "acné inflamatorio leve a moderado",
+        "foliculitis",
+        "piel grasa con comedones",
+        "dermatitis seborreica",
+        "puntos negros"
+      ],
+      "interacciones_medicamentos": "Sin interacciones tópicas relevantes",
+      "embarazo_lactancia": "Aceptable tópico",
+      "duracion_tratamiento": "6 semanas, descansar 2",
+      "sinergia_plantas": [
+        "caléndula",
+        "tomillo",
+        "maitén"
+      ]
+    },
+    {
+      "id": 1205,
+      "titulo": "Cataplasma de linaza para forúnculos y abscesos",
+      "categoria": "Dermatológico",
+      "origen": "Medicina popular europea",
+      "ingredientes": "3 cucharadas de linaza molida, agua caliente suficiente para pasta, 1 cucharadita de miel, 1 cucharadita de infusión concentrada de manzanilla",
+      "preparacion": "Mezclar linaza con agua caliente y manzanilla concentrada hasta formar pasta espesa. Añadir miel. Aplicar tibia sobre forúnculo cubierta con gasa.",
+      "dosis": "Cambiar cataplasma cada 4-6 horas hasta drenaje espontáneo",
+      "modo_uso": "Cataplasma maduradora",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Uso inmediato",
+      "evidencia": "Cataplasmas húmedas con uso etnomédico documentado para maduración de abscesos",
+      "fuente_tradicion": "Medicina rural europea",
+      "contraindicaciones": "Celulitis extensa, abscesos profundos, diabetes mal controlada (consultar médico). Fiebre alta requiere atención médica.",
+      "uso": "El calor húmedo de la cataplasma promueve vasodilatación local incrementando flujo sanguíneo y migración de neutrófilos al sitio de infección, los mucílagos de linaza retienen calor y forman emoliencia que ablanda piel facilitando drenaje espontáneo, mientras la miel aporta acción antibacteriana por su osmolaridad.",
+      "principios_activos": "Mucílagos (linaza). Defensina-1, peróxido (miel). Bisabolol (manzanilla).",
+      "propiedades": [
+        "emoliente",
+        "antibacteriano",
+        "maduradora",
+        "antiinflamatoria local"
+      ],
+      "referencias": [
+        "Molan PC. J Wound Care (2006) 15:353",
+        "Jull AB. et al. Cochrane Database Syst Rev (2015) CD005083"
+      ],
+      "indicaciones_principales": [
+        "forúnculos no complicados",
+        "abscesos cutáneos pequeños",
+        "uñeros",
+        "infecciones cutáneas localizadas"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Hasta drenaje, máximo 5 días",
+      "sinergia_plantas": [
+        "matico",
+        "caléndula"
+      ]
+    },
+    {
+      "titulo": "Compresas de Manzanilla para inflamación cutánea",
+      "categoria": "Dermatológico",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- 2 cucharadas (aprox. 6 g) de flores secas de manzanilla.\n- 500 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las flores.\n2. Tapar y dejar reposar 15 minutos.\n3. Colar y dejar enfriar hasta temperatura ambiente.\n4. Empapar una gasa o paño limpio y aplicar sobre la zona\n   afectada durante 15-20 minutos.\n\nAPLICACIÓN: Repetir 2-3 veces al día.\nDURACIÓN MÁXIMA: Usar hasta la mejoría. Si los síntomas\npersisten más de una semana, consultar al médico.\n\nCONTRAINDICACIONES:\n- Alergia a las asteráceas.\n- No aplicar sobre heridas abiertas.\n\nINTERACCIONES: No se han descrito.\n\nEFECTOS SECUNDARIOS: Posible dermatitis de contacto en personas\nalérgicas.\n\nFUENTE: La Comisión E alemana aprueba el uso externo de la\nmanzanilla para inflamaciones de la piel y las mucosas. La EMA\ntambién la reconoce como tratamiento tradicional para afecciones\ncutáneas leves.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "La Comisión E alemana aprueba el uso externo de la\nmanzanilla para inflamaciones de la piel y las mucosas. La EMA\ntambién la reconoce como tratamiento tradicional para afecciones\ncutáneas leves.",
+      "fuente_tradicion": "Medicina tradicional europea",
+      "contraindicaciones": "- Alergia a las asteráceas.\n- No aplicar sobre heridas abiertas.",
+      "id": 1376,
+      "uso": "Alivio de irritaciones cutáneas leves, eccemas,\ndermatitis del pañal y ojos irritados (uso oftálmico solo bajo\nsupervisión).",
+      "planta_principal": "Manzanilla (Matricaria chamomilla)",
+      "interacciones": "No se han descrito.",
+      "efectos_secundarios_nota": "Posible dermatitis de contacto en personas\nalérgicas.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
     }
   ]
 }

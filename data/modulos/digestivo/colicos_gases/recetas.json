@@ -1,13 +1,6 @@
 {
-  "condicion": "Colicos / Gases / Meteorismo",
   "modulo": "digestivo",
   "submodulo": "colicos_gases",
-  "emoji": "💨",
-  "descripcion": "Remedios carminativos para gases, meteorismo, colicos intestinales y flatulencias.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El hinojo, la melisa y el anis verde son seguros en dosis normales. Evitar el poleo (abortivo en dosis altas) y la angelica. El masaje abdominal suave es seguro."
-  },
   "recetas": [
     {
       "id": 10,
@@ -35,7 +28,61 @@
         "diaforético"
       ],
       "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "cólicos digestivos",
+        "flatulencia",
+        "dispepsia espasmódica",
+        "dismenorrea leve"
+      ],
+      "interacciones_medicamentos": "Precaución con paracetamol y otros hepatotóxicos (la pulegona es hepatotóxica en dosis altas). Evitar con antiepilépticos.",
+      "embarazo_lactancia": "Contraindicado en embarazo (emenagogo y abortivo). Evitar en lactancia y en niños pequeños.",
+      "duracion_tratamiento": "Máximo 1 semana de uso continuo; consultar si persisten síntomas más de 3 días.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "menta",
+        "cedrón",
+        "toronjil"
+      ]
+    },
+    {
+      "id": 51,
+      "titulo": "Cataplasma de Ajenjo para Aliviar el Dolor Abdominal",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "Un puñado de hojas de ajenjo, un poco de agua caliente.",
+      "preparacion": "Machacar las hojas hasta formar una pasta y aplicar como cataplasma sobre el vientre para aliviar cólicos y dolores estomacales.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
+      "uso": "Aliviar el Dolor Abdominal. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 80,
@@ -63,7 +110,21 @@
         "digestivo"
       ],
       "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Meteorismo",
+        "Flatulencia",
+        "Cólicos del lactante",
+        "Dispepsia",
+        "Estimulación de la lactancia"
+      ],
+      "interacciones_medicamentos": "Trans-anetol potencia estrógenos (terapia hormonal, anticonceptivos) y tamoxifeno; precaución con ciprofloxacino.",
+      "embarazo_lactancia": "Seguro en lactancia como galactogogo en dosis moderadas; evitar dosis altas en embarazo.",
+      "duracion_tratamiento": "Hasta 2 semanas continuas; descansar 1 semana.",
+      "sinergia_plantas": [
+        "anís",
+        "manzanilla",
+        "cedrón"
+      ]
     },
     {
       "id": 101,
@@ -91,35 +152,20 @@
         "antiespasmódico"
       ],
       "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 387,
-      "titulo": "Infusión de Anís Verde y Hinojo para flatulencias y digestión",
-      "categoria": "Alimenticio",
-      "origen": "Tradición Española Colonial",
-      "ingredientes": "1 cucharadita de semillas de anís verde, 1 cucharadita de semillas de hinojo (si se tiene), 1 taza de agua.",
-      "preparacion": "Machacar ligeramente las semillas para liberar los aceites. Infusionar en agua hervida 8 minutos tapado. Colar bien. Beber tibio después de las comidas.",
-      "dosis": "1 taza después de las comidas principales. Máximo 3 tazas/día.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Evitar en alergia al anís o al apio. Consultar en embarazo (el hinojo en dosis altas puede ser estrogénico). No dar a bebés menores de 6 meses.",
-      "uso": "Flatulencias y digestión: el trans-anetol relaja el músculo liso digestivo y modula receptores dopaminérgicos estimulando la producción de prolactina.",
-      "principios_activos": "Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario. | Trans-anetol (75-90% del aceite esencial): carminativo por relajación del músculo liso intestinal; actúa sobre el epitelio bronquial aumentando la secreción de moco facilitando la expectoración. Flavonoides (isoorientina, glucósidos de apigenina): antiinflamatorios y antiespasmódicos complementarios.",
-      "propiedades": [
-        "carminativo",
-        "antiespasmódico",
-        "galactagogo",
-        "expectorante",
-        "digestivo"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
       ],
-      "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 390,
@@ -147,7 +193,60 @@
         "digestivo"
       ],
       "referencias": "EMA/HMPC Pimpinella anisum 2012; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 397,
+      "titulo": "Té de Ruda para digestión pesada y cólicos (uso moderado)",
+      "categoria": "Digestivo",
+      "origen": "Popular Chileno",
+      "ingredientes": "3–4 hojas de ruda (pequeñas), 1 taza de agua.",
+      "preparacion": "Infusionar las hojas de ruda en agua hervida 5 minutos tapado. Colar bien. Beber tibio y con moderación.",
+      "dosis": "MÁXIMO 1 taza al día. No usar más de 5 días seguidos. Solo en adultos.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "7 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "CONTRAINDICADO en embarazo (abortiva). Tóxica en dosis altas. Solo 3–4 hojas por taza. No dar a niños. Si hay mareos o vómitos, suspender.",
+      "uso": "Digestión pesada y cólicos: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
+      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas.",
+      "propiedades": [
+        "emenagogo",
+        "antiespasmódico",
+        "vasoprotector",
+        "antiinflamatorio"
+      ],
+      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 694,
@@ -167,35 +266,27 @@
       "contraindicaciones": "Fotosensibilizante; no en embarazo; no en diabéticos",
       "uso": "Gases y Cólicos. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 699,
-      "titulo": "Masaje Abdominal con Aceite de Comino",
-      "categoria": "Digestivo",
-      "origen": "Medicina Árabe",
-      "ingredientes": "2 cucharadas de aceite de comino negro (Nigella sativa), 3 gotas de aceite esencial de hinojo",
-      "preparacion": "Mezclar los aceites.",
-      "dosis": "Masajear el abdomen en sentido horario 5-10 min, 2 veces al día",
-      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "50 ml",
-      "conservacion": "Temperatura ambiente 6 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina árabe clásica",
-      "contraindicaciones": "Solo externo; no ingerir el aceite esencial de hinojo",
-      "uso": "Flatulencia, cólicos intestinales del lactante y estimulación de la lactancia: el trans-anetol relaja el músculo liso digestivo y modula receptores dopaminérgicos estimulando la producción de prolactina.",
-      "principios_activos": "Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
       "propiedades": [
+        "digestivo",
         "carminativo",
         "antiespasmódico",
-        "galactagogo",
-        "expectorante",
-        "digestivo"
-      ],
-      "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+        "colagogo"
+      ]
     },
     {
       "id": 711,
@@ -223,7 +314,20 @@
         "digestivo"
       ],
       "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010; EMA/HMPC Pimpinella anisum 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 1077,
@@ -250,7 +354,150 @@
         "antinausea"
       ],
       "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Arango G. et al. (2016) Actividad antiespasmódica de Minthostachys mollis. Rev Soc Quim Peru.",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 1135,
+      "titulo": "Infusión carminativa de hinojo, manzanilla y cedrón para distensión abdominal",
+      "categoria": "Digestivo",
+      "origen": "Popular chileno",
+      "ingredientes": "1 cdta de semillas de hinojo ligeramente machacadas, 1 cdta de flores de manzanilla, 1 cdta de hojas de cedrón, 300 ml de agua",
+      "preparacion": "Hervir agua, retirar del fuego y volcar sobre hierbas. Tapar 7 min, colar.",
+      "dosis": "1 taza después de comidas que generen gases, hasta 3 veces al día",
+      "modo_uso": "Oral - infusión",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza grande",
+      "conservacion": "Consumir recién hecho",
+      "evidencia": "ESCOP monographs Matricaria y Foeniculum; estudios sobre Aloysia citrodora como espasmolítico (Carnat 1999)",
+      "fuente_tradicion": "Popular chileno",
+      "contraindicaciones": "Alergia a Asteraceae, embarazo (hinojo en exceso por trans-anetol)",
+      "uso": "El trans-anetol y bisabolol relajan musculatura lisa intestinal reduciendo espasmos y favoreciendo expulsión de gases.",
+      "principios_activos": "Trans-anetol y fenchona (hinojo), alfa-bisabolol y matricina (manzanilla), verbascósido y citral (cedrón); espasmolíticos sobre receptores muscarínicos",
+      "propiedades": [
+        "carminativo",
+        "espasmolítico",
+        "digestivo",
+        "ansiolítico suave",
+        "antiinflamatorio"
+      ],
+      "referencias": "ESCOP 2003; Carnat AP. 1999 Pharm Acta Helv; Hoffmann 1992",
+      "indicaciones_principales": [
+        "meteorismo",
+        "colon irritable leve",
+        "cólico postprandial",
+        "ansiedad digestiva",
+        "eructos frecuentes"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (manzanilla en altas dosis), sedantes (potencia cedrón)",
+      "embarazo_lactancia": "Precaución en embarazo por hinojo; en lactancia favorece producción de leche",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "anís",
+        "melisa",
+        "menta"
+      ]
+    },
+    {
+      "id": 1161,
+      "titulo": "Infusión carminativa post-prandial de hinojo, anís y manzanilla",
+      "categoria": "Digestivo",
+      "origen": "Tradición mediterránea y chilena",
+      "ingredientes": "1 cucharadita de semillas de hinojo trituradas, 1 cucharadita de anís verde, 1 cucharadita de flores de manzanilla, 1 hojita de menta, 250 ml de agua caliente",
+      "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
+      "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir inmediatamente",
+      "evidencia": "Hinojo demuestra eficacia en cólicos del lactante y SII (Alexandrovich, 2003; Portincasa, 2016)",
+      "fuente_tradicion": "Herbolaria mediterránea adoptada en Chile",
+      "contraindicaciones": "Alergia a apiáceas. Evitar dosis altas en embarazo. Hiperestrogenismo (cáncer mamario hormono-dependiente) por anetol.",
+      "uso": "El anetol relaja musculatura lisa intestinal mediante bloqueo de canales de calcio, mientras los flavonoides de manzanilla actúan sobre receptores GABA reduciendo espasmo nervioso del eje intestino-cerebro.",
+      "principios_activos": "Anetol (hinojo y anís): espasmolítico. Apigenina (manzanilla): ansiolítico, GABAérgico. Mentol: refrescante y antiespasmódico.",
+      "propiedades": [
+        "carminativo",
+        "espasmolítico",
+        "digestivo",
+        "ansiolítico suave"
+      ],
+      "referencias": [
+        "Alexandrovich I. et al. Altern Ther Health Med (2003) 9:58",
+        "Portincasa P. et al. J Gastrointestin Liver Dis (2016) 25:151"
+      ],
+      "indicaciones_principales": [
+        "distensión abdominal",
+        "flatulencia",
+        "cólicos digestivos",
+        "intestino irritable",
+        "dispepsia nerviosa"
+      ],
+      "interacciones_medicamentos": "Posible interferencia con tamoxifeno (anetol fitoestrógeno).",
+      "embarazo_lactancia": "En lactancia favorece producción de leche en dosis moderadas",
+      "duracion_tratamiento": "Uso continuo seguro hasta 6 semanas",
+      "sinergia_plantas": [
+        "melisa",
+        "cedrón",
+        "menta"
+      ]
+    },
+    {
+      "titulo": "Tisana de Hinojo para cólicos y gases",
+      "categoria": "Digestivo",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- 1 cucharadita (2 g) de frutos de hinojo recién machacados.\n- 200 ml de agua hirviendo.",
+      "preparacion": "1. Machacar ligeramente los frutos.\n2. Verter el agua hirviendo sobre ellos.\n3. Tapar y dejar reposar 10-15 minutos. Colar.\n\nDOSIS ADULTOS: 1 taza, 2-3 veces al día después de las comidas.\nDOSIS LACTANTES (CÓLICOS): 5-10 ml (1-2 cucharaditas) antes de cada toma, bajo supervisión pediátrica.\nDURACIÓN MÁXIMA: Uso prolongado seguro en adultos.\n\nCONTRAINDICACIONES:\n- Alergia a apiáceas.\n- Evitar aceite esencial puro y dosis altas en embarazo y lactancia.\n\nINTERACCIONES: No se conocen interacciones relevantes a las dosis recomendadas.\n\nEFECTOS SECUNDARIOS: Muy raros; el aceite esencial concentrado puede causar náuseas.\n\nFUENTE: European Medicines Agency (EMA). Foeniculi dulcis fructus - herbal medicinal product.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Foeniculi dulcis fructus - herbal medicinal product.",
+      "fuente_tradicion": "Medicina tradicional europea",
+      "contraindicaciones": "- Alergia a apiáceas.\n- Evitar aceite esencial puro y dosis altas en embarazo y lactancia.",
+      "id": 1336,
+      "uso": "Distensión abdominal, flatulencia y cólicos gastrointestinales leves.",
+      "planta_principal": "Hinojo (Foeniculum vulgare)",
+      "interacciones": "No se conocen interacciones relevantes a las dosis recomendadas.",
+      "efectos_secundarios_nota": "Muy raros; el aceite esencial concentrado puede causar náuseas.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Alcaravea para gases y cólicos",
+      "categoria": "Digestivo",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de frutos de alcaravea\n  (semillas) ligeramente machacados.\n- 200 ml de agua hirviendo.",
+      "preparacion": "1. Machacar ligeramente los frutos para liberar los aceites.\n2. Verter el agua hirviendo sobre ellos.\n3. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "1 taza, 2-3 veces al día, entre comidas. — 2 semanas. Si los síntomas persisten,\nconsultar a un médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre\n\"Carvi fructus\", que valida su uso tradicional para el alivio\nde problemas digestivos como la hinchazón y la flatulencia.",
+      "fuente_tradicion": "Medicina tradicional europea",
+      "contraindicaciones": "- Hipersensibilidad a la alcaravea o a plantas de la familia\n  de las apiáceas (comino, hinojo, cilantro).\n- No recomendado en niños menores de 12 años.",
+      "id": 1365,
+      "uso": "Alivio de la hinchazón abdominal, flatulencia\ny cólicos gastrointestinales.",
+      "planta_principal": "Alcaravea (Carum carvi)",
+      "interacciones": "No se conocen.",
+      "efectos_secundarios_nota": "No se han reportado efectos secundarios.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

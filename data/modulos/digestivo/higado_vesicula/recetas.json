@@ -1,13 +1,6 @@
 {
-  "condicion": "Higado / Vesicula biliar",
   "modulo": "digestivo",
   "submodulo": "higado_vesicula",
-  "emoji": "🫒",
-  "descripcion": "Remedios hepatoprotectores y colagogos para el higado, higado graso y vesicula biliar.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El cardo mariano es hepatoprotector y generalmente seguro. El boldo debe usarse con cautela. Evitar tinturas alcoholicas. El jugo de remolacha y zanahoria es muy seguro."
-  },
   "recetas": [
     {
       "id": 27,
@@ -27,7 +20,26 @@
       "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
       "uso": "Hígado. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 32,
@@ -56,7 +68,21 @@
         "antioxidante"
       ],
       "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "hígado graso leve",
+        "colestasis funcional",
+        "dispepsia hepatobiliar",
+        "hepatoprotección preventiva"
+      ],
+      "interacciones_medicamentos": "Precaución con anticoagulantes, sedantes y medicamentos metabolizados por hígado (CYP450). Evitar con otros hepatotóxicos.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 10 días seguidos; descansar 1-2 semanas antes de repetir.",
+      "sinergia_plantas": [
+        "diente de león",
+        "cardo mariano",
+        "alcachofa",
+        "menta"
+      ]
     },
     {
       "id": 54,
@@ -76,7 +102,26 @@
       "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
       "uso": "Hígado. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Flavonoides (quercetina, kaempferol): hepatoprotectores y antioxidantes. Terpenoides amargos: colereticos y colagogos. Taninos: astringentes y protectores de la mucosa hepática.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 114,
@@ -96,7 +141,67 @@
       "contraindicaciones": "No usar en enfermedad hepática diagnosticada sin supervisión médica.",
       "uso": "Hígado. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
+    },
+    {
+      "id": 119,
+      "titulo": "Agua de Romero para la Digestión",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "Hojas de romero, 1 taza de agua.",
+      "preparacion": "Preparar una infusión con hojas de romero para aliviar los problemas digestivos y la congestión del hígado y vesícula.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
+      "uso": "Digestión: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 388,
@@ -125,7 +230,19 @@
         "antioxidante"
       ],
       "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 396,
@@ -145,7 +262,26 @@
       "contraindicaciones": "Contraindicado en embarazo. Puede interactuar con antiarrítmicos. Consultar en enfermedad cardíaca.",
       "uso": "Vesícula biliar. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 401,
@@ -174,7 +310,19 @@
         "antioxidante"
       ],
       "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 402,
@@ -202,7 +350,19 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 405,
@@ -231,7 +391,19 @@
         "digestivo"
       ],
       "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 420,
@@ -259,7 +431,19 @@
         "hipocolesterolemiante"
       ],
       "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 668,
@@ -288,7 +472,19 @@
         "carminativo"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Ernst E. & Pittler MH. Br J Anaesth 2000",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 669,
@@ -308,7 +504,26 @@
       "contraindicaciones": "Puede causar efecto laxante leve; alergia posible en sensibles a crisantemas",
       "uso": "Hígado. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 670,
@@ -337,7 +552,19 @@
         "digestivo"
       ],
       "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010; Speisky H. & Cassels BK. Pharmacol Res 1994",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 671,
@@ -357,7 +584,26 @@
       "contraindicaciones": "No exceder dosis; alto en vitamina A (tóxica en exceso); no en embarazo sin control",
       "uso": "Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "EPA y DHA (ácidos grasos omega-3 de cadena larga): potentes antiinflamatorios sistémicos. Vitamina A (retinol): inmunoestimulante y regeneradora epitelial. Vitamina D3: reguladora del sistema inmune y calcio óseo.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 672,
@@ -385,7 +631,19 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 673,
@@ -413,7 +671,19 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 674,
@@ -442,7 +712,19 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
     },
     {
       "id": 675,
@@ -462,7 +744,26 @@
       "contraindicaciones": "No exceder en gastritis; puede irritar el estómago",
       "uso": "Detox Hepático. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 676,
@@ -482,7 +783,26 @@
       "contraindicaciones": "Puede causar efecto laxante leve; alergia posible en sensibles a crisantemas",
       "uso": "Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 677,
@@ -502,7 +822,26 @@
       "contraindicaciones": "No usar más de 3 semanas seguidas; no en embarazo",
       "uso": "Hígado y la Vesícula. Depurativo y protector hepático.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "principios_activos": "Fumarina y coptisina (alcaloides isoquinolínicos): colerécticos y antiespasmódicos sobre vías biliares. Ácido fumárico: hepatoprotector e inmunomodulador. Flavonoides: antioxidantes hepáticos.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "hepatoprotector",
+        "antioxidante hepático"
+      ]
     },
     {
       "id": 942,
@@ -522,7 +861,286 @@
       "contraindicaciones": "Puede causar alergia en sensibles a asteraceas",
       "uso": "Higado y la Digestion. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Inulina (fructooligosacárido): prebiótico que nutre bifidobacterias; hipoglucemiante. Ácido clorogénico: antioxidante y colagogo. Lactucopicrina: hepatoprotectora y amargo digestiva.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
+    },
+    {
+      "id": 1115,
+      "titulo": "Decocción colerética de achicoria y boldo",
+      "categoria": "Hepático",
+      "origen": "Tradicional latinoamericano",
+      "ingredientes": "1 cda raíz tostada de achicoria, 4-5 hojas de boldo, 250 ml agua",
+      "preparacion": "Hervir agua. Agregar achicoria y dejar 5 min a fuego suave. Retirar del fuego, agregar boldo y tapar 7 min. Colar.",
+      "dosis": "1 taza después de comidas grasas, máximo 2 veces al día",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir recién hecha",
+      "evidencia": "Speroni E. et al. (2003) actividad colerética de Cichorium. Boldina validada por ESCOP para dispepsia.",
+      "fuente_tradicion": "Mezcla popular chilena post-asado",
+      "contraindicaciones": "Obstrucción biliar, cálculos biliares grandes, embarazo, lactancia. Evitar boldo más de 4 semanas seguidas.",
+      "uso": "Lactucina y boldina estimulan secreción biliar (efecto colerético) y contracción vesicular (colagogo), facilitando emulsión y digestión de grasas; ácido chicórico aporta efecto hepatoprotector adicional.",
+      "principios_activos": "Lactucina, lactucopicrina, ácido chicórico, boldina, eucaliptol, β-pineno.",
+      "propiedades": [
+        "colerético",
+        "colagogo",
+        "digestivo",
+        "hepatoprotector leve",
+        "amargo aperitivo"
+      ],
+      "referencias": "Speroni E. et al., J Ethnopharmacol 2003;88:107-12. ESCOP Boldo folium 2003.",
+      "indicaciones_principales": [
+        "digestión pesada",
+        "post-comida grasa",
+        "colecistopatía leve",
+        "dispepsia hepática"
+      ],
+      "interacciones_medicamentos": "Boldo con anticoagulantes (warfarina). Achicoria moderadora de glicemia.",
+      "embarazo_lactancia": "Contraindicado en ambos.",
+      "duracion_tratamiento": "Máximo 4 semanas seguidas",
+      "sinergia_plantas": [
+        "Achicoria",
+        "Boldo",
+        "Cardo mariano",
+        "Diente de león"
+      ]
+    },
+    {
+      "id": 1130,
+      "titulo": "Infusión depurativa de bardana, cardo mariano y diente de león",
+      "categoria": "Hepático",
+      "origen": "Tradicional europeo",
+      "ingredientes": "1 cdta raíz bardana, 1 cdta semillas molidas de cardo mariano, 1 cdta raíz diente de león, 400 ml agua",
+      "preparacion": "Decocción 12 min a fuego suave, reposar 5 min. Colar.",
+      "dosis": "1 taza, 2 veces al día, 3 semanas con 1 de descanso",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 350 ml",
+      "conservacion": "Refrigerado 24 h",
+      "evidencia": "Schütz K. (Taraxacum) revisión 2006. Saller R. silimarina hepatoprotección.",
+      "fuente_tradicion": "Herbolaria europea clásica de drenaje hepático",
+      "contraindicaciones": "Obstrucción biliar, embarazo, alergia Asteraceae.",
+      "uso": "Silibinina estabiliza hepatocitos; arctigenina antiinflamatoria; taraxacósidos coleréticos. Triple acción depurativa hepatobiliar e intestinal.",
+      "principios_activos": "Silibinina, arctigenina, taraxacina, inulina, ácido chicórico.",
+      "propiedades": [
+        "hepatoprotector",
+        "depurativo",
+        "colerético",
+        "prebiótico",
+        "antioxidante"
+      ],
+      "referencias": "Schütz K. et al., J Ethnopharmacol 2006;107:313. Saller R. et al., Drugs 2001;61:2035.",
+      "indicaciones_principales": [
+        "sobrecarga hepática",
+        "hígado graso",
+        "post-medicación prolongada",
+        "convalecencia"
+      ],
+      "interacciones_medicamentos": "Cardo mariano con CYP3A4 (estatinas, anticonceptivos). Diente de león con diuréticos.",
+      "embarazo_lactancia": "Contraindicado.",
+      "duracion_tratamiento": "Curas de 21 días",
+      "sinergia_plantas": [
+        "Bardana",
+        "Cardo mariano",
+        "Diente de león",
+        "Boldo"
+      ]
+    },
+    {
+      "id": 1134,
+      "titulo": "Amargo digestivo de bailahuén, boldo y cardo mariano postcomidas grasas",
+      "categoria": "Hepático",
+      "origen": "Mapuche y popular chileno",
+      "ingredientes": "1 cdta de bailahuén seco, 1/2 cdta de hojas de boldo, 1/2 cdta de semillas de cardo mariano molidas, 250 ml de agua caliente",
+      "preparacion": "Calentar agua a 90°C. Verter sobre las hierbas en tetera, tapar y reposar 8 min. Colar muy fino.",
+      "dosis": "1 taza pequeña 20 min después de almuerzos copiosos, máximo 1 vez al día",
+      "modo_uso": "Oral - infusión amarga",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir de inmediato",
+      "evidencia": "Estudios de Schmeda-Hirschmann sobre Haplopappus baylahuen como hepatoprotector; ESCOP monograph Silybum marianum",
+      "fuente_tradicion": "Mapuche (bailahuén) y popular",
+      "contraindicaciones": "Obstrucción biliar, embarazo, cálculos biliares mayores a 5 mm, hepatitis aguda",
+      "uso": "Los principios amargos estimulan secreción de bilis y enzimas pancreáticas; la silimarina estabiliza membranas hepatocitarias.",
+      "principios_activos": "Flavonoides de Haplopappus, ascaridol y boldina (boldo), silimarina y silibina (cardo mariano); estimulan colagogo-coleréticos y antioxidante hepático",
+      "propiedades": [
+        "digestivo",
+        "colagogo",
+        "colerético",
+        "hepatoprotector",
+        "carminativo"
+      ],
+      "referencias": "Schmeda-Hirschmann et al. 2004 Phytother Res; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "dispepsia grasa",
+        "digestión lenta",
+        "resaca leve",
+        "hígado graso no alcohólico",
+        "intolerancia a frituras"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes, estatinas y CYP3A4 (silimarina); evitar con litio",
+      "embarazo_lactancia": "Contraindicado en embarazo (boldo y bailahuén); precaución en lactancia",
+      "duracion_tratamiento": "Máximo 3 semanas, descansar 1",
+      "sinergia_plantas": [
+        "alcachofa",
+        "menta",
+        "diente de león"
+      ]
+    },
+    {
+      "id": 1162,
+      "titulo": "Decocción hepatobiliar de cardo mariano, boldo y achicoria",
+      "categoria": "Hepático",
+      "origen": "Herbolaria europea adaptada a Chile",
+      "ingredientes": "1 cucharada de semillas de cardo mariano molidas, 1 cucharadita de hojas de boldo, 1 cucharadita de raíz de achicoria tostada, 1/2 cucharadita de diente de león, 350 ml de agua",
+      "preparacion": "Hervir agua con cardo mariano y achicoria 10 minutos. Apagar fuego, añadir boldo y diente de león, tapar e infundir 8 minutos. Colar.",
+      "dosis": "1 taza en ayunas y 1 antes de la cena, durante 21 días",
+      "modo_uso": "Decocción mixta",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Silimarina con evidencia clínica en hepatopatías (Abenavoli, 2018)",
+      "fuente_tradicion": "Combinación de tradiciones europea y chilena",
+      "contraindicaciones": "Obstrucción de vías biliares, cálculos biliares grandes, embarazo, alergia a asteráceas.",
+      "uso": "La silimarina estabiliza la membrana del hepatocito y compite con toxinas por sitios de unión, mientras boldina y cinarina aumentan flujo biliar y solubilizan colesterol biliar previniendo barro y cálculos.",
+      "principios_activos": "Silimarina (silibina, silicristina, silidianina): antioxidante y hepatoprotector. Boldina: colerético. Cinarina: colerético y hipolipemiante.",
+      "propiedades": [
+        "hepatoprotector",
+        "colerético",
+        "colagogo",
+        "antioxidante",
+        "depurativo"
+      ],
+      "referencias": [
+        "Abenavoli L. et al. Phytother Res (2018) 32:2202",
+        "Speroni E. et al. J Ethnopharmacol (2003) 86:203"
+      ],
+      "indicaciones_principales": [
+        "hígado graso no alcohólico",
+        "convalecencia hepática",
+        "exceso de grasas en dieta",
+        "post-fiestas",
+        "elevación leve de transaminasas"
+      ],
+      "interacciones_medicamentos": "Puede alterar metabolismo de fármacos por CYP3A4 (estatinas, anticoagulantes).",
+      "embarazo_lactancia": "Contraindicado",
+      "duracion_tratamiento": "Ciclos de 21 días con descanso de 7",
+      "sinergia_plantas": [
+        "alcachofa",
+        "bailahuén",
+        "menta"
+      ]
+    },
+    {
+      "id": 1195,
+      "titulo": "Infusión hepatoprotectora de cardo mariano, alcachofa y diente de león",
+      "categoria": "Hepático",
+      "origen": "Fitoterapia hepática europea",
+      "ingredientes": "1 cucharadita de semillas de cardo mariano molidas, 1 cucharadita de hojas de alcachofa, 1 cucharadita de hojas de diente de león, 1/2 cucharadita de menta, 350 ml de agua",
+      "preparacion": "Hervir agua con cardo mariano 8 minutos. Apagar, añadir alcachofa, diente de león y menta. Tapar 10 minutos. Colar.",
+      "dosis": "1 taza en ayunas y otra antes de la cena, 4 semanas",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "25 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "350 ml",
+      "conservacion": "24 horas refrigerada",
+      "evidencia": "Silimarina y cinarina con evidencia en hepatopatías crónicas (Saller, 2008)",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "Obstrucción biliar, cálculos sintomáticos, embarazo, alergia a asteráceas, lactancia.",
+      "uso": "La silimarina protege hepatocitos por bloqueo competitivo de receptores hepáticos donde se unen toxinas como amanitina y por estímulo de ARN polimerasa I aumentando síntesis de proteínas regeneradoras; la cinarina y taraxasterol incrementan flujo biliar facilitando excreción de metabolitos y colesterol.",
+      "principios_activos": "Silimarina (cardo mariano): hepatoprotector. Cinarina (alcachofa): colerético, hipolipemiante. Taraxasterol (diente de león). Mentol.",
+      "propiedades": [
+        "hepatoprotector",
+        "colerético",
+        "depurativo",
+        "hipolipemiante",
+        "antioxidante hepático"
+      ],
+      "referencias": [
+        "Saller R. et al. Forsch Komplementmed (2008) 15:9",
+        "Ben Salem M. et al. Plant Foods Hum Nutr (2015) 70:441"
+      ],
+      "indicaciones_principales": [
+        "hígado graso",
+        "convalecencia hepática",
+        "hipercolesterolemia leve",
+        "post-exceso alimenticio o alcohólico",
+        "litiasis biliar pequeña (sin obstrucción)"
+      ],
+      "interacciones_medicamentos": "Estatinas (potencia), warfarina, metronidazol",
+      "embarazo_lactancia": "Evitar",
+      "duracion_tratamiento": "4 semanas con descanso de 1",
+      "sinergia_plantas": [
+        "boldo",
+        "bailahuén"
+      ]
+    },
+    {
+      "titulo": "Decocción de Cardo Mariano para protección hepática",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharada sopera (aprox. 5 g) de frutos secos de cardo\n  mariano recién molidos.\n- 300 ml de agua.",
+      "preparacion": "1. Moler los frutos (semillas) justo antes de la preparación.\n2. Llevar el agua a ebullición, añadir el polvo y hervir a\n   fuego lento durante 10-15 minutos.\n3. Retirar del fuego, colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día, 30 minutos antes de las\ncomidas. — Puede usarse de forma continua durante\nvarios meses.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Monografías de la ESCOP y la EMA. La EMA indica que\nlos estudios sugieren efectos positivos en la función hepática\naunque se necesitan ensayos clínicos más firmes.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia a las asteráceas.\n- No se recomienda en casos de obstrucción de las vías\n  biliares.",
+      "id": 1350,
+      "uso": "Complemento en el tratamiento de afecciones\nhepáticas (hígado graso, hepatitis), cirrosis y daño hepático\npor toxinas. Apoyo digestivo en digestiones pesadas.",
+      "planta_principal": "Cardo Mariano (Silybum marianum)",
+      "interacciones": "Puede reducir los niveles de azúcar en sangre\n(monitorizar en diabéticos). Teóricamente, podría interferir\ncon medicamentos metabolizados por el hígado (citocromo P450).",
+      "efectos_secundarios_nota": "Raros y leves; puede causar un ligero\nefecto laxante o molestias gastrointestinales al inicio del\ntratamiento.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Alcachofa para la vesícula y digestión",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharada (2-3 g) de hojas secas de alcachofa troceadas.\n- 150 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 30 minutos antes de la comida principal. — Puede usarse de forma continua durante semanas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Herbal medicine for functional dyspepsia: A systematic\nreview\" (PubMed). Las hojas de alcachofa están reconocidas por\nla ESCOP y la Comisión E alemana para el tratamiento de la\ndispepsia.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia a las asteráceas.\n- Obstrucción de las vías biliares (por ejemplo, por cálculos).\n  En caso de cálculos biliares, usar solo bajo supervisión\n  médica.",
+      "id": 1353,
+      "uso": "Estimular la producción y liberación de bilis\n(efecto colagogo y colerético), facilitando la digestión de\ngrasas y aliviando la sensación de pesadez.",
+      "planta_principal": "Alcachofa (Cynara scolymus)",
+      "interacciones": "Podría interferir con medicamentos de\neliminación biliar. Usar con precaución en tratamientos con\nanticoagulantes orales.",
+      "efectos_secundarios_nota": "Muy segura. En raras ocasiones, molestias\ngastrointestinales leves o reacciones alérgicas.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

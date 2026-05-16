@@ -1,13 +1,6 @@
 {
-  "condicion": "Garganta / Faringitis",
   "modulo": "respiratorio",
   "submodulo": "garganta_faringitis",
-  "emoji": "🗣️",
-  "descripcion": "Gárgaras, jarabes y tisanas para aliviar la garganta y la faringitis.",
-  "maternidad": {
-    "seguridad_general": "segura",
-    "nota": "Las gárgaras y tisanas para la garganta son seguras en embarazo. Limón, miel y manzanilla son especialmente recomendados."
-  },
   "recetas": [
     {
       "id": 29,
@@ -35,7 +28,21 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "faringitis aguda",
+        "irritación de garganta",
+        "tos seca",
+        "afonía leve"
+      ],
+      "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, sulfonilureas, insulina). Precaución con anticoagulantes por contenido de antocianinas.",
+      "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia.",
+      "duracion_tratamiento": "Uso agudo durante 7-10 días.",
+      "sinergia_plantas": [
+        "miel de ulmo",
+        "llantén",
+        "tilo",
+        "eucalipto"
+      ]
     },
     {
       "id": 47,
@@ -63,7 +70,21 @@
         "astringente"
       ],
       "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis",
+        "Amigdalitis leve",
+        "Laringitis",
+        "Aftas bucales",
+        "Gingivitis"
+      ],
+      "interacciones_medicamentos": "Mucílagos pueden reducir absorción de medicamentos orales; separar 1-2 horas. Sin interacciones mayores.",
+      "embarazo_lactancia": "Seguro en embarazo y lactancia en uso local (gárgaras).",
+      "duracion_tratamiento": "Hasta resolución de síntomas; máximo 10 días.",
+      "sinergia_plantas": [
+        "matico",
+        "manzanilla",
+        "tomillo"
+      ]
     },
     {
       "id": 81,
@@ -91,7 +112,21 @@
         "carminativo"
       ],
       "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis",
+        "Amigdalitis leve",
+        "Laringitis",
+        "Gingivitis",
+        "Mal aliento"
+      ],
+      "interacciones_medicamentos": "Timol potencia anticoagulantes y puede irritar mucosa gástrica con AINEs; precaución con antidiabéticos.",
+      "embarazo_lactancia": "Precaución en embarazo en dosis medicinales; seguro en lactancia en uso local.",
+      "duracion_tratamiento": "Máximo 10 días; gárgaras 3 veces al día.",
+      "sinergia_plantas": [
+        "llantén",
+        "matico",
+        "manzanilla"
+      ]
     },
     {
       "id": 115,
@@ -111,7 +146,27 @@
       "contraindicaciones": "Si hay amigdalitis bacteriana confirmada, no reemplaza el tratamiento antibiótico.",
       "uso": "Garganta. Alivio de garganta y amígdalas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ],
+      "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente",
+        "analgésico local"
+      ]
     },
     {
       "id": 116,
@@ -139,7 +194,20 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 141,
@@ -166,7 +234,20 @@
         "hepatoprotector leve"
       ],
       "referencias": "Farias C. et al. Front Pharmacol 2025 (PMC12709134); Concha J. et al. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 142,
@@ -195,7 +276,104 @@
         "antiséptico"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
+    },
+    {
+      "titulo": "Grog Chileno: Miel, Limón, Canela y Clavo",
+      "categoria": "Resfriados",
+      "origen": "Popular Chileno / Chilote",
+      "ingredientes": "1 cucharada de miel, jugo de 1 limón grande, 1 rama de canela, 3 clavos de olor, 1 taza de agua caliente.",
+      "preparacion": "Hervir el agua con la canela y los clavos 5 minutos. Colar. Agregar el jugo de limón y la miel cuando esté tibio. Beber muy caliente. Arroparse. Tomar al primer síntoma de resfrío y al acostarse. La miel recubre la garganta, el limón aporta vitamina C y la canela actúa como antimicrobiano.",
+      "id": 278,
+      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Medio",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
+      "uso": "Odontalgia, gingivitis y afecciones bucales: el eugenol bloquea canales de sodio en terminaciones nerviosas pulpares produciendo analgesia local aprobada por la FDA.",
+      "principios_activos": "Eugenol (72-95% del aceite esencial): anestésico local por bloqueo de canales Nav en fibras nerviosas C y Aδ; inhibe prostaglandina H sintetasa bloqueando síntesis de PGE2 (antiinflamatorio); inhibe quimiotaxis de neutrófilos. Aprobado por FDA como anestésico dental OTC. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "analgésico dental",
+        "antiséptico",
+        "antiinflamatorio",
+        "antifúngico",
+        "carminativo",
+        "antimicrobiano"
+      ],
+      "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Resfriado común",
+        "Gripe leve",
+        "Fiebre moderada",
+        "Congestión nasofaríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Ajo",
+        "Saúco",
+        "Jengibre"
+      ]
+    },
+    {
+      "titulo": "Té de Jengibre, Miel y Pimienta de Cayena para el Resfrío",
+      "categoria": "Resfriados",
+      "origen": "Popular Chileno",
+      "ingredientes": "Trozo de 3 cm de jengibre rallado, 1 cucharada de miel, 1 pizca de pimienta de cayena, jugo de 1/2 limón, 1 taza de agua.",
+      "preparacion": "Hervir el agua con el jengibre 5 minutos. Colar. Cuando esté tibio, añadir la miel, el limón y la cayena. Beber caliente. La capsaicina de la cayena es mucolítica y decongestiva nasal; el jengibre inhibe la replicación viral y la miel alivia la garganta.",
+      "id": 281,
+      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Medio",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis altas, contraindicado en cálculos biliares. Consultar si se toman anticoagulantes.",
+      "uso": "Resfrío: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antimicrobiano"
+      ],
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Resfriado común",
+        "Gripe leve",
+        "Fiebre moderada",
+        "Congestión nasofaríngea"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Ajo",
+        "Saúco",
+        "Jengibre"
+      ]
     },
     {
       "id": 425,
@@ -224,7 +402,20 @@
         "antisudorífico"
       ],
       "referencias": "Sforcin JM. J Ethnopharmacol 2011; 133(2):253-260; Marcucci MC. Apidologie 1995; 26(2):83-99; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 434,
@@ -252,7 +443,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 840,
@@ -281,7 +485,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 844,
@@ -310,7 +527,20 @@
         "analgésico dental"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ]
     },
     {
       "id": 850,
@@ -330,7 +560,27 @@
       "contraindicaciones": "No en úlceras orales; el vinagre puede irritar",
       "uso": "Garganta. Alivio de garganta y amígdalas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente",
+        "analgésico local"
+      ]
     },
     {
       "id": 854,
@@ -350,36 +600,193 @@
       "contraindicaciones": "No calentar el aceite; se oxida fácilmente",
       "uso": "Inflamación de Garganta. Alivio de garganta y amígdalas.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente",
+        "analgésico local"
+      ]
     },
     {
-      "id": 857,
-      "titulo": "Caramelos de Jengibre y Miel para la Garganta",
+      "id": 1141,
+      "titulo": "Gárgaras antisépticas de salvia, tomillo y quillay para faringitis aguda",
       "categoria": "Garganta",
-      "origen": "Herbolaria Natural",
-      "ingredientes": "4 cucharadas de miel, 1 cucharadita de jengibre en polvo, 1/2 cucharadita de canela",
-      "preparacion": "Calentar la miel a 150°C (punto de caramelo). Agregar el jengibre y la canela. Verter en molde de silicona. Dejar solidificar.",
-      "dosis": "1 caramelo cada 3-4 horas",
-      "modo_uso": "Dejar que se disuelva lentamente en la boca",
-      "tiempo_prep": "15 min + solidificado",
-      "dificultad": "Medio",
-      "rendimiento": "15-20 caramelos",
-      "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria popular y confitería medicinal",
-      "contraindicaciones": "No en diabéticos; no para menores de 1 año (miel)",
-      "uso": "Garganta: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "origen": "Popular chileno",
+      "ingredientes": "1 cdta de salvia seca, 1 cdta de tomillo seco, 1/4 cdta de corteza de quillay molida, 300 ml de agua, 1 pizca de sal marina",
+      "preparacion": "Decocción de quillay 5 min, retirar del fuego, agregar salvia y tomillo, tapar 10 min. Colar muy fino, agregar sal.",
+      "dosis": "Gárgaras 30 segundos cada 3 horas mientras dure el dolor, no tragar",
+      "modo_uso": "Tópico - gárgaras",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "300 ml para varias gárgaras",
+      "conservacion": "Refrigerado 24 h, entibiar antes de usar",
+      "evidencia": "ESCOP monographs Salvia officinalis y Thymus vulgaris; estudios sobre saponinas de quillay como tensoactivos mucolíticos",
+      "fuente_tradicion": "Popular chileno con tradición mapuche del quillay",
+      "contraindicaciones": "No tragar (saponinas de quillay irritan tubo digestivo), niños menores de 6 años",
+      "uso": "Saponinas y aceites esenciales rompen biofilms bacterianos y ejercen acción antiséptica directa sobre faringe.",
+      "principios_activos": "Tuyona y 1,8-cineol (salvia), timol y carvacrol (tomillo), saponinas triterpénicas (quillay); antibacterianas y antiinflamatorias locales",
       "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
+        "antiséptico",
+        "antiinflamatorio local",
+        "astringente",
+        "antimicrobiano",
+        "expectorante"
       ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "referencias": "ESCOP 2003; San Martín R. 1999 Bioresour Technol (quillay); Hoffmann 1992",
+      "indicaciones_principales": [
+        "faringitis aguda",
+        "amigdalitis leve",
+        "afonía",
+        "aftas bucales",
+        "encías inflamadas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones sistémicas relevantes en uso tópico correcto",
+      "embarazo_lactancia": "Aceptable como gárgara sin tragar",
+      "duracion_tratamiento": "Máximo 7 días",
+      "sinergia_plantas": [
+        "caléndula",
+        "llantén",
+        "matico"
+      ]
+    },
+    {
+      "id": 1167,
+      "titulo": "Gargarismo antiséptico de salvia, tomillo y propóleo",
+      "categoria": "Garganta",
+      "origen": "Tradición europea adoptada",
+      "ingredientes": "1 cucharada de salvia, 1 cucharadita de tomillo, 1 cucharadita de sal marina, 10 gotas de tintura de propóleo, 250 ml de agua",
+      "preparacion": "Hervir agua con salvia y tomillo 5 minutos. Apagar, tapar, reposar 10 minutos. Colar. Añadir sal y propóleo cuando esté tibio.",
+      "dosis": "Hacer gárgaras profundas 3-4 veces al día, 30 segundos cada vez",
+      "modo_uso": "Gárgaras",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Salvia con eficacia demostrada en faringitis (Hubbert, 2006)",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Alergia al propóleo. No tragar. Embarazo (salvia en altas dosis es uterotónica).",
+      "uso": "El ácido carnósico y tuyona de salvia inhiben crecimiento bacteriano gram positivo, el timol del tomillo penetra biofilms en mucosa orofaríngea y los flavonoides del propóleo reducen adherencia de Streptococcus pyogenes al epitelio.",
+      "principios_activos": "Tuyona, ácido carnósico, ácido rosmarínico (salvia): antibacterianos. Timol (tomillo). Pinocembrina, galangina (propóleo).",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente",
+        "analgésico local"
+      ],
+      "referencias": [
+        "Hubbert M. et al. Eur J Med Res (2006) 11:20",
+        "Almuhayawi MS. Saudi J Biol Sci (2020) 27:3079"
+      ],
+      "indicaciones_principales": [
+        "faringitis",
+        "amigdalitis",
+        "estomatitis aftosa",
+        "gingivitis",
+        "post-extracción dental"
+      ],
+      "interacciones_medicamentos": "Tópico, sin interacciones sistémicas",
+      "embarazo_lactancia": "Evitar salvia, usar solo tomillo y propóleo",
+      "duracion_tratamiento": "5-7 días",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "manzanilla"
+      ]
+    },
+    {
+      "titulo": "Infusión de Siete Venas para faringitis y dolor de garganta",
+      "categoria": "Garganta",
+      "origen": "Medicina tradicional chilena y europea.",
+      "ingredientes": "",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. Colar. 3. Para dolor de garganta, hacer gárgaras con la infusión tibia 3-4 veces al día. También se puede beber (1 taza, 3 veces al día).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición chilena",
+      "contraindicaciones": "",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "5-7 días.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Presente en todo Chile, incluido Chiloé.",
+      "efectos_secundarios": "",
+      "id": 1243
+    },
+    {
+      "titulo": "Infusión de Radal para la tos seca e irritativa",
+      "categoria": "Tos",
+      "origen": "Medicina tradicional mapuche y chilena.",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de radal. - 1 litro de agua recién hervida.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 5-10 minutos. Colar. 3. Endulzar con miel de abejas para un mejor efecto sobre la garganta.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "1-2 semanas.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Centro-sur de Chile y Chiloé.",
+      "efectos_secundarios": "",
+      "id": 1246
+    },
+    {
+      "titulo": "Infusión de Siete Venas para faringitis y dolor de garganta",
+      "categoria": "Respiratorio",
+      "origen": "Medicina tradicional chilena y europea.",
+      "ingredientes": "",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10-15 minutos. Colar.\n3. Para dolor de garganta, hacer gárgaras con la infusión tibia 3-4 veces\n   al día. También se puede beber (1 taza, 3 veces al día).",
+      "dosis": "1 taza, 3 veces al día; o gárgaras según necesidad. — 5-7 días.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Hierba de Siete Venas: Afecciones Vías Respiratorias, Tos,\nBronquitis, Catarro, Resfrío, Faringitis, Fiebre\" (TiendaMika.cl)[reference:4].",
+      "fuente_tradicion": "Medicina tradicional chilena y europea.",
+      "contraindicaciones": "No se han descrito.",
+      "id": 1331,
+      "uso": "Alivio de la faringitis, afonía, tos y dolor de garganta.\nSus propiedades emolientes y astringentes protegen la mucosa irritada.\n\nINGREDIENTES (Infusión):\n- 1 cucharada sopera (aprox. 4 g) de hojas secas de siete venas.\n- 250 ml de agua hirviendo.",
+      "planta_principal": "Siete Venas (Plantago lanceolata)",
+      "interacciones": "No se han descrito.",
+      "efectos_secundarios_nota": "No se han reportado.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

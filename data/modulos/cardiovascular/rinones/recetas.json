@@ -1,186 +1,7 @@
 {
-  "condicion": "Riñones / Vías Urinarias",
   "modulo": "cardiovascular",
   "submodulo": "rinones",
-  "emoji": "🫘",
-  "descripcion": "Infusiones depurativas para los riñones, cálculos renales e infecciones urinarias.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El agua de maíz y la limonada depurativa son seguros. Cola de caballo y perejil concentrado se evitan en primer trimestre. Consultar médico ante infecciones urinarias en embarazo."
-  },
   "recetas": [
-    {
-      "id": 34,
-      "titulo": "Infusión de Nalca para Problemas Renales",
-      "categoria": "Renal",
-      "origen": "Mapuche",
-      "ingredientes": "Hojas frescas de nalca, 1 taza de agua.",
-      "preparacion": "Una infusión de las hojas se utiliza para ayudar a tratar problemas renales y como diurético.",
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Mapuche",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Problemas Renales: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
-      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
-      "propiedades": [
-        "antioxidante",
-        "astringente",
-        "antiinflamatorio",
-        "nutritivo",
-        "digestivo"
-      ],
-      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 120,
-      "titulo": "Infusión de Hierba de la Piedra para los Cálculos Renales",
-      "categoria": "Renal",
-      "origen": "Norte Grande",
-      "ingredientes": "1 cucharada de hojas de hierba de la piedra, 1 taza de agua.",
-      "preparacion": "Preparar una infusión con esta planta, conocida por sus propiedades diuréticas y para disolver cálculos renales.",
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Cálculos Renales. Apoyo de la función renal.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "titulo": "Infusión de Cola de Caballo para Riñones y Vejiga",
-      "categoria": "Renal",
-      "origen": "Medicina Tradicional Chilena",
-      "ingredientes": "1 cucharada de cola de caballo seca (Equisetum bogotense), 1 taza de agua.",
-      "preparacion": "Hervir el agua con la cola de caballo 5 minutos. Colar y beber tibio. Tomar 3 tazas al día durante máximo 4 semanas. La silice y los flavonoides de la cola de caballo tienen efecto diurético suave y antiséptico urinario. No usar con insuficiencia renal severa.",
-      "id": 257,
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar en insuficiencia renal. Evitar uso prolongado. Contraindicado en embarazo.",
-      "uso": "Riñones y Vejiga: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.",
-      "principios_activos": "Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.",
-      "propiedades": [
-        "diurético",
-        "remineralizante",
-        "hemostático",
-        "astringente",
-        "cicatrizante"
-      ],
-      "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "titulo": "Agua de Pelos de Choclo (Maíz) como Diurético",
-      "categoria": "Renal",
-      "origen": "Popular Chileno",
-      "ingredientes": "Pelos de 2-3 mazorcas de maíz fresco, 1 litro de agua.",
-      "preparacion": "Hervir los pelos de choclo en el agua durante 15 minutos. Colar y beber durante el día. Consumir 2-3 vasos diarios. Los pelos de choclo contienen maysin y flavonoides con efecto diurético y calmante de las vías urinarias. Excelente para cistitis e infecciones urinarias leves.",
-      "id": 258,
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión tibia o fría",
-      "tiempo_prep": "20 min",
-      "dificultad": "Medio",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Apoyo de la función renal.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "titulo": "Agua de Perejil para Retención de Líquidos",
-      "categoria": "Renal",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 manojo de perejil fresco, 1 litro de agua.",
-      "preparacion": "Lavar el perejil. Hervir el agua y agregar el perejil. Apagar el fuego, tapar y reposar 15 minutos. Colar y beber durante el día (hasta 3 vasos). El perejil contiene apiol y miristicina con potente efecto diurético. No usar en dosis altas durante el embarazo.",
-      "id": 259,
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión tibia o fría",
-      "tiempo_prep": "20 min",
-      "dificultad": "Medio",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Retención de Líquidos. Apoyo de la función renal.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "titulo": "Infusión de Diente de León para Depurar los Riñones",
-      "categoria": "Renal",
-      "origen": "Popular Chileno",
-      "ingredientes": "15 g de hojas y flores de diente de león, 500 ml de agua.",
-      "preparacion": "Hervir el agua y agregar el diente de león. Tapar y reposar 10 minutos. Colar y beber tibio. Tomar 2-3 tazas al día. El diente de león contiene taraxacina con efecto diurético comparable a furosemida en estudios preclínicos, sin perder potasio.",
-      "id": 260,
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "15 min",
-      "dificultad": "Medio",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Depurar los Riñones: la taraxacina estimula enzimas antioxidantes hepáticas y los flavonoides ejercen acción diurética.",
-      "principios_activos": "Taraxacina y taraxacerín (eudesmanólidos amargos): estimulan la secreción biliar y aumentan la actividad de catalasa y glutatión peroxidasa hepáticas. Inulina (hasta 40% en otoño): prebiótico. Flavonoides y sales de potasio: efecto diurético sin pérdida de electrolitos.",
-      "propiedades": [
-        "diurético",
-        "colerético",
-        "hepatoprotector",
-        "tónico digestivo",
-        "prebiótico"
-      ],
-      "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "titulo": "Decocción de Apio y Limón para Infecciones Urinarias",
-      "categoria": "Renal",
-      "origen": "Medicina Tradicional Chilena",
-      "ingredientes": "1 rama de apio con hojas, jugo de 1 limón, 500 ml de agua.",
-      "preparacion": "Hervir el apio en el agua 10 minutos. Retirar, colar y agregar el limón. Beber tibio. Tomar 2-3 veces al día. El apio tiene apiol con efecto diurético y el limón acidifica la orina dificultando el crecimiento bacteriano en las vías urinarias.",
-      "id": 261,
-      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
-      "modo_uso": "Oral — decocción",
-      "tiempo_prep": "15 min",
-      "dificultad": "Medio",
-      "rendimiento": "3 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
-      "uso": "Infecciones Urinarias: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
-      ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
-    },
     {
       "id": 416,
       "titulo": "Depurativo de Cola de Caballo",
@@ -207,7 +28,20 @@
         "cicatrizante"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 541,
@@ -227,7 +61,27 @@
       "contraindicaciones": "Diurético suave; puede bajar levemente la presión; controlar en hipotensión",
       "uso": "Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 542,
@@ -255,7 +109,21 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 543,
@@ -282,7 +150,20 @@
         "astringente"
       ],
       "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC Arctostaphylos uva-ursi 2012; ESCOP Uvae ursi folium 2003; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 544,
@@ -302,7 +183,28 @@
       "contraindicaciones": "Hipotensivo; puede interactuar con medicamentos para presión; no en embarazo",
       "uso": "Riñones. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 545,
@@ -330,7 +232,20 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 549,
@@ -350,7 +265,27 @@
       "contraindicaciones": "No reemplaza tratamiento médico para cálculos grandes; puede interactuar con anticoagulantes",
       "uso": "Cálculos. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 551,
@@ -370,7 +305,27 @@
       "contraindicaciones": "No usar en embarazo; puede causar alergias en sensibles a asteráceas",
       "uso": "Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 988,
@@ -398,7 +353,20 @@
         "cicatrizante"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 989,
@@ -418,7 +386,27 @@
       "contraindicaciones": "Generalmente seguro",
       "uso": "Rinones. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 990,
@@ -438,7 +426,27 @@
       "contraindicaciones": "No usar en embarazo; puede potenciar diureticos",
       "uso": "Rinones. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 991,
@@ -458,7 +466,28 @@
       "contraindicaciones": "El esparrago puede dar olor caracteristico a la orina",
       "uso": "Detoxificacion Renal. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 992,
@@ -485,7 +514,20 @@
         "astringente"
       ],
       "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC Arctostaphylos uva-ursi 2012; ESCOP Uvae ursi folium 2003; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ]
     },
     {
       "id": 1001,
@@ -505,34 +547,136 @@
       "contraindicaciones": "No en embarazo; puede causar fotosensibilidad",
       "uso": "Vias Urinarias. Apoyo de la función renal.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ]
     },
     {
-      "id": 1079,
-      "titulo": "Infusion de Tola Negra y Yareta para Dolor de Rinones Aymara",
+      "id": 1181,
+      "titulo": "Infusión renal antiinflamatoria de pichi, llantén y cola de caballo",
       "categoria": "Renal",
-      "origen": "Aymara (Altiplano chileno, cuenca del salar de Surire, Guallatire)",
-      "ingredientes": "20 g de ramas floridas de tola negra (Parastrephia lepidophylla / tola en aymara); 15 g de yareta fresca (Azorella compacta / yarita); 600 ml de agua; 1 cucharada de miel de abeja altiplanic",
-      "preparacion": "1. Recolectar la tola y yareta del altiplano (solo en cantidad necesaria, plantas de crecimiento muy lento). 2. Hervir el agua y agregar la tola y yareta. 3. Dejar hervir 15 minutos a fuego medio. 4. Apagar, tapar y reposar 10 minutos. 5. Colar bien. Endulzar con miel cuando este tibio. 6. Beber caliente, preferentemente antes del amanecer segun tradicion aymara.",
-      "dosis": "1 taza al despertar en ayunas y 1 taza al anochecer, durante 10-15 dias.",
-      "modo_uso": "Oral (decoccion)",
-      "tiempo_prep": "30 minutos",
-      "dificultad": "Media",
-      "rendimiento": "2-3 tazas",
-      "conservacion": "Consumir fresco. Refrigerar no mas de 24 horas.",
-      "evidencia": "La tola negra y la yareta son dos de las plantas mas importantes de la farmacopea aymara altiplanic. La Parastrephia lepidophylla contiene flavonoides y terpenoides con efecto diuretico y antiinflamatorio renal documentado (Villagran & Castro 2004). La yareta (Azorella compacta) contiene azorellanos diterpenicos con efecto espasmolitico en via urinaria.",
-      "fuente_tradicion": "Andina / Aymara",
-      "contraindicaciones": "La yareta es una especie protegida en Chile (recolectar solo cantidades minimas y nunca del nucleo de la planta). No usar en insuficiencia renal severa. Contraindicado en embarazo. Puede interactuar con farmacos diureticos.",
-      "uso": "Tratamiento de inflamacion renal, calculos urinarios (urolitiasis), infecciones de las vias urinarias y edema de origen renal. La tola produce efecto diuretico que facilita la eliminacion de oxalatos; la yareta relaja los espasmos del ureter que causan el dolor colico.",
-      "principios_activos": "Flavonoides (quercetina, kampferol) de tola; azorellanos A-E (diterpenos) de yareta; aceites esenciales; taninos",
+      "origen": "Herbolaria chilena",
+      "ingredientes": "1/2 cucharadita de pichi, 1 cucharadita de llantén, 1 cucharadita de cola de caballo, 1/2 cucharadita de zarzaparrilla, 400 ml de agua",
+      "preparacion": "Hervir agua con cola de caballo y zarzaparrilla 8 minutos. Apagar, añadir pichi y llantén. Tapar 7 minutos. Colar.",
+      "dosis": "2 tazas al día, alejado de comidas, durante 10 días",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "400 ml",
+      "conservacion": "24 horas refrigerado",
+      "evidencia": "Pichi (Fabiana imbricata) con uso tradicional documentado en cistitis (Houghton, 1994)",
+      "fuente_tradicion": "Tradición chilena y mapuche",
+      "contraindicaciones": "Insuficiencia renal moderada-severa, embarazo, niños menores de 12 años, prostatismo severo.",
+      "uso": "Los flavonoides del pichi tienen acción antiséptica urinaria por excreción renal de derivados fenólicos activos, los iridoides del llantén (aucubina) protegen el urotelio inflamado y la cola de caballo aporta sílice estructural para tejido renal y mucosa vesical.",
+      "principios_activos": "Ácido clorogénico (pichi): antiséptico de vías urinarias y antioxidante. Escopoletina (0.8–1.9% MS, pichi): diurética e inhibidora de β-D-glucuronidasa. p-Hidroxiacetofenona (pichi): antiinflamatoria urinaria. Rutina (pichi): venotónica y antiinflamatoria. Aucubina y catalpol (llantén): antiinflamatorios renales. Ácido silícico (cola de caballo): fortalecedor de tejido renal y diurético.",
       "propiedades": [
-        "diuretico",
-        "antiespasmódico urinario",
+        "antiséptico urinario",
         "antiinflamatorio renal",
-        "litotriptico"
+        "diurético suave",
+        "demulcente"
       ],
-      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Loyola LA. et al. (1990) Diterpenoids from Azorella compacta. Phytochemistry.",
-      "maternidad_segura": "advertencia"
+      "referencias": [
+        "Houghton PJ. et al. Phytother Res (1994) 8:373",
+        "Wegener T. et al. Phytomedicine (1999) 6:181"
+      ],
+      "indicaciones_principales": [
+        "cistitis no complicada",
+        "uretritis",
+        "molestias miccionales",
+        "litiasis renal pequeña (coadyuvante)",
+        "prevención de ITU recurrente"
+      ],
+      "interacciones_medicamentos": "Antibióticos urinarios (puede potenciar), diuréticos",
+      "embarazo_lactancia": "Contraindicado pichi",
+      "duracion_tratamiento": "Máximo 10 días continuos",
+      "sinergia_plantas": [
+        "arándano rojo",
+        "matico"
+      ]
+    },
+    {
+      "titulo": "Decocción de Sabal para la hiperplasia prostática benigna",
+      "categoria": "Diurético",
+      "origen": "Fitoterapia clínica europea y americana",
+      "ingredientes": "- 1 cucharadita (aprox. 2-3 g) de frutos secos de sabal\n  ligeramente machacados.\n- 250 ml de agua fría.",
+      "preparacion": "1. Machacar los frutos ligeramente.\n2. Colocar en una olla con el agua fría.\n3. Llevar a ebullición y hervir a fuego lento durante 10-15\n   minutos.\n4. Retirar del fuego, colar y beber tibio.",
+      "dosis": "1 taza, 2 veces al día. — Puede usarse durante periodos prolongados\nbajo supervisión médica.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Comisión E alemana. Monografía sobre \"Sabalis serrulatae\nfructus\". La OMS también lo incluye en sus monografías para el\ntratamiento sintomático de la HPB en estadios I y II. Numerosos\nensayos clínicos avalan su eficacia comparable al finasteride\ncon menos efectos secundarios.",
+      "fuente_tradicion": "Fitoterapia clínica europea y americana",
+      "contraindicaciones": "- No usar sin diagnóstico médico previo (los síntomas pueden\n  deberse a cáncer de próstata).\n- Embarazo y lactancia (no aplica, es para hombres).\n- No se han descrito contraindicaciones graves a las dosis\n  recomendadas.",
+      "id": 1335,
+      "uso": "Alivio de los síntomas de la hiperplasia prostática\nbenigna (HPB), como dificultad para orinar, micción frecuente y\nsensación de vaciado incompleto.",
+      "planta_principal": "Sabal (Serenoa repens)",
+      "interacciones": "- Puede interferir con anticoagulantes orales (warfarina).\n- Teóricamente puede interferir con terapias hormonales.",
+      "efectos_secundarios_nota": "Raros y leves; pueden incluir molestias\ngastrointestinales, náuseas o dolor de cabeza. El efecto no\nes inmediato; puede tardar varias semanas en notarse mejoría.",
+      "nivel_seguridad": "⚠️ Precaución (diagnóstico previo)"
+    },
+    {
+      "titulo": "Infusión de Barba de Maíz para cálculos renales",
+      "categoria": "Diurético",
+      "origen": "Medicina tradicional americana y europea",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de barba de maíz seca\n  troceada.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la barba de maíz.\n2. Tapar y dejar reposar 15-20 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 3-4 veces al día. — Puede usarse durante periodos prolongados\ncomo suplemento diurético suave. Si el dolor por cálculos\npersiste o hay fiebre, buscar atención médica urgente.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP (European Scientific Cooperative on Phytotherapy).\nMonografía sobre \"Maydis stigma\". La barba de maíz está\nreconocida como diurético suave y demulcente para las vías\nurinarias, coadyuvante en el tratamiento de cálculos renales\npequeños y arenilla.",
+      "fuente_tradicion": "Medicina tradicional americana y europea",
+      "contraindicaciones": "- No se han descrito contraindicaciones graves a las dosis\n  recomendadas.\n- Embarazo y lactancia: seguro.\n- No usar como único tratamiento para cálculos grandes o\n  impactados.",
+      "id": 1370,
+      "uso": "Coadyuvante en el tratamiento de cálculos renales\npequeños (arenilla) y como diurético suave para facilitar la\neliminación de toxinas por la orina.",
+      "planta_principal": "Maíz (Zea mays) - estilos y estigmas (barba)",
+      "interacciones": "- Puede potenciar ligeramente el efecto de diuréticos\n  tiazídicos.\n- No se han descrito interacciones relevantes.",
+      "efectos_secundarios_nota": "No se han reportado efectos secundarios\na las dosis recomendadas.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Ortiga para infección urinaria leve",
+      "categoria": "Diurético",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3 g) de hojas secas de ortiga\n  desmenuzadas.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 3-4 veces al día. — No usar por más de 1 semana sin consultar al\nmédico. Si hay fiebre, dolor intenso o sangre en la orina,\nbuscar atención médica inmediata.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "ESCOP (European Scientific Cooperative on Phytotherapy).\nMonografía sobre \"Urticae folium\". La ortiga está reconocida como\ncoadyuvante en el tratamiento de infecciones del tracto urinario\ninferior por su efecto diurético y antiinflamatorio. La EMA\ntambién la incluye en sus monografías para aumentar la diuresis.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Insuficiencia cardíaca o renal que curse con edema.\n- No usar como único tratamiento para infecciones urinarias\n  graves o recurrentes.\n- Embarazo: usar solo bajo supervisión médica.\n- Lactancia: seguro a las dosis indicadas.",
+      "id": 1377,
+      "uso": "Coadyuvante en el tratamiento de infecciones\nurinarias leves, cistitis y como diurético para favorecer\nel lavado de las vías urinarias.",
+      "planta_principal": "Ortiga (Urtica dioica)",
+      "interacciones": "- Puede potenciar el efecto de diuréticos de asa y tiazídicos.\n- Teóricamente puede interferir con antihipertensivos.",
+      "efectos_secundarios_nota": "Muy raros; puede causar molestias\ngástricas leves en personas sensibles.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Tos",
   "modulo": "respiratorio",
   "submodulo": "tos",
-  "emoji": "😮‍💨",
-  "descripcion": "Jarabes y tisanas para la tos seca, irritativa o persistente.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La miel y el limón son seguros. Algunos jarabes contienen plantas contraindicadas en embarazo (regaliz, horehound). Revisar cada receta individualmente."
-  },
   "recetas": [
     {
       "id": 6,
@@ -27,7 +20,27 @@
       "contraindicaciones": "Si la tos persiste más de 7 días o hay fiebre alta, consultar médico.",
       "uso": "La tos. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Antocianinas (cianidina-3-glucósido): propiedades antioxidantes y antimicrobianas. Ácido elágico: actividad antiinflamatoria y antiproliferativa. Vitamina C: estimulante inmunológico y cicatrizante.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 15,
@@ -47,7 +60,27 @@
       "contraindicaciones": "Planta protegida; uso medicinal solo con partes legalmente obtenidas.",
       "uso": "Tos ferina. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 22,
@@ -67,7 +100,27 @@
       "contraindicaciones": "Si la tos persiste más de 7 días o hay fiebre alta, consultar médico.",
       "uso": "La tos. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 33,
@@ -96,7 +149,21 @@
         "cicatrizante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Bronquitis leve",
+        "Faringitis",
+        "Resfriado común",
+        "Catarro de vías altas"
+      ],
+      "interacciones_medicamentos": "Tomillo y ajo potencian anticoagulantes (warfarina, aspirina) e hipoglucemiantes; precaución con antihipertensivos.",
+      "embarazo_lactancia": "Precaución en embarazo en dosis medicinales; aceptable en lactancia en dosis culinarias.",
+      "duracion_tratamiento": "Máximo 7 días; si persiste consultar.",
+      "sinergia_plantas": [
+        "eucalipto",
+        "llantén",
+        "matico"
+      ]
     },
     {
       "id": 41,
@@ -116,7 +183,27 @@
       "contraindicaciones": "Planta protegida; uso medicinal solo con partes legalmente obtenidas.",
       "uso": "Aliviar la Tos. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 73,
@@ -144,7 +231,21 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos productiva",
+        "Bronquitis",
+        "Catarro",
+        "Congestión bronquial",
+        "Estimulación biliar"
+      ],
+      "interacciones_medicamentos": "Diente de león potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas.",
+      "embarazo_lactancia": "Aceptable en embarazo y lactancia en dosis moderadas como jarabe.",
+      "duracion_tratamiento": "Hasta 2 semanas; descansar entre ciclos.",
+      "sinergia_plantas": [
+        "llantén",
+        "tomillo",
+        "eucalipto"
+      ]
     },
     {
       "id": 90,
@@ -173,7 +274,60 @@
         "cicatrizante"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
+    },
+    {
+      "id": 94,
+      "titulo": "Té de Gobernadora para Problemas Respiratorios",
+      "categoria": "Respiratorio",
+      "origen": "Norte Grande",
+      "ingredientes": "1 cucharada de hojas de gobernadora, 1 taza de agua.",
+      "preparacion": "Hervir las hojas en el agua (decocción). Beber una taza 2 veces al día para aliviar la tos y los problemas bronquiales.",
+      "dosis": "1 taza 3 veces al día o inhalaciones 2 veces al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas o 1 vaporizador",
+      "conservacion": "Usar inmediatamente para inhalación",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza el tratamiento médico en enfermedades respiratorias graves.",
+      "uso": "Problemas Respiratorios. Apoyo respiratorio.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ],
+      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+      "propiedades": [
+        "expectorante",
+        "broncodilatador",
+        "mucolítico",
+        "antiséptico respiratorio"
+      ]
     },
     {
       "id": 97,
@@ -201,7 +355,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 109,
@@ -221,7 +388,27 @@
       "contraindicaciones": "Si la tos persiste más de 7 días o hay fiebre alta, consultar médico.",
       "uso": "La Tos. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Beta-glucanos de cebada fermentada: emolientes y antiinflamatorios. Enzimas (amilasas, proteasas): demulcentes. Vitaminas del complejo B: soporte metabólico y expectorante leve.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 147,
@@ -250,7 +437,20 @@
         "cicatrizante"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 423,
@@ -279,7 +479,20 @@
         "cicatrizante"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 426,
@@ -307,7 +520,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 427,
@@ -335,7 +561,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 435,
@@ -364,7 +603,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 841,
@@ -392,7 +644,20 @@
         "broncodilatador"
       ],
       "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 842,
@@ -420,36 +685,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 846,
-      "titulo": "Miel de Tomillo para la Bronquitis",
-      "categoria": "Tos",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "500 g de miel cruda, 4 ramitas de tomillo fresco (o 2 cucharadas de seco)",
-      "preparacion": "Infundir el tomillo en la miel caliente (60°C máximo) 2 semanas. Filtrar.",
-      "dosis": "1 cucharadita 3-4 veces al día",
-      "modo_uso": "Tomar pura o disolver en té tibio",
-      "tiempo_prep": "2 semanas elaboración",
-      "dificultad": "Fácil",
-      "rendimiento": "500 g",
-      "conservacion": "Temperatura ambiente 6 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No en menores de 1 año; no en alergia a labiadas",
-      "uso": "Bronquitis: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
-      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "emenagogo",
-        "antiespasmódico",
-        "vasoprotector",
-        "antiinflamatorio",
-        "antimicrobiano",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
       ],
-      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 853,
@@ -478,7 +727,20 @@
         "antiséptico"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
     },
     {
       "id": 855,
@@ -498,7 +760,27 @@
       "contraindicaciones": "No en embarazo; puede causar convulsiones en epilepsia en dosis altas",
       "uso": "Tos Seca. Alivio de la tos.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "principios_activos": "Marrubina e isopinocanfona (diterpenos): expectorantes y mucolíticos; estimulan secreciones bronquiales. Flavonoides (diosmina, hesperidina): venotónicos y antiinflamatorios. Aceites esenciales: antisépticos.",
+      "propiedades": [
+        "bequico",
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 1097,
@@ -526,7 +808,199 @@
         "antiinflamatorio"
       ],
       "referencias": "Gutiérrez-Jara M. Anthropologica PUCP 2024; Villagrán C. & Castro V. Etnobotánica norte de Chile 2003; Salinas J. et al. Cactáceas medicinales del norte chico, CONAF 2001.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ]
+    },
+    {
+      "id": 1123,
+      "titulo": "Decocción antitusiva de hierba del paño y miel",
+      "categoria": "Tos",
+      "origen": "Tradicional europeo-chileno",
+      "ingredientes": "1 cda flores secas de hierba del paño, 250 ml agua, 1 cda miel, gotas de limón opcional",
+      "preparacion": "Agua a hervor leve, retirar y agregar flores, tapar 12 min. Colar DOS VECES con tela fina para eliminar los pelos irritantes. Mezclar con miel tibia.",
+      "dosis": "1 taza 3 veces al día por máximo 7 días",
+      "modo_uso": "Infusión filtrada",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Media (filtrado riguroso)",
+      "rendimiento": "1 taza",
+      "conservacion": "Recién hecha",
+      "evidencia": "Comisión E aprueba Verbascum thapsus para catarros respiratorios. Tatli II. et al. (2007) revisión Verbascum.",
+      "fuente_tradicion": "Herbolaria europea desde Dioscórides; introducida en Chile y muy usada en zonas rurales",
+      "contraindicaciones": "Filtrar muy bien. Sin miel para menores de 1 año. Embarazo (datos limitados).",
+      "uso": "Mucílagos forman película protectora sobre mucosa irritada, saponinas (verbascosaponina) facilitan expectoración y aucubina reduce inflamación bronquial. Miel aporta efecto antitusivo demulcente.",
+      "principios_activos": "Mucílagos (3%), verbascosaponina, aucubina, verbascósido, harpagósido.",
+      "propiedades": [
+        "expectorante",
+        "antitusivo",
+        "demulcente",
+        "emoliente bronquial",
+        "antiinflamatorio"
+      ],
+      "referencias": "Tatli II. et al., Pharm Biol 2007;45:1-15. Commission E Monographs 1998.",
+      "indicaciones_principales": [
+        "tos seca irritativa",
+        "laringitis",
+        "traqueitis",
+        "tos por reflujo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones mayores. Filtrar bien para evitar irritación.",
+      "embarazo_lactancia": "Precaución; usar bajo consejo.",
+      "duracion_tratamiento": "Máximo 7-10 días",
+      "sinergia_plantas": [
+        "Hierba del paño",
+        "Llantén",
+        "Tomillo",
+        "Malva"
+      ]
+    },
+    {
+      "id": 1140,
+      "titulo": "Jarabe de hierba del paño y saúco para tos seca persistente",
+      "categoria": "Tos",
+      "origen": "Europeo adaptado chileno",
+      "ingredientes": "20 g de flores de hierba del paño (Verbascum thapsus), 15 g de flores de saúco, 500 ml de agua, 250 g de azúcar rubia",
+      "preparacion": "Infusión de hierbas en agua caliente 15 min. Colar dos veces con filtro fino de café (importante para retirar pelos). Reducir con azúcar a fuego bajo hasta consistencia de jarabe ligero (20 min).",
+      "dosis": "1 cucharada sopera 3 veces al día en adultos; 1 cdta en niños mayores de 6 años",
+      "modo_uso": "Oral - jarabe",
+      "tiempo_prep": "45 min",
+      "dificultad": "Media",
+      "rendimiento": "300 ml",
+      "conservacion": "Refrigerado hasta 4 semanas",
+      "evidencia": "Comisión E alemana monograph Verbasci flos; ESCOP saúco; usos tradicionales documentados (Blumenthal 2000)",
+      "fuente_tradicion": "Europeo y popular chileno",
+      "contraindicaciones": "Diabetes (por azúcar), alergia a Caprifoliaceae, filtrar muy bien para evitar irritación por pelos",
+      "uso": "Saponinas y mucílagos lubrican mucosa irritada y reducen el reflejo tusivo seco mientras flavonoides modulan inflamación.",
+      "principios_activos": "Verbascósido, saponinas e iridoides (hierba del paño), antocianinas y ácido clorogénico (saúco); antitusivos, antiinflamatorios y antivirales",
+      "propiedades": [
+        "antitusivo",
+        "emoliente respiratorio",
+        "antiinflamatorio",
+        "antiviral",
+        "expectorante suave"
+      ],
+      "referencias": "Blumenthal M. 2000 Herbal Medicine Expanded Commission E; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "tos seca irritativa",
+        "laringitis",
+        "traqueítis",
+        "post-resfriado con tos residual",
+        "faringitis seca"
+      ],
+      "interacciones_medicamentos": "Antitusivos opioides (no combinar), antidiabéticos (por azúcar del jarabe)",
+      "embarazo_lactancia": "Precaución; preferir versión sin saúco fermentado",
+      "duracion_tratamiento": "Máximo 10 días",
+      "sinergia_plantas": [
+        "malva",
+        "tilo",
+        "llantén"
+      ]
+    },
+    {
+      "titulo": "Infusión de Tomillo para la tos productiva",
+      "categoria": "Tos",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas y flores secas de tomillo. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta. 2. Tapar y dejar reposar durante 10 minutos. 3. Colar y beber tibio. Se puede endulzar con miel al gusto (no en menores de 1 año).",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero). - No usar en niños menores de 12 años (algunas presentaciones específicas pueden usarse desde los 4 años, consultar prospecto).",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "No usar por más de 1 semana sin consultar al médico.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro (+12 años)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1260
+    },
+    {
+      "titulo": "Infusión de Radal para la tos seca e irritativa",
+      "categoria": "Respiratorio",
+      "origen": "Medicina tradicional mapuche y chilena.",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de radal.\n- 1 litro de agua recién hervida.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 5-10 minutos. Colar.\n3. Endulzar con miel de abejas para un mejor efecto sobre la garganta.",
+      "dosis": "1 taza, 3 veces al día. — 1-2 semanas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Minsal: afecciones respiratorias (tos, catarro, bronquitis, asma)\"\n[reference:7]. Sugerencias de uso: \"Agregar dos cucharaditas de hojas secas\nen una taza de agua hervida. Beber tres o cuatro veces al día\"[reference:8].",
+      "fuente_tradicion": "Medicina tradicional mapuche y chilena.",
+      "contraindicaciones": "No se han descrito.",
+      "id": 1334,
+      "uso": "Tratar la tos, la bronquitis y el asma bronquial. El Radal\nes una de las plantas más valoradas en Chile por su eficacia antitusiva.",
+      "planta_principal": "Radal (Orites myrtoidea)",
+      "interacciones": "No se han descrito.",
+      "efectos_secundarios_nota": "No se han reportado.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Tomillo para la tos productiva",
+      "categoria": "Respiratorio",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas y flores secas de tomillo.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta.\n2. Tapar y dejar reposar durante 10 minutos.\n3. Colar y beber tibio. Se puede endulzar con miel al gusto\n   (no en menores de 1 año).",
+      "dosis": "1 taza, 3-4 veces al día. — No usar por más de 1 semana sin consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre \"Thymi herba\".\nLa EMA concluye que, basándose en su uso tradicional, el tomillo puede\nutilizarse para la tos productiva asociada a resfriados[reference:0].",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero).\n- No usar en niños menores de 12 años (algunas presentaciones\n  específicas pueden usarse desde los 4 años, consultar prospecto).",
+      "id": 1348,
+      "uso": "Tos productiva (con flemas) asociada a resfriados.",
+      "planta_principal": "Tomillo (Thymus vulgaris)",
+      "interacciones": "No se han descrito interacciones relevantes a las\ndosis indicadas.",
+      "efectos_secundarios_nota": "Pueden aparecer molestias estomacales leves.",
+      "nivel_seguridad": "✅ Seguro (+12 años)"
+    },
+    {
+      "titulo": "Infusión y Vahos de Eucalipto para el resfriado",
+      "categoria": "Respiratorio",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "",
+      "preparacion": "",
+      "dosis": "- Infusión: 1 taza, 2-3 veces al día.\n- Vahos: 1-2 veces al día. — No usar por más de 1 semana sin consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "European Medicines Agency (EMA). Monografía sobre \"Eucalypti\nfolium\". La EMA aprueba su uso tradicional para el alivio de la tos\nasociada al resfriado[reference:3].",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- No usar en niños menores de 30 meses por riesgo de laringoespasmo\n  (contracción de las cuerdas vocales)[reference:1].\n- Las presentaciones en infusión solo para adultos y niños mayores de\n  12 años[reference:2].\n- Evitar en el embarazo y la lactancia.\n- No aplicar aceite esencial puro directamente en la piel o las fosas\n  nasales de niños pequeños.",
+      "id": 1367,
+      "uso": "Alivio de la tos y la congestión nasal asociadas al\nresfriado común.\n\nINGREDIENTES (Infusión):\n- 1 cucharadita (aprox. 2 g) de hojas secas de eucalipto\n  desmenuzadas.\n- 250 ml de agua hirviendo.\n\nPREPARACIÓN (Infusión):\n1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10 minutos.\n3. Colar y beber tibio.\n\nINGREDIENTES (Vahos):\n- Un puñado de hojas de eucalipto (frescas o secas).\n- 1 litro de agua hirviendo.\n\nPREPARACIÓN (Vahos):\n1. Colocar las hojas en un bol grande.\n2. Verter el agua hirviendo sobre ellas.\n3. Con cuidado, inclinar la cabeza sobre el bol, cubrirse con\n   una toalla e inhalar el vapor durante 5-10 minutos.",
+      "planta_principal": "Eucalipto (Eucalyptus globulus)",
+      "interacciones": "El cineol (eucaliptol) puede interferir con el\nmetabolismo hepático de algunos fármacos. Consultar si se toman\nmedicamentos de metabolización hepática.",
+      "efectos_secundarios_nota": "En raras ocasiones, náuseas o reacciones\nalérgicas. La inhalación de vapor muy caliente puede causar\nquemaduras; tener precaución.",
+      "nivel_seguridad": "⚠️ Precaución (+12 años)"
     }
   ]
 }

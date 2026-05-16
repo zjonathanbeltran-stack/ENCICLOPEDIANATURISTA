@@ -1,13 +1,6 @@
 {
-  "condicion": "Energizante / Vitalidad",
   "modulo": "general",
   "submodulo": "energizante_vitalidad",
-  "emoji": "⚡",
-  "descripcion": "Tónicos, batidos y superalimentos para la energía, vitalidad y rendimiento.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La mayoría de los tónicos energizantes son seguros. Evitar ginseng, rhodiola, ashwagandha y guaraná en embarazo. La espirulina, la moringa y los batidos de frutas son seguros."
-  },
   "recetas": [
     {
       "id": 5,
@@ -36,7 +29,22 @@
         "antiinflamatorio"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "fatiga leve",
+        "estrés oxidativo",
+        "convalecencia",
+        "agotamiento físico ocasional",
+        "soporte antioxidante"
+      ],
+      "interacciones_medicamentos": "Puede potenciar hipoglucemiantes (metformina, insulina) y anticoagulantes (warfarina). Vigilar glucemia.",
+      "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia (alimento tradicional).",
+      "duracion_tratamiento": "Uso continuo seguro como alimento funcional; en infusión, curas de 4-6 semanas.",
+      "sinergia_plantas": [
+        "murtilla",
+        "rosa mosqueta",
+        "calafate",
+        "miel de ulmo"
+      ]
     },
     {
       "titulo": "Batido de Rosa Mosqueta y Maqui con Miel",
@@ -65,7 +73,20 @@
         "antimicrobiano"
       ],
       "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "titulo": "Tónico de Jengibre y Limón para el Inicio del Día",
@@ -94,7 +115,20 @@
         "antiemético"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "titulo": "Infusión Energizante de Menta y Romero",
@@ -123,7 +157,20 @@
         "antiespasmódico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "titulo": "Batido Verde de Ortiga y Manzana",
@@ -151,7 +198,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "titulo": "Tintura de Maqui y Miel: Tónico de Primavera",
@@ -180,7 +240,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 483,
@@ -200,7 +273,27 @@
       "contraindicaciones": "No usar en fenilcetonuria; verificar calidad de espirulina; puede causar náuseas inicialmente",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 484,
@@ -220,7 +313,27 @@
       "contraindicaciones": "Alergia al polen posible; iniciar con pequeñas cantidades",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Citoquininas (trans-zeatina): antienvejecimiento celular y antioxidantes. Electrolitos (potasio, magnesio, sodio): rehidratantes isotónicos. Laurato y caprilato: antimicrobianos naturales.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 485,
@@ -240,7 +353,27 @@
       "contraindicaciones": "No usar en embarazo, hipertensión no controlada, insomnio; múltiples interacciones",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Ginsenósidos Rb1, Rg1 y Rg3 (triterpenos tetracíclicos): adaptógenos que modulan el eje HPA; neuroprotectores y anticancerígenos. Polisacáridos (ginsan): inmunomoduladores. Panaxinol: estimulante del SNC.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 486,
@@ -268,7 +401,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 487,
@@ -288,7 +434,27 @@
       "contraindicaciones": "Alergia a productos apícolas posible; no dar a menores de 1 año",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Ácido 10-HDA (10-hidroxi-2-decenoico): antibacteriano único de jalea real; modulador inmunológico. Proteínas royalisinas: antimicrobianas. Vitaminas B5 y B6: metabólicas y energizantes.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 490,
@@ -316,7 +482,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 491,
@@ -344,7 +523,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 494,
@@ -372,7 +564,20 @@
         "tónico"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 495,
@@ -400,7 +605,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 496,
@@ -428,7 +646,20 @@
         "antidiabético"
       ],
       "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 497,
@@ -448,7 +679,27 @@
       "contraindicaciones": "No usar en embarazo, trastornos bipolares ni con medicamentos psicotrópicos",
       "uso": "Cansancio. Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Salidrosido (glucósido fenilpropanoide): adaptógeno antiestrés que reduce cortisol; neuroprotector. Rosavinas y rozarina: antidepresivos que modulan serotonina y dopamina. Tirosol: cardioprotector.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 733,
@@ -468,7 +719,27 @@
       "contraindicaciones": "Generalmente seguro; verificar que la proteína de cáñamo no tenga aditivos",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 734,
@@ -496,7 +767,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 735,
@@ -525,7 +809,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 736,
@@ -545,7 +842,27 @@
       "contraindicaciones": "Generalmente seguro; alto en calorías saludables",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 737,
@@ -574,7 +891,20 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 738,
@@ -594,7 +924,27 @@
       "contraindicaciones": "Alto en azúcares naturales; monitorear en diabéticos",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 739,
@@ -623,7 +973,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 740,
@@ -651,7 +1014,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 741,
@@ -679,7 +1055,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 742,
@@ -708,7 +1097,20 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 743,
@@ -728,7 +1130,27 @@
       "contraindicaciones": "Generalmente seguro; puede causar alergia en sensibles a nueces",
       "uso": "Omega-3. Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Ácido alfa-linolénico ALA (omega-3, 48%): el aceite vegetal con mayor concentración de omega-3. Proteínas completas con todos los aminoácidos esenciales. Vitamina E y resveratrol: antioxidantes potentes.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 744,
@@ -757,7 +1179,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 745,
@@ -777,7 +1212,27 @@
       "contraindicaciones": "No consumir en alergia a frutos secos",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Taninos (ácido gálico, procianidinas): astringentes y antioxidantes. Potasio y magnesio: electrolitos energizantes. Vitamina B6: cofactor en síntesis de serotonina y dopamina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 746,
@@ -806,7 +1261,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 747,
@@ -834,7 +1302,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 748,
@@ -863,7 +1344,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 749,
@@ -890,7 +1384,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 750,
@@ -910,7 +1417,27 @@
       "contraindicaciones": "Colar muy bien la ortiga; alto en sodio por el miso",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 751,
@@ -930,7 +1457,27 @@
       "contraindicaciones": "No recomendado en anticoagulados (espinaca alta en vitamina K)",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 752,
@@ -950,7 +1497,27 @@
       "contraindicaciones": "Contiene teobromina y cafeína; evitar en cardiopatías o insomnio",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 873,
@@ -979,7 +1546,20 @@
         "emenagogo"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 874,
@@ -999,7 +1579,28 @@
       "contraindicaciones": "Generalmente seguro; la quinoa no contiene gluten",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante",
+        "antiinflamatorio"
+      ]
     },
     {
       "id": 875,
@@ -1019,7 +1620,27 @@
       "contraindicaciones": "El wheatgrass puede causar náuseas al inicio; comenzar con media dosis",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 876,
@@ -1039,7 +1660,27 @@
       "contraindicaciones": "No en alergia al huevo o gluten",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 877,
@@ -1059,7 +1700,27 @@
       "contraindicaciones": "Puede colorear la orina de rojo (normal)",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 878,
@@ -1088,7 +1749,20 @@
         "digestivo"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 879,
@@ -1108,7 +1782,27 @@
       "contraindicaciones": "Verificar origen y calidad de las algas; pueden contener metales pesados",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Citoquininas (trans-zeatina): antienvejecimiento celular y antioxidantes. Electrolitos (potasio, magnesio, sodio): rehidratantes isotónicos. Laurato y caprilato: antimicrobianos naturales.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 880,
@@ -1136,7 +1830,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 881,
@@ -1164,7 +1871,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 882,
@@ -1192,7 +1912,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 883,
@@ -1220,7 +1953,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 884,
@@ -1240,7 +1986,27 @@
       "contraindicaciones": "Verificar calidad de la espirulina",
       "uso": "Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
     },
     {
       "id": 885,
@@ -1269,7 +2035,20 @@
         "antiséptico"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 886,
@@ -1298,7 +2077,20 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ]
     },
     {
       "id": 887,
@@ -1318,7 +2110,69 @@
       "contraindicaciones": "No exceder; puede tener efectos laxantes en cantidad; verificar origen",
       "uso": "Vitalidad. Energía y vitalidad.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Fatiga física y mental",
+        "Falta de vitalidad",
+        "Recuperación post-esfuerzo",
+        "Bajada de defensas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "En dosis culinarias, generalmente seguro. Evitar en dosis medicinales elevadas durante el primer trimestre de embarazo.",
+      "duracion_tratamiento": "Hasta 4 semanas diarias; descansar 1 semana entre ciclos",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Romero",
+        "Menta"
+      ],
+      "principios_activos": "Bixina y norbixina (carotenoides): antioxidantes y fotoprotectores. Tocotrienoles (vitamina E): protección celular. Ácido ferúlico: antiinflamatorio e hipoglucemiante.",
+      "propiedades": [
+        "adaptógeno",
+        "estimulante",
+        "antifatiga",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1188,
+      "titulo": "Energizante matinal de cedrón, romero y maqui",
+      "categoria": "Energizante",
+      "origen": "Herbolaria chilena moderna",
+      "ingredientes": "1 cucharadita de cedrón, 1/2 cucharadita de romero, 1 cucharada de maqui deshidratado, 1 cucharadita de miel, 1 rodaja de jengibre, 300 ml de agua",
+      "preparacion": "Hervir agua con jengibre y maqui 5 minutos. Apagar, añadir cedrón y romero. Tapar 7 minutos. Colar y añadir miel.",
+      "dosis": "1 taza en la mañana en ayunas",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "300 ml",
+      "conservacion": "Consumir fresca",
+      "evidencia": "Romero mejora rendimiento cognitivo (Pengelly, 2012); maqui con alta capacidad antioxidante (Céspedes, 2008)",
+      "fuente_tradicion": "Herbolaria chilena contemporánea",
+      "contraindicaciones": "Hipertensión severa, epilepsia, embarazo (romero), niños menores de 12 años.",
+      "uso": "El 1,8-cineol del romero atraviesa la barrera hematoencefálica e inhibe acetilcolinesterasa potenciando neurotransmisión colinérgica relacionada con atención y memoria, las antocianinas del maqui (delfinidina) protegen membranas neuronales del estrés oxidativo y el verbascósido del cedrón modula respuesta al estrés sin sobreestimulación adrenérgica.",
+      "principios_activos": "1,8-cineol, ácido carnósico (romero): nootrópico. Delfinidina (maqui): antioxidante. Verbascósido, citral (cedrón). Gingeroles.",
+      "propiedades": [
+        "energizante cognitivo",
+        "antioxidante",
+        "adaptógeno",
+        "tónico cerebral"
+      ],
+      "referencias": [
+        "Pengelly A. et al. J Med Food (2012) 15:10",
+        "Céspedes CL. et al. Food Chem (2008) 107:820"
+      ],
+      "indicaciones_principales": [
+        "fatiga matinal",
+        "estudiantes en época de exámenes",
+        "trabajo intelectual exigente",
+        "convalecencia"
+      ],
+      "interacciones_medicamentos": "Anticolinérgicos, antihipertensivos",
+      "embarazo_lactancia": "Evitar romero",
+      "duracion_tratamiento": "Ciclos de 3-4 semanas",
+      "sinergia_plantas": [
+        "yerba mate (no incluida)",
+        "menta"
+      ]
     }
   ]
 }

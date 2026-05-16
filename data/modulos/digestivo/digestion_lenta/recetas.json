@@ -1,13 +1,6 @@
 {
-  "condicion": "Digestion lenta / Depurativo",
   "modulo": "digestivo",
   "submodulo": "digestion_lenta",
-  "emoji": "🌿",
-  "descripcion": "Remedios digestivos, depurativos y probioticos para digestion pesada y limpieza intestinal.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "El kefir, el berro y el diente de leon son seguros. Evitar la papaya verde, la ruda, el ajenjo y el hibisco (uterotonico). Los ayunos depurativos no son recomendables en el embarazo."
-  },
   "recetas": [
     {
       "id": 4,
@@ -36,7 +29,62 @@
         "antioxidante"
       ],
       "referencias": "Speisky H. & Cassels BK. Pharmacol Res 1994; 29(1):1-12; Montes & Wilkomirsky 1985; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "dispepsia funcional",
+        "digestión lenta",
+        "colecistopatía leve",
+        "náuseas tras comidas grasas",
+        "hepatoprotección"
+      ],
+      "interacciones_medicamentos": "Precaución con anticoagulantes (warfarina), sedantes y medicamentos hepatotóxicos. La boldina puede potenciar fármacos metabolizados por CYP450.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia (ascaridol potencialmente abortivo y neurotóxico).",
+      "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1-2 semanas.",
+      "sinergia_plantas": [
+        "menta",
+        "manzanilla",
+        "cedrón",
+        "diente de león"
+      ]
+    },
+    {
+      "id": 52,
+      "titulo": "Tintura de Ajenjo para Estimular el Apetito",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "1 parte de hojas secas de ajenjo, 5 partes de alcohol de 40°.",
+      "preparacion": "Macerar por 15 días. Tomar de 5 a 10 gotas en un poco de agua antes de las comidas para estimular el apetito y la digestión.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
+      "uso": "Estimular el Apetito. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 59,
@@ -64,7 +112,21 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia funcional",
+        "Flatulencia",
+        "Espasmos intestinales",
+        "Náuseas leves",
+        "Síndrome de intestino irritable"
+      ],
+      "interacciones_medicamentos": "Mentol puede reducir absorción de hierro; precaución con ciclosporina y antiácidos; té verde con anticoagulantes (warfarina).",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia por cafeína del té verde y mentol; consultar profesional.",
+      "duracion_tratamiento": "Uso continuo moderado seguro (1 taza/día); en dosis altas máximo 4 semanas.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "cedrón",
+        "boldo"
+      ]
     },
     {
       "id": 84,
@@ -92,35 +154,21 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 119,
-      "titulo": "Agua de Romero para la Digestión",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "Hojas de romero, 1 taza de agua.",
-      "preparacion": "Preparar una infusión con hojas de romero para aliviar los problemas digestivos y la congestión del hígado y vesícula.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente o tibia",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
-      "uso": "Digestión: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
+      "indicaciones_principales": [
+        "Digestión lenta",
+        "Flatulencia",
+        "Espasmos intestinales",
+        "Náuseas leves",
+        "Halitosis"
       ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Mentol y catequinas del té verde pueden interactuar con anticoagulantes, hierro oral y ciclosporina.",
+      "embarazo_lactancia": "Precaución en embarazo y lactancia por cafeína; consultar profesional.",
+      "duracion_tratamiento": "Uso continuo moderado (1 taza/día); evitar dosis altas prolongadas.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "boldo",
+        "cedrón"
+      ]
     },
     {
       "id": 157,
@@ -148,7 +196,20 @@
         "cicatrizante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 389,
@@ -176,7 +237,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 394,
@@ -196,7 +270,27 @@
       "contraindicaciones": "Diurético leve: mantenerse bien hidratado. No abusar en insuficiencia renal. Consultar en embarazo.",
       "uso": "Depuración digestiva. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 395,
@@ -225,34 +319,20 @@
         "antimicrobiano"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 397,
-      "titulo": "Té de Ruda para digestión pesada y cólicos (uso moderado)",
-      "categoria": "Digestivo",
-      "origen": "Popular Chileno",
-      "ingredientes": "3–4 hojas de ruda (pequeñas), 1 taza de agua.",
-      "preparacion": "Infusionar las hojas de ruda en agua hervida 5 minutos tapado. Colar bien. Beber tibio y con moderación.",
-      "dosis": "MÁXIMO 1 taza al día. No usar más de 5 días seguidos. Solo en adultos.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "7 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "CONTRAINDICADO en embarazo (abortiva). Tóxica en dosis altas. Solo 3–4 hojas por taza. No dar a niños. Si hay mareos o vómitos, suspender.",
-      "uso": "Digestión pesada y cólicos: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
-      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas.",
-      "propiedades": [
-        "emenagogo",
-        "antiespasmódico",
-        "vasoprotector",
-        "antiinflamatorio"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
       ],
-      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "no_recomendada"
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 398,
@@ -281,7 +361,21 @@
         "colerético"
       ],
       "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010; Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 403,
@@ -309,7 +403,20 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 404,
@@ -337,7 +444,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hormonas tiroideas: puede interferir con la función tiroidea en uso prolongado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 406,
@@ -365,7 +485,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 408,
@@ -393,7 +526,20 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 409,
@@ -421,36 +567,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 410,
-      "titulo": "Agua de Clorofila con Aloe",
-      "categoria": "Digestivo",
-      "origen": "Naturopatía Moderna",
-      "ingredientes": "2 cucharadas de gel de aloe vera, 1 vaso de agua mineral, 10 gotas de clorofila líquida, jugo de limón",
-      "preparacion": "Mezclar todos los ingredientes. Agitar bien.",
-      "dosis": "1 vaso en ayunas diariamente",
-      "modo_uso": "Beber despacio en 10-15 minutos",
-      "tiempo_prep": "3 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 vaso",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Naturopatía contemporánea",
-      "contraindicaciones": "No exceder dosis de aloe; laxante en grandes cantidades; evitar en embarazo",
-      "uso": "Cicatrización de quemaduras, heridas y psoriasis: el acemanano estimula fibroblastos y la síntesis de colágeno; los compuestos antiinflamatorios reducen el eritema y el edema.",
-      "principios_activos": "Acemanano (polisacárido acetilado de manosa): estimula proliferación de fibroblastos y síntesis de ácido hialurónico e hidroxiprolina; inhibe prostaglandinas y leucotrienos proinflamatorios; reduce la liberación de histamina. Aloína: laxante estimulante para uso interno (mecanismo diferente). | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "cicatrizante",
-        "antiinflamatorio",
-        "emoliente",
-        "inmunomodulador",
-        "hidratante",
-        "inmunoestimulante"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
       ],
-      "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 411,
@@ -470,7 +600,27 @@
       "contraindicaciones": "Puede interactuar con litio y digoxina; no usar en embarazo",
       "uso": "Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 413,
@@ -498,7 +648,20 @@
         "prebiótico"
       ],
       "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 415,
@@ -518,7 +681,27 @@
       "contraindicaciones": "Hipotensivo; no usar con medicamentos para la presión arterial; evitar en embarazo",
       "uso": "Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 417,
@@ -546,7 +729,20 @@
         "analgésico"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 418,
@@ -575,7 +771,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 419,
@@ -603,7 +812,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 421,
@@ -632,7 +854,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 422,
@@ -652,7 +887,27 @@
       "contraindicaciones": "No usar más de 2 semanas seguidas; consultar antes si hay patología hepática",
       "uso": "Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 693,
@@ -681,7 +936,20 @@
         "antimicrobiano"
       ],
       "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 695,
@@ -709,7 +977,20 @@
         "hipocolesterolemiante"
       ],
       "referencias": "Kraft K. Phytomedicine 1997; WHO Monographs Vol.1 (1999); Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 696,
@@ -737,7 +1018,185 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 697,
+      "titulo": "Aceite de Oliva en Ayunas para el Tránsito",
+      "categoria": "Digestivo",
+      "origen": "Tradición Mediterránea",
+      "ingredientes": "1 cucharada de aceite de oliva extra virgen, jugo de medio limón",
+      "preparacion": "Mezclar ambos ingredientes.",
+      "dosis": "1 cucharada en ayunas 20 min antes del desayuno",
+      "modo_uso": "Práctica mediterránea clásica para el estreñimiento crónico",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 dosis",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición mediterránea antigua",
+      "contraindicaciones": "No exceder 1 cucharada al día; en grandes cantidades es laxante fuerte",
+      "uso": "Tránsito: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 698,
+      "titulo": "Té de Raíz de Jengibre y Menta Piperita",
+      "categoria": "Digestivo",
+      "origen": "Herbolaria Universal",
+      "ingredientes": "2 rodajas de jengibre fresco, 5 hojas de menta piperita, 300 ml de agua",
+      "preparacion": "Hervir el jengibre 5 min. Apagar el fuego. Agregar la menta y reposar 5 min. Colar.",
+      "dosis": "2 tazas al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria universal",
+      "contraindicaciones": "No usar menta en gastritis o reflujo severo",
+      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | 6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "antiemético"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 699,
+      "titulo": "Masaje Abdominal con Aceite de Comino",
+      "categoria": "Digestivo",
+      "origen": "Medicina Árabe",
+      "ingredientes": "2 cucharadas de aceite de comino negro (Nigella sativa), 3 gotas de aceite esencial de hinojo",
+      "preparacion": "Mezclar los aceites.",
+      "dosis": "Masajear el abdomen en sentido horario 5-10 min, 2 veces al día",
+      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina árabe clásica",
+      "contraindicaciones": "Solo externo; no ingerir el aceite esencial de hinojo",
+      "uso": "Flatulencia, cólicos intestinales del lactante y estimulación de la lactancia: el trans-anetol relaja el músculo liso digestivo y modula receptores dopaminérgicos estimulando la producción de prolactina.",
+      "principios_activos": "Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "galactagogo",
+        "expectorante",
+        "digestivo"
+      ],
+      "referencias": "WHO Monographs Vol.3 (2007); EMA/HMPC Foeniculum vulgare 2018; Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 700,
+      "titulo": "Jugo de Aloe Vera para el Intestino",
+      "categoria": "Digestivo",
+      "origen": "Naturopatía",
+      "ingredientes": "2 cucharadas de gel de aloe vera puro (solo el gel transparente)",
+      "preparacion": "Disolver en 1 vaso de agua fría. Mezclar bien.",
+      "dosis": "1 vaso en ayunas, 3 semanas",
+      "modo_uso": "Asegurarse de usar solo el gel interior, sin las aloínas de la cáscara",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso",
+      "conservacion": "Consumir fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía latinoamericana",
+      "contraindicaciones": "Las aloínas de la cáscara son tóxicas; usar solo gel interior",
+      "uso": "Intestino: el acemanano estimula fibroblastos y la síntesis de colágeno; los compuestos antiinflamatorios reducen el eritema y el edema.",
+      "principios_activos": "Acemanano (polisacárido acetilado de manosa): estimula proliferación de fibroblastos y síntesis de ácido hialurónico e hidroxiprolina; inhibe prostaglandinas y leucotrienos proinflamatorios; reduce la liberación de histamina. Aloína: laxante estimulante para uso interno (mecanismo diferente).",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio",
+        "emoliente",
+        "inmunomodulador",
+        "hidratante"
+      ],
+      "referencias": "Vogler BK. & Ernst E. Br J Gen Pract 1999; 49(447):823-828; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 701,
@@ -757,7 +1216,27 @@
       "contraindicaciones": "Puede causar alergias; en diabéticos monitorear la glucosa",
       "uso": "Digestión. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Diosgenina (sapogenina esteroidal): precursora sintética de hormonas; estimula libido y producción de leche. 4-Hidroxiisoleucina: insulinosensibilizante. Mucílagos: demulcentes digestivos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 702,
@@ -785,7 +1264,62 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 704,
+      "titulo": "Mezcla de Especias Digestivas (Churna Ayurvédico)",
+      "categoria": "Digestivo",
+      "origen": "Medicina Ayurveda",
+      "ingredientes": "1 cucharadita de comino, 1 cucharadita de cilantro seco, 1/2 cucharadita de hinojo, 1/4 cucharadita de cardamomo, 1/4 cucharadita de jengibre seco",
+      "preparacion": "Moler todas las especias juntas. Guardar en frasco hermético.",
+      "dosis": "1/2 cucharadita mezclada en 1 taza de agua tibia o yogur, después de cada comida",
+      "modo_uso": "La mezcla estimula los agni (fuegos digestivos) del Ayurveda",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 g (2 semanas)",
+      "conservacion": "Frasco hermético temperatura ambiente 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina Ayurveda clásica",
+      "contraindicaciones": "Puede causar ardor en personas con gastritis; reducir dosis de jengibre",
+      "uso": "Náuseas y vómitos (embarazo, quimioterapia, cinetosis) y estados inflamatorios: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
+      "propiedades": [
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antiespasmódico"
+      ],
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 705,
@@ -813,7 +1347,60 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 708,
+      "titulo": "Caldo de Manzana y Canela para el Estómago",
+      "categoria": "Digestivo",
+      "origen": "Tradición Universal",
+      "ingredientes": "3 manzanas peladas y cortadas, 1 rama de canela, 500 ml de agua",
+      "preparacion": "Hervir todo 20 min. Colar o servir como compota.",
+      "dosis": "1 taza del caldo o 1/2 taza de compota con las comidas",
+      "modo_uso": "La pectina de la manzana tiene efecto protector gástrico",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml",
+      "conservacion": "Refrigerar 3 días",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición universal de medicina popular",
+      "contraindicaciones": "No agregar azúcar; la manzana ya endulza",
+      "uso": "Estómago. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 713,
@@ -833,7 +1420,27 @@
       "contraindicaciones": "Generalmente seguro; puede interactuar con medicamentos anticoagulantes",
       "uso": "Digestión. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "1,8-Cineol (eucaliptol): carminativo, antiséptico oral y estimulante de secreciones digestivas. Acetato de terpinilo: antiespasmódico y aromaterapéutico. Alfa-terpineol: antimicrobiano.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 714,
@@ -861,7 +1468,61 @@
         "expectorante"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 715,
+      "titulo": "Té de Manzanilla con Regaliz para Intestino Irritable",
+      "categoria": "Digestivo",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharadita de manzanilla seca, 1/4 cucharadita de raíz de regaliz seca, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir ambas plantas 12 min. Colar.",
+      "dosis": "2-3 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "El regaliz es hipertensivo; no usar en embarazo o hipertensión",
+      "uso": "Intestino Irritable: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 716,
@@ -889,7 +1550,60 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
+    },
+    {
+      "id": 938,
+      "titulo": "Infusion de Anamu para la Digestión",
+      "categoria": "Digestivo",
+      "origen": "Medicina Caribeña",
+      "ingredientes": "1 cucharadita de anamu (Petiveria alliacea) seca, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir el anamu 10 min. Colar.",
+      "dosis": "1 taza despues de las comidas",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina caribena y amazonica",
+      "contraindicaciones": "No en embarazo; puede causar alergias",
+      "uso": "Digestión. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Dibenzil disulfuro (en Petiveria alliacea): inmunomodulador y antiinflamatorio; activo contra hongos y bacterias. Flavonoides: antioxidantes. Cumarinas: anticoagulantes leves.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 941,
@@ -909,7 +1623,27 @@
       "contraindicaciones": "No en embarazo; no en gastritis activa; muy amargo",
       "uso": "Digestion Lenta. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Amarogentina (secoiridoide amargo): la sustancia más amarga conocida; estimula potentemente la secreción gástrica y biliar. Gentiopicrina: colerética. Swertiamarina: antiespasmódica e hipoglucemiante.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ]
     },
     {
       "id": 944,
@@ -936,7 +1670,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 945,
@@ -965,7 +1712,20 @@
         "emenagogo"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
       "id": 946,
@@ -994,34 +1754,237 @@
         "antiemético"
       ],
       "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ]
     },
     {
-      "id": 1078,
-      "titulo": "Chuño Medicinal Aymara para Fortalecer Estomago y Recuperacion de Enfermedad",
-      "categoria": "Nutritivo",
-      "origen": "Aymara (Altiplano de Tarapaca y Parinacota, comunidades de Colchane y Enquelga)",
-      "ingredientes": "200 g de chuño (papa deshidratada por congelacion ancestral / chuno en aymara); 1 litro de agua; 1 cucharada de grasa de llama o vacuno; 1 manojo de muna (Minthostachys mollis); sal de Atacama al gusto",
-      "preparacion": "1. Remojar el chuño en agua fria durante 4 horas, cambiando el agua 2 veces. 2. Lavar bien el chuño remojado, exprimirlo con las manos (proceso tradicional de lavado). 3. Hervir el agua con la grasa de llama. Agregar el chuño entero o partido. 4. Cocer a fuego lento durante 45 minutos revolviendo ocasionalmente. 5. Agregar la muna los ultimos 5 minutos. 6. Salar. Servir caliente como sopa espesa.",
-      "dosis": "1 plato hondo dos veces al dia (manana y noche) durante periodos de convalecencia o debilidad. En enfermedad aguda, puede ser la alimentacion principal por 3-5 dias.",
-      "modo_uso": "Oral (alimento-medicina / sopa medicinal)",
-      "tiempo_prep": "5 horas (incluyendo remojo)",
-      "dificultad": "Media",
-      "rendimiento": "4 raciones",
-      "conservacion": "Refrigerar hasta 2 dias. Recalentar bien.",
-      "evidencia": "El chuño es una tecnologia alimentaria ancestral andina con mas de 2.000 anos de historia. El proceso de deshidratacion por congelacion y sol elimina glucoalcaloides toxicos de la papa mientras concentra el almidon y minerales. Documentado como alimento medicinal aymara por Llagostera (1988) y por el INTA de Chile.",
-      "fuente_tradicion": "Andina / Aymara",
-      "contraindicaciones": "Personas con diabetes deben limitar cantidad por alto indice glucemico del almidon. Verificar que el chuño no tenga moho (descartar en caso positivo). La grasa de llama puede ser dificil de conseguir; sustituir por grasa de vacuno.",
-      "uso": "Recuperacion nutricional en enfermedades debilitantes, convalecencia, diarrea cronica y mal de altitude. El chuño es facil de digerir por su almidon pregelatinizado; la muna facilita su digestion y agrega propiedades antiflatulenta. Es el alimento hospitalario andino por excelencia.",
-      "principios_activos": "Almidon resistente (chuño); proteinas de papa; vitamina C residual; minerales andinos; pulegona (muna)",
+      "id": 1109,
+      "titulo": "Decocción digestiva de cedrón y manzanilla post-comida",
+      "categoria": "Digestivo",
+      "origen": "Popular chileno",
+      "ingredientes": "1 cdta hojas frescas de cedrón (o 1/2 cdta secas), 1 cdta manzanilla, 1 rodaja delgada de jengibre, 250 ml agua",
+      "preparacion": "Calentar agua hasta primer hervor. Retirar y agregar las hierbas. Tapar 7 minutos. Colar.",
+      "dosis": "1 taza después de almuerzo y/o cena",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir recién preparada",
+      "evidencia": "Citral muestra acción espasmolítica en músculo liso (Carbajal et al., J Ethnopharmacol). Manzanilla validada por ESCOP para dispepsia.",
+      "fuente_tradicion": "Costumbre rural chilena ampliamente extendida",
+      "contraindicaciones": "Evitar grandes dosis en embarazo. Alergia a Asteraceae para la manzanilla.",
+      "uso": "Citral y bisabolol relajan musculatura lisa gastrointestinal reduciendo espasmos; flavonoides (apigenina, luteolina) tienen acción ansiolítica leve por unión a receptores GABA-A, ideal para digestión nerviosa.",
+      "principios_activos": "Citral (geranial + neral), verbascósido, α-bisabolol, apigenina, chamazuleno.",
       "propiedades": [
-        "nutritivo",
-        "facil digestion",
-        "recuperacion energetica",
-        "digestivo"
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "ansiolítico suave",
+        "sedante"
       ],
-      "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / INTA-Chile (2001) Valor nutricional de alimentos andinos tradicionales.",
-      "maternidad_segura": "segura"
+      "referencias": "Carbajal D. et al., J Ethnopharmacol 1989;25:103. ESCOP Monographs Matricariae flos 2003.",
+      "indicaciones_principales": [
+        "dispepsia funcional",
+        "gases",
+        "digestión nerviosa",
+        "cólicos intestinales leves"
+      ],
+      "interacciones_medicamentos": "Manzanilla puede potenciar anticoagulantes y sedantes. Vigilar warfarina.",
+      "embarazo_lactancia": "Seguro en cantidades culinarias; moderar en embarazo.",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "Cedrón",
+        "Manzanilla",
+        "Melisa",
+        "Jengibre",
+        "Boldo"
+      ]
+    },
+    {
+      "id": 1138,
+      "titulo": "Vinagre digestivo de romero y salvia tras comidas pesadas",
+      "categoria": "Digestivo",
+      "origen": "Europeo adaptado chileno",
+      "ingredientes": "200 ml de vinagre de manzana sin pasteurizar, 1 ramita de romero fresco, 5 hojas de salvia, 1 cdta de miel",
+      "preparacion": "Macerar romero y salvia en el vinagre dentro de un frasco oscuro por 14 días, agitando cada 2 días. Colar y mezclar con miel.",
+      "dosis": "1 cdta diluida en 1/2 vaso de agua tibia 15 min antes de almuerzo",
+      "modo_uso": "Oral - vinagre medicinal",
+      "tiempo_prep": "14 días (maceración)",
+      "dificultad": "Media",
+      "rendimiento": "200 ml",
+      "conservacion": "Frasco oscuro a temperatura ambiente hasta 6 meses",
+      "evidencia": "Estudios sobre ácido acético y mejora de respuesta glucémica postprandial (Johnston 2004 Diabetes Care); ESCOP Rosmarinus",
+      "fuente_tradicion": "Popular chileno y europeo",
+      "contraindicaciones": "Gastritis erosiva, reflujo severo, esmalte dental sensible (enjuagar boca tras tomar)",
+      "uso": "Ácido acético mejora respuesta insulínica postprandial y el ácido rosmarínico estimula secreción biliar.",
+      "principios_activos": "Ácido acético, ácido rosmarínico y carnosol (romero), tuyona y 1,8-cineol (salvia); estimulan motilidad gástrica y bilis",
+      "propiedades": [
+        "digestivo",
+        "hipoglucemiante",
+        "colerético",
+        "antimicrobiano",
+        "antioxidante"
+      ],
+      "referencias": "Johnston CS. 2004 Diabetes Care; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "digestión lenta",
+        "picos glucémicos postprandiales",
+        "saciedad temprana",
+        "intolerancia a carnes rojas",
+        "halitosis digestiva"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes orales e insulina (potencia efecto), digoxina (vigilar potasio)",
+      "embarazo_lactancia": "Precaución por salvia (tuyona); preferir solo romero",
+      "duracion_tratamiento": "Uso continuo seguro en dosis indicada",
+      "sinergia_plantas": [
+        "tomillo",
+        "orégano",
+        "menta"
+      ]
+    },
+    {
+      "id": 1160,
+      "titulo": "Amargo digestivo de centaura, boldo y achicoria",
+      "categoria": "Digestivo",
+      "origen": "Adaptación de amargos europeos con plantas locales",
+      "ingredientes": "10 g de centaura menor, 5 g de hojas de boldo, 10 g de raíz de achicoria tostada, 5 g de raíz de diente de león, 2 g de cáscara de naranja amarga seca, 200 ml de alcohol al 40%, 100 ml de agua",
+      "preparacion": "Macerar todas las hierbas en alcohol y agua durante 14 días en frasco oscuro, agitando diariamente. Filtrar con tela fina. Envasar en gotero.",
+      "dosis": "20 gotas en poca agua 15 minutos antes de las comidas principales",
+      "modo_uso": "Tintura amarga",
+      "tiempo_prep": "14 días",
+      "dificultad": "Media",
+      "rendimiento": "300 ml",
+      "conservacion": "2 años en lugar fresco y oscuro",
+      "evidencia": "Amargos estimulan receptores T2R linguales aumentando gastrina y motilidad (McMullen MK, 2015)",
+      "fuente_tradicion": "Tradición de digestivos amargos europeos adaptada",
+      "contraindicaciones": "Úlcera péptica activa, ERGE severa, embarazo, obstrucción biliar, niños menores de 12 años.",
+      "uso": "Los principios amargos activan receptores T2R en lengua y duodeno provocando liberación refleja de gastrina, CCK y secreción biliar, mejorando digestión de grasas y proteínas en personas con hipoclorhidria funcional.",
+      "principios_activos": "Secoiridoides (genciopicrina) de centaura. Boldina y isoboldina de boldo (coleréticos). Lactucina de achicoria (amarga). Taraxacina de diente de león.",
+      "propiedades": [
+        "aperitivo",
+        "colerético",
+        "colagogo",
+        "digestivo",
+        "hepatoprotector"
+      ],
+      "referencias": [
+        "McMullen MK. et al. Chemosens Percept (2015) 8:88",
+        "Wegener T. Wien Med Wochenschr (1999) 149:241"
+      ],
+      "indicaciones_principales": [
+        "dispepsia funcional",
+        "inapetencia",
+        "digestión lenta",
+        "intolerancia a grasas",
+        "convalecencia"
+      ],
+      "interacciones_medicamentos": "Puede alterar absorción de medicamentos (separar 1 hora). Cuidado con antiácidos.",
+      "embarazo_lactancia": "Contraindicado",
+      "duracion_tratamiento": "Ciclos de 3-4 semanas",
+      "sinergia_plantas": [
+        "manzanilla",
+        "menta",
+        "hinojo"
+      ]
+    },
+    {
+      "id": 1194,
+      "titulo": "Tisana digestiva de albahaca, menta e hinojo",
+      "categoria": "Digestivo",
+      "origen": "Herbolaria mediterránea",
+      "ingredientes": "1 cucharadita de albahaca seca, 1 cucharadita de menta, 1 cucharadita de semillas de hinojo trituradas, 1/2 cucharadita de manzanilla, 300 ml de agua",
+      "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar.",
+      "dosis": "1 taza después de comidas pesadas",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "12 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "300 ml",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Menta con eficacia en síndrome de intestino irritable (Khanna, 2014)",
+      "fuente_tradicion": "Herbolaria mediterránea",
+      "contraindicaciones": "Reflujo gastroesofágico severo (menta relaja esfínter esofágico inferior). Hernia hiatal grande.",
+      "uso": "El mentol de la menta relaja músculo liso intestinal por bloqueo de canales de calcio, el linalool de albahaca complementa con acción sedante digestiva y los flavonoides de manzanilla actúan sobre eje intestino-cerebro reduciendo somatización digestiva del estrés.",
+      "principios_activos": "Mentol (menta): bloqueador canales Ca++. Linalool, eugenol (albahaca). Anetol (hinojo). Apigenina (manzanilla).",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "espasmolítico",
+        "antinauseoso"
+      ],
+      "referencias": [
+        "Khanna R. et al. J Clin Gastroenterol (2014) 48:505",
+        "Pittler MH. Am J Gastroenterol (1998) 93:1131"
+      ],
+      "indicaciones_principales": [
+        "dispepsia funcional",
+        "náuseas postprandiales",
+        "distensión",
+        "síndrome de intestino irritable",
+        "digestión lenta"
+      ],
+      "interacciones_medicamentos": "Antiácidos, IBP (separar 1 hora)",
+      "embarazo_lactancia": "Moderada, evitar dosis altas",
+      "duracion_tratamiento": "Uso continuo según necesidad",
+      "sinergia_plantas": [
+        "melisa",
+        "cedrón"
+      ]
+    },
+    {
+      "titulo": "Infusión de Frutilla Blanca como digestivo y astringente",
+      "categoria": "General",
+      "origen": "Medicina tradicional mapuche",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de hojas secas de frutilla\n  blanca desmenuzadas.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas secas.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 2-3 veces al día. — No usar por más de 3-4 días para tratar\ndiarreas. Si los síntomas persisten, consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "\"Plantas medicinales de uso mapuche\" (Universidad de\nConcepción). Estudios fitoquímicos publicados en el \"Journal\nof Ethnopharmacology\" confirman el contenido de taninos y\nflavonoides en las hojas de Fragaria chiloensis.",
+      "fuente_tradicion": "Medicina tradicional mapuche",
+      "contraindicaciones": "- Alergia a las fresas o frutillas.\n- Estreñimiento crónico (por su efecto astringente).\n- Embarazo y lactancia: seguro en cantidades moderadas.",
+      "id": 1356,
+      "uso": "Alivio de diarreas leves, como astringente suave\ny digestivo.",
+      "planta_principal": "Frutilla Blanca (Fragaria chiloensis)",
+      "interacciones": "Por su contenido en taninos, puede reducir la\nabsorción de hierro y otros minerales. Separar de suplementos\ny comidas ricas en hierro por al menos 2 horas.",
+      "efectos_secundarios_nota": "No se han reportado efectos secundarios\ngraves a las dosis recomendadas.",
+      "nivel_seguridad": "✅ Seguro"
+    },
+    {
+      "titulo": "Infusión de Hojas de Alcachofa para digestiones pesadas",
+      "categoria": "Digestivo",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharada (2-3 g) de hojas secas de alcachofa troceadas.\n- 150 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10-15 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 30 minutos antes de la comida principal. — Uso continuo seguro durante semanas.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Revisión sistemática \"Herbal medicine for functional dyspepsia\". PubMed.",
+      "fuente_tradicion": "Fitoterapia clínica europea",
+      "contraindicaciones": "- Alergia a asteráceas.\n- Obstrucción de vías biliares (cálculos).\n- En caso de cálculos biliares, usar solo bajo supervisión médica.",
+      "id": 1373,
+      "uso": "Sensación de pesadez, plenitud y digestión lenta tras comidas grasas.",
+      "planta_principal": "Alcachofa (Cynara scolymus)",
+      "interacciones": "Posible interferencia con medicamentos de eliminación biliar. Precaución con anticoagulantes orales (casos aislados de potenciación).",
+      "efectos_secundarios_nota": "Muy raros; molestias gastrointestinales leves o reacciones alérgicas.",
+      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

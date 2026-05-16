@@ -1,13 +1,6 @@
 {
-  "condicion": "Dolor de Cabeza / Migraña",
   "modulo": "dolores",
   "submodulo": "dolor_cabeza_migrana",
-  "emoji": "🤯",
-  "descripcion": "Remedios naturales específicos para dolor de cabeza, migraña y cefalea tensional.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Las compresas frías de manzanilla y las compresas de clavo (externamente) son seguras. Evitar ruda internamente en embarazo. Para migraña persistente consultar médico."
-  },
   "recetas": [
     {
       "titulo": "Compresas de Clavo de Olor para Dolor de Cabeza",
@@ -35,7 +28,20 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
       "id": 973,
@@ -62,34 +68,113 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
     },
     {
-      "id": 1080,
-      "titulo": "Cataplasma de Chachacoma y Grasa de Llama para Dolor de Cabeza de Altura Aymara",
+      "id": 1112,
+      "titulo": "Infusión analgésica de sauce blanco para cefalea",
       "categoria": "Analgésico",
-      "origen": "Aymara (Parinacota, Putre, Lago Chunga)",
-      "ingredientes": "30 g de hojas y flores de chachacoma (Senecio nutans / chakakuma en aymara); 3 cucharadas de grasa de llama (o grasa de vacuno); 1 cucharada de alcohol de cana; 1 cucharada de tintura de rica-rica (opcional)",
-      "preparacion": "1. Secar las hojas de chachacoma al sol durante 2 dias o en lugar ventilado. 2. Triturar las hojas secas en mortero hasta polvo grueso. 3. Mezclar la grasa de llama tibia con el polvo de chachacoma y el alcohol. 4. Revolver hasta obtener pasta homogenea. 5. Agregar la tintura de rica-rica si se dispone. 6. Aplicar sobre la frente, sienes y nuca con masaje suave.",
-      "dosis": "Aplicar sobre frente, sienes y nuca al inicio del dolor de cabeza. Mantener 30-60 minutos. Repetir hasta 3 veces al dia en casos intensos.",
-      "modo_uso": "Topico (cataplasma/unguento)",
-      "tiempo_prep": "30 minutos (mas 2 dias de secado)",
-      "dificultad": "Media",
-      "rendimiento": "10-15 aplicaciones",
-      "conservacion": "Refrigerar en tarro cerrado hasta 2 semanas.",
-      "evidencia": "La chachacoma (Senecio nutans) es la planta aymara mas especifica para el dolor de cabeza de altura. Contiene alcaloides pirrolizidinicos con efecto analgesico y vasodilatador cerebral. Documentada por Villagran & Castro (2004) como una de las tres plantas sagradas del altiplano chileno (junto con la rica-rica y la yareta).",
-      "fuente_tradicion": "Andina / Aymara",
-      "contraindicaciones": "Solo uso externo (topico). Los alcaloides pirrolizidinicos de Senecio son hepatotoxicos si se ingieren en dosis repetidas. NO INGERIR esta preparacion. Contraindicado en embarazo (incluso uso externo prolongado). No aplicar en cara de ninos pequenos.",
-      "uso": "Tratamiento de la cefalea de altitude, migrania relacionada con la puna y dolores de cabeza tensionales en la cordillera. La grasa de llama actua como vehiculo liposoluble que facilita la penetracion transcutanea de los principios activos de la chachacoma.",
-      "principios_activos": "Alcaloides pirrolizidinicos (Senecio: senecionina, retrorsina - solo uso externo); flavonoides; sesquiterpenos; grasa animal (vehiculo)",
+      "origen": "Tradicional europeo (precursor de la aspirina)",
+      "ingredientes": "1 cda corteza de sauce blanco seca y picada, 1 cdta menta, 250 ml agua",
+      "preparacion": "Hervir la corteza 10 minutos a fuego suave. Retirar, agregar menta, reposar 5 min. Colar.",
+      "dosis": "1 taza al inicio del dolor; máximo 3 tazas al día",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir recién hecha",
+      "evidencia": "Chrubasik S. et al. (2001) BMJ: extracto de Salix eficaz en lumbalgia. Monografía EMA Salicis cortex 2017.",
+      "fuente_tradicion": "Uso documentado desde Hipócrates; aislada salicina en 1828",
+      "contraindicaciones": "Alergia a salicilatos/AINE, úlcera péptica, asma sensible a aspirina, niños con cuadros virales (Reye), embarazo (3er trimestre).",
+      "uso": "Salicina se metaboliza en intestino y hígado a saligenina y luego ácido salicílico, que inhibe ciclooxigenasas reduciendo prostaglandinas pro-inflamatorias y pirogénicas, con menos irritación gástrica que aspirina sintética.",
+      "principios_activos": "Salicina, salicortina, tremulacina, taninos, flavonoides (naringenina, eriodictiol).",
       "propiedades": [
-        "analgesico topico",
-        "vasodilatador craneal",
-        "antipiretico",
-        "relajante nervioso"
+        "analgésico",
+        "antiinflamatorio",
+        "antipirético",
+        "antirreumático"
       ],
-      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Morandini AC. (2013) Plantas medicinales del altiplano chileno. Bol Latinoam Caribe Plant Med Aromat.",
-      "maternidad_segura": "advertencia"
+      "referencias": "Chrubasik S. et al., BMJ 2001;322:1148. EMA HMPC Monograph Salicis cortex 2017.",
+      "indicaciones_principales": [
+        "cefalea tensional",
+        "dolor lumbar",
+        "artralgias leves",
+        "fiebre",
+        "dismenorrea"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina), AINEs (sinergia tóxica), metotrexato, antidiabéticos orales, IECA.",
+      "embarazo_lactancia": "Contraindicado especialmente en tercer trimestre; evitar en lactancia.",
+      "duracion_tratamiento": "Máximo 7-10 días seguidos",
+      "sinergia_plantas": [
+        "Sauce blanco",
+        "Matico",
+        "Manzanilla",
+        "Ulmaria"
+      ]
+    },
+    {
+      "titulo": "Compresas frías de Menta para la cefalea tensional",
+      "categoria": "Analgésico",
+      "origen": "Medicina tradicional europea, cultivada en Chile",
+      "ingredientes": "- 2 cucharadas de hojas frescas de menta (o 1 cucharada de hojas secas). - 500 ml de agua. - Un paño limpio.",
+      "preparacion": "1. Hervir el agua y verter sobre las hojas de menta. 2. Tapar y dejar reposar 15 minutos. 3. Colar y refrigerar hasta que esté completamente fría. 4. Empapar el paño en la infusión fría, escurrir ligeramente y aplicar sobre la frente y las sienes.",
+      "dosis": "",
+      "modo_uso": "Uso externo",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Media",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- No aplicar sobre heridas abiertas o piel irritada. - Evitar el contacto con los ojos.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "Usar durante los episodios de dolor.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro (uso externo)",
+      "distribucion": "Cultivada en huertos de todo Chile, incluido",
+      "efectos_secundarios": "",
+      "id": 1238
+    },
+    {
+      "titulo": "Compresas frías de Menta para la cefalea tensional",
+      "categoria": "Nervioso",
+      "origen": "Medicina tradicional europea, cultivada en Chile",
+      "ingredientes": "- 2 cucharadas de hojas frescas de menta (o 1 cucharada de\n  hojas secas).\n- 500 ml de agua.\n- Un paño limpio.",
+      "preparacion": "1. Hervir el agua y verter sobre las hojas de menta.\n2. Tapar y dejar reposar 15 minutos.\n3. Colar y refrigerar hasta que esté completamente fría.\n4. Empapar el paño en la infusión fría, escurrir ligeramente\n   y aplicar sobre la frente y las sienes.\n\nAPLICACIÓN: Dejar actuar 15-20 minutos. Repetir según\nnecesidad.\nDURACIÓN MÁXIMA: Usar durante los episodios de dolor.\n\nCONTRAINDICACIONES:\n- No aplicar sobre heridas abiertas o piel irritada.\n- Evitar el contacto con los ojos.\n\nINTERACCIONES: No se han descrito para uso externo.\n\nEFECTOS SECUNDARIOS: Puede causar sensación de frío intenso;\nretirar si resulta molesto.\n\nFUENTE: Un estudio publicado en el \"International Journal of\nClinical Practice\" demostró que la aplicación tópica de mentol\nal 10% es tan eficaz como el paracetamol para aliviar la\ncefalea tensional. La Comisión E alemana aprueba el uso\nexterno del aceite esencial de menta para dolores de cabeza.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Un estudio publicado en el \"International Journal of\nClinical Practice\" demostró que la aplicación tópica de mentol\nal 10% es tan eficaz como el paracetamol para aliviar la\ncefalea tensional. La Comisión E alemana aprueba el uso\nexterno del aceite esencial de menta para dolores de cabeza.",
+      "fuente_tradicion": "Medicina tradicional europea, cultivada en Chile",
+      "contraindicaciones": "- No aplicar sobre heridas abiertas o piel irritada.\n- Evitar el contacto con los ojos.",
+      "id": 1326,
+      "uso": "Alivio del dolor de cabeza tensional y la migraña\nleve gracias al efecto refrescante y analgésico del mentol.",
+      "planta_principal": "Menta (Mentha x piperita)",
+      "interacciones": "No se han descrito para uso externo.",
+      "efectos_secundarios_nota": "Puede causar sensación de frío intenso;\nretirar si resulta molesto.",
+      "nivel_seguridad": "✅ Seguro (uso externo)"
     }
   ]
 }

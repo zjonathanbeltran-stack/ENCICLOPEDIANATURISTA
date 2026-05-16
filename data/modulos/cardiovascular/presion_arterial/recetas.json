@@ -1,13 +1,6 @@
 {
-  "condicion": "Presión Arterial",
   "modulo": "cardiovascular",
   "submodulo": "presion_arterial",
-  "emoji": "🩺",
-  "descripcion": "Infusiones y alimentos para bajar la presión arterial alta (hipertensión) de forma natural.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La hipertensión en embarazo (preeclampsia) requiere atención médica urgente. El agua de apio, la remolacha y el hibisco son seguros como complemento. Nunca suspender medicación sin consultar médico."
-  },
   "recetas": [
     {
       "id": 306,
@@ -27,36 +20,27 @@
       "contraindicaciones": "No reemplaza medicación antihipertensiva. Controlar la presión regularmente. Evitar en hipotensión.",
       "uso": "Presión arterial alta. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 308,
-      "titulo": "Té de Jengibre y Canela para mejorar la circulación",
-      "categoria": "Cardiovascular",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 trozo de jengibre fresco (2 cm) rallado, 1 rama de canela, 1 cucharadita de miel, 1 taza de agua.",
-      "preparacion": "Hervir jengibre y canela en agua por 10 minutos. Colar, agregar miel. Beber caliente.",
-      "dosis": "1 taza en la mañana y 1 taza en la tarde. No superar 2 tazas/día.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "13 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Consultar en tratamiento con anticoagulantes (warfarina, aspirina). Contraindicado en cálculos biliares en dosis altas.",
-      "uso": "Mejorar la circulación: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 322,
@@ -76,27 +60,27 @@
       "contraindicaciones": "No suspender medicación antihipertensiva. Puede potenciar efecto de diuréticos. Evitar en hipotensión.",
       "uso": "Presión arterial. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 453,
-      "titulo": "Té de Espino Blanco para el Corazón",
-      "categoria": "Cardiovascular",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "1 cucharada de flores y hojas de espino blanco (Crataegus) seco, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir el espino blanco 15 min. Colar.",
-      "dosis": "2-3 tazas al día por mínimo 4-8 semanas",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "18 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "Puede potenciar medicamentos cardíacos; consultar médico si se toman digitálicos",
-      "uso": "Corazón. Apoyo cardiovascular.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 458,
@@ -125,7 +109,20 @@
         "diurético"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 463,
@@ -145,7 +142,27 @@
       "contraindicaciones": "No confundir especies; algunas variedades tienen partes tóxicas",
       "uso": "Presión Alta. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 775,
@@ -174,75 +191,60 @@
         "antioxidante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 777,
-      "titulo": "Vinagre de Remolacha Fermentado",
-      "categoria": "Cardiovascular",
-      "origen": "Naturopatía",
-      "ingredientes": "4 remolachas medianas, 1 L de agua, sal marina",
-      "preparacion": "Pelar y cortar las remolachas. Preparar salmuera al 2%. Sumergir las remolachas y fermentar 5-7 días.",
-      "dosis": "2 cucharadas al día del líquido de fermentación",
-      "modo_uso": "El líquido es más potente que el sólido para la presión arterial",
-      "tiempo_prep": "5-7 días fermentación",
-      "dificultad": "Medio",
-      "rendimiento": "1 L",
-      "conservacion": "Refrigerar hasta 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía y fermentación europea",
-      "contraindicaciones": "No exceder en antihipertensivos; monitorear presión arterial",
-      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
-      "id": 781,
-      "titulo": "Infusión de Hibisco con Canela para el Corazón",
+      "id": 949,
+      "titulo": "Jugo de Arandanos con Granada para la Presion",
       "categoria": "Cardiovascular",
-      "origen": "Tradición Latinoamericana",
-      "ingredientes": "1 cucharada de hibisco seco, 1 rama de canela, 300 ml de agua",
-      "preparacion": "Hervir el agua con la canela 5 min. Apagar y agregar el hibisco. Reposar 10 min. Colar.",
-      "dosis": "2 vasos al día sin azúcar",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "18 min",
+      "origen": "Naturopatia",
+      "ingredientes": "1/2 taza de arandanos, semillas de 1 granada, 1 vaso de agua",
+      "preparacion": "Licuar todo. Colar si se desea.",
+      "dosis": "1 vaso al dia sin azucar",
+      "modo_uso": "Tomar sin azucar para efecto hipotensor",
+      "tiempo_prep": "8 min",
       "dificultad": "Fácil",
-      "rendimiento": "2 vasos",
-      "conservacion": "Refrigerar 3 días",
+      "rendimiento": "1 vaso",
+      "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición latinoamericana y africana",
-      "contraindicaciones": "Puede bajar la presión arterial; no usar con antihipertensivos sin consulta",
-      "uso": "Corazón. Apoyo cardiovascular.",
+      "fuente_tradicion": "Naturopatia moderna",
+      "contraindicaciones": "Puede potenciar medicamentos para la presion",
+      "uso": "Presion. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 954,
-      "titulo": "Te de Hibisco con Canela y Cardamomo",
-      "categoria": "Cardiovascular",
-      "origen": "Tradicion Africana",
-      "ingredientes": "1 cucharada de hibisco seco, 1 rama de canela, 3 vainas de cardamomo, 300 ml de agua",
-      "preparacion": "Hervir el agua con la canela y cardamomo 5 min. Apagar. Agregar el hibisco. Reposar 10 min.",
-      "dosis": "2 tazas al dia sin azucar",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "18 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 48 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradicion africana occidental e india",
-      "contraindicaciones": "Hipotensivo; precaucion con antihipertensivos",
-      "uso": "Apoyo cardiovascular.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 1071,
@@ -269,7 +271,62 @@
         "remineralizante"
       ],
       "referencias": "Murano E. (1995) Chemical structure and quality of agars from Gelidium. J Appl Phycol. / Gonzalez JM et al. (2019) Actividad antihipertensiva de Durvillaea antarctica. Rev Biol Mar Oceanogr.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Hormonas tiroideas: puede interferir con la función tiroidea en uso prolongado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 1204,
+      "titulo": "Infusión hipotensora de espino blanco, olivo y melisa",
+      "categoria": "Cardiovascular",
+      "origen": "Fitoterapia mediterránea",
+      "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de hojas de olivo, 1 cucharadita de melisa, 1/2 cucharadita de tilo, 350 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+      "dosis": "1 taza 2 veces al día durante 8-12 semanas (con control de PA)",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "350 ml",
+      "conservacion": "24 horas refrigerada",
+      "evidencia": "Hojas de olivo reducen presión arterial sistólica y diastólica (Susalit, 2011)",
+      "fuente_tradicion": "Fitoterapia mediterránea",
+      "contraindicaciones": "Hipotensión, embarazo, niños, asociado a antihipertensivos requiere control médico y ajuste de dosis.",
+      "uso": "La oleuropeína de hojas de olivo inhibe enzima convertidora de angiotensina (ECA) y relaja músculo liso vascular por estímulo de óxido nítrico endotelial, las procianidinas del espino vasodilatan coronarias y la melisa modula tono simpático reduciendo HTA reactiva al estrés.",
+      "principios_activos": "Oleuropeína (olivo): inhibidor ECA, vasodilatador. Procianidinas (espino). Ácido rosmarínico (melisa). Farnesol (tilo).",
+      "propiedades": [
+        "antihipertensivo",
+        "vasodilatador",
+        "cardioprotector",
+        "antioxidante vascular"
+      ],
+      "referencias": [
+        "Susalit E. et al. Phytomedicine (2011) 18:251",
+        "Walker AF. et al. Br J Gen Pract (2002) 52:437"
+      ],
+      "indicaciones_principales": [
+        "hipertensión arterial leve",
+        "prehipertensión",
+        "ansiedad con elevación tensional",
+        "complemento de antihipertensivos (con supervisión)"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos (potencia), hipoglucemiantes, digoxina",
+      "embarazo_lactancia": "Contraindicada",
+      "duracion_tratamiento": "12 semanas con control de presión",
+      "sinergia_plantas": [
+        "hierba del sapo",
+        "ajo"
+      ]
     }
   ]
 }

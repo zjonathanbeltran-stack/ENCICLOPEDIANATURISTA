@@ -1,13 +1,6 @@
 {
-  "condicion": "Parasitos intestinales",
   "modulo": "digestivo",
   "submodulo": "parasitos",
-  "emoji": "🦠",
-  "descripcion": "Remedios antiparasitarios para lombrices, tenias, oxiuros y otros parasitos intestinales.",
-  "maternidad": {
-    "seguridad_general": "no_recomendada",
-    "nota": "ATENCION: La mayoria de los antiparasitarios potentes (ajenjo, paico, epazote) estan contraindicados en el embarazo por ser abortivos. Usar SOLO bajo supervision medica. Las semillas de zapallo y calabaza son las opciones mas seguras."
-  },
   "recetas": [
     {
       "id": 8,
@@ -34,7 +27,22 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "parasitosis intestinal",
+        "ascariasis",
+        "oxiuriasis",
+        "giardiasis leve",
+        "dispepsia parasitaria"
+      ],
+      "interacciones_medicamentos": "Precaución con antiepilépticos y depresores del SNC; el ascaridol potencia toxicidad de medicamentos hepatotóxicos.",
+      "embarazo_lactancia": "Contraindicado en embarazo (abortivo) y lactancia. No usar en niños menores de 6 años.",
+      "duracion_tratamiento": "Máximo 3 días consecutivos; no repetir antes de 2-3 semanas.",
+      "sinergia_plantas": [
+        "ajenjo",
+        "ajo",
+        "matico",
+        "boldo"
+      ]
     },
     {
       "id": 66,
@@ -54,7 +62,26 @@
       "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
       "uso": "Eliminación de parásitos intestinales.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "titulo": "Decocción de Paico para Parásitos Intestinales",
@@ -81,7 +108,19 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "titulo": "Semillas de Zapallo en Ayunas contra Tenias y Lombrices",
@@ -110,7 +149,19 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "titulo": "Enema de Ajo para Oxiuros y Parásitos",
@@ -138,7 +189,19 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "titulo": "Infusión de Ajenjo para Parásitos Intestinales",
@@ -158,7 +221,26 @@
       "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
       "uso": "Parásitos Intestinales. Eliminación de parásitos intestinales.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "titulo": "Jugo de Cebolla en Ayunas contra Parásitos",
@@ -186,7 +268,19 @@
         "cardiovascular"
       ],
       "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 392,
@@ -213,7 +307,19 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 718,
@@ -242,7 +348,19 @@
         "cicatrizante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 719,
@@ -269,7 +387,19 @@
         "carminativo"
       ],
       "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 720,
@@ -297,7 +427,19 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 721,
@@ -317,7 +459,26 @@
       "contraindicaciones": "No usar en embarazo; puede interactuar con medicamentos tiroideos",
       "uso": "Parásitos. Eliminación de parásitos intestinales.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "id": 722,
@@ -337,7 +498,26 @@
       "contraindicaciones": "Tóxico si se abusa; no en embarazo, epilepsia ni menores",
       "uso": "Parásitos. Eliminación de parásitos intestinales.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "id": 723,
@@ -365,7 +545,19 @@
         "carminativo"
       ],
       "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 724,
@@ -393,7 +585,19 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 725,
@@ -422,7 +626,19 @@
         "antiséptico"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 726,
@@ -450,27 +666,19 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "no_recomendada"
-    },
-    {
-      "id": 727,
-      "titulo": "Ayuno con Zumo de Piña para Parásitos",
-      "categoria": "Antiparasitario",
-      "origen": "Naturopatía",
-      "ingredientes": "1/2 piña natural, agua mineral",
-      "preparacion": "Extraer el jugo de la piña. Consumir con agua mineral.",
-      "dosis": "1-2 vasos de jugo en ayunas por 3 días, acompañado solo de agua",
-      "modo_uso": "La bromelina de la piña puede debilitar la membrana de parásitos",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 vasos",
-      "conservacion": "Consumir fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía latinoamericana",
-      "contraindicaciones": "No reemplaza tratamiento médico confirmado; solo para parásitos leves",
-      "uso": "Parásitos. Eliminación de parásitos intestinales.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 728,
@@ -498,7 +706,19 @@
         "tónico"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 729,
@@ -526,7 +746,19 @@
         "antiespasmódico"
       ],
       "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 730,
@@ -554,7 +786,19 @@
         "carminativo"
       ],
       "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
     },
     {
       "id": 731,
@@ -574,7 +818,26 @@
       "contraindicaciones": "No usar en personas con colon irritable, hemorroides activas o embarazo",
       "uso": "Limpieza Intestinal. Eliminación de parásitos intestinales.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ]
     },
     {
       "id": 732,
@@ -603,7 +866,185 @@
         "antiespasmódico"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
+    },
+    {
+      "id": 1136,
+      "titulo": "Tisana de paico y poleo para parásitos intestinales infantiles mayores de 6 años",
+      "categoria": "Antiparasitario",
+      "origen": "Mapuche y andino",
+      "ingredientes": "1/2 cdta de hojas frescas de paico (Dysphania ambrosioides), 1/2 cdta de poleo seco, 200 ml de agua, miel",
+      "preparacion": "Calentar agua sin hervir (85°C), verter sobre las hierbas, tapar 5 min, colar muy fino. Endulzar.",
+      "dosis": "1/2 taza en ayunas durante 3 días consecutivos, repetir tras 7 días",
+      "modo_uso": "Oral - infusión corta",
+      "tiempo_prep": "8 min",
+      "dificultad": "Media",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir de inmediato",
+      "evidencia": "Monografías etnobotánicas Villagrán & Castro 2003; estudios sobre ascaridol con actividad antihelmíntica documentada (MacDonald 2004)",
+      "fuente_tradicion": "Mapuche y andino",
+      "contraindicaciones": "Niños menores de 6 años, embarazo, lactancia, hepatopatía, epilepsia. No exceder dosis por toxicidad de ascaridol.",
+      "uso": "El ascaridol paraliza la musculatura de helmintos intestinales facilitando su expulsión natural.",
+      "principios_activos": "Ascaridol y p-cimeno (paico), pulegona (poleo); actúan sobre canales iónicos de helmintos",
+      "propiedades": [
+        "antiparasitario",
+        "vermífugo",
+        "carminativo",
+        "antifúngico",
+        "digestivo"
+      ],
+      "referencias": "Villagrán C, Castro V. 2003 Etnobotánica del norte de Chile; MacDonald D. 2004 J Ethnopharmacol; Hoffmann 1992",
+      "indicaciones_principales": [
+        "oxiuriasis",
+        "ascariasis leve",
+        "giardiasis (apoyo)",
+        "flatulencia con parásitos",
+        "prevención estacional"
+      ],
+      "interacciones_medicamentos": "Hepatotóxicos, paracetamol en dosis altas, alcohol",
+      "embarazo_lactancia": "Contraindicado absoluto en embarazo y lactancia",
+      "duracion_tratamiento": "Máximo 3 días seguidos, no repetir más de 2 ciclos al mes",
+      "sinergia_plantas": [
+        "ajo",
+        "tomillo",
+        "natre"
+      ]
+    },
+    {
+      "id": 1163,
+      "titulo": "Aceite antiparasitario de paico, ajo y semilla de zapallo",
+      "categoria": "Antiparasitario",
+      "origen": "Medicina popular latinoamericana",
+      "ingredientes": "1 cucharada de paico fresco picado, 2 dientes de ajo machacados, 2 cucharadas de semillas de zapallo crudas peladas, 1 cucharadita de aceite de oliva extra virgen",
+      "preparacion": "Triturar todos los ingredientes en mortero hasta formar pasta homogénea. Consumir fresco (no almacenar).",
+      "dosis": "1 cucharada en ayunas durante 3 días consecutivos. Repetir a los 15 días.",
+      "modo_uso": "Pasta oral",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1 dosis",
+      "conservacion": "Uso inmediato, no almacenar",
+      "evidencia": "Cucurbitina (semilla zapallo) y ascaridol (paico) con acción antihelmíntica documentada",
+      "fuente_tradicion": "Medicina campesina chilena y andina",
+      "contraindicaciones": "Embarazo, lactancia, niños menores de 6 años, enfermedad hepática, renal o cardíaca. Paico contraindicado en dosis altas (ascaridol tóxico).",
+      "uso": "El ascaridol paraliza musculatura del nematodo bloqueando receptores nicotínicos, la cucurbitina inmoviliza tenia y oxiuros impidiendo su fijación intestinal, y la alicina del ajo complementa con acción antiprotozoaria sobre Giardia.",
+      "principios_activos": "Ascaridol (paico): antihelmíntico. Cucurbitina (semillas zapallo): paralizante de tenias. Alicina (ajo): antiprotozoario.",
+      "propiedades": [
+        "antihelmíntico",
+        "antiparasitario",
+        "antiprotozoario"
+      ],
+      "referencias": [
+        "Diaz F. et al. Trop Med Int Health (2003) 8:285",
+        "Grzybek M. et al. Molecules (2016) 21:1456"
+      ],
+      "indicaciones_principales": [
+        "oxiuriasis",
+        "ascariasis",
+        "teniasis",
+        "giardiasis (complemento)",
+        "parasitosis intestinal"
+      ],
+      "interacciones_medicamentos": "Ajo potencia anticoagulantes. Evitar con antihelmínticos farmacológicos.",
+      "embarazo_lactancia": "Contraindicado",
+      "duracion_tratamiento": "Cura de 3 días, repetir una vez",
+      "sinergia_plantas": [
+        "natre",
+        "ruda (uso muy controlado)",
+        "ajenjo (adultos)"
+      ]
+    },
+    {
+      "id": 1202,
+      "titulo": "Decocción antiparasitaria suave de ajenjo, manzanilla y zanahoria",
+      "categoria": "Antiparasitario",
+      "origen": "Herbolaria europea",
+      "ingredientes": "1/4 cucharadita de ajenjo (cantidad muy controlada), 1 cucharadita de manzanilla, 1 cucharada de zanahoria rallada, 1 diente de ajo machacado, 1 cucharadita de semillas de zapallo, 300 ml de agua",
+      "preparacion": "Hervir agua con zanahoria, ajo y semillas 10 minutos. Apagar, añadir ajenjo y manzanilla. Tapar 5 minutos. Colar muy bien.",
+      "dosis": "Adultos: 1/2 taza en ayunas durante 5 días. Repetir a las 2 semanas.",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Media",
+      "rendimiento": "300 ml",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Tuyona del ajenjo con acción antihelmíntica (Bora, 2011); cucurbitina en estudios in vitro",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "EMBARAZO Y LACTANCIA absolutamente. Epilepsia. Hepatopatías. Niños menores de 12 años. Uso prolongado de ajenjo es neurotóxico (tuyona).",
+      "uso": "La tuyona del ajenjo paraliza musculatura de helmintos por bloqueo de receptores GABA en sistema nervioso del parásito, la cucurbitina inmoviliza tenia, la alicina del ajo tiene acción antiprotozoaria sobre Giardia y los betacarotenos crean ambiente intestinal desfavorable para parásitos.",
+      "principios_activos": "Tuyona, artemisinina (ajenjo): antihelmíntico. Cucurbitina (zapallo). Alicina (ajo). Betacarotenos (zanahoria).",
+      "propiedades": [
+        "antihelmíntico",
+        "antiprotozoario",
+        "amargo digestivo"
+      ],
+      "referencias": [
+        "Bora KS. et al. Pharm Biol (2011) 49:101",
+        "Krieglstein CF. et al. Int J Colorectal Dis (2010) 25:373"
+      ],
+      "indicaciones_principales": [
+        "parasitosis intestinal en adultos",
+        "oxiuros",
+        "tenia (coadyuvante)",
+        "giardiasis"
+      ],
+      "interacciones_medicamentos": "Anticonvulsivantes (antagoniza), warfarina, anticonceptivos orales",
+      "embarazo_lactancia": "ABSOLUTAMENTE CONTRAINDICADA",
+      "duracion_tratamiento": "Máximo 5 días, jamás extender",
+      "sinergia_plantas": [
+        "paico (controlado)",
+        "natre"
+      ]
+    },
+    {
+      "titulo": "Infusión de Paico para parasitosis intestinales",
+      "categoria": "Digestivo",
+      "origen": "Medicina tradicional andina y mapuche",
+      "ingredientes": "- Adultos: 1 cucharadita (aprox. 2-3 g) de hojas y sumidades\n  floridas secas de paico.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca.\n2. Tapar y dejar reposar durante 10 minutos.\n3. Colar cuidadosamente.\n\nDOSIS ADULTOS: 1 taza en ayunas durante 3 días consecutivos.\nNO EXCEDER ESTA DOSIS NI DURACIÓN.\nDURACIÓN MÁXIMA: Máximo 3 días. No repetir el tratamiento sin\nsupervisión profesional.\n\nCONTRAINDICACIONES ABSOLUTAS:\n- Embarazo (riesgo de aborto) y lactancia.\n- Niños y adolescentes.\n- Enfermedad hepática o renal.\n- Personas con epilepsia o trastornos neurológicos.\n- No combinar con alcohol.\n\nINTERACCIONES: Puede interferir con medicamentos metabolizados\npor el hígado.\n\nEFECTOS SECUNDARIOS Y SOBREDOSIS: Náuseas, vómitos, dolor\nabdominal, diarrea, vértigo, somnolencia. En casos graves,\ndaño hepático y neurológico. Ante la menor sospecha de\nsobredosis, acudir a urgencias médicas.\n\nFUENTE: Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas.",
+      "fuente_tradicion": "Medicina tradicional andina y mapuche",
+      "contraindicaciones": "",
+      "id": 1351,
+      "uso": "Tratamiento de parasitosis intestinales (oxiuros,\náscaris).",
+      "planta_principal": "Paico (Dysphania ambrosioides)",
+      "interacciones": "Puede interferir con medicamentos metabolizados\npor el hígado.",
+      "nivel_seguridad": "🛑 ALTO RIESGO"
+    },
+    {
+      "titulo": "Infusión de Paico (USO INTERNO RESTRINGIDO)",
+      "categoria": "General",
+      "origen": "Medicina tradicional andina (uso restringido)",
+      "ingredientes": "",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca.\n2. Tapar y dejar reposar 10 minutos. Colar.\n\nDOSIS MÁXIMA: 1 taza en ayunas durante 3 días consecutivos.\nDURACIÓN MÁXIMA: 3 DÍAS. NO REPETIR sin supervisión médica.\n\nCONTRAINDICACIONES ABSOLUTAS:\n- Embarazo y lactancia (RIESGO DE ABORTO).\n- Niños y adolescentes.\n- Enfermedad hepática o renal.\n- Personas con epilepsia o trastornos neurológicos.\n- NO COMBINAR CON ALCOHOL.\n\nSÍNTOMAS DE SOBREDOSIS (INTOXICACIÓN POR ASCARIDOL):\nNáuseas, vómitos, dolor abdominal intenso, diarrea, vértigo,\nsomnolencia, debilidad muscular, convulsiones, daño hepático.\nANTE LA MENOR SOSPECHA, ACUDIR A URGENCIAS.\n\nFUENTE: Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas; monografías de\ntoxicología de la OMS.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas; monografías de\ntoxicología de la OMS.",
+      "fuente_tradicion": "Medicina tradicional andina (uso restringido)",
+      "contraindicaciones": "",
+      "id": 1374,
+      "planta_principal": "Paico (Dysphania ambrosioides)",
+      "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO"
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "condicion": "Sangre / Antioxidantes",
   "modulo": "cardiovascular",
   "submodulo": "sangre_antioxidantes",
-  "emoji": "🩸",
-  "descripcion": "Depurativos de la sangre, antioxidantes cardiovasculares y remedios para la anemia leve.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "La ortiga y la remolacha son excelentes para el hierro en embarazo. Evitar paico y zarzaparrilla internamente. Los jugos de maqui y calafate son seguros y ricos en antioxidantes."
-  },
   "recetas": [
     {
       "id": 309,
@@ -36,35 +29,21 @@
         "antiinflamatorio"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
-    },
-    {
-      "id": 312,
-      "titulo": "Infusión de Cola de Caballo para retención hídrica cardiovascular",
-      "categoria": "Cardiovascular",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 cucharada de cola de caballo seca, 1 taza de agua.",
-      "preparacion": "Infusionar en agua hervida 10 minutos. Colar bien. Beber tibio.",
-      "dosis": "1 taza 2 veces al día (mañana y tarde) durante máximo 4 semanas.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Contraindicado en insuficiencia renal y cardíaca severa. No usar sin control médico en edemas de origen cardíaco.",
-      "uso": "Retención hídrica cardiovascular: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.",
-      "principios_activos": "Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.",
-      "propiedades": [
-        "diurético",
-        "remineralizante",
-        "hemostático",
-        "astringente",
-        "cicatrizante"
+      "indicaciones_principales": [
+        "Riesgo cardiovascular",
+        "Hipertensión leve",
+        "Estrés oxidativo",
+        "Hipercolesterolemia",
+        "Diabetes tipo 2"
       ],
-      "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Maqui potencia hipoglucemiantes y anticoagulantes; precaución con antihipertensivos.",
+      "embarazo_lactancia": "Seguro en dosis alimentarias en embarazo y lactancia.",
+      "duracion_tratamiento": "Uso continuo seguro como alimento funcional.",
+      "sinergia_plantas": [
+        "murta",
+        "calafate",
+        "rosa mosqueta"
+      ]
     },
     {
       "id": 313,
@@ -92,7 +71,21 @@
         "alcalinizante"
       ],
       "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Anemia ferropénica leve",
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 314,
@@ -120,7 +113,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 315,
@@ -140,7 +146,27 @@
       "contraindicaciones": "Evitar en embarazo y niños menores de 12 años. No usar más de 2 semanas seguidas.",
       "uso": "Depuración sanguínea. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 316,
@@ -168,7 +194,20 @@
         "antioxidante"
       ],
       "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 317,
@@ -197,91 +236,60 @@
         "expectorante"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 323,
-      "titulo": "Infusión de Paico para depuración y circulación",
-      "categoria": "Cardiovascular",
-      "origen": "Saber Ancestral",
-      "ingredientes": "1 cucharadita de hojas de paico seco, 1 taza de agua.",
-      "preparacion": "Infusionar en agua hervida 8 minutos tapado. Colar. Beber tibio.",
-      "dosis": "1 taza en ayunas, máximo 3 veces por semana. No usar más de 2 semanas seguidas.",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar al momento",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Contraindicado en embarazo (puede causar aborto). Tóxico en dosis altas. No exceder la dosis recomendada.",
-      "uso": "Depuración y circulación: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
-      "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
-      "propiedades": [
-        "antiparasitario",
-        "vermífugo",
-        "digestivo",
-        "carminativo"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
-      "id": 324,
-      "titulo": "Té de Molle para circulación y dolor reumático cardiovascular",
+      "id": 320,
+      "titulo": "Té de Marrubio para regularización cardíaca leve",
       "categoria": "Cardiovascular",
-      "origen": "Saber Ancestral",
-      "ingredientes": "1 cucharadita de hojas de molle seca, 1 taza de agua.",
+      "origen": "Tradición Española Colonial",
+      "ingredientes": "1 cucharadita de marrubio seco, 1 taza de agua.",
       "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio.",
-      "dosis": "1 taza 2 veces al día. Máximo 3 semanas continuas.",
+      "dosis": "1 taza 2 veces al día. No usar más de 4 semanas seguidas.",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "12 min",
       "dificultad": "Fácil",
       "rendimiento": "2 tazas",
       "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Consultar en embarazo. Puede causar reacciones alérgicas en personas sensibles a la familia Anacardiaceae (relacionado con el mango).",
-      "uso": "Circulación y dolor reumático cardiovascular: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
-      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
-      "propiedades": [
-        "cicatrizante",
-        "hemostático",
-        "antiséptico",
-        "antiinflamatorio",
-        "astringente"
-      ],
-      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "maternidad_segura": "advertencia"
-    },
-    {
-      "id": 325,
-      "titulo": "Decocción de Raíz de Diente de León para hígado y corazón",
-      "categoria": "Cardiovascular",
-      "origen": "Popular Chileno",
-      "ingredientes": "1 cucharada de raíz de diente de león seca, 1 taza de agua, una pizca de jengibre rallado.",
-      "preparacion": "Hervir la raíz en agua con el jengibre por 20 minutos a fuego bajo. Colar. Beber tibio.",
-      "dosis": "1 taza en ayunas cada mañana. Tratamiento de 4 semanas.",
-      "modo_uso": "Oral — decocción",
-      "tiempo_prep": "22 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Refrigerar hasta 24 h",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Evitar en obstrucción biliar. Puede potenciar diuréticos. Consultar médico en tratamiento con litio.",
-      "uso": "Hígado y corazón: la taraxacina estimula enzimas antioxidantes hepáticas y los flavonoides ejercen acción diurética.",
-      "principios_activos": "Taraxacina y taraxacerín (eudesmanólidos amargos): estimulan la secreción biliar y aumentan la actividad de catalasa y glutatión peroxidasa hepáticas. Inulina (hasta 40% en otoño): prebiótico. Flavonoides y sales de potasio: efecto diurético sin pérdida de electrolitos. | 6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB.",
-      "propiedades": [
-        "diurético",
-        "colerético",
-        "hepatoprotector",
-        "tónico digestivo",
-        "prebiótico",
-        "antiemético"
+      "contraindicaciones": "Contraindicado en embarazo. Puede interactuar con medicamentos antiarrítmicos. Consultar cardiólogo antes de usar.",
+      "uso": "Regularización cardíaca leve. Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
       ],
-      "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 455,
@@ -301,16 +309,446 @@
       "contraindicaciones": "Cuidado en insuficiencia renal por alto contenido en potasio",
       "uso": "Electrolitos. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
-      "id": 950,
-      "titulo": "Infusion de Trébol Rojo para la Circulacion",
+      "id": 457,
+      "titulo": "Vinagreta Medicinal de Ajo y Limón",
+      "categoria": "Cardiovascular",
+      "origen": "Tradición Mediterránea",
+      "ingredientes": "4 dientes de ajo machacados, jugo de 2 limones, 4 cucharadas de aceite de oliva, 1 pizca de pimienta",
+      "preparacion": "Machacar el ajo. Mezclar con limón y aceite. Dejar reposar 30 min.",
+      "dosis": "1 cucharada antes de cada comida",
+      "modo_uso": "Puede tomarse sola o usar como aderezo",
+      "tiempo_prep": "35 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco pequeño",
+      "conservacion": "Refrigerar 5 días",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición mediterránea",
+      "contraindicaciones": "No usar en úlcera gástrica activa; puede potenciar anticoagulantes",
+      "uso": "Infecciones bacterianas y fúngicas, hipertensión arterial y dislipemia: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
+      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores. | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "hipotensor",
+        "hipocolesterolemiante",
+        "inmunoestimulante",
+        "antiséptico"
+      ],
+      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 459,
+      "titulo": "Jugo de Granada para Arterias",
+      "categoria": "Cardiovascular",
+      "origen": "Medicina Árabe y Mediterránea",
+      "ingredientes": "2 granadas maduras",
+      "preparacion": "Extraer los granos. Licuar y colar.",
+      "dosis": "1 vaso al día (150-200 ml)",
+      "modo_uso": "Tomar sin azúcar añadida; preferir sin colar para más fibra",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina árabe, mediterránea y Ayurveda",
+      "contraindicaciones": "Puede interferir con estatinas y algunos medicamentos; consultar médico",
+      "uso": "Arterias. Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
+    },
+    {
+      "id": 461,
+      "titulo": "Compota Medicinal de Arándanos",
+      "categoria": "Cardiovascular",
+      "origen": "Tradición Nórdica",
+      "ingredientes": "2 tazas de arándanos frescos o congelados, 1 cucharada de miel, 1/2 taza de agua, canela",
+      "preparacion": "Hervir los arándanos con el agua y la canela 10 min. Endulzar con miel al servir.",
+      "dosis": "2-3 cucharadas al día",
+      "modo_uso": "Tomar sola o con yogur natural sin azúcar",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Refrigerar 5 días",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición nórdica y medicina integrativa",
+      "contraindicaciones": "Generalmente seguro; contiene oxalatos que pueden afectar riñones en grandes cantidades",
+      "uso": "Heridas, úlceras cutáneas e infecciones de mucosas: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 462,
+      "titulo": "Aceite de Pescado Vegetal (Chía y Linaza)",
+      "categoria": "Cardiovascular",
+      "origen": "Naturopatía Moderna",
+      "ingredientes": "1 cucharada de semillas de chía, 1 cucharada de linaza molida, 1 vaso de agua o batido",
+      "preparacion": "Agregar la chía y la linaza molida al batido o mezclar con agua y dejar reposar 15 min.",
+      "dosis": "1 porción al día con el desayuno",
+      "modo_uso": "Mantener la linaza molida en refrigerador para evitar enranciamiento",
+      "tiempo_prep": "20 min remojo",
+      "dificultad": "Fácil",
+      "rendimiento": "1 porción",
+      "conservacion": "Refrigerar (linaza), temp. ambiente (chía) 1 mes",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía moderna basada en evidencia",
+      "contraindicaciones": "La linaza puede interactuar con anticoagulantes; beber suficiente agua",
+      "uso": "Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario",
+        "emoliente"
+      ]
+    },
+    {
+      "id": 466,
+      "titulo": "Té de Rosa Canina y Escaramujo",
       "categoria": "Cardiovascular",
       "origen": "Herbolaria Europea",
-      "ingredientes": "1 cucharada de flores de trebol rojo seco, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir 12 min. Colar.",
-      "dosis": "2 tazas al dia",
+      "ingredientes": "2 cucharadas de escaramujos (frutos de rosa canina) secos, 400 ml de agua",
+      "preparacion": "Hervir los escaramujos aplastados 15 min. Colar con malla fina.",
+      "dosis": "2 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 48 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "En grandes cantidades puede favorecer cálculos renales de oxalato",
+      "uso": "Regeneración cutánea, cicatrización de quemaduras e hiperpigmentación: el aceite del fruto estimula fibroblastos, favorece la síntesis de colágeno y aporta intensa protección antioxidante.",
+      "principios_activos": "Ácido ascórbico (300-500 mg/100g): cofactor de la hidroxilación del colágeno e inmunomodulador. Ácidos grasos esenciales (ω-6 linoléico, ω-3 α-linolénico): mantienen la barrera lipídica cutánea. Ácido trans-retinoico (precursor vitamina A): estimula la renovación celular epidérmica. Carotenoides (licopeno, β-caroteno): antioxidantes potentes.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerador cutáneo",
+        "antioxidante",
+        "inmunoestimulante",
+        "antiinflamatorio"
+      ],
+      "referencias": "Concha J. et al. Ciencia e Investigación Agraria 1997; 24(2):101-107; Muñoz et al. 1999; Hoffmann 1992; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 467,
+      "titulo": "Polvo Medicinal de Cacao Puro",
+      "categoria": "Cardiovascular",
+      "origen": "Medicina Azteca",
+      "ingredientes": "2 cucharaditas de cacao puro en polvo (sin azúcar), 1 taza de leche o agua caliente",
+      "preparacion": "Disolver el cacao en el líquido caliente. No agregar azúcar.",
+      "dosis": "1 taza al día",
+      "modo_uso": "El cacao puro contiene flavonoides cardioprotectores",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Mantener el cacao en lugar fresco y seco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina azteca y tradición mesoamericana",
+      "contraindicaciones": "Contiene cafeína y teobromina; evitar en migraña o insomnio",
+      "uso": "Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
+    },
+    {
+      "id": 770,
+      "titulo": "Vino de Ajo Medicinal",
+      "categoria": "Cardiovascular",
+      "origen": "Tradición Europea",
+      "ingredientes": "10 dientes de ajo pelados, 750 ml de vino tinto seco",
+      "preparacion": "Macerar el ajo en el vino 10 días en frasco oscuro. Colar.",
+      "dosis": "1 copita (30 ml) al día",
+      "modo_uso": "Solo para adultos; el alcohol puede no ser adecuado para todos",
+      "tiempo_prep": "10 días maceración",
+      "dificultad": "Fácil",
+      "rendimiento": "750 ml",
+      "conservacion": "Temperatura ambiente o fresco 3 meses",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Tradición mediterránea",
+      "contraindicaciones": "Contraindicado en abstinencia alcohólica, hepatitis, embarazo",
+      "uso": "Infecciones bacterianas y fúngicas, hipertensión arterial y dislipemia: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
+      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "hipotensor",
+        "hipocolesterolemiante",
+        "inmunoestimulante"
+      ],
+      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 771,
+      "titulo": "Té de Ginkgo y Espino Blanco",
+      "categoria": "Cardiovascular",
+      "origen": "Medicina Integrativa",
+      "ingredientes": "1/2 cucharadita de ginkgo biloba seco, 1/2 cucharadita de espino blanco seco, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
+      "dosis": "2 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina integrativa europea",
+      "contraindicaciones": "Anticoagulantes naturales; no usar con warfarina; consultar médico",
+      "uso": "Insuficiencia cerebrovascular leve, trastornos de la memoria y demencia incipiente: los terpenoides mejoran la microcirculación cerebral y los flavonoides protegen las neuronas del estrés oxidativo.",
+      "principios_activos": "Ginkgólidos A, B, C (diterpenos lactónicos): antagonistas del factor activador de plaquetas (PAF) reduciendo la viscosidad sanguínea y mejorando la microcirculación cerebral. Bilobalida (sesquiterpeno único): protege la función mitocondrial neuronal. Flavonol glucósidos: neutralizan radicales libres protegiendo membranas neuronales.",
+      "propiedades": [
+        "nootrópico",
+        "vasodilatador cerebral",
+        "neuroprotector",
+        "antioxidante",
+        "antiagregante"
+      ],
+      "referencias": "Kleijnen J. & Knipschild P. Br J Clin Pharmacol 1992; 34(4):352-8; WHO Monographs Vol.1 (1999); EMA/HMPC Ginkgo biloba 2014; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 772,
+      "titulo": "Ensalada de Ajo Negro y Ajonjolí",
+      "categoria": "Cardiovascular",
+      "origen": "Medicina Japonesa",
+      "ingredientes": "3 dientes de ajo negro fermentado, 1 cucharada de semillas de ajonjolí, aceite de sésamo, limón",
+      "preparacion": "Picar el ajo negro. Mezclar con el ajonjolí y el aderezo.",
+      "dosis": "1 porción al día como condimento",
+      "modo_uso": "El ajo negro es más suave que el fresco y tiene alicina estabilizada",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 porción",
+      "conservacion": "Refrigerar 3 días",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina tradicional japonesa (kuronikinniku)",
+      "contraindicaciones": "Generalmente seguro; puede tener efecto anticoagulante",
+      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "antimicrobiano"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 777,
+      "titulo": "Vinagre de Remolacha Fermentado",
+      "categoria": "Cardiovascular",
+      "origen": "Naturopatía",
+      "ingredientes": "4 remolachas medianas, 1 L de agua, sal marina",
+      "preparacion": "Pelar y cortar las remolachas. Preparar salmuera al 2%. Sumergir las remolachas y fermentar 5-7 días.",
+      "dosis": "2 cucharadas al día del líquido de fermentación",
+      "modo_uso": "El líquido es más potente que el sólido para la presión arterial",
+      "tiempo_prep": "5-7 días fermentación",
+      "dificultad": "Medio",
+      "rendimiento": "1 L",
+      "conservacion": "Refrigerar hasta 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía y fermentación europea",
+      "contraindicaciones": "No exceder en antihipertensivos; monitorear presión arterial",
+      "uso": "Síndrome de intestino irritable, dispepsia y cefalea tensional: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 778,
+      "titulo": "Infusión de Linden y Espino para la Ansiedad Cardíaca",
+      "categoria": "Cardiovascular",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharadita de linden (tilo) seco, 1 cucharadita de espino blanco seco, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir ambas plantas 12 min. Colar.",
+      "dosis": "2 tazas al día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
       "dificultad": "Fácil",
@@ -318,10 +756,113 @@
       "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No en cancer hormono-dependiente; consultar medico",
-      "uso": "Circulacion. Apoyo cardiovascular.",
+      "contraindicaciones": "No usar con medicamentos cardíacos sin consulta médica",
+      "uso": "Ansiedad Cardíaca: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.",
+      "principios_activos": "Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "diaforético",
+        "antiespasmódico",
+        "expectorante"
+      ],
+      "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 779,
+      "titulo": "Pasta de Ajo y Nueces para el Pan",
+      "categoria": "Cardiovascular",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "4 dientes de ajo, 1/2 taza de nueces, 3 cucharadas de aceite de oliva, sal, limón",
+      "preparacion": "Moler el ajo con las nueces. Agregar el aceite y el limón. Mezclar.",
+      "dosis": "1-2 cucharadas al día sobre pan integral o tostada",
+      "modo_uso": "Consumir con pan integral para más fibra cardiovascular",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco pequeño",
+      "conservacion": "Refrigerar 5 días",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina mediterránea tradicional",
+      "contraindicaciones": "No exceder en anticoagulados",
+      "uso": "El Pan: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
+      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores. | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "hipotensor",
+        "hipocolesterolemiante",
+        "inmunoestimulante",
+        "antiséptico"
+      ],
+      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 780,
+      "titulo": "Batido de Espinaca y Granada para la Sangre",
+      "categoria": "Cardiovascular",
+      "origen": "Naturopatía",
+      "ingredientes": "1 taza de espinaca, 1/2 taza de semillas de granada, 1 plátano, 1 taza de leche de almendras",
+      "preparacion": "Licuar todo.",
+      "dosis": "1 vaso al día en el desayuno",
+      "modo_uso": "Alto en hierro, vitamina K y antioxidantes",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso",
+      "conservacion": "Consumir fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "Alto en vitamina K; precaución en anticoagulados",
+      "uso": "Sangre. Apoyo cardiovascular.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Flavonoides venotónicos (rutina, hesperidina): refuerzan la integridad capilar. Compuestos azufrados y alicina: reducen el LDL y la presión arterial. Antocianinas: antioxidantes vasculares.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
     },
     {
       "id": 951,
@@ -350,7 +891,20 @@
         "antioxidante"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
     },
     {
       "id": 952,
@@ -379,7 +933,231 @@
         "antimicrobiano"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ]
+    },
+    {
+      "id": 954,
+      "titulo": "Te de Hibisco con Canela y Cardamomo",
+      "categoria": "Cardiovascular",
+      "origen": "Tradicion Africana",
+      "ingredientes": "1 cucharada de hibisco seco, 1 rama de canela, 3 vainas de cardamomo, 300 ml de agua",
+      "preparacion": "Hervir el agua con la canela y cardamomo 5 min. Apagar. Agregar el hibisco. Reposar 10 min.",
+      "dosis": "2 tazas al dia sin azucar",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 48 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradicion africana occidental e india",
+      "contraindicaciones": "Hipotensivo; precaucion con antihipertensivos",
+      "uso": "Apoyo cardiovascular.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipertensión arterial leve",
+        "Mala circulación periférica",
+        "Colesterol elevado",
+        "Palpitaciones por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-6 semanas; no reemplaza tratamiento médico continuo",
+      "sinergia_plantas": [
+        "Ajo",
+        "Diente de León",
+        "Maqui"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador",
+        "antihipertensivo",
+        "antiagregante plaquetario"
+      ]
+    },
+    {
+      "id": 1121,
+      "titulo": "Tintura cardiotónica de espino y melisa",
+      "categoria": "Cardiovascular",
+      "origen": "Tradicional europeo",
+      "ingredientes": "40 g flores y hojas de espino (Crataegus), 20 g melisa, 250 ml alcohol 60°",
+      "preparacion": "Macerar 21 días en frasco oscuro, agitar diariamente. Filtrar.",
+      "dosis": "20-30 gotas en agua, 2-3 veces al día",
+      "modo_uso": "Tintura",
+      "tiempo_prep": "21 días maceración",
+      "dificultad": "Media",
+      "rendimiento": "Aprox. 220 ml",
+      "conservacion": "2 años frasco oscuro",
+      "evidencia": "Pittler MH. et al. (2008) Cochrane: Crataegus como adyuvante en insuficiencia cardíaca clase I-II NYHA. Monografía ESCOP Crataegi folium cum flore.",
+      "fuente_tradicion": "Herbolaria europea medieval; muy usada en herbolaria chilena de origen español",
+      "contraindicaciones": "Insuficiencia cardíaca severa sin supervisión médica. Vigilar con digoxina, betabloqueadores, antihipertensivos.",
+      "uso": "Oligómeros procianidínicos (OPC) aumentan fuerza contráctil cardíaca (inotrópico positivo suave) y dilatan coronarias; vitexina mejora flujo cerebral; ácido rosmarínico aporta efecto ansiolítico modulando palpitaciones por estrés.",
+      "principios_activos": "Vitexina-2-O-ramnósido, hiperósido, oligómeros procianidínicos, ácido rosmarínico.",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador coronario",
+        "ansiolítico",
+        "antiarrítmico suave",
+        "antihipertensivo leve"
+      ],
+      "referencias": "Pittler MH. et al., Cochrane Database 2008;CD005312. ESCOP Crataegi folium cum flore 2003.",
+      "indicaciones_principales": [
+        "palpitaciones por ansiedad",
+        "hipertensión leve",
+        "insuficiencia cardíaca leve (con MD)",
+        "extrasístoles benignas"
+      ],
+      "interacciones_medicamentos": "Potencia digoxina, betabloqueadores, antihipertensivos, nitratos. Consultar siempre con cardiólogo.",
+      "embarazo_lactancia": "Datos insuficientes; evitar.",
+      "duracion_tratamiento": "Uso prolongado (3-6 meses) con seguimiento",
+      "sinergia_plantas": [
+        "Espino blanco",
+        "Melisa",
+        "Tilo",
+        "Pasiflora"
+      ]
+    },
+    {
+      "id": 1179,
+      "titulo": "Cardiotónico nocturno de espino blanco, melisa y tilo",
+      "categoria": "Cardiovascular",
+      "origen": "Fitoterapia cardiovascular europea",
+      "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de melisa, 1 cucharadita de flor de tilo, 1/2 cucharadita de pasiflora, 300 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10-12 minutos. Colar.",
+      "dosis": "1 taza después de la cena durante 6-8 semanas",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "300 ml",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Espino blanco con evidencia en insuficiencia cardíaca NYHA II (Pittler, 2008)",
+      "fuente_tradicion": "Herbolaria cardiovascular europea",
+      "contraindicaciones": "Digitálicos, betabloqueadores sin supervisión, cardiopatías graves no controladas, hipotensión severa.",
+      "uso": "Las procianidinas oligoméricas del espino blanco aumentan tono inotrópico cardíaco e inhiben fosfodiesterasa miocárdica mejorando contractilidad, mientras vasodilatan coronarias por liberación de óxido nítrico endotelial; melisa y tilo aportan modulación parasimpática reduciendo taquicardia ansiosa.",
+      "principios_activos": "Procianidinas oligoméricas, vitexina (espino): inotrópico positivo. Ácido rosmarínico (melisa). Farnesol (tilo). Crisina (pasiflora).",
+      "propiedades": [
+        "cardiotónico",
+        "vasodilatador coronario",
+        "antihipertensivo suave",
+        "ansiolítico"
+      ],
+      "referencias": [
+        "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+        "Tassell MC. et al. Pharmacogn Rev (2010) 4:32"
+      ],
+      "indicaciones_principales": [
+        "hipertensión leve",
+        "palpitaciones nerviosas",
+        "insuficiencia cardíaca NYHA I-II",
+        "ansiedad con somatización cardíaca",
+        "convalecencia cardiovascular"
+      ],
+      "interacciones_medicamentos": "Potencia digoxina, antihipertensivos, betabloqueadores",
+      "embarazo_lactancia": "Datos insuficientes, evitar",
+      "duracion_tratamiento": "Mínimo 6 semanas, máximo 12",
+      "sinergia_plantas": [
+        "valeriana",
+        "hierba del sapo"
+      ]
+    },
+    {
+      "id": 1193,
+      "titulo": "Aceite de masaje circulatorio de hipérico, romero y castaño de indias",
+      "categoria": "Cardiovascular",
+      "origen": "Fitoterapia vascular europea",
+      "ingredientes": "100 ml de oleato de hipérico, 30 ml de oleato de romero, 20 gotas de aceite esencial de ciprés, 15 gotas de aceite esencial de lavanda, 10 gotas de aceite esencial de limón",
+      "preparacion": "Mezclar oleatos. Añadir aceites esenciales agitando. Envasar en frasco oscuro.",
+      "dosis": "Masajear piernas de tobillos hacia rodillas, ascendiendo, 1-2 veces al día",
+      "modo_uso": "Masaje circulatorio",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "130 ml",
+      "conservacion": "6 meses en frasco oscuro",
+      "evidencia": "Castaño de indias con eficacia en insuficiencia venosa (Pittler, 2012)",
+      "fuente_tradicion": "Fitoterapia vascular europea",
+      "contraindicaciones": "Heridas abiertas. Hipérico tópico: evitar exposición solar (fotosensibilizante). Embarazo abdominal.",
+      "uso": "La escina del castaño de indias reduce permeabilidad capilar inhibiendo elastasa y hialuronidasa que degradan paredes venosas, la hiperforina del hipérico tiene acción venotónica y el ciprés contiene alfa-pineno que mejora retorno venoso por vasoconstricción venosa selectiva.",
+      "principios_activos": "Hiperforina, hipericina (hipérico): venotónico. Alfa-pineno, sabineno (ciprés). Ácido carnósico (romero).",
+      "propiedades": [
+        "venotónico",
+        "circulatorio",
+        "antiedematoso",
+        "descongestivo"
+      ],
+      "referencias": [
+        "Pittler MH. et al. Cochrane Database Syst Rev (2012) CD003230",
+        "Suter A. et al. Adv Ther (2006) 23:179"
+      ],
+      "indicaciones_principales": [
+        "insuficiencia venosa",
+        "varices",
+        "piernas pesadas",
+        "edema vespertino de piernas",
+        "calambres nocturnos"
+      ],
+      "interacciones_medicamentos": "Tópico, fotosensibilidad",
+      "embarazo_lactancia": "Evitar en abdomen y mamas",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "caléndula",
+        "milenrama"
+      ]
+    },
+    {
+      "id": 1206,
+      "titulo": "Tintura cardiovascular de espino blanco, hierba del sapo y arnica",
+      "categoria": "Cardiovascular",
+      "origen": "Herbolaria cardiovascular chilena",
+      "ingredientes": "30 g de flores y hojas de espino blanco, 25 g de hierba del sapo, 15 g de melisa, 5 g de flores de árnica, 250 ml de alcohol al 50%",
+      "preparacion": "Macerar todas las plantas en alcohol 21 días en frasco oscuro agitando. Filtrar y envasar en gotero ámbar.",
+      "dosis": "15-20 gotas en agua, 2-3 veces al día",
+      "modo_uso": "Tintura",
+      "tiempo_prep": "21 días",
+      "dificultad": "Media",
+      "rendimiento": "200 ml",
+      "conservacion": "2 años en lugar fresco y oscuro",
+      "evidencia": "Hierba del sapo (Eryngium paniculatum) con uso tradicional chileno en cardiopatías",
+      "fuente_tradicion": "Tradición herbolaria chilena",
+      "contraindicaciones": "Cardiopatías graves no controladas, embarazo, lactancia, anticoagulantes, niños. La árnica interna requiere dosis homeopáticas.",
+      "uso": "Las procianidinas del espino blanco aumentan contractilidad cardíaca por inhibición de fosfodiesterasa y mejoran perfusión coronaria, mientras los principios de hierba del sapo (saponinas y flavonoides) tienen acción hipolipemiante y antioxidante vascular, y la melisa atenúa taquicardia ansiosa.",
+      "principios_activos": "Procianidinas, vitexina (espino blanco). Saponinas, flavonoides (hierba del sapo). Ácido rosmarínico (melisa). Helenalina (árnica, microdosis).",
+      "propiedades": [
+        "cardiotónico",
+        "hipolipemiante",
+        "vasodilatador coronario",
+        "antioxidante cardiovascular"
+      ],
+      "referencias": [
+        "Pittler MH. et al. Cochrane Database Syst Rev (2008) CD005312",
+        "Houghton PJ. Phytother Res (1994) 8:373"
+      ],
+      "indicaciones_principales": [
+        "hipercolesterolemia leve",
+        "ateroesclerosis incipiente",
+        "palpitaciones",
+        "ansiedad cardíaca",
+        "convalecencia post-evento cardíaco"
+      ],
+      "interacciones_medicamentos": "Digitálicos, antihipertensivos, anticoagulantes, estatinas",
+      "embarazo_lactancia": "Contraindicada",
+      "duracion_tratamiento": "8-12 semanas con control",
+      "sinergia_plantas": [
+        "olivo",
+        "ajo"
+      ]
     }
   ]
 }

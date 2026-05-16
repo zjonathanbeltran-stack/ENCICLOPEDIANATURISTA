@@ -1,13 +1,6 @@
 {
-  "condicion": "Espiritual / Ritual",
   "modulo": "mapuche",
   "submodulo": "espiritual_ritual",
-  "emoji": "🔮",
-  "descripcion": "Baños de limpieza, sahumerios, aguas florales y rituales espirituales de la tradición mapuche y chilota.",
-  "maternidad": {
-    "seguridad_general": "advertencia",
-    "nota": "Los baños florales y los sahumerios son seguros en embarazo. Evitar la ruda y el ajenjo tomados internamente. Los baños rituales con agua tibia son beneficiosos para el bienestar emocional."
-  },
   "recetas": [
     {
       "id": 28,
@@ -36,7 +29,21 @@
         "emenagogo"
       ],
       "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992; Monografía ISP-MINSAL: Ruta graveolens",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "limpieza energética ritual",
+        "cuadros de susto o espanto",
+        "ansiedad situacional",
+        "duelo emocional"
+      ],
+      "interacciones_medicamentos": "Uso ritual externo: sin interacciones sistémicas relevantes. Evitar contacto si se usan fotosensibilizantes (furanocumarinas de ruda).",
+      "embarazo_lactancia": "Contraindicado en embarazo: la ruda es abortiva. Evitar en lactancia.",
+      "duracion_tratamiento": "Aplicación puntual ritual; no requiere uso continuo.",
+      "sinergia_plantas": [
+        "palo santo",
+        "romero",
+        "canelo",
+        "laurel"
+      ]
     },
     {
       "id": 38,
@@ -65,7 +72,21 @@
         "ceremonial mapuche"
       ],
       "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; 67(2):161-9; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "fatiga emocional",
+        "limpieza energética",
+        "recuperación post-enfermedad",
+        "estrés crónico"
+      ],
+      "interacciones_medicamentos": "Uso externo ritual: sin interacciones sistémicas. Precaución respiratoria al quemar hojas en asmáticos.",
+      "embarazo_lactancia": "Uso externo ritual considerado seguro; evitar inhalación prolongada del humo en embarazo.",
+      "duracion_tratamiento": "Uso ocasional ceremonial; sin restricción de duración.",
+      "sinergia_plantas": [
+        "maqui",
+        "boldo",
+        "romero",
+        "menta"
+      ]
     },
     {
       "id": 45,
@@ -85,7 +106,27 @@
       "contraindicaciones": "Ventile bien el espacio al quemar plantas. Precaución en personas con asma.",
       "uso": "Susto. Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Mezcla polifenólica de 7 plantas medicinales: sinergia de flavonoides, aceites esenciales y taninos. Iridoides ceremoniales: actividad adaptogénica e inmunomoduladora. Terpenos depurativos: limpieza orgánica y espiritual.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 56,
@@ -114,7 +155,21 @@
         "emenagogo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "limpieza energética",
+        "estrés acumulado",
+        "rituales de bienestar",
+        "transiciones vitales"
+      ],
+      "interacciones_medicamentos": "Uso externo: precaución con fotosensibilizantes y anticoagulantes si hay contacto con ruda en piel.",
+      "embarazo_lactancia": "Contraindicado en embarazo por presencia de ruda (abortivo). Evitar en lactancia.",
+      "duracion_tratamiento": "Baño ritual único o repetido en momentos específicos; no de uso diario.",
+      "sinergia_plantas": [
+        "romero",
+        "ruda",
+        "albahaca",
+        "laurel"
+      ]
     },
     {
       "id": 106,
@@ -143,7 +198,20 @@
         "antifúngico"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Bayan L. et al. Avicenna J Phytomed 2014",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "limpieza energética post-laboral",
+        "estrés ocupacional",
+        "ritual purificador externo"
+      ],
+      "interacciones_medicamentos": "Tópico: puede causar fotodermatitis con exposición solar (furanocumarinas). No combinar con fotosensibilizantes orales.",
+      "embarazo_lactancia": "Contraindicado en embarazo incluso por vía externa (riesgo abortivo). Evitar en lactancia.",
+      "duracion_tratamiento": "Uso puntual; no aplicar diariamente por riesgo de fotosensibilización cutánea.",
+      "sinergia_plantas": [
+        "romero",
+        "albahaca",
+        "matico",
+        "laurel"
+      ]
     },
     {
       "id": 121,
@@ -171,7 +239,21 @@
         "diaforético"
       ],
       "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Limpieza ritual",
+        "Dispepsia leve",
+        "Flatulencia",
+        "Estrés post-discusión",
+        "Estados de ansiedad situacional"
+      ],
+      "interacciones_medicamentos": "Pulegona potencia hepatotoxicidad con paracetamol y fármacos hepatotóxicos; precaución con anticoagulantes y antiepilépticos.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia por efecto emenagogo y abortivo de la pulegona.",
+      "duracion_tratamiento": "Máximo 5 días consecutivos; no usar de forma prolongada por hepatotoxicidad.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "cedrón",
+        "melisa"
+      ]
     },
     {
       "id": 122,
@@ -199,7 +281,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga mental",
+        "Mala circulación periférica",
+        "Astenia",
+        "Estrés oxidativo",
+        "Limpieza energética del hogar"
+      ],
+      "interacciones_medicamentos": "Puede potenciar antihipertensivos (eleva presión arterial) y antidiabéticos; precaución con anticoagulantes y litio.",
+      "embarazo_lactancia": "Contraindicado en embarazo por efecto emenagogo; precaución en lactancia.",
+      "duracion_tratamiento": "Máximo 3 semanas; descansar 1 semana entre ciclos.",
+      "sinergia_plantas": [
+        "ruda",
+        "albahaca",
+        "cedrón"
+      ]
     },
     {
       "id": 123,
@@ -228,7 +324,21 @@
         "emenagogo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "advertencia"
+      "indicaciones_principales": [
+        "Vahídos",
+        "Mareos por hipotensión",
+        "Mala circulación cerebral",
+        "Astenia",
+        "Vértigo leve"
+      ],
+      "interacciones_medicamentos": "Ruda y romero potencian anticoagulantes, antihipertensivos y fotosensibilizantes; evitar con AINEs.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo (riesgo abortivo de la ruda y romero) y en lactancia.",
+      "duracion_tratamiento": "Uso puntual; no exceder 7 días seguidos.",
+      "sinergia_plantas": [
+        "cedrón",
+        "melisa",
+        "manzanilla"
+      ]
     },
     {
       "id": 138,
@@ -257,7 +367,21 @@
         "emenagogo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Limpieza ritual",
+        "Fatiga mental",
+        "Tensión muscular",
+        "Estrés",
+        "Cansancio crónico"
+      ],
+      "interacciones_medicamentos": "Uso tópico con baja absorción sistémica; precaución si hay heridas abiertas por absorción de aceites esenciales.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo (ruda abortiva) incluso por vía tópica en baños prolongados.",
+      "duracion_tratamiento": "Uso puntual ceremonial; no más de 1 vez por semana.",
+      "sinergia_plantas": [
+        "albahaca",
+        "cedrón",
+        "lavanda"
+      ]
     },
     {
       "id": 139,
@@ -285,7 +409,21 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Fatiga mental",
+        "Hipotensión",
+        "Dolor muscular tópico",
+        "Tensión emocional",
+        "Insomnio leve"
+      ],
+      "interacciones_medicamentos": "Uso tópico, baja absorción; precaución con anticoagulantes si hay heridas; albahaca puede potenciar antiplaquetarios.",
+      "embarazo_lactancia": "Evitar en embarazo por dosis medicinales de romero; uso ceremonial puntual aceptable en lactancia.",
+      "duracion_tratamiento": "Uso puntual semanal; no diario.",
+      "sinergia_plantas": [
+        "lavanda",
+        "manzanilla",
+        "cedrón"
+      ]
     },
     {
       "id": 583,
@@ -314,7 +452,20 @@
         "sedante"
       ],
       "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 584,
@@ -342,7 +493,20 @@
         "estrogénico leve"
       ],
       "referencias": "Ghorbani A. & Esmaeilizadeh M. Asian Pac J Trop Biomed 2017; PMC5634728; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 585,
@@ -362,7 +526,27 @@
       "contraindicaciones": "No usar en embarazo en cantidades terapéuticas; puede retardar la coagulación",
       "uso": "Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 586,
@@ -391,7 +575,20 @@
         "antiséptico"
       ],
       "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 587,
@@ -418,7 +615,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 588,
@@ -446,7 +656,20 @@
         "inmunoestimulante"
       ],
       "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 589,
@@ -466,7 +689,27 @@
       "contraindicaciones": "No usar en espacios muy cerrados; puede provocar mareo en exceso",
       "uso": "Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Resinas diterpénicas (ácido copálico, ácido agálico): antiinflamatorias y antimicrobianas. Monoterpenos (alfa-pineno, limoneno): ansiolíticos por vía aromática. Sesquiterpenos: ceremoniales y depurativos.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 590,
@@ -493,7 +736,20 @@
         "antiinflamatorio"
       ],
       "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999)",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 591,
@@ -513,7 +769,27 @@
       "contraindicaciones": "Solo externo; puede causar alergias en pieles sensibles",
       "uso": "Uncion. Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 592,
@@ -533,7 +809,27 @@
       "contraindicaciones": "Práctica espiritual sin contraindicaciones físicas",
       "uso": "Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 593,
@@ -553,7 +849,27 @@
       "contraindicaciones": "Tóxico si se ingiere; solo uso externo; el aceite esencial es neurotóxico",
       "uso": "Limpieza Espiritual. Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "no_recomendada"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 594,
@@ -581,7 +897,20 @@
         "carminativo"
       ],
       "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 595,
@@ -601,7 +930,28 @@
       "contraindicaciones": "Solo externo; puede causar alergia en piel muy sensible",
       "uso": "Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno",
+        "emoliente"
+      ]
     },
     {
       "id": 596,
@@ -621,7 +971,27 @@
       "contraindicaciones": "No usar si hay irritaciones cutáneas; no prolongar en pieles muy secas",
       "uso": "Preparación ceremonial y espiritual.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+      "propiedades": [
+        "purificador",
+        "ceremonial",
+        "aromático",
+        "adaptógeno"
+      ]
     },
     {
       "id": 597,
@@ -649,7 +1019,20 @@
         "cicatrizante"
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1084,
@@ -676,7 +1059,20 @@
         "adaptogeno sistemico"
       ],
       "referencias": "de Rosales D. (1674) Historia General del Reino de Chile. [Edicion 1877]. / Gutierrez MA. (1985) La medicina mapuche. Nutram. / Aukanaw (1995) Medicina Mapuche. Santiago: Ed. Kushe. / MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. / Alvarez Sepulveda HE. (2025) Farmacopea Mapuche Contemporanea, Universidad de La Frontera.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     },
     {
       "id": 1085,
@@ -703,7 +1099,20 @@
         "espiritual-comunitario"
       ],
       "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Aldunate C. (2003) Etnobotanica del Norte de Chile. Museo Chileno de Arte Precolombino. / Llagostera M. (1988) Culturas del Norte de Chile.",
-      "maternidad_segura": "segura"
+      "indicaciones_principales": [
+        "Limpieza y purificación espiritual",
+        "Ritual de protección",
+        "Equilibrio del püllü",
+        "Bienestar ceremonial"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
     }
   ]
 }
