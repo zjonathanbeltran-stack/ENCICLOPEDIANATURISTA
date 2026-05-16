@@ -8492,6 +8492,19 @@ header.plants-tab-header {
     line-height: 1.45;
 }
 .ficha-lista-warn li { color: #f0b060; }
+.ficha-lista-soft li { color: var(--text-mute); }
+.ficha-lista-curiosidades li { color: var(--text-soft); font-style: italic; }
+.planta-historia {
+    font-size: 0.86rem;
+    color: var(--text-mute);
+    line-height: 1.55;
+    margin: 8px 0 0;
+    padding: 8px 12px;
+    background: rgba(106,138,82,0.06);
+    border-left: 2px solid rgba(106,138,82,0.3);
+    border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+.planta-historia i { color: var(--moss); margin-right: 6px; font-size: 0.8rem; }
 .ficha-sobredosis {
     font-size: 0.86rem;
     color: var(--text-soft);

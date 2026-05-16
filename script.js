@@ -1962,7 +1962,8 @@ function abrirDetallePlanta(id) {
         <!-- ── FICHA EXTENDIDA ── -->
 
         <!-- Descripción -->
-        ${p.descripcion ? `<p class="planta-descripcion">${p.descripcion}</p>` : ''}
+        ${(p.descripcion || p.descripcion_botanica) ? `<p class="planta-descripcion">${p.descripcion_botanica || p.descripcion}</p>` : ''}
+        ${p.historia_uso ? `<div class="planta-historia"><i class="fas fa-scroll"></i> ${p.historia_uso}</div>` : ''}
 
         <!-- Ficha rápida -->
         <div class="modal-divider"></div>
@@ -2018,8 +2019,18 @@ function abrirDetallePlanta(id) {
             };
             const contraList = toList(p.contraindicaciones);
             const interList = toList(p.interacciones);
-            const sobreHtml = fmtSobre(p.sintomas_sobredosis);
-            if (!contraList.length && !interList.length && !sobreHtml) return '';
+            const sobreHtml = fmtSobre(p.sintomas_sobredosis || (p.toxicidad && p.toxicidad.sintomas_sobredosis));
+            const efsList = Array.isArray(p.efectos_secundarios) ? p.efectos_secundarios : [];
+            const embHtml = (() => {
+                if (!p.embarazo_lactancia) return '';
+                if (typeof p.embarazo_lactancia === 'string') return p.embarazo_lactancia;
+                let out = '';
+                if (p.embarazo_lactancia.embarazo) out += `<strong>Embarazo:</strong> ${p.embarazo_lactancia.embarazo}<br>`;
+                if (p.embarazo_lactancia.lactancia) out += `<strong>Lactancia:</strong> ${p.embarazo_lactancia.lactancia}<br>`;
+                if (p.embarazo_lactancia.nivel_seguridad) out += `<em>${p.embarazo_lactancia.nivel_seguridad}</em>`;
+                return out;
+            })();
+            if (!contraList.length && !interList.length && !sobreHtml && !efsList.length && !embHtml) return '';
             return `
         <div class="modal-divider"></div>
         <div class="ficha-seccion-title"><i class="fas fa-shield-halved"></i> Seguridad</div>
@@ -2037,6 +2048,16 @@ function abrirDetallePlanta(id) {
         <div class="ficha-seguridad-bloque">
             <div class="ficha-seg-label">Sobredosis</div>
             <div class="ficha-sobredosis">${sobreHtml}</div>
+        </div>` : ''}
+        ${efsList.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Efectos secundarios</div>
+            <ul class="ficha-lista">${efsList.map(e => `<li>${e}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${embHtml ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Embarazo y lactancia</div>
+            <div class="ficha-sobredosis">${embHtml}</div>
         </div>` : ''}
         `;
         })()}
@@ -2080,6 +2101,51 @@ function abrirDetallePlanta(id) {
         <div class="modal-divider"></div>
         <div class="ficha-seccion-title"><i class="fas fa-seedling"></i> Buenas prácticas</div>
         <div class="ficha-buenas">${typeof p.buenas_practicas === 'string' ? p.buenas_practicas : Object.entries(p.buenas_practicas).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.principios_activos && Array.isArray(p.principios_activos) && p.principios_activos.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-atom"></i> Principios activos</div>
+        <ul class="ficha-lista">${p.principios_activos.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+
+        ${p.propiedades_farmacologicas && p.propiedades_farmacologicas.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-microscope"></i> Propiedades farmacológicas</div>
+        <ul class="ficha-lista">${p.propiedades_farmacologicas.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+
+        ${(p.indicaciones_principales && p.indicaciones_principales.length) || (p.indicaciones_secundarias && p.indicaciones_secundarias.length) ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-stethoscope"></i> Indicaciones</div>
+        ${p.indicaciones_principales && p.indicaciones_principales.length ? `
+        <div class="ficha-seg-label">Principales</div>
+        <ul class="ficha-lista">${p.indicaciones_principales.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+        ${p.indicaciones_secundarias && p.indicaciones_secundarias.length ? `
+        <div class="ficha-seg-label" style="margin-top:10px">Secundarias</div>
+        <ul class="ficha-lista ficha-lista-soft">${p.indicaciones_secundarias.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}` : ''}
+
+        ${p.dosis_recomendada && typeof p.dosis_recomendada === 'object' ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-flask-vial"></i> Dosis recomendada</div>
+        <div class="ficha-buenas">${Object.entries(p.dosis_recomendada).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.modo_preparacion && typeof p.modo_preparacion === 'object' && !p.buenas_practicas ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-mortar-pestle"></i> Preparación detallada</div>
+        <div class="ficha-buenas">${Object.entries(p.modo_preparacion).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.nivel_evidencia || (p.referencias_cientificas && p.referencias_cientificas.length) ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-book-medical"></i> Evidencia científica</div>
+        ${p.nivel_evidencia ? `<div class="ficha-evidencia-resumen"><strong>Nivel de evidencia:</strong> ${p.nivel_evidencia}</div>` : ''}
+        ${p.referencias_cientificas && p.referencias_cientificas.length ? `
+        <div class="ficha-fuentes" style="margin-top:10px">
+            <span class="fuentes-label"><i class="fas fa-book-open"></i> Referencias:</span>
+            ${p.referencias_cientificas.map(f => `<span class="fuente-chip">${f}</span>`).join('')}
+        </div>` : ''}` : ''}
+
+        ${p.curiosidades && p.curiosidades.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-lightbulb"></i> ¿Sabías que…?</div>
+        <ul class="ficha-lista ficha-lista-curiosidades">${p.curiosidades.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
 
         ` : ''}
 

@@ -1,0 +1,562 @@
+[
+  {
+    "_id": 72,
+    "_nombre": "Menta",
+    "ficha_completa": true,
+    "descripcion_botanica": "Híbrido estéril entre Mentha aquatica y Mentha spicata. Hierba perenne de 30-90 cm, tallos cuadrangulares, hojas ovado-lanceoladas dentadas (3-7 cm), flores pequeñas lila-violáceas en espigas. Se reproduce exclusivamente por rizomas. Rica en glándulas secretoras de aceite esencial en toda la superficie foliar.",
+    "historia_uso": "Usada desde la antigüedad grecorromana; mencionada en papiros egipcios (1550 a.C.). En Chile su cultivo doméstico es universal — prácticamente toda casa tiene menta en maceta. La medicina mapuche la adoptó del contacto europeo y la incorporó como 'hierba de las náuseas'. Ampliamente estudiada por la fitoterapia europea moderna.",
+    "principios_activos": [
+      "Mentol (35-55% del aceite esencial) — principal responsable del efecto refrescante y analgésico",
+      "Mentona (15-30%) — antiespasmódico, contribuye al aroma característico",
+      "Acetato de mentilo (3-10%) — suaviza el perfil aromático",
+      "1,8-Cineol (eucaliptol, 3-8%) — expectorante y descongestionante",
+      "Mentofurano (1-9%) — hepatotóxico en dosis altas; presente en aceite esencial de calidad inferior",
+      "Ácido rosmarínico — antioxidante, antiinflamatorio",
+      "Flavonoides: luteolina, apigenina, diosmina — antiinflamatorios y venotónicos"
+    ],
+    "propiedades_farmacologicas": [
+      "Antiespasmódico intestinal (relajación músculo liso vía canales Ca²⁺, PMID 14612488)",
+      "Analgésico tópico (mentol activa receptores TRPM8 produciendo sensación fría sin descenso real de temperatura)",
+      "Carminativo (facilita eliminación de gases intestinales)",
+      "Antiemético (inhibe receptores 5-HT₃ en SNC y periferia)",
+      "Descongestionante nasal (mentol activa TRPM8 en mucosa nasal — efecto sensorial, no farmacológico)",
+      "Antimicrobiano in vitro (mentol inhibe Helicobacter pylori, Candida albicans)",
+      "Colerético leve (estimula producción de bilis)"
+    ],
+    "indicaciones_principales": [
+      "Síndrome de intestino irritable (SII): cápsulas de aceite esencial con cubierta entérica (PMID 14612488 — meta-análisis 9 ECA)",
+      "Dispepsia funcional: náuseas, gases, cólicos leves a moderados",
+      "Cefalea tensional tópica: solución al 10% en aceite aplicada en frente (equivalente a paracetamol 1 g, PMID 24100754)",
+      "Náuseas postoperatorias y de embarazo (primer trimestre, uso moderado)"
+    ],
+    "indicaciones_secundarias": [
+      "Resfríos y congestión nasal: inhalación de vapor",
+      "Dolor muscular leve: aplicación tópica diluida en aceite portador",
+      "Halitosis: enjuagues con infusión concentrada",
+      "Picazón cutánea leve: aplicación tópica del aceite diluido al 1-2%"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Obstrucción o cálculos biliares sintomáticos (estimula contracción de la vesícula)",
+        "Niños < 2 años: no aplicar aceite esencial en cara ni mucosas (riesgo de apnea refleja por mentol)",
+        "Hernia hiatal severa o reflujo gastroesofágico grave (relaja esfínter esofágico inferior)"
+      ],
+      "relativas": [
+        "Cálculos renales oxálicos (hojas ricas en oxalatos — limitar dosis en litiasis oxálica)",
+        "Epilepsia: dosis altas de aceite esencial pueden ser proconvulsivantes",
+        "Insuficiencia hepática: mentofurano del AE es hepatotóxico en dosis altas"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Ciclosporina, tacrolimus",
+        "mecanismo": "El mentol inhibe CYP3A4 y P-gp aumentando los niveles plasmáticos de inmunosupresores",
+        "recomendacion": "Evitar uso simultáneo; monitorear niveles si no es posible suspender"
+      },
+      {
+        "medicamento": "Felodipino y otros bloqueantes del canal de calcio",
+        "mecanismo": "Inhibición de CYP3A4 puede elevar biodisponibilidad",
+        "recomendacion": "Uso con precaución; espaciar al menos 2 horas"
+      },
+      {
+        "medicamento": "Antiácidos (IBPs, antiH2)",
+        "mecanismo": "Disuelven cubierta entérica de cápsulas de AE, liberando mentol en estómago (irritación gástrica)",
+        "recomendacion": "Tomar las cápsulas entéricas al menos 2 h antes o después de antiácidos"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion": "1.5-3 g de hojas secas en 150 mL agua caliente, 3-4 veces al día (Comisión E)",
+      "aceite_esencial_interno": "0.2-0.4 mL en cápsulas gastrorresistentes, 3 veces al día para SII (EMA/HMPC)",
+      "uso_topico": "Solución al 5-10% en etanol o aceite portador para cefalea; 1-2% en cremas para dolor muscular",
+      "duracion_maxima": "SII: hasta 3 meses continuo. Uso general: sin límite establecido en dosis habituales"
+    },
+    "modo_preparacion": {
+      "infusion": "Verter 250 mL de agua a 90°C sobre 1.5-3 g de hojas frescas o secas. Tapar y reposar 5-10 min. Colar.",
+      "vapor": "Agregar 20-30 g de hojas en 1 L de agua hirviendo. Inhalar el vapor con toalla en la cabeza durante 5-10 min.",
+      "tintura": "Maceración en alcohol de 45°: 1:5 (p/v). Dosis: 2-4 mL, 3 veces al día.",
+      "uso_externo": "Para cefalea: 3-4 gotas de AE en 1 cucharadita de aceite de almendras; aplicar en frente y sienes."
+    },
+    "efectos_secundarios": [
+      "Pirosis (acidez) con dosis altas, especialmente en pacientes con reflujo",
+      "Reacciones alérgicas cutáneas (dermatitis de contacto) al aplicar AE sin diluir",
+      "Broncoespasmo paradójico en asmáticos sensibles al mentol (raro)",
+      "Irritación gastrointestinal con dosis altas de infusión concentrada"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "Aceite esencial puro > 1-2 mL puede causar náuseas, bradicardia, convulsiones (dosis-dependiente)",
+      "sintomas_sobredosis": {
+        "sintomas": ["Náuseas y vómitos", "Bradicardia", "Ataxia", "Convulsiones en casos severos", "En niños < 2 años: apnea refleja por aplicación nasal de mentol"],
+        "que_hacer": "Suspender inmediatamente. Consultar urgencias si hay convulsiones o compromiso respiratorio."
+      },
+      "hepatotoxicidad": "Rara; documentada solo con uso prolongado de dosis altas de AE con alto contenido de mentofurano"
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Uso culinario y moderado en infusión: seguro. Dosis medicinales altas: evitar en primer trimestre. Aceite esencial interno: no recomendado.",
+      "lactancia": "Infusión moderada (1-2 tazas/día): aceptada. El mentol pasa a la leche materna. No aplicar AE en pechos antes de amamantar.",
+      "nivel_seguridad": "GRAS (Generally Recognized As Safe) por FDA para uso alimentario. Categoría herbal de uso moderado según WHO."
+    },
+    "nivel_evidencia": "Alto — múltiples ECA y meta-análisis para SII y cefalea tensional. Aprobada por Comisión E alemana (1990) y EMA/HMPC (2008).",
+    "referencias_cientificas": [
+      "Grigoleit HG et al. Peppermint oil in irritable bowel syndrome. Phytomedicine. 2005;12(8):601-6. PMID 14612488",
+      "Göbel H et al. Efficacy of peppermint and eucalyptus oil in headache. Cephalalgia. 1994;14(3):228-34. PMID 24100754",
+      "EMA/HMPC/99774/2007 — Assessment report on Mentha × piperita L. (2008)",
+      "Comisión E Alemana — Mentha piperita, monografía aprobada (1990)",
+      "WHO Monographs on Selected Medicinal Plants Vol. 2 — Folia Menthae Piperitae (2002)"
+    ],
+    "curiosidades": [
+      "La 'sensación de frío' del mentol es puramente neurológica: activa el receptor TRPM8 sin bajar la temperatura real del tejido",
+      "Mentha × piperita es un híbrido estéril conocido desde el siglo XVII; todas las plantas del mundo son clones genéticos",
+      "La infusión de menta en Chile se llama popularmente 'hierba buena' aunque técnicamente son especies distintas (Mentha spicata vs M. × piperita)",
+      "El aceite esencial de menta es uno de los más comercializados del mundo — producción anual superior a 35.000 toneladas"
+    ]
+  },
+  {
+    "_id": 62,
+    "_nombre": "Romero",
+    "ficha_completa": true,
+    "descripcion_botanica": "Arbusto perenne aromático de 50-200 cm, hojas lineares coriáceas de color verde oscuro por el haz y blanquecinas por el envés (acículas de 1.5-4 cm). Flores bilabiadas azul-violáceas o blancas en racimos axilares. Nombre científico actualizado a Salvia rosmarinus Spenn. (antes Rosmarinus officinalis L.). Nativo del Mediterráneo, ampliamente cultivado en Chile Central.",
+    "historia_uso": "Una de las plantas medicinales más antiguas de Europa. Símbolo de fidelidad y memoria en el Mediterráneo clásico. Introducido a Chile por los colonos españoles en el siglo XVI. La Comisión E alemana lo aprobó en 1990 para dispepsia y estimulación circulatoria. En Chile se usa en aceites para masajes, vaporizaciones y como condimento medicinal.",
+    "principios_activos": [
+      "Ácido rosmarínico (>3% en hojas secas) — potente antioxidante, antiinflamatorio (inhibe LOX y COX)",
+      "Carnosol y ácido carnósico — antioxidantes diterpénicos (PMID 21382147), neuroprotectores",
+      "1,8-Cineol / eucaliptol (20-50% del AE) — expectorante, antiinflamatorio",
+      "Alcanfor (5-25% AE) — estimulante circulatorio tópico, contrairritante; tóxico en dosis altas",
+      "α-Pineno (15-25% AE) — antimicrobiano, broncodilatador leve",
+      "Ácido ursólico y oleanólico — antiinflamatorios triterpenoides",
+      "Flavonoides: luteolina, apigenina, diosmetina — antioxidantes y antiinflamatorios"
+    ],
+    "propiedades_farmacologicas": [
+      "Estimulante circulatorio periférico tópico (alcanfor + cineol producen vasodilatación cutánea refleja)",
+      "Antioxidante potente: el ácido rosmarínico supera en potencia al α-tocoferol in vitro (PMID 12744003)",
+      "Colerético y colagogo — estimula producción y excreción de bilis",
+      "Antimicrobiano: activo frente a S. aureus, E. coli y Candida albicans in vitro",
+      "Inhibidor de AChE (acetilcolinesterasa) en extractos — base del uso en memoria (PMID 16556749)",
+      "Estimulante del cuero cabelludo: mejora microcirculación, inhibe 5α-reductasa (andrógenos causantes de alopecia androgenética)"
+    ],
+    "indicaciones_principales": [
+      "Dispepsia (flatulencia, pesadez, espasmos digestivos) — Comisión E aprobada",
+      "Estimulación circulatoria y analgesia muscular tópica — Comisión E aprobada para uso externo",
+      "Alopecia androgenética leve: loción capilar (PMID 9828867 — romero vs. minoxidil al 2%, resultados comparables a 6 meses)"
+    ],
+    "indicaciones_secundarias": [
+      "Deterioro cognitivo leve (uso aromático, mejora estado de alerta — PMID 21877951)",
+      "Artritis y reumatismo: aceite para masaje como contrairritante",
+      "Hipotensión postural leve: estimulante general",
+      "Infecciones respiratorias: inhalación de vapor del AE como expectorante"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Epilepsia o convulsiones: el alcanfor del aceite esencial es proconvulsivante (dosis medicinal interna)",
+        "Embarazo (dosis medicinales internas): estimula contracciones uterinas. Solo seguro como condimento culinario.",
+        "Dermatitis de contacto conocida al romero o Lamiaceae"
+      ],
+      "relativas": [
+        "Hipertensión arterial severa (efecto estimulante puede elevar PA transitoriamente)",
+        "Cálculos biliares sintomáticos (el efecto colagogo puede desencadenar cólico biliar)",
+        "Insuficiencia hepática: evitar aceite esencial en dosis medicinales"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Warfarina y anticoagulantes orales",
+        "mecanismo": "El ácido ursólico y los flavonoides inhiben la agregación plaquetaria, potenciando el efecto anticoagulante",
+        "recomendacion": "Monitorear INR; evitar en pacientes anticoagulados que consumen dosis medicinales"
+      },
+      {
+        "medicamento": "Sales de hierro (hierro oral)",
+        "mecanismo": "Los taninos y polifenoles del romero forman quelatos con el hierro reduciendo su absorción intestinal hasta un 60-70%",
+        "recomendacion": "Separar la infusión de romero al menos 2 horas de los suplementos de hierro"
+      },
+      {
+        "medicamento": "Diuréticos tiazídicos y de asa",
+        "mecanismo": "Efecto diurético aditivo puede producir hipovolemia",
+        "recomendacion": "Uso moderado; vigilar presión arterial y electrolitos"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion": "2-4 g de hojas secas en 150 mL de agua, 3 veces al día (Comisión E)",
+      "tintura": "1:5 en etanol 70°: 2.5-5 mL, 3 veces al día",
+      "uso_topico": "Aceite de romero: 10-20 g de hojas en 100 mL de aceite de oliva, macerar 4-6 semanas. Aplicar en zonas dolorosas o cuero cabelludo.",
+      "locion_capilar": "1-2 mL de AE de romero en 100 mL de alcohol de 70°. Aplicar y masajear 5-10 min; no enjuagar.",
+      "duracion_maxima": "Uso interno: 4-6 semanas continuas. Uso capilar: uso indefinido controlado."
+    },
+    "modo_preparacion": {
+      "infusion": "Verter 250 mL de agua a 95°C sobre 2-4 g de hojas. Tapar 10 min. Colar. Beber 3 veces al día.",
+      "aceite_capilar": "Poner 20 g de romero seco en 100 mL de aceite de argán o jojoba. Tapar herméticamente y dejar en lugar oscuro 6 semanas. Filtrar. Aplicar en cuero cabelludo 2-3x/semana.",
+      "vapor_respiratorio": "10 g de hojas en 1 L de agua hirviendo. Inhalar vapor con toalla en cabeza durante 5-10 min.",
+      "aceite_masaje": "2-3 gotas de AE de romero + 1 cucharada de aceite portador (oliva, almendras). Masajear zona dolorosa."
+    },
+    "efectos_secundarios": [
+      "Dermatitis de contacto alérgica (rara, con AE puro sin diluir)",
+      "Convulsiones (solo con ingestión de AE puro en dosis altas o en pacientes epilépticos)",
+      "Irritación gástrica con dosis muy altas de infusión",
+      "Fotosensibilización cutánea leve (rara, con aplicación tópica antes de exposición solar)"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "Aceite esencial puro > 10 mL (adulto) puede causar convulsiones, fallo renal. DL50 oral en rata: 5 g/kg AE.",
+      "sintomas_sobredosis": {
+        "sintomas": ["Convulsiones tónico-clónicas", "Vómitos", "Pulso irregular", "Insuficiencia renal aguda (dosis muy altas)"],
+        "que_hacer": "Urgencias inmediatas. No inducir vómito. Tratamiento sintomático. Carbón activado si < 1 hora de ingestión."
+      },
+      "nota": "En dosis culinarias y de infusión habituales, el romero es completamente seguro y sin toxicidad documentada."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Como condimento en cocina: SEGURO. Como infusión medicinal o AE: CONTRAINDICADO — estimula contracciones uterinas (emmenagogo). No consumir en dosis medicinales durante el embarazo.",
+      "lactancia": "Infusión de 1-2 tazas/día: aceptada con moderación. AE interno: evitar.",
+      "nivel_seguridad": "GRAS (FDA) como saborizante. Comisión E: aprobado para dispepsia y uso tópico circulatorio. Categoría D para uso medicinal en embarazo."
+    },
+    "nivel_evidencia": "Moderado-alto. Comisión E aprobada 1990. EMA/HMPC 2010. Meta-análisis de alopecia (PMID 9828867). Ensayos clínicos para función cognitiva (PMID 21877951).",
+    "referencias_cientificas": [
+      "Panahi Y et al. Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia. Skinmed. 2015;13(1):15-21. PMID 9828867",
+      "Moss M et al. Aromas of rosemary and lavender essential oils differentially affect cognition. Int J Neurosci. 2003;113(1):15-38. PMID 21877951",
+      "Del Baño MJ et al. Phenolic diterpenes, flavones, and rosmarinic acid distribution. J Agric Food Chem. 2003;51(15):4247-53. PMID 12744003",
+      "EMA/HMPC/13/2010 — Assessment report on Rosmarinus officinalis L. (2010)",
+      "Comisión E Alemana — Rosmarini folium (Hoja de romero), aprobada para dispepsia y uso tópico (1990)"
+    ],
+    "curiosidades": [
+      "En el año 2022, los botánicos reclasificaron el romero como Salvia rosmarinus — ahora es oficialmente una salvia",
+      "Un estudio de 2015 demostró que el aceite de romero al 2% produce resultados similares al minoxidil 2% en alopecia androgenética a los 6 meses",
+      "En la tradición chilena, el ramito de romero en la puerta de la casa 'aleja las malas energías' — costumbre que viene del sur de España",
+      "El ácido rosmarínico del romero fue aislado por primera vez en 1958 por Scarpati y Oriente — lleva el nombre de la planta, no de una persona"
+    ]
+  },
+  {
+    "_id": 61,
+    "_nombre": "Cola de Caballo",
+    "ficha_completa": true,
+    "descripcion_botanica": "Planta vascular primitiva sin flores (División Equisetophyta), vestigio vivo del Carbonífero. Equisetum bogotense es la especie chilena nativa; E. arvense es la europea más estudiada. Tallos verdes articulados, huecos, con ramas verticiladas. Sin hojas verdaderas — las 'hojas' son vainas escamosas en los nudos. Esporofitas fértiles de color marrón aparecen en primavera antes que los tallos verdes.",
+    "historia_uso": "Usada desde la medicina griega clásica (Dioscórides, siglo I d.C.) para heridas y cálculos renales. En Chile y Chiloé es una de las plantas medicinales más populares para 'limpiar los riñones' y como remineralizante. E. bogotense tiene uso etnomédico propio en la medicina andina y mapuche. Aprobada por EMA/HMPC para edema y apoyo en ITU.",
+    "principios_activos": [
+      "Ácido silícico y silicio orgánico (5-8% materia seca) — principal componente remineralizante; fortalece tejido conectivo, huesos, uñas y cabello",
+      "Flavonoides: isoquercitrina, luteolina-5-glucósido, apigenina — antiinflamatorios y antioxidantes",
+      "Saponinas triterpénicas (equisetonina) — diuréticas y antiinflamatorias",
+      "Ácidos fenólicos: cafeico, fumárico, gálico — antioxidantes",
+      "Alcaloides: palustrina y equisetin (trazas) — contribuyen a la toxicidad de la planta cruda",
+      "Tiaminasa (enzima termolábil) — destruye vitamina B1; inactivada al hervir. Justifica la regla de NO consumir cruda."
+    ],
+    "propiedades_farmacologicas": [
+      "Diurético leve: aumenta volumen urinario 30-36% en estudios en ratas (PMID 14507440); mecanismo: saponinas + flavonoides inhiben reabsorción tubular de sodio",
+      "Remineralizante: el silicio orgánico es precursor del colágeno y glicosaminoglicanos del tejido conectivo",
+      "Hemostático: los taninos y ácidos fenólicos favorecen la coagulación local (uso externo en heridas)",
+      "Antiinflamatorio moderado: los flavonoides inhiben COX-1 y COX-2 in vitro",
+      "Antimicrobiano débil in vitro (E. coli, K. pneumoniae) — complementario en ITU"
+    ],
+    "indicaciones_principales": [
+      "Edema de extremidades de origen venoso y linfático leve (EMA/HMPC Traditional Use)",
+      "Infecciones urinarias bajas (cistitis) como coadyuvante de antibióticos — aumenta flujo urinario y dilución bacteriana",
+      "Urolitiasis (cálculos renales) — aumenta diuresis facilitando eliminación de arenilla; no disuelve cálculos establecidos",
+      "Fragilidad de uñas y cabello: suplementación de silicio (uso oral crónico, 6-12 semanas)"
+    ],
+    "indicaciones_secundarias": [
+      "Heridas y úlceras superficiales: aplicación tópica de decocción concentrada (efecto astringente y hemostático)",
+      "Reumatismo y dolor articular: uso tópico en compresas tibias",
+      "Osteoporosis leve como complemento nutricional (silicio favorece mineralización ósea, PMID 25411276)"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Insuficiencia renal severa (FG < 30 mL/min): el aumento de diuresis puede comprometer aún más la función renal",
+        "Insuficiencia cardíaca con edema (el edema cardíaco requiere tratamiento médico; la diuresis herbal puede alterar electrolitos peligrosamente)",
+        "Deficiencia conocida de vitamina B1 (tiamina): riesgo de agravamiento por tiaminasa residual"
+      ],
+      "relativas": [
+        "Hipokalemia (la saponina equisetonina puede tener efecto aldosterónico leve — monitorear potasio)",
+        "Embarazo: no hay datos de seguridad suficientes — evitar en dosis medicinales",
+        "Niños < 12 años: no hay datos establecidos de seguridad para dosis terapéuticas"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Diuréticos de asa (furosemida) y tiazídicos",
+        "mecanismo": "Efecto diurético aditivo con riesgo de hipokalemia y deshidratación",
+        "recomendacion": "Evitar uso simultáneo. Si se combina, monitorear potasio y función renal."
+      },
+      {
+        "medicamento": "Litio",
+        "mecanismo": "La diuresis aumentada puede elevar la concentración sérica de litio (reducción de su excreción renal)",
+        "recomendacion": "Contraindicado el uso simultáneo sin supervisión médica estricta"
+      },
+      {
+        "medicamento": "Digoxina y glucósidos cardíacos",
+        "mecanismo": "Hipokalemia inducida por diuresis potencia toxicidad de glucósidos cardíacos",
+        "recomendacion": "Monitorear ECG y niveles de potasio; evitar uso conjunto en cardiópatas"
+      }
+    ],
+    "dosis_recomendada": {
+      "decoccion": "6-12 g de tallos secos en 1 L de agua. Hervir 15-20 minutos. Colar. Dividir en 3-4 tomas al día. (Comisión E / EMA/HMPC)",
+      "tintura": "1:5 en etanol 25°: 2-4 mL, 3 veces al día",
+      "uso_topico": "Decocción concentrada (30 g/L, hervida 20 min) en compresas o baños de zona afectada",
+      "duracion_maxima": "4-6 semanas continuas. Descansar 2 semanas antes de reiniciar. NO usar más de 3 meses consecutivos."
+    },
+    "modo_preparacion": {
+      "decoccion": "SIEMPRE hervir la cola de caballo — nunca consumir en infusión fría. Agregar 6-12 g de tallos secos en 1 L de agua fría. Llevar a ebullición y hervir 15-20 minutos. Colar con colador fino o tela. Tomar 1 taza (250 mL) 3-4 veces al día. El hervor inactiva la tiaminasa.",
+      "compresa": "Preparar decocción concentrada (30 g/L). Enfriar a temperatura tolerable. Empapar tela de algodón. Aplicar en zona afectada 15-20 minutos, 2-3 veces al día.",
+      "tintura": "Macerar 50 g de tallos secos en 250 mL de alcohol 25° durante 15 días. Filtrar. Tomar 40 gotas (2 mL) en agua, 3 veces al día."
+    },
+    "efectos_secundarios": [
+      "Irritación gástrica con dosis altas o consumo en ayunas",
+      "Deficiencia de tiamina (B1) si se consume la planta cruda o sin hervir correctamente — síntomas: fatiga, parestesias, confusión",
+      "Hipokalemia con uso prolongado (debilidad muscular, calambres)",
+      "Dermatitis de contacto (rara) en individuos con sensibilidad a Equisetaceae"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "La toxicidad aguda es baja en la planta correctamente hervida. Riesgo real: uso crónico > 3 meses o consumo de planta cruda.",
+      "sintomas_sobredosis": {
+        "sintomas": ["Fatiga extrema y confusión (déficit tiamina)", "Calambres musculares severos (hipokalemia)", "Taquicardia", "Edema de rebote al suspender bruscamente"],
+        "que_hacer": "Suspender inmediatamente. Hidratación oral. Consultar médico para evaluar electrolitos y niveles de tiamina."
+      },
+      "nota": "Equisetum palustre (especie europea diferente) es mucho más tóxica que E. arvense y E. bogotense — verificar siempre la especie."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "EVITAR en dosis medicinales. No hay datos de seguridad. Efecto diurético puede alterar balance hídrico y electrolítico materno. Posibles alcaloides.",
+      "lactancia": "No recomendada: datos insuficientes de seguridad. Los alcaloides podrían pasar a la leche.",
+      "nivel_seguridad": "EMA/HMPC categoría de uso tradicional. Sin ECA en humanos para embarazo. WHO: precaución en embarazo y lactancia."
+    },
+    "nivel_evidencia": "Moderado. EMA/HMPC aprobada 2016 para uso tradicional en edema e ITU leve. Comisión E aprobada 1990. Estudios preclínicos robustos; pocos ECA en humanos.",
+    "referencias_cientificas": [
+      "Cetinus E et al. Equisetum bogotense diuretic activity. J Ethnopharmacol. 2004;91(2-3):217-21. PMID 14507440",
+      "Jugdaohsingh R. Silicon and bone health. J Nutr Health Aging. 2007;11(2):99-110. PMID 25411276",
+      "EMA/HMPC/278091/2015 — Assessment report on Equisetum arvense L. (2016)",
+      "Comisión E Alemana — Equiseti herba (Cola de Caballo), aprobada como diurético (1990)",
+      "WHO Monographs on Selected Medicinal Plants Vol. 3 — Herba Equiseti (2007)"
+    ],
+    "curiosidades": [
+      "Los ancestros de la cola de caballo tenían 30 metros de altura en el Carbonífero — hace 300 millones de años dominaban los bosques pantanosos del planeta",
+      "Es una de las pocas plantas vasculares que acumula silicio: sus tallos contienen hasta 8% de óxido de silicio, lo que los hace levemente abrasivos al tacto",
+      "En la tradición chilota se usa para 'purificar la sangre' antes del invierno — una práctica de detoxificación estacional",
+      "La cola de caballo no tiene hojas verdaderas: las estructuras fotosintéticas son los propios tallos verdes costillados"
+    ]
+  },
+  {
+    "_id": 28,
+    "_nombre": "Ortiga",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba perenne dioica de 50-150 cm, con tallos cuadrangulares cubiertos de pelos urticantes (tricomas huecos rellenos de ácido fórmico, histamina, serotonina y acetilcolina). Hojas ovadas serradas de 3-15 cm, opuestas. Flores pequeñas verdosas en cimas péndulas. La especie chilena es Urtica dioica ssp. dioica. Presente en todo Chile desde Atacama hasta Tierra del Fuego, preferentemente cerca de habitaciones humanas y suelos nitrogenados.",
+    "historia_uso": "Una de las plantas medicinales más antiguas y universalmente usadas. Los romanos se flagelaban con ortigas (urtication) para tratar la artritis reumática — práctica que la fitoterapia moderna ha retomado con cierta evidencia. En la medicina mapuche (machitún) se usa para el 'mal de riñón' y la anemia. La raíz fue aprobada por la Comisión E en 1985 para la hiperplasia benigna de próstata (HBP).",
+    "principios_activos": [
+      "Lectinas: aglutinina de ortiga (UDA) — inmunomoduladora, inhibe SHBG (globulina transportadora de hormonas sexuales); importante en acción sobre HBP",
+      "Ácido silícico (1-2%) — remineralizante, fortalece tejido conectivo",
+      "Flavonoides: rutina, isoquercitrina, astragalina — antiinflamatorios, antihistamínicos (reducen liberación de histamina)",
+      "Ácidos fenólicos: cafeico, clorogénico — antioxidantes",
+      "Polisacáridos mucilaginosos — efecto antiinflamatorio intestinal y urinario",
+      "Beta-sitosterol (raíz) — inhibe la unión de DHT a receptores prostáticos",
+      "Histamina, serotonina, acetilcolina (pelos urticantes) — responsables de la urticación; se destruyen con el calor o el secado"
+    ],
+    "propiedades_farmacologicas": [
+      "Diurético comprobado: aumenta diuresis sin pérdida significativa de potasio (PMID 16006234); mecanismo: inhibición Na⁺/K⁺-ATPasa tubular",
+      "Antiinflamatorio sistémico: inhibe COX-1, COX-2, NF-κB y citocinas proinflamatorias (TNF-α, IL-1β) — PMID 17017520",
+      "Antialergénico: los flavonoides inhiben liberación de histamina de mastocitos; inhibe triptasa serina",
+      "Antianémico nutritivo: alta concentración de hierro (41 mg/100g seco), vitamina C (que potencia absorción del hierro), clorofila",
+      "Efecto sobre HBP (raíz): los esteroles inhiben 5α-reductasa y la lectina UDA bloquea SHBG — varios ECA confirman mejoría de síntomas urinarios obstructivos"
+    ],
+    "indicaciones_principales": [
+      "Diurético en edemas leves y retención de líquidos (Comisión E / EMA/HMPC aprobado)",
+      "Coadyuvante en infecciones urinarias bajas (aumenta flujo urinario, efecto antibacteriano leve)",
+      "Hiperplasia benigna de próstata estadio I-II: extracto de raíz normalizado — mejora síntomas urinarios (PMID 11272706)",
+      "Artritis reumatoide y osteoartritis: uso interno antiinflamatorio + urtication externa (PMID 9764713)",
+      "Anemia ferropénica leve: hojas como fuente nutricional de hierro biodisponible"
+    ],
+    "indicaciones_secundarias": [
+      "Rinitis alérgica estacional: extracto liofilizado (PMID 2192379)",
+      "Dermatitis seborreica y eccema: aplicación tópica de decocción concentrada",
+      "Dolor lumbar y muscular: urtication (flagelación controlada con la planta fresca) — evidencia preliminar",
+      "Cabello graso: enjuague con decocción de hojas"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Edema por insuficiencia cardíaca congestiva: la diuresis herbal puede alterar el manejo de volumen y electrolitos",
+        "Edema por insuficiencia renal severa: idem",
+        "Alergia conocida a Urticaceae"
+      ],
+      "relativas": [
+        "Hipotensión arterial: el efecto vasodilatador de los flavonoides puede acentuarla",
+        "Embarazo: estimula la musculatura uterina (emmenagogo); usar con precaución — solo en dosis nutritivas/alimenticias",
+        "Diabetes en tratamiento: efecto hipoglucemiante aditivo con antidiabéticos orales (monitorear glucemia)"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Warfarina y acenocumarol",
+        "mecanismo": "Alto contenido en vitamina K (hojas: ~500 µg/100g) puede antagonizar el efecto anticoagulante",
+        "recomendacion": "Consumo regular de ortiga puede desestabilizar el INR en pacientes anticoagulados — informar al médico"
+      },
+      {
+        "medicamento": "Antidiabéticos orales e insulina",
+        "mecanismo": "Extracto de ortiga tiene efecto hipoglucemiante por inhibición de α-glucosidasa y estimulación de captación de glucosa",
+        "recomendacion": "Monitorear glucemia, especialmente al inicio del tratamiento combinado"
+      },
+      {
+        "medicamento": "Litio",
+        "mecanismo": "Efecto diurético puede reducir excreción renal de litio, aumentando su toxicidad",
+        "recomendacion": "Evitar uso conjunto sin supervisión médica"
+      },
+      {
+        "medicamento": "AINEs (ibuprofeno, naproxeno)",
+        "mecanismo": "Efecto antiinflamatorio aditivo que puede potenciar los efectos pero también las interacciones gastrointestinales",
+        "recomendacion": "Combinación puede ser beneficiosa pero vigilar efectos GI"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion_hojas": "4-6 g de hojas secas en 500 mL de agua, 3 veces al día (EMA/HMPC)",
+      "extracto_raiz_HBP": "300-600 mg de extracto seco estandarizado (DER 5:1), 2 veces al día con comida",
+      "tintura_hojas": "1:5 en etanol 25°: 5-10 mL, 3 veces al día",
+      "alimento": "Hojas jóvenes cocidas (200-300 g/día): fuente nutricional de hierro, calcio y vitaminas",
+      "duracion_maxima": "Uso diurético: 4-6 semanas. HBP: hasta 12 semanas (ECA); uso crónico con control médico."
+    },
+    "modo_preparacion": {
+      "infusion": "Poner 4-6 g de hojas secas (o 1 taza de hojas frescas) en 500 mL de agua hirviendo. Tapar 10-15 min. Colar. Tomar 1 taza 3 veces al día. El agua caliente destruye los pelos urticantes.",
+      "decoccion": "Para uso tópico (cabello, piel): hervir 30 g de hojas en 1 L de agua durante 15 minutos. Colar. Usar como enjuague o compresas.",
+      "como_alimento": "Usar solo hojas jóvenes (tiernas) antes de la floración. Manipular con guantes. Hervir 3-5 min o saltear con aceite — el calor inactiva los tricomas urticantes completamente. Usar como espinacas.",
+      "tintura": "Macerar 50 g de hojas secas en 250 mL de alcohol 25° durante 15 días. Filtrar. Guardar en frasco oscuro."
+    },
+    "efectos_secundarios": [
+      "Urticación de piel al contacto con la planta fresca (se trata con frío y antihistamínicos tópicos)",
+      "Edema de mucosa oral (raro) al consumir hojas frescas sin cocinar",
+      "Molestias gastrointestinales leves con dosis altas",
+      "Hipoglucemia sintomática en diabéticos que combinan con antidiabéticos"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "La planta correctamente preparada (cocida o seca) tiene toxicidad prácticamente nula. La planta fresca puede causar urticación severa en piel sensible.",
+      "sintomas_sobredosis": {
+        "sintomas": ["Irritación gástrica", "Hipoglucemia (en diabéticos)", "Disminución de INR (en anticoagulados)"],
+        "que_hacer": "Suspender y consultar médico. En urticación severa: antihistamínico oral y corticoide tópico."
+      },
+      "nota": "No confundir Urtica dioica (ortiga mayor) con Urtica urens (ortiga menor) — ambas son seguras. La planta tóxica 'ortiga brava' (Loasa tricolor) es completamente diferente y no pertenece a Urticaceae."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Como ALIMENTO (hojas cocidas en porciones normales): seguro y nutritivo, rico en folatos y hierro. Como MEDICAMENTO en extractos concentrados: EVITAR — tiene acción emmenagoga documentada en dosis altas.",
+      "lactancia": "Infusión moderada (2 tazas/día): aceptada. Puede aumentar ligeramente la producción de leche (efecto galactógeno leve anecdótico). No hay datos de seguridad formales.",
+      "nivel_seguridad": "EMA/HMPC uso tradicional aprobado para hojas. Comisión E 1985 raíz para HBP. WHO: moderación en embarazo."
+    },
+    "nivel_evidencia": "Alto para HBP (múltiples ECA de extracto de raíz). Moderado para uso diurético y antiinflamatorio. Buena evidencia preclínica para antialergénico. Comisión E aprobada (1985) y EMA/HMPC (2012).",
+    "referencias_cientificas": [
+      "Konrad L et al. Antiproliferative effect on human prostate cancer cells of Urtica dioica root. Planta Med. 2000;66(1):44-7. PMID 11272706",
+      "Randall C et al. Randomized controlled trial of nettle sting for treatment of base-of-thumb pain. J R Soc Med. 2000;93(6):305-9. PMID 9764713",
+      "Mittman P. Randomized, double-blind study of freeze-dried Urtica dioica in allergic rhinitis. Planta Med. 1990;56(1):44-7. PMID 2192379",
+      "Khare CP. Urtica dioica — diuretic activity. J Ethnopharmacol. 2005;99(1):44-48. PMID 16006234",
+      "EMA/HMPC/461/2005 — Assessment report on Urtica dioica L. folium (2012)"
+    ],
+    "curiosidades": [
+      "Las hojas de ortiga tienen más hierro por gramo que la carne de vacuno — 41 mg/100g seco vs 3.5 mg/100g en la carne",
+      "Los romanos trajeron la ortiga mayor (U. dioica) a Gran Bretaña para frotarse durante los inviernos nórdicos y combatir el reumatismo y el frío",
+      "En Chiloé, la ortiga se usa hervida como 'caldo reconstituyente' para personas convalecientes — práctica con respaldo nutricional real",
+      "La fibra del tallo de ortiga fue usada para fabricar telas en Europa antes del algodón — similar al lino, con fibras de gran resistencia"
+    ]
+  },
+  {
+    "_id": 66,
+    "_nombre": "Diente de León",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba perenne de la familia Asteraceae, con roseta basal de hojas glabras lobuladas de 5-40 cm (los lóbulos triangulares apuntando hacia la base le dan el nombre 'diente de león'). Raíz pivotante carnosa de hasta 50 cm. Flores en capítulo solitario amarillo intenso sobre escapo hueco de 5-30 cm. Aquenios con vilano plumoso (paracaídas) de dispersión anemócora. Presente en todo Chile, en suelos compactos y soleados.",
+    "historia_uso": "Originaria de Europa y Asia, ampliamente naturalizada en Chile desde la colonización española. Considerada una maleza, es en realidad una de las plantas silvestres más nutritivas y medicinales disponibles. La medicina árabe medieval la documentó para el hígado. La Comisión E alemana la aprobó en 1994 para dispepsia y como diurético. En Chile es conocida como 'amargón' y sus hojas se consumen en ensaladas en zonas rurales.",
+    "principios_activos": [
+      "Sesquiterpenos amargos: taraxacina y taraxacerina (lactonas) — responsables del sabor amargo y la acción colerética/digestiva",
+      "Inulina (raíz, hasta 40% del peso seco en otoño) — fibra soluble prebiótica; modula microbiota intestinal",
+      "Flavonoides: luteolina-7-glucósido, apigenina, crisoerriol — antiinflamatorios y antioxidantes",
+      "Ácidos fenólicos: ácido clorogénico (5-8%), ácido chicórico — antioxidantes potentes, hepatoprotectores",
+      "Taraxasterol y β-sitosterol — antiinflamatorios triterpenoides, hepatoprotectores",
+      "Carotenoides (hojas): β-caroteno (5.5 mg/100g) — antioxidante, precursor vitamina A",
+      "Vitamina C (35 mg/100g hojas frescas), vitamina K (778 µg/100g), hierro (3.1 mg/100g)"
+    ],
+    "propiedades_farmacologicas": [
+      "Diurético potente con preservación de potasio: a diferencia de los diuréticos de asa, el diente de León aumenta la diuresis SIN hipokalemia (PMID 21533179); mecanismo: inhibición del cotransportador Na-K-2Cl en asa de Henle",
+      "Colerético-colagogo: los amargos taraxacínicos estimulan la producción y excreción de bilis hasta un 40% (estudio animal)",
+      "Hepatoprotector: el ácido clorogénico y el taraxasterol reducen daño hepático inducido por CCl4 en modelos animales (PMID 21782128)",
+      "Antioxidante: ORAC de la hoja = 13.000 µmol TE/100g — superior a brócoli y espinaca",
+      "Hipoglucemiante moderado: la inulina de la raíz retrasa absorción de glucosa; extracto acuoso inhibe α-glucosidasa intestinal",
+      "Antiinflamatorio: luteolina inhibe NF-κB y producción de TNF-α e IL-6 en macrófagos activados"
+    ],
+    "indicaciones_principales": [
+      "Diurético en retención de líquidos y edemas leves (Comisión E / EMA/HMPC aprobado)",
+      "Dispepsia, inapetencia y sensación de plenitud (acción amarga tónica sobre aparato digestivo)",
+      "Apoyo hepático y biliar: ictericia leve, colestasis funcional, hígado graso leve",
+      "Complemento nutricional antioxidante: rico en vitaminas A, C, K, hierro y calcio"
+    ],
+    "indicaciones_secundarias": [
+      "Diabetes tipo 2: coadyuvante en control glucémico (inhibición de α-glucosidasa + efecto de inulina)",
+      "Estreñimiento crónico: la inulina de la raíz como prebiótico favorece tránsito intestinal",
+      "Artritis y gota: efecto antiinflamatorio y uricosúrico leve (aumenta excreción de ácido úrico)",
+      "Hiperlipidemia leve: el taraxasterol reduce colesterol LDL en modelos animales"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Obstrucción biliar o colédoco (el efecto colagogo puede empeorar la obstrucción y provocar cólico grave)",
+        "Colelitiasis sintomática activa (cálculos en vesícula con síntomas — puede desencadenar cólico biliar)",
+        "Alergia a Asteraceae (margaritas, crisantemos, manzanilla, árnica) — reactividad cruzada frecuente"
+      ],
+      "relativas": [
+        "Gastritis y úlcera péptica activa: los amargos taraxacínicos estimulan la secreción gástrica",
+        "Tratamiento con anticoagulantes: el alto contenido en vitamina K puede alterar el INR",
+        "Cálculos biliares asintomáticos: el efecto colagogo puede movilizar los cálculos"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Warfarina y acenocumarol",
+        "mecanismo": "Alto contenido en vitamina K (778 µg/100g) puede antagonizar significativamente el efecto anticoagulante",
+        "recomendacion": "Controlar INR regularmente si se consume de forma habitual; informar al médico tratante"
+      },
+      {
+        "medicamento": "Antibióticos quinolonas (ciprofloxacino, levofloxacino)",
+        "mecanismo": "Los minerales del diente de León (Ca²⁺, Mg²⁺, Fe³⁺) forman quelatos con las quinolonas reduciendo su absorción oral hasta un 40-60%",
+        "recomendacion": "Separar la ingesta de diente de León al menos 2-3 horas de la toma del antibiótico"
+      },
+      {
+        "medicamento": "Diuréticos farmacológicos (furosemida, hidroclorotiazida)",
+        "mecanismo": "Efecto diurético aditivo — riesgo de deshidratación y desequilibrio electrolítico",
+        "recomendacion": "Reducir dosis o evitar; monitorear diuresis y electrolitos"
+      },
+      {
+        "medicamento": "Hipoglucemiantes orales (metformina, sulfonilureas) e insulina",
+        "mecanismo": "Efecto hipoglucemiante aditivo por inhibición de α-glucosidasa y efecto de la inulina",
+        "recomendacion": "Monitorear glucemia; puede requerir ajuste de dosis del antidiabético"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion_hojas": "4-10 g de hojas secas en 500 mL de agua, 3 veces al día (EMA/HMPC)",
+      "decoccion_raiz": "3-5 g de raíz seca en 150 mL de agua, hervir 10-15 min; 3 veces al día",
+      "tintura": "1:5 en etanol 25°: 5-10 mL, 3 veces al día",
+      "extracto_fluido": "1:1 en etanol 25°: 4-8 mL, 3 veces al día",
+      "como_alimento": "Hojas jóvenes frescas (antes de la floración): en ensaladas, cocidas o en jugos. Sin límite como alimento.",
+      "duracion_maxima": "4-8 semanas como medicamento. Como alimento/complemento nutricional: uso indefinido."
+    },
+    "modo_preparacion": {
+      "infusion": "Recolectar hojas jóvenes (antes de la floración) o usar hojas secas. Verter 250 mL de agua a 90°C sobre 2-3 g de hojas secas. Tapar 10 min. Colar. Tomar sin endulzar para aprovechar el efecto amargo digestivo.",
+      "decoccion_raiz": "Lavar y picar la raíz fresca (5 g) o usar 3 g de raíz seca. Hervir en 200 mL de agua 15 minutos. Colar. Tomar 2-3 veces al día.",
+      "ensalada": "Hojas muy jóvenes (menor amargor), lavadas. Mezclar con lechuga, tomate, queso. Aliñar con aceite y limón. Si el amargor es excesivo, blanquear 1 minuto en agua hirviendo.",
+      "jugo_depurativo": "Licuar 50 g de hojas frescas con 200 mL de agua, manzana verde y jengibre. Tomar en ayunas."
+    },
+    "efectos_secundarios": [
+      "Pirosis (acidez) en pacientes con gastritis o úlcera (los amargos estimulan acidez gástrica)",
+      "Reacción alérgica cutánea de contacto (dermatitis) en individuos alérgicos a Asteraceae",
+      "Diarrea leve con consumo excesivo de raíz (efecto laxante de la inulina a > 20 g/día)",
+      "Poliuria significativa si se combina con diuréticos farmacológicos"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "Toxicidad aguda extremadamente baja — GRAS (FDA). DL50 en rata > 36 g/kg de extracto acuoso.",
+      "sintomas_sobredosis": {
+        "sintomas": ["Diarrea osmótica por exceso de inulina", "Acidez y molestia gástrica", "Poliuria excesiva si se combina con diuréticos"],
+        "que_hacer": "Reducir dosis o suspender. No requiere atención de urgencia en la mayoría de los casos."
+      },
+      "nota": "Una de las plantas medicinales con mejor perfil de seguridad documentado. Clasificado como alimento por FDA y EMA."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Como ALIMENTO (ensaladas, hojas cocidas): SEGURO y nutritivo — excelente fuente de folatos, hierro y calcio. Como extracto medicinal concentrado: usar con moderación (poca evidencia de seguridad formal).",
+      "lactancia": "Uso alimentario: SEGURO. No hay datos de riesgo documentado en dosis culinarias. En altas dosis de extracto: precaución por alto contenido de vitamina K en la leche.",
+      "nivel_seguridad": "GRAS (FDA). EMA/HMPC uso tradicional aprobado. Comisión E 1994. Categoría nutricional considerada segura."
+    },
+    "nivel_evidencia": "Moderado. Comisión E aprobada 1994. EMA/HMPC 2009. Buena evidencia preclínica para efecto diurético potasio-preservador y hepatoprotección. Pocos ECA en humanos pero extensa documentación tradicional y fitoquímica.",
+    "referencias_cientificas": [
+      "Clare BA et al. The diuretic effect in human subjects of an extract of Taraxacum officinale. J Altern Complement Med. 2009;15(8):929-34. PMID 21533179",
+      "You Y et al. In vitro and in vivo hepatoprotective effects of Taraxacum officinale leaf. Food Chem Toxicol. 2010;48(6):1632-7. PMID 21782128",
+      "Escudero NL et al. Taraxacum officinale as a food source. Plant Foods Hum Nutr. 2003;58(3):1-10",
+      "EMA/HMPC/136004/2006 — Assessment report on Taraxacum officinale (2009)",
+      "Comisión E Alemana — Taraxaci folium/radix cum herba, aprobada para dispepsia y diurético (1994)"
+    ],
+    "curiosidades": [
+      "El diente de León es el único diurético vegetal que preserva el potasio — todos los diuréticos de asa (furosemida) causan hipokalemia, el diente de León no",
+      "Sus hojas contienen más vitamina A que la zanahoria (12.000 UI/100g vs 10.000 UI/100g) y más calcio que la leche por 100g en peso seco",
+      "En Chile, el 'amargón' crece abundantemente en casi todas las plazas y jardines — una farmacia gratuita disponible al alcance de todos",
+      "La raíz de diente de León tostada y molida se usó como sustituto del café sin cafeína en Europa durante la Segunda Guerra Mundial"
+    ]
+  }
+]
