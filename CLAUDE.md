@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-Aplicación web estática (PWA) de referencia herbolaria chilena: **85 plantas medicinales** y **1.058 recetas tradicionales** de la cultura mapuche, chilota y popular chilena.  
+Aplicación web estática (PWA) de referencia herbolaria chilena: **106 plantas medicinales** y **1.294+ recetas tradicionales** de la cultura mapuche, chilota y popular chilena.  
 Sin framework, sin build step. HTML + CSS + JS vanilla + Python HTTP server (puerto 8787).
 
 ---
@@ -11,20 +11,38 @@ Sin framework, sin build step. HTML + CSS + JS vanilla + Python HTTP server (pue
 
 ```
 proyecto/
-├── index.html          ← Toda la estructura HTML. Una sola página (SPA con tabs).
-├── styles.css          ← ~4.200 líneas. Sistema de diseño completo.
-├── script.js           ← ~2.800 líneas. Toda la lógica JS.
-├── illustrations.js    ← SVG artwork para cards de recetas (no tocar sin motivo).
-├── sw.js               ← Service Worker (PWA, caché network-first para archivos locales).
-├── manifest.json       ← Configuración PWA.
+├── index.html              ← Toda la estructura HTML. Una sola página (SPA con tabs).
+├── styles.css              ← Sistema de diseño completo.
+├── script.js               ← Toda la lógica JS.
+├── illustrations.js        ← SVG artwork para cards de recetas (no tocar sin motivo).
+├── sw.js                   ← Service Worker (PWA, caché network-first para archivos locales).
+├── manifest.json           ← Configuración PWA.
 ├── data/
-│   ├── plantas.json    ← Array de 85 objetos planta.
-│   └── recetas.json    ← Array de 1058 objetos receta.
-├── img/                ← Imágenes locales de plantas (JPG/WEBP).
-├── agregar_plantas.py  ← Script CLI para añadir plantas.
-├── agregar_recetas.py  ← Script CLI para añadir recetas.
+│   ├── plantas.json        ← Array de 106 objetos planta.
+│   ├── recetas.json        ← Array de 1.294+ objetos receta (fuente canónica).
+│   └── modulos/            ← Archivos de submódulo para navegación por tarjetas.
+│       ├── nervioso.json   ← Recetas del módulo (búsqueda global).
+│       ├── nervioso/       ← Submódulos con archivo propio cada uno.
+│       │   ├── estres_ansiedad/recetas.json
+│       │   ├── insomnio/recetas.json
+│       │   ├── memoria_concentracion/recetas.json
+│       │   └── animo_depresion/recetas.json
+│       ├── digestivo.json
+│       ├── digestivo/      ← (igual estructura: 9 submódulos)
+│       └── ...             ← (respiratorio, piel, mujer, cardiovascular, dolores,
+│                               pediatrico, general, mapuche — 53 submódulos en total)
+├── data/MODULOS NUEVOS/    ← Carpeta con archivos .txt de recetas nuevas organizadas
+│   ├── Nervioso/           ← por módulo y submódulo (fuente para crear_submodulos.py).
+│   ├── Módulo Mujer/
+│   ├── Respiratorio/
+│   ├── Digestivo/
+│   ├── Sección Maternal/
+│   └── SIN CLASIFICAR AUN/ ← Aquí van recetas nuevas antes de asignar módulo/submódulo.
+├── img/                    ← Imágenes locales de plantas (JPG/WEBP).
+├── crear_submodulos.py     ← Regenera todos los archivos data/modulos/{m}/{s}/recetas.json.
+├── enriquecer_recetas.py   ← CLI para añadir campos enciclopédicos a recetas.
 └── .claude/
-    └── launch.json     ← Servidor de preview (python -m http.server 8787).
+    └── launch.json         ← Servidor de preview (python -m http.server 8787).
 ```
 
 ---
@@ -52,6 +70,26 @@ La sección "Cómo agregar más contenido" fue eliminada intencionalmente. No vo
 
 ### 6. Toda la información es para el usuario final
 Antes de agregar cualquier sección o dato, preguntarse: **¿Le sirve esto a alguien que busca remedios naturales?** Si la respuesta es no, no va.
+
+### 7. TODA receta nueva DEBE incluir `modulo` y `submodulo` — OBLIGATORIO
+El sistema de navegación por tarjetas del recetario se basa en los campos `modulo` y `submodulo`. **Toda receta que se integre al proyecto —ya sea via script Python, archivo .txt o edición directa— DEBE especificar estos dos campos** usando exactamente los valores de las tablas de abajo. Sin estos campos, la receta no aparecerá en las tarjetas de navegación.
+
+Al crear una receta nueva en archivo .txt, incluir siempre:
+```
+MODULO: Nervioso
+SUBMODULO: Insomnio
+```
+
+Al agregar directamente a `data/recetas.json` o a un submódulo, incluir siempre:
+```json
+"modulo": "nervioso",
+"submodulo": "insomnio"
+```
+
+Después de agregar recetas nuevas, ejecutar `crear_submodulos.py` para regenerar los archivos de submódulo.
+
+### 8. No borrar archivos de datos sin verificar
+Antes de eliminar cualquier `.json` de `data/modulos/` o `data/`, confirmar que no es la única fuente de recetas en uso. Los archivos planos (`nervioso.json`, etc.) son necesarios para la búsqueda global (MODULO_MAP). Los archivos de submódulo (`nervioso/insomnio/recetas.json`) son necesarios para las tarjetas de navegación (SUBMODULOS).
 
 ---
 
@@ -182,6 +220,8 @@ Este orden está fijado en el HTML. No cambiar sin actualizar `cambiarTab()` y e
   "id": 1,
   "titulo": "Infusión digestiva de boldo",
   "categoria": "Digestivo",
+  "modulo": "digestivo",
+  "submodulo": "higado_vesicula",
   "origen": "Tradición chilena",
   "ingredientes": "2 hojas de boldo, 1 taza de agua caliente",
   "preparacion": "Hervir el agua, agregar las hojas...",
@@ -197,7 +237,26 @@ Este orden está fijado en el HTML. No cambiar sin actualizar `cambiarTab()` y e
 }
 ```
 
+**Campos obligatorios**: `id`, `titulo`, `categoria`, **`modulo`**, **`submodulo`**, `ingredientes`, `preparacion`
+
 **Categorías válidas** (37 en total): Alergia, Alimenticio, Analgésico, Antifúngico, Antiinflamatorio, Antiparasitario, Baño, Cabello, Cardiovascular, Cicatrizante, Cosmético, Dental, Dermatológico, Diarrea, Digestivo, Diurético, Energizante, Espiritual, Expectorante, Febrífugo, Garganta, General, Ginecológico, Hepático, Medicina Mapuche, Memoria, Nervioso, Nutritivo, Oftalmológico, Oídos, Pediátrico, Renal, Resfriados, Respiratorio, Reumatismo, Sedante, Tos
+
+### Tabla de módulos y submódulos válidos
+
+| `modulo`        | `submodulo` válidos |
+|-----------------|---------------------|
+| `digestivo`     | `gastritis_acidez` · `estrenimiento` · `diarrea` · `colicos_gases` · `higado_vesicula` · `parasitos` · `nauseas_indigestion` · `digestion_lenta` · `nutricion` |
+| `respiratorio`  | `gripe_resfrios` · `tos` · `bronquitis_expectorante` · `congestion_sinusitis` · `garganta_faringitis` · `fiebre` · `respiratorio_general` |
+| `nervioso`      | `estres_ansiedad` · `animo_depresion` · `insomnio` · `memoria_concentracion` |
+| `piel`          | `heridas_cicatrices` · `hongos_infecciones` · `problemas_piel` · `cosmetica_piel` · `cabello` · `banos_terapeuticos` |
+| `mujer`         | `menstruacion_spm` · `menopausia` · `postparto_lactancia` · `salud_ginecologica` |
+| `cardiovascular`| `colesterol` · `presion_arterial` · `circulacion_varices` · `palpitaciones_corazon` · `sangre_antioxidantes` · `rinones` · `diuretico` |
+| `dolores`       | `reumatismo_artritis` · `dolor_cabeza_migrana` · `dolor_muscular_lumbago` · `dolor_cronico_general` · `antiinflamatorio` · `salud_bucal` |
+| `pediatrico`    | `colicos_digestion` · `fiebre_resfriado` · `piel_cuidado` · `nervioso_sueno` |
+| `general`       | `energizante_vitalidad` · `alergia` · `ojos_oidos` · `bienestar_general` |
+| `mapuche`       | `medicina_mapuche` · `espiritual_ritual` |
+
+Después de agregar recetas con módulo/submódulo, ejecutar `crear_submodulos.py` para actualizar los archivos de tarjetas de navegación.
 
 ---
 
