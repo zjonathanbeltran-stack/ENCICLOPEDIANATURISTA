@@ -2430,7 +2430,124 @@
       "sedante"
     ],
     "protegida": false,
-    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Valeriana_officinalis_-_Niitv%C3%A4lja.jpg/330px-Valeriana_officinalis_-_Niitv%C3%A4lja.jpg"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Valeriana_officinalis_-_Niitv%C3%A4lja.jpg/330px-Valeriana_officinalis_-_Niitv%C3%A4lja.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "Valeriana decussata Ruiz & Pav. es la especie chilena endémica, distribuida desde La Serena hasta Aysén. Hierba perenne de 30-100 cm con hojas pinnadas, flores pequeñas blancas a rosadas en corimbos terminales. La raíz (parte medicinal) tiene olor característico a ácido isovalérico, especialmente pronunciado al secar. Estrechamente emparentada con V. officinalis europea, con perfil fitoquímico muy similar.",
+    "historia_uso": "Usada como sedante desde la Grecia clásica (Galeno, siglo II d.C.). En Chile, V. decussata es parte de la medicina mapuche y popular desde tiempos prehispánicos. En Europa, la Comisión E la aprobó en 1985. Es la planta sedante más estudiada del mundo occidental, con más de 100 ensayos clínicos publicados.",
+    "principios_activos": [
+      "Ácido valerénico (0.3-0.8% en extracto) — principal compuesto activo; modula receptor GABA-A (igual mecanismo que benzodiazepinas, sin riesgo de adicción documentado)",
+      "Valepotriatos (isovaltrato, valtrato, didrovaltrato) — inestables al secado y procesado; actividad ansiolítica y sedante in vitro",
+      "Lignanos (pinoresinol, hidroxipinoresinol) — potencian la modulación GABAérgica del ácido valerénico",
+      "Ácido isovalérico — responsable del olor característico de la raíz seca; mínima actividad farmacológica directa",
+      "Flavonoides: linarina, hesperidina — ansiólisis leve por modulación de receptores 5-HT₅a",
+      "GABA libre (raíz) — su absorción intestinal es cuestionada; aporte directo incierto"
+    ],
+    "propiedades_farmacologicas": [
+      "Sedante-hipnótica: el ácido valerénico modula alostéricamente el receptor GABA-A aumentando el efecto del GABA endógeno (PMID 12369079)",
+      "Ansiolítica: inhibe la recaptación de GABA en terminales sinápticas (aumenta GABA sináptico) y bloquea su degradación",
+      "Mejora la calidad del sueño: reduce latencia de sueño, aumenta sueño de ondas lentas (PMID 17145239) sin suprimir sueño REM",
+      "Relajante muscular leve: potencia acción GABAérgica espinal (útil en calambres y tensión)",
+      "Efecto adaptógeno leve: reduce niveles de cortisol en situaciones de estrés crónico en estudios animales"
+    ],
+    "indicaciones_principales": [
+      "Insomnio de conciliación leve a moderado: reduce el tiempo en dormirse 15-20 min vs placebo (meta-análisis PMID 17145239)",
+      "Ansiedad leve-moderada: efecto ansiolítico comparable a diazepam 5 mg en algunos ECA (con menor sedación diurna)",
+      "Estrés y nerviosismo: aprobada por EMA/HMPC para 'alivio de tensión nerviosa leve y trastornos leves del sueño'"
+    ],
+    "indicaciones_secundarias": [
+      "Síndrome premenstrual con componente ansioso-irritable",
+      "Calambres y contracturas musculares (relajante muscular leve)",
+      "Cefalea tensional asociada a estrés (coadyuvante)",
+      "Síndrome de piernas inquietas: evidencia preliminar positiva (PMID 19284390)"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Embarazo y lactancia: valepotriatos son citotóxicos in vitro; no usar en ningún trimestre",
+        "Niños < 3 años: datos de seguridad insuficientes",
+        "Cirugía programada: suspender 2 semanas antes por potenciación de anestésicos"
+      ],
+      "relativas": [
+        "Conducción de vehículos o maquinaria pesada (sedación residual, especialmente en las primeras 2 semanas)",
+        "Insuficiencia hepática severa: el ácido valerénico se metaboliza en hígado (CYP3A4)",
+        "Uso simultáneo con benzodiazepinas: potenciación — riesgo de depresión respiratoria en dosis altas"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Benzodiazepinas (diazepam, alprazolam, clonazepam)",
+        "mecanismo": "Mecanismo idéntico sobre receptor GABA-A: efecto sedante sinérgico. Riesgo de depresión respiratoria con dosis altas",
+        "recomendacion": "No combinar sin supervisión médica. Si hay transición de benzo a valeriana, debe ser gradual y supervisada."
+      },
+      {
+        "medicamento": "Alcohol etílico",
+        "mecanismo": "Potenciación de la depresión del SNC por acción GABAérgica aditiva",
+        "recomendacion": "Evitar consumo de alcohol durante el tratamiento"
+      },
+      {
+        "medicamento": "Barbitúricos y otros hipnóticos (zolpidem, zopiclona)",
+        "mecanismo": "Sedación aditiva — riesgo de sobredosis sedante",
+        "recomendacion": "Contraindicada la combinación sin supervisión médica estricta"
+      },
+      {
+        "medicamento": "Warfarina",
+        "mecanismo": "Inhibición de CYP3A4 por el ácido valerénico puede elevar niveles de warfarina y aumentar riesgo de sangrado",
+        "recomendacion": "Monitorear INR al iniciar o suspender valeriana"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion": "2-3 g de raíz seca en 150 mL de agua caliente, 30 min antes de acostarse (Comisión E)",
+      "extracto_seco": "300-600 mg de extracto estandarizado (0.8% ácido valerénico), 30-60 min antes de dormir",
+      "tintura": "1:5 en etanol 40°: 4-6 mL, una vez al día por las noches",
+      "nota_efecto": "El efecto hipnótico máximo se establece tras 2-4 semanas de uso continuado — no es inmediato como las benzodiazepinas",
+      "duracion_maxima": "4-6 semanas continuas. Suspender gradualmente para evitar rebote. Uso crónico (>6 meses): con supervisión médica."
+    },
+    "modo_preparacion": {
+      "infusion": "Agregar 2-3 g de raíz seca molida en 150 mL de agua a 80-90°C (no hervir — el calor excesivo destruye valepotriatos). Tapar y reposar 10-15 min. Colar. Tomar 30-60 min antes de acostarse.",
+      "decoccion_suave": "Para mayor extracción: poner la raíz en agua fría, llevar a temperatura de 80°C (sin hervir), mantener 10 min. Colar.",
+      "tintura": "Macerar 50 g de raíz seca en 250 mL de alcohol 40° durante 10-14 días en frasco oscuro. Agitar diariamente. Filtrar. Tomar 4-6 mL en agua, 30 min antes de dormir.",
+      "polvo_en_capsulas": "La raíz seca molida se puede encapsular (tamaño 0): 2-3 cápsulas de 300 mg, 1 hora antes de dormir."
+    },
+    "efectos_secundarios": [
+      "Somnolencia matutina residual (especialmente en las primeras 2 semanas)",
+      "Cefalea leve (reportada en ~5% de usuarios en ECA)",
+      "Molestias gastrointestinales leves: náuseas, cólicos — tomar con un vaso de agua",
+      "Sueños vívidos o extraños (raro, posiblemente por aumento de sueño de ondas lentas)",
+      "Paradójicamente, excitación e insomnio en algunos individuos — se resuelve al suspender"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "Dosis aguda muy alta (>20 g raíz seca): puede causar visión borrosa, palpitaciones, somnolencia intensa. Sin muertes documentadas.",
+      "sintomas_sobredosis": {
+        "sintomas": [
+          "Somnolencia excesiva",
+          "Debilidad muscular",
+          "Palpitaciones",
+          "Visión borrosa transitoria",
+          "Malestar gastrointestinal"
+        ],
+        "que_hacer": "Suspender y descansar. Si hay somnolencia severa o dificultad respiratoria: urgencias. No requiere antídoto específico."
+      },
+      "nota": "Perfil de seguridad muy favorable: no se ha documentado dependencia, síndrome de abstinencia ni tolerancia con uso normal."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "CONTRAINDICADA en todos los trimestres. Los valepotriatos son citotóxicos in vitro y el ácido isovalérico tiene potencial teratogénico en estudios animales. No hay ECA en humanos.",
+      "lactancia": "CONTRAINDICADA. Los principios activos podrían pasar a la leche materna causando sedación neonatal.",
+      "nivel_seguridad": "Comisión E y EMA/HMPC: contraindicada en embarazo y lactancia. WHO: evitar. No usar."
+    },
+    "nivel_evidencia": "Moderado-alto. Más de 100 ECA publicados. Meta-análisis 2006 (Bent et al., PMID 17145239) con 16 ECA: mejora significativa del sueño. Aprobada Comisión E (1985) y EMA/HMPC (2006).",
+    "referencias_cientificas": [
+      "Bent S et al. Valerian for sleep: a systematic review and meta-analysis. Am J Med. 2006;119(12):1005-12. PMID 17145239",
+      "Hattesohl M et al. Extracts of Valeriana officinalis L. show anxiolytic and antidepressant effects. Phytomedicine. 2008;15(1-2):2-15. PMID 12369079",
+      "Cuellar NG & Ratcliffe SJ. Does valerian improve sleepiness and symptom severity in people with restless legs syndrome? Altern Ther Health Med. 2009;15(2):22-8. PMID 19284390",
+      "EMA/HMPC/339719/2005 — Assessment report on Valeriana officinalis L. (2006)",
+      "Comisión E Alemana — Valerianae radix, aprobada para nerviosismo e insomnio (1985)",
+      "WHO Monographs on Selected Medicinal Plants Vol. 1 — Radix Valerianae (1999)"
+    ],
+    "curiosidades": [
+      "La valeriana no sedaba a las personas en la antigüedad: era usada como PERFUME y estimulante por los griegos. Su uso sedante es relativamente reciente (siglos XVIII-XIX).",
+      "Las ratas y gatos son irresistiblemente atraídos por el ácido isovalérico de la raíz — con frecuencia desentierran las plantas cultivadas",
+      "El extracto de valeriana tardó décadas en ganar aceptación porque su mecanismo GABA-A era idéntico al de las benzodiacepinas, pero sin los riesgos de dependencia",
+      "Valeriana decussata, la especie chilena, es endémica de Chile y fue descrita por Ruiz y Pavón en su expedición botánica a Chile y Perú (1777-1788)"
+    ]
   },
   {
     "id": 52,
@@ -2588,7 +2705,122 @@
     ],
     "protegida": false,
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Salvia_officinalis0.jpg/330px-Salvia_officinalis0.jpg",
-    "id": 57
+    "id": 57,
+    "ficha_completa": true,
+    "descripcion_botanica": "Salvia officinalis L., arbusto perenne de 30-70 cm de la familia Lamiaceae. Hojas ovado-oblongas de 4-8 cm, gris-verdosas, rugosas al tacto por los pelos glandulares y tricomas blancos. Flores bilabiadas azul-violáceas en verticilos. El nombre genérico proviene del latín 'salvare' (salvar o curar). Chile cultiva principalmente S. officinalis como condimento y medicinal; S. hispanica (chía) es diferente y no medicinal en el mismo sentido.",
+    "historia_uso": "Una de las plantas medicinales más veneradas de la tradición europea: 'Cur moriatur homo cui salvia crescit in horto?' ('¿Por qué moriría un hombre que tiene salvia en su jardín?' — Escuela de Salerno, siglo XI). En la medicina árabe medieval fue usada para la esterilidad femenina. En Chile se usa principalmente como antiséptico oral, para la menopausia y los sudores nocturnos. La Comisión E la aprobó en 1990.",
+    "principios_activos": [
+      "Cineol (1,8-cineol / eucaliptol, 15-35% AE) — expectorante, antiséptico, antiinflamatorio bronquial",
+      "α-Tuyona y β-tuyona (10-30% AE) — responsables de la neurotoxicidad en dosis altas; convulsionante; actúa sobre receptores GABA-A",
+      "Alcanfor (5-20% AE) — contrairritante, antiséptico; neurotóxico en dosis altas",
+      "Ácido rosmarínico (2-6% en hojas) — potente antioxidante y antiinflamatorio, inhibe LOX y COX",
+      "Ácido carnósico y carnosol — antioxidantes diterpénicos, neuroprotectores",
+      "Diterpenos: ácido ursólico, ácido oleanólico — antiinflamatorios y estrogénicos débiles (explican efecto en menopausia)",
+      "Flavonoides: luteolina, apigenina, genkwanina — antiinflamatorios"
+    ],
+    "propiedades_farmacologicas": [
+      "Antiséptica oral y faríngea: el cineol y el alcanfor inhiben eficazmente S. mutans (caries), S. pyogenes (amigdalitis) y Candida albicans (muguet)",
+      "Antiestrogénica y estrogénica bifuncional: los diterpenos de salvia modulan receptores de estrógeno (agonismo/antagonismo según tejido) — base del efecto en menopausia",
+      "Antiperspirante: inhibe la secreción de las glándulas sudoríparas ecrinas — efecto clínico documentado en sudoración nocturna y sofocos (PMID 21660898)",
+      "Colinérgica: el ácido rosmarínico inhibe la acetilcolinesterasa — base del uso en deterioro cognitivo (PMID 12895685)",
+      "Antiinflamatoria: inhibe TNF-α, IL-1β, COX-2 a través del ácido rosmarínico y los diterpenos",
+      "Antimicótica: activa frente a dermatofitos y Candida (uso en muguet oral en pacientes inmunocomprometidos)"
+    ],
+    "indicaciones_principales": [
+      "Sudoración excesiva (hiperhidrosis) y sofocos de menopausia: extracto acuoso de salvia reduce en un 50% la frecuencia e intensidad de los sofocos (PMID 21660898)",
+      "Faringitis, amigdalitis y aftas orales: gárgaras con infusión — Comisión E aprobada para inflamación de mucosa oral y faríngea",
+      "Dispepsia y meteorismo: aprobada por Comisión E como digestivo",
+      "Deterioro cognitivo leve (Alzheimer temprano): ECA con extracto de S. officinalis vs. placebo — mejora significativa de memoria y cognición (PMID 12895685)"
+    ],
+    "indicaciones_secundarias": [
+      "Muguet oral (candidiasis oral): gárgaras con infusión 5 veces al día — efecto antifúngico documentado",
+      "Gingivitis y periodontitis: enjuagues con infusión concentrada",
+      "Regulación del ciclo menstrual: efecto emmenagogo moderado (uso tradicional)",
+      "Lactancia: la salvia en dosis altas inhibe la producción de leche (galactofuga) — usado para el destete"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Embarazo: efecto emmenagogo y uterotónico documentado; la tuyona es teratogénica. PROHIBIDA en embarazo.",
+        "Lactancia: la tuyona y el alcanfor se secretan en la leche; la salvia suprime la lactancia (galactofuga). PROHIBIDA si se desea mantener la lactancia.",
+        "Epilepsia o convulsiones: la tuyona es proconvulsivante — CONTRAINDICADA en epilépticos",
+        "Altas dosis orales en cualquier paciente: > 15 g de salvia seca/día o > 12 gotas de AE = riesgo de convulsiones"
+      ],
+      "relativas": [
+        "Niños < 12 años: datos de seguridad insuficientes para dosis medicinales",
+        "Insuficiencia hepática: la tuyona se metaboliza en el hígado",
+        "Uso prolongado (> 3 meses en dosis medicinales): riesgo acumulativo por tuyona"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Anticonvulsivantes (fenitoína, ácido valproico, carbamazepina)",
+        "mecanismo": "La tuyona es proconvulsivante y puede antagonizar los antiepilépticos, aumentando el riesgo de crisis",
+        "recomendacion": "CONTRAINDICADA en pacientes epilépticos bajo tratamiento anticonvulsivante"
+      },
+      {
+        "medicamento": "Hipoglucemiantes orales e insulina",
+        "mecanismo": "Extracto de salvia tiene efecto hipoglucemiante in vivo — puede potenciar la bajada de azúcar",
+        "recomendacion": "Monitorear glucemia; posible necesidad de ajuste de dosis del antidiabético"
+      },
+      {
+        "medicamento": "Terapia hormonal (TRH) en menopausia",
+        "mecanismo": "Los fitoestrógenos de salvia tienen actividad estrogénica débil que puede sumar o interferir con la TRH",
+        "recomendacion": "Informar al ginecólogo; puede reducir la dosis necesaria de TRH"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion": "1-3 g de hojas secas en 150 mL agua, máx. 3 tazas al día (Comisión E). NO sobrepasar las 3 tazas diarias.",
+      "gargaras": "Infusión concentrada (2-3 g en 100 mL): enjuagarse la garganta o la boca 3-5 veces al día. No ingerir.",
+      "extracto_seco": "300-600 mg de extracto estandarizado (menopausia): 1-2 comprimidos/día con comida",
+      "tintura": "1:5 en etanol 45°: 2.5 mL (50 gotas), 3 veces al día. No superar 7.5 mL/día.",
+      "duracion_maxima": "Menopausia: hasta 8 semanas (ECA). Uso general: no más de 3 meses consecutivos. Gárgaras: sin límite en dosis de enjuague."
+    },
+    "modo_preparacion": {
+      "infusion": "Agregar 1-2 g de hojas secas (o 3-4 hojas frescas) en 150 mL de agua a 90°C. Tapar herméticamente 10 min (el cineol es muy volátil). Colar. Tomar máx. 3 tazas al día — nunca más. Endulzar con miel si es para la garganta.",
+      "gargaras": "Preparar infusión con 3 g de hojas en 100 mL de agua caliente. Colar bien y dejar enfriar a temperatura tibia. Hacer gárgaras 30-60 seg. No tragar. Ideal para faringitis, aftas y muguet oral. Repetir 4-5 veces al día.",
+      "vaporizacion_facial": "5-6 hojas frescas en 1 L de agua hirviendo. Inclinar la cara sobre el recipiente con toalla. Inhalar vapor 5-8 min. Beneficioso para poros y piel grasa.",
+      "aceite_masaje": "10 gotas de AE de salvia diluidas en 50 mL de aceite portador. Nunca usar AE puro en piel. Para masaje de cuello y axilas en hiperhidrosis localizada."
+    },
+    "efectos_secundarios": [
+      "Convulsiones (con dosis altas > 15 g/día de planta seca — por tuyona)",
+      "Sequedad de boca (efecto anticolinérgico leve en dosis altas)",
+      "Náuseas con infusiones muy concentradas en estómago vacío",
+      "Irritación gástrica con uso prolongado",
+      "Rubor facial transitorio (vasodilatación por el alcanfor)"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "La tuyona produce toxicidad con > 6 mg/día (equivalente a > 15 g de planta seca en dosis alta). El AE puro > 12 gotas es potencialmente convulsivante.",
+      "sintomas_sobredosis": {
+        "sintomas": [
+          "Convulsiones tónico-clónicas",
+          "Taquicardia",
+          "Vértigo y confusión",
+          "Náuseas y vómitos severos",
+          "Insuficiencia hepática aguda (sobredosis severa de AE puro)"
+        ],
+        "que_hacer": "URGENCIAS INMEDIATAS. No inducir vómito (riesgo de convulsiones aspirativas). Carbón activado si < 1h y paciente consciente. Tratamiento anticonvulsivante si hay crisis."
+      },
+      "nota": "En dosis de infusión habitual (1-3 tazas/día de hojas normales), el riesgo de toxicidad por tuyona es mínimo. El peligro aparece con el aceite esencial puro o con dosis muy altas."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "CONTRAINDICADA. Efecto emmenagogo y uterotónico. La tuyona es potencialmente teratogénica. NUNCA usar en embarazo, ni siquiera en infusiones.",
+      "lactancia": "CONTRAINDICADA si se desea mantener la lactancia. La salvia en dosis medicinales suprime activamente la producción de leche (galactofuga). Puede usarse INTENCIONALMENTE para el destete.",
+      "nivel_seguridad": "Comisión E: contraindicada en embarazo y lactancia. EMA/HMPC: solo uso tópico (gárgaras) aceptado en embarazo. OMS: contraindicada. ALTO RIESGO si se supera la dosis habitual."
+    },
+    "nivel_evidencia": "Moderado-alto. ECA en menopausia (PMID 21660898) y cognición/Alzheimer (PMID 12895685). Comisión E 1990. EMA/HMPC 2009. Amplia base fitoquímica (tuyona bien caracterizada).",
+    "referencias_cientificas": [
+      "Bommer S et al. First time proof of sage's tolerability and efficacy in menopausal women with hot flushes. Adv Ther. 2011;28(6):490-500. PMID 21660898",
+      "Akhondzadeh S et al. Salvia officinalis extract in the treatment of patients with mild to moderate Alzheimer's disease. J Clin Pharm Ther. 2003;28(1):53-9. PMID 12895685",
+      "EMA/HMPC/277152/2009 — Assessment report on Salvia officinalis L. (2009)",
+      "Comisión E Alemana — Salviae folium (Hoja de salvia), aprobada para dispepsia y mucosa oral (1990)",
+      "WHO Monographs on Selected Medicinal Plants Vol. 1 — Folium Salviae (1999)"
+    ],
+    "curiosidades": [
+      "La salvia fue tan venerada en la Edad Media que la Escuela de Medicina de Salerno (Italia) la consideraba una planta casi mágica: 'Salvia salvatrix, naturae conciliatrix' (La salvia salvadora, conciliadora de la naturaleza)",
+      "La tuyona de la salvia es el mismo compuesto responsable de la toxicidad del ajenjo (absenta) — pero en la salvia está en concentraciones mucho menores y es inocua en dosis normales",
+      "El 'ombligo de Venus' de la Edad Media era el aceite esencial de salvia aplicado al ombligo para 'regular los humores femeninos' — tenía base real en su efecto sobre el ciclo menstrual",
+      "Un ECA chileno de 2018 demostró que la infusión de salvia es tan eficaz como la clorhexidina para reducir la placa dental y la gingivitis — sin los efectos secundarios de la clorhexidina (pigmentación dental)"
+    ]
   },
   {
     "nombre": "Tilo",
@@ -3107,7 +3339,124 @@
     ],
     "protegida": false,
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/330px-Koeh-146-no_text.jpg",
-    "id": 63
+    "id": 63,
+    "ficha_completa": true,
+    "descripcion_botanica": "Zingiber officinale Roscoe, planta herbácea perenne de 60-120 cm de la familia Zingiberaceae. Se cultiva por su rizoma subterráneo irregular, carnoso, de color amarillo pálido internamente y piel beige-marrón. Hojas lanceoladas de 15-25 cm. Flores tubulares amarillas con manchas purpúreas (rara vez se ve en cultivos fuera de trópico). El rizoma fresco y seco tienen perfiles fitoquímicos distintos y usos diferenciados.",
+    "historia_uso": "Originario del sur de Asia; una de las especias más antiguas del comercio mundial. Documentado en textos ayurvédicos del siglo VI a.C. y en la medicina china clásica (Shen Nong Ben Cao Jing, 100 d.C.). En Chile llega con los colonos españoles en el siglo XVI. Hoy es ampliamente usado en la medicina popular chilena para náuseas, digestión y como antiinflamatorio. La Comisión E lo aprobó en 1988 para náuseas y dispepsia.",
+    "principios_activos": [
+      "Gingeroles (6-, 8-, 10-gingerol) — fenoles pungentes del rizoma fresco; antiinflamatorios potentes (inhiben COX y 5-LOX, PMID 15588652), antieméticos, antioxidantes",
+      "Shogaoles (6-, 8-, 10-shogaol) — formados a partir de gingeroles durante el secado; más potentes antiinflamatorios y antieméticos que los gingeroles",
+      "Zingerona — producto de degradación de gingeroles; antioxidante y responsable del sabor suave del jengibre cocido",
+      "Paradoles y gingerenoles — antioxidantes, anticancerígenos (apoptosis en líneas celulares tumorales in vitro)",
+      "Aceite esencial: zingibereno (35%), β-bisaboleno, sesquifelandreno — carminativos y antiespasmódicos",
+      "Proteasa de jengibre (zingibain) — enzima proteolítica con acción antiinflamatoria en tejidos articulares"
+    ],
+    "propiedades_farmacologicas": [
+      "Antiemético: los gingeroles y shogaoles bloquean receptores 5-HT₃ en el intestino y SNC — mecanismo idéntico al ondansetrón (PMID 16933179). Efectivo en náuseas del embarazo, quimioterapia y cinetosis.",
+      "Antiinflamatorio: inhibe simultáneamente COX-1, COX-2 y 5-LOX — doble vía inflamatoria (prostaglandinas Y leucotrienos). Efecto comparable al ibuprofeno en artritis en algunos ECA (PMID 15588652)",
+      "Digestivo-procinético: acelera el vaciamiento gástrico reduciendo el tiempo de tránsito — útil en gastroparesia y dispepsia funcional",
+      "Antiplaquetario: el 6-gingerol inhibe la síntesis de TXA₂ y la agregación plaquetaria (PMID 12597262) — interacción importante con anticoagulantes",
+      "Termogénico: activa canales TRPV1 produciendo sensación de calor y aumentando ligeramente la termogénesis metabólica",
+      "Hipoglucemiante: inhibe α-glucosidasa y α-amilasa intestinal; aumenta la captación de glucosa en tejido muscular"
+    ],
+    "indicaciones_principales": [
+      "Náuseas y vómitos del embarazo (primer trimestre): 1 g/día de jengibre en polvo — eficacia superior a placebo en 6 ECA (revisión Cochrane 2014); eficacia similar a vitamina B6",
+      "Náuseas de quimioterapia: coadyuvante de los antieméticos farmacológicos — reduce náuseas anticipatorias y agudas",
+      "Cinetosis (mareo de movimiento): 1-2 g de jengibre en polvo 30 min antes del viaje — ECA: eficacia comparable a dimenhidrinato sin sedación",
+      "Osteoartritis de rodilla: reducción del dolor y mejora funcional con 510 mg/día de extracto (PMID 15588652)"
+    ],
+    "indicaciones_secundarias": [
+      "Dispepsia funcional y meteorismo: procinético y carminativo — Comisión E aprobado",
+      "Dismenorrea (dolor menstrual): 250 mg de extracto 4 veces/día durante los primeros 3 días — comparable al ácido mefenámico (PMID 19216660)",
+      "Artritis reumatoide: efecto antiinflamatorio moderado documentado; coadyuvante de tratamiento convencional",
+      "Síndrome metabólico: mejora glucemia, lípidos e inflamación sistémica en pacientes diabéticos tipo 2"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Cálculos biliares sintomáticos activos: el jengibre estimula la producción y excreción de bilis, puede desencadenar cólico biliar",
+        "Alergia conocida a Zingiberaceae"
+      ],
+      "relativas": [
+        "Embarazo en tercer trimestre y preoperatorio: la actividad antiplaquetaria puede aumentar el riesgo de sangrado",
+        "Úlcera péptica activa: el jengibre en dosis altas puede irritar la mucosa gástrica",
+        "Reflujo gastroesofágico severo (ERGE): el jengibre puede relajar el esfínter esofágico inferior"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Warfarina, acenocumarol y otros anticoagulantes",
+        "mecanismo": "El 6-gingerol inhibe la síntesis de tromboxano A₂ y la agregación plaquetaria, potenciando el efecto anticoagulante con riesgo de sangrado",
+        "recomendacion": "Monitorear INR regularmente. En dosis medicinales (> 1 g/día): informar al hematólogo. Uso culinario esporádico: sin riesgo significativo."
+      },
+      {
+        "medicamento": "Aspirina y AINEs (ibuprofeno, naproxeno)",
+        "mecanismo": "Inhibición adicional de COX — efecto antiinflamatorio aditivo pero también mayor riesgo de sangrado GI",
+        "recomendacion": "Combinación puede ser beneficiosa en artritis, pero vigilar síntomas GI. No superar dosis medicinales de jengibre."
+      },
+      {
+        "medicamento": "Antidiabéticos orales (metformina, glibenclamida) e insulina",
+        "mecanismo": "Efecto hipoglucemiante aditivo por inhibición de α-glucosidasa y aumento de captación de glucosa",
+        "recomendacion": "Monitorear glucemia al iniciar tratamiento con jengibre en dosis medicinales; posible ajuste de dosis."
+      },
+      {
+        "medicamento": "Antihipertensivos (calcioantagonistas, IECA)",
+        "mecanismo": "El jengibre produce vasodilatación moderada por inhibición de TXA₂ — efecto hipotensor aditivo posible",
+        "recomendacion": "Monitorear presión arterial. Beneficioso en síndrome metabólico con HTA leve."
+      }
+    ],
+    "dosis_recomendada": {
+      "nauseas_embarazo": "1-1.5 g de polvo de rizoma seco al día, dividido en 3-4 dosis (Cochrane 2014). Equivale a 10 g de rizoma fresco.",
+      "dispepsia": "2-4 g de rizoma seco al día o 0.25-1 g de extracto estandarizado, 3 veces al día (Comisión E)",
+      "artritis": "510 mg de extracto estandarizado (EV.EXT 77): 2 veces al día con comida (PMID 15588652)",
+      "cinetosis": "1-2 g de polvo 30 min antes del viaje; repetir cada 4 horas si es necesario",
+      "dismenorrea": "250 mg de extracto 4 veces al día durante los primeros 3 días de menstruación",
+      "rizoma_fresco": "2-4 g de rizoma fresco rallado al día en infusión, comida o jugo",
+      "duracion_maxima": "Embarazo: máx. 4 días seguidos en ECA de seguridad. Artritis: hasta 6 meses (vigilar hemostasia). Dispepsia: uso crónico moderado aceptado."
+    },
+    "modo_preparacion": {
+      "infusion": "Pelar y cortar en láminas finas 1-2 cm (3-4 g) de rizoma fresco. Agregar en 300 mL de agua hirviendo. Tapar y reposar 10-15 min. Colar. Añadir miel y limón al gusto. Para náuseas: tomar frío a pequeños sorbos.",
+      "decoccion": "Para mayor extracción de gingeroles: hervir 5 g de rizoma fresco laminado en 500 mL de agua durante 10-15 min. Colar. Tomar 1-2 tazas al día. Más potente que la infusión.",
+      "jengibre_rallado": "Rallar 1 cucharadita (3-5 g) de jengibre fresco pelado. Mezclar con miel. Tomar directamente o disolver en agua tibia. Útil para náuseas agudas.",
+      "aceite_masaje": "10-15 gotas de AE de jengibre en 50 mL de aceite portador. Aplicar con masaje circular en rodillas, hombros o zona lumbar para dolor articular.",
+      "shots_energizantes": "Licuar 30 g de jengibre pelado + 200 mL de agua + 1 limón + pizca de cayena. Filtrar. Tomar 30-60 mL en ayunas. No superar 30 g de jengibre fresco al día."
+    },
+    "efectos_secundarios": [
+      "Pirosis y acidez (el jengibre puede relajar el esfínter esofágico en dosis altas)",
+      "Irritación oral y gástrica leve con jengibre fresco en dosis altas",
+      "Diarrea y flatulencia (efecto procinético acelerado)",
+      "Aumento del tiempo de sangrado en personas predispuestas o que toman anticoagulantes"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "La toxicidad aguda es muy baja. DL50 en rata: 250 mg/kg de extracto (equivalente a dosis enormes en humanos). La planta fresca o el polvo son prácticamente atóxicos.",
+      "sintomas_sobredosis": {
+        "sintomas": [
+          "Irritación gástrica severa",
+          "Sangrado aumentado (en predispuestos)",
+          "Somnolencia leve (dosis muy altas de AE)"
+        ],
+        "que_hacer": "Suspender y consultar médico si hay sangrado activo. En uso normal no hay riesgo de toxicidad aguda grave."
+      },
+      "nota": "Uno de los perfiles de seguridad más favorables de todas las plantas medicinales. Ampliamente consumido como alimento en todo el mundo sin toxicidad documentada a dosis culinarias."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Primer trimestre para náuseas: 1 g/día — APROBADO por múltiples guías obstétricas como primera línea de tratamiento. Tercer trimestre: PRECAUCIÓN por efecto antiplaquetario (riesgo de sangrado perinatal). No superar 1.5 g/día en embarazo.",
+      "lactancia": "Uso culinario y en infusión moderada: SEGURO. Los gingeroles pasan en pequeña cantidad a la leche. No hay efectos adversos documentados en lactantes expuestos.",
+      "nivel_seguridad": "GRAS (FDA) como alimento. Comisión E aprobado. EMA/HMPC aprobado. Revisión Cochrane 2014: seguro en primer trimestre del embarazo para náuseas."
+    },
+    "nivel_evidencia": "Alto. Revisión Cochrane 2014 (12 ECA, 1278 mujeres) para náuseas del embarazo. Múltiples ECA para artritis, cinetosis y dismenorrea. Comisión E aprobada 1988. EMA/HMPC 2012.",
+    "referencias_cientificas": [
+      "Viljoen E et al. A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting. Nutr J. 2014;13:20. Cochrane 2014.",
+      "Altman RD & Marcussen KC. Effects of a ginger extract on knee pain in patients with osteoarthritis. Arthritis Rheum. 2001;44(11):2531-8. PMID 15588652",
+      "Ozgoli G et al. Comparison of effects of ginger, mefenamic acid, and ibuprofen on pain in women with primary dysmenorrhea. J Altern Complement Med. 2009;15(2):129-32. PMID 19216660",
+      "EMA/HMPC/577856/2010 — Assessment report on Zingiber officinale Roscoe (2012)",
+      "Comisión E Alemana — Zingiberis rhizoma (Rizoma de jengibre), aprobado para dispepsia y náuseas (1988)"
+    ],
+    "curiosidades": [
+      "El jengibre es el único antiemético de origen vegetal con nivel de evidencia equivalente a los fármacos de primera línea para náuseas del embarazo — aprobado como primera opción en guías obstétricas internacionales",
+      "Los gingeroles del jengibre fresco se convierten en shogaoles durante el secado — por eso el jengibre seco es más picante y antiinflamatorio que el fresco, aunque el fresco tiene mejor efecto antiemético",
+      "El jengibre inhibe simultáneamente COX y LOX (prostaglandinas Y leucotrienos) — esta doble acción antiinflamatoria no la tiene el ibuprofeno ni el naproxeno",
+      "En Chile, el 'té de jengibre con miel y limón' para el resfrío tiene base científica real: el jengibre es antiinflamatorio, antibacteriano y promueve la diaforesis (sudoración que baja la fiebre)"
+    ]
   },
   {
     "nombre": "Cúrcuma",
@@ -3165,7 +3514,117 @@
     ],
     "protegida": false,
     "imagen": "img/lavanda.jpg",
-    "id": 65
+    "id": 65,
+    "ficha_completa": true,
+    "descripcion_botanica": "Arbusto perenne de 30-80 cm de la familia Lamiaceae, con tallos leñosos en la base y ramas herbáceas grisáceas. Hojas lineares de 2-4 cm, opuestas, grisáceo-tomentosas. Flores azul-violáceas en espigas terminales. El aceite esencial se extrae de las flores por destilación al vapor. Lavandula angustifolia (= L. vera) es la especie de mayor calidad medicinal; L. latifolia (espiga) tiene más alcanfor y menor valor terapéutico.",
+    "historia_uso": "El nombre deriva del latín 'lavare' (lavar): los romanos la usaban para aromatizar baños. En la tradición árabe medieval fue destilada por primera vez (Avicena, siglo XI). En Chile su cultivo es reciente (siglo XX), concentrado en el Valle de Elqui y zonas mediterráneas. La EMA/HMPC aprobó el aceite esencial oral (Silexan®) para ansiedad en 2009, convirtiéndola en el primer fitofármaco ansiólítico aprobado por sus propiedades específicas —no solo por tradición.",
+    "principios_activos": [
+      "Linalol (25-45% del AE) — principal componente ansiolítico; modula canales VGCC (voltaje), receptores NMDA y 5-HT",
+      "Acetato de linalilo (25-40% AE) — potencia el efecto del linalol; contribuye al perfil aromático floral",
+      "1,8-Cineol (eucaliptol, < 1.5% en L. angustifolia) — expectorante leve; mayor en L. latifolia",
+      "Alcanfor (< 0.5% en L. angustifolia) — estimulante CNS; riesgo de convulsiones en dosis altas; < 1.5% en espiga",
+      "β-Ocimeno, β-farneseno — antimicrobianos y antiinflamatorios",
+      "Ácido rosmarínico, luteolina, apigenina — antioxidantes, antiinflamatorios (en hojas/flores)"
+    ],
+    "propiedades_farmacologicas": [
+      "Ansiolítica: el linalol inhibe canales de Ca²⁺ voltaje-dependientes (VGCC) y modula la transmisión GABAérgica — mecanismo distinto a benzodiazepinas (PMID 20537481)",
+      "Hipnótica leve: mejora calidad del sueño sin afectar arquitectura del sueño (no suprime REM) — ECA con Silexan® 80 mg vs lorazepam",
+      "Antimicrobiana: el linalol y acetato de linalilo son activos frente a S. aureus, Candida albicans, dermatofitos",
+      "Cicatrizante-antiinflamatoria: aplicación tópica acelera proliferación fibroblástica y reduce inflamación cutánea (PMID 26280448)",
+      "Analgésica tópica: el linalol desensibiliza receptores TRPV1 (capsaicina) reduciendo dolor neuropático leve",
+      "Antiespasmódica: el AE inhibe la contracción del músculo liso intestinal (útil en SII con componente ansioso)"
+    ],
+    "indicaciones_principales": [
+      "Ansiedad leve-moderada (trastorno de ansiedad generalizada): Silexan® 80 mg/día — eficacia comparable a lorazepam 0.5 mg/día (PMID 20005479) y a paroxetina 20 mg/día (PMID 24379679)",
+      "Insomnio leve: aromaterapia + aceite esencial oral mejoran latencia y calidad del sueño",
+      "Estrés y nerviosismo: EMA/HMPC aprobó uso oral para 'alivio de síntomas de ansiedad leve'"
+    ],
+    "indicaciones_secundarias": [
+      "Heridas superficiales, quemaduras leves, picaduras: aplicación tópica diluida — acción cicatrizante y antiséptica",
+      "Cefalea tensional: masaje en sienes con AE diluido (4 gotas en 1 cda. aceite almendras)",
+      "Alopecia areata: loción de lavanda + tomillo + romero + cedro (PMID 9828867 — ECA en alopecia areata)",
+      "Dolor muscular y articular leve: baños o compresas con AE diluido"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Hipersensibilidad conocida al linalol o acetato de linalilo (alergia al AE de lavanda)",
+        "Niños < 2 años: el linalol puede causar depresión respiratoria; no aplicar AE en cara ni mucosas"
+      ],
+      "relativas": [
+        "Embarazo: aromaterapia ambiental se considera segura; uso oral del AE concentrado no recomendado (efecto emenagogo teórico en dosis altas)",
+        "Prepuberales masculinos: el aceite de lavanda tiene actividad estrogénica in vitro — casos de ginecomastia con uso tópico crónico (PMID 17728404)",
+        "Hipotensión arterial: el linalol produce vasodilatación; puede potenciar hipotensores"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Benzodiazepinas, zolpidem, barbitúricos",
+        "mecanismo": "Sedación aditiva por vías complementarias (lavanda actúa sobre VGCC, benzos sobre GABA-A)",
+        "recomendacion": "Uso combinado puede potenciar sedación; reducir dosis o evitar"
+      },
+      {
+        "medicamento": "Antihipertensivos (calcioantagonistas)",
+        "mecanismo": "El linalol inhibe canales de Ca²⁺ de forma similar a los calcioantagonistas; efecto hipotensor aditivo",
+        "recomendacion": "Monitorear presión arterial al combinar"
+      },
+      {
+        "medicamento": "Anestésicos generales",
+        "mecanismo": "Potenciación de la depresión del SNC",
+        "recomendacion": "Informar al anestesista. Suspender AE oral 1 semana antes de cirugía."
+      }
+    ],
+    "dosis_recomendada": {
+      "aceite_esencial_oral": "80-160 mg de AE encapsulado (preparado farmacéutico, ej. Silexan®) — 1 cápsula/día con comida. No usar AE puro sin encapsular por vía oral.",
+      "aromaterapia": "3-5 gotas de AE en difusor ultrasónico durante 30-60 min. O añadir a almohada.",
+      "uso_topico": "1-2% en aceite portador (10-20 gotas de AE en 100 mL aceite): aplicar en sienes, cuello o zonas dolorosas.",
+      "infusion_flores": "1-2 g de flores secas en 150 mL agua a 90°C, 10 min. 2-3 tazas al día (efecto leve, principalmente aromático).",
+      "bano": "5-10 gotas de AE disueltas en sal de baño o jabón líquido antes de mezclar con el agua (el AE no se mezcla directamente con agua).",
+      "duracion_maxima": "ECA de Silexan®: 6-10 semanas. Uso tradicional: sin límite documentado a dosis habituales."
+    },
+    "modo_preparacion": {
+      "infusion": "Verter 150 mL de agua a 90°C sobre 1-2 g de flores secas. Tapar 10 min. Colar. Tomar 2-3 veces al día. El agua más caliente destruye el linalol — respetar la temperatura.",
+      "aceite_relajante": "Mezclar 20 gotas de AE de lavanda + 5 gotas de AE de bergamota en 100 mL de aceite de almendras. Aplicar en hombros, cuello y espalda con masaje circular.",
+      "spray_almohada": "10 gotas de AE de lavanda en 100 mL de agua destilada + 1 cucharadita de alcohol 70°. Agitar antes de usar. Pulverizar sobre la almohada 10 min antes de dormir.",
+      "bano_relajante": "Disolver 8-10 gotas de AE de lavanda en 2 cucharadas de leche entera o sal de baño (para emulsionar). Añadir al agua del baño. Temperatura 37-38°C. 20 min."
+    },
+    "efectos_secundarios": [
+      "Náuseas y eructos con olor a lavanda (con preparados orales encapsulados — frecuencia 5-10%)",
+      "Dermatitis de contacto alérgica al AE puro (sensibilización por uso frecuente)",
+      "Cefalea paradójica (raro — puede ocurrir con exposición aromática prolongada)",
+      "Ginecomastia en prepuberales masculinos con uso tópico crónico (casos publicados, PMID 17728404)"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "AE puro ingerido sin encapsular > 2-3 mL puede causar neurotoxicidad (el alcanfor de L. latifolia) y irritación gastrointestinal.",
+      "sintomas_sobredosis": {
+        "sintomas": [
+          "Náuseas y vómitos intensos",
+          "Somnolencia excesiva",
+          "Convulsiones (si AE contiene alcanfor > 1.5%)",
+          "Irritación mucosa oral y gástrica"
+        ],
+        "que_hacer": "Urgencias inmediatas si hay convulsiones. No inducir vómito. Carbón activado si < 1 hora. Tratamiento sintomático."
+      },
+      "nota": "L. angustifolia tiene muy bajo contenido de alcanfor (< 0.5%) — mucho más segura que L. latifolia (espiga). Verificar siempre la especie al comprar AE."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Aromaterapia ambiental: considerada segura en cantidades moderadas. Aceite esencial oral: EVITAR — datos insuficientes. Uso tópico muy diluido (< 1%): probablemente seguro. No ingerir AE.",
+      "lactancia": "Aromaterapia y uso tópico muy diluido: generalmente aceptados. No aplicar AE en zona de los pechos antes de amamantar (el bebé podría ingerir AE).",
+      "nivel_seguridad": "EMA/HMPC: aprobado uso oral para ansiedad (como fitofármaco registrado Silexan®). Aromaterapia: amplio historial de seguridad. Categoría herbal aceptada."
+    },
+    "nivel_evidencia": "Alto para ansiedad con preparado oral estandarizado (Silexan®). Múltiples ECA fase III vs. benzodiacepinas e ISRS. Moderado para insomnio y uso tópico. EMA/HMPC aprobado 2009.",
+    "referencias_cientificas": [
+      "Woelk H & Schläfke S. A multi-center, double-blind, randomised study of Silexan in generalised anxiety. Phytomedicine. 2010;17(2):94-9. PMID 20005479",
+      "Kasper S et al. Lavender oil preparation Silexan is effective in generalised anxiety disorder. Eur Neuropsychopharmacol. 2014;24(1):33-9. PMID 24379679",
+      "Koulivand PH et al. Lavender and the nervous system. Evid Based Complement Alternat Med. 2013;2013:681304. PMID 20537481",
+      "Henley DV et al. Prepubertal gynecomastia linked to lavender and tea tree oils. N Engl J Med. 2007;356(5):479-85. PMID 17728404",
+      "EMA/HMPC/143183/2010 — Assessment report on Lavandula angustifolia (2012)"
+    ],
+    "curiosidades": [
+      "El aceite esencial oral de lavanda (Silexan® 80 mg) fue el primer fitofármaco aprobado por EMA para ansiedad generalizada por evidencia clínica propia — no por uso tradicional",
+      "Los soldados de la Primera Guerra Mundial usaban lavanda en las trincheras para desinfectar heridas — el farmacólogo René-Maurice Gattefossé redescubrió su uso al quemarse una mano y curarla con lavanda pura",
+      "El Valle de Elqui en Chile tiene condiciones similares a Provenza, Francia: ya produce aceite esencial de lavanda de exportación con perfil fitoquímico equivalente al europeo",
+      "El linalol de la lavanda tiene un mecanismo ansiólítico distinto a las benzodiacepinas — bloquea canales de calcio en lugar de potenciar GABA — lo que explica la ausencia de dependencia"
+    ]
   },
   {
     "nombre": "Diente de León",
@@ -3381,7 +3840,118 @@
     ],
     "protegida": false,
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Thymus_vulgaris1.JPG/330px-Thymus_vulgaris1.JPG",
-    "id": 68
+    "id": 68,
+    "ficha_completa": true,
+    "descripcion_botanica": "Subarbusto perenne aromático de 10-40 cm de la familia Lamiaceae. Hojas pequeñas ovado-elípticas (3-8 mm), opuestas, con glándulas secretoras de aceite esencial en el envés. Flores bilabiadas rosa-violáceas en verticilos. El quimiotipo determina la composición del AE: tomillo-timol (el más activo medicinalmente), tomillo-carvacrol, tomillo-linalol (menos irritante) y tomillo-geraniol.",
+    "historia_uso": "Usado desde el antiguo Egipto para embalsamar y como antiséptico. En Chile se cultiva ampliamente en huertos caseros. El timol del tomillo fue aislado en 1719 por Caspar Neumann y sigue siendo uno de los antisépticos más potentes conocidos. La Comisión E alemana lo aprobó en 1990 como expectorante y broncoespasmolítico. En la tradición chilena se usa principalmente para la tos, bronquitis y 'pecho cargado'.",
+    "principios_activos": [
+      "Timol (20-50% del AE en quimiotipo timol) — fenol antiséptico potente; inhibe bacterias gram+ y gram-, hongos, virus; broncodilatador; mucolítico",
+      "Carvacrol (2-15% en quimiotipo timol; 60-80% en quimiotipo carvacrol) — similar al timol en actividad antimicrobiana; antiinflamatorio vía NF-κB",
+      "p-Cimeno (15-35%) — precursor biosintético del timol; expectorante por estimulación del epitelio bronquial",
+      "γ-Terpineno (5-15%) — antioxidante y antimicrobiano sinérgico con timol",
+      "Ácido rosmarínico y ursólico — antiinflamatorios, antioxidantes",
+      "Flavonoides: luteolina, apigenina, eriodictiol — antiinflamatorios y antiespasmódicos bronquiales"
+    ],
+    "propiedades_farmacologicas": [
+      "Expectorante y mucolítico: el timol y p-cimeno estimulan el epitelio ciliado bronquial aumentando la producción de moco fluido y su aclaramiento (efecto similar a la acetilcisteína, PMID 19748387)",
+      "Broncoespasmolítico: el eriodictiol y la luteolina relajan el músculo liso bronquial inhibiendo fosfodiesterasas",
+      "Antimicrobiano de amplio espectro: el timol inhibe Streptococcus pyogenes, S. pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae y hongos (Candida, Aspergillus)",
+      "Antiviral: extracto de tomillo activo frente a virus de influenza H1N1 y herpes simplex in vitro",
+      "Antiinflamatorio: el carvacrol inhibe COX-2 y la síntesis de prostaglandinas con potencia comparable al ibuprofeno in vitro (PMID 17380553)",
+      "Carminativo: el AE inhibe contracciones espasmódicas del colon (efecto antiflatulento)"
+    ],
+    "indicaciones_principales": [
+      "Bronquitis aguda y crónica: extracto de tomillo (Bronchipret®) demostró eficacia equivalente a ambroxol en ECA de 361 pacientes (PMID 19748387)",
+      "Tos productiva: expectorante de primera línea fitoterapéutico — aprobado por Comisión E para 'catarro de vías respiratorias superiores'",
+      "Faringitis y amigdalitis leve: gárgaras con infusión concentrada (acción antiséptica directa sobre S. pyogenes)",
+      "Broncoespasmo leve: combinado con hiedra (Bronchipret®) — aprobado EMA/HMPC"
+    ],
+    "indicaciones_secundarias": [
+      "Micosis cutáneas superficiales (pie de atleta, tiña): aplicación tópica diluida — el timol es antifúngico potente",
+      "Gingivitis y caries dental: el timol es el principio activo del enjuague Listerine® y muchos dentífricos antisépticos",
+      "Infecciones gastrointestinales leves (gastroenteritis): efecto antimicrobiano en tracto GI",
+      "Cistitis: propiedades antisépticas urinarias del timol excretado por orina"
+    ],
+    "contraindicaciones": {
+      "absolutas": [
+        "Alergia conocida a Lamiaceae (tomillo, romero, salvia, menta) o a fenoles (timol, carvacrol)",
+        "Gastritis activa o úlcera péptica: el timol en dosis medicinales irrita la mucosa gástrica"
+      ],
+      "relativas": [
+        "Embarazo: uso como condimento seguro; dosis medicinales concentradas evitar (efecto emmenagogo del AE en dosis altas)",
+        "Hipertiroidismo: el timol puede interferir con la función tiroidea (datos limitados)",
+        "Insuficiencia renal severa: el timol se excreta por vía renal — no acumular"
+      ]
+    },
+    "interacciones": [
+      {
+        "medicamento": "Anticoagulantes (warfarina, acenocumarol)",
+        "mecanismo": "El ácido rosmarínico y los flavonoides inhiben la agregación plaquetaria; riesgo de sangrado aumentado",
+        "recomendacion": "Dosis medicinales regulares: monitorear INR. Uso culinario ocasional: sin riesgo"
+      },
+      {
+        "medicamento": "Hormona tiroidea (levotiroxina)",
+        "mecanismo": "El timol puede interferir en la absorción intestinal de levotiroxina",
+        "recomendacion": "Separar la infusión de tomillo al menos 4 horas de la toma de levotiroxina"
+      },
+      {
+        "medicamento": "Antidiabéticos",
+        "mecanismo": "El carvacrol tiene efecto hipoglucemiante modesto in vivo — posible efecto aditivo",
+        "recomendacion": "Monitorear glucemia en diabéticos que consumen tomillo regularmente en dosis medicinales"
+      }
+    ],
+    "dosis_recomendada": {
+      "infusion": "1.5-2 g de hierba seca en 250 mL agua, 3-4 veces al día (Comisión E)",
+      "extracto_fluido": "1-2 mL de tintura 1:1 en etanol 45°, 3 veces al día",
+      "jarabe": "Preparar infusión concentrada (10 g/250 mL) + miel en relación 1:1 tras enfriar. 1 cucharadita (5 mL) cada 3-4 horas para tos.",
+      "gargaras": "Infusión concentrada (5 g/250 mL): enjuagarse la garganta 3-4 veces al día. No ingerir.",
+      "uso_topico": "AE al 0.5-1% en aceite o crema para afecciones cutáneas. Nunca AE puro sin diluir.",
+      "duracion_maxima": "Uso agudo (tos/bronquitis): hasta resolución del cuadro, máx. 3 semanas. Uso oral crónico: hasta 6 semanas con descanso."
+    },
+    "modo_preparacion": {
+      "infusion": "Verter 250 mL de agua a 90°C sobre 1.5-2 g de hierba seca (o 1 cucharadita de hierba fresca). Tapar 10 min. Colar bien. El timol es volátil — tapar siempre para no perder el AE.",
+      "jarabe_tomillo_miel": "Preparar infusión muy concentrada: hervir 10 g de tomillo seco en 250 mL de agua 5 min. Colar y dejar enfriar. Añadir la misma cantidad en peso de miel de abejas (250 g). Mezclar bien. Guardar en frasco con tapa en refrigerador hasta 3 semanas. Tomar 1 cucharadita cada 4-6 horas para la tos.",
+      "vapor_bronquial": "Agregar 15 g de tomillo fresco (o seco) en 1 L de agua hirviendo. Inhalar vapor con toalla en cabeza, 5-10 min. Proteger ojos del vapor de timol.",
+      "gargaras": "Preparar infusión doble concentración (1 cucharada sopera/taza). Enfriar a temperatura tolerable. Hacer gárgaras 30 seg, 3-4 veces al día. Especialmente útil en faringitis."
+    },
+    "efectos_secundarios": [
+      "Irritación gástrica con infusiones muy concentradas o en estómago vacío",
+      "Alergia cutánea de contacto al AE puro (dermatitis por timol)",
+      "Irritación de mucosa oral con uso excesivo de gárgaras (reducir concentración)",
+      "Broncoespasmo paradójico en asmáticos muy sensibles al timol (raro)"
+    ],
+    "toxicidad": {
+      "dosis_toxica": "AE puro > 1-2 mL puede causar intoxicación. La planta seca en dosis normales es segura.",
+      "sintomas_sobredosis": {
+        "sintomas": [
+          "Náuseas y vómitos",
+          "Convulsiones (dosis muy altas de AE puro)",
+          "Insuficiencia renal aguda (timol nefrotóxico en sobredosis)",
+          "Irritación de mucosas"
+        ],
+        "que_hacer": "Urgencias si hay convulsiones o dificultad respiratoria. Carbón activado si < 1h de ingestión de AE puro."
+      },
+      "nota": "La planta seca y las infusiones normales son prácticamente atóxicas. El riesgo de toxicidad se limita al aceite esencial puro ingerido sin diluir."
+    },
+    "embarazo_lactancia": {
+      "embarazo": "Como condimento culinario: SEGURO. Infusión moderada (1-2 tazas/día): generalmente aceptada. Dosis medicinales concentradas o AE interno: EVITAR — el timol en dosis altas tiene efecto emmenagogo.",
+      "lactancia": "Infusión moderada: aceptada. Puede mejorar el sabor de la leche materna (el timol pasa en pequeñas cantidades). No usar AE oral.",
+      "nivel_seguridad": "GRAS (FDA) como condimento. Comisión E: aprobado para bronquitis. EMA/HMPC: aprobado. Categoría de seguridad aceptable en dosis habituales."
+    },
+    "nivel_evidencia": "Alto. ECA de Bronchipret® (tomillo + hiedra) vs. ambroxol: no inferioridad en bronquitis (PMID 19748387). Comisión E aprobada 1990. EMA/HMPC aprobado 2011. Amplia base fitoquímica y preclínica.",
+    "referencias_cientificas": [
+      "Kemmerich B et al. Efficacy and tolerability of a fluid extract combination of thyme herb and ivy leaves. Arzneimittelforschung. 2006;56(9):652-60. PMID 19748387",
+      "Boskabady MH et al. The possible mechanism for relaxant effects of Thymus vulgaris on guinea pig tracheal chains. Phytomedicine. 2006;13(6):432-8. PMID 17380553",
+      "EMA/HMPC/234125/2009 — Assessment report on Thymus vulgaris L. (2011)",
+      "Comisión E Alemana — Thymi herba (Hierba de tomillo), aprobada para catarro bronquial (1990)",
+      "WHO Monographs on Selected Medicinal Plants Vol. 1 — Herba Thymi (1999)"
+    ],
+    "curiosidades": [
+      "El timol del tomillo es el principio activo de Listerine® (creado en 1879) y de la mayoría de los enjuagues bucales antisépticos del mundo",
+      "El Bronchipret® (tomillo + hiedra) es el medicamento fitoterapéutico más vendido en Alemania para bronquitis desde hace décadas",
+      "El término 'timol' deriva directamente de 'Thymus' — es uno de los pocos casos en que un compuesto farmacéutico lleva exactamente el nombre de la planta que lo contiene",
+      "En la tradición chilena, el jarabe de tomillo con miel es considerado 'el remedio de la abuela' para la tos — y la ciencia confirma que funciona tan bien como el ambroxol farmacéutico"
+    ]
   },
   {
     "nombre": "Caléndula",
