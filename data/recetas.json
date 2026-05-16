@@ -747,12 +747,13 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Berberina (alcaloide isoquinolínico): antipirético, antimicrobiano y antiinflamatorio; inhibe la síntesis de prostaglandinas. Oxyacantina: alcaloide con actividad antiespasmódica y antihipertensiva. Taninos: astringentes y hemostáticos.",
     "propiedades": [
       "antipirético",
       "diaforético",
       "antiinflamatorio",
-      "inmunoestimulante"
+      "inmunoestimulante",
+      "antimicrobiano"
     ]
   },
   {
@@ -787,7 +788,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Saponinas triterpénicas: antiinflamatorias e inmunomoduladoras. Flavonoides (quercetina, kaempferol): antiinflamatorios y antioxidantes. Taninos condensados: astringentes y antimicrobianos sobre piel irritada.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -827,7 +828,7 @@
       "Orégano",
       "Tomillo"
     ],
-    "principios_activos": "Fenoles terpénicos (carvacrol, timol, eugenol): antifúngicos por destrucción de la membrana celular fúngica. Ácidos orgánicos: crean entorno ácido inhibidor de hongos. Aldehídos: fungistáticos.",
+    "principios_activos": "Alcaloides esteroídicos (solasonina, solamargina): antiinflamatorios y antifúngicos tópicos. Saponinas esteroidales: actividad antimicrobiana. Flavonoides: antioxidantes cutáneos.",
     "propiedades": [
       "antifúngico",
       "antimicrobiano",
@@ -910,7 +911,7 @@
       "Miel de ulmo",
       "Eucalipto"
     ],
-    "principios_activos": "Mucílagos vegetales: recubren y protegen la mucosa faríngea irritada. Saponinas: efecto bequico y expectorante. Flavonoides: reducen inflamación de vías aéreas superiores.",
+    "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
     "propiedades": [
       "bequico",
       "expectorante",
@@ -991,7 +992,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Mucílagos: emolientes y cicatrizantes sobre quemaduras y heridas. Taninos: astringentes y hemostáticos. Flavonoides: antioxidantes y antiinflamatorios cutáneos.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -1114,7 +1115,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -1239,7 +1240,7 @@
       "Llantén",
       "Matico"
     ],
-    "principios_activos": "Saponinas triterpénicas: efecto mucolítico y expectorante. Aceites esenciales (cineol, timol): mucolíticos y antisépticos bronquiales. Flavonoides: antiinflamatorios respiratorios.",
+    "principios_activos": "Leucoantocianidinas y proantocianidinas: antiinflamatorias y antimicrobianas. Taninos condensados: astringentes sobre mucosas respiratorias. Goma de algarrobo (galactomanano): emoliente y expectorante.",
     "propiedades": [
       "expectorante",
       "mucolítico",
@@ -1619,7 +1620,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Solanina y solamargina (alcaloides glicoalcaloideos): antiinflamatorios y analgésicos tópicos a bajas dosis. Rutina: venotónica y antiinflamatoria. Saponinas esteroidales: antimicrobianas.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -1870,7 +1871,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Mezcla polifenólica de 7 plantas medicinales: sinergia de flavonoides, aceites esenciales y taninos. Iridoides ceremoniales: actividad adaptogénica e inmunomoduladora. Terpenos depurativos: limpieza orgánica y espiritual.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -1910,7 +1911,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -2113,7 +2114,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -2153,7 +2154,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -2234,7 +2235,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Flavonoides (quercetina, kaempferol): hepatoprotectores y antioxidantes. Terpenoides amargos: colereticos y colagogos. Taninos: astringentes y protectores de la mucosa hepática.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -2274,7 +2275,7 @@
       "Saúco",
       "Jengibre"
     ],
-    "principios_activos": "Vitamina C y flavonoides: estimulan la producción de interferón y células NK. Aceites esenciales: viricidas y bactericidas de vías aéreas. Polifenoles: antioxidantes e inmunoestimulantes.",
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
     "propiedades": [
       "inmunoestimulante",
       "antiviral",
@@ -2898,7 +2899,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -3063,7 +3064,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -3145,7 +3146,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -3185,7 +3186,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Beta-glucanos (polisacárido soluble): emolientes, hipocolesterolemiantes e inmunomoduladores. Hordenina (alcaloide feniletilamínico): antimicrobiana. Avenantramidas: antioxidantes y antiinflamatorias cutáneas.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -3809,7 +3810,7 @@
       "Tomillo",
       "Llantén"
     ],
-    "principios_activos": "Aceites esenciales con 1,8-cineol: broncodilatador y mucolítico. Mucílagos: emolientes sobre mucosa bronquial irritada. Saponinas: facilitadores de la eliminación de secreciones.",
+    "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
     "propiedades": [
       "expectorante",
       "broncodilatador",
@@ -3849,7 +3850,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -3972,7 +3973,7 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
@@ -4177,7 +4178,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -4384,7 +4385,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Flavonoides y diterpenos (en Parastrephia lucida): antiinflamatorios y antisépticos. Aceites esenciales: antimicrobianos y expectorantes. Ácidos fenólicos: antioxidantes.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -4424,7 +4425,7 @@
       "Miel de ulmo",
       "Eucalipto"
     ],
-    "principios_activos": "Mucílagos vegetales: recubren y protegen la mucosa faríngea irritada. Saponinas: efecto bequico y expectorante. Flavonoides: reducen inflamación de vías aéreas superiores.",
+    "principios_activos": "Beta-glucanos de cebada fermentada: emolientes y antiinflamatorios. Enzimas (amilasas, proteasas): demulcentes. Vitaminas del complejo B: soporte metabólico y expectorante leve.",
     "propiedades": [
       "bequico",
       "expectorante",
@@ -4505,7 +4506,7 @@
       "Caléndula",
       "Ajo"
     ],
-    "principios_activos": "Aceites esenciales antisépticos: activos frente a Pseudomonas aeruginosa y Staphylococcus aureus en conducto auditivo. Flavonoides antiinflamatorios: reducen el edema de la mucosa ótica. Taninos: astringentes y hemostáticos.",
+    "principios_activos": "Flavonoides y saponinas (planta rupícola andina): antiinflamatorios y analgésicos tópicos. Taninos: astringentes. Compuestos fenólicos: antimicrobianos del conducto auditivo.",
     "propiedades": [
       "antiinflamatorio",
       "antiséptico",
@@ -4626,7 +4627,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -4666,7 +4667,7 @@
       "Tomillo",
       "Miel de ulmo"
     ],
-    "principios_activos": "Taninos: astringentes y antisépticos sobre la mucosa faríngea. Aceites esenciales (timol, eugenol): bactericidas y antiinflamatorios locales. Mucílagos: demulcentes sobre tejidos irritados.",
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
     "propiedades": [
       "antiséptico",
       "antiinflamatorio",
@@ -5287,7 +5288,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -5327,7 +5328,7 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Cera vegetal (ésteres de ácidos grasos de cadena larga): barrera oclusiva que protege el cuero cabelludo. Ácidos grasos saturados: emolientes y suavizantes del cabello. Esterol vegetal: nutrición capilar.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
@@ -5367,7 +5368,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -5449,7 +5450,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "SDG (lignano): antioxidante y fitoestrogénico. Ácido alfa-linolénico omega-3: antiinflamatorio. Mucílagos: laxante y emoliente.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -5573,7 +5574,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -6074,7 +6075,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Taninos condensados y flavonoides (en Prosopis): astringentes y antihiperglucémicos. Alcaloides piperidínicos: reguladores del metabolismo glucídico. Goma (galactomanano): fibra soluble que retarda la absorción de glucosa.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -6114,7 +6115,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -6154,7 +6155,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
@@ -6318,7 +6319,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -6358,7 +6359,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Cocaína y ecgonina (alcaloides tropánicos): anestésicos locales y vasoconstrictores; uso ceremonial en cultura andina. Flavonoides (quercetina, rutina): antioxidantes. Vitaminas A, B2, C y minerales: nutritivos.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -7013,7 +7014,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -7217,7 +7218,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Cucurbitacinas B y D: antiinflamatorias y hepatoprotectoras. Silicio orgánico: regenerador dérmico y antiedad. Vitaminas C y K: antioxidante y hemostática. Ácido cafeico: antiinflamatorio.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -7585,7 +7586,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -7748,7 +7749,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Silicatos de aluminio hidratados (montmorillonita, caolín): adsorbentes de toxinas y agentes antimicrobianos físicos. Minerales (sílice, magnesio, calcio, hierro): remineralizantes. Efecto osmótico: reduce la inflamación cutánea y el exceso de sebo.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -7830,7 +7831,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Carbón activado (carbono amorfo poroso): adsorbente de toxinas y exceso de sebo; efecto detox dérmico. Minerales de silicato: absorbentes de impurezas. pH neutro: compatible con todos los tipos de piel.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -7870,7 +7871,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Vitaminas del complejo B (B1, B2, B3, B6, B9): cofactores de renovación celular epidérmica. Beta-glucanos de Saccharomyces: inmunomoduladores y equilibradores de sebo. Zinc y selenio: antiséborreicos y antioxidantes.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -8407,7 +8408,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides y taninos condensados (Blechnum chilense): astringentes y antiinflamatorios. Compuestos fenólicos: antisépticos dérmicos. Mucílagos: emolientes sobre piel inflamada.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -9196,7 +9197,7 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
@@ -10347,7 +10348,7 @@
       "Arrayán",
       "Manzanilla"
     ],
-    "principios_activos": "Taninos elagitánicos: astringentes sobre la mucosa intestinal; reducen la hipersecreción de fluidos. Mucílagos: protegen la mucosa irritada y reducen el tránsito intestinal.",
+    "principios_activos": "Taninos hidrolizables (ácido quínico, ácido cítrico): potentes astringentes antidiarreicos. Pectina: emoliente y reguladora del tránsito intestinal. Quercetina y kaempferol: antiinflamatorios.",
     "propiedades": [
       "antidiarreico",
       "astringente",
@@ -10429,7 +10430,7 @@
       "Arrayán",
       "Manzanilla"
     ],
-    "principios_activos": "Taninos elagitánicos: astringentes sobre la mucosa intestinal; reducen la hipersecreción de fluidos. Mucílagos: protegen la mucosa irritada y reducen el tránsito intestinal.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antidiarreico",
       "astringente",
@@ -10469,7 +10470,7 @@
       "Arrayán",
       "Manzanilla"
     ],
-    "principios_activos": "Taninos elagitánicos: astringentes sobre la mucosa intestinal; reducen la hipersecreción de fluidos. Mucílagos: protegen la mucosa irritada y reducen el tránsito intestinal.",
+    "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
     "propiedades": [
       "antidiarreico",
       "astringente",
@@ -10797,7 +10798,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Ácido acético: antimicrobiano por reducción de pH. Ácido málico y ácido tartárico: alcalinizantes urinarios. Polifenoles (en vinagre de manzana): antioxidantes.",
     "propiedades": [
       "antipirético",
       "diaforético",
@@ -11002,13 +11003,12 @@
       "Salvia",
       "Tomillo"
     ],
-    "principios_activos": "Eugenol (en clavo): anestésico local por bloqueo de canales de sodio. Taninos: astringentes hemostáticos sobre encías. Aceites esenciales antibacterianos: activos contra Streptococcus mutans y Porphyromonas gingivalis.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "analgésico dental",
       "antiséptico bucal",
       "antiinflamatorio",
-      "astringente",
-      "emoliente"
+      "astringente"
     ]
   },
   {
@@ -12343,7 +12343,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -12425,7 +12425,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Secoiridoides (eritaurina, gentiopicrina): amargos tónicos que estimulan la secreción biliar y hepática. Flavonoides (isovitexina, swertisin): antiinflamatorios y depurativos. Xantonas: antimicrobianas.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -12505,7 +12505,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Taninos elágicos (en Sanguisorba minor): hemostáticos y astringentes sobre mucosa uterina. Flavonoides (quercetina): antiinflamatorios. Saponinas: emenagogos y reguladores del flujo menstrual.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -14211,7 +14211,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Saponinas triterpénicas: antiinflamatorias e inmunomoduladoras. Flavonoides (quercetina, kaempferol): antiinflamatorios y antioxidantes. Taninos condensados: astringentes y antimicrobianos sobre piel irritada.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14292,7 +14292,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14332,7 +14332,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Fabianina e isofabianina (alcaloides quinolizidínicos): diuréticos y antisépticos de vías urinarias. Flavonoides (apigenina, luteolina): antiinflamatorios. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14414,7 +14414,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides diterpénicos (bailahuenina, isorhamnetina): hepatoprotectores y antidepresivos suaves. Aceites esenciales monoterpénicos: colerécticos y colagogos. Ácidos fenólicos: antioxidantes hepáticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14496,7 +14496,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Saponinas triterpénicas (en Eryngium paniculatum): antiinflamatorias y digestivas. Flavonoides: antiespasmódicos sobre mucosa gástrica. Aceites esenciales: carminativos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14536,7 +14536,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Iridoides (en Calceolaria): antiinflamatorios tópicos. Flavonoides: antioxidantes dérmicos. Compuestos fenólicos: antimicrobianos cutáneos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -14740,7 +14740,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -16273,7 +16273,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -16888,7 +16888,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -17339,7 +17339,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Flavonoides diterpénicos (bailahuenina, isorhamnetina): hepatoprotectores y antidepresivos suaves. Aceites esenciales monoterpénicos: colerécticos y colagogos. Ácidos fenólicos: antioxidantes hepáticos.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -17709,7 +17709,7 @@
       "Tomillo",
       "Llantén"
     ],
-    "principios_activos": "Aceites esenciales con 1,8-cineol: broncodilatador y mucolítico. Mucílagos: emolientes sobre mucosa bronquial irritada. Saponinas: facilitadores de la eliminación de secreciones.",
+    "principios_activos": "Alantoína: cicatrizante y regeneradora de mucosa bronquial. Mucílagos: demulcentes sobre bronquios irritados. Silicio orgánico: fortalece tejido epitelial pulmonar. Ácido rosmarínico: antiinflamatorio.",
     "propiedades": [
       "expectorante",
       "broncodilatador",
@@ -17749,7 +17749,7 @@
       "Tomillo",
       "Llantén"
     ],
-    "principios_activos": "Aceites esenciales con 1,8-cineol: broncodilatador y mucolítico. Mucílagos: emolientes sobre mucosa bronquial irritada. Saponinas: facilitadores de la eliminación de secreciones.",
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
     "propiedades": [
       "expectorante",
       "broncodilatador",
@@ -18037,7 +18037,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -18407,7 +18407,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Catequinas (galato de epigalocatequina — EGCG): antioxidantes vasculares y antiinflamatorios. Cafeína y teobromina: vasoconstrictores que reducen ojeras y edema periocular. Taninos: astringentes que tensan la piel.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -18447,7 +18447,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -18487,7 +18487,7 @@
       "Orégano",
       "Tomillo"
     ],
-    "principios_activos": "Fenoles terpénicos (carvacrol, timol, eugenol): antifúngicos por destrucción de la membrana celular fúngica. Ácidos orgánicos: crean entorno ácido inhibidor de hongos. Aldehídos: fungistáticos.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antifúngico",
       "antimicrobiano",
@@ -19426,13 +19426,12 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
       "rubefaciente",
-      "antiartrítico",
-      "emoliente"
+      "antiartrítico"
     ]
   },
   {
@@ -19467,7 +19466,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -19508,7 +19507,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -19712,7 +19711,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -19792,7 +19791,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -19832,7 +19831,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -19872,7 +19871,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Citoquininas (trans-zeatina): antienvejecimiento celular y antioxidantes. Electrolitos (potasio, magnesio, sodio): rehidratantes isotónicos. Laurato y caprilato: antimicrobianos naturales.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -19912,7 +19911,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Ginsenósidos Rb1, Rg1 y Rg3 (triterpenos tetracíclicos): adaptógenos que modulan el eje HPA; neuroprotectores y anticancerígenos. Polisacáridos (ginsan): inmunomoduladores. Panaxinol: estimulante del SNC.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -19993,7 +19992,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Ácido 10-HDA (10-hidroxi-2-decenoico): antibacteriano único de jalea real; modulador inmunológico. Proteínas royalisinas: antimicrobianas. Vitaminas B5 y B6: metabólicas y energizantes.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -20072,7 +20071,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Proteínas vegetales y aminoácidos esenciales: soporte metabólico. Vitaminas liposolubles (A, D, E, K) e hidrosolubles (C, complejo B): cofactores enzimáticos. Minerales (hierro, calcio, magnesio, zinc): remineralizantes.",
+    "principios_activos": "Isoflavonas (genisteína, daidzeína): fitoestrógenas y cardioprotectoras. Vitamina K2 (menaquinona): mineralización ósea. Probióticos (Lactobacillus): modulación de microbiota intestinal.",
     "propiedades": [
       "nutritivo",
       "remineralizante",
@@ -20233,7 +20232,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Proteínas vegetales y aminoácidos esenciales: soporte metabólico. Vitaminas liposolubles (A, D, E, K) e hidrosolubles (C, complejo B): cofactores enzimáticos. Minerales (hierro, calcio, magnesio, zinc): remineralizantes.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "nutritivo",
       "remineralizante",
@@ -20396,7 +20395,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Salidrosido (glucósido fenilpropanoide): adaptógeno antiestrés que reduce cortisol; neuroprotector. Rosavinas y rozarina: antidepresivos que modulan serotonina y dopamina. Tirosol: cardioprotector.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -20436,13 +20435,12 @@
       "Salvia",
       "Tomillo"
     ],
-    "principios_activos": "Eugenol (en clavo): anestésico local por bloqueo de canales de sodio. Taninos: astringentes hemostáticos sobre encías. Aceites esenciales antibacterianos: activos contra Streptococcus mutans y Porphyromonas gingivalis.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "analgésico dental",
       "antiséptico bucal",
       "antiinflamatorio",
-      "astringente",
-      "emoliente"
+      "astringente"
     ]
   },
   {
@@ -20600,7 +20598,7 @@
       "Salvia",
       "Tomillo"
     ],
-    "principios_activos": "Eugenol (en clavo): anestésico local por bloqueo de canales de sodio. Taninos: astringentes hemostáticos sobre encías. Aceites esenciales antibacterianos: activos contra Streptococcus mutans y Porphyromonas gingivalis.",
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
     "propiedades": [
       "analgésico dental",
       "antiséptico bucal",
@@ -20640,7 +20638,7 @@
       "Salvia",
       "Tomillo"
     ],
-    "principios_activos": "Eugenol (en clavo): anestésico local por bloqueo de canales de sodio. Taninos: astringentes hemostáticos sobre encías. Aceites esenciales antibacterianos: activos contra Streptococcus mutans y Porphyromonas gingivalis.",
+    "principios_activos": "Sesquiterpenos (curzereno, lindestreno): antiinflamatorios orales. Guggulsterones: antiinflamatorios. Fenoles: antisépticos bucales.",
     "propiedades": [
       "analgésico dental",
       "antiséptico bucal",
@@ -20680,13 +20678,12 @@
       "Salvia",
       "Tomillo"
     ],
-    "principios_activos": "Eugenol (en clavo): anestésico local por bloqueo de canales de sodio. Taninos: astringentes hemostáticos sobre encías. Aceites esenciales antibacterianos: activos contra Streptococcus mutans y Porphyromonas gingivalis.",
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
     "propiedades": [
       "analgésico dental",
       "antiséptico bucal",
       "antiinflamatorio",
-      "astringente",
-      "emoliente"
+      "astringente"
     ]
   },
   {
@@ -20845,7 +20842,7 @@
       "Ginkgo",
       "Salvia"
     ],
-    "principios_activos": "Flavonoides con efecto vasodilatador cerebral: mejoran perfusión neuronal y oxigenación. Diterpenos neuroprotectores: reducen el estrés oxidativo neuronal. Alcaloides: moduladores de la acetilcolina.",
+    "principios_activos": "Bacósidos A y B (triterpenos saponínicos): mejoran la plasticidad sináptica y la transmisión colinérgica. Bacopasaponinas: neuroprotectoras y antioxidantes cerebrales. Hersaponina: ansiolítica.",
     "propiedades": [
       "neuroprotector",
       "vasodilatador cerebral",
@@ -20926,7 +20923,7 @@
       "Ginkgo",
       "Salvia"
     ],
-    "principios_activos": "Flavonoides con efecto vasodilatador cerebral: mejoran perfusión neuronal y oxigenación. Diterpenos neuroprotectores: reducen el estrés oxidativo neuronal. Alcaloides: moduladores de la acetilcolina.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "neuroprotector",
       "vasodilatador cerebral",
@@ -20966,7 +20963,7 @@
       "Ginkgo",
       "Salvia"
     ],
-    "principios_activos": "Flavonoides con efecto vasodilatador cerebral: mejoran perfusión neuronal y oxigenación. Diterpenos neuroprotectores: reducen el estrés oxidativo neuronal. Alcaloides: moduladores de la acetilcolina.",
+    "principios_activos": "Asiaticósido y madecasósido (saponinas triterpenoides): regeneran colágeno y mejoran la microcirculación cerebral. Ácido asiático: neuroprotector. Brahmiósidos: ansiolíticos leves.",
     "propiedades": [
       "neuroprotector",
       "vasodilatador cerebral",
@@ -21088,7 +21085,7 @@
       "Ginkgo",
       "Salvia"
     ],
-    "principios_activos": "Flavonoides con efecto vasodilatador cerebral: mejoran perfusión neuronal y oxigenación. Diterpenos neuroprotectores: reducen el estrés oxidativo neuronal. Alcaloides: moduladores de la acetilcolina.",
+    "principios_activos": "SDG (lignano): antioxidante y fitoestrogénico. Ácido alfa-linolénico omega-3: antiinflamatorio. Mucílagos: laxante y emoliente.",
     "propiedades": [
       "neuroprotector",
       "vasodilatador cerebral",
@@ -21624,7 +21621,7 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "Californidina y eschscholtzina (alcaloides benzoisoquinolínicos): sedantes y ansiolíticos por acción sobre receptores GABA y opioides. Protopina: espasmolítica. Flavonoides: sedantes sinérgicos.",
     "propiedades": [
       "sedante",
       "ansiolítico",
@@ -21950,7 +21947,7 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "2-Metil-3-buten-2-ol (metabolito del humulol): sedante por potenciación de GABA-A. 8-Prenilnarigenina: fitoestrógeno potente. Humulona y lupulona (resinas amargas): antiinflamatorias y antibacterianas.",
     "propiedades": [
       "sedante",
       "ansiolítico",
@@ -22726,13 +22723,12 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Ácido gamma-linolénico GLA (omega-6): precursor de prostaglandinas antiinflamatorias PGE1; regula el ciclo menstrual. Ácido linoleico: barrera epidérmica. Vitamina E: antioxidante.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
       "antiinflamatorio",
-      "regulador hormonal",
-      "emoliente"
+      "regulador hormonal"
     ]
   },
   {
@@ -22767,7 +22763,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Frambinona (cetona de frambuesa): lipolítica y antiobesidad. Elagitaninos (sanguiína H-6): antioxidantes potentes. Vitamina C y antocianinas: inmunoestimulantes.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -22807,7 +22803,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Z-Ligustilida (ftalida): espasmolítica sobre musculatura uterina; vasodilatadora. Ferulatosa y ácido ferúlico: antiinflamatorios. Cumarinas (osteol): anticoagulantes leves.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -22888,7 +22884,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Aucubina y agnusida (iridoides): modulan dopamina y disminuyen prolactina; regulan ciclo menstrual. Casticina y luteolina: antiinflamatorias. Diterpenos: estrogénicos débiles.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -22969,7 +22965,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Actein y 23-epi-26-deoxyactein (glucósidos triterpenoides): modulan receptores estrogénicos sin actividad hormonal directa. Ácido isoferúlico: antiinflamatorio. Formononetin: isoflavona adaptógena.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -23092,7 +23088,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Artabsina y absintina (sesquiterpenos lactonicos): emenagogos y reguladores del ciclo menstrual. Aceites esenciales (tuyona, borneol): antisépticos y espasmolíticos uterinos. Flavonoides: antiinflamatorios.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -23132,13 +23128,12 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Ácido ricinoleico (ácido graso hidroxi): antiinflamatorio profundo por penetración transdérmica; estimula circulación linfática. Ricinina (alcaloide): a concentraciones de uso externo, sin toxicidad. Vitamina E: antioxidante.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
       "antiinflamatorio",
-      "regulador hormonal",
-      "emoliente"
+      "regulador hormonal"
     ]
   },
   {
@@ -23174,7 +23169,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Arctigenina (lignano): antiinflamatoria e inmunomoduladora; inhibe formación de citoquinas. Inulina: prebiótico que regula microbiota intestinal. Ácido clorogénico: antioxidante y depurativo hepático.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -23214,7 +23209,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Diosgenina (sapogenina esteroidal): precursora sintética de hormonas; estimula libido y producción de leche. 4-Hidroxiisoleucina: insulinosensibilizante. Mucílagos: demulcentes digestivos.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -23544,7 +23539,7 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Ácido esteárico y ácido oleico: emolientes que restauran la barrera lipídica cutánea. Polifenoles (procianidinas): antioxidantes y antiinflamatorios dérmicos. Vitamina E y fitosteroles: regeneradores celulares.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
@@ -23625,13 +23620,12 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
       "sedante leve",
-      "antipirético",
-      "emoliente"
+      "antipirético"
     ]
   },
   {
@@ -23998,7 +23992,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -24161,7 +24155,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Resinas diterpénicas (ácido copálico, ácido agálico): antiinflamatorias y antimicrobianas. Monoterpenos (alfa-pineno, limoneno): ansiolíticos por vía aromática. Sesquiterpenos: ceremoniales y depurativos.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -24241,13 +24235,12 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
     "propiedades": [
       "purificador",
       "ceremonial",
       "aromático",
-      "adaptógeno",
-      "emoliente"
+      "adaptógeno"
     ]
   },
   {
@@ -24282,7 +24275,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -24322,7 +24315,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -24444,7 +24437,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Aceites esenciales aromáticos: estimulan el sistema límbico modulando el estado emocional. Compuestos con actividad ansiolítica suave. Polifenoles con propiedades depurativas y antioxidantes.",
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
     "propiedades": [
       "purificador",
       "ceremonial",
@@ -25224,7 +25217,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -25346,7 +25339,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -25593,7 +25586,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Sulfato de aluminio y potasio (KAl(SO₄)₂): astringente que contrae los poros y reduce la transpiración. Actividad antimicrobiana: inhibe bacterias causantes del olor por cambio de pH. Efecto hemostático leve.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -25634,7 +25627,7 @@
       "Rosa mosqueta",
       "Aceite de oliva"
     ],
-    "principios_activos": "Ácidos grasos esenciales (omega-3, omega-6): nutren y restauran la barrera lipídica epidérmica. Vitaminas E y C: antioxidantes celulares. Fitoesteroles: hidratantes y anti-envejecimiento.",
+    "principios_activos": "Ésteres de cera líquida (ácido gadolénico y erúcico): estructuralmente análogos al sebo humano; regulan el sebo sin obstruir poros. Vitamina E y vitamina B: nutritivos. Miristo: antiinflamatorio dérmico.",
     "propiedades": [
       "emoliente",
       "antioxidante",
@@ -26003,7 +25996,7 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
@@ -26043,13 +26036,12 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
       "estimulante folicular",
-      "antiséborreico",
-      "emoliente"
+      "antiséborreico"
     ]
   },
   {
@@ -26084,7 +26076,7 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
@@ -26164,13 +26156,12 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
       "estimulante folicular",
-      "antiséborreico",
-      "emoliente"
+      "antiséborreico"
     ]
   },
   {
@@ -26246,13 +26237,12 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
       "estimulante folicular",
-      "antiséborreico",
-      "emoliente"
+      "antiséborreico"
     ]
   },
   {
@@ -26371,13 +26361,12 @@
       "Ortiga",
       "Aceite de coco"
     ],
-    "principios_activos": "Fitoesteroles y flavonoides: estimulan la microcirculación folicular. Silicio orgánico: fortalece la estructura de la queratina capilar. Aceites esenciales antisépticos: equilibran la microbiota del cuero cabelludo.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "fortalecedor capilar",
       "anticaspa",
       "estimulante folicular",
-      "antiséborreico",
-      "emoliente"
+      "antiséborreico"
     ]
   },
   {
@@ -26739,7 +26728,7 @@
       "Eufrasia",
       "Llantén"
     ],
-    "principios_activos": "Antocianinas: regeneran la rodopsina y mejoran la agudeza visual nocturna. Luteína y zeaxantina: protegen la mácula del daño oxidativo por luz azul. Mucílagos: lubricantes oculares y antiinflamatorios de conjuntiva.",
+    "principios_activos": "Cucurbitacinas B y D: antiinflamatorias y hepatoprotectoras. Silicio orgánico: regenerador dérmico y antiedad. Vitaminas C y K: antioxidante y hemostática. Ácido cafeico: antiinflamatorio.",
     "propiedades": [
       "antiinflamatorio ocular",
       "astringente",
@@ -27027,7 +27016,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antipirético",
       "diaforético",
@@ -27067,7 +27056,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
     "propiedades": [
       "antipirético",
       "diaforético",
@@ -27309,7 +27298,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Alcanfor (monoterpeno bicíclico): analgésico tópico por activación/desensibilización de TRPV1 y TRPM8; rubefaciente. Borneol: antiinflamatorio y antimicrobiano. Cineol: descongestionante y anestésico local.",
     "propiedades": [
       "antipirético",
       "diaforético",
@@ -27348,7 +27337,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Salicilatos naturales (ácido acetilsalicílico derivado): antipirético y antiinflamatorio periférico. Flavonoides diaforéticos: estimulan la sudoración regulando la temperatura corporal. Terpenos: antipirécticos de acción central.",
+    "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
     "propiedades": [
       "antipirético",
       "diaforético",
@@ -27428,7 +27417,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -27508,13 +27497,12 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "EPA y DHA (ácidos grasos omega-3 de cadena larga): potentes antiinflamatorios sistémicos. Vitamina A (retinol): inmunoestimulante y regeneradora epitelial. Vitamina D3: reguladora del sistema inmune y calcio óseo.",
     "propiedades": [
       "colerético",
       "colagogo",
       "hepatoprotector",
-      "antioxidante hepático",
-      "emoliente"
+      "antioxidante hepático"
     ]
   },
   {
@@ -27669,7 +27657,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -27708,7 +27696,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -27747,7 +27735,7 @@
       "Romero",
       "Ajo"
     ],
-    "principios_activos": "Silimarina o flavonolignanos: hepatoprotectores por estabilización de membrana de hepatocitos. Alcaloides coleréticos: estimulan la secreción biliar. Antioxidantes polifenólicos: reducen el daño oxidativo hepático.",
+    "principios_activos": "Fumarina y coptisina (alcaloides isoquinolínicos): colerécticos y antiespasmódicos sobre vías biliares. Ácido fumárico: hepatoprotector e inmunomodulador. Flavonoides: antioxidantes hepáticos.",
     "propiedades": [
       "colerético",
       "colagogo",
@@ -27829,7 +27817,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Fabianina e isofabianina (alcaloides quinolizidínicos): diuréticos y antisépticos de vías urinarias. Flavonoides (apigenina, luteolina): antiinflamatorios. Saponinas: irritantes suaves del epitelio tubular que aumentan la diuresis.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -28032,7 +28020,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Diterpenos y taninos (Prumnopitys andina): diuréticos y antisépticos de vías urinarias. Flavonoides: antiinflamatorios renales. Compuestos fenólicos: antioxidantes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -28448,7 +28436,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -28735,7 +28723,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Diosgenina (sapogenina esteroidal): precursora sintética de hormonas; estimula libido y producción de leche. 4-Hidroxiisoleucina: insulinosensibilizante. Mucílagos: demulcentes digestivos.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -28816,7 +28804,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -28939,7 +28927,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Almidón resistente (prebiótico): nutre microbiota intestinal y regula el tránsito. Inositol: precursor de fosfoinosítidos; regulador del peristaltismo. Agua de arroz: demulcente y astringente suave.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -28979,7 +28967,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -29059,7 +29047,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Glicirricina (triterpeno saponínnico): antiinflamatoria 50x más potente que cortisona a dosis terapéuticas; gastroprotectora. Glicirretina: inhibidora de 11-β-HSD (efecto mineralocorticoide). Isoflavonoides: antioxidantes.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -29099,7 +29087,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Arabinoxilanos (mucílagos solubles): forman gel que retarda absorción de glucosa y colesterol; prebióticos. Beta-glucanos: inmunomoduladores. Efecto mecánico de masa: laxante osmótico sin irritación.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -29180,7 +29168,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Sorbitol: laxante osmótico natural. Ácido clorogénico: estimulante de la motilidad intestinal. Procianidinas y antocianinas: antioxidantes. Fibra soluble (pectina): prebiótica.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -29220,7 +29208,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "1,8-Cineol (eucaliptol): carminativo, antiséptico oral y estimulante de secreciones digestivas. Acetato de terpinilo: antiespasmódico y aromaterapéutico. Alfa-terpineol: antimicrobiano.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -29383,7 +29371,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Beta-caroteno: precursor de vitamina A; antioxidante y regenerador epitelial. Falcarinol: antifúngico y anticancerígeno. Vitamina K: hemostática.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -30021,7 +30009,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -30144,7 +30132,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -30432,7 +30420,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Ácido alfa-linolénico ALA (omega-3, 48%): el aceite vegetal con mayor concentración de omega-3. Proteínas completas con todos los aminoácidos esenciales. Vitamina E y resveratrol: antioxidantes potentes.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -30514,7 +30502,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Taninos (ácido gálico, procianidinas): astringentes y antioxidantes. Potasio y magnesio: electrolitos energizantes. Vitamina B6: cofactor en síntesis de serotonina y dopamina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -30759,7 +30747,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -32152,7 +32140,7 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Bicarbonato de sodio (NaHCO₃): alcaliniza el pH cutáneo reduciendo el prurito por mecanismo ácido-base. Acción osmótica suave: reduce inflamación cutánea. Descongestiona poros por efecto limpiador físico.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
@@ -32400,7 +32388,7 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
@@ -32440,13 +32428,12 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
       "sedante leve",
-      "antipirético",
-      "emoliente"
+      "antipirético"
     ]
   },
   {
@@ -32481,7 +32468,7 @@
       "Melisa",
       "Tilo"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos y sedantes seguros en lactantes. Mucílagos: demulcentes sobre mucosas digestivas y respiratorias. Aceites esenciales suaves: carminativos a dosis pediátricas.",
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
     "propiedades": [
       "carminativo",
       "antiespasmódico",
@@ -32850,13 +32837,12 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
       "antiinflamatorio",
-      "regulador hormonal",
-      "emoliente"
+      "regulador hormonal"
     ]
   },
   {
@@ -32891,7 +32877,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Leucocianidinas y catequinas (Saraca indica): antiinflamatorias uterinas y hemostáticas. Esteroles (β-sitosterol): estabilizadores del endometrio. Flavonas: espasmolíticas sobre musculatura uterina.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33014,7 +33000,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Ácido gimnémico (saponina triterpenoide): bloquea receptores de sabor dulce; reduce la absorción intestinal de glucosa. Gurmarina: peptídico inhibidor de la absorción de azúcares. Flavonas: hipoglucemiantes.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33054,7 +33040,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Actein y 23-epi-26-deoxyactein (glucósidos triterpenoides): modulan receptores estrogénicos sin actividad hormonal directa; reducen sofocos. Ácido isoferúlico: antiinflamatorio. Formononetin: fitoestrógeno adaptógeno.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33094,7 +33080,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Macamidas y macaenos (amidas de ácidos grasos): adaptógenas que mejoran la libido y la resistencia al estrés. Glucosinolatos (glucotropaeolina): anticancerígenos. Minerales (hierro, zinc): hematopoyéticos.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33134,13 +33120,12 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
       "antiinflamatorio",
-      "regulador hormonal",
-      "emoliente"
+      "regulador hormonal"
     ]
   },
   {
@@ -33175,7 +33160,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Aucubina y agnusida: reducen prolactina y regulan ciclo menstrual. Casticina: antiinflamatoria. Diterpenos: estrogénicos débiles.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33257,7 +33242,7 @@
       "Lavanda",
       "Caléndula"
     ],
-    "principios_activos": "Flavonas (apigenina, luteolina): espasmolíticos sobre el útero y moduladores de prostaglandinas. Fitoestrógenos: regulación del eje hormonal. Aceites esenciales: antisépticos genitourinarios.",
+    "principios_activos": "Magnesio elemental: cofactor de más de 300 enzimas; relajante muscular, regulador del SNC y estabilizador del eje HPA. Vitamina B6 (P-5-P): potencia la absorción de magnesio y la síntesis de GABA. Efecto ansiolítico y premenstrual.",
     "propiedades": [
       "antiespasmódico",
       "emenagogo",
@@ -33461,7 +33446,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -33584,7 +33569,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Silicio orgánico: remineralizante articular. Flavonoides: antiinflamatorios. Mucílagos: emolientes sobre articulaciones inflamadas.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -33666,7 +33651,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -33788,7 +33773,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -33828,7 +33813,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación; antiinflamatorio sistémico potente. Glutamina: regeneradora de mucosa. Vitamina K y glucosinolatos: hemostáticos y antimicrobianos.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -34234,7 +34219,7 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
@@ -34274,13 +34259,12 @@
       "Romero",
       "Cola de caballo"
     ],
-    "principios_activos": "Sesquiterpenos: antiinflamatorios articulares por inhibición de COX y 5-LOX. Alcaloides piperidínicos: analgésicos locales. Flavonoides: antiedematosos y antioxidantes sinoviales.",
+    "principios_activos": "Miristicina (fenilpropanoide): analgésica y antiinflamatoria tópica por inhibición de COX-2. Elemicina: analgésica y antiséptica. Safrol: rubefaciente a bajas dosis. Eugenol: anestésico local.",
     "propiedades": [
       "antiinflamatorio",
       "analgésico",
       "rubefaciente",
-      "antiartrítico",
-      "emoliente"
+      "antiartrítico"
     ]
   },
   {
@@ -34357,7 +34341,7 @@
       "Ortiga",
       "Manzanilla"
     ],
-    "principios_activos": "Quercetina: antihistamínico natural por inhibición de la liberación de histamina de mastocitos. Ácido rosmarínico: suprime la respuesta alérgica IgE-mediada. Flavonoides: estabilizadores de membrana de mastocitos.",
+    "principios_activos": "Ácido geránico y germanio orgánico: antioxidantes y antiinflamatorios. Taninos (ácido gálico, ácido elágico): astringentes sobre mucosas alérgicas. Quercetina: antihistamínico.",
     "propiedades": [
       "antihistamínico",
       "antiinflamatorio",
@@ -34812,7 +34796,7 @@
       "Tomillo",
       "Miel de ulmo"
     ],
-    "principios_activos": "Taninos: astringentes y antisépticos sobre la mucosa faríngea. Aceites esenciales (timol, eugenol): bactericidas y antiinflamatorios locales. Mucílagos: demulcentes sobre tejidos irritados.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antiséptico",
       "antiinflamatorio",
@@ -34977,13 +34961,12 @@
       "Tomillo",
       "Miel de ulmo"
     ],
-    "principios_activos": "Taninos: astringentes y antisépticos sobre la mucosa faríngea. Aceites esenciales (timol, eugenol): bactericidas y antiinflamatorios locales. Mucílagos: demulcentes sobre tejidos irritados.",
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
     "propiedades": [
       "antiséptico",
       "antiinflamatorio",
       "astringente",
-      "analgésico local",
-      "emoliente"
+      "analgésico local"
     ]
   },
   {
@@ -35018,7 +35001,7 @@
       "Miel de ulmo",
       "Eucalipto"
     ],
-    "principios_activos": "Mucílagos vegetales: recubren y protegen la mucosa faríngea irritada. Saponinas: efecto bequico y expectorante. Flavonoides: reducen inflamación de vías aéreas superiores.",
+    "principios_activos": "Marrubina e isopinocanfona (diterpenos): expectorantes y mucolíticos; estimulan secreciones bronquiales. Flavonoides (diosmina, hesperidina): venotónicos y antiinflamatorios. Aceites esenciales: antisépticos.",
     "propiedades": [
       "bequico",
       "expectorante",
@@ -35223,7 +35206,7 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "Melatonina: regulador circadiano del sueño; antioxidante neuronal. Antocianinas (cianidina-3-glucósido): antiinflamatorias e hipnóticas. Triptófano: precursor de melatonina.",
     "propiedades": [
       "sedante",
       "ansiolítico",
@@ -35263,7 +35246,7 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "Baicalina y baicaleína (flavonas): ansiolíticas por modulación GABA-A; neuroprotectoras y antiinflamatorias. Escutelarina: antioxidante y anticoagulante. Wogonina: sedante y anticancerígena.",
     "propiedades": [
       "sedante",
       "ansiolítico",
@@ -35303,13 +35286,12 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "Ácidos grasos de semilla (ácido linoleico, oleico): regeneradores cutáneos. Tocoferoles (vitamina E): antioxidantes. Lecitina: emulsionante y reparador de barrera lipídica. Sin alcaloides a diferencia de otras partes de la planta.",
     "propiedades": [
       "sedante",
       "ansiolítico",
       "hipnótico leve",
-      "antiespasmódico",
-      "emoliente"
+      "antiespasmódico"
     ]
   },
   {
@@ -35384,7 +35366,7 @@
       "Pasiflora",
       "Toronjil"
     ],
-    "principios_activos": "Flavonoides (flavonas y flavonoles): modulan receptores GABA-A reduciendo la ansiedad. Terpenos sesquiterpénicos: sedantes por efecto sobre el sistema nervioso central. Iridoides: relajantes musculares.",
+    "principios_activos": "Ácido boswélico y acetil-boswélico (AKBA): antiinflamatorios potentes; inhiben 5-lipoxigenasa. Monoterpenos (alfa-pineno, limoneno): ansiolíticos aromáticos. Incensol acetato: antidepresivo por activación de canales iónicos cerebrales.",
     "propiedades": [
       "sedante",
       "ansiolítico",
@@ -35838,7 +35820,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -35918,13 +35900,12 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
       "antifatiga",
-      "inmunoestimulante",
-      "emoliente"
+      "inmunoestimulante"
     ]
   },
   {
@@ -36001,7 +35982,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Citoquininas (trans-zeatina): antienvejecimiento celular y antioxidantes. Electrolitos (potasio, magnesio, sodio): rehidratantes isotónicos. Laurato y caprilato: antimicrobianos naturales.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -36205,7 +36186,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -36329,7 +36310,7 @@
       "Romero",
       "Menta"
     ],
-    "principios_activos": "Gingeroles o saponinas adaptogénicas: modulan el eje hipotálamo-hipófisis-adrenal. Vitaminas del grupo B y hierro: apoyo metabólico y transporte de oxígeno. Polifenoles: antioxidantes que reducen el estrés oxidativo por ejercicio.",
+    "principios_activos": "Bixina y norbixina (carotenoides): antioxidantes y fotoprotectores. Tocotrienoles (vitamina E): protección celular. Ácido ferúlico: antiinflamatorio e hipoglucemiante.",
     "propiedades": [
       "adaptógeno",
       "estimulante",
@@ -37194,7 +37175,7 @@
       "Ortiga",
       "Manzanilla"
     ],
-    "principios_activos": "Quercetina: antihistamínico natural por inhibición de la liberación de histamina de mastocitos. Ácido rosmarínico: suprime la respuesta alérgica IgE-mediada. Flavonoides: estabilizadores de membrana de mastocitos.",
+    "principios_activos": "Antocianinas (cianidina-3-rutinósido, delfinidina): potentes antioxidantes vasculares. Vitamina C (mayor concentración que el limón): inmunoestimulante. Ácido gamma-linolénico GLA: antiinflamatorio.",
     "propiedades": [
       "antihistamínico",
       "antiinflamatorio",
@@ -37645,7 +37626,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Agua fría (hidroterapia): activa el sistema nervioso simpático; libera noradrenalina y endorfinas. Efecto Wimhof: reduce inflamación sistémica por activación vagal. Estimula la circulación periférica y el sistema inmune.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -37685,7 +37666,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Isotiocianatos (moringin): antiinflamatorios e hipoglucemiantes. Zeatin: citoquinina antienvejecimiento. Vitaminas C, A y hierro: inmunoestimulantes y hematopoyéticos. Quercetina y ácido clorogénico: antioxidantes.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -37767,13 +37748,12 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Ácido oleico (omega-9): emoliente profundo y cardioprotector. Luteína y zeaxantina: fotoprotectores oculares y cutáneos. Vitamina E y glutatión: antioxidantes celulares regeneradores.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
       "depurativo",
-      "tonificante",
-      "emoliente"
+      "tonificante"
     ]
   },
   {
@@ -37972,7 +37952,7 @@
       "Limón",
       "Miel"
     ],
-    "principios_activos": "Vitamina C y bioflavonoides: inmunoestimulantes y antioxidantes. Polisacáridos: activadores de macrófagos y células NK. Compuestos fenólicos: antimicrobianos y hepatoprotectores.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "inmunoestimulante",
       "antioxidante",
@@ -38013,7 +37993,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Cineol y terpineol: antisépticos renales y diuréticos. Taninos: astringentes de vías urinarias. Flavonoides: antiinflamatorios de pelvis renal.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38095,7 +38075,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides y taninos (Fascicularia bicolor): antioxidantes y antiinflamatorios. Mucílagos: emolientes sobre bronquios irritados. Saponinas: bequicas y expectorantes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38135,7 +38115,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides y compuestos fenólicos del helecho: antiinflamatorios y antioxidantes tópicos. Taninos: astringentes. Aceites esenciales: antisépticos cutáneos rituales.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38175,12 +38155,13 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Berberina (alcaloide isoquinolínico): antibacteriano, antimicótico y antiinflamatorio; inhibe la síntesis de ADN bacteriano. Berbamina: inmunomoduladora. Palmitina: antiséptica.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
       "adaptógeno",
-      "inmunoestimulante"
+      "inmunoestimulante",
+      "antimicrobiano"
     ]
   },
   {
@@ -38215,7 +38196,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Taninos elagitánicos y catequinas (Nothofagus obliqua): astringentes potentes y antimicrobianos. Ácido elágico: antiinflamatorio. Proantocianidinas: antioxidantes y venotónicos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38297,7 +38278,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Taninos y compuestos fenólicos: antisépticos y cicatrizantes sobre heridas. Flavonoides: antiinflamatorios. Mucílagos: demulcentes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38379,7 +38360,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Ácido boswélico y acetil-boswélico (AKBA): antiinflamatorios potentes; inhiben 5-lipoxigenasa. Monoterpenos (alfa-pineno, limoneno): ansiolíticos aromáticos. Incensol acetato: antidepresivo por activación de canales iónicos cerebrales.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -38419,7 +38400,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Dibenzil disulfuro (en Petiveria alliacea): inmunomodulador y antiinflamatorio; activo contra hongos y bacterias. Flavonoides: antioxidantes. Cumarinas: anticoagulantes leves.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -38500,7 +38481,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -38540,7 +38521,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Amarogentina (secoiridoide amargo): la sustancia más amarga conocida; estimula potentemente la secreción gástrica y biliar. Gentiopicrina: colerética. Swertiamarina: antiespasmódica e hipoglucemiante.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -38580,7 +38561,7 @@
       "Hinojo",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides y taninos: regulan la motilidad intestinal y reducen inflamación de la mucosa. Aceites esenciales: carminativos y espasmolíticos por relajación del músculo liso digestivo.",
+    "principios_activos": "Inulina (fructooligosacárido): prebiótico que nutre bifidobacterias; hipoglucemiante. Ácido clorogénico: antioxidante y colagogo. Lactucopicrina: hepatoprotectora y amargo digestiva.",
     "propiedades": [
       "digestivo",
       "carminativo",
@@ -39234,7 +39215,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Timoquinona (benzoquinona): antiinflamatoria potente; inhibe COX-1/2, LOX y producción de citoquinas. Nigelona: antihistamínica y antiasmática. Aceite fijo (ácido linoleico, ácido linolénico): regenerador dérmico y antiinflamatorio.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -39356,7 +39337,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "EGCG (epigalocatequina galato): antioxidante 25x más potente que vitamina C; antiinflamatorio. L-teanina: ansiolítico y neuroprotector. Cafeína: estimulante circulatorio y energizante.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -39479,13 +39460,12 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Alantoína: acelera mitosis de fibroblastos favoreciendo la cicatrización. Taninos y flavonoides: hemostáticos y antisépticos. Carotenoides: regeneradores tisulares y fotoprotectores.",
+    "principios_activos": "Ácido oleico (omega-9): emoliente profundo y cardioprotector. Luteína y zeaxantina: fotoprotectores oculares y cutáneos. Vitamina E y glutatión: antioxidantes celulares regeneradores.",
     "propiedades": [
       "cicatrizante",
       "regenerante tisular",
       "antiséptico",
-      "hemostático",
-      "emoliente"
+      "hemostático"
     ]
   },
   {
@@ -39561,7 +39541,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -39601,7 +39581,7 @@
       "Aloe vera",
       "Matico"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-2 reduciendo eritema y edema. Saponinas: surfactantes que limpian y antiseptizan la piel. Alantoína o mucílagos: regeneradores epidérmicos y emolientes.",
+    "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
     "propiedades": [
       "antiinflamatorio",
       "cicatrizante",
@@ -39681,13 +39661,12 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Beta-cariofileno (sesquiterpeno): antiinflamatorio por agonismo sobre receptor CB2; analgésico. Ácido copálico: antimicrobiano de amplio espectro. Resinas diterpénicas: cicatrizantes y antisépticas.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
       "antiespasmódico",
-      "antipirético",
-      "emoliente"
+      "antipirético"
     ]
   },
   {
@@ -39722,7 +39701,7 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Mitragynina y 7-hidroximitragynina (alcaloides indólicos): agonistas parciales de receptores mu-opioides; analgésicos potentes y antitusivos. Corynantheidina: antagonista de receptores opioides. Uso regulado; principios activos muy potentes.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
@@ -39803,13 +39782,12 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Borneol y alcanfor: analgésicos tópicos por desensibilización de TRPV1. Flavonoides (luteolina, apigenina): antiinflamatorios. Aceites esenciales: antisépticos dérmicos.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
       "antiespasmódico",
-      "antipirético",
-      "emoliente"
+      "antipirético"
     ]
   },
   {
@@ -39925,13 +39903,12 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
       "antiespasmódico",
-      "antipirético",
-      "emoliente"
+      "antipirético"
     ]
   },
   {
@@ -39966,7 +39943,7 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Ácido alfa-linolénico ALA (omega-3): antiinflamatorio sistémico. Lignanos (SDG): fitoestrogénicos y antioxidantes. Mucílagos: emolientes y antiinflamatorios tópicos por calor húmedo.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
@@ -40006,7 +39983,7 @@
       "Cúrcuma",
       "Manzanilla"
     ],
-    "principios_activos": "Flavonoides antiinflamatorios: inhiben COX-1/2 y la síntesis de prostaglandinas algogénicas. Terpenos analgésicos: modulan receptores TRPV1 y canales de sodio. Salicilatos naturales: analgésicos periféricos.",
+    "principios_activos": "Tetrahidropalmitina THP (alcaloide isoquinolínico): analgésico no opiáceo por bloqueo de dopamina D1/D2; modulador del dolor neuropático. Coptisina: antiinflamatoria. Dihidropalmatina: sedante.",
     "propiedades": [
       "analgésico",
       "antiinflamatorio",
@@ -40087,7 +40064,7 @@
       "Llantén",
       "Matico"
     ],
-    "principios_activos": "Saponinas triterpénicas: efecto mucolítico y expectorante. Aceites esenciales (cineol, timol): mucolíticos y antisépticos bronquiales. Flavonoides: antiinflamatorios respiratorios.",
+    "principios_activos": "Seneginas A y B (saponinas triterpénicas): expectorantes potentes; irritan la mucosa bronquial estimulando el reflejo tusígeno. Xantinas: antiinflamatorias. Polisacáridos: inmunomoduladores.",
     "propiedades": [
       "expectorante",
       "mucolítico",
@@ -42394,7 +42371,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides diterpénicos (bailahuenina, isorhamnetina): hepatoprotectores y antidepresivos suaves. Aceites esenciales monoterpénicos: colerécticos y colagogos. Ácidos fenólicos: antioxidantes hepáticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42434,7 +42411,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides diterpénicos (bailahuenina, isorhamnetina): hepatoprotectores y antidepresivos suaves. Aceites esenciales monoterpénicos: colerécticos y colagogos. Ácidos fenólicos: antioxidantes hepáticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42475,7 +42452,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Flavonoides diterpénicos (bailahuenina, isorhamnetina): hepatoprotectores y antidepresivos suaves. Aceites esenciales monoterpénicos: colerécticos y colagogos. Ácidos fenólicos: antioxidantes hepáticos.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42636,7 +42613,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Saponinas triterpénicas: antiinflamatorias e inmunomoduladoras. Flavonoides (quercetina, kaempferol): antiinflamatorios y antioxidantes. Taninos condensados: astringentes y antimicrobianos sobre piel irritada.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42717,7 +42694,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Saponinas triterpénicas: antiinflamatorias e inmunomoduladoras. Flavonoides (quercetina, kaempferol): antiinflamatorios y antioxidantes. Taninos condensados: astringentes y antimicrobianos sobre piel irritada.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42797,7 +42774,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42837,7 +42814,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42877,7 +42854,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -42918,7 +42895,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
@@ -43000,7 +42977,7 @@
       "Arrayán",
       "Canelo"
     ],
-    "principios_activos": "Sesquiterpenos dialdeídos: antiinflamatorios y analgésicos por bloqueo de canales de sodio. Flavonoides ceremoniales con actividad inmunomoduladora. Compuestos fenólicos antimicrobianos: amplio espectro antibacteriano y antifúngico.",
+    "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
     "propiedades": [
       "ceremonial",
       "antiinflamatorio",
