@@ -3669,6 +3669,80 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .matern-disclaimer i { font-size: 1rem; flex-shrink: 0; margin-top: 2px; }
 .matern-disclaimer strong { color: var(--terracotta-soft); }
 
+/* ── Banner plantas prohibidas en embarazo ── */
+.prohibidas-banner {
+    margin: 0 0 20px;
+    border-radius: var(--r-md);
+    border: 1.5px solid rgba(201,123,86,0.35);
+    background: rgba(201,123,86,0.07);
+    overflow: hidden;
+}
+.prohibidas-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+}
+.prohibidas-header:hover { background: rgba(201,123,86,0.1); }
+.prohibidas-icon { font-size: 1.4rem; flex-shrink: 0; }
+.prohibidas-header-text { flex: 1; }
+.prohibidas-header-text strong { color: #e07055; font-size: 0.95rem; display: block; }
+.prohibidas-sub { color: var(--text-soft); font-size: 0.78rem; }
+.prohibidas-chevron {
+    color: var(--terracotta);
+    font-size: 0.85rem;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+.prohibidas-banner.open .prohibidas-chevron { transform: rotate(180deg); }
+.prohibidas-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+.prohibidas-banner.open .prohibidas-body { max-height: 600px; }
+.prohibidas-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 0 18px 14px;
+}
+@media (max-width: 600px) { .prohibidas-cols { grid-template-columns: 1fr; } }
+.prohibidas-col-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+}
+.prohibidas-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.prohibidas-col li {
+    font-size: 0.82rem;
+    color: var(--text);
+    padding-left: 10px;
+    border-left: 2px solid rgba(201,123,86,0.4);
+}
+.prohibidas-col li strong { color: #e07055; }
+.prohibidas-col li em { color: var(--text-mute); font-style: italic; font-size: 0.78rem; }
+.prohibidas-fuente {
+    padding: 8px 18px 14px;
+    font-size: 0.73rem;
+    color: var(--text-mute);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    margin-top: 4px;
+}
+
 /* Subtabs Embarazo / Lactancia */
 /* ── Menú de navegación Maternidad (tarjetas elegantes) ── */
 .matern-nav {
