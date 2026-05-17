@@ -1305,16 +1305,35 @@ function renderMaternidad() {
         return false;
     }
 
-    const recetasEmb = recetasDB.filter(r => recetaEsSegura(r, nombresSegEmb, warnNombres)).slice(0, 12);
-    const recetasLac = recetasDB.filter(r => recetaEsSegura(r, nombresSegLac, warnNombresLac)).slice(0, 12);
+    // Lactancia: primero las del submódulo postparto_lactancia (ya son seguras por diseño)
+    // + las que coinciden por nombre de planta segura, sin duplicar
+    const recetasPostparto = recetasDB.filter(r => r.submodulo === 'postparto_lactancia');
+    const postpartoIds = new Set(recetasPostparto.map(r => r.id));
+    const recetasLacExtra = recetasDB.filter(r =>
+        !postpartoIds.has(r.id) && recetaEsSegura(r, nombresSegLac, warnNombresLac)
+    );
+    const recetasLac = [...recetasPostparto, ...recetasLacExtra].slice(0, 24);
+
+    // Embarazo: coincidencia por planta segura + recetas cuyo uso menciona embarazo/gestación
+    const recetasEmb = recetasDB.filter(r => {
+        if (recetaEsSegura(r, nombresSegEmb, warnNombres)) return true;
+        const texto = (r.titulo + ' ' + (r.ingredientes || '')).toLowerCase();
+        for (const nom of warnNombres) { if (texto.includes(nom)) return false; }
+        return /embaraz|gestac|prenatal|trimestre/.test((r.uso || '').toLowerCase());
+    }).slice(0, 16);
 
     function maternRecetaCard(r) {
-        const uso = CATEGORIA_USO[r.categoria] || '';
+        const usoTexto = r.uso
+            ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
+            : (CATEGORIA_USO[r.categoria] || '');
+        const badgeLac = r.submodulo === 'postparto_lactancia'
+            ? '<span class="matern-receta-badge">🤱 Postparto</span>'
+            : '';
         return `
         <button class="matern-receta-card" data-rid="${r.id}">
-            <div class="matern-receta-cat">${r.categoria}</div>
+            <div class="matern-receta-cat">${r.categoria}${badgeLac}</div>
             <div class="matern-receta-titulo">${r.titulo}</div>
-            ${uso ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${uso}</div>` : ''}
+            ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
             <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
             <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
         </button>`;
