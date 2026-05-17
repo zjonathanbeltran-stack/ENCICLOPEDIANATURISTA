@@ -4261,21 +4261,29 @@ inicializar();
 
         const fill = bar.querySelector('.modal-progress-fill');
 
-        // Reset bar when modal opens
+        // El scroll container es #modalBody en mobile, .modal en desktop
+        const getScrollEl = () => window.innerWidth <= 767
+            ? document.getElementById('modalBody')
+            : modalOverlay;
+
+        // Reset bar y scroll cuando se abre/cierra el modal
         const observer = new MutationObserver(() => {
             if (!modalOverlay.classList.contains('show')) {
                 fill.style.width = '0%';
-                modalOverlay.scrollTop = 0;
+                const el = getScrollEl();
+                if (el) el.scrollTop = 0;
             }
         });
         observer.observe(modalOverlay, { attributes: true, attributeFilter: ['class'] });
 
-        // Track scroll on the overlay (actual scrolling element)
-        modalOverlay.addEventListener('scroll', () => {
-            const { scrollTop, scrollHeight, clientHeight } = modalOverlay;
+        // Track scroll en el contenedor correcto
+        const onScroll = (e) => {
+            const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
             const progress = scrollHeight <= clientHeight ? 0 : scrollTop / (scrollHeight - clientHeight);
             fill.style.width = (progress * 100) + '%';
-        }, { passive: true });
+        };
+        modalOverlay.addEventListener('scroll', onScroll, { passive: true });
+        document.getElementById('modalBody')?.addEventListener('scroll', onScroll, { passive: true });
     })();
 
     // ── Random plant button ──
@@ -4676,10 +4684,16 @@ function initBottomSheetGestures() {
 
     let startY = 0, startScrollTop = 0, dragging = false;
 
+    // En mobile el scroll está en #modalBody, no en .modal-content
+    const getScrollTop = () => {
+        const body = document.getElementById('modalBody');
+        return body ? body.scrollTop : content.scrollTop;
+    };
+
     content.addEventListener('touchstart', e => {
         if (window.innerWidth > 767) return;
         startY = e.touches[0].clientY;
-        startScrollTop = content.scrollTop;
+        startScrollTop = getScrollTop();
         dragging = true;
     }, { passive: true });
 
@@ -4687,7 +4701,7 @@ function initBottomSheetGestures() {
         if (!dragging || window.innerWidth > 767) return;
         const dy = e.touches[0].clientY - startY;
         // Only drag when scrolled to top and pulling down
-        if (dy > 0 && content.scrollTop <= 0) {
+        if (dy > 0 && getScrollTop() <= 0) {
             content.style.transform = `translateY(${Math.min(dy * 0.55, 180)}px)`;
             content.style.transition = 'none';
         }
@@ -4698,7 +4712,7 @@ function initBottomSheetGestures() {
         dragging = false;
         const dy = e.changedTouches[0].clientY - startY;
         content.style.transition = '';
-        if (dy > 100 && content.scrollTop <= 0) {
+        if (dy > 100 && getScrollTop() <= 0) {
             content.classList.add('sheet-dismissing');
             setTimeout(() => {
                 content.classList.remove('sheet-dismissing');

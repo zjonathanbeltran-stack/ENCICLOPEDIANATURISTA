@@ -839,8 +839,7 @@ header {
     -webkit-backdrop-filter: blur(30px);
     border: 1px solid var(--glass-border-hi);
     border-radius: var(--r-xl);
-    padding: 32px 30px 32px;
-    padding-top: 64px; /* space so close button never overlaps content */
+    padding: 0 0 32px;
     position: relative;
     box-shadow: 0 30px 80px rgba(0,0,0,0.6);
     animation: modalIn 0.5s var(--ease-out);
@@ -848,6 +847,11 @@ header {
 @keyframes modalIn {
     from { opacity: 0; transform: translateY(40px) scale(0.96); }
     to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Padding del contenido del modal (fue padding de .modal-content) */
+#modalBody {
+    padding: 0 30px 32px;
 }
 
 /* Modal top bar (close + share) */
@@ -6896,6 +6900,7 @@ h1, h2, h3, .plant-name, .brand-text h1 {
         align-items: flex-end;
         padding: 0;
     }
+    /* Flex layout: top bar fijo + body scrollable */
     .modal-content {
         border-radius: 24px 24px 0 0 !important;
         min-height: 82svh !important;
@@ -6903,8 +6908,19 @@ h1, h2, h3, .plant-name, .brand-text h1 {
         max-width: 100% !important;
         width: 100% !important;
         animation: slideUpSheet 0.38s cubic-bezier(.16,1,.3,1) !important;
-        overflow-y: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        overflow-y: hidden !important; /* el scroll va en #modalBody */
         touch-action: pan-y;
+    }
+    .modal-top-bar {
+        position: relative !important; /* no sticky en mobile */
+        flex-shrink: 0;
+    }
+    #modalBody {
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
     .modal-content.sheet-dismissing {
         animation: slideDownSheet 0.28s cubic-bezier(.4,0,.6,1) forwards !important;
