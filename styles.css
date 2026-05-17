@@ -1646,7 +1646,7 @@ footer {
 @media (max-width: 767px) {
     .bottom-nav {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(7, 1fr);
         position: fixed;
         bottom: 0;
         left: 0;
@@ -1673,16 +1673,16 @@ footer {
     background: none;
     border: none;
     color: rgba(245,241,232,0.42);
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     font-weight: 500;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: color 0.2s;
     position: relative;
 }
 .bottom-nav-item i {
-    font-size: 1.05rem;
+    font-size: 1rem;
     transition: transform 0.22s var(--ease);
     display: block;
 }
