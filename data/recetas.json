@@ -2883,7 +2883,7 @@
   {
     "id": 128,
     "titulo": "Infusión de Romero para la Concentración",
-    "categoria": "General",
+    "categoria": "Memoria",
     "origen": "Urbano",
     "ingredientes": "1 cucharada de hojas de romero, 1 taza de agua.",
     "preparacion": "Infusión normal. Se utiliza a menudo para mejorar la memoria y la concentración.",
@@ -2910,7 +2910,7 @@
   {
     "id": 129,
     "titulo": "Infusión de Cúrcuma para el Colesterol",
-    "categoria": "General",
+    "categoria": "Cardiovascular",
     "origen": "Urbano",
     "ingredientes": "1 cucharadita de cúrcuma en polvo, 1 pizca de pimienta negra, 1 taza de agua.",
     "preparacion": "Hervir el agua con la cúrcuma y la pimienta durante 5 minutos. Beber una taza al día para ayudar a controlar los niveles de colesterol malo.",
@@ -2929,7 +2929,7 @@
   {
     "id": 130,
     "titulo": "Infusión de Marrubio para la Diabetes",
-    "categoria": "General",
+    "categoria": "Cardiovascular",
     "origen": "Popular",
     "ingredientes": "1 cucharada de hojas de marrubio, 1 taza de agua.",
     "preparacion": "Infusión de hojas de marrubio. Tradicionalmente utilizada para hacer más agradables las digestiones pesadas, problemas de vesícula y como coayudante para la diabetes.",
@@ -3408,7 +3408,7 @@
   {
     "id": 149,
     "titulo": "Infusión de Palo Negro para la Diabetes",
-    "categoria": "General",
+    "categoria": "Cardiovascular",
     "origen": "Norte Grande",
     "ingredientes": "Trozos de Palo Negro (Prosopis alba?), 1 litro de agua.",
     "preparacion": "Hervir los palos del arbusto y beber esta infusión cada 6 horas aproximadamente. Sirve como coadyuvante para tratar la diabetes.",
@@ -3427,7 +3427,7 @@
   {
     "id": 150,
     "titulo": "Decocción de Pimiento para la Diabetes",
-    "categoria": "General",
+    "categoria": "Cardiovascular",
     "origen": "Popular",
     "ingredientes": "Hojas de pimiento, 1 taza de agua.",
     "preparacion": "Hervir las hojas y beber la decocción, conocida por sus beneficios para tratar la diabetes.",
@@ -4715,7 +4715,7 @@
   },
   {
     "titulo": "Lawen de Radal para Tos y Bronquios",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Tos",
     "origen": "Mapuche Pewenche",
     "ingredientes": "10 g de flores o corteza interna de radal (Lomatia hirsuta), 500 ml de agua, miel de ulmo al gusto.",
     "preparacion": "Hervir la corteza en agua 10 minutos. Retirar del fuego, colar y endulzar con miel. Beber una taza caliente 3 veces al día. Usado por los lawentuchefe para tratamientos de tos persistente y afecciones bronquiales.",
@@ -4871,7 +4871,7 @@
   },
   {
     "titulo": "Decocción de Arrayán para Infecciones de Garganta",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Garganta",
     "origen": "Mapuche / Popular Patagónico",
     "ingredientes": "15 g de hojas y ramas tiernas de arrayán (Luma apiculata), 500 ml de agua.",
     "preparacion": "Hervir a fuego suave durante 10 minutos. Colar. Usar como gargarismo tibio 4-5 veces al día y beber una taza 2 veces al día. El arrayán tiene propiedades antisépticas ampliamente reconocidas en la medicina mapuche y patagónica.",
@@ -8581,7 +8581,7 @@
   {
     "id": 351,
     "titulo": "Infusión de Bailahúen para el hígado y las penas (peuma hepático)",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Mapuche",
     "ingredientes": "1 cucharada de partes aéreas de bailahúen seco, 1 taza de agua.",
     "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio, idealmente al amanecer.",
@@ -16655,7 +16655,7 @@
   {
     "id": 682,
     "titulo": "Remedio de Bailahuen y Menta para la Gripe",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Resfriados",
     "origen": "Medicina Mapuche",
     "ingredientes": "5 ramitas de bailahuen (Haplopappus baylahuen), 5 hojas de menta, 1 L de agua",
     "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
@@ -17811,7 +17811,7 @@
   {
     "id": 729,
     "titulo": "Aceite de Orégano contra Candida",
-    "categoria": "Antiparasitario",
+    "categoria": "Antifúngico",
     "origen": "Naturopatía Moderna",
     "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
     "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
@@ -19918,7 +19918,7 @@
   {
     "id": 817,
     "titulo": "Té de Notro para el Dolor de Garganta",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Garganta",
     "origen": "Medicina Mapuche",
     "ingredientes": "5 flores de notro (Embothrium coccineum) secas, 300 ml de agua",
     "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
@@ -22692,7 +22692,7 @@
   {
     "id": 930,
     "titulo": "Infusion de Chupalla para la Tos Mapuche",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Tos",
     "origen": "Medicina Mapuche",
     "ingredientes": "5 flores de chupalla (Fascicularia bicolor), 300 ml de agua",
     "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
@@ -22730,7 +22730,7 @@
   {
     "id": 932,
     "titulo": "Te de Michay para el Higado",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Medicina Mapuche",
     "ingredientes": "5 flores de michay (Berberis darwinii) secas, 300 ml de agua",
     "preparacion": "Hervir el agua. Infundir las flores 12 min. Colar.",
@@ -24470,7 +24470,7 @@
   {
     "id": 1006,
     "titulo": "Gargaras de Foye para Anginas y Dolor de Muelas",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Garganta",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "5 g de corteza de foye, 300 ml de agua",
     "preparacion": "Hervir la corteza 5 minutos. Colar y dejar entibiar (no fria, no caliente quemante).",
@@ -24715,7 +24715,7 @@
   {
     "id": 1015,
     "titulo": "Decoccion de Peciolos de Pangue para Diarrea Rebelde",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Diarrea",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "3 a 4 peciolos (tallos) frescos de nalca/pangue, cortados en rodajas, 1 litro de agua",
     "preparacion": "Hervir los peciolos de nalca troceados durante 15 minutos. Colar bien. El liquido sera de color verde-ambar oscuro, astringente.",
@@ -24796,7 +24796,7 @@
   {
     "id": 1018,
     "titulo": "Gargaras de Pangue para Anginas y Faringitis",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Garganta",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "4 peciolos de nalca troceados, 500 ml de agua",
     "preparacion": "Hervir 10 minutos. Colar y entibiar. La decoccion tendra sabor muy astringente.",
@@ -24823,7 +24823,7 @@
   {
     "id": 1019,
     "titulo": "Infusion de Paico en Ayunas para Parasitos Intestinales",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Antiparasitario",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "10 g de planta fresca de paico (hojas y tallos), 250 ml de agua hirviendo",
     "preparacion": "Verter el agua hirviendo sobre la planta fresca. Reposar 10 minutos tapado. Colar.",
@@ -24875,7 +24875,7 @@
   {
     "id": 1021,
     "titulo": "Preparacion de Paico y Culen para Parasitos Mixtos",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Antiparasitario",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "8 g de paico fresco, 8 g de hojas de culen (Otholobium glandulosum), 500 ml de agua",
     "preparacion": "Hervir ambas plantas 5 minutos. Colar con paño fino.",
@@ -24903,7 +24903,7 @@
   {
     "id": 1022,
     "titulo": "Lavado de Paico para Parasitos Externos y Sarna",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Antiparasitario",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "100 g de planta fresca de paico, 2 litros de agua",
     "preparacion": "Hervir el paico en el agua durante 10 minutos. Colar. Dejar entibiar hasta temperatura comoda.",
@@ -25064,7 +25064,7 @@
   {
     "id": 1028,
     "titulo": "Infusion de Hojas de Maqui para Diarrea y Disenteria",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Diarrea",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "20 a 25 g de hojas de maqui, 1 litro de agua hirviendo",
     "preparacion": "Verter el agua caliente sobre las hojas. Reposar 15 minutos. Colar.",
@@ -25173,7 +25173,7 @@
   {
     "id": 1032,
     "titulo": "Infusion de Corteza de Quillay para Tos y Bronquitis",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Tos",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "4 g de corteza interna de quillay (la corteza blanca, no la gris externa), 500 ml de agua caliente",
     "preparacion": "Verter el agua caliente (no hirviendo) sobre la corteza interna. Reposar 15 minutos. Colar con cuidado.",
@@ -25200,7 +25200,7 @@
   {
     "id": 1033,
     "titulo": "Lavado Capilar con Espuma de Quillay para Caspa y Caida",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Cabello",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "Un trozo de corteza interna de quillay del tamano de una pelota de tenis",
     "preparacion": "Batir la corteza interna en agua fria o tibia frotando energicamente hasta producir espuma abundante y densa. La espuma sera rica y persistente.",
@@ -25254,7 +25254,7 @@
   {
     "id": 1035,
     "titulo": "Infusion de Bailahuen para Indigestion y Higado Cargado",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "8 g de ramas con hojas de bailahuen seco, 500 ml de agua hirviendo",
     "preparacion": "Verter el agua hirviendo sobre el bailahuen. Reposar 12 minutos. Colar. Aroma intenso, levemente amargo.",
@@ -25273,7 +25273,7 @@
   {
     "id": 1036,
     "titulo": "Decoccion de Bailahuen para la Vesicula y la Bilis",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "15 g de ramas de bailahuen secas, 500 ml de agua",
     "preparacion": "Hervir las ramas de bailahuen 5 minutos. Colar bien. El liquido sera ambar intenso.",
@@ -25389,7 +25389,7 @@
   {
     "id": 1041,
     "titulo": "Infusion de Quinchamali para Tos y Bronquitis",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Tos",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "12 g de planta de quinchamalí seca (hojas, tallos y flores), 500 ml de agua hirviendo",
     "preparacion": "Verter el agua hirviendo sobre la planta seca. Reposar 12 minutos. Colar.",
@@ -25408,7 +25408,7 @@
   {
     "id": 1042,
     "titulo": "Decoccion de Quinchamali con Miel de Ulmo para Resfrío",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Resfriados",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "15 g de quinchamalí fresco, 500 ml de agua, 2 cucharadas de miel de ulmo (Eucryphia cordifolia)",
     "preparacion": "Hervir el quinchamalí en el agua 5 minutos. Colar. Dejar entibiar a menos de 40 grados. Agregar la miel de ulmo (nunca agregar la miel al agua hirviendo, pues destruye sus enzimas y principios activos).",
@@ -25435,7 +25435,7 @@
   {
     "id": 1043,
     "titulo": "Infusion de Quinchamali para Apoyo Hepatico",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "10 g de planta de quinchamalí seca, 500 ml de agua hirviendo",
     "preparacion": "Verter el agua hirviendo sobre la planta. Reposar 15 minutos. Colar.",
@@ -25473,7 +25473,7 @@
   {
     "id": 1045,
     "titulo": "Vapor de Triwe para Resfrío y Gripe",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Resfriados",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "50 g de hojas y ramas de triwe frescas, 2 litros de agua",
     "preparacion": "Hervir el triwe en el agua 5 minutos. Retirar del fuego. Inhalar el vapor inclinando la cabeza sobre el recipiente, cubriendo con una toalla.",
@@ -25651,7 +25651,7 @@
   {
     "id": 1053,
     "titulo": "Jarabe de Miel de Ulmo y Quinchamali para Tos del Nino",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Tos",
     "origen": "Medicina Mapuche",
     "ingredientes": "300 ml de infusion de quinchamalí (15 g quinchamalí en 300 ml agua), 3 cucharadas de miel de ulmo (Eucryphia cordifolia)",
     "preparacion": "Preparar la infusion de quinchamalí. Colar y dejar entibiar a menos de 40 grados. Agregar la miel de ulmo y mezclar bien.",
@@ -25705,7 +25705,7 @@
   {
     "id": 1055,
     "titulo": "Infusion de Culen y Bailahuen para el Higado y las Emociones",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Hepático",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "10 g de hojas de culen, 8 g de ramas de bailahuen, 500 ml de agua hirviendo",
     "preparacion": "Verter el agua hirviendo sobre ambas plantas. Reposar 12 minutos. Colar.",
@@ -25788,7 +25788,7 @@
   {
     "id": 1058,
     "titulo": "Mezcla de Bailahuen, Quinchamali y Culen para el Resfrío Mapuche",
-    "categoria": "Medicina Mapuche",
+    "categoria": "Resfriados",
     "origen": "Medicina Machi Mapuche",
     "ingredientes": "5 g de bailahuen, 5 g de quinchamalí, 5 g de hojas de culen, 500 ml de agua hirviendo",
     "preparacion": "Verter el agua sobre las tres plantas juntas. Reposar 12 minutos. Colar.",
@@ -25897,7 +25897,7 @@
   {
     "id": 1062,
     "titulo": "Mudai de Pinon Tostado: Bebida Ceremonial Pewenche para Recuperacion Post-Parto",
-    "categoria": "Ginecologico",
+    "categoria": "Ginecológico",
     "origen": "Mapuche Pewenche (Alto Biobio, Lonquimay)",
     "ingredientes": "500 g de pinones de araucaria (Araucaria araucana / Pewen); 2 litros de agua pura de vertiente; 1 cucharada de sal de piedra (opcional); 1 rama de canelo (Drimys winteri / foye) de 20 cm",
     "preparacion": "1. Tostar los pinones en brasa hasta que la cascara se abra levemente (20-30 minutos, removiendo constantemente). 2. Pelar los pinones tostados aun calientes. 3. Moler en piedra de moler (kutral) hasta obtener harina gruesa. 4. Hervir el agua con la rama de canelo durante 10 minutos; retirar canelo. 5. Disolver la harina de pinon en el agua caliente, revolviendo sin parar. 6. Colar con pano fino. Servir tibio.",
@@ -25949,7 +25949,7 @@
   {
     "id": 1064,
     "titulo": "Bano de Vapor con Nocha para Dolores Musculares (Mapun Lawen Pewenche)",
-    "categoria": "Bano",
+    "categoria": "Baño",
     "origen": "Mapuche Pewenche (Alto Biobio, Ralco, Quinquen)",
     "ingredientes": "1 manojo grande (500 g aprox.) de hojas frescas de Nocha (Fascicularia bicolor o Bromelia sp.); 1 manojo de ramas de Quila (Chusquea quila); 10 piedras medianas de rio; 5 litros de agua",
     "preparacion": "1. Calentar las piedras de rio en fogon a fuego intenso durante 40 minutos. 2. Preparar ruka improvisada (tienda de vapor) con mantas sobre estructura de quila formando una camara cerrada. 3. Introducir las piedras calientes en recipiente dentro de la camara. 4. Verter el agua de a poco sobre las piedras calientes para generar vapor. 5. Colocar las hojas de nocha sobre las piedras humedas (el vapor arrastrara sus aceites). 6. El paciente entra a la camara de vapor cubierto. Sesion de 15-20 minutos.",
@@ -26001,7 +26001,7 @@
   {
     "id": 1066,
     "titulo": "Lawen de Tepu para el Postparto Williche (Tepualia Lawen Kume Mogelen)",
-    "categoria": "Ginecologico",
+    "categoria": "Ginecológico",
     "origen": "Mapuche Williche (Osorno, San Juan de la Costa, Chiloe continental)",
     "ingredientes": "40 g de hojas y ramas finas de Tepu (Tepualia stipularis) secas; 1 litro de agua; 20 g de corteza de patagua (Crinodendron patagua); 1 cucharada de miel de ulmo (Eucryphia cordifolia)",
     "preparacion": "1. Desmenuzar las hojas y ramas de tepu en trozos pequenos. 2. Hervir el agua; agregar el tepu y la corteza de patagua simultaneamente. 3. Cocer a fuego medio-bajo durante 25 minutos con la olla tapada. 4. Dejar reposar tapado 10 minutos adicionales. 5. Colar con pano fino y expresar bien el material vegetal. 6. Agregar la miel de ulmo cuando el liquido este tibio (no caliente, para preservar enzimas). Revolver.",
@@ -26027,7 +26027,7 @@
   {
     "id": 1067,
     "titulo": "Cataplasma de Michay (Berberis darwinii) para Infecciones de Piel Williche",
-    "categoria": "Dermatologico",
+    "categoria": "Dermatológico",
     "origen": "Mapuche Williche (Osorno, Frutillar, lago Llanquihue)",
     "ingredientes": "50 g de corteza fresca de michay / calafate del sur (Berberis darwinii / ngulla o puni en mapudungun); 30 ml de agua; 1 cucharada de grasa animal (preferentemente grasa de capon o manteca de cerdo)",
     "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
@@ -26053,7 +26053,7 @@
   {
     "id": 1068,
     "titulo": "Unguento de Quilquil (Blechnum chilense) y Manteca para Lumbago Williche-Chilote",
-    "categoria": "Analgesico",
+    "categoria": "Analgésico",
     "origen": "Mapuche Williche / Chilote (Chiloe continental, Ancud, Castro)",
     "ingredientes": "200 g de frondes (hojas) frescas de quilquil (Blechnum chilense); 3 cucharadas de manteca de cerdo (wenu puno en mapudungun); 1 cucharada de aceite de linaza",
     "preparacion": "1. Lavar bien las hojas de quilquil con agua fria. 2. Machacar intensamente en mortero o majar hasta obtener pulpa verde jugosa. 3. Derretir la manteca a fuego muy bajo. 4. Incorporar la pulpa de quilquil a la manteca tibia. 5. Agregar el aceite de linaza. 6. Revolver durante 10 minutos a fuego minimo sin que hierva. 7. Retirar del fuego, dejar enfriar hasta consistencia de unguento. Guardar en tarro.",
@@ -26079,7 +26079,7 @@
   {
     "id": 1069,
     "titulo": "Mudai de Murtilla con Tepu para Fiebre Alta en Ninos (Pichi Lawen Chilote)",
-    "categoria": "Febrifugo",
+    "categoria": "Febrífugo",
     "origen": "Mapuche Huilliche / Chilote (Isla Grande de Chiloe, Quinchao, Lemuy)",
     "ingredientes": "1 taza de frutos maduros de murtilla (Ugni molinae / uni en mapudungun); 5 hojas medianas de tepu (Tepualia stipularis); 750 ml de agua; 2 cucharadas de miel de colmena chilota; jugo de medio limon silvestre (si disponible)",
     "preparacion": "1. Lavar bien las murtillas y las hojas de tepu. 2. Hervir el agua y agregar las hojas de tepu. Cocer 10 minutos. 3. Agregar las murtillas al caldo caliente, aplastar con cuchara de madera para liberar jugos. 4. Continuar a fuego bajo 5 minutos mas. 5. Colar con cedazo fino, expresando bien los frutos. 6. Agregar la miel cuando este tibio y el jugo de limon. El resultado debe ser una bebida rosada y dulce.",
@@ -26157,7 +26157,7 @@
   {
     "id": 1072,
     "titulo": "Bano de Luche y Sal de Mar para Eczema y Psoriasis Lafkenche",
-    "categoria": "Dermatologico",
+    "categoria": "Dermatológico",
     "origen": "Mapuche Lafkenche (costa entre Lebu y Carahue)",
     "ingredientes": "300 g de luche fresco (Porphyra columbina / wutre en mapudungun) o 100 g seco; 500 g de sal de mar gruesa; 5 litros de agua de mar (o agua dulce con 100 g sal de mar)",
     "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
@@ -26365,7 +26365,7 @@
   {
     "id": 1080,
     "titulo": "Cataplasma de Chachacoma y Grasa de Llama para Dolor de Cabeza de Altura Aymara",
-    "categoria": "Analgesico",
+    "categoria": "Analgésico",
     "origen": "Aymara (Parinacota, Putre, Lago Chunga)",
     "ingredientes": "30 g de hojas y flores de chachacoma (Senecio nutans / chakakuma en aymara); 3 cucharadas de grasa de llama (o grasa de vacuno); 1 cucharada de alcohol de cana; 1 cucharada de tintura de rica-rica (opcional)",
     "preparacion": "1. Secar las hojas de chachacoma al sol durante 2 dias o en lugar ventilado. 2. Triturar las hojas secas en mortero hasta polvo grueso. 3. Mezclar la grasa de llama tibia con el polvo de chachacoma y el alcohol. 4. Revolver hasta obtener pasta homogenea. 5. Agregar la tintura de rica-rica si se dispone. 6. Aplicar sobre la frente, sienes y nuca con masaje suave.",
@@ -26391,7 +26391,7 @@
   {
     "id": 1081,
     "titulo": "Decoccion de Talhuen para Fiebre e Infecciones del Desierto Likan Antai",
-    "categoria": "Febrifugo",
+    "categoria": "Febrífugo",
     "origen": "Atacameno / Likan Antai (San Pedro de Atacama, Toconao, Socaire)",
     "ingredientes": "25 g de ramas floridas de talhuen (Eupatorium glechonophyllum / talhuen en atacameno); 1 litro de agua; 1 cucharadita de sal de Atacama; 1 cucharada de miel de abeja del desierto (si disponible)",
     "preparacion": "1. Recolectar el talhuen al amanecer, cuando el rocio del desierto ha humectado las hojas y los aceites estan concentrados. 2. Hervir el litro de agua. 3. Agregar el talhuen al agua hirviendo. 4. Reducir el fuego y cocer 20 minutos semitapado. 5. Apagar, tapar completamente y reposar 20 minutos. 6. Colar expresando bien el material. Agregar sal y miel cuando este tibio.",
@@ -26443,7 +26443,7 @@
   {
     "id": 1083,
     "titulo": "Lavado de Ojos con Supo del Desierto para Conjuntivitis Atacamena (Likan Antai)",
-    "categoria": "Oftalmologico",
+    "categoria": "Oftalmológico",
     "origen": "Atacameno / Likan Antai (oasis de Atacama: Peine, Toconao, Camar)",
     "ingredientes": "15 g de flores de supo (Tessaria absinthioides / supo en atacameno); 300 ml de agua pura de vertiente (o agua destilada); 2.7 g de sal de Atacama (para isotonizar: 0.9 g por 100 ml)",
     "preparacion": "1. Recolectar flores jovenes del supo del oasis (planta de lugares con agua). 2. Hervir el agua y apagar el fuego. Dejar bajar temperatura a 60°C. 3. Agregar las flores de supo y tapar. Infundir 15 minutos. 4. Colar con tela muy fina o gasa doblada tres veces hasta obtener liquido transparente. 5. Agregar la sal de Atacama (0.9 g por 100 ml para isotonizar). 6. Dejar enfriar completamente a temperatura ambiente antes de usar.",
