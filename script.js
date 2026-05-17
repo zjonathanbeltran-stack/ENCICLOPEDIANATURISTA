@@ -1239,6 +1239,7 @@ function renderMedicinaAncestral() {
     // ── Filtrar según pueblo, sistema y búsqueda ──
     function filtrarYRenderizar() {
         let lista = todas;
+        let totalSearch = null;
 
         if (_ancPuebloActivo !== 'todos') {
             lista = lista.filter(r => puebloDeReceta(r) === _ancPuebloActivo);
@@ -1246,20 +1247,42 @@ function renderMedicinaAncestral() {
 
         if (_ancSistema) {
             const sis = SISTEMAS.find(s => s.id === _ancSistema);
-            if (sis) {
-                lista = lista.filter(r => sis.cats.includes(r.categoria));
-            }
+            if (sis) lista = lista.filter(r => sis.cats.includes(r.categoria));
         }
 
         if (_ancBusqueda) {
-            const q = _ancBusqueda.toLowerCase();
-            lista = lista.filter(r =>
-                (r.titulo || '').toLowerCase().includes(q) ||
-                (r.ingredientes || '').toLowerCase().includes(q) ||
-                (r.uso || '').toLowerCase().includes(q) ||
-                (r.origen || '').toLowerCase().includes(q) ||
-                (r.categoria || '').toLowerCase().includes(q)
-            );
+            const STOPWORDS = new Set(['las','los','una','uno','del','con','que','mas','sin','por','sus','mis','hay','ese','esa','era','fue','han','has','les','nos','tus']);
+            let q = normDol(_ancBusqueda)
+                .replace(/^(me duele(n)?|tengo|siento|busco( algo)?|quiero( algo)?|algo para|remedio para|para (el|la|los|las|un|una))\s+/i, '')
+                .trim();
+            const qWords = q.split(/\s+/).filter(w => w.length >= 3 && !STOPWORDS.has(w));
+            if (qWords.length === 0 && q.length >= 2) qWords.push(q);
+
+            if (qWords.length > 0) {
+                const scored = lista.map(r => {
+                    const titulo  = normDol(r.titulo);
+                    const usoPrim = normDol((r.uso || '').slice(0, 200));
+                    const props   = normDol(Array.isArray(r.propiedades) ? r.propiedades.join(' ') : (r.propiedades || ''));
+                    const ingred  = normDol((r.ingredientes || '').slice(0, 300));
+                    const cat     = normDol(r.categoria);
+                    const origen  = normDol(r.origen || '');
+                    let score = 0;
+                    for (const qw of qWords) { if (titulo.includes(qw))  { score += 8; break; } }
+                    for (const qw of qWords) { if (usoPrim.includes(qw)) { score += 5; break; } }
+                    for (const qw of qWords) { if (props.includes(qw))   { score += 4; break; } }
+                    for (const qw of qWords) { if (ingred.includes(qw))  { score += 3; break; } }
+                    for (const qw of qWords) { if (cat.includes(qw))     { score += 3; break; } }
+                    for (const qw of qWords) { if (origen.includes(qw))  { score += 2; break; } }
+                    return { r, score };
+                }).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+                lista = scored.map(x => x.r);
+            } else {
+                lista = [];
+            }
+
+            totalSearch = lista.length;
+            const MAX_RESULTS = 48;
+            if (lista.length > MAX_RESULTS) lista = lista.slice(0, MAX_RESULTS);
         }
 
         // Contador de resultados
@@ -1272,7 +1295,9 @@ function renderMedicinaAncestral() {
                 if (_ancPuebloActivo !== 'todos') partes.push(ANCESTRAL_PUEBLOS[_ancPuebloActivo]?.label);
                 if (sis) partes.push(sis.nombre);
                 if (_ancBusqueda) partes.push(`"${_ancBusqueda}"`);
-                countEl.innerHTML = `<i class="fas fa-filter"></i> <strong>${lista.length}</strong> receta${lista.length !== 1 ? 's' : ''} — ${partes.join(' · ')}`;
+                const mostradas = lista.length;
+                const hayMas = totalSearch && totalSearch > mostradas;
+                countEl.innerHTML = `<i class="fas fa-filter"></i> <strong>${mostradas}</strong>${hayMas ? ` de ${totalSearch}` : ''} receta${mostradas !== 1 ? 's' : ''} — ${partes.join(' · ')}`;
                 countEl.hidden = false;
             } else {
                 countEl.hidden = true;
@@ -1326,10 +1351,12 @@ function renderMedicinaAncestral() {
     const searchInput = $('#ancestralSearchInput');
     const searchClear = $('#ancestralSearchClear');
     if (searchInput) {
+        let _ancSearchTimer = null;
         searchInput.addEventListener('input', () => {
             _ancBusqueda = searchInput.value.trim();
             if (searchClear) searchClear.hidden = !_ancBusqueda;
-            filtrarYRenderizar();
+            clearTimeout(_ancSearchTimer);
+            _ancSearchTimer = setTimeout(filtrarYRenderizar, 250);
         });
     }
     if (searchClear) {
