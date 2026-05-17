@@ -1427,33 +1427,6 @@
     "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
   },
   {
-    "id": 60,
-    "titulo": "Loción de Romero para la Caída del Cabello",
-    "categoria": "Cosmético",
-    "origen": "Cosmético",
-    "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-    "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-    "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-    "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "3–5 aplicaciones por preparación",
-    "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-    "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-    "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-    "propiedades": [
-      "antioxidante",
-      "estimulante circulatorio",
-      "antiinflamatorio",
-      "antiséptico",
-      "carminativo"
-    ],
-    "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
-  },
-  {
     "id": 61,
     "titulo": "Compresa de Manzanilla para los Ojos Cansados",
     "categoria": "Oftalmológico",
@@ -1479,60 +1452,6 @@
       "cicatrizante"
     ],
     "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
-  },
-  {
-    "id": 62,
-    "titulo": "Baño de Asiento de Manzanilla",
-    "categoria": "Baño",
-    "origen": "Popular",
-    "ingredientes": "Flores de manzanilla, 2 o 3 litros de agua.",
-    "preparacion": "Baño de asiento emoliente sirve para aliviar las molestias causadas por hemorroides.",
-    "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
-    "modo_uso": "Externo — baño de inmersión o lavado corporal",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "1 baño completo",
-    "conservacion": "Preparar al momento; no reutilizar el agua",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "Verificar temperatura del agua (no exceder 38 °C). Contraindicado en embarazo avanzado.",
-    "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-    "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-    "propiedades": [
-      "antiinflamatorio",
-      "antiespasmódico",
-      "carminativo",
-      "sedante leve",
-      "cicatrizante"
-    ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
-  },
-  {
-    "id": 63,
-    "titulo": "Enjuague de Caléndula para la Piel Grasa",
-    "categoria": "Cosmético",
-    "origen": "Cosmético",
-    "ingredientes": "Flores de caléndula, agua.",
-    "preparacion": "Aplicar el agua de caléndula sobre el rostro para regular la producción de grasa.",
-    "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-    "modo_uso": "Tópico — enjuague o lavado local",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "3–5 aplicaciones por preparación",
-    "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-    "uso": "Piel Grasa: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-    "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
-    "propiedades": [
-      "antiinflamatorio",
-      "cicatrizante",
-      "antiséptico",
-      "emoliente",
-      "antifúngico"
-    ],
-    "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999"
   },
   {
     "id": 64,
@@ -1982,33 +1901,6 @@
     "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
   },
   {
-    "id": 84,
-    "titulo": "Té Verde con Menta para la Digestión",
-    "categoria": "Digestivo",
-    "origen": "Urbano",
-    "ingredientes": "1 cucharadita de té verde, 1/2 cucharadita de menta seca, 1 taza de agua.",
-    "preparacion": "Infusión por 2-3 minutos. Tomar después de las comidas para facilitar la digestión y activar el metabolismo.",
-    "dosis": "1 taza, 2–3 veces al día después de las comidas",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "6 min",
-    "dificultad": "Fácil",
-    "rendimiento": "2–3 tazas",
-    "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
-    "uso": "Digestión: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-    "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
-    "propiedades": [
-      "antiespasmódico",
-      "digestivo",
-      "carminativo",
-      "analgésico local",
-      "expectorante"
-    ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
-  },
-  {
     "id": 85,
     "titulo": "Loción de Romero para la Caída del Cabello",
     "categoria": "Cosmético",
@@ -2061,33 +1953,6 @@
       "broncodilatador"
     ],
     "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999"
-  },
-  {
-    "id": 87,
-    "titulo": "Compresa de Manzanilla para los Ojos Cansados",
-    "categoria": "Oftalmológico",
-    "origen": "Cosmética Natural",
-    "ingredientes": "2 bolsitas de manzanilla o 2 cucharadas de flores, 1 taza de agua caliente.",
-    "preparacion": "Preparar una infusión con las bolsitas. Dejar enfriar y luego aplicar las bolsitas tibias sobre los ojos cerrados durante 10 minutos para Descansar la vista.",
-    "dosis": "Colirio natural: 2–3 gotas en cada ojo, 3 veces al día; compresa: 10 min",
-    "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
-    "tiempo_prep": "13 min",
-    "dificultad": "Fácil",
-    "rendimiento": "1 sesión de tratamiento",
-    "conservacion": "Preparar fresco cada vez; nunca reutilizar",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "Nunca usar preparaciones no estériles si hay infección ocular. Consultar oftalmólogo.",
-    "uso": "Ojos Cansados: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-    "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-    "propiedades": [
-      "antiinflamatorio",
-      "antiespasmódico",
-      "carminativo",
-      "sedante leve",
-      "cicatrizante"
-    ],
-    "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010"
   },
   {
     "id": 88,
@@ -2170,34 +2035,6 @@
       "cicatrizante"
     ],
     "referencias": "Shaik YB. et al. J Allergy 2006; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010"
-  },
-  {
-    "id": 91,
-    "titulo": "Pomada de Quillay y Menta para la Piel",
-    "categoria": "Dermatológico",
-    "origen": "Chileno",
-    "ingredientes": "Corteza de quillay, hojas de menta, 200gr de manteca de cerdo o vaselina.",
-    "preparacion": "Derretir la manteca a fuego lento, añadir las plantas previamente machacadas y mezclar. Dejar enfriar. Aplicar sobre la zona afectada para tratar eccemas y aliviar la comezón.",
-    "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-    "modo_uso": "Tópico — aplicar directamente sobre la piel",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "2–4 aplicaciones por preparación",
-    "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-    "uso": "La Piel: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-    "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-    "propiedades": [
-      "antiespasmódico",
-      "digestivo",
-      "carminativo",
-      "analgésico local",
-      "expectorante",
-      "mucolítico"
-    ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
   },
   {
     "id": 92,
@@ -2518,33 +2355,6 @@
       "expectorante"
     ],
     "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010"
-  },
-  {
-    "id": 105,
-    "titulo": "Aceite de Hipérico para Quemaduras",
-    "categoria": "Cicatrizante",
-    "origen": "Urbano",
-    "ingredientes": "Flores frescas de Hipérico (Hierba de San Juan), aceite de oliva.",
-    "preparacion": "Macerar las flores en aceite de oliva al sol por 3-4 semanas. Filtrar. Aplicar sobre la piel afectada para calmar el dolor y promover la regeneración.",
-    "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-    "modo_uso": "Tópico — cataplasma, compresa o loción",
-    "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
-    "rendimiento": "2–3 aplicaciones por preparación",
-    "conservacion": "Preparar fresco; usar el mismo día",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-    "uso": "Quemaduras: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.",
-    "principios_activos": "Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.",
-    "propiedades": [
-      "antidepresivo",
-      "ansiolítico",
-      "antiviral",
-      "antiinflamatorio",
-      "cicatrizante"
-    ],
-    "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999"
   },
   {
     "id": 106,
@@ -9848,32 +9658,6 @@
       "expectorante"
     ],
     "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010"
-  },
-  {
-    "id": 392,
-    "titulo": "Infusión de Paico para parásitos intestinales",
-    "categoria": "Antiparasitario",
-    "origen": "Popular Chileno",
-    "ingredientes": "1 cucharadita de hojas y semillas de paico seco, 1 taza de agua.",
-    "preparacion": "Infusionar en agua hervida 8 minutos tapado. Colar bien. Beber tibio en ayunas.",
-    "dosis": "1 taza en ayunas por 5–7 días. Descansar 1 semana antes de repetir. Acompañar con dieta sin azúcar.",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "10 min",
-    "dificultad": "Fácil",
-    "rendimiento": "1 taza",
-    "conservacion": "Preparar al momento",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "CONTRAINDICADO en embarazo (puede causar aborto). Tóxico en dosis altas. No exceder 1 cucharadita por taza ni 5 días seguidos.",
-    "uso": "Parásitos intestinales: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
-    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
-    "propiedades": [
-      "antiparasitario",
-      "vermífugo",
-      "digestivo",
-      "carminativo"
-    ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010"
   },
   {
     "id": 393,
