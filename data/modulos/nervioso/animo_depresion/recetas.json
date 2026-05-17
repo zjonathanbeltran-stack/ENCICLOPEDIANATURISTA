@@ -140,6 +140,35 @@
       ],
       "principios_activos": "Eugenol y ácido rosmarínico: acción adaptógena que modula los niveles de cortisol y reduce el estrés oxidativo cerebral. | Triterpenos: efecto neuroprotector y modulador sobre el eje hipotálamo-hipófisis-adrenal, mejorando la respuesta al estrés y el estado anímico.",
       "referencias": "WHO Monographs Vol.2 (2002) Ocimum tenuiflorum; MINSAL 2010; Bhattacharyya D et al. Nepal Med Coll J 2008;10(3):176-179"
+    },
+    {
+      "id": 1499,
+      "titulo": "Tintura de Hipérico para el Ánimo Bajo",
+      "categoria": "Nervioso",
+      "modulo": "nervioso",
+      "submodulo": "animo_depresion",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "50 g de sumidades floridas frescas de hipérico, 250 ml de alcohol de 40° (vodka o aguardiente)",
+      "preparacion": "Colocar las flores de hipérico en un frasco de vidrio y cubrir con el alcohol. Cerrar bien y macerar durante 15 días en lugar oscuro, agitando a diario. Colar y guardar en frasco cuentagotas.",
+      "dosis": "15-20 gotas en medio vaso de agua, 2 veces al día (mañana y mediodía). No usar más de 6 semanas sin evaluación médica.",
+      "modo_uso": "Oral — tintura diluida en agua",
+      "tiempo_prep": "15 días (maceración) + 5 min",
+      "dificultad": "Moderada",
+      "rendimiento": "250 ml de tintura (aproximadamente 500 dosis)",
+      "conservacion": "En frasco oscuro, lugar fresco, hasta 1 año.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "NUNCA combinar con antidepresivos, anticonceptivos orales, anticoagulantes, inmunosupresores ni otros medicamentos sin consultar al médico. Evitar la exposición solar prolongada. No usar en embarazo, lactancia ni en trastorno bipolar. Puede causar fotosensibilidad.",
+      "uso": "Ánimo decaído, tristeza y falta de energía: el hipérico ayuda a levantar el estado de ánimo de forma gradual, mejorando la vitalidad y la capacidad para disfrutar de la vida.",
+      "propiedades": [
+        "antidepresivo leve",
+        "ansiolítico",
+        "neuroprotector",
+        "antiinflamatorio",
+        "antiviral"
+      ],
+      "principios_activos": "Hipericina e hiperforina: inhiben la recaptación de serotonina, noradrenalina y dopamina, aumentando su disponibilidad sináptica. Flavonoides: contribuyen al efecto neuroprotector y antiinflamatorio.",
+      "referencias": "Linde K et al. Hypericum perforatum for depression. Cochrane Database Syst Rev. 2008;(3):CD000448; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
     }
   ]
 }

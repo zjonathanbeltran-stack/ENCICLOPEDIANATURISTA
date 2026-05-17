@@ -3876,6 +3876,90 @@
         "Arrayán",
         "Canelo"
       ]
+    },
+    {
+      "id": 1493,
+      "titulo": "Decocción de Laurel Chileno para los Dolores de Cabeza Mapuche",
+      "categoria": "Medicina Mapuche",
+      "modulo": "mapuche",
+      "submodulo": "medicina_mapuche",
+      "origen": "Mapuche Pewenche",
+      "ingredientes": "1 hoja fresca de laurel chileno (Laurelia sempervirens / trihue), 500 ml de agua",
+      "preparacion": "Hervir el agua con la hoja de laurel chileno durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+      "dosis": "1 taza (250 ml) cada 8 horas mientras dure el dolor de cabeza. No usar más de 3 días seguidos.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas (500 ml)",
+      "conservacion": "Refrigerar hasta 24 horas. Calentar suavemente antes de consumir.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Mapuche Pewenche",
+      "contraindicaciones": "No usar durante el embarazo o lactancia sin consultar a un especialista en medicina mapuche. Evitar en caso de alergia al laurel. No administrar a niños menores de 12 años sin supervisión. No usar por períodos prolongados.",
+      "uso": "Dolores de cabeza persistentes y migrañas según la tradición mapuche: el laurel chileno ayuda a calmar el dolor y a reducir la presión en la cabeza.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "vasodilatador cerebral",
+        "calmante"
+      ],
+      "principios_activos": "Aceite esencial con safrol y cineol: acción analgésica y antiinflamatoria sobre el sistema nervioso central. Alcaloides isoquinolínicos: efecto vasodilatador cerebral que alivia la cefalea.",
+      "referencias": "Schmeda-Hirschmann G et al. Hypotensive effect of Laurelia sempervirens on normotensive rats. Phytother Res. 1994; Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1494,
+      "titulo": "Infusión de Romerillo Chileno para los Cólicos Estomacales Mapuche",
+      "categoria": "Medicina Mapuche",
+      "modulo": "mapuche",
+      "submodulo": "medicina_mapuche",
+      "origen": "Mapuche Pewenche",
+      "ingredientes": "1 cucharadita de hojas secas de romerillo chileno (Baccharis linearis), 250 ml de agua",
+      "preparacion": "Hervir el agua. Verter sobre el romerillo, tapar y dejar reposar 10 minutos. Colar y beber tibio después de las comidas.",
+      "dosis": "1 taza después de las comidas principales, hasta 2 veces al día. No usar más de 2 semanas seguidas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Mapuche Pewenche",
+      "contraindicaciones": "No usar durante el embarazo sin consultar a un especialista en medicina mapuche. Evitar en caso de alergia a plantas de la familia Asteraceae. No administrar a niños menores de 6 años.",
+      "uso": "Cólicos estomacales y mala digestión según la tradición mapuche: el romerillo calma los espasmos del estómago y facilita la digestión después de las comidas.",
+      "propiedades": [
+        "digestivo",
+        "antiespasmódico",
+        "carminativo",
+        "estimulante estomacal"
+      ],
+      "principios_activos": "Aceite esencial con compuestos terpénicos: acción antiespasmódica y carminativa sobre la musculatura lisa gastrointestinal. Flavonoides: efecto antiinflamatorio sobre la mucosa digestiva.",
+      "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1495,
+      "titulo": "Cataplasma de Peumo para las Heridas según la Medicina Mapuche",
+      "categoria": "Medicina Mapuche",
+      "modulo": "mapuche",
+      "submodulo": "medicina_mapuche",
+      "origen": "Mapuche Pewenche",
+      "ingredientes": "Un puñado de hojas frescas de peumo (Cryptocarya alba), agua limpia para lavar",
+      "preparacion": "Lavar bien las hojas de peumo. Machacarlas en un mortero hasta obtener una pasta. Aplicar directamente sobre la herida limpia y cubrir con una gasa. Dejar actuar 2 horas y renovar la cataplasma.",
+      "dosis": "Aplicar 2 a 3 veces al día hasta observar mejoría de la herida. No usar más de 7 días seguidos sin evaluar.",
+      "modo_uso": "Tópico — cataplasma directa",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco en cada uso. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Mapuche Pewenche",
+      "contraindicaciones": "No aplicar sobre heridas profundas o muy sangrantes. Evitar en caso de alergia al peumo. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+      "uso": "Heridas superficiales y cortes según la tradición mapuche: las hojas de peumo ayudan a cerrar las heridas y previenen infecciones de la piel.",
+      "propiedades": [
+        "cicatrizante",
+        "antiséptico",
+        "astringente",
+        "antiinflamatorio"
+      ],
+      "principios_activos": "Taninos y flavonoides: acción astringente y antiséptica que protege la herida de infecciones. Compuestos fenólicos: efecto antiinflamatorio local que acelera la cicatrización.",
+      "referencias": "Simirgiotis MJ et al. Antioxidant capacity and inhibition of metabolic syndrome-associated enzymes by Cryptocarya alba fruits. 2023. PMID: 37605366; Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
     }
   ]
 }
