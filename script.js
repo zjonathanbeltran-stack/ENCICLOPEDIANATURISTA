@@ -63,8 +63,14 @@ async function cargarModulo(moduloId) {
 
 async function asegurarCatalogoCompleto() {
     if (recetasDB.length > 0) return;
-    const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
-    recetasDB = todos.flat();
+    try {
+        const res = await fetch('data/recetas.json');
+        if (!res.ok) throw new Error('recetas.json no disponible');
+        recetasDB = await res.json();
+    } catch (_) {
+        const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
+        recetasDB = todos.flat();
+    }
     window.recetasDB = recetasDB;
 }
 
@@ -2559,21 +2565,25 @@ function abrirDetalleReceta(id) {
     const ev = evidenciaBadge[r.evidencia] || { color: 'var(--text-mute)', icon: '📖' };
 
     const _fotoUrl = fotoDeReceta(r);
+    const _esNueva = r.id >= NUEVO_DESDE_ID;
     $('#modalBody').innerHTML = `
         <div class="modal-art modal-art-receta" style="background:${gradFromCat(r.categoria)}">
             <img class="modal-receta-foto" src="${_fotoUrl}" alt="${r.modo_uso || ''}"
-                 loading="lazy" decoding="async"
+                 loading="eager" decoding="async"
                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             <div class="illus illus-lg modal-receta-svg" style="display:none">${ilustracionDeReceta(r)}</div>
             <div class="modal-receta-overlay"></div>
+            <div class="modal-receta-header-badges">
+                <span class="receta-cat-pill receta-cat-pill-hero">${r.categoria}</span>
+                ${_esNueva ? `<span class="receta-nueva-badge receta-nueva-badge-hero">✨ Nueva</span>` : ''}
+            </div>
         </div>
 
-        <!-- Encabezado -->
-        <div class="receta-meta-top">
-            <span class="receta-cat-pill">${r.categoria}</span>
+        <!-- Título y origen -->
+        <div class="receta-modal-titulo-bloque">
+            <h2 class="receta-modal-h2">${r.titulo}</h2>
             <span class="receta-origen-pill">${r.fuente_tradicion || r.origen}</span>
         </div>
-        <h2 style="margin-bottom:4px">${r.titulo}</h2>
 
         <!-- Chips de info rápida -->
         <div class="receta-info-chips">
@@ -2583,7 +2593,7 @@ function abrirDetalleReceta(id) {
             ${r.rendimiento ? `<div class="rec-chip"><i class="fas fa-flask"></i> ${r.rendimiento}</div>` : ''}
         </div>
 
-        <!-- Uso -->
+        <!-- Uso / Para qué sirve -->
         ${(() => { const pqs = r.uso || getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
             <div class="para-que-icon">${_SVG_INDIC}</div>
@@ -2599,37 +2609,42 @@ function abrirDetalleReceta(id) {
             ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
         </div>` : ''}
 
-        <div class="modal-divider"></div>
-
-        <!-- Ingredientes y Preparación -->
-        <div class="modal-row">
-            <div class="ico ico-moss">${_SVG_HERB}</div>
-            <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+        <!-- ── SECCIÓN: PREPARACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">🌿</span> Ingredientes y preparación
         </div>
-        <div class="modal-row">
-            <div class="ico ico-amber">${_SVG_PREP}</div>
-            <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
-        </div>
-
-        <div class="modal-divider"></div>
-
-        <!-- Dosis y modo de uso -->
-        <div class="modal-row">
-            <div class="ico ico-amber">${_SVG_DOSIS}</div>
-            <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico ico-moss">${_SVG_USO}</div>
-            <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico ico-blue">${_SVG_FRIO}</div>
-            <div><div class="label">Conservación</div><div class="value">${r.conservacion || '—'}</div></div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-moss">${_SVG_HERB}</div>
+                <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+            </div>
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-amber">${_SVG_PREP}</div>
+                <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
+            </div>
         </div>
 
-        <div class="modal-divider"></div>
+        <!-- ── SECCIÓN: DOSIFICACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">⏱</span> Cómo usarla
+        </div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row">
+                <div class="ico ico-amber">${_SVG_DOSIS}</div>
+                <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
+            </div>
+            <div class="modal-row">
+                <div class="ico ico-moss">${_SVG_USO}</div>
+                <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
+            </div>
+            ${r.conservacion ? `
+            <div class="modal-row">
+                <div class="ico ico-blue">${_SVG_FRIO}</div>
+                <div><div class="label">Conservación</div><div class="value">${r.conservacion}</div></div>
+            </div>` : ''}
+        </div>
 
-        <!-- Contraindicaciones -->
+        <!-- ── ADVERTENCIAS ── -->
         <div class="alert-box warn receta-contra">
             <span class="ico">⚠️</span>
             <div><strong>Contraindicaciones:</strong> ${r.contraindicaciones || 'Consultar con profesional de salud antes del uso.'}</div>
