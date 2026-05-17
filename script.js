@@ -1366,40 +1366,66 @@ function renderMaternidad() {
         return /embaraz|gestac|prenatal|trimestre/.test((r.uso || '').toLowerCase());
     }).slice(0, 16);
 
-    function maternRecetaCard(r) {
-        const usoTexto = r.uso
-            ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
-            : (CATEGORIA_USO[r.categoria] || '');
-        const badgeLac = r.submodulo === 'postparto_lactancia'
-            ? '<span class="matern-receta-badge">🤱 Postparto</span>'
-            : '';
-        return `
-        <button class="matern-receta-card" data-rid="${r.id}">
-            <div class="matern-receta-cat">${r.categoria}${badgeLac}</div>
-            <div class="matern-receta-titulo">${r.titulo}</div>
-            ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
-            <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
-            <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
-        </button>`;
+    // ── Tarjetas de submódulo del recetario de mujer ──
+    const submodGrid = $('#maternSubmodGrid');
+    if (submodGrid) {
+        const submods = SUBMODULOS.mujer.submods;
+        submodGrid.innerHTML = submods.map(sub => {
+            const count = recetasDB.filter(r => r.submodulo === sub.id).length;
+            return `
+            <button class="matern-submod-card" data-subid="${sub.id}"
+                    style="--ms-color:${sub.color}">
+                <span class="matern-submod-emoji">${sub.emoji}</span>
+                <span class="matern-submod-label">${sub.label}</span>
+                <span class="matern-submod-desc">${sub.desc}</span>
+                <span class="matern-submod-count">${count} recetas</span>
+                <i class="fas fa-arrow-right matern-submod-arrow"></i>
+            </button>`;
+        }).join('');
+
+        submodGrid.querySelectorAll('.matern-submod-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirSubmoduloMatern(btn.dataset.subid));
+        });
     }
 
-    const rEmbEl = $('#maternRecetasEmbarazo');
-    const rLacEl = $('#maternRecetasLactancia');
-    if (rEmbEl) {
-        rEmbEl.innerHTML = recetasEmb.length
-            ? recetasEmb.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-    if (rLacEl) {
-        rLacEl.innerHTML = recetasLac.length
-            ? recetasLac.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-
-    // Click en receta maternidad → abre modal receta
-    $$('.matern-receta-card').forEach(btn => {
-        btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+    $('#maternSubmodBack')?.addEventListener('click', () => {
+        $('#maternSubmodGrid').hidden = false;
+        $('#maternSubmodResultados').hidden = true;
     });
+}
+
+function abrirSubmoduloMatern(subId) {
+    const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
+    if (!sub) return;
+    const recetas = recetasDB.filter(r => r.submodulo === subId);
+
+    const tituloEl = $('#maternSubmodTituloActivo');
+    if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
+
+    const grid = $('#maternSubmodRecetas');
+    if (grid) {
+        grid.innerHTML = recetas.map(r => {
+            const usoTexto = r.uso
+                ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
+                : (CATEGORIA_USO[r.categoria] || '');
+            return `
+            <button class="matern-receta-card" data-rid="${r.id}">
+                <div class="matern-receta-cat">${r.categoria}</div>
+                <div class="matern-receta-titulo">${r.titulo}</div>
+                ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
+                <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
+                <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
+            </button>`;
+        }).join('');
+
+        grid.querySelectorAll('.matern-receta-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+        });
+    }
+
+    $('#maternSubmodGrid').hidden = true;
+    $('#maternSubmodResultados').hidden = false;
+    $('#maternSubmodResultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function switchMaternSubtab(tipo) {

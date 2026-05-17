@@ -936,19 +936,18 @@
 
             <!-- Sección RECETAS -->
             <div id="maternRecetas" class="matern-section">
-                <nav class="matern-sub-nav" data-section="rec">
-                    <button class="matern-sub-btn active" data-sub="emb"><i class="fas fa-baby-carriage"></i> Embarazo</button>
-                    <button class="matern-sub-btn" data-sub="lac"><i class="fas fa-droplet"></i> Lactancia</button>
-                </nav>
+                <!-- Tarjetas de submódulo -->
+                <div id="maternSubmodGrid" class="matern-submod-grid"></div>
 
-                <div class="matern-sub-panel active" data-section="rec" data-panel="emb">
-                    <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas para el embarazo</div>
-                    <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
-                </div>
-
-                <div class="matern-sub-panel" data-section="rec" data-panel="lac">
-                    <div class="matern-cat-title gal"><span class="matern-cat-icon">📖</span> Recetas para la lactancia</div>
-                    <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
+                <!-- Resultados al abrir un submódulo -->
+                <div id="maternSubmodResultados" hidden>
+                    <div class="matern-submod-back-bar">
+                        <button class="matern-submod-back" id="maternSubmodBack">
+                            <i class="fas fa-arrow-left"></i> Volver al recetario
+                        </button>
+                        <span class="matern-submod-titulo-activo" id="maternSubmodTituloActivo"></span>
+                    </div>
+                    <div id="maternSubmodRecetas" class="matern-recetas-grid"></div>
                 </div>
             </div>
 

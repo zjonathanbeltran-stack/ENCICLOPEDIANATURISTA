@@ -5091,6 +5091,108 @@ body.custom-cursor-on .cursor-ring { display: block; }
 /* ── Maternidad recetas ── */
 .matern-cat-title.recetas { margin-top: 24px; }
 .matern-cat-title.recetas .matern-cat-icon { filter: none; }
+/* ── Submódulos del recetario de mujer en Maternidad ── */
+.matern-submod-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 4px 0 8px;
+}
+@media (max-width: 480px) {
+    .matern-submod-grid { grid-template-columns: 1fr; }
+}
+.matern-submod-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 14px 14px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid color-mix(in srgb, var(--ms-color) 30%, transparent);
+    border-radius: var(--r-md);
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.18s, border-color 0.18s, transform 0.15s;
+    overflow: hidden;
+}
+.matern-submod-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: color-mix(in srgb, var(--ms-color) 8%, transparent);
+    border-radius: inherit;
+    transition: opacity 0.18s;
+    opacity: 0;
+}
+.matern-submod-card:hover::before { opacity: 1; }
+.matern-submod-card:hover {
+    border-color: color-mix(in srgb, var(--ms-color) 55%, transparent);
+    transform: translateY(-2px);
+}
+.matern-submod-emoji {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.matern-submod-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+}
+.matern-submod-desc {
+    font-size: 0.72rem;
+    color: var(--text-mute);
+    line-height: 1.4;
+}
+.matern-submod-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--ms-color, var(--moss-bright));
+    margin-top: 6px;
+    letter-spacing: 0.02em;
+}
+.matern-submod-arrow {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 0.75rem;
+    color: var(--ms-color, var(--moss-bright));
+    opacity: 0;
+    transition: opacity 0.18s;
+}
+.matern-submod-card:hover .matern-submod-arrow { opacity: 1; }
+
+/* ── Back bar al abrir submódulo ── */
+.matern-submod-back-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--glass-border);
+}
+.matern-submod-back {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    color: var(--text-soft);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.18s;
+    white-space: nowrap;
+}
+.matern-submod-back:hover { background: rgba(255,255,255,0.1); }
+.matern-submod-titulo-activo {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
 .matern-recetas-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
