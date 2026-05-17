@@ -7,6 +7,9 @@ let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 
+// IDs ≥ este valor son recetas añadidas recientemente (badge "Nueva")
+const NUEVO_DESDE_ID = 1350;
+
 // ── Módulos de recetas (carga lazy) ──
 const MODULO_MAP = {
     mapuche:        { file: 'data/modulos/mapuche.json',        cats: ['Medicina Mapuche','Espiritual'] },
@@ -926,11 +929,15 @@ function _rfRenderGrid(filtradas) {
         const puebloBadge = puebloInfo
             ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
             : '';
+        const nuevaBadge = r.id >= NUEVO_DESDE_ID
+            ? `<span class="receta-nueva-badge">✨ Nueva</span>`
+            : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
             <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
                 <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
                 <span class="rsearch-cat">${r.categoria}</span>
+                ${nuevaBadge}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${puebloBadge}
