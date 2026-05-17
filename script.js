@@ -805,6 +805,7 @@ function buscarRecetasPorSintoma(query, pool) {
         const usoPrim = normDol((r.uso || '').slice(0, 150));
         const props   = Array.isArray(r.propiedades) ? r.propiedades.map(normDol).join(' ') : '';
         const ingred  = normDol((r.ingredientes || '').slice(0, 250));
+        const princip = normDol((r.principios_activos || '').slice(0, 200));
 
         // Categoría como match primario (no requiere match en contenido previo)
         if (catsDolNorm.has(normCat(r.categoria))) score += 7;
@@ -823,6 +824,9 @@ function buscarRecetasPorSintoma(query, pool) {
             for (const qw of qWords) {
                 if (ingred.includes(qw))  { score += 3; break; }
             }
+            for (const qw of qWords) {
+                if (princip.includes(qw)) { score += 2; break; }
+            }
             if (titulo.includes(q)) score += 5;
         } else {
             // Con dolencias: buscar keywords derivados en campos de contenido
@@ -837,6 +841,9 @@ function buscarRecetasPorSintoma(query, pool) {
             }
             for (const kw of kwsContenido) {
                 if (ingred.includes(kw))  { score += 3; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (princip.includes(kw)) { score += 2; break; }
             }
             if (titulo.includes(q)) score += 5;
         }
@@ -863,6 +870,7 @@ let _rfBase = [];   // resultado completo sin filtros
 let _rfQuery = '';  // query actual
 let _rfCats  = new Set();
 let _rfDifs  = new Set();
+let _rfProps = new Set();
 // Origen de navegación para botón "Volver" inteligente
 let _rsearchOrigen = null; // { type:'submod'|'dolencias', sistemaKey } | null
 
@@ -889,9 +897,11 @@ function _normModo(modo) {
 
 function _rfApply() {
     return _rfBase.filter(r => {
-        const catOK = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
-        const difOK = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
-        return catOK && difOK;
+        const catOK  = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
+        const difOK  = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
+        const rProps = Array.isArray(r.propiedades) ? r.propiedades.map(p => p.toLowerCase().trim()) : [];
+        const propOK = _rfProps.size === 0 || [..._rfProps].every(fp => rProps.some(rp => rp.includes(fp)));
+        return catOK && difOK && propOK;
     });
 }
 
@@ -904,7 +914,7 @@ function _rfRenderGrid(filtradas) {
 
     const countEl = cont.querySelector('.rsearch-count');
     if (countEl) {
-        countEl.innerHTML = _rfCats.size || _rfDifs.size
+        countEl.innerHTML = _rfCats.size || _rfDifs.size || _rfProps.size
             ? `<strong>${total}</strong> de ${base} recetas para <strong>"${_rfQuery}"</strong>`
             : `${base} receta${base !== 1 ? 's' : ''} para <strong>"${_rfQuery}"</strong>`;
     }
@@ -914,6 +924,8 @@ function _rfRenderGrid(filtradas) {
         c.classList.toggle('active', _rfCats.has(c.dataset.cat)));
     cont.querySelectorAll('.rfilter-chip[data-dif]').forEach(c =>
         c.classList.toggle('active', _rfDifs.has(c.dataset.dif)));
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c =>
+        c.classList.toggle('active', _rfProps.has(c.dataset.prop)));
 
     const grid = cont.querySelector('.rsearch-grid');
     if (!grid) return;
@@ -921,7 +933,7 @@ function _rfRenderGrid(filtradas) {
     if (total === 0) {
         grid.innerHTML = `<div class="rsearch-filtro-vacio"><i class="fas fa-filter-circle-xmark"></i> Ninguna receta coincide con estos filtros. <button class="rsearch-filtro-reset">Quitar filtros</button></div>`;
         grid.querySelector('.rsearch-filtro-reset')?.addEventListener('click', () => {
-            _rfCats.clear(); _rfDifs.clear();
+            _rfCats.clear(); _rfDifs.clear(); _rfProps.clear();
             _rfRenderGrid(_rfBase);
         });
         return;
@@ -1008,6 +1020,7 @@ function renderRecetaSearchResults(recetas, query) {
     _rfQuery = query;
     _rfCats.clear();
     _rfDifs.clear();
+    _rfProps.clear();
 
     const total = recetas.length;
 
@@ -1064,6 +1077,30 @@ function renderRecetaSearchResults(recetas, query) {
                     </button>`).join('')}
                 </div>
             </div>` : ''}
+            ${(() => {
+                const propConteo = {};
+                recetas.forEach(r => {
+                    (Array.isArray(r.propiedades) ? r.propiedades : []).forEach(p => {
+                        const k = p.toLowerCase().trim();
+                        propConteo[k] = (propConteo[k] || 0) + 1;
+                    });
+                });
+                const topProps = Object.entries(propConteo)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 7)
+                    .filter(([, n]) => n >= 2);
+                if (topProps.length < 2) return '';
+                return `
+                <div class="rfilter-group rfilter-group-props">
+                    <span class="rfilter-label"><i class="fas fa-seedling"></i> Propiedad</span>
+                    <div class="rfilter-chips">
+                        ${topProps.map(([prop, n]) => `
+                        <button class="rfilter-chip rfilter-prop" data-prop="${prop}">
+                            ${prop} <span class="rfilter-n">${n}</span>
+                        </button>`).join('')}
+                    </div>
+                </div>`;
+            })()}
         </div>` : ''}
         <div class="rsearch-grid"></div>
         ${total > 48 ? `<p class="rsearch-mas"></p>` : ''}`;
@@ -1106,6 +1143,13 @@ function renderRecetaSearchResults(recetas, query) {
         c.addEventListener('click', () => {
             if (_rfDifs.has(c.dataset.dif)) _rfDifs.delete(c.dataset.dif);
             else _rfDifs.add(c.dataset.dif);
+            _rfRenderGrid(_rfApply());
+        });
+    });
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c => {
+        c.addEventListener('click', () => {
+            if (_rfProps.has(c.dataset.prop)) _rfProps.delete(c.dataset.prop);
+            else _rfProps.add(c.dataset.prop);
             _rfRenderGrid(_rfApply());
         });
     });
@@ -2624,8 +2668,11 @@ function abrirDetalleReceta(id) {
 
         <!-- Propiedades -->
         ${r.propiedades && r.propiedades.length ? `
-        <div class="receta-propiedades">
-            ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+        <div class="receta-propiedades-bloque">
+            <div class="receta-propiedades-label"><i class="fas fa-seedling"></i> Propiedades terapéuticas</div>
+            <div class="receta-propiedades">
+                ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+            </div>
         </div>` : ''}
 
         <!-- ── SECCIÓN: PREPARACIÓN ── -->
@@ -2755,7 +2802,9 @@ function abrirDetalleReceta(id) {
             <span class="referencias-icon"><i class="fas fa-book-open"></i></span>
             <div>
                 <div class="referencias-label">Referencias</div>
-                <div class="referencias-texto">${r.referencias}</div>
+                <div class="referencias-texto">
+                    ${r.referencias.split(/\s*;\s*/).filter(Boolean).map(ref => `<div class="referencia-item">${ref.trim()}</div>`).join('')}
+                </div>
             </div>
         </div>` : ''}
 

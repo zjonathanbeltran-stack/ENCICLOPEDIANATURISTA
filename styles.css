@@ -5705,6 +5705,21 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rfilter-dif-facil   { --rfgrad: linear-gradient(135deg,#2d6a4f,#52b788); }
 .rfilter-dif-medio   { --rfgrad: linear-gradient(135deg,#7a4a1a,#c98a3e); }
 .rfilter-dif-avanzado{ --rfgrad: linear-gradient(135deg,#6a1a1a,#c94040); }
+.rfilter-prop {
+    background: rgba(155,187,122,0.08);
+    border-color: rgba(155,187,122,0.25);
+    color: var(--moss-bright);
+}
+.rfilter-prop.active {
+    background: rgba(155,187,122,0.22);
+    border-color: var(--moss-bright);
+    color: #d4f0b8;
+}
+.rfilter-group-props {
+    border-top: 1px solid var(--glass-border);
+    padding-top: 8px;
+    margin-top: 4px;
+}
 /* Mensaje vacío al filtrar */
 .rsearch-filtro-vacio {
     grid-column: 1/-1;
@@ -6142,6 +6157,30 @@ body.custom-cursor-on .cursor-ring { display: block; }
     color: var(--text-mute);
     font-style: italic;
     line-height: 1.5;
+}
+.receta-propiedades-bloque {
+    padding: 10px 22px 4px;
+}
+.receta-propiedades-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--moss-bright);
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+.receta-propiedades-label i {
+    margin-right: 4px;
+}
+.referencia-item {
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    line-height: 1.5;
+}
+.referencia-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 /* ── Medicina Ancestral Tab ── */
 
