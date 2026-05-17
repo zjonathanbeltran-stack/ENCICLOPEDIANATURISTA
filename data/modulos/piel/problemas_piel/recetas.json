@@ -490,6 +490,46 @@
       ]
     },
     {
+      "id": 1072,
+      "titulo": "Bano de Luche y Sal de Mar para Eczema y Psoriasis Lafkenche",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche Lafkenche (costa entre Lebu y Carahue)",
+      "ingredientes": "300 g de luche fresco (Porphyra columbina / wutre en mapudungun) o 100 g seco; 500 g de sal de mar gruesa; 5 litros de agua de mar (o agua dulce con 100 g sal de mar)",
+      "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
+      "dosis": "Bano diario durante la primera semana; luego 3 veces por semana. Mantener 3-4 semanas.",
+      "modo_uso": "Bano topico (talasoterapia)",
+      "tiempo_prep": "40 minutos",
+      "dificultad": "Facil",
+      "rendimiento": "1 bano por preparacion",
+      "conservacion": "No aplica (preparacion de uso inmediato)",
+      "evidencia": "La Porphyra columbina contiene ficobilinas, porfiranos sulfatados y phycobiliproteinas con potente actividad antiinflamatoria y regeneradora de la piel. La talasoterapia con algas es reconocida por la medicina integrativa para condiciones inflamatorias cronicas de la piel.",
+      "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004)",
+      "contraindicaciones": "No usar en piel con heridas abiertas o infectadas activamente. Personas con alergia al yodo deben hacer prueba previa. El agua de mar no pasteurizada puede contener bacterias: usar sal de mar comercial en agua dulce caliente.",
+      "uso": "Tratamiento de eczema atopico, psoriasis, dermatitis seborreica y piel seca. Los lafkenche aplican el conocimiento del mar (lof lafken: comunidad del mar) en su medicina dermica: el luche abre los poros y los polisacaridos forman una pelicula protectora e hidratante que calma el prurito.",
+      "principios_activos": "Porfiranos sulfatados; ficoeritrina (fitobilina); taurina; vitaminas del grupo B; yodo organico; cloruro de sodio",
+      "propiedades": [
+        "antiinflamatorio",
+        "antipruriginoso",
+        "hidratante",
+        "regenerador cutaneo"
+      ],
+      "referencias": "Ortiz J. et al. (2009) Propiedades de Porphyra columbina de la costa sur de Chile. Bot Mar. / Villagran C. (2004) Botanica y Botanicos de Chile. Museo de Historia Natural.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ]
+    },
+    {
       "id": 1104,
       "titulo": "Ungüento de Grasa de Lobo Marino con Canelo para el Frio Extremo (Yagán)",
       "categoria": "Dermatológico",
@@ -673,7 +713,7 @@
       "evidencia": "La Comisión E alemana aprueba el uso externo de la\nmanzanilla para inflamaciones de la piel y las mucosas. La EMA\ntambién la reconoce como tratamiento tradicional para afecciones\ncutáneas leves.",
       "fuente_tradicion": "Medicina tradicional europea",
       "contraindicaciones": "- Alergia a las asteráceas.\n- No aplicar sobre heridas abiertas.",
-      "id": 1376,
+      "id": 1386,
       "uso": "Alivio de irritaciones cutáneas leves, eccemas,\ndermatitis del pañal y ojos irritados (uso oftálmico solo bajo\nsupervisión).",
       "planta_principal": "Manzanilla (Matricaria chamomilla)",
       "interacciones": "No se han descrito.",

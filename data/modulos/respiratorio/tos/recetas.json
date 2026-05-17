@@ -453,6 +453,48 @@
       ]
     },
     {
+      "titulo": "Lawen de Radal para Tos y Bronquios",
+      "categoria": "Tos",
+      "origen": "Mapuche Pewenche",
+      "ingredientes": "10 g de flores o corteza interna de radal (Lomatia hirsuta), 500 ml de agua, miel de ulmo al gusto.",
+      "preparacion": "Hervir la corteza en agua 10 minutos. Retirar del fuego, colar y endulzar con miel. Beber una taza caliente 3 veces al día. Usado por los lawentuchefe para tratamientos de tos persistente y afecciones bronquiales.",
+      "id": 202,
+      "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
+      "modo_uso": "Oral — infusión (lawen) o aplicación externa según preparación",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "2 tazas",
+      "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
+      "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
+      "uso": "Tos y Bronquios: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | 2-Metoxijuglona (naftoquinona): actividad antifúngica y antibacteriana sobre patógenos respiratorios. Flavonoides (quercetina, catequina): broncodilatadores leves por relajación del músculo liso bronquial vía inhibición de fosfodiesterasas. Ácidos fenólicos: acción antiinflamatoria complementaria.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante",
+        "antiespasmódico bronquial"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Broncodilatadores: puede potenciar su efecto vasodilatador.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
       "id": 423,
       "titulo": "Jarabe de Cebollas con Tomillo",
       "categoria": "Tos",
@@ -783,6 +825,87 @@
       ]
     },
     {
+      "id": 930,
+      "titulo": "Infusion de Chupalla para la Tos Mapuche",
+      "categoria": "Tos",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 flores de chupalla (Fascicularia bicolor), 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
+      "dosis": "2 tazas al dia",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "Verificar identificacion correcta",
+      "uso": "Tos Mapuche. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Flavonoides y taninos (Fascicularia bicolor): antioxidantes y antiinflamatorios. Mucílagos: emolientes sobre bronquios irritados. Saponinas: bequicas y expectorantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1053,
+      "titulo": "Jarabe de Miel de Ulmo y Quinchamali para Tos del Nino",
+      "categoria": "Tos",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "300 ml de infusion de quinchamalí (15 g quinchamalí en 300 ml agua), 3 cucharadas de miel de ulmo (Eucryphia cordifolia)",
+      "preparacion": "Preparar la infusion de quinchamalí. Colar y dejar entibiar a menos de 40 grados. Agregar la miel de ulmo y mezclar bien.",
+      "dosis": "Para ninos de 3 a 12 anos: 1 cucharada 4 veces al dia. Para adultos: 2 cucharadas 4 veces al dia",
+      "modo_uso": "Oral — jarabe",
+      "tiempo_prep": "15 min",
+      "dificultad": "Facil",
+      "rendimiento": "Frasco de 300 ml (3 dias)",
+      "conservacion": "Refrigerar; usar en 3 dias",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi huilliche y lafkenche (MINSAL 2010; Gloria Montenegro, U. de Chile)",
+      "contraindicaciones": "NO dar miel a ninos MENORES DE 1 AÑO (riesgo de botulismo infantil). Si la tos es con silbido o dificultad para respirar, llevar al medico urgente",
+      "uso": "Tos del Nino: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
       "id": 1097,
       "titulo": "Jarabe de Copao con Miel para la Tos (Diaguita)",
       "categoria": "Tos",
@@ -951,7 +1074,7 @@
       "evidencia": "\"Minsal: afecciones respiratorias (tos, catarro, bronquitis, asma)\"\n[reference:7]. Sugerencias de uso: \"Agregar dos cucharaditas de hojas secas\nen una taza de agua hervida. Beber tres o cuatro veces al día\"[reference:8].",
       "fuente_tradicion": "Medicina tradicional mapuche y chilena.",
       "contraindicaciones": "No se han descrito.",
-      "id": 1334,
+      "id": 1344,
       "uso": "Tratar la tos, la bronquitis y el asma bronquial. El Radal\nes una de las plantas más valoradas en Chile por su eficacia antitusiva.",
       "planta_principal": "Radal (Orites myrtoidea)",
       "interacciones": "No se han descrito.",
@@ -973,7 +1096,7 @@
       "evidencia": "European Medicines Agency (EMA). Monografía sobre \"Thymi herba\".\nLa EMA concluye que, basándose en su uso tradicional, el tomillo puede\nutilizarse para la tos productiva asociada a resfriados[reference:0].",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero).\n- No usar en niños menores de 12 años (algunas presentaciones\n  específicas pueden usarse desde los 4 años, consultar prospecto).",
-      "id": 1348,
+      "id": 1358,
       "uso": "Tos productiva (con flemas) asociada a resfriados.",
       "planta_principal": "Tomillo (Thymus vulgaris)",
       "interacciones": "No se han descrito interacciones relevantes a las\ndosis indicadas.",
@@ -995,7 +1118,7 @@
       "evidencia": "European Medicines Agency (EMA). Monografía sobre \"Eucalypti\nfolium\". La EMA aprueba su uso tradicional para el alivio de la tos\nasociada al resfriado[reference:3].",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- No usar en niños menores de 30 meses por riesgo de laringoespasmo\n  (contracción de las cuerdas vocales)[reference:1].\n- Las presentaciones en infusión solo para adultos y niños mayores de\n  12 años[reference:2].\n- Evitar en el embarazo y la lactancia.\n- No aplicar aceite esencial puro directamente en la piel o las fosas\n  nasales de niños pequeños.",
-      "id": 1367,
+      "id": 1377,
       "uso": "Alivio de la tos y la congestión nasal asociadas al\nresfriado común.\n\nINGREDIENTES (Infusión):\n- 1 cucharadita (aprox. 2 g) de hojas secas de eucalipto\n  desmenuzadas.\n- 250 ml de agua hirviendo.\n\nPREPARACIÓN (Infusión):\n1. Verter el agua hirviendo sobre las hojas.\n2. Tapar y dejar reposar 10 minutos.\n3. Colar y beber tibio.\n\nINGREDIENTES (Vahos):\n- Un puñado de hojas de eucalipto (frescas o secas).\n- 1 litro de agua hirviendo.\n\nPREPARACIÓN (Vahos):\n1. Colocar las hojas en un bol grande.\n2. Verter el agua hirviendo sobre ellas.\n3. Con cuidado, inclinar la cabeza sobre el bol, cubrirse con\n   una toalla e inhalar el vapor durante 5-10 minutos.",
       "planta_principal": "Eucalipto (Eucalyptus globulus)",
       "interacciones": "El cineol (eucaliptol) puede interferir con el\nmetabolismo hepático de algunos fármacos. Consultar si se toman\nmedicamentos de metabolización hepática.",

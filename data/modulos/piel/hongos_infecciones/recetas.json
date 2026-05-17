@@ -90,7 +90,7 @@
       "ingredientes": "Hojas de pimiento.",
       "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
       "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Oral — infusión caliente",
+      "modo_uso": "Tópico — cataplasma",
       "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "2–3 aplicaciones por preparación",
@@ -492,6 +492,46 @@
       ]
     },
     {
+      "id": 729,
+      "titulo": "Aceite de Orégano contra Candida",
+      "categoria": "Antifúngico",
+      "origen": "Naturopatía Moderna",
+      "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
+      "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
+      "dosis": "3 gotas de la mezcla en cápsula o en cucharadita 3 veces al día por 2 semanas",
+      "modo_uso": "Tomar con comida; el aceite de orégano es muy potente",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco 30 ml (2 semanas)",
+      "conservacion": "Temperatura ambiente 1 año",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No usar sin diluir; puede causar ardor severo; no en embarazo",
+      "uso": "Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.",
+      "principios_activos": "Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "antioxidante",
+        "digestivo",
+        "antiespasmódico"
+      ],
+      "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ]
+    },
+    {
       "id": 960,
       "titulo": "Bano de Vinagre para Piel con Hongos",
       "categoria": "Antifúngico",
@@ -530,6 +570,46 @@
         "Ajo",
         "Orégano",
         "Tomillo"
+      ]
+    },
+    {
+      "id": 1067,
+      "titulo": "Cataplasma de Michay (Berberis darwinii) para Infecciones de Piel Williche",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche Williche (Osorno, Frutillar, lago Llanquihue)",
+      "ingredientes": "50 g de corteza fresca de michay / calafate del sur (Berberis darwinii / ngulla o puni en mapudungun); 30 ml de agua; 1 cucharada de grasa animal (preferentemente grasa de capon o manteca de cerdo)",
+      "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
+      "dosis": "Aplicar 2-3 veces al dia sobre la zona afectada. Dejar actuar 4 horas y limpiar con agua tibia. Continuar durante 7-10 dias.",
+      "modo_uso": "Topico (cataplasma/pomada)",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Media",
+      "rendimiento": "8-10 aplicaciones",
+      "conservacion": "Refrigerar hasta 5 dias en tarro cerrado.",
+      "evidencia": "La berberina, alcaloide isoquinolinico del genero Berberis, tiene amplia documentacion cientifica como antibacteriano de amplio espectro y antifungico. Usado por machis williche documentado por Hoffmann et al. (1992). La raiz y corteza contienen 2-4% de berberina.",
+      "fuente_tradicion": "Mapuche Williche",
+      "contraindicaciones": "No aplicar en mucosas, ojos ni heridas muy profundas. La berberina puede manchar la piel temporalmente de amarillo. No ingerir esta preparacion topica. Contraindicado en embarazo (berberina oral es abortiva).",
+      "uso": "Tratamiento de infecciones bacterianas y fungicas de la piel, psoriasis, heridas infectadas y erupciones cutaneas. La berberina de la corteza interior inhibe el crecimiento de Staphylococcus aureus, Candida albicans y otras bacterias comunes.",
+      "principios_activos": "Berberina (2-4%); palmatina; jatrorricina; oxicantina; berbamina; taninos",
+      "propiedades": [
+        "antibacteriano",
+        "antifungico",
+        "antiinflamatorio",
+        "cicatrizante"
+      ],
+      "referencias": "Hoffmann A. et al. (1992) Plantas Medicinales de Uso Comun en Chile. / Shaheen F. et al. (2012) Berberis species: traditional uses, phytochemistry and pharmacology. Phytother Res.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
       ]
     }
   ]

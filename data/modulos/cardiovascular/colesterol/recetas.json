@@ -3,6 +3,48 @@
   "submodulo": "colesterol",
   "recetas": [
     {
+      "id": 129,
+      "titulo": "Infusión de Cúrcuma para el Colesterol",
+      "categoria": "Cardiovascular",
+      "origen": "Urbano",
+      "ingredientes": "1 cucharadita de cúrcuma en polvo, 1 pizca de pimienta negra, 1 taza de agua.",
+      "preparacion": "Hervir el agua con la cúrcuma y la pimienta durante 5 minutos. Beber una taza al día para ayudar a controlar los niveles de colesterol malo.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Colesterol. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Hipercolesterolemia leve",
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante",
+        "antiinflamatorio"
+      ]
+    },
+    {
       "id": 307,
       "titulo": "Infusión de Diente de León para colesterol",
       "categoria": "Cardiovascular",

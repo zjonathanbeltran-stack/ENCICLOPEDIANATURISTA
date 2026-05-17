@@ -292,6 +292,47 @@
       ]
     },
     {
+      "titulo": "Decocción de Arrayán para Infecciones de Garganta",
+      "categoria": "Garganta",
+      "origen": "Mapuche / Popular Patagónico",
+      "ingredientes": "15 g de hojas y ramas tiernas de arrayán (Luma apiculata), 500 ml de agua.",
+      "preparacion": "Hervir a fuego suave durante 10 minutos. Colar. Usar como gargarismo tibio 4-5 veces al día y beber una taza 2 veces al día. El arrayán tiene propiedades antisépticas ampliamente reconocidas en la medicina mapuche y patagónica.",
+      "id": 208,
+      "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
+      "modo_uso": "Oral — decocción; Tópico — gargarismo",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "2 tazas",
+      "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
+      "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
+      "uso": "Infecciones de Garganta: los taninos producen astringencia sobre tejidos inflamados y el aceite esencial ejerce acción antiséptica directa.",
+      "principios_activos": "Taninos condensados: forman complejos con proteínas superficiales bacterianas generando efecto antiséptico y hemostático. Aceite esencial (α-pineno, cineol, metil eugenol, mirtenol): disrumpe membranas bacterianas. Flavonoides (miricetina, quercetina): antioxidantes y antiinflamatorios locales.",
+      "propiedades": [
+        "astringente",
+        "antiséptico",
+        "antiinflamatorio",
+        "antidiarreico",
+        "cicatrizante"
+      ],
+      "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
       "titulo": "Grog Chileno: Miel, Limón, Canela y Clavo",
       "categoria": "Resfriados",
       "origen": "Popular Chileno / Chilote",
@@ -459,6 +500,46 @@
       ]
     },
     {
+      "id": 817,
+      "titulo": "Té de Notro para el Dolor de Garganta",
+      "categoria": "Garganta",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 flores de notro (Embothrium coccineum) secas, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
+      "dosis": "2 tazas al día durante el dolor de garganta",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche del sur de Chile",
+      "contraindicaciones": "No exceder; verificar identificación correcta",
+      "uso": "Dolor de Garganta. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
       "id": 840,
       "titulo": "Jarabe de Propóleo y Miel para la Garganta",
       "categoria": "Garganta",
@@ -623,6 +704,88 @@
       ]
     },
     {
+      "id": 1006,
+      "titulo": "Gargaras de Foye para Anginas y Dolor de Muelas",
+      "categoria": "Garganta",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "5 g de corteza de foye, 300 ml de agua",
+      "preparacion": "Hervir la corteza 5 minutos. Colar y dejar entibiar (no fria, no caliente quemante).",
+      "dosis": "Gargaras durante 30 segundos, 4 a 5 veces al dia",
+      "modo_uso": "Para anginas: gargaras profundas llegando a la garganta. Para dolor de muelas: retener el liquido en el lado afectado. La machi usa esta preparacion al inicio del machitun para limpiar la boca del enfermo",
+      "tiempo_prep": "8 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 sesiones",
+      "conservacion": "Refrigerar 24 h, templar antes de usar",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "Moderadamente amargo y acre. No tragar en grandes cantidades. Evitar en embarazo",
+      "uso": "Anginas y Dolor de Muelas: el poligodial bloquea la transmisión dolorosa y reduce mediadores inflamatorios.",
+      "principios_activos": "Poligodial (sesquiterpeno dialdeído, Drimys winteri): inhibe canales Nav1.7/Nav1.8 y modula receptores TRPA1 con efecto antinociceptivo potente. Vitamina C y taninos: actividad antioxidante y antiséptica complementaria.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiséptico",
+        "febrífugo",
+        "ceremonial mapuche"
+      ],
+      "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1018,
+      "titulo": "Gargaras de Pangue para Anginas y Faringitis",
+      "categoria": "Garganta",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "4 peciolos de nalca troceados, 500 ml de agua",
+      "preparacion": "Hervir 10 minutos. Colar y entibiar. La decoccion tendra sabor muy astringente.",
+      "dosis": "Gargaras profundas durante 30 segundos, 4 a 6 veces al dia",
+      "modo_uso": "La machi usa las gargaras de pangue en anginas y faringitis graves. El acido tanico tiene accion antibacteriana y antiinflamatoria directa sobre la mucosa faringea. Complementar bebiendo 1 taza de la misma decoccion 3 veces al dia",
+      "tiempo_prep": "12 min",
+      "dificultad": "Facil",
+      "rendimiento": "6 sesiones de gargaras",
+      "conservacion": "Refrigerar 24 h; templar antes de usar",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "Si la angina es bacteriana y hay fiebre alta, requiere antibioticos. Las gargaras complementan el tratamiento. No tragar en exceso",
+      "uso": "Anginas y Faringitis: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+      "propiedades": [
+        "antioxidante",
+        "astringente",
+        "antiinflamatorio",
+        "nutritivo",
+        "digestivo"
+      ],
+      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
       "id": 1141,
       "titulo": "Gárgaras antisépticas de salvia, tomillo y quillay para faringitis aguda",
       "categoria": "Garganta",
@@ -781,7 +944,7 @@
       "evidencia": "\"Hierba de Siete Venas: Afecciones Vías Respiratorias, Tos,\nBronquitis, Catarro, Resfrío, Faringitis, Fiebre\" (TiendaMika.cl)[reference:4].",
       "fuente_tradicion": "Medicina tradicional chilena y europea.",
       "contraindicaciones": "No se han descrito.",
-      "id": 1331,
+      "id": 1341,
       "uso": "Alivio de la faringitis, afonía, tos y dolor de garganta.\nSus propiedades emolientes y astringentes protegen la mucosa irritada.\n\nINGREDIENTES (Infusión):\n- 1 cucharada sopera (aprox. 4 g) de hojas secas de siete venas.\n- 250 ml de agua hirviendo.",
       "planta_principal": "Siete Venas (Plantago lanceolata)",
       "interacciones": "No se han descrito.",

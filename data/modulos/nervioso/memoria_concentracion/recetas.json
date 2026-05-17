@@ -3,6 +3,48 @@
   "submodulo": "memoria_concentracion",
   "recetas": [
     {
+      "id": 128,
+      "titulo": "Infusión de Romero para la Concentración",
+      "categoria": "Memoria",
+      "origen": "Urbano",
+      "ingredientes": "1 cucharada de hojas de romero, 1 taza de agua.",
+      "preparacion": "Infusión normal. Se utiliza a menudo para mejorar la memoria y la concentración.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Concentración: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Falta de concentración",
+        "Fatiga mental",
+        "Astenia",
+        "Mala memoria",
+        "Cefalea por estrés"
+      ],
+      "interacciones_medicamentos": "Potencia anticoagulantes y antihipertensivos; reduce eficacia de hierro oral y litio.",
+      "embarazo_lactancia": "Contraindicado en embarazo en dosis medicinales (emenagogo); precaución en lactancia.",
+      "duracion_tratamiento": "Máximo 4 semanas continuas; descansar 1 semana.",
+      "sinergia_plantas": [
+        "melisa",
+        "cedrón",
+        "menta"
+      ]
+    },
+    {
       "id": 361,
       "titulo": "Té de Romero para la memoria y concentración",
       "categoria": "Memoria",
@@ -1047,7 +1089,7 @@
       "evidencia": "Un estudio publicado en \"Therapeutic Advances in\nPsychopharmacology\" demostró que el aroma del romero puede\nmejorar el rendimiento cognitivo y la memoria. La ESCOP avala\nsu uso como tónico estimulante mental.",
       "fuente_tradicion": "Medicina tradicional mediterránea, cultivado en Chile",
       "contraindicaciones": "- Embarazo (evitar dosis medicinales; uso culinario seguro).\n- Epilepsia (precaución por el aceite esencial).",
-      "id": 1324,
+      "id": 1334,
       "uso": "Mejorar la concentración, la memoria y combatir la\nfatiga mental. El romero es tradicionalmente conocido como la\n\"hierba de la memoria\" y estudios recientes avalan sus\npropiedades estimulantes cognitivas.",
       "planta_principal": "Romero (Salvia rosmarinus)",
       "interacciones": "No se han descrito interacciones relevantes a\nlas dosis indicadas.",

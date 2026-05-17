@@ -204,6 +204,46 @@
       ]
     },
     {
+      "id": 351,
+      "titulo": "Infusión de Bailahúen para el hígado y las penas (peuma hepático)",
+      "categoria": "Hepático",
+      "origen": "Mapuche",
+      "ingredientes": "1 cucharada de partes aéreas de bailahúen seco, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio, idealmente al amanecer.",
+      "dosis": "1 taza en ayunas durante 10 días. Descansar 10 días antes de repetir.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista en medicina mapuche. Evitar en embarazo.",
+      "uso": "Hígado y las penas. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
       "id": 388,
       "titulo": "Infusión de Boldo y Diente de León para hígado graso",
       "categoria": "Hepático",
@@ -844,6 +884,47 @@
       ]
     },
     {
+      "id": 932,
+      "titulo": "Te de Michay para el Higado",
+      "categoria": "Hepático",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 flores de michay (Berberis darwinii) secas, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las flores 12 min. Colar.",
+      "dosis": "2 tazas al dia",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "No en embarazo; puede interactuar con medicamentos",
+      "uso": "Higado. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Berberina (alcaloide isoquinolínico): antibacteriano, antimicótico y antiinflamatorio; inhibe la síntesis de ADN bacteriano. Berbamina: inmunomoduladora. Palmitina: antiséptica.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante",
+        "antimicrobiano"
+      ]
+    },
+    {
       "id": 942,
       "titulo": "Te de Achicoria para el Higado y la Digestion",
       "categoria": "Digestivo",
@@ -881,6 +962,167 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
+      ]
+    },
+    {
+      "id": 1035,
+      "titulo": "Infusion de Bailahuen para Indigestion y Higado Cargado",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "8 g de ramas con hojas de bailahuen seco, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre el bailahuen. Reposar 12 minutos. Colar. Aroma intenso, levemente amargo.",
+      "dosis": "1 taza 20 minutos antes de las comidas, 3 veces al dia. En indigestion aguda, 1 taza al sintoma",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+      "contraindicaciones": "CONTRAINDICADO EN CALCULOSIS BILIAR: puede provocar cólicos al estimular el flujo de bilis. CONTRAINDICADO EN EMBARAZO. Evitar uso prolongado mas de 2 semanas sin supervision",
+      "uso": "Indigestion y Higado Cargado. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1036,
+      "titulo": "Decoccion de Bailahuen para la Vesicula y la Bilis",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "15 g de ramas de bailahuen secas, 500 ml de agua",
+      "preparacion": "Hervir las ramas de bailahuen 5 minutos. Colar bien. El liquido sera ambar intenso.",
+      "dosis": "1 taza 3 veces al dia durante 7 dias en tratamiento de la vesicula biliar",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "8 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+      "contraindicaciones": "CONTRAINDICADO con calculos biliares. CONTRAINDICADO EN EMBARAZO. Si hay dolor del hipocondrio derecho intenso, consultar medico (descarte colecistitis aguda)",
+      "uso": "Vesicula y la Bilis. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1043,
+      "titulo": "Infusion de Quinchamali para Apoyo Hepatico",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "10 g de planta de quinchamalí seca, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre la planta. Reposar 15 minutos. Colar.",
+      "dosis": "2 tazas al dia en ayunas y antes de dormir, durante 2 semanas",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "17 min",
+      "dificultad": "Facil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+      "contraindicaciones": "No usar en insuficiencia hepatica grave. Si hay ictericia importante o dolor abdominal derecho, consultar medico. Hepatitis viral requiere seguimiento medico",
+      "uso": "Apoyo Hepatico. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1055,
+      "titulo": "Infusion de Culen y Bailahuen para el Higado y las Emociones",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "10 g de hojas de culen, 8 g de ramas de bailahuen, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre ambas plantas. Reposar 12 minutos. Colar.",
+      "dosis": "2 tazas al dia: una en la manana en ayunas y otra antes de dormir, durante 10 dias",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Facil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "CONTRAINDICADO EN EMBARAZO y en calculosis biliar. Si hay ictericia o dolor hepatico intenso, consultar medico. No combinar con medicamentos hepatotóxicos",
+      "uso": "Higado y las Emociones: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
+      "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+      "propiedades": [
+        "digestivo",
+        "antiespasmódico",
+        "hipoglucemiante",
+        "antidiarreico",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
       ]
     },
     {
@@ -1113,7 +1355,7 @@
       "evidencia": "Monografías de la ESCOP y la EMA. La EMA indica que\nlos estudios sugieren efectos positivos en la función hepática\naunque se necesitan ensayos clínicos más firmes.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las asteráceas.\n- No se recomienda en casos de obstrucción de las vías\n  biliares.",
-      "id": 1350,
+      "id": 1360,
       "uso": "Complemento en el tratamiento de afecciones\nhepáticas (hígado graso, hepatitis), cirrosis y daño hepático\npor toxinas. Apoyo digestivo en digestiones pesadas.",
       "planta_principal": "Cardo Mariano (Silybum marianum)",
       "interacciones": "Puede reducir los niveles de azúcar en sangre\n(monitorizar en diabéticos). Teóricamente, podría interferir\ncon medicamentos metabolizados por el hígado (citocromo P450).",
@@ -1135,7 +1377,7 @@
       "evidencia": "\"Herbal medicine for functional dyspepsia: A systematic\nreview\" (PubMed). Las hojas de alcachofa están reconocidas por\nla ESCOP y la Comisión E alemana para el tratamiento de la\ndispepsia.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las asteráceas.\n- Obstrucción de las vías biliares (por ejemplo, por cálculos).\n  En caso de cálculos biliares, usar solo bajo supervisión\n  médica.",
-      "id": 1353,
+      "id": 1363,
       "uso": "Estimular la producción y liberación de bilis\n(efecto colagogo y colerético), facilitando la digestión de\ngrasas y aliviando la sensación de pesadez.",
       "planta_principal": "Alcachofa (Cynara scolymus)",
       "interacciones": "Podría interferir con medicamentos de\neliminación biliar. Usar con precaución en tratamientos con\nanticoagulantes orales.",

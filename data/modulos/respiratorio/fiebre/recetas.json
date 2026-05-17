@@ -858,6 +858,86 @@
       ]
     },
     {
+      "id": 1069,
+      "titulo": "Mudai de Murtilla con Tepu para Fiebre Alta en Ninos (Pichi Lawen Chilote)",
+      "categoria": "Febrífugo",
+      "origen": "Mapuche Huilliche / Chilote (Isla Grande de Chiloe, Quinchao, Lemuy)",
+      "ingredientes": "1 taza de frutos maduros de murtilla (Ugni molinae / uni en mapudungun); 5 hojas medianas de tepu (Tepualia stipularis); 750 ml de agua; 2 cucharadas de miel de colmena chilota; jugo de medio limon silvestre (si disponible)",
+      "preparacion": "1. Lavar bien las murtillas y las hojas de tepu. 2. Hervir el agua y agregar las hojas de tepu. Cocer 10 minutos. 3. Agregar las murtillas al caldo caliente, aplastar con cuchara de madera para liberar jugos. 4. Continuar a fuego bajo 5 minutos mas. 5. Colar con cedazo fino, expresando bien los frutos. 6. Agregar la miel cuando este tibio y el jugo de limon. El resultado debe ser una bebida rosada y dulce.",
+      "dosis": "Ninos 2-5 anos: media taza (100 ml) cada 4 horas. Ninos 6-12 anos: 1 taza (200 ml) cada 4 horas. Adultos: 2 tazas cada 4 horas. Continuar hasta que baje la fiebre.",
+      "modo_uso": "Oral (bebida medicinal)",
+      "tiempo_prep": "25 minutos",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 horas. Preparar fresco para cada dia.",
+      "evidencia": "La murtilla (Ugni molinae) es reconocida por su alto contenido de vitamina C y antocianinas con actividad antipiretica y antioxidante. Documentada por Villagran (2000) como lawen chilote fundamental. El tepu aporta propiedades diaforeticas (sudorificas) que facilitan la disminucion de la fiebre.",
+      "fuente_tradicion": "Mapuche Huilliche / Chilota",
+      "contraindicaciones": "La miel no debe darse a ninos menores de 1 ano (riesgo de botulismo infantil). Si la fiebre supera 39°C o dura mas de 48 horas, consultar medico. No sustituir tratamiento medico urgente con esta preparacion.",
+      "uso": "Control de fiebre moderada en ninos y adultos, especialmente en contexto de resfriados, gripe e infecciones respiratorias de invierno chilote. La vitamina C de la murtilla fortalece el sistema inmune; las antocianinas tienen efecto antiviral documentado; el tepu favorece la sudoracion que baja la temperatura corporal.",
+      "principios_activos": "Vitamina C (murtilla: 40-80 mg/100g); antocianinas (cianidina-3-glucosido); quercetina; metilheptanoato; poligodial (tepu)",
+      "propiedades": [
+        "antipiretico",
+        "antiviral",
+        "diaforetico",
+        "antioxidante"
+      ],
+      "referencias": "Villagran C. (2000) Etnobiologia Williche. CONAF. / Rubilar M. et al. (2011) Antioxidant and antipyretic properties of Ugni molinae. Food Chem. / Hoffmann A. et al. (1992) Plantas Medicinales de Chile.",
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
+      "id": 1081,
+      "titulo": "Decoccion de Talhuen para Fiebre e Infecciones del Desierto Likan Antai",
+      "categoria": "Febrífugo",
+      "origen": "Atacameno / Likan Antai (San Pedro de Atacama, Toconao, Socaire)",
+      "ingredientes": "25 g de ramas floridas de talhuen (Eupatorium glechonophyllum / talhuen en atacameno); 1 litro de agua; 1 cucharadita de sal de Atacama; 1 cucharada de miel de abeja del desierto (si disponible)",
+      "preparacion": "1. Recolectar el talhuen al amanecer, cuando el rocio del desierto ha humectado las hojas y los aceites estan concentrados. 2. Hervir el litro de agua. 3. Agregar el talhuen al agua hirviendo. 4. Reducir el fuego y cocer 20 minutos semitapado. 5. Apagar, tapar completamente y reposar 20 minutos. 6. Colar expresando bien el material. Agregar sal y miel cuando este tibio.",
+      "dosis": "En fiebre aguda: 1 taza cada 3 horas hasta que baje la temperatura. En fase de mantencion: 2 tazas al dia durante 7 dias.",
+      "modo_uso": "Oral (decoccion) + aplicar compresa humedecida en la infusion sobre frente y munecas",
+      "tiempo_prep": "50 minutos",
+      "dificultad": "Facil",
+      "rendimiento": "4-5 tazas",
+      "conservacion": "Refrigerar hasta 48 horas.",
+      "evidencia": "El talhuen (Eupatorium glechonophyllum) es uno de los febrifugos mas importantes de la medicina atacamena del desierto de Atacama. Contiene lactonas sesquiterpenicas con actividad antipiretica y propiedades inmunomoduladoras. Documentado por Llagostera (1988) y el Museo Atacameno de San Pedro.",
+      "fuente_tradicion": "Atacameno / Likan Antai",
+      "contraindicaciones": "El genero Eupatorium contiene alcaloides pirrolizidinicos: no usar en dosis altas por mas de 7-10 dias (hepatotoxico en uso cronico). Contraindicado en embarazo, lactancia e insuficiencia hepatica. No usar en ninos menores de 6 anos.",
+      "uso": "Tratamiento de fiebres altas y estados febriles de origen infeccioso e inflamatorio en el ambiente del desierto atacameno. Los Likan Antai (hombres del Atacama) usaban el talhuen como primera medicina para la fiebre del desierto, combinandolo con reposo en lugar fresco y consumo de agua de manantial.",
+      "principios_activos": "Lactonas sesquiterpenicas (eupatoriopicrina, eupatoriina); flavonoides; aceites esenciales (cineol, borneol); alcaloides pirrolizidinicos (uso limitado)",
+      "propiedades": [
+        "antipiretico",
+        "inmunomodulador",
+        "antiinflamatorio",
+        "diaforetico"
+      ],
+      "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara Revista Antropologica.",
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ]
+    },
+    {
       "id": 1100,
       "titulo": "Decoccion de Calafate para Fiebre e Infecciones (Kawésqar)",
       "categoria": "Febrífugo",
@@ -982,7 +1062,7 @@
       "evidencia": "\"Natre: la planta nativa con la que puedes bajar la fiebre\"\n(¿Cuál es tu huella?, 2022). Estudio de la Universidad de Chile confirma\nsu uso tradicional[reference:2][reference:3].",
       "fuente_tradicion": "Medicina tradicional chilena.",
       "contraindicaciones": "- Hipotensión arterial (presión baja).\n- Embarazo y lactancia.",
-      "id": 1332,
+      "id": 1342,
       "uso": "Reducir la fiebre de cualquier origen. El natre es uno de los\nantipiréticos tradicionales más efectivos y documentados de Chile.",
       "planta_principal": "Natre (Solanum ligustrinum)",
       "interacciones": "Podría potenciar el efecto de medicamentos antihipertensivos.",

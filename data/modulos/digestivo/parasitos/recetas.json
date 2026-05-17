@@ -721,46 +721,6 @@
       ]
     },
     {
-      "id": 729,
-      "titulo": "Aceite de Orégano contra Candida",
-      "categoria": "Antiparasitario",
-      "origen": "Naturopatía Moderna",
-      "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
-      "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
-      "dosis": "3 gotas de la mezcla en cápsula o en cucharadita 3 veces al día por 2 semanas",
-      "modo_uso": "Tomar con comida; el aceite de orégano es muy potente",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 frasco 30 ml (2 semanas)",
-      "conservacion": "Temperatura ambiente 1 año",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía moderna",
-      "contraindicaciones": "No usar sin diluir; puede causar ardor severo; no en embarazo",
-      "uso": "Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.",
-      "principios_activos": "Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.",
-      "propiedades": [
-        "antimicrobiano",
-        "antifúngico",
-        "antioxidante",
-        "digestivo",
-        "antiespasmódico"
-      ],
-      "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
-        "Náuseas asociadas a parásitos",
-        "Limpieza intestinal preventiva"
-      ],
-      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
-      "sinergia_plantas": [
-        "Ajo",
-        "Paico",
-        "Semillas de calabaza"
-      ]
-    },
-    {
       "id": 730,
       "titulo": "Infusión de Tomillo para Parásitos",
       "categoria": "Antiparasitario",
@@ -878,6 +838,128 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
+      ]
+    },
+    {
+      "id": 1019,
+      "titulo": "Infusion de Paico en Ayunas para Parasitos Intestinales",
+      "categoria": "Antiparasitario",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "10 g de planta fresca de paico (hojas y tallos), 250 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre la planta fresca. Reposar 10 minutos tapado. Colar.",
+      "dosis": "1 taza en ayunas por la manana durante 3 a 5 dias consecutivos",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Facil",
+      "rendimiento": "1 taza/dia por ciclo",
+      "conservacion": "Preparar fresco cada dia",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche; Farmacopea Homepatica; MINSAL 2010",
+      "contraindicaciones": "CONTRAINDICADO EN EMBARAZO (abortivo). NO usar el aceite esencial puro. En ninos, reducir la dosis a la mitad. Dosis altas producen dano hepatico y neurologico. No superar 5 dias sin supervision",
+      "uso": "Parasitos Intestinales: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+      "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
+      "propiedades": [
+        "antiparasitario",
+        "vermífugo",
+        "digestivo",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1021,
+      "titulo": "Preparacion de Paico y Culen para Parasitos Mixtos",
+      "categoria": "Antiparasitario",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "8 g de paico fresco, 8 g de hojas de culen (Otholobium glandulosum), 500 ml de agua",
+      "preparacion": "Hervir ambas plantas 5 minutos. Colar con paño fino.",
+      "dosis": "1 taza en ayunas por 5 dias consecutivos",
+      "modo_uso": "La machi combina el paico (accion antihelminitica directa via ascaridol) con el culen (accion astringente y antiespasmódica que reduce los calambres del proceso de expulsion de los parasitos). El culen facilita la tolerancia al tratamiento",
+      "tiempo_prep": "10 min",
+      "dificultad": "Facil",
+      "rendimiento": "1 taza/dia por ciclo",
+      "conservacion": "Preparar fresco cada dia",
+      "evidencia": "Saber ancestral mapuche y chileno",
+      "fuente_tradicion": "Medicina machi pehuenche y lafkenche (CONAF 2004; Aukanaw)",
+      "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. No superar la dosis recomendada. En ninos, supervisar con adulto y reducir la dosis",
+      "uso": "Parasitos Mixtos: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+      "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho. | Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+      "propiedades": [
+        "antiparasitario",
+        "vermífugo",
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "hipoglucemiante"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1022,
+      "titulo": "Lavado de Paico para Parasitos Externos y Sarna",
+      "categoria": "Antiparasitario",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "100 g de planta fresca de paico, 2 litros de agua",
+      "preparacion": "Hervir el paico en el agua durante 10 minutos. Colar. Dejar entibiar hasta temperatura comoda.",
+      "dosis": "Lavar las zonas afectadas con la decoccion 2 veces al dia durante 5 dias",
+      "modo_uso": "Tópico — enjuague o lavado local",
+      "tiempo_prep": "12 min",
+      "dificultad": "Facil",
+      "rendimiento": "2 lavados diarios",
+      "conservacion": "Refrigerar 24 h; templar antes de usar",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (CONAF 2004)",
+      "contraindicaciones": "No aplicar en mucosas ni ojos. Si hay irritacion de la piel, suspender. El paico en piel puede causar fotosensibilidad en algunas personas",
+      "uso": "Parasitos Externos y Sarna: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+      "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
+      "propiedades": [
+        "antiparasitario",
+        "vermífugo",
+        "digestivo",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
       ]
     },
     {
@@ -1021,7 +1103,7 @@
       "evidencia": "Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas.",
       "fuente_tradicion": "Medicina tradicional andina y mapuche",
       "contraindicaciones": "",
-      "id": 1351,
+      "id": 1361,
       "uso": "Tratamiento de parasitosis intestinales (oxiuros,\náscaris).",
       "planta_principal": "Paico (Dysphania ambrosioides)",
       "interacciones": "Puede interferir con medicamentos metabolizados\npor el hígado.",
@@ -1042,7 +1124,7 @@
       "evidencia": "Ministerio de Desarrollo Agrario y Riego del Perú\n(Midagri); Farmacopeas tradicionales andinas; monografías de\ntoxicología de la OMS.",
       "fuente_tradicion": "Medicina tradicional andina (uso restringido)",
       "contraindicaciones": "",
-      "id": 1374,
+      "id": 1384,
       "planta_principal": "Paico (Dysphania ambrosioides)",
       "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO"
     }

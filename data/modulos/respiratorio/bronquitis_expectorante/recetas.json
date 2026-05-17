@@ -706,6 +706,87 @@
       ]
     },
     {
+      "id": 1032,
+      "titulo": "Infusion de Corteza de Quillay para Tos y Bronquitis",
+      "categoria": "Tos",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "4 g de corteza interna de quillay (la corteza blanca, no la gris externa), 500 ml de agua caliente",
+      "preparacion": "Verter el agua caliente (no hirviendo) sobre la corteza interna. Reposar 15 minutos. Colar con cuidado.",
+      "dosis": "2 a 3 tazas al dia durante 5 dias maximos para tos y bronquitis",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "17 min",
+      "dificultad": "Facil",
+      "rendimiento": "2-3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; Farmacopea Europea; SEFIT 2020)",
+      "contraindicaciones": "No superar 5 dias de uso interno sin supervision. Las saponinas en exceso son hemolisticas. No usar en ninos pequenos ni embarazadas. Si la tos tiene sangre o fiebre alta, consultar medico",
+      "uso": "Tos y Bronquitis: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+      "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "inmunoestimulante",
+        "antiséptico",
+        "antifúngico"
+      ],
+      "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1041,
+      "titulo": "Infusion de Quinchamali para Tos y Bronquitis",
+      "categoria": "Tos",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "12 g de planta de quinchamalí seca (hojas, tallos y flores), 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre la planta seca. Reposar 12 minutos. Colar.",
+      "dosis": "3 tazas al dia, preferiblemente con miel de ulmo si hay disponibilidad",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+      "contraindicaciones": "No usar mas de 2 semanas sin supervision. CONTRAINDICADO EN EMBARAZO y lactancia (datos de seguridad insuficientes). En tos con sangre o dificultad respiratoria grave, consultar medico urgente",
+      "uso": "Tos y Bronquitis. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
       "id": 1075,
       "titulo": "Vapores de Laminaria y Menta Silvestre para Bronquitis Costera Lafkenche",
       "categoria": "Expectorante",
@@ -991,7 +1072,7 @@
       "evidencia": "\"Ocho plantas medicinales aprobadas por el Minsal que permiten\ncombatir enfermedades respiratorias\" (T13, 2015). El Quillay es un\nexpectorante y antitusivo de uso tradicional.",
       "fuente_tradicion": "Medicina tradicional mapuche y chilena. Aprobada por el MINSAL.",
       "contraindicaciones": "- Embarazo y lactancia.\n- No usar en niños menores de 6 años.\n- No exceder la dosis recomendada (las saponinas pueden ser irritantes).",
-      "id": 1329,
+      "id": 1339,
       "uso": "Alivio de la bronquitis, tos productiva y asma. El Quillay\nes uno de los expectorantes naturales más potentes de la flora chilena.",
       "planta_principal": "Quillay (Quillaja saponaria)",
       "interacciones": "Puede interferir con la absorción de otros medicamentos.\nSeparar su toma por al menos 2 horas.",
@@ -1013,7 +1094,7 @@
       "evidencia": "El Ministerio de Salud de Chile reconoce al matico como\nmedicina tradicional a base de plantas, basándose en el conocimiento\nancestral y evidencias preclínicas[reference:4]. Estudios confirman\nsus propiedades antiinflamatorias, analgésicas y antioxidantes\n(Revista de Fitoterapia)[reference:5].",
       "fuente_tradicion": "Medicina tradicional mapuche y chilena",
       "contraindicaciones": "- Embarazo y lactancia: no se han confirmado riesgos, pero se\n  recomienda evitar su uso interno sin supervisión médica.\n- No se han descrito contraindicaciones graves a las dosis habituales.",
-      "id": 1347,
+      "id": 1357,
       "uso": "Alivio de los síntomas de la bronquitis, tos, resfriados\ny como antiséptico respiratorio.",
       "planta_principal": "Matico (Buddleja globosa)",
       "interacciones": "No se han descrito interacciones relevantes.",

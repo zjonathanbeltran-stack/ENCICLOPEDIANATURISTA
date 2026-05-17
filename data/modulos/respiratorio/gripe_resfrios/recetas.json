@@ -213,6 +213,169 @@
       ]
     },
     {
+      "id": 682,
+      "titulo": "Remedio de Bailahuen y Menta para la Gripe",
+      "categoria": "Resfriados",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 ramitas de bailahuen (Haplopappus baylahuen), 5 hojas de menta, 1 L de agua",
+      "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
+      "dosis": "3 tazas al día durante la gripe",
+      "modo_uso": "Tomar caliente; el bailahuen es un lawen mapuche clásico",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche popular",
+      "contraindicaciones": "No usar en embarazo; el bailahuen puede afectar el hígado en exceso",
+      "uso": "Gripe: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1042,
+      "titulo": "Decoccion de Quinchamali con Miel de Ulmo para Resfrío",
+      "categoria": "Resfriados",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "15 g de quinchamalí fresco, 500 ml de agua, 2 cucharadas de miel de ulmo (Eucryphia cordifolia)",
+      "preparacion": "Hervir el quinchamalí en el agua 5 minutos. Colar. Dejar entibiar a menos de 40 grados. Agregar la miel de ulmo (nunca agregar la miel al agua hirviendo, pues destruye sus enzimas y principios activos).",
+      "dosis": "3 tazas al dia en resfriado agudo",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "8 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h; templar antes de cada uso",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010; Gloria Montenegro, Universidad de Chile)",
+      "contraindicaciones": "No dar miel a ninos menores de 1 año (riesgo de botulismo infantil). No usar en embarazo. Si el resfrío no mejora en 7 dias, consultar medico",
+      "uso": "Resfrío: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
+      "id": 1045,
+      "titulo": "Vapor de Triwe para Resfrío y Gripe",
+      "categoria": "Resfriados",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "50 g de hojas y ramas de triwe frescas, 2 litros de agua",
+      "preparacion": "Hervir el triwe en el agua 5 minutos. Retirar del fuego. Inhalar el vapor inclinando la cabeza sobre el recipiente, cubriendo con una toalla.",
+      "dosis": "Inhalar 10 a 15 minutos, 2 veces al dia en resfrío agudo",
+      "modo_uso": "Inhalación — respirar los vapores",
+      "tiempo_prep": "7 min",
+      "dificultad": "Facil",
+      "rendimiento": "2 sesiones",
+      "conservacion": "Preparar fresco cada sesion",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
+      "contraindicaciones": "Mantener distancia del vapor caliente. No usar en ninos sin supervision. Asmaticos: consultar antes, ya que vapores intensos pueden provocar broncoespasmo",
+      "uso": "Resfrío y Gripe. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ]
+    },
+    {
+      "id": 1058,
+      "titulo": "Mezcla de Bailahuen, Quinchamali y Culen para el Resfrío Mapuche",
+      "categoria": "Resfriados",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "5 g de bailahuen, 5 g de quinchamalí, 5 g de hojas de culen, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua sobre las tres plantas juntas. Reposar 12 minutos. Colar.",
+      "dosis": "3 tazas al dia al inicio del resfrío y durante los primeros 3 a 5 dias",
+      "modo_uso": "La machi lafkenche usa esta triple combinacion para resfrío con tos, fiebre y malestar general. El bailahuen aporta accion antipirética y diaforetica (promueve sudoracion), el quinchamalí aporta accion expectorante y antitusiva, y el culen aporta accion antiespasmódica que alivia los calambres y el malestar general",
+      "tiempo_prep": "14 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
+      "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. CONTRAINDICADO EN CALCULOSIS BILIAR (bailahuen). Si el resfrío no mejora en 5 dias, consultar medico",
+      "uso": "Resfrío Mapuche: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
+      "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+      "propiedades": [
+        "digestivo",
+        "antiespasmódico",
+        "hipoglucemiante",
+        "antidiarreico",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ]
+    },
+    {
       "titulo": "Infusión de Canelo para la gripe y el resfriado",
       "categoria": "Resfriados",
       "origen": "Medicina tradicional mapuche.",
@@ -285,7 +448,7 @@
       "evidencia": "\"La infusión de sus hojas es buena para la tos, contienen mucha\nvitamina C\" (Reconocimiento de flora, 2022)[reference:5]. El Canelo es un\nmedicamento herbario tradicional aprobado por el MINSAL[reference:6].",
       "fuente_tradicion": "Medicina tradicional mapuche.",
       "contraindicaciones": "- Embarazo y lactancia (consultar al médico).",
-      "id": 1333,
+      "id": 1343,
       "uso": "Combatir los síntomas de la gripe y el resfriado común,\nespecialmente la tos, el malestar general y la fiebre leve. Las hojas\nson ricas en vitamina C.",
       "planta_principal": "Canelo (Drimys winteri)",
       "interacciones": "No se han descrito.",

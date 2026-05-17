@@ -86,6 +86,46 @@
       ]
     },
     {
+      "id": 1068,
+      "titulo": "Unguento de Quilquil (Blechnum chilense) y Manteca para Lumbago Williche-Chilote",
+      "categoria": "Analgésico",
+      "origen": "Mapuche Williche / Chilote (Chiloe continental, Ancud, Castro)",
+      "ingredientes": "200 g de frondes (hojas) frescas de quilquil (Blechnum chilense); 3 cucharadas de manteca de cerdo (wenu puno en mapudungun); 1 cucharada de aceite de linaza",
+      "preparacion": "1. Lavar bien las hojas de quilquil con agua fria. 2. Machacar intensamente en mortero o majar hasta obtener pulpa verde jugosa. 3. Derretir la manteca a fuego muy bajo. 4. Incorporar la pulpa de quilquil a la manteca tibia. 5. Agregar el aceite de linaza. 6. Revolver durante 10 minutos a fuego minimo sin que hierva. 7. Retirar del fuego, dejar enfriar hasta consistencia de unguento. Guardar en tarro.",
+      "dosis": "Aplicar con masaje firme sobre la zona dolorida (espalda baja, lumbar, hombros) 2 veces al dia, preferentemente al despertar y antes de dormir. Cubrir con pano de lana caliente despues de aplicar.",
+      "modo_uso": "Topico (unguento + masaje)",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Media",
+      "rendimiento": "15-20 aplicaciones",
+      "conservacion": "Refrigerar hasta 2 semanas. Si se forman hongos, descartar.",
+      "evidencia": "El quilquil es uno de los lawenes topicos mas usados en la medicina williche-chilota para el sistema musculoesqueletico. Documentado por Villagran (2000) y por Munoz-Schick (1973). Los helechos del genero Blechnum contienen compuestos fenolicos y silice organico con efecto antiinflamatorio topico.",
+      "fuente_tradicion": "Mapuche Williche",
+      "contraindicaciones": "Solo uso externo. No aplicar sobre piel con lesiones abiertas o eccema activo. Algunos individuos pueden experimentar dermatitis de contacto a los helechos (evaluar con pequena dosis en antebrazo). No ingerir.",
+      "uso": "Alivio de lumbalgias cronicas, contracturas musculares, dolores de espalda por trabajo fisico intenso (pesca, tala, siembra). Muy usado por las mujeres chilotes para dolores de espalda durante el embarazo (uso externo considerado seguro en dosis moderadas).",
+      "principios_activos": "Compuestos fenolicos (acido clorogenico); silice organico; ecdisona (hormona vegetal antiinflamatoria); clorofila; acidos grasos (linaza)",
+      "propiedades": [
+        "analgesico topico",
+        "antiinflamatorio",
+        "relajante muscular",
+        "emoliente"
+      ],
+      "referencias": "Villagran C. (2000) Etnobiologia williche. CONAF. / Munoz-Schick M. (1973) Flores de Chile. Editorial Universitaria. / Giordano OS. et al. (1990) Medicinal plants of Chiloe. Phytother Res.",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
+    },
+    {
       "titulo": "Aceite de Romero para dolores musculares",
       "categoria": "Reumatismo",
       "origen": "Medicina tradicional mediterránea",
@@ -100,7 +140,7 @@
       "evidencia": "ESCOP (European Scientific Cooperative on Phytotherapy)\nincluye el romero en sus monografías para uso externo como\nrubefaciente y analgésico suave en dolores musculares y\nreumáticos. La Comisión E alemana también aprueba este uso.",
       "fuente_tradicion": "Medicina tradicional mediterránea",
       "contraindicaciones": "- No aplicar sobre heridas abiertas o piel irritada.\n- No usar en niños menores de 6 años.\n- Evitar el contacto con los ojos y mucosas.",
-      "id": 1339,
+      "id": 1349,
       "uso": "Alivio de dolores musculares, contracturas y\ncansancio muscular tras esfuerzo físico.\n\nINGREDIENTES (aceite de masaje):\n- Hojas frescas o secas de romero suficientes para llenar un\n  frasco.\n- Aceite de oliva (cantidad suficiente para cubrir).",
       "planta_principal": "Romero (Salvia rosmarinus)",
       "interacciones": "No se han descrito para uso externo.",
@@ -122,7 +162,7 @@
       "evidencia": "European Medicines Agency (EMA). Monografía sobre\n\"Arnicae flos\". La EMA aprueba su uso tradicional para el\nalivio de contusiones, esguinces y dolores musculares, siempre\npor vía tópica y en las diluciones adecuadas.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "",
-      "id": 1343,
+      "id": 1353,
       "uso": "Alivio de golpes, contusiones, hematomas y dolores\nmusculares sin herida abierta.\n\nINGREDIENTES (tintura):\n- 20 g de flores secas de árnica.\n- 100 ml de alcohol de 70° (o vodka).",
       "planta_principal": "Árnica (Arnica montana)",
       "interacciones": "No se han descrito para uso externo correcto.",
@@ -144,7 +184,7 @@
       "evidencia": "La Agencia Europea del Medicamento (EMA) reconoce el\nuso tradicional de la lavanda por vía tópica para el alivio\nde dolores musculares y articulares leves. Estudios publicados\nen \"Evidence-Based Complementary and Alternative Medicine\"\nrespaldan sus propiedades analgésicas y antiinflamatorias.",
       "fuente_tradicion": "Medicina tradicional europea",
       "contraindicaciones": "- No aplicar sobre heridas abiertas o quemaduras.\n- Evitar en niños menores de 6 años sin supervisión.\n- No ingerir el aceite esencial puro.",
-      "id": 1359,
+      "id": 1369,
       "uso": "Relajación de contracturas musculares y alivio del\ndolor asociado a tensión y estrés.",
       "planta_principal": "Lavanda (Lavandula angustifolia)",
       "interacciones": "No se han descrito para uso externo.",

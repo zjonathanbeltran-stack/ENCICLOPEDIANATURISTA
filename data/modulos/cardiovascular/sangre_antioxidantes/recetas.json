@@ -3,6 +3,126 @@
   "submodulo": "sangre_antioxidantes",
   "recetas": [
     {
+      "id": 130,
+      "titulo": "Infusión de Marrubio para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Popular",
+      "ingredientes": "1 cucharada de hojas de marrubio, 1 taza de agua.",
+      "preparacion": "Infusión de hojas de marrubio. Tradicionalmente utilizada para hacer más agradables las digestiones pesadas, problemas de vesícula y como coayudante para la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo. No usar en niños menores de 6 años.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ]
+    },
+    {
+      "id": 149,
+      "titulo": "Infusión de Palo Negro para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Norte Grande",
+      "ingredientes": "Trozos de Palo Negro (Prosopis alba?), 1 litro de agua.",
+      "preparacion": "Hervir los palos del arbusto y beber esta infusión cada 6 horas aproximadamente. Sirve como coadyuvante para tratar la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Taninos condensados y flavonoides (en Prosopis): astringentes y antihiperglucémicos. Alcaloides piperidínicos: reguladores del metabolismo glucídico. Goma (galactomanano): fibra soluble que retarda la absorción de glucosa.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ]
+    },
+    {
+      "id": 150,
+      "titulo": "Decocción de Pimiento para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Popular",
+      "ingredientes": "Hojas de pimiento, 1 taza de agua.",
+      "preparacion": "Hervir las hojas y beber la decocción, conocida por sus beneficios para tratar la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ]
+    },
+    {
       "id": 309,
       "titulo": "Jugo de Maqui para salud cardiovascular",
       "categoria": "Cardiovascular",

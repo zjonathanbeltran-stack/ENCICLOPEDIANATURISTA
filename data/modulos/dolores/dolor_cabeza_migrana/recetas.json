@@ -84,6 +84,46 @@
       ]
     },
     {
+      "id": 1080,
+      "titulo": "Cataplasma de Chachacoma y Grasa de Llama para Dolor de Cabeza de Altura Aymara",
+      "categoria": "Analgésico",
+      "origen": "Aymara (Parinacota, Putre, Lago Chunga)",
+      "ingredientes": "30 g de hojas y flores de chachacoma (Senecio nutans / chakakuma en aymara); 3 cucharadas de grasa de llama (o grasa de vacuno); 1 cucharada de alcohol de cana; 1 cucharada de tintura de rica-rica (opcional)",
+      "preparacion": "1. Secar las hojas de chachacoma al sol durante 2 dias o en lugar ventilado. 2. Triturar las hojas secas en mortero hasta polvo grueso. 3. Mezclar la grasa de llama tibia con el polvo de chachacoma y el alcohol. 4. Revolver hasta obtener pasta homogenea. 5. Agregar la tintura de rica-rica si se dispone. 6. Aplicar sobre la frente, sienes y nuca con masaje suave.",
+      "dosis": "Aplicar sobre frente, sienes y nuca al inicio del dolor de cabeza. Mantener 30-60 minutos. Repetir hasta 3 veces al dia en casos intensos.",
+      "modo_uso": "Topico (cataplasma/unguento)",
+      "tiempo_prep": "30 minutos (mas 2 dias de secado)",
+      "dificultad": "Media",
+      "rendimiento": "10-15 aplicaciones",
+      "conservacion": "Refrigerar en tarro cerrado hasta 2 semanas.",
+      "evidencia": "La chachacoma (Senecio nutans) es la planta aymara mas especifica para el dolor de cabeza de altura. Contiene alcaloides pirrolizidinicos con efecto analgesico y vasodilatador cerebral. Documentada por Villagran & Castro (2004) como una de las tres plantas sagradas del altiplano chileno (junto con la rica-rica y la yareta).",
+      "fuente_tradicion": "Andina / Aymara",
+      "contraindicaciones": "Solo uso externo (topico). Los alcaloides pirrolizidinicos de Senecio son hepatotoxicos si se ingieren en dosis repetidas. NO INGERIR esta preparacion. Contraindicado en embarazo (incluso uso externo prolongado). No aplicar en cara de ninos pequenos.",
+      "uso": "Tratamiento de la cefalea de altitude, migrania relacionada con la puna y dolores de cabeza tensionales en la cordillera. La grasa de llama actua como vehiculo liposoluble que facilita la penetracion transcutanea de los principios activos de la chachacoma.",
+      "principios_activos": "Alcaloides pirrolizidinicos (Senecio: senecionina, retrorsina - solo uso externo); flavonoides; sesquiterpenos; grasa animal (vehiculo)",
+      "propiedades": [
+        "analgesico topico",
+        "vasodilatador craneal",
+        "antipiretico",
+        "relajante nervioso"
+      ],
+      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. / Morandini AC. (2013) Plantas medicinales del altiplano chileno. Bol Latinoam Caribe Plant Med Aromat.",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ]
+    },
+    {
       "id": 1112,
       "titulo": "Infusión analgésica de sauce blanco para cefalea",
       "categoria": "Analgésico",
@@ -169,7 +209,7 @@
       "evidencia": "Un estudio publicado en el \"International Journal of\nClinical Practice\" demostró que la aplicación tópica de mentol\nal 10% es tan eficaz como el paracetamol para aliviar la\ncefalea tensional. La Comisión E alemana aprueba el uso\nexterno del aceite esencial de menta para dolores de cabeza.",
       "fuente_tradicion": "Medicina tradicional europea, cultivada en Chile",
       "contraindicaciones": "- No aplicar sobre heridas abiertas o piel irritada.\n- Evitar el contacto con los ojos.",
-      "id": 1326,
+      "id": 1336,
       "uso": "Alivio del dolor de cabeza tensional y la migraña\nleve gracias al efecto refrescante y analgésico del mentol.",
       "planta_principal": "Menta (Mentha x piperita)",
       "interacciones": "No se han descrito para uso externo.",
