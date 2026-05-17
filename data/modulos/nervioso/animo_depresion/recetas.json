@@ -82,6 +82,64 @@
         "antiespasmódico",
         "adaptógeno"
       ]
+    },
+    {
+      "id": 1354,
+      "titulo": "Infusión de Hierba de San Juan para el Ánimo Bajo",
+      "categoria": "Nervioso",
+      "modulo": "nervioso",
+      "submodulo": "animo_depresion",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharadita de sumidades floridas secas de hierba de San Juan, 250 ml de agua",
+      "preparacion": "Hervir el agua. Verter sobre la hierba, tapar y dejar reposar 10 minutos. Colar y beber tibio, preferentemente sin endulzar.",
+      "dosis": "1 taza por la mañana y otra al mediodía. No exceder 6 semanas sin evaluación médica. No administrar a menores de 18 años.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "NUNCA combinar con antidepresivos, anticonceptivos orales, anticoagulantes, inmunosupresores ni otros medicamentos sin consultar al médico. Evitar la exposición solar prolongada. No usar en embarazo, lactancia ni en trastorno bipolar. Puede causar fotosensibilidad.",
+      "uso": "Ánimo decaído y tristeza persistente: ayuda a levantar el estado de ánimo, reduciendo la sensación de apatía y mejorando la energía mental de forma gradual.",
+      "propiedades": [
+        "antidepresivo leve",
+        "ansiolítico",
+        "neuroprotector",
+        "antiinflamatorio",
+        "sedante suave"
+      ],
+      "principios_activos": "Hipericina e hiperforina: inhiben la recaptación de serotonina, noradrenalina y dopamina, aumentando su disponibilidad sináptica. | Flavonoides: contribuyen al efecto neuroprotector y antiinflamatorio a nivel cerebral.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Hypericum perforatum; MINSAL 2010; Linde K et al. Cochrane Database Syst Rev 2008;(3):CD000448"
+    },
+    {
+      "id": 1355,
+      "titulo": "Decocción de Albahaca Santa (Tulsi) para Levantar el Ánimo",
+      "categoria": "Nervioso",
+      "modulo": "nervioso",
+      "submodulo": "animo_depresion",
+      "origen": "Medicina Ayurveda",
+      "ingredientes": "1 cucharada de hojas secas de albahaca santa (tulsi), 300 ml de agua, 1 rodaja de limón",
+      "preparacion": "Hervir el agua con las hojas de tulsi a fuego lento durante 5 minutos. Retirar, tapar y dejar reposar 5 minutos. Colar y añadir el limón. Beber tibio.",
+      "dosis": "1 taza cada 6 horas, máximo 3 tazas al día. Puede consumirse por temporadas de hasta 3 meses.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza grande (300 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Medicina Ayurveda",
+      "contraindicaciones": "Evitar en el embarazo y lactancia. No usar en hipoglucemia sin supervisión. Puede potenciar el efecto de anticoagulantes y sedantes. No administrar a niños menores de 12 años sin consultar.",
+      "uso": "Ánimo bajo con fatiga mental: la albahaca santa equilibra el sistema nervioso, reduce el estrés y la ansiedad, y aporta una sensación de claridad y energía que ayuda a salir del decaimiento.",
+      "propiedades": [
+        "adaptógeno",
+        "ansiolítico",
+        "neuroprotector",
+        "antioxidante",
+        "energizante suave"
+      ],
+      "principios_activos": "Eugenol y ácido rosmarínico: acción adaptógena que modula los niveles de cortisol y reduce el estrés oxidativo cerebral. | Triterpenos: efecto neuroprotector y modulador sobre el eje hipotálamo-hipófisis-adrenal, mejorando la respuesta al estrés y el estado anímico.",
+      "referencias": "WHO Monographs Vol.2 (2002) Ocimum tenuiflorum; MINSAL 2010; Bhattacharyya D et al. Nepal Med Coll J 2008;10(3):176-179"
     }
   ]
 }

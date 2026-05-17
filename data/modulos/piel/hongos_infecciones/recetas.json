@@ -611,6 +611,64 @@
         "Aloe vera",
         "Matico"
       ]
+    },
+    {
+      "id": 1360,
+      "titulo": "Aceite de Árbol de Té y Ajo para los Hongos de la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Naturopatía",
+      "ingredientes": "10 gotas de aceite esencial de árbol de té, 1 diente de ajo machacado, 30 ml de aceite de coco fraccionado",
+      "preparacion": "Machacar el ajo y mezclarlo con el aceite de coco. Calentar a baño maría 5 minutos (sin hervir). Dejar enfriar, colar y añadir el aceite de árbol de té. Conservar en frasco oscuro.",
+      "dosis": "Aplicar 2 gotas sobre la zona afectada, mañana y noche, después de lavar y secar bien. Usar hasta 4 semanas. Si no hay mejoría, consultar al médico.",
+      "modo_uso": "Tópico — aceite medicado",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "30 ml",
+      "conservacion": "En lugar fresco y oscuro hasta 3 meses.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No usar en mucosas, ojos ni heridas abiertas. Evitar en caso de alergia al ajo o al árbol de té. No aplicar en niños menores de 6 años sin consultar. Suspender si causa irritación intensa.",
+      "uso": "Hongos superficiales como pie de atleta, onicomicosis leve o tiñas: el árbol de té y el ajo combaten eficazmente los hongos y ayudan a restaurar la piel sana.",
+      "propiedades": [
+        "antifúngico",
+        "antiséptico",
+        "antibacteriano",
+        "regenerador",
+        "calmante"
+      ],
+      "principios_activos": "Terpinen-4-ol (árbol de té): altera la membrana celular de los hongos dermatofitos, con actividad fungicida comprobada. | Alicina (ajo): potente antifúngico que inhibe la síntesis de ergosterol en la pared fúngica. | Aceite de coco: ácido láurico con acción antifúngica de refuerzo y vehículo de penetración.",
+      "referencias": "MINSAL 2010; WHO Monographs Vol.1 (1999) Melaleuca alternifolia; Carson CF et al. Clin Microbiol Rev 2006;19(1):50-62; Davis SR et al. Med J Aust 1994;160(4):236"
+    },
+    {
+      "id": 1361,
+      "titulo": "Lavado de Caléndula y Cola de Caballo para Infecciones Fúngicas",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores de caléndula, 2 cucharadas de cola de caballo seca, 1 litro de agua",
+      "preparacion": "Hervir el agua con las plantas durante 5 minutos. Dejar enfriar hasta temperatura tibia. Colar y usar para lavar la zona afectada o aplicar compresas empapadas durante 15 minutos.",
+      "dosis": "Lavados o compresas 2 veces al día, mañana y noche, durante 2 semanas. Repetir ciclo si es necesario.",
+      "modo_uso": "Tópico — lavado o compresas",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 litro de solución",
+      "conservacion": "Usar en el día. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en heridas abiertas profundas. Evitar en caso de alergia a las asteráceas. No ingerir. Secar muy bien la zona después del tratamiento.",
+      "uso": "Hongos en pliegues, entre los dedos o en el cuero cabelludo: la caléndula y la cola de caballo ayudan a eliminar los hongos, reducen la picazón y restauran la integridad de la piel.",
+      "propiedades": [
+        "antifúngico",
+        "antiinflamatorio",
+        "astringente",
+        "calmante",
+        "regenerador"
+      ],
+      "principios_activos": "Flavonoides de caléndula: acción antiinflamatoria y antimicrobiana que calma la irritación. | Sílice y saponinas de cola de caballo: efecto astringente y fortalecedor de la piel, creando un entorno desfavorable para los hongos. Taninos: propiedad antifúngica suave.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis y Equisetum arvense"
     }
   ]
 }

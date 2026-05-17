@@ -327,6 +327,64 @@
         "hierba del sapo",
         "ajo"
       ]
+    },
+    {
+      "id": 1362,
+      "titulo": "Infusión de Hojas de Olivo para la Presión Arterial Alta",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "presion_arterial",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "1 cucharada de hojas secas de olivo, 250 ml de agua",
+      "preparacion": "Hervir el agua. Añadir las hojas de olivo, tapar y dejar reposar 15 minutos. Colar y beber tibio.",
+      "dosis": "1 taza por la mañana y otra por la noche, preferiblemente fuera de las comidas. No exceder 4 semanas continuas sin control médico.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Medicina Mediterránea",
+      "contraindicaciones": "No suspender la medicación antihipertensiva sin supervisión médica. Evitar en hipotensión, embarazo y lactancia. Puede potenciar el efecto de medicamentos para la diabetes o la presión. No administrar a niños.",
+      "uso": "Presión arterial elevada o hipertensión leve: ayuda a relajar los vasos sanguíneos y a reducir la presión de forma natural, complementando el tratamiento médico.",
+      "propiedades": [
+        "hipotensor",
+        "vasodilatador",
+        "antioxidante",
+        "cardioprotector",
+        "diurético suave"
+      ],
+      "principios_activos": "Oleuropeína: inhibe la enzima convertidora de angiotensina (ECA) y bloquea canales de calcio, produciendo vasodilatación y disminución de la presión arterial. | Hidroxitirosol: potente antioxidante que protege el endotelio vascular.",
+      "referencias": "WHO Monographs Vol.1 (1999) Olea europaea; MINSAL 2010; Susalit E et al. Phytomedicine 2011;18(4):251-258"
+    },
+    {
+      "id": 1363,
+      "titulo": "Decocción de Apio para la Hipertensión Arterial",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "presion_arterial",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 tallos de apio con hojas, 500 ml de agua",
+      "preparacion": "Lavar bien el apio y trocearlo. Hervir en el agua durante 10 minutos a fuego lento. Tapar, dejar reposar 5 minutos y colar. Beber el líquido a lo largo del día.",
+      "dosis": "500 ml repartidos en 2 tomas (mañana y tarde), preferentemente fuera de las comidas. Ciclos de 2 semanas con descanso de 1 semana.",
+      "modo_uso": "Oral — decocción fría o tibia",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml",
+      "conservacion": "Refrigerar hasta 24 horas. Agitar antes de beber.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en insuficiencia renal o alergia al apio. Evitar en el embarazo (puede estimular el útero). No combinar con diuréticos o anticoagulantes sin supervisión. No sustituir medicamentos sin indicación médica.",
+      "uso": "Presión arterial alta: el apio ayuda a eliminar líquidos retenidos y relaja los vasos sanguíneos, contribuyendo a bajar la presión de manera natural.",
+      "propiedades": [
+        "hipotensor",
+        "diurético",
+        "vasodilatador",
+        "antiinflamatorio",
+        "antioxidante"
+      ],
+      "principios_activos": "3-n-butilftalida: compuesto aromático que relaja la musculatura lisa arterial y reduce las catecolaminas circulantes, disminuyendo la resistencia vascular periférica. | Potasio y flavonoides: efecto diurético suave que reduce el volumen plasmático y protege el endotelio vascular.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Apium graveolens; Peng W et al. J Ethnopharmacol 2009;124(2):222-226"
     }
   ]
 }
