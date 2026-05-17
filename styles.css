@@ -219,6 +219,74 @@ header {
 .icon-btn:hover::before { opacity: 0.25; }
 .icon-btn.alert { color: var(--terracotta-soft); }
 
+/* Botón de donación en header */
+.donate-btn {
+    color: #e07070 !important;
+    text-decoration: none;
+}
+.donate-btn:hover {
+    color: #ff8888 !important;
+    border-color: rgba(224,112,112,0.4) !important;
+}
+.donate-btn i { animation: heartbeat 2.4s ease-in-out infinite; }
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    14%       { transform: scale(1.18); }
+    28%       { transform: scale(1); }
+    42%       { transform: scale(1.12); }
+    56%       { transform: scale(1); }
+}
+
+/* Card de donación en pestaña Estadísticas */
+.donate-card {
+    background: linear-gradient(135deg, rgba(106,138,82,0.08), rgba(155,187,122,0.04));
+    border: 1px solid rgba(155,187,122,0.2);
+}
+.donate-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.donate-card-icon {
+    font-size: 2.8rem;
+    filter: drop-shadow(0 0 12px rgba(106,138,82,0.4));
+}
+.donate-card-text h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 0.5rem;
+}
+.donate-card-text p {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 480px;
+}
+.donate-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, var(--moss), var(--moss-bright));
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.88rem;
+    padding: 0.65rem 1.6rem;
+    border-radius: var(--r-sm);
+    text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: 0 4px 16px rgba(106,138,82,0.3);
+}
+.donate-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106,138,82,0.45);
+}
+.donate-cta-btn i { color: #ffb3b3; }
+
 /* ════════════════════════════════════════════════════════════════════
    BÚSQUEDA
    ════════════════════════════════════════════════════════════════════ */
