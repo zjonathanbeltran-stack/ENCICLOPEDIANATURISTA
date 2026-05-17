@@ -62,7 +62,7 @@ def check_oral_vs_topico(r):
             # Excluir restricciones de tiempo/duración — no son contradicción con oral
             if 'no consumir después' in campos_instrucciones:
                 continue
-            if re.search(r'no consumir (más de|por más|durante más)', campos_instrucciones):
+            if re.search(r'no consumir (más de|por más|durante más|cerca|por la noche|de noche)', campos_instrucciones):
                 continue
             issues.append(
                 f"[CRÍTICO] modo_uso='{r['modo_uso']}' pero texto dice \"{frase}\""
