@@ -531,8 +531,6 @@
                         <p class="ancestral-hero-sub">Saberes curativos de los <strong>pueblos originarios de Chile</strong> — mapuche, aymara y atacameño — transmitidos por generaciones de machis, yatiris y curanderos.</p>
                         <div class="ancestral-hero-stats">
                             <span class="anc-stat"><i class="fas fa-scroll"></i> <span id="ancStatRecetas">0</span> recetas ancestrales</span>
-                            <span class="dol-stat-sep">·</span>
-                            <span class="anc-stat"><i class="fas fa-users"></i> <span id="ancStatPueblos">6</span> pueblos originarios</span>
                         </div>
                     </div>
                 </div>
@@ -555,88 +553,17 @@
                 </button>
             </div>
 
-            <!-- Filtros por pueblo -->
-            <div class="ancestral-pueblos-nav">
-                <button class="anc-pueblo-btn active" data-pueblo="todos">
-                    <span class="anc-pueblo-emoji">🌿</span>
-                    <span class="anc-pueblo-name">Todos</span>
-                    <span class="anc-pueblo-count" id="ancCount-todos">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="mapuche">
-                    <span class="anc-pueblo-emoji">🌲</span>
-                    <span class="anc-pueblo-name">Mapuche</span>
-                    <span class="anc-pueblo-count" id="ancCount-mapuche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="williche">
-                    <span class="anc-pueblo-emoji">🏔️</span>
-                    <span class="anc-pueblo-name">Williche</span>
-                    <span class="anc-pueblo-count" id="ancCount-williche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="pewenche">
-                    <span class="anc-pueblo-emoji">🌲</span>
-                    <span class="anc-pueblo-name">Pewenche</span>
-                    <span class="anc-pueblo-count" id="ancCount-pewenche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="lafkenche">
-                    <span class="anc-pueblo-emoji">🌊</span>
-                    <span class="anc-pueblo-name">Lafkenche</span>
-                    <span class="anc-pueblo-count" id="ancCount-lafkenche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="huilliche">
-                    <span class="anc-pueblo-emoji">🏝️</span>
-                    <span class="anc-pueblo-name">Huilliche</span>
-                    <span class="anc-pueblo-count" id="ancCount-huilliche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="aymara">
-                    <span class="anc-pueblo-emoji">☀️</span>
-                    <span class="anc-pueblo-name">Aymara</span>
-                    <span class="anc-pueblo-count" id="ancCount-aymara">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="atacameno">
-                    <span class="anc-pueblo-emoji">🌵</span>
-                    <span class="anc-pueblo-name">Atacameño</span>
-                    <span class="anc-pueblo-count" id="ancCount-atacameno">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="rapanui">
-                    <span class="anc-pueblo-emoji">🗿</span>
-                    <span class="anc-pueblo-name">Rapa Nui</span>
-                    <span class="anc-pueblo-count" id="ancCount-rapanui">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="diaguita">
-                    <span class="anc-pueblo-emoji">⛰️</span>
-                    <span class="anc-pueblo-name">Diaguita</span>
-                    <span class="anc-pueblo-count" id="ancCount-diaguita">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="kawesqar">
-                    <span class="anc-pueblo-emoji">🛶</span>
-                    <span class="anc-pueblo-name">Kawésqar</span>
-                    <span class="anc-pueblo-count" id="ancCount-kawesqar">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="selknam">
-                    <span class="anc-pueblo-emoji">❄️</span>
-                    <span class="anc-pueblo-name">Selknam / Yagán</span>
-                    <span class="anc-pueblo-count" id="ancCount-selknam">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="ritual">
-                    <span class="anc-pueblo-emoji">🪶</span>
-                    <span class="anc-pueblo-name">Rituales</span>
-                    <span class="anc-pueblo-count" id="ancCount-ritual">0</span>
-                </button>
-            </div>
-
-            <!-- Dolencias / Sistemas del cuerpo -->
+            <!-- Filtros por módulo y submódulo -->
             <div class="anc-dolencias-section">
                 <div class="anc-dolencias-header">
-                    <span class="anc-dolencias-title"><i class="fas fa-th-large"></i> ¿Qué te aqueja?</span>
+                    <span class="anc-dolencias-title"><i class="fas fa-th-large"></i> Filtrar por módulo</span>
                     <button id="ancDolenciasReset" class="anc-dolencias-reset" hidden>
                         <i class="fas fa-times"></i> Ver todas
                     </button>
                 </div>
                 <div id="ancSistemasGrid" class="anc-sistemas-grid"></div>
+                <div id="ancSubmodulosGrid" class="anc-submodulos-grid" hidden></div>
             </div>
-
-            <!-- Contexto cultural (se muestra al seleccionar un pueblo) -->
-            <div id="ancestralContexto" class="ancestral-contexto" hidden></div>
 
             <!-- Resultados: contador -->
             <div id="ancResultCount" class="anc-result-count" hidden></div>

@@ -1170,33 +1170,50 @@ function ancestralRecetaCard(r) {
     </button>`;
 }
 
-let _ancPuebloActivo = 'todos';
 let _ancBusqueda = '';
 let _ancSistema = null;
+let _ancDolencia = null;
+
+// Mapeo de IDs de SISTEMAS → sistema en DOLENCIAS (donde difieren)
+const _ANCSISMAP = { musculoesqueletico: 'musculo', urinario: 'renal', defensas: 'inmuno', cosmetico: 'piel' };
 
 function renderMedicinaAncestral() {
     if (!recetasDB || !recetasDB.length) return;
 
     const todas = recetasDB.filter(esAncestral);
 
-    // Conteos por pueblo
-    const conteos = { todos: todas.length };
-    Object.keys(ANCESTRAL_PUEBLOS).forEach(p => {
-        conteos[p] = todas.filter(r => puebloDeReceta(r) === p).length;
-    });
-
-    // Actualizar stats hero
+    // Actualizar stat hero
     const statRec = $('#ancStatRecetas');
     if (statRec) statRec.textContent = todas.length;
 
-    // Actualizar conteos en botones
-    Object.keys(conteos).forEach(p => {
-        const el = $(`#ancCount-${p}`);
-        if (el) el.textContent = conteos[p];
-    });
-
-    // ── Render grid de sistemas del cuerpo ──
     const sisteGrid = $('#ancSistemasGrid');
+    const subGrid   = $('#ancSubmodulosGrid');
+
+    // ── Render submódulos (dolencias del sistema activo) ──
+    function mostrarSubmodulos() {
+        if (!subGrid) return;
+        if (!_ancSistema) { subGrid.hidden = true; subGrid.innerHTML = ''; return; }
+        const sisKey = _ANCSISMAP[_ancSistema] || _ancSistema;
+        const dols   = DOLENCIAS.filter(d => d.sistema === sisKey);
+        if (!dols.length) { subGrid.hidden = true; subGrid.innerHTML = ''; return; }
+        subGrid.innerHTML = dols.map(d => `
+            <button class="anc-submodulo-chip${_ancDolencia === d.id ? ' active' : ''}" data-did="${d.id}">
+                <span>${d.emoji}</span>
+                <span>${d.nombre}</span>
+            </button>`).join('');
+        subGrid.hidden = false;
+        subGrid.querySelectorAll('.anc-submodulo-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                _ancDolencia = _ancDolencia === chip.dataset.did ? null : chip.dataset.did;
+                subGrid.querySelectorAll('.anc-submodulo-chip').forEach(c => {
+                    c.classList.toggle('active', c.dataset.did === _ancDolencia);
+                });
+                filtrarYRenderizar();
+            });
+        });
+    }
+
+    // ── Render grid de módulos (sistemas del cuerpo) ──
     if (sisteGrid) {
         sisteGrid.innerHTML = SISTEMAS.map(s => `
             <button class="anc-sistema-chip${_ancSistema === s.id ? ' active' : ''}"
@@ -1214,38 +1231,42 @@ function renderMedicinaAncestral() {
                 } else {
                     _ancSistema = sid;
                 }
-                // Re-render chips con estado actualizado
+                _ancDolencia = null;
                 sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => {
                     c.classList.toggle('active', c.dataset.sid === _ancSistema);
                 });
                 const resetBtn = $('#ancDolenciasReset');
                 if (resetBtn) resetBtn.hidden = !_ancSistema;
+                mostrarSubmodulos();
                 filtrarYRenderizar();
             });
         });
     }
 
-    // Reset dolencias
+    // Reset todo
     const resetDol = $('#ancDolenciasReset');
     if (resetDol) {
         resetDol.addEventListener('click', () => {
             _ancSistema = null;
+            _ancDolencia = null;
             resetDol.hidden = true;
             sisteGrid && sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => c.classList.remove('active'));
+            mostrarSubmodulos();
             filtrarYRenderizar();
         });
     }
 
-    // ── Filtrar según pueblo, sistema y búsqueda ──
+    mostrarSubmodulos();
+
+    // ── Filtrar por módulo / submódulo / búsqueda ──
     function filtrarYRenderizar() {
         let lista = todas;
         let totalSearch = null;
 
-        if (_ancPuebloActivo !== 'todos') {
-            lista = lista.filter(r => puebloDeReceta(r) === _ancPuebloActivo);
-        }
-
-        if (_ancSistema) {
+        if (_ancDolencia) {
+            const dol = DOLENCIAS.find(d => d.id === _ancDolencia);
+            if (dol) lista = lista.filter(r => dol.cats.includes(r.categoria));
+        } else if (_ancSistema) {
             const sis = SISTEMAS.find(s => s.id === _ancSistema);
             if (sis) lista = lista.filter(r => sis.cats.includes(r.categoria));
         }
@@ -1288,12 +1309,13 @@ function renderMedicinaAncestral() {
         // Contador de resultados
         const countEl = $('#ancResultCount');
         if (countEl) {
-            const filtroActivo = _ancPuebloActivo !== 'todos' || _ancSistema || _ancBusqueda;
+            const filtroActivo = _ancSistema || _ancDolencia || _ancBusqueda;
             if (filtroActivo) {
                 const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
+                const dol = _ancDolencia ? DOLENCIAS.find(d => d.id === _ancDolencia) : null;
                 const partes = [];
-                if (_ancPuebloActivo !== 'todos') partes.push(ANCESTRAL_PUEBLOS[_ancPuebloActivo]?.label);
                 if (sis) partes.push(sis.nombre);
+                if (dol) partes.push(`${dol.emoji} ${dol.nombre}`);
                 if (_ancBusqueda) partes.push(`"${_ancBusqueda}"`);
                 const mostradas = lista.length;
                 const hayMas = totalSearch && totalSearch > mostradas;
@@ -1309,7 +1331,9 @@ function renderMedicinaAncestral() {
 
         if (!lista.length) {
             const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
-            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No hay recetas ancestrales${sis ? ` para <strong>${sis.nombre}</strong>` : ''}${_ancBusqueda ? ` con "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
+            const dol = _ancDolencia ? DOLENCIAS.find(d => d.id === _ancDolencia) : null;
+            const label = dol ? `${dol.emoji} ${dol.nombre}` : (sis ? sis.nombre : '');
+            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No hay recetas ancestrales${label ? ` para <strong>${label}</strong>` : ''}${_ancBusqueda ? ` con "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
             return;
         }
         grid.innerHTML = lista.map(ancestralRecetaCard).join('');
@@ -1318,34 +1342,6 @@ function renderMedicinaAncestral() {
             card.addEventListener('click', () => abrirDetalleReceta(parseInt(card.dataset.rid)));
         });
     }
-
-    // ── Contexto cultural ──
-    function mostrarContexto(pueblo) {
-        const ctx = $('#ancestralContexto');
-        if (!ctx) return;
-        if (pueblo === 'todos') { ctx.hidden = true; return; }
-        const info = ANCESTRAL_CONTEXTO[pueblo];
-        if (!info) { ctx.hidden = true; return; }
-        const pInfo = ANCESTRAL_PUEBLOS[pueblo] || {};
-        ctx.innerHTML = `
-            <div class="anc-ctx-header" style="--anc-color:${pInfo.color || '#6a8a52'}">
-                <span class="anc-ctx-emoji">${pInfo.emoji || '🌿'}</span>
-                <strong>${info.titulo}</strong>
-            </div>
-            <p>${info.desc}</p>`;
-        ctx.hidden = false;
-    }
-
-    // ── Eventos filtros pueblo ──
-    $$('.anc-pueblo-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            $$('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            _ancPuebloActivo = btn.dataset.pueblo;
-            mostrarContexto(_ancPuebloActivo);
-            filtrarYRenderizar();
-        });
-    });
 
     // ── Buscador ──
     const searchInput = $('#ancestralSearchInput');

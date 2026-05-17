@@ -5892,6 +5892,37 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .anc-sis-glyph { font-size: 1rem; }
 .anc-sis-nombre { font-size: 0.78rem; font-weight: 500; }
 
+/* Submódulos (dolencias del módulo seleccionado) */
+.anc-submodulos-grid {
+    display: flex; flex-wrap: wrap; gap: 0.5rem;
+    padding: 0.6rem 0 0.2rem;
+    border-top: 1px solid var(--glass-border);
+    margin-top: 0.6rem;
+}
+.anc-submodulo-chip {
+    display: flex; align-items: center; gap: 0.35rem;
+    background: rgba(155,187,122,0.08);
+    border: 1px solid rgba(155,187,122,0.2);
+    border-radius: 20px;
+    padding: 0.3rem 0.75rem;
+    color: var(--text-soft);
+    font-size: 0.76rem;
+    cursor: pointer;
+    transition: all 0.18s;
+    white-space: nowrap;
+}
+.anc-submodulo-chip:hover {
+    background: rgba(155,187,122,0.16);
+    border-color: rgba(155,187,122,0.4);
+    color: var(--text);
+}
+.anc-submodulo-chip.active {
+    background: rgba(155,187,122,0.25);
+    border-color: var(--moss-bright);
+    color: var(--moss-bright);
+    font-weight: 600;
+}
+
 /* Contador de resultados */
 .anc-result-count {
     display: flex; align-items: center; gap: 0.5rem;
