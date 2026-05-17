@@ -42,47 +42,9 @@
         "menta",
         "cedrón",
         "toronjil"
-      ]
-    },
-    {
-      "id": 51,
-      "titulo": "Cataplasma de Ajenjo para Aliviar el Dolor Abdominal",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "Un puñado de hojas de ajenjo, un poco de agua caliente.",
-      "preparacion": "Machacar las hojas hasta formar una pasta y aplicar como cataplasma sobre el vientre para aliviar cólicos y dolores estomacales.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
-      "uso": "Aliviar el Dolor Abdominal. Apoyo digestivo.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dispepsia y digestión pesada",
-        "Dolor de estómago y espasmos abdominales",
-        "Gastritis y acidez leve",
-        "Flatulencia y meteorismo"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
-      "sinergia_plantas": [
-        "Boldo",
-        "Hinojo",
-        "Manzanilla"
-      ],
-      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
-      "propiedades": [
-        "digestivo",
-        "carminativo",
-        "antiespasmódico",
-        "colagogo"
-      ]
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 80,
@@ -124,7 +86,9 @@
         "anís",
         "manzanilla",
         "cedrón"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 101,
@@ -165,7 +129,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 390,
@@ -206,7 +172,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 397,
@@ -246,7 +214,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 694,
@@ -286,7 +256,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 711,
@@ -327,7 +299,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 1077,
@@ -367,93 +341,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
-    },
-    {
-      "id": 1135,
-      "titulo": "Infusión carminativa de hinojo, manzanilla y cedrón para distensión abdominal",
-      "categoria": "Digestivo",
-      "origen": "Popular chileno",
-      "ingredientes": "1 cdta de semillas de hinojo ligeramente machacadas, 1 cdta de flores de manzanilla, 1 cdta de hojas de cedrón, 300 ml de agua",
-      "preparacion": "Hervir agua, retirar del fuego y volcar sobre hierbas. Tapar 7 min, colar.",
-      "dosis": "1 taza después de comidas que generen gases, hasta 3 veces al día",
-      "modo_uso": "Oral - infusión",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza grande",
-      "conservacion": "Consumir recién hecho",
-      "evidencia": "ESCOP monographs Matricaria y Foeniculum; estudios sobre Aloysia citrodora como espasmolítico (Carnat 1999)",
-      "fuente_tradicion": "Popular chileno",
-      "contraindicaciones": "Alergia a Asteraceae, embarazo (hinojo en exceso por trans-anetol)",
-      "uso": "El trans-anetol y bisabolol relajan musculatura lisa intestinal reduciendo espasmos y favoreciendo expulsión de gases.",
-      "principios_activos": "Trans-anetol y fenchona (hinojo), alfa-bisabolol y matricina (manzanilla), verbascósido y citral (cedrón); espasmolíticos sobre receptores muscarínicos",
-      "propiedades": [
-        "carminativo",
-        "espasmolítico",
-        "digestivo",
-        "ansiolítico suave",
-        "antiinflamatorio"
       ],
-      "referencias": "ESCOP 2003; Carnat AP. 1999 Pharm Acta Helv; Hoffmann 1992",
-      "indicaciones_principales": [
-        "meteorismo",
-        "colon irritable leve",
-        "cólico postprandial",
-        "ansiedad digestiva",
-        "eructos frecuentes"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (manzanilla en altas dosis), sedantes (potencia cedrón)",
-      "embarazo_lactancia": "Precaución en embarazo por hinojo; en lactancia favorece producción de leche",
-      "duracion_tratamiento": "Uso continuo seguro",
-      "sinergia_plantas": [
-        "anís",
-        "melisa",
-        "menta"
-      ]
-    },
-    {
-      "id": 1161,
-      "titulo": "Infusión carminativa post-prandial de hinojo, anís y manzanilla",
-      "categoria": "Digestivo",
-      "origen": "Tradición mediterránea y chilena",
-      "ingredientes": "1 cucharadita de semillas de hinojo trituradas, 1 cucharadita de anís verde, 1 cucharadita de flores de manzanilla, 1 hojita de menta, 250 ml de agua caliente",
-      "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
-      "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Consumir inmediatamente",
-      "evidencia": "Hinojo demuestra eficacia en cólicos del lactante y SII (Alexandrovich, 2003; Portincasa, 2016)",
-      "fuente_tradicion": "Herbolaria mediterránea adoptada en Chile",
-      "contraindicaciones": "Alergia a apiáceas. Evitar dosis altas en embarazo. Hiperestrogenismo (cáncer mamario hormono-dependiente) por anetol.",
-      "uso": "El anetol relaja musculatura lisa intestinal mediante bloqueo de canales de calcio, mientras los flavonoides de manzanilla actúan sobre receptores GABA reduciendo espasmo nervioso del eje intestino-cerebro.",
-      "principios_activos": "Anetol (hinojo y anís): espasmolítico. Apigenina (manzanilla): ansiolítico, GABAérgico. Mentol: refrescante y antiespasmódico.",
-      "propiedades": [
-        "carminativo",
-        "espasmolítico",
-        "digestivo",
-        "ansiolítico suave"
-      ],
-      "referencias": [
-        "Alexandrovich I. et al. Altern Ther Health Med (2003) 9:58",
-        "Portincasa P. et al. J Gastrointestin Liver Dis (2016) 25:151"
-      ],
-      "indicaciones_principales": [
-        "distensión abdominal",
-        "flatulencia",
-        "cólicos digestivos",
-        "intestino irritable",
-        "dispepsia nerviosa"
-      ],
-      "interacciones_medicamentos": "Posible interferencia con tamoxifeno (anetol fitoestrógeno).",
-      "embarazo_lactancia": "En lactancia favorece producción de leche en dosis moderadas",
-      "duracion_tratamiento": "Uso continuo seguro hasta 6 semanas",
-      "sinergia_plantas": [
-        "melisa",
-        "cedrón",
-        "menta"
-      ]
+      "modulo": "digestivo",
+      "submodulo": "colicos_gases"
     },
     {
       "id": 1463,

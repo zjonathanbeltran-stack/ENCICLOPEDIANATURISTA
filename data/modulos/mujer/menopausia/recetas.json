@@ -42,7 +42,9 @@
         "salvia",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 288,
@@ -85,7 +87,9 @@
         "pasiflora",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 289,
@@ -127,7 +131,9 @@
         "salvia",
         "melisa",
         "pasiflora"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 292,
@@ -167,7 +173,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 560,
@@ -207,7 +215,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 801,
@@ -248,7 +258,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 807,
@@ -288,7 +300,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 808,
@@ -328,7 +342,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 999,
@@ -369,7 +385,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 1154,
@@ -411,49 +429,9 @@
         "cimicifuga",
         "trébol rojo",
         "manto de dama"
-      ]
-    },
-    {
-      "id": 1176,
-      "titulo": "Infusión perimenopáusica de salvia, melisa y trébol rojo",
-      "categoria": "Ginecológico",
-      "origen": "Fitoterapia ginecológica moderna",
-      "ingredientes": "1/2 cucharadita de salvia, 1 cucharadita de melisa, 1 cucharadita de trébol rojo, 1/2 cucharadita de pasiflora, 300 ml de agua",
-      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos. Colar.",
-      "dosis": "1-2 tazas al día, preferentemente noche para sofocos nocturnos",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "12 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "300 ml",
-      "conservacion": "Preparar fresca",
-      "evidencia": "Salvia reduce sofocos en menopausia (Bommer, 2011); isoflavonas de trébol con evidencia controvertida pero positiva",
-      "fuente_tradicion": "Fitoterapia ginecológica europea",
-      "contraindicaciones": "Cáncer mamario hormono-dependiente o antecedente. Anticoagulantes (trébol). Embarazo. Epilepsia (salvia tuyona).",
-      "uso": "La tuyona y ácido rosmarínico de salvia reducen sudoración por acción anticolinérgica central, las isoflavonas del trébol (formononetina, biocanina A) tienen afinidad por receptores estrogénicos beta amortiguando déficit estrogénico sin proliferación endometrial significativa.",
-      "principios_activos": "Tuyona, ácido carnósico (salvia): anticolinérgica. Isoflavonas (trébol): fitoestrógenos. Ácido rosmarínico (melisa). Crisina (pasiflora).",
-      "propiedades": [
-        "antisudorífico",
-        "fitoestrógeno modulador",
-        "ansiolítico",
-        "antitérmico"
       ],
-      "referencias": [
-        "Bommer S. et al. Adv Ther (2011) 28:490",
-        "Lipovac M. et al. Maturitas (2010) 65:258"
-      ],
-      "indicaciones_principales": [
-        "sofocos",
-        "sudoración nocturna",
-        "irritabilidad climatérica",
-        "insomnio perimenopáusico"
-      ],
-      "interacciones_medicamentos": "Tamoxifeno, anticonceptivos, anticoagulantes",
-      "embarazo_lactancia": "Contraindicada (salvia suprime lactancia)",
-      "duracion_tratamiento": "Ciclos de 8 semanas con descanso",
-      "sinergia_plantas": [
-        "lúpulo",
-        "valeriana"
-      ]
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Melisa para los síntomas de la menopausia",
@@ -482,7 +460,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivada en huertos de todo Chile, incluido Chiloé",
       "efectos_secundarios": "",
-      "id": 1208
+      "id": 1208,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Salvia para sofocos y sudoración nocturna",
@@ -511,7 +491,9 @@
       "nivel_seguridad": "⚠️ Precaución (no uso prolongado)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1220
+      "id": 1220,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Trébol Rojo para síntomas de la menopausia",
@@ -540,7 +522,9 @@
       "nivel_seguridad": "⚠️ Precaución (condiciones sensibles a hormonas)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1221
+      "id": 1221,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Melisa y Lavanda para el insomnio en la menopausia",
@@ -569,7 +553,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1222
+      "id": 1222,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Toronjil para el insomnio y la ansiedad en la menopausia",
@@ -598,7 +584,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivada en huertos y jardines de todo Chile.",
       "efectos_secundarios": "",
-      "id": 1223
+      "id": 1223,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Chachacoma para sofocos y mal de altura",
@@ -627,7 +615,9 @@
       "nivel_seguridad": "⚠️ Precaución",
       "distribucion": "Chile, altiplano y alta cordillera (Regiones de Arica-Parinacota, Tarapacá, Antofagasta).",
       "efectos_secundarios": "",
-      "id": 1224
+      "id": 1224,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 1485,

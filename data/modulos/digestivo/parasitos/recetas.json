@@ -42,7 +42,9 @@
         "ajo",
         "matico",
         "boldo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 66,
@@ -81,7 +83,9 @@
         "antihelmíntico",
         "antiséptico intestinal",
         "purificador"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "titulo": "Decocción de Paico para Parásitos Intestinales",
@@ -120,7 +124,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "titulo": "Semillas de Zapallo en Ayunas contra Tenias y Lombrices",
@@ -161,7 +167,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "titulo": "Enema de Ajo para Oxiuros y Parásitos",
@@ -201,7 +209,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "titulo": "Infusión de Ajenjo para Parásitos Intestinales",
@@ -240,7 +250,9 @@
         "antihelmíntico",
         "antiséptico intestinal",
         "purificador"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "titulo": "Jugo de Cebolla en Ayunas contra Parásitos",
@@ -280,7 +292,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 392,
@@ -319,7 +333,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 718,
@@ -360,7 +376,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 719,
@@ -399,7 +417,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 720,
@@ -439,7 +459,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 721,
@@ -478,7 +500,9 @@
         "antihelmíntico",
         "antiséptico intestinal",
         "purificador"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 722,
@@ -517,7 +541,9 @@
         "antihelmíntico",
         "antiséptico intestinal",
         "purificador"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 723,
@@ -557,7 +583,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 724,
@@ -597,7 +625,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 725,
@@ -638,7 +668,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 726,
@@ -678,7 +710,50 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
+    },
+    {
+      "id": 727,
+      "titulo": "Ayuno con Zumo de Piña para Parásitos",
+      "categoria": "Antiparasitario",
+      "origen": "Naturopatía",
+      "ingredientes": "1/2 piña natural, agua mineral",
+      "preparacion": "Extraer el jugo de la piña. Consumir con agua mineral.",
+      "dosis": "1-2 vasos de jugo en ayunas por 3 días, acompañado solo de agua",
+      "modo_uso": "La bromelina de la piña puede debilitar la membrana de parásitos",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 vasos",
+      "conservacion": "Consumir fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía latinoamericana",
+      "contraindicaciones": "No reemplaza tratamiento médico confirmado; solo para parásitos leves",
+      "uso": "Parásitos. Eliminación de parásitos intestinales.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+      "propiedades": [
+        "antiparasitario",
+        "antihelmíntico",
+        "antiséptico intestinal",
+        "purificador"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 728,
@@ -718,7 +793,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 730,
@@ -758,7 +835,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 731,
@@ -797,7 +876,9 @@
         "antihelmíntico",
         "antiséptico intestinal",
         "purificador"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 732,
@@ -838,7 +919,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1019,
@@ -878,7 +961,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1021,
@@ -920,7 +1005,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1022,
@@ -960,7 +1047,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1136,
@@ -1002,7 +1091,9 @@
         "ajo",
         "tomillo",
         "natre"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1163,
@@ -1045,7 +1136,9 @@
         "natre",
         "ruda (uso muy controlado)",
         "ajenjo (adultos)"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1202,
@@ -1086,7 +1179,9 @@
       "sinergia_plantas": [
         "paico (controlado)",
         "natre"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "parasitos"
     },
     {
       "id": 1458,

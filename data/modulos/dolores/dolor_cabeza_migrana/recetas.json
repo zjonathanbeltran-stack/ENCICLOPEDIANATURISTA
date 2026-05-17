@@ -41,7 +41,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cabeza_migrana"
     },
     {
       "id": 973,
@@ -81,7 +83,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cabeza_migrana"
     },
     {
       "id": 1080,
@@ -121,7 +125,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cabeza_migrana"
     },
     {
       "id": 1112,
@@ -163,7 +169,9 @@
         "Matico",
         "Manzanilla",
         "Ulmaria"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cabeza_migrana"
     },
     {
       "titulo": "Compresas frías de Menta para la cefalea tensional",
@@ -192,7 +200,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "Cultivada en huertos de todo Chile, incluido",
       "efectos_secundarios": "",
-      "id": 1238
+      "id": 1238,
+      "modulo": "dolores",
+      "submodulo": "dolor_cabeza_migrana"
     },
     {
       "titulo": "Infusión de Menta para el Dolor de Cabeza Tensional",

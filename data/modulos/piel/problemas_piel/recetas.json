@@ -3,48 +3,6 @@
   "submodulo": "problemas_piel",
   "recetas": [
     {
-      "id": 12,
-      "titulo": "Pomada de Quillay para la piel",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche",
-      "ingredientes": "Corteza de quillay, grasa de cordero o manteca.",
-      "preparacion": "Hervir la corteza en agua, luego mezclar la decocción con grasa hasta formar pomada. Aplicar sobre eccemas o psoriasis.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "20 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Mapuche",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La piel: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
-      "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-      "propiedades": [
-        "expectorante",
-        "mucolítico",
-        "inmunoestimulante",
-        "antiséptico",
-        "antifúngico"
-      ],
-      "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "indicaciones_principales": [
-        "eccemas",
-        "psoriasis leve",
-        "dermatitis seborreica",
-        "picazón crónica localizada"
-      ],
-      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Evitar en piel con corticoides tópicos potentes simultáneos.",
-      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
-      "duracion_tratamiento": "Aplicar 2 veces al día por 2-4 semanas; descansar antes de retomar.",
-      "sinergia_plantas": [
-        "matico",
-        "llantén",
-        "caléndula",
-        "manzanilla"
-      ]
-    },
-    {
       "id": 19,
       "titulo": "Lavado de Quinchamalí para alergias",
       "categoria": "Dermatológico",
@@ -82,50 +40,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
-    },
-    {
-      "id": 40,
-      "titulo": "Pomada de Quillay y Menta para la Piel",
-      "categoria": "Dermatológico",
-      "origen": "Chileno",
-      "ingredientes": "Corteza de quillay, hojas de menta, 200gr de manteca de cerdo o vaselina.",
-      "preparacion": "Derretir la manteca a fuego lento, añadir las plantas previamente machacadas y mezclar. Dejar enfriar. Aplicar sobre la zona afectada para tratar eccemas y aliviar la comezón.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La Piel: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "mucolítico"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "indicaciones_principales": [
-        "Eccema",
-        "Prurito",
-        "Irritaciones cutáneas leves",
-        "Dolor muscular localizado",
-        "Picaduras de insecto"
-      ],
-      "interacciones_medicamentos": "Uso tópico; quillay contiene saponinas que pueden irritar mucosas; sin interacciones sistémicas relevantes.",
-      "embarazo_lactancia": "Aceptable en embarazo y lactancia en uso tópico moderado; evitar en mamas durante lactancia.",
-      "duracion_tratamiento": "Aplicación 2-3 veces al día hasta 2 semanas.",
-      "sinergia_plantas": [
-        "caléndula",
-        "matico",
-        "llantén"
-      ]
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 74,
@@ -165,35 +82,28 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
-      "id": 91,
-      "titulo": "Pomada de Quillay y Menta para la Piel",
+      "id": 95,
+      "titulo": "Cataplasma de Gobernadora para la Piel",
       "categoria": "Dermatológico",
-      "origen": "Chileno",
-      "ingredientes": "Corteza de quillay, hojas de menta, 200gr de manteca de cerdo o vaselina.",
-      "preparacion": "Derretir la manteca a fuego lento, añadir las plantas previamente machacadas y mezclar. Dejar enfriar. Aplicar sobre la zona afectada para tratar eccemas y aliviar la comezón.",
+      "origen": "Norte Grande",
+      "ingredientes": "Hojas de gobernadora, agua.",
+      "preparacion": "Machacar las hojas frescas y aplicarlas sobre heridas, hongos o sarna. Es un potente antiséptico natural.",
       "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "12 min",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "2–4 aplicaciones por preparación",
       "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Popular Chileno",
       "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La Piel: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "mucolítico"
-      ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "uso": "La Piel. Tratamiento dermatológico.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
         "Dermatitis e irritación cutánea",
         "Heridas y cortes superficiales",
@@ -207,7 +117,102 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
+    },
+    {
+      "id": 102,
+      "titulo": "Pomada de Calendula y Aceite de Oliva",
+      "categoria": "Dermatológico",
+      "origen": "Popular",
+      "ingredientes": "Flores de caléndula, aceite de oliva, cera de abejas.",
+      "preparacion": "Calentar el aceite con las flores a fuego muy lento (baño maría) por una hora. Colar y añadir cera de abejas hasta que espese. Aplicar sobre piel irritada, quemaduras leves o heridas.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "12 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
+    },
+    {
+      "id": 159,
+      "titulo": "Pomada de Manzanilla de Cobre",
+      "categoria": "Dermatológico",
+      "origen": "Popular",
+      "ingredientes": "Flores de manzanilla, cobre.",
+      "preparacion": "Macerar manzanilla y cobre, se afirma que ayuda a curar aftas, llagas y hongos.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 172,
@@ -247,26 +252,36 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
-      "id": 439,
-      "titulo": "Baño de Avena para Dermatitis",
+      "id": 438,
+      "titulo": "Crema de Caléndula y Manteca de Cacao",
       "categoria": "Dermatológico",
-      "origen": "Herbolaria Natural",
-      "ingredientes": "2 tazas de avena en hojuelas, tela de muselina o bolsita de tela",
-      "preparacion": "Moler la avena en procesador. Llenar la bolsita y atar. Sumergir en baño de agua tibia. Exprimir durante el baño.",
-      "dosis": "Baño de 20 min una vez al día",
-      "modo_uso": "Agua tibia, no caliente; no restregar la piel",
-      "tiempo_prep": "5 min de preparación",
-      "dificultad": "Fácil",
-      "rendimiento": "1 baño",
-      "conservacion": "Preparar fresco",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1/2 taza de aceite de caléndula macerado, 2 cucharadas de cera de abeja, 2 cucharadas de manteca de cacao",
+      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el aceite. Mezclar bien. Verter en tarros. Dejar solidificar.",
+      "dosis": "Aplicar 2-3 veces al día en zona afectada",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "25 min + enfriado",
+      "dificultad": "Medio",
+      "rendimiento": "150 g",
+      "conservacion": "Temperatura ambiente 3 meses",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria natural y cosmética",
-      "contraindicaciones": "Generalmente seguro; muy raro que cause alergia a avena",
-      "uso": "Dermatitis. Tratamiento dermatológico.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en heridas abiertas profundas; alergia a crisantemas posible",
+      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
       "indicaciones_principales": [
         "Dermatitis e irritación cutánea",
         "Heridas y cortes superficiales",
@@ -281,13 +296,8 @@
         "Aloe vera",
         "Matico"
       ],
-      "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antimicrobiano",
-        "emoliente"
-      ]
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 449,
@@ -327,7 +337,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 958,
@@ -367,7 +379,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 961,
@@ -407,7 +421,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 966,
@@ -447,7 +463,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 967,
@@ -487,88 +505,9 @@
         "cicatrizante",
         "antimicrobiano",
         "emoliente"
-      ]
-    },
-    {
-      "id": 1072,
-      "titulo": "Bano de Luche y Sal de Mar para Eczema y Psoriasis Lafkenche",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche Lafkenche (costa entre Lebu y Carahue)",
-      "ingredientes": "300 g de luche fresco (Porphyra columbina / wutre en mapudungun) o 100 g seco; 500 g de sal de mar gruesa; 5 litros de agua de mar (o agua dulce con 100 g sal de mar)",
-      "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
-      "dosis": "Bano diario durante la primera semana; luego 3 veces por semana. Mantener 3-4 semanas.",
-      "modo_uso": "Bano topico (talasoterapia)",
-      "tiempo_prep": "40 minutos",
-      "dificultad": "Facil",
-      "rendimiento": "1 bano por preparacion",
-      "conservacion": "No aplica (preparacion de uso inmediato)",
-      "evidencia": "La Porphyra columbina contiene ficobilinas, porfiranos sulfatados y phycobiliproteinas con potente actividad antiinflamatoria y regeneradora de la piel. La talasoterapia con algas es reconocida por la medicina integrativa para condiciones inflamatorias cronicas de la piel.",
-      "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004)",
-      "contraindicaciones": "No usar en piel con heridas abiertas o infectadas activamente. Personas con alergia al yodo deben hacer prueba previa. El agua de mar no pasteurizada puede contener bacterias: usar sal de mar comercial en agua dulce caliente.",
-      "uso": "Tratamiento de eczema atopico, psoriasis, dermatitis seborreica y piel seca. Los lafkenche aplican el conocimiento del mar (lof lafken: comunidad del mar) en su medicina dermica: el luche abre los poros y los polisacaridos forman una pelicula protectora e hidratante que calma el prurito.",
-      "principios_activos": "Porfiranos sulfatados; ficoeritrina (fitobilina); taurina; vitaminas del grupo B; yodo organico; cloruro de sodio",
-      "propiedades": [
-        "antiinflamatorio",
-        "antipruriginoso",
-        "hidratante",
-        "regenerador cutaneo"
       ],
-      "referencias": "Ortiz J. et al. (2009) Propiedades de Porphyra columbina de la costa sur de Chile. Bot Mar. / Villagran C. (2004) Botanica y Botanicos de Chile. Museo de Historia Natural.",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
-    },
-    {
-      "id": 1104,
-      "titulo": "Ungüento de Grasa de Lobo Marino con Canelo para el Frio Extremo (Yagán)",
-      "categoria": "Dermatológico",
-      "origen": "Selknam",
-      "ingredientes": "Grasa de lobo marino (Otaria flavescens) o de guanaco (Lama guanicoe), 10 g de corteza molida de canelo (Drimys winteri), pizca de ceniza de maderas del sur (elemento ritual)",
-      "preparacion": "1. Los yagán procesan la grasa del lobo marino inmediatamente después de la caza; derretir la grasa en recipiente de piedra o cerámica a fuego muy suave para evitar quemarla. 2. Agregar la corteza molida de canelo a la grasa derretida y calentar suavemente durante 10 minutos, revolviendo. 3. Añadir la ceniza ritual en pequeña cantidad (elemento espiritual y posible antimicrobiano). 4. Colar para retirar la corteza; dejar enfriar hasta obtener la consistencia de ungüento sólido. 5. Aplicar sobre toda la piel expuesta al frío y al viento, especialmente en noches de navegación por los canales del Cabo de Hornos.",
-      "dosis": "Aplicar una capa generosa sobre la piel antes de la exposición al frío; renovar cada 4-6 horas en condiciones extremas",
-      "modo_uso": "Tópico — ungüento protector",
-      "tiempo_prep": "20 min",
-      "dificultad": "Difícil",
-      "rendimiento": "Variable según cantidad de grasa",
-      "conservacion": "En clima frío patagónico se conserva varios días; en temperaturas superiores a 15 °C, refrigerar y consumir en 5 días",
-      "evidencia": "Práctica documentada en la etnografía yagán y selknam por Charles Darwin (Viaje del Beagle, 1839), Martin Gusinde (1919-1924) y en ResearchGate Flora etnobotánica Patagonia Austral 2022.",
-      "fuente_tradicion": "Selknam",
-      "contraindicaciones": "No aplicar sobre heridas infectadas sin limpiar previamente. En personas con alergia a proteínas animales, verificar tolerancia. El uso ritual de ceniza debe ser solo simbólico (no aplicar grandes cantidades).",
-      "uso": "Protección de la piel contra el frío extremo, el viento y la lluvia en el archipiélago del Cabo de Hornos; el canelo aporta propiedades antisépticas que previenen infecciones cutáneas en la piel agrietada por el frío.",
-      "principios_activos": "Ácidos grasos omega-3 y omega-7 de la grasa de lobo marino: barrera protectora y antiinflamatoria; poligodial del canelo: antiséptico y anestésico tópico; vitaminas liposolubles (A, D, E) de la grasa animal.",
-      "propiedades": [
-        "protector dérmico",
-        "antiséptico",
-        "emoliente",
-        "antiinflamatorio",
-        "termorregulador"
-      ],
-      "referencias": "Darwin C. Viaje del Beagle 1839; Gusinde M. Los indios de Tierra del Fuego 1919-1924; ResearchGate Flora etnobotánica pueblos originarios Patagonia Austral 2022; Dominguezia 2022.",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 1110,
@@ -612,7 +551,53 @@
         "Ortiga",
         "Zarzaparrilla",
         "Pensamiento"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
+    },
+    {
+      "id": 1149,
+      "titulo": "Pomada de caléndula y matico para eczema atópico",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche y popular chileno",
+      "ingredientes": "50 g de flores de caléndula secas, 30 g de hojas de matico secas, 250 ml de aceite de oliva extra virgen, 30 g de cera de abejas",
+      "preparacion": "Macerar caléndula y matico en aceite a baño maría 60°C por 2 horas. Colar con gasa. Calentar de nuevo, agregar cera de abejas hasta disolver, verter en frascos pequeños y enfriar.",
+      "dosis": "Aplicar capa fina sobre piel afectada 2 a 3 veces al día",
+      "modo_uso": "Tópico - ungüento",
+      "tiempo_prep": "3 horas",
+      "dificultad": "Media",
+      "rendimiento": "Aprox 250 g",
+      "conservacion": "Frasco cerrado fresco y oscuro hasta 6 meses",
+      "evidencia": "ESCOP Calendula officinalis; estudios sobre Buddleja globosa (matico) en cicatrización (Mosquera 2017)",
+      "fuente_tradicion": "Mapuche (matico) y europeo (caléndula)",
+      "contraindicaciones": "Alergia a Asteraceae, heridas profundas infectadas, alergia a propóleos",
+      "uso": "Triterpenos estimulan fibroblastos y queratinocitos en regeneración mientras flavonoides reducen inflamación y prurito.",
+      "principios_activos": "Faradiol y calendulósidos (caléndula), verbascósido y mimulósido (matico); regeneradores epiteliales y antiinflamatorios cutáneos",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio cutáneo",
+        "emoliente",
+        "antimicrobiano",
+        "antipruriginoso"
+      ],
+      "referencias": "Mosquera OM et al. 2017 Bol Latinoam Plantas Med; ESCOP 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "eczema atópico",
+        "dermatitis del pañal",
+        "psoriasis leve",
+        "heridas superficiales",
+        "quemaduras solares"
+      ],
+      "interacciones_medicamentos": "Sin interacciones sistémicas significativas",
+      "embarazo_lactancia": "Seguro tópico; evitar en aréolas durante lactancia",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "llantén",
+        "manzanilla",
+        "olivillo"
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 1150,
@@ -654,7 +639,55 @@
         "caléndula",
         "tomillo",
         "maitén"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
+    },
+    {
+      "id": 1201,
+      "titulo": "Crema corporal nutritiva de caléndula, manzanilla y avena",
+      "categoria": "Dermatológico",
+      "origen": "Cosmética natural moderna",
+      "ingredientes": "50 ml de oleato de caléndula, 30 ml de aceite de almendras, 20 ml de aceite de jojoba, 10 g de cera de abejas, 5 g de manteca de karité, 1 cucharadita de polvo de avena coloidal, 10 gotas de aceite esencial de manzanilla romana, 5 gotas de vitamina E",
+      "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
+      "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
+      "modo_uso": "Crema corporal",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Media",
+      "rendimiento": "120 g",
+      "conservacion": "4-6 meses en frasco hermético",
+      "evidencia": "Avena coloidal con evidencia en dermatitis atópica (Reynertson, 2015)",
+      "fuente_tradicion": "Cosmética natural",
+      "contraindicaciones": "Alergia a asteráceas o avena. Pieles con heridas requieren manejo médico.",
+      "uso": "La avena coloidal forma película hidratante que retiene humedad y aporta betaglucanos antiinflamatorios cutáneos, los triterpenos de caléndula promueven reparación de barrera cutánea y el bisabolol de manzanilla reduce histamina mastocitaria local mejorando prurito.",
+      "principios_activos": "Avenantramidas, beta-glucanos (avena). Faradiol (caléndula). Bisabolol (manzanilla). Vitamina E.",
+      "propiedades": [
+        "hidratante",
+        "antiinflamatorio cutáneo",
+        "regenerador",
+        "antipruriginoso",
+        "calmante"
+      ],
+      "referencias": [
+        "Reynertson KA. et al. J Drugs Dermatol (2015) 14:43",
+        "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
+      ],
+      "indicaciones_principales": [
+        "piel seca",
+        "dermatitis atópica leve",
+        "eccema",
+        "prurito",
+        "piel sensible reactiva"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Uso continuo",
+      "sinergia_plantas": [
+        "llantén",
+        "lavanda"
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 1205,
@@ -696,7 +729,9 @@
       "sinergia_plantas": [
         "matico",
         "caléndula"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "problemas_piel"
     },
     {
       "id": 1377,

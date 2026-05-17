@@ -39,7 +39,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 32,
@@ -82,7 +84,9 @@
         "cardo mariano",
         "alcachofa",
         "menta"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 54,
@@ -121,7 +125,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 114,
@@ -160,48 +166,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
-    },
-    {
-      "id": 119,
-      "titulo": "Agua de Romero para la Digestión",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "Hojas de romero, 1 taza de agua.",
-      "preparacion": "Preparar una infusión con hojas de romero para aliviar los problemas digestivos y la congestión del hígado y vesícula.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente o tibia",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
-      "uso": "Digestión: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
       ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dispepsia y digestión pesada",
-        "Dolor de estómago y espasmos abdominales",
-        "Gastritis y acidez leve",
-        "Flatulencia y meteorismo"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
-      "sinergia_plantas": [
-        "Boldo",
-        "Hinojo",
-        "Manzanilla"
-      ]
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 351,
@@ -241,7 +208,9 @@
         "antiinflamatorio",
         "adaptógeno",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 388,
@@ -282,7 +251,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 396,
@@ -321,7 +292,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 401,
@@ -362,7 +335,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 402,
@@ -402,7 +377,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 405,
@@ -443,7 +420,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 420,
@@ -483,7 +462,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 668,
@@ -524,7 +505,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 669,
@@ -563,7 +546,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 670,
@@ -604,7 +589,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 671,
@@ -643,7 +630,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 672,
@@ -683,7 +672,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 673,
@@ -723,7 +714,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 674,
@@ -764,7 +757,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 675,
@@ -803,7 +798,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 676,
@@ -842,7 +839,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 677,
@@ -881,7 +880,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 932,
@@ -922,7 +923,9 @@
         "adaptógeno",
         "inmunoestimulante",
         "antimicrobiano"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 942,
@@ -962,7 +965,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1035,
@@ -1002,7 +1007,9 @@
         "antiinflamatorio",
         "adaptógeno",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1036,
@@ -1042,7 +1049,9 @@
         "antiinflamatorio",
         "adaptógeno",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1043,
@@ -1082,7 +1091,9 @@
         "antiinflamatorio",
         "adaptógeno",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1055,
@@ -1123,7 +1134,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1115,
@@ -1165,7 +1178,9 @@
         "Boldo",
         "Cardo mariano",
         "Diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1130,
@@ -1207,7 +1222,9 @@
         "Cardo mariano",
         "Diente de león",
         "Boldo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1134,
@@ -1249,7 +1266,9 @@
         "alcachofa",
         "menta",
         "diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1162,
@@ -1294,7 +1313,9 @@
         "alcachofa",
         "bailahuén",
         "menta"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1195,
@@ -1338,7 +1359,9 @@
       "sinergia_plantas": [
         "boldo",
         "bailahuén"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "titulo": "Infusión de Boldo para la Digestión y el Cuidado del Hígado",

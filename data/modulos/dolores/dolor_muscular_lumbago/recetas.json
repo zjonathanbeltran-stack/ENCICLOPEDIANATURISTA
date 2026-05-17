@@ -3,87 +3,88 @@
   "submodulo": "dolor_muscular_lumbago",
   "recetas": [
     {
-      "titulo": "Aceite de Romero para Masaje Analgésico",
+      "titulo": "Cataplasma Caliente de Árnica para Dolores Musculares",
       "categoria": "Analgésico",
-      "origen": "Popular Chileno",
-      "ingredientes": "3 ramas de romero fresco, 200 ml de aceite de oliva.",
-      "preparacion": "Macerar el romero en el aceite dentro de un frasco de vidrio al sol por 2 semanas (agitar a diario). Colar y guardar en frasco oscuro. Usar para masajear zonas con dolor muscular, articular o contracturas. El alcanfor y cineol del romero tienen efecto rubefaciente y analgésico.",
-      "id": 226,
+      "origen": "Medicina Popular del Sur de Chile",
+      "ingredientes": "20 g de flores de árnica seca, 500 ml de agua, paño de algodón.",
+      "preparacion": "Hervir el agua con el árnica 5 minutos. Remojar el paño en la decocción tibia-caliente. Escurrir bien y aplicar sobre el músculo o articulación dolorida. Cubrir con un paño seco. Mantener 20 minutos. Repetir 2-3 veces al día. Solo uso externo.",
+      "id": 225,
       "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
-      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
       "rendimiento": "2–3 tazas",
       "conservacion": "Preparar al momento",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
-      "uso": "Masaje Analgésico: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dolor muscular",
-        "Contracturas",
-        "Lumbalgia",
-        "Mala circulación local",
-        "Artralgia"
-      ],
-      "interacciones_medicamentos": "Uso tópico, baja absorción sistémica; precaución con anticoagulantes si hay heridas abiertas.",
-      "embarazo_lactancia": "Evitar uso extenso en embarazo (especialmente primer trimestre); aceptable en lactancia.",
-      "duracion_tratamiento": "Masajes 1-2 veces al día hasta 3 semanas.",
-      "sinergia_plantas": [
-        "matico",
-        "lavanda",
-        "arnica"
-      ]
-    },
-    {
-      "id": 971,
-      "titulo": "Compresa de Hierba de San Juan para Neuralgias",
-      "categoria": "Analgésico",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "2 cucharadas de Hypericum perforatum seco, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir 15 min. Colar. Empapar tela.",
-      "dosis": "Compresas tibias en zona dolorida 20 min 2 veces al dia",
-      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
-      "tiempo_prep": "18 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 sesion",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "Fotosensibilizante; multiples interacciones farmacologicas",
-      "uso": "Neuralgias: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.",
-      "principios_activos": "Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.",
-      "propiedades": [
-        "antidepresivo",
-        "ansiolítico",
-        "antiviral",
-        "antiinflamatorio",
-        "cicatrizante"
-      ],
-      "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+      "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
+      "uso": "Dolores Musculares. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
         "Dolor de cabeza tensional",
         "Dolor muscular leve",
         "Dolor articular moderado",
         "Jaquecas frecuentes"
       ],
-      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Ciclosporina, anticonceptivos orales, antiretrovirales: puede reducir su eficacia por inducción de CYP3A4. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
       "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
       "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
       "sinergia_plantas": [
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_muscular_lumbago"
+    },
+    {
+      "id": 975,
+      "titulo": "Masaje de Aceite de Wintergreen para Dolores Musculares",
+      "categoria": "Analgésico",
+      "origen": "Herbolaria Norteamericana",
+      "ingredientes": "3 gotas de aceite esencial de wintergreen, 2 cucharadas de aceite de coco",
+      "preparacion": "Mezclar los aceites.",
+      "dosis": "Masajear 5 min en zona muscular dolorida 2 veces al dia",
+      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria nativa norteamericana",
+      "contraindicaciones": "No usar en ninos; no en embarazo; contiene salicilato (similar aspirina)",
+      "uso": "Dolores Musculares. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_muscular_lumbago"
     },
     {
       "id": 1068,
@@ -123,7 +124,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_muscular_lumbago"
     },
     {
       "id": 1394,

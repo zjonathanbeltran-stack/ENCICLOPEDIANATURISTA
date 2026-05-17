@@ -42,7 +42,9 @@
         "melisa",
         "cedrón",
         "menta"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 361,
@@ -84,7 +86,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 362,
@@ -127,7 +131,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 363,
@@ -168,7 +174,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 364,
@@ -209,7 +217,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 365,
@@ -252,7 +262,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 366,
@@ -295,7 +307,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 367,
@@ -336,7 +350,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 368,
@@ -378,7 +394,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 369,
@@ -421,7 +439,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 370,
@@ -463,7 +483,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 371,
@@ -505,7 +527,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 372,
@@ -547,7 +571,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 508,
@@ -588,7 +614,9 @@
         "vasodilatador cerebral",
         "antioxidante",
         "adaptógeno"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 509,
@@ -629,7 +657,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 510,
@@ -669,7 +699,9 @@
         "vasodilatador cerebral",
         "antioxidante",
         "adaptógeno"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 511,
@@ -709,7 +741,9 @@
         "vasodilatador cerebral",
         "antioxidante",
         "adaptógeno"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 512,
@@ -750,7 +784,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 513,
@@ -791,7 +827,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 514,
@@ -831,7 +869,9 @@
         "vasodilatador cerebral",
         "antioxidante",
         "adaptógeno"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 515,
@@ -873,7 +913,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 516,
@@ -914,7 +956,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 517,
@@ -956,51 +1000,9 @@
         "Romero",
         "Ginkgo",
         "Salvia"
-      ]
-    },
-    {
-      "id": 1170,
-      "titulo": "Infusión adaptógena diurna de melisa, romero y menta",
-      "categoria": "Nervioso",
-      "origen": "Herbolaria mediterránea",
-      "ingredientes": "1 cucharadita de melisa, 1/2 cucharadita de romero, 1/2 cucharadita de menta, 1 cucharadita de miel de palma o ulmo, 250 ml de agua",
-      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 7 minutos tapado. Colar. Añadir miel al servir.",
-      "dosis": "1 taza en la mañana y otra al mediodía, durante 21 días",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Consumir fresca",
-      "evidencia": "Melisa mejora rendimiento cognitivo y ánimo (Kennedy, 2003); romero mejora memoria (Moss, 2003)",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "Hipertensión severa, epilepsia (romero en altas dosis), hipotiroidismo no tratado (melisa).",
-      "uso": "El ácido rosmarínico de melisa y romero inhibe acetilcolinesterasa aumentando acetilcolina cerebral disponible, mejorando memoria de trabajo y atención sin efecto estimulante adrenérgico que generaría ansiedad rebote.",
-      "principios_activos": "Ácido rosmarínico (melisa, romero): inhibidor AChE. 1,8-cineol (romero): nootrópico. Mentol (menta): refrescante cognitivo.",
-      "propiedades": [
-        "adaptógeno",
-        "nootrópico suave",
-        "ansiolítico",
-        "antioxidante",
-        "tónico cerebral"
       ],
-      "referencias": [
-        "Kennedy DO. et al. Pharmacol Biochem Behav (2003) 75:953",
-        "Moss M. et al. Int J Neurosci (2003) 113:15"
-      ],
-      "indicaciones_principales": [
-        "estrés académico",
-        "fatiga mental",
-        "estudiantes",
-        "memoria de trabajo",
-        "ansiedad funcional"
-      ],
-      "interacciones_medicamentos": "Anticolinérgicos (puede antagonizar), levotiroxina (separar 2 horas).",
-      "embarazo_lactancia": "Evitar romero en embarazo",
-      "duracion_tratamiento": "Ciclos de 3-4 semanas",
-      "sinergia_plantas": [
-        "albahaca",
-        "tomillo"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 1199,
@@ -1043,7 +1045,9 @@
       "sinergia_plantas": [
         "salvia (memoria)",
         "cedrón"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "titulo": "Infusión de Romero para el agotamiento mental",
@@ -1072,7 +1076,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivado en huertos y jardines de todo Chile,",
       "efectos_secundarios": "",
-      "id": 1236
+      "id": 1236,
+      "modulo": "nervioso",
+      "submodulo": "memoria_concentracion"
     },
     {
       "id": 1356,

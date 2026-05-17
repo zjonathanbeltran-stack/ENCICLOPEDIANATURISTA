@@ -3,6 +3,50 @@
   "submodulo": "cosmetica_piel",
   "recetas": [
     {
+      "id": 60,
+      "titulo": "Loción de Romero para la Caída del Cabello",
+      "categoria": "Cosmético",
+      "origen": "Cosmético",
+      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
+      "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
+      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
+      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3–5 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
+      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Caída del cabello",
+        "Alopecia leve",
+        "Cuero cabelludo graso",
+        "Caspa",
+        "Debilidad capilar"
+      ],
+      "interacciones_medicamentos": "Uso tópico, baja absorción; precaución si hay heridas en cuero cabelludo.",
+      "embarazo_lactancia": "Evitar uso tópico extenso en embarazo en primer trimestre; aceptable en lactancia.",
+      "duracion_tratamiento": "Aplicación diaria por 8-12 semanas; evaluar resultados.",
+      "sinergia_plantas": [
+        "ortiga",
+        "matico",
+        "lavanda"
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
+    },
+    {
       "id": 63,
       "titulo": "Enjuague de Caléndula para la Piel Grasa",
       "categoria": "Cosmético",
@@ -41,7 +85,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 67,
@@ -82,7 +128,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 78,
@@ -122,7 +170,52 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
+    },
+    {
+      "id": 85,
+      "titulo": "Loción de Romero para la Caída del Cabello",
+      "categoria": "Cosmético",
+      "origen": "Cosmética Natural",
+      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
+      "preparacion": "Macerar las hojas de romero en la mezcla de alcohol y agua durante 10 días. Aplicar sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
+      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
+      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "3–5 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
+      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 89,
@@ -163,7 +256,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 107,
@@ -204,7 +299,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 132,
@@ -244,7 +341,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 133,
@@ -286,7 +385,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 144,
@@ -327,7 +428,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 146,
@@ -369,7 +472,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 154,
@@ -410,7 +515,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 155,
@@ -450,48 +557,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
-    },
-    {
-      "id": 160,
-      "titulo": "Crema de Matico (Pañil)",
-      "categoria": "Cicatrizante",
-      "origen": "Popular",
-      "ingredientes": "Hojas de matico, manteca.",
-      "preparacion": "Derretir la manteca a fuego lento con las hojas de matico. Una vez que tome color verde, retirar, colar y dejar enfriar. Aplicar cuidadosamente sobre heridas para acelerar la recuperación.",
-      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "12 min",
-      "dificultad": "Medio",
-      "rendimiento": "2–3 aplicaciones por preparación",
-      "conservacion": "Preparar fresco; usar el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-      "uso": "Cicatrización de heridas, úlceras gástricas e inflamación dérmica: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
-      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
-      "propiedades": [
-        "cicatrizante",
-        "hemostático",
-        "antiséptico",
-        "antiinflamatorio",
-        "astringente"
       ],
-      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "indicaciones_principales": [
-        "Cicatrización de heridas leves",
-        "Quemaduras de primer grado",
-        "Cortes y abrasiones",
-        "Úlceras superficiales"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 163,
@@ -532,7 +600,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 167,
@@ -573,7 +643,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 168,
@@ -613,7 +685,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 175,
@@ -654,7 +728,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 176,
@@ -695,7 +771,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 177,
@@ -735,7 +813,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 178,
@@ -776,7 +856,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 179,
@@ -817,7 +899,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 180,
@@ -858,7 +942,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 181,
@@ -899,7 +985,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 182,
@@ -940,7 +1028,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 183,
@@ -981,7 +1071,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 184,
@@ -1022,7 +1114,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 185,
@@ -1063,7 +1157,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 186,
@@ -1103,7 +1199,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 187,
@@ -1144,7 +1242,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 188,
@@ -1185,7 +1285,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 189,
@@ -1226,7 +1328,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 190,
@@ -1266,7 +1370,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 191,
@@ -1308,7 +1414,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 192,
@@ -1348,7 +1456,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 193,
@@ -1388,7 +1498,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 194,
@@ -1429,7 +1541,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 195,
@@ -1470,7 +1584,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 196,
@@ -1511,7 +1627,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 197,
@@ -1551,7 +1669,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 198,
@@ -1592,7 +1712,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 199,
@@ -1633,7 +1755,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 200,
@@ -1674,48 +1798,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
-    },
-    {
-      "id": 438,
-      "titulo": "Crema de Caléndula y Manteca de Cacao",
-      "categoria": "Dermatológico",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "1/2 taza de aceite de caléndula macerado, 2 cucharadas de cera de abeja, 2 cucharadas de manteca de cacao",
-      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el aceite. Mezclar bien. Verter en tarros. Dejar solidificar.",
-      "dosis": "Aplicar 2-3 veces al día en zona afectada",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "25 min + enfriado",
-      "dificultad": "Medio",
-      "rendimiento": "150 g",
-      "conservacion": "Temperatura ambiente 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No usar en heridas abiertas profundas; alergia a crisantemas posible",
-      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antiséptico",
-        "emoliente",
-        "antifúngico"
       ],
-      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 446,
@@ -1756,7 +1841,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 448,
@@ -1796,7 +1883,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 452,
@@ -1837,7 +1926,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 613,
@@ -1878,7 +1969,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 614,
@@ -1919,7 +2012,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 615,
@@ -1959,7 +2054,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 616,
@@ -2001,7 +2098,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 617,
@@ -2041,7 +2140,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 618,
@@ -2081,7 +2182,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 619,
@@ -2122,7 +2225,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 620,
@@ -2164,7 +2269,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 621,
@@ -2205,7 +2312,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 622,
@@ -2247,7 +2356,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 623,
@@ -2288,7 +2399,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 624,
@@ -2328,7 +2441,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 625,
@@ -2369,7 +2484,9 @@
         "antioxidante",
         "regenerante celular",
         "fotoprotector"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 626,
@@ -2411,7 +2528,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 627,
@@ -2452,7 +2571,52 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
+    },
+    {
+      "id": 628,
+      "titulo": "Tinte Natural de Henna para el Cabello",
+      "categoria": "Cosmético",
+      "origen": "Tradición India y Árabe",
+      "ingredientes": "100 g de henna en polvo, 200 ml de té negro fuerte, 1 cucharada de aceite de coco, jugo de limón",
+      "preparacion": "Mezclar la henna con el té hasta obtener pasta. Agregar aceite y limón. Reposar 2 horas.",
+      "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
+      "modo_uso": "Usar guantes; puede manchar la piel",
+      "tiempo_prep": "4 horas total",
+      "dificultad": "Medio",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco (usar el mismo día)",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición india y árabe",
+      "contraindicaciones": "No usar en alergia a la henna; puede interactuar con tintes químicos previos",
+      "uso": "Cabello: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Cuidado y nutrición de la piel",
+        "Piel grasa con tendencia al acné",
+        "Envejecimiento cutáneo prematuro",
+        "Hidratación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Rosa mosqueta",
+        "Aceite de oliva"
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 629,
@@ -2493,7 +2657,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 630,
@@ -2534,7 +2700,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 631,
@@ -2575,7 +2743,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 632,
@@ -2616,7 +2786,9 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 962,
@@ -2657,51 +2829,53 @@
         "Caléndula",
         "Rosa mosqueta",
         "Aceite de oliva"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
-      "id": 1172,
-      "titulo": "Crema cicatrizante de matico, caléndula y miel",
-      "categoria": "Cicatrizante",
-      "origen": "Etnomedicina mapuche y europea",
-      "ingredientes": "50 ml de oleato de matico, 30 ml de oleato de caléndula, 10 g de cera de abejas, 1 cucharadita de miel de ulmo, 5 gotas de vitamina E, 3 gotas aceite esencial de lavanda",
-      "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
-      "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
-      "modo_uso": "Crema tópica",
-      "tiempo_prep": "45 minutos",
-      "dificultad": "Media",
-      "rendimiento": "90 g",
-      "conservacion": "6 meses refrigerada o lugar fresco",
-      "evidencia": "Caléndula acelera epitelización en heridas (Khairnar, 2013); matico con uso etnobotánico documentado",
-      "fuente_tradicion": "Mapuche (matico) y europea (caléndula)",
-      "contraindicaciones": "Alergia a asteráceas. Heridas infectadas requieren manejo médico. No usar en quemaduras graves.",
-      "uso": "Los triterpenos de caléndula estimulan fibroblastos y angiogénesis acelerando cicatrización en 30-50% según estudios, mientras el verbascósido del matico tiene acción antibacteriana y antiinflamatoria, y la miel aporta defensina-1 antibacteriana y mantiene ambiente húmedo óptimo.",
-      "principios_activos": "Faradiol (caléndula): cicatrizante. Verbascósido (matico): antibacteriano. Defensina-1 (miel). Tocoferol (vit. E).",
+      "id": 1111,
+      "titulo": "Té remineralizante de equiseto para uñas y cabello",
+      "categoria": "Cosmético",
+      "origen": "Tradicional chileno (uso mapuche del 'limpiaplata')",
+      "ingredientes": "1 cda tallos secos de equiseto, 1 cdta ortiga seca, 1 cdta cola de caballo si dispone (refuerza), 400 ml agua",
+      "preparacion": "Decocción de equiseto a fuego suave por 20 min (la sílice necesita tiempo para extraerse). Retirar, agregar ortiga, tapar 10 min. Colar.",
+      "dosis": "1 taza al día por la mañana, ciclos de 4 semanas",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "Aprox. 350 ml",
+      "conservacion": "Refrigerado, 24 h",
+      "evidencia": "Sandhu NS. et al. (2010) Equisetum: revisión etnofarmacológica. Estudios chilenos en U. de Concepción documentan contenido de sílice biodisponible.",
+      "fuente_tradicion": "Uso mapuche documentado por Hoffmann en 'Plantas medicinales de uso común en Chile'",
+      "contraindicaciones": "No usar más de 6 semanas continuas (tiaminasa). Cardiopatía, edema renal-cardíaco, embarazo, lactancia.",
+      "uso": "La sílice orgánica se incorpora a glicosaminoglicanos del tejido conectivo, fortaleciendo queratina de pelo y uñas; flavonoides actúan como diurético acuarético aumentando excreción sin pérdida de electrolitos.",
+      "principios_activos": "Sílice (ácido silícico orgánico), isoquercitrina, equisetonina, ácido cafeico, potasio.",
       "propiedades": [
-        "cicatrizante",
-        "epitelizante",
-        "antibacteriano",
-        "antiinflamatorio",
-        "regenerador"
+        "remineralizante",
+        "diurético",
+        "fortalecedor",
+        "hemostático",
+        "cicatrizante"
       ],
-      "referencias": [
-        "Khairnar MS. et al. J Indian Soc Periodontol (2013) 17:741",
-        "Della Loggia R. et al. Planta Med (1994) 60:516"
-      ],
+      "referencias": "Sandhu NS. et al., J Pharm Sci Res 2010;2:146-50. Hoffmann A., Plantas medicinales de uso común en Chile, 1992.",
       "indicaciones_principales": [
-        "heridas superficiales",
-        "quemaduras leves",
-        "raspaduras",
-        "úlceras pequeñas",
-        "irritación cutánea"
+        "uñas frágiles",
+        "caída de cabello",
+        "osteopenia leve",
+        "cicatrización lenta"
       ],
-      "interacciones_medicamentos": "Ninguna sistémica",
-      "embarazo_lactancia": "Seguro tópico",
-      "duracion_tratamiento": "Hasta cicatrización completa",
+      "interacciones_medicamentos": "Potencia diuréticos y digitálicos. Puede reducir absorción de tiamina. Vigilar con litio.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 6 semanas con descanso de 2 semanas",
       "sinergia_plantas": [
-        "llantén",
-        "árnica (no en heridas abiertas)"
-      ]
+        "Equiseto",
+        "Ortiga",
+        "Cola de caballo",
+        "Avena verde"
+      ],
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 1173,
@@ -2745,51 +2919,9 @@
       "sinergia_plantas": [
         "caléndula",
         "lavanda"
-      ]
-    },
-    {
-      "id": 1201,
-      "titulo": "Crema corporal nutritiva de caléndula, manzanilla y avena",
-      "categoria": "Dermatológico",
-      "origen": "Cosmética natural moderna",
-      "ingredientes": "50 ml de oleato de caléndula, 30 ml de aceite de almendras, 20 ml de aceite de jojoba, 10 g de cera de abejas, 5 g de manteca de karité, 1 cucharadita de polvo de avena coloidal, 10 gotas de aceite esencial de manzanilla romana, 5 gotas de vitamina E",
-      "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
-      "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
-      "modo_uso": "Crema corporal",
-      "tiempo_prep": "45 minutos",
-      "dificultad": "Media",
-      "rendimiento": "120 g",
-      "conservacion": "4-6 meses en frasco hermético",
-      "evidencia": "Avena coloidal con evidencia en dermatitis atópica (Reynertson, 2015)",
-      "fuente_tradicion": "Cosmética natural",
-      "contraindicaciones": "Alergia a asteráceas o avena. Pieles con heridas requieren manejo médico.",
-      "uso": "La avena coloidal forma película hidratante que retiene humedad y aporta betaglucanos antiinflamatorios cutáneos, los triterpenos de caléndula promueven reparación de barrera cutánea y el bisabolol de manzanilla reduce histamina mastocitaria local mejorando prurito.",
-      "principios_activos": "Avenantramidas, beta-glucanos (avena). Faradiol (caléndula). Bisabolol (manzanilla). Vitamina E.",
-      "propiedades": [
-        "hidratante",
-        "antiinflamatorio cutáneo",
-        "regenerador",
-        "antipruriginoso",
-        "calmante"
       ],
-      "referencias": [
-        "Reynertson KA. et al. J Drugs Dermatol (2015) 14:43",
-        "Pazyar N. et al. Arch Dermatol Res (2012) 304:99"
-      ],
-      "indicaciones_principales": [
-        "piel seca",
-        "dermatitis atópica leve",
-        "eccema",
-        "prurito",
-        "piel sensible reactiva"
-      ],
-      "interacciones_medicamentos": "Ninguna sistémica",
-      "embarazo_lactancia": "Seguro",
-      "duracion_tratamiento": "Uso continuo",
-      "sinergia_plantas": [
-        "llantén",
-        "lavanda"
-      ]
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "titulo": "Aceite de Rosa Mosqueta para prevención de estrías",
@@ -2818,7 +2950,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1294
+      "id": 1294,
+      "modulo": "piel",
+      "submodulo": "cosmetica_piel"
     },
     {
       "id": 1423,

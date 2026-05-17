@@ -40,7 +40,9 @@
         "manzanilla",
         "lavanda",
         "llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 25,
@@ -82,7 +84,9 @@
         "matico",
         "rosa mosqueta",
         "caléndula"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 61,
@@ -124,7 +128,9 @@
         "caléndula",
         "llantén",
         "lavanda"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 87,
@@ -166,7 +172,9 @@
         "caléndula",
         "llantén",
         "rosa mosqueta"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 111,
@@ -206,7 +214,9 @@
         "antiséptico",
         "analgésico",
         "ceruminolítico"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 125,
@@ -248,7 +258,9 @@
         "manzanilla",
         "matico",
         "tomillo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 140,
@@ -290,7 +302,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 170,
@@ -332,7 +346,53 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 171,
+      "titulo": "Infusión de Hinojo para las Fibras",
+      "categoria": "General",
+      "origen": "Urbano",
+      "ingredientes": "Semillas de hinojo, 1 taza de agua.",
+      "preparacion": "Preparar una infusión de semillas de hinojo para ayudar a aliviar los dolores menstruales, incrementar la producción de leche materna o facilitar la digestión.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Fibras: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "galactagogo"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 648,
@@ -373,7 +433,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 649,
@@ -413,7 +475,9 @@
         "astringente",
         "antiséptico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 650,
@@ -454,7 +518,9 @@
         "analgésico",
         "ceruminolítico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 651,
@@ -495,7 +561,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 652,
@@ -535,7 +603,9 @@
         "astringente",
         "antiséptico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 653,
@@ -577,7 +647,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 654,
@@ -619,7 +691,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 655,
@@ -660,7 +734,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 656,
@@ -701,7 +777,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 657,
@@ -742,7 +820,53 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 917,
+      "titulo": "Infusión de Hierbas Digestivas Post Cena",
+      "categoria": "General",
+      "origen": "Herbolaria Universal",
+      "ingredientes": "1 cucharadita de hinojo, 1/2 cucharadita de menta, 1/2 cucharadita de manzanilla, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir la mezcla 10 min. Colar.",
+      "dosis": "1 taza 30 min después de la cena",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria universal",
+      "contraindicaciones": "Generalmente seguro; el hinojo puede causar alergia en sensibles",
+      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos. | Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante",
+        "digestivo"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1083,
@@ -783,7 +907,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1189,
@@ -826,7 +952,9 @@
       "sinergia_plantas": [
         "llantén",
         "rosas"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1190,
@@ -866,7 +994,71 @@
       "duracion_tratamiento": "Máximo 5 días, consultar médico",
       "sinergia_plantas": [
         "lavanda"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "titulo": "Tisana de Hinojo para cólicos y gases",
+      "categoria": "General",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- 1 cucharadita (2 g) de frutos de hinojo recién machacados. - 200 ml de agua hirviendo.",
+      "preparacion": "1. Machacar ligeramente los frutos. 2. Verter el agua hirviendo sobre ellos. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Alergia a apiáceas. - Evitar aceite esencial puro y dosis altas en embarazo y lactancia.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Uso prolongado seguro en adultos.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1248,
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "titulo": "Agua de Hinojo para cólicos del lactante",
+      "categoria": "General",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- ½ cucharadita (aprox. 1 g) de frutos de hinojo. - 200 ml de agua.",
+      "preparacion": "1. Hervir el agua con los frutos de hinojo durante 2 minutos. 2. Retirar del fuego, tapar y dejar reposar 10 minutos. 3. Colar con gasa fina y dejar entibiar.",
+      "dosis": "- Lactantes de 1-6 meses: 5-10 ml (1-2 cucharaditas) antes de cada toma, máximo 30-50 ml al día repartidos. - Lactantes de 6-12 meses: 10-15 ml antes de cada toma.",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "2 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Recién nacidos menores de 1 mes. - No añadir miel en menores de 1 año. - Suspender si aparece cualquier reacción adversa.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "3 días. No repetir sin consultar al pediatra.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "⚠️ Precaución (+1 mes, supervisión pediátrica)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1258,
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1468,

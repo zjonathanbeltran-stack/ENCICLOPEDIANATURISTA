@@ -3,6 +3,309 @@
   "submodulo": "rinones",
   "recetas": [
     {
+      "id": 34,
+      "titulo": "Infusión de Nalca para Problemas Renales",
+      "categoria": "Renal",
+      "origen": "Mapuche",
+      "ingredientes": "Hojas frescas de nalca, 1 taza de agua.",
+      "preparacion": "Una infusión de las hojas se utiliza para ayudar a tratar problemas renales y como diurético.",
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Problemas Renales: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+      "propiedades": [
+        "antioxidante",
+        "astringente",
+        "antiinflamatorio",
+        "nutritivo",
+        "digestivo"
+      ],
+      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+      "indicaciones_principales": [
+        "retención de líquidos leve",
+        "cistitis funcional",
+        "edema leve",
+        "depuración renal preventiva"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos (potenciación), litio (riesgo de toxicidad) y antihipertensivos.",
+      "embarazo_lactancia": "Precaución en embarazo; uso bajo orientación profesional. Evitar en insuficiencia renal.",
+      "duracion_tratamiento": "Máximo 2 semanas; descansar antes de retomar.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "diente de león",
+        "llantén",
+        "perejil"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "id": 120,
+      "titulo": "Infusión de Hierba de la Piedra para los Cálculos Renales",
+      "categoria": "Renal",
+      "origen": "Norte Grande",
+      "ingredientes": "1 cucharada de hojas de hierba de la piedra, 1 taza de agua.",
+      "preparacion": "Preparar una infusión con esta planta, conocida por sus propiedades diuréticas y para disolver cálculos renales.",
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Cálculos Renales. Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Apoyo renal y diurético suave",
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "titulo": "Infusión de Cola de Caballo para Riñones y Vejiga",
+      "categoria": "Renal",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "1 cucharada de cola de caballo seca (Equisetum bogotense), 1 taza de agua.",
+      "preparacion": "Hervir el agua con la cola de caballo 5 minutos. Colar y beber tibio. Tomar 3 tazas al día durante máximo 4 semanas. La silice y los flavonoides de la cola de caballo tienen efecto diurético suave y antiséptico urinario. No usar con insuficiencia renal severa.",
+      "id": 257,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en insuficiencia renal. Evitar uso prolongado. Contraindicado en embarazo.",
+      "uso": "Riñones y Vejiga: el silicio orgánico estimula la síntesis de colágeno y los flavonoides ejercen acción diurética sobre el túbulo renal.",
+      "principios_activos": "Silicio orgánico (5-8% de ácido silícico): cofactor de la síntesis de colágeno e hidroxiapatita ósea, estimulando la remineralización. Flavonoides (isoquercitrina): diuréticos por modulación del transporte tubular renal. Sales de potasio: evitan desequilibrio electrolítico.",
+      "propiedades": [
+        "diurético",
+        "remineralizante",
+        "hemostático",
+        "astringente",
+        "cicatrizante"
+      ],
+      "referencias": "EMA/HMPC Assessment Report: Equisetum arvense 2016; WHO Monographs Vol.4 (2009); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "litiasis renal leve",
+        "cistitis recurrente",
+        "retención de líquidos",
+        "remineralización ósea"
+      ],
+      "interacciones_medicamentos": "Precaución con diuréticos, digoxina, litio, antidiabéticos y antihipertensivos.",
+      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
+      "duracion_tratamiento": "Máximo 4 semanas; descansar 1-2 semanas para evitar déficit de tiamina.",
+      "sinergia_plantas": [
+        "llantén",
+        "barbas de choclo",
+        "pichi",
+        "diente de león"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "titulo": "Agua de Pelos de Choclo (Maíz) como Diurético",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "Pelos de 2-3 mazorcas de maíz fresco, 1 litro de agua.",
+      "preparacion": "Hervir los pelos de choclo en el agua durante 15 minutos. Colar y beber durante el día. Consumir 2-3 vasos diarios. Los pelos de choclo contienen maysin y flavonoides con efecto diurético y calmante de las vías urinarias. Excelente para cistitis e infecciones urinarias leves.",
+      "id": 258,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "20 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Flavonoides diuréticos (quercetina, kaempferol): aumentan el filtrado glomerular. Ácido silícico: antiinflamatorio de las vías urinarias. Sales de potasio: diuréticas osmóticas.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "titulo": "Agua de Perejil para Retención de Líquidos",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 manojo de perejil fresco, 1 litro de agua.",
+      "preparacion": "Lavar el perejil. Hervir el agua y agregar el perejil. Apagar el fuego, tapar y reposar 15 minutos. Colar y beber durante el día (hasta 3 vasos). El perejil contiene apiol y miristicina con potente efecto diurético. No usar en dosis altas durante el embarazo.",
+      "id": 259,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "20 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Retención de Líquidos. Apoyo de la función renal.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+      "propiedades": [
+        "diurético",
+        "antiséptico urinario",
+        "depurativo renal",
+        "antiinflamatorio"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "titulo": "Infusión de Diente de León para Depurar los Riñones",
+      "categoria": "Renal",
+      "origen": "Popular Chileno",
+      "ingredientes": "15 g de hojas y flores de diente de león, 500 ml de agua.",
+      "preparacion": "Hervir el agua y agregar el diente de león. Tapar y reposar 10 minutos. Colar y beber tibio. Tomar 2-3 tazas al día. El diente de león contiene taraxacina con efecto diurético comparable a furosemida en estudios preclínicos, sin perder potasio.",
+      "id": 260,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Depurar los Riñones: la taraxacina estimula enzimas antioxidantes hepáticas y los flavonoides ejercen acción diurética.",
+      "principios_activos": "Taraxacina y taraxacerín (eudesmanólidos amargos): estimulan la secreción biliar y aumentan la actividad de catalasa y glutatión peroxidasa hepáticas. Inulina (hasta 40% en otoño): prebiótico. Flavonoides y sales de potasio: efecto diurético sin pérdida de electrolitos.",
+      "propiedades": [
+        "diurético",
+        "colerético",
+        "hepatoprotector",
+        "tónico digestivo",
+        "prebiótico"
+      ],
+      "referencias": "Covarrubias-Pinto A. et al. Rev Mex Cienc Farm 2013; 44(4); WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Depuración renal",
+        "Cálculos renales pequeños",
+        "Edema leve",
+        "Apoyo hepatobiliar"
+      ],
+      "interacciones_medicamentos": "Potencia diuréticos, litio, anticoagulantes e hipoglucemiantes; reduce absorción de quinolonas y tetraciclinas.",
+      "embarazo_lactancia": "Aceptable en embarazo y lactancia en dosis moderadas.",
+      "duracion_tratamiento": "Curas de 3 semanas con 1 semana de descanso.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "llantén",
+        "boldo"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "titulo": "Decocción de Apio y Limón para Infecciones Urinarias",
+      "categoria": "Renal",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "1 rama de apio con hojas, jugo de 1 limón, 500 ml de agua.",
+      "preparacion": "Hervir el apio en el agua 10 minutos. Retirar, colar y agregar el limón. Beber tibio. Tomar 2-3 veces al día. El apio tiene apiol con efecto diurético y el limón acidifica la orina dificultando el crecimiento bacteriano en las vías urinarias.",
+      "id": 261,
+      "dosis": "1 taza 3 veces al día, entre comidas; beber abundante agua adicional",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "15 min",
+      "dificultad": "Medio",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza tratamiento médico en enfermedades renales. Contraindicado en insuficiencia renal.",
+      "uso": "Infecciones Urinarias: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Infecciones urinarias leves",
+        "Cistitis",
+        "Retención de líquidos",
+        "Prevención de cálculos",
+        "Diuresis"
+      ],
+      "interacciones_medicamentos": "Apio potencia anticoagulantes y diuréticos; limón reduce absorción de aluminio; precaución con litio.",
+      "embarazo_lactancia": "Apio contraindicado en embarazo en dosis medicinales (efecto uterotónico); aceptable en lactancia.",
+      "duracion_tratamiento": "Máximo 7-10 días; si no mejora consultar médico.",
+      "sinergia_plantas": [
+        "cola de caballo",
+        "llantén",
+        "arándano rojo"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
       "id": 416,
       "titulo": "Depurativo de Cola de Caballo",
       "categoria": "Renal",
@@ -41,7 +344,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 541,
@@ -81,7 +386,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 542,
@@ -123,7 +430,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 543,
@@ -163,7 +472,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 544,
@@ -204,7 +515,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 545,
@@ -245,7 +558,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 549,
@@ -285,7 +600,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 551,
@@ -325,7 +642,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 988,
@@ -366,7 +685,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 989,
@@ -406,7 +727,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 990,
@@ -446,7 +769,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 991,
@@ -487,7 +812,9 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 992,
@@ -527,7 +854,9 @@
         "Cola de caballo",
         "Diente de León",
         "Perejil"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 1001,
@@ -567,7 +896,51 @@
         "antiséptico urinario",
         "depurativo renal",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
+    },
+    {
+      "id": 1079,
+      "titulo": "Infusion de Tola Negra y Yareta para Dolor de Rinones Aymara",
+      "categoria": "Renal",
+      "origen": "Aymara (Altiplano chileno, cuenca del salar de Surire, Guallatire)",
+      "ingredientes": "20 g de ramas floridas de tola negra (Parastrephia lepidophylla / tola en aymara); 15 g de yareta fresca (Azorella compacta / yarita); 600 ml de agua; 1 cucharada de miel de abeja altiplanic",
+      "preparacion": "1. Recolectar la tola y yareta del altiplano (solo en cantidad necesaria, plantas de crecimiento muy lento). 2. Hervir el agua y agregar la tola y yareta. 3. Dejar hervir 15 minutos a fuego medio. 4. Apagar, tapar y reposar 10 minutos. 5. Colar bien. Endulzar con miel cuando este tibio. 6. Beber caliente, preferentemente antes del amanecer segun tradicion aymara.",
+      "dosis": "1 taza al despertar en ayunas y 1 taza al anochecer, durante 10-15 dias.",
+      "modo_uso": "Oral (decoccion)",
+      "tiempo_prep": "30 minutos",
+      "dificultad": "Media",
+      "rendimiento": "2-3 tazas",
+      "conservacion": "Consumir fresco. Refrigerar no mas de 24 horas.",
+      "evidencia": "La tola negra y la yareta son dos de las plantas mas importantes de la farmacopea aymara altiplanic. La Parastrephia lepidophylla contiene flavonoides y terpenoides con efecto diuretico y antiinflamatorio renal documentado (Villagran & Castro 2004). La yareta (Azorella compacta) contiene azorellanos diterpenicos con efecto espasmolitico en via urinaria.",
+      "fuente_tradicion": "Andina / Aymara",
+      "contraindicaciones": "La yareta es una especie protegida en Chile (recolectar solo cantidades minimas y nunca del nucleo de la planta). No usar en insuficiencia renal severa. Contraindicado en embarazo. Puede interactuar con farmacos diureticos.",
+      "uso": "Tratamiento de inflamacion renal, calculos urinarios (urolitiasis), infecciones de las vias urinarias y edema de origen renal. La tola produce efecto diuretico que facilita la eliminacion de oxalatos; la yareta relaja los espasmos del ureter que causan el dolor colico.",
+      "principios_activos": "Flavonoides (quercetina, kampferol) de tola; azorellanos A-E (diterpenos) de yareta; aceites esenciales; taninos",
+      "propiedades": [
+        "diuretico",
+        "antiespasmódico urinario",
+        "antiinflamatorio renal",
+        "litotriptico"
+      ],
+      "referencias": "Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile. Editorial Universitaria. / Loyola LA. et al. (1990) Diterpenoids from Azorella compacta. Phytochemistry.",
+      "indicaciones_principales": [
+        "Retención de líquidos",
+        "Infección urinaria leve",
+        "Edema leve de miembros inferiores",
+        "Depuración renal"
+      ],
+      "interacciones_medicamentos": "Diuréticos: puede aumentar la eliminación de electrolitos.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Cola de caballo",
+        "Diente de León",
+        "Perejil"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 1181,
@@ -610,7 +983,9 @@
       "sinergia_plantas": [
         "arándano rojo",
         "matico"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "rinones"
     },
     {
       "id": 1390,

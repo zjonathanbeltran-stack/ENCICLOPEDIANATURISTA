@@ -40,128 +40,9 @@
         "antimicrobiano",
         "antiséptico",
         "cicatrizante"
-      ]
-    },
-    {
-      "id": 95,
-      "titulo": "Cataplasma de Gobernadora para la Piel",
-      "categoria": "Dermatológico",
-      "origen": "Norte Grande",
-      "ingredientes": "Hojas de gobernadora, agua.",
-      "preparacion": "Machacar las hojas frescas y aplicarlas sobre heridas, hongos o sarna. Es un potente antiséptico natural.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La Piel. Tratamiento dermatológico.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ],
-      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antimicrobiano",
-        "emoliente"
-      ]
-    },
-    {
-      "id": 151,
-      "titulo": "Infusión de Pimiento para el Cáncer a la Piel",
-      "categoria": "Cicatrizante",
-      "origen": "Popular",
-      "ingredientes": "Hojas de pimiento.",
-      "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
-      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Tópico — cataplasma",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 aplicaciones por preparación",
-      "conservacion": "Preparar fresco; usar el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-      "uso": "Cáncer a la Piel. Cicatrización de heridas.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cicatrización de heridas leves",
-        "Quemaduras de primer grado",
-        "Cortes y abrasiones",
-        "Úlceras superficiales"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ],
-      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
-      "propiedades": [
-        "cicatrizante",
-        "regenerante tisular",
-        "antiséptico",
-        "hemostático"
-      ]
-    },
-    {
-      "id": 159,
-      "titulo": "Pomada de Manzanilla de Cobre",
-      "categoria": "Dermatológico",
-      "origen": "Popular",
-      "ingredientes": "Flores de manzanilla, cobre.",
-      "preparacion": "Macerar manzanilla y cobre, se afirma que ayuda a curar aftas, llagas y hongos.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-      "propiedades": [
-        "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante"
-      ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Solución de Ajo y Vinagre para Hongos en Uñas",
@@ -202,7 +83,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Aceite Esencial de Orégano para Hongos Cutáneos",
@@ -243,7 +126,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Lavado de Matico y Sal Marina para Pie de Atleta",
@@ -284,7 +169,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Ungüento de Ajo y Caléndula para Candidiasis Cutánea",
@@ -326,7 +213,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Enjuague Bucal Antifúngico de Canela y Clavo",
@@ -367,7 +256,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 444,
@@ -408,7 +299,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 445,
@@ -449,7 +342,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 450,
@@ -489,7 +384,9 @@
         "antimicrobiano",
         "antiséptico",
         "cicatrizante"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 729,
@@ -529,7 +426,9 @@
         "Ajo",
         "Paico",
         "Semillas de calabaza"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 960,
@@ -570,47 +469,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
-    },
-    {
-      "id": 1067,
-      "titulo": "Cataplasma de Michay (Berberis darwinii) para Infecciones de Piel Williche",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche Williche (Osorno, Frutillar, lago Llanquihue)",
-      "ingredientes": "50 g de corteza fresca de michay / calafate del sur (Berberis darwinii / ngulla o puni en mapudungun); 30 ml de agua; 1 cucharada de grasa animal (preferentemente grasa de capon o manteca de cerdo)",
-      "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
-      "dosis": "Aplicar 2-3 veces al dia sobre la zona afectada. Dejar actuar 4 horas y limpiar con agua tibia. Continuar durante 7-10 dias.",
-      "modo_uso": "Topico (cataplasma/pomada)",
-      "tiempo_prep": "20 minutos",
-      "dificultad": "Media",
-      "rendimiento": "8-10 aplicaciones",
-      "conservacion": "Refrigerar hasta 5 dias en tarro cerrado.",
-      "evidencia": "La berberina, alcaloide isoquinolinico del genero Berberis, tiene amplia documentacion cientifica como antibacteriano de amplio espectro y antifungico. Usado por machis williche documentado por Hoffmann et al. (1992). La raiz y corteza contienen 2-4% de berberina.",
-      "fuente_tradicion": "Mapuche Williche",
-      "contraindicaciones": "No aplicar en mucosas, ojos ni heridas muy profundas. La berberina puede manchar la piel temporalmente de amarillo. No ingerir esta preparacion topica. Contraindicado en embarazo (berberina oral es abortiva).",
-      "uso": "Tratamiento de infecciones bacterianas y fungicas de la piel, psoriasis, heridas infectadas y erupciones cutaneas. La berberina de la corteza interior inhibe el crecimiento de Staphylococcus aureus, Candida albicans y otras bacterias comunes.",
-      "principios_activos": "Berberina (2-4%); palmatina; jatrorricina; oxicantina; berbamina; taninos",
-      "propiedades": [
-        "antibacteriano",
-        "antifungico",
-        "antiinflamatorio",
-        "cicatrizante"
       ],
-      "referencias": "Hoffmann A. et al. (1992) Plantas Medicinales de Uso Comun en Chile. / Shaheen F. et al. (2012) Berberis species: traditional uses, phytochemistry and pharmacology. Phytother Res.",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 1360,

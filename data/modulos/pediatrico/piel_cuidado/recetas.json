@@ -3,6 +3,136 @@
   "submodulo": "piel_cuidado",
   "recetas": [
     {
+      "id": 335,
+      "titulo": "Crema de Caléndula para rozaduras del pañal",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores de caléndula secas, 3 cucharadas de aceite de oliva extra virgen, 1 cucharadita de cera de abejas (opcional para textura crema).",
+      "preparacion": "Infusionar la caléndula en aceite de oliva a baño María por 30 minutos a fuego muy bajo. Colar. Si se desea crema, fundir la cera de abejas e integrar con el aceite. Enfriar en recipiente limpio.",
+      "dosis": "Aplicar en zona del pañal en cada cambio, como capa protectora.",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "40 min",
+      "dificultad": "Medio",
+      "rendimiento": "1 frasco pequeño (15–20 aplicaciones)",
+      "conservacion": "Conservar en lugar fresco hasta 4 semanas; no introducir dedos sucios al frasco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba en zona pequeña primero. Evitar si hay alergia a caléndula. Si la irritación persiste o hay infección, consultar pediatra.",
+      "uso": "Rozaduras del pañal: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
+      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local. | Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antiséptico",
+        "emoliente",
+        "antifúngico",
+        "antimicrobiano"
+      ],
+      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Rozaduras del pañal",
+        "Dermatitis irritativa",
+        "Eritema cutáneo",
+        "Pequeñas heridas",
+        "Piel sensible"
+      ],
+      "interacciones_medicamentos": "Uso tópico, sin interacciones sistémicas relevantes; precaución con alergia a asteráceas.",
+      "embarazo_lactancia": "Seguro en embarazo y lactancia; seguro en bebés.",
+      "duracion_tratamiento": "Aplicación con cada cambio de pañal hasta resolución; máximo 2 semanas.",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "manzanilla"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
+    },
+    {
+      "id": 345,
+      "titulo": "Crema de Llantén para dermatitis y eczema infantil",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de hojas de llantén secas, 4 cucharadas de aceite de coco, 1 cucharadita de cera de abejas.",
+      "preparacion": "Infusionar el llantén en aceite de coco a baño María 30 minutos. Colar. Fundir la cera de abejas e integrar con el aceite medicado. Verter en recipiente limpio y dejar solidificar.",
+      "dosis": "Aplicar capa delgada en zona afectada 2–3 veces al día después del baño.",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "40 min",
+      "dificultad": "Medio",
+      "rendimiento": "1 frasco (15–20 aplicaciones)",
+      "conservacion": "Conservar en lugar fresco hasta 4 semanas",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia en zona pequeña. No aplicar en piel con infección activa. Consultar dermatólogo si el eczema es severo.",
+      "uso": "Dermatitis y eczema infantil: los mucílagos protegen la mucosa bronquial facilitando la expectoración y la aucubina reduce la inflamación local.",
+      "principios_activos": "Aucubósido (iridoide glucosídico): inhibe expresión génica proinflamatoria vía NF-κB. Mucílagos (10-12%): forman capa protectora sobre mucosas respiratorias y digestivas. Taninos: astringentes con acción hemostática en heridas.",
+      "propiedades": [
+        "expectorante",
+        "emoliente",
+        "antiinflamatorio",
+        "cicatrizante",
+        "astringente"
+      ],
+      "referencias": "Samuelsen AB. J Ethnopharmacol 2000; 71:1-21; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
+    },
+    {
+      "id": 574,
+      "titulo": "Pomada de Hamamelis para Pañalitis",
+      "categoria": "Pediátrico",
+      "origen": "Herbolaria Americana",
+      "ingredientes": "2 cucharadas de extracto de hamamelis, 3 cucharadas de manteca de cacao, 1 cucharada de cera de abeja",
+      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el hamamelis. Mezclar. Verter en tarro y solidificar.",
+      "dosis": "Aplicar en zona del pañal en cada cambio",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "20 min + solidificado",
+      "dificultad": "Medio",
+      "rendimiento": "100 g",
+      "conservacion": "Temperatura ambiente 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria americana y europea",
+      "contraindicaciones": "No usar si hay infección fúngica activa; puede causar irritación en piel muy sensible",
+      "uso": "Pañalitis. Cuidado pediátrico suave.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "principios_activos": "Ácido esteárico y ácido oleico: emolientes que restauran la barrera lipídica cutánea. Polifenoles (procianidinas): antioxidantes y antiinflamatorios dérmicos. Vitamina E y fitosteroles: regeneradores celulares.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "sedante leve",
+        "antipirético"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
+    },
+    {
       "id": 576,
       "titulo": "Aceite de Almendras para Eccema Infantil",
       "categoria": "Pediátrico",
@@ -40,7 +170,9 @@
         "antiespasmódico",
         "sedante leve",
         "antipirético"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
     },
     {
       "id": 788,
@@ -81,7 +213,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
     },
     {
       "id": 792,
@@ -121,7 +255,9 @@
         "antiespasmódico",
         "sedante leve",
         "antipirético"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "piel_cuidado"
     },
     {
       "id": 1478,

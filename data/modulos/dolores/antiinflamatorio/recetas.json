@@ -42,48 +42,52 @@
         "romero",
         "boldo",
         "matico"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
-      "titulo": "Infusión de Corteza de Sauce Blanco para el Dolor",
-      "categoria": "Analgésico",
-      "origen": "Medicina Tradicional Chilena",
-      "ingredientes": "10 g de corteza seca de sauce blanco (Salix sp.), 500 ml de agua.",
-      "preparacion": "Hervir la corteza en el agua durante 15 minutos. Colar y beber tibio. Tomar máximo 3 tazas al día. La corteza de sauce contiene salicina, precursor natural de la aspirina, con efecto analgésico y antiinflamatorio. No usar en niños ni con anticoagulantes.",
-      "id": 224,
-      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "20 min",
+      "titulo": "Decocción de Ortiga Verde para Artritis y Reumatismo",
+      "categoria": "Antiinflamatorio",
+      "origen": "Popular Chileno / Mapuche",
+      "ingredientes": "20 g de hojas frescas de ortiga (con guantes), 500 ml de agua.",
+      "preparacion": "Hervir el agua, agregar las hojas de ortiga y cocinar 5 minutos. Colar (el calor elimina el efecto urticante). Beber 2 tazas al día. La ortiga contiene flavonoides, ácidos fenólicos y lectinas con probado efecto antiinflamatorio articular.",
+      "id": 230,
+      "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "10 min",
       "dificultad": "Medio",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento",
+      "rendimiento": "2–3 tazas o 1 aplicación",
+      "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
-      "uso": "Dolor: la salicina se convierte en ácido salicílico que inhibe COX-1 y COX-2 con mejor tolerancia gástrica que la aspirina.",
-      "principios_activos": "Salicina (glucósido fenólico): hidrolizada por bacterias intestinales a saligenina, que se oxida a ácido salicílico; inhibe COX-1 y COX-2 reduciendo prostaglandinas proalgésicas y pirógenas. A diferencia del AAS, no acetila irreversiblemente las COX, con menor efecto antiagregante y mejor tolerancia gástrica.",
-      "propiedades": [
-        "analgésico",
-        "antiinflamatorio",
-        "antipirético",
-        "antirreumático"
-      ],
-      "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Puede causar reacciones alérgicas en personas sensibles. Manipular con guantes.",
+      "uso": "Artritis y Reumatismo. Reducción de la inflamación.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
-        "Dolor articular",
-        "Cefalea tensional",
-        "Lumbalgia",
-        "Fiebre",
-        "Dismenorrea"
+        "Dolor articular crónico y artritis",
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
       ],
-      "interacciones_medicamentos": "Salicina potencia anticoagulantes (warfarina), AINEs y antiagregantes; precaución con metotrexato e hipoglucemiantes; contraindicado con alergia a aspirina.",
-      "embarazo_lactancia": "Contraindicado en embarazo (tercer trimestre) y lactancia; riesgo de síndrome de Reye en niños.",
-      "duracion_tratamiento": "Máximo 7-10 días continuos.",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
       "sinergia_plantas": [
-        "matico",
-        "jengibre",
-        "cúrcuma"
-      ]
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ],
+      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "antioxidante",
+        "inmunomodulador"
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "titulo": "Gel de Aloe Vera y Cúrcuma para Inflamaciones Cutáneas",
@@ -124,7 +128,52 @@
         "Cúrcuma",
         "Jengibre",
         "Árnica"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
+    },
+    {
+      "titulo": "Compresas Frías de Manzanilla para Inflamación Articular",
+      "categoria": "Antiinflamatorio",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "30 g de flores de manzanilla, 500 ml de agua, hielo.",
+      "preparacion": "Hervir el agua con manzanilla 5 minutos. Colar y dejar enfriar completamente. Añadir hielo. Remojar un paño limpio y aplicar sobre la articulación inflamada durante 20 minutos. Repetir 3-4 veces al día en fase aguda.",
+      "id": 232,
+      "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
+      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
+      "tiempo_prep": "10 min",
+      "dificultad": "Medio",
+      "rendimiento": "2–3 tazas o 1 aplicación",
+      "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en personas con úlcera péptica activa. Consultar en tratamientos prolongados.",
+      "uso": "Inflamación Articular: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "titulo": "Aceite de Árnica para Contusiones e Inflamaciones",
@@ -165,7 +214,9 @@
         "antioxidante",
         "inmunomodulador",
         "emoliente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "titulo": "Té Antiinflamatorio de Cola de Caballo y Jengibre",
@@ -207,7 +258,9 @@
         "Cúrcuma",
         "Jengibre",
         "Árnica"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "titulo": "Cataplasma de Arcilla Verde y Árnica para Inflamaciones",
@@ -248,7 +301,9 @@
         "antioxidante",
         "inmunomodulador",
         "emoliente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "id": 470,
@@ -289,7 +344,9 @@
         "Cúrcuma",
         "Jengibre",
         "Árnica"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "id": 472,
@@ -329,7 +386,9 @@
         "analgésico",
         "antioxidante",
         "inmunomodulador"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "id": 476,
@@ -370,7 +429,9 @@
         "Cúrcuma",
         "Jengibre",
         "Árnica"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     },
     {
       "id": 479,
@@ -410,7 +471,141 @@
         "analgésico",
         "antioxidante",
         "inmunomodulador"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
+    },
+    {
+      "id": 1070,
+      "titulo": "Emplasto de Patagua y Sal de Mar para Inflamacion Articular Williche",
+      "categoria": "Antiinflamatorio",
+      "origen": "Mapuche Williche (zona cordillerana de los Lagos, Puelo, Cochamo)",
+      "ingredientes": "80 g de corteza fresca de patagua (Crinodendron patagua / trompetero); 2 cucharadas de sal de mar gruesa; 3 cucharadas de agua caliente; 1 cucharada de aceite de oliva o grasa de lobo marino (uso tradicional)",
+      "preparacion": "1. Recolectar la corteza interna (liber) de patagua, preferentemente en luna menguante segun practica williche. 2. Machacar la corteza en mortero con la sal hasta obtener pasta aspera. 3. Agregar el agua caliente de a poco sin dejar de machacar. 4. Incorporar el aceite y continuar mezclando hasta homogeneizar. 5. Aplicar la pasta caliente (tolerable) sobre la articulacion inflamada envolviendola.",
+      "dosis": "Aplicar una vez al dia durante 1-2 horas. Cubrir con pano de lana. Repetir durante 10-15 dias.",
+      "modo_uso": "Topico (emplasto caliente)",
+      "tiempo_prep": "20 minutos",
+      "dificultad": "Facil",
+      "rendimiento": "2-3 aplicaciones",
+      "conservacion": "Preparar fresco para cada aplicacion. No conservar.",
+      "evidencia": "La patagua (Crinodendron patagua) contiene lectinas y taninos con actividad antiinflamatoria documentada. La sal de mar como osmoregulador reduce el edema articular. Uso documentado por Villagran C. (2000) y el MINSAL en estudios de medicina williche.",
+      "fuente_tradicion": "Mapuche Williche",
+      "contraindicaciones": "No aplicar sobre piel con heridas abiertas. Evitar en personas con alergia a mariscos (la grasa de lobo marino). No aplicar calor si hay artritis septica aguda (infeccion activa). Consultar medico si hay fiebre acompanante.",
+      "uso": "Tratamiento de artritis, artrosis de rodilla, tobillo o muneca, y dolores articulares cronicos en personas mayores williche. La combinacion de calor, sal y compuestos fenolicos de la patagua produce efecto antiinflamatorio local potente.",
+      "principios_activos": "Taninos hidrolizables (patagua); lectinas antiinflamatorias; cloruro de sodio (sal); acido oleico (aceite)",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgesico",
+        "desinflamante articular",
+        "emoliente"
+      ],
+      "referencias": "Villagran C. (2000) Etnobiologia Williche. CONAF. / Moller P. et al. (2003) Medicinal plants of the Chilean temperate rain forest. J Ethnopharmacol.",
+      "indicaciones_principales": [
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
+    },
+    {
+      "id": 1098,
+      "titulo": "Ungüento de Jarilla para Inflamacion de Piel y Articulaciones (Diaguita)",
+      "categoria": "Antiinflamatorio",
+      "origen": "Diaguita",
+      "ingredientes": "50 g de hojas y ramas tiernas de jarilla (Larrea nitida), 80 ml de aceite de oliva o grasa animal, 1 cucharadita de cera de abeja (opcional para dar consistencia de ungüento)",
+      "preparacion": "1. Recolectar hojas y ramas tiernas de jarilla, material fresco o seco; lavar y secar al sol 30 minutos. 2. Calentar el aceite de oliva a fuego muy bajo (40 °C máximo) y agregar el material vegetal troceado. 3. Mantener a fuego mínimo durante 45 minutos, moviendo suavemente; el aceite tomará color verde-dorado con aroma resinoso característico de la jarilla. 4. Colar con tela fina, presionando el residuo para extraer todo el aceite medicado. 5. Si se desea ungüento sólido: agregar cera de abeja derretida, mezclar y envasar mientras aún está líquido; solidificará al enfriar.",
+      "dosis": "Aplicar el ungüento 2-3 veces al día sobre la zona afectada con masaje suave; no cubrir herméticamente",
+      "modo_uso": "Tópico — aceite medicado o ungüento",
+      "tiempo_prep": "60 min",
+      "dificultad": "Media",
+      "rendimiento": "Aprox. 60 ml de aceite o ungüento",
+      "conservacion": "Conservar en frasco oscuro; hasta 3 semanas en lugar fresco",
+      "evidencia": "Uso etnobotánico de Larrea spp. ampliamente documentado en comunidades del norte árido de Chile y Argentina. La jarilla es una de las plantas más usadas por la medicina tradicional diaguita y atacameña.",
+      "fuente_tradicion": "Diaguita",
+      "contraindicaciones": "No aplicar sobre heridas abiertas. Uso prolongado o a altas concentraciones puede ser hepatotóxico (NDGA presente en Larrea). No ingerir. Consultar si aparece irritación cutánea.",
+      "uso": "Antiinflamatorio y analgésico tópico para artritis, reumatismo, psoriasis, eccema y dolores musculares; la meica diaguita lo usa también para tratar afecciones dérmicas del desierto.",
+      "principios_activos": "Ácido nordihidroguayarético (NDGA): potente antioxidante fenólico e inhibidor de lipooxigenasa; flavonoides: acción antiinflamatoria; saponinas: efecto tensoactivo y penetración dérmica.",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico tópico",
+        "antioxidante",
+        "antimicrobiano",
+        "antipruriginoso"
+      ],
+      "referencias": "Gutiérrez-Jara M. Anthropologica PUCP 2024; Villagrán C. & Castro V. Etnobotánica norte de Chile 2003; Arteaga S. et al. J Ethnopharmacol 2005;98(3):231-239.",
+      "indicaciones_principales": [
+        "Dolor articular crónico y artritis",
+        "Inflamación articular crónica",
+        "Tendinitis y bursitis leve",
+        "Dolor e inflamación muscular",
+        "Artritis leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Cúrcuma",
+        "Jengibre",
+        "Árnica"
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
+    },
+    {
+      "id": 1182,
+      "titulo": "Linimento muscular de árnica, romero y eucalipto",
+      "categoria": "Antiinflamatorio",
+      "origen": "Herbolaria deportiva europea",
+      "ingredientes": "50 ml de oleato de árnica, 30 ml de oleato de romero, 20 ml de aceite de oliva, 10 ml de aceite de hipérico, 15 gotas de aceite esencial de eucalipto, 10 gotas de aceite esencial de menta, 5 gotas de aceite esencial de lavanda",
+      "preparacion": "Mezclar todos los aceites vegetales. Añadir aceites esenciales agitando vigorosamente. Envasar en botella oscura.",
+      "dosis": "Aplicar masajeando suavemente sobre área afectada 2-3 veces al día",
+      "modo_uso": "Linimento tópico",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "115 ml",
+      "conservacion": "6 meses en frasco oscuro",
+      "evidencia": "Árnica tópica con eficacia comparable a ibuprofeno gel en osteoartritis manos (Widrig, 2007)",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Heridas abiertas, alergia a asteráceas, niños menores de 6 años, embarazo en abdomen.",
+      "uso": "Las lactonas sesquiterpénicas de árnica (helenalina) inhiben NF-κB reduciendo cascada inflamatoria local sin necesidad de absorción sistémica, el alcanfor y mentol activan receptores TRPM8 generando sensación fría que distrae del dolor (contrairritante) y el eucaliptol mejora circulación local.",
+      "principios_activos": "Helenalina (árnica): inhibidor NF-κB. Alcanfor, borneol (romero). 1,8-cineol (eucalipto). Mentol (menta). Hiperforina (hipérico).",
+      "propiedades": [
+        "antiinflamatorio",
+        "analgésico",
+        "miorrelajante",
+        "rubefaciente",
+        "circulatorio"
+      ],
+      "referencias": [
+        "Widrig R. et al. Rheumatol Int (2007) 27:585",
+        "Iannitti T. et al. Pharmacol Res (2016) 116:23"
+      ],
+      "indicaciones_principales": [
+        "contracturas musculares",
+        "esguinces",
+        "hematomas",
+        "dolor articular",
+        "fatiga muscular post-ejercicio"
+      ],
+      "interacciones_medicamentos": "Tópico, mínimas",
+      "embarazo_lactancia": "Evitar en zona abdominal y mamaria",
+      "duracion_tratamiento": "Hasta resolución, máximo 2 semanas continuas",
+      "sinergia_plantas": [
+        "sauce blanco (interno)",
+        "matico"
+      ],
+      "modulo": "dolores",
+      "submodulo": "antiinflamatorio"
     }
   ]
 }

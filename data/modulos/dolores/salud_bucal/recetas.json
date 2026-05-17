@@ -43,7 +43,9 @@
         "matico",
         "salvia",
         "manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 127,
@@ -83,7 +85,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 145,
@@ -125,7 +129,9 @@
         "tomillo",
         "matico",
         "manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 161,
@@ -167,7 +173,9 @@
         "clavo de olor",
         "matico",
         "manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "titulo": "Enjuague de Clavo de Olor para Dolor de Muelas",
@@ -208,7 +216,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "titulo": "Enjuague de Salvia y Sal Marina para las Encías",
@@ -249,7 +259,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "titulo": "Aceite de Coco para Oil Pulling (Enjuague Bucal Ancestral)",
@@ -289,7 +301,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "titulo": "Pasta Dental Natural de Bicarbonato, Coco y Aceite de Árbol del Té",
@@ -330,7 +344,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "titulo": "Enjuague de Orégano y Agua Oxigenada para Infecciones Bucales",
@@ -371,47 +387,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
-    },
-    {
-      "id": 474,
-      "titulo": "Vinagre de Manzana con Chile para Artritis",
-      "categoria": "Reumatismo",
-      "origen": "Medicina Casera",
-      "ingredientes": "1/2 taza de vinagre de sidra, 1 cucharadita de pimienta de cayena, 1 L de agua tibia",
-      "preparacion": "Mezclar todos los ingredientes. Usar para compresas en articulaciones.",
-      "dosis": "Compresa 20 min, 2 veces al día",
-      "modo_uso": "No aplicar en piel con heridas; puede picar",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 L",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Medicina casera popular",
-      "contraindicaciones": "No usar en piel sensible ni heridas abiertas",
-      "uso": "Artritis. Alivio del reumatismo y artritis.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dolor articular crónico",
-        "Artritis y reumatismo",
-        "Rigidez matutina",
-        "Contracturas musculares"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
-      "sinergia_plantas": [
-        "Jengibre",
-        "Romero",
-        "Cola de caballo"
-      ],
-      "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
-      "propiedades": [
-        "antiinflamatorio",
-        "analgésico",
-        "rubefaciente",
-        "antiartrítico"
-      ]
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 498,
@@ -451,7 +429,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 499,
@@ -492,7 +472,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 500,
@@ -533,7 +515,9 @@
         "antiinflamatorio",
         "astringente",
         "emoliente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 501,
@@ -574,7 +558,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 502,
@@ -614,7 +600,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 503,
@@ -654,7 +642,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 504,
@@ -694,7 +684,9 @@
         "antiséptico bucal",
         "antiinflamatorio",
         "astringente"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 505,
@@ -735,7 +727,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 506,
@@ -776,7 +770,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 507,
@@ -817,7 +813,9 @@
         "Clavo de olor",
         "Salvia",
         "Tomillo"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 1168,
@@ -860,7 +858,9 @@
       "sinergia_plantas": [
         "llantén",
         "manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 1185,
@@ -903,7 +903,9 @@
       "sinergia_plantas": [
         "llantén",
         "manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "salud_bucal"
     },
     {
       "id": 1404,

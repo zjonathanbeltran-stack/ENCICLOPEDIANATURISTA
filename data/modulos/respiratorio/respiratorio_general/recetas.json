@@ -3,6 +3,48 @@
   "submodulo": "respiratorio_general",
   "recetas": [
     {
+      "id": 94,
+      "titulo": "Té de Gobernadora para Problemas Respiratorios",
+      "categoria": "Respiratorio",
+      "origen": "Norte Grande",
+      "ingredientes": "1 cucharada de hojas de gobernadora, 1 taza de agua.",
+      "preparacion": "Hervir las hojas en el agua (decocción). Beber una taza 2 veces al día para aliviar la tos y los problemas bronquiales.",
+      "dosis": "1 taza 3 veces al día o inhalaciones 2 veces al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas o 1 vaporizador",
+      "conservacion": "Usar inmediatamente para inhalación",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza el tratamiento médico en enfermedades respiratorias graves.",
+      "uso": "Problemas Respiratorios. Apoyo respiratorio.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ],
+      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+      "propiedades": [
+        "expectorante",
+        "broncodilatador",
+        "mucolítico",
+        "antiséptico respiratorio"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
+    },
+    {
       "id": 414,
       "titulo": "Depurativo de Tilo y Saúco",
       "categoria": "Respiratorio",
@@ -41,7 +83,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 424,
@@ -82,7 +126,95 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
+    },
+    {
+      "id": 429,
+      "titulo": "Aceite Pectoral de Tomillo",
+      "categoria": "Respiratorio",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 taza de aceite de oliva, 4 ramitas de tomillo fresco",
+      "preparacion": "Macerar el tomillo en aceite de oliva por 2 semanas en frasco hermético al sol. Filtrar.",
+      "dosis": "Aplicar en pecho y espalda antes de dormir",
+      "modo_uso": "Masajear en círculos y cubrir con ropa de abrigo",
+      "tiempo_prep": "14 días macerando",
+      "dificultad": "Medio",
+      "rendimiento": "100 ml",
+      "conservacion": "Frasco oscuro 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No ingerir; solo uso externo",
+      "uso": "Bronquitis, tos y afecciones respiratorias superiores: el timol y el carvacrol se eliminan por vía pulmonar ejerciendo acción antiséptica directa sobre la mucosa bronquial.",
+      "principios_activos": "Timol (30-70% del aceite esencial): disrumpe la membrana fosfolipídica bacteriana aumentando la permeabilidad a iones K+ y H+; activo frente a MRSA, Pseudomonas aeruginosa y Klebsiella pneumoniae. Carvacrol (3-15%): mecanismo idéntico y sinérgico. Ambos estimulan la ciliocinesis bronquial.",
+      "propiedades": [
+        "expectorante",
+        "antiséptico bronquial",
+        "antiespasmódico",
+        "antimicrobiano",
+        "carminativo"
+      ],
+      "referencias": "EMA/HMPC Thymus vulgaris 2013; WHO Monographs Vol.1 (1999); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
+    },
+    {
+      "id": 430,
+      "titulo": "Leche con Cúrcuma y Pimienta para Respiratorio",
+      "categoria": "Respiratorio",
+      "origen": "Medicina Ayurveda",
+      "ingredientes": "1 taza de leche (vegetal o animal), 1 cucharadita de cúrcuma, 1 pizca de pimienta negra, 1 cucharadita de miel",
+      "preparacion": "Calentar la leche. Disolver la cúrcuma y pimienta. Agregar miel al servir.",
+      "dosis": "1 taza antes de dormir",
+      "modo_uso": "Tomar caliente; sirve para inflamación de garganta y tos",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina Ayurveda (Golden Milk)",
+      "contraindicaciones": "Puede interactuar con anticoagulantes en dosis altas de cúrcuma",
+      "uso": "Respiratorio: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Congestión nasal y bronquial",
+        "Sinusitis y catarro",
+        "Bronquitis aguda leve",
+        "Infecciones respiratorias de vías altas"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Eucalipto",
+        "Tomillo",
+        "Llantén"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 432,
@@ -122,7 +254,9 @@
         "broncodilatador",
         "mucolítico",
         "antiséptico respiratorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 436,
@@ -163,7 +297,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 437,
@@ -205,7 +341,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 843,
@@ -246,7 +384,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 845,
@@ -288,7 +428,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 847,
@@ -329,7 +471,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 848,
@@ -370,7 +514,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 851,
@@ -411,7 +557,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 856,
@@ -452,7 +600,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 1094,
@@ -493,7 +643,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 1096,
@@ -534,7 +686,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 1129,
@@ -575,7 +729,9 @@
         "Matico",
         "Tomillo",
         "Hierba del paño"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 1143,
@@ -617,7 +773,9 @@
         "matico",
         "tomillo",
         "llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     },
     {
       "id": 1207,
@@ -660,7 +818,9 @@
       "sinergia_plantas": [
         "saúco",
         "violeta"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "respiratorio_general"
     }
   ]
 }

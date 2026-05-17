@@ -3,49 +3,6 @@
   "submodulo": "insomnio",
   "recetas": [
     {
-      "id": 21,
-      "titulo": "Infusión de Toronjil para la ansiedad",
-      "categoria": "Nervioso",
-      "origen": "Popular",
-      "ingredientes": "1 cucharada de hojas de toronjil, 1 taza de agua.",
-      "preparacion": "Infusión por 5 minutos. Tomar antes de dormir.",
-      "dosis": "1 taza 2–3 veces al día; no superar 3 tazas/día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "8 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No combinar con medicamentos psicotrópicos sin consultar al médico.",
-      "uso": "Ansiedad: el ácido rosmarínico inhibe la MAO y la degradación del GABA, elevando los niveles de neurotransmisores calmantes.",
-      "principios_activos": "Ácido rosmarínico: inhibidor de MAO-A y de GABA transaminasa (efecto antidepresivo y ansiolítico comprobado clínicamente). Citral y citronelal (aceite esencial): sedantes por modulación del sistema nervioso vegetativo.",
-      "propiedades": [
-        "sedante",
-        "ansiolítico",
-        "antidepresivo leve",
-        "carminativo",
-        "antiespasmódico"
-      ],
-      "referencias": "WHO Monographs Vol.2 (2002); EMA/HMPC 2013; Muñoz et al. 1999; MINSAL 2010; Montes & Wilkomirsky 1985",
-      "indicaciones_principales": [
-        "ansiedad leve a moderada",
-        "insomnio de conciliación",
-        "estrés cotidiano",
-        "palpitaciones nerviosas",
-        "irritabilidad"
-      ],
-      "interacciones_medicamentos": "Precaución con sedantes, ansiolíticos, antidepresivos (ISRS, IMAO) y hormonas tiroideas (puede inhibir conversión T4-T3).",
-      "embarazo_lactancia": "Seguro en dosis moderadas durante embarazo y lactancia; evitar uso prolongado por efecto sobre tiroides.",
-      "duracion_tratamiento": "Curas de 3-4 semanas con 1 semana de descanso.",
-      "sinergia_plantas": [
-        "manzanilla",
-        "tilo",
-        "lavanda",
-        "cedrón"
-      ]
-    },
-    {
       "id": 26,
       "titulo": "Té de Valeriana para el insomnio",
       "categoria": "Sedante",
@@ -85,7 +42,9 @@
         "lavanda",
         "manzanilla",
         "pasiflora"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 104,
@@ -127,7 +86,9 @@
         "manzanilla",
         "melisa",
         "pasiflora"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 148,
@@ -170,7 +131,9 @@
         "melisa",
         "pasiflora",
         "cedrón"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión Calmante de Pasiflora y Tilo",
@@ -213,7 +176,9 @@
         "melisa",
         "manzanilla",
         "valeriana"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Té Relajante de Valeriana con Manzanilla",
@@ -256,7 +221,9 @@
         "pasiflora",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión Nocturna de Toronjil y Lavanda",
@@ -298,7 +265,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Decocción de Tilo con Miel de Ulmo",
@@ -340,7 +309,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Baño de Pies Relajante con Lavanda y Romero",
@@ -382,7 +353,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Almohada Aromática de Lavanda y Lúpulo",
@@ -423,7 +396,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión Antiestrés de Melisa, Manzanilla y Pasiflora",
@@ -465,7 +440,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Jarabe de Valeriana y Miel para Insomnio",
@@ -508,7 +485,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 520,
@@ -550,7 +529,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 521,
@@ -592,89 +573,52 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
-      "id": 523,
-      "titulo": "Crema de Magnesio para la Relajación Muscular",
-      "categoria": "Nervioso",
-      "origen": "Naturopatía",
-      "ingredientes": "2 cucharadas de escamas de cloruro de magnesio, 2 cucharadas de agua destilada, 2 cucharadas de aceite de coco",
-      "preparacion": "Disolver el magnesio en el agua. Mezclar con el aceite de coco batiendo.",
-      "dosis": "Aplicar en piernas, pies o espalda antes de dormir",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "10 min + solidificado",
+      "id": 525,
+      "titulo": "Baño de Pies con Sales y Aceite de Lavanda",
+      "categoria": "Sedante",
+      "origen": "Aromaterapia",
+      "ingredientes": "3 cucharadas de sal gruesa, 5 gotas de aceite esencial de lavanda, 2 L de agua tibia",
+      "preparacion": "Disolver la sal en el agua tibia. Agregar el aceite esencial. Sumergir los pies 20 min.",
+      "dosis": "1 sesión al día, preferiblemente por la noche",
+      "modo_uso": "El punto de acupresión del centro del pie conecta con el sistema nervioso",
+      "tiempo_prep": "5 min + 20 remojo",
       "dificultad": "Fácil",
-      "rendimiento": "100 g",
-      "conservacion": "Temperatura ambiente 1 mes",
+      "rendimiento": "1 sesión",
+      "conservacion": "Uso inmediato",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía contemporánea",
-      "contraindicaciones": "Solo externo; algunos notan picazón que disminuye con el uso",
-      "uso": "Relajación Muscular: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.",
-      "principios_activos": "Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario.",
+      "fuente_tradicion": "Aromaterapia y reflexología",
+      "contraindicaciones": "Generalmente seguro; no usar si hay heridas en los pies",
+      "uso": "Ansiedad, estrés y trastornos del sueño: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
+      "principios_activos": "Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
       "propiedades": [
-        "sedante",
         "ansiolítico",
-        "diaforético",
+        "sedante",
         "antiespasmódico",
-        "expectorante"
+        "antiséptico",
+        "cicatrizante"
       ],
-      "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
       "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
       ],
-      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
       "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
       "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
       "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ]
-    },
-    {
-      "id": 526,
-      "titulo": "Leche de Oro con Ashwagandha para el Estrés",
-      "categoria": "Nervioso",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "1 cucharadita de cúrcuma, 1/2 cucharadita de ashwagandha, 1 pizca de cardamomo, 1 taza de leche, 1 cucharadita de ghee, miel",
-      "preparacion": "Calentar la leche. Agregar todos los ingredientes. Batir bien. Endulzar.",
-      "dosis": "1 taza antes de dormir",
-      "modo_uso": "Tomar caliente; práctica del Ayurveda para reducción del cortisol",
-      "tiempo_prep": "8 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina Ayurveda",
-      "contraindicaciones": "No usar en embarazo ni enfermedades autoinmunes sin supervisión",
-      "uso": "Estrés: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antimicrobiano",
-        "cicatrizante",
-        "emoliente",
-        "inmunoestimulante",
-        "antioxidante"
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
       ],
-      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 527,
@@ -714,48 +658,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
-    },
-    {
-      "id": 528,
-      "titulo": "Aromaterapia con Sándalo y Vetiver",
-      "categoria": "Nervioso",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "3 gotas aceite esencial de sándalo, 3 gotas de vetiver, 5 ml aceite de almendras dulces",
-      "preparacion": "Mezclar los aceites. Aplicar en muñecas y cuello antes de meditar o dormir.",
-      "dosis": "1 aplicación nocturna",
-      "modo_uso": "Inhalar profundo después de aplicar; práctica yóguica",
-      "tiempo_prep": "2 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 aplicación",
-      "conservacion": "Temperatura ambiente 6 meses",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Medicina Ayurveda y tradición yóguica",
-      "contraindicaciones": "No aplicar en mucosas; evitar durante el embarazo",
-      "uso": "Equilibrio del sistema nervioso.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ],
-      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
-      "propiedades": [
-        "ansiolítico",
-        "sedante",
-        "antiespasmódico",
-        "adaptógeno",
-        "emoliente"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 535,
@@ -796,7 +701,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 757,
@@ -836,48 +743,9 @@
         "sedante",
         "antiespasmódico",
         "adaptógeno"
-      ]
-    },
-    {
-      "id": 758,
-      "titulo": "Crema de Amapola de California para la Piel Nerviosa",
-      "categoria": "Nervioso",
-      "origen": "Herbolaria Californiana",
-      "ingredientes": "2 cucharadas de aceite de amapola de California macerado, 1 cucharada de cera de abeja",
-      "preparacion": "Fundir la cera. Mezclar con el aceite. Verter en tarro.",
-      "dosis": "Aplicar en sienes y muñecas antes de dormir",
-      "modo_uso": "Tópico — aplicar localmente sobre la piel",
-      "tiempo_prep": "15 min + solidificado",
-      "dificultad": "Fácil",
-      "rendimiento": "30 g",
-      "conservacion": "Temperatura ambiente 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria nativa californiana",
-      "contraindicaciones": "Solo externo; la amapola de California no contiene opiáceos",
-      "uso": "Piel Nerviosa. Equilibrio del sistema nervioso.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ],
-      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
-      "propiedades": [
-        "ansiolítico",
-        "sedante",
-        "antiespasmódico",
-        "adaptógeno",
-        "emoliente"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 760,
@@ -918,7 +786,9 @@
         "Melisa",
         "Tilo",
         "Lavanda"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 764,
@@ -961,48 +831,9 @@
         "Melisa",
         "Tilo",
         "Lavanda"
-      ]
-    },
-    {
-      "id": 765,
-      "titulo": "Aromaterapia de Vetiver para el Sistema Nervioso",
-      "categoria": "Nervioso",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "Aceite esencial de vetiver, aceite de almendras dulces",
-      "preparacion": "Diluir 3 gotas de vetiver en 1 cucharada de aceite de almendras.",
-      "dosis": "Masajear en la nuca, hombros y plantas de pies antes de dormir",
-      "modo_uso": "El vetiver conecta con la tierra; ideal para ansiedad flotante",
-      "tiempo_prep": "3 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Temperatura ambiente 6 meses",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Medicina Ayurveda y tradición de Sri Lanka",
-      "contraindicaciones": "No aplicar en mucosas; puede irritar si se usa puro",
-      "uso": "Sistema Nervioso. Equilibrio del sistema nervioso.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ],
-      "principios_activos": "Flavonoides ansiolíticos: modulan receptores GABA-A reduciendo la ansiedad. Iridoides sedantes: acción central sobre el sistema límbico. Aceites esenciales: aromaterapia con efecto parasimpaticomimético.",
-      "propiedades": [
-        "ansiolítico",
-        "sedante",
-        "antiespasmódico",
-        "adaptógeno",
-        "emoliente"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 858,
@@ -1043,7 +874,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 859,
@@ -1084,7 +917,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 860,
@@ -1124,7 +959,51 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
+    },
+    {
+      "id": 861,
+      "titulo": "Tintura de Escutelaria para el Estrés",
+      "categoria": "Sedante",
+      "origen": "Herbolaria Nativa Americana",
+      "ingredientes": "40 g de escutelaria (Scutellaria lateriflora) seca, 200 ml de alcohol de 40°",
+      "preparacion": "Macerar 4 semanas en frasco oscuro. Filtrar.",
+      "dosis": "20-30 gotas en agua 3 veces al día",
+      "modo_uso": "Tomar la última dosis 1 hora antes de dormir",
+      "tiempo_prep": "28 días maceración",
+      "dificultad": "Medio",
+      "rendimiento": "200 ml",
+      "conservacion": "Frasco oscuro 2 años",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina nativa americana",
+      "contraindicaciones": "No en embarazo; puede causar somnolencia",
+      "uso": "Estrés. Sedación y relajación nerviosa.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
+      ],
+      "principios_activos": "Baicalina y baicaleína (flavonas): ansiolíticas por modulación GABA-A; neuroprotectoras y antiinflamatorias. Escutelarina: antioxidante y anticoagulante. Wogonina: sedante y anticancerígena.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "hipnótico leve",
+        "antiespasmódico"
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 862,
@@ -1164,7 +1043,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 863,
@@ -1204,7 +1085,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 864,
@@ -1244,7 +1127,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 865,
@@ -1285,7 +1170,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 866,
@@ -1327,7 +1214,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 867,
@@ -1369,7 +1258,53 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
+    },
+    {
+      "id": 868,
+      "titulo": "Spray de Almohada con Aceites de Sueño",
+      "categoria": "Sedante",
+      "origen": "Aromaterapia",
+      "ingredientes": "50 ml de agua destilada, 5 gotas de lavanda, 3 gotas de cedro del atlas, 2 gotas de vetiver",
+      "preparacion": "Mezclar en frasco spray.",
+      "dosis": "Pulverizar sobre la almohada 10 min antes de acostarse",
+      "modo_uso": "No pulverizar sobre la cara",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "50 ml",
+      "conservacion": "Temperatura ambiente 2 semanas",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia contemporánea",
+      "contraindicaciones": "Verificar que ningún aceite cause alergia",
+      "uso": "Ansiedad leve, nerviosismo e insomnio: los flavonoides modulan receptores GABAérgicos y serotoninérgicos reduciendo la excitabilidad neuronal.",
+      "principios_activos": "Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario. | Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "diaforético",
+        "antiespasmódico",
+        "expectorante",
+        "antiséptico"
+      ],
+      "referencias": "Aguirre-Hernández E. et al. Salud Mental 2016; 39(1):37-46; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Insomnio leve",
+        "Ansiedad y nerviosismo",
+        "Estrés crónico",
+        "Tensión muscular por estrés"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
+      "sinergia_plantas": [
+        "Valeriana",
+        "Pasiflora",
+        "Toronjil"
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 869,
@@ -1411,7 +1346,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 870,
@@ -1452,7 +1389,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 871,
@@ -1492,7 +1431,9 @@
         "ansiolítico",
         "hipnótico leve",
         "antiespasmódico"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 872,
@@ -1533,48 +1474,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
-    },
-    {
-      "id": 1000,
-      "titulo": "Masaje con Aceite de Almendras y Naranja para el Estres",
-      "categoria": "Nervioso",
-      "origen": "Aromaterapia",
-      "ingredientes": "2 cucharadas de aceite de almendras, 5 gotas de aceite esencial de naranja dulce",
-      "preparacion": "Mezclar los aceites.",
-      "dosis": "Masaje corporal 15-20 min antes de dormir",
-      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
-      "tiempo_prep": "2 min",
-      "dificultad": "Facil",
-      "rendimiento": "1 sesion",
-      "conservacion": "Temperatura ambiente 1 mes",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Aromaterapia",
-      "contraindicaciones": "Fotosensibilizante; no salir al sol tras la aplicacion",
-      "uso": "Estres: la vitamina C y los flavonoides potencian las defensas y reducen la inflamación.",
-      "principios_activos": "Vitamina C: inmunomodulador que estimula la producción de interferones y la función fagocítica. Hesperidina (flavonoide bioflavonoide): reduce permeabilidad capilar y tiene acción antiinflamatoria. Limoneno y ácido cítrico: antisépticos y estimulantes digestivos.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antioxidante",
-        "antiinflamatorio",
-        "nutritivo",
-        "tónico"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ]
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 1082,
@@ -1614,7 +1516,9 @@
         "Valeriana",
         "Pasiflora",
         "Toronjil"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 1116,
@@ -1657,7 +1561,9 @@
         "Tilo",
         "Pasiflora",
         "Lavanda"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 1144,
@@ -1699,7 +1605,9 @@
         "lavanda",
         "tilo",
         "amapola de California"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 1146,
@@ -1741,7 +1649,9 @@
         "tilo",
         "manzanilla",
         "lavanda"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "id": 1169,
@@ -1784,7 +1694,71 @@
       "sinergia_plantas": [
         "lúpulo",
         "amapola de california"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
+    },
+    {
+      "titulo": "Infusión de Manzanilla para la ansiedad leve",
+      "categoria": "Sedante",
+      "origen": "Medicina tradicional europea, ampliamente usada en Chile",
+      "ingredientes": "- 1 cucharadita (aprox. 3 g) de flores secas de manzanilla. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Alergia a las asteráceas (margaritas, ambrosía).",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "Uso prolongado seguro.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Cultivada en todo Chile",
+      "efectos_secundarios": "",
+      "id": 1237,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
+    },
+    {
+      "titulo": "Infusión de Tilo para el estrés y la tensión nerviosa",
+      "categoria": "Sedante",
+      "origen": "Medicina tradicional europea, cultivado en Chile",
+      "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores secas de tilo. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Colocar las flores en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
+      "dosis": "habituales. - Embarazo y lactancia: consultar al médico.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- No se han descrito contraindicaciones graves a las dosis habituales. - Embarazo y lactancia: consultar al médico.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Uso prolongado seguro.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Árbol ornamental presente en parques y plazas de",
+      "efectos_secundarios": "",
+      "id": 1239,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión de Lavanda para el insomnio",
@@ -1813,7 +1787,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivada en jardines de todo Chile, incluido",
       "efectos_secundarios": "",
-      "id": 1240
+      "id": 1240,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión de Valeriana para el insomnio leve",
@@ -1842,7 +1818,40 @@
       "nivel_seguridad": "⚠️ Precaución (+12 años)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1256
+      "id": 1256,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
+    },
+    {
+      "titulo": "Infusión de Pasiflora para la ansiedad leve",
+      "categoria": "Sedante",
+      "origen": "Fitoterapia clínica europea",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de pasiflora troceadas. - 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. Colar. 3. Beber tibia, preferiblemente por la noche o en momentos de ansiedad.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- No usar en niños menores de 12 años[reference:14]. - Embarazo y lactancia: aunque no se han descrito riesgos graves, consultar con un profesional antes de su uso.",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "Contraindicado en embarazo.",
+      "duracion_tratamiento": "Consultar al médico si los síntomas persisten más",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro (+12 años)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1266,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión de Lavanda para la ansiedad y el insomnio",
@@ -1871,7 +1880,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1274
+      "id": 1274,
+      "modulo": "nervioso",
+      "submodulo": "insomnio"
     },
     {
       "titulo": "Infusión de Valeriana y Melisa para Dormir Profundamente",

@@ -3,47 +3,6 @@
   "submodulo": "animo_depresion",
   "recetas": [
     {
-      "id": 753,
-      "titulo": "Baño de Romero y Sal de Mar para el Agotamiento",
-      "categoria": "Nervioso",
-      "origen": "Herbolaria Mediterránea",
-      "ingredientes": "4 ramitas de romero fresco, 2 tazas de sal marina gruesa, bañera",
-      "preparacion": "Hervir el romero 10 min. Agregar la infusión y la sal al agua tibia de la bañera.",
-      "dosis": "Baño de 20-25 min, 3 veces por semana",
-      "modo_uso": "Descansar 30 min tras el baño; no hacer actividad intensa",
-      "tiempo_prep": "15 min + baño",
-      "dificultad": "Fácil",
-      "rendimiento": "1 baño",
-      "conservacion": "Uso inmediato",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria mediterránea y termalismo",
-      "contraindicaciones": "El romero puede bajar la presión; no en hipotensión",
-      "uso": "Agotamiento: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Ansiedad leve a moderada",
-        "Nerviosismo e irritabilidad",
-        "Tensión emocional",
-        "Insomnio leve"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "2-4 semanas; evaluar con profesional si se prolonga",
-      "sinergia_plantas": [
-        "Melisa",
-        "Tilo",
-        "Lavanda"
-      ]
-    },
-    {
       "id": 762,
       "titulo": "Tintura de Rhodiola para el Burnout",
       "categoria": "Nervioso",
@@ -81,7 +40,9 @@
         "sedante",
         "antiespasmódico",
         "adaptógeno"
-      ]
+      ],
+      "modulo": "nervioso",
+      "submodulo": "animo_depresion"
     },
     {
       "id": 1354,

@@ -42,7 +42,9 @@
         "manzanilla",
         "llantén",
         "murtilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 65,
@@ -84,7 +86,52 @@
         "matico",
         "llantén",
         "manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
+    },
+    {
+      "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
+      "categoria": "Diarrea",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de arroz blanco, 500 ml de agua, 1 rama de canela, jugo de 1/2 limón.",
+      "preparacion": "Hervir el arroz con la canela en el agua 20 minutos. Colar guardando solo el agua. Agregar el limón. Beber tibia a pequeños sorbos durante el día. El agua de arroz aporta sales minerales, la canela actúa como astringente y el limón acidifica el intestino.",
+      "id": 252,
+      "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "25 min",
+      "dificultad": "Medio",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
+      "uso": "Diarrea: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Decocción de Hojas de Membrillo para Diarrea Aguda",
@@ -124,7 +171,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Infusión de Llantén y Arrayán para Diarrea con Cólicos",
@@ -166,7 +215,9 @@
         "Llantén",
         "Arrayán",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Manzanas Ralladas Oxidadas (Astringente Natural para Diarrea Infantil)",
@@ -206,7 +257,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Té Astringente de Zarzamora (Hojas) para Diarrea",
@@ -246,7 +299,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 399,
@@ -286,7 +341,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 706,
@@ -326,7 +383,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 707,
@@ -366,7 +425,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 717,
@@ -406,7 +467,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 947,
@@ -447,7 +510,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 1015,
@@ -488,7 +553,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 1028,
@@ -529,7 +596,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Decocción de corteza de Roble para la diarrea aguda",

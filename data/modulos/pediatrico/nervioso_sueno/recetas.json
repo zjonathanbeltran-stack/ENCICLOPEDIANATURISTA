@@ -3,22 +3,22 @@
   "submodulo": "nervioso_sueno",
   "recetas": [
     {
-      "id": 571,
-      "titulo": "Aceite de Lavanda para Masaje Infantil",
+      "id": 332,
+      "titulo": "Baño de Lavanda para insomnio infantil",
       "categoria": "Pediátrico",
-      "origen": "Aromaterapia",
-      "ingredientes": "2 cucharadas de aceite de almendras dulces, 2 gotas de aceite esencial de lavanda",
-      "preparacion": "Mezclar los aceites. Calentar ligeramente en la palma de la mano antes de usar.",
-      "dosis": "Masaje corporal 10-15 min antes de dormir",
-      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
-      "tiempo_prep": "3 min",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores de lavanda secas, 4 litros de agua.",
+      "preparacion": "Preparar infusión de lavanda en 1 litro de agua por 10 minutos. Colar y agregar al baño tibio del niño. Bañar al niño 30 minutos antes de dormir.",
+      "dosis": "3–4 veces por semana como rutina nocturna para mejorar el sueño.",
+      "modo_uso": "Externo — baño tibio",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Temperatura ambiente 3 meses",
+      "rendimiento": "1 baño",
+      "conservacion": "Preparar al momento",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Aromaterapia pediátrica",
-      "contraindicaciones": "Solo para bebés mayores de 3 meses; usar dosis muy diluidas; evitar ingestión",
-      "uso": "Masaje Infantil: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Temperatura del agua máximo 37°C. No aplicar aceite esencial de lavanda puro sin diluir en bebés.",
+      "uso": "Insomnio infantil: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
       "principios_activos": "Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
       "propiedades": [
         "ansiolítico",
@@ -29,19 +29,22 @@
       ],
       "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
       "indicaciones_principales": [
-        "Cólicos infantiles",
-        "Infecciones respiratorias en niños",
-        "Nerviosismo e insomnio infantil",
-        "Fiebre leve en niños"
+        "Insomnio infantil",
+        "Ansiedad infantil",
+        "Inquietud nocturna",
+        "Sobreestimulación",
+        "Pesadillas"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
-      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "interacciones_medicamentos": "Uso tópico en baño, mínima absorción; sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Seguro en embarazo y lactancia; uso tópico en niños mayores de 6 meses.",
+      "duracion_tratamiento": "2-3 baños semanales; uso continuo seguro.",
       "sinergia_plantas": [
-        "Manzanilla",
-        "Melisa",
-        "Tilo"
-      ]
+        "manzanilla",
+        "tila",
+        "melisa"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "nervioso_sueno"
     },
     {
       "id": 580,
@@ -82,47 +85,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
-    },
-    {
-      "id": 791,
-      "titulo": "Infusión de Verbena para el Niño Hiperactivo",
-      "categoria": "Pediátrico",
-      "origen": "Herbolaria Europea",
-      "ingredientes": "1/2 cucharadita de verbena seca, 200 ml de agua",
-      "preparacion": "Hervir el agua. Infundir 8 min. Colar.",
-      "dosis": "Para niños mayores de 3 años: 1/4 taza 2 veces al día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "200 ml",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No en embarazo; no en menores de 3 años",
-      "uso": "Niño Hiperactivo. Cuidado pediátrico suave.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cólicos infantiles",
-        "Infecciones respiratorias en niños",
-        "Nerviosismo e insomnio infantil",
-        "Fiebre leve en niños"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
-      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
-      "sinergia_plantas": [
-        "Manzanilla",
-        "Melisa",
-        "Tilo"
-      ],
-      "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
-      "propiedades": [
-        "carminativo",
-        "antiespasmódico",
-        "sedante leve",
-        "antipirético"
-      ]
+      "modulo": "pediatrico",
+      "submodulo": "nervioso_sueno"
     },
     {
       "id": 794,
@@ -163,48 +128,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
-    },
-    {
-      "id": 796,
-      "titulo": "Aceite Nasal de Sésamo para Niños",
-      "categoria": "Pediátrico",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "Aceite de sésamo puro (ajonjolí)",
-      "preparacion": "Tibiar levemente el aceite. Aplicar 1 gota en cada fosa nasal con gotero.",
-      "dosis": "1-2 gotas por cada fosa nasal antes de dormir",
-      "modo_uso": "Nasya ayurvédico para congestion nasal en niños",
-      "tiempo_prep": "2 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Temperatura ambiente",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Medicina Ayurveda pediátrica",
-      "contraindicaciones": "Solo para niños mayores de 6 meses; usar aceite de calidad alimentaria",
-      "uso": "Niños: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
-      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.",
-      "propiedades": [
-        "antimicrobiano",
-        "antifúngico",
-        "hipotensor",
-        "hipocolesterolemiante",
-        "inmunoestimulante"
       ],
-      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Cólicos infantiles",
-        "Infecciones respiratorias en niños",
-        "Nerviosismo e insomnio infantil",
-        "Fiebre leve en niños"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
-      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
-      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
-      "sinergia_plantas": [
-        "Manzanilla",
-        "Melisa",
-        "Tilo"
-      ]
+      "modulo": "pediatrico",
+      "submodulo": "nervioso_sueno"
     },
     {
       "id": 1473,

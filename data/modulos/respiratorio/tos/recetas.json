@@ -40,7 +40,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 15,
@@ -80,7 +82,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 22,
@@ -120,7 +124,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 33,
@@ -163,7 +169,9 @@
         "eucalipto",
         "llantén",
         "matico"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 41,
@@ -203,7 +211,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 73,
@@ -245,7 +255,9 @@
         "llantén",
         "tomillo",
         "eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 90,
@@ -287,47 +299,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
-    },
-    {
-      "id": 94,
-      "titulo": "Té de Gobernadora para Problemas Respiratorios",
-      "categoria": "Respiratorio",
-      "origen": "Norte Grande",
-      "ingredientes": "1 cucharada de hojas de gobernadora, 1 taza de agua.",
-      "preparacion": "Hervir las hojas en el agua (decocción). Beber una taza 2 veces al día para aliviar la tos y los problemas bronquiales.",
-      "dosis": "1 taza 3 veces al día o inhalaciones 2 veces al día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "20 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas o 1 vaporizador",
-      "conservacion": "Usar inmediatamente para inhalación",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza el tratamiento médico en enfermedades respiratorias graves.",
-      "uso": "Problemas Respiratorios. Apoyo respiratorio.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Congestión nasal y bronquial",
-        "Sinusitis y catarro",
-        "Bronquitis aguda leve",
-        "Infecciones respiratorias de vías altas"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Eucalipto",
-        "Tomillo",
-        "Llantén"
-      ],
-      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
-      "propiedades": [
-        "expectorante",
-        "broncodilatador",
-        "mucolítico",
-        "antiséptico respiratorio"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 97,
@@ -368,7 +342,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 109,
@@ -408,7 +384,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 147,
@@ -450,7 +428,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "titulo": "Lawen de Radal para Tos y Bronquios",
@@ -492,7 +472,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 423,
@@ -534,7 +516,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 426,
@@ -575,7 +559,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 427,
@@ -616,7 +602,52 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "id": 433,
+      "titulo": "Infusión de Gordolobo para Bronquitis",
+      "categoria": "Tos",
+      "origen": "Herbolaria Latinoamericana",
+      "ingredientes": "2 cucharadas de gordolobo seco, 400 ml de agua, miel",
+      "preparacion": "Hervir el agua. Infundir el gordolobo 15 min. Colar. Endulzar con miel.",
+      "dosis": "3 tazas al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria popular latinoamericana",
+      "contraindicaciones": "Colar bien; sus semillas son tóxicas; no usar en embarazo",
+      "uso": "Bronquitis: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 435,
@@ -658,7 +689,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 841,
@@ -699,7 +732,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 842,
@@ -740,7 +775,53 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "id": 846,
+      "titulo": "Miel de Tomillo para la Bronquitis",
+      "categoria": "Tos",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "500 g de miel cruda, 4 ramitas de tomillo fresco (o 2 cucharadas de seco)",
+      "preparacion": "Infundir el tomillo en la miel caliente (60°C máximo) 2 semanas. Filtrar.",
+      "dosis": "1 cucharadita 3-4 veces al día",
+      "modo_uso": "Tomar pura o disolver en té tibio",
+      "tiempo_prep": "2 semanas elaboración",
+      "dificultad": "Fácil",
+      "rendimiento": "500 g",
+      "conservacion": "Temperatura ambiente 6 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No en menores de 1 año; no en alergia a labiadas",
+      "uso": "Bronquitis: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
+      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "emenagogo",
+        "antiespasmódico",
+        "vasoprotector",
+        "antiinflamatorio",
+        "antimicrobiano",
+        "cicatrizante"
+      ],
+      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+      "indicaciones_principales": [
+        "Tos seca irritativa",
+        "Tos productiva con flemas",
+        "Irritación de garganta",
+        "Broncoespasmo leve"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Cebolla",
+        "Miel de ulmo",
+        "Eucalipto"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 853,
@@ -782,7 +863,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 855,
@@ -822,7 +905,9 @@
         "expectorante",
         "emoliente",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 930,
@@ -862,7 +947,94 @@
         "antiinflamatorio",
         "adaptógeno",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "id": 1032,
+      "titulo": "Infusion de Corteza de Quillay para Tos y Bronquitis",
+      "categoria": "Tos",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "4 g de corteza interna de quillay (la corteza blanca, no la gris externa), 500 ml de agua caliente",
+      "preparacion": "Verter el agua caliente (no hirviendo) sobre la corteza interna. Reposar 15 minutos. Colar con cuidado.",
+      "dosis": "2 a 3 tazas al dia durante 5 dias maximos para tos y bronquitis",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "17 min",
+      "dificultad": "Facil",
+      "rendimiento": "2-3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; Farmacopea Europea; SEFIT 2020)",
+      "contraindicaciones": "No superar 5 dias de uso interno sin supervision. Las saponinas en exceso son hemolisticas. No usar en ninos pequenos ni embarazadas. Si la tos tiene sangre o fiebre alta, consultar medico",
+      "uso": "Tos y Bronquitis: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+      "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "inmunoestimulante",
+        "antiséptico",
+        "antifúngico"
+      ],
+      "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "id": 1041,
+      "titulo": "Infusion de Quinchamali para Tos y Bronquitis",
+      "categoria": "Tos",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "12 g de planta de quinchamalí seca (hojas, tallos y flores), 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre la planta seca. Reposar 12 minutos. Colar.",
+      "dosis": "3 tazas al dia, preferiblemente con miel de ulmo si hay disponibilidad",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Facil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+      "contraindicaciones": "No usar mas de 2 semanas sin supervision. CONTRAINDICADO EN EMBARAZO y lactancia (datos de seguridad insuficientes). En tos con sangre o dificultad respiratoria grave, consultar medico urgente",
+      "uso": "Tos y Bronquitis. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 1053,
@@ -903,7 +1075,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 1097,
@@ -944,7 +1118,9 @@
         "Cebolla",
         "Miel de ulmo",
         "Eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 1123,
@@ -986,7 +1162,9 @@
         "Llantén",
         "Tomillo",
         "Malva"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 1140,
@@ -1028,7 +1206,87 @@
         "malva",
         "tilo",
         "llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "id": 1165,
+      "titulo": "Jarabe pectoral de tomillo, llantén, malva y miel",
+      "categoria": "Tos",
+      "origen": "Tradición campesina chilena",
+      "ingredientes": "20 g de tomillo seco, 15 g de llantén, 10 g de hojas de malva (o malvavisco), 1 cebolla morada en rodajas, 500 ml de agua, 1 taza de miel de ulmo, jugo de 1 limón",
+      "preparacion": "Hervir agua con tomillo, llantén, malva y cebolla 20 minutos tapado. Colar y reducir a fuego muy bajo hasta obtener 250 ml. Entibiar bajo 40°C, mezclar miel y limón. Envasar.",
+      "dosis": "Adultos: 1 cucharada 4-5 veces al día. Niños mayores de 2 años: 1 cucharadita 3-4 veces al día.",
+      "modo_uso": "Jarabe",
+      "tiempo_prep": "45 minutos",
+      "dificultad": "Media",
+      "rendimiento": "350 ml",
+      "conservacion": "Refrigerado hasta 30 días",
+      "evidencia": "Combinación tomillo+hiedra demostró reducir tos en bronquitis aguda (Kemmerich, 2007)",
+      "fuente_tradicion": "Receta campesina central y sur de Chile",
+      "contraindicaciones": "Menores de 1 año (miel). Alergia a labiadas. Asma severa no controlada.",
+      "uso": "El timol y carvacrol del tomillo relajan el músculo liso bronquial y son mucolíticos, los mucílagos del llantén y malva forman una capa protectora sobre la mucosa irritada, y la miel actúa como antitusivo demulcente disminuyendo el reflejo de la tos.",
+      "principios_activos": "Timol y carvacrol (tomillo): antiséptico y broncodilatador. Aucubina e iridoides (llantén): antiinflamatorios. Mucílagos (malva). Defensina-1 (miel): antibacteriana.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "antitusivo",
+        "antiséptico respiratorio",
+        "demulcente"
+      ],
+      "referencias": [
+        "Kemmerich B. Arzneimittelforschung (2007) 57:607",
+        "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+      ],
+      "indicaciones_principales": [
+        "tos productiva",
+        "bronquitis aguda",
+        "tos seca irritativa",
+        "resfrío común",
+        "laringitis leve"
+      ],
+      "interacciones_medicamentos": "Ninguna relevante a estas dosis",
+      "embarazo_lactancia": "Usar sin tomillo en primer trimestre",
+      "duracion_tratamiento": "7-14 días",
+      "sinergia_plantas": [
+        "saúco",
+        "violeta",
+        "eucalipto (inhalación)"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "tos"
+    },
+    {
+      "titulo": "Infusión de Radal para la tos seca e irritativa",
+      "categoria": "Tos",
+      "origen": "Medicina tradicional mapuche y chilena.",
+      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de radal. - 1 litro de agua recién hervida.",
+      "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 5-10 minutos. Colar. 3. Endulzar con miel de abejas para un mejor efecto sobre la garganta.",
+      "dosis": "",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 minutos",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "",
+      "uso": "",
+      "principios_activos": "",
+      "propiedades": "",
+      "referencias": "",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "1-2 semanas.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "✅ Seguro",
+      "distribucion": "Centro-sur de Chile y Chiloé.",
+      "efectos_secundarios": "",
+      "id": 1246,
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "titulo": "Infusión de Tomillo para la tos productiva",
@@ -1057,7 +1315,9 @@
       "nivel_seguridad": "✅ Seguro (+12 años)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1260
+      "id": 1260,
+      "modulo": "respiratorio",
+      "submodulo": "tos"
     },
     {
       "id": 1307,

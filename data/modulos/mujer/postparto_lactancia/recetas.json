@@ -3,48 +3,6 @@
   "submodulo": "postparto_lactancia",
   "recetas": [
     {
-      "id": 291,
-      "titulo": "Cataplasma de Pangue para mastitis leve",
-      "categoria": "Ginecológico",
-      "origen": "Popular Chileno",
-      "ingredientes": "2–3 hojas grandes y frescas de pangue (nalca/pangue chico), agua fría.",
-      "preparacion": "Limpiar bien las hojas. Pasar levemente por agua fría. Aplicar directamente sobre la mama inflamada como cataplasma. Mantener fría. Cambiar cada hora.",
-      "dosis": "Aplicar 3–4 veces al día durante las primeras 24–48 h de mastitis leve.",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–4 aplicaciones",
-      "conservacion": "Usar hoja fresca; no guardar",
-      "evidencia": "Saber ancestral",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Solo para mastitis muy leve. Si hay fiebre mayor a 38,5°C, enrojecimiento severo o absceso, ir de urgencia al médico.",
-      "uso": "Mastitis leve: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
-      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
-      "propiedades": [
-        "antioxidante",
-        "astringente",
-        "antiinflamatorio",
-        "nutritivo",
-        "digestivo"
-      ],
-      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-      "indicaciones_principales": [
-        "Mastitis leve",
-        "Ingurgitación mamaria",
-        "Inflamación localizada",
-        "Congestión láctea",
-        "Dolor mamario"
-      ],
-      "interacciones_medicamentos": "Uso tópico, sin interacciones sistémicas; precaución con alergias a nalca.",
-      "embarazo_lactancia": "Aceptable en lactancia para uso tópico; limpiar antes de amamantar.",
-      "duracion_tratamiento": "Aplicación cada hora por 24-48 horas; si no mejora, consultar.",
-      "sinergia_plantas": [
-        "matico",
-        "llantén",
-        "manzanilla"
-      ]
-    },
-    {
       "id": 301,
       "titulo": "Compresa de Árnica para traumatismos postparto",
       "categoria": "Ginecológico",
@@ -83,7 +41,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "postparto_lactancia"
     },
     {
       "id": 561,
@@ -124,7 +84,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "postparto_lactancia"
     },
     {
       "id": 1066,
@@ -165,7 +127,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "postparto_lactancia"
     },
     {
       "id": 1177,
@@ -209,7 +173,9 @@
       "sinergia_plantas": [
         "llantén",
         "topa topa"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "postparto_lactancia"
     },
     {
       "titulo": "Infusión de Ortiga para la recuperación posparto",
@@ -238,7 +204,9 @@
       "nivel_seguridad": "✅ Seguro (lactancia)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1296
+      "id": 1296,
+      "modulo": "mujer",
+      "submodulo": "postparto_lactancia"
     },
     {
       "id": 1297,

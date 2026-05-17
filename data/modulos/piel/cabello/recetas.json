@@ -3,48 +3,6 @@
   "submodulo": "cabello",
   "recetas": [
     {
-      "id": 60,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmético",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Caída del cabello",
-        "Alopecia leve",
-        "Cuero cabelludo graso",
-        "Caspa",
-        "Debilidad capilar"
-      ],
-      "interacciones_medicamentos": "Uso tópico, baja absorción; precaución si hay heridas en cuero cabelludo.",
-      "embarazo_lactancia": "Evitar uso tópico extenso en embarazo en primer trimestre; aceptable en lactancia.",
-      "duracion_tratamiento": "Aplicación diaria por 8-12 semanas; evaluar resultados.",
-      "sinergia_plantas": [
-        "ortiga",
-        "matico",
-        "lavanda"
-      ]
-    },
-    {
       "id": 68,
       "titulo": "Loción de Romero y Vinagre para la Caspa",
       "categoria": "Cabello",
@@ -84,48 +42,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
-    },
-    {
-      "id": 85,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmética Natural",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Macerar las hojas de romero en la mezcla de alcohol y agua durante 10 días. Aplicar sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Avanzado",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
       ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cuidado y nutrición de la piel",
-        "Piel grasa con tendencia al acné",
-        "Envejecimiento cutáneo prematuro",
-        "Hidratación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
-      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
-      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Rosa mosqueta",
-        "Aceite de oliva"
-      ]
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 93,
@@ -166,7 +85,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 98,
@@ -206,7 +127,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 112,
@@ -246,7 +169,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 124,
@@ -286,7 +211,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 131,
@@ -326,7 +253,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 165,
@@ -367,48 +296,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
-    },
-    {
-      "id": 628,
-      "titulo": "Tinte Natural de Henna para el Cabello",
-      "categoria": "Cosmético",
-      "origen": "Tradición India y Árabe",
-      "ingredientes": "100 g de henna en polvo, 200 ml de té negro fuerte, 1 cucharada de aceite de coco, jugo de limón",
-      "preparacion": "Mezclar la henna con el té hasta obtener pasta. Agregar aceite y limón. Reposar 2 horas.",
-      "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
-      "modo_uso": "Usar guantes; puede manchar la piel",
-      "tiempo_prep": "4 horas total",
-      "dificultad": "Medio",
-      "rendimiento": "1 aplicación",
-      "conservacion": "Preparar fresco (usar el mismo día)",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición india y árabe",
-      "contraindicaciones": "No usar en alergia a la henna; puede interactuar con tintes químicos previos",
-      "uso": "Cabello: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "indicaciones_principales": [
-        "Cuidado y nutrición de la piel",
-        "Piel grasa con tendencia al acné",
-        "Envejecimiento cutáneo prematuro",
-        "Hidratación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
-      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
-      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Rosa mosqueta",
-        "Aceite de oliva"
-      ]
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 633,
@@ -449,7 +339,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 634,
@@ -489,7 +381,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 635,
@@ -529,7 +423,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 636,
@@ -569,7 +465,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 637,
@@ -609,7 +507,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 638,
@@ -649,7 +549,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 639,
@@ -690,7 +592,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 640,
@@ -730,7 +634,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 641,
@@ -771,7 +677,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 642,
@@ -813,7 +721,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 643,
@@ -854,7 +764,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 644,
@@ -895,7 +807,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 645,
@@ -936,7 +850,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 646,
@@ -977,7 +893,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 647,
@@ -1018,7 +936,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1033,
@@ -1060,49 +980,9 @@
         "Maqui",
         "Arrayán",
         "Canelo"
-      ]
-    },
-    {
-      "id": 1111,
-      "titulo": "Té remineralizante de equiseto para uñas y cabello",
-      "categoria": "Cosmético",
-      "origen": "Tradicional chileno (uso mapuche del 'limpiaplata')",
-      "ingredientes": "1 cda tallos secos de equiseto, 1 cdta ortiga seca, 1 cdta cola de caballo si dispone (refuerza), 400 ml agua",
-      "preparacion": "Decocción de equiseto a fuego suave por 20 min (la sílice necesita tiempo para extraerse). Retirar, agregar ortiga, tapar 10 min. Colar.",
-      "dosis": "1 taza al día por la mañana, ciclos de 4 semanas",
-      "modo_uso": "Decocción",
-      "tiempo_prep": "30 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "Aprox. 350 ml",
-      "conservacion": "Refrigerado, 24 h",
-      "evidencia": "Sandhu NS. et al. (2010) Equisetum: revisión etnofarmacológica. Estudios chilenos en U. de Concepción documentan contenido de sílice biodisponible.",
-      "fuente_tradicion": "Uso mapuche documentado por Hoffmann en 'Plantas medicinales de uso común en Chile'",
-      "contraindicaciones": "No usar más de 6 semanas continuas (tiaminasa). Cardiopatía, edema renal-cardíaco, embarazo, lactancia.",
-      "uso": "La sílice orgánica se incorpora a glicosaminoglicanos del tejido conectivo, fortaleciendo queratina de pelo y uñas; flavonoides actúan como diurético acuarético aumentando excreción sin pérdida de electrolitos.",
-      "principios_activos": "Sílice (ácido silícico orgánico), isoquercitrina, equisetonina, ácido cafeico, potasio.",
-      "propiedades": [
-        "remineralizante",
-        "diurético",
-        "fortalecedor",
-        "hemostático",
-        "cicatrizante"
       ],
-      "referencias": "Sandhu NS. et al., J Pharm Sci Res 2010;2:146-50. Hoffmann A., Plantas medicinales de uso común en Chile, 1992.",
-      "indicaciones_principales": [
-        "uñas frágiles",
-        "caída de cabello",
-        "osteopenia leve",
-        "cicatrización lenta"
-      ],
-      "interacciones_medicamentos": "Potencia diuréticos y digitálicos. Puede reducir absorción de tiamina. Vigilar con litio.",
-      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
-      "duracion_tratamiento": "Máximo 6 semanas con descanso de 2 semanas",
-      "sinergia_plantas": [
-        "Equiseto",
-        "Ortiga",
-        "Cola de caballo",
-        "Avena verde"
-      ]
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1151,
@@ -1144,7 +1024,9 @@
         "cola de caballo",
         "salvia",
         "albahaca"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1174,
@@ -1188,7 +1070,9 @@
       "sinergia_plantas": [
         "llantén",
         "lavanda"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1200,
@@ -1230,7 +1114,9 @@
       "sinergia_plantas": [
         "ortiga",
         "lavanda"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1418,

@@ -42,7 +42,9 @@
         "pasiflora",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 108,
@@ -82,7 +84,9 @@
         "antioxidante",
         "depurativo",
         "tonificante"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 113,
@@ -124,7 +128,9 @@
         "maca",
         "melisa",
         "cedrón"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 152,
@@ -166,7 +172,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 153,
@@ -207,7 +215,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 156,
@@ -247,49 +257,9 @@
         "antioxidante",
         "depurativo",
         "tonificante"
-      ]
-    },
-    {
-      "id": 171,
-      "titulo": "Infusión de Hinojo para las Fibras",
-      "categoria": "General",
-      "origen": "Urbano",
-      "ingredientes": "Semillas de hinojo, 1 taza de agua.",
-      "preparacion": "Preparar una infusión de semillas de hinojo para ayudar a aliviar los dolores menstruales, incrementar la producción de leche materna o facilitar la digestión.",
-      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
-      "uso": "Fibras: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "galactagogo"
       ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "indicaciones_principales": [
-        "Debilidad general",
-        "Síntomas de gripe leve",
-        "Infecciones recurrentes leves",
-        "Recuperación de enfermedades"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
-      "sinergia_plantas": [
-        "Ajo",
-        "Limón",
-        "Miel"
-      ]
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 913,
@@ -330,7 +300,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 914,
@@ -371,7 +343,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 915,
@@ -412,7 +386,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 916,
@@ -453,49 +429,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
-    },
-    {
-      "id": 917,
-      "titulo": "Infusión de Hierbas Digestivas Post Cena",
-      "categoria": "General",
-      "origen": "Herbolaria Universal",
-      "ingredientes": "1 cucharadita de hinojo, 1/2 cucharadita de menta, 1/2 cucharadita de manzanilla, 300 ml de agua",
-      "preparacion": "Hervir el agua. Infundir la mezcla 10 min. Colar.",
-      "dosis": "1 taza 30 min después de la cena",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria universal",
-      "contraindicaciones": "Generalmente seguro; el hinojo puede causar alergia en sensibles",
-      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos. | Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
-      "propiedades": [
-        "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante",
-        "digestivo"
       ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Debilidad general",
-        "Síntomas de gripe leve",
-        "Infecciones recurrentes leves",
-        "Recuperación de enfermedades"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
-      "sinergia_plantas": [
-        "Ajo",
-        "Limón",
-        "Miel"
-      ]
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 918,
@@ -536,47 +472,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
-    },
-    {
-      "id": 919,
-      "titulo": "Baño de Luna (Baño Frío) para la Vitalidad",
-      "categoria": "General",
-      "origen": "Tradición de Hidroterapia",
-      "ingredientes": "Agua fría de la ducha",
-      "preparacion": "Finalizar la ducha habitual con 30-60 segundos de agua fría. Ir bajando gradualmente la temperatura.",
-      "dosis": "1 ducha al día con finalización en frío",
-      "modo_uso": "Comenzar con agua tibia e ir reduciendo la temperatura gradualmente",
-      "tiempo_prep": "2 min extra al final de la ducha",
-      "dificultad": "Fácil",
-      "rendimiento": "1 sesión",
-      "conservacion": "Uso inmediato",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Hidroterapia Kneipp y tradición escandinava",
-      "contraindicaciones": "No en enfermedad cardiovascular severa ni en crisis de hipertensión",
-      "uso": "Vitalidad. Bienestar general.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Debilidad general",
-        "Síntomas de gripe leve",
-        "Infecciones recurrentes leves",
-        "Recuperación de enfermedades"
       ],
-      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
-      "sinergia_plantas": [
-        "Ajo",
-        "Limón",
-        "Miel"
-      ],
-      "principios_activos": "Agua fría (hidroterapia): activa el sistema nervioso simpático; libera noradrenalina y endorfinas. Efecto Wimhof: reduce inflamación sistémica por activación vagal. Estimula la circulación periférica y el sistema inmune.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antioxidante",
-        "depurativo",
-        "tonificante"
-      ]
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 920,
@@ -616,7 +514,9 @@
         "antioxidante",
         "depurativo",
         "tonificante"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 921,
@@ -658,7 +558,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 922,
@@ -698,7 +600,9 @@
         "antioxidante",
         "depurativo",
         "tonificante"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 923,
@@ -739,7 +643,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 924,
@@ -780,7 +686,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 925,
@@ -821,7 +729,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 926,
@@ -862,7 +772,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 927,
@@ -902,7 +814,9 @@
         "antioxidante",
         "depurativo",
         "tonificante"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1002,
@@ -944,7 +858,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1076,
@@ -984,7 +900,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1105,
@@ -1025,7 +943,9 @@
         "Ajo",
         "Limón",
         "Miel"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1106,
@@ -1067,7 +987,9 @@
         "Saúco",
         "Jengibre",
         "Maqui"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1107,
@@ -1110,7 +1032,9 @@
         "Diente de león",
         "Alcachofa",
         "Achicoria"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1113,
@@ -1152,7 +1076,9 @@
         "Maitén",
         "Matico",
         "Árnica"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1117,
@@ -1195,7 +1121,9 @@
         "Maqui",
         "Saúco",
         "Jengibre"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1118,
@@ -1237,7 +1165,9 @@
         "Romero",
         "Murtilla",
         "Calafate"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1124,
@@ -1279,7 +1209,9 @@
         "Tilo",
         "Maqui",
         "Jengibre"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1125,
@@ -1320,7 +1252,9 @@
         "Maqui",
         "Jengibre",
         "Boldo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1126,
@@ -1362,7 +1296,9 @@
         "Hierba del paño",
         "Eucalipto",
         "Pañil"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1132,
@@ -1404,7 +1340,9 @@
         "saúco",
         "jengibre",
         "tomillo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1133,
@@ -1446,7 +1384,9 @@
         "bardana",
         "manzanilla",
         "cardo mariano"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1157,
@@ -1492,7 +1432,9 @@
         "tomillo",
         "matico",
         "tilo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1158,
@@ -1535,7 +1477,9 @@
         "matico",
         "tomillo",
         "saúco"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "id": 1198,
@@ -1579,7 +1523,9 @@
       "sinergia_plantas": [
         "ortiga",
         "achicoria"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Sabal para la hiperplasia prostática benigna",
@@ -1608,36 +1554,9 @@
       "nivel_seguridad": "⚠️ Precaución (diagnóstico previo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1247
-    },
-    {
-      "titulo": "Tisana de Hinojo para cólicos y gases",
-      "categoria": "General",
-      "origen": "Medicina tradicional europea",
-      "ingredientes": "- 1 cucharadita (2 g) de frutos de hinojo recién machacados. - 200 ml de agua hirviendo.",
-      "preparacion": "1. Machacar ligeramente los frutos. 2. Verter el agua hirviendo sobre ellos. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
-      "dosis": "",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "1-2 tazas",
-      "conservacion": "Consumir inmediatamente.",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Fitoterapia europea",
-      "contraindicaciones": "- Alergia a apiáceas. - Evitar aceite esencial puro y dosis altas en embarazo y lactancia.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
-      "indicaciones_principales": "",
-      "interacciones_medicamentos": "",
-      "embarazo_lactancia": "Contraindicado en embarazo.",
-      "duracion_tratamiento": "Uso prolongado seguro en adultos.",
-      "sinergia_plantas": "",
-      "nivel_seguridad": "✅ Seguro",
-      "distribucion": "",
-      "efectos_secundarios": "",
-      "id": 1248
+      "id": 1247,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Diente de León como diurético y depurativo",
@@ -1666,7 +1585,9 @@
       "nivel_seguridad": "⚠️ Precaución",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1249
+      "id": 1249,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Melisa para la inquietud y dificultad para dormir",
@@ -1695,7 +1616,9 @@
       "nivel_seguridad": "✅ Seguro (+3 años)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1250
+      "id": 1250,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Aceite de Romero para dolores musculares",
@@ -1724,7 +1647,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1251
+      "id": 1251,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Jengibre para las náuseas",
@@ -1753,7 +1678,9 @@
       "nivel_seguridad": "⚠️ Precaución (interacciones)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1252
+      "id": 1252,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Gel de Aloe vera para quemaduras leves",
@@ -1782,7 +1709,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1253
+      "id": 1253,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Caldo de Cochayuyo como fuente de yodo y minerales",
@@ -1811,7 +1740,9 @@
       "nivel_seguridad": "⚠️ Precaución (por yodo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1254
+      "id": 1254,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Tintura de Árnica para golpes y contusiones",
@@ -1840,7 +1771,9 @@
       "nivel_seguridad": "🛑 USO EXTERNO EXCLUSIVO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1255
+      "id": 1255,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Sauce para dolores reumáticos",
@@ -1869,36 +1802,9 @@
       "nivel_seguridad": "⚠️ Precaución (por salicilatos)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1257
-    },
-    {
-      "titulo": "Agua de Hinojo para cólicos del lactante",
-      "categoria": "General",
-      "origen": "Medicina tradicional europea",
-      "ingredientes": "- ½ cucharadita (aprox. 1 g) de frutos de hinojo. - 200 ml de agua.",
-      "preparacion": "1. Hervir el agua con los frutos de hinojo durante 2 minutos. 2. Retirar del fuego, tapar y dejar reposar 10 minutos. 3. Colar con gasa fina y dejar entibiar.",
-      "dosis": "- Lactantes de 1-6 meses: 5-10 ml (1-2 cucharaditas) antes de cada toma, máximo 30-50 ml al día repartidos. - Lactantes de 6-12 meses: 10-15 ml antes de cada toma.",
-      "modo_uso": "Decocción",
-      "tiempo_prep": "2 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "1-2 tazas",
-      "conservacion": "Consumir inmediatamente.",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Fitoterapia europea",
-      "contraindicaciones": "- Recién nacidos menores de 1 mes. - No añadir miel en menores de 1 año. - Suspender si aparece cualquier reacción adversa.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
-      "indicaciones_principales": "",
-      "interacciones_medicamentos": "",
-      "embarazo_lactancia": "",
-      "duracion_tratamiento": "3 días. No repetir sin consultar al pediatra.",
-      "sinergia_plantas": "",
-      "nivel_seguridad": "⚠️ Precaución (+1 mes, supervisión pediátrica)",
-      "distribucion": "",
-      "efectos_secundarios": "",
-      "id": 1258
+      "id": 1257,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Cataplasma de Llantén para heridas y picaduras",
@@ -1927,7 +1833,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1261
+      "id": 1261,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Cardo Mariano para protección hepática",
@@ -1956,7 +1864,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1262
+      "id": 1262,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Paico para parasitosis intestinales",
@@ -1985,7 +1895,9 @@
       "nivel_seguridad": "🛑 ALTO RIESGO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1263
+      "id": 1263,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Pomada de Caléndula para heridas superficiales",
@@ -2014,7 +1926,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1264
+      "id": 1264,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Alcachofa para la vesícula y digestión",
@@ -2043,7 +1957,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1265
+      "id": 1265,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Aceite de Ruda (SOLO USO EXTERNO Y DILUIDO)",
@@ -2072,7 +1988,9 @@
       "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1267
+      "id": 1267,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Frutilla Blanca como digestivo y astringente",
@@ -2101,7 +2019,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "graves a las dosis recomendadas.",
-      "id": 1268
+      "id": 1268,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Rosa Mosqueta como fuente de vitamina C",
@@ -2130,7 +2050,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1269
+      "id": 1269,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Cataplasma de Palqui (SOLO USO EXTERNO Y PUNTUAL)",
@@ -2159,7 +2081,9 @@
       "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1270
+      "id": 1270,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Compresas de Lavanda para contracturas",
@@ -2188,7 +2112,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1271
+      "id": 1271,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Pillopillo para uso externo (dolores)",
@@ -2217,7 +2143,9 @@
       "nivel_seguridad": "🛑🛑 ALTO RIESGO (USO EXTERNO CONTROLADO)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1272
+      "id": 1272,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión diluida de Manzanilla para cólicos y malestar",
@@ -2246,7 +2174,9 @@
       "nivel_seguridad": "⚠️ Precaución (+3 meses, muy diluida)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1273
+      "id": 1273,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Regaliz DGL para gastritis y acidez",
@@ -2275,7 +2205,9 @@
       "nivel_seguridad": "✅ Seguro (DGL)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1275
+      "id": 1275,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Murtilla como antioxidante y astringente",
@@ -2304,7 +2236,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "a las dosis recomendadas.",
-      "id": 1276
+      "id": 1276,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Alcaravea para gases y cólicos",
@@ -2333,7 +2267,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1277
+      "id": 1277,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Maqui como antioxidante y antiinflamatorio",
@@ -2362,7 +2298,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "a las dosis recomendadas.",
-      "id": 1278
+      "id": 1278,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de corteza de Roble para la diarrea aguda",
@@ -2391,7 +2329,9 @@
       "nivel_seguridad": "⚠️ Precaución",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1280
+      "id": 1280,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Regaliz DGL para protección gástrica",
@@ -2420,7 +2360,9 @@
       "nivel_seguridad": "✅ Seguro (DGL)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1281
+      "id": 1281,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Barba de Maíz para cálculos renales",
@@ -2449,7 +2391,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "a las dosis recomendadas.",
-      "id": 1282
+      "id": 1282,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Macerado de Semillas de Lino (Linaza) para el estreñimiento",
@@ -2478,7 +2422,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1283
+      "id": 1283,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "PROHIBIDO - Infusión de Chamico (NO USAR)",
@@ -2507,7 +2453,9 @@
       "nivel_seguridad": "🛑🛑🛑 EXTREMADAMENTE PELIGROSO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1284
+      "id": 1284,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Leche Dorada con Cúrcuma para la artritis",
@@ -2536,7 +2484,9 @@
       "nivel_seguridad": "⚠️ Precaución (interacciones)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1285
+      "id": 1285,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Hojas de Alcachofa para digestiones pesadas",
@@ -2565,7 +2515,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1286
+      "id": 1286,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Paico (USO INTERNO RESTRINGIDO)",
@@ -2594,7 +2546,9 @@
       "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1287
+      "id": 1287,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Cola de Caballo para retención de líquidos",
@@ -2623,7 +2577,9 @@
       "nivel_seguridad": "⚠️ Precaución",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1288
+      "id": 1288,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Compresas de Manzanilla para inflamación cutánea",
@@ -2652,7 +2608,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1289
+      "id": 1289,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Infusión de Ortiga para infección urinaria leve",
@@ -2681,7 +2639,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1290
+      "id": 1290,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Compresas frías de Manzanilla para molestias de dentición",
@@ -2710,7 +2670,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo, +3 meses)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1291
+      "id": 1291,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Cataplasma de Milenrama para pequeñas hemorragias",
@@ -2739,7 +2701,9 @@
       "nivel_seguridad": "✅ Seguro (uso externo)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1292
+      "id": 1292,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Jarabe casero de Miel y Limón para la tos infantil",
@@ -2768,7 +2732,9 @@
       "nivel_seguridad": "✅ Seguro (+1 año)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1293
+      "id": 1293,
+      "modulo": "general",
+      "submodulo": "bienestar_general"
     },
     {
       "titulo": "Decocción de Rosa Mosqueta como fuente de vitamina C",

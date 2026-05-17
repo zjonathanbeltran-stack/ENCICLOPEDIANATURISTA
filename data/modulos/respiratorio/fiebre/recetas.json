@@ -41,7 +41,9 @@
         "antiinflamatorio",
         "inmunoestimulante",
         "antimicrobiano"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 23,
@@ -81,7 +83,9 @@
         "saúco",
         "tilo",
         "matico"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 31,
@@ -123,7 +127,9 @@
         "saúco",
         "manzanilla",
         "boldo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Saúco para Bajar la Fiebre",
@@ -164,7 +170,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Menta y Saúco para Fiebre Alta",
@@ -205,7 +213,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Compresas Frías de Vinagre para Bajar la Fiebre",
@@ -245,7 +255,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Corteza de Sauce con Limón para la Fiebre",
@@ -287,7 +299,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Baño Tibio con Albahaca y Romero para Bajar la Fiebre",
@@ -328,48 +342,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
-    },
-    {
-      "id": 430,
-      "titulo": "Leche con Cúrcuma y Pimienta para Respiratorio",
-      "categoria": "Respiratorio",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "1 taza de leche (vegetal o animal), 1 cucharadita de cúrcuma, 1 pizca de pimienta negra, 1 cucharadita de miel",
-      "preparacion": "Calentar la leche. Disolver la cúrcuma y pimienta. Agregar miel al servir.",
-      "dosis": "1 taza antes de dormir",
-      "modo_uso": "Tomar caliente; sirve para inflamación de garganta y tos",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina Ayurveda (Golden Milk)",
-      "contraindicaciones": "Puede interactuar con anticoagulantes en dosis altas de cúrcuma",
-      "uso": "Respiratorio: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antimicrobiano",
-        "cicatrizante",
-        "emoliente",
-        "inmunoestimulante",
-        "antioxidante"
       ],
-      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Congestión nasal y bronquial",
-        "Sinusitis y catarro",
-        "Bronquitis aguda leve",
-        "Infecciones respiratorias de vías altas"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Eucalipto",
-        "Tomillo",
-        "Llantén"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 658,
@@ -410,7 +385,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 659,
@@ -450,7 +427,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 660,
@@ -490,7 +469,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 661,
@@ -529,7 +510,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 662,
@@ -569,7 +552,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 663,
@@ -610,7 +595,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 664,
@@ -652,7 +639,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 665,
@@ -693,7 +682,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 666,
@@ -732,7 +723,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 667,
@@ -771,91 +764,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
-    },
-    {
-      "id": 849,
-      "titulo": "Leche de Almendras con Cúrcuma y Ajo para la Gripe",
-      "categoria": "Respiratorio",
-      "origen": "Naturopatía",
-      "ingredientes": "1 taza de leche de almendras, 1/2 cucharadita de cúrcuma, 1 diente de ajo machacado, miel",
-      "preparacion": "Calentar la leche. Agregar la cúrcuma y el ajo. Hervir 3 min. Colar. Endulzar.",
-      "dosis": "2 tazas al día durante la gripe",
-      "modo_uso": "Colar el ajo antes de beber",
-      "tiempo_prep": "8 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía moderna",
-      "contraindicaciones": "No en úlcera gástrica activa",
-      "uso": "Gripe: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
-      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antimicrobiano",
-        "antifúngico",
-        "hipotensor",
-        "hipocolesterolemiante",
-        "inmunoestimulante",
-        "cicatrizante"
       ],
-      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Congestión nasal y bronquial",
-        "Sinusitis y catarro",
-        "Bronquitis aguda leve",
-        "Infecciones respiratorias de vías altas"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Eucalipto",
-        "Tomillo",
-        "Llantén"
-      ]
-    },
-    {
-      "id": 857,
-      "titulo": "Caramelos de Jengibre y Miel para la Garganta",
-      "categoria": "Garganta",
-      "origen": "Herbolaria Natural",
-      "ingredientes": "4 cucharadas de miel, 1 cucharadita de jengibre en polvo, 1/2 cucharadita de canela",
-      "preparacion": "Calentar la miel a 150°C (punto de caramelo). Agregar el jengibre y la canela. Verter en molde de silicona. Dejar solidificar.",
-      "dosis": "1 caramelo cada 3-4 horas",
-      "modo_uso": "Dejar que se disuelva lentamente en la boca",
-      "tiempo_prep": "15 min + solidificado",
-      "dificultad": "Medio",
-      "rendimiento": "15-20 caramelos",
-      "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria popular y confitería medicinal",
-      "contraindicaciones": "No en diabéticos; no para menores de 1 año (miel)",
-      "uso": "Garganta: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
-      ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Faringitis y amigdalitis leve",
-        "Irritación de garganta",
-        "Laringitis",
-        "Tos por irritación faríngea"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Salvia",
-        "Tomillo",
-        "Miel de ulmo"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1069,
@@ -895,7 +806,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1081,
@@ -935,7 +848,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1100,
@@ -976,7 +891,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1101,
@@ -1016,7 +933,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Natre para bajar la fiebre",
@@ -1045,7 +964,9 @@
       "nivel_seguridad": "⚠️ Precaución (hipotensión)",
       "distribucion": "Arbusto común entre Coquimbo y Colchagua.",
       "efectos_secundarios": "",
-      "id": 1244
+      "id": 1244,
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1503,
