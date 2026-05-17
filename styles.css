@@ -5677,6 +5677,21 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 0;
     line-height: 1.35;
 }
+/* Badge de pueblo originario en tarjetas del recetario */
+.rsearch-pueblo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0 14px 4px;
+    padding: 0.18rem 0.55rem;
+    border-radius: 20px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    background: color-mix(in srgb, var(--anc-color, #6a8a52) 18%, transparent);
+    border: 1px solid color-mix(in srgb, var(--anc-color, #6a8a52) 40%, transparent);
+    color: color-mix(in srgb, var(--anc-color, #6a8a52) 90%, var(--text));
+}
+
 /* Click affordance footer */
 .rsearch-card-footer {
     margin-top: auto;

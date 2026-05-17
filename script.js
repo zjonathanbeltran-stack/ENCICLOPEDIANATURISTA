@@ -921,6 +921,11 @@ function _rfRenderGrid(filtradas) {
     grid.innerHTML = mostrar.map(r => {
         const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
         const props = (r.propiedades || []).slice(0, 3);
+        const puebloKey  = esAncestral(r) ? puebloDeReceta(r) : null;
+        const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey] || ANCESTRAL_PUEBLOS.mapuche) : null;
+        const puebloBadge = puebloInfo
+            ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
+            : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
             <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
@@ -928,6 +933,7 @@ function _rfRenderGrid(filtradas) {
                 <span class="rsearch-cat">${r.categoria}</span>
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${puebloBadge}
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
