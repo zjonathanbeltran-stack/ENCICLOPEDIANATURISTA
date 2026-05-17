@@ -605,6 +605,13 @@ function buscarRecetasPorSintoma(query) {
             if (titulo.includes(q)) score += 5;
         }
 
+        // Boost ancestral: mapuche / popular chileno van primero
+        const evidencia = normDol(r.evidencia || '');
+        const fuente    = normDol(r.fuente_tradicion || '');
+        if (evidencia.startsWith('saber ancestral'))                              score += 5;
+        if (/mapuche|pewenche|williche|andina|rapa nui/.test(fuente))            score += 4;
+        else if (/popular chilen|casera popular|tradicion latin/.test(fuente))   score += 2;
+
         return { r, score };
     });
 
