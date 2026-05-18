@@ -232,6 +232,30 @@
             </section>
 
             <!-- ═══════════════════════════════════════════════════════════
+                 HOME · BÚSQUEDA RÁPIDA DE SÍNTOMAS
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-busqueda" id="homeBusqueda">
+                <p class="hbusq-label">¿Qué síntoma tiene?</p>
+                <div class="hbusq-input-wrap">
+                    <i class="fas fa-magnifying-glass hbusq-ico" aria-hidden="true"></i>
+                    <input type="search" id="homeSintomaBuscar" class="hbusq-input"
+                           placeholder="tos, dolor de cabeza, fiebre…"
+                           autocomplete="off" autocorrect="off" spellcheck="false"
+                           aria-label="Buscar síntoma o planta medicinal">
+                </div>
+                <div class="hbusq-chips" role="list" aria-label="Sistemas del cuerpo">
+                    <button class="hbusq-chip" data-hbusq-sistema="respiratorio" type="button">🌬️ Respiratorio</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="digestivo" type="button">🌾 Digestivo</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="nervioso" type="button">🌙 Nervioso</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="musculo" type="button">💪 Dolores</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="piel" type="button">✋ Piel</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="mujer" type="button">🌸 Mujer</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="pediatrico" type="button">👶 Niños</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="cardiovascular" type="button">❤️ Corazón</button>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
                  HOME · ACCESO A LAS 4 SECCIONES
                  ═══════════════════════════════════════════════════════════ -->
             <section class="home-access" data-reveal>

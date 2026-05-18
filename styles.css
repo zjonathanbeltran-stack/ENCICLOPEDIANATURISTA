@@ -9452,3 +9452,171 @@ header.plants-tab-header {
     font-weight: 600 !important;
     box-shadow: 0 0 10px color-mix(in srgb, var(--moss-bright) 30%, transparent) !important;
 }
+
+/* ════════════════════════════════════════════════════════════════
+   HOME · BÚSQUEDA RÁPIDA DE SÍNTOMAS
+   ════════════════════════════════════════════════════════════════ */
+.home-busqueda {
+    margin: 0 0 0;
+    padding: 28px 20px 24px;
+    background: var(--bg);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+}
+.hbusq-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--moss-bright);
+    margin: 0 0 10px;
+}
+.hbusq-input-wrap {
+    position: relative;
+    margin-bottom: 16px;
+}
+.hbusq-ico {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--moss);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: color 0.18s;
+}
+.hbusq-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 18px 0 44px;
+    background: oklch(16% 0.015 130 / 1);
+    border: 1.5px solid var(--glass-border);
+    border-radius: var(--r);
+    color: var(--text);
+    font-size: 1rem;
+    font-family: 'Inter', system-ui, sans-serif;
+    outline: none;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.hbusq-input::placeholder { color: var(--text-mute); }
+.hbusq-input:focus {
+    border-color: var(--moss-bright);
+    box-shadow: 0 0 0 3px oklch(68% 0.14 145 / 0.18);
+}
+.hbusq-input:focus + .hbusq-ico,
+.hbusq-input-wrap:focus-within .hbusq-ico { color: var(--moss-bright); }
+.hbusq-input::-webkit-search-cancel-button { display: none; }
+.hbusq-chips {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+.hbusq-chips::-webkit-scrollbar { display: none; }
+.hbusq-chip {
+    flex-shrink: 0;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--glass-border);
+    background: var(--bg-2);
+    color: var(--text-soft);
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.15s;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+.hbusq-chip:hover {
+    background: color-mix(in srgb, var(--moss-bright) 12%, var(--bg-2));
+    border-color: color-mix(in srgb, var(--moss-bright) 50%, transparent);
+    color: var(--text);
+    transform: translateY(-2px);
+}
+.hbusq-chip:active { transform: translateY(0); }
+@media (max-width: 600px) {
+    .home-busqueda { padding: 22px 16px 20px; }
+    .hbusq-input  { height: 48px; font-size: 0.95rem; }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   TARJETA RECETA · Fila meta (tiempo + seguridad pediátrica)
+   ════════════════════════════════════════════════════════════════ */
+.rsearch-card-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px 2px;
+    flex-wrap: wrap;
+}
+.rscard-tiempo {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-mute);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.rscard-tiempo i { color: var(--amber); }
+.rsearch-ped-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 3px 8px;
+    border-radius: 999px;
+}
+.rsearch-ped-apto {
+    background: oklch(22% 0.07 145 / 1);
+    color: oklch(80% 0.13 145);
+    border: 1px solid oklch(40% 0.12 145 / 0.5);
+}
+.rsearch-ped-prec {
+    background: oklch(24% 0.08 75 / 1);
+    color: oklch(78% 0.12 75);
+    border: 1px solid oklch(52% 0.12 75 / 0.5);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   MODAL RECETA · Ficha rápida (3 datos de confianza)
+   ════════════════════════════════════════════════════════════════ */
+.receta-ficha-rapida {
+    display: flex;
+    align-items: stretch;
+    background: oklch(16% 0.014 130 / 1);
+    border-bottom: 1px solid var(--glass-border);
+}
+.rfr-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 14px 8px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    border-right: 1px solid var(--glass-border);
+}
+.rfr-item:last-child { border-right: none; }
+.rfr-item i { font-size: 1.1rem; }
+.rfr-item span { line-height: 1.2; }
+.rfr-tiempo i { color: var(--amber); }
+.rfr-ped-apto { color: oklch(78% 0.13 145); }
+.rfr-ped-apto i { color: oklch(72% 0.14 145); }
+.rfr-ped-prec { color: oklch(76% 0.12 75); }
+.rfr-ped-prec i { color: oklch(68% 0.13 75); }
+.rfr-ped-nd  { color: var(--text-mute); }
+.rfr-warn    { color: oklch(76% 0.10 55); }
+.rfr-warn i  { color: oklch(70% 0.12 55); }
+.rfr-ok      { color: oklch(74% 0.12 145); }
+.rfr-ok i    { color: oklch(68% 0.13 145); }

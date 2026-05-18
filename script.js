@@ -905,6 +905,16 @@ function _normDif(d) {
     return (d || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
 }
 
+function _pedSeg(r) {
+    if (r.modulo === 'pediatrico') return 'apto';
+    const contra = (r.contraindicaciones || '').toLowerCase();
+    const uso    = (r.uso || '').toLowerCase();
+    const texto  = contra + ' ' + uso;
+    if (/apto para ni[ñn]|para ni[ñn]os|uso pedi[áa]tr|pedi[áa]tric|ni[ñn]os a partir|aprobado.*ni[ñn]/i.test(texto)) return 'apto';
+    if (/no.*ni[ñn]os|no.*menores|no.*infant|contraindicad.*ni[ñn]|evitar.*ni[ñn]|menores de \d|ni[ñn]os menores/i.test(contra)) return 'precaucion';
+    return null;
+}
+
 function _normModo(modo) {
     const s = (modo || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
     if (/infusion|tisana|te\b|herbal/.test(s))             return 'Infusión / Té';
@@ -986,6 +996,10 @@ function _rfRenderGrid(filtradas) {
         const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
         const modo = _normModo(r.modo_uso);
         const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
+        const ped = _pedSeg(r);
+        const pedHtml = ped === 'apto'      ? `<span class="rsearch-ped-badge rsearch-ped-apto"><i class="fas fa-shield-heart"></i> Niños</span>`
+                      : ped === 'precaucion'? `<span class="rsearch-ped-badge rsearch-ped-prec"><i class="fas fa-triangle-exclamation"></i> Verificar edad</span>`
+                      : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
             <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
@@ -993,6 +1007,10 @@ function _rfRenderGrid(filtradas) {
                 <span class="rsearch-cat">${r.categoria}</span>
                 ${nuevaBadge}
                 ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+            </div>
+            <div class="rsearch-card-meta-row">
+                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                ${pedHtml}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${puebloBadge}
@@ -1002,10 +1020,6 @@ function _rfRenderGrid(filtradas) {
             }
             ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
             <div class="rsearch-card-footer">
-                <div class="rsearch-meta-inline">
-                    <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
-                    <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
-                </div>
                 <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
             </div>
         </div>`;
@@ -2582,6 +2596,26 @@ function abrirDetalleReceta(id) {
             </div>
         </div>
 
+        <!-- Ficha rápida — 3 datos de confianza en 3 segundos -->
+        ${(() => {
+            const ped = _pedSeg(r);
+            const hasContra = r.contraindicaciones && !/^consultar|^no se conocen/i.test(r.contraindicaciones);
+            const pedItem = ped === 'apto'
+                ? `<div class="rfr-item rfr-ped-apto"><i class="fas fa-shield-heart"></i><span>Apto niños</span></div>`
+                : ped === 'precaucion'
+                ? `<div class="rfr-item rfr-ped-prec"><i class="fas fa-triangle-exclamation"></i><span>Verificar edad</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Edad: consultar</span></div>`;
+            return `
+        <div class="receta-ficha-rapida">
+            ${r.tiempo_prep ? `<div class="rfr-item rfr-tiempo"><i class="fas fa-clock"></i><span>${r.tiempo_prep}</span></div>` : ''}
+            ${pedItem}
+            <div class="rfr-item ${hasContra ? 'rfr-warn' : 'rfr-ok'}">
+                <i class="fas fa-${hasContra ? 'triangle-exclamation' : 'circle-check'}"></i>
+                <span>${hasContra ? 'Ver advertencias' : 'Sin contraindicaciones'}</span>
+            </div>
+        </div>`;
+        })()}
+
         <!-- Título y origen -->
         <div class="receta-modal-titulo-bloque">
             <h2 class="receta-modal-h2">${r.titulo}</h2>
@@ -2590,7 +2624,6 @@ function abrirDetalleReceta(id) {
 
         <!-- Chips de info rápida -->
         <div class="receta-info-chips">
-            ${r.tiempo_prep ? `<div class="rec-chip"><i class="fas fa-clock"></i> ${r.tiempo_prep}</div>` : ''}
             ${r.dificultad  ? `<div class="rec-chip"><i class="fas fa-signal"></i> ${r.dificultad}</div>` : ''}
             ${r.modo_uso    ? `<div class="rec-chip"><i class="fas fa-hand-holding-medical"></i> ${r.modo_uso.split('—')[0].trim()}</div>` : ''}
             ${r.rendimiento ? `<div class="rec-chip"><i class="fas fa-flask"></i> ${r.rendimiento}</div>` : ''}
@@ -5060,11 +5093,57 @@ function wireCategorias() {
     });
 }
 
+// ── Búsqueda rápida desde el Home ──
+function wireHomeBusqueda() {
+    const inp = document.getElementById('homeSintomaBuscar');
+    if (!inp) return;
+
+    let _hbTimer = null;
+    inp.addEventListener('input', () => {
+        clearTimeout(_hbTimer);
+        const q = inp.value.trim();
+        if (q.length < 2) return;
+        _hbTimer = setTimeout(() => {
+            cambiarTab('recipes');
+            window.scrollTo({ top: 0, behavior: 'instant' });
+            const recetaInp = document.getElementById('recetaSearchInput');
+            if (recetaInp) {
+                recetaInp.value = q;
+                recetaInp.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        }, 350);
+    });
+
+    inp.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && inp.value.trim().length >= 2) {
+            clearTimeout(_hbTimer);
+            cambiarTab('recipes');
+            window.scrollTo({ top: 0, behavior: 'instant' });
+            const recetaInp = document.getElementById('recetaSearchInput');
+            if (recetaInp) {
+                recetaInp.value = inp.value.trim();
+                recetaInp.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        }
+    });
+
+    document.querySelectorAll('.hbusq-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const sistema = chip.dataset.hbusqSistema;
+            if (!sistema) return;
+            cambiarTab('recipes');
+            window.scrollTo({ top: 0, behavior: 'instant' });
+            setTimeout(() => mostrarDolenciasDeSistema(sistema), 300);
+        });
+    });
+}
+
 // Bootstrap home — call after DB loaded
 function initHomepage() {
     renderHomeHero();
     wireHomeAccess();
     wireCategorias();
+    wireHomeBusqueda();
     setupHomeReveal();
 }
 
