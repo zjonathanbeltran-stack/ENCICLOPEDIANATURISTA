@@ -906,24 +906,20 @@ function _rfRenderGrid(filtradas) {
         const origenLabel = origenTag === 'mapuche' ? 'Mapuche' : origenTag === 'chilota' ? 'Chilota' : origenTag === 'popular' ? 'Popular' : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
-            <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
-                <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
-                <span class="rsearch-cat">${r.categoria}</span>
-                ${origenTag ? `<span class="rsearch-origen-badge rsearch-origen-${origenTag}">${origenLabel}</span>` : ''}
+            <i class="fas fa-arrow-right rsearch-card-arrow"></i>
+            <div class="rsearch-card-head">
+                <span class="rsearch-cat-label">${r.categoria}</span>
                 ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+                ${origenTag ? `<span class="rsearch-modo-badge rsearch-modo-otro">${origenLabel}</span>` : ''}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
             }
-            ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
-            <div class="rsearch-card-footer">
-                <div class="rsearch-meta-inline">
-                    <span><i class="fas fa-clock"></i> ${r.tiempo_prep||'—'}</span>
-                    <span><i class="fas fa-signal"></i> ${r.dificultad||'—'}</span>
-                </div>
-                <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            <div class="rsearch-card-meta">
+                ${r.tiempo_prep ? `<span class="rsearch-meta-chip"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                ${r.dificultad ? `<span class="rsearch-meta-chip"><i class="fas fa-signal"></i> ${r.dificultad}</span>` : ''}
             </div>
         </div>`;
     }).join('');
