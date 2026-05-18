@@ -7,6 +7,32 @@ let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 
+// IDs ≥ este valor son recetas añadidas recientemente (badge "Nueva")
+const NUEVO_DESDE_ID = 1350;
+
+// ── Módulos de recetas (carga lazy) ──
+const MODULO_MAP = {
+    mapuche:        { file: 'data/modulos/mapuche.json',        cats: ['Medicina Mapuche','Espiritual'] },
+    digestivo:      { file: 'data/modulos/digestivo.json',      cats: ['Digestivo','Hepático','Diarrea','Antiparasitario','Nutritivo','Alimenticio'] },
+    respiratorio:   { file: 'data/modulos/respiratorio.json',   cats: ['Respiratorio','Tos','Expectorante','Resfriados','Garganta','Febrífugo'] },
+    nervioso:       { file: 'data/modulos/nervioso.json',       cats: ['Nervioso','Sedante','Memoria'] },
+    piel:           { file: 'data/modulos/piel.json',           cats: ['Dermatológico','Cicatrizante','Cosmético','Cabello','Baño','Antifúngico'] },
+    mujer:          { file: 'data/modulos/mujer.json',          cats: ['Ginecológico'] },
+    cardiovascular: { file: 'data/modulos/cardiovascular.json', cats: ['Cardiovascular','Renal','Diurético'] },
+    dolores:        { file: 'data/modulos/dolores.json',        cats: ['Analgésico','Antiinflamatorio','Reumatismo','Dental'] },
+    pediatrico:     { file: 'data/modulos/pediatrico.json',     cats: ['Pediátrico'] },
+    general:        { file: 'data/modulos/general.json',        cats: ['Energizante','General','Alergia','Oftalmológico','Oídos'] },
+    inmunidad:      { file: 'data/modulos/inmunidad.json',      cats: ['Inmunidad'] },
+};
+const SISTEMA_A_MODULO = {
+    digestivo: 'digestivo', respiratorio: 'respiratorio', nervioso: 'nervioso',
+    musculo: 'dolores', piel: 'piel', mujer: 'mujer',
+    pediatrico: 'pediatrico', inmuno: 'general', cardiovascular: 'cardiovascular',
+    renal: 'cardiovascular', energetico: 'general', mapuche: 'mapuche',
+};
+const modulosCache = {};  // { moduloId: [...recetas] }
+let _moduloActivo = null; // módulo seleccionado en recetario (null = catálogo completo)
+
 // ── Lazy loading de recetas ──
 let _recetasCargadas  = false;
 let _recetasCargando  = null; // Promise en vuelo
@@ -26,18 +52,36 @@ function _mostrarSkeletonRecetas() {
         </div>`).join('');
 }
 
+async function cargarModulo(moduloId) {
+    if (modulosCache[moduloId]) return modulosCache[moduloId];
+    const res = await fetch(MODULO_MAP[moduloId].file);
+    if (!res.ok) throw new Error('Error cargando modulo ' + moduloId);
+    const data = await res.json();
+    modulosCache[moduloId] = data;
+    return data;
+}
+
+async function asegurarCatalogoCompleto() {
+    if (recetasDB.length > 0) return;
+    try {
+        const res = await fetch('data/recetas.json');
+        if (!res.ok) throw new Error('recetas.json no disponible');
+        recetasDB = await res.json();
+    } catch (_) {
+        const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
+        recetasDB = todos.flat();
+    }
+    window.recetasDB = recetasDB;
+}
+
 async function cargarRecetas() {
     if (_recetasCargadas) return true;
     if (_recetasCargando) return _recetasCargando;
     _mostrarSkeletonRecetas();
     _recetasCargando = (async () => {
         try {
-            const r = await fetch('data/recetas.json');
-            if (!r.ok) throw new Error('Error cargando recetas.json');
-            recetasDB = await r.json();
-            window.recetasDB = recetasDB;
+            await asegurarCatalogoCompleto();
             _recetasCargadas = true;
-            // Refrescar contadores y secciones del homepage que dependen de recetas
             try { if (typeof renderHomeHero === 'function') renderHomeHero(); } catch(e){}
             const grid = document.getElementById('recetaCategorias');
             if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
@@ -133,7 +177,7 @@ const SISTEMAS = [
         descripcion: 'Sistema inmune, fiebre y energía',
         gradient: 'var(--grad-defensas)',
         glyph: '⚡',
-        cats: ['Febrífugo', 'Energizante', 'Nutritivo', 'Alergia'],
+        cats: ['Inmunidad', 'Febrífugo', 'Energizante', 'Nutritivo', 'Alergia'],
         icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>'
     },
     {
@@ -251,6 +295,7 @@ const CATEGORIA_USO = {
     'Alimenticio':      'Rico en nutrientes esenciales; complementa la alimentación y apoya la salud integral.',
     'Medicina Mapuche': 'Preparación de la medicina tradicional mapuche; uso ceremonial y terapéutico ancestral.',
     'Inmunológico':     'Fortalece las defensas del organismo y ayuda a prevenir enfermedades infecciosas.',
+    'Inmunidad':        'Refuerza el sistema inmune, modula la respuesta defensiva y ayuda a prevenir infecciones recurrentes.',
     'Musculoesquelético': 'Alivia dolores musculares, contracturas y molestias en huesos y articulaciones.',
     'Piel':             'Trata diversas afecciones dérmicas, suaviza y regenera los tejidos cutáneos.',
     'General':          'Uso polivalente para el bienestar integral; tónico y revitalizante general.',
@@ -428,7 +473,7 @@ const SISTEMAS_BUSQUEDA = [
     { id:'musculo',        icon:'bone',           label:'Dolores',       desc:'Artritis · Muscular · Reumatismo',  color:'#a06a5b' },
     { id:'piel',           icon:'spa',            label:'Piel',          desc:'Acné · Heridas · Quemaduras',       color:'#c9a84c' },
     { id:'mujer',          icon:'venus',          label:'Mujer',         desc:'Menstrual · Menopausia · Lactancia',color:'#c9679a' },
-    { id:'pediatrico',     icon:'child-reaching', label:'Niños',         desc:'Cólicos · Fiebre · Dentición',      color:'#6aa08a' },
+    { id:'pediatrico',     icon:'child-reaching', label:'Pediátrico',    desc:'Respiratorio · Fiebre · Cólicos',   color:'#6aa08a' },
     { id:'inmuno',         icon:'shield-halved',  label:'Inmunidad',     desc:'Defensas · Alergias · Fiebre',      color:'#7a9ab8' },
     { id:'cardiovascular', icon:'heart-pulse',    label:'Corazón',       desc:'Presión · Colesterol · Circulación',color:'#c97b56' },
     { id:'renal',          icon:'droplet',        label:'Renal',         desc:'Riñones · Vejiga · Orina',          color:'#5a8a9a' },
@@ -446,18 +491,152 @@ const SISTEMAS_BUSQUEDA = [
       </svg>` },
 ];
 
+// Mapa de color por sistema — para tarjetas de plantas
+const SISTEMA_COLOR = {
+    'digestivo':             '#6a8a52',
+    'hepatobiliar':          '#a08a42',
+    'respiratorio':          '#5b8aa0',
+    'nervioso':              '#8a6aaa',
+    'neurológico':           '#8a6aaa',
+    'cardiovascular':        '#c97b56',
+    'dermatológico':         '#c9a84c',
+    'musculoesquelético':    '#a06a5b',
+    'renal':                 '#5a8a9a',
+    'inmunológico':          '#7a9ab8',
+    'endocrino-metabólico':  '#b8a030',
+    'ginecológico':          '#c9679a',
+    'oftalmológico':         '#6a9aaa',
+    'mapuche':               '#5a7a4a',
+};
+
+// ── Sub-módulos por sistema — 3 niveles: sistema → sub-módulo → condición ──
+// Sub-módulos con "file" cargan directo su JSON de condición (resultados precisos).
+// Sub-módulos con "condiciones" muestran chips de dolencia (búsqueda por keywords).
+const SUBMODULOS = {
+    digestivo: {
+        label: 'Digestivo',
+        submods: [
+            { id:'gastritis_acidez',    label:'Gastritis / Acidez',   emoji:'🔥', color:'#c97b56', count:14, desc:'Gastritis · Acidez · Reflujo',               file:'data/modulos/digestivo/gastritis_acidez/recetas.json' },
+            { id:'estrenimiento',       label:'Estreñimiento',         emoji:'🌾', color:'#8a9a52', count:5,  desc:'Tránsito · Psyllium · Ciruelas',             file:'data/modulos/digestivo/estrenimiento/recetas.json' },
+            { id:'diarrea',             label:'Diarrea',               emoji:'💧', color:'#5a8aaa', count:15, desc:'Astringentes · Diarrea aguda',               file:'data/modulos/digestivo/diarrea/recetas.json' },
+            { id:'colicos_gases',       label:'Cólicos / Gases',       emoji:'💨', color:'#7a6aaa', count:15, desc:'Meteorismo · Flatulencias · Carminativos',   file:'data/modulos/digestivo/colicos_gases/recetas.json' },
+            { id:'higado_vesicula',     label:'Hígado / Vesícula',     emoji:'🫒', color:'#a08a42', count:39, desc:'Hígado graso · Vesícula · Detox',            file:'data/modulos/digestivo/higado_vesicula/recetas.json' },
+            { id:'parasitos',           label:'Parásitos',             emoji:'🦠', color:'#6a5a4a', count:35, desc:'Lombrices · Oxiuros · Tenias',               file:'data/modulos/digestivo/parasitos/recetas.json' },
+            { id:'nauseas_indigestion', label:'Náuseas / Indigestión', emoji:'🤢', color:'#8a6a8a', count:4,  desc:'Náuseas · Vómitos · Indigestión',            file:'data/modulos/digestivo/nauseas_indigestion/recetas.json' },
+            { id:'digestion_lenta',     label:'Digestión lenta',       emoji:'🌿', color:'#6a8a52', count:53, desc:'Digestión pesada · Depurativo · Probióticos', file:'data/modulos/digestivo/digestion_lenta/recetas.json' },
+            { id:'nutricion',           label:'Nutrición medicinal',   emoji:'🥗', color:'#52aa7a', count:67, desc:'Alimentos funcionales · Recetas nutritivas',  file:'data/modulos/digestivo/nutricion/recetas.json' },
+        ],
+    },
+    respiratorio: {
+        label: 'Respiratorio',
+        submods: [
+            { id:'gripe_resfrios',         label:'Gripe / Resfríos',     emoji:'🤧', color:'#5a8aaa', count:22,  desc:'Gripe · Resfriado · Catarro',                  file:'data/modulos/respiratorio/gripe_resfrios/recetas.json' },
+            { id:'tos',                    label:'Tos',                   emoji:'😮‍💨', color:'#8a9a52', count:42, desc:'Tos seca · Jarabes · Irritación',               file:'data/modulos/respiratorio/tos/recetas.json' },
+            { id:'bronquitis_expectorante',label:'Bronquitis / Expector.',emoji:'🫁', color:'#6a7a9a', count:24, desc:'Bronquitis · Flemas · Expectorantes',           file:'data/modulos/respiratorio/bronquitis_expectorante/recetas.json' },
+            { id:'congestion_sinusitis',   label:'Congestión / Sinusitis',emoji:'👃', color:'#7a9aaa', count:10, desc:'Congestión nasal · Sinusitis · Vapores',        file:'data/modulos/respiratorio/congestion_sinusitis/recetas.json' },
+            { id:'garganta_faringitis',    label:'Garganta / Faringitis', emoji:'🗣️', color:'#aa7a6a', count:27, desc:'Faringitis · Gárgaras · Amígdalas',             file:'data/modulos/respiratorio/garganta_faringitis/recetas.json' },
+            { id:'fiebre',                 label:'Fiebre',                emoji:'🌡️', color:'#c97b56', count:28, desc:'Fiebre · Antipirético · Diaforético',           file:'data/modulos/respiratorio/fiebre/recetas.json' },
+            { id:'respiratorio_general',   label:'Salud Respiratoria',    emoji:'🌬️', color:'#6a8a7a', count:19, desc:'Pulmones · Defensas · Vías respiratorias',      file:'data/modulos/respiratorio/respiratorio_general/recetas.json' },
+        ],
+    },
+    nervioso: {
+        label: 'Nervioso',
+        submods: [
+            { id:'estres_ansiedad',       label:'Estrés / Ansiedad',     emoji:'🧘', color:'#9a7aaa', count:51, desc:'Ansiedad · Tensión nerviosa · Nerviosismo',     file:'data/modulos/nervioso/estres_ansiedad/recetas.json' },
+            { id:'animo_depresion',       label:'Ánimo / Depresión',     emoji:'☀️', color:'#c9a052', count:4,  desc:'Bajo ánimo · Burnout · Agotamiento · Tristeza', file:'data/modulos/nervioso/animo_depresion/recetas.json' },
+            { id:'insomnio',              label:'Insomnio / Sueño',      emoji:'🌙', color:'#6a7aaa', count:51, desc:'Insomnio · Sedantes naturales · Relajación',    file:'data/modulos/nervioso/insomnio/recetas.json' },
+            { id:'memoria_concentracion', label:'Memoria / Concentración',emoji:'🧠', color:'#5a9aaa', count:28, desc:'Memoria · Concentración · Agilidad mental',    file:'data/modulos/nervioso/memoria_concentracion/recetas.json' },
+        ],
+    },
+    piel: {
+        label: 'Piel',
+        submods: [
+            { id:'heridas_cicatrices', label:'Heridas / Cicatrices', emoji:'🩹', color:'#8a9a72', count:51, desc:'Cicatrices · Quemaduras · Golpes',              file:'data/modulos/piel/heridas_cicatrices/recetas.json' },
+            { id:'hongos_infecciones', label:'Hongos / Infecciones', emoji:'🦠', color:'#6a8a5a', count:18, desc:'Hongos · Candidiasis · Pie de atleta',          file:'data/modulos/piel/hongos_infecciones/recetas.json' },
+            { id:'problemas_piel',     label:'Problemas de Piel',    emoji:'🌿', color:'#8a7a52', count:23, desc:'Eccema · Acné · Dermatitis · Psoriasis',        file:'data/modulos/piel/problemas_piel/recetas.json' },
+            { id:'cosmetica_piel',     label:'Cosmética Natural',    emoji:'✨', color:'#aa8a72', count:74, desc:'Mascarillas · Cremas · Tónicos naturales',      file:'data/modulos/piel/cosmetica_piel/recetas.json' },
+            { id:'cabello',            label:'Cuidado del Cabello',  emoji:'💇', color:'#9a7a6a', count:31, desc:'Anticaída · Brillo · Anticaspa · Nutrición',    file:'data/modulos/piel/cabello/recetas.json' },
+            { id:'banos_terapeuticos', label:'Baños Terapéuticos',   emoji:'🛁', color:'#6a8a9a', count:26, desc:'Baños de hierbas · Relajación · Piel sana',     file:'data/modulos/piel/banos_terapeuticos/recetas.json' },
+        ],
+    },
+    mujer: {
+        label: 'Mujer',
+        submods: [
+            { id:'menstruacion_spm',   label:'Menstruación / SPM',   emoji:'🌸', color:'#c97aaa', count:82, desc:'Cólicos · SPM · Ciclo irregular · Flujo',      file:'data/modulos/mujer/menstruacion_spm/recetas.json' },
+            { id:'menopausia',         label:'Menopausia',            emoji:'🌺', color:'#aa6a8a', count:24, desc:'Sofocos · Equilibrio hormonal · Menopausia',   file:'data/modulos/mujer/menopausia/recetas.json' },
+            { id:'postparto_lactancia',label:'Postparto / Lactancia', emoji:'🤱', color:'#8a9a72', count:23, desc:'Lactancia · Postparto · Estrías · Náuseas',    file:'data/modulos/mujer/postparto_lactancia/recetas.json' },
+            { id:'salud_ginecologica', label:'Salud Ginecológica',    emoji:'🌿', color:'#7a8a6a', count:19, desc:'Higiene íntima · Vaginosis · Infecciones',     file:'data/modulos/mujer/salud_ginecologica/recetas.json' },
+        ],
+    },
+    cardiovascular: {
+        label: 'Cardiovascular',
+        submods: [
+            { id:'colesterol',          label:'Colesterol',             emoji:'🫀', color:'#c96a6a', count:12,  desc:'Colesterol LDL · Triglicéridos · Arterias',      file:'data/modulos/cardiovascular/colesterol/recetas.json' },
+            { id:'presion_arterial',    label:'Presión Arterial',       emoji:'🩺', color:'#aa5a5a', count:12,  desc:'Hipertensión · Presión alta · Antihipertensivo', file:'data/modulos/cardiovascular/presion_arterial/recetas.json' },
+            { id:'circulacion_varices', label:'Circulación / Várices',  emoji:'🦵', color:'#7a6aaa', count:16, desc:'Mala circulación · Várices · Piernas cansadas',  file:'data/modulos/cardiovascular/circulacion_varices/recetas.json' },
+            { id:'palpitaciones_corazon',label:'Palpitaciones',         emoji:'💓', color:'#c98a7a', count:19, desc:'Palpitaciones · Arritmia leve · Taquicardia',   file:'data/modulos/cardiovascular/palpitaciones_corazon/recetas.json' },
+            { id:'sangre_antioxidantes',label:'Sangre / Antioxidantes', emoji:'🩸', color:'#8a5a5a', count:37, desc:'Anemia · Depurativo · Antioxidantes cardiovasc.',file:'data/modulos/cardiovascular/sangre_antioxidantes/recetas.json' },
+            { id:'rinones',             label:'Riñones / Urinario',     emoji:'🫘', color:'#8a7a5a', count:30, desc:'Riñones · Cálculos · Próstata · Infección urin.',file:'data/modulos/cardiovascular/rinones/recetas.json' },
+            { id:'diuretico',           label:'Diurético',              emoji:'💧', color:'#5a8aaa', count:23, desc:'Retención de líquidos · Edema · Hinchazón',      file:'data/modulos/cardiovascular/diuretico/recetas.json' },
+        ],
+    },
+    dolores: {
+        label: 'Dolores',
+        submods: [
+            { id:'reumatismo_artritis',   label:'Reumatismo / Artritis',  emoji:'🦴', color:'#aa7a5a', count:54, desc:'Artritis · Gota · Reumatismo · Articulaciones', file:'data/modulos/dolores/reumatismo_artritis/recetas.json' },
+            { id:'dolor_cabeza_migrana',  label:'Dolor de Cabeza',        emoji:'🤯', color:'#9a6aaa', count:10,  desc:'Cefalea · Migraña · Dolor tensional',           file:'data/modulos/dolores/dolor_cabeza_migrana/recetas.json' },
+            { id:'dolor_muscular_lumbago',label:'Dolor Muscular / Lumbago',emoji:'💪', color:'#8a7a6a', count:12,  desc:'Lumbago · Contracturas · Neuralgias · Aceites', file:'data/modulos/dolores/dolor_muscular_lumbago/recetas.json' },
+            { id:'dolor_cronico_general', label:'Dolor Crónico',          emoji:'💊', color:'#8a6a9a', count:14, desc:'Dolor crónico · Neuropático · Analgésicos',     file:'data/modulos/dolores/dolor_cronico_general/recetas.json' },
+            { id:'antiinflamatorio',      label:'Antiinflamatorio',       emoji:'🌡️', color:'#6a9a8a', count:14, desc:'Inflamación · Cúrcuma · Árnica · Aloe',         file:'data/modulos/dolores/antiinflamatorio/recetas.json' },
+            { id:'salud_bucal',           label:'Dolor de Muelas / Boca', emoji:'🦷', color:'#9a8a6a', count:26, desc:'Dolor de muelas · Encías · Enjuagues bucales',  file:'data/modulos/dolores/salud_bucal/recetas.json' },
+        ],
+    },
+    pediatrico: {
+        label: 'Pediátrico',
+        submods: [
+            { id:'colicos_digestion', label:'Cólicos / Digestión',  emoji:'🍼', color:'#8a9a52', count:36, desc:'Cólicos · Gases · Digestión del bebé',          file:'data/modulos/pediatrico/colicos_digestion/recetas.json' },
+            { id:'fiebre_resfriado',  label:'Fiebre / Resfriado',   emoji:'🤒', color:'#c97b56', count:16, desc:'Fiebre · Resfriado · Tos · Bronquitis infantil', file:'data/modulos/pediatrico/fiebre_resfriado/recetas.json' },
+            { id:'piel_cuidado',      label:'Piel / Bebé',          emoji:'🌼', color:'#c9a84c', count:12,  desc:'Pañalitis · Eccema · Dentición · Piel bebé',    file:'data/modulos/pediatrico/piel_cuidado/recetas.json' },
+            { id:'nervioso_sueno',    label:'Nerviosismo / Sueño',  emoji:'🌙', color:'#8a6aaa', count:9,  desc:'Insomnio · Nerviosismo · Hiperactividad',        file:'data/modulos/pediatrico/nervioso_sueno/recetas.json' },
+        ],
+    },
+    general: {
+        label: 'General',
+        submods: [
+            { id:'energizante_vitalidad', label:'Energía / Vitalidad', emoji:'⚡', color:'#c9a052', count:59, desc:'Tónicos · Superalimentos · Rendimiento',        file:'data/modulos/general/energizante_vitalidad/recetas.json' },
+            { id:'alergia',               label:'Alergia',              emoji:'🤧', color:'#7a9a6a', count:24, desc:'Rinitis · Alergia estacional · Piel reactiva',  file:'data/modulos/general/alergia/recetas.json' },
+            { id:'ojos_oidos',            label:'Ojos / Oídos',         emoji:'👁️', color:'#5a8aaa', count:30, desc:'Conjuntivitis · Colirios · Tapón de cera',      file:'data/modulos/general/ojos_oidos/recetas.json' },
+            { id:'bienestar_general',     label:'Bienestar General',    emoji:'🌟', color:'#8a7a9a', count:77, desc:'Bienestar · Diabetes leve · Salud integral',    file:'data/modulos/general/bienestar_general/recetas.json' },
+        ],
+    },
+    mapuche: {
+        label: 'Mapuche',
+        submods: [
+            { id:'medicina_mapuche',  label:'Medicina Mapuche', emoji:'🌿', color:'#6a8a52', count:86, desc:'Lawen · Machi · Plantas sagradas · Tradición',  file:'data/modulos/mapuche/medicina_mapuche/recetas.json' },
+            { id:'espiritual_ritual', label:'Espiritual',       emoji:'🔮', color:'#8a6a9a', count:40,  desc:'Sahumerios · Rituales · Baños de limpieza',    file:'data/modulos/mapuche/espiritual_ritual/recetas.json' },
+        ],
+    },
+};
+
+let _sistemaActivo = null; // sistema seleccionado actualmente en recetario
+
 function renderSistemasBusqueda() {
     const cont = document.getElementById('recetaSistemas');
     if (!cont) return;
-    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
-        <button class="rsis-btn receta-rsis-card" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
-            <span class="rsis-ico">${s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`}</span>
-            <span class="rsis-meta">
-                <span class="rsis-label">${s.label}</span>
-                <span class="rsis-desc">${s.desc}</span>
-            </span>
-        </button>`
-    ).join('');
+    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => {
+        const modKey  = SISTEMA_A_MODULO[s.id] || s.id;
+        const subData = SUBMODULOS[modKey];
+        const count   = subData ? subData.submods.reduce((n, sub) => n + (sub.count || 0), 0) : null;
+        const ico     = s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`;
+        return `
+        <button class="rsis-btn rsis-sist-card" data-sistema="${s.id}" style="--rsis-color:${s.color}">
+            <span class="rsis-sist-ico">${ico}</span>
+            <span class="rsis-sist-label">${s.label}</span>
+            ${count ? `<span class="rsis-sist-count">${count} recetas</span>` : ''}
+            <span class="rsis-sist-desc">${s.desc}</span>
+            <i class="fas fa-chevron-right rsis-sist-arrow"></i>
+        </button>`;
+    }).join('');
 }
 
 function renderCategoriasChips() {
@@ -503,6 +682,27 @@ function renderCategoriasChips() {
 }
 
 function mostrarDolenciasDeSistema(sistemaId) {
+    _moduloActivo  = SISTEMA_A_MODULO[sistemaId] || null;
+    _sistemaActivo = sistemaId;
+    if (_moduloActivo && !modulosCache[_moduloActivo]) {
+        cargarModulo(_moduloActivo); // pre-carga sin bloquear
+    }
+    document.querySelectorAll('.rsis-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.sistema === sistemaId));
+
+    // Si el sistema tiene sub-módulos → mostrar nivel intermedio
+    // Resolver clave: algunos sistemas usan id diferente al de SUBMODULOS (ej: 'musculo' → 'dolores')
+    const subKey = SUBMODULOS[sistemaId] ? sistemaId
+                 : (SISTEMA_A_MODULO[sistemaId] && SUBMODULOS[SISTEMA_A_MODULO[sistemaId]]
+                    ? SISTEMA_A_MODULO[sistemaId] : null);
+    if (subKey) {
+        document.getElementById('recetaDolenciasPanel').hidden = true;
+        mostrarSubmodulos(subKey);
+        return;
+    }
+
+    // Sin sub-módulos → mostrar dolencias directamente (comportamiento anterior)
+    document.getElementById('recetaSubmodulosPanel').hidden = true;
     const panel = document.getElementById('recetaDolenciasPanel');
     const chips = document.getElementById('rdolChips');
     if (!panel || !chips) return;
@@ -512,9 +712,67 @@ function mostrarDolenciasDeSistema(sistemaId) {
             ${d.emoji} ${d.nombre}
         </button>
     `).join('');
-    document.querySelectorAll('.rsis-btn').forEach(b =>
-        b.classList.toggle('active', b.dataset.sistema === sistemaId));
     panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+}
+
+function mostrarSubmodulos(sistemaId) {
+    const subData = SUBMODULOS[sistemaId];
+    if (!subData) return;
+    const panel  = document.getElementById('recetaSubmodulosPanel');
+    const chips  = document.getElementById('rsubChips');
+    const titulo = document.getElementById('rsubTitulo');
+    if (!panel || !chips) return;
+    if (titulo) titulo.textContent = subData.label;
+    chips.innerHTML = subData.submods.map((sub, i) => `
+        <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}"
+                style="--rsub-color:${sub.color || '#6a8a52'}; --rsub-delay:${(i * 0.35).toFixed(2)}s">
+            <span class="rsub-emoji">${sub.emoji}</span>
+            <span class="rsub-label">${sub.label}</span>
+            ${sub.count ? `<span class="rsub-count">${sub.count} recetas</span>` : ''}
+            <span class="rsub-desc">${sub.desc}</span>
+        </button>
+    `).join('');
+    document.getElementById('recetaDolenciasPanel').hidden = true;
+    panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+}
+
+function mostrarCondicionesDeSubmodulo(sistemaId, subId) {
+    const subData = SUBMODULOS[sistemaId];
+    if (!subData) return;
+    const sub = subData.submods.find(s => s.id === subId);
+    if (!sub) return;
+    const panel     = document.getElementById('recetaDolenciasPanel');
+    const chips     = document.getElementById('rdolChips');
+    const backLabel = document.getElementById('rdolBackLabel');
+    if (!panel || !chips) return;
+    if (backLabel) backLabel.textContent = sub.label;
+    chips.innerHTML = sub.condiciones.map(c => `
+        <button class="rdol-chip rdol-chip-cond" data-kws='${JSON.stringify(c.kws)}' data-q="${c.nombre}">
+            ${c.emoji} ${c.nombre}
+        </button>
+    `).join('');
+    document.getElementById('recetaSubmodulosPanel').hidden = true;
+    panel.hidden = false;
+    setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+}
+
+// Búsqueda directa por keywords de condición (sin pasar por DOLENCIAS)
+function buscarPorCondicion(kws, pool) {
+    const nkws = kws.map(k => normDol(k));
+    const scored = pool.map(r => {
+        const titulo = normDol(r.titulo);
+        const uso    = normDol((r.uso || '').slice(0, 150));
+        const prep   = normDol((r.preparacion || '').slice(0, 150));
+        const ing    = normDol((r.ingredientes || '').slice(0, 100));
+        let score = 0;
+        for (const kw of nkws) { if (titulo.includes(kw)) { score += 10; break; } }
+        for (const kw of nkws) { if (uso.includes(kw))    { score += 7;  break; } }
+        for (const kw of nkws) { if (prep.includes(kw) || ing.includes(kw)) { score += 4; break; } }
+        return { r, score };
+    });
+    return scored.filter(x => x.score >= 4).sort((a, b) => b.score - a.score).map(x => x.r);
 }
 
 function normDol(txt) {
@@ -525,7 +783,8 @@ function normDol(txt) {
 
 // ── Buscador de recetas por síntoma (en pestaña Recetario) ──────────
 
-function buscarRecetasPorSintoma(query) {
+function buscarRecetasPorSintoma(query, pool) {
+    const recetas = pool || recetasDB;
     // Quitar frases de lenguaje natural comunes
     let q = normDol(query)
         .replace(/^(me duele(n)?|tengo|siento|busco( algo)?|quiero( algo)?|algo para|remedio para|para (el|la|los|las|un|una))\s+/i, '')
@@ -566,13 +825,14 @@ function buscarRecetasPorSintoma(query) {
     // Fallback de texto directo cuando no hay dolencias reconocidas
     const usarFallback = dolCoincidentes.length === 0;
 
-    const scored = recetasDB.map(r => {
+    const scored = recetas.map(r => {
         let score = 0;
 
         const titulo  = normDol(r.titulo);
         const usoPrim = normDol((r.uso || '').slice(0, 150));
         const props   = Array.isArray(r.propiedades) ? r.propiedades.map(normDol).join(' ') : '';
         const ingred  = normDol((r.ingredientes || '').slice(0, 250));
+        const princip = normDol((r.principios_activos || '').slice(0, 200));
 
         // Categoría como match primario (no requiere match en contenido previo)
         if (catsDolNorm.has(normCat(r.categoria))) score += 7;
@@ -591,6 +851,9 @@ function buscarRecetasPorSintoma(query) {
             for (const qw of qWords) {
                 if (ingred.includes(qw))  { score += 3; break; }
             }
+            for (const qw of qWords) {
+                if (princip.includes(qw)) { score += 2; break; }
+            }
             if (titulo.includes(q)) score += 5;
         } else {
             // Con dolencias: buscar keywords derivados en campos de contenido
@@ -605,6 +868,9 @@ function buscarRecetasPorSintoma(query) {
             }
             for (const kw of kwsContenido) {
                 if (ingred.includes(kw))  { score += 3; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (princip.includes(kw)) { score += 2; break; }
             }
             if (titulo.includes(q)) score += 5;
         }
@@ -631,6 +897,9 @@ let _rfBase = [];   // resultado completo sin filtros
 let _rfQuery = '';  // query actual
 let _rfCats  = new Set();
 let _rfDifs  = new Set();
+let _rfProps = new Set();
+// Origen de navegación para botón "Volver" inteligente
+let _rsearchOrigen = null; // { type:'submod'|'dolencias', sistemaKey } | null
 
 function _normDif(d) {
     return (d || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
@@ -655,9 +924,11 @@ function _normModo(modo) {
 
 function _rfApply() {
     return _rfBase.filter(r => {
-        const catOK = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
-        const difOK = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
-        return catOK && difOK;
+        const catOK  = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
+        const difOK  = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
+        const rProps = Array.isArray(r.propiedades) ? r.propiedades.map(p => p.toLowerCase().trim()) : [];
+        const propOK = _rfProps.size === 0 || [..._rfProps].every(fp => rProps.some(rp => rp.includes(fp)));
+        return catOK && difOK && propOK;
     });
 }
 
@@ -670,7 +941,7 @@ function _rfRenderGrid(filtradas) {
 
     const countEl = cont.querySelector('.rsearch-count');
     if (countEl) {
-        countEl.innerHTML = _rfCats.size || _rfDifs.size
+        countEl.innerHTML = _rfCats.size || _rfDifs.size || _rfProps.size
             ? `<strong>${total}</strong> de ${base} recetas para <strong>"${_rfQuery}"</strong>`
             : `${base} receta${base !== 1 ? 's' : ''} para <strong>"${_rfQuery}"</strong>`;
     }
@@ -680,6 +951,8 @@ function _rfRenderGrid(filtradas) {
         c.classList.toggle('active', _rfCats.has(c.dataset.cat)));
     cont.querySelectorAll('.rfilter-chip[data-dif]').forEach(c =>
         c.classList.toggle('active', _rfDifs.has(c.dataset.dif)));
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c =>
+        c.classList.toggle('active', _rfProps.has(c.dataset.prop)));
 
     const grid = cont.querySelector('.rsearch-grid');
     if (!grid) return;
@@ -687,7 +960,7 @@ function _rfRenderGrid(filtradas) {
     if (total === 0) {
         grid.innerHTML = `<div class="rsearch-filtro-vacio"><i class="fas fa-filter-circle-xmark"></i> Ninguna receta coincide con estos filtros. <button class="rsearch-filtro-reset">Quitar filtros</button></div>`;
         grid.querySelector('.rsearch-filtro-reset')?.addEventListener('click', () => {
-            _rfCats.clear(); _rfDifs.clear();
+            _rfCats.clear(); _rfDifs.clear(); _rfProps.clear();
             _rfRenderGrid(_rfBase);
         });
         return;
@@ -696,10 +969,23 @@ function _rfRenderGrid(filtradas) {
     grid.innerHTML = mostrar.map(r => {
         const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
         const props = (r.propiedades || []).slice(0, 3);
+        const puebloKey  = esAncestral(r) ? puebloDeReceta(r) : null;
+        const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey] || ANCESTRAL_PUEBLOS.mapuche) : null;
+        const puebloBadge = puebloInfo
+            ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
+            : '';
+        const nuevaBadge = r.id >= NUEVO_DESDE_ID
+            ? `<span class="receta-nueva-badge">✨ Nueva</span>`
+            : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
-            <div class="rsearch-cat" style="background:${gradFromCat(r.categoria)}">${r.categoria}</div>
+            <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
+                <span class="rsearch-thumb-svg">${ilustracionDeReceta(r)}</span>
+                <span class="rsearch-cat">${r.categoria}</span>
+                ${nuevaBadge}
+            </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${puebloBadge}
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
@@ -761,6 +1047,7 @@ function renderRecetaSearchResults(recetas, query) {
     _rfQuery = query;
     _rfCats.clear();
     _rfDifs.clear();
+    _rfProps.clear();
 
     const total = recetas.length;
 
@@ -786,11 +1073,14 @@ function renderRecetaSearchResults(recetas, query) {
 
     const necesitaFiltros = total > 8;
 
+    const clearLabel = _rsearchOrigen
+        ? '<i class="fas fa-arrow-left"></i> Volver'
+        : '<i class="fas fa-times"></i> Ver todo el recetario';
     cont.innerHTML = `
         <div class="rsearch-header">
             <span class="rsearch-count">${total} receta${total !== 1 ? 's' : ''} para <strong>"${query}"</strong></span>
             <button class="rsearch-clear-btn" id="rsearchClearBtn">
-                <i class="fas fa-times"></i> Ver todo el recetario
+                ${clearLabel}
             </button>
         </div>
         ${necesitaFiltros ? `
@@ -814,12 +1104,59 @@ function renderRecetaSearchResults(recetas, query) {
                     </button>`).join('')}
                 </div>
             </div>` : ''}
+            ${(() => {
+                const propConteo = {};
+                recetas.forEach(r => {
+                    (Array.isArray(r.propiedades) ? r.propiedades : []).forEach(p => {
+                        const k = p.toLowerCase().trim();
+                        propConteo[k] = (propConteo[k] || 0) + 1;
+                    });
+                });
+                const topProps = Object.entries(propConteo)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 7)
+                    .filter(([, n]) => n >= 2);
+                if (topProps.length < 2) return '';
+                return `
+                <div class="rfilter-group rfilter-group-props">
+                    <span class="rfilter-label"><i class="fas fa-seedling"></i> Propiedad</span>
+                    <div class="rfilter-chips">
+                        ${topProps.map(([prop, n]) => `
+                        <button class="rfilter-chip rfilter-prop" data-prop="${prop}">
+                            ${prop} <span class="rfilter-n">${n}</span>
+                        </button>`).join('')}
+                    </div>
+                </div>`;
+            })()}
         </div>` : ''}
         <div class="rsearch-grid"></div>
         ${total > 48 ? `<p class="rsearch-mas"></p>` : ''}`;
 
     cont.style.display = 'block';
-    document.getElementById('rsearchClearBtn')?.addEventListener('click', limpiarRecetaSearch);
+    setTimeout(() => cont.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    document.getElementById('rsearchClearBtn')?.addEventListener('click', () => {
+        if (_rsearchOrigen) {
+            const { type, sistemaKey } = _rsearchOrigen;
+            cont.innerHTML = ''; cont.style.display = 'none';
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            if (inp) inp.value = '';
+            if (clr) clr.hidden = true;
+            if (type === 'submod') {
+                const subKey = SUBMODULOS[sistemaKey] ? sistemaKey
+                    : (SISTEMA_A_MODULO[sistemaKey] && SUBMODULOS[SISTEMA_A_MODULO[sistemaKey]]
+                       ? SISTEMA_A_MODULO[sistemaKey] : null);
+                if (subKey) { _rsearchOrigen = null; mostrarSubmodulos(subKey); return; }
+            }
+            if (type === 'dolencias') {
+                _rsearchOrigen = null;
+                mostrarDolenciasDeSistema(sistemaKey);
+                return;
+            }
+            _rsearchOrigen = null;
+        }
+        limpiarRecetaSearch();
+    });
 
     // Eventos de chips de filtro
     cont.querySelectorAll('.rfilter-chip[data-cat]').forEach(c => {
@@ -836,19 +1173,31 @@ function renderRecetaSearchResults(recetas, query) {
             _rfRenderGrid(_rfApply());
         });
     });
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c => {
+        c.addEventListener('click', () => {
+            if (_rfProps.has(c.dataset.prop)) _rfProps.delete(c.dataset.prop);
+            else _rfProps.add(c.dataset.prop);
+            _rfRenderGrid(_rfApply());
+        });
+    });
 
     _rfRenderGrid(recetas);
 }
 
 function limpiarRecetaSearch() {
+    _moduloActivo   = null;
+    _sistemaActivo  = null;
+    _rsearchOrigen  = null;
     const inp = document.getElementById('recetaSearchInput');
     const clr = document.getElementById('recetaSearchClear');
     const cont = document.getElementById('recetaSearchResults');
     const panel = document.getElementById('recetaDolenciasPanel');
+    const subPanel = document.getElementById('recetaSubmodulosPanel');
     if (inp) inp.value = '';
     if (clr) clr.hidden = true;
     if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
     if (panel) panel.hidden = true;
+    if (subPanel) subPanel.hidden = true;
     document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.rcat-chip').forEach(b => b.classList.remove('active'));
 }
@@ -1027,38 +1376,83 @@ function renderMaternidad() {
         return false;
     }
 
-    const recetasEmb = recetasDB.filter(r => recetaEsSegura(r, nombresSegEmb, warnNombres)).slice(0, 12);
-    const recetasLac = recetasDB.filter(r => recetaEsSegura(r, nombresSegLac, warnNombresLac)).slice(0, 12);
+    // Lactancia: primero las del submódulo postparto_lactancia (ya son seguras por diseño)
+    // + las que coinciden por nombre de planta segura, sin duplicar
+    const recetasPostparto = recetasDB.filter(r => r.submodulo === 'postparto_lactancia');
+    const postpartoIds = new Set(recetasPostparto.map(r => r.id));
+    const recetasLacExtra = recetasDB.filter(r =>
+        !postpartoIds.has(r.id) && recetaEsSegura(r, nombresSegLac, warnNombresLac)
+    );
+    const recetasLac = [...recetasPostparto, ...recetasLacExtra].slice(0, 24);
 
-    function maternRecetaCard(r) {
-        const uso = CATEGORIA_USO[r.categoria] || '';
-        return `
-        <button class="matern-receta-card" data-rid="${r.id}">
-            <div class="matern-receta-cat">${r.categoria}</div>
-            <div class="matern-receta-titulo">${r.titulo}</div>
-            ${uso ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${uso}</div>` : ''}
-            <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
-            <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
-        </button>`;
+    // Embarazo: coincidencia por planta segura + recetas cuyo uso menciona embarazo/gestación
+    const recetasEmb = recetasDB.filter(r => {
+        if (recetaEsSegura(r, nombresSegEmb, warnNombres)) return true;
+        const texto = (r.titulo + ' ' + (r.ingredientes || '')).toLowerCase();
+        for (const nom of warnNombres) { if (texto.includes(nom)) return false; }
+        return /embaraz|gestac|prenatal|trimestre/.test((r.uso || '').toLowerCase());
+    }).slice(0, 16);
+
+    // ── Tarjetas de submódulo del recetario de mujer ──
+    const submodGrid = $('#maternSubmodGrid');
+    if (submodGrid) {
+        const submods = SUBMODULOS.mujer.submods;
+        submodGrid.innerHTML = submods.map(sub => {
+            const count = recetasDB.filter(r => r.submodulo === sub.id).length;
+            return `
+            <button class="matern-submod-card" data-subid="${sub.id}"
+                    style="--ms-color:${sub.color}">
+                <span class="matern-submod-emoji">${sub.emoji}</span>
+                <span class="matern-submod-label">${sub.label}</span>
+                <span class="matern-submod-desc">${sub.desc}</span>
+                <span class="matern-submod-count">${count} recetas</span>
+                <i class="fas fa-arrow-right matern-submod-arrow"></i>
+            </button>`;
+        }).join('');
+
+        submodGrid.querySelectorAll('.matern-submod-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirSubmoduloMatern(btn.dataset.subid));
+        });
     }
 
-    const rEmbEl = $('#maternRecetasEmbarazo');
-    const rLacEl = $('#maternRecetasLactancia');
-    if (rEmbEl) {
-        rEmbEl.innerHTML = recetasEmb.length
-            ? recetasEmb.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-    if (rLacEl) {
-        rLacEl.innerHTML = recetasLac.length
-            ? recetasLac.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-
-    // Click en receta maternidad → abre modal receta
-    $$('.matern-receta-card').forEach(btn => {
-        btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+    $('#maternSubmodBack')?.addEventListener('click', () => {
+        $('#maternSubmodGrid').hidden = false;
+        $('#maternSubmodResultados').hidden = true;
     });
+}
+
+function abrirSubmoduloMatern(subId) {
+    const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
+    if (!sub) return;
+    const recetas = recetasDB.filter(r => r.submodulo === subId);
+
+    const tituloEl = $('#maternSubmodTituloActivo');
+    if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
+
+    const grid = $('#maternSubmodRecetas');
+    if (grid) {
+        grid.innerHTML = recetas.map(r => {
+            const usoTexto = r.uso
+                ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
+                : (CATEGORIA_USO[r.categoria] || '');
+            return `
+            <button class="matern-receta-card" data-rid="${r.id}">
+                <div class="matern-receta-cat">${r.categoria}</div>
+                <div class="matern-receta-titulo">${r.titulo}</div>
+                ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
+                <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
+                <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
+            </button>`;
+        }).join('');
+
+        grid.querySelectorAll('.matern-receta-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+        });
+    }
+
+    $('#maternSubmodGrid').hidden = true;
+    $('#maternSubmodResultados').hidden = false;
+    $('#maternSubmodResultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function switchMaternSubtab(tipo) {
@@ -1387,7 +1781,7 @@ const CAT_GLYPHS = {
     'Reumatismo': '🦴', 'Antiinflamatorio': '🔥',
     'Diurético': '💧', 'Renal': '💧',
     'Oftalmológico': '👁️', 'Oídos': '👂', 'Dental': '🦷',
-    'Febrífugo': '🌡️', 'Energizante': '⚡', 'Nutritivo': '🌰', 'Alergia': '🌼', 'Medicina Mapuche': '🌳',
+    'Febrífugo': '🌡️', 'Energizante': '⚡', 'Nutritivo': '🌰', 'Alergia': '🌼', 'Medicina Mapuche': '🌳', 'Inmunidad': '🛡️',
     'Cosmético': '🌸', 'Cabello': '💇', 'Baño': '🛁', 'Espiritual': '✨', 'General': '🍃'
 };
 
@@ -1539,6 +1933,19 @@ function renderSearchHero() {
 // ════════════════════════════════════════════════════════════════════
 // PLANTAS
 // ════════════════════════════════════════════════════════════════════
+
+// Delegación única para clicks en tarjetas de plantas — evita 170+ listeners por render
+let _plantDelegationReady = false;
+function _setupPlantDelegation() {
+    if (_plantDelegationReady || !plantListDiv) return;
+    _plantDelegationReady = true;
+    plantListDiv.addEventListener('click', e => {
+        const favBtn = e.target.closest('.fav-btn');
+        if (favBtn) { e.stopPropagation(); toggleFavorito(parseInt(favBtn.dataset.id)); return; }
+        const card = e.target.closest('.plant-card');
+        if (card) abrirDetallePlanta(parseInt(card.dataset.id));
+    });
+}
 const plantListDiv = $('#plantList');
 
 function renderPlantas() {
@@ -1602,9 +2009,12 @@ function renderPlantas() {
 
     const mesActual = new Date().getMonth() + 1;
     const notasGuardadas = JSON.parse(localStorage.getItem('plantNotas') || '{}');
-    plantListDiv.innerHTML = getSortedPlantas(filtradas).map(p => {
+    const sortedParaRender = getSortedPlantas(filtradas);
+    plantListDiv.innerHTML = sortedParaRender.map((p, i) => {
         const enTemporada = p.meses && p.meses.includes(mesActual);
         const usoCorto = (p.usos || '').split('.')[0];
+        const sistColor = (p.sistemas || []).map(s => SISTEMA_COLOR[s]).find(Boolean) || '#6a8a52';
+        const cardDelay = (i % 8 * 0.3).toFixed(2);
         const tieneNota = !!notasGuardadas[p.id];
         const placeholderContent = p.emoji
             ? `<span class="placeholder-emoji">${p.emoji}</span>`
@@ -1623,7 +2033,7 @@ function renderPlantas() {
                 ? '<span class="badge matern-badge lac-ok" title="Galactogoga — favorece la leche">🍼✅</span>'
                 : '';
         return `
-        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}">
+        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}" style="--plant-color:${sistColor}; animation-delay:${cardDelay}s">
             <div class="plant-img-wrap">
                 ${p.imagen
                     ? `<img src="${p.imagen}" alt="${p.nombre}" class="plant-img" loading="lazy" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">`
@@ -1647,17 +2057,7 @@ function renderPlantas() {
         </div>
     `}).join('');
 
-    $$('.plant-card').forEach(card => {
-        const id = parseInt(card.dataset.id);
-        card.addEventListener('click', (e) => {
-            if (e.target.closest('.fav-btn')) return;
-            abrirDetallePlanta(id);
-        });
-        card.querySelector('.fav-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            toggleFavorito(id);
-        });
-    });
+    _setupPlantDelegation();
 
     applyReveal(plantListDiv);
 
@@ -1705,7 +2105,7 @@ function slugify(str) {
 function abrirDetallePlanta(id) {
     const p = plantasDB.find(p => p.id === id);
     if (!p) return;
-    history.replaceState(null, '', '#planta/' + slugify(p.nombre));
+    history.pushState({ tipo: 'planta', id }, '', '#planta/' + slugify(p.nombre));
     // Registrar como vista para progreso
     marcarPlantaVista(id);
 
@@ -1754,6 +2154,197 @@ function abrirDetallePlanta(id) {
 
         ${p.protegida ? `<div class="alert-box shield"><span class="ico">🛡️</span><div><strong>Especie protegida.</strong> No recolectar. Compra a proveedores autorizados.</div></div>` : ''}
         <div class="alert-box warn"><span class="ico">⚠️</span><div><strong>Precauciones:</strong> ${p.precaucion}</div></div>
+
+        ${p.ficha_completa ? `
+        <!-- ── FICHA EXTENDIDA ── -->
+
+        <!-- Descripción -->
+        ${(p.descripcion || p.descripcion_botanica) ? `<p class="planta-descripcion">${p.descripcion_botanica || p.descripcion}</p>` : ''}
+        ${p.historia_uso ? `<div class="planta-historia"><i class="fas fa-scroll"></i> ${p.historia_uso}</div>` : ''}
+
+        <!-- Ficha rápida -->
+        <div class="modal-divider"></div>
+        <div class="ficha-rapida-title"><i class="fas fa-table-cells-large"></i> Ficha rápida</div>
+        <div class="ficha-rapida-grid">
+            ${p.dosis_estandar ? `<div class="ficha-item"><div class="ficha-key">Dosis estándar</div><div class="ficha-val">${p.dosis_estandar}</div></div>` : ''}
+            ${p.dosis_maxima ? `<div class="ficha-item"><div class="ficha-key">Dosis diaria máx.</div><div class="ficha-val">${p.dosis_maxima}</div></div>` : ''}
+            ${p.tiempo_preparacion ? `<div class="ficha-item"><div class="ficha-key">Tiempo de preparación</div><div class="ficha-val">${p.tiempo_preparacion}</div></div>` : ''}
+            ${p.duracion_tratamiento ? `<div class="ficha-item"><div class="ficha-key">Duración máx.</div><div class="ficha-val">${p.duracion_tratamiento}</div></div>` : ''}
+            ${p.via && p.via.length ? `<div class="ficha-item"><div class="ficha-key">Vía</div><div class="ficha-val">${p.via.join(' · ')}</div></div>` : ''}
+            ${p.conservacion ? `<div class="ficha-item ficha-item-full"><div class="ficha-key">Conservación</div><div class="ficha-val">${p.conservacion}</div></div>` : ''}
+        </div>
+
+        <!-- Seguridad extendida -->
+        ${(() => {
+            // Normalizadores: aceptan string, array de strings, array de objetos {medicamento, mecanismo, recomendacion}, o objeto {absolutas, relativas} / {sintomas, que_hacer}
+            const fmtItem = (x) => {
+                if (typeof x === 'string') return x;
+                if (x && typeof x === 'object') {
+                    if (x.medicamento || x.mecanismo || x.recomendacion) {
+                        const med = x.medicamento ? `<strong>${x.medicamento}</strong>` : '';
+                        const mec = x.mecanismo ? ` — ${x.mecanismo}` : '';
+                        const rec = x.recomendacion ? ` <em>(${x.recomendacion})</em>` : '';
+                        return med + mec + rec;
+                    }
+                    return Object.values(x).filter(v => typeof v === 'string').join(' — ');
+                }
+                return String(x);
+            };
+            const toList = (v) => {
+                if (!v) return [];
+                if (Array.isArray(v)) return v.map(fmtItem);
+                if (typeof v === 'object') {
+                    const out = [];
+                    if (Array.isArray(v.absolutas)) v.absolutas.forEach(s => out.push(`<strong>Absoluta:</strong> ${fmtItem(s)}`));
+                    if (Array.isArray(v.relativas)) v.relativas.forEach(s => out.push(`<strong>Relativa:</strong> ${fmtItem(s)}`));
+                    if (!out.length) Object.values(v).forEach(s => { if (Array.isArray(s)) s.forEach(x => out.push(fmtItem(x))); else if (s) out.push(fmtItem(s)); });
+                    return out;
+                }
+                return [String(v)];
+            };
+            const fmtSobre = (v) => {
+                if (!v) return '';
+                if (typeof v === 'string') return v;
+                if (typeof v === 'object') {
+                    let out = '';
+                    if (Array.isArray(v.sintomas)) out += `<strong>Síntomas:</strong> ${v.sintomas.join(', ')}.`;
+                    if (v.que_hacer) out += ` <strong>Qué hacer:</strong> ${v.que_hacer}`;
+                    if (v.manejo) out += ` <strong>Manejo:</strong> ${v.manejo}`;
+                    return out || Object.values(v).filter(x => typeof x === 'string').join(' · ');
+                }
+                return String(v);
+            };
+            const contraList = toList(p.contraindicaciones);
+            const interList = toList(p.interacciones);
+            const sobreHtml = fmtSobre(p.sintomas_sobredosis || (p.toxicidad && p.toxicidad.sintomas_sobredosis));
+            const efsList = Array.isArray(p.efectos_secundarios) ? p.efectos_secundarios : [];
+            const embHtml = (() => {
+                if (!p.embarazo_lactancia) return '';
+                if (typeof p.embarazo_lactancia === 'string') return p.embarazo_lactancia;
+                let out = '';
+                if (p.embarazo_lactancia.embarazo) out += `<strong>Embarazo:</strong> ${p.embarazo_lactancia.embarazo}<br>`;
+                if (p.embarazo_lactancia.lactancia) out += `<strong>Lactancia:</strong> ${p.embarazo_lactancia.lactancia}<br>`;
+                if (p.embarazo_lactancia.nivel_seguridad) out += `<em>${p.embarazo_lactancia.nivel_seguridad}</em>`;
+                return out;
+            })();
+            if (!contraList.length && !interList.length && !sobreHtml && !efsList.length && !embHtml) return '';
+            return `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-shield-halved"></i> Seguridad</div>
+        ${contraList.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Contraindicaciones</div>
+            <ul class="ficha-lista">${contraList.map(c => `<li>${c}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${interList.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Interacciones medicamentosas</div>
+            <ul class="ficha-lista ficha-lista-warn">${interList.map(i => `<li>${i}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${sobreHtml ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Sobredosis</div>
+            <div class="ficha-sobredosis">${sobreHtml}</div>
+        </div>` : ''}
+        ${efsList.length ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Efectos secundarios</div>
+            <ul class="ficha-lista">${efsList.map(e => `<li>${e}</li>`).join('')}</ul>
+        </div>` : ''}
+        ${embHtml ? `
+        <div class="ficha-seguridad-bloque">
+            <div class="ficha-seg-label">Embarazo y lactancia</div>
+            <div class="ficha-sobredosis">${embHtml}</div>
+        </div>` : ''}
+        `;
+        })()}
+
+        <!-- Identificación botánica -->
+        ${p.identificacion_botanica && Object.keys(p.identificacion_botanica).length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-leaf"></i> Identificación botánica</div>
+        <div class="ficha-botanica">
+            ${p.identificacion_botanica.habito ? `<div class="bot-row"><span class="bot-key">Hábito</span><span class="bot-val">${p.identificacion_botanica.habito}</span></div>` : ''}
+            ${p.identificacion_botanica.hojas ? `<div class="bot-row"><span class="bot-key">Hojas</span><span class="bot-val">${p.identificacion_botanica.hojas}</span></div>` : ''}
+            ${p.identificacion_botanica.flores ? `<div class="bot-row"><span class="bot-key">Flores</span><span class="bot-val">${p.identificacion_botanica.flores}</span></div>` : ''}
+            ${p.identificacion_botanica.fruto ? `<div class="bot-row"><span class="bot-key">Fruto</span><span class="bot-val">${p.identificacion_botanica.fruto}</span></div>` : ''}
+            ${p.identificacion_botanica.distribucion_chile ? `<div class="bot-row"><span class="bot-key">Distribución</span><span class="bot-val">${p.identificacion_botanica.distribucion_chile}</span></div>` : ''}
+            ${p.identificacion_botanica.epoca_recoleccion ? `<div class="bot-row"><span class="bot-key">Recolección</span><span class="bot-val">${p.identificacion_botanica.epoca_recoleccion}</span></div>` : ''}
+            ${p.identificacion_botanica.confusion_posible ? `<div class="bot-row bot-row-warn"><span class="bot-key">⚠ Posible confusión</span><span class="bot-val">${p.identificacion_botanica.confusion_posible}</span></div>` : ''}
+        </div>` : ''}
+
+        <!-- Evidencia científica -->
+        ${p.evidencia_compuestos && p.evidencia_compuestos.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-flask"></i> Evidencia científica</div>
+        <div class="ficha-compuestos-tabla">
+            <div class="comp-header"><span>Compuesto</span><span>Tipo</span><span>Acción</span></div>
+            ${p.evidencia_compuestos.map(c => `
+            <div class="comp-row">
+                <span class="comp-nombre">${c.compuesto}</span>
+                <span class="comp-tipo">${c.tipo}</span>
+                <span class="comp-accion">${c.accion}</span>
+            </div>`).join('')}
+        </div>
+        ${p.evidencia_resumen ? `<div class="ficha-evidencia-resumen">${p.evidencia_resumen}</div>` : ''}
+        ${p.fuentes && p.fuentes.length ? `
+        <div class="ficha-fuentes">
+            <span class="fuentes-label"><i class="fas fa-book-open"></i> Fuentes:</span>
+            ${p.fuentes.map(f => `<span class="fuente-chip">${f}</span>`).join('')}
+        </div>` : ''}` : ''}
+
+        <!-- Buenas prácticas -->
+        ${p.buenas_practicas ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-seedling"></i> Buenas prácticas</div>
+        <div class="ficha-buenas">${typeof p.buenas_practicas === 'string' ? p.buenas_practicas : Object.entries(p.buenas_practicas).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.principios_activos && Array.isArray(p.principios_activos) && p.principios_activos.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-atom"></i> Principios activos</div>
+        <ul class="ficha-lista">${p.principios_activos.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+
+        ${p.propiedades_farmacologicas && p.propiedades_farmacologicas.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-microscope"></i> Propiedades farmacológicas</div>
+        <ul class="ficha-lista">${p.propiedades_farmacologicas.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+
+        ${(p.indicaciones_principales && p.indicaciones_principales.length) || (p.indicaciones_secundarias && p.indicaciones_secundarias.length) ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-stethoscope"></i> Indicaciones</div>
+        ${p.indicaciones_principales && p.indicaciones_principales.length ? `
+        <div class="ficha-seg-label">Principales</div>
+        <ul class="ficha-lista">${p.indicaciones_principales.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+        ${p.indicaciones_secundarias && p.indicaciones_secundarias.length ? `
+        <div class="ficha-seg-label" style="margin-top:10px">Secundarias</div>
+        <ul class="ficha-lista ficha-lista-soft">${p.indicaciones_secundarias.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}` : ''}
+
+        ${p.dosis_recomendada && typeof p.dosis_recomendada === 'object' ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-flask-vial"></i> Dosis recomendada</div>
+        <div class="ficha-buenas">${Object.entries(p.dosis_recomendada).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.modo_preparacion && typeof p.modo_preparacion === 'object' && !p.buenas_practicas ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-mortar-pestle"></i> Preparación detallada</div>
+        <div class="ficha-buenas">${Object.entries(p.modo_preparacion).map(([k,v]) => `<div class="bot-row"><span class="bot-key">${k.replace(/_/g,' ')}</span><span class="bot-val">${v}</span></div>`).join('')}</div>` : ''}
+
+        ${p.nivel_evidencia || (p.referencias_cientificas && p.referencias_cientificas.length) ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-book-medical"></i> Evidencia científica</div>
+        ${p.nivel_evidencia ? `<div class="ficha-evidencia-resumen"><strong>Nivel de evidencia:</strong> ${p.nivel_evidencia}</div>` : ''}
+        ${p.referencias_cientificas && p.referencias_cientificas.length ? `
+        <div class="ficha-fuentes" style="margin-top:10px">
+            <span class="fuentes-label"><i class="fas fa-book-open"></i> Referencias:</span>
+            ${p.referencias_cientificas.map(f => `<span class="fuente-chip">${f}</span>`).join('')}
+        </div>` : ''}` : ''}
+
+        ${p.curiosidades && p.curiosidades.length ? `
+        <div class="modal-divider"></div>
+        <div class="ficha-seccion-title"><i class="fas fa-lightbulb"></i> ¿Sabías que…?</div>
+        <ul class="ficha-lista ficha-lista-curiosidades">${p.curiosidades.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+
+        ` : ''}
 
         ${recetasDeEstaPlanta.length ? `
             <div class="modal-divider"></div>
@@ -1894,10 +2485,196 @@ function resetearFiltros() {
 // ════════════════════════════════════════════════════════════════════
 
 
+// ── Iconos SVG botánicos personalizados ──
+const _SVG_USO   = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="2.2" d="M13.5 3 L9.5 9"/><circle cx="14.2" cy="2.2" r="1.6" fill="currentColor" stroke="none" opacity="0.75"/><line stroke-width="2" x1="4" y1="9.5" x2="16" y2="9.5"/><path stroke-width="1.8" d="M5 9.5 Q4.5 16 10 16 Q15.5 16 15 9.5"/><path stroke-width="1.1" d="M8 13 Q9.5 11.5 12 13" opacity="0.45"/></svg>`;
+const _SVG_INDIC = `<svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z" fill="currentColor" fill-opacity="0.18"/><path stroke-width="1.7" d="M4 20 C5 14 8 10 11 6 C11 12 7 17 4 20Z"/><line stroke-width="1.9" x1="13.5" y1="8" x2="20" y2="8"/><line stroke-width="1.9" x1="13.5" y1="12.5" x2="20" y2="12.5"/><line stroke-width="1.9" x1="13.5" y1="17" x2="18.5" y2="17"/></svg>`;
+const _SVG_HERB  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.8" d="M10 17 V9"/><path stroke-width="1.6" d="M10 9 C9 5 5 4 5 4 C5 4 5 8 7 10 C9 12 10 9 10 9Z" fill="currentColor" fill-opacity="0.18"/><path stroke-width="1.6" d="M10 13 C11 9 15 8 15 8 C15 8 15 12 13 14 C11 16 10 13 10 13Z" fill="currentColor" fill-opacity="0.18"/></svg>`;
+const _SVG_PREP  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.8" d="M4 9 Q4 16 10 16 Q16 16 16 9"/><line stroke-width="2" x1="2" y1="9" x2="18" y2="9"/><path stroke-width="1.4" d="M8 7 Q7.5 5 8 3" opacity="0.7"/><path stroke-width="1.4" d="M12 7 Q11.5 5 12 3" opacity="0.7"/></svg>`;
+const _SVG_DOSIS = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M8 3 L12 3 L13 8 Q14 10.5 10 10.5 Q6 10.5 7 8Z"/><path stroke-width="1.7" d="M9.5 10.5 L9.5 16"/><path stroke-width="1.7" d="M10.5 10.5 L10.5 16"/><circle cx="10" cy="17.5" r="1.2" fill="currentColor" stroke="none" opacity="0.65"/></svg>`;
+const _SVG_FRIO  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><rect x="6" y="3" width="8" height="2" rx="1" stroke-width="1.6"/><path stroke-width="1.7" d="M5 5 Q4 5 4 7 L4 16 Q4 17 5 17 L15 17 Q16 17 16 16 L16 7 Q16 5 15 5Z"/><line stroke-width="1.2" x1="4" y1="11" x2="16" y2="11" opacity="0.45"/></svg>`;
+const _SVG_FLASK = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M7 3 L7 9 L3 15 Q2 17 4 17 L16 17 Q18 17 17 15 L13 9 L13 3"/><line stroke-width="2" x1="6" y1="3" x2="14" y2="3"/><path stroke-width="1.3" d="M5 13 Q8 11.5 12 13" opacity="0.5"/></svg>`;
+
+// ── Fotos curadas por tipo de preparación ──
+const _RECETA_FOTOS = {
+    infusion:      'img/receta-tisana.png',
+    infusion2:     'img/receta-infusion-herbal.png',
+    decoccion:     'img/receta-decoccion.png',
+    caldo:         'img/receta-decoccion.png',
+    jarabe:        'img/receta-tisana.png',
+    tintura:       'img/receta-aceite.png',
+    cataplasma:    'img/receta-cataplasma.png',
+    compresa:      'img/receta-compresa.png',
+    crema:         'img/receta-unguento.png',
+    aceite:        'img/receta-aceite.png',
+    vapor:         'img/receta-aromaterapia.png',
+    aromaterapia:  'img/receta-aromaterapia.png',
+    bano:          'img/receta-bano.png',
+    masaje:        'img/receta-aceite.png',
+    enjuague:      'img/receta-compresa2.png',
+    ritual:        'img/receta-aromaterapia.png',
+    jugo:          'img/receta-zumo.png',
+    batido:        'img/receta-batido.png',
+    ensalada:      'img/receta-ensalada.jpg',
+    bebida:        'img/receta-bebida.png',
+    mermelada:     'img/receta-tisana.png',
+    licor:         'img/receta-bebida.png',
+    polvo:         'img/receta-tisana.png',
+    mate:          'img/receta-infusion-herbal.png',
+    default:       'img/receta-infusion-herbal.png',
+};
+
+function fotoDeReceta(r) {
+    const t = (r.titulo || '').toLowerCase();
+    const m = (r.modo_uso || '').toLowerCase();
+    const cat = (r.categoria || '').toLowerCase();
+
+    // ── Por título (mayor prioridad) ──────────────────────────────────
+    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té ') || t.includes('agüita') || t.includes('aguita'))
+        return _RECETA_FOTOS.infusion;
+    if (t.includes('decocción') || t.includes('decoccion'))
+        return _RECETA_FOTOS.decoccion;
+    if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé') || t.includes('consome'))
+        return _RECETA_FOTOS.caldo;
+    if (t.includes('jarabe') || t.includes('sirope'))
+        return _RECETA_FOTOS.jarabe;
+    if (t.includes('tintura'))
+        return _RECETA_FOTOS.tintura;
+    if (t.includes('cataplasma') || t.includes('emplasto') || t.includes('parche') || t.includes('fomento'))
+        return _RECETA_FOTOS.cataplasma;
+    if (t.includes('compresa'))
+        return _RECETA_FOTOS.compresa;
+    if (t.includes('pomada') || t.includes('ungüento') || t.includes('bálsamo') || t.includes('balsa'))
+        return _RECETA_FOTOS.crema;
+    if (t.includes('crema') || t.includes('loción') || t.includes('mascarilla') || t.includes('pasta dental'))
+        return _RECETA_FOTOS.crema;
+    if (t.includes('aceite') || t.includes('linimento'))
+        return _RECETA_FOTOS.aceite;
+    if (t.includes('vapor') || t.includes('inhalación') || t.includes('inhalacion') || t.includes('sahumerio') || t.includes('vahos'))
+        return _RECETA_FOTOS.vapor;
+    if (t.includes('mate ') || t.startsWith('mate') || t.includes('lawen'))
+        return _RECETA_FOTOS.infusion2;
+    if (t.includes('jugo') || t.includes('zumo'))
+        return _RECETA_FOTOS.jugo;
+    if (t.includes('batido') || t.includes('smoothie') || t.includes('licuado') || t.includes('tónico') || t.includes('tonico'))
+        return _RECETA_FOTOS.batido;
+    if (t.includes('ensalada') || t.includes('vinagreta') || t.includes('aderezo'))
+        return _RECETA_FOTOS.ensalada;
+    if (t.includes('mermelada') || t.includes('confitura') || t.includes('jalea'))
+        return _RECETA_FOTOS.mermelada;
+    if (t.includes('licor') || t.includes('aguardiente') || t.includes('vino ') || t.includes('macerado') || t.includes('maceración'))
+        return _RECETA_FOTOS.licor;
+    if (t.includes('vinagre') || t.includes('shrub'))
+        return _RECETA_FOTOS.licor;
+    if (t.includes('polvo') || t.includes('especia') || t.startsWith('semillas'))
+        return _RECETA_FOTOS.polvo;
+    if (t.includes('avena') || t.includes('granola') || t.includes('muesli'))
+        return _RECETA_FOTOS.batido;
+    if (t.startsWith('agua de') || t.startsWith('agua tibia') || t.startsWith('agua alcalin') || t.includes('bebida ') || t.includes('tónico de') || t.includes('tonico de'))
+        return _RECETA_FOTOS.bebida;
+    if (t.includes('aromaterapia') || t.includes('almohada') || t.includes('difusor'))
+        return _RECETA_FOTOS.aromaterapia;
+    if (t.includes('compota') || t.includes('caramelo') || t.includes('pastilla') || t.includes('gominola'))
+        return _RECETA_FOTOS.mermelada;
+    if (t.includes('kéfir') || t.includes('kefir') || t.includes('leche de') || t.startsWith('latte') || t.includes('latte '))
+        return _RECETA_FOTOS.batido;
+    if (t.includes('spray') || t.includes('gargarismo') || t.includes('enjuague'))
+        return _RECETA_FOTOS.enjuague;
+    if (t.startsWith('compress') || t.includes('arcilla'))
+        return _RECETA_FOTOS.cataplasma;
+    if (t.includes('suplemento') || t.includes('protocolo') || t.includes('melatonina'))
+        return _RECETA_FOTOS.bebida;
+    if (t.startsWith('mezcla de tés') || t.startsWith('mezcla de te') || t.includes('kava ') || t.startsWith('kava'))
+        return _RECETA_FOTOS.infusion;
+    if (t.startsWith('miel ') || t.startsWith('miel de') || t.startsWith('miel con'))
+        return _RECETA_FOTOS.jarabe;
+    if (t.startsWith('baño') || t.startsWith('tina') || t.startsWith('pedilu') || t.startsWith('bano'))
+        return _RECETA_FOTOS.bano;
+
+    // ── Por modo_uso (segundo nivel) ───────────────────────────────────
+    if (m.includes('decoc'))    return _RECETA_FOTOS.decoccion;
+    if (m.includes('cataplas') || m.includes('emplasto')) return _RECETA_FOTOS.cataplasma;
+    if (m.includes('compres'))  return _RECETA_FOTOS.compresa;
+    if (m.includes('jarabe'))   return _RECETA_FOTOS.jarabe;
+    if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer') || m.includes('aromaterapia') || m.includes('ambiental'))
+        return _RECETA_FOTOS.aromaterapia;
+    if (m.includes('ritual') || m.includes('ceremon') || m.includes('ngillatun') || m.includes('machitun'))
+        return _RECETA_FOTOS.ritual;
+    if (m.includes('masaje') || m.includes('fricci'))   return _RECETA_FOTOS.masaje;
+    if (m.includes('crema') || m.includes('mascaril') || m.includes('ungüent') || m.includes('pomada'))
+        return _RECETA_FOTOS.crema;
+    if (m.includes('aceite') || m.includes('tópico') || m.includes('topico'))   return _RECETA_FOTOS.aceite;
+    if (m.includes('enjuag') || m.includes('gargar') || m.includes('no tragar') || m.includes('escupir'))
+        return _RECETA_FOTOS.enjuague;
+    if (m.includes('lavad') && (m.includes('vaginal') || m.includes('intim') || m.includes('nasal')))
+        return _RECETA_FOTOS.enjuague;
+    if (m.includes('baño') || m.includes('bano') || m.includes('inmersi') || m.includes('pediluvio'))
+        return _RECETA_FOTOS.bano;
+    if (m.includes('infusi') || m.includes('tisana'))
+        return _RECETA_FOTOS.infusion;
+    // Preparaciones orales específicas
+    if (m.includes('ensalada') || m.includes('crudo') || m.includes('fresco'))
+        return _RECETA_FOTOS.ensalada;
+    if (m.includes('batido') || m.includes('licuado') || m.includes('smoothie') || m.includes('bowl'))
+        return _RECETA_FOTOS.batido;
+    if (m.includes('mermelada') || m.includes('confitura') || m.includes('jalea'))
+        return _RECETA_FOTOS.mermelada;
+    if (m.includes('licor') || m.includes('aguardiente') || m.includes('vino') || m.includes('macerac') || m.includes('macerado'))
+        return _RECETA_FOTOS.licor;
+    if (m.includes('jugo') || m.includes('zumo'))
+        return _RECETA_FOTOS.jugo;
+    if (m.includes('caldo') || m.includes('sopa') || m.includes('consomé'))
+        return _RECETA_FOTOS.caldo;
+    // Bebidas orales genéricas (Tomar / Beber / Consumir)
+    if (m.startsWith('tomar') || m.startsWith('beber') || m.includes('oral') || m.includes('bebida'))
+        return _RECETA_FOTOS.bebida;
+    if (m.startsWith('consumir') || m.startsWith('servir') || m.startsWith('comer'))
+        return _RECETA_FOTOS.ensalada;
+    // Condimentos y preparaciones culinarias
+    if (m.includes('condimento') || m.includes('culinari') || m.includes('vinagre') || m.includes('adobo') || m.includes('aderezo'))
+        return _RECETA_FOTOS.ensalada;
+    // Masticar / semillas
+    if (m.startsWith('masticar') || m.includes('moler') || m.includes('semilla'))
+        return _RECETA_FOTOS.polvo;
+    // Uso tópico externo genérico
+    if (m.includes('solo') && (m.includes('externo') || m.includes('extern')))
+        return _RECETA_FOTOS.crema;
+    if (m.includes('aplicación tópica') || m.includes('aplicacion topica'))
+        return _RECETA_FOTOS.crema;
+    // Gárgaras / pasta dental
+    if (m.includes('gárgar') || m.includes('gargar') || m.includes('pasta dental') || m.includes('dental'))
+        return _RECETA_FOTOS.enjuague;
+    // Tintura amarga / tintura
+    if (m.includes('tintura'))
+        return _RECETA_FOTOS.tintura;
+    // Secar pies / hongos → es un baño de pies
+    if (m.includes('pies') || m.includes('hongos proliferan'))
+        return _RECETA_FOTOS.bano;
+    // Incienso / difusión aromática
+    if (m.includes('difusi') || m.includes('incienso') || m.includes('incens'))
+        return _RECETA_FOTOS.aromaterapia;
+    // Hidratación / electrolitos / recuperación → bebida
+    if (m.includes('hidrat') || m.includes('electrolit') || m.includes('ejercicio') || m.includes('rehidrat'))
+        return _RECETA_FOTOS.bebida;
+    // Fermentados / probióticos → batido/ensalada
+    if (m.includes('ferment') || m.includes('probiótic') || m.includes('probiotic'))
+        return _RECETA_FOTOS.batido;
+
+    // ── Por categoría como último recurso ──────────────────────────────
+    if (cat === 'espiritual' || cat === 'medicina mapuche') return _RECETA_FOTOS.ritual;
+    if (cat === 'alimenticio' || cat === 'nutritivo')       return _RECETA_FOTOS.ensalada;
+    if (cat === 'cosmético' || cat === 'cabello')           return _RECETA_FOTOS.crema;
+    if (cat === 'baño')                                     return _RECETA_FOTOS.bano;
+    if (cat === 'antiparasitario')                          return _RECETA_FOTOS.bebida;
+    if (cat === 'energizante')                              return _RECETA_FOTOS.batido;
+
+    return _RECETA_FOTOS.default;
+}
+
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
     if (!r) return;
-    history.replaceState(null, '', '#receta/' + id);
+    history.pushState({ tipo: 'receta', id }, '', '#receta/' + id);
+    marcarRecetaVista(id);
     const linked = plantasEnReceta(r);
 
     const evidenciaBadge = {
@@ -1909,17 +2686,26 @@ function abrirDetalleReceta(id) {
     };
     const ev = evidenciaBadge[r.evidencia] || { color: 'var(--text-mute)', icon: '📖' };
 
+    const _fotoUrl = fotoDeReceta(r);
+    const _esNueva = r.id >= NUEVO_DESDE_ID;
     $('#modalBody').innerHTML = `
-        <div class="modal-art" style="background: ${gradFromCat(r.categoria)};">
-            <div class="illus illus-lg">${ilustracionDeReceta(r)}</div>
+        <div class="modal-art modal-art-receta" style="background:${gradFromCat(r.categoria)}">
+            <img class="modal-receta-foto" src="${_fotoUrl}" alt="${r.modo_uso || ''}"
+                 loading="eager" decoding="async"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="illus illus-lg modal-receta-svg" style="display:none">${ilustracionDeReceta(r)}</div>
+            <div class="modal-receta-overlay"></div>
+            <div class="modal-receta-header-badges">
+                <span class="receta-cat-pill receta-cat-pill-hero">${r.categoria}</span>
+                ${_esNueva ? `<span class="receta-nueva-badge receta-nueva-badge-hero">✨ Nueva</span>` : ''}
+            </div>
         </div>
 
-        <!-- Encabezado -->
-        <div class="receta-meta-top">
-            <span class="receta-cat-pill">${r.categoria}</span>
+        <!-- Título y origen -->
+        <div class="receta-modal-titulo-bloque">
+            <h2 class="receta-modal-h2">${r.titulo}</h2>
             <span class="receta-origen-pill">${r.fuente_tradicion || r.origen}</span>
         </div>
-        <h2 style="margin-bottom:4px">${r.titulo}</h2>
 
         <!-- Chips de info rápida -->
         <div class="receta-info-chips">
@@ -1929,10 +2715,10 @@ function abrirDetalleReceta(id) {
             ${r.rendimiento ? `<div class="rec-chip"><i class="fas fa-flask"></i> ${r.rendimiento}</div>` : ''}
         </div>
 
-        <!-- Uso -->
+        <!-- Uso / Para qué sirve -->
         ${(() => { const pqs = r.uso || getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
-            <div class="para-que-icon">🎯</div>
+            <div class="para-que-icon">${_SVG_INDIC}</div>
             <div class="para-que-body">
                 <div class="para-que-label">Uso</div>
                 <div class="para-que-texto">${pqs}</div>
@@ -1941,41 +2727,49 @@ function abrirDetalleReceta(id) {
 
         <!-- Propiedades -->
         ${r.propiedades && r.propiedades.length ? `
-        <div class="receta-propiedades">
-            ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+        <div class="receta-propiedades-bloque">
+            <div class="receta-propiedades-label"><i class="fas fa-seedling"></i> Propiedades terapéuticas</div>
+            <div class="receta-propiedades">
+                ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+            </div>
         </div>` : ''}
 
-        <div class="modal-divider"></div>
-
-        <!-- Ingredientes y Preparación -->
-        <div class="modal-row">
-            <div class="ico">🌿</div>
-            <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+        <!-- ── SECCIÓN: PREPARACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">🌿</span> Ingredientes y preparación
         </div>
-        <div class="modal-row">
-            <div class="ico">📋</div>
-            <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
-        </div>
-
-        <div class="modal-divider"></div>
-
-        <!-- Dosis y modo de uso -->
-        <div class="modal-row">
-            <div class="ico">💊</div>
-            <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico">🖐️</div>
-            <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico">❄️</div>
-            <div><div class="label">Conservación</div><div class="value">${r.conservacion || '—'}</div></div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-moss">${_SVG_HERB}</div>
+                <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+            </div>
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-amber">${_SVG_PREP}</div>
+                <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
+            </div>
         </div>
 
-        <div class="modal-divider"></div>
+        <!-- ── SECCIÓN: DOSIFICACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">⏱</span> Cómo usarla
+        </div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row">
+                <div class="ico ico-amber">${_SVG_DOSIS}</div>
+                <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
+            </div>
+            <div class="modal-row">
+                <div class="ico ico-moss">${_SVG_USO}</div>
+                <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
+            </div>
+            ${r.conservacion ? `
+            <div class="modal-row">
+                <div class="ico ico-blue">${_SVG_FRIO}</div>
+                <div><div class="label">Conservación</div><div class="value">${r.conservacion}</div></div>
+            </div>` : ''}
+        </div>
 
-        <!-- Contraindicaciones -->
+        <!-- ── ADVERTENCIAS ── -->
         <div class="alert-box warn receta-contra">
             <span class="ico">⚠️</span>
             <div><strong>Contraindicaciones:</strong> ${r.contraindicaciones || 'Consultar con profesional de salud antes del uso.'}</div>
@@ -2005,11 +2799,59 @@ function abrirDetalleReceta(id) {
         ${r.principios_activos ? `
         <div class="modal-divider"></div>
         <div class="receta-principios">
-            <div class="principios-icon">🔬</div>
+            <div class="principios-icon">${_SVG_FLASK}</div>
             <div class="principios-body">
                 <div class="principios-label">Principios activos</div>
                 <div class="principios-texto">${r.principios_activos}</div>
             </div>
+        </div>` : ''}
+
+        <!-- Indicaciones principales -->
+        ${r.indicaciones_principales && r.indicaciones_principales.length ? `
+        <div class="modal-divider"></div>
+        <div class="receta-indicaciones">
+            <div class="indic-icon">${_SVG_INDIC}</div>
+            <div class="indic-body">
+                <div class="indic-label">Indicaciones principales</div>
+                <div class="indic-chips">${r.indicaciones_principales.map(i => `<span class="indic-chip">${i}</span>`).join('')}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Sinergia con otras plantas -->
+        ${r.sinergia_plantas && r.sinergia_plantas.length ? `
+        <div class="modal-row">
+            <div class="ico">🌿</div>
+            <div>
+                <div class="label">Sinergia con</div>
+                <div class="value">${r.sinergia_plantas.join(' · ')}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Duración del tratamiento -->
+        ${r.duracion_tratamiento ? `
+        <div class="modal-row">
+            <div class="ico">⏳</div>
+            <div>
+                <div class="label">Duración del tratamiento</div>
+                <div class="value">${r.duracion_tratamiento}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Embarazo y lactancia -->
+        ${r.embarazo_lactancia ? `
+        <div class="modal-row">
+            <div class="ico">🤰</div>
+            <div>
+                <div class="label">Embarazo y lactancia</div>
+                <div class="value">${r.embarazo_lactancia}</div>
+            </div>
+        </div>` : ''}
+
+        <!-- Interacciones con medicamentos -->
+        ${r.interacciones_medicamentos ? `
+        <div class="alert-box warn receta-interacciones">
+            <span class="ico">💊</span>
+            <div><strong>Interacciones con medicamentos:</strong> ${r.interacciones_medicamentos}</div>
         </div>` : ''}
 
         <!-- Referencias -->
@@ -2019,7 +2861,9 @@ function abrirDetalleReceta(id) {
             <span class="referencias-icon"><i class="fas fa-book-open"></i></span>
             <div>
                 <div class="referencias-label">Referencias</div>
-                <div class="referencias-texto">${r.referencias}</div>
+                <div class="referencias-texto">
+                    ${r.referencias.split(/\s*;\s*/).filter(Boolean).map(ref => `<div class="referencia-item">${ref.trim()}</div>`).join('')}
+                </div>
             </div>
         </div>` : ''}
 
@@ -2067,12 +2911,25 @@ function configurarShareBtn(title, text) {
 }
 
 const modal = $('#detailModal');
-function abrirModal() { modal.classList.add('show'); document.body.style.overflow = 'hidden'; }
+let _modalAbiertoPorPush = false;
+function abrirModal() {
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+    _modalAbiertoPorPush = true;
+}
 function cerrarModal() {
     modal.classList.remove('show');
     document.body.style.overflow = '';
-    history.replaceState(null, '', location.pathname + location.search);
+    _modalAbiertoPorPush = false;
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
 }
+window.addEventListener('popstate', () => {
+    if (modal.classList.contains('show')) {
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+        _modalAbiertoPorPush = false;
+    }
+});
 $('#detailModal .close-modal').addEventListener('click', cerrarModal);
 modal.addEventListener('click', (e) => { if (e.target === modal) cerrarModal(); });
 document.addEventListener('keydown', (e) => {
@@ -2323,7 +3180,7 @@ $('#emergencyToolsBtn')?.addEventListener('click', showEmergency);
 const canvas = $('#particle-canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
-let particleMode = 'leaves';
+let particleMode = 'off';
 let bgMotion = 'on';
 let rafId;
 
@@ -2533,6 +3390,16 @@ function renderTemporadaBanner() {
 // PROGRESO DE EXPLORACIÓN
 // ════════════════════════════════════════════════════════════════════
 let plantasVistas = new Set(JSON.parse(localStorage.getItem('plantasVistas') || '[]'));
+let recetasVistas = new Set(JSON.parse(localStorage.getItem('recetasVistas') || '[]'));
+// Ordered list for "recently viewed recipes" (newest first, max 20)
+let _recetasRecientes = JSON.parse(localStorage.getItem('recetasRecientes') || '[]');
+
+function marcarRecetaVista(id) {
+    recetasVistas.add(id);
+    localStorage.setItem('recetasVistas', JSON.stringify([...recetasVistas]));
+    _recetasRecientes = [id, ..._recetasRecientes.filter(x => x !== id)].slice(0, 20);
+    localStorage.setItem('recetasRecientes', JSON.stringify(_recetasRecientes));
+}
 
 function marcarPlantaVista(id) {
     if (!plantasVistas.has(id)) {
@@ -3163,10 +4030,16 @@ function renderTuExploracion() {
     const vistas = [...plantasVistas];
     const favs = favoritos.length;
     const pct = plantasDB.length ? Math.round(vistas.length / plantasDB.length * 100) : 0;
+    const recetasVistasCount = recetasVistas.size;
 
-    // Last 4 viewed plants
+    // Last 4 viewed plants (most recent first)
     const recientes = vistas.slice(-4).reverse()
         .map(id => plantasDB.find(p => p.id === id))
+        .filter(Boolean);
+
+    // Last 3 viewed recipes
+    const recetasRec = _recetasRecientes.slice(0, 3)
+        .map(id => recetasDB.find(r => r.id === id))
         .filter(Boolean);
 
     el.innerHTML = `
@@ -3183,27 +4056,48 @@ function renderTuExploracion() {
                 <span class="tuexp-num">${favs}</span>
                 <span class="tuexp-lbl">favoritas guardadas</span>
             </div>
+            <div class="tuexp-stat">
+                <span class="tuexp-num">${recetasVistasCount}</span>
+                <span class="tuexp-lbl">recetas vistas</span>
+            </div>
         </div>
         <div class="tuexp-bar-wrap" title="${vistas.length} de ${plantasDB.length} plantas">
             <div class="tuexp-bar-fill" style="width:${pct}%"></div>
         </div>
         ${recientes.length ? `
         <div class="tuexp-recientes">
-            <span class="tuexp-recientes-label">Vistas recientemente</span>
+            <span class="tuexp-recientes-label">Plantas vistas recientemente</span>
             <div class="tuexp-chips">
                 ${recientes.map(p => `
-                    <button class="tuexp-chip" data-id="${p.id}">
+                    <button class="tuexp-chip" data-tipo="planta" data-id="${p.id}">
                         ${p.emoji ? `<span>${p.emoji}</span>` : '🌿'} ${p.nombre}
                     </button>
                 `).join('')}
             </div>
         </div>` : `<p class="tuexp-empty">Explora plantas para ver tu progreso aquí</p>`}
+        ${recetasRec.length ? `
+        <div class="tuexp-recientes">
+            <span class="tuexp-recientes-label">Recetas vistas recientemente</span>
+            <div class="tuexp-chips">
+                ${recetasRec.map(r => `
+                    <button class="tuexp-chip tuexp-chip-receta" data-tipo="receta" data-id="${r.id}">
+                        🫙 ${r.titulo}
+                    </button>
+                `).join('')}
+            </div>
+        </div>` : ''}
     `;
 
     el.querySelectorAll('.tuexp-chip').forEach(btn => {
         btn.addEventListener('click', () => {
-            cambiarTab('plants');
-            abrirDetallePlanta(parseInt(btn.dataset.id));
+            const id = parseInt(btn.dataset.id);
+            if (btn.dataset.tipo === 'receta') {
+                cambiarTab('recipes');
+                cargarRecetas().then(() => setTimeout(() => abrirDetalleReceta(id), 150));
+            } else {
+                cambiarTab('plants');
+                abrirDetallePlanta(id);
+            }
         });
     });
 }
@@ -3275,6 +4169,9 @@ inicializar();
             if (q.length < 2) { limpiarRecetaSearch(); return; }
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            document.getElementById('recetaSubmodulosPanel').hidden = true;
+            _moduloActivo = null; // búsqueda libre = catálogo completo
+            _rsearchOrigen = null;
             await cargarRecetas();
             renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
         }, 280);
@@ -3287,10 +4184,55 @@ inicializar();
             return;
         }
 
-        // Botón "Todos los sistemas" (volver)
+        // Botón volver desde panel de condiciones → sub-módulos (si los hay) o sistemas
         if (e.target.id === 'rdolBack' || e.target.closest('#rdolBack')) {
             document.getElementById('recetaDolenciasPanel').hidden = true;
+            const backSubKey = _sistemaActivo
+                ? (SUBMODULOS[_sistemaActivo] ? _sistemaActivo
+                   : (SISTEMA_A_MODULO[_sistemaActivo] && SUBMODULOS[SISTEMA_A_MODULO[_sistemaActivo]]
+                      ? SISTEMA_A_MODULO[_sistemaActivo] : null))
+                : null;
+            if (backSubKey) {
+                mostrarSubmodulos(backSubKey);
+            } else {
+                document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            }
+            return;
+        }
+
+        // Botón volver desde sub-módulos → sistemas
+        if (e.target.id === 'rsubBack' || e.target.closest('#rsubBack')) {
+            document.getElementById('recetaSubmodulosPanel').hidden = true;
             document.querySelectorAll('.rsis-btn').forEach(b => b.classList.remove('active'));
+            _sistemaActivo = null;
+            return;
+        }
+
+        // Clic en tarjeta de sub-módulo
+        const subChip = e.target.closest('.rsub-chip');
+        if (subChip) {
+            const sistemaId = subChip.dataset.sistema;
+            const subId     = subChip.dataset.subid;
+            const subData   = SUBMODULOS[sistemaId];
+            const sub       = subData?.submods.find(s => s.id === subId);
+            if (!sub) return;
+            if (sub.file) {
+                // Condición con archivo propio → cargar y mostrar resultados directo
+                (async () => {
+                    const res  = await fetch(sub.file);
+                    const data = await res.json();
+                    document.getElementById('recetaSubmodulosPanel').hidden = true;
+                    const inp = document.getElementById('recetaSearchInput');
+                    const clr = document.getElementById('recetaSearchClear');
+                    if (inp) inp.value = sub.label;
+                    if (clr) clr.hidden = false;
+                    _rsearchOrigen = { type: 'submod', sistemaKey: sistemaId };
+                    renderRecetaSearchResults(data.recetas, sub.label);
+                })();
+            } else {
+                // Sub-módulo con condiciones/dolencias → mostrar panel intermedio
+                mostrarCondicionesDeSubmodulo(sistemaId, subId);
+            }
             return;
         }
 
@@ -3298,12 +4240,10 @@ inicializar();
         const sisBtn = e.target.closest('.rsis-btn');
         if (sisBtn) {
             const sistemaId = sisBtn.dataset.sistema;
-            // Si ya estaba activo, lo deselecciona
             if (sisBtn.classList.contains('active')) {
                 limpiarRecetaSearch();
             } else {
                 mostrarDolenciasDeSistema(sistemaId);
-                // Limpiar resultados y texto si hubiera
                 const cont = document.getElementById('recetaSearchResults');
                 if (cont) { cont.innerHTML = ''; cont.style.display = 'none'; }
                 const inp = document.getElementById('recetaSearchInput');
@@ -3314,7 +4254,24 @@ inicializar();
             return;
         }
 
-        // Clic en chip de dolencia
+        // Clic en chip de condición precisa (sub-módulo) → buscarPorCondicion
+        const condChip = e.target.closest('.rdol-chip-cond');
+        if (condChip) {
+            const q = condChip.dataset.q;
+            const kws = JSON.parse(condChip.dataset.kws || '[]');
+            const inp = document.getElementById('recetaSearchInput');
+            const clr = document.getElementById('recetaSearchClear');
+            if (inp) inp.value = q;
+            if (clr) clr.hidden = false;
+            _rsearchOrigen = { type: 'dolencias', sistemaKey: _sistemaActivo };
+            (async () => {
+                const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
+                renderRecetaSearchResults(buscarPorCondicion(kws, pool), q);
+            })();
+            return;
+        }
+
+        // Clic en chip de dolencia genérica → buscarRecetasPorSintoma
         const dolChip = e.target.closest('.rdol-chip');
         if (!dolChip) return;
         const q = dolChip.dataset.q;
@@ -3322,7 +4279,11 @@ inicializar();
         const clr = document.getElementById('recetaSearchClear');
         if (inp) inp.value = q;
         if (clr) clr.hidden = false;
-        renderRecetaSearchResults(buscarRecetasPorSintoma(q), q);
+        _rsearchOrigen = { type: 'dolencias', sistemaKey: _sistemaActivo };
+        (async () => {
+            const pool = _moduloActivo ? await cargarModulo(_moduloActivo) : (await cargarRecetas(), recetasDB);
+            renderRecetaSearchResults(buscarRecetasPorSintoma(q, pool), q);
+        })();
     });
 })();
 
@@ -3449,21 +4410,29 @@ inicializar();
 
         const fill = bar.querySelector('.modal-progress-fill');
 
-        // Reset bar when modal opens
+        // El scroll container es #modalBody en mobile, .modal en desktop
+        const getScrollEl = () => window.innerWidth <= 767
+            ? document.getElementById('modalBody')
+            : modalOverlay;
+
+        // Reset bar y scroll cuando se abre/cierra el modal
         const observer = new MutationObserver(() => {
             if (!modalOverlay.classList.contains('show')) {
                 fill.style.width = '0%';
-                modalOverlay.scrollTop = 0;
+                const el = getScrollEl();
+                if (el) el.scrollTop = 0;
             }
         });
         observer.observe(modalOverlay, { attributes: true, attributeFilter: ['class'] });
 
-        // Track scroll on the overlay (actual scrolling element)
-        modalOverlay.addEventListener('scroll', () => {
-            const { scrollTop, scrollHeight, clientHeight } = modalOverlay;
+        // Track scroll en el contenedor correcto
+        const onScroll = (e) => {
+            const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
             const progress = scrollHeight <= clientHeight ? 0 : scrollTop / (scrollHeight - clientHeight);
             fill.style.width = (progress * 100) + '%';
-        }, { passive: true });
+        };
+        modalOverlay.addEventListener('scroll', onScroll, { passive: true });
+        document.getElementById('modalBody')?.addEventListener('scroll', onScroll, { passive: true });
     })();
 
     // ── Random plant button ──
@@ -3864,10 +4833,16 @@ function initBottomSheetGestures() {
 
     let startY = 0, startScrollTop = 0, dragging = false;
 
+    // En mobile el scroll está en #modalBody, no en .modal-content
+    const getScrollTop = () => {
+        const body = document.getElementById('modalBody');
+        return body ? body.scrollTop : content.scrollTop;
+    };
+
     content.addEventListener('touchstart', e => {
         if (window.innerWidth > 767) return;
         startY = e.touches[0].clientY;
-        startScrollTop = content.scrollTop;
+        startScrollTop = getScrollTop();
         dragging = true;
     }, { passive: true });
 
@@ -3875,7 +4850,7 @@ function initBottomSheetGestures() {
         if (!dragging || window.innerWidth > 767) return;
         const dy = e.touches[0].clientY - startY;
         // Only drag when scrolled to top and pulling down
-        if (dy > 0 && content.scrollTop <= 0) {
+        if (dy > 0 && getScrollTop() <= 0) {
             content.style.transform = `translateY(${Math.min(dy * 0.55, 180)}px)`;
             content.style.transition = 'none';
         }
@@ -3886,7 +4861,7 @@ function initBottomSheetGestures() {
         dragging = false;
         const dy = e.changedTouches[0].clientY - startY;
         content.style.transition = '';
-        if (dy > 100 && content.scrollTop <= 0) {
+        if (dy > 100 && getScrollTop() <= 0) {
             content.classList.add('sheet-dismissing');
             setTimeout(() => {
                 content.classList.remove('sheet-dismissing');
@@ -4221,3 +5196,4 @@ if (_origRenderSearchHero) {
     // Override
     window.renderSearchHero = wrap;
 }
+
