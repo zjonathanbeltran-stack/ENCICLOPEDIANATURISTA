@@ -980,7 +980,7 @@ function _rfRenderGrid(filtradas) {
         return `
         <div class="rsearch-card" data-rid="${r.id}">
             <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
-                <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
+                <span class="rsearch-thumb-svg">${ilustracionDeReceta(r)}</span>
                 <span class="rsearch-cat">${r.categoria}</span>
                 ${nuevaBadge}
             </div>
