@@ -1023,25 +1023,21 @@ function _rfRenderGrid(filtradas) {
                       : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
-            <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
-                <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
-                <span class="rsearch-cat">${r.categoria}</span>
-                ${nuevaBadge}
+            ${nuevaBadge}
+            <i class="fas fa-arrow-right rsearch-card-arrow"></i>
+            <div class="rsearch-card-head">
+                <span class="rsearch-cat-label">${r.categoria}</span>
                 ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
             </div>
-            <div class="rsearch-card-meta-row">
-                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
-                ${pedHtml}${embHtml}${lacHtml}
-            </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
-            ${puebloBadge}
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
             }
-            ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
-            <div class="rsearch-card-footer">
-                <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            ${puebloBadge}
+            <div class="rsearch-card-meta-row">
+                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                ${pedHtml}${embHtml}${lacHtml}
             </div>
         </div>`;
     }).join('');
