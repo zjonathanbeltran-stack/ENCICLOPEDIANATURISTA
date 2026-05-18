@@ -605,15 +605,20 @@ let _sistemaActivo = null; // sistema seleccionado actualmente en recetario
 function renderSistemasBusqueda() {
     const cont = document.getElementById('recetaSistemas');
     if (!cont) return;
-    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
-        <button class="rsis-btn receta-rsis-card" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
-            <span class="rsis-ico">${s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`}</span>
-            <span class="rsis-meta">
-                <span class="rsis-label">${s.label}</span>
-                <span class="rsis-desc">${s.desc}</span>
-            </span>
-        </button>`
-    ).join('');
+    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => {
+        const modKey  = SISTEMA_A_MODULO[s.id] || s.id;
+        const subData = SUBMODULOS[modKey];
+        const count   = subData ? subData.submods.reduce((n, sub) => n + (sub.count || 0), 0) : null;
+        const ico     = s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`;
+        return `
+        <button class="rsis-btn rsis-sistema-card" data-sistema="${s.id}" style="--rsis-color:${s.color}">
+            <span class="rsis-sc-ico">${ico}</span>
+            <span class="rsis-sc-label">${s.label}</span>
+            ${count ? `<span class="rsis-sc-count">${count} recetas</span>` : ''}
+            <span class="rsis-sc-desc">${s.desc}</span>
+            <i class="fas fa-chevron-right rsis-sc-arrow"></i>
+        </button>`;
+    }).join('');
 }
 
 function renderCategoriasChips() {

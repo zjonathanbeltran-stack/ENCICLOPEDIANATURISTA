@@ -9152,7 +9152,7 @@ header.plants-tab-header {
 }
 
 /* ══════════════════════════════════════════════════
-   RECETARIO — Estilo Maternidad (visual upgrade)
+   RECETARIO — Tarjetas tipo Maternidad
    ══════════════════════════════════════════════════ */
 
 /* Hero stats row */
@@ -9173,88 +9173,115 @@ header.plants-tab-header {
 }
 .receta-hero-stat i { font-size: 0.68rem; opacity: 0.85; }
 
-/* ── Grid de sistemas — 4 columnas ── */
+/* ── Grid de sistemas — 3 columnas (idéntico a matern-submod-grid) ── */
 .receta-sistemas-grid.recetario-nav {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     margin-top: 8px;
 }
 
-/* ── Tarjetas de sistema — layout horizontal (como Maternidad) ── */
-.receta-rsis-card {
-    flex-direction: row !important;
-    align-items: center !important;
-    gap: 14px !important;
-    padding: 15px 16px !important;
+/* ── Tarjeta de sistema — clon visual de .matern-submod-card ── */
+.rsis-sistema-card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 3px !important;
+    padding: 16px 14px 14px !important;
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 7%, rgba(255,255,255,0.03)) !important;
+    border: 1px solid color-mix(in srgb, var(--rsis-color, var(--moss)) 30%, transparent) !important;
+    border-radius: var(--r-md) !important;
     text-align: left !important;
-    min-height: 74px;
+    overflow: hidden;
+    transition: background 0.18s, border-color 0.18s, transform 0.15s !important;
 }
-/* Reposicionar orb al lado del ícono */
-.receta-rsis-card::before {
-    left: 30px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    width: 52px !important;
-    height: 52px !important;
-}
-.receta-rsis-card:hover::before  { transform: translateY(-50%) scale(1.3)  !important; }
-.receta-rsis-card.active::before { transform: translateY(-50%) scale(1.5)  !important; }
-
-/* Gradient overlay (como matern-nav-card) */
-.receta-rsis-card::after {
+.rsis-sistema-card::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, var(--rsis-color, var(--moss)) 0%, transparent 55%);
-    opacity: 0;
-    transition: opacity 0.25s;
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 10%, transparent);
     border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.18s;
     pointer-events: none;
-    z-index: 0;
 }
-.receta-rsis-card:hover::after  { opacity: 0.07; }
-.receta-rsis-card.active::after { opacity: 0.15; }
+/* Anular el orb original en este modo */
+.rsis-sistema-card::after { display: none !important; }
+.rsis-btn.rsis-sistema-card:hover::before  { opacity: 1; }
+.rsis-btn.rsis-sistema-card:hover {
+    border-color: color-mix(in srgb, var(--rsis-color, var(--moss)) 55%, transparent) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+}
+.rsis-btn.rsis-sistema-card.active {
+    border-color: color-mix(in srgb, var(--rsis-color, var(--moss)) 70%, transparent) !important;
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 14%, rgba(255,255,255,0.04)) !important;
+}
 
-/* Bloque de texto a la derecha del ícono */
-.rsis-meta {
+/* Ícono circular */
+.rsis-sc-ico {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 18%, rgba(0,0,0,0.4));
+    border: 1px solid color-mix(in srgb, var(--rsis-color, var(--moss)) 50%, transparent);
     display: flex;
-    flex-direction: column;
-    gap: 2px;
-    flex: 1;
-    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: color-mix(in srgb, var(--rsis-color, var(--moss)) 90%, #fff);
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+.rsis-sistema-card:hover .rsis-sc-ico {
+    transform: scale(1.08);
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--rsis-color, var(--moss)) 50%, transparent);
+}
+
+/* Textos */
+.rsis-sc-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
     position: relative;
     z-index: 1;
 }
-.receta-rsis-card .rsis-label {
-    font-size: 0.88rem !important;
-    font-weight: 700 !important;
-    line-height: 1.2;
+.rsis-sc-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: color-mix(in srgb, var(--rsis-color, var(--moss)) 85%, #fff);
+    margin-top: 4px;
+    position: relative;
+    z-index: 1;
 }
-.receta-rsis-card .rsis-desc {
-    font-size: 0.69rem !important;
-    line-height: 1.3;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.rsis-sc-desc {
+    font-size: 0.68rem;
+    color: var(--text-mute);
+    line-height: 1.4;
+    position: relative;
+    z-index: 1;
+    margin-top: 2px;
 }
-.rsis-count {
-    font-size: 0.67rem;
-    color: color-mix(in srgb, var(--rsis-color, var(--moss)) 80%, var(--text-mute));
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    margin-top: 1px;
+
+/* Flecha discreta en esquina */
+.rsis-sc-arrow {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 0.7rem;
+    color: color-mix(in srgb, var(--rsis-color, var(--moss)) 60%, transparent);
+    opacity: 0;
+    transition: opacity 0.18s;
 }
-.rsis-count i { font-size: 0.6rem; }
+.rsis-sistema-card:hover .rsis-sc-arrow { opacity: 1; }
 
 /* ── Responsive ── */
-@media (max-width: 960px) {
-    .receta-sistemas-grid.recetario-nav { grid-template-columns: repeat(3, 1fr); }
-}
 @media (max-width: 640px) {
     .receta-sistemas-grid.recetario-nav { grid-template-columns: repeat(2, 1fr); }
-    .receta-rsis-card { min-height: 62px; padding: 12px 14px !important; }
     .recipes-hero-stats { gap: 6px; font-size: 0.74rem; }
 }
 @media (max-width: 380px) {
