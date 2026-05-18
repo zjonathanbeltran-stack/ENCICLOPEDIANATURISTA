@@ -1840,7 +1840,7 @@ const CAT_VISUAL = {
 function thumbGrad(cat) {
     const v = CAT_VISUAL[cat];
     if (!v) return gradFromCat(cat);
-    return `radial-gradient(ellipse at 50% 20%, rgba(255,255,255,0.10) 0%, transparent 65%), linear-gradient(148deg, ${v.g[0]} 0%, ${v.g[1]} 100%)`;
+    return `linear-gradient(148deg, ${v.g[0]}cc 0%, ${v.g[1]}99 100%)`;
 }
 
 function thumbIcon(cat) {
