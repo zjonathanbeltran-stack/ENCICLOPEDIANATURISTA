@@ -706,9 +706,9 @@ function mostrarSubmodulos(sistemaId) {
     const titulo = document.getElementById('rsubTitulo');
     if (!panel || !chips) return;
     if (titulo) titulo.textContent = subData.label;
-    chips.innerHTML = subData.submods.map(sub => `
+    chips.innerHTML = subData.submods.map((sub, i) => `
         <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}"
-                style="--rsub-color:${sub.color || '#6a8a52'}">
+                style="--rsub-color:${sub.color || '#6a8a52'}; animation-delay:${(i * 0.35).toFixed(2)}s">
             <span class="rsub-emoji">${sub.emoji}</span>
             <span class="rsub-label">${sub.label}</span>
             ${sub.count ? `<span class="rsub-count">${sub.count} recetas</span>` : ''}

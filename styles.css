@@ -5604,6 +5604,16 @@ body.custom-cursor-on .cursor-ring { display: block; }
     gap: 10px;
     margin-top: 4px;
 }
+@keyframes rsub-border-pulse {
+    0%, 100% {
+        border-color: color-mix(in srgb, var(--rsub-color, var(--moss)) 28%, transparent);
+        box-shadow: 0 0 0 0 color-mix(in srgb, var(--rsub-color, var(--moss)) 0%, transparent);
+    }
+    50% {
+        border-color: color-mix(in srgb, var(--rsub-color, var(--moss)) 65%, transparent);
+        box-shadow: 0 0 12px 1px color-mix(in srgb, var(--rsub-color, var(--moss)) 30%, transparent);
+    }
+}
 .rsub-chip {
     display: grid;
     grid-template-areas:
@@ -5615,11 +5625,12 @@ body.custom-cursor-on .cursor-ring { display: block; }
     column-gap: 12px;
     row-gap: 3px;
     padding: 14px 16px;
-    background: rgba(255,255,255,0.06);
-    border: 1px solid var(--glass-border-hi);
+    background: color-mix(in srgb, var(--rsub-color, var(--moss)) 6%, rgba(14,19,9,0.45));
+    border: 1px solid color-mix(in srgb, var(--rsub-color, var(--moss)) 28%, transparent);
     border-radius: var(--r);
     cursor: pointer;
-    transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+    animation: rsub-border-pulse 3s ease-in-out infinite;
+    transition: background 0.2s, transform 0.15s;
     text-align: left;
     position: relative;
     overflow: hidden;
@@ -5634,8 +5645,9 @@ body.custom-cursor-on .cursor-ring { display: block; }
     transition: opacity 0.2s;
 }
 .rsub-chip:hover {
-    background: rgba(255,255,255,0.10);
-    border-color: var(--glass-border-hi);
+    background: color-mix(in srgb, var(--rsub-color, var(--moss)) 14%, rgba(14,19,9,0.60));
+    border-color: color-mix(in srgb, var(--rsub-color, var(--moss)) 70%, transparent);
+    animation-play-state: paused;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     transform: translateY(-2px);
 }
