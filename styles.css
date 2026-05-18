@@ -5362,10 +5362,9 @@ body.custom-cursor-on .cursor-ring { display: block; }
 /* ── RECETARIO — BUSCADOR POR SÍNTOMA ── */
 .receta-search-section {
     margin: 0 0 18px 0;
-    padding: 24px 28px 20px;
-    background: var(--bg-2);
-    border: 1px solid rgba(255,255,255,0.10);
-    border-radius: var(--r-xl);
+    padding: 4px 0 0;
+    background: transparent;
+    border: none;
 }
 .receta-search-wrap {
     display: flex;
