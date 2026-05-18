@@ -5285,8 +5285,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin-top: 6px;
 }
 .rsis-btn {
-    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 9%, var(--bg-deep));
-    border: 1px solid color-mix(in srgb, var(--rsis-color, var(--moss)) 28%, transparent);
+    background: color-mix(in srgb, var(--rsis-color, var(--moss)) 14%, var(--bg-deep));
+    border: 1px solid color-mix(in srgb, var(--rsis-color, var(--moss)) 45%, transparent);
     border-radius: var(--r);
     color: var(--text-soft);
     padding: 18px 8px 14px;
@@ -5417,7 +5417,7 @@ body.custom-cursor-on .cursor-ring { display: block; }
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, var(--rsub-color, #6a8a52) 0%, transparent 60%);
-    opacity: 0;
+    opacity: 0.06;
     transition: opacity 0.2s;
     border-radius: inherit;
 }
@@ -5701,6 +5701,60 @@ body.custom-cursor-on .cursor-ring { display: block; }
     opacity: 1;
     transform: translateX(0);
 }
+@media (hover: none) {
+    .rsearch-ver { opacity: 0.85; transform: translateX(0); }
+}
+
+/* ── Modo de preparación badge (thumb top-right) ── */
+.rsearch-modo-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 3px 7px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.12);
+    white-space: nowrap;
+    line-height: 1;
+}
+.rsearch-modo-infusion   { background: oklch(28% 0.08 85 / 0.85);  color: oklch(88% 0.10 85); }
+.rsearch-modo-decoccion  { background: oklch(26% 0.07 50 / 0.85);  color: oklch(84% 0.09 50); }
+.rsearch-modo-bano       { background: oklch(25% 0.07 220 / 0.85); color: oklch(83% 0.09 220); }
+.rsearch-modo-unguento   { background: oklch(24% 0.08 145 / 0.85); color: oklch(82% 0.10 145); }
+.rsearch-modo-jarabe     { background: oklch(28% 0.09 90 / 0.85);  color: oklch(88% 0.12 90); }
+.rsearch-modo-tintura    { background: oklch(24% 0.07 290 / 0.85); color: oklch(80% 0.09 290); }
+.rsearch-modo-cataplasma { background: oklch(25% 0.07 35 / 0.85);  color: oklch(82% 0.09 35); }
+.rsearch-modo-inhalacion { background: oklch(26% 0.06 200 / 0.85); color: oklch(82% 0.08 200); }
+.rsearch-modo-masaje     { background: oklch(25% 0.07 15 / 0.85);  color: oklch(81% 0.10 15); }
+.rsearch-modo-topico     { background: oklch(24% 0.07 160 / 0.85); color: oklch(80% 0.09 160); }
+.rsearch-modo-oral       { background: oklch(25% 0.08 130 / 0.85); color: oklch(82% 0.10 130); }
+.rsearch-modo-compresa   { background: oklch(25% 0.07 195 / 0.85); color: oklch(82% 0.08 195); }
+.rsearch-modo-otro       { background: oklch(22% 0.04 100 / 0.85); color: oklch(78% 0.05 100); }
+
+/* ── Origen / tradición badge (thumb bottom-right) ── */
+.rsearch-origen-badge {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 3px 7px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    line-height: 1;
+}
+.rsearch-origen-mapuche { background: oklch(26% 0.09 35 / 0.88); color: oklch(86% 0.10 55); border: 1px solid oklch(50% 0.10 45 / 0.4); }
+.rsearch-origen-chilota { background: oklch(24% 0.07 210 / 0.88); color: oklch(82% 0.08 210); border: 1px solid oklch(50% 0.09 210 / 0.4); }
+.rsearch-origen-popular { background: oklch(25% 0.07 130 / 0.88); color: oklch(80% 0.09 130); border: 1px solid oklch(48% 0.09 130 / 0.4); }
+
 .rsearch-ing {
     font-size: 0.78rem;
     color: var(--text-mute);
