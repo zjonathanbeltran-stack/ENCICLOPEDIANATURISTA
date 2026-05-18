@@ -887,14 +887,30 @@ function _rfRenderGrid(filtradas) {
         return;
     }
 
+    const MODO_KEYS = {
+        'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
+        'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
+        'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
+        'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
+    };
     grid.innerHTML = mostrar.map(r => {
         const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
         const props = (r.propiedades || []).slice(0, 3);
+        const modo = _normModo(r.modo_uso);
+        const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
+        const ft = (r.fuente_tradicion || r.origen || '').toLowerCase();
+        const origenTag = ft.includes('mapuche') ? 'mapuche'
+                        : (ft.includes('chilota') || ft.includes('chiloé') || ft.includes('chiloe')) ? 'chilota'
+                        : ft.includes('popular') ? 'popular'
+                        : null;
+        const origenLabel = origenTag === 'mapuche' ? 'Mapuche' : origenTag === 'chilota' ? 'Chilota' : origenTag === 'popular' ? 'Popular' : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
             <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
                 <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
                 <span class="rsearch-cat">${r.categoria}</span>
+                ${origenTag ? `<span class="rsearch-origen-badge rsearch-origen-${origenTag}">${origenLabel}</span>` : ''}
+                ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${uso
