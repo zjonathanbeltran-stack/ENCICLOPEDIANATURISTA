@@ -726,7 +726,7 @@ function mostrarSubmodulos(sistemaId) {
     if (titulo) titulo.textContent = subData.label;
     chips.innerHTML = subData.submods.map((sub, i) => `
         <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}"
-                style="--rsub-color:${sub.color || '#6a8a52'}; animation-delay:${(i * 0.35).toFixed(2)}s">
+                style="--rsub-color:${sub.color || '#6a8a52'}; --rsub-delay:${(i * 0.35).toFixed(2)}s">
             <span class="rsub-emoji">${sub.emoji}</span>
             <span class="rsub-label">${sub.label}</span>
             ${sub.count ? `<span class="rsub-count">${sub.count} recetas</span>` : ''}
@@ -1933,6 +1933,19 @@ function renderSearchHero() {
 // ════════════════════════════════════════════════════════════════════
 // PLANTAS
 // ════════════════════════════════════════════════════════════════════
+
+// Delegación única para clicks en tarjetas de plantas — evita 170+ listeners por render
+let _plantDelegationReady = false;
+function _setupPlantDelegation() {
+    if (_plantDelegationReady || !plantListDiv) return;
+    _plantDelegationReady = true;
+    plantListDiv.addEventListener('click', e => {
+        const favBtn = e.target.closest('.fav-btn');
+        if (favBtn) { e.stopPropagation(); toggleFavorito(parseInt(favBtn.dataset.id)); return; }
+        const card = e.target.closest('.plant-card');
+        if (card) abrirDetallePlanta(parseInt(card.dataset.id));
+    });
+}
 const plantListDiv = $('#plantList');
 
 function renderPlantas() {
@@ -2044,17 +2057,7 @@ function renderPlantas() {
         </div>
     `}).join('');
 
-    $$('.plant-card').forEach(card => {
-        const id = parseInt(card.dataset.id);
-        card.addEventListener('click', (e) => {
-            if (e.target.closest('.fav-btn')) return;
-            abrirDetallePlanta(id);
-        });
-        card.querySelector('.fav-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            toggleFavorito(id);
-        });
-    });
+    _setupPlantDelegation();
 
     applyReveal(plantListDiv);
 
