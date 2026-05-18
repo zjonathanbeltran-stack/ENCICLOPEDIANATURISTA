@@ -87,6 +87,8 @@ async function cargarRecetas() {
             if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
             renderCategoriasChips();
             actualizarChipCounts();
+            const heroTotal = document.getElementById('recHeroTotal');
+            if (heroTotal && recetasDB.length) heroTotal.textContent = recetasDB.length.toLocaleString('es-CL');
             return true;
         } catch (e) {
             console.error(e);
@@ -604,12 +606,14 @@ function renderSistemasBusqueda() {
     const cont = document.getElementById('recetaSistemas');
     if (!cont) return;
     cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
-        <button class="rsis-btn" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
+        <button class="rsis-btn receta-rsis-card" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
             <span class="rsis-ico">${s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`}</span>
-            <span class="rsis-label">${s.label}</span>
-            <span class="rsis-desc">${s.desc}</span>
-        </button>
-    `).join('');
+            <span class="rsis-meta">
+                <span class="rsis-label">${s.label}</span>
+                <span class="rsis-desc">${s.desc}</span>
+            </span>
+        </button>`
+    ).join('');
 }
 
 function renderCategoriasChips() {
