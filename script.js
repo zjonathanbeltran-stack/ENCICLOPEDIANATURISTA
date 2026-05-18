@@ -979,8 +979,8 @@ function _rfRenderGrid(filtradas) {
             : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}">
-            <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
-                <span class="rsearch-thumb-svg">${ilustracionDeReceta(r)}</span>
+            <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
                 <span class="rsearch-cat">${r.categoria}</span>
                 ${nuevaBadge}
             </div>
@@ -1794,6 +1794,56 @@ const $$ = (sel) => document.querySelectorAll(sel);
 function gradFromCat(cat) {
     const sis = sistemaDeCategoria(cat);
     return sis ? sis.gradient : 'var(--grad-defensas)';
+}
+
+const CAT_VISUAL = {
+    'Digestivo':        { icon: 'fa-mug-hot',          g: ['#1c3d20','#4a8a3a'] },
+    'Hepático':         { icon: 'fa-flask',             g: ['#3d2e00','#8a6818'] },
+    'Diarrea':          { icon: 'fa-droplet',           g: ['#0a3020','#2a7050'] },
+    'Antiparasitario':  { icon: 'fa-shield-halved',     g: ['#1a3810','#4a7a30'] },
+    'Respiratorio':     { icon: 'fa-lungs',             g: ['#0d3a5a','#2a7aaa'] },
+    'Resfriados':       { icon: 'fa-head-side-cough',   g: ['#0a2a4a','#1a5a8a'] },
+    'Expectorante':     { icon: 'fa-wind',              g: ['#0a2840','#1a6090'] },
+    'Tos':              { icon: 'fa-lungs-virus',       g: ['#0a2535','#1a5a70'] },
+    'Garganta':         { icon: 'fa-stethoscope',       g: ['#103040','#2a7080'] },
+    'Cardiovascular':   { icon: 'fa-heart-pulse',       g: ['#4a0a15','#b02a3a'] },
+    'Nervioso':         { icon: 'fa-brain',             g: ['#2a1045','#6a35a0'] },
+    'Sedante':          { icon: 'fa-moon',              g: ['#0d0a25','#3a2880'] },
+    'Analgésico':       { icon: 'fa-pills',             g: ['#3a1008','#9a3515'] },
+    'Memoria':          { icon: 'fa-brain',             g: ['#200a3a','#5a2090'] },
+    'Antiinflamatorio': { icon: 'fa-fire-flame-curved', g: ['#3a1500','#b04a10'] },
+    'Febrífugo':        { icon: 'fa-thermometer',       g: ['#4a0808','#c02020'] },
+    'Dermatológico':    { icon: 'fa-hand',              g: ['#4a2a0a','#a07020'] },
+    'Cicatrizante':     { icon: 'fa-bandage',           g: ['#3a2008','#907030'] },
+    'Antifúngico':      { icon: 'fa-virus-slash',       g: ['#0a2520','#1a6050'] },
+    'Renal':            { icon: 'fa-droplet',           g: ['#0a2040','#1a5080'] },
+    'Diurético':        { icon: 'fa-water',             g: ['#0a2a50','#1a5a9a'] },
+    'Ginecológico':     { icon: 'fa-venus',             g: ['#3a0820','#9a2a5a'] },
+    'Pediátrico':       { icon: 'fa-baby',              g: ['#251040','#6a3598'] },
+    'Medicina Mapuche': { icon: 'fa-mountain-sun',      g: ['#1e1005','#6a4015'] },
+    'Espiritual':       { icon: 'fa-star',              g: ['#100518','#4a1868'] },
+    'Energizante':      { icon: 'fa-bolt',              g: ['#3a2a00','#a07800'] },
+    'Nutritivo':        { icon: 'fa-apple-whole',       g: ['#1a3008','#4a8020'] },
+    'Alimenticio':      { icon: 'fa-utensils',          g: ['#2a2805','#6a6815'] },
+    'Dental':           { icon: 'fa-tooth',             g: ['#0a2535','#1a6080'] },
+    'Cabello':          { icon: 'fa-spa',               g: ['#102510','#2a6a30'] },
+    'Cosmético':        { icon: 'fa-gem',               g: ['#250535','#602090'] },
+    'Baño':             { icon: 'fa-bath',              g: ['#0a1a30','#1a4a7a'] },
+    'Oftalmológico':    { icon: 'fa-eye',               g: ['#082a28','#1a7070'] },
+    'Oídos':            { icon: 'fa-volume-high',       g: ['#3a2008','#886020'] },
+    'Alergia':          { icon: 'fa-shield',            g: ['#2a2000','#7a6a10'] },
+    'Reumatismo':       { icon: 'fa-bone',              g: ['#302010','#806040'] },
+    'General':          { icon: 'fa-leaf',              g: ['#102010','#305030'] },
+};
+
+function thumbGrad(cat) {
+    const v = CAT_VISUAL[cat];
+    if (!v) return gradFromCat(cat);
+    return `radial-gradient(ellipse at 50% 20%, rgba(255,255,255,0.10) 0%, transparent 65%), linear-gradient(148deg, ${v.g[0]} 0%, ${v.g[1]} 100%)`;
+}
+
+function thumbIcon(cat) {
+    return (CAT_VISUAL[cat] || {}).icon || 'fa-leaf';
 }
 
 // Vincular receta con plantas mencionadas en sus ingredientes
@@ -2689,11 +2739,8 @@ function abrirDetalleReceta(id) {
     const _fotoUrl = fotoDeReceta(r);
     const _esNueva = r.id >= NUEVO_DESDE_ID;
     $('#modalBody').innerHTML = `
-        <div class="modal-art modal-art-receta" style="background:${gradFromCat(r.categoria)}">
-            <img class="modal-receta-foto" src="${_fotoUrl}" alt="${r.modo_uso || ''}"
-                 loading="eager" decoding="async"
-                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="illus illus-lg modal-receta-svg" style="display:none">${ilustracionDeReceta(r)}</div>
+        <div class="modal-art modal-art-receta" style="background:${thumbGrad(r.categoria)}">
+            <i class="fas ${thumbIcon(r.categoria)} modal-receta-icon"></i>
             <div class="modal-receta-overlay"></div>
             <div class="modal-receta-header-badges">
                 <span class="receta-cat-pill receta-cat-pill-hero">${r.categoria}</span>

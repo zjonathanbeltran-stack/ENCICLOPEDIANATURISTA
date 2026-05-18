@@ -1004,24 +1004,18 @@ header {
 /* Modal receta con foto de preparación */
 .modal-art-receta {
     animation: none;
-    background: #060e04 !important;
-    aspect-ratio: 3/2;   /* más alto que el banner 5:2 de plantas */
-}
-.modal-receta-foto {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 35%;
-    transition: opacity 0.5s;
-    filter: brightness(0.88) contrast(1.08) saturate(0.9);
-}
-.modal-receta-svg {
-    position: absolute;
-    inset: 0;
+    aspect-ratio: 3/2;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+.modal-receta-icon {
+    font-size: 8rem;
+    color: rgba(255,255,255,0.14);
+    filter: drop-shadow(0 0 48px rgba(255,255,255,0.10));
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
 }
 .modal-receta-overlay {
     position: absolute;
@@ -5900,32 +5894,25 @@ body.custom-cursor-on .cursor-ring { display: block; }
 }
 .rsearch-thumb {
     position: relative;
-    height: 130px;
+    height: 140px;
     overflow: hidden;
-}
-.rsearch-thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s var(--ease-out), opacity 0.2s;
-}
-.rsearch-card:hover .rsearch-thumb img { transform: scale(1.06); }
-/* SVG illustrations inline */
-.rsearch-thumb-svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    color: rgba(255,255,255,0.82);
 }
-.rsearch-thumb-svg svg {
-    width: 88%;
-    height: 88%;
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
-    transition: transform 0.3s var(--ease-out);
+.rsearch-thumb-icon {
+    font-size: 5.2rem;
+    color: rgba(255,255,255,0.16);
+    pointer-events: none;
+    transition: transform 0.4s var(--ease-out), color 0.3s;
+    filter: drop-shadow(0 0 28px rgba(255,255,255,0.14));
+    position: relative;
+    z-index: 1;
 }
-.rsearch-card:hover .rsearch-thumb-svg svg { transform: scale(1.06); }
+.rsearch-card:hover .rsearch-thumb-icon {
+    color: rgba(255,255,255,0.28);
+    transform: scale(1.14) rotate(-6deg);
+}
 .rsearch-cat {
     position: absolute;
     bottom: 8px;
