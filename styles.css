@@ -9344,3 +9344,52 @@ header.plants-tab-header {
 }
 .receta-submodulos-panel { animation: slideFromRight 0.24s ease !important; }
 .receta-dolencias-panel  { animation: slideFromRight 0.24s ease !important; }
+
+/* ══════════════════════════════════════════════════════════
+   PLANTAS — Color por sistema, borde animado, chips
+   ══════════════════════════════════════════════════════════ */
+
+/* Borde animado con color del sistema de cada planta */
+@keyframes plant-border-pulse {
+    0%, 100% {
+        border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 22%, transparent);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    }
+    50% {
+        border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 62%, transparent);
+        box-shadow: 0 4px 24px rgba(0,0,0,0.35), 0 0 14px color-mix(in srgb, var(--plant-color, var(--moss)) 28%, transparent);
+    }
+}
+.plant-card {
+    background: color-mix(in srgb, var(--plant-color, var(--moss)) 5%, rgba(12,16,9,0.78)) !important;
+    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 22%, transparent) !important;
+    animation: plant-border-pulse 3.5s ease-in-out infinite;
+    transition: transform 0.22s ease, box-shadow 0.22s ease !important;
+}
+.plant-card:hover {
+    animation-play-state: paused;
+    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 70%, transparent) !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.45), 0 0 18px color-mix(in srgb, var(--plant-color, var(--moss)) 30%, transparent) !important;
+}
+
+/* Chips de filtro mejorados */
+.chip {
+    background: rgba(255,255,255,0.06) !important;
+    border-color: rgba(255,255,255,0.12) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.15s !important;
+}
+.chip:hover {
+    background: color-mix(in srgb, var(--moss-bright) 12%, rgba(14,19,9,0.7)) !important;
+    border-color: color-mix(in srgb, var(--moss-bright) 45%, transparent) !important;
+    color: var(--moss-bright) !important;
+    transform: translateY(-2px) !important;
+}
+.chip.active {
+    background: color-mix(in srgb, var(--moss-bright) 18%, rgba(14,19,9,0.88)) !important;
+    border-color: var(--moss-bright) !important;
+    color: var(--moss-bright) !important;
+    font-weight: 600 !important;
+    box-shadow: 0 0 10px color-mix(in srgb, var(--moss-bright) 30%, transparent) !important;
+}

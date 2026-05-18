@@ -491,6 +491,24 @@ const SISTEMAS_BUSQUEDA = [
       </svg>` },
 ];
 
+// Mapa de color por sistema — para tarjetas de plantas
+const SISTEMA_COLOR = {
+    'digestivo':             '#6a8a52',
+    'hepatobiliar':          '#a08a42',
+    'respiratorio':          '#5b8aa0',
+    'nervioso':              '#8a6aaa',
+    'neurológico':           '#8a6aaa',
+    'cardiovascular':        '#c97b56',
+    'dermatológico':         '#c9a84c',
+    'musculoesquelético':    '#a06a5b',
+    'renal':                 '#5a8a9a',
+    'inmunológico':          '#7a9ab8',
+    'endocrino-metabólico':  '#b8a030',
+    'ginecológico':          '#c9679a',
+    'oftalmológico':         '#6a9aaa',
+    'mapuche':               '#5a7a4a',
+};
+
 // ── Sub-módulos por sistema — 3 niveles: sistema → sub-módulo → condición ──
 // Sub-módulos con "file" cargan directo su JSON de condición (resultados precisos).
 // Sub-módulos con "condiciones" muestran chips de dolencia (búsqueda por keywords).
@@ -1978,9 +1996,12 @@ function renderPlantas() {
 
     const mesActual = new Date().getMonth() + 1;
     const notasGuardadas = JSON.parse(localStorage.getItem('plantNotas') || '{}');
-    plantListDiv.innerHTML = getSortedPlantas(filtradas).map(p => {
+    const sortedParaRender = getSortedPlantas(filtradas);
+    plantListDiv.innerHTML = sortedParaRender.map((p, i) => {
         const enTemporada = p.meses && p.meses.includes(mesActual);
         const usoCorto = (p.usos || '').split('.')[0];
+        const sistColor = (p.sistemas || []).map(s => SISTEMA_COLOR[s]).find(Boolean) || '#6a8a52';
+        const cardDelay = (i % 8 * 0.3).toFixed(2);
         const tieneNota = !!notasGuardadas[p.id];
         const placeholderContent = p.emoji
             ? `<span class="placeholder-emoji">${p.emoji}</span>`
@@ -1999,7 +2020,7 @@ function renderPlantas() {
                 ? '<span class="badge matern-badge lac-ok" title="Galactogoga — favorece la leche">🍼✅</span>'
                 : '';
         return `
-        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}">
+        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}" style="--plant-color:${sistColor}; animation-delay:${cardDelay}s">
             <div class="plant-img-wrap">
                 ${p.imagen
                     ? `<img src="${p.imagen}" alt="${p.nombre}" class="plant-img" loading="lazy" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">`
