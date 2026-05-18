@@ -611,14 +611,12 @@ function renderSistemasBusqueda() {
         const count   = subData ? subData.submods.reduce((n, sub) => n + (sub.count || 0), 0) : null;
         const ico     = s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`;
         return `
-        <button class="rsis-btn rsis-lista-card" data-sistema="${s.id}" style="--rsis-color:${s.color}">
-            <span class="rsis-lc-ico">${ico}</span>
-            <span class="rsis-lc-body">
-                <span class="rsis-lc-label">${s.label}</span>
-                ${count ? `<span class="rsis-lc-count">${count} recetas</span>` : ''}
-                <span class="rsis-lc-desc">${s.desc}</span>
-            </span>
-            <i class="fas fa-chevron-right rsis-lc-arrow"></i>
+        <button class="rsis-btn rsis-sist-card" data-sistema="${s.id}" style="--rsis-color:${s.color}">
+            <span class="rsis-sist-ico">${ico}</span>
+            <span class="rsis-sist-label">${s.label}</span>
+            ${count ? `<span class="rsis-sist-count">${count} recetas</span>` : ''}
+            <span class="rsis-sist-desc">${s.desc}</span>
+            <i class="fas fa-chevron-right rsis-sist-arrow"></i>
         </button>`;
     }).join('');
 }
