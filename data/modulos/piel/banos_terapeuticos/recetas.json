@@ -12,7 +12,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -42,7 +42,9 @@
         "matico",
         "canelo",
         "eucalipto"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 37,
@@ -54,7 +56,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -85,7 +87,9 @@
         "lavanda",
         "manzanilla",
         "matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 48,
@@ -97,7 +101,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -126,7 +130,9 @@
         "descongestionante",
         "antiinflamatorio",
         "sedante"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 62,
@@ -168,7 +174,9 @@
         "caléndula",
         "matico",
         "llantén"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 71,
@@ -180,7 +188,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -209,7 +217,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 88,
@@ -221,7 +231,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -250,7 +260,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 100,
@@ -262,7 +274,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -291,7 +303,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 158,
@@ -332,7 +346,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 164,
@@ -344,7 +360,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -374,7 +390,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 169,
@@ -414,7 +432,9 @@
         "descongestionante",
         "antiinflamatorio",
         "sedante"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 173,
@@ -426,7 +446,7 @@
       "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
       "modo_uso": "Externo — baño de inmersión o lavado corporal",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 baño completo",
       "conservacion": "Preparar al momento; no reutilizar el agua",
       "evidencia": "Saber ancestral",
@@ -455,7 +475,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 174,
@@ -496,7 +518,51 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
+    },
+    {
+      "id": 439,
+      "titulo": "Baño de Avena para Dermatitis",
+      "categoria": "Dermatológico",
+      "origen": "Herbolaria Natural",
+      "ingredientes": "2 tazas de avena en hojuelas, tela de muselina o bolsita de tela",
+      "preparacion": "Moler la avena en procesador. Llenar la bolsita y atar. Sumergir en baño de agua tibia. Exprimir durante el baño.",
+      "dosis": "Baño de 20 min una vez al día",
+      "modo_uso": "Agua tibia, no caliente; no restregar la piel",
+      "tiempo_prep": "5 min de preparación",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria natural y cosmética",
+      "contraindicaciones": "Generalmente seguro; muy raro que cause alergia a avena",
+      "uso": "Dermatitis. Tratamiento dermatológico.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+      "propiedades": [
+        "antiinflamatorio",
+        "cicatrizante",
+        "antimicrobiano",
+        "emoliente"
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 983,
@@ -538,7 +604,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 984,
@@ -579,7 +647,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 985,
@@ -619,7 +689,9 @@
         "descongestionante",
         "antiinflamatorio",
         "sedante"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 986,
@@ -660,7 +732,9 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 987,
@@ -702,7 +776,93 @@
         "Lavanda",
         "Romero",
         "Salvia"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
+    },
+    {
+      "id": 1064,
+      "titulo": "Bano de Vapor con Nocha para Dolores Musculares (Mapun Lawen Pewenche)",
+      "categoria": "Baño",
+      "origen": "Mapuche Pewenche (Alto Biobio, Ralco, Quinquen)",
+      "ingredientes": "1 manojo grande (500 g aprox.) de hojas frescas de Nocha (Fascicularia bicolor o Bromelia sp.); 1 manojo de ramas de Quila (Chusquea quila); 10 piedras medianas de rio; 5 litros de agua",
+      "preparacion": "1. Calentar las piedras de rio en fogon a fuego intenso durante 40 minutos. 2. Preparar ruka improvisada (tienda de vapor) con mantas sobre estructura de quila formando una camara cerrada. 3. Introducir las piedras calientes en recipiente dentro de la camara. 4. Verter el agua de a poco sobre las piedras calientes para generar vapor. 5. Colocar las hojas de nocha sobre las piedras humedas (el vapor arrastrara sus aceites). 6. El paciente entra a la camara de vapor cubierto. Sesion de 15-20 minutos.",
+      "dosis": "Una sesion de 20 minutos, 2-3 veces por semana durante periodos de dolor agudo. Beber agua fresca despues de cada sesion.",
+      "modo_uso": "Bano de vapor (inhalacion y absorcion cutanea)",
+      "tiempo_prep": "60 min (incluyendo calentamiento de piedras)",
+      "dificultad": "Difícil",
+      "rendimiento": "1 sesion de vapor",
+      "conservacion": "No aplica (preparacion de uso inmediato)",
+      "evidencia": "Tecnica del ruka lawen (casa de la medicina) documentada en etnobotanica pewenche por el MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. Las bromeliáceas contienen saponinas triterpenicas con propiedades antiinflamatorias.",
+      "fuente_tradicion": "Mapuche Pewenche",
+      "contraindicaciones": "Contraindicado en hipertension arterial no controlada, enfermedades cardiovasculares agudas, epilepsia. No usar en embarazo avanzado (tercer trimestre). Evitar si hay fiebre activa. Acompanar siempre con persona de confianza por riesgo de mareo.",
+      "uso": "Tratamiento de dolores musculares, contracturas, reumatismo y fatiga profunda. Los pewenche lo usan especialmente para los peones y arrieros que trabajan en la cordillera. El vapor con nocha relaja la musculatura y abre los poros facilitando la eliminacion de toxinas.",
+      "principios_activos": "Saponinas esteroidas (nocha); acido silicico (quila); vapor de agua como vehiculo termoterapeutico",
+      "propiedades": [
+        "analgesico",
+        "relajante muscular",
+        "antiinflamatorio",
+        "diaforetico"
+      ],
+      "referencias": "MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. Gobierno de Chile. / Munoz-Schick M. (1973) Flores de Chile. Editorial Universitaria.",
+      "indicaciones_principales": [
+        "Tensión muscular generalizada",
+        "Estrés y fatiga física",
+        "Dolor articular difuso",
+        "Relajación y bienestar"
+      ],
+      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
+      "sinergia_plantas": [
+        "Lavanda",
+        "Romero",
+        "Salvia"
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
+    },
+    {
+      "id": 1072,
+      "titulo": "Bano de Luche y Sal de Mar para Eczema y Psoriasis Lafkenche",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche Lafkenche (costa entre Lebu y Carahue)",
+      "ingredientes": "300 g de luche fresco (Porphyra columbina / wutre en mapudungun) o 100 g seco; 500 g de sal de mar gruesa; 5 litros de agua de mar (o agua dulce con 100 g sal de mar)",
+      "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
+      "dosis": "Bano diario durante la primera semana; luego 3 veces por semana. Mantener 3-4 semanas.",
+      "modo_uso": "Bano topico (talasoterapia)",
+      "tiempo_prep": "40 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 bano por preparacion",
+      "conservacion": "No aplica (preparacion de uso inmediato)",
+      "evidencia": "La Porphyra columbina contiene ficobilinas, porfiranos sulfatados y phycobiliproteinas con potente actividad antiinflamatoria y regeneradora de la piel. La talasoterapia con algas es reconocida por la medicina integrativa para condiciones inflamatorias cronicas de la piel.",
+      "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004)",
+      "contraindicaciones": "No usar en piel con heridas abiertas o infectadas activamente. Personas con alergia al yodo deben hacer prueba previa. El agua de mar no pasteurizada puede contener bacterias: usar sal de mar comercial en agua dulce caliente.",
+      "uso": "Tratamiento de eczema atopico, psoriasis, dermatitis seborreica y piel seca. Los lafkenche aplican el conocimiento del mar (lof lafken: comunidad del mar) en su medicina dermica: el luche abre los poros y los polisacaridos forman una pelicula protectora e hidratante que calma el prurito.",
+      "principios_activos": "Porfiranos sulfatados; ficoeritrina (fitobilina); taurina; vitaminas del grupo B; yodo organico; cloruro de sodio",
+      "propiedades": [
+        "antiinflamatorio",
+        "antipruriginoso",
+        "hidratante",
+        "regenerador cutaneo"
+      ],
+      "referencias": "Ortiz J. et al. (2009) Propiedades de Porphyra columbina de la costa sur de Chile. Bot Mar. / Villagran C. (2004) Botanica y Botanicos de Chile. Museo de Historia Natural.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 1147,
@@ -744,7 +904,9 @@
         "manzanilla",
         "rosa",
         "pasiflora"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
     },
     {
       "id": 1171,
@@ -755,7 +917,7 @@
       "preparacion": "Hervir 1 litro de agua con lavanda, tilo y melisa 15 minutos. Colar. Verter en tina de baño con agua tibia. Añadir saco de avena y sales. Sumergirse 20-30 minutos.",
       "dosis": "2-3 veces por semana",
       "modo_uso": "Baño completo",
-      "tiempo_prep": "30 minutos",
+      "tiempo_prep": "30 min",
       "dificultad": "Fácil",
       "rendimiento": "1 baño",
       "conservacion": "Preparar fresco",
@@ -787,7 +949,125 @@
       "sinergia_plantas": [
         "manzanilla",
         "pasiflora"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos"
+    },
+    {
+      "id": 1414,
+      "titulo": "Baño de Lavanda para Relajar la Tensión Muscular",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "Un puñado de flores secas de lavanda (aproximadamente 50 g), 2 litros de agua para infusión, agua tibia para el baño",
+      "preparacion": "Hervir los 2 litros de agua y retirar del fuego. Agregar las flores de lavanda, tapar y dejar reposar 20 minutos. Colar y verter la infusión en la bañera con agua tibia. Sumergirse durante 15 a 20 minutos.",
+      "dosis": "1 baño por la noche, máximo 1 vez al día. Usar por períodos de hasta 2 semanas seguidas.",
+      "modo_uso": "Tópico — baño de inmersión",
+      "tiempo_prep": "30 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Usar la infusión inmediatamente. No conservar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de heridas abiertas, infecciones cutáneas extensas o alergia a la lavanda. Evitar en hipotensión severa (el baño caliente puede bajar más la presión). No usar durante el embarazo sin consultar.",
+      "uso": "Tensión muscular, estrés y cansancio acumulado: el aroma de la lavanda calma la mente y los músculos, ayudando a soltar la rigidez del cuerpo y la sensación de agobio.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "miorrelajante",
+        "calmante",
+        "antiséptico suave"
+      ],
+      "principios_activos": "Linalol y acetato de linalilo (aceite esencial de lavanda): acción ansiolítica por modulación de canales de calcio voltaje-dependientes y receptores NMDA, produciendo relajación a nivel del sistema nervioso central.",
+      "referencias": "Donelli D et al. Effects of lavender on anxiety: A systematic review. 2019. PMID: 31655395; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1415,
+      "titulo": "Baño de Tilo y Melisa para la Ansiedad y el Insomnio",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "50 g de flores de tilo, 30 g de hojas de melisa, 3 litros de agua",
+      "preparacion": "Hervir los 3 litros de agua. Retirar del fuego y añadir el tilo y la melisa. Tapar y dejar en infusión 20 minutos. Colar y verter en la bañera con agua tibia. Sumergirse durante 20 minutos antes de ir a la cama.",
+      "dosis": "1 baño por la noche, máximo 4 veces por semana. Usar por ciclos de 2 semanas.",
+      "modo_uso": "Tópico — baño de inmersión",
+      "tiempo_prep": "30 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Usar la infusión inmediatamente. No conservar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de heridas abiertas, hipotensión severa o alergia a las plantas utilizadas. Evitar en el embarazo sin consultar. No usar en niños menores de 6 años por riesgo de ahogamiento. Precaución con la temperatura del agua.",
+      "uso": "Insomnio, ansiedad y tensión acumulada: el baño tibio relaja los músculos y el aroma de las flores calma la mente, preparando el cuerpo para un sueño profundo y reparador.",
+      "propiedades": [
+        "sedante",
+        "inductor del sueño",
+        "ansiolítico",
+        "miorrelajante",
+        "calmante"
+      ],
+      "principios_activos": "Farnesol y mucílagos (tilo): acción ansiolítica y relajante sobre el sistema nervioso. Citral y ácido rosmarínico (melisa): potencian el efecto sedante, reduciendo la actividad del sistema nervioso simpático.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Tilia spp. y Melissa officinalis."
+    },
+    {
+      "id": 1416,
+      "titulo": "Baño de Manzanilla y Avena para Pieles Irritadas",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos",
+      "origen": "Popular Chileno",
+      "ingredientes": "Un puñado de flores de manzanilla (aproximadamente 30 g), 1 taza de copos de avena envueltos en una gasa o bolsita de tela, 2 litros de agua",
+      "preparacion": "Hervir el agua y verter sobre la manzanilla. Añadir la bolsita de avena. Tapar y dejar reposar 20 minutos. Colar la infusión y exprimir bien la bolsita de avena para liberar el líquido lechoso. Verter en la bañera con agua tibia y sumergirse durante 15-20 minutos.",
+      "dosis": "1 baño al día durante brotes de irritación cutánea. Máximo 5 días seguidos.",
+      "modo_uso": "Tópico — baño de inmersión",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Usar la infusión inmediatamente. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a la manzanilla o a la avena. Evitar en niños menores de 6 meses sin consultar al pediatra. No usar si hay heridas abiertas extensas.",
+      "uso": "Pieles irritadas, eccemas, dermatitis del pañal o varicela: la manzanilla desinflama y calma la picazón, mientras la avena forma una capa protectora que hidrata y suaviza la piel.",
+      "propiedades": [
+        "calmante",
+        "antiinflamatorio",
+        "antipruriginoso",
+        "hidratante",
+        "emoliente"
+      ],
+      "principios_activos": "Bisabolol y camazuleno (manzanilla): inhiben la liberación de histamina de los mastocitos y tienen acción antiinflamatoria local. Beta-glucanos (avena): forman una película protectora que retiene la humedad y calma la irritación.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+    },
+    {
+      "id": 1417,
+      "titulo": "Baño de Romero y Laurel para Activar la Circulación",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "banos_terapeuticos",
+      "origen": "Popular Chileno",
+      "ingredientes": "Un puñado de romero fresco (aproximadamente 30 g), 5 hojas de laurel, 2 litros de agua para infusión, agua caliente para el baño",
+      "preparacion": "Hervir los 2 litros de agua con el romero y el laurel durante 10 minutos a fuego lento. Dejar reposar 10 minutos y colar. Verter la infusión en la bañera con agua caliente. Sumergirse durante 15-20 minutos.",
+      "dosis": "1 baño por la mañana o al mediodía, 2 a 3 veces por semana.",
+      "modo_uso": "Tópico — baño de inmersión",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Usar la infusión inmediatamente. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de heridas abiertas o piel irritada. Evitar en el embarazo sin consultar. No usar en niños menores de 12 años sin supervisión. Precaución con la temperatura del agua.",
+      "uso": "Mala circulación, piernas cansadas y sensación de frío: el romero y el laurel activan la circulación sanguínea, calientan el cuerpo y alivian la sensación de pesadez en las piernas.",
+      "propiedades": [
+        "vasodilatador",
+        "calentador",
+        "miorrelajante",
+        "analgésico",
+        "descongestionante"
+      ],
+      "principios_activos": "Ácido rosmarínico y 1,8-cineol (romero): acción vasodilatadora periférica que mejora la microcirculación. Aceite esencial de laurel (eugenol, cineol): efecto analgésico y calentador sobre músculos y articulaciones.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Rosmarinus officinalis."
     }
   ]
 }

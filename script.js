@@ -7,6 +7,9 @@ let plantasDB = [];
 let recetasDB = [];
 let favoritos = JSON.parse(localStorage.getItem('favoritos') || '[]');
 
+// IDs ≥ este valor son recetas añadidas recientemente (badge "Nueva")
+const NUEVO_DESDE_ID = 1350;
+
 // ── Módulos de recetas (carga lazy) ──
 const MODULO_MAP = {
     mapuche:        { file: 'data/modulos/mapuche.json',        cats: ['Medicina Mapuche','Espiritual'] },
@@ -60,8 +63,14 @@ async function cargarModulo(moduloId) {
 
 async function asegurarCatalogoCompleto() {
     if (recetasDB.length > 0) return;
-    const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
-    recetasDB = todos.flat();
+    try {
+        const res = await fetch('data/recetas.json');
+        if (!res.ok) throw new Error('recetas.json no disponible');
+        recetasDB = await res.json();
+    } catch (_) {
+        const todos = await Promise.all(Object.keys(MODULO_MAP).map(id => cargarModulo(id)));
+        recetasDB = todos.flat();
+    }
     window.recetasDB = recetasDB;
 }
 
@@ -78,6 +87,8 @@ async function cargarRecetas() {
             if (grid) { grid.classList.remove('skeleton-grid'); delete grid.dataset.skeleton; }
             renderCategoriasChips();
             actualizarChipCounts();
+            const heroTotal = document.getElementById('recHeroTotal');
+            if (heroTotal && recetasDB.length) heroTotal.textContent = recetasDB.length.toLocaleString('es-CL');
             return true;
         } catch (e) {
             console.error(e);
@@ -369,26 +380,26 @@ const SISTEMAS_DOL = [
 
 const DOLENCIAS = [
     // RENAL
-    { id:'piedras-rinon',       nombre:'Piedras en los riñones',           emoji:'🫘', sistema:'renal',         keywords:['riñon','renal','litiasis','calculo','diuretico','orina','vejiga'],                    cats:['Renal'] },
-    { id:'infeccion-urinaria',  nombre:'Infección urinaria',               emoji:'🔬', sistema:'renal',         keywords:['cistitis','urinaria','orina','diuretico','vejiga','antibacteriano'],                  cats:['Renal'] },
-    { id:'retencion-liquidos',  nombre:'Retención de líquidos',            emoji:'💧', sistema:'renal',         keywords:['retencion','edema','diuretico','inflamacion','liquido'],                             cats:['Renal','Cardiovascular'] },
+    { id:'piedras-rinon',       nombre:'Piedras en los riñones',           emoji:'🫘', sistema:'renal',         keywords:['riñon','renal','litiasis','calculo','diuretico','orina','vejiga'],                    cats:['Renal','Diurético'] },
+    { id:'infeccion-urinaria',  nombre:'Infección urinaria',               emoji:'🔬', sistema:'renal',         keywords:['cistitis','urinaria','orina','diuretico','vejiga','antibacteriano'],                  cats:['Renal','Diurético','Antifúngico'] },
+    { id:'retencion-liquidos',  nombre:'Retención de líquidos',            emoji:'💧', sistema:'renal',         keywords:['retencion','edema','diuretico','inflamacion','liquido'],                             cats:['Renal','Cardiovascular','Diurético'] },
     // DIGESTIVO
     { id:'gastritis',           nombre:'Gastritis',                         emoji:'🫃', sistema:'digestivo',     keywords:['gastritis','estomago','gastrico','mucosa','acidez'],                                 cats:['Digestivo'] },
     { id:'acidez',              nombre:'Acidez / Reflujo',                  emoji:'🔥', sistema:'digestivo',     keywords:['acidez','reflujo','estomago','gastrico','ardor','antiacido'],                         cats:['Digestivo'] },
     { id:'estrenimiento',       nombre:'Estreñimiento',                     emoji:'🪨', sistema:'digestivo',     keywords:['estrenimiento','laxante','intestino','transito','digestivo'],                         cats:['Digestivo'] },
-    { id:'diarrea',             nombre:'Diarrea',                           emoji:'💫', sistema:'digestivo',     keywords:['diarrea','astringente','intestino','antidiarreico','colon'],                          cats:['Digestivo'] },
+    { id:'diarrea',             nombre:'Diarrea',                           emoji:'💫', sistema:'digestivo',     keywords:['diarrea','astringente','intestino','antidiarreico','colon'],                          cats:['Digestivo','Diarrea'] },
     { id:'colitis',             nombre:'Colitis / Colon irritable',         emoji:'🌀', sistema:'digestivo',     keywords:['colitis','colon','intestino','inflamacion','espasmo'],                               cats:['Digestivo'] },
     { id:'nauseas',             nombre:'Náuseas y vómitos',                 emoji:'🤢', sistema:'digestivo',     keywords:['nausea','vomito','mareo','estomago','antiemetico'],                                   cats:['Digestivo','Ginecológico'] },
     { id:'gases',               nombre:'Gases y flatulencias',              emoji:'💨', sistema:'digestivo',     keywords:['gas','flatulencia','carminativo','hinchado'],                                        cats:['Digestivo'] },
-    { id:'parasitos',           nombre:'Parásitos intestinales',            emoji:'🦠', sistema:'digestivo',     keywords:['parasito','lombriz','antiparasitario','antihelmint'],                                cats:['Digestivo'] },
-    { id:'higado',              nombre:'Problemas del hígado / Vesícula',   emoji:'🍃', sistema:'digestivo',     keywords:['higado','hepatico','bilis','vesicula','depurativo','hepatoprotector'],                cats:['Digestivo'] },
+    { id:'parasitos',           nombre:'Parásitos intestinales',            emoji:'🦠', sistema:'digestivo',     keywords:['parasito','lombriz','antiparasitario','antihelmint'],                                cats:['Digestivo','Antiparasitario'] },
+    { id:'higado',              nombre:'Problemas del hígado / Vesícula',   emoji:'🍃', sistema:'digestivo',     keywords:['higado','hepatico','bilis','vesicula','depurativo','hepatoprotector'],                cats:['Digestivo','Hepático'] },
     // RESPIRATORIO
-    { id:'tos',                 nombre:'Tos',                               emoji:'😮', sistema:'respiratorio',  keywords:['tos','bronquio','expectorante','mucosidad','pulmon'],                                cats:['Respiratorio'] },
-    { id:'gripe',               nombre:'Gripe y resfriado',                 emoji:'🤧', sistema:'respiratorio',  keywords:['gripe','resfrio','fiebre','catarro','viral','virus'],                                cats:['Respiratorio','Inmunológico'] },
-    { id:'sinusitis',           nombre:'Sinusitis / Congestión nasal',      emoji:'👃', sistema:'respiratorio',  keywords:['sinusitis','nasal','congestion','rinitis','sinus'],                                  cats:['Respiratorio'] },
-    { id:'bronquitis',          nombre:'Bronquitis',                         emoji:'🫁', sistema:'respiratorio',  keywords:['bronquitis','bronquio','expectorante','pecho','pulmon'],                             cats:['Respiratorio'] },
-    { id:'asma',                nombre:'Asma',                              emoji:'💨', sistema:'respiratorio',  keywords:['asma','broncoespasmo','respiracion','bronquio'],                                    cats:['Respiratorio'] },
-    { id:'garganta',            nombre:'Dolor de garganta / Faringitis',    emoji:'🔴', sistema:'respiratorio',  keywords:['garganta','faringitis','amigdala','dolor garganta'],                                cats:['Respiratorio'] },
+    { id:'tos',                 nombre:'Tos',                               emoji:'😮', sistema:'respiratorio',  keywords:['tos','bronquio','expectorante','mucosidad','pulmon'],                                cats:['Tos','Respiratorio','Expectorante','Garganta'] },
+    { id:'gripe',               nombre:'Gripe y resfriado',                 emoji:'🤧', sistema:'respiratorio',  keywords:['gripe','resfrio','fiebre','catarro','viral','virus'],                                cats:['Resfriados','Tos','Febrífugo','Respiratorio'] },
+    { id:'sinusitis',           nombre:'Sinusitis / Congestión nasal',      emoji:'👃', sistema:'respiratorio',  keywords:['sinusitis','nasal','congestion','rinitis','sinus'],                                  cats:['Respiratorio','Expectorante','Resfriados'] },
+    { id:'bronquitis',          nombre:'Bronquitis',                         emoji:'🫁', sistema:'respiratorio',  keywords:['bronquitis','bronquio','expectorante','pecho','pulmon'],                             cats:['Respiratorio','Tos','Expectorante'] },
+    { id:'asma',                nombre:'Asma',                              emoji:'💨', sistema:'respiratorio',  keywords:['asma','broncoespasmo','respiracion','bronquio'],                                    cats:['Respiratorio','Expectorante'] },
+    { id:'garganta',            nombre:'Dolor de garganta / Faringitis',    emoji:'🔴', sistema:'respiratorio',  keywords:['garganta','faringitis','amigdala','dolor garganta'],                                cats:['Garganta','Respiratorio'] },
     // NERVIOSO
     { id:'insomnio',            nombre:'Insomnio',                          emoji:'😴', sistema:'nervioso',      keywords:['insomnio','sueño','sedante','relajante','dormir'],                                   cats:['Sedante','Nervioso'] },
     { id:'ansiedad',            nombre:'Ansiedad',                          emoji:'😰', sistema:'nervioso',      keywords:['ansiedad','ansiolit','nervioso','tension','relajante'],                              cats:['Nervioso','Sedante'] },
@@ -401,42 +412,42 @@ const DOLENCIAS = [
     { id:'colesterol',          nombre:'Colesterol alto',                   emoji:'🧈', sistema:'cardiovascular', keywords:['colesterol','triglicerido','lipido','cardiovascular','arteria'],                    cats:['Cardiovascular'] },
     { id:'mala-circulacion',    nombre:'Mala circulación',                  emoji:'🌊', sistema:'cardiovascular', keywords:['circulacion','varices','sangre','venoso','extremidades'],                          cats:['Cardiovascular'] },
     { id:'varices',             nombre:'Várices',                           emoji:'🦵', sistema:'cardiovascular', keywords:['varices','vena','circulacion','venoso','piernas','venotonico'],                     cats:['Cardiovascular'] },
-    { id:'anemia',              nombre:'Anemia / Falta de hierro',          emoji:'🩸', sistema:'cardiovascular', keywords:['anemia','hierro','hemoglobina','sangre','ferropenia'],                             cats:['Cardiovascular','Alimenticio'] },
+    { id:'anemia',              nombre:'Anemia / Falta de hierro',          emoji:'🩸', sistema:'cardiovascular', keywords:['anemia','hierro','hemoglobina','sangre','ferropenia'],                             cats:['Cardiovascular','Alimenticio','Nutritivo'] },
     // MUJER
     { id:'dolores-menstruales', nombre:'Dolores menstruales',               emoji:'🌸', sistema:'mujer',          keywords:['menstrual','menstruacion','ciclo','dismenorrea','calambres','utero'],                cats:['Ginecológico'] },
     { id:'menopausia',          nombre:'Menopausia',                        emoji:'🌺', sistema:'mujer',          keywords:['menopausia','climaterio','sofoco','bochorno','hormonal'],                           cats:['Ginecológico'] },
     { id:'premenstrual',        nombre:'Síndrome premenstrual',             emoji:'📅', sistema:'mujer',          keywords:['premenstrual','pms','hormonal','ciclo','menstrual','irritabilidad'],                 cats:['Ginecológico'] },
-    { id:'flujo-vaginal',       nombre:'Flujo vaginal / Candidiasis',       emoji:'🌼', sistema:'mujer',          keywords:['flujo','vaginal','candidiasis','hongo','leucorrea'],                               cats:['Ginecológico'] },
+    { id:'flujo-vaginal',       nombre:'Flujo vaginal / Candidiasis',       emoji:'🌼', sistema:'mujer',          keywords:['flujo','vaginal','candidiasis','hongo','leucorrea'],                               cats:['Ginecológico','Antifúngico'] },
     { id:'lactancia',           nombre:'Lactancia / Producción de leche',   emoji:'🤱', sistema:'mujer',          keywords:['lactancia','galactogogo','leche','amamantar','pecho'],                             cats:['Ginecológico'] },
     // PIEL
-    { id:'acne',                nombre:'Acné',                              emoji:'😣', sistema:'piel',           keywords:['acne','grano','sebaceo','piel grasa','antibacteriano','poro'],                      cats:['Cosmético','Piel'] },
-    { id:'eccema',              nombre:'Eczema / Dermatitis',               emoji:'🔴', sistema:'piel',           keywords:['eccema','eczema','dermatitis','picazon','piel'],                                    cats:['Piel','Cosmético'] },
-    { id:'heridas',             nombre:'Heridas y cortes',                  emoji:'🩹', sistema:'piel',           keywords:['herida','corte','cicatrizante','antiseptico','vulnerario'],                         cats:['Cicatrizante'] },
-    { id:'quemaduras',          nombre:'Quemaduras',                        emoji:'🔥', sistema:'piel',           keywords:['quemadura','solar','cicatrizante','calor'],                                         cats:['Cicatrizante','Piel'] },
-    { id:'hongos',              nombre:'Hongos / Micosis',                  emoji:'🍄', sistema:'piel',           keywords:['hongo','micosis','antifungico','candida','antimicrobiano'],                         cats:['Piel','Cosmético'] },
-    { id:'psoriasis',           nombre:'Psoriasis',                         emoji:'🦋', sistema:'piel',           keywords:['psoriasis','escamas','piel','picazon'],                                             cats:['Piel'] },
-    { id:'hematomas',           nombre:'Hematomas / Moretones',             emoji:'🟣', sistema:'piel',           keywords:['hematoma','moreton','golpe','contusion','arnica'],                                  cats:['Cicatrizante'] },
+    { id:'acne',                nombre:'Acné',                              emoji:'😣', sistema:'piel',           keywords:['acne','grano','sebaceo','piel grasa','antibacteriano','poro'],                      cats:['Cosmético','Dermatológico','Antifúngico'] },
+    { id:'eccema',              nombre:'Eczema / Dermatitis',               emoji:'🔴', sistema:'piel',           keywords:['eccema','eczema','dermatitis','picazon','piel'],                                    cats:['Dermatológico','Cosmético','Antiinflamatorio'] },
+    { id:'heridas',             nombre:'Heridas y cortes',                  emoji:'🩹', sistema:'piel',           keywords:['herida','corte','cicatrizante','antiseptico','vulnerario'],                         cats:['Cicatrizante','Antiinflamatorio'] },
+    { id:'quemaduras',          nombre:'Quemaduras',                        emoji:'🔥', sistema:'piel',           keywords:['quemadura','solar','cicatrizante','calor'],                                         cats:['Cicatrizante','Dermatológico'] },
+    { id:'hongos',              nombre:'Hongos / Micosis',                  emoji:'🍄', sistema:'piel',           keywords:['hongo','micosis','antifungico','candida','antimicrobiano'],                         cats:['Antifúngico','Dermatológico','Cosmético'] },
+    { id:'psoriasis',           nombre:'Psoriasis',                         emoji:'🦋', sistema:'piel',           keywords:['psoriasis','escamas','piel','picazon'],                                             cats:['Dermatológico','Cosmético','Antiinflamatorio'] },
+    { id:'hematomas',           nombre:'Hematomas / Moretones',             emoji:'🟣', sistema:'piel',           keywords:['hematoma','moreton','golpe','contusion','arnica'],                                  cats:['Cicatrizante','Analgésico','Antiinflamatorio'] },
     // MÚSCULO / ARTICULACIONES
-    { id:'artritis',            nombre:'Artritis / Artrosis',               emoji:'🦴', sistema:'musculo',        keywords:['artritis','artrosis','articular','articulacion','reumatismo'],                      cats:['Musculoesquelético','Analgésico'] },
-    { id:'dolores-musculares',  nombre:'Dolores musculares',                emoji:'💪', sistema:'musculo',        keywords:['muscular','contrac','tension','musculo','analgesi'],                                 cats:['Musculoesquelético','Analgésico'] },
-    { id:'reumatismo',          nombre:'Reumatismo',                        emoji:'🌡', sistema:'musculo',        keywords:['reumatismo','reuma','articular','artritis','musculo'],                               cats:['Musculoesquelético'] },
-    { id:'gota',                nombre:'Gota / Ácido úrico',                emoji:'🧊', sistema:'musculo',        keywords:['gota','acido urico','urico','articular','antiinflamatorio'],                        cats:['Musculoesquelético','Renal'] },
-    { id:'dolores-articulares', nombre:'Dolores articulares generales',      emoji:'🤲', sistema:'musculo',        keywords:['articulacion','dolor','articular','golpe','contusion'],                             cats:['Analgésico','Musculoesquelético'] },
-    { id:'dolor-espalda',       nombre:'Dolor de espalda / Lumbar',         emoji:'🔙', sistema:'musculo',        keywords:['espalda','lumbar','lumbago','columna','contractura','cervical'],                     cats:['Analgésico','Musculoesquelético'] },
-    { id:'ciatico',             nombre:'Nervio ciático',                    emoji:'⚡', sistema:'musculo',        keywords:['ciatico','ciatalgia','nervio','pierna','irradiacion','lumbar'],                      cats:['Analgésico','Nervioso'] },
+    { id:'artritis',            nombre:'Artritis / Artrosis',               emoji:'🦴', sistema:'musculo',        keywords:['artritis','artrosis','articular','articulacion','reumatismo'],                      cats:['Reumatismo','Analgésico','Antiinflamatorio'] },
+    { id:'dolores-musculares',  nombre:'Dolores musculares',                emoji:'💪', sistema:'musculo',        keywords:['muscular','contrac','tension','musculo','analgesi'],                                 cats:['Reumatismo','Analgésico','Antiinflamatorio'] },
+    { id:'reumatismo',          nombre:'Reumatismo',                        emoji:'🌡', sistema:'musculo',        keywords:['reumatismo','reuma','articular','artritis','musculo'],                               cats:['Reumatismo','Analgésico','Antiinflamatorio'] },
+    { id:'gota',                nombre:'Gota / Ácido úrico',                emoji:'🧊', sistema:'musculo',        keywords:['gota','acido urico','urico','articular','antiinflamatorio'],                        cats:['Reumatismo','Renal','Analgésico'] },
+    { id:'dolores-articulares', nombre:'Dolores articulares generales',      emoji:'🤲', sistema:'musculo',        keywords:['articulacion','dolor','articular','golpe','contusion'],                             cats:['Analgésico','Reumatismo','Antiinflamatorio'] },
+    { id:'dolor-espalda',       nombre:'Dolor de espalda / Lumbar',         emoji:'🔙', sistema:'musculo',        keywords:['espalda','lumbar','lumbago','columna','contractura','cervical'],                     cats:['Analgésico','Reumatismo'] },
+    { id:'ciatico',             nombre:'Nervio ciático',                    emoji:'⚡', sistema:'musculo',        keywords:['ciatico','ciatalgia','nervio','pierna','irradiacion','lumbar'],                      cats:['Analgésico','Nervioso','Reumatismo'] },
     // INMUNO
-    { id:'defensas-bajas',      nombre:'Defensas bajas / Inmunidad',        emoji:'🛡', sistema:'inmuno',         keywords:['defensa','inmun','inmunoestimulante','adaptogeno','preventivo','virus'],              cats:['Inmunológico'] },
-    { id:'alergias',            nombre:'Alergias',                          emoji:'🌼', sistema:'inmuno',         keywords:['alergia','antihistaminico','rinitis','picazon','histamina'],                         cats:['Inmunológico','Respiratorio'] },
-    { id:'fiebre',              nombre:'Fiebre',                            emoji:'🌡', sistema:'inmuno',         keywords:['fiebre','antipiretico','febrifugo','temperatura','sudorif'],                         cats:['Inmunológico','Respiratorio'] },
+    { id:'defensas-bajas',      nombre:'Defensas bajas / Inmunidad',        emoji:'🛡', sistema:'inmuno',         keywords:['defensa','inmun','inmunoestimulante','adaptogeno','preventivo','virus'],              cats:['Alergia','Febrífugo','General','Respiratorio'] },
+    { id:'alergias',            nombre:'Alergias',                          emoji:'🌼', sistema:'inmuno',         keywords:['alergia','antihistaminico','rinitis','picazon','histamina'],                         cats:['Alergia','Respiratorio','Dermatológico'] },
+    { id:'fiebre',              nombre:'Fiebre',                            emoji:'🌡', sistema:'inmuno',         keywords:['fiebre','antipiretico','febrifugo','temperatura','sudorif'],                         cats:['Febrífugo','Resfriados','Respiratorio'] },
     // METABÓLICO
     { id:'diabetes',            nombre:'Diabetes (apoyo natural)',           emoji:'🍬', sistema:'digestivo',      keywords:['diabetes','glucosa','hipoglucemi','azucar','glucemiante'],                           cats:['Cardiovascular','Digestivo'] },
     { id:'tiroides',            nombre:'Tiroides',                          emoji:'🦋', sistema:'energetico',     keywords:['tiroides','hipotiroid','hipertiroid','metabolismo','glandula'],                      cats:['General'] },
     { id:'control-peso',        nombre:'Control de peso',                   emoji:'⚖', sistema:'energetico',     keywords:['obesidad','adelgaz','metabolismo','lipolitic','peso','grasa'],                       cats:['Digestivo','Energizante'] },
     // PEDIÁTRICO
     { id:'colicos-bebe',        nombre:'Cólicos del bebé',                  emoji:'👶', sistema:'pediatrico',     keywords:['colico','bebe','lactante','infantil','pediatrico'],                                  cats:['Pediátrico'] },
-    { id:'fiebre-ninos',        nombre:'Fiebre en niños',                   emoji:'🤒', sistema:'pediatrico',     keywords:['fiebre','nino','pediatrico','infantil','antipiretico'],                              cats:['Pediátrico'] },
-    { id:'tos-ninos',           nombre:'Tos en niños',                      emoji:'😮', sistema:'pediatrico',     keywords:['tos','nino','infantil','pediatrico','expectorante'],                                 cats:['Pediátrico'] },
-    { id:'denticion',           nombre:'Dentición / Encías inflamadas',     emoji:'🦷', sistema:'pediatrico',     keywords:['diente','encia','denticion','infantil','pediatrico'],                               cats:['Pediátrico','Analgésico'] },
+    { id:'fiebre-ninos',        nombre:'Fiebre en niños',                   emoji:'🤒', sistema:'pediatrico',     keywords:['fiebre','nino','pediatrico','infantil','antipiretico'],                              cats:['Pediátrico','Febrífugo'] },
+    { id:'tos-ninos',           nombre:'Tos en niños',                      emoji:'😮', sistema:'pediatrico',     keywords:['tos','nino','infantil','pediatrico','expectorante'],                                 cats:['Pediátrico','Tos','Expectorante'] },
+    { id:'denticion',           nombre:'Dentición / Encías inflamadas',     emoji:'🦷', sistema:'pediatrico',     keywords:['diente','encia','denticion','infantil','pediatrico'],                               cats:['Pediátrico','Dental','Analgésico'] },
     { id:'dolor-muela',         nombre:'Dolor de muelas',                   emoji:'🦷', sistema:'musculo',         keywords:['muela','muelas','dental','diente','odontalgia','carie','analgesi'],                  cats:['Dental','Analgésico'] },
     // ENERGÉTICO
     { id:'fatiga',              nombre:'Fatiga / Cansancio crónico',        emoji:'⚡', sistema:'energetico',     keywords:['fatiga','cansancio','adaptogeno','energizante','tonico','vigor'],                    cats:['Energizante'] },
@@ -445,13 +456,13 @@ const DOLENCIAS = [
     { id:'purificacion',        nombre:'Purificación / Detox',              emoji:'🌿', sistema:'mapuche',        keywords:['purif','depurat','detox','limpieza','toxina','mapuche'],                            cats:['Medicina Mapuche','General'] },
     // MEDICINA MACHI MAPUCHE
     { id:'machitun',         nombre:'Machítún / Enfermedad espiritual', emoji:'🩶', sistema:'mapuche', keywords:['machi','mapuche','machitun','espiritual','weda','newen','kutran'],         cats:['Medicina Mapuche'] },
-    { id:'puntadas-aire',    nombre:'Puntadas de aire (Weda kürf)',          emoji:'💨', sistema:'mapuche', keywords:['puntada','aire','costado','pleura','weda','intercostal','triwe'],           cats:['Medicina Mapuche','Analégsico'] },
+    { id:'puntadas-aire',    nombre:'Puntadas de aire (Weda kürf)',          emoji:'💨', sistema:'mapuche', keywords:['puntada','aire','costado','pleura','weda','intercostal','triwe'],           cats:['Medicina Mapuche','Analgésico'] },
     { id:'newen-bajo',       nombre:'Decaimiento / Newen bajo',                   emoji:'🌱', sistema:'mapuche', keywords:['decaimiento','newen','fuerza','debilidad','agotamiento','vital'],           cats:['Medicina Mapuche','Energizante'] },
-    { id:'parasitos-machi',  nombre:'Parásitos intestinales (Machi)',        emoji:'🦠', sistema:'mapuche', keywords:['parasito','lombriz','paico','ascaridol','antihelmint','mapuche'],           cats:['Medicina Mapuche'] },
+    { id:'parasitos-machi',  nombre:'Parásitos intestinales (Machi)',        emoji:'🦠', sistema:'mapuche', keywords:['parasito','lombriz','paico','ascaridol','antihelmint','mapuche'],           cats:['Medicina Mapuche','Antiparasitario'] },
     { id:'heridas-machi',    nombre:'Heridas y cicatrización (Machi)',        emoji:'🩹', sistema:'mapuche', keywords:['herida','cicatriz','matico','foye','canelo','vulnerario','mapuche'],        cats:['Medicina Mapuche','Cicatrizante'] },
-    { id:'reumatismo-machi', nombre:'Reumatismo y articulaciones (Machi)',        emoji:'🦴', sistema:'mapuche', keywords:['reumatismo','articulacion','bailahuen','pangue','cochayuyo','mapuche'],     cats:['Medicina Mapuche'] },
-    { id:'digestivo-machi',  nombre:'Digestivo e hígado (Machi)',            emoji:'🫃', sistema:'mapuche', keywords:['digestion','higado','culen','bailahuen','paico','mapuche','hepatico'],      cats:['Medicina Mapuche'] },
-    { id:'fiebre-machi',     nombre:'Fiebre (Machi)',                             emoji:'🌡', sistema:'mapuche', keywords:['fiebre','antipiretico','foye','chilco','maqui','mapuche'],                  cats:['Medicina Mapuche'] },
+    { id:'reumatismo-machi', nombre:'Reumatismo y articulaciones (Machi)',        emoji:'🦴', sistema:'mapuche', keywords:['reumatismo','articulacion','bailahuen','pangue','cochayuyo','mapuche'],     cats:['Medicina Mapuche','Reumatismo'] },
+    { id:'digestivo-machi',  nombre:'Digestivo e hígado (Machi)',            emoji:'🫃', sistema:'mapuche', keywords:['digestion','higado','culen','bailahuen','paico','mapuche','hepatico'],      cats:['Medicina Mapuche','Hepático'] },
+    { id:'fiebre-machi',     nombre:'Fiebre (Machi)',                             emoji:'🌡', sistema:'mapuche', keywords:['fiebre','antipiretico','foye','chilco','maqui','mapuche'],                  cats:['Medicina Mapuche','Febrífugo'] },
     { id:'kume-mogen',       nombre:'Küme Mogen — Bienestar integral', emoji:'🌿', sistema:'mapuche', keywords:['kume','mogen','bienestar','integral','mapuche','equilibrio','machi'],       cats:['Medicina Mapuche'] },
 ];
 
@@ -480,6 +491,24 @@ const SISTEMAS_BUSQUEDA = [
       </svg>` },
 ];
 
+// Mapa de color por sistema — para tarjetas de plantas
+const SISTEMA_COLOR = {
+    'digestivo':             '#6a8a52',
+    'hepatobiliar':          '#a08a42',
+    'respiratorio':          '#5b8aa0',
+    'nervioso':              '#8a6aaa',
+    'neurológico':           '#8a6aaa',
+    'cardiovascular':        '#c97b56',
+    'dermatológico':         '#c9a84c',
+    'musculoesquelético':    '#a06a5b',
+    'renal':                 '#5a8a9a',
+    'inmunológico':          '#7a9ab8',
+    'endocrino-metabólico':  '#b8a030',
+    'ginecológico':          '#c9679a',
+    'oftalmológico':         '#6a9aaa',
+    'mapuche':               '#5a7a4a',
+};
+
 // ── Sub-módulos por sistema — 3 niveles: sistema → sub-módulo → condición ──
 // Sub-módulos con "file" cargan directo su JSON de condición (resultados precisos).
 // Sub-módulos con "condiciones" muestran chips de dolencia (búsqueda por keywords).
@@ -487,104 +516,104 @@ const SUBMODULOS = {
     digestivo: {
         label: 'Digestivo',
         submods: [
-            { id:'gastritis_acidez',    label:'Gastritis / Acidez',   emoji:'🔥', color:'#c97b56', count:10, desc:'Gastritis · Acidez · Reflujo',               file:'data/modulos/digestivo/gastritis_acidez/recetas.json' },
+            { id:'gastritis_acidez',    label:'Gastritis / Acidez',   emoji:'🔥', color:'#c97b56', count:14, desc:'Gastritis · Acidez · Reflujo',               file:'data/modulos/digestivo/gastritis_acidez/recetas.json' },
             { id:'estrenimiento',       label:'Estreñimiento',         emoji:'🌾', color:'#8a9a52', count:5,  desc:'Tránsito · Psyllium · Ciruelas',             file:'data/modulos/digestivo/estrenimiento/recetas.json' },
-            { id:'diarrea',             label:'Diarrea',               emoji:'💧', color:'#5a8aaa', count:12, desc:'Astringentes · Diarrea aguda',               file:'data/modulos/digestivo/diarrea/recetas.json' },
-            { id:'colicos_gases',       label:'Cólicos / Gases',       emoji:'💨', color:'#7a6aaa', count:13, desc:'Meteorismo · Flatulencias · Carminativos',   file:'data/modulos/digestivo/colicos_gases/recetas.json' },
-            { id:'higado_vesicula',     label:'Hígado / Vesícula',     emoji:'🫒', color:'#a08a42', count:29, desc:'Hígado graso · Vesícula · Detox',            file:'data/modulos/digestivo/higado_vesicula/recetas.json' },
-            { id:'parasitos',           label:'Parásitos',             emoji:'🦠', color:'#6a5a4a', count:27, desc:'Lombrices · Oxiuros · Tenias',               file:'data/modulos/digestivo/parasitos/recetas.json' },
+            { id:'diarrea',             label:'Diarrea',               emoji:'💧', color:'#5a8aaa', count:15, desc:'Astringentes · Diarrea aguda',               file:'data/modulos/digestivo/diarrea/recetas.json' },
+            { id:'colicos_gases',       label:'Cólicos / Gases',       emoji:'💨', color:'#7a6aaa', count:15, desc:'Meteorismo · Flatulencias · Carminativos',   file:'data/modulos/digestivo/colicos_gases/recetas.json' },
+            { id:'higado_vesicula',     label:'Hígado / Vesícula',     emoji:'🫒', color:'#a08a42', count:39, desc:'Hígado graso · Vesícula · Detox',            file:'data/modulos/digestivo/higado_vesicula/recetas.json' },
+            { id:'parasitos',           label:'Parásitos',             emoji:'🦠', color:'#6a5a4a', count:35, desc:'Lombrices · Oxiuros · Tenias',               file:'data/modulos/digestivo/parasitos/recetas.json' },
             { id:'nauseas_indigestion', label:'Náuseas / Indigestión', emoji:'🤢', color:'#8a6a8a', count:4,  desc:'Náuseas · Vómitos · Indigestión',            file:'data/modulos/digestivo/nauseas_indigestion/recetas.json' },
-            { id:'digestion_lenta',     label:'Digestión lenta',       emoji:'🌿', color:'#6a8a52', count:49, desc:'Digestión pesada · Depurativo · Probióticos', file:'data/modulos/digestivo/digestion_lenta/recetas.json' },
-            { id:'nutricion',           label:'Nutrición medicinal',   emoji:'🥗', color:'#52aa7a', count:63, desc:'Alimentos funcionales · Recetas nutritivas',  file:'data/modulos/digestivo/nutricion/recetas.json' },
+            { id:'digestion_lenta',     label:'Digestión lenta',       emoji:'🌿', color:'#6a8a52', count:53, desc:'Digestión pesada · Depurativo · Probióticos', file:'data/modulos/digestivo/digestion_lenta/recetas.json' },
+            { id:'nutricion',           label:'Nutrición medicinal',   emoji:'🥗', color:'#52aa7a', count:67, desc:'Alimentos funcionales · Recetas nutritivas',  file:'data/modulos/digestivo/nutricion/recetas.json' },
         ],
     },
     respiratorio: {
         label: 'Respiratorio',
         submods: [
-            { id:'gripe_resfrios',         label:'Gripe / Resfríos',     emoji:'🤧', color:'#5a8aaa', count:8,  desc:'Gripe · Resfriado · Catarro',                  file:'data/modulos/respiratorio/gripe_resfrios/recetas.json' },
-            { id:'tos',                    label:'Tos',                   emoji:'😮‍💨', color:'#8a9a52', count:26, desc:'Tos seca · Jarabes · Irritación',               file:'data/modulos/respiratorio/tos/recetas.json' },
-            { id:'bronquitis_expectorante',label:'Bronquitis / Expector.',emoji:'🫁', color:'#6a7a9a', count:26, desc:'Bronquitis · Flemas · Expectorantes',           file:'data/modulos/respiratorio/bronquitis_expectorante/recetas.json' },
+            { id:'gripe_resfrios',         label:'Gripe / Resfríos',     emoji:'🤧', color:'#5a8aaa', count:22,  desc:'Gripe · Resfriado · Catarro',                  file:'data/modulos/respiratorio/gripe_resfrios/recetas.json' },
+            { id:'tos',                    label:'Tos',                   emoji:'😮‍💨', color:'#8a9a52', count:42, desc:'Tos seca · Jarabes · Irritación',               file:'data/modulos/respiratorio/tos/recetas.json' },
+            { id:'bronquitis_expectorante',label:'Bronquitis / Expector.',emoji:'🫁', color:'#6a7a9a', count:24, desc:'Bronquitis · Flemas · Expectorantes',           file:'data/modulos/respiratorio/bronquitis_expectorante/recetas.json' },
             { id:'congestion_sinusitis',   label:'Congestión / Sinusitis',emoji:'👃', color:'#7a9aaa', count:10, desc:'Congestión nasal · Sinusitis · Vapores',        file:'data/modulos/respiratorio/congestion_sinusitis/recetas.json' },
-            { id:'garganta_faringitis',    label:'Garganta / Faringitis', emoji:'🗣️', color:'#aa7a6a', count:20, desc:'Faringitis · Gárgaras · Amígdalas',             file:'data/modulos/respiratorio/garganta_faringitis/recetas.json' },
-            { id:'fiebre',                 label:'Fiebre',                emoji:'🌡️', color:'#c97b56', count:25, desc:'Fiebre · Antipirético · Diaforético',           file:'data/modulos/respiratorio/fiebre/recetas.json' },
-            { id:'respiratorio_general',   label:'Salud Respiratoria',    emoji:'🌬️', color:'#6a8a7a', count:16, desc:'Pulmones · Defensas · Vías respiratorias',      file:'data/modulos/respiratorio/respiratorio_general/recetas.json' },
+            { id:'garganta_faringitis',    label:'Garganta / Faringitis', emoji:'🗣️', color:'#aa7a6a', count:27, desc:'Faringitis · Gárgaras · Amígdalas',             file:'data/modulos/respiratorio/garganta_faringitis/recetas.json' },
+            { id:'fiebre',                 label:'Fiebre',                emoji:'🌡️', color:'#c97b56', count:28, desc:'Fiebre · Antipirético · Diaforético',           file:'data/modulos/respiratorio/fiebre/recetas.json' },
+            { id:'respiratorio_general',   label:'Salud Respiratoria',    emoji:'🌬️', color:'#6a8a7a', count:19, desc:'Pulmones · Defensas · Vías respiratorias',      file:'data/modulos/respiratorio/respiratorio_general/recetas.json' },
         ],
     },
     nervioso: {
         label: 'Nervioso',
         submods: [
-            { id:'estres_ansiedad',       label:'Estrés / Ansiedad',     emoji:'🧘', color:'#9a7aaa', count:39, desc:'Ansiedad · Tensión nerviosa · Nerviosismo',     file:'data/modulos/nervioso/estres_ansiedad/recetas.json' },
-            { id:'animo_depresion',       label:'Ánimo / Depresión',     emoji:'☀️', color:'#c9a052', count:2,  desc:'Bajo ánimo · Burnout · Agotamiento · Tristeza', file:'data/modulos/nervioso/animo_depresion/recetas.json' },
-            { id:'insomnio',              label:'Insomnio / Sueño',      emoji:'🌙', color:'#6a7aaa', count:48, desc:'Insomnio · Sedantes naturales · Relajación',    file:'data/modulos/nervioso/insomnio/recetas.json' },
-            { id:'memoria_concentracion', label:'Memoria / Concentración',emoji:'🧠', color:'#5a9aaa', count:26, desc:'Memoria · Concentración · Agilidad mental',    file:'data/modulos/nervioso/memoria_concentracion/recetas.json' },
+            { id:'estres_ansiedad',       label:'Estrés / Ansiedad',     emoji:'🧘', color:'#9a7aaa', count:51, desc:'Ansiedad · Tensión nerviosa · Nerviosismo',     file:'data/modulos/nervioso/estres_ansiedad/recetas.json' },
+            { id:'animo_depresion',       label:'Ánimo / Depresión',     emoji:'☀️', color:'#c9a052', count:4,  desc:'Bajo ánimo · Burnout · Agotamiento · Tristeza', file:'data/modulos/nervioso/animo_depresion/recetas.json' },
+            { id:'insomnio',              label:'Insomnio / Sueño',      emoji:'🌙', color:'#6a7aaa', count:51, desc:'Insomnio · Sedantes naturales · Relajación',    file:'data/modulos/nervioso/insomnio/recetas.json' },
+            { id:'memoria_concentracion', label:'Memoria / Concentración',emoji:'🧠', color:'#5a9aaa', count:28, desc:'Memoria · Concentración · Agilidad mental',    file:'data/modulos/nervioso/memoria_concentracion/recetas.json' },
         ],
     },
     piel: {
         label: 'Piel',
         submods: [
-            { id:'heridas_cicatrices', label:'Heridas / Cicatrices', emoji:'🩹', color:'#8a9a72', count:39, desc:'Cicatrices · Quemaduras · Golpes',              file:'data/modulos/piel/heridas_cicatrices/recetas.json' },
-            { id:'hongos_infecciones', label:'Hongos / Infecciones', emoji:'🦠', color:'#6a8a5a', count:13, desc:'Hongos · Candidiasis · Pie de atleta',          file:'data/modulos/piel/hongos_infecciones/recetas.json' },
-            { id:'problemas_piel',     label:'Problemas de Piel',    emoji:'🌿', color:'#8a7a52', count:17, desc:'Eccema · Acné · Dermatitis · Psoriasis',        file:'data/modulos/piel/problemas_piel/recetas.json' },
-            { id:'cosmetica_piel',     label:'Cosmética Natural',    emoji:'✨', color:'#aa8a72', count:69, desc:'Mascarillas · Cremas · Tónicos naturales',      file:'data/modulos/piel/cosmetica_piel/recetas.json' },
-            { id:'cabello',            label:'Cuidado del Cabello',  emoji:'💇', color:'#9a7a6a', count:29, desc:'Anticaída · Brillo · Anticaspa · Nutrición',    file:'data/modulos/piel/cabello/recetas.json' },
-            { id:'banos_terapeuticos', label:'Baños Terapéuticos',   emoji:'🛁', color:'#6a8a9a', count:19, desc:'Baños de hierbas · Relajación · Piel sana',     file:'data/modulos/piel/banos_terapeuticos/recetas.json' },
+            { id:'heridas_cicatrices', label:'Heridas / Cicatrices', emoji:'🩹', color:'#8a9a72', count:51, desc:'Cicatrices · Quemaduras · Golpes',              file:'data/modulos/piel/heridas_cicatrices/recetas.json' },
+            { id:'hongos_infecciones', label:'Hongos / Infecciones', emoji:'🦠', color:'#6a8a5a', count:18, desc:'Hongos · Candidiasis · Pie de atleta',          file:'data/modulos/piel/hongos_infecciones/recetas.json' },
+            { id:'problemas_piel',     label:'Problemas de Piel',    emoji:'🌿', color:'#8a7a52', count:23, desc:'Eccema · Acné · Dermatitis · Psoriasis',        file:'data/modulos/piel/problemas_piel/recetas.json' },
+            { id:'cosmetica_piel',     label:'Cosmética Natural',    emoji:'✨', color:'#aa8a72', count:74, desc:'Mascarillas · Cremas · Tónicos naturales',      file:'data/modulos/piel/cosmetica_piel/recetas.json' },
+            { id:'cabello',            label:'Cuidado del Cabello',  emoji:'💇', color:'#9a7a6a', count:31, desc:'Anticaída · Brillo · Anticaspa · Nutrición',    file:'data/modulos/piel/cabello/recetas.json' },
+            { id:'banos_terapeuticos', label:'Baños Terapéuticos',   emoji:'🛁', color:'#6a8a9a', count:26, desc:'Baños de hierbas · Relajación · Piel sana',     file:'data/modulos/piel/banos_terapeuticos/recetas.json' },
         ],
     },
     mujer: {
         label: 'Mujer',
         submods: [
-            { id:'menstruacion_spm',   label:'Menstruación / SPM',   emoji:'🌸', color:'#c97aaa', count:56, desc:'Cólicos · SPM · Ciclo irregular · Flujo',      file:'data/modulos/mujer/menstruacion_spm/recetas.json' },
-            { id:'menopausia',         label:'Menopausia',            emoji:'🌺', color:'#aa6a8a', count:23, desc:'Sofocos · Equilibrio hormonal · Menopausia',   file:'data/modulos/mujer/menopausia/recetas.json' },
-            { id:'postparto_lactancia',label:'Postparto / Lactancia', emoji:'🤱', color:'#8a9a72', count:10, desc:'Lactancia · Postparto · Estrías · Náuseas',    file:'data/modulos/mujer/postparto_lactancia/recetas.json' },
-            { id:'salud_ginecologica', label:'Salud Ginecológica',    emoji:'🌿', color:'#7a8a6a', count:37, desc:'Higiene íntima · Vaginosis · Infecciones',     file:'data/modulos/mujer/salud_ginecologica/recetas.json' },
+            { id:'menstruacion_spm',   label:'Menstruación / SPM',   emoji:'🌸', color:'#c97aaa', count:82, desc:'Cólicos · SPM · Ciclo irregular · Flujo',      file:'data/modulos/mujer/menstruacion_spm/recetas.json' },
+            { id:'menopausia',         label:'Menopausia',            emoji:'🌺', color:'#aa6a8a', count:24, desc:'Sofocos · Equilibrio hormonal · Menopausia',   file:'data/modulos/mujer/menopausia/recetas.json' },
+            { id:'postparto_lactancia',label:'Postparto / Lactancia', emoji:'🤱', color:'#8a9a72', count:23, desc:'Lactancia · Postparto · Estrías · Náuseas',    file:'data/modulos/mujer/postparto_lactancia/recetas.json' },
+            { id:'salud_ginecologica', label:'Salud Ginecológica',    emoji:'🌿', color:'#7a8a6a', count:19, desc:'Higiene íntima · Vaginosis · Infecciones',     file:'data/modulos/mujer/salud_ginecologica/recetas.json' },
         ],
     },
     cardiovascular: {
         label: 'Cardiovascular',
         submods: [
-            { id:'colesterol',          label:'Colesterol',             emoji:'🫀', color:'#c96a6a', count:6,  desc:'Colesterol LDL · Triglicéridos · Arterias',      file:'data/modulos/cardiovascular/colesterol/recetas.json' },
-            { id:'presion_arterial',    label:'Presión Arterial',       emoji:'🩺', color:'#aa5a5a', count:8,  desc:'Hipertensión · Presión alta · Antihipertensivo', file:'data/modulos/cardiovascular/presion_arterial/recetas.json' },
-            { id:'circulacion_varices', label:'Circulación / Várices',  emoji:'🦵', color:'#7a6aaa', count:11, desc:'Mala circulación · Várices · Piernas cansadas',  file:'data/modulos/cardiovascular/circulacion_varices/recetas.json' },
-            { id:'palpitaciones_corazon',label:'Palpitaciones',         emoji:'💓', color:'#c98a7a', count:14, desc:'Palpitaciones · Arritmia leve · Taquicardia',   file:'data/modulos/cardiovascular/palpitaciones_corazon/recetas.json' },
-            { id:'sangre_antioxidantes',label:'Sangre / Antioxidantes', emoji:'🩸', color:'#8a5a5a', count:28, desc:'Anemia · Depurativo · Antioxidantes cardiovasc.',file:'data/modulos/cardiovascular/sangre_antioxidantes/recetas.json' },
-            { id:'rinones',             label:'Riñones / Urinario',     emoji:'🫘', color:'#8a7a5a', count:18, desc:'Riñones · Cálculos · Próstata · Infección urin.',file:'data/modulos/cardiovascular/rinones/recetas.json' },
-            { id:'diuretico',           label:'Diurético',              emoji:'💧', color:'#5a8aaa', count:26, desc:'Retención de líquidos · Edema · Hinchazón',      file:'data/modulos/cardiovascular/diuretico/recetas.json' },
+            { id:'colesterol',          label:'Colesterol',             emoji:'🫀', color:'#c96a6a', count:12,  desc:'Colesterol LDL · Triglicéridos · Arterias',      file:'data/modulos/cardiovascular/colesterol/recetas.json' },
+            { id:'presion_arterial',    label:'Presión Arterial',       emoji:'🩺', color:'#aa5a5a', count:12,  desc:'Hipertensión · Presión alta · Antihipertensivo', file:'data/modulos/cardiovascular/presion_arterial/recetas.json' },
+            { id:'circulacion_varices', label:'Circulación / Várices',  emoji:'🦵', color:'#7a6aaa', count:16, desc:'Mala circulación · Várices · Piernas cansadas',  file:'data/modulos/cardiovascular/circulacion_varices/recetas.json' },
+            { id:'palpitaciones_corazon',label:'Palpitaciones',         emoji:'💓', color:'#c98a7a', count:19, desc:'Palpitaciones · Arritmia leve · Taquicardia',   file:'data/modulos/cardiovascular/palpitaciones_corazon/recetas.json' },
+            { id:'sangre_antioxidantes',label:'Sangre / Antioxidantes', emoji:'🩸', color:'#8a5a5a', count:37, desc:'Anemia · Depurativo · Antioxidantes cardiovasc.',file:'data/modulos/cardiovascular/sangre_antioxidantes/recetas.json' },
+            { id:'rinones',             label:'Riñones / Urinario',     emoji:'🫘', color:'#8a7a5a', count:30, desc:'Riñones · Cálculos · Próstata · Infección urin.',file:'data/modulos/cardiovascular/rinones/recetas.json' },
+            { id:'diuretico',           label:'Diurético',              emoji:'💧', color:'#5a8aaa', count:23, desc:'Retención de líquidos · Edema · Hinchazón',      file:'data/modulos/cardiovascular/diuretico/recetas.json' },
         ],
     },
     dolores: {
         label: 'Dolores',
         submods: [
-            { id:'reumatismo_artritis',   label:'Reumatismo / Artritis',  emoji:'🦴', color:'#aa7a5a', count:53, desc:'Artritis · Gota · Reumatismo · Articulaciones', file:'data/modulos/dolores/reumatismo_artritis/recetas.json' },
-            { id:'dolor_cabeza_migrana',  label:'Dolor de Cabeza',        emoji:'🤯', color:'#9a6aaa', count:5,  desc:'Cefalea · Migraña · Dolor tensional',           file:'data/modulos/dolores/dolor_cabeza_migrana/recetas.json' },
-            { id:'dolor_muscular_lumbago',label:'Dolor Muscular / Lumbago',emoji:'💪', color:'#8a7a6a', count:5,  desc:'Lumbago · Contracturas · Neuralgias · Aceites', file:'data/modulos/dolores/dolor_muscular_lumbago/recetas.json' },
-            { id:'dolor_cronico_general', label:'Dolor Crónico',          emoji:'💊', color:'#8a6a9a', count:10, desc:'Dolor crónico · Neuropático · Analgésicos',     file:'data/modulos/dolores/dolor_cronico_general/recetas.json' },
-            { id:'antiinflamatorio',      label:'Antiinflamatorio',       emoji:'🌡️', color:'#6a9a8a', count:10, desc:'Inflamación · Cúrcuma · Árnica · Aloe',         file:'data/modulos/dolores/antiinflamatorio/recetas.json' },
-            { id:'salud_bucal',           label:'Dolor de Muelas / Boca', emoji:'🦷', color:'#9a8a6a', count:22, desc:'Dolor de muelas · Encías · Enjuagues bucales',  file:'data/modulos/dolores/salud_bucal/recetas.json' },
+            { id:'reumatismo_artritis',   label:'Reumatismo / Artritis',  emoji:'🦴', color:'#aa7a5a', count:54, desc:'Artritis · Gota · Reumatismo · Articulaciones', file:'data/modulos/dolores/reumatismo_artritis/recetas.json' },
+            { id:'dolor_cabeza_migrana',  label:'Dolor de Cabeza',        emoji:'🤯', color:'#9a6aaa', count:10,  desc:'Cefalea · Migraña · Dolor tensional',           file:'data/modulos/dolores/dolor_cabeza_migrana/recetas.json' },
+            { id:'dolor_muscular_lumbago',label:'Dolor Muscular / Lumbago',emoji:'💪', color:'#8a7a6a', count:12,  desc:'Lumbago · Contracturas · Neuralgias · Aceites', file:'data/modulos/dolores/dolor_muscular_lumbago/recetas.json' },
+            { id:'dolor_cronico_general', label:'Dolor Crónico',          emoji:'💊', color:'#8a6a9a', count:14, desc:'Dolor crónico · Neuropático · Analgésicos',     file:'data/modulos/dolores/dolor_cronico_general/recetas.json' },
+            { id:'antiinflamatorio',      label:'Antiinflamatorio',       emoji:'🌡️', color:'#6a9a8a', count:14, desc:'Inflamación · Cúrcuma · Árnica · Aloe',         file:'data/modulos/dolores/antiinflamatorio/recetas.json' },
+            { id:'salud_bucal',           label:'Dolor de Muelas / Boca', emoji:'🦷', color:'#9a8a6a', count:26, desc:'Dolor de muelas · Encías · Enjuagues bucales',  file:'data/modulos/dolores/salud_bucal/recetas.json' },
         ],
     },
     pediatrico: {
         label: 'Pediátrico',
         submods: [
-            { id:'colicos_digestion', label:'Cólicos / Digestión',  emoji:'🍼', color:'#8a9a52', count:25, desc:'Cólicos · Gases · Digestión del bebé',          file:'data/modulos/pediatrico/colicos_digestion/recetas.json' },
-            { id:'fiebre_resfriado',  label:'Fiebre / Resfriado',   emoji:'🤒', color:'#c97b56', count:26, desc:'Fiebre · Resfriado · Tos · Bronquitis infantil', file:'data/modulos/pediatrico/fiebre_resfriado/recetas.json' },
-            { id:'piel_cuidado',      label:'Piel / Bebé',          emoji:'🌼', color:'#c9a84c', count:4,  desc:'Pañalitis · Eccema · Dentición · Piel bebé',    file:'data/modulos/pediatrico/piel_cuidado/recetas.json' },
-            { id:'nervioso_sueno',    label:'Nerviosismo / Sueño',  emoji:'🌙', color:'#8a6aaa', count:6,  desc:'Insomnio · Nerviosismo · Hiperactividad',        file:'data/modulos/pediatrico/nervioso_sueno/recetas.json' },
+            { id:'colicos_digestion', label:'Cólicos / Digestión',  emoji:'🍼', color:'#8a9a52', count:36, desc:'Cólicos · Gases · Digestión del bebé',          file:'data/modulos/pediatrico/colicos_digestion/recetas.json' },
+            { id:'fiebre_resfriado',  label:'Fiebre / Resfriado',   emoji:'🤒', color:'#c97b56', count:16, desc:'Fiebre · Resfriado · Tos · Bronquitis infantil', file:'data/modulos/pediatrico/fiebre_resfriado/recetas.json' },
+            { id:'piel_cuidado',      label:'Piel / Bebé',          emoji:'🌼', color:'#c9a84c', count:12,  desc:'Pañalitis · Eccema · Dentición · Piel bebé',    file:'data/modulos/pediatrico/piel_cuidado/recetas.json' },
+            { id:'nervioso_sueno',    label:'Nerviosismo / Sueño',  emoji:'🌙', color:'#8a6aaa', count:9,  desc:'Insomnio · Nerviosismo · Hiperactividad',        file:'data/modulos/pediatrico/nervioso_sueno/recetas.json' },
         ],
     },
     general: {
         label: 'General',
         submods: [
-            { id:'energizante_vitalidad', label:'Energía / Vitalidad', emoji:'⚡', color:'#c9a052', count:53, desc:'Tónicos · Superalimentos · Rendimiento',        file:'data/modulos/general/energizante_vitalidad/recetas.json' },
-            { id:'alergia',               label:'Alergia',              emoji:'🤧', color:'#7a9a6a', count:19, desc:'Rinitis · Alergia estacional · Piel reactiva',  file:'data/modulos/general/alergia/recetas.json' },
-            { id:'ojos_oidos',            label:'Ojos / Oídos',         emoji:'👁️', color:'#5a8aaa', count:20, desc:'Conjuntivitis · Colirios · Tapón de cera',      file:'data/modulos/general/ojos_oidos/recetas.json' },
-            { id:'bienestar_general',     label:'Bienestar General',    emoji:'🌟', color:'#8a7a9a', count:97, desc:'Bienestar · Diabetes leve · Salud integral',    file:'data/modulos/general/bienestar_general/recetas.json' },
+            { id:'energizante_vitalidad', label:'Energía / Vitalidad', emoji:'⚡', color:'#c9a052', count:59, desc:'Tónicos · Superalimentos · Rendimiento',        file:'data/modulos/general/energizante_vitalidad/recetas.json' },
+            { id:'alergia',               label:'Alergia',              emoji:'🤧', color:'#7a9a6a', count:24, desc:'Rinitis · Alergia estacional · Piel reactiva',  file:'data/modulos/general/alergia/recetas.json' },
+            { id:'ojos_oidos',            label:'Ojos / Oídos',         emoji:'👁️', color:'#5a8aaa', count:30, desc:'Conjuntivitis · Colirios · Tapón de cera',      file:'data/modulos/general/ojos_oidos/recetas.json' },
+            { id:'bienestar_general',     label:'Bienestar General',    emoji:'🌟', color:'#8a7a9a', count:77, desc:'Bienestar · Diabetes leve · Salud integral',    file:'data/modulos/general/bienestar_general/recetas.json' },
         ],
     },
     mapuche: {
         label: 'Mapuche',
         submods: [
-            { id:'medicina_mapuche',  label:'Medicina Mapuche', emoji:'🌿', color:'#6a8a52', count:119, desc:'Lawen · Machi · Plantas sagradas · Tradición',  file:'data/modulos/mapuche/medicina_mapuche/recetas.json' },
-            { id:'espiritual_ritual', label:'Espiritual',       emoji:'🔮', color:'#8a6a9a', count:27,  desc:'Sahumerios · Rituales · Baños de limpieza',    file:'data/modulos/mapuche/espiritual_ritual/recetas.json' },
+            { id:'medicina_mapuche',  label:'Medicina Mapuche', emoji:'🌿', color:'#6a8a52', count:86, desc:'Lawen · Machi · Plantas sagradas · Tradición',  file:'data/modulos/mapuche/medicina_mapuche/recetas.json' },
+            { id:'espiritual_ritual', label:'Espiritual',       emoji:'🔮', color:'#8a6a9a', count:40,  desc:'Sahumerios · Rituales · Baños de limpieza',    file:'data/modulos/mapuche/espiritual_ritual/recetas.json' },
         ],
     },
 };
@@ -594,13 +623,20 @@ let _sistemaActivo = null; // sistema seleccionado actualmente en recetario
 function renderSistemasBusqueda() {
     const cont = document.getElementById('recetaSistemas');
     if (!cont) return;
-    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => `
-        <button class="rsis-btn" data-sistema="${s.id}" style="--rsis-color:${s.color}" title="${s.desc}">
-            <span class="rsis-ico">${s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`}</span>
-            <span class="rsis-label">${s.label}</span>
-            <span class="rsis-desc">${s.desc}</span>
-        </button>
-    `).join('');
+    cont.innerHTML = SISTEMAS_BUSQUEDA.map(s => {
+        const modKey  = SISTEMA_A_MODULO[s.id] || s.id;
+        const subData = SUBMODULOS[modKey];
+        const count   = subData ? subData.submods.reduce((n, sub) => n + (sub.count || 0), 0) : null;
+        const ico     = s.svg ? s.svg : `<i class="fas fa-${s.icon}"></i>`;
+        return `
+        <button class="rsis-btn rsis-sist-card" data-sistema="${s.id}" style="--rsis-color:${s.color}">
+            <span class="rsis-sist-ico">${ico}</span>
+            <span class="rsis-sist-label">${s.label}</span>
+            ${count ? `<span class="rsis-sist-count">${count} recetas</span>` : ''}
+            <span class="rsis-sist-desc">${s.desc}</span>
+            <i class="fas fa-chevron-right rsis-sist-arrow"></i>
+        </button>`;
+    }).join('');
 }
 
 function renderCategoriasChips() {
@@ -688,9 +724,9 @@ function mostrarSubmodulos(sistemaId) {
     const titulo = document.getElementById('rsubTitulo');
     if (!panel || !chips) return;
     if (titulo) titulo.textContent = subData.label;
-    chips.innerHTML = subData.submods.map(sub => `
+    chips.innerHTML = subData.submods.map((sub, i) => `
         <button class="rsub-chip" data-subid="${sub.id}" data-sistema="${sistemaId}"
-                style="--rsub-color:${sub.color || '#6a8a52'}">
+                style="--rsub-color:${sub.color || '#6a8a52'}; --rsub-delay:${(i * 0.35).toFixed(2)}s">
             <span class="rsub-emoji">${sub.emoji}</span>
             <span class="rsub-label">${sub.label}</span>
             ${sub.count ? `<span class="rsub-count">${sub.count} recetas</span>` : ''}
@@ -762,7 +798,6 @@ function buscarRecetasPorSintoma(query, pool) {
         return haystack.split(' ').some(w => w === needle || (needle.length >= 4 && w.startsWith(needle)));
     };
 
-    // Para búsquedas multi-palabra exigir que la mayoría coincida
     const STOPWORDS = new Set(['las','los','una','uno','del','con','que','mas','sin','por','sus','mis','hay','ese','esa','era','fue','han','has','les','nos','tus']);
     const qWords = q.split(/\s+/).filter(w => w.length >= 3 && !STOPWORDS.has(w));
     if (qWords.length === 0) qWords.push(q.split(' ')[0]);
@@ -770,7 +805,6 @@ function buscarRecetasPorSintoma(query, pool) {
 
     const dolScore = (d) => {
         const nombre = normDol(d.nombre);
-        // Coincidencia de frase completa (sin substring)
         if (nombre === q || q.includes(nombre + ' ') || q.endsWith(nombre)) return qWords.length;
         return qWords.filter(qw =>
             palabraCoincide(nombre, qw) ||
@@ -782,38 +816,78 @@ function buscarRecetasPorSintoma(query, pool) {
 
     const catsDolencia = new Set(dolCoincidentes.flatMap(d => d.cats));
     const kwsDolencia = dolCoincidentes.flatMap(d => d.keywords).map(normDol);
-    // "analgesi" es demasiado genérico — matchea cualquier receta analgésica aunque no trate la dolencia
     const kwsContenido = kwsDolencia.filter(kw => kw !== 'analgesi' && kw.length >= 4);
+
+    // Normalizar categoria quitando tildes para manejar variantes con/sin acento en los datos
+    const normCat = txt => (txt || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const catsDolNorm = new Set([...catsDolencia].map(normCat));
+
+    // Fallback de texto directo cuando no hay dolencias reconocidas
+    const usarFallback = dolCoincidentes.length === 0;
 
     const scored = recetas.map(r => {
         let score = 0;
-        let hasContentMatch = false;
 
         const titulo  = normDol(r.titulo);
-        const usoPrim = normDol((r.uso || '').slice(0, 90));
+        const usoPrim = normDol((r.uso || '').slice(0, 150));
+        const props   = Array.isArray(r.propiedades) ? r.propiedades.map(normDol).join(' ') : '';
+        const ingred  = normDol((r.ingredientes || '').slice(0, 250));
+        const princip = normDol((r.principios_activos || '').slice(0, 200));
 
-        // Match en título (mayor peso)
-        for (const kw of kwsContenido) {
-            if (titulo.includes(kw)) { score += 8; hasContentMatch = true; break; }
-        }
-        // Match en uso primario (solo si el título no matcheó)
-        if (!hasContentMatch) {
-            for (const kw of kwsContenido) {
-                if (usoPrim.includes(kw)) { score += 6; hasContentMatch = true; break; }
+        // Categoría como match primario (no requiere match en contenido previo)
+        if (catsDolNorm.has(normCat(r.categoria))) score += 7;
+
+        if (usarFallback) {
+            // Sin dolencias: búsqueda libre en todos los campos de texto
+            for (const qw of qWords) {
+                if (titulo.includes(qw))  { score += 8; break; }
             }
+            for (const qw of qWords) {
+                if (props.includes(qw))   { score += 5; break; }
+            }
+            for (const qw of qWords) {
+                if (usoPrim.includes(qw)) { score += 4; break; }
+            }
+            for (const qw of qWords) {
+                if (ingred.includes(qw))  { score += 3; break; }
+            }
+            for (const qw of qWords) {
+                if (princip.includes(qw)) { score += 2; break; }
+            }
+            if (titulo.includes(q)) score += 5;
+        } else {
+            // Con dolencias: buscar keywords derivados en campos de contenido
+            for (const kw of kwsContenido) {
+                if (titulo.includes(kw))  { score += 8; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (props.includes(kw))   { score += 4; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (usoPrim.includes(kw)) { score += 5; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (ingred.includes(kw))  { score += 3; break; }
+            }
+            for (const kw of kwsContenido) {
+                if (princip.includes(kw)) { score += 2; break; }
+            }
+            if (titulo.includes(q)) score += 5;
         }
-        // Query directo en el título
-        if (titulo.includes(q)) { score += 5; hasContentMatch = true; }
 
-        // Categoría = bonus SOLO si ya hay match de contenido
-        if (hasContentMatch && catsDolencia.has(r.categoria)) score += 3;
+        // Boost ancestral: mapuche / popular chileno van primero
+        const evidencia = normDol(r.evidencia || '');
+        const fuente    = normDol(r.fuente_tradicion || '');
+        if (evidencia.startsWith('saber ancestral'))                              score += 5;
+        if (/mapuche|pewenche|williche|andina|rapa nui/.test(fuente))            score += 4;
+        else if (/popular chilen|casera popular|tradicion latin/.test(fuente))   score += 2;
 
-        return { r, score, hasContentMatch };
+        return { r, score };
     });
 
-    // Umbral 6: requiere al menos match en uso primario o título
+    // Umbral 4: categoría correcta (7 pts) sola pasa; título con keyword (8 pts) también pasa
     return scored
-        .filter(x => x.hasContentMatch && x.score >= 6)
+        .filter(x => x.score >= 4)
         .sort((a, b) => b.score - a.score)
         .map(x => x.r);
 }
@@ -823,6 +897,7 @@ let _rfBase = [];   // resultado completo sin filtros
 let _rfQuery = '';  // query actual
 let _rfCats  = new Set();
 let _rfDifs  = new Set();
+let _rfProps = new Set();
 // Origen de navegación para botón "Volver" inteligente
 let _rsearchOrigen = null; // { type:'submod'|'dolencias', sistemaKey } | null
 
@@ -849,9 +924,11 @@ function _normModo(modo) {
 
 function _rfApply() {
     return _rfBase.filter(r => {
-        const catOK = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
-        const difOK = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
-        return catOK && difOK;
+        const catOK  = _rfCats.size === 0 || _rfCats.has(_normModo(r.modo_uso));
+        const difOK  = _rfDifs.size === 0 || _rfDifs.has(_normDif(r.dificultad));
+        const rProps = Array.isArray(r.propiedades) ? r.propiedades.map(p => p.toLowerCase().trim()) : [];
+        const propOK = _rfProps.size === 0 || [..._rfProps].every(fp => rProps.some(rp => rp.includes(fp)));
+        return catOK && difOK && propOK;
     });
 }
 
@@ -864,7 +941,7 @@ function _rfRenderGrid(filtradas) {
 
     const countEl = cont.querySelector('.rsearch-count');
     if (countEl) {
-        countEl.innerHTML = _rfCats.size || _rfDifs.size
+        countEl.innerHTML = _rfCats.size || _rfDifs.size || _rfProps.size
             ? `<strong>${total}</strong> de ${base} recetas para <strong>"${_rfQuery}"</strong>`
             : `${base} receta${base !== 1 ? 's' : ''} para <strong>"${_rfQuery}"</strong>`;
     }
@@ -874,6 +951,8 @@ function _rfRenderGrid(filtradas) {
         c.classList.toggle('active', _rfCats.has(c.dataset.cat)));
     cont.querySelectorAll('.rfilter-chip[data-dif]').forEach(c =>
         c.classList.toggle('active', _rfDifs.has(c.dataset.dif)));
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c =>
+        c.classList.toggle('active', _rfProps.has(c.dataset.prop)));
 
     const grid = cont.querySelector('.rsearch-grid');
     if (!grid) return;
@@ -881,7 +960,7 @@ function _rfRenderGrid(filtradas) {
     if (total === 0) {
         grid.innerHTML = `<div class="rsearch-filtro-vacio"><i class="fas fa-filter-circle-xmark"></i> Ninguna receta coincide con estos filtros. <button class="rsearch-filtro-reset">Quitar filtros</button></div>`;
         grid.querySelector('.rsearch-filtro-reset')?.addEventListener('click', () => {
-            _rfCats.clear(); _rfDifs.clear();
+            _rfCats.clear(); _rfDifs.clear(); _rfProps.clear();
             _rfRenderGrid(_rfBase);
         });
         return;
@@ -896,23 +975,27 @@ function _rfRenderGrid(filtradas) {
     grid.innerHTML = mostrar.map(r => {
         const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : '';
         const props = (r.propiedades || []).slice(0, 3);
+        const puebloKey  = esAncestral(r) ? puebloDeReceta(r) : null;
+        const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey] || ANCESTRAL_PUEBLOS.mapuche) : null;
+        const puebloBadge = puebloInfo
+            ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
+            : '';
+        const nuevaBadge = r.id >= NUEVO_DESDE_ID
+            ? `<span class="receta-nueva-badge">✨ Nueva</span>`
+            : '';
+        const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
         const modo = _normModo(r.modo_uso);
         const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
-        const ft = (r.fuente_tradicion || r.origen || '').toLowerCase();
-        const origenTag = ft.includes('mapuche') ? 'mapuche'
-                        : (ft.includes('chilota') || ft.includes('chiloé') || ft.includes('chiloe')) ? 'chilota'
-                        : ft.includes('popular') ? 'popular'
-                        : null;
-        const origenLabel = origenTag === 'mapuche' ? 'Mapuche' : origenTag === 'chilota' ? 'Chilota' : origenTag === 'popular' ? 'Popular' : '';
         return `
-        <div class="rsearch-card" data-rid="${r.id}">
-            <div class="rsearch-thumb" style="background:${gradFromCat(r.categoria)}">
-                <img src="${fotoDeReceta(r)}" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'">
+        <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
+            <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
                 <span class="rsearch-cat">${r.categoria}</span>
-                ${origenTag ? `<span class="rsearch-origen-badge rsearch-origen-${origenTag}">${origenLabel}</span>` : ''}
+                ${nuevaBadge}
                 ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${puebloBadge}
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
@@ -974,6 +1057,7 @@ function renderRecetaSearchResults(recetas, query) {
     _rfQuery = query;
     _rfCats.clear();
     _rfDifs.clear();
+    _rfProps.clear();
 
     const total = recetas.length;
 
@@ -1030,6 +1114,30 @@ function renderRecetaSearchResults(recetas, query) {
                     </button>`).join('')}
                 </div>
             </div>` : ''}
+            ${(() => {
+                const propConteo = {};
+                recetas.forEach(r => {
+                    (Array.isArray(r.propiedades) ? r.propiedades : []).forEach(p => {
+                        const k = p.toLowerCase().trim();
+                        propConteo[k] = (propConteo[k] || 0) + 1;
+                    });
+                });
+                const topProps = Object.entries(propConteo)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 7)
+                    .filter(([, n]) => n >= 2);
+                if (topProps.length < 2) return '';
+                return `
+                <div class="rfilter-group rfilter-group-props">
+                    <span class="rfilter-label"><i class="fas fa-seedling"></i> Propiedad</span>
+                    <div class="rfilter-chips">
+                        ${topProps.map(([prop, n]) => `
+                        <button class="rfilter-chip rfilter-prop" data-prop="${prop}">
+                            ${prop} <span class="rfilter-n">${n}</span>
+                        </button>`).join('')}
+                    </div>
+                </div>`;
+            })()}
         </div>` : ''}
         <div class="rsearch-grid"></div>
         ${total > 48 ? `<p class="rsearch-mas"></p>` : ''}`;
@@ -1075,6 +1183,13 @@ function renderRecetaSearchResults(recetas, query) {
             _rfRenderGrid(_rfApply());
         });
     });
+    cont.querySelectorAll('.rfilter-chip[data-prop]').forEach(c => {
+        c.addEventListener('click', () => {
+            if (_rfProps.has(c.dataset.prop)) _rfProps.delete(c.dataset.prop);
+            else _rfProps.add(c.dataset.prop);
+            _rfRenderGrid(_rfApply());
+        });
+    });
 
     _rfRenderGrid(recetas);
 }
@@ -1099,8 +1214,10 @@ function limpiarRecetaSearch() {
 
 function recetasParaDolencia(dol) {
     const kws = dol.keywords.map(normDol);
+    const normCatR = txt => (txt || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const catsDolNorm = new Set(dol.cats.map(normCatR));
     return recetasDB.filter(r => {
-        if (dol.cats.includes(r.categoria)) return true;
+        if (catsDolNorm.has(normCatR(r.categoria))) return true;
         const hay = normDol([r.titulo, r.ingredientes, r.preparacion, r.dosis].join(' '));
         return kws.some(k => hay.includes(k));
     });
@@ -1269,38 +1386,83 @@ function renderMaternidad() {
         return false;
     }
 
-    const recetasEmb = recetasDB.filter(r => recetaEsSegura(r, nombresSegEmb, warnNombres)).slice(0, 12);
-    const recetasLac = recetasDB.filter(r => recetaEsSegura(r, nombresSegLac, warnNombresLac)).slice(0, 12);
+    // Lactancia: primero las del submódulo postparto_lactancia (ya son seguras por diseño)
+    // + las que coinciden por nombre de planta segura, sin duplicar
+    const recetasPostparto = recetasDB.filter(r => r.submodulo === 'postparto_lactancia');
+    const postpartoIds = new Set(recetasPostparto.map(r => r.id));
+    const recetasLacExtra = recetasDB.filter(r =>
+        !postpartoIds.has(r.id) && recetaEsSegura(r, nombresSegLac, warnNombresLac)
+    );
+    const recetasLac = [...recetasPostparto, ...recetasLacExtra].slice(0, 24);
 
-    function maternRecetaCard(r) {
-        const uso = CATEGORIA_USO[r.categoria] || '';
-        return `
-        <button class="matern-receta-card" data-rid="${r.id}">
-            <div class="matern-receta-cat">${r.categoria}</div>
-            <div class="matern-receta-titulo">${r.titulo}</div>
-            ${uso ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${uso}</div>` : ''}
-            <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
-            <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
-        </button>`;
+    // Embarazo: coincidencia por planta segura + recetas cuyo uso menciona embarazo/gestación
+    const recetasEmb = recetasDB.filter(r => {
+        if (recetaEsSegura(r, nombresSegEmb, warnNombres)) return true;
+        const texto = (r.titulo + ' ' + (r.ingredientes || '')).toLowerCase();
+        for (const nom of warnNombres) { if (texto.includes(nom)) return false; }
+        return /embaraz|gestac|prenatal|trimestre/.test((r.uso || '').toLowerCase());
+    }).slice(0, 16);
+
+    // ── Tarjetas de submódulo del recetario de mujer ──
+    const submodGrid = $('#maternSubmodGrid');
+    if (submodGrid) {
+        const submods = SUBMODULOS.mujer.submods;
+        submodGrid.innerHTML = submods.map(sub => {
+            const count = recetasDB.filter(r => r.submodulo === sub.id).length;
+            return `
+            <button class="matern-submod-card" data-subid="${sub.id}"
+                    style="--ms-color:${sub.color}">
+                <span class="matern-submod-emoji">${sub.emoji}</span>
+                <span class="matern-submod-label">${sub.label}</span>
+                <span class="matern-submod-desc">${sub.desc}</span>
+                <span class="matern-submod-count">${count} recetas</span>
+                <i class="fas fa-arrow-right matern-submod-arrow"></i>
+            </button>`;
+        }).join('');
+
+        submodGrid.querySelectorAll('.matern-submod-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirSubmoduloMatern(btn.dataset.subid));
+        });
     }
 
-    const rEmbEl = $('#maternRecetasEmbarazo');
-    const rLacEl = $('#maternRecetasLactancia');
-    if (rEmbEl) {
-        rEmbEl.innerHTML = recetasEmb.length
-            ? recetasEmb.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-    if (rLacEl) {
-        rLacEl.innerHTML = recetasLac.length
-            ? recetasLac.map(maternRecetaCard).join('')
-            : '<p class="matern-recetas-empty">Cargando recetas…</p>';
-    }
-
-    // Click en receta maternidad → abre modal receta
-    $$('.matern-receta-card').forEach(btn => {
-        btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+    $('#maternSubmodBack')?.addEventListener('click', () => {
+        $('#maternSubmodGrid').hidden = false;
+        $('#maternSubmodResultados').hidden = true;
     });
+}
+
+function abrirSubmoduloMatern(subId) {
+    const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
+    if (!sub) return;
+    const recetas = recetasDB.filter(r => r.submodulo === subId);
+
+    const tituloEl = $('#maternSubmodTituloActivo');
+    if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
+
+    const grid = $('#maternSubmodRecetas');
+    if (grid) {
+        grid.innerHTML = recetas.map(r => {
+            const usoTexto = r.uso
+                ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
+                : (CATEGORIA_USO[r.categoria] || '');
+            return `
+            <button class="matern-receta-card" data-rid="${r.id}">
+                <div class="matern-receta-cat">${r.categoria}</div>
+                <div class="matern-receta-titulo">${r.titulo}</div>
+                ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
+                <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
+                <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
+            </button>`;
+        }).join('');
+
+        grid.querySelectorAll('.matern-receta-card').forEach(btn => {
+            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)));
+        });
+    }
+
+    $('#maternSubmodGrid').hidden = true;
+    $('#maternSubmodResultados').hidden = false;
+    $('#maternSubmodResultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function switchMaternSubtab(tipo) {
@@ -1416,33 +1578,50 @@ function ancestralRecetaCard(r) {
     </button>`;
 }
 
-let _ancPuebloActivo = 'todos';
 let _ancBusqueda = '';
 let _ancSistema = null;
+let _ancDolencia = null;
+
+// Mapeo de IDs de SISTEMAS → sistema en DOLENCIAS (donde difieren)
+const _ANCSISMAP = { musculoesqueletico: 'musculo', urinario: 'renal', defensas: 'inmuno', cosmetico: 'piel' };
 
 function renderMedicinaAncestral() {
     if (!recetasDB || !recetasDB.length) return;
 
     const todas = recetasDB.filter(esAncestral);
 
-    // Conteos por pueblo
-    const conteos = { todos: todas.length };
-    Object.keys(ANCESTRAL_PUEBLOS).forEach(p => {
-        conteos[p] = todas.filter(r => puebloDeReceta(r) === p).length;
-    });
-
-    // Actualizar stats hero
+    // Actualizar stat hero
     const statRec = $('#ancStatRecetas');
     if (statRec) statRec.textContent = todas.length;
 
-    // Actualizar conteos en botones
-    Object.keys(conteos).forEach(p => {
-        const el = $(`#ancCount-${p}`);
-        if (el) el.textContent = conteos[p];
-    });
-
-    // ── Render grid de sistemas del cuerpo ──
     const sisteGrid = $('#ancSistemasGrid');
+    const subGrid   = $('#ancSubmodulosGrid');
+
+    // ── Render submódulos (dolencias del sistema activo) ──
+    function mostrarSubmodulos() {
+        if (!subGrid) return;
+        if (!_ancSistema) { subGrid.hidden = true; subGrid.innerHTML = ''; return; }
+        const sisKey = _ANCSISMAP[_ancSistema] || _ancSistema;
+        const dols   = DOLENCIAS.filter(d => d.sistema === sisKey);
+        if (!dols.length) { subGrid.hidden = true; subGrid.innerHTML = ''; return; }
+        subGrid.innerHTML = dols.map(d => `
+            <button class="anc-submodulo-chip${_ancDolencia === d.id ? ' active' : ''}" data-did="${d.id}">
+                <span>${d.emoji}</span>
+                <span>${d.nombre}</span>
+            </button>`).join('');
+        subGrid.hidden = false;
+        subGrid.querySelectorAll('.anc-submodulo-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                _ancDolencia = _ancDolencia === chip.dataset.did ? null : chip.dataset.did;
+                subGrid.querySelectorAll('.anc-submodulo-chip').forEach(c => {
+                    c.classList.toggle('active', c.dataset.did === _ancDolencia);
+                });
+                filtrarYRenderizar();
+            });
+        });
+    }
+
+    // ── Render grid de módulos (sistemas del cuerpo) ──
     if (sisteGrid) {
         sisteGrid.innerHTML = SISTEMAS.map(s => `
             <button class="anc-sistema-chip${_ancSistema === s.id ? ' active' : ''}"
@@ -1460,65 +1639,95 @@ function renderMedicinaAncestral() {
                 } else {
                     _ancSistema = sid;
                 }
-                // Re-render chips con estado actualizado
+                _ancDolencia = null;
                 sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => {
                     c.classList.toggle('active', c.dataset.sid === _ancSistema);
                 });
                 const resetBtn = $('#ancDolenciasReset');
                 if (resetBtn) resetBtn.hidden = !_ancSistema;
+                mostrarSubmodulos();
                 filtrarYRenderizar();
             });
         });
     }
 
-    // Reset dolencias
+    // Reset todo
     const resetDol = $('#ancDolenciasReset');
     if (resetDol) {
         resetDol.addEventListener('click', () => {
             _ancSistema = null;
+            _ancDolencia = null;
             resetDol.hidden = true;
             sisteGrid && sisteGrid.querySelectorAll('.anc-sistema-chip').forEach(c => c.classList.remove('active'));
+            mostrarSubmodulos();
             filtrarYRenderizar();
         });
     }
 
-    // ── Filtrar según pueblo, sistema y búsqueda ──
+    mostrarSubmodulos();
+
+    // ── Filtrar por módulo / submódulo / búsqueda ──
     function filtrarYRenderizar() {
         let lista = todas;
+        let totalSearch = null;
 
-        if (_ancPuebloActivo !== 'todos') {
-            lista = lista.filter(r => puebloDeReceta(r) === _ancPuebloActivo);
-        }
-
-        if (_ancSistema) {
+        if (_ancDolencia) {
+            const dol = DOLENCIAS.find(d => d.id === _ancDolencia);
+            if (dol) lista = lista.filter(r => dol.cats.includes(r.categoria));
+        } else if (_ancSistema) {
             const sis = SISTEMAS.find(s => s.id === _ancSistema);
-            if (sis) {
-                lista = lista.filter(r => sis.cats.includes(r.categoria));
-            }
+            if (sis) lista = lista.filter(r => sis.cats.includes(r.categoria));
         }
 
         if (_ancBusqueda) {
-            const q = _ancBusqueda.toLowerCase();
-            lista = lista.filter(r =>
-                (r.titulo || '').toLowerCase().includes(q) ||
-                (r.ingredientes || '').toLowerCase().includes(q) ||
-                (r.uso || '').toLowerCase().includes(q) ||
-                (r.origen || '').toLowerCase().includes(q) ||
-                (r.categoria || '').toLowerCase().includes(q)
-            );
+            const STOPWORDS = new Set(['las','los','una','uno','del','con','que','mas','sin','por','sus','mis','hay','ese','esa','era','fue','han','has','les','nos','tus']);
+            let q = normDol(_ancBusqueda)
+                .replace(/^(me duele(n)?|tengo|siento|busco( algo)?|quiero( algo)?|algo para|remedio para|para (el|la|los|las|un|una))\s+/i, '')
+                .trim();
+            const qWords = q.split(/\s+/).filter(w => w.length >= 3 && !STOPWORDS.has(w));
+            if (qWords.length === 0 && q.length >= 2) qWords.push(q);
+
+            if (qWords.length > 0) {
+                const scored = lista.map(r => {
+                    const titulo  = normDol(r.titulo);
+                    const usoPrim = normDol((r.uso || '').slice(0, 200));
+                    const props   = normDol(Array.isArray(r.propiedades) ? r.propiedades.join(' ') : (r.propiedades || ''));
+                    const ingred  = normDol((r.ingredientes || '').slice(0, 300));
+                    const cat     = normDol(r.categoria);
+                    const origen  = normDol(r.origen || '');
+                    let score = 0;
+                    for (const qw of qWords) { if (titulo.includes(qw))  { score += 8; break; } }
+                    for (const qw of qWords) { if (usoPrim.includes(qw)) { score += 5; break; } }
+                    for (const qw of qWords) { if (props.includes(qw))   { score += 4; break; } }
+                    for (const qw of qWords) { if (ingred.includes(qw))  { score += 3; break; } }
+                    for (const qw of qWords) { if (cat.includes(qw))     { score += 3; break; } }
+                    for (const qw of qWords) { if (origen.includes(qw))  { score += 2; break; } }
+                    return { r, score };
+                }).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+                lista = scored.map(x => x.r);
+            } else {
+                lista = [];
+            }
+
+            totalSearch = lista.length;
+            const MAX_RESULTS = 48;
+            if (lista.length > MAX_RESULTS) lista = lista.slice(0, MAX_RESULTS);
         }
 
         // Contador de resultados
         const countEl = $('#ancResultCount');
         if (countEl) {
-            const filtroActivo = _ancPuebloActivo !== 'todos' || _ancSistema || _ancBusqueda;
+            const filtroActivo = _ancSistema || _ancDolencia || _ancBusqueda;
             if (filtroActivo) {
                 const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
+                const dol = _ancDolencia ? DOLENCIAS.find(d => d.id === _ancDolencia) : null;
                 const partes = [];
-                if (_ancPuebloActivo !== 'todos') partes.push(ANCESTRAL_PUEBLOS[_ancPuebloActivo]?.label);
                 if (sis) partes.push(sis.nombre);
+                if (dol) partes.push(`${dol.emoji} ${dol.nombre}`);
                 if (_ancBusqueda) partes.push(`"${_ancBusqueda}"`);
-                countEl.innerHTML = `<i class="fas fa-filter"></i> <strong>${lista.length}</strong> receta${lista.length !== 1 ? 's' : ''} — ${partes.join(' · ')}`;
+                const mostradas = lista.length;
+                const hayMas = totalSearch && totalSearch > mostradas;
+                countEl.innerHTML = `<i class="fas fa-filter"></i> <strong>${mostradas}</strong>${hayMas ? ` de ${totalSearch}` : ''} receta${mostradas !== 1 ? 's' : ''} — ${partes.join(' · ')}`;
                 countEl.hidden = false;
             } else {
                 countEl.hidden = true;
@@ -1530,7 +1739,9 @@ function renderMedicinaAncestral() {
 
         if (!lista.length) {
             const sis = _ancSistema ? SISTEMAS.find(s => s.id === _ancSistema) : null;
-            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No hay recetas ancestrales${sis ? ` para <strong>${sis.nombre}</strong>` : ''}${_ancBusqueda ? ` con "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
+            const dol = _ancDolencia ? DOLENCIAS.find(d => d.id === _ancDolencia) : null;
+            const label = dol ? `${dol.emoji} ${dol.nombre}` : (sis ? sis.nombre : '');
+            grid.innerHTML = `<div class="anc-empty"><i class="fas fa-leaf"></i><p>No hay recetas ancestrales${label ? ` para <strong>${label}</strong>` : ''}${_ancBusqueda ? ` con "<strong>${_ancBusqueda}</strong>"` : ''}.</p></div>`;
             return;
         }
         grid.innerHTML = lista.map(ancestralRecetaCard).join('');
@@ -1540,42 +1751,16 @@ function renderMedicinaAncestral() {
         });
     }
 
-    // ── Contexto cultural ──
-    function mostrarContexto(pueblo) {
-        const ctx = $('#ancestralContexto');
-        if (!ctx) return;
-        if (pueblo === 'todos') { ctx.hidden = true; return; }
-        const info = ANCESTRAL_CONTEXTO[pueblo];
-        if (!info) { ctx.hidden = true; return; }
-        const pInfo = ANCESTRAL_PUEBLOS[pueblo] || {};
-        ctx.innerHTML = `
-            <div class="anc-ctx-header" style="--anc-color:${pInfo.color || '#6a8a52'}">
-                <span class="anc-ctx-emoji">${pInfo.emoji || '🌿'}</span>
-                <strong>${info.titulo}</strong>
-            </div>
-            <p>${info.desc}</p>`;
-        ctx.hidden = false;
-    }
-
-    // ── Eventos filtros pueblo ──
-    $$('.anc-pueblo-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            $$('.anc-pueblo-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            _ancPuebloActivo = btn.dataset.pueblo;
-            mostrarContexto(_ancPuebloActivo);
-            filtrarYRenderizar();
-        });
-    });
-
     // ── Buscador ──
     const searchInput = $('#ancestralSearchInput');
     const searchClear = $('#ancestralSearchClear');
     if (searchInput) {
+        let _ancSearchTimer = null;
         searchInput.addEventListener('input', () => {
             _ancBusqueda = searchInput.value.trim();
             if (searchClear) searchClear.hidden = !_ancBusqueda;
-            filtrarYRenderizar();
+            clearTimeout(_ancSearchTimer);
+            _ancSearchTimer = setTimeout(filtrarYRenderizar, 250);
         });
     }
     if (searchClear) {
@@ -1619,6 +1804,56 @@ const $$ = (sel) => document.querySelectorAll(sel);
 function gradFromCat(cat) {
     const sis = sistemaDeCategoria(cat);
     return sis ? sis.gradient : 'var(--grad-defensas)';
+}
+
+const CAT_VISUAL = {
+    'Digestivo':        { icon: 'fa-mug-hot',          g: ['#1c3d20','#4a8a3a'] },
+    'Hepático':         { icon: 'fa-flask',             g: ['#3d2e00','#8a6818'] },
+    'Diarrea':          { icon: 'fa-droplet',           g: ['#0a3020','#2a7050'] },
+    'Antiparasitario':  { icon: 'fa-shield-halved',     g: ['#1a3810','#4a7a30'] },
+    'Respiratorio':     { icon: 'fa-lungs',             g: ['#0d3a5a','#2a7aaa'] },
+    'Resfriados':       { icon: 'fa-head-side-cough',   g: ['#0a2a4a','#1a5a8a'] },
+    'Expectorante':     { icon: 'fa-wind',              g: ['#0a2840','#1a6090'] },
+    'Tos':              { icon: 'fa-lungs-virus',       g: ['#0a2535','#1a5a70'] },
+    'Garganta':         { icon: 'fa-stethoscope',       g: ['#103040','#2a7080'] },
+    'Cardiovascular':   { icon: 'fa-heart-pulse',       g: ['#4a0a15','#b02a3a'] },
+    'Nervioso':         { icon: 'fa-brain',             g: ['#2a1045','#6a35a0'] },
+    'Sedante':          { icon: 'fa-moon',              g: ['#0d0a25','#3a2880'] },
+    'Analgésico':       { icon: 'fa-pills',             g: ['#3a1008','#9a3515'] },
+    'Memoria':          { icon: 'fa-brain',             g: ['#200a3a','#5a2090'] },
+    'Antiinflamatorio': { icon: 'fa-fire-flame-curved', g: ['#3a1500','#b04a10'] },
+    'Febrífugo':        { icon: 'fa-thermometer',       g: ['#4a0808','#c02020'] },
+    'Dermatológico':    { icon: 'fa-hand',              g: ['#4a2a0a','#a07020'] },
+    'Cicatrizante':     { icon: 'fa-bandage',           g: ['#3a2008','#907030'] },
+    'Antifúngico':      { icon: 'fa-virus-slash',       g: ['#0a2520','#1a6050'] },
+    'Renal':            { icon: 'fa-droplet',           g: ['#0a2040','#1a5080'] },
+    'Diurético':        { icon: 'fa-water',             g: ['#0a2a50','#1a5a9a'] },
+    'Ginecológico':     { icon: 'fa-venus',             g: ['#3a0820','#9a2a5a'] },
+    'Pediátrico':       { icon: 'fa-baby',              g: ['#251040','#6a3598'] },
+    'Medicina Mapuche': { icon: 'fa-mountain-sun',      g: ['#1e1005','#6a4015'] },
+    'Espiritual':       { icon: 'fa-star',              g: ['#100518','#4a1868'] },
+    'Energizante':      { icon: 'fa-bolt',              g: ['#3a2a00','#a07800'] },
+    'Nutritivo':        { icon: 'fa-apple-whole',       g: ['#1a3008','#4a8020'] },
+    'Alimenticio':      { icon: 'fa-utensils',          g: ['#2a2805','#6a6815'] },
+    'Dental':           { icon: 'fa-tooth',             g: ['#0a2535','#1a6080'] },
+    'Cabello':          { icon: 'fa-spa',               g: ['#102510','#2a6a30'] },
+    'Cosmético':        { icon: 'fa-gem',               g: ['#250535','#602090'] },
+    'Baño':             { icon: 'fa-bath',              g: ['#0a1a30','#1a4a7a'] },
+    'Oftalmológico':    { icon: 'fa-eye',               g: ['#082a28','#1a7070'] },
+    'Oídos':            { icon: 'fa-volume-high',       g: ['#3a2008','#886020'] },
+    'Alergia':          { icon: 'fa-shield',            g: ['#2a2000','#7a6a10'] },
+    'Reumatismo':       { icon: 'fa-bone',              g: ['#302010','#806040'] },
+    'General':          { icon: 'fa-leaf',              g: ['#102010','#305030'] },
+};
+
+function thumbGrad(cat) {
+    const v = CAT_VISUAL[cat];
+    if (!v) return gradFromCat(cat);
+    return `linear-gradient(148deg, ${v.g[0]}cc 0%, ${v.g[1]}99 100%)`;
+}
+
+function thumbIcon(cat) {
+    return (CAT_VISUAL[cat] || {}).icon || 'fa-leaf';
 }
 
 // Vincular receta con plantas mencionadas en sus ingredientes
@@ -1758,6 +1993,19 @@ function renderSearchHero() {
 // ════════════════════════════════════════════════════════════════════
 // PLANTAS
 // ════════════════════════════════════════════════════════════════════
+
+// Delegación única para clicks en tarjetas de plantas — evita 170+ listeners por render
+let _plantDelegationReady = false;
+function _setupPlantDelegation() {
+    if (_plantDelegationReady || !plantListDiv) return;
+    _plantDelegationReady = true;
+    plantListDiv.addEventListener('click', e => {
+        const favBtn = e.target.closest('.fav-btn');
+        if (favBtn) { e.stopPropagation(); toggleFavorito(parseInt(favBtn.dataset.id)); return; }
+        const card = e.target.closest('.plant-card');
+        if (card) abrirDetallePlanta(parseInt(card.dataset.id));
+    });
+}
 const plantListDiv = $('#plantList');
 
 function renderPlantas() {
@@ -1821,9 +2069,12 @@ function renderPlantas() {
 
     const mesActual = new Date().getMonth() + 1;
     const notasGuardadas = JSON.parse(localStorage.getItem('plantNotas') || '{}');
-    plantListDiv.innerHTML = getSortedPlantas(filtradas).map(p => {
+    const sortedParaRender = getSortedPlantas(filtradas);
+    plantListDiv.innerHTML = sortedParaRender.map((p, i) => {
         const enTemporada = p.meses && p.meses.includes(mesActual);
         const usoCorto = (p.usos || '').split('.')[0];
+        const sistColor = (p.sistemas || []).map(s => SISTEMA_COLOR[s]).find(Boolean) || '#6a8a52';
+        const cardDelay = (i % 8 * 0.3).toFixed(2);
         const tieneNota = !!notasGuardadas[p.id];
         const placeholderContent = p.emoji
             ? `<span class="placeholder-emoji">${p.emoji}</span>`
@@ -1842,7 +2093,7 @@ function renderPlantas() {
                 ? '<span class="badge matern-badge lac-ok" title="Galactogoga — favorece la leche">🍼✅</span>'
                 : '';
         return `
-        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}">
+        <div class="plant-card reveal${enTemporada ? ' planta-temporada' : ''}${p.peligroso ? ' peligrosa' : ''}" data-id="${p.id}" style="--plant-color:${sistColor}; animation-delay:${cardDelay}s">
             <div class="plant-img-wrap">
                 ${p.imagen
                     ? `<img src="${p.imagen}" alt="${p.nombre}" class="plant-img" loading="lazy" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">`
@@ -1866,17 +2117,7 @@ function renderPlantas() {
         </div>
     `}).join('');
 
-    $$('.plant-card').forEach(card => {
-        const id = parseInt(card.dataset.id);
-        card.addEventListener('click', (e) => {
-            if (e.target.closest('.fav-btn')) return;
-            abrirDetallePlanta(id);
-        });
-        card.querySelector('.fav-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            toggleFavorito(id);
-        });
-    });
+    _setupPlantDelegation();
 
     applyReveal(plantListDiv);
 
@@ -2313,181 +2554,6 @@ const _SVG_DOSIS = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" s
 const _SVG_FRIO  = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><rect x="6" y="3" width="8" height="2" rx="1" stroke-width="1.6"/><path stroke-width="1.7" d="M5 5 Q4 5 4 7 L4 16 Q4 17 5 17 L15 17 Q16 17 16 16 L16 7 Q16 5 15 5Z"/><line stroke-width="1.2" x1="4" y1="11" x2="16" y2="11" opacity="0.45"/></svg>`;
 const _SVG_FLASK = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path stroke-width="1.7" d="M7 3 L7 9 L3 15 Q2 17 4 17 L16 17 Q18 17 17 15 L13 9 L13 3"/><line stroke-width="2" x1="6" y1="3" x2="14" y2="3"/><path stroke-width="1.3" d="M5 13 Q8 11.5 12 13" opacity="0.5"/></svg>`;
 
-// ── Fotos curadas por tipo de preparación ──
-const _RECETA_FOTOS = {
-    infusion:      'img/receta-tisana.png',
-    infusion2:     'img/receta-infusion-herbal.png',
-    decoccion:     'img/receta-decoccion.png',
-    caldo:         'img/receta-decoccion.png',
-    jarabe:        'img/receta-tisana.png',
-    tintura:       'img/receta-aceite.png',
-    cataplasma:    'img/receta-cataplasma.png',
-    compresa:      'img/receta-compresa.png',
-    crema:         'img/receta-unguento.png',
-    aceite:        'img/receta-aceite.png',
-    vapor:         'img/receta-aromaterapia.png',
-    aromaterapia:  'img/receta-aromaterapia.png',
-    bano:          'img/receta-bano.png',
-    masaje:        'img/receta-aceite.png',
-    enjuague:      'img/receta-compresa2.png',
-    ritual:        'img/receta-aromaterapia.png',
-    jugo:          'img/receta-zumo.png',
-    batido:        'img/receta-batido.png',
-    ensalada:      'img/receta-ensalada.jpg',
-    bebida:        'img/receta-bebida.png',
-    mermelada:     'img/receta-tisana.png',
-    licor:         'img/receta-bebida.png',
-    polvo:         'img/receta-tisana.png',
-    mate:          'img/receta-infusion-herbal.png',
-    default:       'img/receta-infusion-herbal.png',
-};
-
-function fotoDeReceta(r) {
-    const t = (r.titulo || '').toLowerCase();
-    const m = (r.modo_uso || '').toLowerCase();
-    const cat = (r.categoria || '').toLowerCase();
-
-    // ── Por título (mayor prioridad) ──────────────────────────────────
-    if (t.includes('infusión') || t.includes('infusion') || t.includes('tisana') || t.includes('té ') || t.includes('agüita') || t.includes('aguita'))
-        return _RECETA_FOTOS.infusion;
-    if (t.includes('decocción') || t.includes('decoccion'))
-        return _RECETA_FOTOS.decoccion;
-    if (t.includes('caldo') || t.includes('sopa') || t.includes('consomé') || t.includes('consome'))
-        return _RECETA_FOTOS.caldo;
-    if (t.includes('jarabe') || t.includes('sirope'))
-        return _RECETA_FOTOS.jarabe;
-    if (t.includes('tintura'))
-        return _RECETA_FOTOS.tintura;
-    if (t.includes('cataplasma') || t.includes('emplasto') || t.includes('parche') || t.includes('fomento'))
-        return _RECETA_FOTOS.cataplasma;
-    if (t.includes('compresa'))
-        return _RECETA_FOTOS.compresa;
-    if (t.includes('pomada') || t.includes('ungüento') || t.includes('bálsamo') || t.includes('balsa'))
-        return _RECETA_FOTOS.crema;
-    if (t.includes('crema') || t.includes('loción') || t.includes('mascarilla') || t.includes('pasta dental'))
-        return _RECETA_FOTOS.crema;
-    if (t.includes('aceite') || t.includes('linimento'))
-        return _RECETA_FOTOS.aceite;
-    if (t.includes('vapor') || t.includes('inhalación') || t.includes('inhalacion') || t.includes('sahumerio') || t.includes('vahos'))
-        return _RECETA_FOTOS.vapor;
-    if (t.includes('mate ') || t.startsWith('mate') || t.includes('lawen'))
-        return _RECETA_FOTOS.infusion2;
-    if (t.includes('jugo') || t.includes('zumo'))
-        return _RECETA_FOTOS.jugo;
-    if (t.includes('batido') || t.includes('smoothie') || t.includes('licuado') || t.includes('tónico') || t.includes('tonico'))
-        return _RECETA_FOTOS.batido;
-    if (t.includes('ensalada') || t.includes('vinagreta') || t.includes('aderezo'))
-        return _RECETA_FOTOS.ensalada;
-    if (t.includes('mermelada') || t.includes('confitura') || t.includes('jalea'))
-        return _RECETA_FOTOS.mermelada;
-    if (t.includes('licor') || t.includes('aguardiente') || t.includes('vino ') || t.includes('macerado') || t.includes('maceración'))
-        return _RECETA_FOTOS.licor;
-    if (t.includes('vinagre') || t.includes('shrub'))
-        return _RECETA_FOTOS.licor;
-    if (t.includes('polvo') || t.includes('especia') || t.startsWith('semillas'))
-        return _RECETA_FOTOS.polvo;
-    if (t.includes('avena') || t.includes('granola') || t.includes('muesli'))
-        return _RECETA_FOTOS.batido;
-    if (t.startsWith('agua de') || t.startsWith('agua tibia') || t.startsWith('agua alcalin') || t.includes('bebida ') || t.includes('tónico de') || t.includes('tonico de'))
-        return _RECETA_FOTOS.bebida;
-    if (t.includes('aromaterapia') || t.includes('almohada') || t.includes('difusor'))
-        return _RECETA_FOTOS.aromaterapia;
-    if (t.includes('compota') || t.includes('caramelo') || t.includes('pastilla') || t.includes('gominola'))
-        return _RECETA_FOTOS.mermelada;
-    if (t.includes('kéfir') || t.includes('kefir') || t.includes('leche de') || t.startsWith('latte') || t.includes('latte '))
-        return _RECETA_FOTOS.batido;
-    if (t.includes('spray') || t.includes('gargarismo') || t.includes('enjuague'))
-        return _RECETA_FOTOS.enjuague;
-    if (t.startsWith('compress') || t.includes('arcilla'))
-        return _RECETA_FOTOS.cataplasma;
-    if (t.includes('suplemento') || t.includes('protocolo') || t.includes('melatonina'))
-        return _RECETA_FOTOS.bebida;
-    if (t.startsWith('mezcla de tés') || t.startsWith('mezcla de te') || t.includes('kava ') || t.startsWith('kava'))
-        return _RECETA_FOTOS.infusion;
-    if (t.startsWith('miel ') || t.startsWith('miel de') || t.startsWith('miel con'))
-        return _RECETA_FOTOS.jarabe;
-    if (t.startsWith('baño') || t.startsWith('tina') || t.startsWith('pedilu') || t.startsWith('bano'))
-        return _RECETA_FOTOS.bano;
-
-    // ── Por modo_uso (segundo nivel) ───────────────────────────────────
-    if (m.includes('decoc'))    return _RECETA_FOTOS.decoccion;
-    if (m.includes('cataplas') || m.includes('emplasto')) return _RECETA_FOTOS.cataplasma;
-    if (m.includes('compres'))  return _RECETA_FOTOS.compresa;
-    if (m.includes('jarabe'))   return _RECETA_FOTOS.jarabe;
-    if (m.includes('vapor') || m.includes('inhal') || m.includes('sahumer') || m.includes('aromaterapia') || m.includes('ambiental'))
-        return _RECETA_FOTOS.aromaterapia;
-    if (m.includes('ritual') || m.includes('ceremon') || m.includes('ngillatun') || m.includes('machitun'))
-        return _RECETA_FOTOS.ritual;
-    if (m.includes('masaje') || m.includes('fricci'))   return _RECETA_FOTOS.masaje;
-    if (m.includes('crema') || m.includes('mascaril') || m.includes('ungüent') || m.includes('pomada'))
-        return _RECETA_FOTOS.crema;
-    if (m.includes('aceite') || m.includes('tópico') || m.includes('topico'))   return _RECETA_FOTOS.aceite;
-    if (m.includes('enjuag') || m.includes('gargar') || m.includes('no tragar') || m.includes('escupir'))
-        return _RECETA_FOTOS.enjuague;
-    if (m.includes('lavad') && (m.includes('vaginal') || m.includes('intim') || m.includes('nasal')))
-        return _RECETA_FOTOS.enjuague;
-    if (m.includes('baño') || m.includes('bano') || m.includes('inmersi') || m.includes('pediluvio'))
-        return _RECETA_FOTOS.bano;
-    if (m.includes('infusi') || m.includes('tisana'))
-        return _RECETA_FOTOS.infusion;
-    // Preparaciones orales específicas
-    if (m.includes('ensalada') || m.includes('crudo') || m.includes('fresco'))
-        return _RECETA_FOTOS.ensalada;
-    if (m.includes('batido') || m.includes('licuado') || m.includes('smoothie') || m.includes('bowl'))
-        return _RECETA_FOTOS.batido;
-    if (m.includes('mermelada') || m.includes('confitura') || m.includes('jalea'))
-        return _RECETA_FOTOS.mermelada;
-    if (m.includes('licor') || m.includes('aguardiente') || m.includes('vino') || m.includes('macerac') || m.includes('macerado'))
-        return _RECETA_FOTOS.licor;
-    if (m.includes('jugo') || m.includes('zumo'))
-        return _RECETA_FOTOS.jugo;
-    if (m.includes('caldo') || m.includes('sopa') || m.includes('consomé'))
-        return _RECETA_FOTOS.caldo;
-    // Bebidas orales genéricas (Tomar / Beber / Consumir)
-    if (m.startsWith('tomar') || m.startsWith('beber') || m.includes('oral') || m.includes('bebida'))
-        return _RECETA_FOTOS.bebida;
-    if (m.startsWith('consumir') || m.startsWith('servir') || m.startsWith('comer'))
-        return _RECETA_FOTOS.ensalada;
-    // Condimentos y preparaciones culinarias
-    if (m.includes('condimento') || m.includes('culinari') || m.includes('vinagre') || m.includes('adobo') || m.includes('aderezo'))
-        return _RECETA_FOTOS.ensalada;
-    // Masticar / semillas
-    if (m.startsWith('masticar') || m.includes('moler') || m.includes('semilla'))
-        return _RECETA_FOTOS.polvo;
-    // Uso tópico externo genérico
-    if (m.includes('solo') && (m.includes('externo') || m.includes('extern')))
-        return _RECETA_FOTOS.crema;
-    if (m.includes('aplicación tópica') || m.includes('aplicacion topica'))
-        return _RECETA_FOTOS.crema;
-    // Gárgaras / pasta dental
-    if (m.includes('gárgar') || m.includes('gargar') || m.includes('pasta dental') || m.includes('dental'))
-        return _RECETA_FOTOS.enjuague;
-    // Tintura amarga / tintura
-    if (m.includes('tintura'))
-        return _RECETA_FOTOS.tintura;
-    // Secar pies / hongos → es un baño de pies
-    if (m.includes('pies') || m.includes('hongos proliferan'))
-        return _RECETA_FOTOS.bano;
-    // Incienso / difusión aromática
-    if (m.includes('difusi') || m.includes('incienso') || m.includes('incens'))
-        return _RECETA_FOTOS.aromaterapia;
-    // Hidratación / electrolitos / recuperación → bebida
-    if (m.includes('hidrat') || m.includes('electrolit') || m.includes('ejercicio') || m.includes('rehidrat'))
-        return _RECETA_FOTOS.bebida;
-    // Fermentados / probióticos → batido/ensalada
-    if (m.includes('ferment') || m.includes('probiótic') || m.includes('probiotic'))
-        return _RECETA_FOTOS.batido;
-
-    // ── Por categoría como último recurso ──────────────────────────────
-    if (cat === 'espiritual' || cat === 'medicina mapuche') return _RECETA_FOTOS.ritual;
-    if (cat === 'alimenticio' || cat === 'nutritivo')       return _RECETA_FOTOS.ensalada;
-    if (cat === 'cosmético' || cat === 'cabello')           return _RECETA_FOTOS.crema;
-    if (cat === 'baño')                                     return _RECETA_FOTOS.bano;
-    if (cat === 'antiparasitario')                          return _RECETA_FOTOS.bebida;
-    if (cat === 'energizante')                              return _RECETA_FOTOS.batido;
-
-    return _RECETA_FOTOS.default;
-}
 
 function abrirDetalleReceta(id) {
     const r = recetasDB.find(r => r.id === id);
@@ -2505,22 +2571,22 @@ function abrirDetalleReceta(id) {
     };
     const ev = evidenciaBadge[r.evidencia] || { color: 'var(--text-mute)', icon: '📖' };
 
-    const _fotoUrl = fotoDeReceta(r);
+    const _esNueva = r.id >= NUEVO_DESDE_ID;
     $('#modalBody').innerHTML = `
-        <div class="modal-art modal-art-receta" style="background:${gradFromCat(r.categoria)}">
-            <img class="modal-receta-foto" src="${_fotoUrl}" alt="${r.modo_uso || ''}"
-                 loading="lazy" decoding="async"
-                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="illus illus-lg modal-receta-svg" style="display:none">${ilustracionDeReceta(r)}</div>
+        <div class="modal-art modal-art-receta" style="background:${thumbGrad(r.categoria)}">
+            <i class="fas ${thumbIcon(r.categoria)} modal-receta-icon"></i>
             <div class="modal-receta-overlay"></div>
+            <div class="modal-receta-header-badges">
+                <span class="receta-cat-pill receta-cat-pill-hero">${r.categoria}</span>
+                ${_esNueva ? `<span class="receta-nueva-badge receta-nueva-badge-hero">✨ Nueva</span>` : ''}
+            </div>
         </div>
 
-        <!-- Encabezado -->
-        <div class="receta-meta-top">
-            <span class="receta-cat-pill">${r.categoria}</span>
+        <!-- Título y origen -->
+        <div class="receta-modal-titulo-bloque">
+            <h2 class="receta-modal-h2">${r.titulo}</h2>
             <span class="receta-origen-pill">${r.fuente_tradicion || r.origen}</span>
         </div>
-        <h2 style="margin-bottom:4px">${r.titulo}</h2>
 
         <!-- Chips de info rápida -->
         <div class="receta-info-chips">
@@ -2530,7 +2596,7 @@ function abrirDetalleReceta(id) {
             ${r.rendimiento ? `<div class="rec-chip"><i class="fas fa-flask"></i> ${r.rendimiento}</div>` : ''}
         </div>
 
-        <!-- Uso -->
+        <!-- Uso / Para qué sirve -->
         ${(() => { const pqs = r.uso || getParaQueSirve(r); return pqs ? `
         <div class="receta-para-que">
             <div class="para-que-icon">${_SVG_INDIC}</div>
@@ -2542,41 +2608,49 @@ function abrirDetalleReceta(id) {
 
         <!-- Propiedades -->
         ${r.propiedades && r.propiedades.length ? `
-        <div class="receta-propiedades">
-            ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+        <div class="receta-propiedades-bloque">
+            <div class="receta-propiedades-label"><i class="fas fa-seedling"></i> Propiedades terapéuticas</div>
+            <div class="receta-propiedades">
+                ${r.propiedades.map(p => `<span class="prop-chip">${p}</span>`).join('')}
+            </div>
         </div>` : ''}
 
-        <div class="modal-divider"></div>
-
-        <!-- Ingredientes y Preparación -->
-        <div class="modal-row">
-            <div class="ico ico-moss">${_SVG_HERB}</div>
-            <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+        <!-- ── SECCIÓN: PREPARACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">🌿</span> Ingredientes y preparación
         </div>
-        <div class="modal-row">
-            <div class="ico ico-amber">${_SVG_PREP}</div>
-            <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
-        </div>
-
-        <div class="modal-divider"></div>
-
-        <!-- Dosis y modo de uso -->
-        <div class="modal-row">
-            <div class="ico ico-amber">${_SVG_DOSIS}</div>
-            <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico ico-moss">${_SVG_USO}</div>
-            <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
-        </div>
-        <div class="modal-row">
-            <div class="ico ico-blue">${_SVG_FRIO}</div>
-            <div><div class="label">Conservación</div><div class="value">${r.conservacion || '—'}</div></div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-moss">${_SVG_HERB}</div>
+                <div><div class="label">Ingredientes</div><div class="value">${r.ingredientes || '—'}</div></div>
+            </div>
+            <div class="modal-row modal-row-primary">
+                <div class="ico ico-amber">${_SVG_PREP}</div>
+                <div><div class="label">Preparación</div><div class="value">${r.preparacion || '—'}</div></div>
+            </div>
         </div>
 
-        <div class="modal-divider"></div>
+        <!-- ── SECCIÓN: DOSIFICACIÓN ── -->
+        <div class="receta-seccion-header">
+            <span class="receta-seccion-ico">⏱</span> Cómo usarla
+        </div>
+        <div class="receta-seccion-bloque">
+            <div class="modal-row">
+                <div class="ico ico-amber">${_SVG_DOSIS}</div>
+                <div><div class="label">Dosis y frecuencia</div><div class="value">${r.dosis || '—'}</div></div>
+            </div>
+            <div class="modal-row">
+                <div class="ico ico-moss">${_SVG_USO}</div>
+                <div><div class="label">Modo de uso</div><div class="value">${r.modo_uso || '—'}</div></div>
+            </div>
+            ${r.conservacion ? `
+            <div class="modal-row">
+                <div class="ico ico-blue">${_SVG_FRIO}</div>
+                <div><div class="label">Conservación</div><div class="value">${r.conservacion}</div></div>
+            </div>` : ''}
+        </div>
 
-        <!-- Contraindicaciones -->
+        <!-- ── ADVERTENCIAS ── -->
         <div class="alert-box warn receta-contra">
             <span class="ico">⚠️</span>
             <div><strong>Contraindicaciones:</strong> ${r.contraindicaciones || 'Consultar con profesional de salud antes del uso.'}</div>
@@ -2668,7 +2742,9 @@ function abrirDetalleReceta(id) {
             <span class="referencias-icon"><i class="fas fa-book-open"></i></span>
             <div>
                 <div class="referencias-label">Referencias</div>
-                <div class="referencias-texto">${r.referencias}</div>
+                <div class="referencias-texto">
+                    ${r.referencias.split(/\s*;\s*/).filter(Boolean).map(ref => `<div class="referencia-item">${ref.trim()}</div>`).join('')}
+                </div>
             </div>
         </div>` : ''}
 
@@ -4215,21 +4291,29 @@ inicializar();
 
         const fill = bar.querySelector('.modal-progress-fill');
 
-        // Reset bar when modal opens
+        // El scroll container es #modalBody en mobile, .modal en desktop
+        const getScrollEl = () => window.innerWidth <= 767
+            ? document.getElementById('modalBody')
+            : modalOverlay;
+
+        // Reset bar y scroll cuando se abre/cierra el modal
         const observer = new MutationObserver(() => {
             if (!modalOverlay.classList.contains('show')) {
                 fill.style.width = '0%';
-                modalOverlay.scrollTop = 0;
+                const el = getScrollEl();
+                if (el) el.scrollTop = 0;
             }
         });
         observer.observe(modalOverlay, { attributes: true, attributeFilter: ['class'] });
 
-        // Track scroll on the overlay (actual scrolling element)
-        modalOverlay.addEventListener('scroll', () => {
-            const { scrollTop, scrollHeight, clientHeight } = modalOverlay;
+        // Track scroll en el contenedor correcto
+        const onScroll = (e) => {
+            const { scrollTop, scrollHeight, clientHeight } = e.currentTarget;
             const progress = scrollHeight <= clientHeight ? 0 : scrollTop / (scrollHeight - clientHeight);
             fill.style.width = (progress * 100) + '%';
-        }, { passive: true });
+        };
+        modalOverlay.addEventListener('scroll', onScroll, { passive: true });
+        document.getElementById('modalBody')?.addEventListener('scroll', onScroll, { passive: true });
     })();
 
     // ── Random plant button ──
@@ -4630,10 +4714,16 @@ function initBottomSheetGestures() {
 
     let startY = 0, startScrollTop = 0, dragging = false;
 
+    // En mobile el scroll está en #modalBody, no en .modal-content
+    const getScrollTop = () => {
+        const body = document.getElementById('modalBody');
+        return body ? body.scrollTop : content.scrollTop;
+    };
+
     content.addEventListener('touchstart', e => {
         if (window.innerWidth > 767) return;
         startY = e.touches[0].clientY;
-        startScrollTop = content.scrollTop;
+        startScrollTop = getScrollTop();
         dragging = true;
     }, { passive: true });
 
@@ -4641,7 +4731,7 @@ function initBottomSheetGestures() {
         if (!dragging || window.innerWidth > 767) return;
         const dy = e.touches[0].clientY - startY;
         // Only drag when scrolled to top and pulling down
-        if (dy > 0 && content.scrollTop <= 0) {
+        if (dy > 0 && getScrollTop() <= 0) {
             content.style.transform = `translateY(${Math.min(dy * 0.55, 180)}px)`;
             content.style.transition = 'none';
         }
@@ -4652,7 +4742,7 @@ function initBottomSheetGestures() {
         dragging = false;
         const dy = e.changedTouches[0].clientY - startY;
         content.style.transition = '';
-        if (dy > 100 && content.scrollTop <= 0) {
+        if (dy > 100 && getScrollTop() <= 0) {
             content.classList.add('sheet-dismissing');
             setTimeout(() => {
                 content.classList.remove('sheet-dismissing');
@@ -4842,25 +4932,27 @@ function getSortedPlantas(lista) {
 function renderHomeHero() {
     const hero = document.getElementById('homeHero');
     if (!hero) return;
-    // Update targets to live counts
     const nP = (window.plantasDB || []).length || 85;
     const nR = (window.recetasDB || []).length || 1058;
     const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
     if (stats[0]) stats[0].dataset.target = nP;
     if (stats[1]) stats[1].dataset.target = nR;
-    // Counter animation — only animate once, never reset to 0
-    if (!hero.dataset.heroAnimated) {
+
+    const alreadyDone = !!hero.dataset.heroAnimated;
+    if (alreadyDone) {
+        // Data just loaded — update text directly to live counts
+        if (stats[0]) stats[0].textContent = nP.toLocaleString('es-CL');
+        if (stats[1]) stats[1].textContent = nR.toLocaleString('es-CL');
+    } else {
         hero.dataset.heroAnimated = '1';
         stats.forEach(el => {
             const target = +el.dataset.target;
             const steps = 36;
             let step = 0;
-            const start = +el.textContent.replace(/\D/g, '') || target;
             const tick = () => {
                 step++;
-                const p = step / steps;
-                const ease = 1 - Math.pow(1 - p, 3);
-                el.textContent = Math.round(start + (target - start) * ease).toLocaleString('es-CL');
+                const ease = 1 - Math.pow(1 - step / steps, 3);
+                el.textContent = Math.round(target * ease).toLocaleString('es-CL');
                 if (step < steps) setTimeout(tick, 28);
             };
             setTimeout(tick, 400);
@@ -4987,3 +5079,4 @@ if (_origRenderSearchHero) {
     // Override
     window.renderSearchHero = wrap;
 }
+

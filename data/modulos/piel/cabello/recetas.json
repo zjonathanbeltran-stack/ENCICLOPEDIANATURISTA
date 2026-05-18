@@ -3,48 +3,6 @@
   "submodulo": "cabello",
   "recetas": [
     {
-      "id": 60,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmético",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Aplicar el preparado sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "12 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Caída del cabello",
-        "Alopecia leve",
-        "Cuero cabelludo graso",
-        "Caspa",
-        "Debilidad capilar"
-      ],
-      "interacciones_medicamentos": "Uso tópico, baja absorción; precaución si hay heridas en cuero cabelludo.",
-      "embarazo_lactancia": "Evitar uso tópico extenso en embarazo en primer trimestre; aceptable en lactancia.",
-      "duracion_tratamiento": "Aplicación diaria por 8-12 semanas; evaluar resultados.",
-      "sinergia_plantas": [
-        "ortiga",
-        "matico",
-        "lavanda"
-      ]
-    },
-    {
       "id": 68,
       "titulo": "Loción de Romero y Vinagre para la Caspa",
       "categoria": "Cabello",
@@ -54,7 +12,7 @@
       "dosis": "Aplicar 1–2 veces por semana; dejar actuar 20–30 minutos antes de enjuagar",
       "modo_uso": "Tópico capilar — mascarilla, enjuague o aceite",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 aplicaciones por preparación",
       "conservacion": "Refrigerar hasta 5 días",
       "evidencia": "Uso tradicional documentado",
@@ -84,48 +42,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
-    },
-    {
-      "id": 85,
-      "titulo": "Loción de Romero para la Caída del Cabello",
-      "categoria": "Cosmético",
-      "origen": "Cosmética Natural",
-      "ingredientes": "Hojas de romero, alcohol de 40°, agua.",
-      "preparacion": "Macerar las hojas de romero en la mezcla de alcohol y agua durante 10 días. Aplicar sobre el cuero cabelludo para fortalecer el folículo piloso, evitando la caída del cabello.",
-      "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
-      "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Avanzado",
-      "rendimiento": "3–5 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de alergia en zona pequeña. Evitar contacto con ojos.",
-      "uso": "Caída del Cabello: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
       ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cuidado y nutrición de la piel",
-        "Piel grasa con tendencia al acné",
-        "Envejecimiento cutáneo prematuro",
-        "Hidratación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
-      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
-      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Rosa mosqueta",
-        "Aceite de oliva"
-      ]
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 93,
@@ -166,7 +85,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 98,
@@ -206,7 +127,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 112,
@@ -246,7 +169,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 124,
@@ -286,7 +211,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 131,
@@ -326,7 +253,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 165,
@@ -367,48 +296,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
-    },
-    {
-      "id": 628,
-      "titulo": "Tinte Natural de Henna para el Cabello",
-      "categoria": "Cosmético",
-      "origen": "Tradición India y Árabe",
-      "ingredientes": "100 g de henna en polvo, 200 ml de té negro fuerte, 1 cucharada de aceite de coco, jugo de limón",
-      "preparacion": "Mezclar la henna con el té hasta obtener pasta. Agregar aceite y limón. Reposar 2 horas.",
-      "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
-      "modo_uso": "Usar guantes; puede manchar la piel",
-      "tiempo_prep": "4 horas total",
-      "dificultad": "Medio",
-      "rendimiento": "1 aplicación",
-      "conservacion": "Preparar fresco (usar el mismo día)",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Tradición india y árabe",
-      "contraindicaciones": "No usar en alergia a la henna; puede interactuar con tintes químicos previos",
-      "uso": "Cabello: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "indicaciones_principales": [
-        "Cuidado y nutrición de la piel",
-        "Piel grasa con tendencia al acné",
-        "Envejecimiento cutáneo prematuro",
-        "Hidratación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones significativas documentadas para uso tópico externo a dosis habituales.",
-      "embarazo_lactancia": "Uso tópico generalmente seguro en embarazo y lactancia; evitar aceites esenciales puros sin diluir y en primer trimestre.",
-      "duracion_tratamiento": "Uso continuado; evaluar resultado a las 4-6 semanas",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Rosa mosqueta",
-        "Aceite de oliva"
-      ]
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 633,
@@ -449,7 +339,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 634,
@@ -489,7 +381,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 635,
@@ -529,7 +423,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 636,
@@ -569,7 +465,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 637,
@@ -609,7 +507,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 638,
@@ -649,7 +549,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 639,
@@ -690,7 +592,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 640,
@@ -730,7 +634,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 641,
@@ -771,7 +677,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 642,
@@ -813,7 +721,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 643,
@@ -854,7 +764,9 @@
         "anticaspa",
         "estimulante folicular",
         "antiséborreico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 644,
@@ -895,7 +807,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 645,
@@ -936,7 +850,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 646,
@@ -977,7 +893,9 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 647,
@@ -1018,49 +936,53 @@
         "Romero",
         "Ortiga",
         "Aceite de coco"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
-      "id": 1111,
-      "titulo": "Té remineralizante de equiseto para uñas y cabello",
-      "categoria": "Cosmético",
-      "origen": "Tradicional chileno (uso mapuche del 'limpiaplata')",
-      "ingredientes": "1 cda tallos secos de equiseto, 1 cdta ortiga seca, 1 cdta cola de caballo si dispone (refuerza), 400 ml agua",
-      "preparacion": "Decocción de equiseto a fuego suave por 20 min (la sílice necesita tiempo para extraerse). Retirar, agregar ortiga, tapar 10 min. Colar.",
-      "dosis": "1 taza al día por la mañana, ciclos de 4 semanas",
-      "modo_uso": "Decocción",
-      "tiempo_prep": "30 minutos",
+      "id": 1033,
+      "titulo": "Lavado Capilar con Espuma de Quillay para Caspa y Caida",
+      "categoria": "Cabello",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "Un trozo de corteza interna de quillay del tamano de una pelota de tenis",
+      "preparacion": "Batir la corteza interna en agua fria o tibia frotando energicamente hasta producir espuma abundante y densa. La espuma sera rica y persistente.",
+      "dosis": "Aplicar la espuma sobre el cabello mojado. Masajear el cuero cabelludo durante 3 a 5 minutos. Enjuagar muy bien con agua tibia.",
+      "modo_uso": "Tópico — enjuague o lavado local",
+      "tiempo_prep": "5 min",
       "dificultad": "Fácil",
-      "rendimiento": "Aprox. 350 ml",
-      "conservacion": "Refrigerado, 24 h",
-      "evidencia": "Sandhu NS. et al. (2010) Equisetum: revisión etnofarmacológica. Estudios chilenos en U. de Concepción documentan contenido de sílice biodisponible.",
-      "fuente_tradicion": "Uso mapuche documentado por Hoffmann en 'Plantas medicinales de uso común en Chile'",
-      "contraindicaciones": "No usar más de 6 semanas continuas (tiaminasa). Cardiopatía, edema renal-cardíaco, embarazo, lactancia.",
-      "uso": "La sílice orgánica se incorpora a glicosaminoglicanos del tejido conectivo, fortaleciendo queratina de pelo y uñas; flavonoides actúan como diurético acuarético aumentando excreción sin pérdida de electrolitos.",
-      "principios_activos": "Sílice (ácido silícico orgánico), isoquercitrina, equisetonina, ácido cafeico, potasio.",
+      "rendimiento": "1 lavado capilar",
+      "conservacion": "Conservar la corteza seca indefinidamente; preparar la espuma fresca",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche; uso ancestral mapuche (CONAF 2004; MINSAL 2010)",
+      "contraindicaciones": "Enjuagar completamente: las saponinas en el ojo irritan. No tragar. Algunas personas con cuero cabelludo muy sensible pueden presentar leve irritacion",
+      "uso": "Caspa y Caida: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+      "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
       "propiedades": [
-        "remineralizante",
-        "diurético",
-        "fortalecedor",
-        "hemostático",
-        "cicatrizante"
+        "expectorante",
+        "mucolítico",
+        "inmunoestimulante",
+        "antiséptico",
+        "antifúngico"
       ],
-      "referencias": "Sandhu NS. et al., J Pharm Sci Res 2010;2:146-50. Hoffmann A., Plantas medicinales de uso común en Chile, 1992.",
+      "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
       "indicaciones_principales": [
-        "uñas frágiles",
-        "caída de cabello",
-        "osteopenia leve",
-        "cicatrización lenta"
+        "Caspa y seborrea del cuero cabelludo",
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
       ],
-      "interacciones_medicamentos": "Potencia diuréticos y digitálicos. Puede reducir absorción de tiamina. Vigilar con litio.",
-      "embarazo_lactancia": "Contraindicado en embarazo y lactancia.",
-      "duracion_tratamiento": "Máximo 6 semanas con descanso de 2 semanas",
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
       "sinergia_plantas": [
-        "Equiseto",
-        "Ortiga",
-        "Cola de caballo",
-        "Avena verde"
-      ]
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1151,
@@ -1102,7 +1024,9 @@
         "cola de caballo",
         "salvia",
         "albahaca"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1174,
@@ -1113,7 +1037,7 @@
       "preparacion": "Hervir agua con hierbas 15 minutos. Apagar y dejar reposar 30 minutos tapado. Colar y añadir vinagre de manzana.",
       "dosis": "Tras lavado, aplicar como último enjuague masajeando cuero cabelludo. No enjuagar.",
       "modo_uso": "Enjuague capilar",
-      "tiempo_prep": "45 minutos",
+      "tiempo_prep": "45 min",
       "dificultad": "Fácil",
       "rendimiento": "500 ml",
       "conservacion": "5 días refrigerado",
@@ -1146,7 +1070,9 @@
       "sinergia_plantas": [
         "llantén",
         "lavanda"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
     },
     {
       "id": 1200,
@@ -1157,7 +1083,7 @@
       "preparacion": "Calentar agua y vinagre. Verter sobre hierbas. Tapar 30 minutos. Colar. Envasar en botella con dispensador.",
       "dosis": "Aplicar sobre cuero cabelludo seco, masajear, dejar 20 minutos. Lavar con shampoo suave. 2-3 veces por semana.",
       "modo_uso": "Loción capilar",
-      "tiempo_prep": "45 minutos",
+      "tiempo_prep": "45 min",
       "dificultad": "Fácil",
       "rendimiento": "500 ml",
       "conservacion": "2 meses a temperatura ambiente",
@@ -1188,7 +1114,153 @@
       "sinergia_plantas": [
         "ortiga",
         "lavanda"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "cabello"
+    },
+    {
+      "id": 1418,
+      "titulo": "Loción Capilar de Romero y Ortiga para la Caída del Cabello",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "cabello",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de hojas secas de romero, 2 cucharadas de hojas secas de ortiga, 500 ml de agua, 2 cucharadas de vinagre de manzana",
+      "preparacion": "Hervir el agua con el romero y la ortiga durante 10 minutos a fuego lento. Dejar enfriar completamente y colar. Añadir el vinagre de manzana y mezclar bien. Guardar en un frasco con atomizador en el refrigerador.",
+      "dosis": "Aplicar sobre el cuero cabelludo limpio y húmedo, masajeando suavemente con las yemas de los dedos. No enjuagar. Usar 1 vez al día, preferentemente por la noche.",
+      "modo_uso": "Tópico — loción capilar",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml (aproximadamente 2 semanas de uso)",
+      "conservacion": "Refrigerar hasta 2 semanas. Agitar antes de usar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de heridas en el cuero cabelludo. Evitar el contacto con los ojos. No usar durante el embarazo sin consultar. Suspender si aparece irritación.",
+      "uso": "Caída del cabello y debilitamiento capilar: el romero estimula la circulación del cuero cabelludo y la ortiga aporta minerales que fortalecen el folículo piloso, promoviendo el crecimiento de cabello más fuerte y saludable.",
+      "propiedades": [
+        "estimulante capilar",
+        "fortalecedor",
+        "antiandrogénico suave",
+        "revitalizante",
+        "astringente"
+      ],
+      "principios_activos": "Ácido carnósico y 1,8-cineol (romero): estimulan la microcirculación en el cuero cabelludo y tienen acción antiandrogénica leve sobre el folículo piloso. Sílice y minerales (ortiga): fortalecen la fibra capilar y nutren el bulbo piloso.",
+      "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1419,
+      "titulo": "Aceite de Jojoba y Romero para el Cabello Seco y Quebradizo",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "cabello",
+      "origen": "Popular Chileno",
+      "ingredientes": "30 ml de aceite de jojoba, 5 gotas de aceite esencial de romero, 3 gotas de aceite esencial de lavanda",
+      "preparacion": "Mezclar todos los aceites en un frasco oscuro y agitar bien. Aplicar sobre el cuero cabelludo y el cabello, masajeando suavemente durante 5 minutos. Dejar actuar al menos 30 minutos (o toda la noche) y lavar el cabello con champú suave.",
+      "dosis": "Aplicar 1 vez por semana como tratamiento intensivo.",
+      "modo_uso": "Tópico — mascarilla capilar oleosa",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "35 ml (aproximadamente 3 aplicaciones)",
+      "conservacion": "En frasco oscuro, lugar fresco, hasta 3 meses.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a alguno de los aceites. Evitar el contacto con los ojos. No aplicar sobre el cuero cabelludo irritado o con heridas. No usar durante el embarazo sin consultar.",
+      "uso": "Cabello seco, quebradizo y con puntas abiertas: nutre en profundidad la fibra capilar, sella la cutícula y aporta brillo y suavidad.",
+      "propiedades": [
+        "nutritivo",
+        "hidratante",
+        "fortalecedor",
+        "estimulante capilar",
+        "acondicionador"
+      ],
+      "principios_activos": "Ésteres de cera líquida (jojoba): simulan el sebo natural del cuero cabelludo, hidratando sin engrasar. Ácido carnósico (romero): estimula la circulación y protege el folículo del daño oxidativo.",
+      "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1420,
+      "titulo": "Enjuague Capilar de Manzanilla y Limón para el Cabello Rubio",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "cabello",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de flores secas de manzanilla, zumo de 1 limón, 500 ml de agua",
+      "preparacion": "Hervir el agua y verter sobre la manzanilla. Tapar y dejar reposar 20 minutos. Colar y añadir el zumo de limón. Después del lavado habitual, aplicar el enjuague sobre el cabello húmedo, masajear suavemente y no enjuagar.",
+      "dosis": "Usar 1 vez por semana como enjuague final después del champú.",
+      "modo_uso": "Tópico — enjuague capilar",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml (varias aplicaciones)",
+      "conservacion": "Refrigerar hasta 1 semana. Agitar antes de usar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a la manzanilla o al limón. Evitar el contacto con los ojos. No exponer el cabello al sol inmediatamente después de la aplicación. No usar en cabellos teñidos oscuros (puede aclarar el color).",
+      "uso": "Cabello rubio o castaño claro: la manzanilla aclara y aporta reflejos dorados naturales, mientras el limón limpia el cuero cabelludo y aporta brillo.",
+      "propiedades": [
+        "aclarante natural",
+        "acondicionador",
+        "antiséptico",
+        "refrescante"
+      ],
+      "principios_activos": "Apigenina (manzanilla): flavonoide que se deposita sobre la cutícula capilar, aclarando gradualmente el tono con la exposición solar. Ácido cítrico (limón): cierra las escamas de la cutícula, aportando brillo y suavidad.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1421,
+      "titulo": "Aceite de Coco y Romero para el Cuero Cabelludo Seco",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "cabello",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de aceite de coco virgen, 3 gotas de aceite esencial de romero",
+      "preparacion": "Calentar ligeramente el aceite de coco hasta que esté líquido (no caliente). Añadir el aceite esencial de romero y mezclar bien. Aplicar sobre el cuero cabelludo seco masajeando con las yemas de los dedos durante 10 minutos. Dejar actuar 30 minutos y lavar el cabello con champú.",
+      "dosis": "Aplicar 1 vez por semana.",
+      "modo_uso": "Tópico — masaje capilar oleoso",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar en el momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia al coco o al romero. Evitar el contacto con los ojos. No aplicar sobre el cuero cabelludo irritado o con heridas.",
+      "uso": "Cuero cabelludo seco y con descamación: el aceite de coco hidrata y calma la irritación, mientras el romero estimula la circulación y reduce la descamación.",
+      "propiedades": [
+        "hidratante",
+        "antiséptico",
+        "antiinflamatorio",
+        "estimulante capilar",
+        "emoliente"
+      ],
+      "principios_activos": "Ácido láurico (aceite de coco): acción antimicrobiana y emoliente que penetra en el tallo capilar. Ácido carnósico (romero): estimula la microcirculación del cuero cabelludo y tiene acción antiinflamatoria.",
+      "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1422,
+      "titulo": "Champú Natural de Quillay y Romero para Todo Tipo de Cabello",
+      "categoria": "Cosmético",
+      "modulo": "piel",
+      "submodulo": "cabello",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de corteza de quillay triturada, 1 cucharada de hojas secas de romero, 500 ml de agua",
+      "preparacion": "Hervir el agua con la corteza de quillay y el romero durante 15 minutos a fuego lento. Dejar enfriar completamente y colar. Usar como champú líquido, aplicando sobre el cabello mojado, masajeando hasta formar espuma y enjuagando bien.",
+      "dosis": "Usar 2 a 3 veces por semana como champú habitual.",
+      "modo_uso": "Tópico — champú líquido",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml (aproximadamente 2 semanas de uso)",
+      "conservacion": "Refrigerar hasta 1 semana. Agitar antes de usar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia al quillay o al romero. Evitar el contacto con los ojos. No usar si el cuero cabelludo presenta heridas o irritación severa.",
+      "uso": "Cabello normal o graso: el quillay limpia suavemente sin eliminar la protección natural del cuero cabelludo, mientras el romero regula la producción de sebo y fortalece el cabello.",
+      "propiedades": [
+        "limpiador natural",
+        "regulador sebáceo",
+        "fortalecedor",
+        "antiséptico",
+        "revitalizante"
+      ],
+      "principios_activos": "Saponinas triterpénicas (quillay): tensioactivos naturales que producen espuma y limpian sin sulfatos agresivos. Ácido carnósico (romero): acción antioxidante y reguladora del sebo.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
     }
   ]
 }

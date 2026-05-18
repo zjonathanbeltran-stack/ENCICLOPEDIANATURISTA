@@ -40,128 +40,9 @@
         "antimicrobiano",
         "antiséptico",
         "cicatrizante"
-      ]
-    },
-    {
-      "id": 95,
-      "titulo": "Cataplasma de Gobernadora para la Piel",
-      "categoria": "Dermatológico",
-      "origen": "Norte Grande",
-      "ingredientes": "Hojas de gobernadora, agua.",
-      "preparacion": "Machacar las hojas frescas y aplicarlas sobre heridas, hongos o sarna. Es un potente antiséptico natural.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "La Piel. Tratamiento dermatológico.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ],
-      "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
-      "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antimicrobiano",
-        "emoliente"
-      ]
-    },
-    {
-      "id": 151,
-      "titulo": "Infusión de Pimiento para el Cáncer a la Piel",
-      "categoria": "Cicatrizante",
-      "origen": "Popular",
-      "ingredientes": "Hojas de pimiento.",
-      "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
-      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 aplicaciones por preparación",
-      "conservacion": "Preparar fresco; usar el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
-      "uso": "Cáncer a la Piel. Cicatrización de heridas.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cicatrización de heridas leves",
-        "Quemaduras de primer grado",
-        "Cortes y abrasiones",
-        "Úlceras superficiales"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ],
-      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
-      "propiedades": [
-        "cicatrizante",
-        "regenerante tisular",
-        "antiséptico",
-        "hemostático"
-      ]
-    },
-    {
-      "id": 159,
-      "titulo": "Pomada de Manzanilla de Cobre",
-      "categoria": "Dermatológico",
-      "origen": "Popular",
-      "ingredientes": "Flores de manzanilla, cobre.",
-      "preparacion": "Macerar manzanilla y cobre, se afirma que ayuda a curar aftas, llagas y hongos.",
-      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Fácil",
-      "rendimiento": "2–4 aplicaciones por preparación",
-      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
-      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos.",
-      "propiedades": [
-        "antiinflamatorio",
-        "antiespasmódico",
-        "carminativo",
-        "sedante leve",
-        "cicatrizante"
-      ],
-      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Dermatitis e irritación cutánea",
-        "Heridas y cortes superficiales",
-        "Eccema leve",
-        "Inflamación de la piel"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
-      "sinergia_plantas": [
-        "Caléndula",
-        "Aloe vera",
-        "Matico"
-      ]
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Solución de Ajo y Vinagre para Hongos en Uñas",
@@ -202,7 +83,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Aceite Esencial de Orégano para Hongos Cutáneos",
@@ -243,7 +126,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Lavado de Matico y Sal Marina para Pie de Atleta",
@@ -255,7 +140,7 @@
       "dosis": "Aplicar en zona afectada 2–3 veces al día durante 2–4 semanas",
       "modo_uso": "Tópico — enjuague o lavado local",
       "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–5 aplicaciones por preparación",
       "conservacion": "Preparar cada 48 h; conservar en frío",
       "evidencia": "Uso tradicional documentado",
@@ -284,7 +169,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Ungüento de Ajo y Caléndula para Candidiasis Cutánea",
@@ -296,7 +183,7 @@
       "dosis": "Aplicar en zona afectada 2–3 veces al día durante 2–4 semanas",
       "modo_uso": "Tópico — loción, baño de pies o compresa",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–5 aplicaciones por preparación",
       "conservacion": "Preparar cada 48 h; conservar en frío",
       "evidencia": "Uso tradicional documentado",
@@ -326,7 +213,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "titulo": "Enjuague Bucal Antifúngico de Canela y Clavo",
@@ -367,7 +256,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 444,
@@ -408,7 +299,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 445,
@@ -449,7 +342,9 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 450,
@@ -489,7 +384,51 @@
         "antimicrobiano",
         "antiséptico",
         "cicatrizante"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
+    },
+    {
+      "id": 729,
+      "titulo": "Aceite de Orégano contra Candida",
+      "categoria": "Antifúngico",
+      "origen": "Naturopatía Moderna",
+      "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
+      "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
+      "dosis": "3 gotas de la mezcla en cápsula o en cucharadita 3 veces al día por 2 semanas",
+      "modo_uso": "Tomar con comida; el aceite de orégano es muy potente",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco 30 ml (2 semanas)",
+      "conservacion": "Temperatura ambiente 1 año",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No usar sin diluir; puede causar ardor severo; no en embarazo",
+      "uso": "Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.",
+      "principios_activos": "Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "antioxidante",
+        "digestivo",
+        "antiespasmódico"
+      ],
+      "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+        "Náuseas asociadas a parásitos",
+        "Limpieza intestinal preventiva"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+      "sinergia_plantas": [
+        "Ajo",
+        "Paico",
+        "Semillas de calabaza"
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
     },
     {
       "id": 960,
@@ -530,7 +469,210 @@
         "Ajo",
         "Orégano",
         "Tomillo"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones"
+    },
+    {
+      "id": 1360,
+      "titulo": "Aceite de Árbol de Té y Ajo para los Hongos de la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Naturopatía",
+      "ingredientes": "10 gotas de aceite esencial de árbol de té, 1 diente de ajo machacado, 30 ml de aceite de coco fraccionado",
+      "preparacion": "Machacar el ajo y mezclarlo con el aceite de coco. Calentar a baño maría 5 minutos (sin hervir). Dejar enfriar, colar y añadir el aceite de árbol de té. Conservar en frasco oscuro.",
+      "dosis": "Aplicar 2 gotas sobre la zona afectada, mañana y noche, después de lavar y secar bien. Usar hasta 4 semanas. Si no hay mejoría, consultar al médico.",
+      "modo_uso": "Tópico — aceite medicado",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "30 ml",
+      "conservacion": "En lugar fresco y oscuro hasta 3 meses.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No usar en mucosas, ojos ni heridas abiertas. Evitar en caso de alergia al ajo o al árbol de té. No aplicar en niños menores de 6 años sin consultar. Suspender si causa irritación intensa.",
+      "uso": "Hongos superficiales como pie de atleta, onicomicosis leve o tiñas: el árbol de té y el ajo combaten eficazmente los hongos y ayudan a restaurar la piel sana.",
+      "propiedades": [
+        "antifúngico",
+        "antiséptico",
+        "antibacteriano",
+        "regenerador",
+        "calmante"
+      ],
+      "principios_activos": "Terpinen-4-ol (árbol de té): altera la membrana celular de los hongos dermatofitos, con actividad fungicida comprobada. | Alicina (ajo): potente antifúngico que inhibe la síntesis de ergosterol en la pared fúngica. | Aceite de coco: ácido láurico con acción antifúngica de refuerzo y vehículo de penetración.",
+      "referencias": "MINSAL 2010; WHO Monographs Vol.1 (1999) Melaleuca alternifolia; Carson CF et al. Clin Microbiol Rev 2006;19(1):50-62; Davis SR et al. Med J Aust 1994;160(4):236"
+    },
+    {
+      "id": 1361,
+      "titulo": "Lavado de Caléndula y Cola de Caballo para Infecciones Fúngicas",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores de caléndula, 2 cucharadas de cola de caballo seca, 1 litro de agua",
+      "preparacion": "Hervir el agua con las plantas durante 5 minutos. Dejar enfriar hasta temperatura tibia. Colar y usar para lavar la zona afectada o aplicar compresas empapadas durante 15 minutos.",
+      "dosis": "Lavados o compresas 2 veces al día, mañana y noche, durante 2 semanas. Repetir ciclo si es necesario.",
+      "modo_uso": "Tópico — lavado o compresas",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 litro de solución",
+      "conservacion": "Usar en el día. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en heridas abiertas profundas. Evitar en caso de alergia a las asteráceas. No ingerir. Secar muy bien la zona después del tratamiento.",
+      "uso": "Hongos en pliegues, entre los dedos o en el cuero cabelludo: la caléndula y la cola de caballo ayudan a eliminar los hongos, reducen la picazón y restauran la integridad de la piel.",
+      "propiedades": [
+        "antifúngico",
+        "antiinflamatorio",
+        "astringente",
+        "calmante",
+        "regenerador"
+      ],
+      "principios_activos": "Flavonoides de caléndula: acción antiinflamatoria y antimicrobiana que calma la irritación. | Sílice y saponinas de cola de caballo: efecto astringente y fortalecedor de la piel, creando un entorno desfavorable para los hongos. Taninos: propiedad antifúngica suave.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis y Equisetum arvense"
+    },
+    {
+      "id": 1372,
+      "titulo": "Aceite de Árbol de Té para los Hongos de la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Naturopatía",
+      "ingredientes": "5 gotas de aceite esencial de árbol de té (Melaleuca alternifolia), 1 cucharada de aceite de coco fraccionado o aceite de oliva",
+      "preparacion": "Mezclar el aceite esencial de árbol de té con el aceite portador. Aplicar sobre la zona afectada limpia y seca con un algodón o bastoncillo. No enjuagar.",
+      "dosis": "Aplicar 2 veces al día, mañana y noche, durante 2 a 4 semanas. Si no hay mejoría en 2 semanas, consultar al médico.",
+      "modo_uso": "Tópico — aceite medicado",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación (aproximadamente 5 ml)",
+      "conservacion": "Preparar en el momento. El aceite esencial puro se conserva en lugar fresco y oscuro hasta 1 año.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No aplicar sobre mucosas, ojos ni heridas abiertas. No ingerir. Evitar en caso de alergia conocida al árbol de té. No usar en niños menores de 6 años sin consultar. Suspender si causa irritación intensa. Diluir siempre antes de aplicar sobre la piel.",
+      "uso": "Hongos superficiales como pie de atleta, onicomicosis leve o tiñas: el aceite de árbol de té combate eficazmente los hongos y ayuda a restaurar la piel sana.",
+      "propiedades": [
+        "antifúngico",
+        "antiséptico",
+        "antibacteriano",
+        "antiinflamatorio",
+        "regenerador"
+      ],
+      "principios_activos": "Terpinen-4-ol: altera la membrana celular de los hongos dermatofitos, con actividad fungicida comprobada in vitro. 1,8-cineol: acción antiséptica y antiinflamatoria complementaria.",
+      "referencias": "Carson CF, Hammer KA, Riley TV. Melaleuca alternifolia (Tea Tree) Oil: a Review of Antimicrobial and Other Medicinal Properties. Clin Microbiol Rev. 2006;19(1):50-62; Álvarez EM et al. Antifungal Activity of Tea Tree (Melaleuca alternifolia Cheel) Essential Oil. 2024; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1373,
+      "titulo": "Aceite de Ajo para las Infecciones Fúngicas de la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 dientes de ajo fresco (Allium sativum), 30 ml de aceite de oliva",
+      "preparacion": "Machacar los dientes de ajo y mezclarlos con el aceite de oliva. Calentar a baño maría durante 5 minutos sin que hierva. Dejar enfriar, colar y conservar en un frasco oscuro. Aplicar sobre la zona afectada limpia y seca.",
+      "dosis": "Aplicar 2 veces al día, mañana y noche, durante 2 semanas. No usar más de 3 semanas seguidas.",
+      "modo_uso": "Tópico — aceite medicado",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "30 ml",
+      "conservacion": "En lugar fresco y oscuro hasta 1 mes.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o piel muy irritada. Evitar en caso de alergia conocida al ajo. No usar en niños menores de 6 años sin consultar. Suspender si causa ardor o irritación intensa. Para uso externo exclusivamente.",
+      "uso": "Hongos superficiales como pie de atleta, onicomicosis y tiñas leves: el ajo contiene compuestos que destruyen los hongos y previenen su propagación en la piel.",
+      "propiedades": [
+        "antifúngico",
+        "antiséptico",
+        "antibacteriano",
+        "antiinflamatorio"
+      ],
+      "principios_activos": "Alicina: compuesto azufrado con potente acción antifúngica que inhibe el crecimiento de dermatofitos. Ajoeno: derivado de la alicina con actividad antifúngica adicional, altera la membrana celular fúngica.",
+      "referencias": "Venugopal PV, Venugopal TV. Antidermatophytic activity of garlic (Allium sativum) in vitro. Int J Dermatol. 1995;34(4):278-279; Ledezma E, Apitz-Castro R. Ajoene the main active compound of garlic (Allium sativum). J Ethnopharmacol. 2006; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1374,
+      "titulo": "Lavado de Caléndula para las Infecciones por Hongos en la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de flores secas de caléndula (Calendula officinalis), 1 litro de agua",
+      "preparacion": "Hervir el agua con las flores de caléndula durante 5 minutos. Dejar enfriar hasta temperatura tibia. Colar y usar para lavar la zona afectada o aplicar compresas empapadas durante 15 minutos.",
+      "dosis": "Lavados o compresas 2 veces al día, mañana y noche, durante 2 semanas. Repetir ciclo si es necesario.",
+      "modo_uso": "Tópico — lavado o compresas",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 litro de solución",
+      "conservacion": "Usar en el día. No guardar más de 24 horas en refrigeración.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en heridas abiertas profundas. Evitar en caso de alergia a las asteráceas. No ingerir. Secar muy bien la zona después del tratamiento. No usar durante el embarazo sin consultar.",
+      "uso": "Hongos en pliegues, entre los dedos o en el cuero cabelludo: la caléndula ayuda a eliminar los hongos, reduce la picazón y restaura la integridad de la piel.",
+      "propiedades": [
+        "antifúngico",
+        "antiinflamatorio",
+        "calmante",
+        "regenerador",
+        "antiséptico"
+      ],
+      "principios_activos": "Flavonoides de caléndula: acción antiinflamatoria y antimicrobiana que calma la irritación. Triterpenos: efecto antiséptico y regenerador de la piel dañada.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2: Flos Calendulae, 2002."
+    },
+    {
+      "id": 1375,
+      "titulo": "Polvo de Cola de Caballo para los Hongos de los Pies",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de cola de caballo seca y pulverizada (Equisetum arvense)",
+      "preparacion": "Pulverizar la cola de caballo seca en un molinillo limpio hasta obtener un polvo fino. Espolvorear sobre los pies limpios y secos, especialmente entre los dedos, antes de poner los calcetines.",
+      "dosis": "Aplicar 1 vez al día, preferentemente por la mañana, durante 2 semanas.",
+      "modo_uso": "Tópico — polvo seco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "Varias aplicaciones",
+      "conservacion": "Conservar el polvo en frasco hermético en lugar seco hasta 3 meses.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o piel agrietada. Evitar en caso de alergia conocida a la cola de caballo. No usar en niños menores de 6 años sin consultar. Mantener los pies secos durante todo el tratamiento.",
+      "uso": "Hongos en los pies (pie de atleta) y entre los dedos: la cola de caballo mantiene la zona seca, dificulta el crecimiento de los hongos y acelera la renovación de la piel.",
+      "propiedades": [
+        "antifúngico",
+        "astringente",
+        "secante",
+        "regenerador",
+        "antiséptico suave"
+      ],
+      "principios_activos": "Sílice: acción secante y astringente que crea un entorno desfavorable para la proliferación fúngica. Taninos: propiedad antifúngica suave que complementa la acción del sílice.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Boeing T et al. Phytochemistry and Pharmacology of the Genus Equisetum. PMC. 2021."
+    },
+    {
+      "id": 1376,
+      "titulo": "Aceite Esencial de Orégano para las Infecciones Fúngicas de la Piel",
+      "categoria": "Antifúngico",
+      "modulo": "piel",
+      "submodulo": "hongos_infecciones",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "2 gotas de aceite esencial de orégano (Origanum vulgare), 1 cucharadita de aceite de oliva",
+      "preparacion": "Diluir el aceite esencial de orégano en el aceite de oliva. Aplicar con un hisopo de algodón exclusivamente sobre la zona afectada, evitando la piel sana circundante. No cubrir con vendaje oclusivo.",
+      "dosis": "Aplicar 1 vez al día, preferentemente por la noche, durante 7 a 10 días. No usar más de 2 semanas seguidas.",
+      "modo_uso": "Tópico — aceite medicado de aplicación puntual",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación (aproximadamente 5 ml)",
+      "conservacion": "Preparar en el momento. El aceite esencial puro se conserva en lugar fresco y oscuro.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Medicina Mediterránea",
+      "contraindicaciones": "No aplicar sobre mucosas, ojos, heridas abiertas o piel muy sensible. No ingerir. Evitar en caso de alergia conocida al orégano o a las lamiáceas. No usar durante el embarazo o lactancia. No administrar a niños. Siempre diluir antes de aplicar. Puede causar irritación en pieles sensibles.",
+      "uso": "Hongos resistentes en uñas (onicomicosis) y piel: el orégano contiene potentes compuestos antifúngicos que penetran en la uña y combaten las infecciones difíciles de tratar.",
+      "propiedades": [
+        "antifúngico",
+        "antiséptico",
+        "antibacteriano",
+        "antiinflamatorio"
+      ],
+      "principios_activos": "Carvacrol y timol: fenoles monoterpénicos con potente acción antifúngica que alteran la membrana celular de los hongos y levaduras. Ácido rosmarínico: efecto antiinflamatorio y antioxidante complementario.",
+      "referencias": "MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 1, Origanum vulgare, 1999; ESCOP Monographs. Origani herba, 2018."
     }
   ]
 }

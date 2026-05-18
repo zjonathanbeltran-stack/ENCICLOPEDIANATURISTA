@@ -42,7 +42,9 @@
         "manzanilla",
         "llantén",
         "murtilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 65,
@@ -84,7 +86,52 @@
         "matico",
         "llantén",
         "manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
+    },
+    {
+      "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
+      "categoria": "Diarrea",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de arroz blanco, 500 ml de agua, 1 rama de canela, jugo de 1/2 limón.",
+      "preparacion": "Hervir el arroz con la canela en el agua 20 minutos. Colar guardando solo el agua. Agregar el limón. Beber tibia a pequeños sorbos durante el día. El agua de arroz aporta sales minerales, la canela actúa como astringente y el limón acidifica el intestino.",
+      "id": 252,
+      "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
+      "modo_uso": "Oral — infusión tibia o fría",
+      "tiempo_prep": "25 min",
+      "dificultad": "Media",
+      "rendimiento": "3–4 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
+      "uso": "Diarrea: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
+      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antiséptico",
+        "febrífugo",
+        "antioxidante",
+        "alcalinizante"
+      ],
+      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "Diarrea aguda leve",
+        "Cólicos abdominales",
+        "Gastroenteritis viral leve",
+        "Irritación de mucosa intestinal"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Llantén",
+        "Arrayán",
+        "Manzanilla"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Decocción de Hojas de Membrillo para Diarrea Aguda",
@@ -96,7 +143,7 @@
       "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
       "modo_uso": "Oral — decocción",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Refrigerar hasta 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -124,7 +171,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Infusión de Llantén y Arrayán para Diarrea con Cólicos",
@@ -136,7 +185,7 @@
       "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Refrigerar hasta 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -166,7 +215,9 @@
         "Llantén",
         "Arrayán",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Manzanas Ralladas Oxidadas (Astringente Natural para Diarrea Infantil)",
@@ -206,7 +257,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Té Astringente de Zarzamora (Hojas) para Diarrea",
@@ -218,7 +271,7 @@
       "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Refrigerar hasta 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -246,7 +299,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 399,
@@ -286,7 +341,9 @@
         "astringente",
         "antiespasmódico",
         "antiinflamatorio"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 706,
@@ -326,7 +383,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 707,
@@ -366,7 +425,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 717,
@@ -406,7 +467,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "id": 947,
@@ -447,7 +510,95 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
+    },
+    {
+      "id": 1015,
+      "titulo": "Decoccion de Peciolos de Pangue para Diarrea Rebelde",
+      "categoria": "Diarrea",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "3 a 4 peciolos (tallos) frescos de nalca/pangue, cortados en rodajas, 1 litro de agua",
+      "preparacion": "Hervir los peciolos de nalca troceados durante 15 minutos. Colar bien. El liquido sera de color verde-ambar oscuro, astringente.",
+      "dosis": "1 taza cada 4 a 6 horas hasta mejorar; en diarrea grave, 4 a 5 tazas al dia",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "4-5 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche; Diego de Rosales (Siglo XVII); Aukanaw",
+      "contraindicaciones": "Usar solo los peciolos, no el rizoma (que puede ser toxico). Pelar los peciolos antes de usar. Si la diarrea dura mas de 48 h o hay sangre, consultar medico",
+      "uso": "Diarrea Rebelde: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+      "propiedades": [
+        "antioxidante",
+        "astringente",
+        "antiinflamatorio",
+        "nutritivo",
+        "digestivo"
+      ],
+      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
+    },
+    {
+      "id": 1028,
+      "titulo": "Infusion de Hojas de Maqui para Diarrea y Disenteria",
+      "categoria": "Diarrea",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "20 a 25 g de hojas de maqui, 1 litro de agua hirviendo",
+      "preparacion": "Verter el agua caliente sobre las hojas. Reposar 15 minutos. Colar.",
+      "dosis": "1 taza cada 4 a 6 horas hasta mejorar la diarrea",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "17 min",
+      "dificultad": "Fácil",
+      "rendimiento": "4 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi lafkenche (MINSAL 2010; CONAF 2004)",
+      "contraindicaciones": "Si hay sangre en las deposiciones o fiebre alta, consultar medico urgente. Mantenerse hidratado con agua y electrolitos",
+      "uso": "Diarrea y Disenteria: las antocianinas neutralizan radicales libres, mejoran la función endotelial y reducen marcadores inflamatorios sistémicos.",
+      "principios_activos": "Delfinidin y cianidina (antocianinas, 34% del total): capturan especies reactivas de oxígeno con potencia superior a otras antocianinas por sus múltiples grupos hidroxilo en el anillo B; aumentan expresión de eNOS endotelial y disminuyen síntesis de endotelina-1 vasoconstrictora.",
+      "propiedades": [
+        "antioxidante",
+        "antiinflamatorio",
+        "cardioprotector",
+        "inmunoestimulante",
+        "antidiabético"
+      ],
+      "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "diarrea"
     },
     {
       "titulo": "Decocción de corteza de Roble para la diarrea aguda",
@@ -464,7 +615,7 @@
       "evidencia": "European Medicines Agency (EMA). Quercus cortex - herbal medicinal product.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Estreñimiento crónico, obstrucción intestinal.\n- Heridas o eccemas exudativos extensos (uso tópico).\n- No usar en niños <6 años sin supervisión médica.\n- Evitar en embarazo y lactancia.",
-      "id": 1368,
+      "id": 1579,
       "uso": "Diarrea aguda inespecífica.",
       "planta_principal": "Roble (Quercus robur)",
       "interacciones": "Los taninos pueden reducir la absorción de hierro, zinc y otros minerales. Separar de otros medicamentos y comidas por al menos 2 horas.",

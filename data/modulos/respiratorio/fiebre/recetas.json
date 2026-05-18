@@ -41,7 +41,9 @@
         "antiinflamatorio",
         "inmunoestimulante",
         "antimicrobiano"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 23,
@@ -81,7 +83,9 @@
         "saúco",
         "tilo",
         "matico"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 31,
@@ -93,7 +97,7 @@
       "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "8 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -123,7 +127,9 @@
         "saúco",
         "manzanilla",
         "boldo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Saúco para Bajar la Fiebre",
@@ -135,7 +141,7 @@
       "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -164,7 +170,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Menta y Saúco para Fiebre Alta",
@@ -176,7 +184,7 @@
       "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -205,7 +213,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Compresas Frías de Vinagre para Bajar la Fiebre",
@@ -245,7 +255,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Corteza de Sauce con Limón para la Fiebre",
@@ -257,7 +269,7 @@
       "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -287,7 +299,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Baño Tibio con Albahaca y Romero para Bajar la Fiebre",
@@ -299,7 +313,7 @@
       "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
       "modo_uso": "Oral — infusión tibia / Baño externo complementario",
       "tiempo_prep": "15 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "3–4 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -328,48 +342,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
-    },
-    {
-      "id": 430,
-      "titulo": "Leche con Cúrcuma y Pimienta para Respiratorio",
-      "categoria": "Respiratorio",
-      "origen": "Medicina Ayurveda",
-      "ingredientes": "1 taza de leche (vegetal o animal), 1 cucharadita de cúrcuma, 1 pizca de pimienta negra, 1 cucharadita de miel",
-      "preparacion": "Calentar la leche. Disolver la cúrcuma y pimienta. Agregar miel al servir.",
-      "dosis": "1 taza antes de dormir",
-      "modo_uso": "Tomar caliente; sirve para inflamación de garganta y tos",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1 taza",
-      "conservacion": "Preparar fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina Ayurveda (Golden Milk)",
-      "contraindicaciones": "Puede interactuar con anticoagulantes en dosis altas de cúrcuma",
-      "uso": "Respiratorio: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antimicrobiano",
-        "cicatrizante",
-        "emoliente",
-        "inmunoestimulante",
-        "antioxidante"
       ],
-      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Congestión nasal y bronquial",
-        "Sinusitis y catarro",
-        "Bronquitis aguda leve",
-        "Infecciones respiratorias de vías altas"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Eucalipto",
-        "Tomillo",
-        "Llantén"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 658,
@@ -410,7 +385,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 659,
@@ -450,7 +427,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 660,
@@ -490,7 +469,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 661,
@@ -529,7 +510,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 662,
@@ -569,7 +552,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 663,
@@ -610,7 +595,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 664,
@@ -652,7 +639,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 665,
@@ -693,7 +682,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 666,
@@ -732,7 +723,9 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 667,
@@ -771,91 +764,93 @@
         "diaforético",
         "antiinflamatorio",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
-      "id": 849,
-      "titulo": "Leche de Almendras con Cúrcuma y Ajo para la Gripe",
-      "categoria": "Respiratorio",
-      "origen": "Naturopatía",
-      "ingredientes": "1 taza de leche de almendras, 1/2 cucharadita de cúrcuma, 1 diente de ajo machacado, miel",
-      "preparacion": "Calentar la leche. Agregar la cúrcuma y el ajo. Hervir 3 min. Colar. Endulzar.",
-      "dosis": "2 tazas al día durante la gripe",
-      "modo_uso": "Colar el ajo antes de beber",
-      "tiempo_prep": "8 min",
+      "id": 1069,
+      "titulo": "Mudai de Murtilla con Tepu para Fiebre Alta en Ninos (Pichi Lawen Chilote)",
+      "categoria": "Febrífugo",
+      "origen": "Mapuche Huilliche / Chilote (Isla Grande de Chiloe, Quinchao, Lemuy)",
+      "ingredientes": "1 taza de frutos maduros de murtilla (Ugni molinae / uni en mapudungun); 5 hojas medianas de tepu (Tepualia stipularis); 750 ml de agua; 2 cucharadas de miel de colmena chilota; jugo de medio limon silvestre (si disponible)",
+      "preparacion": "1. Lavar bien las murtillas y las hojas de tepu. 2. Hervir el agua y agregar las hojas de tepu. Cocer 10 minutos. 3. Agregar las murtillas al caldo caliente, aplastar con cuchara de madera para liberar jugos. 4. Continuar a fuego bajo 5 minutos mas. 5. Colar con cedazo fino, expresando bien los frutos. 6. Agregar la miel cuando este tibio y el jugo de limon. El resultado debe ser una bebida rosada y dulce.",
+      "dosis": "Ninos 2-5 anos: media taza (100 ml) cada 4 horas. Ninos 6-12 anos: 1 taza (200 ml) cada 4 horas. Adultos: 2 tazas cada 4 horas. Continuar hasta que baje la fiebre.",
+      "modo_uso": "Oral (bebida medicinal)",
+      "tiempo_prep": "25 min",
       "dificultad": "Fácil",
-      "rendimiento": "2 tazas",
-      "conservacion": "Refrigerar 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía moderna",
-      "contraindicaciones": "No en úlcera gástrica activa",
-      "uso": "Gripe: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
-      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 horas. Preparar fresco para cada dia.",
+      "evidencia": "La murtilla (Ugni molinae) es reconocida por su alto contenido de vitamina C y antocianinas con actividad antipiretica y antioxidante. Documentada por Villagran (2000) como lawen chilote fundamental. El tepu aporta propiedades diaforeticas (sudorificas) que facilitan la disminucion de la fiebre.",
+      "fuente_tradicion": "Mapuche Huilliche / Chilota",
+      "contraindicaciones": "La miel no debe darse a ninos menores de 1 ano (riesgo de botulismo infantil). Si la fiebre supera 39°C o dura mas de 48 horas, consultar medico. No sustituir tratamiento medico urgente con esta preparacion.",
+      "uso": "Control de fiebre moderada en ninos y adultos, especialmente en contexto de resfriados, gripe e infecciones respiratorias de invierno chilote. La vitamina C de la murtilla fortalece el sistema inmune; las antocianinas tienen efecto antiviral documentado; el tepu favorece la sudoracion que baja la temperatura corporal.",
+      "principios_activos": "Vitamina C (murtilla: 40-80 mg/100g); antocianinas (cianidina-3-glucosido); quercetina; metilheptanoato; poligodial (tepu)",
       "propiedades": [
-        "antimicrobiano",
-        "antifúngico",
-        "hipotensor",
-        "hipocolesterolemiante",
-        "inmunoestimulante",
-        "cicatrizante"
+        "antipiretico",
+        "antiviral",
+        "diaforetico",
+        "antioxidante"
       ],
-      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "referencias": "Villagran C. (2000) Etnobiologia Williche. CONAF. / Rubilar M. et al. (2011) Antioxidant and antipyretic properties of Ugni molinae. Food Chem. / Hoffmann A. et al. (1992) Plantas Medicinales de Chile.",
       "indicaciones_principales": [
-        "Congestión nasal y bronquial",
-        "Sinusitis y catarro",
-        "Bronquitis aguda leve",
-        "Infecciones respiratorias de vías altas"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Eucalipto",
-        "Tomillo",
-        "Llantén"
-      ]
-    },
-    {
-      "id": 857,
-      "titulo": "Caramelos de Jengibre y Miel para la Garganta",
-      "categoria": "Garganta",
-      "origen": "Herbolaria Natural",
-      "ingredientes": "4 cucharadas de miel, 1 cucharadita de jengibre en polvo, 1/2 cucharadita de canela",
-      "preparacion": "Calentar la miel a 150°C (punto de caramelo). Agregar el jengibre y la canela. Verter en molde de silicona. Dejar solidificar.",
-      "dosis": "1 caramelo cada 3-4 horas",
-      "modo_uso": "Dejar que se disuelva lentamente en la boca",
-      "tiempo_prep": "15 min + solidificado",
-      "dificultad": "Medio",
-      "rendimiento": "15-20 caramelos",
-      "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria popular y confitería medicinal",
-      "contraindicaciones": "No en diabéticos; no para menores de 1 año (miel)",
-      "uso": "Garganta: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
-      ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Faringitis y amigdalitis leve",
-        "Irritación de garganta",
-        "Laringitis",
-        "Tos por irritación faríngea"
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
       ],
       "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
       "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
       "sinergia_plantas": [
-        "Salvia",
-        "Tomillo",
-        "Miel de ulmo"
-      ]
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
+    },
+    {
+      "id": 1081,
+      "titulo": "Decoccion de Talhuen para Fiebre e Infecciones del Desierto Likan Antai",
+      "categoria": "Febrífugo",
+      "origen": "Atacameno / Likan Antai (San Pedro de Atacama, Toconao, Socaire)",
+      "ingredientes": "25 g de ramas floridas de talhuen (Eupatorium glechonophyllum / talhuen en atacameno); 1 litro de agua; 1 cucharadita de sal de Atacama; 1 cucharada de miel de abeja del desierto (si disponible)",
+      "preparacion": "1. Recolectar el talhuen al amanecer, cuando el rocio del desierto ha humectado las hojas y los aceites estan concentrados. 2. Hervir el litro de agua. 3. Agregar el talhuen al agua hirviendo. 4. Reducir el fuego y cocer 20 minutos semitapado. 5. Apagar, tapar completamente y reposar 20 minutos. 6. Colar expresando bien el material. Agregar sal y miel cuando este tibio.",
+      "dosis": "En fiebre aguda: 1 taza cada 3 horas hasta que baje la temperatura. En fase de mantencion: 2 tazas al dia durante 7 dias.",
+      "modo_uso": "Oral (decoccion) + aplicar compresa humedecida en la infusion sobre frente y munecas",
+      "tiempo_prep": "50 min",
+      "dificultad": "Fácil",
+      "rendimiento": "4-5 tazas",
+      "conservacion": "Refrigerar hasta 48 horas.",
+      "evidencia": "El talhuen (Eupatorium glechonophyllum) es uno de los febrifugos mas importantes de la medicina atacamena del desierto de Atacama. Contiene lactonas sesquiterpenicas con actividad antipiretica y propiedades inmunomoduladoras. Documentado por Llagostera (1988) y el Museo Atacameno de San Pedro.",
+      "fuente_tradicion": "Atacameno / Likan Antai",
+      "contraindicaciones": "El genero Eupatorium contiene alcaloides pirrolizidinicos: no usar en dosis altas por mas de 7-10 dias (hepatotoxico en uso cronico). Contraindicado en embarazo, lactancia e insuficiencia hepatica. No usar en ninos menores de 6 anos.",
+      "uso": "Tratamiento de fiebres altas y estados febriles de origen infeccioso e inflamatorio en el ambiente del desierto atacameno. Los Likan Antai (hombres del Atacama) usaban el talhuen como primera medicina para la fiebre del desierto, combinandolo con reposo en lugar fresco y consumo de agua de manantial.",
+      "principios_activos": "Lactonas sesquiterpenicas (eupatoriopicrina, eupatoriina); flavonoides; aceites esenciales (cineol, borneol); alcaloides pirrolizidinicos (uso limitado)",
+      "propiedades": [
+        "antipiretico",
+        "inmunomodulador",
+        "antiinflamatorio",
+        "diaforetico"
+      ],
+      "referencias": "Llagostera M. (1988) Culturas del Norte de Chile. Museo de San Pedro de Atacama. / Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara Revista Antropologica.",
+      "indicaciones_principales": [
+        "Fiebre moderada y febrícula",
+        "Uso medicinal tradicional",
+        "Apoyo del sistema inmune",
+        "Alivio de síntomas generales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Romero",
+        "Ajo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1100,
@@ -896,7 +891,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "id": 1101,
@@ -936,7 +933,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
     },
     {
       "titulo": "Infusión de Natre para bajar la fiebre",
@@ -944,19 +943,24 @@
       "origen": "Medicina tradicional chilena.",
       "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas y tallos secos de natre. - 1 litro de agua recién hervida.",
       "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. Colar.",
-      "dosis": "",
+      "dosis": "1 taza, 3 veces al día.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Tradición chilena",
       "contraindicaciones": "- Hipotensión arterial (presión baja). - Embarazo y lactancia.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Fiebre y estados gripales: induce la sudoración y ayuda a bajar la temperatura corporal de forma natural, aliviando el malestar general.",
+      "principios_activos": "Flavonoides y compuestos amargos: acción diaforética que estimula las glándulas sudoríparas y favorece la disipación del calor corporal. Alcaloides tropánicos en baja concentración: efecto analgésico y antiinflamatorio leve.",
+      "propiedades": [
+        "febrífugo",
+        "diaforético",
+        "antiinflamatorio",
+        "analgésico suave"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -965,7 +969,125 @@
       "nivel_seguridad": "⚠️ Precaución (hipotensión)",
       "distribucion": "Arbusto común entre Coquimbo y Colchagua.",
       "efectos_secundarios": "",
-      "id": 1244
+      "id": 1244,
+      "modulo": "respiratorio",
+      "submodulo": "fiebre"
+    },
+    {
+      "id": 1503,
+      "titulo": "Infusión de Sauco para Bajar la Fiebre",
+      "categoria": "Febrífugo",
+      "modulo": "respiratorio",
+      "submodulo": "fiebre",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharaditas de flores secas de sauco, 250 ml de agua, 1 cucharadita de miel (opcional para mayores de 1 año)",
+      "preparacion": "Hervir el agua. Verter sobre las flores de sauco, tapar y dejar reposar 10 minutos. Colar, añadir miel si se desea y beber bien caliente.",
+      "dosis": "Adultos: 1 taza cada 4 horas mientras dure la fiebre, máximo 4 tazas al día. Niños de 6 a 12 años: media taza cada 6 horas. No usar más de 3 días seguidos.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir inmediatamente. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en caso de alergia a las caprifoliáceas. No usar en enfermedades autoinmunes sin supervisión. Consultar si la fiebre supera 39 °C o dura más de 3 días.",
+      "uso": "Fiebre y malestar general de la gripe: induce la sudoración y ayuda a bajar la temperatura corporal de forma natural, aliviando los dolores musculares y la sensación de quebrantamiento.",
+      "propiedades": [
+        "febrífugo",
+        "diaforético",
+        "antiinflamatorio",
+        "antiviral",
+        "analgésico suave"
+      ],
+      "principios_activos": "Flavonoides (rutina, quercetina): acción diaforética que estimula las glándulas sudoríparas y favorece la disipación del calor corporal. Antocianinas: efecto antiinflamatorio sistémico.",
+      "referencias": "Zakay-Rones Z et al. Inhibition of several strains of influenza virus by elderberry extract. J Altern Complement Med. 1995; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1504,
+      "titulo": "Infusión de Sauce Blanco para Bajar la Fiebre",
+      "categoria": "Febrífugo",
+      "modulo": "respiratorio",
+      "submodulo": "fiebre",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharadita de corteza seca de sauce blanco, 250 ml de agua",
+      "preparacion": "Hervir el agua con la corteza de sauce durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 5 minutos. Colar y beber tibio.",
+      "dosis": "Adultos: 1 taza cada 6 horas, máximo 3 tazas al día. No usar más de 3 días seguidos sin consultar al médico.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el momento o refrigerar hasta 24 horas.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en menores de 16 años (riesgo de síndrome de Reye). Evitar en úlcera gástrica, insuficiencia renal, tratamiento con anticoagulantes o alergia a salicilatos. Contraindicado en el embarazo y lactancia.",
+      "uso": "Fiebre y dolores corporales: el sauce blanco contiene salicina, que el cuerpo convierte en ácido salicílico, bajando la fiebre y aliviando el dolor de forma natural.",
+      "propiedades": [
+        "febrífugo",
+        "analgésico",
+        "antiinflamatorio",
+        "antirreumático",
+        "diaforético"
+      ],
+      "principios_activos": "Salicina: glucósido fenólico que se transforma en ácido salicílico en el organismo, inhibiendo las prostaglandinas responsables de la fiebre y el dolor. Flavonoides: contribuyen al efecto antiinflamatorio.",
+      "referencias": "Schmid B et al. Efficacy and tolerability of a standardized willow bark extract. Eur J Clin Pharmacol. 2001; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1505,
+      "titulo": "Infusión de Manzanilla y Limón para la Fiebre Leve",
+      "categoria": "Febrífugo",
+      "modulo": "respiratorio",
+      "submodulo": "fiebre",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de flores de manzanilla, zumo de medio limón, 250 ml de agua, 1 cucharadita de miel (opcional)",
+      "preparacion": "Hervir el agua. Verter sobre la manzanilla, tapar y dejar reposar 10 minutos. Colar, añadir el zumo de limón y la miel. Beber tibio.",
+      "dosis": "Adultos: 1 taza cada 6 horas. Niños de 2 a 12 años: media taza cada 8 horas. No usar más de 2 días seguidos.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en caso de alergia a la manzanilla o al limón. Consultar al médico si la fiebre supera 38,5 °C o se acompaña de otros síntomas graves.",
+      "uso": "Fiebre leve con malestar general: la manzanilla calma el cuerpo y el limón aporta vitamina C, ayudando a bajar la temperatura suavemente mientras refuerza las defensas.",
+      "propiedades": [
+        "febrífugo suave",
+        "antiinflamatorio",
+        "calmante",
+        "inmunoestimulante",
+        "diaforético leve"
+      ],
+      "principios_activos": "Bisabolol y flavonoides (manzanilla): acción antiinflamatoria y calmante. Vitamina C (limón): refuerzo del sistema inmunológico y antioxidante.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+    },
+    {
+      "id": 1506,
+      "titulo": "Jarabe de Sauco y Miel para la Fiebre y la Tos",
+      "categoria": "Febrífugo",
+      "modulo": "respiratorio",
+      "submodulo": "fiebre",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de bayas secas de sauco, 250 ml de agua, 3 cucharadas de miel",
+      "preparacion": "Hervir el agua con las bayas de sauco durante 10 minutos a fuego lento. Colar, dejar entibiar y añadir la miel. Guardar en frasco de vidrio limpio en el refrigerador.",
+      "dosis": "Adultos: 1 cucharada cada 4 horas. Niños de 2 a 12 años: 1 cucharadita cada 6 horas. No usar más de 5 días.",
+      "modo_uso": "Oral — jarabe",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml aproximadamente",
+      "conservacion": "Refrigerar hasta 7 días. Agitar antes de usar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia al sauco. No usar en enfermedades autoinmunes sin supervisión. Consultar si la fiebre supera 39 °C.",
+      "uso": "Fiebre acompañada de tos seca y malestar: el sauco baja la fiebre y combate los virus, mientras la miel suaviza la garganta y calma la tos.",
+      "propiedades": [
+        "febrífugo",
+        "antiviral",
+        "diaforético",
+        "antiinflamatorio",
+        "emoliente"
+      ],
+      "principios_activos": "Antocianinas y flavonoides (sauco): acción antiviral y diaforética que estimula la sudoración. Peróxido de hidrógeno (miel): efecto antimicrobiano y emoliente sobre la garganta.",
+      "referencias": "Zakay-Rones Z et al. Randomized study of the efficacy and safety of oral elderberry extract in the treatment of influenza. J Altern Complement Med. 2004; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
     },
     {
       "titulo": "Infusión de Natre para bajar la fiebre",
@@ -982,7 +1104,7 @@
       "evidencia": "\"Natre: la planta nativa con la que puedes bajar la fiebre\"\n(¿Cuál es tu huella?, 2022). Estudio de la Universidad de Chile confirma\nsu uso tradicional[reference:2][reference:3].",
       "fuente_tradicion": "Medicina tradicional chilena.",
       "contraindicaciones": "- Hipotensión arterial (presión baja).\n- Embarazo y lactancia.",
-      "id": 1332,
+      "id": 1543,
       "uso": "Reducir la fiebre de cualquier origen. El natre es uno de los\nantipiréticos tradicionales más efectivos y documentados de Chile.",
       "planta_principal": "Natre (Solanum ligustrinum)",
       "interacciones": "Podría potenciar el efecto de medicamentos antihipertensivos.",

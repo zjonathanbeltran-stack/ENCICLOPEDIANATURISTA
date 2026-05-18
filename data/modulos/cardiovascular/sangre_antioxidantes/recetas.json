@@ -3,6 +3,132 @@
   "submodulo": "sangre_antioxidantes",
   "recetas": [
     {
+      "id": 130,
+      "titulo": "Infusión de Marrubio para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Popular",
+      "ingredientes": "1 cucharada de hojas de marrubio, 1 taza de agua.",
+      "preparacion": "Infusión de hojas de marrubio. Tradicionalmente utilizada para hacer más agradables las digestiones pesadas, problemas de vesícula y como coayudante para la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo. No usar en niños menores de 6 años.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
+    },
+    {
+      "id": 149,
+      "titulo": "Infusión de Palo Negro para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Norte Grande",
+      "ingredientes": "Trozos de Palo Negro (Prosopis alba?), 1 litro de agua.",
+      "preparacion": "Hervir los palos del arbusto y beber esta infusión cada 6 horas aproximadamente. Sirve como coadyuvante para tratar la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Taninos condensados y flavonoides (en Prosopis): astringentes y antihiperglucémicos. Alcaloides piperidínicos: reguladores del metabolismo glucídico. Goma (galactomanano): fibra soluble que retarda la absorción de glucosa.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
+    },
+    {
+      "id": 150,
+      "titulo": "Decocción de Pimiento para la Diabetes",
+      "categoria": "Cardiovascular",
+      "origen": "Popular",
+      "ingredientes": "Hojas de pimiento, 1 taza de agua.",
+      "preparacion": "Hervir las hojas y beber la decocción, conocida por sus beneficios para tratar la diabetes.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Diabetes. Bienestar general.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
+      "propiedades": [
+        "inmunoestimulante",
+        "antioxidante",
+        "depurativo",
+        "tonificante"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
+    },
+    {
       "id": 309,
       "titulo": "Jugo de Maqui para salud cardiovascular",
       "categoria": "Cardiovascular",
@@ -43,7 +169,9 @@
         "murta",
         "calafate",
         "rosa mosqueta"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 313,
@@ -85,7 +213,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 314,
@@ -126,7 +256,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 315,
@@ -166,7 +298,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 316,
@@ -207,7 +341,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 317,
@@ -249,7 +385,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 320,
@@ -289,7 +427,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 455,
@@ -329,7 +469,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 457,
@@ -371,7 +513,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 459,
@@ -411,7 +555,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 461,
@@ -452,7 +598,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 462,
@@ -493,7 +641,9 @@
         "antihipertensivo",
         "antiagregante plaquetario",
         "emoliente"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 466,
@@ -534,7 +684,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 467,
@@ -574,7 +726,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 770,
@@ -615,7 +769,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 771,
@@ -656,7 +812,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 772,
@@ -698,7 +856,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 777,
@@ -710,7 +870,7 @@
       "dosis": "2 cucharadas al día del líquido de fermentación",
       "modo_uso": "El líquido es más potente que el sólido para la presión arterial",
       "tiempo_prep": "5-7 días fermentación",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 L",
       "conservacion": "Refrigerar hasta 3 meses",
       "evidencia": "Uso tradicional documentado",
@@ -739,7 +899,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 778,
@@ -780,7 +942,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 779,
@@ -822,7 +986,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 780,
@@ -862,7 +1028,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 951,
@@ -904,7 +1072,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 952,
@@ -946,7 +1116,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 954,
@@ -986,7 +1158,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 1121,
@@ -1028,7 +1202,9 @@
         "Melisa",
         "Tilo",
         "Pasiflora"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 1179,
@@ -1039,7 +1215,7 @@
       "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10-12 minutos. Colar.",
       "dosis": "1 taza después de la cena durante 6-8 semanas",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "300 ml",
       "conservacion": "Preparar fresca",
@@ -1071,7 +1247,9 @@
       "sinergia_plantas": [
         "valeriana",
         "hierba del sapo"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 1193,
@@ -1082,7 +1260,7 @@
       "preparacion": "Mezclar oleatos. Añadir aceites esenciales agitando. Envasar en frasco oscuro.",
       "dosis": "Masajear piernas de tobillos hacia rodillas, ascendiendo, 1-2 veces al día",
       "modo_uso": "Masaje circulatorio",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "130 ml",
       "conservacion": "6 meses en frasco oscuro",
@@ -1114,7 +1292,53 @@
       "sinergia_plantas": [
         "caléndula",
         "milenrama"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
+    },
+    {
+      "id": 1204,
+      "titulo": "Infusión hipotensora de espino blanco, olivo y melisa",
+      "categoria": "Cardiovascular",
+      "origen": "Fitoterapia mediterránea",
+      "ingredientes": "1 cucharadita de flores y hojas de espino blanco, 1 cucharadita de hojas de olivo, 1 cucharadita de melisa, 1/2 cucharadita de tilo, 350 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 10 minutos. Colar.",
+      "dosis": "1 taza 2 veces al día durante 8-12 semanas (con control de PA)",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "350 ml",
+      "conservacion": "24 horas refrigerada",
+      "evidencia": "Hojas de olivo reducen presión arterial sistólica y diastólica (Susalit, 2011)",
+      "fuente_tradicion": "Fitoterapia mediterránea",
+      "contraindicaciones": "Hipotensión, embarazo, niños, asociado a antihipertensivos requiere control médico y ajuste de dosis.",
+      "uso": "La oleuropeína de hojas de olivo inhibe enzima convertidora de angiotensina (ECA) y relaja músculo liso vascular por estímulo de óxido nítrico endotelial, las procianidinas del espino vasodilatan coronarias y la melisa modula tono simpático reduciendo HTA reactiva al estrés.",
+      "principios_activos": "Oleuropeína (olivo): inhibidor ECA, vasodilatador. Procianidinas (espino). Ácido rosmarínico (melisa). Farnesol (tilo).",
+      "propiedades": [
+        "antihipertensivo",
+        "vasodilatador",
+        "cardioprotector",
+        "antioxidante vascular"
+      ],
+      "referencias": [
+        "Susalit E. et al. Phytomedicine (2011) 18:251",
+        "Walker AF. et al. Br J Gen Pract (2002) 52:437"
+      ],
+      "indicaciones_principales": [
+        "hipertensión arterial leve",
+        "prehipertensión",
+        "ansiedad con elevación tensional",
+        "complemento de antihipertensivos (con supervisión)"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos (potencia), hipoglucemiantes, digoxina",
+      "embarazo_lactancia": "Contraindicada",
+      "duracion_tratamiento": "12 semanas con control de presión",
+      "sinergia_plantas": [
+        "hierba del sapo",
+        "ajo"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
     },
     {
       "id": 1206,
@@ -1157,6 +1381,153 @@
       "sinergia_plantas": [
         "olivo",
         "ajo"
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes"
+    },
+    {
+      "titulo": "Infusión de Maqui para la Protección Antioxidante de la Sangre",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharada de bayas secas de maqui, 250 ml de agua, 1 cucharadita de miel",
+      "preparacion": "Hervir el agua. Verter sobre las bayas de maqui, tapar y dejar reposar 15 minutos. Colar, añadir miel cuando esté tibio y beber.",
+      "dosis": "1 taza al día, preferentemente por la mañana. Ciclos de 4 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia al maqui. Evitar durante el embarazo y lactancia sin consultar. No administrar a niños menores de 6 años. Puede interferir con medicamentos anticoagulantes.",
+      "uso": "Protección cardiovascular y envejecimiento celular: el maqui es una de las frutas con mayor capacidad antioxidante del mundo, protegiendo las células sanguíneas y los vasos del daño oxidativo.",
+      "principios_activos": "Antocianinas (delfinidina, cianidina): potentes antioxidantes con una de las capacidades ORAC más altas registradas, protegen las lipoproteínas LDL de la oxidación y mejoran la función endotelial.",
+      "referencias": "Escribano-Bailón MT et al. Anthocyanins in berries of Maqui. Phytochem Anal. 2006; Andrade D et al. Nanoencapsulation of Maqui Extract. Antioxidants. 2024; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+      "id": 1443,
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes",
+      "propiedades": [
+        "antioxidante",
+        "cardioprotector",
+        "antiinflamatorio",
+        "antienvejecimiento",
+        "vasoprotector"
+      ]
+    },
+    {
+      "titulo": "Batido de Uva y Semillas de Lino para la Salud Cardiovascular",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 taza de uvas negras con semillas, 1 cucharada de semillas de lino, 200 ml de agua",
+      "preparacion": "Licuar las uvas negras con las semillas de lino y el agua hasta obtener un batido homogéneo. Beber de inmediato, preferentemente en el desayuno.",
+      "dosis": "1 vaso al día, por períodos prolongados. Descansar 1 semana cada 3 meses.",
+      "modo_uso": "Oral — batido fresco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a las uvas o al lino. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 años. Puede interferir con anticoagulantes.",
+      "uso": "Salud cardiovascular y prevención del envejecimiento celular: las uvas negras y sus semillas aportan potentes antioxidantes que protegen el corazón, los vasos sanguíneos y las células de todo el cuerpo.",
+      "principios_activos": "Resveratrol y proantocianidinas (semillas de uva): potentes antioxidantes que protegen el endotelio vascular, reducen la oxidación de LDL y mejoran la elasticidad arterial. Antocianinas (piel de uva negra): acción antiinflamatoria y cardioprotectora.",
+      "referencias": "Paladino SC et al. Extracto de semillas de vid con actividad antioxidante. 2011; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+      "id": 1444,
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes",
+      "propiedades": [
+        "antioxidante",
+        "cardioprotector",
+        "vasodilatador",
+        "hipocolesterolemiante",
+        "antienvejecimiento"
+      ]
+    },
+    {
+      "titulo": "Infusión de Romero y Limón para la Limpieza de la Sangre",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas secas de romero, zumo de medio limón, 250 ml de agua",
+      "preparacion": "Hervir el agua. Verter sobre el romero, tapar y dejar reposar 8 minutos. Colar, añadir el zumo de limón y beber tibio.",
+      "dosis": "1 taza al día, preferentemente por la mañana en ayunas. Ciclos de 3 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de úlcera gástrica, epilepsia o alergia al romero o limón. Evitar durante el embarazo sin consultar. No administrar a niños menores de 12 años.",
+      "uso": "Depuración de la sangre y protección antioxidante: el romero y el limón ayudan al hígado a eliminar toxinas y protegen las células del daño oxidativo, mejorando la vitalidad general.",
+      "principios_activos": "Ácido rosmarínico y 1,8-cineol (romero): acción hepatoprotectora y antioxidante, estimulan las enzimas de fase II del hígado. Vitamina C y ácido cítrico (limón): refuerzan el sistema antioxidante endógeno.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Rosmarinus officinalis.",
+      "id": 1445,
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes",
+      "propiedades": [
+        "antioxidante",
+        "hepatoprotector",
+        "depurativo",
+        "digestivo",
+        "tónico"
+      ]
+    },
+    {
+      "titulo": "Jugo de Betarraga y Manzana para Fortalecer la Sangre",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 betarraga mediana, 1 manzana roja con cáscara, zumo de medio limón, 100 ml de agua",
+      "preparacion": "Lavar bien la betarraga y la manzana. Trocearlas y licuarlas con el agua. Añadir el zumo de limón, mezclar bien y beber de inmediato.",
+      "dosis": "1 vaso al día, preferentemente por la mañana. Ciclos de 4 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — jugo fresco",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de cálculos renales de oxalato o alergia a los ingredientes. Evitar durante el embarazo sin consultar. La betarraga puede colorear temporalmente la orina de rojo (inofensivo).",
+      "uso": "Anemia leve, debilidad y palidez: la betarraga y la manzana estimulan la producción de glóbulos rojos y mejoran la oxigenación de los tejidos, combatiendo el cansancio.",
+      "principios_activos": "Betaína y nitratos (betarraga): mejoran el flujo sanguíneo y la oxigenación tisular. Hierro y vitamina C (manzana y limón): la vitamina C aumenta la absorción del hierro, favoreciendo la formación de hemoglobina.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada.",
+      "id": 1446,
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes",
+      "propiedades": [
+        "antianémico",
+        "reconstituyente",
+        "antioxidante",
+        "vasodilatador",
+        "energizante"
+      ]
+    },
+    {
+      "titulo": "Infusión de Ortiga y Miel para la Salud de la Sangre",
+      "categoria": "Cardiovascular",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharaditas de hojas secas de ortiga, 250 ml de agua, 1 cucharadita de miel",
+      "preparacion": "Hervir el agua. Verter sobre la ortiga, tapar y dejar reposar 10 minutos. Colar, añadir miel cuando esté tibio y beber.",
+      "dosis": "1 taza al día, preferentemente por la mañana. Ciclos de 3 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en insuficiencia renal o cardíaca sin supervisión. No usar durante el embarazo sin consultar.",
+      "uso": "Anemia ferropénica leve, cansancio y uñas quebradizas: la ortiga es rica en hierro y minerales que nutren la sangre, ayudando a recuperar la energía y la vitalidad.",
+      "principios_activos": "Hierro, sílice y vitamina C (ortiga): la combinación de hierro y vitamina C natural facilita la absorción del hierro y la formación de hemoglobina. Flavonoides: acción antioxidante que protege los glóbulos rojos.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Urtica dioica.",
+      "id": 1447,
+      "modulo": "cardiovascular",
+      "submodulo": "sangre_antioxidantes",
+      "propiedades": [
+        "antianémico",
+        "remineralizante",
+        "reconstituyente",
+        "antioxidante",
+        "tónico"
       ]
     }
   ]

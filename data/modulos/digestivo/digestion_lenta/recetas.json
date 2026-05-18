@@ -44,25 +44,27 @@
         "manzanilla",
         "cedrón",
         "diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
-      "id": 52,
-      "titulo": "Tintura de Ajenjo para Estimular el Apetito",
+      "id": 51,
+      "titulo": "Cataplasma de Ajenjo para Aliviar el Dolor Abdominal",
       "categoria": "Digestivo",
       "origen": "Popular",
-      "ingredientes": "1 parte de hojas secas de ajenjo, 5 partes de alcohol de 40°.",
-      "preparacion": "Macerar por 15 días. Tomar de 5 a 10 gotas en un poco de agua antes de las comidas para estimular el apetito y la digestión.",
+      "ingredientes": "Un puñado de hojas de ajenjo, un poco de agua caliente.",
+      "preparacion": "Machacar las hojas hasta formar una pasta y aplicar como cataplasma sobre el vientre para aliviar cólicos y dolores estomacales.",
       "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente o tibia",
-      "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Avanzado",
+      "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
       "rendimiento": "2–3 tazas",
       "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Popular Chileno",
       "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
-      "uso": "Estimular el Apetito. Apoyo digestivo.",
+      "uso": "Aliviar el Dolor Abdominal. Apoyo digestivo.",
       "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
         "Dispepsia y digestión pesada",
@@ -84,7 +86,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 59,
@@ -126,7 +130,9 @@
         "manzanilla",
         "cedrón",
         "boldo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 84,
@@ -168,7 +174,95 @@
         "manzanilla",
         "boldo",
         "cedrón"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
+    },
+    {
+      "id": 119,
+      "titulo": "Agua de Romero para la Digestión",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "Hojas de romero, 1 taza de agua.",
+      "preparacion": "Preparar una infusión con hojas de romero para aliviar los problemas digestivos y la congestión del hígado y vesícula.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
+      "uso": "Digestión: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
+    },
+    {
+      "id": 126,
+      "titulo": "Infusión de Matico para el Dolor de Estómago",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "1 cucharada de hojas de matico, 1 taza de agua.",
+      "preparacion": "Preparar una infusión con las hojas de matico para aliviar las úlceras digestivas, la indigestión y el dolor de estómago.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
+      "uso": "Dolor de Estómago: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
+      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
+      "propiedades": [
+        "cicatrizante",
+        "hemostático",
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente"
+      ],
+      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 157,
@@ -209,7 +303,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 389,
@@ -250,7 +346,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 394,
@@ -290,7 +388,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 395,
@@ -332,7 +432,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 398,
@@ -375,7 +477,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 403,
@@ -416,7 +520,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 404,
@@ -457,7 +563,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 406,
@@ -498,7 +606,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 408,
@@ -539,7 +649,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 409,
@@ -580,7 +692,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 411,
@@ -620,7 +734,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 413,
@@ -661,7 +777,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 415,
@@ -701,7 +819,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 417,
@@ -742,7 +862,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 418,
@@ -784,7 +906,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 419,
@@ -825,7 +949,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 421,
@@ -867,7 +993,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 422,
@@ -907,7 +1035,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 693,
@@ -949,7 +1079,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 695,
@@ -990,7 +1122,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 696,
@@ -1031,7 +1165,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 697,
@@ -1072,7 +1208,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 698,
@@ -1114,7 +1252,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 699,
@@ -1155,7 +1295,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 700,
@@ -1196,7 +1338,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 701,
@@ -1236,7 +1380,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 702,
@@ -1277,7 +1423,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 704,
@@ -1319,7 +1467,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 705,
@@ -1360,7 +1510,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 708,
@@ -1400,7 +1552,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 713,
@@ -1440,7 +1594,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 714,
@@ -1481,7 +1637,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 715,
@@ -1522,7 +1680,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 716,
@@ -1563,7 +1723,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 938,
@@ -1603,7 +1765,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 941,
@@ -1643,7 +1807,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 944,
@@ -1683,7 +1849,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 945,
@@ -1725,7 +1893,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 946,
@@ -1737,7 +1907,7 @@
       "dosis": "200 ml al dia con las comidas",
       "modo_uso": "Probiotico natural sin lactosa; apto para intolerantes a la leche",
       "tiempo_prep": "24-48 h fermentacion",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 L",
       "conservacion": "Refrigerar hasta 1 semana",
       "evidencia": "Uso tradicional documentado",
@@ -1767,7 +1937,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 1109,
@@ -1778,7 +1950,7 @@
       "preparacion": "Calentar agua hasta primer hervor. Retirar y agregar las hierbas. Tapar 7 minutos. Colar.",
       "dosis": "1 taza después de almuerzo y/o cena",
       "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "1 taza",
       "conservacion": "Consumir recién preparada",
@@ -1810,7 +1982,53 @@
         "Melisa",
         "Jengibre",
         "Boldo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
+    },
+    {
+      "id": 1135,
+      "titulo": "Infusión carminativa de hinojo, manzanilla y cedrón para distensión abdominal",
+      "categoria": "Digestivo",
+      "origen": "Popular chileno",
+      "ingredientes": "1 cdta de semillas de hinojo ligeramente machacadas, 1 cdta de flores de manzanilla, 1 cdta de hojas de cedrón, 300 ml de agua",
+      "preparacion": "Hervir agua, retirar del fuego y volcar sobre hierbas. Tapar 7 min, colar.",
+      "dosis": "1 taza después de comidas que generen gases, hasta 3 veces al día",
+      "modo_uso": "Oral - infusión",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza grande",
+      "conservacion": "Consumir recién hecho",
+      "evidencia": "ESCOP monographs Matricaria y Foeniculum; estudios sobre Aloysia citrodora como espasmolítico (Carnat 1999)",
+      "fuente_tradicion": "Popular chileno",
+      "contraindicaciones": "Alergia a Asteraceae, embarazo (hinojo en exceso por trans-anetol)",
+      "uso": "El trans-anetol y bisabolol relajan musculatura lisa intestinal reduciendo espasmos y favoreciendo expulsión de gases.",
+      "principios_activos": "Trans-anetol y fenchona (hinojo), alfa-bisabolol y matricina (manzanilla), verbascósido y citral (cedrón); espasmolíticos sobre receptores muscarínicos",
+      "propiedades": [
+        "carminativo",
+        "espasmolítico",
+        "digestivo",
+        "ansiolítico suave",
+        "antiinflamatorio"
+      ],
+      "referencias": "ESCOP 2003; Carnat AP. 1999 Pharm Acta Helv; Hoffmann 1992",
+      "indicaciones_principales": [
+        "meteorismo",
+        "colon irritable leve",
+        "cólico postprandial",
+        "ansiedad digestiva",
+        "eructos frecuentes"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (manzanilla en altas dosis), sedantes (potencia cedrón)",
+      "embarazo_lactancia": "Precaución en embarazo por hinojo; en lactancia favorece producción de leche",
+      "duracion_tratamiento": "Uso continuo seguro",
+      "sinergia_plantas": [
+        "anís",
+        "melisa",
+        "menta"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 1138,
@@ -1852,7 +2070,9 @@
         "tomillo",
         "orégano",
         "menta"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 1160,
@@ -1897,7 +2117,55 @@
         "manzanilla",
         "menta",
         "hinojo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
+    },
+    {
+      "id": 1161,
+      "titulo": "Infusión carminativa post-prandial de hinojo, anís y manzanilla",
+      "categoria": "Digestivo",
+      "origen": "Tradición mediterránea y chilena",
+      "ingredientes": "1 cucharadita de semillas de hinojo trituradas, 1 cucharadita de anís verde, 1 cucharadita de flores de manzanilla, 1 hojita de menta, 250 ml de agua caliente",
+      "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
+      "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Consumir inmediatamente",
+      "evidencia": "Hinojo demuestra eficacia en cólicos del lactante y SII (Alexandrovich, 2003; Portincasa, 2016)",
+      "fuente_tradicion": "Herbolaria mediterránea adoptada en Chile",
+      "contraindicaciones": "Alergia a apiáceas. Evitar dosis altas en embarazo. Hiperestrogenismo (cáncer mamario hormono-dependiente) por anetol.",
+      "uso": "El anetol relaja musculatura lisa intestinal mediante bloqueo de canales de calcio, mientras los flavonoides de manzanilla actúan sobre receptores GABA reduciendo espasmo nervioso del eje intestino-cerebro.",
+      "principios_activos": "Anetol (hinojo y anís): espasmolítico. Apigenina (manzanilla): ansiolítico, GABAérgico. Mentol: refrescante y antiespasmódico.",
+      "propiedades": [
+        "carminativo",
+        "espasmolítico",
+        "digestivo",
+        "ansiolítico suave"
+      ],
+      "referencias": [
+        "Alexandrovich I. et al. Altern Ther Health Med (2003) 9:58",
+        "Portincasa P. et al. J Gastrointestin Liver Dis (2016) 25:151"
+      ],
+      "indicaciones_principales": [
+        "distensión abdominal",
+        "flatulencia",
+        "cólicos digestivos",
+        "intestino irritable",
+        "dispepsia nerviosa"
+      ],
+      "interacciones_medicamentos": "Posible interferencia con tamoxifeno (anetol fitoestrógeno).",
+      "embarazo_lactancia": "En lactancia favorece producción de leche en dosis moderadas",
+      "duracion_tratamiento": "Uso continuo seguro hasta 6 semanas",
+      "sinergia_plantas": [
+        "melisa",
+        "cedrón",
+        "menta"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "id": 1194,
@@ -1908,7 +2176,7 @@
       "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar.",
       "dosis": "1 taza después de comidas pesadas",
       "modo_uso": "Infusión",
-      "tiempo_prep": "12 minutos",
+      "tiempo_prep": "12 min",
       "dificultad": "Fácil",
       "rendimiento": "300 ml",
       "conservacion": "Preparar fresca",
@@ -1940,7 +2208,9 @@
       "sinergia_plantas": [
         "melisa",
         "cedrón"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "digestion_lenta"
     },
     {
       "titulo": "Infusión de Frutilla Blanca como digestivo y astringente",
@@ -1957,7 +2227,7 @@
       "evidencia": "\"Plantas medicinales de uso mapuche\" (Universidad de\nConcepción). Estudios fitoquímicos publicados en el \"Journal\nof Ethnopharmacology\" confirman el contenido de taninos y\nflavonoides en las hojas de Fragaria chiloensis.",
       "fuente_tradicion": "Medicina tradicional mapuche",
       "contraindicaciones": "- Alergia a las fresas o frutillas.\n- Estreñimiento crónico (por su efecto astringente).\n- Embarazo y lactancia: seguro en cantidades moderadas.",
-      "id": 1356,
+      "id": 1567,
       "uso": "Alivio de diarreas leves, como astringente suave\ny digestivo.",
       "planta_principal": "Frutilla Blanca (Fragaria chiloensis)",
       "interacciones": "Por su contenido en taninos, puede reducir la\nabsorción de hierro y otros minerales. Separar de suplementos\ny comidas ricas en hierro por al menos 2 horas.",
@@ -1979,7 +2249,7 @@
       "evidencia": "Revisión sistemática \"Herbal medicine for functional dyspepsia\". PubMed.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a asteráceas.\n- Obstrucción de vías biliares (cálculos).\n- En caso de cálculos biliares, usar solo bajo supervisión médica.",
-      "id": 1373,
+      "id": 1584,
       "uso": "Sensación de pesadez, plenitud y digestión lenta tras comidas grasas.",
       "planta_principal": "Alcachofa (Cynara scolymus)",
       "interacciones": "Posible interferencia con medicamentos de eliminación biliar. Precaución con anticoagulantes orales (casos aislados de potenciación).",

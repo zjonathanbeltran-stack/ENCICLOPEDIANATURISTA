@@ -42,7 +42,9 @@
         "tomillo",
         "matico",
         "menta"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "id": 86,
@@ -83,91 +85,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
-    },
-    {
-      "id": 96,
-      "titulo": "Infusión de Limón, Jengibre y Miel para los Resfriados",
-      "categoria": "Resfriados",
-      "origen": "Popular",
-      "ingredientes": "1 rodaja de jengibre, 1/2 limón, 1 cucharada de miel, 1 taza de agua.",
-      "preparacion": "Hervir el agua con el jengibre. Retirar del fuego, añadir el jugo de limón y la miel. Tomar caliente para aliviar la congestión y fortalecer las defensas, ya que el jengibre y el limón son ricos en vitamina C.",
-      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "20 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "En dosis altas, contraindicado en cálculos biliares. Consultar si se toman anticoagulantes.",
-      "uso": "Resfriados: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
       ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Resfriado común",
-        "Gripe leve",
-        "Fiebre moderada",
-        "Congestión nasofaríngea"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Ajo",
-        "Saúco",
-        "Jengibre"
-      ]
-    },
-    {
-      "titulo": "Inhalación de Eucalipto, Menta y Ajo para Congestión del Resfrío",
-      "categoria": "Resfriados",
-      "origen": "Popular Chileno",
-      "ingredientes": "10 hojas de eucalipto, 1 cucharada de menta, 3 dientes de ajo machacados, 1 litro de agua.",
-      "preparacion": "Hervir todo en olla grande. Retirar del fuego. Cubrirse la cabeza con toalla gruesa e inhalar los vapores 10-15 minutos a distancia segura. Hacer 2-3 veces al día. El eucaliptol, el mentol y la alicina del ajo crean una sinergia antimicrobiana y descongestionante potente.",
-      "id": 279,
-      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
-      "modo_uso": "Inhalación — respirar los vapores",
-      "tiempo_prep": "20 min",
-      "dificultad": "Fácil",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No aplicar aceite esencial puro en pieles sensibles ni cerca de mucosas de niños.",
-      "uso": "Congestión del Resfrío: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | 1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
-      "propiedades": [
-        "antiespasmódico",
-        "digestivo",
-        "carminativo",
-        "analgésico local",
-        "expectorante",
-        "mucolítico"
-      ],
-      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-      "indicaciones_principales": [
-        "Resfriado común",
-        "Gripe leve",
-        "Fiebre moderada",
-        "Congestión nasofaríngea"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Ajo",
-        "Saúco",
-        "Jengibre"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "id": 428,
@@ -208,7 +128,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "id": 852,
@@ -250,7 +172,9 @@
         "Eucalipto",
         "Tomillo",
         "Llantén"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "id": 1139,
@@ -292,7 +216,9 @@
         "pino",
         "menta",
         "salvia"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "id": 1166,
@@ -303,7 +229,7 @@
       "preparacion": "Hervir agua y verter sobre las hierbas en una olla. Apagar fuego. Cubrir cabeza con toalla e inhalar vapor durante 5-10 minutos manteniendo distancia segura.",
       "dosis": "2-3 veces al día durante cuadro respiratorio",
       "modo_uso": "Inhalación de vapor",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1 sesión",
       "conservacion": "No aplica, uso inmediato",
@@ -336,7 +262,9 @@
         "saúco",
         "tomillo",
         "menta"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
     },
     {
       "titulo": "Decocción de Pingo-pingo para la sinusitis y congestión nasal",
@@ -344,19 +272,24 @@
       "origen": "Medicina tradicional chilena (Norte-Centro).",
       "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de ramas secas de pingo-pingo. - 1 litro de agua.",
       "preparacion": "1. Colocar las ramas en una olla con el agua. 2. Hervir durante 5 minutos. 3. Retirar del fuego, colar y beber tibio.",
-      "dosis": "",
+      "dosis": "1 taza, 2-3 veces al día.",
       "modo_uso": "Decocción",
-      "tiempo_prep": "5 minutos",
+      "tiempo_prep": "5 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Tradición chilena",
       "contraindicaciones": "- Hipertensión arterial y problemas cardíacos. - Embarazo y lactancia.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Sinusitis y congestión nasal: descongestiona las fosas nasales, reduce la inflamación de los senos paranasales y facilita la respiración.",
+      "principios_activos": "Alcaloides del grupo de la efedrina: acción vasoconstrictora sobre la mucosa nasal, reduciendo el edema y facilitando el drenaje de los senos paranasales. Flavonoides: efecto antiinflamatorio complementario.",
+      "propiedades": [
+        "descongestionante",
+        "antiinflamatorio",
+        "vasoconstrictor",
+        "expectorante"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -365,7 +298,67 @@
       "nivel_seguridad": "⚠️ Precaución (efecto cardioestimulante)",
       "distribucion": "Regiones de Arica a La Araucanía.",
       "efectos_secundarios": "",
-      "id": 1242
+      "id": 1242,
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis"
+    },
+    {
+      "id": 1352,
+      "titulo": "Infusión de Matico para la Congestión Nasal por Sinusitis",
+      "categoria": "Respiratorio",
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de hojas secas de matico, 250 ml de agua, miel a gusto",
+      "preparacion": "Hervir el agua. Verter sobre el matico, tapar y dejar reposar 15 minutos. Colar y beber bien caliente.",
+      "dosis": "1 taza cada 6 horas hasta mejorar la congestión. No usar más de 5 días seguidos.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a niños menores de 6 años. Evitar en embarazo sin consultar. No usar si hay alergia a plantas de la familia Buddlejaceae. Consultar al médico si la sinusitis se acompaña de fiebre alta o dolor intenso.",
+      "uso": "Sinusitis con nariz tapada y secreción espesa: descongestiona las fosas nasales, reduce la inflamación de los senos paranasales y facilita la salida del moco acumulado.",
+      "propiedades": [
+        "descongestionante",
+        "antiinflamatorio",
+        "expectorante",
+        "antiséptico",
+        "astringente suave"
+      ],
+      "principios_activos": "Flavonoides y saponósidos (matico): efecto antiinflamatorio sobre la mucosa nasal y los senos paranasales, reduciendo el edema y la producción de secreciones. | Taninos: acción astringente que ayuda a disminuir la rinorrea.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Mensah AY et al. J Ethnopharmacol 2001;77(2-3):219-226"
+    },
+    {
+      "id": 1353,
+      "titulo": "Lavado Nasal con Solución de Sal Marina y Manzanilla para la Sinusitis",
+      "categoria": "Respiratorio",
+      "modulo": "respiratorio",
+      "submodulo": "congestion_sinusitis",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de flores de manzanilla, 250 ml de agua, media cucharadita de sal marina",
+      "preparacion": "Hervir el agua con la manzanilla 3 minutos. Colar y dejar entibiar. Añadir la sal y disolver completamente. Con una perilla o jeringa (sin aguja) aplicar suavemente en cada fosa nasal inclinando la cabeza.",
+      "dosis": "2 lavados al día (mañana y noche) mientras dure la congestión. Máximo 5 días.",
+      "modo_uso": "Tópico — irrigación nasal",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml (para varios lavados)",
+      "conservacion": "Usar a temperatura ambiente en el día. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar en niños menores de 5 años sin supervisión. Usar agua hervida para evitar infecciones. No forzar si hay dolor intenso o hemorragia nasal. No usar en otitis aguda.",
+      "uso": "Sinusitis con abundante mucosidad espesa: la solución salina descongestiona y limpia los senos paranasales, mientras la manzanilla desinflama la mucosa nasal y calma la irritación.",
+      "propiedades": [
+        "descongestionante",
+        "antiinflamatorio",
+        "antiséptico",
+        "calmante",
+        "limpiador"
+      ],
+      "principios_activos": "Cloruro de sodio: acción osmótica que descongestiona y arrastra secreciones y alérgenos, normalizando la función ciliar. | Bisabolol y camazuleno (manzanilla): potente antiinflamatorio sobre la mucosa nasal, reduciendo el edema y la obstrucción.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Matricaria recutita; Principios de irrigación nasal salina"
     },
     {
       "titulo": "Decocción de Pingo-pingo para la sinusitis y congestión nasal",
@@ -382,7 +375,7 @@
       "evidencia": "\"La decocción de los tallos sirve para dilatar y descongestionar\nlas vías respiratorias, eliminar cálculos renales y para la sinusitis\"\n(CEAB, Ficha de Ephedra chilensis)[reference:1].",
       "fuente_tradicion": "Medicina tradicional chilena (Norte-Centro).",
       "contraindicaciones": "- Hipertensión arterial y problemas cardíacos.\n- Embarazo y lactancia.",
-      "id": 1330,
+      "id": 1541,
       "uso": "Descongestionar las vías respiratorias altas y aliviar la\npresión sinusal asociada a la sinusitis.",
       "planta_principal": "Pingo-pingo (Ephedra chilensis)",
       "interacciones": "No combinar con otros estimulantes (café, bebidas energéticas).",

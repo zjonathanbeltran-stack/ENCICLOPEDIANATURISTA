@@ -40,7 +40,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
     },
     {
       "id": 162,
@@ -80,7 +82,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
     },
     {
       "id": 391,
@@ -121,7 +125,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
     },
     {
       "titulo": "Decocción de Jengibre para las náuseas",
@@ -138,7 +144,7 @@
       "evidencia": "ESCOP monographs: Zingiberis rhizoma (Ginger).",
       "fuente_tradicion": "Medicina tradicional china y fitoterapia clínica",
       "contraindicaciones": "- Hipersensibilidad al jengibre.\n- Cálculos biliares.\n- Suspender 1 semana antes de cirugía programada.",
-      "id": 1340,
+      "id": 1551,
       "uso": "Náuseas por cinetosis, dispepsia y náuseas matutinas del embarazo.",
       "planta_principal": "Jengibre (Zingiber officinale)",
       "interacciones": "Puede potenciar anticoagulantes orales (warfarina) y antiplaquetarios.",

@@ -43,7 +43,9 @@
         "maqui",
         "romero",
         "cedrón"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 311,
@@ -84,7 +86,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 319,
@@ -126,7 +130,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 323,
@@ -166,7 +172,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 324,
@@ -207,7 +215,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 460,
@@ -248,7 +258,9 @@
         "Ajo",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 768,
@@ -288,7 +300,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 769,
@@ -328,7 +342,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 950,
@@ -368,7 +384,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 953,
@@ -408,7 +426,9 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
     },
     {
       "id": 996,
@@ -420,7 +440,7 @@
       "dosis": "1 bano de pies diario",
       "modo_uso": "Alternar temperatura tibia con fria al final para estimular la circulacion",
       "tiempo_prep": "5 min + remojo",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "1 bano",
       "conservacion": "Uso inmediato",
       "evidencia": "Uso tradicional documentado",
@@ -448,7 +468,154 @@
         "vasodilatador",
         "antihipertensivo",
         "antiagregante plaquetario"
-      ]
+      ],
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices"
+    },
+    {
+      "id": 1428,
+      "titulo": "Decocción de Castaño de Indias para las Várices y Piernas Cansadas",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharadita de semillas secas de castaño de indias trituradas, 300 ml de agua",
+      "preparacion": "Hervir el agua con las semillas de castaño de indias durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+      "dosis": "1 taza (150 ml) por la mañana y otra por la noche, fuera de las comidas. No exceder 4 semanas de uso continuo.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas (300 ml)",
+      "conservacion": "Refrigerar hasta 48 horas. Calentar suavemente antes de consumir.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en el embarazo, lactancia o insuficiencia renal. Evitar en caso de alergia al castaño de indias. Puede potenciar el efecto de anticoagulantes. No administrar a niños menores de 12 años. No usar si hay úlcera gástrica activa.",
+      "uso": "Várices, piernas cansadas e insuficiencia venosa crónica: fortalece las paredes de las venas, reduce la inflamación y alivia la sensación de pesadez y el dolor en las piernas.",
+      "propiedades": [
+        "venotónico",
+        "antiinflamatorio",
+        "vasoprotector",
+        "antiedematoso",
+        "analgésico"
+      ],
+      "principios_activos": "Escina: saponina triterpénica que fortalece las paredes venosas, reduce la permeabilidad capilar y tiene acción antiinflamatoria y antiedematosa. Flavonoides: acción antioxidante que protege el endotelio vascular.",
+      "referencias": "Pittler MH, Ernst E. Extracto de semillas de castaño de indias para la insuficiencia venosa crónica. Cochrane Database Syst Rev. 2012; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1429,
+      "titulo": "Gel de Rusco para las Várices y la Pesadez de Piernas",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "30 g de rizoma seco de rusco en polvo, 100 ml de gel de aloe vera, 5 gotas de aceite esencial de ciprés",
+      "preparacion": "Mezclar el polvo de rusco con el gel de aloe vera hasta obtener una pasta homogénea. Añadir el aceite esencial de ciprés y mezclar bien. Guardar en un frasco limpio en el refrigerador. Aplicar con suaves masajes ascendentes sobre las piernas.",
+      "dosis": "Aplicar 2 veces al día, mañana y noche, durante 4 a 6 semanas.",
+      "modo_uso": "Tópico — gel para masaje ascendente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "130 ml aproximadamente",
+      "conservacion": "Refrigerar hasta 2 semanas.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Medicina Mediterránea",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o piel irritada. Evitar en caso de alergia al rusco, aloe o ciprés. No usar durante el embarazo o lactancia sin consultar. Para uso externo exclusivamente.",
+      "uso": "Várices, arañitas vasculares y piernas cansadas: el rusco fortalece las venas y reduce la inflamación, mientras el masaje ascendente mejora el retorno venoso y alivia la pesadez.",
+      "propiedades": [
+        "venotónico",
+        "vasoconstrictor",
+        "antiinflamatorio",
+        "refrescante",
+        "descongestionante"
+      ],
+      "principios_activos": "Ruscogenina y neoruscogenina: saponósidos con acción venotónica y vasoconstrictora, fortalecen las paredes venosas y mejoran el retorno sanguíneo. Aloe vera: acción antiinflamatoria y refrescante.",
+      "referencias": "Cappelli R et al. Use of extract of Ruscus aculeatus in venous disease. 1988. PMID: 3048951; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1430,
+      "titulo": "Infusión de Romero para Activar la Circulación",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas secas de romero, 250 ml de agua, 1 cucharadita de miel",
+      "preparacion": "Hervir el agua. Verter sobre el romero, tapar y dejar reposar 8 minutos. Colar, añadir la miel cuando esté tibio y beber.",
+      "dosis": "1 taza por la mañana, preferentemente en ayunas. No usar más de 3 semanas seguidas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de epilepsia, embarazo o alergia al romero. Precaución en hipertensión no controlada. No administrar a menores de 12 años. No consumir por la noche por su efecto estimulante.",
+      "uso": "Mala circulación, manos y pies fríos, y sensación de hormigueo: el romero estimula el flujo sanguíneo y calienta el cuerpo, mejorando la oxigenación de los tejidos.",
+      "propiedades": [
+        "vasodilatador",
+        "estimulante circulatorio",
+        "calentador",
+        "antioxidante",
+        "tónico"
+      ],
+      "principios_activos": "Ácido rosmarínico y 1,8-cineol: mejoran el flujo sanguíneo periférico por vasodilatación y tienen acción neuroprotectora. Alcanfor: efecto revulsivo que produce vasodilatación y sensación de calor.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Rosmarinus officinalis."
+    },
+    {
+      "id": 1431,
+      "titulo": "Compresas de Cola de Caballo para las Piernas Hinchadas",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices",
+      "origen": "Popular Chileno",
+      "ingredientes": "4 cucharadas de cola de caballo seca, 1 litro de agua",
+      "preparacion": "Hervir el agua con la cola de caballo durante 10 minutos a fuego lento. Dejar enfriar hasta temperatura tibia. Empapar paños limpios en la decocción y aplicar sobre las piernas elevadas durante 15-20 minutos.",
+      "dosis": "Aplicar compresas 1 a 2 veces al día, durante 2 semanas.",
+      "modo_uso": "Tópico — compresas tibias",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 litro (para varias compresas)",
+      "conservacion": "Refrigerar hasta 48 horas. Calentar suavemente antes de usar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o piel irritada. Evitar en caso de alergia a la cola de caballo. No usar durante el embarazo sin consultar. No sustituye el tratamiento médico de várices severas.",
+      "uso": "Piernas hinchadas, con sensación de pesadez y retención de líquidos: la cola de caballo ayuda a eliminar el exceso de líquidos y fortalece los tejidos venosos.",
+      "propiedades": [
+        "diurético",
+        "antiinflamatorio",
+        "remineralizante",
+        "descongestionante",
+        "astringente"
+      ],
+      "principios_activos": "Sílice y sales minerales: acción remineralizante y fortalecedora de los tejidos conectivos. Flavonoides y saponinas: efecto diurético y antiinflamatorio que reduce el edema periférico.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Boeing T et al. Phytochemistry and Pharmacology of the Genus Equisetum. 2021."
+    },
+    {
+      "id": 1432,
+      "titulo": "Pomada de Caléndula para las Várices Superficiales",
+      "categoria": "Cardiovascular",
+      "modulo": "cardiovascular",
+      "submodulo": "circulacion_varices",
+      "origen": "Popular Chileno",
+      "ingredientes": "50 g de flores secas de caléndula, 200 ml de aceite de oliva, 30 g de cera de abeja",
+      "preparacion": "Macerar las flores de caléndula en el aceite de oliva durante 15 días al sol, agitando diariamente. Colar presionando bien. Calentar el aceite a baño maría y añadir la cera de abeja, removiendo hasta disolver. Verter en envases y dejar solidificar. Aplicar con suaves masajes ascendentes sobre las piernas.",
+      "dosis": "Aplicar 2 veces al día, mañana y noche, durante 4 a 6 semanas.",
+      "modo_uso": "Tópico — pomada para masaje ascendente",
+      "tiempo_prep": "15 días (maceración) + 30 min",
+      "dificultad": "Media",
+      "rendimiento": "150 ml de pomada",
+      "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o piel infectada. Evitar en caso de alergia a las asteráceas. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+      "uso": "Várices superficiales con inflamación y dolor leve: la caléndula desinflama las venas dilatadas, alivia el dolor y mejora el aspecto de la piel afectada.",
+      "propiedades": [
+        "venotónico",
+        "antiinflamatorio",
+        "vasoprotector",
+        "regenerador",
+        "calmante"
+      ],
+      "principios_activos": "Triterpenos y flavonoides de caléndula: acción antiinflamatoria sobre el endotelio vascular, reducen la fragilidad capilar y mejoran la microcirculación cutánea.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.2 (2002) Calendula officinalis."
     }
   ]
 }

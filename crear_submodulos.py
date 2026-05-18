@@ -379,7 +379,11 @@ ids_en_recetas = {r['id'] for r in recetas_all}
 submod_buckets = {}  # clave: (modulo, submodulo) → lista de recetas
 
 for r in recetas_all:
-    mk, sk = clasificar_receta(r)
+    # Si la receta ya tiene modulo/submodulo explícitos, respetarlos
+    if r.get('modulo') and r.get('submodulo'):
+        mk, sk = r['modulo'], r['submodulo']
+    else:
+        mk, sk = clasificar_receta(r)
     submod_buckets.setdefault((mk, sk), []).append(r)
 
 print(f'\nRecetas existentes clasificadas en {len(submod_buckets)} submódulos.')

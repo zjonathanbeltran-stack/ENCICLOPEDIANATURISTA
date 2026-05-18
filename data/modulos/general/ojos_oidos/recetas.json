@@ -4,21 +4,21 @@
   "recetas": [
     {
       "id": 14,
-      "titulo": "Infusión de Ruda macho para el oído",
+      "titulo": "Aceite de Ruda macho para dolor de oído",
       "categoria": "Oídos",
       "origen": "Popular",
       "ingredientes": "Hojas de ruda macho, aceite de oliva.",
-      "preparacion": "Macercar hojas en aceite por 2 semanas. Aplicar 2 gotas en el oído para aliviar el dolor. No ingerir.",
-      "dosis": "2–3 gotas en el oído afectado, 2–3 veces al día; o compresas tibias",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "7 días (maceración)",
+      "preparacion": "Macerar hojas en aceite por 2 semanas en frasco cerrado. Filtrar. Aplicar 2 gotas en el oído para aliviar el dolor. NO INGERIR — uso tópico únicamente.",
+      "dosis": "2–3 gotas en el oído afectado, 2–3 veces al día; o compresas tibias aplicadas externamente",
+      "modo_uso": "Tópico — gotas en el oído",
+      "tiempo_prep": "2 semanas (maceración)",
       "dificultad": "Fácil",
       "rendimiento": "1 frasco pequeño (varios días)",
       "conservacion": "Refrigerar hasta 3 días; no usar si hay perforación timpánica",
       "evidencia": "Saber ancestral",
       "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "CONTRAINDICADO en embarazo (puede causar aborto). No usar en niños. Dosis altas son tóxicas.",
-      "uso": "El oído: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
+      "contraindicaciones": "CONTRAINDICADO en embarazo (puede causar aborto). No usar en niños. Dosis altas son tóxicas. NO INGERIR.",
+      "uso": "Aplicación tópica en el oído para aliviar dolor de oído (otalgia). El aceite esencial de ruda tiene propiedades antiinflamatorias y analgésicas que actúan localmente sobre el conducto auditivo externo.",
       "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas.",
       "propiedades": [
         "emenagogo",
@@ -40,7 +40,9 @@
         "manzanilla",
         "lavanda",
         "llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 25,
@@ -82,7 +84,9 @@
         "matico",
         "rosa mosqueta",
         "caléndula"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 61,
@@ -124,7 +128,9 @@
         "caléndula",
         "llantén",
         "lavanda"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 87,
@@ -166,7 +172,9 @@
         "caléndula",
         "llantén",
         "rosa mosqueta"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 111,
@@ -176,7 +184,7 @@
       "ingredientes": "Un trozo de la planta calchacura, 1 taza de agua.",
       "preparacion": "Hervir el trozo de planta y aplicar el líquido resultante en gotas en el oído afectado para combatir el dolor.",
       "dosis": "2–3 gotas en el oído afectado, 2–3 veces al día; o compresas tibias",
-      "modo_uso": "Oral — decocción",
+      "modo_uso": "Tópico — gotas en el oído",
       "tiempo_prep": "20 min",
       "dificultad": "Fácil",
       "rendimiento": "1 frasco pequeño (varios días)",
@@ -206,17 +214,19 @@
         "antiséptico",
         "analgésico",
         "ceruminolítico"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 125,
-      "titulo": "Infusión de Orégano para el Dolor de Oído",
+      "titulo": "Aceite de Orégano para el Dolor de Oído",
       "categoria": "Oídos",
       "origen": "Popular",
       "ingredientes": "Hojas de orégano, aceite de oliva.",
       "preparacion": "Macerar las hojas de orégano en aceite de oliva por unos días. Calentar ligeramente y aplicar 2 o 3 gotas en el oído para aliviar el dolor.",
       "dosis": "2–3 gotas en el oído afectado, 2–3 veces al día; o compresas tibias",
-      "modo_uso": "Oral — infusión caliente",
+      "modo_uso": "Tópico — gotas en el oído",
       "tiempo_prep": "7 días (maceración)",
       "dificultad": "Avanzado",
       "rendimiento": "1 frasco pequeño (varios días)",
@@ -248,7 +258,9 @@
         "manzanilla",
         "matico",
         "tomillo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 140,
@@ -258,7 +270,7 @@
       "ingredientes": "Manzanilla, caléndula, salvia, 1 taza de agua.",
       "preparacion": "Mezclar las hierbas en partes iguales. Verter el agua hirviendo sobre la mezcla y dejar reposar por 5 minutos. Dejar enfriar y luego aplicar 2 o 3 gotas en el oído con un gotero.",
       "dosis": "2–3 gotas en el oído afectado, 2–3 veces al día; o compresas tibias",
-      "modo_uso": "Oral — infusión caliente",
+      "modo_uso": "Tópico — gotas en el oído",
       "tiempo_prep": "8 min",
       "dificultad": "Fácil",
       "rendimiento": "1 frasco pequeño (varios días)",
@@ -290,7 +302,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 170,
@@ -332,7 +346,53 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 171,
+      "titulo": "Infusión de Hinojo para las Fibras",
+      "categoria": "General",
+      "origen": "Urbano",
+      "ingredientes": "Semillas de hinojo, 1 taza de agua.",
+      "preparacion": "Preparar una infusión de semillas de hinojo para ayudar a aliviar los dolores menstruales, incrementar la producción de leche materna o facilitar la digestión.",
+      "dosis": "1 taza 2–3 veces al día; ajustar según respuesta personal",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No reemplaza atención médica. Consultar si los síntomas persisten o empeoran.",
+      "uso": "Fibras: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Trans-anetol (70-90% del aceite esencial): antiespasmódico sobre músculo liso intestinal por antagonismo de canales de calcio; su similitud estructural con dopamina le confiere efecto galactagogo al modular la secreción de prolactina. Flavonoides (isoquercitrina): antiinflamatorio complementario.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "galactagogo"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 648,
@@ -373,7 +433,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 649,
@@ -413,7 +475,9 @@
         "astringente",
         "antiséptico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 650,
@@ -454,7 +518,9 @@
         "analgésico",
         "ceruminolítico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 651,
@@ -495,7 +561,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 652,
@@ -535,7 +603,9 @@
         "astringente",
         "antiséptico",
         "emoliente"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 653,
@@ -547,7 +617,7 @@
       "dosis": "Compresas sobre ojos cerrados 10 min, 3-4 veces al día",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 sesión",
       "conservacion": "Preparar fresco (uso inmediato)",
       "evidencia": "Uso tradicional documentado",
@@ -577,7 +647,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 654,
@@ -619,7 +691,9 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 655,
@@ -631,7 +705,7 @@
       "dosis": "Compresas en ojos cerrados 3-4 veces al día",
       "modo_uso": "Tópico — aplicar gotas en el ojo",
       "tiempo_prep": "25 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 sesión",
       "conservacion": "Preparar fresco",
       "evidencia": "Uso tradicional documentado",
@@ -660,7 +734,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 656,
@@ -701,7 +777,9 @@
         "Manzanilla",
         "Eufrasia",
         "Llantén"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 657,
@@ -742,7 +820,96 @@
         "Manzanilla",
         "Caléndula",
         "Ajo"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 917,
+      "titulo": "Infusión de Hierbas Digestivas Post Cena",
+      "categoria": "General",
+      "origen": "Herbolaria Universal",
+      "ingredientes": "1 cucharadita de hinojo, 1/2 cucharadita de menta, 1/2 cucharadita de manzanilla, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir la mezcla 10 min. Colar.",
+      "dosis": "1 taza 30 min después de la cena",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria universal",
+      "contraindicaciones": "Generalmente seguro; el hinojo puede causar alergia en sensibles",
+      "uso": "Gastritis, cólicos, síndrome de intestino irritable e inflamación de mucosas: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos. | Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante",
+        "digestivo"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Debilidad general",
+        "Síntomas de gripe leve",
+        "Infecciones recurrentes leves",
+        "Recuperación de enfermedades"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Ajo",
+        "Limón",
+        "Miel"
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 1083,
+      "titulo": "Lavado de Ojos con Supo del Desierto para Conjuntivitis Atacamena (Likan Antai)",
+      "categoria": "Oftalmológico",
+      "origen": "Atacameno / Likan Antai (oasis de Atacama: Peine, Toconao, Camar)",
+      "ingredientes": "15 g de flores de supo (Tessaria absinthioides / supo en atacameno); 300 ml de agua pura de vertiente (o agua destilada); 2.7 g de sal de Atacama (para isotonizar: 0.9 g por 100 ml)",
+      "preparacion": "1. Recolectar flores jovenes del supo del oasis (planta de lugares con agua). 2. Hervir el agua y apagar el fuego. Dejar bajar temperatura a 60°C. 3. Agregar las flores de supo y tapar. Infundir 15 minutos. 4. Colar con tela muy fina o gasa doblada tres veces hasta obtener liquido transparente. 5. Agregar la sal de Atacama (0.9 g por 100 ml para isotonizar). 6. Dejar enfriar completamente a temperatura ambiente antes de usar.",
+      "dosis": "Lavado ocular: 3-4 gotas en cada ojo cada 4-6 horas, durante 5-7 dias. Usar gotero limpio para cada aplicacion.",
+      "modo_uso": "Topico ocular (coliro/lavado de ojos)",
+      "tiempo_prep": "30 min",
+      "dificultad": "Media",
+      "rendimiento": "10-15 aplicaciones",
+      "conservacion": "Refrigerar hasta 48 horas en frasco esterilizado. Desechar si se enturbia.",
+      "evidencia": "El supo (Tessaria absinthioides) crece en los oasis atacamenos y es el colirio natural mas usado por los Likan Antai. Contiene flavonoides y taninos con efecto astringente y antiseptico oftalmico. Documentado por Castro V. (2003). La conjuntivitis por arena y polvo del desierto es endemica en la cultura atacamena.",
+      "fuente_tradicion": "Atacameno / Likan Antai",
+      "contraindicaciones": "Usar agua destilada o hervida y enfriada para evitar infecciones secundarias. Si la conjuntivitis no mejora en 48 horas, consultar medico (puede ser bacteriana y requerir antibioticos). No usar en personas con alergia a plantas de la familia Asteraceae. No aplicar en lactantes.",
+      "uso": "Tratamiento de la conjuntivitis alergica causada por el polvo del desierto (suara), irritacion ocular, leganas excesivas y enrojecimiento ocular. Los Likan Antai trabajan en un ambiente de arena y polvo constante que irrita los ojos; el supo del oasis es el remedio tradicional especifico para esta condicion ambiental.",
+      "principios_activos": "Flavonoides (quercetina, apigenina); taninos astringentes; acidos fenolicos (acido cafeoilquinico); mucilagos suavizantes",
+      "propiedades": [
+        "astringente",
+        "antiseptico ocular",
+        "antiinflamatorio",
+        "antipruriginoso"
+      ],
+      "referencias": "Castro V. & Aldunate C. (2003) Etnobotanica del Desierto de Atacama. Chungara Revista Antropologica. / Villagran C. & Castro V. (2004) Ciencia Indigena de los Andes del Norte de Chile.",
+      "indicaciones_principales": [
+        "Conjuntivitis leve no infecciosa",
+        "Conjuntivitis leve",
+        "Irritación ocular",
+        "Fatiga visual",
+        "Ojos rojos por alergia"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2-4 semanas continuas",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Eufrasia",
+        "Llantén"
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1189,
@@ -753,7 +920,7 @@
       "preparacion": "Hervir agua. Verter sobre hierbas. Tapar 15 minutos. Filtrar con tela muy fina o filtro de café doble (importante: sin partículas). Enfriar.",
       "dosis": "Empapar discos de algodón estéril, aplicar sobre párpados cerrados 10 minutos, 2-3 veces al día",
       "modo_uso": "Compresa oftálmica",
-      "tiempo_prep": "30 minutos",
+      "tiempo_prep": "30 min",
       "dificultad": "Media",
       "rendimiento": "200 ml",
       "conservacion": "Preparar fresca cada día, refrigerada",
@@ -785,7 +952,9 @@
       "sinergia_plantas": [
         "llantén",
         "rosas"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
     },
     {
       "id": 1190,
@@ -796,7 +965,7 @@
       "preparacion": "Calentar aceite al baño maría a 60°C. Añadir hierbas y ajo. Mantener 1 hora a baja temperatura. Filtrar con gasa. Envasar en frasco gotero oscuro.",
       "dosis": "2-3 gotas tibias en el oído afectado, 2 veces al día, máximo 5 días",
       "modo_uso": "Gotas óticas",
-      "tiempo_prep": "1 hora 30 minutos",
+      "tiempo_prep": "1 hora 30 min",
       "dificultad": "Media",
       "rendimiento": "100 ml",
       "conservacion": "3 meses en frasco oscuro y fresco",
@@ -825,7 +994,149 @@
       "duracion_tratamiento": "Máximo 5 días, consultar médico",
       "sinergia_plantas": [
         "lavanda"
-      ]
+      ],
+      "modulo": "general",
+      "submodulo": "ojos_oidos"
+    },
+    {
+      "id": 1468,
+      "titulo": "Compresas de Manzanilla para los Ojos Irritados",
+      "categoria": "Dermatológico",
+      "modulo": "general",
+      "submodulo": "ojos_oidos",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de flores secas de manzanilla, 250 ml de agua hervida",
+      "preparacion": "Hervir el agua y verter sobre la manzanilla. Tapar y dejar reposar 10 minutos. Colar con un filtro muy fino o gasa estéril para eliminar cualquier partícula. Dejar entibiar. Empapar algodones limpios y aplicar sobre los ojos cerrados durante 10 minutos.",
+      "dosis": "Aplicar compresas 2 a 3 veces al día, durante 3 a 5 días.",
+      "modo_uso": "Tópico — compresas oculares",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml (para varias aplicaciones)",
+      "conservacion": "Usar en el día. Preparar fresco diariamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Asegurar la máxima higiene en la preparación para evitar infecciones oculares. No usar en caso de alergia a las asteráceas. No aplicar si hay secreción purulenta o dolor ocular intenso. Consultar al oftalmólogo si los síntomas persisten.",
+      "uso": "Ojos irritados, cansados, con picazón o conjuntivitis leve: la manzanilla desinflama y calma la irritación ocular, aliviando el enrojecimiento y la sensación de arenilla.",
+      "propiedades": [
+        "antiinflamatorio",
+        "calmante",
+        "antiséptico suave",
+        "descongestionante ocular"
+      ],
+      "principios_activos": "Bisabolol y camazuleno: potente acción antiinflamatoria y calmante sobre la mucosa conjuntival. Flavonoides: acción antiséptica suave que ayuda a combatir irritaciones oculares leves.",
+      "referencias": "Calvo MI et al. Medicinal plants used for ophthalmological problems in Navarra (Spain). 2016. PMID: 27590714; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1469,
+      "titulo": "Lavado de Ojos con Solución Salina y Caléndula",
+      "categoria": "Dermatológico",
+      "modulo": "general",
+      "submodulo": "ojos_oidos",
+      "origen": "Popular Chileno",
+      "ingredientes": "Media cucharadita de flores secas de caléndula, 250 ml de agua, una pizca de sal marina",
+      "preparacion": "Hervir el agua con la caléndula durante 3 minutos. Colar con filtro muy fino o gasa estéril. Añadir la pizca de sal y disolver. Dejar entibiar. Usar una copita ocular o gasa estéril para lavar los ojos.",
+      "dosis": "Realizar lavados oculares 2 veces al día, mañana y noche, durante 3 a 5 días.",
+      "modo_uso": "Tópico — lavado ocular",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml (para varios lavados)",
+      "conservacion": "Usar en el día. Preparar fresco diariamente.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Mantener la máxima esterilidad en la preparación. No usar en caso de alergia a las asteráceas. No aplicar si hay dolor intenso, secreción purulenta o traumatismo ocular. Consultar al oftalmólogo si no hay mejoría en 48 horas.",
+      "uso": "Ojos irritados, conjuntivitis alérgica y blefaritis leve: la caléndula desinflama los párpados y la solución salina limpia y descongestiona los ojos.",
+      "propiedades": [
+        "antiinflamatorio",
+        "descongestionante",
+        "antiséptico suave",
+        "calmante"
+      ],
+      "principios_activos": "Triterpenos (caléndula): acción antiinflamatoria sobre la mucosa ocular y los párpados. Cloruro de sodio: acción osmótica que descongestiona y limpia la superficie ocular.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.2 (2002) Calendula officinalis."
+    },
+    {
+      "id": 1470,
+      "titulo": "Aceite de Ajo para el Dolor de Oído",
+      "categoria": "Dermatológico",
+      "modulo": "general",
+      "submodulo": "ojos_oidos",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 diente de ajo machacado, 2 cucharadas de aceite de oliva",
+      "preparacion": "Calentar el ajo machacado en el aceite de oliva a baño maría durante 5 minutos, sin que hierva. Dejar enfriar y colar. Aplicar 2 gotas tibias en el oído afectado, tapando con un algodón limpio.",
+      "dosis": "Aplicar 2 gotas en el oído cada 6 horas, máximo 3 veces al día. No usar más de 3 días seguidos sin consultar al médico.",
+      "modo_uso": "Tópico — gotas óticas",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "Varias aplicaciones",
+      "conservacion": "Conservar en frasco oscuro, lugar fresco, hasta 1 semana.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar si hay perforación del tímpano o supuración por el oído. No aplicar en niños menores de 2 años sin consultar al pediatra. Evitar en caso de alergia al ajo. No sustituye la evaluación médica de una otitis.",
+      "uso": "Dolor de oído leve y molestias auditivas: el ajo tiene propiedades antisépticas y analgésicas que ayudan a calmar el dolor de oído mientras se espera la atención médica.",
+      "propiedades": [
+        "analgésico",
+        "antiséptico",
+        "antiinflamatorio",
+        "emoliente"
+      ],
+      "principios_activos": "Alicina: compuesto azufrado con potente acción antimicrobiana y analgésica. Aceite de oliva: efecto emoliente que suaviza el conducto auditivo y facilita la penetración del ajo.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1471,
+      "titulo": "Vahos de Manzanilla para la Congestión de los Ojos y la Nariz",
+      "categoria": "Dermatológico",
+      "modulo": "general",
+      "submodulo": "ojos_oidos",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores secas de manzanilla, 1 litro de agua",
+      "preparacion": "Hervir el agua y verter sobre la manzanilla. Inclinar el rostro sobre el vapor, cubriendo la cabeza con una toalla, manteniendo los ojos cerrados, durante 5-8 minutos.",
+      "dosis": "1 sesión cada 8 horas, máximo 2 veces al día. No usar más de 3 días.",
+      "modo_uso": "Inhalación de vapor — vahos faciales",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Usar inmediatamente. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Mantener los ojos cerrados durante los vahos. No usar en niños menores de 6 años por riesgo de quemaduras. Evitar en caso de alergia a la manzanilla. Precaución con el vapor caliente.",
+      "uso": "Ojos irritados y congestión nasal simultánea: el vapor de manzanilla descongestiona la nariz y calma la irritación ocular, proporcionando alivio a todo el rostro.",
+      "propiedades": [
+        "descongestionante",
+        "antiinflamatorio",
+        "calmante",
+        "antiséptico suave"
+      ],
+      "principios_activos": "Bisabolol y camazuleno: acción antiinflamatoria sobre la mucosa nasal y ocular por vía inhalatoria. Flavonoides: efecto calmante y descongestionante.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+    },
+    {
+      "id": 1472,
+      "titulo": "Cataplasma de Papa para los Ojos Cansados e Hinchados",
+      "categoria": "Dermatológico",
+      "modulo": "general",
+      "submodulo": "ojos_oidos",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 papa cruda mediana, gasas limpias",
+      "preparacion": "Lavar y pelar la papa. Rallarla finamente y envolver la ralladura en una gasa limpia formando dos almohadillas. Aplicar sobre los ojos cerrados durante 10-15 minutos. Retirar y lavar el rostro con agua fresca.",
+      "dosis": "Aplicar 1 vez al día, preferentemente por la noche, durante 3 a 5 días.",
+      "modo_uso": "Tópico — cataplasma ocular",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco en cada uso. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a la papa. Mantener los ojos cerrados durante la aplicación. No aplicar si hay heridas en los párpados o infección ocular activa.",
+      "uso": "Ojos cansados, hinchados y con ojeras después de una mala noche: la papa desinflama los párpados y refresca la zona ocular, reduciendo la hinchazón y la sensación de fatiga visual.",
+      "propiedades": [
+        "antiinflamatorio",
+        "descongestionante",
+        "refrescante",
+        "calmante"
+      ],
+      "principios_activos": "Almidón y compuestos fenólicos (papa): acción antiinflamatoria y descongestionante sobre la piel de los párpados. Efecto refrescante: la temperatura fría de la papa produce vasoconstricción local que reduce la hinchazón.",
+      "referencias": "Tradición oral chilena documentada; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
     }
   ]
 }

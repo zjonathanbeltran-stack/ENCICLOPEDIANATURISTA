@@ -42,7 +42,9 @@
         "llantén",
         "tilo",
         "eucalipto"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 47,
@@ -84,7 +86,9 @@
         "matico",
         "manzanilla",
         "tomillo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 81,
@@ -126,7 +130,9 @@
         "llantén",
         "matico",
         "manzanilla"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 115,
@@ -166,7 +172,9 @@
         "antiinflamatorio",
         "astringente",
         "analgésico local"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 116,
@@ -178,7 +186,7 @@
       "dosis": "Gárgaras 3–4 veces al día; 1 taza 2–3 veces al día si es para beber",
       "modo_uso": "Oral — infusión tibia / gárgaras",
       "tiempo_prep": "10 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 tazas",
       "conservacion": "Consumir el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -207,7 +215,9 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 141,
@@ -247,7 +257,9 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 142,
@@ -289,91 +301,52 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
-      "titulo": "Grog Chileno: Miel, Limón, Canela y Clavo",
-      "categoria": "Resfriados",
-      "origen": "Popular Chileno / Chilote",
-      "ingredientes": "1 cucharada de miel, jugo de 1 limón grande, 1 rama de canela, 3 clavos de olor, 1 taza de agua caliente.",
-      "preparacion": "Hervir el agua con la canela y los clavos 5 minutos. Colar. Agregar el jugo de limón y la miel cuando esté tibio. Beber muy caliente. Arroparse. Tomar al primer síntoma de resfrío y al acostarse. La miel recubre la garganta, el limón aporta vitamina C y la canela actúa como antimicrobiano.",
-      "id": 278,
-      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Medio",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
-      "uso": "Odontalgia, gingivitis y afecciones bucales: el eugenol bloquea canales de sodio en terminaciones nerviosas pulpares produciendo analgesia local aprobada por la FDA.",
-      "principios_activos": "Eugenol (72-95% del aceite esencial): anestésico local por bloqueo de canales Nav en fibras nerviosas C y Aδ; inhibe prostaglandina H sintetasa bloqueando síntesis de PGE2 (antiinflamatorio); inhibe quimiotaxis de neutrófilos. Aprobado por FDA como anestésico dental OTC. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "titulo": "Decocción de Arrayán para Infecciones de Garganta",
+      "categoria": "Garganta",
+      "origen": "Mapuche / Popular Patagónico",
+      "ingredientes": "15 g de hojas y ramas tiernas de arrayán (Luma apiculata), 500 ml de agua.",
+      "preparacion": "Hervir a fuego suave durante 10 minutos. Colar. Usar como gargarismo tibio 4-5 veces al día y beber una taza 2 veces al día. El arrayán tiene propiedades antisépticas ampliamente reconocidas en la medicina mapuche y patagónica.",
+      "id": 208,
+      "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
+      "modo_uso": "Oral — decocción; Tópico — gargarismo",
+      "tiempo_prep": "15 min",
+      "dificultad": "Media",
+      "rendimiento": "2 tazas",
+      "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
+      "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
+      "uso": "Infecciones de Garganta: los taninos producen astringencia sobre tejidos inflamados y el aceite esencial ejerce acción antiséptica directa.",
+      "principios_activos": "Taninos condensados: forman complejos con proteínas superficiales bacterianas generando efecto antiséptico y hemostático. Aceite esencial (α-pineno, cineol, metil eugenol, mirtenol): disrumpe membranas bacterianas. Flavonoides (miricetina, quercetina): antioxidantes y antiinflamatorios locales.",
       "propiedades": [
-        "analgésico dental",
+        "astringente",
         "antiséptico",
         "antiinflamatorio",
-        "antifúngico",
-        "carminativo",
-        "antimicrobiano"
+        "antidiarreico",
+        "cicatrizante"
       ],
-      "referencias": "Pramod K. et al. Nat Prod Commun 2010; 5(12):1999-2006; Pinto E. et al. J Med Microbiol 2009; Muñoz et al. 1999; MINSAL 2010",
+      "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
       "indicaciones_principales": [
-        "Resfriado común",
-        "Gripe leve",
-        "Fiebre moderada",
-        "Congestión nasofaríngea"
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
       ],
       "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
       "sinergia_plantas": [
-        "Ajo",
-        "Saúco",
-        "Jengibre"
-      ]
-    },
-    {
-      "titulo": "Té de Jengibre, Miel y Pimienta de Cayena para el Resfrío",
-      "categoria": "Resfriados",
-      "origen": "Popular Chileno",
-      "ingredientes": "Trozo de 3 cm de jengibre rallado, 1 cucharada de miel, 1 pizca de pimienta de cayena, jugo de 1/2 limón, 1 taza de agua.",
-      "preparacion": "Hervir el agua con el jengibre 5 minutos. Colar. Cuando esté tibio, añadir la miel, el limón y la cayena. Beber caliente. La capsaicina de la cayena es mucolítica y decongestiva nasal; el jengibre inhibe la replicación viral y la miel alivia la garganta.",
-      "id": 281,
-      "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Medio",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "En dosis altas, contraindicado en cálculos biliares. Consultar si se toman anticoagulantes.",
-      "uso": "Resfrío: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
-      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "antiemético",
-        "antiinflamatorio",
-        "carminativo",
-        "estimulante circulatorio",
-        "analgésico",
-        "antimicrobiano"
+        "Maqui",
+        "Arrayán",
+        "Canelo"
       ],
-      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
-      "indicaciones_principales": [
-        "Resfriado común",
-        "Gripe leve",
-        "Fiebre moderada",
-        "Congestión nasofaríngea"
-      ],
-      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
-      "sinergia_plantas": [
-        "Ajo",
-        "Saúco",
-        "Jengibre"
-      ]
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 425,
@@ -415,7 +388,9 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 434,
@@ -456,7 +431,51 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "id": 817,
+      "titulo": "Té de Notro para el Dolor de Garganta",
+      "categoria": "Garganta",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 flores de notro (Embothrium coccineum) secas, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
+      "dosis": "2 tazas al día durante el dolor de garganta",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche del sur de Chile",
+      "contraindicaciones": "No exceder; verificar identificación correcta",
+      "uso": "Dolor de Garganta. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 840,
@@ -498,7 +517,9 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 844,
@@ -540,7 +561,9 @@
         "Salvia",
         "Tomillo",
         "Miel de ulmo"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 850,
@@ -580,7 +603,9 @@
         "antiinflamatorio",
         "astringente",
         "analgésico local"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 854,
@@ -620,7 +645,139 @@
         "antiinflamatorio",
         "astringente",
         "analgésico local"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "id": 857,
+      "titulo": "Caramelos de Jengibre y Miel para la Garganta",
+      "categoria": "Garganta",
+      "origen": "Herbolaria Natural",
+      "ingredientes": "4 cucharadas de miel, 1 cucharadita de jengibre en polvo, 1/2 cucharadita de canela",
+      "preparacion": "Calentar la miel a 150°C (punto de caramelo). Agregar el jengibre y la canela. Verter en molde de silicona. Dejar solidificar.",
+      "dosis": "1 caramelo cada 3-4 horas",
+      "modo_uso": "Dejar que se disuelva lentamente en la boca",
+      "tiempo_prep": "15 min + solidificado",
+      "dificultad": "Media",
+      "rendimiento": "15-20 caramelos",
+      "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria popular y confitería medicinal",
+      "contraindicaciones": "No en diabéticos; no para menores de 1 año (miel)",
+      "uso": "Garganta: los gingeroles bloquean receptores 5-HT3 en el tracto digestivo e inhiben mediadores inflamatorios.",
+      "principios_activos": "6-Shogaol: inhibe receptor 5-HT3 de serotonina en neuronas gastrointestinales impidiendo la señal emetogénica; inhibe COX-2 e iNOS reduciendo prostaglandinas y óxido nítrico proinflamatorio. 6-Gingerol: inhibe TNF-α, IL-1β e IL-12 en macrófagos vía NF-κB. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+      "propiedades": [
+        "antiemético",
+        "antiinflamatorio",
+        "carminativo",
+        "estimulante circulatorio",
+        "analgésico",
+        "antimicrobiano"
+      ],
+      "referencias": "Ernst E. & Pittler MH. Br J Anaesth 2000; 84(3):367-71; WHO Monographs Vol.1 (1999); Mashhadi NS. et al. Int J Prev Med 2013; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Faringitis y amigdalitis leve",
+        "Irritación de garganta",
+        "Laringitis",
+        "Tos por irritación faríngea"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "5-10 días o mientras duren los síntomas agudos",
+      "sinergia_plantas": [
+        "Salvia",
+        "Tomillo",
+        "Miel de ulmo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "id": 1006,
+      "titulo": "Gargaras de Foye para Anginas y Dolor de Muelas",
+      "categoria": "Garganta",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "5 g de corteza de foye, 300 ml de agua",
+      "preparacion": "Hervir la corteza 5 minutos. Colar y dejar entibiar (no fria, no caliente quemante).",
+      "dosis": "Gargaras durante 30 segundos, 4 a 5 veces al dia",
+      "modo_uso": "Para anginas: gargaras profundas llegando a la garganta. Para dolor de muelas: retener el liquido en el lado afectado. La machi usa esta preparacion al inicio del machitun para limpiar la boca del enfermo",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 sesiones",
+      "conservacion": "Refrigerar 24 h, templar antes de usar",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "Moderadamente amargo y acre. No tragar en grandes cantidades. Evitar en embarazo",
+      "uso": "Anginas y Dolor de Muelas: el poligodial bloquea la transmisión dolorosa y reduce mediadores inflamatorios.",
+      "principios_activos": "Poligodial (sesquiterpeno dialdeído, Drimys winteri): inhibe canales Nav1.7/Nav1.8 y modula receptores TRPA1 con efecto antinociceptivo potente. Vitamina C y taninos: actividad antioxidante y antiséptica complementaria.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiséptico",
+        "febrífugo",
+        "ceremonial mapuche"
+      ],
+      "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "id": 1018,
+      "titulo": "Gargaras de Pangue para Anginas y Faringitis",
+      "categoria": "Garganta",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "4 peciolos de nalca troceados, 500 ml de agua",
+      "preparacion": "Hervir 10 minutos. Colar y entibiar. La decoccion tendra sabor muy astringente.",
+      "dosis": "Gargaras profundas durante 30 segundos, 4 a 6 veces al dia",
+      "modo_uso": "La machi usa las gargaras de pangue en anginas y faringitis graves. El acido tanico tiene accion antibacteriana y antiinflamatoria directa sobre la mucosa faringea. Complementar bebiendo 1 taza de la misma decoccion 3 veces al dia",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "6 sesiones de gargaras",
+      "conservacion": "Refrigerar 24 h; templar antes de usar",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "Si la angina es bacteriana y hay fiebre alta, requiere antibioticos. Las gargaras complementan el tratamiento. No tragar en exceso",
+      "uso": "Anginas y Faringitis: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+      "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+      "propiedades": [
+        "antioxidante",
+        "astringente",
+        "antiinflamatorio",
+        "nutritivo",
+        "digestivo"
+      ],
+      "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 1141,
@@ -662,7 +819,9 @@
         "caléndula",
         "llantén",
         "matico"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "id": 1167,
@@ -673,7 +832,7 @@
       "preparacion": "Hervir agua con salvia y tomillo 5 minutos. Apagar, tapar, reposar 10 minutos. Colar. Añadir sal y propóleo cuando esté tibio.",
       "dosis": "Hacer gárgaras profundas 3-4 veces al día, 30 segundos cada vez",
       "modo_uso": "Gárgaras",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "250 ml",
       "conservacion": "24 horas refrigerado",
@@ -706,7 +865,9 @@
         "matico",
         "llantén",
         "manzanilla"
-      ]
+      ],
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "titulo": "Infusión de Siete Venas para faringitis y dolor de garganta",
@@ -714,19 +875,25 @@
       "origen": "Medicina tradicional chilena y europea.",
       "ingredientes": "",
       "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. Colar. 3. Para dolor de garganta, hacer gárgaras con la infusión tibia 3-4 veces al día. También se puede beber (1 taza, 3 veces al día).",
-      "dosis": "",
+      "dosis": "1 taza, 3 veces al día; o gárgaras según necesidad.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Tradición chilena",
-      "contraindicaciones": "",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "contraindicaciones": "No usar en embarazo. Precaución en personas con hipertensión arterial.",
+      "uso": "Faringitis y dolor de garganta: desinflama la mucosa faríngea, alivia el dolor y ayuda a combatir los gérmenes que causan la infección.",
+      "principios_activos": "Taninos y flavonoides: acción astringente y antiinflamatoria sobre la mucosa faríngea, reduciendo el edema y el enrojecimiento. Mucílagos: efecto emoliente que suaviza y protege la garganta irritada.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiséptico",
+        "analgésico",
+        "astringente",
+        "emoliente"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "",
@@ -735,36 +902,153 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Presente en todo Chile, incluido Chiloé.",
       "efectos_secundarios": "",
-      "id": 1243
+      "id": 1243,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
-      "titulo": "Infusión de Radal para la tos seca e irritativa",
-      "categoria": "Tos",
-      "origen": "Medicina tradicional mapuche y chilena.",
-      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de radal. - 1 litro de agua recién hervida.",
-      "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 5-10 minutos. Colar. 3. Endulzar con miel de abejas para un mejor efecto sobre la garganta.",
-      "dosis": "",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
+      "titulo": "Gárgaras de Infusión de Salvia para la Faringitis",
+      "categoria": "Garganta",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "2 cucharaditas de hojas secas de salvia, 250 ml de agua, media cucharadita de sal",
+      "preparacion": "Hervir el agua. Verter sobre la salvia y tapar. Dejar reposar 15 minutos. Colar y añadir la sal, revolviendo hasta disolver. Dejar entibiar hasta una temperatura tolerable.",
+      "dosis": "Realizar gárgaras con la infusión tibia durante 30 segundos, 3 a 4 veces al día, especialmente después de las comidas. No tragar. Usar máximo 5 días.",
+      "modo_uso": "Tópico — gárgaras (no ingerir)",
+      "tiempo_prep": "20 min",
       "dificultad": "Fácil",
-      "rendimiento": "1-2 tazas",
-      "conservacion": "Consumir inmediatamente.",
+      "rendimiento": "1 sesión de gárgaras (250 ml)",
+      "conservacion": "Usar en el día. Preparar fresco para cada jornada.",
       "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Medicina mapuche",
-      "contraindicaciones": "",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
-      "indicaciones_principales": "",
-      "interacciones_medicamentos": "",
-      "embarazo_lactancia": "",
-      "duracion_tratamiento": "1-2 semanas.",
-      "sinergia_plantas": "",
-      "nivel_seguridad": "✅ Seguro",
-      "distribucion": "Centro-sur de Chile y Chiloé.",
-      "efectos_secundarios": "",
-      "id": 1246
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en niños menores de 6 años que no puedan hacer gárgaras. Evitar en el embarazo por su contenido en tuyona. No ingerir grandes cantidades. Contraindicado en epilepsia o hipoglucemia sin supervisión médica.",
+      "uso": "Dolor e inflamación de garganta por faringitis: desinflama la mucosa, alivia el dolor y ayuda a eliminar los gérmenes que causan la infección.",
+      "principios_activos": "Ácido rosmarínico y flavonoides: acción antiinflamatoria local sobre la mucosa faríngea, reduciendo el edema y el eritema. | Aceite esencial con tuyona y cineol: efecto antiséptico y analgésico tópico sobre las terminaciones nerviosas de la garganta. | Cloruro de sodio: efecto osmótico que arrastra microorganismos y fluidifica el moco.",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "analgésico",
+        "astringente",
+        "descongestionante"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Salvia officinalis; MINSAL 2010; ESCOP Monographs 2003 Salviae officinalis folium",
+      "id": 1328,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "titulo": "Infusión de Tomillo y Miel para el Dolor de Garganta",
+      "categoria": "Garganta",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharada de tomillo seco, 250 ml de agua, 1 cucharadita de miel",
+      "preparacion": "Hervir el agua. Añadir el tomillo, tapar y dejar reposar 10 minutos. Colar. Cuando esté tibio, añadir la miel y remover. Beber a sorbos lentos.",
+      "dosis": "1 taza cada 4 horas, hasta 3 veces al día. Niños de 6 a 12 años: media taza cada 6 horas. No más de 5 días.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No dar a menores de 1 año por la miel. Evitar en embarazo sin supervisión médica. No usar en alergia a las lamiáceas. Precaución en personas con gastritis, ya que el tomillo puede irritar en dosis altas.",
+      "uso": "Dolor de garganta y afonía: el tomillo desinfecta y desinflama, y la miel suaviza la mucosa irritada, calmando el dolor y la carraspera.",
+      "principios_activos": "Timol y carvacrol: fenoles monoterpénicos con potente acción antiséptica y antiinflamatoria sobre la mucosa orofaríngea, activos contra bacterias grampositivas. | Flavonoides del tomillo: efecto antiespasmódico y analgésico local. | Miel: acción emoliente y antimicrobiana por su osmolaridad y producción de peróxido de hidrógeno.",
+      "propiedades": [
+        "antiséptico",
+        "antiinflamatorio",
+        "analgésico",
+        "emoliente",
+        "expectorante suave"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Thymus vulgaris; MINSAL 2010; ESCOP Monographs 2003 Thymi herba",
+      "id": 1329,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "titulo": "Jarabe de Propóleo para la Garganta Irritada",
+      "categoria": "Garganta",
+      "origen": "Naturopatía",
+      "ingredientes": "20 gotas de extracto de propóleo sin alcohol, 2 cucharadas de miel, 100 ml de agua tibia",
+      "preparacion": "Diluir el extracto de propóleo en el agua tibia. Añadir la miel y mezclar bien. Tomar a cucharadas o en pequeños sorbos.",
+      "dosis": "Adultos: 1 cucharada cada 6 horas. Niños de 6 a 12 años: 1 cucharadita cada 8 horas. No usar más de 7 días.",
+      "modo_uso": "Oral — jarabe diluido",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 porción (100 ml)",
+      "conservacion": "Preparar al momento. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Naturopatía moderna",
+      "contraindicaciones": "No usar en alérgicos a productos de la colmena (miel, propóleo) o al ácido acetilsalicílico (reactividad cruzada). Evitar en niños menores de 2 años. No administrar en asma sin supervisión médica. No usar durante el embarazo por falta de estudios.",
+      "uso": "Garganta irritada, afonía o faringitis leve: el propóleo combate virus y bacterias, y la miel alivia la irritación y el dolor de garganta.",
+      "principios_activos": "Flavonoides (galangina, pinocembrina) y ácidos fenólicos (CAPE): acción antimicrobiana, antiviral y antiinflamatoria sobre la mucosa faríngea. | Resinas y cera de propóleo: forman una película protectora que aísla la mucosa irritada del contacto con agentes externos.",
+      "propiedades": [
+        "antiséptico",
+        "antiviral",
+        "antiinflamatorio",
+        "emoliente",
+        "anestésico local suave"
+      ],
+      "referencias": "MINSAL 2010; Castaldo S et al. Fitoterapia 2002;73(Suppl 1):S1-S6; Kujumgiev A et al. J Ethnopharmacol 1999;64(3):235-240; WHO Monographs Vol.1 (1999) Propóleo",
+      "id": 1330,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "titulo": "Gárgaras de Agua con Sal y Bicarbonato para la Inflamación de Garganta",
+      "categoria": "Garganta",
+      "origen": "Popular Chileno",
+      "ingredientes": "Media cucharadita de sal, media cucharadita de bicarbonato de sodio, 250 ml de agua tibia hervida",
+      "preparacion": "Hervir el agua y dejar entibiar. Disolver la sal y el bicarbonato completamente. Realizar gárgaras sin tragar.",
+      "dosis": "Gárgaras con la mezcla completa durante 30 segundos cada 4 horas, especialmente después de comer. Máximo 4 veces al día. Usar hasta 3 días.",
+      "modo_uso": "Tópico — gárgaras (no ingerir)",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión (250 ml)",
+      "conservacion": "Preparar fresco para cada uso. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No ingerir en grandes cantidades, especialmente en hipertensos o personas con dieta baja en sodio. No usar en niños menores de 5 años que no puedan hacer gárgaras sin tragar. Evitar si hay náuseas.",
+      "uso": "Garganta inflamada y dolorosa: el agua salina reduce la hinchazón por ósmosis y el bicarbonato alcaliniza el medio, dificultando la proliferación de bacterias y hongos.",
+      "principios_activos": "Cloruro de sodio: genera un ambiente hipertónico que extrae líquido de la mucosa inflamada, reduciendo el edema y arrastrando microorganismos. | Bicarbonato de sodio: alcaliniza la superficie faríngea, creando un medio desfavorable para patógenos y ayudando a fluidificar el moco.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiséptico",
+        "descongestionante",
+        "emoliente"
+      ],
+      "referencias": "Tradición oral chilena documentada; MINSAL 2010; Principios generales de osmoterapia en mucosa oral",
+      "id": 1331,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
+    },
+    {
+      "titulo": "Infusión de Jengibre con Miel para la Afonía",
+      "categoria": "Garganta",
+      "origen": "Tradición Latinoamericana",
+      "ingredientes": "3 rodajas finas de jengibre fresco, 250 ml de agua, 1 cucharada de miel, unas gotas de limón",
+      "preparacion": "Hervir el agua con el jengibre durante 5 minutos. Retirar del fuego, tapar y dejar reposar 5 minutos. Colar, añadir la miel y el limón cuando esté tibio. Beber a sorbos lentos.",
+      "dosis": "1 taza cada 4 horas, máximo 3 veces al día. No más de 3 días seguidos.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir inmediatamente. No conservar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición Latinoamericana",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en gastritis aguda, úlcera péptica o tratamiento con anticoagulantes. No usar en embarazo sin consultar.",
+      "uso": "Afonía y carraspera: el jengibre desinflama las cuerdas vocales y la miel suaviza la garganta, ayudando a recuperar la voz y calmar la irritación.",
+      "principios_activos": "Gingeroles (jengibre): inhiben COX-2 reduciendo las prostaglandinas proinflamatorias en la mucosa laríngea, con efecto analgésico y antiinflamatorio directo. | Miel: acción emoliente y antimicrobiana que recubre y protege el epitelio de las cuerdas vocales.",
+      "propiedades": [
+        "antiinflamatorio",
+        "emoliente",
+        "analgésico",
+        "calentador",
+        "antiséptico suave"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Zingiber officinale; MINSAL 2010; Grzanna R et al. J Med Food 2005;8(2):125-132",
+      "id": 1332,
+      "modulo": "respiratorio",
+      "submodulo": "garganta_faringitis"
     },
     {
       "titulo": "Infusión de Siete Venas para faringitis y dolor de garganta",
@@ -781,7 +1065,7 @@
       "evidencia": "\"Hierba de Siete Venas: Afecciones Vías Respiratorias, Tos,\nBronquitis, Catarro, Resfrío, Faringitis, Fiebre\" (TiendaMika.cl)[reference:4].",
       "fuente_tradicion": "Medicina tradicional chilena y europea.",
       "contraindicaciones": "No se han descrito.",
-      "id": 1331,
+      "id": 1542,
       "uso": "Alivio de la faringitis, afonía, tos y dolor de garganta.\nSus propiedades emolientes y astringentes protegen la mucosa irritada.\n\nINGREDIENTES (Infusión):\n- 1 cucharada sopera (aprox. 4 g) de hojas secas de siete venas.\n- 250 ml de agua hirviendo.",
       "planta_principal": "Siete Venas (Plantago lanceolata)",
       "interacciones": "No se han descrito.",

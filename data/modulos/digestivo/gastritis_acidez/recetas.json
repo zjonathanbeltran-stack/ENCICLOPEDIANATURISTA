@@ -3,47 +3,6 @@
   "submodulo": "gastritis_acidez",
   "recetas": [
     {
-      "id": 126,
-      "titulo": "Infusión de Matico para el Dolor de Estómago",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "1 cucharada de hojas de matico, 1 taza de agua.",
-      "preparacion": "Preparar una infusión con las hojas de matico para aliviar las úlceras digestivas, la indigestión y el dolor de estómago.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente",
-      "tiempo_prep": "10 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
-      "uso": "Dolor de Estómago: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
-      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
-      "propiedades": [
-        "cicatrizante",
-        "hemostático",
-        "antiséptico",
-        "antiinflamatorio",
-        "astringente"
-      ],
-      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
-      "indicaciones_principales": [
-        "Dispepsia y digestión pesada",
-        "Dolor de estómago y espasmos abdominales",
-        "Gastritis y acidez leve",
-        "Flatulencia y meteorismo"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
-      "sinergia_plantas": [
-        "Boldo",
-        "Hinojo",
-        "Manzanilla"
-      ]
-    },
-    {
       "id": 393,
       "titulo": "Té de Tomillo para gastritis y Helicobacter pylori",
       "categoria": "Digestivo",
@@ -82,7 +41,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 400,
@@ -124,7 +85,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 703,
@@ -164,7 +127,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 709,
@@ -204,7 +169,9 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 943,
@@ -245,7 +212,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 1073,
@@ -256,8 +225,8 @@
       "preparacion": "1. Remojar la luga roja en agua fria 1 hora. 2. Calentar el agua a punto de ebullicion suave. 3. Agregar la luga remojada y cocer 15 minutos a fuego medio. 4. Agregar el matico (hojas) los ultimos 5 minutos, sin hervir fuerte. 5. Colar y agregar el aceite. 6. Beber tibio, nunca frio (segun practica lafkenche el frio agrava los problemas de weda putra: estomago malo).",
       "dosis": "1 taza (200 ml) 30 minutos antes de cada comida principal (3 tazas al dia) durante 21 dias.",
       "modo_uso": "Oral (infusion de alga con hierba)",
-      "tiempo_prep": "80 minutos (incluyendo remojo)",
-      "dificultad": "Facil",
+      "tiempo_prep": "80 min (incluyendo remojo)",
+      "dificultad": "Fácil",
       "rendimiento": "4 tazas",
       "conservacion": "Refrigerar hasta 24 horas.",
       "evidencia": "La carragenina natural de la luga roja (sin procesar industrialmente) tiene propiedades protectoras de la mucosa gastrica. El matico es antisecretor gastrico documentado por la Universidad de Chile (Montenegro 2000). Uso lafkenche documentado por CONAF (2004).",
@@ -285,7 +254,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "id": 1137,
@@ -327,7 +298,153 @@
         "manzanilla",
         "regaliz",
         "caléndula"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
+    },
+    {
+      "titulo": "Infusión de Manzanilla para la Gastritis",
+      "categoria": "Digestivo",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "2 cucharaditas de flores secas de manzanilla, 250 ml de agua",
+      "preparacion": "Calentar el agua hasta punto de ebullición. Retirar del fuego y añadir las flores de manzanilla. Tapar y dejar reposar 10 minutos. Colar y beber tibio, sin endulzar o con una cucharadita de miel si se tolera.",
+      "dosis": "1 taza después de cada comida principal, hasta 3 veces al día. Duración máxima: 4 semanas continuas, luego descansar 1 semana.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Evitar en personas con alergia a las asteráceas. No usar durante el embarazo sin supervisión médica. Consultar al médico si la gastritis persiste más de 15 días o hay presencia de sangrado.",
+      "uso": "Gastritis: calma la irritación de la mucosa gástrica y reduce los espasmos estomacales que provocan dolor y ardor.",
+      "principios_activos": "Bisabolol y camazuleno (aceite esencial): acción antiinflamatoria sobre la mucosa gástrica al inhibir la síntesis de prostaglandinas proinflamatorias. | Flavonoides como apigenina: efecto antiespasmódico sobre la musculatura lisa gastrointestinal, reduciendo los espasmos y la sensación de vaciamiento gástrico incómodo.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "emoliente",
+        "digestivo"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Matricaria recutita; MINSAL 2010; ESCOP Monographs 2003 Matricariae flos",
+      "id": 1313,
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
+    },
+    {
+      "titulo": "Jugo de Papa Cruda para la Acidez Estomacal",
+      "categoria": "Digestivo",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 papa mediana lavada y pelada, 100 ml de agua",
+      "preparacion": "Licuar la papa cruda pelada con el agua hasta obtener un jugo homogéneo. Colar con un paño fino o colador de malla para retirar el almidón grueso. Beber inmediatamente.",
+      "dosis": "1 vaso (100 ml) en ayunas o 30 minutos antes de las comidas, máximo 2 veces al día. No usar por más de 10 días seguidos.",
+      "modo_uso": "Oral — jugo fresco a temperatura ambiente",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "100 ml (1 porción)",
+      "conservacion": "Consumir de inmediato. No conservar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar si la acidez se acompaña de dolor intenso, vómitos con sangre o pérdida de peso inexplicada. Evitar en diabéticos sin control médico por el contenido de almidón. No recomendado en caso de insuficiencia renal sin consultar al nefrólogo.",
+      "uso": "Acidez estomacal: neutraliza el exceso de ácido en el estómago y forma una capa protectora que alivia el ardor y la sensación de reflujo.",
+      "principios_activos": "Almidón en estado coloidal: forma una película protectora sobre la mucosa gástrica, actuando como antiácido mecánico. | Compuestos alcaloides suaves y minerales alcalinizantes: contribuyen a neutralizar el pH ácido del estómago sin efecto rebote.",
+      "propiedades": [
+        "antiácido",
+        "emoliente",
+        "demulcente",
+        "antiinflamatorio"
+      ],
+      "referencias": "Tradición oral chilena documentada; Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010",
+      "id": 1314,
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
+    },
+    {
+      "titulo": "Decocción de Regaliz para la Gastritis y Acidez",
+      "categoria": "Digestivo",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "1 cucharadita de raíz de regaliz seca troceada, 300 ml de agua",
+      "preparacion": "Hervir el agua con la raíz de regaliz. Bajar el fuego y mantener a fuego lento durante 10 minutos. Retirar, tapar y dejar reposar 5 minutos más. Colar y beber tibio.",
+      "dosis": "1 taza (150 ml) media hora antes de las comidas, 2 veces al día. No sobrepasar 4 semanas de uso continuo. No administrar a niños menores de 12 años.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas (300 ml)",
+      "conservacion": "Refrigerar hasta 24 horas. Calentar suavemente antes de consumir.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en hipertensión arterial, insuficiencia renal, cirrosis, hipopotasemia o embarazo. Evitar en tratamiento con digitálicos, diuréticos o corticoides. No administrar por más de 4 semanas seguidas.",
+      "uso": "Gastritis y acidez: protege y regenera la mucosa del estómago, reduciendo la inflamación y la sensación de ardor. También ayuda a controlar la producción excesiva de ácido.",
+      "principios_activos": "Ácido glicirrícico: estimula la producción de prostaglandinas protectoras de la mucosa gástrica, incrementa la secreción de moco y reduce la secreción ácida. | Flavonoides del regaliz: acción antiespasmódica y antiulcerosa, inhibiendo el crecimiento de Helicobacter pylori.",
+      "propiedades": [
+        "antiulceroso",
+        "antiinflamatorio",
+        "demulcente",
+        "antiespasmódico",
+        "protector gástrico"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Glycyrrhiza glabra; MINSAL 2010; Fiore C et al. J Ethnopharmacol 2005;99(3):317-324",
+      "id": 1315,
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
+    },
+    {
+      "titulo": "Batido de Aloe Vera y Papaya para la Gastritis",
+      "categoria": "Digestivo",
+      "origen": "Tradición Latinoamericana",
+      "ingredientes": "2 cucharadas de gel de aloe vera (sábila), 1 rodaja de papaya madura, 200 ml de agua",
+      "preparacion": "Extraer el gel de la hoja de sábila, evitando el látex amarillento de la cáscara. Licuar el gel con la papaya y el agua hasta obtener una mezcla suave. Colar si se desea una textura más ligera. Beber de inmediato.",
+      "dosis": "1 vaso en ayunas, una vez al día. No exceder 15 días de tratamiento continuo.",
+      "modo_uso": "Oral — batido fresco",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (200 ml)",
+      "conservacion": "Consumir en el momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Tradición Latinoamericana",
+      "contraindicaciones": "No usar en caso de diarrea crónica, colitis ulcerosa o alergia al látex (reactividad cruzada). Evitar en el embarazo y lactancia sin supervisión médica. No extraer el látex de la cáscara, solo el gel transparente interno.",
+      "uso": "Gastritis: recubre y repara la mucosa del estómago inflamada, calmando el dolor y la acidez. La papaya facilita la digestión de las proteínas.",
+      "principios_activos": "Acemannano (polisacárido del aloe): forma una barrera protectora sobre la mucosa gástrica y estimula la regeneración celular. | Papaína (enzima de la papaya): acción proteolítica que facilita la digestión y reduce la carga de trabajo gástrico, disminuyendo la irritación postprandial.",
+      "propiedades": [
+        "antiulceroso",
+        "emoliente",
+        "regenerador mucoso",
+        "digestivo",
+        "antiinflamatorio"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Aloe vera; MINSAL 2010; Suvitayavat W et al. Phytomedicine 2004;11(1):30-35",
+      "id": 1316,
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
+    },
+    {
+      "titulo": "Infusión de Melisa para la Acidez Nerviosa",
+      "categoria": "Digestivo",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "2 cucharaditas de hojas secas de melisa, 250 ml de agua",
+      "preparacion": "Calentar el agua hasta que hierva. Verter sobre las hojas de melisa, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+      "dosis": "1 taza después de las comidas o en momentos de estrés, hasta 3 veces al día. No usar más de 3 semanas seguidas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento o refrigerar máximo 12 horas.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en hipotiroidismo sin control médico. Evitar en combinación con sedantes fuertes. No recomendado en el embarazo sin consultar al especialista.",
+      "uso": "Acidez estomacal relacionada con nervios o estrés: calma el sistema nervioso y relaja la musculatura del estómago, evitando el reflujo ácido y la sensación de quemazón.",
+      "principios_activos": "Aceite esencial rico en citral y citronelal: efecto ansiolítico y antiespasmódico sobre el tracto gastrointestinal superior, reduciendo la presión del esfínter esofágico inferior. | Ácidos fenólicos (ácido rosmarínico): acción antiinflamatoria sobre la mucosa gástrica y moduladora de la motilidad.",
+      "propiedades": [
+        "antiespasmódico",
+        "carminativo",
+        "ansiolítico",
+        "digestivo",
+        "antiinflamatorio"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Melissa officinalis; MINSAL 2010; Cases J et al. Med J Nutrition Metab 2011;4(3):211-218",
+      "id": 1317,
+      "modulo": "digestivo",
+      "submodulo": "gastritis_acidez"
     },
     {
       "titulo": "Infusión de Regaliz DGL para gastritis y acidez",
@@ -344,7 +461,7 @@
       "evidencia": "\"Modern phytotherapy and its uses in gastrointestinal\nconditions\" (PubMed). Diversos estudios in vitro e in vivo\nrespaldan su uso para proteger la mucosa gástrica y combatir\nH. pylori.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "",
-      "id": 1363,
+      "id": 1574,
       "uso": "Alivio de los síntomas de gastritis, acidez\ny reflujo gastroesofágico. Protección de la mucosa gástrica.",
       "planta_principal": "Regaliz (Glycyrrhiza glabra) desglicirrizinado (DGL)",
       "efectos_secundarios_nota": "El consumo excesivo y prolongado de\nregaliz normal puede causar pseudoaldosteronismo. El DGL\ncarece de estos efectos graves.",
@@ -365,7 +482,7 @@
       "evidencia": "\"Modern phytotherapy and its uses in gastrointestinal conditions\" - PubMed.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "",
-      "id": 1369,
+      "id": 1580,
       "uso": "Alivio de la acidez gástrica, pirosis y molestias por hiperacidez.",
       "planta_principal": "Regaliz (Glycyrrhiza glabra) desglicirrizinado",
       "efectos_secundarios_nota": "El consumo excesivo y prolongado de regaliz normal puede causar pseudoaldosteronismo. El DGL carece de estos efectos graves.",

@@ -42,7 +42,9 @@
         "salvia",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 288,
@@ -85,7 +87,9 @@
         "pasiflora",
         "melisa",
         "tila"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 289,
@@ -127,7 +131,9 @@
         "salvia",
         "melisa",
         "pasiflora"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 292,
@@ -167,7 +173,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 560,
@@ -207,7 +215,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 801,
@@ -248,7 +258,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 807,
@@ -288,7 +300,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 808,
@@ -328,7 +342,9 @@
         "emenagogo",
         "antiinflamatorio",
         "regulador hormonal"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 999,
@@ -340,7 +356,7 @@
       "dosis": "2 tazas al dia",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "15 min",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "2 tazas",
       "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -369,7 +385,9 @@
         "Manzanilla",
         "Lavanda",
         "Caléndula"
-      ]
+      ],
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "id": 1154,
@@ -411,49 +429,9 @@
         "cimicifuga",
         "trébol rojo",
         "manto de dama"
-      ]
-    },
-    {
-      "id": 1176,
-      "titulo": "Infusión perimenopáusica de salvia, melisa y trébol rojo",
-      "categoria": "Ginecológico",
-      "origen": "Fitoterapia ginecológica moderna",
-      "ingredientes": "1/2 cucharadita de salvia, 1 cucharadita de melisa, 1 cucharadita de trébol rojo, 1/2 cucharadita de pasiflora, 300 ml de agua",
-      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos. Colar.",
-      "dosis": "1-2 tazas al día, preferentemente noche para sofocos nocturnos",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "12 minutos",
-      "dificultad": "Fácil",
-      "rendimiento": "300 ml",
-      "conservacion": "Preparar fresca",
-      "evidencia": "Salvia reduce sofocos en menopausia (Bommer, 2011); isoflavonas de trébol con evidencia controvertida pero positiva",
-      "fuente_tradicion": "Fitoterapia ginecológica europea",
-      "contraindicaciones": "Cáncer mamario hormono-dependiente o antecedente. Anticoagulantes (trébol). Embarazo. Epilepsia (salvia tuyona).",
-      "uso": "La tuyona y ácido rosmarínico de salvia reducen sudoración por acción anticolinérgica central, las isoflavonas del trébol (formononetina, biocanina A) tienen afinidad por receptores estrogénicos beta amortiguando déficit estrogénico sin proliferación endometrial significativa.",
-      "principios_activos": "Tuyona, ácido carnósico (salvia): anticolinérgica. Isoflavonas (trébol): fitoestrógenos. Ácido rosmarínico (melisa). Crisina (pasiflora).",
-      "propiedades": [
-        "antisudorífico",
-        "fitoestrógeno modulador",
-        "ansiolítico",
-        "antitérmico"
       ],
-      "referencias": [
-        "Bommer S. et al. Adv Ther (2011) 28:490",
-        "Lipovac M. et al. Maturitas (2010) 65:258"
-      ],
-      "indicaciones_principales": [
-        "sofocos",
-        "sudoración nocturna",
-        "irritabilidad climatérica",
-        "insomnio perimenopáusico"
-      ],
-      "interacciones_medicamentos": "Tamoxifeno, anticonceptivos, anticoagulantes",
-      "embarazo_lactancia": "Contraindicada (salvia suprime lactancia)",
-      "duracion_tratamiento": "Ciclos de 8 semanas con descanso",
-      "sinergia_plantas": [
-        "lúpulo",
-        "valeriana"
-      ]
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Melisa para los síntomas de la menopausia",
@@ -461,19 +439,25 @@
       "origen": "Medicina tradicional europea",
       "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de melisa. - 250 ml de agua hirviendo.",
       "preparacion": "1. Colocar las hojas en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
-      "dosis": "",
+      "dosis": "1 taza, 2-3 veces al día.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Fitoterapia europea",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda).",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Síntomas nerviosos de la menopausia como ansiedad, irritabilidad e insomnio leve: la melisa calma el sistema nervioso, reduce la tensión emocional y facilita un sueño tranquilo.",
+      "principios_activos": "Ácido rosmarínico y citral: acción ansiolítica mediada por modulación del sistema GABAérgico e inhibición de la GABA-transaminasa, aumentando los niveles de GABA cerebral.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante suave",
+        "antiespasmódico",
+        "carminativo",
+        "digestivo"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis. Geneva: WHO; 1999.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "",
@@ -482,7 +466,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivada en huertos de todo Chile, incluido Chiloé",
       "efectos_secundarios": "",
-      "id": 1208
+      "id": 1208,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Salvia para sofocos y sudoración nocturna",
@@ -490,19 +476,24 @@
       "origen": "Medicina tradicional europea",
       "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de salvia. - 250 ml de agua hirviendo.",
       "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-      "dosis": "",
+      "dosis": "1 taza, 2-3 veces al día.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Fitoterapia europea",
       "contraindicaciones": "- Embarazo y lactancia (la salvia puede reducir la producción de leche). - Epilepsia (el aceite esencial de salvia puede ser neurotóxico; no aplica a la infusión, pero se recomienda precaución). - No usar en niños.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Sofocos y sudoración nocturna en la menopausia: la salvia regula la sudoración excesiva y reduce la frecuencia e intensidad de los episodios vasomotores.",
+      "principios_activos": "Ácido rosmarínico y flavonoides: acción estrogénica suave que modula los receptores hormonales y reduce los sofocos. Aceite esencial (tuyona, cineol): efecto regulador de la sudoración a nivel hipotalámico.",
+      "propiedades": [
+        "regulador de la sudoración",
+        "antiséptico",
+        "astringente",
+        "antiinflamatorio"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Salvia officinalis. Geneva: WHO; 1999.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -511,7 +502,9 @@
       "nivel_seguridad": "⚠️ Precaución (no uso prolongado)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1220
+      "id": 1220,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Trébol Rojo para síntomas de la menopausia",
@@ -519,19 +512,24 @@
       "origen": "Fitoterapia clínica europea",
       "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores secas de trébol rojo desmenuzadas. - 250 ml de agua hirviendo.",
       "preparacion": "1. Verter el agua hirviendo sobre las flores. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-      "dosis": "",
+      "dosis": "1 taza, 2-3 veces al día.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Fitoterapia europea",
       "contraindicaciones": "- Cáncer de mama, útero u ovario (condiciones sensibles a hormonas). - Trastornos de la coagulación. - Embarazo y lactancia.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Sofocos, sudoración nocturna y sequedad vaginal en la menopausia: el trébol rojo contiene isoflavonas que ejercen un suave efecto estrogénico, aliviando los síntomas vasomotores y la atrofia mucosa.",
+      "principios_activos": "Isoflavonas (genisteína, daidzeína, formononetina): actúan como moduladores selectivos de los receptores estrogénicos (SERM), uniéndose a los receptores de estrógeno y ejerciendo una acción hormonal suave que compensa el déficit menopáusico.",
+      "propiedades": [
+        "fitoestrogénico",
+        "regulador hormonal",
+        "antiinflamatorio",
+        "calmante"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Trifolium pratense. Geneva: WHO; 1999.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -540,7 +538,9 @@
       "nivel_seguridad": "⚠️ Precaución (condiciones sensibles a hormonas)",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1221
+      "id": 1221,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Melisa y Lavanda para el insomnio en la menopausia",
@@ -548,19 +548,25 @@
       "origen": "Fitoterapia clínica europea",
       "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de melisa. - ½ cucharadita (aprox. 1 g) de flores secas de lavanda. - 250 ml de agua hirviendo.",
       "preparacion": "1. Mezclar las plantas secas en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
-      "dosis": "",
+      "dosis": "1 taza, 30-60 minutos antes de acostarse. Puede tomarse",
       "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Fitoterapia europea",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero). - No combinar con sedantes potentes sin supervisión médica.",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Insomnio, inquietud y ansiedad en la menopausia: la combinación de melisa y lavanda potencia el efecto relajante y sedante, facilitando un sueño reparador sin somnolencia residual.",
+      "principios_activos": "Ácido rosmarínico y citral (melisa): acción ansiolítica por aumento del GABA cerebral. Linalol y acetato de linalilo (lavanda): efecto sedante por modulación de canales de calcio y receptores NMDA.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "inductor del sueño",
+        "miorrelajante",
+        "calmante"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis y Lavandula angustifolia. Geneva: WHO; 1999.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "",
@@ -569,7 +575,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "",
       "efectos_secundarios": "",
-      "id": 1222
+      "id": 1222,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Toronjil para el insomnio y la ansiedad en la menopausia",
@@ -577,19 +585,24 @@
       "origen": "Medicina tradicional europea, cultivada en Chile",
       "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de toronjil. - 250 ml de agua hirviendo.",
       "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10 minutos. Colar.",
-      "dosis": "",
+      "dosis": "1 taza, 30-60 minutos antes de acostarse.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Fitoterapia europea",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda).",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Insomnio y ansiedad durante la menopausia: el toronjil (melisa) calma la mente, reduce la tensión nerviosa y favorece la conciliación del sueño de forma suave.",
+      "principios_activos": "Ácido rosmarínico y citral: modulan el sistema GABAérgico inhibiendo la enzima GABA-transaminasa, lo que aumenta los niveles de GABA y produce un efecto calmante y sedante.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante suave",
+        "inductor del sueño",
+        "antiespasmódico"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis. Geneva: WHO; 1999.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "",
@@ -598,7 +611,9 @@
       "nivel_seguridad": "✅ Seguro",
       "distribucion": "Cultivada en huertos y jardines de todo Chile.",
       "efectos_secundarios": "",
-      "id": 1223
+      "id": 1223,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
     },
     {
       "titulo": "Infusión de Chachacoma para sofocos y mal de altura",
@@ -606,19 +621,24 @@
       "origen": "Medicina tradicional del altiplano chileno",
       "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de chachacoma. - 250 ml de agua hirviendo.",
       "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-      "dosis": "",
+      "dosis": "1 taza, 1-2 veces al día.",
       "modo_uso": "Infusión",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1-2 tazas",
       "conservacion": "Consumir inmediatamente.",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Medicina tradicional del altiplano chileno",
       "contraindicaciones": "- Embarazo y lactancia. - Alergia a las asteráceas. - Enfermedad hepática (precaución con plantas del género *Senecio*).",
-      "uso": "",
-      "principios_activos": "",
-      "propiedades": "",
-      "referencias": "",
+      "uso": "Sofocos, mareos y síntomas similares al mal de altura durante la menopausia: la chachacoma ayuda a aliviar los sofocos y mejora la adaptación a los cambios de presión y temperatura.",
+      "principios_activos": "Aceites esenciales y compuestos fenólicos: acción adaptógena que regula la respuesta del organismo al estrés térmico y la hipoxia, reduciendo los sofocos. Flavonoides: efecto antiinflamatorio y vasorregulador.",
+      "propiedades": [
+        "adaptógeno",
+        "febrífugo suave",
+        "antiemético",
+        "antiinflamatorio"
+      ],
+      "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
       "indicaciones_principales": "",
       "interacciones_medicamentos": "",
       "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -627,7 +647,89 @@
       "nivel_seguridad": "⚠️ Precaución",
       "distribucion": "Chile, altiplano y alta cordillera (Regiones de Arica-Parinacota, Tarapacá, Antofagasta).",
       "efectos_secundarios": "",
-      "id": 1224
+      "id": 1224,
+      "modulo": "mujer",
+      "submodulo": "menopausia"
+    },
+    {
+      "id": 1485,
+      "titulo": "Infusión de Salvia para los Sofocos de la Menopausia",
+      "categoria": "Ginecológico",
+      "modulo": "mujer",
+      "submodulo": "menopausia",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas secas de salvia, 250 ml de agua, 1 cucharadita de miel (opcional)",
+      "preparacion": "Hervir el agua. Verter sobre la salvia, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+      "dosis": "1 taza cada 8 horas durante los períodos de sofocos. No usar más de 3 semanas seguidas. Descansar 1 semana antes de reiniciar.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir al momento. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar durante el embarazo o lactancia. Evitar en caso de epilepsia o alergia a las lamiáceas. No administrar a niños. No usar por períodos prolongados sin descanso.",
+      "uso": "Sofocos, sudoraciones nocturnas y otros síntomas de la menopausia: la salvia regula la temperatura corporal y reduce la intensidad y frecuencia de los sofocos.",
+      "propiedades": [
+        "regulador hormonal",
+        "antiestrogénico suave",
+        "antiséptico",
+        "calmante",
+        "astringente"
+      ],
+      "principios_activos": "Ácido rosmarínico y flavonoides: acción estrogénica suave que modula los receptores hormonales y reduce los sofocos. Aceite esencial (tuyona, cineol): efecto antiséptico y regulador de la sudoración.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Salvia officinalis."
+    },
+    {
+      "id": 1487,
+      "titulo": "Aceite de Onagra para los Síntomas de la Menopausia",
+      "categoria": "Ginecológico",
+      "modulo": "mujer",
+      "submodulo": "menopausia",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "Aceite de onagra (Oenothera biennis) en perlas de 500 mg, según presentación comercial",
+      "preparacion": "Tomar las perlas de aceite de onagra con un vaso de agua, preferentemente con las comidas para mejorar su absorción.",
+      "dosis": "1 a 2 perlas de 500 mg, 2 veces al día (1.000-2.000 mg diarios). Usar durante al menos 8 semanas para evaluar resultados.",
+      "modo_uso": "Oral — cápsulas de aceite",
+      "tiempo_prep": "1 min",
+      "dificultad": "Fácil",
+      "rendimiento": "Variable según presentación comercial",
+      "conservacion": "Conservar en lugar fresco y seco, según indicaciones del fabricante.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de epilepsia o trastornos hemorrágicos sin supervisión. Evitar en el embarazo. Puede interactuar con anticoagulantes y antihipertensivos. No administrar a niños.",
+      "uso": "Sofocos, sequedad vaginal y cambios de humor en la menopausia: el aceite de onagra ayuda a equilibrar las hormonas y reduce los síntomas vasomotores.",
+      "propiedades": [
+        "regulador hormonal",
+        "antiinflamatorio",
+        "hidratante",
+        "calmante",
+        "antioxidante"
+      ],
+      "principios_activos": "Ácido gamma-linolénico (GLA): precursor de prostaglandinas antiinflamatorias, modula la respuesta hormonal y reduce los sofocos. Ácidos grasos omega-6: mejoran la hidratación de la piel y las mucosas.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Oenothera biennis."
+    },
+    {
+      "titulo": "Infusión de Hierba del Clavo para regular la menstruación y el ánimo",
+      "categoria": "Ginecológico",
+      "modulo": "mujer",
+      "submodulo": "menopausia",
+      "origen": "Medicina tradicional mapuche y chilena",
+      "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de hierba del clavo.\n- 250 ml de agua hirviendo.",
+      "preparacion": "1. Verter el agua hirviendo sobre la planta.\n2. Tapar y dejar reposar 10 minutos.\n3. Colar y beber tibio.",
+      "dosis": "1 taza, 1-2 veces al día. — Usar durante 1 semana, descansar 1 semana.",
+      "modo_uso": "Infusión",
+      "tiempo_prep": "10-15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 porciones",
+      "conservacion": "Consumir el mismo día",
+      "evidencia": "Farmacia Mapuche Chilena describe que la hierba del clavo crece en las regiones centrales de Chile y \"ayuda a regular la menstruación\"[reference:7].",
+      "fuente_tradicion": "Medicina tradicional mapuche y chilena",
+      "contraindicaciones": "- Embarazo y lactancia.\n- No usar en combinación con medicamentos sedantes sin supervisión.",
+      "uso": "Ayuda a regular la menstruación y puede contribuir a estabilizar los cambios de humor en la perimenopausia.",
+      "planta_principal": "Hierba del Clavo (Glandularia laciniata)",
+      "nivel_seguridad": "⚠️ Precaución",
+      "id": 1507
     },
     {
       "titulo": "Infusión de Salvia para sofocos y sudoración nocturna",
@@ -644,7 +746,7 @@
       "evidencia": "La Agencia Europea del Medicamento (EMA) reconoce el\nuso tradicional de la salvia para el alivio de la sudoración\nexcesiva, incluyendo la asociada a la menopausia. Un estudio\npublicado en \"Advances in Therapy\" confirmó su eficacia para\nreducir la intensidad y frecuencia de los sofocos.",
       "fuente_tradicion": "Medicina tradicional europea",
       "contraindicaciones": "- Embarazo y lactancia (la salvia puede reducir la producción\n  de leche).\n- Epilepsia (el aceite esencial de salvia puede ser neurotóxico;\n  no aplica a la infusión, pero se recomienda precaución).\n- No usar en niños.",
-      "id": 1308,
+      "id": 1519,
       "uso": "Alivio de los sofocos, sudoración nocturna y otros\nsíntomas vasomotores de la menopausia.",
       "planta_principal": "Salvia (Salvia officinalis)",
       "interacciones": "Puede interferir con medicamentos anticonvulsivos\ny sedantes.",
@@ -666,7 +768,7 @@
       "evidencia": "Las isoflavonas del trébol rojo han sido ampliamente\nestudiadas por su efecto fitoestrogénico. La EMA incluye el\ntrébol rojo en sus monografías para el alivio de los síntomas\nde la menopausia. Una revisión publicada en \"Menopause\" avala\nsu eficacia moderada para reducir los sofocos.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Cáncer de mama, útero u ovario (condiciones sensibles a\n  hormonas).\n- Trastornos de la coagulación.\n- Embarazo y lactancia.",
-      "id": 1309,
+      "id": 1520,
       "uso": "Alivio de los sofocos, sudoración nocturna y otros\nsíntomas vasomotores asociados a la menopausia.",
       "planta_principal": "Trébol Rojo (Trifolium pratense)",
       "interacciones": "Puede interferir con anticonceptivos orales,\nterapia de reemplazo hormonal y anticoagulantes.",
@@ -688,7 +790,7 @@
       "evidencia": "La EMA reconoce el uso tradicional de la melisa para\nel alivio del estrés mental y la ayuda para dormir, y de la\nlavanda para los trastornos del sueño y el estrés mental. Un\nestudio publicado en \"Phytomedicine\" avala la combinación de\nmelisa y lavanda para mejorar la calidad del sueño.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero).\n- No combinar con sedantes potentes sin supervisión médica.",
-      "id": 1310,
+      "id": 1521,
       "uso": "Alivio del insomnio, la ansiedad y la inquietud\nasociados a la menopausia.",
       "interacciones": "Puede potenciar el efecto de sedantes,\nansiolíticos y alcohol.",
       "efectos_secundarios_nota": "Somnolencia. No conducir tras su consumo.",
@@ -709,7 +811,7 @@
       "evidencia": "El Ministerio de Salud de Chile recomienda el té de toronjil para los trastornos de la menopausia[reference:8]. La EMA también avala su uso tradicional para el alivio del estrés mental y como ayuda para dormir.",
       "fuente_tradicion": "Medicina tradicional europea, cultivada en Chile",
       "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda).",
-      "id": 1311,
+      "id": 1522,
       "uso": "Aliviar el insomnio, la ansiedad y la inquietud asociados a la menopausia. El MINSAL recomienda el té de toronjil para los trastornos de la menopausia.",
       "planta_principal": "Toronjil (Melissa officinalis)",
       "interacciones": "Puede potenciar el efecto de sedantes y alcohol.",
@@ -731,7 +833,7 @@
       "evidencia": "Farmacia Mapuche Chilena describe que la hierba del clavo crece en las regiones centrales de Chile y \"ayuda a regular la menstruación\"[reference:7].",
       "fuente_tradicion": "Medicina tradicional mapuche y chilena",
       "contraindicaciones": "- Embarazo y lactancia.\n- No usar en combinación con medicamentos sedantes sin supervisión.",
-      "id": 1312,
+      "id": 1523,
       "uso": "Ayuda a regular la menstruación y puede contribuir a estabilizar los cambios de humor en la perimenopausia.",
       "planta_principal": "Hierba del Clavo (Glandularia laciniata)",
       "interacciones": "Podría potenciar el efecto de sedantes.",
@@ -753,7 +855,7 @@
       "evidencia": "La Universidad de Chile investigó las propiedades de la chachacoma para reducir síntomas del mal de altura y su uso tradicional para otros trastornos, incluyendo los asociados a la menopausia[reference:6].",
       "fuente_tradicion": "Medicina tradicional del altiplano chileno",
       "contraindicaciones": "- Embarazo y lactancia.\n- Alergia a las asteráceas.\n- Enfermedad hepática (precaución con plantas del género *Senecio*).",
-      "id": 1313,
+      "id": 1524,
       "uso": "Aliviar los sofocos y la sudoración nocturna asociados a la menopausia. Tradicionalmente usada para el mal de altura.",
       "planta_principal": "Chachacoma (Senecio eriophyton)",
       "interacciones": "No se han descrito.",

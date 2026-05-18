@@ -3,6 +3,93 @@
   "submodulo": "dolor_cronico_general",
   "recetas": [
     {
+      "titulo": "Infusión de Corteza de Sauce Blanco para el Dolor",
+      "categoria": "Analgésico",
+      "origen": "Medicina Tradicional Chilena",
+      "ingredientes": "10 g de corteza seca de sauce blanco (Salix sp.), 500 ml de agua.",
+      "preparacion": "Hervir la corteza en el agua durante 15 minutos. Colar y beber tibio. Tomar máximo 3 tazas al día. La corteza de sauce contiene salicina, precursor natural de la aspirina, con efecto analgésico y antiinflamatorio. No usar en niños ni con anticoagulantes.",
+      "id": 224,
+      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Media",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
+      "uso": "Dolor: la salicina se convierte en ácido salicílico que inhibe COX-1 y COX-2 con mejor tolerancia gástrica que la aspirina.",
+      "principios_activos": "Salicina (glucósido fenólico): hidrolizada por bacterias intestinales a saligenina, que se oxida a ácido salicílico; inhibe COX-1 y COX-2 reduciendo prostaglandinas proalgésicas y pirógenas. A diferencia del AAS, no acetila irreversiblemente las COX, con menor efecto antiagregante y mejor tolerancia gástrica.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antipirético",
+        "antirreumático"
+      ],
+      "referencias": "Schmid B. et al. Phytother Res 2001; 15(4):344-50; WHO Monographs Vol.4 (2009); EMA/HMPC 2009; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dolor articular",
+        "Cefalea tensional",
+        "Lumbalgia",
+        "Fiebre",
+        "Dismenorrea"
+      ],
+      "interacciones_medicamentos": "Salicina potencia anticoagulantes (warfarina), AINEs y antiagregantes; precaución con metotrexato e hipoglucemiantes; contraindicado con alergia a aspirina.",
+      "embarazo_lactancia": "Contraindicado en embarazo (tercer trimestre) y lactancia; riesgo de síndrome de Reye en niños.",
+      "duracion_tratamiento": "Máximo 7-10 días continuos.",
+      "sinergia_plantas": [
+        "matico",
+        "jengibre",
+        "cúrcuma"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
+    },
+    {
+      "titulo": "Aceite de Romero para Masaje Analgésico",
+      "categoria": "Analgésico",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 ramas de romero fresco, 200 ml de aceite de oliva.",
+      "preparacion": "Macerar el romero en el aceite dentro de un frasco de vidrio al sol por 2 semanas (agitar a diario). Colar y guardar en frasco oscuro. Usar para masajear zonas con dolor muscular, articular o contracturas. El alcanfor y cineol del romero tienen efecto rubefaciente y analgésico.",
+      "id": 226,
+      "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
+      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Media",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar como reemplazo de analgésicos en dolor agudo severo. Consultar si persiste.",
+      "uso": "Masaje Analgésico: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor muscular",
+        "Contracturas",
+        "Lumbalgia",
+        "Mala circulación local",
+        "Artralgia"
+      ],
+      "interacciones_medicamentos": "Uso tópico, baja absorción sistémica; precaución con anticoagulantes si hay heridas abiertas.",
+      "embarazo_lactancia": "Evitar uso extenso en embarazo (especialmente primer trimestre); aceptable en lactancia.",
+      "duracion_tratamiento": "Masajes 1-2 veces al día hasta 3 semanas.",
+      "sinergia_plantas": [
+        "matico",
+        "lavanda",
+        "arnica"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
+    },
+    {
       "titulo": "Infusión de Jengibre y Cúrcuma contra el Dolor Crónico",
       "categoria": "Analgésico",
       "origen": "Medicina Integrativa Chilena",
@@ -12,7 +99,7 @@
       "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "10 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 tazas",
       "conservacion": "Preparar al momento",
       "evidencia": "Uso tradicional documentado",
@@ -42,7 +129,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "titulo": "Baño de Asiento con Manzanilla y Caléndula para Dolor Pélvico",
@@ -54,7 +143,7 @@
       "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
       "modo_uso": "Oral — infusión tibia o aplicación tópica según preparación",
       "tiempo_prep": "20 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 tazas",
       "conservacion": "Preparar al momento",
       "evidencia": "Uso tradicional documentado",
@@ -84,7 +173,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 968,
@@ -124,7 +215,51 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
+    },
+    {
+      "id": 969,
+      "titulo": "Aceite de Copaiba para el Dolor",
+      "categoria": "Analgésico",
+      "origen": "Medicina Amazónica",
+      "ingredientes": "Aceite de copaiba (Copaifera officinalis)",
+      "preparacion": "Aplicar 2-3 gotas en la zona dolorida. Masajear suavemente.",
+      "dosis": "Aplicar 3 veces al dia",
+      "modo_uso": "El aceite de copaiba tiene efecto antiinflamatorio por sesquiterpenos",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 frasco 30 ml",
+      "conservacion": "Temperatura ambiente 1 ano",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina amazonica brasilena",
+      "contraindicaciones": "No ingerir sin supervision; solo uso externo",
+      "uso": "Dolor. Alivio del dolor.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "principios_activos": "Beta-cariofileno (sesquiterpeno): antiinflamatorio por agonismo sobre receptor CB2; analgésico. Ácido copálico: antimicrobiano de amplio espectro. Resinas diterpénicas: cicatrizantes y antisépticas.",
+      "propiedades": [
+        "analgésico",
+        "antiinflamatorio",
+        "antiespasmódico",
+        "antipirético"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 970,
@@ -164,7 +299,52 @@
         "antiinflamatorio",
         "antiespasmódico",
         "antipirético"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
+    },
+    {
+      "id": 971,
+      "titulo": "Compresa de Hierba de San Juan para Neuralgias",
+      "categoria": "Analgésico",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "2 cucharadas de Hypericum perforatum seco, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir 15 min. Colar. Empapar tela.",
+      "dosis": "Compresas tibias en zona dolorida 20 min 2 veces al dia",
+      "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
+      "tiempo_prep": "18 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesion",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "Fotosensibilizante; multiples interacciones farmacologicas",
+      "uso": "Neuralgias: la hiperforina bloquea la recaptación de serotonina, noradrenalina y dopamina con eficacia equivalente a antidepresivos convencionales en estudios clínicos controlados.",
+      "principios_activos": "Hiperforina (floroglucinol): inhibe la recaptación de serotonina, noradrenalina, dopamina, GABA y glutamato mediante activación de canales TRPC6 (mecanismo único). Hipericina (naftodiantrona): inhibidor de MAO-A. INTERACCIÓN: inductor potente de CYP3A4 y glicoproteína-P.",
+      "propiedades": [
+        "antidepresivo",
+        "ansiolítico",
+        "antiviral",
+        "antiinflamatorio",
+        "cicatrizante"
+      ],
+      "referencias": "Linde K. et al. Cochrane Database 2005; CD000448; WHO Monographs Vol.2 (2002); EMA/HMPC 2009; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Dolor de cabeza tensional",
+        "Dolor muscular leve",
+        "Dolor articular moderado",
+        "Jaquecas frecuentes"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC. Ciclosporina, anticonceptivos orales, antiretrovirales: puede reducir su eficacia por inducción de CYP3A4. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Según necesidad; máximo 2 semanas continuas sin evaluación médica",
+      "sinergia_plantas": [
+        "Jengibre",
+        "Cúrcuma",
+        "Manzanilla"
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 972,
@@ -176,7 +356,7 @@
       "dosis": "Aplicar en zona dolorida 2-3 veces al dia",
       "modo_uso": "Usar guantes; no tocar ojos",
       "tiempo_prep": "15 min + solidificado",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "50 g",
       "conservacion": "Temperatura ambiente 3 meses",
       "evidencia": "Uso tradicional documentado",
@@ -204,7 +384,9 @@
         "antiinflamatorio",
         "antiespasmódico",
         "antipirético"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 976,
@@ -244,7 +426,9 @@
         "antiinflamatorio",
         "antiespasmódico",
         "antipirético"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 977,
@@ -284,7 +468,9 @@
         "antiinflamatorio",
         "antiespasmódico",
         "antipirético"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 1086,
@@ -324,7 +510,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 1091,
@@ -364,7 +552,9 @@
         "Jengibre",
         "Cúrcuma",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     },
     {
       "id": 1183,
@@ -375,7 +565,7 @@
       "preparacion": "Hervir agua con sauce y jengibre 15 minutos. Apagar, añadir ulmaria y menta. Tapar 10 minutos. Colar.",
       "dosis": "1 taza cada 6-8 horas máximo 3 dosis al día por 5 días",
       "modo_uso": "Decocción",
-      "tiempo_prep": "30 minutos",
+      "tiempo_prep": "30 min",
       "dificultad": "Fácil",
       "rendimiento": "350 ml",
       "conservacion": "Consumir fresca",
@@ -407,7 +597,9 @@
       "sinergia_plantas": [
         "cúrcuma",
         "matico"
-      ]
+      ],
+      "modulo": "dolores",
+      "submodulo": "dolor_cronico_general"
     }
   ]
 }

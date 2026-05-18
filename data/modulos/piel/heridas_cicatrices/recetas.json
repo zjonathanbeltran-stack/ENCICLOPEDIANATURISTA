@@ -43,7 +43,9 @@
         "manzanilla",
         "caléndula",
         "arrayán"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 9,
@@ -86,7 +88,53 @@
         "manzanilla",
         "caléndula",
         "arrayán"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 12,
+      "titulo": "Pomada de Quillay para la piel",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche",
+      "ingredientes": "Corteza de quillay, grasa de cordero o manteca.",
+      "preparacion": "Hervir la corteza en agua, luego mezclar la decocción con grasa hasta formar pomada. Aplicar sobre eccemas o psoriasis.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "La piel: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+      "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "inmunoestimulante",
+        "antiséptico",
+        "antifúngico"
+      ],
+      "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+      "indicaciones_principales": [
+        "eccemas",
+        "psoriasis leve",
+        "dermatitis seborreica",
+        "picazón crónica localizada"
+      ],
+      "interacciones_medicamentos": "Uso tópico: sin interacciones sistémicas relevantes. Evitar en piel con corticoides tópicos potentes simultáneos.",
+      "embarazo_lactancia": "Uso tópico seguro en embarazo y lactancia.",
+      "duracion_tratamiento": "Aplicar 2 veces al día por 2-4 semanas; descansar antes de retomar.",
+      "sinergia_plantas": [
+        "matico",
+        "llantén",
+        "caléndula",
+        "manzanilla"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 24,
@@ -127,7 +175,9 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 35,
@@ -169,7 +219,54 @@
         "llantén",
         "arnica",
         "romero"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 40,
+      "titulo": "Pomada de Quillay y Menta para la Piel",
+      "categoria": "Dermatológico",
+      "origen": "Chileno",
+      "ingredientes": "Corteza de quillay, hojas de menta, 200gr de manteca de cerdo o vaselina.",
+      "preparacion": "Derretir la manteca a fuego lento, añadir las plantas previamente machacadas y mezclar. Dejar enfriar. Aplicar sobre la zona afectada para tratar eccemas y aliviar la comezón.",
+      "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
+      "modo_uso": "Tópico — aplicar directamente sobre la piel",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–4 aplicaciones por preparación",
+      "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
+      "uso": "La Piel: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "mucolítico"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Eccema",
+        "Prurito",
+        "Irritaciones cutáneas leves",
+        "Dolor muscular localizado",
+        "Picaduras de insecto"
+      ],
+      "interacciones_medicamentos": "Uso tópico; quillay contiene saponinas que pueden irritar mucosas; sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Aceptable en embarazo y lactancia en uso tópico moderado; evitar en mamas durante lactancia.",
+      "duracion_tratamiento": "Aplicación 2-3 veces al día hasta 2 semanas.",
+      "sinergia_plantas": [
+        "caléndula",
+        "matico",
+        "llantén"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 46,
@@ -181,7 +278,7 @@
       "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
       "modo_uso": "Tópico — cataplasma, compresa o loción",
       "tiempo_prep": "10 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 aplicaciones por preparación",
       "conservacion": "Preparar fresco; usar el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -209,7 +306,9 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 58,
@@ -221,7 +320,7 @@
       "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
       "modo_uso": "Tópico — loción, compresa o lavado",
       "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–4 aplicaciones por preparación",
       "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
       "evidencia": "Uso tradicional documentado",
@@ -251,7 +350,9 @@
         "caléndula",
         "matico",
         "llantén"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 64,
@@ -292,7 +393,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 70,
@@ -332,7 +435,9 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 79,
@@ -372,34 +477,37 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
-      "id": 102,
-      "titulo": "Pomada de Calendula y Aceite de Oliva",
+      "id": 91,
+      "titulo": "Pomada de Quillay y Menta para la Piel",
       "categoria": "Dermatológico",
-      "origen": "Popular",
-      "ingredientes": "Flores de caléndula, aceite de oliva, cera de abejas.",
-      "preparacion": "Calentar el aceite con las flores a fuego muy lento (baño maría) por una hora. Colar y añadir cera de abejas hasta que espese. Aplicar sobre piel irritada, quemaduras leves o heridas.",
+      "origen": "Chileno",
+      "ingredientes": "Corteza de quillay, hojas de menta, 200gr de manteca de cerdo o vaselina.",
+      "preparacion": "Derretir la manteca a fuego lento, añadir las plantas previamente machacadas y mezclar. Dejar enfriar. Aplicar sobre la zona afectada para tratar eccemas y aliviar la comezón.",
       "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
       "modo_uso": "Tópico — aplicar directamente sobre la piel",
       "tiempo_prep": "12 min",
-      "dificultad": "Medio",
+      "dificultad": "Fácil",
       "rendimiento": "2–4 aplicaciones por preparación",
       "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Popular Chileno",
       "contraindicaciones": "Realizar prueba de tolerancia cutánea antes del uso extenso. No aplicar en ojos.",
-      "uso": "Inflamación de piel y mucosas, heridas y quemaduras leves: el faradiol inhibe COX-2 reduciendo la inflamación y los flavonoides estimulan la síntesis de colágeno acelerando la epitelización.",
-      "principios_activos": "Faradiol (triterpeno diol): inhibe COX-2 y reduce citoquinas proinflamatorias (principal agente antiinflamatorio). Flavonoides (narcisina, rutósido): estimulan síntesis de colágeno en fibroblastos cutáneos. Saponinas triterpénicas (2-10%): acción antibacteriana y antifúngica local.",
+      "uso": "La Piel: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética. | Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
       "propiedades": [
-        "antiinflamatorio",
-        "cicatrizante",
-        "antiséptico",
-        "emoliente",
-        "antifúngico"
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante",
+        "mucolítico"
       ],
-      "referencias": "Zitterl-Eglseer K. et al. J Ethnopharmacol 1997; 57(2):139-44; WHO Monographs Vol.2 (2002); EMA/HMPC 2008; Muñoz et al. 1999",
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
       "indicaciones_principales": [
         "Dermatitis e irritación cutánea",
         "Heridas y cortes superficiales",
@@ -413,7 +521,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 103,
@@ -453,7 +563,9 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 105,
@@ -465,7 +577,7 @@
       "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
       "modo_uso": "Tópico — cataplasma, compresa o loción",
       "tiempo_prep": "7 días (maceración)",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2–3 aplicaciones por preparación",
       "conservacion": "Preparar fresco; usar el mismo día",
       "evidencia": "Uso tradicional documentado",
@@ -495,7 +607,94 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 151,
+      "titulo": "Infusión de Pimiento para el Cáncer a la Piel",
+      "categoria": "Cicatrizante",
+      "origen": "Popular",
+      "ingredientes": "Hojas de pimiento.",
+      "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
+      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
+      "modo_uso": "Tópico — cataplasma",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 aplicaciones por preparación",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
+      "uso": "Cáncer a la Piel. Cicatrización de heridas.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerante tisular",
+        "antiséptico",
+        "hemostático"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 160,
+      "titulo": "Crema de Matico (Pañil)",
+      "categoria": "Cicatrizante",
+      "origen": "Popular",
+      "ingredientes": "Hojas de matico, manteca.",
+      "preparacion": "Derretir la manteca a fuego lento con las hojas de matico. Una vez que tome color verde, retirar, colar y dejar enfriar. Aplicar cuidadosamente sobre heridas para acelerar la recuperación.",
+      "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
+      "modo_uso": "Tópico — aplicar localmente sobre la piel",
+      "tiempo_prep": "12 min",
+      "dificultad": "Media",
+      "rendimiento": "2–3 aplicaciones por preparación",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar en heridas profundas o infectadas sin atención médica previa.",
+      "uso": "Cicatrización de heridas, úlceras gástricas e inflamación dérmica: estimula la proliferación de fibroblastos, favorece la síntesis de colágeno y ejerce acción antibacteriana local.",
+      "principios_activos": "Verbascósido (feniletanoide): bactericida por alteración de la membrana celular bacteriana. Flavonoides (faradiol y derivados): inhiben la fase inflamatoria y estimulan la proliferación de fibroblastos y la reorganización de colágeno durante la cicatrización.",
+      "propiedades": [
+        "cicatrizante",
+        "hemostático",
+        "antiséptico",
+        "antiinflamatorio",
+        "astringente"
+      ],
+      "referencias": "Schmeda-Hirschmann G. et al. Bol Latinoam Caribe 2009; Monografía ISP-MINSAL; Muñoz et al. 1999; Hoffmann 1992",
+      "indicaciones_principales": [
+        "Cicatrización de heridas leves",
+        "Quemaduras de primer grado",
+        "Cortes y abrasiones",
+        "Úlceras superficiales"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 440,
@@ -536,7 +735,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 441,
@@ -548,7 +749,7 @@
       "dosis": "Aplicar 2 veces al día en hematomas o dolor muscular",
       "modo_uso": "Masajear suavemente",
       "tiempo_prep": "21 días maceración + 15 min acabado",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "100 ml",
       "conservacion": "Temperatura ambiente 3 meses",
       "evidencia": "Uso tradicional documentado",
@@ -577,7 +778,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 442,
@@ -619,7 +822,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 443,
@@ -660,7 +865,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 447,
@@ -702,7 +909,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 451,
@@ -743,7 +952,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 959,
@@ -784,7 +995,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 963,
@@ -826,7 +1039,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 964,
@@ -866,7 +1081,9 @@
         "regenerante tisular",
         "antiséptico",
         "hemostático"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 993,
@@ -878,7 +1095,7 @@
       "dosis": "Compresas frias en hematomas 3-4 veces al dia",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "12 min",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "1 sesion",
       "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -907,7 +1124,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 994,
@@ -919,7 +1138,7 @@
       "dosis": "Compresas en heridas limpias 2-3 veces al dia",
       "modo_uso": "Oral — infusión caliente",
       "tiempo_prep": "18 min",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "2 tazas",
       "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
@@ -948,7 +1167,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 995,
@@ -960,7 +1181,7 @@
       "dosis": "Aplicar en quemadura solar 2-3 veces al dia",
       "modo_uso": "Aplicar suavemente sin frotar",
       "tiempo_prep": "2 min",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "1 sesion",
       "conservacion": "Temperatura ambiente 1 mes",
       "evidencia": "Uso tradicional documentado",
@@ -990,7 +1211,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 998,
@@ -1002,7 +1225,7 @@
       "dosis": "Compresa 20 min 3 veces al dia",
       "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
       "tiempo_prep": "5 min",
-      "dificultad": "Facil",
+      "dificultad": "Fácil",
       "rendimiento": "1 sesion",
       "conservacion": "Uso inmediato",
       "evidencia": "Saber ancestral",
@@ -1031,7 +1254,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1061,
@@ -1042,7 +1267,7 @@
       "preparacion": "1. Recolectar la resina exudada naturalmente del tronco de araucaria en recipiente limpio. 2. Calentar la grasa animal a fuego muy bajo hasta derretir, sin hervir. 3. Incorporar la resina y revolver con palito de madera hasta homogeneizar (aprox. 5 minutos). 4. Retirar del fuego, agregar la ceniza tamizada y mezclar. 5. Dejar enfriar hasta consistencia de pomada espesa. Aplicar directamente sobre herida limpia.",
       "dosis": "Aplicar una capa de 3-4 mm sobre la herida, cubrir con hoja de nalca (Gunnera tinctoria) o paño limpio. Cambiar cada 24 horas durante 5-7 dias.",
       "modo_uso": "Topico (cataplasma)",
-      "tiempo_prep": "20 minutos",
+      "tiempo_prep": "20 min",
       "dificultad": "Media",
       "rendimiento": "5-6 aplicaciones",
       "conservacion": "En tarro con tapa, lugar fresco, hasta 2 semanas",
@@ -1072,7 +1297,51 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 1067,
+      "titulo": "Cataplasma de Michay (Berberis darwinii) para Infecciones de Piel Williche",
+      "categoria": "Dermatológico",
+      "origen": "Mapuche Williche (Osorno, Frutillar, lago Llanquihue)",
+      "ingredientes": "50 g de corteza fresca de michay / calafate del sur (Berberis darwinii / ngulla o puni en mapudungun); 30 ml de agua; 1 cucharada de grasa animal (preferentemente grasa de capon o manteca de cerdo)",
+      "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
+      "dosis": "Aplicar 2-3 veces al dia sobre la zona afectada. Dejar actuar 4 horas y limpiar con agua tibia. Continuar durante 7-10 dias.",
+      "modo_uso": "Topico (cataplasma/pomada)",
+      "tiempo_prep": "20 min",
+      "dificultad": "Media",
+      "rendimiento": "8-10 aplicaciones",
+      "conservacion": "Refrigerar hasta 5 dias en tarro cerrado.",
+      "evidencia": "La berberina, alcaloide isoquinolinico del genero Berberis, tiene amplia documentacion cientifica como antibacteriano de amplio espectro y antifungico. Usado por machis williche documentado por Hoffmann et al. (1992). La raiz y corteza contienen 2-4% de berberina.",
+      "fuente_tradicion": "Mapuche Williche",
+      "contraindicaciones": "No aplicar en mucosas, ojos ni heridas muy profundas. La berberina puede manchar la piel temporalmente de amarillo. No ingerir esta preparacion topica. Contraindicado en embarazo (berberina oral es abortiva).",
+      "uso": "Tratamiento de infecciones bacterianas y fungicas de la piel, psoriasis, heridas infectadas y erupciones cutaneas. La berberina de la corteza interior inhibe el crecimiento de Staphylococcus aureus, Candida albicans y otras bacterias comunes.",
+      "principios_activos": "Berberina (2-4%); palmatina; jatrorricina; oxicantina; berbamina; taninos",
+      "propiedades": [
+        "antibacteriano",
+        "antifungico",
+        "antiinflamatorio",
+        "cicatrizante"
+      ],
+      "referencias": "Hoffmann A. et al. (1992) Plantas Medicinales de Uso Comun en Chile. / Shaheen F. et al. (2012) Berberis species: traditional uses, phytochemistry and pharmacology. Phytother Res.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1087,
@@ -1114,7 +1383,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1102,
@@ -1156,7 +1427,9 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1103,
@@ -1198,7 +1471,52 @@
         "Caléndula",
         "Aloe vera",
         "Matico"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 1104,
+      "titulo": "Ungüento de Grasa de Lobo Marino con Canelo para el Frio Extremo (Yagán)",
+      "categoria": "Dermatológico",
+      "origen": "Selknam",
+      "ingredientes": "Grasa de lobo marino (Otaria flavescens) o de guanaco (Lama guanicoe), 10 g de corteza molida de canelo (Drimys winteri), pizca de ceniza de maderas del sur (elemento ritual)",
+      "preparacion": "1. Los yagán procesan la grasa del lobo marino inmediatamente después de la caza; derretir la grasa en recipiente de piedra o cerámica a fuego muy suave para evitar quemarla. 2. Agregar la corteza molida de canelo a la grasa derretida y calentar suavemente durante 10 minutos, revolviendo. 3. Añadir la ceniza ritual en pequeña cantidad (elemento espiritual y posible antimicrobiano). 4. Colar para retirar la corteza; dejar enfriar hasta obtener la consistencia de ungüento sólido. 5. Aplicar sobre toda la piel expuesta al frío y al viento, especialmente en noches de navegación por los canales del Cabo de Hornos.",
+      "dosis": "Aplicar una capa generosa sobre la piel antes de la exposición al frío; renovar cada 4-6 horas en condiciones extremas",
+      "modo_uso": "Tópico — ungüento protector",
+      "tiempo_prep": "20 min",
+      "dificultad": "Difícil",
+      "rendimiento": "Variable según cantidad de grasa",
+      "conservacion": "En clima frío patagónico se conserva varios días; en temperaturas superiores a 15 °C, refrigerar y consumir en 5 días",
+      "evidencia": "Práctica documentada en la etnografía yagán y selknam por Charles Darwin (Viaje del Beagle, 1839), Martin Gusinde (1919-1924) y en ResearchGate Flora etnobotánica Patagonia Austral 2022.",
+      "fuente_tradicion": "Selknam",
+      "contraindicaciones": "No aplicar sobre heridas infectadas sin limpiar previamente. En personas con alergia a proteínas animales, verificar tolerancia. El uso ritual de ceniza debe ser solo simbólico (no aplicar grandes cantidades).",
+      "uso": "Protección de la piel contra el frío extremo, el viento y la lluvia en el archipiélago del Cabo de Hornos; el canelo aporta propiedades antisépticas que previenen infecciones cutáneas en la piel agrietada por el frío.",
+      "principios_activos": "Ácidos grasos omega-3 y omega-7 de la grasa de lobo marino: barrera protectora y antiinflamatoria; poligodial del canelo: antiséptico y anestésico tópico; vitaminas liposolubles (A, D, E) de la grasa animal.",
+      "propiedades": [
+        "protector dérmico",
+        "antiséptico",
+        "emoliente",
+        "antiinflamatorio",
+        "termorregulador"
+      ],
+      "referencias": "Darwin C. Viaje del Beagle 1839; Gusinde M. Los indios de Tierra del Fuego 1919-1924; ResearchGate Flora etnobotánica pueblos originarios Patagonia Austral 2022; Dominguezia 2022.",
+      "indicaciones_principales": [
+        "Dermatitis e irritación cutánea",
+        "Heridas y cortes superficiales",
+        "Eccema leve",
+        "Inflamación de la piel"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "Hasta la cicatrización completa; máximo 4 semanas sin consulta",
+      "sinergia_plantas": [
+        "Caléndula",
+        "Aloe vera",
+        "Matico"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1114,
@@ -1209,7 +1527,7 @@
       "preparacion": "Limpiar la herida con suero fisiológico. Aplicar capa generosa de miel directamente o impregnar gasa estéril. Cubrir con apósito.",
       "dosis": "Cambiar curación cada 24 horas hasta cicatrización",
       "modo_uso": "Aplicación tópica",
-      "tiempo_prep": "5 minutos",
+      "tiempo_prep": "5 min",
       "dificultad": "Fácil",
       "rendimiento": "Por herida",
       "conservacion": "Miel a temperatura ambiente sin contaminar el frasco",
@@ -1240,7 +1558,9 @@
         "Matico",
         "Caléndula",
         "Llantén"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1119,
@@ -1251,7 +1571,7 @@
       "preparacion": "Machacar hojas en mortero con pizca de sal hasta pasta. Aplicar directamente sobre la herida limpia. Cubrir con gasa.",
       "dosis": "Cambiar cada 12 horas hasta cicatrización",
       "modo_uso": "Cataplasma",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "Por curación",
       "conservacion": "Preparar fresco cada vez",
@@ -1282,7 +1602,9 @@
         "Llantén",
         "Caléndula",
         "Pañil"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1131,
@@ -1293,7 +1615,7 @@
       "preparacion": "Decocción 15 min de equiseto, retirar y agregar caléndula, tapar 10 min. Colar. Empapar gasa.",
       "dosis": "Aplicar compresa tibia 15 min, 2 veces al día",
       "modo_uso": "Compresa tópica",
-      "tiempo_prep": "30 minutos",
+      "tiempo_prep": "30 min",
       "dificultad": "Fácil",
       "rendimiento": "Aprox. 400 ml",
       "conservacion": "Refrigerado 48 h",
@@ -1323,49 +1645,9 @@
         "Caléndula",
         "Matico",
         "Llantén"
-      ]
-    },
-    {
-      "id": 1149,
-      "titulo": "Pomada de caléndula y matico para eczema atópico",
-      "categoria": "Dermatológico",
-      "origen": "Mapuche y popular chileno",
-      "ingredientes": "50 g de flores de caléndula secas, 30 g de hojas de matico secas, 250 ml de aceite de oliva extra virgen, 30 g de cera de abejas",
-      "preparacion": "Macerar caléndula y matico en aceite a baño maría 60°C por 2 horas. Colar con gasa. Calentar de nuevo, agregar cera de abejas hasta disolver, verter en frascos pequeños y enfriar.",
-      "dosis": "Aplicar capa fina sobre piel afectada 2 a 3 veces al día",
-      "modo_uso": "Tópico - ungüento",
-      "tiempo_prep": "3 horas",
-      "dificultad": "Media",
-      "rendimiento": "Aprox 250 g",
-      "conservacion": "Frasco cerrado fresco y oscuro hasta 6 meses",
-      "evidencia": "ESCOP Calendula officinalis; estudios sobre Buddleja globosa (matico) en cicatrización (Mosquera 2017)",
-      "fuente_tradicion": "Mapuche (matico) y europeo (caléndula)",
-      "contraindicaciones": "Alergia a Asteraceae, heridas profundas infectadas, alergia a propóleos",
-      "uso": "Triterpenos estimulan fibroblastos y queratinocitos en regeneración mientras flavonoides reducen inflamación y prurito.",
-      "principios_activos": "Faradiol y calendulósidos (caléndula), verbascósido y mimulósido (matico); regeneradores epiteliales y antiinflamatorios cutáneos",
-      "propiedades": [
-        "cicatrizante",
-        "antiinflamatorio cutáneo",
-        "emoliente",
-        "antimicrobiano",
-        "antipruriginoso"
       ],
-      "referencias": "Mosquera OM et al. 2017 Bol Latinoam Plantas Med; ESCOP 2003; Hoffmann 1992",
-      "indicaciones_principales": [
-        "eczema atópico",
-        "dermatitis del pañal",
-        "psoriasis leve",
-        "heridas superficiales",
-        "quemaduras solares"
-      ],
-      "interacciones_medicamentos": "Sin interacciones sistémicas significativas",
-      "embarazo_lactancia": "Seguro tópico; evitar en aréolas durante lactancia",
-      "duracion_tratamiento": "Uso continuo seguro",
-      "sinergia_plantas": [
-        "llantén",
-        "manzanilla",
-        "olivillo"
-      ]
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
     },
     {
       "id": 1152,
@@ -1407,7 +1689,229 @@
         "rosa mosqueta",
         "caléndula",
         "centella asiática"
-      ]
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 1172,
+      "titulo": "Crema cicatrizante de matico, caléndula y miel",
+      "categoria": "Cicatrizante",
+      "origen": "Etnomedicina mapuche y europea",
+      "ingredientes": "50 ml de oleato de matico, 30 ml de oleato de caléndula, 10 g de cera de abejas, 1 cucharadita de miel de ulmo, 5 gotas de vitamina E, 3 gotas aceite esencial de lavanda",
+      "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
+      "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
+      "modo_uso": "Crema tópica",
+      "tiempo_prep": "45 min",
+      "dificultad": "Media",
+      "rendimiento": "90 g",
+      "conservacion": "6 meses refrigerada o lugar fresco",
+      "evidencia": "Caléndula acelera epitelización en heridas (Khairnar, 2013); matico con uso etnobotánico documentado",
+      "fuente_tradicion": "Mapuche (matico) y europea (caléndula)",
+      "contraindicaciones": "Alergia a asteráceas. Heridas infectadas requieren manejo médico. No usar en quemaduras graves.",
+      "uso": "Los triterpenos de caléndula estimulan fibroblastos y angiogénesis acelerando cicatrización en 30-50% según estudios, mientras el verbascósido del matico tiene acción antibacteriana y antiinflamatoria, y la miel aporta defensina-1 antibacteriana y mantiene ambiente húmedo óptimo.",
+      "principios_activos": "Faradiol (caléndula): cicatrizante. Verbascósido (matico): antibacteriano. Defensina-1 (miel). Tocoferol (vit. E).",
+      "propiedades": [
+        "cicatrizante",
+        "epitelizante",
+        "antibacteriano",
+        "antiinflamatorio",
+        "regenerador"
+      ],
+      "referencias": [
+        "Khairnar MS. et al. J Indian Soc Periodontol (2013) 17:741",
+        "Della Loggia R. et al. Planta Med (1994) 60:516"
+      ],
+      "indicaciones_principales": [
+        "heridas superficiales",
+        "quemaduras leves",
+        "raspaduras",
+        "úlceras pequeñas",
+        "irritación cutánea"
+      ],
+      "interacciones_medicamentos": "Ninguna sistémica",
+      "embarazo_lactancia": "Seguro tópico",
+      "duracion_tratamiento": "Hasta cicatrización completa",
+      "sinergia_plantas": [
+        "llantén",
+        "árnica (no en heridas abiertas)"
+      ],
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices"
+    },
+    {
+      "id": 1358,
+      "titulo": "Pomada de Caléndula y Matico para Cicatrizar Heridas",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "50 g de flores secas de caléndula, 30 g de hojas secas de matico, 200 ml de aceite de oliva, 30 g de cera de abeja",
+      "preparacion": "Macerar las plantas en el aceite en un frasco de vidrio al sol durante 15 días, agitando a diario. Colar presionando bien. Calentar el aceite a baño maría y añadir la cera de abeja hasta que se disuelva. Verter en envases limpios y dejar solidificar.",
+      "dosis": "Aplicar una capa fina sobre la herida limpia 2 veces al día, mañana y noche. Usar hasta el cierre completo.",
+      "modo_uso": "Tópico — pomada o ungüento",
+      "tiempo_prep": "15 días (maceración) + 30 min",
+      "dificultad": "Media",
+      "rendimiento": "150 ml de pomada",
+      "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas infectadas con pus sin consultar al médico. Evitar en alergia a plantas de las asteráceas. No usar en embarazo sin consultar. Para uso externo exclusivamente.",
+      "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, previene infecciones y reduce la formación de cicatrices visibles.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerador",
+        "antiinflamatorio",
+        "antiséptico",
+        "emoliente"
+      ],
+      "principios_activos": "Triterpenos y flavonoides de caléndula: estimulan la proliferación de fibroblastos y la síntesis de colágeno, acelerando la epitelización. | Verbascósido y flavonoides de matico: acción antimicrobiana y antioxidante que protege la herida y mejora la calidad de la cicatriz. | Cera de abeja: forma una barrera protectora que mantiene la humedad óptima para la cicatrización.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis; Mensah AY et al. J Ethnopharmacol 2001;77(2-3):219-226"
+    },
+    {
+      "id": 1359,
+      "titulo": "Cataplasma de Llantén Fresco para Heridas Abiertas",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "5 hojas frescas de llantén, agua limpia para lavar",
+      "preparacion": "Lavar bien las hojas de llantén. Machacarlas en un mortero limpio hasta obtener una pasta. Aplicar directamente sobre la herida limpia y cubrir con una gasa. Dejar actuar 2 horas y renovar.",
+      "dosis": "Aplicar 2-3 veces al día hasta que la herida comience a cerrar. No usar más de 5 días seguidos sin evaluar.",
+      "modo_uso": "Tópico — cataplasma",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco en cada uso. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas profundas o muy sangrantes. Lavar bien las hojas para evitar contaminación. Suspender si aparece enrojecimiento o picor. No usar en caso de alergia conocida al llantén.",
+      "uso": "Cortes superficiales, raspaduras y pequeñas heridas: el llantén desinflama, detiene el sangrado leve y forma una capa protectora que acelera el cierre de la herida.",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio",
+        "hemostático suave",
+        "antiséptico",
+        "emoliente"
+      ],
+      "principios_activos": "Aucubina y catalpol (iridoides): aceleran la migración de fibroblastos y la contracción de la herida, con acción antiinflamatoria local. | Mucílago: crea un ambiente húmedo que favorece la cicatrización y protege de infecciones. Taninos: leve efecto hemostático y antiséptico.",
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Plantago lanceolata; Kováč I et al. J Pharm Pharmacol 2015;67(1):117-125"
+    },
+    {
+      "id": 1368,
+      "titulo": "Cataplasma de Matico Fresco para la Cicatrización de Heridas",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "5 hojas frescas de matico (Buddleja globosa), agua limpia para lavar",
+      "preparacion": "Lavar bien las hojas de matico. Machacarlas en un mortero limpio hasta obtener una pasta homogénea. Aplicar directamente sobre la herida limpia y cubrir con una gasa estéril. Dejar actuar 2 horas y renovar la cataplasma.",
+      "dosis": "Aplicar 2 a 3 veces al día hasta observar cierre de la herida. No usar más de 7 días seguidos sin evaluar.",
+      "modo_uso": "Tópico — cataplasma directa",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 aplicación",
+      "conservacion": "Preparar fresco en cada uso. No conservar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas profundas, muy sangrantes o con signos de infección (pus, calor local). Evitar en caso de alergia conocida a plantas de la familia Buddlejaceae. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+      "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, desinflama la zona lesionada y ayuda a prevenir infecciones.",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio",
+        "antiséptico",
+        "regenerador",
+        "astringente suave"
+      ],
+      "principios_activos": "Flavonoides y saponósidos (matico): estimulan la proliferación de fibroblastos y la migración celular, acelerando el cierre de heridas. Taninos: efecto astringente y antiséptico que protege la herida de contaminación bacteriana.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Mensah AY, Houghton PJ, Bloomfield S, Vlietinck A, Vanden Berghe D. Effects of Buddleja globosa leaf and its constituents relevant to wound healing. J Ethnopharmacol. 2001;77(2-3):219-226. doi:10.1016/S0378-8741(01)00297-5"
+    },
+    {
+      "id": 1369,
+      "titulo": "Pomada de Caléndula para la Cicatrización de Heridas",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "50 g de flores secas de caléndula (Calendula officinalis), 200 ml de aceite de oliva, 30 g de cera de abeja",
+      "preparacion": "Macerar las flores de caléndula en el aceite de oliva en un frasco de vidrio durante 15 días al sol, agitando diariamente. Colar presionando bien el material vegetal. Calentar el aceite a baño maría y añadir la cera de abeja, removiendo hasta que se disuelva completamente. Verter en envases limpios y dejar solidificar.",
+      "dosis": "Aplicar una capa fina sobre la herida limpia 2 veces al día, mañana y noche. Usar hasta el cierre completo de la herida.",
+      "modo_uso": "Tópico — pomada o ungüento",
+      "tiempo_prep": "15 días (maceración) + 30 min",
+      "dificultad": "Media",
+      "rendimiento": "150 ml de pomada",
+      "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas infectadas con pus sin consultar al médico. Evitar en caso de alergia a plantas de la familia Asteraceae. No usar durante el embarazo sin consultar. Exclusivamente para uso externo.",
+      "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, previene infecciones y reduce la formación de cicatrices visibles.",
+      "propiedades": [
+        "cicatrizante",
+        "regenerador",
+        "antiinflamatorio",
+        "antiséptico",
+        "emoliente"
+      ],
+      "principios_activos": "Triterpenos y flavonoides de caléndula: estimulan la proliferación de fibroblastos y la síntesis de colágeno, acelerando la epitelización. Carotenoides: acción antioxidante que protege el tejido en regeneración.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2: Flos Calendulae, 2002; Giostri GS et al. Treatment of acute wounds in hand with Calendula officinalis: A randomized clinical trial. 2022."
+    },
+    {
+      "id": 1370,
+      "titulo": "Compresas de Cola de Caballo para la Cicatrización de Heridas",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de cola de caballo seca (Equisetum arvense), 500 ml de agua",
+      "preparacion": "Hervir el agua con la cola de caballo durante 10 minutos a fuego lento. Dejar reposar 10 minutos y colar. Empapar una gasa estéril en la decocción tibia y aplicar sobre la herida limpia durante 15-20 minutos.",
+      "dosis": "Aplicar compresas 2 veces al día, mañana y noche, durante 7 a 10 días.",
+      "modo_uso": "Tópico — compresas tibias",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "500 ml (para varias aplicaciones)",
+      "conservacion": "Refrigerar la decocción hasta 48 horas. Calentar suavemente antes de usar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas profundas o infectadas sin consultar al médico. Evitar en caso de alergia a plantas de la familia Equisetaceae. No ingerir en grandes cantidades. No usar durante el embarazo sin supervisión.",
+      "uso": "Heridas superficiales y úlceras cutáneas leves: la cola de caballo acelera la regeneración de los tejidos, reduce la inflamación y fortalece la piel en proceso de cicatrización.",
+      "propiedades": [
+        "cicatrizante",
+        "antiinflamatorio",
+        "remineralizante",
+        "astringente",
+        "regenerador"
+      ],
+      "principios_activos": "Sílice (ácido silícico): estimula la síntesis de colágeno y la regeneración del tejido conectivo, acelerando la cicatrización. Flavonoides y saponinas: acción antiinflamatoria y antioxidante local.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Asgharikhatooni A et al. The Effect of Equisetum Arvense (Horse Tail) Ointment on Wound Healing. PMC. 2015."
+    },
+    {
+      "id": 1371,
+      "titulo": "Aceite de Rosa Mosqueta para Cicatrices y Regeneración de la Piel",
+      "categoria": "Cicatrizante",
+      "modulo": "piel",
+      "submodulo": "heridas_cicatrices",
+      "origen": "Popular Chileno",
+      "ingredientes": "Aceite puro de rosa mosqueta (Rosa rubiginosa o R. canina), cantidad suficiente para cubrir la zona",
+      "preparacion": "Utilizar aceite de rosa mosqueta prensado en frío, de preferencia orgánico. Aplicar unas gotas directamente sobre la cicatriz o herida ya cerrada y masajear suavemente con movimientos circulares hasta su absorción.",
+      "dosis": "Aplicar 2 veces al día, mañana y noche, durante al menos 8 semanas para ver resultados en cicatrices consolidadas.",
+      "modo_uso": "Tópico — aceite para masaje",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "Variable según presentación comercial",
+      "conservacion": "Conservar en lugar fresco y oscuro. El aceite prensado en frío dura aproximadamente 6 meses una vez abierto.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No aplicar sobre heridas abiertas o infectadas. Evitar en caso de alergia conocida a las rosáceas. No usar durante el embarazo sin consultar. Para uso externo exclusivamente. Realizar prueba de tolerancia en una pequeña zona antes del uso generalizado.",
+      "uso": "Cicatrices recientes y antiguas, estrías y manchas: el aceite de rosa mosqueta regenera la piel, atenúa las marcas y mejora la elasticidad y textura cutánea.",
+      "propiedades": [
+        "regenerador",
+        "cicatrizante",
+        "antioxidante",
+        "nutritivo",
+        "emoliente"
+      ],
+      "principios_activos": "Ácidos grasos esenciales (linoleico, linolénico): precursores de prostaglandinas que regulan la regeneración celular. Vitamina A (retinol natural): estimula la renovación epidérmica y la síntesis de colágeno. Vitamina C: antioxidante que protege del fotoenvejecimiento.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2, Rosae pseudofructus, 2002."
     },
     {
       "titulo": "Gel de Aloe vera para quemaduras leves",
@@ -1424,7 +1928,7 @@
       "evidencia": "La Organización Mundial de la Salud (OMS) incluye el\nAloe vera en sus monografías para el tratamiento de quemaduras.\nUna revisión sistemática publicada en \"Burns\" (2018) confirma\nque el Aloe vera reduce el tiempo de cicatrización de quemaduras\nde primer y segundo grado.",
       "fuente_tradicion": "Medicina tradicional universal",
       "contraindicaciones": "- Alergia conocida al Aloe vera (poco frecuente).\n- No ingerir el gel de uso tópico (puede contener aloína,\n  un laxante irritante).",
-      "id": 1341,
+      "id": 1552,
       "uso": "Alivio del dolor y ayuda en la cicatrización de\nquemaduras solares y quemaduras térmicas leves de primer grado.",
       "planta_principal": "Aloe vera (Aloe barbadensis)",
       "interacciones": "No se han descrito para uso externo.",
@@ -1446,7 +1950,7 @@
       "evidencia": "La EMA (European Medicines Agency) ha evaluado el\nllantén como producto medicinal tradicional para uso cutáneo,\nrespaldando su eficacia en inflamaciones de la piel y\npicaduras de insectos.",
       "fuente_tradicion": "Medicina tradicional mapuche y europea",
       "contraindicaciones": "- No aplicar sobre heridas muy profundas o extensas.\n- Suspender si aparece irritación o alergia.",
-      "id": 1349,
+      "id": 1560,
       "uso": "Alivio de picaduras de insectos, pequeñas heridas,\narañazos y rozaduras.",
       "planta_principal": "Llantén (Plantago major)",
       "interacciones": "No se han descrito para uso externo.",
@@ -1468,7 +1972,7 @@
       "evidencia": "European Medicines Agency (EMA). Monografía sobre\n\"Calendulae flos\". La EMA aprueba su uso para el tratamiento\nde inflamaciones leves de la piel y ayuda en la cicatrización\nde heridas menores. Un ensayo clínico publicado en el\n\"Journal of Family Practice\" confirma su eficacia en la\ncicatrización de heridas.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia conocida a las asteráceas (margaritas, ambrosía).\n- No aplicar sobre heridas profundas, muy sucias o infectadas\n  sin consultar al médico.",
-      "id": 1352,
+      "id": 1563,
       "uso": "Cicatrización de heridas superficiales, cortes,\nrozaduras, grietas en la piel y quemaduras leves.\n\nINGREDIENTES (para 200 g de pomada):\n- 25 g de flores secas de caléndula.\n- 200 g de vaselina sólida o manteca de karité.\n\nPREPARACIÓN (método en caliente):\n1. Derretir la vaselina o manteca a baño María a fuego bajo.\n2. Añadir las flores secas y mantener a fuego bajo durante\n   10-12 minutos, removiendo ocasionalmente.\n3. Retirar del fuego y colar la mezcla con una gasa o filtro\n   de tela mientras aún está líquida.\n4. Verter en frascos de vidrio limpios y dejar enfriar.",
       "planta_principal": "Caléndula (Calendula officinalis)",
       "interacciones": "No se han descrito para uso tópico.",
@@ -1490,7 +1994,7 @@
       "evidencia": "\"Plantas tóxicas en Chile\" (Pontificia Universidad\nCatólica de Chile); \"Toxicología veterinaria y humana de Cestrum\nspp.\" (PubMed).",
       "fuente_tradicion": "Medicina tradicional mapuche (uso externo muy limitado)",
       "contraindicaciones": "",
-      "id": 1358,
+      "id": 1569,
       "planta_principal": "Palqui (Cestrum parqui)",
       "nivel_seguridad": "🛑🛑🛑 ALTO RIESGO"
     },
@@ -1509,7 +2013,7 @@
       "evidencia": "El \"Complete German Commission E Monographs\" avala\nel uso tradicional de la milenrama para heridas y cortes\ndebido a sus propiedades astringentes y hemostáticas. La EMA\ntambién la incluye como remedio tradicional para pequeñas\nheridas superficiales.",
       "fuente_tradicion": "Medicina tradicional europea y mapuche",
       "contraindicaciones": "- Alergia a las asteráceas.\n- No usar en heridas profundas, mordeduras de animales o\n  quemaduras graves.\n- No ingerir durante el embarazo o la lactancia.",
-      "id": 1379,
+      "id": 1590,
       "uso": "Ayuda en la hemostasia (detener el sangrado) de\npequeños cortes y rozaduras superficiales.",
       "planta_principal": "Milenrama (Achillea millefolium)",
       "interacciones": "No se han descrito para uso externo.",

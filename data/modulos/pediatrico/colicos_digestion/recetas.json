@@ -42,7 +42,54 @@
         "anís verde",
         "cedrón",
         "toronjil"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 327,
+      "titulo": "Baño de Manzanilla y Lavanda para irritabilidad del bebé",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharadas de flores de manzanilla secas, 1 cucharadita de lavanda seca, 5 litros de agua.",
+      "preparacion": "Preparar infusión concentrada de ambas plantas en 1 litro de agua por 15 minutos. Colar y agregar al baño tibio del bebé (5 litros total).",
+      "dosis": "2–3 veces por semana, especialmente en la noche antes de dormir.",
+      "modo_uso": "Externo — baño tibio",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño completo",
+      "conservacion": "No guardar; usar agua de baño inmediatamente",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Verificar temperatura del agua (36–37°C máximo). Probar la infusión en la muñeca del bebé primero. Evitar en bebés con piel muy sensible.",
+      "uso": "Irritabilidad del bebé: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos. | Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante",
+        "ansiolítico"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "irritabilidad nocturna del bebé",
+        "sueño inquieto leve",
+        "dermatitis irritativa leve",
+        "tensión por cólicos"
+      ],
+      "interacciones_medicamentos": "Uso externo: sin interacciones sistémicas relevantes.",
+      "embarazo_lactancia": "Uso externo seguro en madre y bebé.",
+      "duracion_tratamiento": "Baños 2-3 veces por semana durante 2-4 semanas según necesidad.",
+      "sinergia_plantas": [
+        "tilo",
+        "toronjil",
+        "avena coloidal",
+        "caléndula"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 328,
@@ -84,7 +131,9 @@
         "manzanilla",
         "comino",
         "cedrón"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 333,
@@ -126,7 +175,96 @@
         "caléndula",
         "matico",
         "manzanilla"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 334,
+      "titulo": "Infusión de Poleo para dolor abdominal infantil",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas de poleo secas, 150 ml de agua.",
+      "preparacion": "Infusionar en agua hervida 6 minutos tapado. Colar bien. Enfriar a temperatura tibia.",
+      "dosis": "Niños de 6–12 años: media taza 2 veces al día. No dar a niños menores de 6 años sin indicación médica.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1–2 dosis",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 6 años. No exceder la dosis indicada. Contraindicado en embarazo (menta pulegium tiene pulegona potencialmente tóxica en exceso).",
+      "uso": "Dolor abdominal infantil: la pulegona estimula la motilidad digestiva y ejerce efecto emenagogo por vasocongestion pélvica.",
+      "principios_activos": "Pulegona (cetona monoterpénica mayoritaria): estimula secreción de jugos gástricos, aumenta la motilidad intestinal y ejerce efecto emenagogo por estimulación del músculo liso uterino. En dosis altas la pulegona es hepatotóxica (metabolito tóxico mentofurano). CONTRAINDICADO EN EMBARAZO.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "emenagogo",
+        "antiespasmódico",
+        "diaforético"
+      ],
+      "referencias": "Gordon WP. et al. Drug Metab Dispos 1987; 15(5):589-594; Muñoz et al. 1999; Montes & Wilkomirsky 1985; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Dispepsia",
+        "Flatulencia",
+        "Espasmos digestivos",
+        "Náuseas leves"
+      ],
+      "interacciones_medicamentos": "Pulegona es hepatotóxica; no combinar con paracetamol u otros hepatotóxicos.",
+      "embarazo_lactancia": "CONTRAINDICADO en embarazo (abortivo) y lactancia (pasa a la leche); no usar en menores de 6 años.",
+      "duracion_tratamiento": "Uso puntual máximo 3 días; nunca prolongado.",
+      "sinergia_plantas": [
+        "manzanilla",
+        "cedrón",
+        "melisa"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 336,
+      "titulo": "Té de Melisa para nerviosismo e hiperactividad infantil",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas de melisa secas, 150 ml de agua.",
+      "preparacion": "Infusionar en agua hervida 7 minutos tapado. Colar. Enfriar a temperatura tibia.",
+      "dosis": "Niños de 5–12 años: media taza 2 veces al día (mañana y noche). Solo en períodos de alta tensión emocional.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "9 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 dosis",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar más de 4 semanas seguidas. No combinar con sedantes. No reemplaza evaluación psicopediátrica si hay trastorno diagnosticado.",
+      "uso": "Nerviosismo e hiperactividad infantil: el ácido rosmarínico inhibe la degradación del GABA cerebral y bloquea la replicación del virus herpes simple (HSV-1 y HSV-2).",
+      "principios_activos": "Ácido rosmarínico: inhibe GABA transaminasa (aumenta niveles de GABA, efecto sedante-ansiolítico) y bloquea la adhesión viral del HSV a células huésped. Citral, geraniol y citronelal (aceite esencial): antiviral directo y sedante por modulación del sistema nervioso vegetativo.",
+      "propiedades": [
+        "sedante",
+        "ansiolítico",
+        "antiviral",
+        "carminativo",
+        "antiespasmódico"
+      ],
+      "referencias": "Awad R. et al. Phytochemistry 2003; 63(2):199-207; WHO Monographs Vol.2 (2002); EMA/HMPC 2013; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 337,
@@ -168,7 +306,96 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 338,
+      "titulo": "Infusión de Tomillo para bronquitis infantil",
+      "categoria": "Pediátrico",
+      "origen": "Tradición Española Colonial",
+      "ingredientes": "1 cucharadita de tomillo fresco o seco, 1 cucharadita de miel de ulmo, 150 ml de agua.",
+      "preparacion": "Infusionar el tomillo en agua hervida 8 minutos tapado. Colar. Agregar miel cuando esté tibio.",
+      "dosis": "Niños de 2–5 años: media taza 2 veces al día. Niños de 6–12 años: media taza 3 veces al día.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2–3 dosis",
+      "conservacion": "Preparar fresco cada día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No dar miel a menores de 12 meses. Si hay dificultad respiratoria, fiebre alta o sibilancias, acudir a urgencias. No reemplaza antibióticos en bronquitis bacteriana.",
+      "uso": "Bronquitis infantil: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | Timol (30-70% del aceite esencial): disrumpe la membrana fosfolipídica bacteriana aumentando la permeabilidad a iones K+ y H+; activo frente a MRSA, Pseudomonas aeruginosa y Klebsiella pneumoniae. Carvacrol (3-15%): mecanismo idéntico y sinérgico. Ambos estimulan la ciliocinesis bronquial.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante",
+        "expectorante"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 339,
+      "titulo": "Baño de Romero para estimulación sensorial y motora",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de romero seco o un ramito grande de romero fresco, 4 litros de agua.",
+      "preparacion": "Preparar decocción de romero en 1 litro de agua por 10 minutos. Colar y agregar al baño tibio. Bañar al niño en la mañana.",
+      "dosis": "2–3 veces por semana como estimulación sensorial en niños de 6 meses a 3 años.",
+      "modo_uso": "Externo — baño tibio estimulante",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 baño",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Solo en niños sin problemas de piel. No exceder temperatura de 37°C. No usar aceite esencial de romero puro en menores de 6 años.",
+      "uso": "Estimulación sensorial y motora: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
+      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
+      "propiedades": [
+        "antioxidante",
+        "estimulante circulatorio",
+        "antiinflamatorio",
+        "antiséptico",
+        "carminativo"
+      ],
+      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 340,
@@ -210,7 +437,53 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 341,
+      "titulo": "Infusión de Tilo y Manzanilla para dentición dolorosa",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de flores de tilo secas, 1 cucharadita de manzanilla, 150 ml de agua.",
+      "preparacion": "Infusionar en agua hervida 8 minutos tapado. Colar bien. Enfriar a temperatura tibia.",
+      "dosis": "Niños de 6–18 meses: 15–30 ml 3 veces al día durante el período de dentición.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 dosis",
+      "conservacion": "Preparar fresco; usar el mismo día",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No dar a menores de 6 meses sin indicación pediátrica. No endulzar con miel antes de los 12 meses. Consultar si hay fiebre junto con la dentición.",
+      "uso": "Dentición dolorosa: relaja el músculo liso intestinal e inhibe mediadores proinflamatorios.",
+      "principios_activos": "Alfa-bisabolol: espasmolítico sobre músculo liso, reduce la secreción de pepsina sin alterar el pH gástrico. Apigenina (flavonoide): inhibe COX-2 y reduce prostaglandinas proinflamatorias. Camazuleno (aceite esencial): antiinflamatorio por inhibición de leucotrienos. | Flavonoides (quercetina, isoquercitrina, tilirósido): modulan receptores GABA/benzodiazepínicos aumentando la inhibición neuronal y receptores 5-HT1A reduciendo la ansiedad. Aceite esencial (farnesol): sedante complementario.",
+      "propiedades": [
+        "antiinflamatorio",
+        "antiespasmódico",
+        "carminativo",
+        "sedante leve",
+        "cicatrizante",
+        "sedante"
+      ],
+      "referencias": "Srivastava JK. et al. Mol Med Rep 2010; PMC2995283; WHO Monographs Vol.1 (1999); Muñoz et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sedantes y benzodiazepinas: potenciación del efecto depresor del SNC.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 342,
@@ -222,7 +495,7 @@
       "dosis": "Aplicar unas gotas en las palmas, calentar frotando y dar masaje abdominal suave al bebé en sentido horario, 2 veces al día.",
       "modo_uso": "Tópico — masaje suave sobre la zona afectada",
       "tiempo_prep": "35 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 frasco (20–30 aplicaciones)",
       "conservacion": "Conservar en lugar fresco y oscuro hasta 4 semanas",
       "evidencia": "Uso tradicional documentado",
@@ -251,7 +524,96 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 343,
+      "titulo": "Inhalación de Eucalipto para congestión infantil",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "3–4 hojas de eucalipto frescas o 1 cucharada seca, 1 litro de agua.",
+      "preparacion": "Hervir el eucalipto en el agua. Retirar del fuego. Colocar al lado de la cama del niño (no cerca) para que el vapor aromatice el ambiente. NO realizar vapor directo en menores de 3 años.",
+      "dosis": "Una sesión de aromatización ambiental de 20–30 minutos, 2 veces al día.",
+      "modo_uso": "Inhalación — respirar los vapores",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Preparar al momento",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Nunca hacer inhalación directa de vapor en menores de 3 años (riesgo de quemadura). No aplicar aceite esencial de eucalipto cerca de la nariz o boca de menores de 6 años.",
+      "uso": "Congestión infantil: el 1,8-cineol fluidifica el moco, estimula el movimiento ciliar bronquial y ejerce acción antiséptica sobre patógenos respiratorios.",
+      "principios_activos": "1,8-Cineol/Eucaliptol (44-84% del aceite esencial): incrementa la frecuencia de batido ciliar facilitando la expectoración; disrumpe la membrana lipídica bacteriana con acción virucida; inhibe TNF-α e IL-6 reduciendo la inflamación bronquial. Activo frente a MRSA y M. tuberculosis.",
+      "propiedades": [
+        "expectorante",
+        "mucolítico",
+        "antiséptico respiratorio",
+        "febrífugo",
+        "broncodilatador"
+      ],
+      "referencias": "Worth H. et al. Respir Med 2009; 103(3):366-371; EMA/HMPC 2012; Salari MH. et al. Clin Microbiol Infect 2006; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 344,
+      "titulo": "Gárgaras de Miel y Salvia para garganta infantil",
+      "categoria": "Pediátrico",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas de salvia seca, 1 cucharada de miel, 200 ml de agua, jugo de medio limón.",
+      "preparacion": "Infusionar la salvia en agua hervida 8 minutos. Colar. Agregar miel (cuando esté tibio) y limón. Usar para gárgaras cuando el niño ya tenga esta habilidad (mínimo 6 años).",
+      "dosis": "Gárgaras de 30 segundos, 3–4 veces al día. No tragar. Niños mayores de 6 años.",
+      "modo_uso": "Tópico oral — gárgaras",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3–4 enjuagues",
+      "conservacion": "Refrigerar hasta 24 h; no usar en bebés",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Solo para niños que ya saben hacer gárgaras (mínimo 6 años). No tragar. No usar miel en menores de 12 meses. Si hay dificultad para tragar, consultar al médico.",
+      "uso": "Garganta infantil: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+      "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
+      "propiedades": [
+        "antimicrobiano",
+        "cicatrizante",
+        "emoliente",
+        "inmunoestimulante",
+        "antioxidante",
+        "antiséptico"
+      ],
+      "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 569,
@@ -292,7 +654,52 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 571,
+      "titulo": "Aceite de Lavanda para Masaje Infantil",
+      "categoria": "Pediátrico",
+      "origen": "Aromaterapia",
+      "ingredientes": "2 cucharadas de aceite de almendras dulces, 2 gotas de aceite esencial de lavanda",
+      "preparacion": "Mezclar los aceites. Calentar ligeramente en la palma de la mano antes de usar.",
+      "dosis": "Masaje corporal 10-15 min antes de dormir",
+      "modo_uso": "Tópico — masaje suave sobre la zona afectada",
+      "tiempo_prep": "3 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Temperatura ambiente 3 meses",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Aromaterapia pediátrica",
+      "contraindicaciones": "Solo para bebés mayores de 3 meses; usar dosis muy diluidas; evitar ingestión",
+      "uso": "Masaje Infantil: el linalol modula canales de calcio y receptores GABA/serotonina reduciendo la excitabilidad del sistema nervioso.",
+      "principios_activos": "Linalol (28-47% del aceite esencial): bloquea transportadores de serotonina (SERT) y canales de calcio VOCC reduciendo la liberación de neurotransmisores excitadores. Acetato de linalilo (38%): modulador de receptores NMDA con efecto ansiolítico adicional.",
+      "propiedades": [
+        "ansiolítico",
+        "sedante",
+        "antiespasmódico",
+        "antiséptico",
+        "cicatrizante"
+      ],
+      "referencias": "Woelk H. & Schläfke S. Phytomedicine 2010; 17(2):94-99; Harada H. et al. Front Behav Neurosci 2018; PMC5437114; EMA/HMPC 2012",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 573,
@@ -333,47 +740,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
-    },
-    {
-      "id": 574,
-      "titulo": "Pomada de Hamamelis para Pañalitis",
-      "categoria": "Pediátrico",
-      "origen": "Herbolaria Americana",
-      "ingredientes": "2 cucharadas de extracto de hamamelis, 3 cucharadas de manteca de cacao, 1 cucharada de cera de abeja",
-      "preparacion": "Fundir la cera y la manteca a baño maría. Agregar el hamamelis. Mezclar. Verter en tarro y solidificar.",
-      "dosis": "Aplicar en zona del pañal en cada cambio",
-      "modo_uso": "Tópico — aplicar directamente sobre la piel",
-      "tiempo_prep": "20 min + solidificado",
-      "dificultad": "Medio",
-      "rendimiento": "100 g",
-      "conservacion": "Temperatura ambiente 3 meses",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Herbolaria americana y europea",
-      "contraindicaciones": "No usar si hay infección fúngica activa; puede causar irritación en piel muy sensible",
-      "uso": "Pañalitis. Cuidado pediátrico suave.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Cólicos infantiles",
-        "Infecciones respiratorias en niños",
-        "Nerviosismo e insomnio infantil",
-        "Fiebre leve en niños"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
-      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
-      "sinergia_plantas": [
-        "Manzanilla",
-        "Melisa",
-        "Tilo"
-      ],
-      "principios_activos": "Ácido esteárico y ácido oleico: emolientes que restauran la barrera lipídica cutánea. Polifenoles (procianidinas): antioxidantes y antiinflamatorios dérmicos. Vitamina E y fitosteroles: regeneradores celulares.",
-      "propiedades": [
-        "carminativo",
-        "antiespasmódico",
-        "sedante leve",
-        "antipirético"
-      ]
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 575,
@@ -414,7 +783,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 577,
@@ -455,7 +826,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 579,
@@ -497,7 +870,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 582,
@@ -539,7 +914,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 783,
@@ -580,7 +957,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 784,
@@ -621,7 +1000,9 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 785,
@@ -661,7 +1042,9 @@
         "antiespasmódico",
         "sedante leve",
         "antipirético"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 789,
@@ -703,35 +1086,28 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
-      "id": 790,
-      "titulo": "Jarabe de Saúco y Miel para la Gripe Infantil",
+      "id": 791,
+      "titulo": "Infusión de Verbena para el Niño Hiperactivo",
       "categoria": "Pediátrico",
       "origen": "Herbolaria Europea",
-      "ingredientes": "1 taza de flores de saúco negro seco, 2 tazas de agua, 1 taza de miel cruda",
-      "preparacion": "Hervir las flores en el agua 15 min. Colar. Enfriar. Mezclar con la miel.",
-      "dosis": "Para niños de 1-5 años: 1 cucharadita 3 veces al día; mayores: 1 cucharada",
-      "modo_uso": "Oral — jarabe",
-      "tiempo_prep": "20 min",
+      "ingredientes": "1/2 cucharadita de verbena seca, 200 ml de agua",
+      "preparacion": "Hervir el agua. Infundir 8 min. Colar.",
+      "dosis": "Para niños mayores de 3 años: 1/4 taza 2 veces al día",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
-      "rendimiento": "300 ml",
-      "conservacion": "Refrigerar 2 semanas",
+      "rendimiento": "200 ml",
+      "conservacion": "Refrigerar 24 h",
       "evidencia": "Uso tradicional documentado",
       "fuente_tradicion": "Herbolaria europea",
-      "contraindicaciones": "No para menores de 1 año; solo flores seguras de saúco negro",
-      "uso": "Gripe Infantil: los alcaloides inducen vasocongestion pélvica y contracciones del músculo liso uterino facilitando el desprendimiento endometrial.",
-      "principios_activos": "Metilnonilcetona y metilheptilcetona (cetonas del aceite esencial): estimulan la motilidad uterina por acción directa sobre músculo liso. Rutósido (flavonoide): refuerza la pared capilar endometrial. Furanocumarinas: potencian la acción espasmódica. ADVERTENCIA: abortiva en dosis altas. | Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-      "propiedades": [
-        "emenagogo",
-        "antiespasmódico",
-        "vasoprotector",
-        "antiinflamatorio",
-        "antimicrobiano",
-        "cicatrizante"
-      ],
-      "referencias": "Monografía ISP-MINSAL: Ruta graveolens; Muñoz et al. 1999; Montes & Wilkomirsky 1985; WHO Monographs Vol.1 (1999); Kwakman PH. et al. FASEB J 2010",
+      "contraindicaciones": "No en embarazo; no en menores de 3 años",
+      "uso": "Niño Hiperactivo. Cuidado pediátrico suave.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
         "Cólicos infantiles",
         "Infecciones respiratorias en niños",
@@ -739,13 +1115,22 @@
         "Fiebre leve en niños"
       ],
       "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "CONTRAINDICADO en embarazo: puede provocar contracciones uterinas. No usar durante la lactancia sin supervisión médica.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
       "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
       "sinergia_plantas": [
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "sedante leve",
+        "antipirético"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 793,
@@ -785,7 +1170,52 @@
         "antiespasmódico",
         "sedante leve",
         "antipirético"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 796,
+      "titulo": "Aceite Nasal de Sésamo para Niños",
+      "categoria": "Pediátrico",
+      "origen": "Medicina Ayurveda",
+      "ingredientes": "Aceite de sésamo puro (ajonjolí)",
+      "preparacion": "Tibiar levemente el aceite. Aplicar 1 gota en cada fosa nasal con gotero.",
+      "dosis": "1-2 gotas por cada fosa nasal antes de dormir",
+      "modo_uso": "Nasya ayurvédico para congestion nasal en niños",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 sesión",
+      "conservacion": "Temperatura ambiente",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina Ayurveda pediátrica",
+      "contraindicaciones": "Solo para niños mayores de 6 meses; usar aceite de calidad alimentaria",
+      "uso": "Niños: la alicina destruye membranas microbianas y la S-alilcisteína inhibe la enzima convertidora de angiotensina (ECA).",
+      "principios_activos": "Alicina (tiosulfinato de dialilo, formada al triturar): altera permeabilidad de membranas bacterianas/fúngicas por oxidación de grupos tiol. Ajoeno: inhibe HMG-CoA reductasa (reduce colesterol). S-alilcisteína: inhibe ECA reduciendo la presión arterial; estimula producción de H2S y NO vasodilatadores.",
+      "propiedades": [
+        "antimicrobiano",
+        "antifúngico",
+        "hipotensor",
+        "hipocolesterolemiante",
+        "inmunoestimulante"
+      ],
+      "referencias": "Bayan L. et al. Avicenna J Phytomed 2014; 4(1):1-14; WHO Monographs Vol.1 (1999); Ried K. et al. BMC Cardiovasc Disord 2008; Muñoz et al. 1999",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Anticoagulantes (warfarina, heparina): potencia su efecto aumentando riesgo de sangrado. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 797,
@@ -826,7 +1256,51 @@
         "Manzanilla",
         "Melisa",
         "Tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 1089,
+      "titulo": "Preparado de Tiapito para Desarrollo Infantil y Reflujo (Rapa Nui)",
+      "categoria": "Pediátrico",
+      "origen": "Rapa Nui / Isla de Pascua",
+      "ingredientes": "15 g de hojas frescas de tiapito (Ophioglossum reticulatum), 300 ml de agua, 1 cucharadita de miel (solo para niños mayores de 1 año)",
+      "preparacion": "1. Recolectar hojas tiernas de tiapito en zonas húmedas de la isla; seleccionar hojas sin manchas ni daño. 2. Lavar con agua limpia y escurrir. 3. Triturar las hojas levemente con los dedos para liberar los jugos. 4. Calentar el agua a 80 °C (sin que hierva) y agregar las hojas; cubrir y reposar 10 minutos. 5. Colar, dejar enfriar a temperatura agradable y agregar miel solo si el niño tiene más de 1 año.",
+      "dosis": "Niños 6-12 meses: 1 cucharadita 3 veces al día. Niños 1-5 años: 2 cucharaditas 3 veces al día. Siempre consultar al taote antes.",
+      "modo_uso": "Oral — infusión tibia",
+      "tiempo_prep": "15 min",
+      "dificultad": "Media",
+      "rendimiento": "250 ml (varias dosis)",
+      "conservacion": "Refrigerar; consumir en 24 horas",
+      "evidencia": "Uso tradicional registrado por el Proyecto FONDEF PUCV. El tiapito es uno de los helechos medicinales más respetados de la farmacopea rapanui para infancia.",
+      "fuente_tradicion": "Rapa Nui",
+      "contraindicaciones": "No administrar miel a menores de 1 año (riesgo de botulismo). Consultar siempre al taote o pediatra antes de usar en lactantes. No usar si el bebé muestra reacción alérgica.",
+      "uso": "Estimula el apetito en niños inapetentes, alivia el reflujo infantil y se usa en la tradición rapanui para favorecer el desarrollo físico sano de los niños.",
+      "principios_activos": "Compuestos fenólicos y mucílagos de Ophioglossum reticulatum; glicósidos flavonoides con acción digestiva y tónica documentados en Ophioglossaceae.",
+      "propiedades": [
+        "digestivo",
+        "tónico",
+        "estimulante del apetito",
+        "antirreflujo"
+      ],
+      "referencias": "Chateauneuf R. Proyecto FONDEF PUCV 2010-2012; Hospital Hanga Roa programa pediátrico 2012; Mabberley DJ. Plant-Book, Cambridge Univ. Press 2008.",
+      "indicaciones_principales": [
+        "Cólicos infantiles",
+        "Infecciones respiratorias en niños",
+        "Nerviosismo e insomnio infantil",
+        "Fiebre leve en niños"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Lactancia: en dosis bajas generalmente seguro. Embarazo: usar con precaución y consultar con profesional.",
+      "duracion_tratamiento": "3-5 días; consultar pediatra si no hay mejoría",
+      "sinergia_plantas": [
+        "Manzanilla",
+        "Melisa",
+        "Tilo"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 1120,
@@ -837,7 +1311,7 @@
       "preparacion": "Calentar agua hasta casi hervor. Retirar y agregar hierbas. Tapar 5 min. Colar.",
       "dosis": "1/2 taza tibia para niños 3-6 años; 1 taza para mayores de 6, hasta 2 veces al día",
       "modo_uso": "Infusión suave",
-      "tiempo_prep": "8 minutos",
+      "tiempo_prep": "8 min",
       "dificultad": "Fácil",
       "rendimiento": "Aprox. 180 ml",
       "conservacion": "Recién hecha",
@@ -867,7 +1341,9 @@
         "Manzanilla",
         "Anís verde",
         "Melisa"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 1164,
@@ -878,7 +1354,7 @@
       "preparacion": "Hervir el agua. Verter sobre las hierbas. Tapar e infundir 8 minutos. Colar muy bien y entibiar.",
       "dosis": "Lactantes 4-12 meses: 30-50 ml repartidos en el día. Niños 1-3 años: 100 ml. Niños mayores: 150-200 ml.",
       "modo_uso": "Infusión tibia",
-      "tiempo_prep": "10 minutos",
+      "tiempo_prep": "10 min",
       "dificultad": "Fácil",
       "rendimiento": "200 ml",
       "conservacion": "Preparar fresca, máximo 8 horas refrigerada",
@@ -911,7 +1387,55 @@
         "tilo",
         "cedrón",
         "toronjil"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "id": 1186,
+      "titulo": "Infusión pediátrica para resfrío de saúco, tilo y limón",
+      "categoria": "Pediátrico",
+      "origen": "Tradición europea y chilena",
+      "ingredientes": "1 cucharadita de flores de saúco, 1 cucharadita de flores de tilo, 1/2 cucharadita de manzanilla, 1 rodaja de limón, 1 cucharadita de miel (solo mayores 1 año), 250 ml de agua",
+      "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar. Añadir limón y miel al entibiar.",
+      "dosis": "Niños 1-3 años: 50-80 ml hasta 3 veces al día. Niños 4-10 años: 100-150 ml. Mayores: 1 taza.",
+      "modo_uso": "Infusión tibia",
+      "tiempo_prep": "12 min",
+      "dificultad": "Fácil",
+      "rendimiento": "250 ml",
+      "conservacion": "Preparar fresca",
+      "evidencia": "Saúco con evidencia en cuadros gripales (Tiralongo, 2016); miel mejor que dextrometorfano para tos nocturna (Paul, 2007)",
+      "fuente_tradicion": "Herbolaria pediátrica europea",
+      "contraindicaciones": "Menores de 12 meses (miel). Alergia a asteráceas. Cuadros respiratorios severos requieren consulta médica.",
+      "uso": "Las antocianinas del saúco inhiben hemaglutininas virales bloqueando entrada del virus a células del epitelio respiratorio, los flavonoides del tilo (farnesol) inducen sudoración leve favoreciendo termorregulación febril y la apigenina de manzanilla aporta efecto ansiolítico que mejora descanso.",
+      "principios_activos": "Antocianinas, ácidos fenólicos (saúco): antivirales. Farnesol, tiliacina (tilo): diaforético. Apigenina (manzanilla). Vitamina C (limón).",
+      "propiedades": [
+        "antiviral",
+        "diaforético",
+        "antipirético suave",
+        "antiinflamatorio",
+        "calmante"
+      ],
+      "referencias": [
+        "Tiralongo E. et al. Nutrients (2016) 8:182",
+        "Paul IM. et al. Arch Pediatr Adolesc Med (2007) 161:1140"
+      ],
+      "indicaciones_principales": [
+        "resfrío común infantil",
+        "fiebre leve",
+        "tos nocturna",
+        "congestión leve",
+        "malestar general"
+      ],
+      "interacciones_medicamentos": "Ninguna habitual a estas dosis",
+      "embarazo_lactancia": "Seguro",
+      "duracion_tratamiento": "Hasta resolución, máximo 7 días",
+      "sinergia_plantas": [
+        "matico (mayor 5 años)",
+        "llantén"
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "id": 1203,
@@ -922,7 +1446,7 @@
       "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar muy bien. Entibiar.",
       "dosis": "Niños 2-5 años: 50-100 ml repartidos durante el día. Mayores: 150-200 ml.",
       "modo_uso": "Infusión tibia",
-      "tiempo_prep": "12 minutos",
+      "tiempo_prep": "12 min",
       "dificultad": "Fácil",
       "rendimiento": "250 ml",
       "conservacion": "Preparar fresca, máximo 6 horas refrigerada",
@@ -954,7 +1478,45 @@
       "sinergia_plantas": [
         "melisa",
         "tilo"
-      ]
+      ],
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
+    },
+    {
+      "titulo": "Agua de Hinojo para cólicos del lactante",
+      "categoria": "General",
+      "origen": "Medicina tradicional europea",
+      "ingredientes": "- ½ cucharadita (aprox. 1 g) de frutos de hinojo. - 200 ml de agua.",
+      "preparacion": "1. Hervir el agua con los frutos de hinojo durante 2 minutos. 2. Retirar del fuego, tapar y dejar reposar 10 minutos. 3. Colar con gasa fina y dejar entibiar.",
+      "dosis": "- Lactantes de 1-6 meses: 5-10 ml (1-2 cucharaditas) antes de cada toma, máximo 30-50 ml al día repartidos. - Lactantes de 6-12 meses: 10-15 ml antes de cada toma.",
+      "modo_uso": "Decocción",
+      "tiempo_prep": "2 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1-2 tazas",
+      "conservacion": "Consumir inmediatamente.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Fitoterapia europea",
+      "contraindicaciones": "- Recién nacidos menores de 1 mes. - No añadir miel en menores de 1 año. - Suspender si aparece cualquier reacción adversa.",
+      "uso": "Cólicos del lactante y gases en bebés: el hinojo relaja los espasmos intestinales y facilita la expulsión de gases, calmando el llanto y la irritabilidad del bebé.",
+      "principios_activos": "Anetol y fenchona: aceites esenciales con acción carminativa y antiespasmódica suave sobre la musculatura lisa intestinal del lactante, reduciendo la formación de gases.",
+      "propiedades": [
+        "carminativo",
+        "antiespasmódico",
+        "digestivo suave",
+        "calmante"
+      ],
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
+      "indicaciones_principales": "",
+      "interacciones_medicamentos": "",
+      "embarazo_lactancia": "",
+      "duracion_tratamiento": "3 días. No repetir sin consultar al pediatra.",
+      "sinergia_plantas": "",
+      "nivel_seguridad": "⚠️ Precaución (+1 mes, supervisión pediátrica)",
+      "distribucion": "",
+      "efectos_secundarios": "",
+      "id": 1258,
+      "modulo": "pediatrico",
+      "submodulo": "colicos_digestion"
     },
     {
       "titulo": "Agua de Hinojo para cólicos del lactante",
@@ -971,7 +1533,7 @@
       "evidencia": "Nutraceuticals and Pain Disorders of the Gut–Brain\nInteraction in Infants and Children (2024). Una revisión\nsistemática publicada en PubMed reporta reducciones\nsignificativas en los episodios de cólico con preparaciones\nde hinojo (Infant Colic-What works: A Systematic Review).",
       "fuente_tradicion": "Medicina tradicional europea",
       "contraindicaciones": "- Recién nacidos menores de 1 mes.\n- No añadir miel en menores de 1 año.\n- Suspender si aparece cualquier reacción adversa.",
-      "id": 1346,
+      "id": 1557,
       "uso": "Alivio de cólicos y gases en lactantes.",
       "planta_principal": "Hinojo (Foeniculum vulgare)",
       "interacciones": "No se han descrito a las dosis indicadas.",
@@ -993,7 +1555,7 @@
       "evidencia": "La Organización Mundial de la Salud incluye la\nmanzanilla en sus monografías. La Comisión E alemana aprueba\nsu uso en trastornos digestivos leves, incluyendo pediatría.",
       "fuente_tradicion": "Medicina tradicional europea",
       "contraindicaciones": "- Recién nacidos y menores de 3 meses.\n- Alergia a las asteráceas.\n- No usar en caso de fiebre sin diagnóstico médico.",
-      "id": 1361,
+      "id": 1572,
       "uso": "Alivio de cólicos leves, malestar digestivo e\ninquietud en lactantes mayores de 3 meses.",
       "planta_principal": "Manzanilla (Matricaria chamomilla)",
       "interacciones": "No se han descrito a las dosis indicadas.",

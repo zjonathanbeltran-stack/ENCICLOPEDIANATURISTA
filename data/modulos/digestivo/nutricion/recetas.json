@@ -40,7 +40,9 @@
         "remineralizante",
         "reconstituyente",
         "vitaminizante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 49,
@@ -80,7 +82,51 @@
         "remineralizante",
         "reconstituyente",
         "vitaminizante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
+    },
+    {
+      "id": 52,
+      "titulo": "Tintura de Ajenjo para Estimular el Apetito",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "1 parte de hojas secas de ajenjo, 5 partes de alcohol de 40°.",
+      "preparacion": "Macerar por 15 días. Tomar de 5 a 10 gotas en un poco de agua antes de las comidas para estimular el apetito y la digestión.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
+      "uso": "Estimular el Apetito. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 92,
@@ -122,7 +168,9 @@
         "llantén",
         "diente de león",
         "maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 110,
@@ -163,48 +211,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
-    },
-    {
-      "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
-      "categoria": "Diarrea",
-      "origen": "Popular Chileno",
-      "ingredientes": "2 cucharadas de arroz blanco, 500 ml de agua, 1 rama de canela, jugo de 1/2 limón.",
-      "preparacion": "Hervir el arroz con la canela en el agua 20 minutos. Colar guardando solo el agua. Agregar el limón. Beber tibia a pequeños sorbos durante el día. El agua de arroz aporta sales minerales, la canela actúa como astringente y el limón acidifica el intestino.",
-      "id": 252,
-      "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
-      "modo_uso": "Oral — infusión tibia o fría",
-      "tiempo_prep": "25 min",
-      "dificultad": "Medio",
-      "rendimiento": "3–4 tazas",
-      "conservacion": "Refrigerar hasta 24 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
-      "uso": "Diarrea: la vitamina C activa la inmunidad innata y los flavonoides ejercen acción antiinflamatoria y antiséptica.",
-      "principios_activos": "Ácido ascórbico (vitamina C): cofactor de la síntesis de colágeno; estimula la función de neutrófilos y linfocitos NK; es antioxidante que protege las membranas celulares. Hesperidina (flavonoide): reduce la permeabilidad capilar y tiene acción antiinflamatoria. Limoneno: antiséptico.",
-      "propiedades": [
-        "inmunoestimulante",
-        "antiséptico",
-        "febrífugo",
-        "antioxidante",
-        "alcalinizante"
       ],
-      "referencias": "Muñoz et al. 1999; MINSAL 2010; Hoffmann 1992; Montes & Wilkomirsky 1985",
-      "indicaciones_principales": [
-        "Diarrea aguda leve",
-        "Cólicos abdominales",
-        "Gastroenteritis viral leve",
-        "Irritación de mucosa intestinal"
-      ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
-      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
-      "sinergia_plantas": [
-        "Llantén",
-        "Arrayán",
-        "Manzanilla"
-      ]
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 373,
@@ -216,7 +225,7 @@
       "dosis": "1 cucharada 3 veces al día como preventivo en invierno; 2 cucharadas 4 veces al día en resfriados activos.",
       "modo_uso": "Oral — jarabe",
       "tiempo_prep": "25 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 frasco (500 ml)",
       "conservacion": "Refrigerar hasta 3 meses; no usar si fermenta",
       "evidencia": "Uso tradicional documentado",
@@ -246,7 +255,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 374,
@@ -288,7 +299,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 375,
@@ -329,7 +342,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 376,
@@ -370,7 +385,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 377,
@@ -413,7 +430,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 378,
@@ -425,7 +444,7 @@
       "dosis": "1–2 cucharadas al día como parte del desayuno.",
       "modo_uso": "Oral — mermelada natural",
       "tiempo_prep": "45 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "2 frascos pequeños",
       "conservacion": "Refrigerar hasta 3 semanas una vez abierto; hasta 6 meses sin abrir",
       "evidencia": "Uso tradicional documentado",
@@ -455,7 +474,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 379,
@@ -496,7 +517,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 380,
@@ -537,7 +560,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 381,
@@ -578,7 +603,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 382,
@@ -619,7 +646,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 383,
@@ -660,7 +689,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 384,
@@ -701,7 +732,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 385,
@@ -743,7 +776,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 386,
@@ -755,7 +790,7 @@
       "dosis": "1 cucharada al día para aderezar ensaladas como suplemento antiinflamatorio.",
       "modo_uso": "Oral — aceite medicado (condimento en frío)",
       "tiempo_prep": "50 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "250 ml (25 porciones)",
       "conservacion": "Refrigerar hasta 1 mes",
       "evidencia": "Uso tradicional documentado",
@@ -785,7 +820,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 387,
@@ -826,7 +863,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 407,
@@ -867,7 +906,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 410,
@@ -909,7 +950,9 @@
         "Boldo",
         "Hinojo",
         "Manzanilla"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 412,
@@ -951,7 +994,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 488,
@@ -991,7 +1036,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 489,
@@ -1030,7 +1077,9 @@
         "remineralizante",
         "reconstituyente",
         "vitaminizante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 492,
@@ -1070,7 +1119,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 493,
@@ -1109,7 +1160,9 @@
         "remineralizante",
         "reconstituyente",
         "vitaminizante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 598,
@@ -1150,7 +1203,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 599,
@@ -1162,7 +1217,7 @@
       "dosis": "2-3 cucharadas al día con comidas",
       "modo_uso": "Comenzar con pequeñas cantidades para adaptar la flora intestinal",
       "tiempo_prep": "5 días fermentación",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 kg",
       "conservacion": "Refrigerar hasta 3 meses",
       "evidencia": "Uso tradicional documentado",
@@ -1192,7 +1247,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 600,
@@ -1233,7 +1290,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 601,
@@ -1274,7 +1333,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 602,
@@ -1286,7 +1347,7 @@
       "dosis": "2-3 cucharadas al día con comidas",
       "modo_uso": "Asegurarse de que el repollo esté siempre sumergido en su líquido",
       "tiempo_prep": "7-14 días fermentación",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 kg",
       "conservacion": "Refrigerar hasta 6 meses",
       "evidencia": "Uso tradicional documentado",
@@ -1315,7 +1376,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 603,
@@ -1357,7 +1420,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 604,
@@ -1399,7 +1464,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 605,
@@ -1440,7 +1507,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 606,
@@ -1481,7 +1550,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 607,
@@ -1522,7 +1593,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 608,
@@ -1562,7 +1635,9 @@
         "remineralizante",
         "depurativo",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 609,
@@ -1603,7 +1678,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 610,
@@ -1644,7 +1721,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 611,
@@ -1684,7 +1763,9 @@
         "remineralizante",
         "depurativo",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 612,
@@ -1726,46 +1807,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
-    },
-    {
-      "id": 727,
-      "titulo": "Ayuno con Zumo de Piña para Parásitos",
-      "categoria": "Antiparasitario",
-      "origen": "Naturopatía",
-      "ingredientes": "1/2 piña natural, agua mineral",
-      "preparacion": "Extraer el jugo de la piña. Consumir con agua mineral.",
-      "dosis": "1-2 vasos de jugo en ayunas por 3 días, acompañado solo de agua",
-      "modo_uso": "La bromelina de la piña puede debilitar la membrana de parásitos",
-      "tiempo_prep": "5 min",
-      "dificultad": "Fácil",
-      "rendimiento": "2 vasos",
-      "conservacion": "Consumir fresco",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Naturopatía latinoamericana",
-      "contraindicaciones": "No reemplaza tratamiento médico confirmado; solo para parásitos leves",
-      "uso": "Parásitos. Eliminación de parásitos intestinales.",
-      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-      "indicaciones_principales": [
-        "Parasitosis intestinal (oxiuros, áscaris, tenias)",
-        "Náuseas asociadas a parásitos",
-        "Limpieza intestinal preventiva"
       ],
-      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-      "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
-      "sinergia_plantas": [
-        "Ajo",
-        "Paico",
-        "Semillas de calabaza"
-      ],
-      "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
-      "propiedades": [
-        "antiparasitario",
-        "antihelmíntico",
-        "antiséptico intestinal",
-        "purificador"
-      ]
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 888,
@@ -1807,7 +1851,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 889,
@@ -1849,7 +1895,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 890,
@@ -1889,7 +1937,9 @@
         "remineralizante",
         "depurativo",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 891,
@@ -1931,7 +1981,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 892,
@@ -1973,7 +2025,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 893,
@@ -2015,7 +2069,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 894,
@@ -2027,7 +2083,7 @@
       "dosis": "1 taza al día",
       "modo_uso": "Las setas medicinales son reconocidas inmunomoduladoras",
       "tiempo_prep": "35 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "1 taza",
       "conservacion": "Refrigerar 2 días",
       "evidencia": "Uso tradicional documentado",
@@ -2055,7 +2111,9 @@
         "remineralizante",
         "depurativo",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 895,
@@ -2096,7 +2154,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 896,
@@ -2108,7 +2168,7 @@
       "dosis": "1 porción como almuerzo 3 veces por semana",
       "modo_uso": "Las nueces aportan omega-3; el ají amarillo es rico en vitamina C",
       "tiempo_prep": "40 min",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "4 porciones",
       "conservacion": "Refrigerar 3 días",
       "evidencia": "Uso tradicional documentado",
@@ -2138,7 +2198,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 897,
@@ -2178,7 +2240,9 @@
         "remineralizante",
         "depurativo",
         "inmunoestimulante"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 898,
@@ -2220,7 +2284,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 899,
@@ -2262,7 +2328,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 900,
@@ -2303,7 +2371,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 901,
@@ -2344,7 +2414,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 902,
@@ -2385,7 +2457,9 @@
         "Ortiga",
         "Diente de León",
         "Maqui"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 1065,
@@ -2424,7 +2498,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 1078,
@@ -2463,7 +2539,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 1159,
@@ -2474,7 +2552,7 @@
       "preparacion": "Remojar cochayuyo 30 minutos y picar. Saltear puerro, ajo, jengibre y cúrcuma en aceite de oliva. Agregar cochayuyo, zanahoria y agua. Cocinar 40 minutos. Añadir orégano y pimienta al final. Servir caliente.",
       "dosis": "1 taza, 1-2 veces al día durante convalecencia o invierno",
       "modo_uso": "Caldo",
-      "tiempo_prep": "50 minutos",
+      "tiempo_prep": "50 min",
       "dificultad": "Fácil",
       "rendimiento": "4 porciones",
       "conservacion": "Refrigerado hasta 3 días, congelado hasta 2 meses",
@@ -2508,7 +2586,9 @@
         "llantén",
         "ortiga",
         "diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
     },
     {
       "id": 1192,
@@ -2519,7 +2599,7 @@
       "preparacion": "Hervir agua con cola de caballo 10 minutos. Apagar, añadir el resto. Tapar 15 minutos. Colar.",
       "dosis": "2 tazas al día durante 4-6 semanas",
       "modo_uso": "Decocción mixta",
-      "tiempo_prep": "30 minutos",
+      "tiempo_prep": "30 min",
       "dificultad": "Fácil",
       "rendimiento": "400 ml",
       "conservacion": "24 horas refrigerado",
@@ -2551,7 +2631,154 @@
       "sinergia_plantas": [
         "diente de león",
         "perejil"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nutricion"
+    },
+    {
+      "id": 1453,
+      "titulo": "Batido Nutritivo de Moringa y Plátano para Prevenir la Desnutrición",
+      "categoria": "Energizante",
+      "modulo": "digestivo",
+      "submodulo": "nutricion",
+      "origen": "Tradición Latinoamericana",
+      "ingredientes": "1 cucharadita de polvo de hojas secas de moringa, 1 plátano maduro, 1 cucharadita de miel, 200 ml de leche o bebida vegetal",
+      "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente en el desayuno o a media mañana.",
+      "dosis": "1 vaso al día, preferentemente por la mañana. Se puede consumir de forma continua por períodos de hasta 3 meses.",
+      "modo_uso": "Oral — batido fresco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Tradición Latinoamericana",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia a la moringa o al plátano. En diabetes, controlar el aporte de carbohidratos. No usar durante el embarazo sin consultar.",
+      "uso": "Desnutrición, debilidad y convalecencia: la moringa es un superalimento que aporta proteínas, vitaminas y minerales esenciales para recuperar la fuerza y prevenir carencias nutricionales.",
+      "propiedades": [
+        "nutritivo",
+        "reconstituyente",
+        "energizante",
+        "antioxidante",
+        "inmunoestimulante"
+      ],
+      "principios_activos": "Proteínas, calcio, hierro, vitamina A, vitamina C, potasio (moringa): la hoja de moringa es una de las fuentes vegetales más completas de nutrientes esenciales. Carbohidratos y potasio (plátano): energía rápida y electrolitos.",
+      "referencias": "Doménech Asensi G et al. Moringa oleifera: Revisión sobre aplicaciones y usos en alimentos. 2017; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1454,
+      "titulo": "Batido de Avena, Nueces y Miel para la Energía Sostenida",
+      "categoria": "Energizante",
+      "modulo": "digestivo",
+      "submodulo": "nutricion",
+      "origen": "Popular Chileno",
+      "ingredientes": "3 cucharadas de avena integral, 2 nueces peladas, 1 cucharadita de miel, 200 ml de leche o bebida vegetal",
+      "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente en el desayuno.",
+      "dosis": "1 vaso al día, por períodos prolongados. Descansar 1 semana cada 3 meses.",
+      "modo_uso": "Oral — batido fresco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia a las nueces, avena o lácteos. En diabetes, controlar el aporte de carbohidratos.",
+      "uso": "Cansancio, debilidad y falta de energía: la avena y las nueces proporcionan energía de liberación lenta, mientras la miel aporta vitalidad inmediata para afrontar el día.",
+      "propiedades": [
+        "nutritivo",
+        "energizante",
+        "saciante",
+        "antioxidante",
+        "neuroprotector"
+      ],
+      "principios_activos": "Beta-glucanos (avena): fibra soluble que proporciona energía sostenida. Ácidos grasos omega-3 (nueces): nutrientes esenciales para el cerebro. Miel: glucosa y fructosa de rápida absorción.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1455,
+      "titulo": "Infusión de Ortiga y Miel para Reforzar el Organismo",
+      "categoria": "Energizante",
+      "modulo": "digestivo",
+      "submodulo": "nutricion",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharaditas de hojas secas de ortiga, 250 ml de agua, 1 cucharadita de miel",
+      "preparacion": "Hervir el agua. Verter sobre la ortiga, tapar y dejar reposar 10 minutos. Colar, añadir miel cuando esté tibio y beber.",
+      "dosis": "1 taza al día, preferentemente por la mañana. Ciclos de 4 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en insuficiencia renal o cardíaca sin supervisión. No usar durante el embarazo sin consultar.",
+      "uso": "Debilidad, anemia y falta de vitalidad: la ortiga es rica en hierro y minerales que nutren la sangre y fortalecen el organismo, combatiendo el cansancio y la fatiga.",
+      "propiedades": [
+        "nutritivo",
+        "reconstituyente",
+        "antianémico",
+        "energizante",
+        "remineralizante"
+      ],
+      "principios_activos": "Hierro, sílice, vitamina C (ortiga): la combinación de hierro y vitamina C natural facilita la absorción del hierro y la formación de hemoglobina. Flavonoides: acción antioxidante y antiinflamatoria.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Urtica dioica."
+    },
+    {
+      "id": 1456,
+      "titulo": "Batido de Manzana, Zanahoria y Jengibre para la Vitalidad",
+      "categoria": "Energizante",
+      "modulo": "digestivo",
+      "submodulo": "nutricion",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 manzana roja con cáscara, 1 zanahoria mediana, 1 rodaja fina de jengibre fresco, 200 ml de agua",
+      "preparacion": "Lavar bien la manzana y la zanahoria. Trocearlas y licuarlas con el jengibre y el agua. Colar si se desea una textura más fina y beber de inmediato.",
+      "dosis": "1 vaso al día, preferentemente en ayunas o a media mañana.",
+      "modo_uso": "Oral — jugo fresco",
+      "tiempo_prep": "10 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a los ingredientes. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 meses.",
+      "uso": "Falta de energía, piel apagada y defensas bajas: la manzana y la zanahoria aportan vitaminas y antioxidantes que revitalizan el organismo y fortalecen el sistema inmunológico.",
+      "propiedades": [
+        "nutritivo",
+        "energizante",
+        "antioxidante",
+        "inmunoestimulante",
+        "digestivo"
+      ],
+      "principios_activos": "Betacaroteno (zanahoria): precursor de vitamina A, esencial para la piel y las mucosas. Pectina (manzana): fibra soluble prebiótica. Gingeroles (jengibre): acción termogénica y estimulante.",
+      "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+    },
+    {
+      "id": 1457,
+      "titulo": "Batido de Espirulina y Piña para la Recuperación Física",
+      "categoria": "Energizante",
+      "modulo": "digestivo",
+      "submodulo": "nutricion",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de espirulina en polvo, 1 rodaja de piña natural, 200 ml de agua o agua de coco",
+      "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente después del ejercicio o como merienda.",
+      "dosis": "1 vaso al día. Ciclos de 4 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — batido fresco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 vaso (250 ml aproximadamente)",
+      "conservacion": "Consumir de inmediato. No guardar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en caso de alergia a la espirulina, fenilcetonuria o enfermedades autoinmunes sin supervisión. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 años.",
+      "uso": "Fatiga, recuperación después del ejercicio y falta de vitalidad: la espirulina y la piña reponen nutrientes esenciales, combaten la inflamación y aceleran la recuperación muscular.",
+      "propiedades": [
+        "nutritivo",
+        "reconstituyente",
+        "energizante",
+        "antiinflamatorio",
+        "antioxidante"
+      ],
+      "principios_activos": "Proteínas, hierro y vitamina B12 (espirulina): fuente concentrada de nutrientes que estimulan la producción de glóbulos rojos. Bromelina (piña): enzima proteolítica con acción antiinflamatoria y digestiva.",
+      "referencias": "MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
     },
     {
       "titulo": "Caldo de Cochayuyo como fuente de yodo y minerales",
@@ -2568,7 +2795,7 @@
       "evidencia": "\"Composición nutricional de algas chilenas\" (Revista\nChilena de Nutrición). Monografías sobre el contenido de yodo\nen alimentos marinos de la FAO. Estudios de la Universidad\nAustral de Chile sobre las propiedades del cochayuyo.",
       "fuente_tradicion": "Medicina tradicional mapuche y chilota",
       "contraindicaciones": "- Hipertiroidismo o bocio nodular.\n- Alergia al yodo.\n- Embarazo y lactancia: consultar al médico antes de su\n  consumo regular.\n- No usar en niños menores de 6 años sin supervisión pediátrica.",
-      "id": 1342,
+      "id": 1553,
       "uso": "Aporte natural de yodo, fibra, calcio y otros\nminerales. Complemento en dietas para el hipotiroidismo leve\npor déficit de yodo.",
       "planta_principal": "Cochayuyo (Durvillaea antarctica)",
       "interacciones": "- Puede interferir con medicamentos para la tiroides\n  (levotiroxina). Separar al menos 4 horas.\n- Puede potenciar el efecto de anticoagulantes.",

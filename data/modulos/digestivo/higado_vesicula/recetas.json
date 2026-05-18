@@ -39,7 +39,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 32,
@@ -82,7 +84,9 @@
         "cardo mariano",
         "alcachofa",
         "menta"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 54,
@@ -121,7 +125,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 114,
@@ -160,48 +166,51 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
-      "id": 119,
-      "titulo": "Agua de Romero para la Digestión",
-      "categoria": "Digestivo",
-      "origen": "Popular",
-      "ingredientes": "Hojas de romero, 1 taza de agua.",
-      "preparacion": "Preparar una infusión con hojas de romero para aliviar los problemas digestivos y la congestión del hígado y vesícula.",
-      "dosis": "1 taza, 2–3 veces al día después de las comidas",
-      "modo_uso": "Oral — infusión caliente o tibia",
-      "tiempo_prep": "10 min",
+      "id": 351,
+      "titulo": "Infusión de Bailahúen para el hígado y las penas (peuma hepático)",
+      "categoria": "Hepático",
+      "origen": "Mapuche",
+      "ingredientes": "1 cucharada de partes aéreas de bailahúen seco, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio, idealmente al amanecer.",
+      "dosis": "1 taza en ayunas durante 10 días. Descansar 10 días antes de repetir.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "12 min",
       "dificultad": "Fácil",
-      "rendimiento": "2–3 tazas",
-      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
-      "evidencia": "Uso tradicional documentado",
-      "fuente_tradicion": "Popular Chileno",
-      "contraindicaciones": "No usar en embarazo sin orientación médica. Si persisten síntomas más de 3 días, consultar.",
-      "uso": "Digestión: mejora la circulación periférica y cerebral y protege las membranas celulares del estrés oxidativo.",
-      "principios_activos": "Ácido carnósico y carnosol (diterpenos fenólicos): responsables del 90% de la actividad antioxidante, neutralizan radicales peroxilo y superóxido. Ácido rosmarínico: antiinflamatorio por inhibición de NF-κB. 1,8-cineol y alcanfor: vasodilatadores locales con efecto rubefaciente.",
-      "propiedades": [
-        "antioxidante",
-        "estimulante circulatorio",
-        "antiinflamatorio",
-        "antiséptico",
-        "carminativo"
-      ],
-      "referencias": "Masuda T. et al. Plant Physiol 2012; PMC5664485; WHO Monographs Vol.2 (2002); Muñoz et al. 1999; MINSAL 2010",
+      "rendimiento": "1 taza",
+      "conservacion": "Preparar fresco",
+      "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+      "fuente_tradicion": "Mapuche",
+      "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista en medicina mapuche. Evitar en embarazo.",
+      "uso": "Hígado y las penas. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
       "indicaciones_principales": [
-        "Dispepsia y digestión pesada",
-        "Dolor de estómago y espasmos abdominales",
-        "Gastritis y acidez leve",
-        "Flatulencia y meteorismo"
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
       ],
       "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
       "sinergia_plantas": [
-        "Boldo",
-        "Hinojo",
-        "Manzanilla"
-      ]
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 388,
@@ -242,7 +251,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 396,
@@ -281,7 +292,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 401,
@@ -322,7 +335,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 402,
@@ -362,7 +377,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 405,
@@ -403,7 +420,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 420,
@@ -443,7 +462,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 668,
@@ -484,7 +505,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 669,
@@ -523,7 +546,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 670,
@@ -564,7 +589,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 671,
@@ -603,7 +630,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 672,
@@ -643,7 +672,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 673,
@@ -683,7 +714,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 674,
@@ -724,7 +757,9 @@
         "Manzanilla",
         "Romero",
         "Ajo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 675,
@@ -763,7 +798,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 676,
@@ -775,7 +812,7 @@
       "dosis": "30 gotas en agua 3 veces al día con comidas",
       "modo_uso": "Tratamiento de mínimo 2 meses para hepatitis o hígado graso",
       "tiempo_prep": "28 días maceración",
-      "dificultad": "Medio",
+      "dificultad": "Media",
       "rendimiento": "250 ml",
       "conservacion": "Frasco oscuro 2 años",
       "evidencia": "Uso tradicional documentado",
@@ -802,7 +839,9 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 677,
@@ -841,7 +880,52 @@
         "colagogo",
         "hepatoprotector",
         "antioxidante hepático"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "id": 932,
+      "titulo": "Te de Michay para el Higado",
+      "categoria": "Hepático",
+      "origen": "Medicina Mapuche",
+      "ingredientes": "5 flores de michay (Berberis darwinii) secas, 300 ml de agua",
+      "preparacion": "Hervir el agua. Infundir las flores 12 min. Colar.",
+      "dosis": "2 tazas al dia",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Medicina mapuche",
+      "contraindicaciones": "No en embarazo; puede interactuar con medicamentos",
+      "uso": "Higado. Preparación medicinal mapuche.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Berberina (alcaloide isoquinolínico): antibacteriano, antimicótico y antiinflamatorio; inhibe la síntesis de ADN bacteriano. Berbamina: inmunomoduladora. Palmitina: antiséptica.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante",
+        "antimicrobiano"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 942,
@@ -881,7 +965,178 @@
         "carminativo",
         "antiespasmódico",
         "colagogo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "id": 1035,
+      "titulo": "Infusion de Bailahuen para Indigestion y Higado Cargado",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "8 g de ramas con hojas de bailahuen seco, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre el bailahuen. Reposar 12 minutos. Colar. Aroma intenso, levemente amargo.",
+      "dosis": "1 taza 20 minutos antes de las comidas, 3 veces al dia. En indigestion aguda, 1 taza al sintoma",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+      "contraindicaciones": "CONTRAINDICADO EN CALCULOSIS BILIAR: puede provocar cólicos al estimular el flujo de bilis. CONTRAINDICADO EN EMBARAZO. Evitar uso prolongado mas de 2 semanas sin supervision",
+      "uso": "Indigestion y Higado Cargado. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "id": 1036,
+      "titulo": "Decoccion de Bailahuen para la Vesicula y la Bilis",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "15 g de ramas de bailahuen secas, 500 ml de agua",
+      "preparacion": "Hervir las ramas de bailahuen 5 minutos. Colar bien. El liquido sera ambar intenso.",
+      "dosis": "1 taza 3 veces al dia durante 7 dias en tratamiento de la vesicula biliar",
+      "modo_uso": "Oral — decocción",
+      "tiempo_prep": "8 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Respaldo cientifico",
+      "fuente_tradicion": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+      "contraindicaciones": "CONTRAINDICADO con calculos biliares. CONTRAINDICADO EN EMBARAZO. Si hay dolor del hipocondrio derecho intenso, consultar medico (descarte colecistitis aguda)",
+      "uso": "Vesicula y la Bilis. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "id": 1043,
+      "titulo": "Infusion de Quinchamali para Apoyo Hepatico",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "10 g de planta de quinchamalí seca, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre la planta. Reposar 15 minutos. Colar.",
+      "dosis": "2 tazas al dia en ayunas y antes de dormir, durante 2 semanas",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "17 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+      "contraindicaciones": "No usar en insuficiencia hepatica grave. Si hay ictericia importante o dolor abdominal derecho, consultar medico. Hepatitis viral requiere seguimiento medico",
+      "uso": "Apoyo Hepatico. Preparación medicinal mapuche.",
+      "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+      "propiedades": [
+        "ceremonial",
+        "antiinflamatorio",
+        "adaptógeno",
+        "inmunoestimulante"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "id": 1055,
+      "titulo": "Infusion de Culen y Bailahuen para el Higado y las Emociones",
+      "categoria": "Hepático",
+      "origen": "Medicina Machi Mapuche",
+      "ingredientes": "10 g de hojas de culen, 8 g de ramas de bailahuen, 500 ml de agua hirviendo",
+      "preparacion": "Verter el agua hirviendo sobre ambas plantas. Reposar 12 minutos. Colar.",
+      "dosis": "2 tazas al dia: una en la manana en ayunas y otra antes de dormir, durante 10 dias",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "14 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas",
+      "conservacion": "Refrigerar 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+      "contraindicaciones": "CONTRAINDICADO EN EMBARAZO y en calculosis biliar. Si hay ictericia o dolor hepatico intenso, consultar medico. No combinar con medicamentos hepatotóxicos",
+      "uso": "Higado y las Emociones: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
+      "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+      "propiedades": [
+        "digestivo",
+        "antiespasmódico",
+        "hipoglucemiante",
+        "antidiarreico",
+        "carminativo"
+      ],
+      "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+      "indicaciones_principales": [
+        "Enfermedades del püllü (espíritu)",
+        "Infecciones bacterianas y virales",
+        "Dolor e inflamación",
+        "Ritual de purificación y protección"
+      ],
+      "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+      "sinergia_plantas": [
+        "Maqui",
+        "Arrayán",
+        "Canelo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1115,
@@ -892,7 +1147,7 @@
       "preparacion": "Hervir agua. Agregar achicoria y dejar 5 min a fuego suave. Retirar del fuego, agregar boldo y tapar 7 min. Colar.",
       "dosis": "1 taza después de comidas grasas, máximo 2 veces al día",
       "modo_uso": "Decocción",
-      "tiempo_prep": "15 minutos",
+      "tiempo_prep": "15 min",
       "dificultad": "Fácil",
       "rendimiento": "1 taza",
       "conservacion": "Consumir recién hecha",
@@ -923,7 +1178,9 @@
         "Boldo",
         "Cardo mariano",
         "Diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1130,
@@ -934,7 +1191,7 @@
       "preparacion": "Decocción 12 min a fuego suave, reposar 5 min. Colar.",
       "dosis": "1 taza, 2 veces al día, 3 semanas con 1 de descanso",
       "modo_uso": "Decocción",
-      "tiempo_prep": "20 minutos",
+      "tiempo_prep": "20 min",
       "dificultad": "Fácil",
       "rendimiento": "Aprox. 350 ml",
       "conservacion": "Refrigerado 24 h",
@@ -965,7 +1222,9 @@
         "Cardo mariano",
         "Diente de león",
         "Boldo"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1134,
@@ -1007,7 +1266,9 @@
         "alcachofa",
         "menta",
         "diente de león"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1162,
@@ -1018,7 +1279,7 @@
       "preparacion": "Hervir agua con cardo mariano y achicoria 10 minutos. Apagar fuego, añadir boldo y diente de león, tapar e infundir 8 minutos. Colar.",
       "dosis": "1 taza en ayunas y 1 antes de la cena, durante 21 días",
       "modo_uso": "Decocción mixta",
-      "tiempo_prep": "20 minutos",
+      "tiempo_prep": "20 min",
       "dificultad": "Fácil",
       "rendimiento": "2 tazas",
       "conservacion": "24 horas refrigerado",
@@ -1052,7 +1313,9 @@
         "alcachofa",
         "bailahuén",
         "menta"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "id": 1195,
@@ -1063,7 +1326,7 @@
       "preparacion": "Hervir agua con cardo mariano 8 minutos. Apagar, añadir alcachofa, diente de león y menta. Tapar 10 minutos. Colar.",
       "dosis": "1 taza en ayunas y otra antes de la cena, 4 semanas",
       "modo_uso": "Decocción",
-      "tiempo_prep": "25 minutos",
+      "tiempo_prep": "25 min",
       "dificultad": "Fácil",
       "rendimiento": "350 ml",
       "conservacion": "24 horas refrigerada",
@@ -1096,7 +1359,154 @@
       "sinergia_plantas": [
         "boldo",
         "bailahuén"
-      ]
+      ],
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "titulo": "Infusión de Boldo para la Digestión y el Cuidado del Hígado",
+      "categoria": "Hepático",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharadita de hojas secas de boldo, 250 ml de agua",
+      "preparacion": "Hervir el agua. Añadir las hojas de boldo, tapar y dejar reposar 10 minutos. Colar y beber tibio o a temperatura ambiente, sin endulzar.",
+      "dosis": "1 taza después de las comidas principales, hasta 2 veces al día. No usar más de 2 semanas seguidas. Niños mayores de 12 años: media taza una vez al día.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "15 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir en el día. No guardar.",
+      "evidencia": "Saber ancestral",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en obstrucción de vías biliares, embarazo, lactancia ni en menores de 12 años. Evitar en casos de enfermedad hepática avanzada sin supervisión médica. Suspender si aparece dolor abdominal intenso.",
+      "uso": "Hígado lento o con sobrecarga: estimula la producción de bilis y mejora la digestión de las grasas, aliviando la sensación de pesadez después de comer y protegiendo las células del hígado.",
+      "principios_activos": "Boldina (alcaloide aporfínico): estimula la secreción biliar y tiene efecto colerético y colagogo, además de acción hepatoprotectora por su capacidad antioxidante. | Flavonoides y aceite esencial (ascaridol, cineol): contribuyen a la protección del parénquima hepático y a la relajación de la musculatura lisa biliar.",
+      "propiedades": [
+        "hepatoprotector",
+        "colerético",
+        "digestivo",
+        "antioxidante",
+        "carminativo"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Peumus boldus; Speisky H et al. Pharmacol Res 1994;29(1):1-12",
+      "id": 1318,
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "titulo": "Decocción de Cardo Mariano para Proteger el Hígado",
+      "categoria": "Hepático",
+      "origen": "Herbolaria Europea",
+      "ingredientes": "1 cucharada sopera de semillas de cardo mariano trituradas, 400 ml de agua",
+      "preparacion": "Triturar las semillas en un mortero. Hervir el agua, añadir las semillas y reducir el fuego. Mantener a fuego lento durante 15 minutos. Retirar, tapar y reposar 5 minutos. Colar y beber tibio.",
+      "dosis": "1 taza (200 ml) por la mañana y otra por la noche, fuera de las comidas. No exceder 8 semanas de uso continuo sin evaluación médica.",
+      "modo_uso": "Oral — decocción caliente",
+      "tiempo_prep": "25 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas (400 ml)",
+      "conservacion": "Refrigerar hasta 48 horas. Calentar a fuego bajo antes de consumir.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de alergia a las asteráceas. Evitar en el embarazo y lactancia sin indicación médica. Precaución en pacientes con trastornos hormonales sensibles (puede tener efecto estrogénico leve). No sustituye el tratamiento médico en hepatopatías graves.",
+      "uso": "Hígado graso o sobrecargado: regenera y protege las células del hígado, ayudando a reducir la inflamación y mejorando su funcionamiento. También se usa como apoyo en tratamientos de desintoxicación.",
+      "principios_activos": "Silimarina (complejo flavono-lignánico): inhibe la peroxidación lipídica en los hepatocitos, bloquea la entrada de toxinas y estimula la síntesis de proteínas ribosomales, favoreciendo la regeneración hepática. | Esteroles y ácidos grasos: contribuyen al efecto antiinflamatorio y estabilizador de membrana.",
+      "propiedades": [
+        "hepatoprotector",
+        "regenerador hepático",
+        "antioxidante",
+        "antiinflamatorio",
+        "depurativo"
+      ],
+      "referencias": "WHO Monographs Vol.2 (2002) Silybum marianum; MINSAL 2010; Abenavoli L et al. Phytother Res 2010;24(10):1423-1432; Flora K et al. Am J Gastroenterol 1998;93(2):139-143",
+      "id": 1319,
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "titulo": "Infusión de Diente de León para Depurar el Hígado",
+      "categoria": "Hepático",
+      "origen": "Popular Chileno",
+      "ingredientes": "2 cucharaditas de raíz seca de diente de león, 300 ml de agua",
+      "preparacion": "Hervir el agua. Añadir la raíz de diente de león, reducir el fuego y dejar a fuego lento 5 minutos. Retirar, tapar y reposar 10 minutos. Colar y beber tibio.",
+      "dosis": "1 taza en ayunas y otra antes del almuerzo. No más de 3 semanas seguidas. Descansar al menos 1 semana antes de repetir.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "2 tazas (300 ml)",
+      "conservacion": "Refrigerar hasta 24 horas. Calentar antes de beber.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "No usar en obstrucción biliar, úlcera gástrica activa o insuficiencia renal. Evitar en el embarazo sin supervisión médica. Puede potenciar el efecto de diuréticos y medicamentos para la diabetes.",
+      "uso": "Hígado intoxicado o con función lenta: ayuda a eliminar toxinas y estimula la producción de bilis, mejorando la digestión y aliviando la sensación de embotamiento después de comidas pesadas.",
+      "principios_activos": "Lactonas sesquiterpénicas (taraxacina): efecto colerético y hepatoprotector, aumentando el flujo biliar y la capacidad de detoxificación hepática. | Inulina y compuestos fenólicos: acción prebiótica y antioxidante que favorece la salud intestinal y reduce el estrés oxidativo hepático.",
+      "propiedades": [
+        "hepatoprotector",
+        "depurativo",
+        "colerético",
+        "diurético suave",
+        "digestivo"
+      ],
+      "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Taraxacum officinale; MINSAL 2010; Schütz K et al. J Ethnopharmacol 2006;107(3):313-323",
+      "id": 1320,
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "titulo": "Jugo de Rábano Negro para la Congestión de la Vesícula Biliar",
+      "categoria": "Hepático",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "Medio rábano negro pequeño, 100 ml de agua",
+      "preparacion": "Lavar bien el rábano negro y pelarlo. Cortar en trozos y licuar con el agua. Colar con un paño fino y beber el jugo inmediatamente. No guardar.",
+      "dosis": "1 vaso (100 ml) en ayunas, una vez al día. Ciclos de 7 días con descanso de 7 días. No usar más de 3 ciclos sin consultar.",
+      "modo_uso": "Oral — jugo fresco",
+      "tiempo_prep": "5 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 porción (100 ml)",
+      "conservacion": "Consumir de inmediato. No conservar.",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de cálculos biliares grandes u obstrucción de vías biliares, embarazo, lactancia, hipotiroidismo o gastritis aguda. Puede causar molestias gástricas leves al inicio.",
+      "uso": "Vesícula biliar perezosa o con barro biliar: estimula suavemente el vaciado de la vesícula y mejora la digestión de las grasas, previniendo la formación de cálculos pequeños.",
+      "principios_activos": "Rafanina y compuestos azufrados (glucosinolatos): efecto colagogo y colerético que favorece la contracción vesicular y la fluidificación de la bilis. | Vitamina C y antioxidantes: protegen el epitelio biliar del daño oxidativo.",
+      "propiedades": [
+        "colagogo",
+        "colerético",
+        "digestivo",
+        "depurativo",
+        "antioxidante"
+      ],
+      "referencias": "WHO Monographs Vol.1 (1999) Raphanus sativus; MINSAL 2010; ESCOP Monographs 2003 Raphani radix",
+      "id": 1321,
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
+    },
+    {
+      "titulo": "Infusión de Alcachofera para el Hígado Graso",
+      "categoria": "Hepático",
+      "origen": "Medicina Mediterránea",
+      "ingredientes": "1 cucharada de hojas secas de alcachofera, 250 ml de agua",
+      "preparacion": "Hervir el agua. Añadir las hojas de alcachofera, tapar y dejar reposar 15 minutos. Colar y beber tibio, de preferencia sin endulzar.",
+      "dosis": "1 taza antes de cada comida principal, hasta 3 veces al día. Ciclos de 3 semanas con 1 semana de descanso.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "20 min",
+      "dificultad": "Fácil",
+      "rendimiento": "1 taza (250 ml)",
+      "conservacion": "Consumir el mismo día. No conservar más de 12 horas.",
+      "evidencia": "Respaldo científico",
+      "fuente_tradicion": "Herbolaria europea",
+      "contraindicaciones": "No usar en caso de obstrucción biliar, alergia a compuestas o durante la lactancia (puede reducir la producción de leche). Evitar en el embarazo sin supervisión médica. No administrar a niños menores de 12 años.",
+      "uso": "Hígado graso o digestión pesada: reduce la acumulación de grasa en el hígado y estimula la producción de bilis, mejorando la metabolización de las grasas y aliviando la hinchazón abdominal.",
+      "principios_activos": "Cinarina (ácido dicafeoilquínico): efecto colerético y hepatoprotector, reduce la síntesis de colesterol hepático y mejora la regeneración de los hepatocitos. | Flavonoides luteolina y apigenina: acción antioxidante y antiinflamatoria, protegiendo al hígado del daño oxidativo.",
+      "propiedades": [
+        "hepatoprotector",
+        "colerético",
+        "hipocolesterolemiante",
+        "digestivo",
+        "antioxidante"
+      ],
+      "referencias": "WHO Monographs Vol.1 (1999) Cynara scolymus; MINSAL 2010; Bundy R et al. Phytomedicine 2008;15(8):668-675; Sahebkar A et al. Phytother Res 2013;27(2):174-181",
+      "id": 1322,
+      "modulo": "digestivo",
+      "submodulo": "higado_vesicula"
     },
     {
       "titulo": "Decocción de Cardo Mariano para protección hepática",
@@ -1113,7 +1523,7 @@
       "evidencia": "Monografías de la ESCOP y la EMA. La EMA indica que\nlos estudios sugieren efectos positivos en la función hepática\naunque se necesitan ensayos clínicos más firmes.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las asteráceas.\n- No se recomienda en casos de obstrucción de las vías\n  biliares.",
-      "id": 1350,
+      "id": 1561,
       "uso": "Complemento en el tratamiento de afecciones\nhepáticas (hígado graso, hepatitis), cirrosis y daño hepático\npor toxinas. Apoyo digestivo en digestiones pesadas.",
       "planta_principal": "Cardo Mariano (Silybum marianum)",
       "interacciones": "Puede reducir los niveles de azúcar en sangre\n(monitorizar en diabéticos). Teóricamente, podría interferir\ncon medicamentos metabolizados por el hígado (citocromo P450).",
@@ -1135,7 +1545,7 @@
       "evidencia": "\"Herbal medicine for functional dyspepsia: A systematic\nreview\" (PubMed). Las hojas de alcachofa están reconocidas por\nla ESCOP y la Comisión E alemana para el tratamiento de la\ndispepsia.",
       "fuente_tradicion": "Fitoterapia clínica europea",
       "contraindicaciones": "- Alergia a las asteráceas.\n- Obstrucción de las vías biliares (por ejemplo, por cálculos).\n  En caso de cálculos biliares, usar solo bajo supervisión\n  médica.",
-      "id": 1353,
+      "id": 1564,
       "uso": "Estimular la producción y liberación de bilis\n(efecto colagogo y colerético), facilitando la digestión de\ngrasas y aliviando la sensación de pesadez.",
       "planta_principal": "Alcachofa (Cynara scolymus)",
       "interacciones": "Podría interferir con medicamentos de\neliminación biliar. Usar con precaución en tratamientos con\nanticoagulantes orales.",
