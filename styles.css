@@ -5002,28 +5002,26 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .matern-cat-title.recetas .matern-cat-icon { filter: none; }
 .matern-recetas-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
     margin-bottom: 8px;
 }
 .matern-receta-card {
-    position: relative;
+    background: var(--bg-2);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: var(--r);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s, border-color 0.2s;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 12px 14px;
-    background: rgba(14,24,12,0.90);
-    border: 1px solid rgba(155,187,122,0.20);
-    border-radius: var(--r-md);
     text-align: left;
-    cursor: pointer;
-    transition: all 0.22s;
+    padding: 0;
 }
 .matern-receta-card:hover {
-    background: rgba(155,187,122,0.13);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(155,187,122,0.2);
     border-color: rgba(155,187,122,0.35);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 .matern-receta-cat {
     font-size: 0.65rem;
@@ -5626,88 +5624,98 @@ body.custom-cursor-on .cursor-ring { display: block; }
     gap: 16px;
 }
 .rsearch-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding: 12px 34px 11px 14px;
-    background: rgba(14,24,12,0.88);
-    border: 1px solid rgba(155,187,122,0.18);
-    border-radius: 14px;
+    background: var(--bg-2);
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.22s;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s, border-color 0.2s;
+    display: flex;
+    flex-direction: column;
 }
 .rsearch-card:hover {
-    background: rgba(155,187,122,0.10);
-    border-color: rgba(155,187,122,0.40);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.28);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(155,187,122,0.2);
+    border-color: rgba(155,187,122,0.35);
 }
-.rsearch-card-head {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 1px;
+.rsearch-thumb {
+    position: relative;
+    height: 130px;
+    overflow: hidden;
 }
-.rsearch-cat-label {
-    font-size: 0.64rem;
+.rsearch-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s var(--ease-out), opacity 0.2s;
+}
+.rsearch-card:hover .rsearch-thumb img {
+    transform: scale(1.06);
+}
+.rsearch-cat {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: 0.65rem;
     font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: var(--moss-bright);
-    opacity: 0.82;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.95);
+    background: rgba(0,0,0,0.48);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 6px;
+    padding: 3px 9px;
 }
 .rsearch-titulo {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     font-weight: 600;
     color: var(--text);
+    padding: 10px 14px 4px;
     margin: 0;
     line-height: 1.35;
 }
-.rsearch-card-arrow {
-    position: absolute;
-    top: 13px;
-    right: 12px;
-    color: var(--moss-bright);
-    font-size: 0.72rem;
-    opacity: 0;
-    transition: opacity 0.18s, transform 0.18s;
+/* Click affordance footer */
+.rsearch-card-footer {
+    margin-top: auto;
+    padding: 8px 14px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.rsearch-card:hover .rsearch-card-arrow {
+.rsearch-ver {
+    font-size: 0.72rem;
+    color: var(--moss-bright);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.18s, transform 0.18s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.rsearch-card:hover .rsearch-ver {
     opacity: 1;
-    transform: translateX(2px);
+    transform: translateX(0);
 }
 @media (hover: none) {
-    .rsearch-card-arrow { opacity: 0.65; }
+    .rsearch-ver { opacity: 0.85; transform: translateX(0); }
 }
-.rsearch-card-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-top: 4px;
-}
-.rsearch-meta-chip {
-    font-size: 0.68rem;
-    color: var(--text-mute);
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-.rsearch-meta-chip i { color: var(--moss); font-size: 0.62rem; }
 
-/* ── Modo de preparación badge (inline en card-head) ── */
+/* ── Modo de preparación badge (thumb top-right) ── */
 .rsearch-modo-badge {
-    display: inline-flex;
-    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
     font-size: 0.58rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border-radius: 5px;
-    padding: 2px 6px;
+    padding: 3px 7px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.12);
     white-space: nowrap;
     line-height: 1;
@@ -5748,8 +5756,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-ing {
     font-size: 0.78rem;
     color: var(--text-mute);
-    padding: 0;
-    margin: 2px 0 0;
+    padding: 0 12px;
+    margin: 4px 0 8px;
     line-height: 1.4;
     display: flex;
     gap: 5px;
@@ -5794,8 +5802,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-uso {
     font-size: 0.78rem;
     color: var(--text-soft);
-    padding: 0;
-    margin: 2px 0 0;
+    padding: 0 12px;
+    margin: 4px 0 6px;
     line-height: 1.4;
     display: flex;
     gap: 6px;
