@@ -4965,8 +4965,8 @@ function getSortedPlantas(lista) {
 function renderHomeHero() {
     const hero = document.getElementById('homeHero');
     if (!hero) return;
-    const nP = (window.plantasDB || []).length || 85;
-    const nR = (window.recetasDB || []).length || 1058;
+    const nP = (window.plantasDB || []).length || 114;
+    const nR = (window.recetasDB || []).length || 1505;
     const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
     if (stats[0]) stats[0].dataset.target = nP;
     if (stats[1]) stats[1].dataset.target = nR;
