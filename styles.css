@@ -9360,25 +9360,27 @@ header.plants-tab-header {
    PLANTAS — Color por sistema, borde animado, chips
    ══════════════════════════════════════════════════════════ */
 
-/* Borde animado con color del sistema de cada planta */
-/* Plant cards: tinte de color por sistema, borde estático + glow en hover */
+/* Plant cards: tinte de color por sistema, sin blur, transparentes */
 .plant-card {
-    background: color-mix(in srgb, var(--plant-color, var(--moss)) 5%, rgba(12,16,9,0.78)) !important;
-    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 25%, transparent) !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.32) !important;
-    transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease !important;
+    background: color-mix(in srgb, var(--plant-color, var(--moss)) 20%, rgba(8,12,6,0.30)) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 50%, transparent) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25) !important;
+    transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, background 0.22s !important;
 }
 .plant-card:hover {
-    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 70%, transparent) !important;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.45), 0 0 18px color-mix(in srgb, var(--plant-color, var(--moss)) 30%, transparent) !important;
+    background: color-mix(in srgb, var(--plant-color, var(--moss)) 28%, rgba(8,12,6,0.35)) !important;
+    border-color: color-mix(in srgb, var(--plant-color, var(--moss)) 80%, transparent) !important;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.35), 0 0 20px color-mix(in srgb, var(--plant-color, var(--moss)) 28%, transparent) !important;
 }
 
 /* Chips de filtro mejorados */
 .chip {
     background: rgba(255,255,255,0.06) !important;
     border-color: rgba(255,255,255,0.12) !important;
-    backdrop-filter: blur(14px) !important;
-    -webkit-backdrop-filter: blur(14px) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.15s !important;
 }
 .chip:hover {
