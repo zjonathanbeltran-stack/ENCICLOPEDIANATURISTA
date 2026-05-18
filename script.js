@@ -1023,21 +1023,25 @@ function _rfRenderGrid(filtradas) {
                       : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
-            ${nuevaBadge}
-            <i class="fas fa-arrow-right rsearch-card-arrow"></i>
-            <div class="rsearch-card-head">
-                <span class="rsearch-cat-label">${r.categoria}</span>
+            <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
+                <span class="rsearch-cat">${r.categoria}</span>
+                ${nuevaBadge}
                 ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
             </div>
+            <div class="rsearch-card-meta-row">
+                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                ${pedHtml}${embHtml}${lacHtml}
+            </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${puebloBadge}
             ${uso
                 ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                 : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
             }
-            ${puebloBadge}
-            <div class="rsearch-card-meta-row">
-                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
-                ${pedHtml}${embHtml}${lacHtml}
+            ${props.length ? `<div class="rsearch-props">${props.map(p=>`<span class="rsearch-prop">${p}</span>`).join('')}</div>` : ''}
+            <div class="rsearch-card-footer">
+                <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
             </div>
         </div>`;
     }).join('');
@@ -1472,17 +1476,38 @@ function abrirSubmoduloMatern(subId) {
 
     const grid = $('#maternSubmodRecetas');
     if (grid) {
+        const MATERN_MODO_KEYS = {
+            'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
+            'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
+            'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
+            'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
+        };
         grid.innerHTML = recetas.map(r => {
-            const usoTexto = r.uso
-                ? r.uso.split('.')[0].replace(/^[^:]+:\s*/, '').trim()
-                : (CATEGORIA_USO[r.categoria] || '');
+            const uso = r.uso ? r.uso.slice(0, 95) + (r.uso.length > 95 ? '…' : '') : (CATEGORIA_USO[r.categoria] || '');
+            const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
+            const modo = _normModo(r.modo_uso);
+            const modoKey = modo ? (MATERN_MODO_KEYS[modo] || 'otro') : null;
+            const puebloKey  = esAncestral(r) ? puebloDeReceta(r) : null;
+            const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey] || ANCESTRAL_PUEBLOS.mapuche) : null;
+            const puebloBadge = puebloInfo
+                ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
+                : '';
             return `
-            <button class="matern-receta-card" data-rid="${r.id}">
-                <div class="matern-receta-cat">${r.categoria}</div>
-                <div class="matern-receta-titulo">${r.titulo}</div>
-                ${usoTexto ? `<div class="matern-receta-uso"><i class="fas fa-bullseye"></i> ${usoTexto}</div>` : ''}
-                <div class="matern-receta-origen">${r.origen || 'Tradición chilena'}</div>
-                <div class="matern-receta-arrow"><i class="fas fa-arrow-right"></i></div>
+            <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
+                <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                    <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
+                    <span class="rsearch-cat">${r.categoria}</span>
+                    ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+                </div>
+                <h4 class="rsearch-titulo">${r.titulo}</h4>
+                ${puebloBadge}
+                ${uso
+                    ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                    : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
+                }
+                <div class="rsearch-card-footer">
+                    <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+                </div>
             </button>`;
         }).join('');
 

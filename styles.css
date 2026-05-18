@@ -5189,28 +5189,27 @@ body.custom-cursor-on .cursor-ring { display: block; }
 
 .matern-recetas-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
     margin-bottom: 8px;
 }
 .matern-receta-card {
-    position: relative;
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 22%, rgba(8,12,6,0.28));
+    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
+    border-radius: var(--r);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.22s var(--ease-out), box-shadow 0.22s, border-color 0.22s, background 0.22s;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 12px 14px;
-    background: rgba(14,24,12,0.90);
-    border: 1px solid rgba(155,187,122,0.20);
-    border-radius: var(--r-md);
     text-align: left;
-    cursor: pointer;
-    transition: all 0.22s;
+    padding: 0;
 }
 .matern-receta-card:hover {
-    background: rgba(155,187,122,0.13);
-    border-color: rgba(155,187,122,0.35);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 32%, rgba(8,12,6,0.32));
+    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 80%, transparent);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.35), 0 0 24px color-mix(in srgb, var(--cat-color, var(--moss)) 30%, transparent);
 }
 .matern-receta-cat {
     font-size: 0.65rem;
@@ -5878,61 +5877,65 @@ body.custom-cursor-on .cursor-ring { display: block; }
     gap: 16px;
 }
 .rsearch-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding: 12px 34px 11px 14px;
-    background: rgba(14,24,12,0.88);
-    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 28%, rgba(255,255,255,0.07));
-    border-radius: var(--r-md);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 22%, rgba(8,12,6,0.28));
+    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
+    border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.22s;
+    transition: transform 0.22s var(--ease-out), box-shadow 0.22s, border-color 0.22s, background 0.22s;
+    display: flex;
+    flex-direction: column;
 }
 .rsearch-card:hover {
-    background: color-mix(in srgb, var(--cat-color, var(--moss)) 11%, rgba(14,24,12,0.95));
-    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.28), 0 0 16px color-mix(in srgb, var(--cat-color, var(--moss)) 18%, transparent);
+    transform: translateY(-3px);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 32%, rgba(8,12,6,0.32));
+    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 80%, transparent);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.35), 0 0 24px color-mix(in srgb, var(--cat-color, var(--moss)) 30%, transparent);
 }
-.rsearch-card-head {
+.rsearch-thumb {
+    position: relative;
+    height: 76px;
+    overflow: hidden;
     display: flex;
     align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 1px;
+    justify-content: center;
+    flex-shrink: 0;
 }
-.rsearch-cat-label {
-    font-size: 0.64rem;
+.rsearch-thumb-icon {
+    font-size: 2.8rem;
+    color: rgba(255,255,255,0.20);
+    pointer-events: none;
+    transition: transform 0.4s var(--ease-out), color 0.3s;
+    filter: drop-shadow(0 0 18px rgba(255,255,255,0.16));
+    position: relative;
+    z-index: 1;
+}
+.rsearch-card:hover .rsearch-thumb-icon {
+    color: rgba(255,255,255,0.35);
+    transform: scale(1.18) rotate(-7deg);
+}
+.rsearch-cat {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    font-size: 0.65rem;
     font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: color-mix(in srgb, var(--cat-color, var(--moss)) 85%, var(--moss-bright));
-    opacity: 0.85;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.95);
+    background: rgba(0,0,0,0.48);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 6px;
+    padding: 3px 9px;
 }
 .rsearch-titulo {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     font-weight: 600;
     color: var(--text);
+    padding: 10px 14px 4px;
     margin: 0;
     line-height: 1.35;
-}
-.rsearch-card-arrow {
-    position: absolute;
-    top: 13px;
-    right: 12px;
-    color: var(--moss-bright);
-    font-size: 0.72rem;
-    opacity: 0;
-    transition: opacity 0.18s, transform 0.18s;
-}
-.rsearch-card:hover .rsearch-card-arrow {
-    opacity: 1;
-    transform: translateX(2px);
-}
-@media (hover: none) {
-    .rsearch-card-arrow { opacity: 0.65; }
 }
 /* ── Badge "✨ Nueva" — cinta diagonal esquina superior derecha ── */
 .receta-nueva-badge {
@@ -5963,27 +5966,57 @@ body.custom-cursor-on .cursor-ring { display: block; }
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
-    margin: 2px 0 0;
-    padding: 0.15rem 0.5rem;
+    margin: 0 14px 4px;
+    padding: 0.18rem 0.55rem;
     border-radius: 20px;
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     font-weight: 500;
     background: color-mix(in srgb, var(--anc-color, #6a8a52) 18%, transparent);
     border: 1px solid color-mix(in srgb, var(--anc-color, #6a8a52) 40%, transparent);
     color: color-mix(in srgb, var(--anc-color, #6a8a52) 90%, var(--text));
-    align-self: flex-start;
 }
 
-/* ── Modo de preparación badge (inline en card-head) ── */
-.rsearch-modo-badge {
-    display: inline-flex;
+/* Click affordance footer */
+.rsearch-card-footer {
+    margin-top: auto;
+    padding: 8px 14px 11px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.rsearch-ver {
+    font-size: 0.72rem;
+    color: var(--moss-bright);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.18s, transform 0.18s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.rsearch-card:hover .rsearch-ver {
+    opacity: 1;
+    transform: translateX(0);
+}
+@media (hover: none) {
+    .rsearch-ver { opacity: 0.85; transform: translateX(0); }
+}
+
+/* ── Modo de preparación badge (thumb top-right) ── */
+.rsearch-modo-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
     font-size: 0.58rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border-radius: 5px;
-    padding: 2px 6px;
+    padding: 3px 7px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.12);
     white-space: nowrap;
     line-height: 1;
@@ -6024,8 +6057,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-ing {
     font-size: 0.78rem;
     color: var(--text-mute);
-    padding: 0;
-    margin: 2px 0 0;
+    padding: 0 12px;
+    margin: 4px 0 8px;
     line-height: 1.4;
     display: flex;
     gap: 5px;
@@ -6070,7 +6103,7 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-uso {
     font-size: 0.78rem;
     color: var(--text-soft);
-    padding: 0;
+    padding: 0 12px;
     margin: 4px 0 6px;
     line-height: 1.4;
     display: flex;
