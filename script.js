@@ -1469,7 +1469,14 @@ function renderMaternidad() {
 function abrirSubmoduloMatern(subId) {
     const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
     if (!sub) return;
-    const recetas = recetasDB.filter(r => r.submodulo === subId);
+    // Para postparto_lactancia: excluir recetas con lactancia contraindicada
+    let recetas = recetasDB.filter(r => r.submodulo === subId);
+    if (subId === 'postparto_lactancia') {
+        recetas = recetas.filter(r => {
+            const seg = _maternSeg(r);
+            return seg.lac !== 'precaucion';
+        });
+    }
 
     const tituloEl = $('#maternSubmodTituloActivo');
     if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
@@ -1492,6 +1499,13 @@ function abrirSubmoduloMatern(subId) {
             const puebloBadge = puebloInfo
                 ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
                 : '';
+            const matern = _maternSeg(r);
+            const embHtml = matern.emb === 'apto'       ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
+                          : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución emb.</span>`
+                          : '';
+            const lacHtml = matern.lac === 'apto'       ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
+                          : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución lac.</span>`
+                          : '';
             return `
             <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
                 <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
@@ -1505,6 +1519,10 @@ function abrirSubmoduloMatern(subId) {
                     ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
                     : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`
                 }
+                <div class="rsearch-card-meta-row">
+                    ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                    ${embHtml}${lacHtml}
+                </div>
                 <div class="rsearch-card-footer">
                     <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
                 </div>

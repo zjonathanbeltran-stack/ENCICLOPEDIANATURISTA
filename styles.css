@@ -1004,15 +1004,15 @@ header {
 /* Modal receta con foto de preparación */
 .modal-art-receta {
     animation: none;
-    aspect-ratio: 3/2;
+    aspect-ratio: 5/2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .modal-receta-icon {
-    font-size: 8rem;
+    font-size: 4.5rem;
     color: rgba(255,255,255,0.14);
-    filter: drop-shadow(0 0 48px rgba(255,255,255,0.10));
+    filter: drop-shadow(0 0 36px rgba(255,255,255,0.10));
     pointer-events: none;
     position: relative;
     z-index: 1;
