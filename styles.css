@@ -9299,3 +9299,45 @@ header.plants-tab-header {
 @media (max-width: 640px) {
     .recipes-hero-stats { gap: 6px; font-size: 0.74rem; }
 }
+
+/* ══════════════════════════════════════════════════════════
+   UX POLISH — Ripple, feedback táctil, transiciones
+   ══════════════════════════════════════════════════════════ */
+
+/* Quitar highlight nativo de tap (azul/gris del navegador) */
+button, a, [role="button"], input { -webkit-tap-highlight-color: transparent; }
+
+/* Tabs más rápidas y snappy */
+.tab-content { animation-duration: 0.28s; }
+
+/* ── Ripple: feedback visual al tocar ── */
+@keyframes ripple-expand {
+    0%   { transform: scale(0); opacity: 0.38; }
+    100% { transform: scale(3.6); opacity: 0; }
+}
+.ripple-fx {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.22);
+    transform: scale(0);
+    animation: ripple-expand 0.52s cubic-bezier(0.4,0,0.2,1) forwards;
+    pointer-events: none;
+    z-index: 100;
+}
+
+/* ── Escala al presionar: sensación táctil física ── */
+.rsub-chip:active         { transform: scale(0.965) !important; transition: transform 0.08s !important; }
+.rsis-sist-card:active    { transform: scale(0.965) !important; transition: transform 0.08s !important; }
+.plant-card:active        { transform: scale(0.975) !important; transition: transform 0.09s !important; }
+.matern-submod-card:active{ transform: scale(0.97)  !important; transition: transform 0.08s !important; }
+.rdol-chip:active,
+.rdol-chip-cond:active    { transform: scale(0.95)  !important; transition: transform 0.07s !important; }
+.recipe-card:active       { transform: scale(0.975) !important; transition: transform 0.09s !important; }
+
+/* ── Recetario: paneles entran desde la derecha ── */
+@keyframes slideFromRight {
+    from { opacity: 0; transform: translateX(22px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+.receta-submodulos-panel { animation: slideFromRight 0.24s ease !important; }
+.receta-dolencias-panel  { animation: slideFromRight 0.24s ease !important; }

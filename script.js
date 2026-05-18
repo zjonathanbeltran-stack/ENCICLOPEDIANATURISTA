@@ -5172,3 +5172,20 @@ if (_origRenderSearchHero) {
     // Override
     window.renderSearchHero = wrap;
 }
+
+// ── Ripple global: feedback táctil en todos los elementos interactivos ──
+document.addEventListener('pointerdown', e => {
+    const el = e.target.closest(
+        '.rsub-chip, .rsis-sist-card, .plant-card, .matern-submod-card, ' +
+        '.rdol-chip, .rdol-chip-cond, .recipe-card, .tool-card'
+    );
+    if (!el || el.disabled) return;
+    el.querySelector('.ripple-fx')?.remove();
+    const r   = document.createElement('span');
+    const d   = Math.max(el.clientWidth, el.clientHeight);
+    const rect = el.getBoundingClientRect();
+    r.className = 'ripple-fx';
+    r.style.cssText = `width:${d}px;height:${d}px;left:${e.clientX - rect.left - d/2}px;top:${e.clientY - rect.top - d/2}px`;
+    el.appendChild(r);
+    r.addEventListener('animationend', () => r.remove(), { once: true });
+}, { passive: true });
