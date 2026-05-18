@@ -5600,71 +5600,86 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 0 0 10px;
 }
 .rsub-chips {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     margin-top: 4px;
 }
 .rsub-chip {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: var(--r);
+    display: grid;
+    grid-template-areas:
+        "emoji label count"
+        "emoji desc  desc";
+    grid-template-columns: 52px 1fr auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 3px;
     padding: 14px 16px;
+    background: color-mix(in srgb, var(--rsub-color, var(--moss)) 8%, rgba(14,19,9,0.60));
+    border: 1px solid color-mix(in srgb, var(--rsub-color, var(--moss)) 30%, transparent);
+    border-radius: var(--r);
     cursor: pointer;
-    transition: all 0.2s;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
     text-align: left;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 .rsub-chip::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, var(--rsub-color, #6a8a52) 0%, transparent 60%);
+    background: color-mix(in srgb, var(--rsub-color, var(--moss)) 10%, transparent);
     opacity: 0;
     transition: opacity 0.2s;
-    border-radius: inherit;
 }
 .rsub-chip:hover {
-    border-color: var(--rsub-color, rgba(155,187,122,0.5));
-    box-shadow: 0 4px 18px rgba(0,0,0,0.25), 0 0 0 1px var(--rsub-color, rgba(155,187,122,0.2));
-    transform: translateY(-3px);
+    background: color-mix(in srgb, var(--rsub-color, var(--moss)) 13%, rgba(14,19,9,0.72));
+    border-color: color-mix(in srgb, var(--rsub-color, var(--moss)) 55%, transparent);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
 }
-.rsub-chip:hover::before { opacity: 0.07; }
+.rsub-chip:hover::before { opacity: 1; }
 .rsub-emoji {
-    font-size: 1.5rem;
+    grid-area: emoji;
+    font-size: 2rem;
     line-height: 1;
-    margin-bottom: 2px;
+    align-self: center;
+    justify-self: center;
     position: relative;
+    z-index: 1;
 }
 .rsub-label {
-    font-size: 0.88rem;
-    font-weight: 600;
+    grid-area: label;
+    font-size: 0.92rem;
+    font-weight: 700;
     color: var(--text);
-    position: relative;
     line-height: 1.2;
+    position: relative;
+    z-index: 1;
 }
 .rsub-count {
-    font-size: 0.72rem;
-    color: var(--rsub-color, var(--moss-bright));
-    font-weight: 500;
+    grid-area: count;
+    font-size: 0.70rem;
+    font-weight: 700;
+    color: color-mix(in srgb, var(--rsub-color, var(--moss)) 90%, #fff);
+    white-space: nowrap;
+    align-self: start;
+    padding-top: 2px;
     position: relative;
+    z-index: 1;
 }
 .rsub-desc {
+    grid-area: desc;
     font-size: 0.71rem;
     color: var(--text-mute);
+    line-height: 1.3;
+    position: relative;
+    z-index: 1;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
-    position: relative;
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+    white-space: nowrap;
 }
 
 /* ── Panel de condiciones (nivel 3: sub-módulo → condición) ── */
