@@ -5099,25 +5099,27 @@ function getSortedPlantas(lista) {
 function renderHomeHero() {
     const hero = document.getElementById('homeHero');
     if (!hero) return;
-    // Update targets to live counts
     const nP = (window.plantasDB || []).length || 85;
     const nR = (window.recetasDB || []).length || 1058;
     const stats = hero.querySelectorAll('.hh-stat-num[data-target]');
     if (stats[0]) stats[0].dataset.target = nP;
     if (stats[1]) stats[1].dataset.target = nR;
-    // Counter animation — only animate once, never reset to 0
-    if (!hero.dataset.heroAnimated) {
+
+    const alreadyDone = !!hero.dataset.heroAnimated;
+    if (alreadyDone) {
+        // Data just loaded — update text directly to live counts
+        if (stats[0]) stats[0].textContent = nP.toLocaleString('es-CL');
+        if (stats[1]) stats[1].textContent = nR.toLocaleString('es-CL');
+    } else {
         hero.dataset.heroAnimated = '1';
         stats.forEach(el => {
             const target = +el.dataset.target;
             const steps = 36;
             let step = 0;
-            const start = +el.textContent.replace(/\D/g, '') || target;
             const tick = () => {
                 step++;
-                const p = step / steps;
-                const ease = 1 - Math.pow(1 - p, 3);
-                el.textContent = Math.round(start + (target - start) * ease).toLocaleString('es-CL');
+                const ease = 1 - Math.pow(1 - step / steps, 3);
+                el.textContent = Math.round(target * ease).toLocaleString('es-CL');
                 if (step < steps) setTimeout(tick, 28);
             };
             setTimeout(tick, 400);
