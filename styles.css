@@ -9310,22 +9310,21 @@ header.plants-tab-header {
 /* Tabs más rápidas y snappy */
 .tab-content { animation-duration: 0.28s; }
 
-/* ── Ripple: feedback visual al tocar ── */
-@keyframes ripple-expand {
-    0%   { transform: scale(0); opacity: 0.45; }
-    100% { transform: scale(3.6); opacity: 0; }
+/* ── Glow instantáneo al tocar (reemplaza ripple) ── */
+.rsub-chip:active {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--rsub-color, var(--moss-bright)) 45%, transparent), 0 0 18px color-mix(in srgb, var(--rsub-color, var(--moss-bright)) 30%, transparent) !important;
 }
-.ripple-fx {
-    position: absolute;
-    border-radius: 50%;
-    /* Color personalizado: hereda el color de la tarjeta o usa el moss */
-    background: color-mix(in srgb,
-        var(--rsub-color, var(--rsis-color, var(--moss-bright))) 55%,
-        rgba(255,255,255,0.6));
-    transform: scale(0);
-    animation: ripple-expand 0.52s cubic-bezier(0.4,0,0.2,1) forwards;
-    pointer-events: none;
-    z-index: 100;
+.rsis-sist-card:active {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--rsis-color, var(--moss-bright)) 45%, transparent), 0 0 18px color-mix(in srgb, var(--rsis-color, var(--moss-bright)) 30%, transparent) !important;
+}
+.plant-card:active {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--plant-color, var(--moss-bright)) 45%, transparent), 0 0 20px color-mix(in srgb, var(--plant-color, var(--moss-bright)) 30%, transparent) !important;
+}
+.matern-submod-card:active,
+.rdol-chip:active,
+.rdol-chip-cond:active,
+.recipe-card:active {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--moss-bright) 40%, transparent), 0 0 16px color-mix(in srgb, var(--moss-bright) 25%, transparent) !important;
 }
 
 /* ── Escala al presionar: sensación táctil física ── */
