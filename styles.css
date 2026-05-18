@@ -5880,8 +5880,8 @@ body.custom-cursor-on .cursor-ring { display: block; }
 .rsearch-card {
     background: color-mix(in srgb, var(--cat-color, var(--moss)) 22%, rgba(8,12,6,0.28));
     border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
