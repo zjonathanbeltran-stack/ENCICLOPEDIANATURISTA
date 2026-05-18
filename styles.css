@@ -5878,40 +5878,44 @@ body.custom-cursor-on .cursor-ring { display: block; }
     gap: 16px;
 }
 .rsearch-card {
-    background: var(--bg-2);
-    border: 1px solid rgba(255,255,255,0.09);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 10%, rgba(10,14,8,0.52));
+    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 28%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.2s var(--ease-out), box-shadow 0.2s, border-color 0.2s;
+    transition: transform 0.22s var(--ease-out), box-shadow 0.22s, border-color 0.22s, background 0.22s;
     display: flex;
     flex-direction: column;
 }
 .rsearch-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(155,187,122,0.2);
-    border-color: rgba(155,187,122,0.35);
+    transform: translateY(-3px);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 16%, rgba(10,14,8,0.55));
+    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.38), 0 0 20px color-mix(in srgb, var(--cat-color, var(--moss)) 18%, transparent);
 }
 .rsearch-thumb {
     position: relative;
-    height: 140px;
+    height: 76px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .rsearch-thumb-icon {
-    font-size: 5.2rem;
-    color: rgba(255,255,255,0.16);
+    font-size: 2.8rem;
+    color: rgba(255,255,255,0.20);
     pointer-events: none;
     transition: transform 0.4s var(--ease-out), color 0.3s;
-    filter: drop-shadow(0 0 28px rgba(255,255,255,0.14));
+    filter: drop-shadow(0 0 18px rgba(255,255,255,0.16));
     position: relative;
     z-index: 1;
 }
 .rsearch-card:hover .rsearch-thumb-icon {
-    color: rgba(255,255,255,0.28);
-    transform: scale(1.14) rotate(-6deg);
+    color: rgba(255,255,255,0.35);
+    transform: scale(1.18) rotate(-7deg);
 }
 .rsearch-cat {
     position: absolute;

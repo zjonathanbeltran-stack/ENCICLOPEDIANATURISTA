@@ -977,8 +977,9 @@ function _rfRenderGrid(filtradas) {
         const nuevaBadge = r.id >= NUEVO_DESDE_ID
             ? `<span class="receta-nueva-badge">✨ Nueva</span>`
             : '';
+        const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
         return `
-        <div class="rsearch-card" data-rid="${r.id}">
+        <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
             <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
                 <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
                 <span class="rsearch-cat">${r.categoria}</span>
