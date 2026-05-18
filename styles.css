@@ -9583,6 +9583,21 @@ header.plants-tab-header {
     color: oklch(78% 0.12 75);
     border: 1px solid oklch(52% 0.12 75 / 0.5);
 }
+.rsearch-matern-apto {
+    background: oklch(22% 0.08 350 / 1);
+    color: oklch(82% 0.12 350);
+    border: 1px solid oklch(42% 0.12 350 / 0.5);
+}
+.rsearch-lac-apto {
+    background: oklch(21% 0.07 220 / 1);
+    color: oklch(80% 0.10 220);
+    border: 1px solid oklch(42% 0.10 220 / 0.5);
+}
+.rsearch-matern-prec {
+    background: oklch(24% 0.08 55 / 1);
+    color: oklch(78% 0.11 55);
+    border: 1px solid oklch(50% 0.11 55 / 0.5);
+}
 
 /* ════════════════════════════════════════════════════════════════
    MODAL RECETA · Ficha rápida (3 datos de confianza)
@@ -9620,3 +9635,17 @@ header.plants-tab-header {
 .rfr-warn i  { color: oklch(70% 0.12 55); }
 .rfr-ok      { color: oklch(74% 0.12 145); }
 .rfr-ok i    { color: oklch(68% 0.13 145); }
+/* Fila maternidad (embarazo + lactancia) */
+.receta-ficha-matern {
+    display: flex;
+    align-items: stretch;
+    background: oklch(15% 0.016 350 / 1);
+    border-bottom: 1px solid var(--glass-border);
+}
+.receta-ficha-matern .rfr-item { padding: 11px 8px; font-size: 0.70rem; }
+.rfr-matern-apto   { color: oklch(82% 0.12 350); }
+.rfr-matern-apto i { color: oklch(72% 0.14 350); font-size: 1rem; }
+.rfr-matern-prec   { color: oklch(76% 0.11 55); }
+.rfr-matern-prec i { color: oklch(68% 0.13 55); font-size: 1rem; }
+.rfr-lac-apto      { color: oklch(80% 0.10 220); }
+.rfr-lac-apto i    { color: oklch(70% 0.12 220); font-size: 1rem; }

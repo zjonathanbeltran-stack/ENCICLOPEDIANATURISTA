@@ -915,6 +915,20 @@ function _pedSeg(r) {
     return null;
 }
 
+function _maternSeg(r) {
+    const contra = (r.contraindicaciones || '').toLowerCase();
+    const sub    = (r.submodulo || '').toLowerCase();
+    let emb = null, lac = null;
+    // Lactancia
+    if (sub === 'postparto_lactancia') lac = 'apto';
+    else if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc|lactanc.*no recom/i.test(contra)) lac = 'precaucion';
+    else if (/segur.*lactanc|apto.*lactanc|favorec.*lech|galact/i.test(contra)) lac = 'apto';
+    // Embarazo
+    if (/no.*embaraz|contraindicad.*embaraz|evitar.*embaraz|embaraz.*no|peligr.*embaraz|trimestre|abort|teratog|gestac/i.test(contra)) emb = 'precaucion';
+    else if (/segur.*embaraz|apto.*embaraz/i.test(contra)) emb = 'apto';
+    return { emb, lac };
+}
+
 function _normModo(modo) {
     const s = (modo || '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
     if (/infusion|tisana|te\b|herbal/.test(s))             return 'Infusión / Té';
@@ -997,8 +1011,15 @@ function _rfRenderGrid(filtradas) {
         const modo = _normModo(r.modo_uso);
         const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
         const ped = _pedSeg(r);
-        const pedHtml = ped === 'apto'      ? `<span class="rsearch-ped-badge rsearch-ped-apto"><i class="fas fa-shield-heart"></i> Niños</span>`
-                      : ped === 'precaucion'? `<span class="rsearch-ped-badge rsearch-ped-prec"><i class="fas fa-triangle-exclamation"></i> Verificar edad</span>`
+        const pedHtml = ped === 'apto'       ? `<span class="rsearch-ped-badge rsearch-ped-apto"><i class="fas fa-shield-heart"></i> Niños</span>`
+                      : ped === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-ped-prec"><i class="fas fa-triangle-exclamation"></i> Ver edad</span>`
+                      : '';
+        const matern = _maternSeg(r);
+        const embHtml = matern.emb === 'apto'       ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
+                      : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Emb. verificar</span>`
+                      : '';
+        const lacHtml = matern.lac === 'apto'       ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
+                      : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Lac. verificar</span>`
                       : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
@@ -1010,7 +1031,7 @@ function _rfRenderGrid(filtradas) {
             </div>
             <div class="rsearch-card-meta-row">
                 ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
-                ${pedHtml}
+                ${pedHtml}${embHtml}${lacHtml}
             </div>
             <h4 class="rsearch-titulo">${r.titulo}</h4>
             ${puebloBadge}
@@ -2596,15 +2617,26 @@ function abrirDetalleReceta(id) {
             </div>
         </div>
 
-        <!-- Ficha rápida — 3 datos de confianza en 3 segundos -->
+        <!-- Ficha rápida — datos de confianza en 3 segundos -->
         ${(() => {
             const ped = _pedSeg(r);
+            const matern = _maternSeg(r);
             const hasContra = r.contraindicaciones && !/^consultar|^no se conocen/i.test(r.contraindicaciones);
             const pedItem = ped === 'apto'
                 ? `<div class="rfr-item rfr-ped-apto"><i class="fas fa-shield-heart"></i><span>Apto niños</span></div>`
                 : ped === 'precaucion'
                 ? `<div class="rfr-item rfr-ped-prec"><i class="fas fa-triangle-exclamation"></i><span>Verificar edad</span></div>`
-                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Edad: consultar</span></div>`;
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Niños: consultar</span></div>`;
+            const embItem = matern.emb === 'apto'
+                ? `<div class="rfr-item rfr-matern-apto"><i class="fas fa-heart"></i><span>Apto embarazo</span></div>`
+                : matern.emb === 'precaucion'
+                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-triangle-exclamation"></i><span>Precaución embarazo</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Embarazo: consultar</span></div>`;
+            const lacItem = matern.lac === 'apto'
+                ? `<div class="rfr-item rfr-lac-apto"><i class="fas fa-droplet"></i><span>Apto lactancia</span></div>`
+                : matern.lac === 'precaucion'
+                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-triangle-exclamation"></i><span>Precaución lactancia</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Lactancia: consultar</span></div>`;
             return `
         <div class="receta-ficha-rapida">
             ${r.tiempo_prep ? `<div class="rfr-item rfr-tiempo"><i class="fas fa-clock"></i><span>${r.tiempo_prep}</span></div>` : ''}
@@ -2613,6 +2645,10 @@ function abrirDetalleReceta(id) {
                 <i class="fas fa-${hasContra ? 'triangle-exclamation' : 'circle-check'}"></i>
                 <span>${hasContra ? 'Ver advertencias' : 'Sin contraindicaciones'}</span>
             </div>
+        </div>
+        <div class="receta-ficha-matern">
+            ${embItem}
+            ${lacItem}
         </div>`;
         })()}
 
