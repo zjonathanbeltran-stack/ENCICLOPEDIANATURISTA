@@ -5878,10 +5878,10 @@ body.custom-cursor-on .cursor-ring { display: block; }
     gap: 16px;
 }
 .rsearch-card {
-    background: color-mix(in srgb, var(--cat-color, var(--moss)) 10%, rgba(10,14,8,0.52));
-    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 28%, transparent);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 22%, rgba(8,12,6,0.28));
+    border: 1px solid color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     border-radius: var(--r);
     overflow: hidden;
     cursor: pointer;
@@ -5891,9 +5891,9 @@ body.custom-cursor-on .cursor-ring { display: block; }
 }
 .rsearch-card:hover {
     transform: translateY(-3px);
-    background: color-mix(in srgb, var(--cat-color, var(--moss)) 16%, rgba(10,14,8,0.55));
-    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 55%, transparent);
-    box-shadow: 0 8px 28px rgba(0,0,0,0.38), 0 0 20px color-mix(in srgb, var(--cat-color, var(--moss)) 18%, transparent);
+    background: color-mix(in srgb, var(--cat-color, var(--moss)) 32%, rgba(8,12,6,0.32));
+    border-color: color-mix(in srgb, var(--cat-color, var(--moss)) 80%, transparent);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.35), 0 0 24px color-mix(in srgb, var(--cat-color, var(--moss)) 30%, transparent);
 }
 .rsearch-thumb {
     position: relative;
