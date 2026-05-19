@@ -1570,8 +1570,10 @@ function switchMaternSubtab(tipo) {
     $$('.matern-nav-card').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
     $('#maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
     $('#maternLactancia').classList.toggle('active', tipo === 'lactancia');
+    $('#maternRecienNacido').classList.toggle('active', tipo === 'recien_nacido');
     const icon = $('#maternidadTab .matern-hero-icon');
-    if (icon) icon.textContent = tipo === 'lactancia' ? '🍼' : '🤰';
+    if (icon) icon.textContent = tipo === 'recien_nacido' ? '👶' : tipo === 'lactancia' ? '🍼' : '🤰';
+    if (tipo === 'recien_nacido') _renderMaternRecienNacido();
 }
 
 function switchMaternSubPanel(section, panel) {
@@ -1583,6 +1585,65 @@ function switchMaternSubPanel(section, panel) {
         const tipo = section === 'emb' ? 'emb' : 'lac';
         _renderMaternSafeSubmodCards(tipo);
     }
+}
+
+function _renderMaternRecienNacido() {
+    const grid = $('#maternRnGrid');
+    if (!grid || grid.dataset.loaded) return;
+    grid.dataset.loaded = '1';
+
+    // Categorías para filtros
+    const CATMAP = {
+        colicos: ['Infusión Maternal de Hinojo','Infusión Maternal de Manzanilla','Compresa Tibia'],
+        piel:    ['Baño Tibio','Aceite de Almendras','Aceite de Oliva','Crema de Caléndula'],
+        sueno:   ['Saquito','Masaje Piel con Piel'],
+    };
+    const getCategoria = titulo => {
+        if (CATMAP.colicos.some(k => titulo.includes(k))) return 'colicos';
+        if (CATMAP.piel.some(k => titulo.includes(k))) return 'piel';
+        if (CATMAP.sueno.some(k => titulo.includes(k))) return 'sueno';
+        return 'otros';
+    };
+    const CAT_LABEL = { colicos:'🍼 Cólicos', piel:'🛁 Piel', sueno:'💤 Sueño', otros:'🌿 Otros' };
+    const CAT_COLOR = { colicos:'#c9679a', piel:'#7aad8a', sueno:'#8a6aaa', otros:'#8a9a52' };
+
+    const recetas = recetasDB.filter(r => r.submodulo === 'recien_nacido');
+
+    const renderGrid = filtro => {
+        const lista = filtro === 'todos' ? recetas : recetas.filter(r => getCategoria(r.titulo) === filtro);
+        if (!lista.length) { grid.innerHTML = '<p class="matern-recetas-empty">Sin resultados.</p>'; return; }
+        grid.innerHTML = lista.map(r => {
+            const cat = getCategoria(r.titulo);
+            const color = CAT_COLOR[cat] || CAT_COLOR.otros;
+            const label = CAT_LABEL[cat] || CAT_LABEL.otros;
+            const modoIco = {
+                'Infusion':'fa-mug-hot','Bano':'fa-bath','Masaje':'fa-hands',
+                'Topico':'fa-droplet','Crema':'fa-jar','Ambiental':'fa-wind',
+                'Compresa':'fa-hot-tub-person','Piel con piel':'fa-heart'
+            }[r.modo_uso] || 'fa-leaf';
+            return `<button class="matern-rn-card" data-rid="${r.id}" style="--rn-color:${color}">
+                <span class="matern-rn-cat-badge">${label}</span>
+                <span class="matern-rn-modo"><i class="fas ${modoIco}"></i> ${r.modo_uso || 'Natural'}</span>
+                <p class="matern-rn-titulo">${r.titulo}</p>
+                <p class="matern-rn-dosis">${(r.dosis || r.ingredientes || '').slice(0,90)}…</p>
+                <span class="matern-rn-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            </button>`;
+        }).join('');
+        grid.querySelectorAll('.matern-rn-card').forEach(btn =>
+            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
+        );
+    };
+
+    renderGrid('todos');
+
+    // Filtros
+    $$('.matern-rn-filtro').forEach(btn => {
+        btn.addEventListener('click', () => {
+            $$('.matern-rn-filtro').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderGrid(btn.dataset.filtro);
+        });
+    });
 }
 
 function _renderMaternSafeSubmodCards(tipo) {

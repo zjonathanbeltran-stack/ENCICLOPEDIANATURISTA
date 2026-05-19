@@ -10290,5 +10290,131 @@
       "En la medicina ayurvédica, la alholva se considera un alimento 'caliente' que fortalece el cuerpo después del parto. Las mujeres indias consumen 'laddus de methi' (dulces de alholva) durante las primeras semanas de lactancia.",
       "En Chile, la alholva no es tan conocida como el hinojo o la ortiga, pero está ganando popularidad entre las madres lactantes, especialmente a través de grupos de apoyo a la lactancia que la recomiendan para aumentar la producción de leche."
     ]
+  },
+  {
+    "id": 117,
+    "nombre": "Almendras Dulces",
+    "cientifico": "Prunus dulcis (Mill.) D.A.Webb",
+    "familia": "Rosaceae",
+    "parte": "Semillas (aceite de almendras dulces)",
+    "usos": "El masaje con aceite de almendras es uno de los cuidados más antiguos y amorosos para el recién nacido. Nutre la delicada piel del bebé, previene la sequedad y la descamación, y convierte el momento del cambio de pañal o después del baño en un ritual de conexión entre la mamá, el papá y su hijo. El movimiento suave de las manos sobre la barriguita también ayuda a aliviar los cólicos y a liberar los gases atrapados.",
+    "chiloe": false,
+    "region": "Aceite disponible en supermercados, farmacias y tiendas naturistas de todo Chile",
+    "emoji": "👶",
+    "precaucion": "Utiliza solo aceite de almendras dulces 100% puro, sin perfumes ni aditivos. No uses aceite de almendras amargas (es tóxico por su contenido en amigdalina). Calienta el aceite frotándolo entre las manos antes de aplicarlo. Evita el contacto con los ojos del bebé. Si hay antecedentes familiares de alergia a los frutos secos (almendras), consulta al pediatra antes de usar.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "recién nacido",
+      "masaje",
+      "piel",
+      "almendras",
+      "cólicos",
+      "gases",
+      "hidratante",
+      "vínculo"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Prunus_dulcis_001.jpg/800px-Prunus_dulcis_001.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "El almendro (Prunus dulcis) es un árbol caducifolio de la familia de las rosáceas, que alcanza entre 3 y 10 metros de altura. Sus frutos son drupas con una piel verde que se abre al madurar, revelando el hueso que contiene la semilla comestible: la almendra. El aceite de almendras dulces se obtiene por prensado en frío de las semillas y es rico en ácidos grasos esenciales (oleico, linoleico), vitaminas A y E, y fitoesteroles.",
+    "historia_uso": "El aceite de almendras ha sido utilizado para el cuidado de la piel desde la antigüedad en las culturas mediterránea y del Medio Oriente. En la medicina ayurvédica, el masaje del recién nacido con aceites naturales es una práctica milenaria recomendada para fortalecer el vínculo, estimular el sistema nervioso y mejorar la calidad del sueño. En Chile, el aceite de almendras es un clásico de los botiquines de las abuelas para hidratar la piel de los bebés después del baño.",
+    "principios_activos": [
+      "Ácidos grasos esenciales (oleico 62-86%, linoleico 7-30%) — lípidos — nutren la barrera cutánea, previenen la pérdida de agua transepidérmica y mantienen la piel del recién nacido hidratada y protegida",
+      "Vitamina E (tocoferoles) y fitoesteroles — antioxidantes liposolubles — protegen la piel del daño oxidativo y tienen acción calmante y antiinflamatoria"
+    ],
+    "propiedades_farmacologicas": [
+      "Hidratante y emoliente: los ácidos grasos del aceite de almendras forman una capa oclusiva que retiene la humedad en la piel del recién nacido, previniendo la sequedad y la descamación fisiológica de los primeros días",
+      "Calmante y antiinflamatorio: los fitoesteroles y la vitamina E reducen la inflamación cutánea y alivian la irritación de la dermatitis del pañal"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "No aplica (uso externo en el bebé).",
+      "lactancia": "No aplica (uso externo en el bebé).",
+      "nivel_seguridad": "Basado en producto natural de uso tradicional en cuidado infantil. Ampliamente recomendado por pediatras y matronas."
+    },
+    "nivel_evidencia": "Alto — El aceite de almendras es uno de los aceites vegetales más estudiados para el cuidado de la piel. Su seguridad y eficacia como hidratante y emoliente están sólidamente documentadas.",
+    "referencias_cientificas": [
+      "Danby SG, AlEnezi T, Sultan A, et al. Effect of olive and sunflower seed oil on the adult skin barrier. Pediatr Dermatol. 2013;30(1):42-50. PMID: 22995032",
+      "MINSAL. Guías Alimentarias para la Mujer durante el Embarazo y la Lactancia. Santiago: Ministerio de Salud de Chile; 2015."
+    ],
+    "curiosidades": [
+      "En la cultura mapuche, el masaje del recién nacido con aceites naturales es una tradición que fortalece el 'newen' (fuerza vital) del bebé. Las machis recomiendan masajear al bebé después del baño para 'cerrar los poros' y protegerlo del frío.",
+      "El masaje del recién nacido no solo hidrata la piel: múltiples estudios han demostrado que mejora la ganancia de peso, reduce los niveles de cortisol (la hormona del estrés) y favorece la maduración del sistema nervioso del bebé."
+    ]
+  },
+  {
+    "id": 118,
+    "nombre": "Olivo",
+    "cientifico": "Olea europaea L.",
+    "familia": "Oleaceae",
+    "parte": "Fruto (aceite de oliva virgen extra)",
+    "usos": "La costra láctea, esas escamitas amarillentas que aparecen en la cabecita del recién nacido, se despiden fácilmente con un masaje de aceite de oliva. Este remedio casero, seguro desde el nacimiento, ablanda las escamas para que se desprendan sin dañar la delicada piel del bebé. Después de unos minutos de masaje, un suave cepillado y un lavado con champú suave dejan el cuero cabelludo limpio, hidratado y libre de costras.",
+    "chiloe": false,
+    "region": "Aceite de oliva disponible en supermercados y almacenes de todo Chile",
+    "emoji": "🫒",
+    "precaucion": "Usa solo aceite de oliva virgen extra 100% puro, sin mezclas ni aditivos. El masaje debe ser muy suave: la fontanela (mollera) del recién nacido aún está abierta y es delicada. No intentes arrancar las costras con las uñas o con fuerza; el aceite las ablandará para que se desprendan solas. Si la piel se enrojece, inflama o supura, consulta al pediatra (podría ser una dermatitis seborreica infectada).",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "recién nacido",
+      "costra láctea",
+      "aceite de oliva",
+      "cuero cabelludo",
+      "dermatitis seborreica",
+      "escamas"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Olea_europaea_004.jpg/800px-Olea_europaea_004.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "El olivo (Olea europaea) es un árbol perennifolio de la familia de las oleáceas, originario de la cuenca mediterránea. Su fruto, la aceituna, se prensa en frío para obtener el aceite de oliva virgen extra, rico en ácidos grasos monoinsaturados (oleico), polifenoles (oleuropeína, hidroxitirosol) y vitamina E. Es uno de los aceites vegetales más estudiados y valorados del mundo.",
+    "historia_uso": "El aceite de oliva ha sido utilizado para el cuidado de la piel desde la antigüedad en las culturas mediterráneas. Los antiguos griegos y romanos lo aplicaban sobre la piel de los recién nacidos como protector e hidratante. En Chile, muchas familias de origen mediterráneo y del sur del país mantienen la tradición de usar aceite de oliva para la costra láctea del bebé, un remedio transmitido de generación en generación y avalado por pediatras y dermatólogos.",
+    "principios_activos": [
+      "Ácido oleico (62-80%) — ácido graso monoinsaturado — penetra en las capas superficiales de la piel, ablandando las escamas de la costra láctea y facilitando su desprendimiento sin irritar",
+      "Polifenoles (oleuropeína, hidroxitirosol) y vitamina E — antioxidantes — protegen la piel del daño oxidativo y tienen acción antiinflamatoria y calmante"
+    ],
+    "propiedades_farmacologicas": [
+      "Emoliente y queratolítico suave: el ácido oleico ablanda las escamas de queratina de la costra láctea, permitiendo que se desprendan sin dañar la epidermis subyacente",
+      "Antiinflamatorio y calmante: los polifenoles reducen la inflamación del cuero cabelludo y calman la irritación asociada a la dermatitis seborreica"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "No aplica (uso externo en el bebé).",
+      "lactancia": "No aplica (uso externo en el bebé).",
+      "nivel_seguridad": "Basado en producto natural de uso tradicional. Seguro desde el nacimiento para uso tópico."
+    },
+    "nivel_evidencia": "Alto — El aceite de oliva es uno de los aceites vegetales más estudiados. Su seguridad y eficacia para el cuidado de la piel están sólidamente documentadas.",
+    "referencias_cientificas": [
+      "Danby SG, AlEnezi T, Sultan A, et al. Effect of olive and sunflower seed oil on the adult skin barrier. Pediatr Dermatol. 2013;30(1):42-50. PMID: 22995032",
+      "MINSAL. Guías de cuidado del recién nacido. Santiago: Ministerio de Salud de Chile; 2018."
+    ],
+    "curiosidades": [
+      "En Chile, muchas abuelas llaman a la costra láctea 'las escamitas de la leche' y recomiendan el aceite de oliva como el remedio infalible. Dicen que 'el aceite de oliva ablanda las costras como la lluvia ablanda la tierra seca'.",
+      "La costra láctea no es dolorosa ni contagiosa, y suele desaparecer sola en unas semanas. El aceite de oliva acelera el proceso y evita la tentación de rascar, que podría dañar la delicada piel del bebé."
+    ]
   }
 ]

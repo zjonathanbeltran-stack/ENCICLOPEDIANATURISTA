@@ -843,7 +843,7 @@
                     </button>
                 </div>
                 <p class="receta-search-hint">Elige una categoría</p>
-                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(3, 1fr);">
                     <button class="rsis-btn matern-nav-card active" data-matern="embarazo" style="--rsis-color:#c9679a">
                         <span class="rsis-ico"><i class="fas fa-baby-carriage"></i></span>
                         <span class="rsis-label">Embarazo</span>
@@ -853,6 +853,11 @@
                         <span class="rsis-ico"><i class="fas fa-droplet"></i></span>
                         <span class="rsis-label">Lactancia</span>
                         <span class="rsis-desc">Galactogogas y contraindicadas</span>
+                    </button>
+                    <button class="rsis-btn matern-nav-card" data-matern="recien_nacido" style="--rsis-color:#7aad8a">
+                        <span class="rsis-ico"><i class="fas fa-baby"></i></span>
+                        <span class="rsis-label">Recién Nacido</span>
+                        <span class="rsis-desc">Cuidados naturales 0-28 días</span>
                     </button>
                 </div>
             </div>
@@ -933,6 +938,28 @@
                     <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
                     <div id="maternPrecLactancia" class="matern-prec-box"></div>
                 </div>
+            </div>
+
+            <!-- Sección RECIÉN NACIDO -->
+            <div id="maternRecienNacido" class="matern-section">
+                <div class="matern-rn-header">
+                    <div class="matern-rn-icon">👶</div>
+                    <div>
+                        <h3 class="matern-rn-title">Cuidados Naturales del Recién Nacido</h3>
+                        <p class="matern-rn-sub">Remedios seguros para los primeros 28 días de vida</p>
+                    </div>
+                </div>
+                <div class="matern-rn-aviso">
+                    <i class="fas fa-shield-alt"></i>
+                    <span><strong>Importante:</strong> Los cuidados con plantas para recién nacidos se aplican <em>externamente</em> (baños, aceites, masajes) o llegan al bebé a través de la <em>leche materna</em>. Nunca administres infusiones directamente a un bebé menor de 6 meses.</span>
+                </div>
+                <div class="matern-rn-filtros">
+                    <button class="matern-rn-filtro active" data-filtro="todos"><i class="fas fa-th"></i> Todos</button>
+                    <button class="matern-rn-filtro" data-filtro="colicos"><i class="fas fa-baby"></i> Cólicos</button>
+                    <button class="matern-rn-filtro" data-filtro="piel"><i class="fas fa-hand-sparkles"></i> Piel</button>
+                    <button class="matern-rn-filtro" data-filtro="sueno"><i class="fas fa-moon"></i> Sueño</button>
+                </div>
+                <div id="maternRnGrid" class="matern-rn-grid"></div>
             </div>
 
         </div>
