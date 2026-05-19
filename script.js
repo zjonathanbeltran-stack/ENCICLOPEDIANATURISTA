@@ -915,6 +915,16 @@ function _pedSeg(r) {
     return null;
 }
 
+// Returns a specific age label for the ped badge, e.g. "+6 años" or "No apto niños"
+function _pedLabel(r) {
+    const contra = (r.contraindicaciones || '').toLowerCase();
+    const m = contra.match(/menores de (\d+)/i) || contra.match(/no.*menores de (\d+)/i) || contra.match(/ni[ñn]os menores de (\d+)/i);
+    if (m) return `+${m[1]} años`;
+    const m2 = contra.match(/mayores de (\d+)/i) || contra.match(/a partir de los? (\d+)/i);
+    if (m2) return `+${m2[1]} años`;
+    return 'No apto niños';
+}
+
 function _maternSeg(r) {
     const contra  = (r.contraindicaciones   || '').toLowerCase();
     const embLac  = (r.embarazo_lactancia   || '').toLowerCase();
@@ -1014,14 +1024,14 @@ function _rfRenderGrid(filtradas) {
         const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
         const ped = _pedSeg(r);
         const pedHtml = ped === 'apto'       ? `<span class="rsearch-ped-badge rsearch-ped-apto"><i class="fas fa-shield-heart"></i> Niños</span>`
-                      : ped === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-ped-prec"><i class="fas fa-triangle-exclamation"></i> Ver edad</span>`
+                      : ped === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-ped-prec"><i class="fas fa-ban"></i> ${_pedLabel(r)}</span>`
                       : '';
         const matern = _maternSeg(r);
         const embHtml = matern.emb === 'apto'       ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
-                      : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Emb. verificar</span>`
+                      : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar embarazo</span>`
                       : '';
         const lacHtml = matern.lac === 'apto'       ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
-                      : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Lac. verificar</span>`
+                      : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar lactancia</span>`
                       : '';
         return `
         <div class="rsearch-card" data-rid="${r.id}" style="--cat-color:${catColor}">
@@ -1503,10 +1513,10 @@ function abrirSubmoduloMatern(subId) {
                 : '';
             const matern = _maternSeg(r);
             const embHtml = matern.emb === 'apto'       ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
-                          : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución emb.</span>`
+                          : matern.emb === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar embarazo</span>`
                           : '';
             const lacHtml = matern.lac === 'apto'       ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
-                          : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución lac.</span>`
+                          : matern.lac === 'precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar lactancia</span>`
                           : '';
             return `
             <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
@@ -1679,9 +1689,9 @@ function abrirSubmoduloMujer(subId) {
         const puebloBadge = puebloInfo ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>` : '';
         const matern = _maternSeg(r);
         const embHtml = matern.emb==='apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
-                      : matern.emb==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución emb.</span>` : '';
+                      : matern.emb==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar embarazo</span>` : '';
         const lacHtml = matern.lac==='apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
-                      : matern.lac==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución lac.</span>` : '';
+                      : matern.lac==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar lactancia</span>` : '';
         return `
         <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
             <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
@@ -2813,18 +2823,18 @@ function abrirDetalleReceta(id) {
             const pedItem = ped === 'apto'
                 ? `<div class="rfr-item rfr-ped-apto"><i class="fas fa-shield-heart"></i><span>Apto niños</span></div>`
                 : ped === 'precaucion'
-                ? `<div class="rfr-item rfr-ped-prec"><i class="fas fa-triangle-exclamation"></i><span>Verificar edad</span></div>`
-                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Niños: consultar</span></div>`;
+                ? `<div class="rfr-item rfr-ped-prec"><i class="fas fa-ban"></i><span>${_pedLabel(r)}</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Niños: sin datos</span></div>`;
             const embItem = matern.emb === 'apto'
                 ? `<div class="rfr-item rfr-matern-apto"><i class="fas fa-heart"></i><span>Apto embarazo</span></div>`
                 : matern.emb === 'precaucion'
-                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-triangle-exclamation"></i><span>Precaución embarazo</span></div>`
-                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Embarazo: consultar</span></div>`;
+                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-ban"></i><span>Evitar en embarazo</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Embarazo: sin datos</span></div>`;
             const lacItem = matern.lac === 'apto'
                 ? `<div class="rfr-item rfr-lac-apto"><i class="fas fa-droplet"></i><span>Apto lactancia</span></div>`
                 : matern.lac === 'precaucion'
-                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-triangle-exclamation"></i><span>Precaución lactancia</span></div>`
-                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Lactancia: consultar</span></div>`;
+                ? `<div class="rfr-item rfr-matern-prec"><i class="fas fa-ban"></i><span>Evitar en lactancia</span></div>`
+                : `<div class="rfr-item rfr-ped-nd"><i class="fas fa-circle-question"></i><span>Lactancia: sin datos</span></div>`;
             return `
         <div class="receta-ficha-rapida">
             ${r.tiempo_prep ? `<div class="rfr-item rfr-tiempo"><i class="fas fa-clock"></i><span>${r.tiempo_prep}</span></div>` : ''}

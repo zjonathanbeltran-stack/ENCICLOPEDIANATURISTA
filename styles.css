@@ -5938,26 +5938,38 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 0;
     line-height: 1.35;
 }
-/* ── Badge "Nueva" — chip esquina superior derecha ── */
+/* ── Badge "Nueva" — chip esquina superior izquierda ── */
 .receta-nueva-badge {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: oklch(0.92 0.16 128);
-    color: oklch(0.22 0.08 128);
-    font-size: 0.6rem;
+    top: 8px;
+    left: 10px;
+    background: oklch(0.36 0.14 128);
+    color: oklch(0.92 0.14 128);
+    font-size: 0.58rem;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 20px;
+    padding: 3px 8px 3px 6px;
+    border-radius: 5px;
     z-index: 4;
     pointer-events: none;
-    border: 1px solid oklch(0.78 0.18 128 / 0.6);
+    border: 1px solid oklch(0.56 0.18 128 / 0.5);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.receta-nueva-badge::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: oklch(0.82 0.22 128);
+    flex-shrink: 0;
 }
 @keyframes nuevaBadgePulse {
     0%, 100% { opacity: 1; }
-    50%       { opacity: 0.8; }
+    50%       { opacity: 0.85; }
 }
 /* Badge de pueblo originario en tarjetas del recetario */
 .rsearch-pueblo-badge {
