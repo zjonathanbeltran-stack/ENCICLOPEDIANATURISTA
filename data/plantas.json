@@ -10416,5 +10416,256 @@
       "En Chile, muchas abuelas llaman a la costra láctea 'las escamitas de la leche' y recomiendan el aceite de oliva como el remedio infalible. Dicen que 'el aceite de oliva ablanda las costras como la lluvia ablanda la tierra seca'.",
       "La costra láctea no es dolorosa ni contagiosa, y suele desaparecer sola en unas semanas. El aceite de oliva acelera el proceso y evita la tentación de rascar, que podría dañar la delicada piel del bebé."
     ]
+  },
+  {
+    "id": 119,
+    "nombre": "Aceite de Coco",
+    "cientifico": "Cocos nucifera L.",
+    "familia": "Arecaceae",
+    "parte": "Aceite de coco virgen prensado en frío",
+    "usos": "El aceite de coco es uno de los mejores amigos de la delicada piel del recién nacido. Rico en ácido láurico (el mismo componente de la leche materna), nutre profundamente, protege contra las bacterias y los hongos, y ayuda a mantener la barrera cutánea intacta. Los estudios en unidades de neonatología han demostrado que el masaje con aceite de coco mejora la integridad de la piel, favorece la ganancia de peso y reduce el riesgo de infecciones en recién nacidos, especialmente en prematuros.",
+    "chiloe": false,
+    "region": "Aceite de coco disponible en supermercados, farmacias y tiendas naturistas de todo Chile",
+    "emoji": "🥥",
+    "precaucion": "Utiliza solo aceite de coco virgen 100% puro, sin perfumes ni aditivos. Calienta una pequeña cantidad frotándola entre las manos antes de aplicarla. Evita el contacto con los ojos del bebé. Si hay antecedentes familiares de alergia al coco (extremadamente raro), consulta al pediatra. Una revisión sistemática de 2022 concluyó que los aceites tópicos, incluido el aceite de coco, mejoran eficazmente la condición de la piel y las funciones de barrera en neonatos.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "recién nacido",
+      "piel",
+      "aceite de coco",
+      "masaje",
+      "barrera cutánea",
+      "prematuro",
+      "ganancia de peso",
+      "infección"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cocos_nucifera_004.jpg/800px-Cocos_nucifera_004.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "El cocotero (Cocos nucifera) es una palmera perennifolia de origen tropical que alcanza entre 15 y 30 metros de altura, con un tronco delgado y anillado. Sus frutos, los cocos, contienen una pulpa blanca (copra) de la que se extrae el aceite de coco virgen por prensado en frío. Este aceite es rico en ácidos grasos de cadena media, especialmente ácido láurico (45-53%), y tiene propiedades antimicrobianas, hidratantes y nutritivas para la piel.",
+    "historia_uso": "El aceite de coco ha sido utilizado para el cuidado de la piel en las culturas tropicales durante milenios. En la India, el masaje del recién nacido con aceite de coco es una práctica ayurvédica tradicional que se cree que fortalece los huesos, mejora el sueño y favorece la ganancia de peso. En Chile, aunque no es una tradición autóctona, el aceite de coco ha ganado popularidad en los últimos años como una alternativa natural a las cremas comerciales para el cuidado del bebé.",
+    "principios_activos": [
+      "Ácido láurico (45-53%) — ácido graso de cadena media — es el mismo ácido graso presente en la leche materna humana. Tiene potente acción antimicrobiana contra bacterias grampositivas, hongos y virus, protegiendo la piel del recién nacido de infecciones",
+      "Ácidos grasos de cadena media (caprílico, cáprico) — lípidos — penetran fácilmente en la epidermis, nutriendo las capas profundas de la piel y previniendo la pérdida de agua transepidérmica"
+    ],
+    "propiedades_farmacologicas": [
+      "Protección de la barrera cutánea: una revisión sistemática de 2022 que incluyó 5 estudios con aceite de coco concluyó que los aceites tópicos mejoran eficazmente la condición de la piel y las funciones de barrera en neonatos. Un estudio específico mostró que el aceite de coco preservaba mejor la flora cutánea y la función de barrera que otros aceites",
+      "Antimicrobiano: el ácido láurico tiene actividad comprobada contra Staphylococcus aureus, Streptococcus y Candida albicans, reduciendo el riesgo de infecciones cutáneas en recién nacidos hospitalizados",
+      "Favorece la ganancia de peso: el masaje con aceite de coco estimula el sistema nervioso parasimpático, mejorando la digestión y la absorción de nutrientes, lo que se traduce en una mejor ganancia ponderal"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "No aplica (uso externo en el bebé).",
+      "lactancia": "No aplica (uso externo en el bebé).",
+      "nivel_seguridad": "Revisión sistemática de aceites tópicos en neonatos (2022): 11 estudios concluyeron que los aceites mejoran eficazmente la condición de la piel neonatal."
+    },
+    "nivel_evidencia": "Alto — El aceite de coco es uno de los aceites vegetales más estudiados para el cuidado de la piel neonatal. Una revisión sistemática de 2022 incluyó 5 estudios específicos con aceite de coco, concluyendo que mejora eficazmente la integridad cutánea y las funciones de barrera.",
+    "referencias_cientificas": [
+      "Kanti V, Günther M, Stroux A, et al. Effects of Topical Oils on Neonatal Skin: A Systematic Review. J Perinat Neonatal Nurs. 2022;36(4):362-372. PMID: 36288421",
+      "Strunk T, Gummer JPA, Abraham R, et al. Topical coconut oil in very preterm infants: an open-label randomised controlled trial. Neonatology. 2018;113(2):146-151. PMID: 29166624",
+      "MINSAL. Guías de cuidado del recién nacido. Santiago: Ministerio de Salud de Chile; 2018."
+    ],
+    "curiosidades": [
+      "El ácido láurico del aceite de coco es el mismo componente que se encuentra en la leche materna humana (5-8% del total de ácidos grasos), lo que explica su afinidad natural con la piel del recién nacido.",
+      "En las unidades de neonatología de la India, el masaje con aceite de coco es una práctica estándar para los recién nacidos prematuros, y múltiples estudios han demostrado que reduce las infecciones nosocomiales y mejora la ganancia de peso.",
+      "En Chile, el aceite de coco se ha popularizado como una alternativa natural a las cremas comerciales para bebés, especialmente entre familias que buscan productos libres de parabenos y fragancias sintéticas."
+    ]
+  },
+  {
+    "id": 120,
+    "nombre": "Girasol",
+    "cientifico": "Helianthus annuus L.",
+    "familia": "Asteraceae",
+    "parte": "Semillas (aceite de girasol alto oleico prensado en frío)",
+    "usos": "El aceite de girasol es un campeón en la protección de la piel del recién nacido. Rico en ácido linoleico (omega-6), acelera la maduración de la barrera cutánea, reduce la pérdida de agua a través de la piel y previene las infecciones. Los estudios en unidades de neonatología han demostrado que el masaje con aceite de girasol reduce significativamente las infecciones nosocomiales y la mortalidad en recién nacidos prematuros. Es el aceite más estudiado y recomendado para el cuidado de la piel neonatal.",
+    "chiloe": false,
+    "region": "Aceite de girasol alto oleico disponible en supermercados y tiendas naturistas de todo Chile",
+    "emoji": "🌻",
+    "precaucion": "Utiliza solo aceite de girasol alto oleico, prensado en frío y sin aditivos. No uses aceite de girasol de cocina refinado si contiene aditivos o ha sido calentado repetidamente. Calienta una pequeña cantidad frotándola entre las manos antes de aplicarla. Una revisión sistemática de 2022 incluyó 8 estudios con aceite de girasol y concluyó que mejora eficazmente la condición de la piel neonatal.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "keywords": [
+      "recién nacido",
+      "piel",
+      "aceite de girasol",
+      "barrera cutánea",
+      "prematuro",
+      "infección",
+      "masaje"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Helianthus_annuus_004.jpg/800px-Helianthus_annuus_004.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "El girasol (Helianthus annuus) es una hierba anual de la familia de las asteráceas, originaria de América del Norte. Alcanza entre 1 y 3 metros de altura, con una gran inflorescencia terminal (capítulo) que sigue el movimiento del sol (heliotropismo). Sus semillas (pipas) se prensan en frío para obtener el aceite de girasol, rico en ácido linoleico (omega-6) y vitamina E.",
+    "historia_uso": "El aceite de girasol ha sido ampliamente estudiado en neonatología desde los años 90. Múltiples ensayos clínicos en países como Bangladesh, India y Egipto han demostrado que el masaje con aceite de girasol reduce las infecciones, mejora la integridad cutánea y disminuye la mortalidad neonatal. La OMS incluye el cuidado de la piel con emolientes naturales entre sus recomendaciones para recién nacidos de bajo peso en países de bajos recursos.",
+    "principios_activos": [
+      "Ácido linoleico (omega-6, 50-70% en variedades alto oleico) — ácido graso esencial — componente fundamental de las ceramidas de la barrera cutánea. Penetra en la epidermis y acelera la maduración de la función de barrera, reduciendo la pérdida de agua transepidérmica",
+      "Vitamina E (tocoferoles) — antioxidante liposoluble — protege la piel del daño oxidativo y tiene acción antiinflamatoria"
+    ],
+    "propiedades_farmacologicas": [
+      "Aceleración de la maduración cutánea: el ácido linoleico se incorpora a las ceramidas del estrato córneo, acelerando la formación de una barrera cutánea competente. Una revisión sistemática de 2022 incluyó 8 estudios con aceite de girasol y concluyó que mejora eficazmente la condición de la piel y las funciones de barrera en neonatos",
+      "Reducción de infecciones nosocomiales: un ensayo clínico en Bangladesh con 497 recién nacidos prematuros mostró que el masaje con aceite de girasol redujo significativamente las infecciones nosocomiales en comparación con el cuidado convencional"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "No aplica (uso externo en el bebé).",
+      "lactancia": "No aplica (uso externo en el bebé).",
+      "nivel_seguridad": "Revisión sistemática de 2022: 11 estudios concluyeron que los aceites tópicos mejoran eficazmente la condición de la piel neonatal. El aceite de girasol fue el más estudiado (8 estudios)."
+    },
+    "nivel_evidencia": "Alto — El aceite de girasol es el aceite vegetal más estudiado para el cuidado de la piel neonatal. Una revisión sistemática de 2022 incluyó 8 estudios específicos con aceite de girasol, concluyendo que mejora eficazmente la integridad cutánea y las funciones de barrera.",
+    "referencias_cientificas": [
+      "Kanti V, Günther M, Stroux A, et al. Effects of Topical Oils on Neonatal Skin: A Systematic Review. J Perinat Neonatal Nurs. 2022;36(4):362-372. PMID: 36288421",
+      "Darmstadt GL, Saha SK, Ahmed AS, et al. Effect of topical treatment with skin barrier-enhancing emollients on nosocomial infections in preterm infants in Bangladesh: a randomised controlled trial. Lancet. 2005;365(9464):1039-1045. PMID: 15781099",
+      "MINSAL. Guías de cuidado del recién nacido. Santiago: Ministerio de Salud de Chile; 2018."
+    ],
+    "curiosidades": [
+      "El aceite de girasol fue el primer aceite vegetal en ser estudiado en un ensayo clínico a gran escala para prevenir infecciones en recién nacidos prematuros. El estudio se realizó en Bangladesh y mostró una reducción del 41% en las infecciones nosocomiales.",
+      "En Chile, el aceite de girasol es un producto de consumo masivo, pero pocas personas conocen su extraordinario potencial para el cuidado de la piel del recién nacido. El aceite de girasol alto oleico es el más recomendado por su estabilidad y perfil de ácidos grasos.",
+      "A diferencia de la crema de caléndula o el aceite de almendras, el aceite de girasol tiene la ventaja de ser hipoalergénico y prácticamente no causar reacciones alérgicas, lo que lo hace ideal para recién nacidos con piel extremadamente sensible."
+    ]
+  },
+  {
+    "id": 121,
+    "nombre": "Malva",
+    "cientifico": "Malva sylvestris L.",
+    "familia": "Malvaceae",
+    "parte": "Flores y hojas",
+    "usos": "La malva es la flor que acaricia la piel irritada del recién nacido. Sus pétalos, ricos en mucílagos suavizantes, forman una película protectora que calma el enrojecimiento, reduce la inflamación y acelera la curación de la dermatitis del pañal. Un baño de asiento con infusión de malva deja la piel del bebé suave, protegida y libre de irritaciones. Es uno de los remedios más antiguos y suaves de la medicina tradicional europea.",
+    "chiloe": false,
+    "region": "Naturalizada en Chile central y sur; flores y hojas disponibles en herboristerías de todo el país",
+    "emoji": "🌸",
+    "precaucion": "El baño de malva es seguro para recién nacidos desde el nacimiento. Utiliza solo flores y hojas de Malva sylvestris (malva común), no confundir con otras especies. Cuela bien la infusión antes de añadirla al agua del baño. La temperatura del agua debe ser tibia (37°C). No usar en caso de alergia conocida a las malváceas. Si la dermatitis empeora o no mejora en 3 días, consulta al pediatra.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "recién nacido",
+      "dermatitis del pañal",
+      "malva",
+      "baño",
+      "piel",
+      "irritación",
+      "mucílago",
+      "calmante"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Malva_sylvestris_003.jpg/800px-Malva_sylvestris_003.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba anual o perenne de vida corta, de porte erecto o semirrastrero, que alcanza entre 30 y 120 cm de altura. Las hojas son alternas, palmatilobuladas con 5 a 7 lóbulos poco profundos, de bordes dentados y textura ligeramente rugosa. Las flores son de un hermoso color rosa púrpura con venas más oscuras, de 2 a 5 cm de diámetro, con cinco pétalos. Los frutos son esquizocarpos en forma de rueda (popularmente llamados 'quesitos'). Toda la planta, especialmente las flores, es rica en mucílagos.",
+    "historia_uso": "La malva ha sido utilizada como emoliente y calmante de la piel desde la antigüedad. Dioscórides y Plinio el Viejo la recomendaban para inflamaciones cutáneas. En la medicina tradicional europea, los baños de malva se usaban para calmar la piel irritada de los bebés. La Comisión E alemana aprobó su uso para irritaciones de la mucosa oral y faríngea. En Chile, la malva crece de forma silvestre y es conocida por las abuelas como un remedio suave para la piel de los recién nacidos.",
+    "principios_activos": [
+      "Mucílagos (arabinogalactanos, ramnogalacturonanos) — polisacáridos — forman una película protectora sobre la piel que retiene la humedad, calma la irritación y protege la epidermis dañada del contacto con la orina y las heces",
+      "Flavonoides (quercetina, kaempferol) y antocianinas (malvina) — polifenoles — acción antiinflamatoria y antioxidante, reducen el enrojecimiento y aceleran la regeneración cutánea"
+    ],
+    "propiedades_farmacologicas": [
+      "Emoliente y protector cutáneo: los mucílagos de la malva forman una película hidratante que protege la piel del recién nacido de los irritantes del pañal, reduciendo la fricción y calmando la inflamación. La Comisión E alemana aprueba su uso para irritaciones de la piel y mucosas.",
+      "Antiinflamatorio: los flavonoides y antocianinas inhiben la ciclooxigenasa-2 (COX-2) y reducen las prostaglandinas proinflamatorias, aliviando el enrojecimiento y el dolor de la dermatitis del pañal."
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "No aplica (uso externo en el bebé).",
+      "lactancia": "No aplica (uso externo en el bebé).",
+      "nivel_seguridad": "Comisión E alemana: Aprobada para irritaciones de la mucosa oral y faríngea. Uso tradicional bien establecido para cuidados de la piel."
+    },
+    "nivel_evidencia": "Moderado — La malva cuenta con respaldo regulatorio (Comisión E alemana) y una larga tradición de uso como emoliente cutáneo. Los estudios clínicos específicos en dermatitis del pañal son limitados, pero la evidencia tradicional y los estudios farmacológicos de sus mucílagos respaldan su uso.",
+    "referencias_cientificas": [
+      "Comisión E alemana. Monografía de Malva sylvestris para irritaciones de la mucosa oral y faríngea.",
+      "ESCOP. Malvae sylvestris flos monograph. ESCOP Monographs. 2nd ed. Exeter: ESCOP; 2014.",
+      "MINSAL. Medicamentos Herbarios Tradicionales. Santiago: Ministerio de Salud de Chile; 2010."
+    ],
+    "curiosidades": [
+      "En la medicina popular chilena, la malva es conocida como 'la planta de los pañales' porque las abuelas la recomiendan para lavar la colita irritada de los bebés. Dicen que 'la malva suaviza como una mano de mamá'.",
+      "Los frutos de la malva, llamados 'quesitos' o 'panes', son comestibles y tienen un sabor suave y ligeramente dulce. Los niños del campo chileno los recolectan y los comen como golosina.",
+      "La malva comparte familia con el hibisco y el algodón, y sus flores contienen los mismos mucílagos que hacen del algodón un tejido suave y absorbente."
+    ]
+  },
+  {
+    "id": 122,
+    "nombre": "Verbena",
+    "cientifico": "Verbena officinalis L.",
+    "familia": "Verbenaceae",
+    "parte": "Partes aéreas (hojas y sumidades floridas)",
+    "usos": "La verbena es una planta que calma y reconforta tanto a la madre como al recién nacido. Tomada por la madre durante la lactancia, sus compuestos pasan a la leche en pequeñas cantidades, ayudando a calmar los nervios, mejorar la digestión y aliviar los cólicos del bebé. Es una hierba tradicionalmente utilizada en las infusiones para madres lactantes en toda Europa.",
+    "chiloe": false,
+    "region": "Naturalizada en Chile central y sur; disponible en herboristerías de todo el país",
+    "emoji": "🌿",
+    "precaucion": "Esta infusión es EXCLUSIVAMENTE para la madre lactante. NUNCA administres infusiones de verbena directamente al recién nacido (0-28 días). La verbena es GRAS (generalmente reconocida como segura) por la FDA. Dada su falta de toxicidad a dosis correctas, el consumo moderado durante la lactancia tendría escaso o nulo riesgo (e-lactancia.org). Suspende si el bebé muestra irritabilidad inusual.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "recién nacido",
+      "calma",
+      "cólicos",
+      "lactancia",
+      "verbena",
+      "digestión",
+      "ansiedad",
+      "sueño"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Verbena_officinalis_002.jpg/800px-Verbena_officinalis_002.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba perenne de porte erecto que alcanza entre 30 y 80 cm de altura, con tallos cuadrangulares y rígidos. Las hojas son opuestas, las basales pecioladas y lobuladas, las superiores sésiles y lanceoladas, de 3 a 8 cm de largo, con bordes dentados. Las flores, pequeñas y tubulares, de color lila pálido a blanco, se agrupan en espigas terminales delgadas y alargadas. Toda la planta es ligeramente amarga y aromática.",
+    "historia_uso": "Originaria de Europa, la verbena ha sido venerada como planta sagrada desde la antigüedad. Los celtas la llamaban 'hierba sagrada' y los romanos la usaban para purificar los templos. En la medicina tradicional europea, se ha utilizado como calmante, digestivo y galactogogo. La FDA la clasifica como GRAS (generalmente reconocida como segura). La base de datos e-lactancia.org la califica como de 'escaso o nulo riesgo' durante la lactancia.",
+    "principios_activos": [
+      "Glucósidos iridoides (verbenalina, hastatósido) — compuestos amargos — acción sedante suave sobre el sistema nervioso central y efecto digestivo, estimulando la producción de jugos gástricos y bilis. Pasan a la leche materna en cantidades ínfimas",
+      "Flavonoides (luteolina, apigenina) — polifenoles — acción ansiolítica y antiinflamatoria, contribuyen al efecto calmante general de la planta"
+    ],
+    "propiedades_farmacologicas": [
+      "Calmante y digestivo: la verbenalina y los flavonoides tienen un efecto sedante suave y favorecen la digestión. La base de datos e-lactancia.org califica la verbena como de 'escaso o nulo riesgo' durante la lactancia, dada su falta de toxicidad a dosis correctas",
+      "Galactogogo suave: la verbena es considerada un galactogogo tradicional, aunque la evidencia clínica de esta indicación es limitada"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "PRECAUCIÓN — La verbena tiene propiedades emenagogas que podrían estimular el útero. Evitar durante el embarazo sin supervisión médica.",
+      "lactancia": "SEGURO — La verbena es segura durante la lactancia a las dosis recomendadas. e-lactancia.org la califica como de 'escaso o nulo riesgo'. La FDA la clasifica como GRAS.",
+      "nivel_seguridad": "FDA: GRAS. e-lactancia.org: Riesgo bajo. Dada su falta de toxicidad a dosis correctas, el consumo moderado sería compatible con la lactancia."
+    },
+    "nivel_evidencia": "Bajo-Moderado — La evidencia de la verbena proviene principalmente del uso tradicional europeo. La FDA la clasifica como GRAS y e-lactancia.org la califica como de bajo riesgo durante la lactancia. Se necesitan más estudios clínicos.",
+    "referencias_cientificas": [
+      "e-lactancia.org. Verbena officinalis: Nivel de riesgo para la lactancia. Disponible en: https://www.e-lactancia.com/",
+      "LactMed (Drugs and Lactation Database). Vervain. Bethesda (MD): National Institute of Child Health and Human Development.",
+      "MINSAL. Medicamentos Herbarios Tradicionales. Santiago: Ministerio de Salud de Chile; 2010."
+    ],
+    "curiosidades": [
+      "En la antigua Roma, la verbena era la planta sagrada que se usaba para purificar los templos y hacer coronas para los mensajeros. De ahí viene el nombre 'verbena', que en latín significa 'rama sagrada'.",
+      "En la medicina popular chilena, la verbena se usa menos que el toronjil o la manzanilla, pero está ganando reconocimiento como un calmante suave para madres lactantes.",
+      "La verbena forma parte de las fórmulas de varios tés comerciales para la lactancia en Europa, combinada con hinojo, anís y melisa."
+    ]
   }
 ]
