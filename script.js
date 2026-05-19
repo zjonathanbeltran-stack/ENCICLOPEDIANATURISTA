@@ -1543,22 +1543,169 @@ function switchMaternSubtab(tipo) {
     $$('.matern-nav-card').forEach(b => b.classList.toggle('active', b.dataset.matern === tipo));
     $('#maternEmbarazo').classList.toggle('active', tipo === 'embarazo');
     $('#maternLactancia').classList.toggle('active', tipo === 'lactancia');
-    $('#maternRecetas').classList.toggle('active', tipo === 'recetas');
     const icon = $('#maternidadTab .matern-hero-icon');
-    if (icon) {
-        if (tipo === 'lactancia') icon.textContent = '🍼';
-        else if (tipo === 'recetas') icon.textContent = '📖';
-        else icon.textContent = '🤰';
+    if (icon) icon.textContent = tipo === 'lactancia' ? '🍼' : '🤰';
+}
+
+const _maternRecetasRendered = { emb: false, lac: false };
+
+function switchMaternSubPanel(section, panel) {
+    $$(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
+        .forEach(b => b.classList.toggle('active', b.dataset.sub === panel));
+    $$(`.matern-sub-panel[data-section="${section}"]`)
+        .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
+    // Lazy render: recetas seguras
+    if (panel === 'recetas') {
+        const tipo = section === 'emb' ? 'emb' : 'lac';
+        if (!_maternRecetasRendered[tipo]) {
+            _renderMaternSafeRecetas(tipo);
+            _maternRecetasRendered[tipo] = true;
+        }
+    }
+    // Lazy render: submódulos mujer
+    if (panel === 'mujer' && !$('#maternMujerSubmodGrid')?.dataset.loaded) {
+        _renderMujerSubmodGrid();
     }
 }
 
-function switchMaternSubPanel(section, panel) {
-    // Botones de ese nav
-    $$(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
-        .forEach(b => b.classList.toggle('active', b.dataset.sub === panel));
-    // Paneles de esa sección
-    $$(`.matern-sub-panel[data-section="${section}"]`)
-        .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
+function _renderMaternSafeRecetas(tipo) {
+    const gridId = tipo === 'emb' ? 'maternEmbRecetasGrid' : 'maternLacRecetasGrid';
+    const grid = $('#' + gridId);
+    if (!grid) return;
+    grid.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-mute)"><i class="fas fa-spinner fa-spin"></i> Buscando recetas…</div>';
+    setTimeout(() => {
+        const MATERN_MODO_KEYS = {
+            'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
+            'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
+            'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
+            'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
+        };
+        const filtered = recetasDB.filter(r => {
+            const seg = _maternSeg(r);
+            return tipo === 'emb' ? seg.emb === 'apto' : seg.lac === 'apto';
+        });
+        if (!filtered.length) {
+            grid.innerHTML = '<p class="matern-recetas-empty">No se encontraron recetas.</p>';
+            return;
+        }
+        grid.innerHTML = filtered.map(r => {
+            const uso = r.uso ? r.uso.slice(0,95) + (r.uso.length>95?'…':'') : (CATEGORIA_USO[r.categoria]||'');
+            const catColor = (CAT_VISUAL[r.categoria]||{}).g?.[1]||'#4a8a3a';
+            const modo = _normModo(r.modo_uso);
+            const modoKey = modo ? (MATERN_MODO_KEYS[modo]||'otro') : null;
+            const puebloKey = esAncestral(r) ? puebloDeReceta(r) : null;
+            const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey]||ANCESTRAL_PUEBLOS.mapuche) : null;
+            const puebloBadge = puebloInfo ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>` : '';
+            const matern = _maternSeg(r);
+            const embHtml = matern.emb==='apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>` : '';
+            const lacHtml = matern.lac==='apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>` : '';
+            return `
+            <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
+                <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                    <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
+                    <span class="rsearch-cat">${r.categoria}</span>
+                    ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+                </div>
+                <h4 class="rsearch-titulo">${r.titulo}</h4>
+                ${puebloBadge}
+                ${uso ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                      : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`}
+                <div class="rsearch-card-meta-row">
+                    ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                    ${embHtml}${lacHtml}
+                </div>
+                <div class="rsearch-card-footer">
+                    <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </button>`;
+        }).join('');
+        grid.querySelectorAll('.matern-receta-card').forEach(btn =>
+            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
+        );
+    }, 50);
+}
+
+function _renderMujerSubmodGrid() {
+    const grid = $('#maternMujerSubmodGrid');
+    if (!grid) return;
+    grid.dataset.loaded = '1';
+    const submods = SUBMODULOS.mujer.submods;
+    grid.innerHTML = submods.map(sub => {
+        const count = recetasDB.filter(r => r.submodulo === sub.id).length;
+        return `
+        <button class="matern-submod-card" data-subid="${sub.id}" style="--ms-color:${sub.color}">
+            <span class="matern-submod-emoji">${sub.emoji}</span>
+            <span class="matern-submod-label">${sub.label}</span>
+            <span class="matern-submod-desc">${sub.desc}</span>
+            <span class="matern-submod-count">${count} recetas</span>
+            <i class="fas fa-arrow-right matern-submod-arrow"></i>
+        </button>`;
+    }).join('');
+    grid.querySelectorAll('.matern-submod-card').forEach(btn =>
+        btn.addEventListener('click', () => abrirSubmoduloMujer(btn.dataset.subid))
+    );
+    $('#maternMujerBack')?.addEventListener('click', () => {
+        $('#maternMujerSubmodGrid').hidden = false;
+        $('#maternMujerResultados').hidden = true;
+    });
+}
+
+function abrirSubmoduloMujer(subId) {
+    const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
+    if (!sub) return;
+    let recetas = recetasDB.filter(r => r.submodulo === subId);
+    if (subId === 'postparto_lactancia') {
+        recetas = recetas.filter(r => _maternSeg(r).lac !== 'precaucion');
+    }
+    const tituloEl = $('#maternMujerTituloActivo');
+    if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
+    const grid = $('#maternMujerRecetas');
+    if (!grid) return;
+    const MATERN_MODO_KEYS = {
+        'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
+        'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
+        'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
+        'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
+    };
+    grid.innerHTML = recetas.map(r => {
+        const uso = r.uso ? r.uso.slice(0,95)+(r.uso.length>95?'…':'') : (CATEGORIA_USO[r.categoria]||'');
+        const catColor = (CAT_VISUAL[r.categoria]||{}).g?.[1]||'#4a8a3a';
+        const modo = _normModo(r.modo_uso);
+        const modoKey = modo ? (MATERN_MODO_KEYS[modo]||'otro') : null;
+        const puebloKey = esAncestral(r) ? puebloDeReceta(r) : null;
+        const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey]||ANCESTRAL_PUEBLOS.mapuche) : null;
+        const puebloBadge = puebloInfo ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>` : '';
+        const matern = _maternSeg(r);
+        const embHtml = matern.emb==='apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
+                      : matern.emb==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución emb.</span>` : '';
+        const lacHtml = matern.lac==='apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
+                      : matern.lac==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-triangle-exclamation"></i> Precaución lac.</span>` : '';
+        return `
+        <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
+            <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
+                <span class="rsearch-cat">${r.categoria}</span>
+                ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+            </div>
+            <h4 class="rsearch-titulo">${r.titulo}</h4>
+            ${puebloBadge}
+            ${uso ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                  : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`}
+            <div class="rsearch-card-meta-row">
+                ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                ${embHtml}${lacHtml}
+            </div>
+            <div class="rsearch-card-footer">
+                <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </button>`;
+    }).join('');
+    grid.querySelectorAll('.matern-receta-card').forEach(btn =>
+        btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
+    );
+    $('#maternMujerSubmodGrid').hidden = true;
+    $('#maternMujerResultados').hidden = false;
+    $('#maternMujerResultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ════════════════════════════════════════════════════════════════════

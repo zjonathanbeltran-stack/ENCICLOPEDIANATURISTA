@@ -843,7 +843,7 @@
                     </button>
                 </div>
                 <p class="receta-search-hint">Elige una categoría</p>
-                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(2, 1fr);">
                     <button class="rsis-btn matern-nav-card active" data-matern="embarazo" style="--rsis-color:#c9679a">
                         <span class="rsis-ico"><i class="fas fa-baby-carriage"></i></span>
                         <span class="rsis-label">Embarazo</span>
@@ -854,21 +854,23 @@
                         <span class="rsis-label">Lactancia</span>
                         <span class="rsis-desc">Galactogogas y contraindicadas</span>
                     </button>
-                    <button class="rsis-btn matern-nav-card" data-matern="recetas" style="--rsis-color:#6a8a52">
-                        <span class="rsis-ico"><i class="fas fa-book-open"></i></span>
-                        <span class="rsis-label">Recetas</span>
-                        <span class="rsis-desc">Preparaciones recomendadas</span>
-                    </button>
                 </div>
             </div>
 
             <!-- Sección EMBARAZO -->
             <div id="maternEmbarazo" class="matern-section active">
                 <nav class="matern-sub-nav" data-section="emb">
+                    <button class="matern-sub-btn" data-sub="recetas"><i class="fas fa-book-open"></i> Recetas</button>
                     <button class="matern-sub-btn active" data-sub="utiles"><i class="fas fa-seedling"></i> Útiles</button>
                     <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
                     <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
+                    <button class="matern-sub-btn" data-sub="mujer"><i class="fas fa-venus"></i> Mujer</button>
                 </nav>
+
+                <div class="matern-sub-panel" data-section="emb" data-panel="recetas">
+                    <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas aptas para el embarazo</div>
+                    <div id="maternEmbRecetasGrid" class="matern-recetas-grid"></div>
+                </div>
 
                 <div class="matern-sub-panel active" data-section="emb" data-panel="utiles">
                     <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
@@ -885,15 +887,35 @@
                     <div id="maternEmbarazoEvitar" class="matern-warn-grid"></div>
                     <div id="maternPrecEmbarazo" class="matern-prec-box"></div>
                 </div>
+
+                <div class="matern-sub-panel" data-section="emb" data-panel="mujer">
+                    <div class="matern-cat-title"><span class="matern-cat-icon">♀️</span> Salud de la Mujer</div>
+                    <div id="maternMujerSubmodGrid" class="matern-submod-grid"></div>
+                    <div id="maternMujerResultados" hidden>
+                        <div class="matern-submod-back-bar">
+                            <button class="matern-submod-back" id="maternMujerBack">
+                                <i class="fas fa-arrow-left"></i> Volver
+                            </button>
+                            <span class="matern-submod-titulo-activo" id="maternMujerTituloActivo"></span>
+                        </div>
+                        <div id="maternMujerRecetas" class="matern-recetas-grid"></div>
+                    </div>
+                </div>
             </div>
 
             <!-- Sección LACTANCIA -->
             <div id="maternLactancia" class="matern-section">
                 <nav class="matern-sub-nav" data-section="lac">
+                    <button class="matern-sub-btn" data-sub="recetas"><i class="fas fa-book-open"></i> Recetas</button>
                     <button class="matern-sub-btn active" data-sub="gal"><i class="fas fa-star"></i> Galactogogas</button>
                     <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
                     <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
                 </nav>
+
+                <div class="matern-sub-panel" data-section="lac" data-panel="recetas">
+                    <div class="matern-cat-title gal"><span class="matern-cat-icon">📖</span> Recetas aptas para la lactancia</div>
+                    <div id="maternLacRecetasGrid" class="matern-recetas-grid"></div>
+                </div>
 
                 <div class="matern-sub-panel active" data-section="lac" data-panel="gal">
                     <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
@@ -909,23 +931,6 @@
                     <div class="matern-cat-title warn"><span class="matern-cat-icon">⛔</span> Evitar durante la lactancia</div>
                     <div id="maternLactanciaEvitar" class="matern-warn-grid"></div>
                     <div id="maternPrecLactancia" class="matern-prec-box"></div>
-                </div>
-            </div>
-
-            <!-- Sección RECETAS -->
-            <div id="maternRecetas" class="matern-section">
-                <!-- Tarjetas de submódulo -->
-                <div id="maternSubmodGrid" class="matern-submod-grid"></div>
-
-                <!-- Resultados al abrir un submódulo -->
-                <div id="maternSubmodResultados" hidden>
-                    <div class="matern-submod-back-bar">
-                        <button class="matern-submod-back" id="maternSubmodBack">
-                            <i class="fas fa-arrow-left"></i> Volver al recetario
-                        </button>
-                        <span class="matern-submod-titulo-activo" id="maternSubmodTituloActivo"></span>
-                    </div>
-                    <div id="maternSubmodRecetas" class="matern-recetas-grid"></div>
                 </div>
             </div>
 
