@@ -1,5 +1,5 @@
 // ── Enciclopedia Naturista de Chile — Service Worker ──
-const CACHE_NAME = 'naturista-v9';
+const CACHE_NAME = 'naturista-v10';
 
 // Archivos locales pre-cacheados en install (app funciona sin internet)
 const PRECACHE_LOCAL = [

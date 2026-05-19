@@ -232,6 +232,83 @@
             </section>
 
             <!-- ═══════════════════════════════════════════════════════════
+                 HOME · WIZARD GUIADO "ENCUENTRA TU RECETA"
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-wizard" id="homeWizard" aria-label="Asistente de búsqueda guiada">
+                <header class="hw-head">
+                    <span class="hw-eyebrow"><i class="fas fa-wand-magic-sparkles"></i> Asistente guiado</span>
+                    <h2 class="hw-title">¿Cómo te ayudo hoy?</h2>
+                    <p class="hw-sub">En 3 pasos te llevo a la receta exacta que necesitas.</p>
+                </header>
+
+                <!-- Breadcrumb dinámico -->
+                <nav class="hw-trail" id="hwTrail" aria-label="Progreso">
+                    <button class="hw-trail-step active" data-trail="1" type="button">
+                        <span class="hw-trail-num">1</span><span class="hw-trail-lbl">¿Qué te pasa?</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="2" type="button" disabled>
+                        <span class="hw-trail-num">2</span><span class="hw-trail-lbl">Síntoma</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="3" type="button" disabled>
+                        <span class="hw-trail-num">3</span><span class="hw-trail-lbl">Tu hierba</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="4" type="button" disabled>
+                        <span class="hw-trail-num">✓</span><span class="hw-trail-lbl">Receta</span>
+                    </button>
+                </nav>
+
+                <!-- Paso 1: categoría raíz -->
+                <div class="hw-step active" data-step="1">
+                    <div class="hw-options" id="hwStep1Grid"></div>
+                </div>
+
+                <!-- Paso 2: síntoma específico -->
+                <div class="hw-step" data-step="2">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="1">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title" id="hwStep2Title">¿Qué tipo de síntoma?</h3>
+                    </div>
+                    <div class="hw-options" id="hwStep2Grid"></div>
+                </div>
+
+                <!-- Paso 3: hierba a la mano -->
+                <div class="hw-step" data-step="3">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="2">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title">¿Cuál de estas hierbas tienes a la mano?</h3>
+                        <p class="hw-step-sub" id="hwStep3Sub"></p>
+                    </div>
+                    <div class="hw-options hw-options-hierbas" id="hwStep3Grid"></div>
+                    <button class="hw-cualquiera" type="button" id="hwCualquiera">
+                        <i class="fas fa-shuffle"></i>
+                        <span>Muéstrame cualquier receta sin importar la hierba</span>
+                    </button>
+                </div>
+
+                <!-- Paso 4: resultados -->
+                <div class="hw-step" data-step="4">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="3">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title">Recetas para ti</h3>
+                        <p class="hw-step-sub" id="hwResultadosSub"></p>
+                    </div>
+                    <div class="hw-resultados" id="hwResultados"></div>
+                    <button class="hw-reset" type="button" id="hwReset">
+                        <i class="fas fa-rotate-left"></i> Empezar de nuevo
+                    </button>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
                  HOME · BÚSQUEDA RÁPIDA DE SÍNTOMAS
                  ═══════════════════════════════════════════════════════════ -->
             <section class="home-busqueda" id="homeBusqueda">

@@ -594,6 +594,7 @@ const SUBMODULOS = {
     pediatrico: {
         label: 'Pediátrico',
         submods: [
+            { id:'recien_nacido',     label:'Recién Nacido',        emoji:'👶', color:'#7aad8a', count:20, desc:'0-28 días · Baños · Aceites · Lactancia',       file:'data/modulos/pediatrico/recien_nacido/recetas.json' },
             { id:'colicos_digestion', label:'Cólicos / Digestión',  emoji:'🍼', color:'#8a9a52', count:36, desc:'Cólicos · Gases · Digestión del bebé',          file:'data/modulos/pediatrico/colicos_digestion/recetas.json' },
             { id:'fiebre_resfriado',  label:'Fiebre / Resfriado',   emoji:'🤒', color:'#c97b56', count:16, desc:'Fiebre · Resfriado · Tos · Bronquitis infantil', file:'data/modulos/pediatrico/fiebre_resfriado/recetas.json' },
             { id:'piel_cuidado',      label:'Piel / Bebé',          emoji:'🌼', color:'#c9a84c', count:12,  desc:'Pañalitis · Eccema · Dentición · Piel bebé',    file:'data/modulos/pediatrico/piel_cuidado/recetas.json' },
@@ -5384,6 +5385,281 @@ function wireCategorias() {
     });
 }
 
+// ════════════════════════════════════════════════════════════════════
+// HOME · WIZARD GUIADO "ENCUENTRA TU RECETA"
+// ════════════════════════════════════════════════════════════════════
+
+const WIZARD_ARBOL = [
+    { id:'dolor', emoji:'🤕', label:'Dolor', desc:'Cabeza, muscular, menstrual…', color:'#c97b56',
+      submodulos:[ {m:'dolores',s:'dolor_cabeza_migrana'}, {m:'dolores',s:'dolor_muscular_lumbago'},
+                   {m:'dolores',s:'reumatismo_artritis'},  {m:'dolores',s:'dolor_cronico_general'},
+                   {m:'dolores',s:'antiinflamatorio'},     {m:'dolores',s:'salud_bucal'},
+                   {m:'mujer',  s:'menstruacion_spm'} ] },
+    { id:'resfrio', emoji:'🤧', label:'Resfrío, tos', desc:'Gripe, fiebre, garganta, congestión…', color:'#5a8aaa',
+      submodulos:[ {m:'respiratorio',s:'gripe_resfrios'},        {m:'respiratorio',s:'tos'},
+                   {m:'respiratorio',s:'bronquitis_expectorante'},{m:'respiratorio',s:'congestion_sinusitis'},
+                   {m:'respiratorio',s:'garganta_faringitis'},   {m:'respiratorio',s:'fiebre'},
+                   {m:'respiratorio',s:'respiratorio_general'} ] },
+    { id:'estomago', emoji:'🤢', label:'Estómago', desc:'Acidez, gases, diarrea, hígado…', color:'#8a9a52',
+      submodulos:[ {m:'digestivo',s:'gastritis_acidez'}, {m:'digestivo',s:'estrenimiento'},
+                   {m:'digestivo',s:'diarrea'},          {m:'digestivo',s:'colicos_gases'},
+                   {m:'digestivo',s:'higado_vesicula'},  {m:'digestivo',s:'parasitos'},
+                   {m:'digestivo',s:'nauseas_indigestion'}, {m:'digestivo',s:'digestion_lenta'},
+                   {m:'digestivo',s:'nutricion'} ] },
+    { id:'animo', emoji:'😴', label:'Cansancio, ánimo', desc:'Estrés, insomnio, ansiedad, memoria…', color:'#7a6aaa',
+      submodulos:[ {m:'nervioso',s:'estres_ansiedad'},  {m:'nervioso',s:'animo_depresion'},
+                   {m:'nervioso',s:'insomnio'},          {m:'nervioso',s:'memoria_concentracion'},
+                   {m:'general', s:'energizante_vitalidad'} ] },
+    { id:'piel', emoji:'🩹', label:'Piel, heridas', desc:'Cicatrices, hongos, picazón, cabello…', color:'#d4a574',
+      submodulos:[ {m:'piel',s:'heridas_cicatrices'}, {m:'piel',s:'hongos_infecciones'},
+                   {m:'piel',s:'problemas_piel'},    {m:'piel',s:'cosmetica_piel'},
+                   {m:'piel',s:'cabello'},           {m:'piel',s:'banos_terapeuticos'} ] },
+    { id:'mujer', emoji:'🌸', label:'Salud femenina', desc:'Menstruación, menopausia, postparto…', color:'#c9679a',
+      submodulos:[ {m:'mujer',s:'menstruacion_spm'}, {m:'mujer',s:'menopausia'},
+                   {m:'mujer',s:'postparto_lactancia'}, {m:'mujer',s:'salud_ginecologica'} ] },
+    { id:'nino', emoji:'👶', label:'Mi niño / bebé', desc:'Recién nacido, cólicos, fiebre, sueño…', color:'#7aad8a',
+      submodulos:[ {m:'pediatrico',s:'recien_nacido'},     {m:'pediatrico',s:'colicos_digestion'},
+                   {m:'pediatrico',s:'fiebre_resfriado'},   {m:'pediatrico',s:'piel_cuidado'},
+                   {m:'pediatrico',s:'nervioso_sueno'} ] },
+    { id:'corazon', emoji:'❤️', label:'Corazón, riñones', desc:'Presión, colesterol, várices, diurético…', color:'#aa5a5a',
+      submodulos:[ {m:'cardiovascular',s:'colesterol'},  {m:'cardiovascular',s:'presion_arterial'},
+                   {m:'cardiovascular',s:'circulacion_varices'},{m:'cardiovascular',s:'palpitaciones_corazon'},
+                   {m:'cardiovascular',s:'sangre_antioxidantes'},{m:'cardiovascular',s:'rinones'},
+                   {m:'cardiovascular',s:'diuretico'} ] },
+    { id:'general', emoji:'✨', label:'Bienestar general', desc:'Alergias, ojos, oídos, energía…', color:'#6a8a52',
+      submodulos:[ {m:'general',s:'alergia'}, {m:'general',s:'ojos_oidos'},
+                   {m:'general',s:'bienestar_general'}, {m:'general',s:'energizante_vitalidad'} ] },
+    { id:'ancestral', emoji:'🪶', label:'Saber ancestral', desc:'Mapuche, ritual, espiritual…', color:'#a08a42',
+      submodulos:[ {m:'mapuche',s:'medicina_mapuche'}, {m:'mapuche',s:'espiritual_ritual'} ] },
+];
+
+const wizardState = { paso1: null, paso2: null, paso3: null };
+const _wizHierbasCache = new Map();
+
+function _wizSubInfo(modId, subId) {
+    const mod = SUBMODULOS[modId];
+    return mod ? mod.submods.find(s => s.id === subId) : null;
+}
+
+function _wizRecetasDe(modId, subId) {
+    return recetasDB.filter(r => r.modulo === modId && r.submodulo === subId);
+}
+
+function _wizHierbasDe(modId, subId, max = 8) {
+    const key = `${modId}/${subId}`;
+    if (_wizHierbasCache.has(key)) return _wizHierbasCache.get(key).slice(0, max);
+    const recetas = _wizRecetasDe(modId, subId);
+    const plantas = plantasDB.map(p => ({
+        id: p.id, nombre: p.nombre, emoji: p.emoji || '🌿',
+        short: p.nombre.toLowerCase().split('(')[0].split(/[—-]/)[0].trim(),
+    })).filter(p => p.short.length >= 3);
+    // Cuenta por nombre corto (deduplica plantas con mismo nombre base)
+    const countsByShort = new Map();
+    recetas.forEach(r => {
+        const txt = `${r.titulo} ${r.ingredientes || ''}`.toLowerCase();
+        const matched = new Set();
+        plantas.forEach(p => {
+            if (matched.has(p.short)) return;
+            if (txt.includes(p.short)) {
+                matched.add(p.short);
+                const prev = countsByShort.get(p.short);
+                if (!prev) countsByShort.set(p.short, { planta: p, count: 1 });
+                else prev.count += 1;
+            }
+        });
+    });
+    const ordenadas = [...countsByShort.values()]
+        .sort((a, b) => b.count - a.count)
+        .map(v => v.planta);
+    _wizHierbasCache.set(key, ordenadas);
+    return ordenadas.slice(0, max);
+}
+
+function _wizRecetasFiltradas(modId, subId, plantaShort = null) {
+    let lista = _wizRecetasDe(modId, subId);
+    if (plantaShort) {
+        const n = plantaShort.toLowerCase();
+        lista = lista.filter(r => `${r.titulo} ${r.ingredientes || ''}`.toLowerCase().includes(n));
+    }
+    return lista;
+}
+
+function _wizGoTo(step) {
+    document.querySelectorAll('.hw-step').forEach(s =>
+        s.classList.toggle('active', parseInt(s.dataset.step) === step));
+    document.querySelectorAll('.hw-trail-step').forEach(t => {
+        const n = parseInt(t.dataset.trail);
+        t.classList.toggle('active', n === step);
+        t.classList.toggle('done', n < step);
+        t.disabled = n > step;
+    });
+    const wiz = document.getElementById('homeWizard');
+    if (wiz) wiz.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function _wizRenderStep1() {
+    const grid = document.getElementById('hwStep1Grid');
+    if (!grid) return;
+    grid.innerHTML = WIZARD_ARBOL.map(cat => `
+        <button class="hw-card" data-step1="${cat.id}" style="--hw-color:${cat.color}" type="button">
+            <span class="hw-card-emoji">${cat.emoji}</span>
+            <span class="hw-card-label">${cat.label}</span>
+            <span class="hw-card-desc">${cat.desc}</span>
+        </button>`).join('');
+    grid.querySelectorAll('.hw-card').forEach(btn => {
+        btn.addEventListener('click', () => {
+            wizardState.paso1 = btn.dataset.step1;
+            wizardState.paso2 = null;
+            wizardState.paso3 = null;
+            _wizRenderStep2();
+            _wizGoTo(2);
+        });
+    });
+}
+
+function _wizRenderStep2() {
+    const cat = WIZARD_ARBOL.find(c => c.id === wizardState.paso1);
+    if (!cat) return;
+    const title = document.getElementById('hwStep2Title');
+    if (title) title.innerHTML = `${cat.emoji} ${cat.label} · ¿qué específicamente?`;
+    const grid = document.getElementById('hwStep2Grid');
+    if (!grid) return;
+    const items = cat.submodulos.map(({m, s}) => {
+        const info = _wizSubInfo(m, s);
+        if (!info) return null;
+        const count = _wizRecetasDe(m, s).length;
+        return { m, s, label: info.label, emoji: info.emoji, desc: info.desc, color: info.color || cat.color, count };
+    }).filter(Boolean);
+    grid.innerHTML = items.map(it => `
+        <button class="hw-card" data-mod="${it.m}" data-sub="${it.s}" style="--hw-color:${it.color}" type="button">
+            <span class="hw-card-emoji">${it.emoji}</span>
+            <span class="hw-card-label">${it.label}</span>
+            <span class="hw-card-desc">${it.desc}</span>
+            <span class="hw-card-count">${it.count} ${it.count === 1 ? 'receta' : 'recetas'}</span>
+        </button>`).join('');
+    grid.querySelectorAll('.hw-card').forEach(btn => {
+        btn.addEventListener('click', () => {
+            wizardState.paso2 = { m: btn.dataset.mod, s: btn.dataset.sub };
+            wizardState.paso3 = null;
+            _wizRenderStep3();
+            _wizGoTo(3);
+        });
+    });
+}
+
+function _wizRenderStep3() {
+    if (!wizardState.paso2) return;
+    const { m, s } = wizardState.paso2;
+    const info = _wizSubInfo(m, s);
+    const subTxt = document.getElementById('hwStep3Sub');
+    if (subTxt) subTxt.textContent = `Para "${info.label}". Elige una hierba o pulsa "Cualquiera" abajo.`;
+    const hierbas = _wizHierbasDe(m, s, 8);
+    const grid = document.getElementById('hwStep3Grid');
+    if (!grid) return;
+    if (!hierbas.length) {
+        grid.innerHTML = '<p class="hw-empty">No hay hierbas específicas registradas — pulsa "Cualquiera" abajo.</p>';
+    } else {
+        grid.innerHTML = hierbas.map(h => `
+            <button class="hw-hierba" data-short="${h.short}" data-nombre="${h.nombre}" type="button">
+                <span class="hw-hierba-emoji">${h.emoji}</span>
+                <span class="hw-hierba-nombre">${h.nombre.split('(')[0].trim()}</span>
+            </button>`).join('');
+        grid.querySelectorAll('.hw-hierba').forEach(btn => {
+            btn.addEventListener('click', () => {
+                wizardState.paso3 = { short: btn.dataset.short, nombre: btn.dataset.nombre };
+                _wizRenderResultados();
+                _wizGoTo(4);
+            });
+        });
+    }
+}
+
+function _wizRenderResultados() {
+    if (!wizardState.paso2) return;
+    const { m, s } = wizardState.paso2;
+    const info = _wizSubInfo(m, s);
+    const planta = wizardState.paso3;
+    const lista = _wizRecetasFiltradas(m, s, planta ? planta.short : null);
+    const subTxt = document.getElementById('hwResultadosSub');
+    if (subTxt) {
+        subTxt.innerHTML = planta
+            ? `<strong>${info.label}</strong> con <strong>${planta.nombre.split('(')[0].trim()}</strong> · ${lista.length} ${lista.length === 1 ? 'receta' : 'recetas'}`
+            : `<strong>${info.label}</strong> · ${lista.length} recetas`;
+    }
+    const wrap = document.getElementById('hwResultados');
+    if (!wrap) return;
+    if (!lista.length) {
+        wrap.innerHTML = `
+            <div class="hw-empty-card">
+                <span class="hw-empty-emoji">🌱</span>
+                <p>No encontramos recetas con esa combinación.</p>
+                <button class="hw-empty-btn" type="button" id="hwSkipHierba">
+                    Ver todas las recetas de ${info.label}
+                </button>
+            </div>`;
+        const sb = document.getElementById('hwSkipHierba');
+        if (sb) sb.addEventListener('click', () => { wizardState.paso3 = null; _wizRenderResultados(); });
+        return;
+    }
+    const top = lista.slice(0, 10);
+    wrap.innerHTML = top.map(r => {
+        const cat = r.categoria;
+        const ico = (typeof thumbIcon === 'function') ? thumbIcon(cat) : 'fa-leaf';
+        const grad = (typeof thumbGrad === 'function') ? thumbGrad(cat) : 'linear-gradient(135deg,#6a8a52,#9bbb7a)';
+        const modo = (typeof _normModo === 'function') ? (_normModo(r.modo_uso) || '') : (r.modo_uso || '');
+        const ing = (r.ingredientes || '').slice(0, 90);
+        return `
+        <button class="hw-receta-card" data-rid="${r.id}" type="button">
+            <div class="hw-receta-thumb" style="background:${grad}">
+                <i class="fas ${ico}"></i>
+                <span class="hw-receta-cat">${cat}</span>
+            </div>
+            <div class="hw-receta-body">
+                <h4 class="hw-receta-title">${r.titulo}</h4>
+                <p class="hw-receta-ing"><i class="fas fa-leaf"></i> ${ing}${(r.ingredientes || '').length > 90 ? '…' : ''}</p>
+                <div class="hw-receta-meta">
+                    ${modo ? `<span class="hw-receta-modo">${modo}</span>` : ''}
+                    ${r.tiempo_prep ? `<span class="hw-receta-time"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                </div>
+            </div>
+            <i class="fas fa-arrow-right hw-receta-arrow"></i>
+        </button>`;
+    }).join('');
+    wrap.querySelectorAll('.hw-receta-card').forEach(btn =>
+        btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid))));
+    if (lista.length > top.length) {
+        wrap.insertAdjacentHTML('beforeend',
+            `<p class="hw-mas">+${lista.length - top.length} más en el Recetario</p>`);
+    }
+}
+
+function wireHomeWizard() {
+    if (!document.getElementById('homeWizard')) return;
+    _wizRenderStep1();
+    document.querySelectorAll('.hw-back').forEach(btn => {
+        btn.addEventListener('click', () => _wizGoTo(parseInt(btn.dataset.back)));
+    });
+    document.querySelectorAll('.hw-trail-step').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (btn.disabled) return;
+            _wizGoTo(parseInt(btn.dataset.trail));
+        });
+    });
+    const skipBtn = document.getElementById('hwCualquiera');
+    if (skipBtn) skipBtn.addEventListener('click', () => {
+        wizardState.paso3 = null;
+        _wizRenderResultados();
+        _wizGoTo(4);
+    });
+    const resetBtn = document.getElementById('hwReset');
+    if (resetBtn) resetBtn.addEventListener('click', () => {
+        wizardState.paso1 = null;
+        wizardState.paso2 = null;
+        wizardState.paso3 = null;
+        _wizGoTo(1);
+    });
+}
+
 // ── Búsqueda rápida desde el Home ──
 function wireHomeBusqueda() {
     const inp = document.getElementById('homeSintomaBuscar');
@@ -5435,6 +5711,7 @@ function initHomepage() {
     wireHomeAccess();
     wireCategorias();
     wireHomeBusqueda();
+    wireHomeWizard();
     setupHomeReveal();
 }
 
