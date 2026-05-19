@@ -1,0 +1,133 @@
+{
+  "modulo": "digestivo",
+  "submodulo": "nauseas_indigestion",
+  "recetas": [
+    {
+      "id": 137,
+      "titulo": "Tintura de Ajenjo para la Indigestión",
+      "categoria": "Digestivo",
+      "origen": "Popular",
+      "ingredientes": "1 parte de hojas secas de ajenjo, 5 partes de alcohol de 40°.",
+      "preparacion": "Macerar por 15 días. Tomar de 5 a 10 gotas en un poco de agua antes de las comidas.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona.",
+      "uso": "Indigestión. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
+    },
+    {
+      "id": 162,
+      "titulo": "Tintura de Canela y Ajenjo para la Indigestión",
+      "categoria": "Digestivo",
+      "origen": "Urbano",
+      "ingredientes": "Canela en rama, ajenjo, alcohol de 40°.",
+      "preparacion": "Macerar canela y ajenjo en alcohol por 15 días. Tomar de 10 a 15 gotas en un poco de agua antes de las comidas.",
+      "dosis": "1 taza, 2–3 veces al día después de las comidas",
+      "modo_uso": "Oral — infusión caliente o tibia",
+      "tiempo_prep": "7 días (maceración)",
+      "dificultad": "Avanzado",
+      "rendimiento": "2–3 tazas",
+      "conservacion": "Preparar al momento; si sobra, refrigerar hasta 12 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Contraindicado en embarazo, epilepsia y enfermedades neurológicas. No usar más de 2 semanas. Contiene tuyona. | En dosis medicinales, evitar en embarazo. No usar aceite esencial puro sin diluir.",
+      "uso": "Indigestión. Apoyo digestivo.",
+      "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+      "propiedades": [
+        "digestivo",
+        "carminativo",
+        "antiespasmódico",
+        "colagogo"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
+    },
+    {
+      "id": 391,
+      "titulo": "Té de Menta piperita para dispepsia y náuseas",
+      "categoria": "Digestivo",
+      "origen": "Popular Chileno",
+      "ingredientes": "1 cucharada de hojas de menta fresca o seca, 1 taza de agua.",
+      "preparacion": "Infusionar en agua hervida 5 minutos tapado. Colar. Beber tibio después de las comidas.",
+      "dosis": "1 taza 3 veces al día después de las comidas.",
+      "modo_uso": "Oral — infusión caliente",
+      "tiempo_prep": "7 min",
+      "dificultad": "Fácil",
+      "rendimiento": "3 tazas",
+      "conservacion": "Refrigerar hasta 24 h",
+      "evidencia": "Uso tradicional documentado",
+      "fuente_tradicion": "Popular Chileno",
+      "contraindicaciones": "Evitar en reflujo gastroesofágico severo y hernia hiatal (puede relajar el esfínter esofágico). No usar en niños menores de 6 años.",
+      "uso": "Dispepsia y náuseas: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+      "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+      "propiedades": [
+        "antiespasmódico",
+        "digestivo",
+        "carminativo",
+        "analgésico local",
+        "expectorante"
+      ],
+      "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+      "indicaciones_principales": [
+        "Dispepsia y digestión pesada",
+        "Dolor de estómago y espasmos abdominales",
+        "Gastritis y acidez leve",
+        "Flatulencia y meteorismo"
+      ],
+      "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+      "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+      "duracion_tratamiento": "3-5 días; consultar si no hay mejoría",
+      "sinergia_plantas": [
+        "Boldo",
+        "Hinojo",
+        "Manzanilla"
+      ],
+      "modulo": "digestivo",
+      "submodulo": "nauseas_indigestion"
+    }
+  ]
+}

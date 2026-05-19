@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" as="image" fetchpriority="high" href="img/araucarias-bg.webp" type="image/webp">
+    <link rel="preload" as="image" fetchpriority="high" href="img/araucarias-bg.jpg">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=ux43">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#14180f">
-    <meta name="description" content="Descubre 85 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.000 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
+    <meta name="description" content="Descubre 106 plantas medicinales chilenas con usos, contraindicaciones y temporadas de recolección. Más de 1.500 recetas mapuches, chilotas y populares. Guía herbolaria gratuita.">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Naturista CL">
@@ -26,8 +28,8 @@
     <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://zjonathanbeltran-stack.github.io/ENCICLOPEDIANATURISTA/">
-    <meta property="og:title" content="Enciclopedia Naturista de Chile | 85 Plantas Medicinales y 1.058 Recetas">
-    <meta property="og:description" content="Descubre plantas medicinales chilenas con usos, contraindicaciones y recetas mapuches, chilotas y populares. La guía herbolaria más completa de Chile.">
+    <meta property="og:title" content="Enciclopedia Naturista de Chile | 106 Plantas Medicinales y 1.505 Recetas">
+    <meta property="og:description" content="Descubre 106 plantas medicinales chilenas con usos, contraindicaciones y 1.505 recetas mapuches, chilotas y populares. La guía herbolaria más completa de Chile.">
     <meta property="og:image" content="https://zjonathanbeltran-stack.github.io/ENCICLOPEDIANATURISTA/img/og-cover.png">
     <meta property="og:image:alt" content="Enciclopedia Naturista de Chile — plantas medicinales y saber ancestral">
     <meta property="og:image:width" content="1200">
@@ -37,13 +39,13 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Enciclopedia Naturista de Chile | 85 Plantas Medicinales y 1.058 Recetas">
+    <meta name="twitter:title" content="Enciclopedia Naturista de Chile | 106 Plantas Medicinales y 1.505 Recetas">
     <meta name="twitter:description" content="Plantas medicinales chilenas, recetas mapuches y chilotas, guía de maternidad natural. El saber herbolario de Chile en un solo lugar.">
     <meta name="twitter:image" content="https://zjonathanbeltran-stack.github.io/ENCICLOPEDIANATURISTA/img/og-cover.png">
     <meta name="twitter:image:alt" content="Enciclopedia Naturista de Chile — plantas medicinales y saber ancestral">
 
     <!-- Apple touch icon -->
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%236a8a52'/><text y='125' x='28' font-size='110'>🌿</text></svg>">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 
     <!-- JSON-LD Schema.org — WebSite + Organization -->
     <script type="application/ld+json">
@@ -53,7 +55,7 @@
         "@type": "WebSite",
         "name": "Enciclopedia Naturista de Chile",
         "url": "https://zjonathanbeltran-stack.github.io/ENCICLOPEDIANATURISTA/",
-        "description": "Guía herbolaria chilena con 85 plantas medicinales y más de 1.000 recetas de la tradición mapuche, chilota y popular.",
+        "description": "Guía herbolaria chilena con 106 plantas medicinales y más de 1.500 recetas de la tradición mapuche, chilota y popular.",
         "inLanguage": "es-CL",
         "potentialAction": {
           "@type": "SearchAction",
@@ -80,7 +82,7 @@
         "inLanguage": "es-CL",
         "medicalAudience": { "@type": "MedicalAudience", "audienceType": "Patient" },
         "about": { "@type": "MedicalCondition", "name": "Medicina tradicional y fitoterapia" },
-        "lastReviewed": "2026-05-09"
+        "lastReviewed": "2026-05-10"
       }
     ]
     </script>
@@ -110,11 +112,14 @@
       </div>
     </noscript>
 
-    <!-- Fondo animado -->
-    <div class="bg-stage" aria-hidden="true">
-        <div class="bg-orb a"></div>
-        <div class="bg-orb b"></div>
-        <div class="bg-orb c"></div>
+    <!-- Fondo foto global — araucarias fijas detrás de todo -->
+    <div class="global-bg" aria-hidden="true">
+        <picture>
+            <source srcset="img/araucarias-bg.webp" type="image/webp">
+            <img class="global-bg-photo"
+                 src="img/araucarias-bg.jpg"
+                 alt="" loading="eager" decoding="async" fetchpriority="high">
+        </picture>
     </div>
     <canvas id="particle-canvas" aria-hidden="true"></canvas>
 
@@ -130,7 +135,30 @@
                 </div>
             </div>
             <div class="header-buttons">
+                <a href="https://mpago.la/22TDYVB" target="_blank" rel="noopener" class="icon-btn donate-btn" title="Apoyar el proyecto">
+                    <i class="fas fa-heart"></i>
+                </a>
                 <button id="favBtn" class="icon-btn" title="Favoritos"><i class="fas fa-bookmark"></i></button>
+                <div style="position:relative">
+                    <button id="soundToggle" class="icon-btn" title="Sonidos ambientales" aria-label="Sonidos ambientales">
+                        <i class="fas fa-music"></i>
+                    </button>
+                    <div class="sound-panel" id="soundPanel" role="menu" aria-label="Sonidos ambientales">
+                        <div class="sound-panel-label">Ambiente sonoro</div>
+                        <button class="sound-btn" data-mood="bosque" role="menuitem">
+                            <span class="sound-btn-icon">🌧️</span> Bosque Sur
+                        </button>
+                        <button class="sound-btn" data-mood="costa" role="menuitem">
+                            <span class="sound-btn-icon">🌊</span> Costa Chiloé
+                        </button>
+                        <button class="sound-btn" data-mood="altura" role="menuitem">
+                            <span class="sound-btn-icon">🏔️</span> Cordillera
+                        </button>
+                        <button class="sound-btn-stop" id="soundStop" role="menuitem">
+                            <i class="fas fa-stop"></i> Detener sonido
+                        </button>
+                    </div>
+                </div>
                 <button id="emergencyBtn" class="icon-btn alert" title="Emergencia"><i class="fas fa-triangle-exclamation"></i></button>
                 <button id="tweaksBtn" class="icon-btn" title="Ajustes visuales"><i class="fas fa-sliders"></i></button>
             </div>
@@ -146,16 +174,256 @@
         <!-- Tabs -->
         <div class="nav-tabs" id="navTabs">
             <span class="tab-indicator" id="tabIndicator"></span>
-            <button class="tab-btn active" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
+            <button class="tab-btn active" data-tab="home"><i class="fas fa-house tab-icon"></i><span>Inicio</span></button>
+            <button class="tab-btn" data-tab="plants"><i class="fas fa-seedling tab-icon"></i><span>Plantas</span></button>
             <button class="tab-btn" data-tab="recipes"><i class="fas fa-scroll tab-icon"></i><span>Recetario</span></button>
             <button class="tab-btn" data-tab="maternidad"><i class="fas fa-baby tab-icon"></i><span>Maternidad</span></button>
-            <button class="tab-btn" data-tab="ancestral"><i class="fas fa-fire tab-icon"></i><span>Medicina Ancestral</span></button>
+            <button class="tab-btn" data-tab="ancestral"><i class="fas fa-fire tab-icon"></i><span>Ancestral</span></button>
             <button class="tab-btn" data-tab="tools"><i class="fas fa-mortar-pestle tab-icon"></i><span>Herramientas</span></button>
             <button class="tab-btn" data-tab="stats"><i class="fas fa-chart-simple tab-icon"></i><span>Estadísticas</span></button>
         </div>
 
+        <!-- ─────────── HOME ─────────── -->
+        <div id="homeTab" class="tab-content active">
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · HERO CINEMATOGRÁFICO
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-hero" id="homeHero">
+                <div class="hh-bg" aria-hidden="true">
+                    <div class="hh-photo-overlay"></div>
+                    <div class="hh-vignette"></div>
+                </div>
+                <div class="hh-content">
+                    <span class="hh-eyebrow">Saber ancestral · Chile</span>
+                    <h2 class="hh-title">El saber herbolario<br>de Chile, <em>vivo</em>.</h2>
+                    <p class="hh-sub">Un atlas medicinal de la cordillera al mar — plantas mapuches, chilotas y populares con sus usos, contraindicaciones y temporadas.</p>
+                    <div class="hh-ctas">
+                        <button class="hh-cta-primary" id="hhExploreBtn">
+                            <i class="fas fa-leaf"></i>
+                            <span>Comenzar a explorar</span>
+                        </button>
+                        <button class="hh-cta-secondary" id="hhRandomBtn">
+                            <i class="fas fa-shuffle"></i>
+                            <span>Sorpréndeme</span>
+                        </button>
+                    </div>
+                    <div class="hh-stats">
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="114">114</span>
+                            <span class="hh-stat-label">plantas medicinales</span>
+                        </div>
+                        <div class="hh-stat-sep"></div>
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="1505">1.505</span>
+                            <span class="hh-stat-label">recetas tradicionales</span>
+                        </div>
+                        <div class="hh-stat-sep"></div>
+                        <div class="hh-stat">
+                            <span class="hh-stat-num" data-target="16">16</span>
+                            <span class="hh-stat-label">sistemas del cuerpo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hh-scroll-hint" aria-hidden="true">
+                    <span>Desliza</span>
+                    <span class="hh-scroll-line"></span>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · WIZARD GUIADO "ENCUENTRA TU RECETA"
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-wizard" id="homeWizard" aria-label="Asistente de búsqueda guiada">
+                <header class="hw-head">
+                    <span class="hw-eyebrow"><i class="fas fa-wand-magic-sparkles"></i> Asistente guiado</span>
+                    <h2 class="hw-title">¿Cómo te ayudo hoy?</h2>
+                    <p class="hw-sub">En 3 pasos te llevo a la receta exacta que necesitas.</p>
+                </header>
+
+                <!-- Breadcrumb dinámico -->
+                <nav class="hw-trail" id="hwTrail" aria-label="Progreso">
+                    <button class="hw-trail-step active" data-trail="1" type="button">
+                        <span class="hw-trail-num">1</span><span class="hw-trail-lbl">¿Qué te pasa?</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="2" type="button" disabled>
+                        <span class="hw-trail-num">2</span><span class="hw-trail-lbl">Síntoma</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="3" type="button" disabled>
+                        <span class="hw-trail-num">3</span><span class="hw-trail-lbl">Tu hierba</span>
+                    </button>
+                    <span class="hw-trail-sep"></span>
+                    <button class="hw-trail-step" data-trail="4" type="button" disabled>
+                        <span class="hw-trail-num">✓</span><span class="hw-trail-lbl">Receta</span>
+                    </button>
+                </nav>
+
+                <!-- Paso 1: categoría raíz -->
+                <div class="hw-step active" data-step="1">
+                    <div class="hw-options" id="hwStep1Grid"></div>
+                </div>
+
+                <!-- Paso 2: síntoma específico -->
+                <div class="hw-step" data-step="2">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="1">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title" id="hwStep2Title">¿Qué tipo de síntoma?</h3>
+                    </div>
+                    <div class="hw-options" id="hwStep2Grid"></div>
+                </div>
+
+                <!-- Paso 3: hierba a la mano -->
+                <div class="hw-step" data-step="3">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="2">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title">¿Cuál de estas hierbas tienes a la mano?</h3>
+                        <p class="hw-step-sub" id="hwStep3Sub"></p>
+                    </div>
+                    <div class="hw-options hw-options-hierbas" id="hwStep3Grid"></div>
+                    <button class="hw-cualquiera" type="button" id="hwCualquiera">
+                        <i class="fas fa-shuffle"></i>
+                        <span>Muéstrame cualquier receta sin importar la hierba</span>
+                    </button>
+                </div>
+
+                <!-- Paso 4: resultados -->
+                <div class="hw-step" data-step="4">
+                    <div class="hw-step-head">
+                        <button class="hw-back" type="button" data-back="3">
+                            <i class="fas fa-arrow-left"></i> Atrás
+                        </button>
+                        <h3 class="hw-step-title">Recetas para ti</h3>
+                        <p class="hw-step-sub" id="hwResultadosSub"></p>
+                    </div>
+                    <div class="hw-resultados" id="hwResultados"></div>
+                    <button class="hw-reset" type="button" id="hwReset">
+                        <i class="fas fa-rotate-left"></i> Empezar de nuevo
+                    </button>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · BÚSQUEDA RÁPIDA DE SÍNTOMAS
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-busqueda" id="homeBusqueda">
+                <p class="hbusq-label">¿Qué síntoma tiene?</p>
+                <div class="hbusq-input-wrap">
+                    <i class="fas fa-magnifying-glass hbusq-ico" aria-hidden="true"></i>
+                    <input type="search" id="homeSintomaBuscar" class="hbusq-input"
+                           placeholder="tos, dolor de cabeza, fiebre…"
+                           autocomplete="off" autocorrect="off" spellcheck="false"
+                           aria-label="Buscar síntoma o planta medicinal">
+                </div>
+                <div class="hbusq-chips" role="list" aria-label="Sistemas del cuerpo">
+                    <button class="hbusq-chip" data-hbusq-sistema="respiratorio" type="button">🌬️ Respiratorio</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="digestivo" type="button">🌾 Digestivo</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="nervioso" type="button">🌙 Nervioso</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="musculo" type="button">💪 Dolores</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="piel" type="button">✋ Piel</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="mujer" type="button">🌸 Mujer</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="pediatrico" type="button">👶 Niños</button>
+                    <button class="hbusq-chip" data-hbusq-sistema="cardiovascular" type="button">❤️ Corazón</button>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · ACCESO A LAS 4 SECCIONES
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-access" data-reveal>
+                <button class="ha-card" data-target-tab="plants" data-action="scroll-plants" type="button">
+                    <span class="ha-glyph"><i class="fas fa-seedling"></i></span>
+                    <h3>Plantas medicinales</h3>
+                    <p>106 especies con usos, contraindicaciones y época de recolección.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="recipes" type="button">
+                    <span class="ha-glyph"><i class="fas fa-scroll"></i></span>
+                    <h3>Recetario</h3>
+                    <p>1.504 recetas por sistema del cuerpo, mapuche y popular.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="maternidad" type="button">
+                    <span class="ha-glyph"><i class="fas fa-baby"></i></span>
+                    <h3>Maternidad</h3>
+                    <p>Plantas seguras en embarazo y lactancia.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button class="ha-card" data-target-tab="ancestral" type="button">
+                    <span class="ha-glyph"><i class="fas fa-fire"></i></span>
+                    <h3>Medicina Ancestral</h3>
+                    <p>Saber mapuche, rituales y palabras de sanación.</p>
+                    <span class="ha-arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 HOME · USO RESPONSABLE
+                 ═══════════════════════════════════════════════════════════ -->
+            <section class="home-seguridad" data-reveal aria-label="Uso responsable">
+                <div class="home-seguridad-head">
+                    <span class="home-seguridad-icon">🌿</span>
+                    <div>
+                        <h2 class="home-seguridad-title">Uso responsable de plantas medicinales</h2>
+                        <p class="home-seguridad-sub">Información de uso seguro y ético del saber herbolario chileno.</p>
+                    </div>
+                </div>
+                <div class="home-seguridad-grid">
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">⚕️</div>
+                        <div class="hseg-item-text">
+                            <strong>Consulta a un profesional</strong>
+                            <span>Las plantas medicinales complementan pero no reemplazan la atención médica.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">🤰</div>
+                        <div class="hseg-item-text">
+                            <strong>Embarazo y lactancia</strong>
+                            <span>Muchas plantas están contraindicadas. Usa la sección Maternidad para orientación segura.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">⚠️</div>
+                        <div class="hseg-item-text">
+                            <strong>Ojo con las precauciones</strong>
+                            <span>Las plantas con badge rojo pueden ser tóxicas en dosis incorrectas o combinadas.</span>
+                        </div>
+                    </div>
+                    <div class="hseg-item">
+                        <div class="hseg-item-icon">🌱</div>
+                        <div class="hseg-item-text">
+                            <strong>Recolecta con respeto</strong>
+                            <span>Solo lo necesario, nunca la planta entera. Respeta las especies protegidas y nativas.</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="home-seguridad-disclaimer">
+                    <strong>Aviso legal:</strong> Esta enciclopedia es una guía educativa basada en saber tradicional chileno. La información no constituye consejo médico. Ante cualquier duda o emergencia, consulta a un profesional de la salud o llama al <strong>CITUC: 2 2635 3800</strong>.
+                </p>
+            </section>
+
+        </div><!-- /#homeTab -->
+
         <!-- ─────────── PLANTAS ─────────── -->
-        <div id="plantsTab" class="tab-content active">
+        <div id="plantsTab" class="tab-content">
+
+            <!-- ═══════════════════════════════════════════════════════════
+                 PLANTAS · Cabecera del catálogo
+                 ═══════════════════════════════════════════════════════════ -->
+            <header class="home-section-divider plants-tab-header" data-reveal>
+                <span class="hsd-eyebrow">Catálogo completo</span>
+                <h2 class="hsd-h2">Las 85 plantas de Chile.</h2>
+                <p class="hsd-lede">Filtra por región, temporada o síntoma — o deja que la tierra te sorprenda.</p>
+            </header>
+
+            <!-- Search Hero — search compacto integrado -->
+            <div id="plantsSearchHero"></div>
 
             <!-- Planta del Día -->
             <div id="plantaDia" class="planta-dia-section"></div>
@@ -164,10 +432,10 @@
             <div id="temporadaBanner" class="temporada-banner" style="display:none"></div>
 
             <!-- Barra de progreso de exploración -->
-            <div class="progreso-wrap">
+            <div class="progreso-wrap" data-loading="true">
                 <div class="progreso-labels">
                     <span class="progreso-txt"><i class="fas fa-seedling"></i> Plantas exploradas</span>
-                    <span id="progresoNum" class="progreso-num">0 / 0</span>
+                    <span id="progresoNum" class="progreso-num"></span>
                 </div>
                 <div class="progreso-track">
                     <div id="progresoBar" class="progreso-bar"></div>
@@ -211,7 +479,14 @@
                 </button>
             </div>
 
-            <div id="plantList" class="plant-list"></div>
+            <div id="plantList" class="plant-list plant-list--loading">
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+                <div class="plant-skeleton"></div>
+            </div>
         </div>
 
         <!-- ─────────── RECETARIO ─────────── -->
@@ -224,7 +499,14 @@
                 </div>
                 <div class="recipes-hero-text">
                     <h2 class="recipes-hero-title">Recetario Tradicional</h2>
-                    <p class="recipes-hero-sub">Más de <strong>1.058 recetas</strong> organizadas por sistema del cuerpo — sabiduría herbolaria chilena, mapuche y chilota.</p>
+                    <p class="recipes-hero-sub">Saberes herbolarios <strong>chilenos, mapuches y chilotos</strong> — organizados por sistema del cuerpo para encontrar lo que necesitas.</p>
+                    <div class="recipes-hero-stats">
+                        <span class="receta-hero-stat"><i class="fas fa-scroll"></i> <span id="recHeroTotal">1.504</span> recetas</span>
+                        <span class="dol-stat-sep">·</span>
+                        <span class="receta-hero-stat"><i class="fas fa-layer-group"></i> 12 sistemas</span>
+                        <span class="dol-stat-sep">·</span>
+                        <span class="receta-hero-stat"><i class="fas fa-tags"></i> 53 submódulos</span>
+                    </div>
                 </div>
                 <div class="recipes-topbar">
                     <button id="recetaAleatoriaBtn" class="btn-aleatoria">
@@ -244,20 +526,18 @@
                     </button>
                 </div>
 
-                <!-- Explorador de categorías -->
-                <div class="rcats-section">
-                    <div class="rcats-header">
-                        <span class="rcats-title"><i class="fas fa-th-large"></i> Explorar por categoría</span>
-                        <span class="rcats-hint">Toca cualquiera para ver sus recetas</span>
-                    </div>
-                    <div id="recetaCategorias" class="rcats-grid"></div>
+                <p class="receta-search-hint">Elige un sistema corporal</p>
+                <div class="receta-sistemas-grid recetario-nav" id="recetaSistemas"></div>
+                <div class="receta-submodulos-panel" id="recetaSubmodulosPanel" hidden>
+                    <button class="rdol-back" id="rsubBack">
+                        <i class="fas fa-arrow-left"></i> Todos los sistemas
+                    </button>
+                    <p class="rsub-titulo" id="rsubTitulo"></p>
+                    <div class="rsub-chips" id="rsubChips"></div>
                 </div>
-
-                <p class="receta-search-hint">O elige un sistema corporal</p>
-                <div class="receta-sistemas-grid" id="recetaSistemas"></div>
                 <div class="receta-dolencias-panel" id="recetaDolenciasPanel" hidden>
                     <button class="rdol-back" id="rdolBack">
-                        <i class="fas fa-arrow-left"></i> Todos los sistemas
+                        <i class="fas fa-arrow-left"></i> <span id="rdolBackLabel">Todos los sistemas</span>
                     </button>
                     <div class="rdol-chips" id="rdolChips"></div>
                 </div>
@@ -270,24 +550,17 @@
 
             <!-- Hero -->
             <div class="ancestral-hero">
-                <div class="ancestral-hero-bg"></div>
-                <div class="ancestral-hero-content">
-                    <div class="ancestral-hero-icon-wrap">
-                        <div class="ancestral-hero-icon">🔥</div>
-                        <div class="ancestral-hero-ring"></div>
-                    </div>
-                    <div class="ancestral-hero-text">
-                        <h2 class="ancestral-hero-title">Medicina Ancestral</h2>
-                        <p class="ancestral-hero-sub">Saberes curativos de los <strong>pueblos originarios de Chile</strong> — mapuche, aymara y atacameño — transmitidos por generaciones de machis, yatiris y curanderos.</p>
-                        <div class="ancestral-hero-stats">
-                            <span class="anc-stat"><i class="fas fa-scroll"></i> <span id="ancStatRecetas">0</span> recetas ancestrales</span>
-                            <span class="dol-stat-sep">·</span>
-                            <span class="anc-stat"><i class="fas fa-users"></i> <span id="ancStatPueblos">6</span> pueblos originarios</span>
-                        </div>
+                <div class="ancestral-hero-icon-wrap">
+                    <div class="ancestral-hero-icon">🔥</div>
+                    <div class="ancestral-hero-ring"></div>
+                </div>
+                <div class="ancestral-hero-text">
+                    <h2 class="ancestral-hero-title">Medicina Ancestral</h2>
+                    <p class="ancestral-hero-sub">Saberes curativos de los <strong>pueblos originarios de Chile</strong> — mapuche, aymara y atacameño — transmitidos por generaciones de machis, yatiris y curanderos.</p>
+                    <div class="ancestral-hero-stats">
+                        <span class="anc-stat"><i class="fas fa-scroll"></i> <span id="ancStatRecetas">0</span> recetas ancestrales</span>
                     </div>
                 </div>
-                <!-- Patrón decorativo mapuche -->
-                <div class="ancestral-pattern"></div>
             </div>
 
             <!-- Disclaimer cultural -->
@@ -296,97 +569,29 @@
                 <div><strong>Respeto y contexto cultural:</strong> Estas recetas son parte del patrimonio vivo de pueblos originarios. Úsalas con respeto, sin apropiación. Cuando sea posible, busca orientación de un <em>machi</em> (Mapuche), <em>yatiri</em> (Aymara) o curandera local.</div>
             </div>
 
-            <!-- Buscador -->
-            <div class="ancestral-search-wrap">
-                <i class="fas fa-search ancestral-search-ico"></i>
-                <input type="text" id="ancestralSearchInput" placeholder="Buscar receta ancestral, planta o dolencia…" autocomplete="off">
-                <button id="ancestralSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
+            <!-- Buscador + Filtros — mismo método que Recetario -->
+            <div class="receta-search-section">
+                <div class="receta-search-wrap">
+                    <i class="fas fa-search receta-search-ico"></i>
+                    <input type="text" id="ancestralSearchInput" placeholder="Buscar receta ancestral, planta o dolencia…" autocomplete="off">
+                    <button id="ancestralSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <p class="receta-search-hint">Filtra por pueblo originario</p>
 
-            <!-- Filtros por pueblo -->
-            <div class="ancestral-pueblos-nav">
-                <button class="anc-pueblo-btn active" data-pueblo="todos">
-                    <span class="anc-pueblo-emoji">🌿</span>
-                    <span class="anc-pueblo-name">Todos</span>
-                    <span class="anc-pueblo-count" id="ancCount-todos">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="mapuche">
-                    <span class="anc-pueblo-emoji">🌲</span>
-                    <span class="anc-pueblo-name">Mapuche</span>
-                    <span class="anc-pueblo-count" id="ancCount-mapuche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="williche">
-                    <span class="anc-pueblo-emoji">🏔️</span>
-                    <span class="anc-pueblo-name">Williche</span>
-                    <span class="anc-pueblo-count" id="ancCount-williche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="pewenche">
-                    <span class="anc-pueblo-emoji">🌲</span>
-                    <span class="anc-pueblo-name">Pewenche</span>
-                    <span class="anc-pueblo-count" id="ancCount-pewenche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="lafkenche">
-                    <span class="anc-pueblo-emoji">🌊</span>
-                    <span class="anc-pueblo-name">Lafkenche</span>
-                    <span class="anc-pueblo-count" id="ancCount-lafkenche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="huilliche">
-                    <span class="anc-pueblo-emoji">🏝️</span>
-                    <span class="anc-pueblo-name">Huilliche</span>
-                    <span class="anc-pueblo-count" id="ancCount-huilliche">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="aymara">
-                    <span class="anc-pueblo-emoji">☀️</span>
-                    <span class="anc-pueblo-name">Aymara</span>
-                    <span class="anc-pueblo-count" id="ancCount-aymara">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="atacameno">
-                    <span class="anc-pueblo-emoji">🌵</span>
-                    <span class="anc-pueblo-name">Atacameño</span>
-                    <span class="anc-pueblo-count" id="ancCount-atacameno">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="rapanui">
-                    <span class="anc-pueblo-emoji">🗿</span>
-                    <span class="anc-pueblo-name">Rapa Nui</span>
-                    <span class="anc-pueblo-count" id="ancCount-rapanui">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="diaguita">
-                    <span class="anc-pueblo-emoji">⛰️</span>
-                    <span class="anc-pueblo-name">Diaguita</span>
-                    <span class="anc-pueblo-count" id="ancCount-diaguita">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="kawesqar">
-                    <span class="anc-pueblo-emoji">🛶</span>
-                    <span class="anc-pueblo-name">Kawésqar</span>
-                    <span class="anc-pueblo-count" id="ancCount-kawesqar">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="selknam">
-                    <span class="anc-pueblo-emoji">❄️</span>
-                    <span class="anc-pueblo-name">Selknam / Yagán</span>
-                    <span class="anc-pueblo-count" id="ancCount-selknam">0</span>
-                </button>
-                <button class="anc-pueblo-btn" data-pueblo="ritual">
-                    <span class="anc-pueblo-emoji">🪶</span>
-                    <span class="anc-pueblo-name">Rituales</span>
-                    <span class="anc-pueblo-count" id="ancCount-ritual">0</span>
-                </button>
-            </div>
-
-            <!-- Dolencias / Sistemas del cuerpo -->
+            <!-- Filtros por módulo y submódulo -->
             <div class="anc-dolencias-section">
                 <div class="anc-dolencias-header">
-                    <span class="anc-dolencias-title"><i class="fas fa-th-large"></i> ¿Qué te aqueja?</span>
+                    <span class="anc-dolencias-title"><i class="fas fa-th-large"></i> Filtrar por módulo</span>
                     <button id="ancDolenciasReset" class="anc-dolencias-reset" hidden>
                         <i class="fas fa-times"></i> Ver todas
                     </button>
                 </div>
                 <div id="ancSistemasGrid" class="anc-sistemas-grid"></div>
+                <div id="ancSubmodulosGrid" class="anc-submodulos-grid" hidden></div>
             </div>
-
-            <!-- Contexto cultural (se muestra al seleccionar un pueblo) -->
-            <div id="ancestralContexto" class="ancestral-contexto" hidden></div>
+            </div><!-- /receta-search-section -->
 
             <!-- Resultados: contador -->
             <div id="ancResultCount" class="anc-result-count" hidden></div>
@@ -495,6 +700,20 @@
                     <div id="tuExploracion"></div>
                 </div>
 
+                <!-- Apoyar el proyecto -->
+                <div class="infog-card donate-card reveal">
+                    <div class="donate-card-inner">
+                        <div class="donate-card-icon">🌿</div>
+                        <div class="donate-card-text">
+                            <h3>¿Te ha sido útil esta enciclopedia?</h3>
+                            <p>Este proyecto es gratuito y sin fines de lucro. Si quieres ayudar a mantenerlo y seguir creciendo con más plantas y recetas ancestrales, puedes apoyarlo con lo que puedas.</p>
+                        </div>
+                        <a href="https://mpago.la/22TDYVB" target="_blank" rel="noopener" class="donate-cta-btn">
+                            <i class="fas fa-heart"></i> Apoyar el proyecto
+                        </a>
+                    </div>
+                </div>
+
                 <!-- Gráfico torta: recetas por sistema -->
                 <div class="infog-row reveal">
                     <div class="infog-card chart-card">
@@ -515,22 +734,6 @@
                 <div class="infog-card reveal">
                     <h3 class="infog-title">🌿 Plantas más usadas en el recetario</h3>
                     <div id="topPlantas" class="top-plantas-bar"></div>
-                </div>
-
-                <!-- Calendario interactivo -->
-                <div class="infog-card reveal">
-                    <h3 class="infog-title">📅 ¿Qué puedo recolectar este mes?</h3>
-                    <p class="infog-sub">Selecciona un mes para ver qué plantas están en su mejor momento</p>
-                    <div id="calendarChart" class="calendar-bar-wrap"></div>
-                    <div id="calendarPlantas" class="calendar-plantas-result" style="display:none"></div>
-                </div>
-
-                <!-- Plantas por región interactivo -->
-                <div class="infog-card reveal">
-                    <h3 class="infog-title">📍 Plantas de tu zona</h3>
-                    <p class="infog-sub">Selecciona una región para ver las plantas medicinales que puedes encontrar ahí</p>
-                    <div id="regionChart" class="region-bars"></div>
-                    <div id="regionPlantas" class="calendar-plantas-result" style="display:none"></div>
                 </div>
 
                 <!-- Fuentes bibliográficas -->
@@ -661,47 +864,102 @@
                 <div><strong>Consulta siempre con tu médico o matrona</strong> antes de usar cualquier planta medicinal durante el embarazo o la lactancia. Esta información es de referencia etnobotánica, no reemplaza la atención profesional.</div>
             </div>
 
-            <!-- Menú de navegación Maternidad -->
-            <nav class="matern-nav" aria-label="Secciones de maternidad">
-                <button class="matern-nav-card active" data-matern="embarazo">
-                    <div class="mnav-icon-wrap mnav-emb">
-                        <i class="fas fa-baby-carriage"></i>
+            <!-- Banner plantas prohibidas en embarazo -->
+            <div class="prohibidas-banner">
+                <div class="prohibidas-header" id="prohibidasToggle" onclick="this.parentElement.classList.toggle('open')" role="button" aria-expanded="false">
+                    <span class="prohibidas-icon">🛑</span>
+                    <div class="prohibidas-header-text">
+                        <strong>Plantas PROHIBIDAS durante el embarazo</strong>
+                        <span class="prohibidas-sub">Abortivas, uterotónicas o tóxicas — nunca usarlas</span>
                     </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Embarazo</span>
-                        <span class="mnav-desc">Plantas seguras y a evitar</span>
+                    <i class="fas fa-chevron-down prohibidas-chevron"></i>
+                </div>
+                <div class="prohibidas-body">
+                    <div class="prohibidas-cols">
+                        <div class="prohibidas-col">
+                            <div class="prohibidas-col-title">🛑 Abortivas / Uterotónicas</div>
+                            <ul>
+                                <li><strong>Ruda</strong> <em>(Ruta graveolens)</em> — abortiva, hemorrágica</li>
+                                <li><strong>Paico</strong> <em>(Dysphania ambrosioides)</em> — abortivo, neurotóxico</li>
+                                <li><strong>Árnica</strong> <em>(Arnica montana)</em> — uso interno prohibido</li>
+                                <li><strong>Artemisa</strong> <em>(Artemisia vulgaris)</em> — estimulante uterino</li>
+                                <li><strong>Sabina</strong> <em>(Juniperus sabina)</em> — abortiva potente</li>
+                                <li><strong>Poleo</strong> <em>(Mentha pulegium)</em> — hepatotóxico y abortivo</li>
+                                <li><strong>Consuelda</strong> <em>(Symphytum officinale)</em> — hepatotóxica (uso interno)</li>
+                            </ul>
+                        </div>
+                        <div class="prohibidas-col">
+                            <div class="prohibidas-col-title">🛑 Tóxicas para el feto</div>
+                            <ul>
+                                <li><strong>Chamico</strong> <em>(Datura stramonium)</em> — altamente tóxico</li>
+                                <li><strong>Palqui</strong> <em>(Cestrum parqui)</em> — hepatotóxico</li>
+                                <li><strong>Pillopillo</strong> <em>(Drimys winteri)</em> — uso interno no seguro</li>
+                            </ul>
+                            <div class="prohibidas-col-title" style="margin-top:12px">⚠️ Consultar al médico</div>
+                            <ul>
+                                <li><strong>Boldo</strong> — no recomendado en embarazo</li>
+                                <li><strong>Valeriana</strong> — no en primer trimestre sin supervisión</li>
+                                <li><strong>Pasiflora</strong> — no en primer trimestre sin supervisión</li>
+                                <li><strong>Cardo Mariano</strong> — consultar al médico</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-                <button class="matern-nav-card" data-matern="lactancia">
-                    <div class="mnav-icon-wrap mnav-lac">
-                        <i class="fas fa-droplet"></i>
-                    </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Lactancia</span>
-                        <span class="mnav-desc">Galactogogas y contraindicadas</span>
-                    </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-                <button class="matern-nav-card" data-matern="recetas">
-                    <div class="mnav-icon-wrap mnav-rec">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <div class="mnav-body">
-                        <span class="mnav-title">Recetas</span>
-                        <span class="mnav-desc">Preparaciones recomendadas</span>
-                    </div>
-                    <div class="mnav-arrow"><i class="fas fa-chevron-right"></i></div>
-                </button>
-            </nav>
+                    <div class="prohibidas-fuente">Fuente: Briggs' Drugs in Pregnancy and Lactation · Comisión E alemana · OMS · EMA · ESCOP</div>
+                </div>
+            </div>
+
+            <!-- Buscador + Navegación — mismo método que Recetario -->
+            <div class="receta-search-section">
+                <div class="receta-search-wrap">
+                    <i class="fas fa-search receta-search-ico"></i>
+                    <input type="text" id="maternSearchInput"
+                           placeholder="¿Qué te aqueja? Ej: náuseas, lactancia, insomnio…"
+                           autocomplete="off">
+                    <button id="maternSearchClear" class="receta-search-clear" hidden aria-label="Limpiar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <p class="receta-search-hint">Elige una categoría</p>
+                <div class="receta-sistemas-grid matern-nav" style="grid-template-columns: repeat(3, 1fr);">
+                    <button class="rsis-btn matern-nav-card active" data-matern="embarazo" style="--rsis-color:#c9679a">
+                        <span class="rsis-ico"><i class="fas fa-baby-carriage"></i></span>
+                        <span class="rsis-label">Embarazo</span>
+                        <span class="rsis-desc">Plantas seguras y a evitar</span>
+                    </button>
+                    <button class="rsis-btn matern-nav-card" data-matern="lactancia" style="--rsis-color:#7a9ab8">
+                        <span class="rsis-ico"><i class="fas fa-droplet"></i></span>
+                        <span class="rsis-label">Lactancia</span>
+                        <span class="rsis-desc">Galactogogas y contraindicadas</span>
+                    </button>
+                    <button class="rsis-btn matern-nav-card" data-matern="recien_nacido" style="--rsis-color:#7aad8a">
+                        <span class="rsis-ico"><i class="fas fa-baby"></i></span>
+                        <span class="rsis-label">Recién Nacido</span>
+                        <span class="rsis-desc">Cuidados naturales 0-28 días</span>
+                    </button>
+                </div>
+            </div>
 
             <!-- Sección EMBARAZO -->
             <div id="maternEmbarazo" class="matern-section active">
                 <nav class="matern-sub-nav" data-section="emb">
+                    <button class="matern-sub-btn" data-sub="recetas"><i class="fas fa-book-open"></i> Recetas</button>
                     <button class="matern-sub-btn active" data-sub="utiles"><i class="fas fa-seedling"></i> Útiles</button>
                     <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
                     <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
                 </nav>
+
+                <div class="matern-sub-panel" data-section="emb" data-panel="recetas">
+                    <div id="maternEmbSubmodGrid" class="matern-submod-grid"></div>
+                    <div id="maternEmbSubmodResultados" hidden>
+                        <div class="matern-submod-back-bar">
+                            <button class="matern-submod-back" id="maternEmbSubmodBack">
+                                <i class="fas fa-arrow-left"></i> Volver
+                            </button>
+                            <span class="matern-submod-titulo-activo" id="maternEmbSubmodTitulo"></span>
+                        </div>
+                        <div id="maternEmbSubmodRecetas" class="matern-recetas-grid"></div>
+                    </div>
+                </div>
 
                 <div class="matern-sub-panel active" data-section="emb" data-panel="utiles">
                     <div class="matern-cat-title ok"><span class="matern-cat-icon">✅</span> Útiles durante el embarazo</div>
@@ -723,10 +981,24 @@
             <!-- Sección LACTANCIA -->
             <div id="maternLactancia" class="matern-section">
                 <nav class="matern-sub-nav" data-section="lac">
+                    <button class="matern-sub-btn" data-sub="recetas"><i class="fas fa-book-open"></i> Recetas</button>
                     <button class="matern-sub-btn active" data-sub="gal"><i class="fas fa-star"></i> Galactogogas</button>
                     <button class="matern-sub-btn" data-sub="seguras"><i class="fas fa-check-circle"></i> Seguras</button>
                     <button class="matern-sub-btn warn" data-sub="evitar"><i class="fas fa-ban"></i> Evitar</button>
                 </nav>
+
+                <div class="matern-sub-panel" data-section="lac" data-panel="recetas">
+                    <div id="maternLacSubmodGrid" class="matern-submod-grid"></div>
+                    <div id="maternLacSubmodResultados" hidden>
+                        <div class="matern-submod-back-bar">
+                            <button class="matern-submod-back" id="maternLacSubmodBack">
+                                <i class="fas fa-arrow-left"></i> Volver
+                            </button>
+                            <span class="matern-submod-titulo-activo" id="maternLacSubmodTitulo"></span>
+                        </div>
+                        <div id="maternLacSubmodRecetas" class="matern-recetas-grid"></div>
+                    </div>
+                </div>
 
                 <div class="matern-sub-panel active" data-section="lac" data-panel="gal">
                     <div class="matern-cat-title gal"><span class="matern-cat-icon">🍼</span> Galactogogas (favorecen la leche)</div>
@@ -745,22 +1017,26 @@
                 </div>
             </div>
 
-            <!-- Sección RECETAS -->
-            <div id="maternRecetas" class="matern-section">
-                <nav class="matern-sub-nav" data-section="rec">
-                    <button class="matern-sub-btn active" data-sub="emb"><i class="fas fa-baby-carriage"></i> Embarazo</button>
-                    <button class="matern-sub-btn" data-sub="lac"><i class="fas fa-droplet"></i> Lactancia</button>
-                </nav>
-
-                <div class="matern-sub-panel active" data-section="rec" data-panel="emb">
-                    <div class="matern-cat-title ok"><span class="matern-cat-icon">📖</span> Recetas para el embarazo</div>
-                    <div id="maternRecetasEmbarazo" class="matern-recetas-grid"></div>
+            <!-- Sección RECIÉN NACIDO -->
+            <div id="maternRecienNacido" class="matern-section">
+                <div class="matern-rn-header">
+                    <div class="matern-rn-icon">👶</div>
+                    <div>
+                        <h3 class="matern-rn-title">Cuidados Naturales del Recién Nacido</h3>
+                        <p class="matern-rn-sub">Remedios seguros para los primeros 28 días de vida</p>
+                    </div>
                 </div>
-
-                <div class="matern-sub-panel" data-section="rec" data-panel="lac">
-                    <div class="matern-cat-title gal"><span class="matern-cat-icon">📖</span> Recetas para la lactancia</div>
-                    <div id="maternRecetasLactancia" class="matern-recetas-grid"></div>
+                <div class="matern-rn-aviso">
+                    <i class="fas fa-shield-alt"></i>
+                    <span><strong>Importante:</strong> Los cuidados con plantas para recién nacidos se aplican <em>externamente</em> (baños, aceites, masajes) o llegan al bebé a través de la <em>leche materna</em>. Nunca administres infusiones directamente a un bebé menor de 6 meses.</span>
                 </div>
+                <div class="matern-rn-filtros">
+                    <button class="matern-rn-filtro active" data-filtro="todos"><i class="fas fa-th"></i> Todos</button>
+                    <button class="matern-rn-filtro" data-filtro="colicos"><i class="fas fa-baby"></i> Cólicos</button>
+                    <button class="matern-rn-filtro" data-filtro="piel"><i class="fas fa-hand-sparkles"></i> Piel</button>
+                    <button class="matern-rn-filtro" data-filtro="sueno"><i class="fas fa-moon"></i> Sueño</button>
+                </div>
+                <div id="maternRnGrid" class="matern-recetas-grid"></div>
             </div>
 
         </div>
@@ -789,6 +1065,7 @@
     <!-- Modal -->
     <div id="detailModal" class="modal">
         <div class="modal-content">
+            <div class="sheet-handle" aria-hidden="true"></div>
             <div class="modal-top-bar">
                 <button class="close-modal" title="Cerrar">
                     <i class="fas fa-chevron-left"></i>
@@ -865,9 +1142,57 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- Bottom Navigation — visible solo en mobile (≤767px via CSS) -->
+    <nav class="bottom-nav" id="bottomNav" aria-label="Navegación principal">
+        <button class="bottom-nav-item active" data-bottom-tab="home" title="Inicio">
+            <i class="fas fa-house"></i>
+            <span>Inicio</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="plants" title="Plantas">
+            <i class="fas fa-seedling"></i>
+            <span>Plantas</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="recipes" title="Recetario">
+            <i class="fas fa-mortar-pestle"></i>
+            <span>Recetario</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="maternidad" title="Maternidad">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Maternidad</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="ancestral" title="Cultural">
+            <i class="fas fa-fire"></i>
+            <span>Cultural</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="tools" title="Herramientas">
+            <i class="fas fa-compass"></i>
+            <span>Herram.</span>
+        </button>
+        <button class="bottom-nav-item" data-bottom-tab="stats" title="Mi espacio">
+            <i class="fas fa-chart-simple"></i>
+            <span>Mi espacio</span>
+            <span class="bottom-nav-badge" id="bottomFavBadge" style="display:none">0</span>
+        </button>
+    </nav>
+
+    <!-- A1: Global Search Overlay -->
+    <div id="globalSearchOverlay" class="global-search-overlay" role="dialog" aria-modal="true" aria-label="Búsqueda global">
+        <div class="gso-backdrop" id="gsoBackdrop"></div>
+        <div class="gso-panel">
+            <div class="gso-input-wrap">
+                <i class="fas fa-search gso-icon" aria-hidden="true"></i>
+                <input type="search" id="gsoInput" placeholder="Buscar plantas, recetas, síntomas…" autocomplete="off" spellcheck="false" />
+                <button class="gso-close" id="gsoClose" aria-label="Cerrar búsqueda">Esc</button>
+            </div>
+            <div class="gso-results" id="gsoResults" role="listbox"></div>
+            <div class="gso-shortcut-hint">
+                <kbd>↑↓</kbd> navegar &nbsp;·&nbsp; <kbd>Enter</kbd> abrir &nbsp;·&nbsp; <kbd>Esc</kbd> cerrar
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-    <script src="illustrations.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js?v=ux42"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').catch(() => {});
