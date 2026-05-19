@@ -1592,55 +1592,61 @@ function _renderMaternRecienNacido() {
     if (!grid || grid.dataset.loaded) return;
     grid.dataset.loaded = '1';
 
-    // Categorías para filtros
-    const CATMAP = {
-        colicos: ['Infusión Maternal de Hinojo','Infusión Maternal de Manzanilla','Compresa Tibia'],
-        piel:    ['Baño Tibio','Aceite de Almendras','Aceite de Oliva','Crema de Caléndula'],
-        sueno:   ['Saquito','Masaje Piel con Piel'],
+    const FILTRO_KEYS = {
+        colicos: r => /cólico|gas|hinojo|anís|verbena/i.test(r.titulo),
+        piel:    r => /piel|baño|aceite|malva|crema|costra|pañal|girasol|almendras|coco/i.test(r.titulo),
+        sueno:   r => /sueño|calma|melisa|saquito|canguro/i.test(r.titulo),
     };
-    const getCategoria = titulo => {
-        if (CATMAP.colicos.some(k => titulo.includes(k))) return 'colicos';
-        if (CATMAP.piel.some(k => titulo.includes(k))) return 'piel';
-        if (CATMAP.sueno.some(k => titulo.includes(k))) return 'sueno';
-        return 'otros';
+    const MODO_KEYS = {
+        'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
+        'Ungüento / Bálsamo':'unguento','Masaje':'masaje','Uso tópico':'topico',
+        'Oral':'oral','Infusion':'infusion','Bano':'bano','Topico':'topico',
+        'Crema':'unguento','Piel con piel':'masaje','Ambiental':'inhalacion',
     };
-    const CAT_LABEL = { colicos:'🍼 Cólicos', piel:'🛁 Piel', sueno:'💤 Sueño', otros:'🌿 Otros' };
-    const CAT_COLOR = { colicos:'#c9679a', piel:'#7aad8a', sueno:'#8a6aaa', otros:'#8a9a52' };
 
     const recetas = recetasDB.filter(r => r.submodulo === 'recien_nacido');
 
     const renderGrid = filtro => {
-        const lista = filtro === 'todos' ? recetas : recetas.filter(r => getCategoria(r.titulo) === filtro);
+        const lista = filtro === 'todos' ? recetas : recetas.filter(FILTRO_KEYS[filtro] || (() => true));
         if (!lista.length) { grid.innerHTML = '<p class="matern-recetas-empty">Sin resultados.</p>'; return; }
         grid.innerHTML = lista.map(r => {
-            const cat = getCategoria(r.titulo);
-            const color = CAT_COLOR[cat] || CAT_COLOR.otros;
-            const label = CAT_LABEL[cat] || CAT_LABEL.otros;
-            const modoIco = {
-                'Infusion':'fa-mug-hot','Bano':'fa-bath','Masaje':'fa-hands',
-                'Topico':'fa-droplet','Crema':'fa-jar','Ambiental':'fa-wind',
-                'Compresa':'fa-hot-tub-person','Piel con piel':'fa-heart'
-            }[r.modo_uso] || 'fa-leaf';
-            return `<button class="matern-rn-card" data-rid="${r.id}" style="--rn-color:${color}">
-                <span class="matern-rn-cat-badge">${label}</span>
-                <span class="matern-rn-modo"><i class="fas ${modoIco}"></i> ${r.modo_uso || 'Natural'}</span>
-                <p class="matern-rn-titulo">${r.titulo}</p>
-                <p class="matern-rn-dosis">${(r.dosis || r.ingredientes || '').slice(0,90)}…</p>
-                <span class="matern-rn-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+            const uso = (CATEGORIA_USO && CATEGORIA_USO[r.categoria]) || '';
+            const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
+            const modo = _normModo(r.modo_uso);
+            const modoKey = modo ? (MODO_KEYS[modo] || 'otro') : null;
+            return `
+            <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
+                <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
+                    <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
+                    <span class="rsearch-cat">${r.categoria}</span>
+                    ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
+                </div>
+                <h4 class="rsearch-titulo">${r.titulo}</h4>
+                ${uso
+                    ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
+                    : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`}
+                <div class="rsearch-card-meta-row">
+                    ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
+                    <span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-baby"></i> Recién Nacido</span>
+                </div>
+                <div class="rsearch-card-footer">
+                    <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
+                </div>
             </button>`;
         }).join('');
-        grid.querySelectorAll('.matern-rn-card').forEach(btn =>
+        grid.querySelectorAll('.matern-receta-card').forEach(btn =>
             btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
         );
     };
 
     renderGrid('todos');
 
-    // Filtros
     $$('.matern-rn-filtro').forEach(btn => {
         btn.addEventListener('click', () => {
             $$('.matern-rn-filtro').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+            grid.dataset.loaded = '';
+            grid.dataset.loaded = '1';
             renderGrid(btn.dataset.filtro);
         });
     });
