@@ -926,18 +926,33 @@ function _pedLabel(r) {
 }
 
 function _maternSeg(r) {
-    const contra  = (r.contraindicaciones   || '').toLowerCase();
-    const embLac  = (r.embarazo_lactancia   || '').toLowerCase();
-    const allText = contra + ' ' + embLac;
-    const sub     = (r.submodulo || '').toLowerCase();
+    const contra = (r.contraindicaciones  || '').toLowerCase();
+    const embLac = (r.embarazo_lactancia  || '').toLowerCase();
+    const sub    = (r.submodulo || '').toLowerCase();
     let emb = null, lac = null;
-    // Lactancia
-    if (sub === 'postparto_lactancia') lac = 'apto';
-    else if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc|lactanc.*no recom/i.test(allText)) lac = 'precaucion';
-    else if (/segur.*lactanc|apto.*lactanc|favorec.*lech|galact/i.test(allText)) lac = 'apto';
-    // Embarazo
-    if (/no.*embaraz|contraindicad.*embaraz|evitar.*embaraz|embaraz.*no|peligr.*embaraz|trimestre|abort|teratog|gestac/i.test(allText)) emb = 'precaucion';
-    else if (/segur.*embaraz|apto.*embaraz/i.test(allText)) emb = 'apto';
+
+    // Lactancia — embarazo_lactancia es fuente autoritativa; contra como respaldo
+    if (sub === 'postparto_lactancia') {
+        lac = 'apto';
+    } else {
+        const lacSrc = embLac || contra;
+        if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc/i.test(lacSrc)) lac = 'precaucion';
+        else if (/segur.*lactanc|apto.*lactanc|favorec.*lech|galact/i.test(lacSrc)) lac = 'apto';
+        if (lac === null) {
+            if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc/i.test(contra)) lac = 'precaucion';
+        }
+    }
+
+    // Embarazo — embarazo_lactancia primero (evitar falsos positivos en contra)
+    if (embLac) {
+        if (/no.*embaraz|evitar.*embaraz|contraindicad.*embaraz|peligr.*embaraz|abort|teratog/i.test(embLac)) emb = 'precaucion';
+        else if (/segur.*embaraz|apto.*embaraz/i.test(embLac)) emb = 'apto';
+    }
+    // Respaldo: contraindicaciones (solo si embLac no decidió)
+    if (emb === null) {
+        if (/no.*embaraz|evitar.*embaraz|contraindicad.*embaraz|peligr.*embaraz|abort|teratog/i.test(contra)) emb = 'precaucion';
+        else if (/segur.*embaraz|apto.*embaraz/i.test(contra)) emb = 'apto';
+    }
     return { emb, lac };
 }
 
@@ -1559,127 +1574,100 @@ function switchMaternSubtab(tipo) {
     if (icon) icon.textContent = tipo === 'lactancia' ? '🍼' : '🤰';
 }
 
-const _maternRecetasRendered = { emb: false, lac: false };
-
 function switchMaternSubPanel(section, panel) {
     $$(`.matern-sub-nav[data-section="${section}"] .matern-sub-btn`)
         .forEach(b => b.classList.toggle('active', b.dataset.sub === panel));
     $$(`.matern-sub-panel[data-section="${section}"]`)
         .forEach(p => p.classList.toggle('active', p.dataset.panel === panel));
-    // Lazy render: recetas seguras
     if (panel === 'recetas') {
         const tipo = section === 'emb' ? 'emb' : 'lac';
-        if (!_maternRecetasRendered[tipo]) {
-            _renderMaternSafeRecetas(tipo);
-            _maternRecetasRendered[tipo] = true;
-        }
-    }
-    // Lazy render: submódulos mujer
-    if (panel === 'mujer' && !$('#maternMujerSubmodGrid')?.dataset.loaded) {
-        _renderMujerSubmodGrid();
+        _renderMaternSafeSubmodCards(tipo);
     }
 }
 
-function _renderMaternSafeRecetas(tipo) {
-    const gridId = tipo === 'emb' ? 'maternEmbRecetasGrid' : 'maternLacRecetasGrid';
+function _renderMaternSafeSubmodCards(tipo) {
+    const gridId = tipo === 'emb' ? 'maternEmbSubmodGrid' : 'maternLacSubmodGrid';
     const grid = $('#' + gridId);
-    if (!grid) return;
-    grid.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-mute)"><i class="fas fa-spinner fa-spin"></i> Buscando recetas…</div>';
-    setTimeout(() => {
-        const MATERN_MODO_KEYS = {
-            'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
-            'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
-            'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
-            'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
-        };
-        const filtered = recetasDB.filter(r => {
-            const seg = _maternSeg(r);
-            return tipo === 'emb' ? seg.emb === 'apto' : seg.lac === 'apto';
-        });
-        if (!filtered.length) {
-            grid.innerHTML = '<p class="matern-recetas-empty">No se encontraron recetas.</p>';
-            return;
-        }
-        grid.innerHTML = filtered.map(r => {
-            const uso = r.uso ? r.uso.slice(0,95) + (r.uso.length>95?'…':'') : (CATEGORIA_USO[r.categoria]||'');
-            const catColor = (CAT_VISUAL[r.categoria]||{}).g?.[1]||'#4a8a3a';
-            const modo = _normModo(r.modo_uso);
-            const modoKey = modo ? (MATERN_MODO_KEYS[modo]||'otro') : null;
-            const puebloKey = esAncestral(r) ? puebloDeReceta(r) : null;
-            const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey]||ANCESTRAL_PUEBLOS.mapuche) : null;
-            const puebloBadge = puebloInfo ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>` : '';
-            const matern = _maternSeg(r);
-            const embHtml = matern.emb==='apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>` : '';
-            const lacHtml = matern.lac==='apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>` : '';
-            return `
-            <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
-                <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
-                    <i class="fas ${thumbIcon(r.categoria)} rsearch-thumb-icon"></i>
-                    <span class="rsearch-cat">${r.categoria}</span>
-                    ${modoKey ? `<span class="rsearch-modo-badge rsearch-modo-${modoKey}">${modo}</span>` : ''}
-                </div>
-                <h4 class="rsearch-titulo">${r.titulo}</h4>
-                ${puebloBadge}
-                ${uso ? `<p class="rsearch-uso"><i class="fas fa-bullseye"></i> ${uso}</p>`
-                      : `<p class="rsearch-ing"><i class="fas fa-leaf"></i> ${(r.ingredientes||'').slice(0,80)}${(r.ingredientes||'').length>80?'…':''}</p>`}
-                <div class="rsearch-card-meta-row">
-                    ${r.tiempo_prep ? `<span class="rscard-tiempo"><i class="fas fa-clock"></i> ${r.tiempo_prep}</span>` : ''}
-                    ${embHtml}${lacHtml}
-                </div>
-                <div class="rsearch-card-footer">
-                    <span class="rsearch-ver">Ver receta <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </button>`;
-        }).join('');
-        grid.querySelectorAll('.matern-receta-card').forEach(btn =>
-            btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
-        );
-    }, 50);
-}
-
-function _renderMujerSubmodGrid() {
-    const grid = $('#maternMujerSubmodGrid');
-    if (!grid) return;
+    if (!grid || grid.dataset.loaded) return;
     grid.dataset.loaded = '1';
-    const submods = SUBMODULOS.mujer.submods;
-    grid.innerHTML = submods.map(sub => {
-        const count = recetasDB.filter(r => r.submodulo === sub.id).length;
+
+    // Flat map of all submod definitions across all modules
+    const submodMap = {};
+    Object.values(SUBMODULOS).forEach(mod => {
+        mod.submods.forEach(sub => { submodMap[sub.id] = sub; });
+    });
+
+    // Group safe recipes by submodulo
+    const groups = {};
+    recetasDB.forEach(r => {
+        const seg = _maternSeg(r);
+        if ((tipo === 'emb' ? seg.emb : seg.lac) !== 'apto') return;
+        if (!groups[r.submodulo]) groups[r.submodulo] = [];
+        groups[r.submodulo].push(r);
+    });
+
+    const sorted = Object.entries(groups).sort((a, b) => b[1].length - a[1].length);
+
+    if (!sorted.length) {
+        grid.innerHTML = '<p class="matern-recetas-empty">No hay recetas disponibles.</p>';
+        return;
+    }
+
+    grid.innerHTML = sorted.map(([subId, recetas]) => {
+        const sub = submodMap[subId];
+        if (!sub) return '';
         return `
-        <button class="matern-submod-card" data-subid="${sub.id}" style="--ms-color:${sub.color}">
+        <button class="matern-submod-card" data-subid="${subId}" style="--ms-color:${sub.color}">
             <span class="matern-submod-emoji">${sub.emoji}</span>
             <span class="matern-submod-label">${sub.label}</span>
             <span class="matern-submod-desc">${sub.desc}</span>
-            <span class="matern-submod-count">${count} recetas</span>
+            <span class="matern-submod-count">${recetas.length} receta${recetas.length !== 1 ? 's' : ''}</span>
             <i class="fas fa-arrow-right matern-submod-arrow"></i>
         </button>`;
     }).join('');
+
     grid.querySelectorAll('.matern-submod-card').forEach(btn =>
-        btn.addEventListener('click', () => abrirSubmoduloMujer(btn.dataset.subid))
+        btn.addEventListener('click', () => _abrirMaternSubmod(btn.dataset.subid, tipo))
     );
-    $('#maternMujerBack')?.addEventListener('click', () => {
-        $('#maternMujerSubmodGrid').hidden = false;
-        $('#maternMujerResultados').hidden = true;
+
+    const backId = tipo === 'emb' ? 'maternEmbSubmodBack' : 'maternLacSubmodBack';
+    $('#' + backId)?.addEventListener('click', () => {
+        const resId = tipo === 'emb' ? 'maternEmbSubmodResultados' : 'maternLacSubmodResultados';
+        grid.hidden = false;
+        $('#' + resId).hidden = true;
     });
 }
 
-function abrirSubmoduloMujer(subId) {
-    const sub = SUBMODULOS.mujer.submods.find(s => s.id === subId);
-    if (!sub) return;
-    let recetas = recetasDB.filter(r => r.submodulo === subId);
-    if (subId === 'postparto_lactancia') {
-        recetas = recetas.filter(r => _maternSeg(r).lac !== 'precaucion');
+function _abrirMaternSubmod(subId, tipo) {
+    let sub = null;
+    for (const mod of Object.values(SUBMODULOS)) {
+        sub = mod.submods.find(s => s.id === subId);
+        if (sub) break;
     }
-    const tituloEl = $('#maternMujerTituloActivo');
+    if (!sub) return;
+
+    const filtered = recetasDB.filter(r => {
+        if (r.submodulo !== subId) return false;
+        const seg = _maternSeg(r);
+        return (tipo === 'emb' ? seg.emb : seg.lac) === 'apto';
+    });
+
+    const tituloId = tipo === 'emb' ? 'maternEmbSubmodTitulo' : 'maternLacSubmodTitulo';
+    const tituloEl = $('#' + tituloId);
     if (tituloEl) tituloEl.textContent = `${sub.emoji} ${sub.label}`;
-    const grid = $('#maternMujerRecetas');
+
+    const recetasId = tipo === 'emb' ? 'maternEmbSubmodRecetas' : 'maternLacSubmodRecetas';
+    const grid = $('#' + recetasId);
     if (!grid) return;
+
     const MATERN_MODO_KEYS = {
         'Infusión / Té':'infusion','Compresa':'compresa','Baño':'bano',
         'Ungüento / Bálsamo':'unguento','Jarabe':'jarabe','Tintura':'tintura',
         'Decocción':'decoccion','Cataplasma':'cataplasma','Inhalación':'inhalacion',
         'Masaje':'masaje','Uso tópico':'topico','Oral':'oral'
     };
-    grid.innerHTML = recetas.map(r => {
+
+    grid.innerHTML = filtered.map(r => {
         const uso = r.uso ? r.uso.slice(0,95)+(r.uso.length>95?'…':'') : (CATEGORIA_USO[r.categoria]||'');
         const catColor = (CAT_VISUAL[r.categoria]||{}).g?.[1]||'#4a8a3a';
         const modo = _normModo(r.modo_uso);
@@ -1688,10 +1676,8 @@ function abrirSubmoduloMujer(subId) {
         const puebloInfo = puebloKey ? (ANCESTRAL_PUEBLOS[puebloKey]||ANCESTRAL_PUEBLOS.mapuche) : null;
         const puebloBadge = puebloInfo ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>` : '';
         const matern = _maternSeg(r);
-        const embHtml = matern.emb==='apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>`
-                      : matern.emb==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar embarazo</span>` : '';
-        const lacHtml = matern.lac==='apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>`
-                      : matern.lac==='precaucion' ? `<span class="rsearch-ped-badge rsearch-matern-prec"><i class="fas fa-ban"></i> Evitar lactancia</span>` : '';
+        const embHtml = matern.emb === 'apto' ? `<span class="rsearch-ped-badge rsearch-matern-apto"><i class="fas fa-heart"></i> Embarazo</span>` : '';
+        const lacHtml = matern.lac === 'apto' ? `<span class="rsearch-ped-badge rsearch-lac-apto"><i class="fas fa-droplet"></i> Lactancia</span>` : '';
         return `
         <button class="matern-receta-card" data-rid="${r.id}" style="--cat-color:${catColor}">
             <div class="rsearch-thumb" style="background:${thumbGrad(r.categoria)}">
@@ -1712,12 +1698,16 @@ function abrirSubmoduloMujer(subId) {
             </div>
         </button>`;
     }).join('');
+
     grid.querySelectorAll('.matern-receta-card').forEach(btn =>
         btn.addEventListener('click', () => abrirDetalleReceta(parseInt(btn.dataset.rid)))
     );
-    $('#maternMujerSubmodGrid').hidden = true;
-    $('#maternMujerResultados').hidden = false;
-    $('#maternMujerResultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    const gridId = tipo === 'emb' ? 'maternEmbSubmodGrid' : 'maternLacSubmodGrid';
+    const resId  = tipo === 'emb' ? 'maternEmbSubmodResultados' : 'maternLacSubmodResultados';
+    $('#' + gridId).hidden = true;
+    $('#' + resId).hidden = false;
+    $('#' + resId).scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ════════════════════════════════════════════════════════════════════
