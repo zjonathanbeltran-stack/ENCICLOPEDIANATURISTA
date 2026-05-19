@@ -10173,5 +10173,122 @@
       "Es una de las plantas con semillas más longevas del mundo: en 1879 se encontraron semillas de bolsa de pastor en una tumba egipcia de 2.200 años de antigüedad, y algunas de ellas germinaron.",
       "En Chile está naturalizada en todo el territorio continental y es especialmente abundante en la zona centro-sur, donde florece entre mayo y octubre. Muchas personas la tienen en su jardín sin saber que es un potente remedio hemostático."
     ]
+  },
+  {
+    "id": 115,
+    "nombre": "Melisa",
+    "cientifico": "Melissa officinalis L.",
+    "familia": "Lamiaceae",
+    "parte": "Hojas",
+    "usos": "La melisa es la taza de calma que toda mamá lactante necesita. En medio de las noches sin dormir y los días agotadores, una infusión de melisa ayuda a calmar los nervios, reducir la ansiedad y conciliar el sueño en los escasos momentos de descanso. A diferencia de otros calmantes, no causa sedación diurna ni interfiere con la capacidad de cuidar al bebé.",
+    "chiloe": false,
+    "region": "Cultivada en jardines y huertos de Chile central y sur; disponible en herboristerías de todo el país",
+    "emoji": "🌿",
+    "precaucion": "La melisa es muy segura durante la lactancia en infusiones moderadas. No uses el aceite esencial puro por vía oral sin supervisión profesional. Si estás tomando medicamentos para la tiroides, consulta a tu médico antes de usar melisa, ya que podría interferir con la función tiroidea. No combinar con alcohol, sedantes o ansiolíticos sin supervisión médica.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "lactancia",
+      "ansiedad",
+      "insomnio",
+      "estrés",
+      "calmante",
+      "sedante suave",
+      "posparto"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Melissa_officinalis_001.JPG/800px-Melissa_officinalis_001.JPG",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba perenne de porte erecto que alcanza entre 30 y 80 cm de altura, con tallos cuadrangulares. Las hojas son opuestas, pecioladas, de forma ovada a acorazonada, de 2 a 8 cm de largo, con bordes finamente dentados. Al frotarlas, desprenden un inconfundible y delicado aroma a limón. Las flores, pequeñas y bilabiadas, de color blanco a amarillo pálido, atraen a las abejas —de ahí su nombre Melissa, que significa 'abeja' en griego.",
+    "historia_uso": "Originaria de la cuenca mediterránea oriental, la melisa ha sido cultivada como planta calmante por más de 2.000 años. Dioscórides y Plinio el Viejo describieron su uso para los 'males del ánimo'. La Comisión E alemana aprobó su uso para trastornos del sueño y digestivos. En Chile, se cultiva ampliamente y es una de las infusiones más populares para calmar los nervios y dormir mejor, especialmente recomendada para las madres en el posparto.",
+    "principios_activos": [
+      "Ácido rosmarínico — éster del ácido cafeico — inhibe la enzima GABA-transaminasa (GABA-T), aumentando los niveles de GABA cerebral y produciendo un efecto ansiolítico sin sedación (PMID: 19165747)",
+      "Citral (geranial + neral) — monoterpenos — acción antiespasmódica y digestiva, alivian los gases y la sensación de plenitud estomacal"
+    ],
+    "propiedades_farmacologicas": [
+      "Ansiolítico y sedante suave: el ácido rosmarínico aumenta los niveles de GABA en el sistema nervioso central, produciendo un efecto calmante sin dependencia. Una revisión sistemática confirmó su eficacia en la reducción de la ansiedad (PMID: 19165747)",
+      "Seguridad toxicológica: un estudio de 2024 confirmó que el extracto acuoso de melisa no es genotóxico, respaldando su larga historia de uso seguro (PMID: 38465432)"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "SEGURO — La melisa en infusiones moderadas se considera segura durante el embarazo.",
+      "lactancia": "SEGURO — La melisa es segura durante la lactancia a las dosis recomendadas. La FDA la clasifica como GRAS. El servicio e-lactancia.org la califica como de 'escaso o nulo riesgo'.",
+      "nivel_seguridad": "Comisión E alemana: Aprobada para trastornos del sueño y digestivos. FDA: GRAS. e-lactancia.org: Riesgo bajo."
+    },
+    "nivel_evidencia": "Alto — La melisa cuenta con sólido respaldo regulatorio (Comisión E, EMA, ESCOP) y estudios toxicológicos recientes que confirman su seguridad.",
+    "referencias_cientificas": [
+      "Awad R et al. Bioassay-guided fractionation of lemon balm. Phytother Res. 2009;23(8):1075-1081. PMID: 19165747",
+      "Toxicological safety evaluation of an aqueous lemon balm extract. Food Chem Toxicol. 2024;186:114542. PMID: 38465432",
+      "Ghazizadeh J et al. The effects of lemon balm on depression and anxiety. Phytother Res. 2021;35(12):6690-6705. PMID: 34477256",
+      "MINSAL. Medicamentos Herbarios Tradicionales. Santiago: Ministerio de Salud de Chile; 2010."
+    ],
+    "curiosidades": [
+      "En Chile, la melisa se conoce como 'toronjil' y es una de las infusiones que las abuelas recomiendan a las madres recientes para 'calmar los nervios' y ayudar a dormir cuando el bebé por fin descansa.",
+      "A diferencia de otros sedantes, la melisa no interfiere con la capacidad de despertarse ante el llanto del bebé, lo que la hace especialmente adecuada durante la lactancia."
+    ]
+  },
+  {
+    "id": 116,
+    "nombre": "Alholva",
+    "cientifico": "Trigonella foenum-graecum L.",
+    "familia": "Fabaceae",
+    "parte": "Semillas",
+    "usos": "La alholva es uno de los galactogogos más potentes y mejor documentados del mundo. Sus semillas, de un aroma dulce que recuerda al jarabe de arce, estimulan la producción de leche materna de forma notable, a menudo en 24-72 horas. Es el recurso de las mamás que necesitan un impulso extra para establecer o mantener una lactancia abundante, y su uso está avalado por siglos de tradición en la medicina ayurvédica y del Medio Oriente.",
+    "chiloe": false,
+    "region": "Importada; disponible en herboristerías y tiendas naturistas de Chile",
+    "emoji": "🌱",
+    "precaucion": "La alholva es segura durante la lactancia en las dosis recomendadas. Puede causar un olor característico en el sudor y la orina (similar al jarabe de arce), que es inofensivo. Si tienes diabetes o hipoglucemia, monitorea tu glucemia. Suspende si notas molestias gastrointestinales en tu bebé (poco frecuente). No uses durante el embarazo sin supervisión médica, ya que puede estimular contracciones uterinas.",
+    "peligroso": false,
+    "protegida": false,
+    "meses": [
+      1,
+      2,
+      3
+    ],
+    "keywords": [
+      "lactancia",
+      "leche materna",
+      "galactogogo",
+      "producción de leche",
+      "posparto",
+      "alholva",
+      "fenogreco"
+    ],
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Trigonella_foenum-graecum_003.jpg/800px-Trigonella_foenum-graecum_003.jpg",
+    "ficha_completa": true,
+    "descripcion_botanica": "Hierba anual de porte erecto que alcanza entre 30 y 60 cm de altura, con hojas compuestas trifoliadas de color verde claro. Las flores son pequeñas, de color blanco-amarillento, y aparecen en primavera. El fruto es una vaina larga y curvada que contiene entre 10 y 20 semillas de forma rectangular, de color marrón dorado, con un surco diagonal característico. Las semillas, de sabor amargo y aroma intenso que recuerda al jarabe de arce, son la parte medicinal.",
+    "historia_uso": "Originaria de la región mediterránea y Asia occidental, la alholva es una de las plantas galactogogas más antiguas, utilizada durante más de 4.000 años en la medicina ayurvédica y en el antiguo Egipto. Las mujeres del Medio Oriente la consumen tradicionalmente en grandes cantidades después del parto. En el siglo XX, múltiples estudios clínicos confirmaron su eficacia para aumentar la producción de leche materna. La base de datos LactMed del NIH la documenta como uno de los galactogogos herbales más utilizados en el mundo (PMID: 30000836). En Chile, está disponible en herboristerías y es cada vez más conocida entre las madres lactantes.",
+    "principios_activos": [
+      "Diosgenina — saponina esteroidea — fitoestrógeno que estimula la producción de prolactina, aumentando el volumen de leche materna. Es el principal compuesto galactogogo de la alholva (PMID: 30000836; PMID: 27216340)",
+      "Fitoestrógenos (isoflavonas) — compuestos fenólicos — modulan los receptores estrogénicos y contribuyen al efecto galactogogo, además de aliviar los síntomas menopáusicos",
+      "Galactomananos — fibra soluble — forman un gel en el intestino que ayuda a regular el tránsito intestinal y puede contribuir al efecto saciante"
+    ],
+    "propiedades_farmacologicas": [
+      "Galactogogo potente: la diosgenina y los fitoestrógenos estimulan la secreción de prolactina hipofisaria, aumentando el volumen de leche materna. Dos ensayos clínicos reportaron aumento significativo de la producción láctea con la suplementación de alholva (LactMed NIH, PMID: 30000836)",
+      "Hipoglucemiante: la fibra soluble y los compuestos fenólicos de la alholva reducen la absorción intestinal de glucosa y mejoran la sensibilidad a la insulina, con posible beneficio en diabetes gestacional que persiste en el posparto"
+    ],
+    "embarazo_lactancia": {
+      "embarazo": "PRECAUCIÓN — La alholva puede estimular contracciones uterinas. Evitar durante el embarazo sin supervisión médica.",
+      "lactancia": "SEGURO — La alholva es uno de los galactogogos más utilizados y mejor documentados. La base de datos LactMed del NIH la documenta como 'compatible con la lactancia' (PMID: 30000836). Se excreta en la leche materna en cantidades mínimas, generalmente sin efectos adversos en el lactante.",
+      "nivel_seguridad": "LactMed NIH: Compatible con la lactancia. ESCOP: Monografía publicada. FDA: GRAS como aromatizante alimentario."
+    },
+    "nivel_evidencia": "Moderado-Alto — La alholva es uno de los galactogogos mejor estudiados. Existen múltiples ensayos clínicos, aunque de pequeño tamaño muestral. La documentación en LactMed del NIH y el uso tradicional milenario respaldan su eficacia y seguridad.",
+    "referencias_cientificas": [
+      "LactMed (Drugs and Lactation Database). Fenugreek. Bethesda (MD): National Institute of Child Health and Human Development. PMID: 30000836",
+      "Sim TF, Hattingh HL, Sherriff J, Tee LBG. The Use, Perceived Effectiveness and Safety of Herbal Galactagogues During Breastfeeding: A Qualitative Study. Int J Environ Res Public Health. 2015;12(9):11050-11071. PMID: 26371020",
+      "Zapantis A, Steinberg JG, Schilit L. Use of Herbals as Galactagogues. J Pharm Pract. 2012;25(2):222-231. PMID: 22392841",
+      "MINSAL. Medicamentos Herbarios Tradicionales. Santiago: Ministerio de Salud de Chile; 2010."
+    ],
+    "curiosidades": [
+      "El olor a jarabe de arce que produce la alholva es tan intenso que, en algunos casos, se ha confundido con la enfermedad de la orina con olor a jarabe de arce (una enfermedad metabólica rara) en recién nacidos. Es una curiosidad diagnóstica inofensiva pero fascinante.",
+      "En la medicina ayurvédica, la alholva se considera un alimento 'caliente' que fortalece el cuerpo después del parto. Las mujeres indias consumen 'laddus de methi' (dulces de alholva) durante las primeras semanas de lactancia.",
+      "En Chile, la alholva no es tan conocida como el hinojo o la ortiga, pero está ganando popularidad entre las madres lactantes, especialmente a través de grupos de apoyo a la lactancia que la recomiendan para aumentar la producción de leche."
+    ]
   }
 ]
