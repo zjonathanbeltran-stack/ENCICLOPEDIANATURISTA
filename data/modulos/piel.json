@@ -40,7 +40,9 @@
       "manzanilla",
       "caléndula",
       "arrayán"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 7,
@@ -52,7 +54,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -82,7 +84,9 @@
       "matico",
       "canelo",
       "eucalipto"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 9,
@@ -125,7 +129,9 @@
       "manzanilla",
       "caléndula",
       "arrayán"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 12,
@@ -167,7 +173,9 @@
       "llantén",
       "caléndula",
       "manzanilla"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 19,
@@ -200,7 +208,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 20,
@@ -233,7 +250,16 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Alcaloides esteroídicos (solasonina, solamargina): antiinflamatorios y antifúngicos tópicos. Saponinas esteroidales: actividad antimicrobiana. Flavonoides: antioxidantes cutáneos.",
+    "propiedades": [
+      "antifúngico",
+      "antimicrobiano",
+      "antiséptico",
+      "cicatrizante"
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 24,
@@ -267,7 +293,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Mucílagos: emolientes y cicatrizantes sobre quemaduras y heridas. Taninos: astringentes y hemostáticos. Flavonoides: antioxidantes y antiinflamatorios cutáneos.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 35,
@@ -309,7 +344,9 @@
       "llantén",
       "arnica",
       "romero"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 37,
@@ -321,7 +358,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -352,7 +389,9 @@
       "lavanda",
       "manzanilla",
       "matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 40,
@@ -395,7 +434,9 @@
       "caléndula",
       "matico",
       "llantén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 46,
@@ -407,7 +448,7 @@
     "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
     "modo_uso": "Tópico — cataplasma, compresa o loción",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 aplicaciones por preparación",
     "conservacion": "Preparar fresco; usar el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -428,7 +469,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 48,
@@ -440,7 +490,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -462,7 +512,16 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+    "propiedades": [
+      "relajante muscular",
+      "descongestionante",
+      "antiinflamatorio",
+      "sedante"
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 58,
@@ -474,7 +533,7 @@
     "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
     "modo_uso": "Tópico — loción, compresa o lavado",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–4 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
     "evidencia": "Uso tradicional documentado",
@@ -504,7 +563,9 @@
       "caléndula",
       "matico",
       "llantén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 60,
@@ -546,7 +607,9 @@
       "ortiga",
       "matico",
       "lavanda"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 62,
@@ -588,7 +651,9 @@
       "caléndula",
       "matico",
       "llantén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 63,
@@ -629,7 +694,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 64,
@@ -670,7 +737,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 67,
@@ -682,7 +751,7 @@
     "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
     "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
     "evidencia": "Uso tradicional documentado",
@@ -711,7 +780,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 68,
@@ -723,7 +794,7 @@
     "dosis": "Aplicar 1–2 veces por semana; dejar actuar 20–30 minutos antes de enjuagar",
     "modo_uso": "Tópico capilar — mascarilla, enjuague o aceite",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 5 días",
     "evidencia": "Uso tradicional documentado",
@@ -753,7 +824,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 70,
@@ -786,7 +859,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 71,
@@ -798,7 +880,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -827,7 +909,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 74,
@@ -860,7 +944,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 78,
@@ -872,7 +965,7 @@
     "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
     "modo_uso": "Tópico — mascarilla, tónico, crema o aceite",
     "tiempo_prep": "12 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
     "evidencia": "Uso tradicional documentado",
@@ -893,7 +986,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 79,
@@ -926,7 +1028,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Beta-glucanos (polisacárido soluble): emolientes, hipocolesterolemiantes e inmunomoduladores. Hordenina (alcaloide feniletilamínico): antimicrobiana. Avenantramidas: antioxidantes y antiinflamatorias cutáneas.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 85,
@@ -967,7 +1078,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 88,
@@ -979,7 +1092,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -1008,7 +1121,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 89,
@@ -1049,7 +1164,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 91,
@@ -1091,7 +1208,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 93,
@@ -1132,7 +1251,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 95,
@@ -1165,7 +1286,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 98,
@@ -1198,7 +1328,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 100,
@@ -1210,7 +1349,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -1239,7 +1378,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 102,
@@ -1251,7 +1392,7 @@
     "dosis": "Aplicar en zona afectada 2 veces al día; enjuagar tras 20–30 min si es lavado",
     "modo_uso": "Tópico — aplicar directamente sobre la piel",
     "tiempo_prep": "12 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–4 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 48 h; no aplicar en heridas abiertas sin orientación médica",
     "evidencia": "Uso tradicional documentado",
@@ -1280,7 +1421,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 103,
@@ -1313,7 +1456,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 105,
@@ -1325,7 +1477,7 @@
     "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
     "modo_uso": "Tópico — cataplasma, compresa o loción",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 aplicaciones por preparación",
     "conservacion": "Preparar fresco; usar el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1355,7 +1507,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 107,
@@ -1396,7 +1550,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 112,
@@ -1429,7 +1585,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 124,
@@ -1462,7 +1627,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 131,
@@ -1495,7 +1669,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Cera vegetal (ésteres de ácidos grasos de cadena larga): barrera oclusiva que protege el cuero cabelludo. Ácidos grasos saturados: emolientes y suavizantes del cabello. Esterol vegetal: nutrición capilar.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 132,
@@ -1507,7 +1690,7 @@
     "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
     "modo_uso": "Tópico — aplicar localmente sobre la piel",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
     "evidencia": "Uso tradicional documentado",
@@ -1528,7 +1711,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 133,
@@ -1570,7 +1762,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 144,
@@ -1611,7 +1805,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 146,
@@ -1653,7 +1849,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 151,
@@ -1663,7 +1861,7 @@
     "ingredientes": "Hojas de pimiento.",
     "preparacion": "Hacer una cataplasma con las hojas (uso externo) y aplicarla sobre heridas o infecciones de la piel, incluyendo posibles síntomas de cáncer a la piel. Siempre en complemento con tratamiento médico.",
     "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
-    "modo_uso": "Oral — infusión caliente",
+    "modo_uso": "Tópico — cataplasma",
     "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "2–3 aplicaciones por preparación",
@@ -1686,7 +1884,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Capsaicina (capsaicinoide): analgésico por desensibilización de receptores TRPV1; antiinflamatorio tópico potente. Capsantina y capsorrubina (carotenoides): antioxidantes. Vitamina C: inmunoestimulante y cicatrizante.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 154,
@@ -1727,7 +1934,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 155,
@@ -1760,7 +1969,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 158,
@@ -1801,7 +2019,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 159,
@@ -1842,7 +2062,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 160,
@@ -1854,7 +2076,7 @@
     "dosis": "Aplicar sobre la zona afectada 2–3 veces al día; cambiar apósito cada 8 h",
     "modo_uso": "Tópico — aplicar localmente sobre la piel",
     "tiempo_prep": "12 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 aplicaciones por preparación",
     "conservacion": "Preparar fresco; usar el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1883,7 +2105,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 163,
@@ -1924,7 +2148,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 164,
@@ -1936,7 +2162,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -1966,7 +2192,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 165,
@@ -2007,7 +2235,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 167,
@@ -2048,7 +2278,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 168,
@@ -2081,7 +2313,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 169,
@@ -2114,7 +2355,16 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+    "propiedades": [
+      "relajante muscular",
+      "descongestionante",
+      "antiinflamatorio",
+      "sedante"
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 172,
@@ -2147,7 +2397,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 173,
@@ -2159,7 +2418,7 @@
     "dosis": "1–2 baños por semana; inmersión de 15–20 minutos",
     "modo_uso": "Externo — baño de inmersión o lavado corporal",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 baño completo",
     "conservacion": "Preparar al momento; no reutilizar el agua",
     "evidencia": "Saber ancestral",
@@ -2188,7 +2447,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 174,
@@ -2229,7 +2490,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 175,
@@ -2241,7 +2504,7 @@
     "dosis": "Aplicar 1–2 veces al día; realizar prueba en pequeña zona antes del uso completo",
     "modo_uso": "Tópico — aplicar directamente sobre la piel",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Refrigerar hasta 5–7 días; añadir vitamina E como conservante natural",
     "evidencia": "Uso tradicional documentado",
@@ -2270,7 +2533,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 176,
@@ -2311,7 +2576,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 177,
@@ -2344,7 +2611,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Cucurbitacinas B y D: antiinflamatorias y hepatoprotectoras. Silicio orgánico: regenerador dérmico y antiedad. Vitaminas C y K: antioxidante y hemostática. Ácido cafeico: antiinflamatorio.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 178,
@@ -2385,7 +2661,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 179,
@@ -2426,7 +2704,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 180,
@@ -2467,7 +2747,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 181,
@@ -2508,7 +2790,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 182,
@@ -2549,7 +2833,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 183,
@@ -2590,7 +2876,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 184,
@@ -2631,7 +2919,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 185,
@@ -2672,7 +2962,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 186,
@@ -2705,7 +2997,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 187,
@@ -2746,7 +3047,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 188,
@@ -2787,7 +3090,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 189,
@@ -2828,7 +3133,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 190,
@@ -2861,7 +3168,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Silicatos de aluminio hidratados (montmorillonita, caolín): adsorbentes de toxinas y agentes antimicrobianos físicos. Minerales (sílice, magnesio, calcio, hierro): remineralizantes. Efecto osmótico: reduce la inflamación cutánea y el exceso de sebo.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 191,
@@ -2903,7 +3219,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 192,
@@ -2936,7 +3254,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Carbón activado (carbono amorfo poroso): adsorbente de toxinas y exceso de sebo; efecto detox dérmico. Minerales de silicato: absorbentes de impurezas. pH neutro: compatible con todos los tipos de piel.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 193,
@@ -2969,7 +3296,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Vitaminas del complejo B (B1, B2, B3, B6, B9): cofactores de renovación celular epidérmica. Beta-glucanos de Saccharomyces: inmunomoduladores y equilibradores de sebo. Zinc y selenio: antiséborreicos y antioxidantes.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 194,
@@ -3010,7 +3346,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 195,
@@ -3051,7 +3389,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 196,
@@ -3092,7 +3432,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 197,
@@ -3125,7 +3467,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 198,
@@ -3166,7 +3517,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 199,
@@ -3207,7 +3560,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 200,
@@ -3248,7 +3603,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "titulo": "Solución de Ajo y Vinagre para Hongos en Uñas",
@@ -3289,7 +3646,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "titulo": "Aceite Esencial de Orégano para Hongos Cutáneos",
@@ -3330,7 +3689,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "titulo": "Lavado de Matico y Sal Marina para Pie de Atleta",
@@ -3342,7 +3703,7 @@
     "dosis": "Aplicar en zona afectada 2–3 veces al día durante 2–4 semanas",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Preparar cada 48 h; conservar en frío",
     "evidencia": "Uso tradicional documentado",
@@ -3371,7 +3732,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "titulo": "Ungüento de Ajo y Caléndula para Candidiasis Cutánea",
@@ -3383,7 +3746,7 @@
     "dosis": "Aplicar en zona afectada 2–3 veces al día durante 2–4 semanas",
     "modo_uso": "Tópico — loción, baño de pies o compresa",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–5 aplicaciones por preparación",
     "conservacion": "Preparar cada 48 h; conservar en frío",
     "evidencia": "Uso tradicional documentado",
@@ -3413,7 +3776,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "titulo": "Enjuague Bucal Antifúngico de Canela y Clavo",
@@ -3454,7 +3819,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 438,
@@ -3466,7 +3833,7 @@
     "dosis": "Aplicar 2-3 veces al día en zona afectada",
     "modo_uso": "Tópico — aplicar localmente sobre la piel",
     "tiempo_prep": "25 min + enfriado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "150 g",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -3495,7 +3862,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 439,
@@ -3528,7 +3897,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Avenantramidas: antioxidantes y antiinflamatorias cutáneas únicas de la avena. Beta-glucanos: inmunomoduladores e hipocolesterolemiantes. Ácido ferúlico: antioxidante y fotoprotector.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 440,
@@ -3569,7 +3947,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 441,
@@ -3581,7 +3961,7 @@
     "dosis": "Aplicar 2 veces al día en hematomas o dolor muscular",
     "modo_uso": "Masajear suavemente",
     "tiempo_prep": "21 días maceración + 15 min acabado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 ml",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -3610,7 +3990,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 442,
@@ -3652,7 +4034,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 443,
@@ -3693,7 +4077,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 444,
@@ -3734,7 +4120,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 445,
@@ -3775,7 +4163,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 446,
@@ -3816,7 +4206,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 447,
@@ -3858,7 +4250,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 448,
@@ -3891,7 +4285,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Catequinas (galato de epigalocatequina — EGCG): antioxidantes vasculares y antiinflamatorios. Cafeína y teobromina: vasoconstrictores que reducen ojeras y edema periocular. Taninos: astringentes que tensan la piel.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 449,
@@ -3924,7 +4327,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 450,
@@ -3957,7 +4369,16 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antifúngico",
+      "antimicrobiano",
+      "antiséptico",
+      "cicatrizante"
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 451,
@@ -3998,7 +4419,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 452,
@@ -4039,7 +4462,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 613,
@@ -4080,7 +4505,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 614,
@@ -4121,7 +4548,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 615,
@@ -4154,7 +4583,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 616,
@@ -4196,7 +4634,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 617,
@@ -4208,7 +4648,7 @@
     "dosis": "Aplicar en labios según necesidad",
     "modo_uso": "Aplicar antes de dormir para máximo efecto reparador",
     "tiempo_prep": "15 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "30 g",
     "conservacion": "Temperatura ambiente 6 meses",
     "evidencia": "Uso tradicional documentado",
@@ -4229,7 +4669,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 618,
@@ -4262,7 +4711,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 619,
@@ -4303,7 +4761,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 620,
@@ -4345,7 +4805,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 621,
@@ -4386,7 +4848,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 622,
@@ -4428,7 +4892,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 623,
@@ -4469,7 +4935,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 624,
@@ -4502,7 +4970,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Sulfato de aluminio y potasio (KAl(SO₄)₂): astringente que contrae los poros y reduce la transpiración. Actividad antimicrobiana: inhibe bacterias causantes del olor por cambio de pH. Efecto hemostático leve.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 625,
@@ -4536,7 +5013,16 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "principios_activos": "Ésteres de cera líquida (ácido gadolénico y erúcico): estructuralmente análogos al sebo humano; regulan el sebo sin obstruir poros. Vitamina E y vitamina B: nutritivos. Miristo: antiinflamatorio dérmico.",
+    "propiedades": [
+      "emoliente",
+      "antioxidante",
+      "regenerante celular",
+      "fotoprotector"
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 626,
@@ -4548,7 +5034,7 @@
     "dosis": "Usar en el baño diariamente",
     "modo_uso": "Idóneo para pieles sensibles y secas",
     "tiempo_prep": "30 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "4-6 jabones",
     "conservacion": "Temperatura ambiente 6 meses",
     "evidencia": "Uso tradicional documentado",
@@ -4578,7 +5064,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 627,
@@ -4619,7 +5107,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 628,
@@ -4631,7 +5121,7 @@
     "dosis": "Aplicar en el cabello y dejar actuar 2-4 horas según intensidad deseada",
     "modo_uso": "Usar guantes; puede manchar la piel",
     "tiempo_prep": "4 horas total",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 aplicación",
     "conservacion": "Preparar fresco (usar el mismo día)",
     "evidencia": "Uso tradicional documentado",
@@ -4660,7 +5150,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 629,
@@ -4701,7 +5193,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 630,
@@ -4742,7 +5236,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 631,
@@ -4783,7 +5279,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 632,
@@ -4824,7 +5322,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 633,
@@ -4865,7 +5365,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 634,
@@ -4898,7 +5400,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 635,
@@ -4931,7 +5442,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 636,
@@ -4964,7 +5484,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 637,
@@ -4997,7 +5526,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 638,
@@ -5030,7 +5568,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 639,
@@ -5071,7 +5618,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 640,
@@ -5104,7 +5653,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 641,
@@ -5145,7 +5703,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 642,
@@ -5187,7 +5747,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 643,
@@ -5221,7 +5783,16 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "fortalecedor capilar",
+      "anticaspa",
+      "estimulante folicular",
+      "antiséborreico"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 644,
@@ -5262,7 +5833,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 645,
@@ -5303,7 +5876,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 646,
@@ -5344,7 +5919,9 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 647,
@@ -5385,7 +5962,51 @@
       "Romero",
       "Ortiga",
       "Aceite de coco"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
+  },
+  {
+    "id": 729,
+    "titulo": "Aceite de Orégano contra Candida",
+    "categoria": "Antifúngico",
+    "origen": "Naturopatía Moderna",
+    "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
+    "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
+    "dosis": "3 gotas de la mezcla en cápsula o en cucharadita 3 veces al día por 2 semanas",
+    "modo_uso": "Tomar con comida; el aceite de orégano es muy potente",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 frasco 30 ml (2 semanas)",
+    "conservacion": "Temperatura ambiente 1 año",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Naturopatía moderna",
+    "contraindicaciones": "No usar sin diluir; puede causar ardor severo; no en embarazo",
+    "uso": "Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.",
+    "principios_activos": "Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.",
+    "propiedades": [
+      "antimicrobiano",
+      "antifúngico",
+      "antioxidante",
+      "digestivo",
+      "antiespasmódico"
+    ],
+    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
+      "Náuseas asociadas a parásitos",
+      "Limpieza intestinal preventiva"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
+    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
+    "sinergia_plantas": [
+      "Ajo",
+      "Paico",
+      "Semillas de calabaza"
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 958,
@@ -5418,7 +6039,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Timoquinona (benzoquinona): antiinflamatoria potente; inhibe COX-1/2, LOX y producción de citoquinas. Nigelona: antihistamínica y antiasmática. Aceite fijo (ácido linoleico, ácido linolénico): regenerador dérmico y antiinflamatorio.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 959,
@@ -5459,7 +6089,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 960,
@@ -5500,7 +6132,9 @@
       "Ajo",
       "Orégano",
       "Tomillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones"
   },
   {
     "id": 961,
@@ -5533,7 +6167,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "EGCG (epigalocatequina galato): antioxidante 25x más potente que vitamina C; antiinflamatorio. L-teanina: ansiolítico y neuroprotector. Cafeína: estimulante circulatorio y energizante.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 962,
@@ -5574,7 +6217,9 @@
       "Caléndula",
       "Rosa mosqueta",
       "Aceite de oliva"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 963,
@@ -5616,7 +6261,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 964,
@@ -5649,7 +6296,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Ácido oleico (omega-9): emoliente profundo y cardioprotector. Luteína y zeaxantina: fotoprotectores oculares y cutáneos. Vitamina E y glutatión: antioxidantes celulares regeneradores.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerante tisular",
+      "antiséptico",
+      "hemostático"
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 966,
@@ -5682,7 +6338,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 967,
@@ -5715,7 +6380,16 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
+    "propiedades": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 983,
@@ -5757,7 +6431,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 984,
@@ -5798,7 +6474,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 985,
@@ -5831,7 +6509,16 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "principios_activos": "Aceites esenciales (linalool, terpineol): relajantes por vía aromática y transdérmica. Minerales absorbidos por la piel: relajantes musculares. Taninos: tonificantes y astringentes cutáneos.",
+    "propiedades": [
+      "relajante muscular",
+      "descongestionante",
+      "antiinflamatorio",
+      "sedante"
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 986,
@@ -5872,7 +6559,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 987,
@@ -5914,7 +6603,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 993,
@@ -5926,7 +6617,7 @@
     "dosis": "Compresas frias en hematomas 3-4 veces al dia",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -5955,7 +6646,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 994,
@@ -5967,7 +6660,7 @@
     "dosis": "Compresas en heridas limpias 2-3 veces al dia",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "18 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -5996,7 +6689,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 995,
@@ -6008,7 +6703,7 @@
     "dosis": "Aplicar en quemadura solar 2-3 veces al dia",
     "modo_uso": "Aplicar suavemente sin frotar",
     "tiempo_prep": "2 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "Temperatura ambiente 1 mes",
     "evidencia": "Uso tradicional documentado",
@@ -6038,7 +6733,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 998,
@@ -6050,7 +6747,7 @@
     "dosis": "Compresa 20 min 3 veces al dia",
     "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
     "tiempo_prep": "5 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "Uso inmediato",
     "evidencia": "Saber ancestral",
@@ -6079,7 +6776,53 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
+  },
+  {
+    "id": 1033,
+    "titulo": "Lavado Capilar con Espuma de Quillay para Caspa y Caida",
+    "categoria": "Cabello",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "Un trozo de corteza interna de quillay del tamano de una pelota de tenis",
+    "preparacion": "Batir la corteza interna en agua fria o tibia frotando energicamente hasta producir espuma abundante y densa. La espuma sera rica y persistente.",
+    "dosis": "Aplicar la espuma sobre el cabello mojado. Masajear el cuero cabelludo durante 3 a 5 minutos. Enjuagar muy bien con agua tibia.",
+    "modo_uso": "Tópico — enjuague o lavado local",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 lavado capilar",
+    "conservacion": "Conservar la corteza seca indefinidamente; preparar la espuma fresca",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche; uso ancestral mapuche (CONAF 2004; MINSAL 2010)",
+    "contraindicaciones": "Enjuagar completamente: las saponinas en el ojo irritan. No tragar. Algunas personas con cuero cabelludo muy sensible pueden presentar leve irritacion",
+    "uso": "Caspa y Caida: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+    "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "inmunoestimulante",
+      "antiséptico",
+      "antifúngico"
+    ],
+    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Caspa y seborrea del cuero cabelludo",
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 1061,
@@ -6090,7 +6833,7 @@
     "preparacion": "1. Recolectar la resina exudada naturalmente del tronco de araucaria en recipiente limpio. 2. Calentar la grasa animal a fuego muy bajo hasta derretir, sin hervir. 3. Incorporar la resina y revolver con palito de madera hasta homogeneizar (aprox. 5 minutos). 4. Retirar del fuego, agregar la ceniza tamizada y mezclar. 5. Dejar enfriar hasta consistencia de pomada espesa. Aplicar directamente sobre herida limpia.",
     "dosis": "Aplicar una capa de 3-4 mm sobre la herida, cubrir con hoja de nalca (Gunnera tinctoria) o paño limpio. Cambiar cada 24 horas durante 5-7 dias.",
     "modo_uso": "Topico (cataplasma)",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Media",
     "rendimiento": "5-6 aplicaciones",
     "conservacion": "En tarro con tapa, lugar fresco, hasta 2 semanas",
@@ -6120,7 +6863,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1064,
@@ -6131,8 +6876,8 @@
     "preparacion": "1. Calentar las piedras de rio en fogon a fuego intenso durante 40 minutos. 2. Preparar ruka improvisada (tienda de vapor) con mantas sobre estructura de quila formando una camara cerrada. 3. Introducir las piedras calientes en recipiente dentro de la camara. 4. Verter el agua de a poco sobre las piedras calientes para generar vapor. 5. Colocar las hojas de nocha sobre las piedras humedas (el vapor arrastrara sus aceites). 6. El paciente entra a la camara de vapor cubierto. Sesion de 15-20 minutos.",
     "dosis": "Una sesion de 20 minutos, 2-3 veces por semana durante periodos de dolor agudo. Beber agua fresca despues de cada sesion.",
     "modo_uso": "Bano de vapor (inhalacion y absorcion cutanea)",
-    "tiempo_prep": "60 minutos (incluyendo calentamiento de piedras)",
-    "dificultad": "Dificil",
+    "tiempo_prep": "60 min (incluyendo calentamiento de piedras)",
+    "dificultad": "Difícil",
     "rendimiento": "1 sesion de vapor",
     "conservacion": "No aplica (preparacion de uso inmediato)",
     "evidencia": "Tecnica del ruka lawen (casa de la medicina) documentada en etnobotanica pewenche por el MINSAL (2010) Medicina Mapuche: Reconocimiento y Perspectivas. Las bromeliáceas contienen saponinas triterpenicas con propiedades antiinflamatorias.",
@@ -6160,7 +6905,9 @@
       "Lavanda",
       "Romero",
       "Salvia"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 1067,
@@ -6171,7 +6918,7 @@
     "preparacion": "1. Raspar la corteza interior del michay hasta obtener 50 g de material amarillo brillante. 2. Machacar la corteza en mortero hasta obtener pasta gruesa. 3. Agregar el agua de a poco mientras se continua machacando, hasta obtener pasta homogenea. 4. Incorporar la grasa animal tibia y mezclar energicamente hasta emulsionar. 5. Aplicar la pasta sobre la zona afectada en capa de 5 mm.",
     "dosis": "Aplicar 2-3 veces al dia sobre la zona afectada. Dejar actuar 4 horas y limpiar con agua tibia. Continuar durante 7-10 dias.",
     "modo_uso": "Topico (cataplasma/pomada)",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Media",
     "rendimiento": "8-10 aplicaciones",
     "conservacion": "Refrigerar hasta 5 dias en tarro cerrado.",
@@ -6200,7 +6947,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1072,
@@ -6211,8 +6960,8 @@
     "preparacion": "1. Si el luche es seco, remojar en agua fria 30 minutos hasta reconstituir. 2. Calentar el agua hasta 38-40°C (tolerable al tacto). 3. Disolver la sal en el agua caliente. 4. Agregar el luche al agua y exprimir con las manos para liberar los polisacaridos (el agua se volvera levemente viscosa). 5. Sumergir el area afectada o realizar bano de cuerpo completo durante 20 minutos. 6. No enjuagar al salir; secar con toalla suave.",
     "dosis": "Bano diario durante la primera semana; luego 3 veces por semana. Mantener 3-4 semanas.",
     "modo_uso": "Bano topico (talasoterapia)",
-    "tiempo_prep": "40 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "40 min",
+    "dificultad": "Fácil",
     "rendimiento": "1 bano por preparacion",
     "conservacion": "No aplica (preparacion de uso inmediato)",
     "evidencia": "La Porphyra columbina contiene ficobilinas, porfiranos sulfatados y phycobiliproteinas con potente actividad antiinflamatoria y regeneradora de la piel. La talasoterapia con algas es reconocida por la medicina integrativa para condiciones inflamatorias cronicas de la piel.",
@@ -6240,7 +6989,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 1087,
@@ -6282,7 +7033,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1102,
@@ -6324,7 +7077,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1103,
@@ -6366,7 +7121,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1104,
@@ -6407,7 +7164,9 @@
       "Caléndula",
       "Aloe vera",
       "Matico"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1110,
@@ -6418,7 +7177,7 @@
     "preparacion": "Hervir las raíces 15 minutos a fuego suave. Retirar, agregar la ortiga, tapar 10 min. Colar.",
     "dosis": "1 taza, 2 veces al día (mañana y tarde), durante 3 semanas",
     "modo_uso": "Decocción",
-    "tiempo_prep": "25 minutos",
+    "tiempo_prep": "25 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 400 ml",
     "conservacion": "Refrigerado, 48 horas",
@@ -6451,7 +7210,9 @@
       "Ortiga",
       "Zarzaparrilla",
       "Pensamiento"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 1111,
@@ -6462,7 +7223,7 @@
     "preparacion": "Decocción de equiseto a fuego suave por 20 min (la sílice necesita tiempo para extraerse). Retirar, agregar ortiga, tapar 10 min. Colar.",
     "dosis": "1 taza al día por la mañana, ciclos de 4 semanas",
     "modo_uso": "Decocción",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 350 ml",
     "conservacion": "Refrigerado, 24 h",
@@ -6493,7 +7254,9 @@
       "Ortiga",
       "Cola de caballo",
       "Avena verde"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 1114,
@@ -6504,7 +7267,7 @@
     "preparacion": "Limpiar la herida con suero fisiológico. Aplicar capa generosa de miel directamente o impregnar gasa estéril. Cubrir con apósito.",
     "dosis": "Cambiar curación cada 24 horas hasta cicatrización",
     "modo_uso": "Aplicación tópica",
-    "tiempo_prep": "5 minutos",
+    "tiempo_prep": "5 min",
     "dificultad": "Fácil",
     "rendimiento": "Por herida",
     "conservacion": "Miel a temperatura ambiente sin contaminar el frasco",
@@ -6535,7 +7298,9 @@
       "Matico",
       "Caléndula",
       "Llantén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1119,
@@ -6546,7 +7311,7 @@
     "preparacion": "Machacar hojas en mortero con pizca de sal hasta pasta. Aplicar directamente sobre la herida limpia. Cubrir con gasa.",
     "dosis": "Cambiar cada 12 horas hasta cicatrización",
     "modo_uso": "Cataplasma",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "Por curación",
     "conservacion": "Preparar fresco cada vez",
@@ -6554,7 +7319,7 @@
     "fuente_tradicion": "Matico llamado 'hierba del soldado' en Chile por su uso histórico militar; llantén universal",
     "contraindicaciones": "Alergia a Piperaceae o Plantaginaceae. Heridas profundas necesitan atención médica.",
     "uso": "Aucubina y catalpol (llantén) son antiinflamatorios y antibacterianos; dilapiol y safrol (matico) cicatrizantes; alantoína estimula proliferación de fibroblastos acelerando regeneración tisular.",
-    "principios_activos": "Aucubina, catalpol, alantoína, dilapiol, safrol, mucílagos.",
+    "principios_activos": "Catequina (682 mg/100g MS, matico): astringente, cicatrizante y antiagregante. Verbascósido (matico): antibacteriano y cicatrizante de heridas. Aucubina y catalpol (matico + llantén, iridoides): antiinflamatorios tisulares. Alantoína (llantén): cicatrizante que estimula la proliferación celular. Mucílagos (llantén): emolientes y protectores de mucosas.",
     "propiedades": [
       "cicatrizante",
       "antibacteriano",
@@ -6577,7 +7342,9 @@
       "Llantén",
       "Caléndula",
       "Pañil"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1131,
@@ -6588,7 +7355,7 @@
     "preparacion": "Decocción 15 min de equiseto, retirar y agregar caléndula, tapar 10 min. Colar. Empapar gasa.",
     "dosis": "Aplicar compresa tibia 15 min, 2 veces al día",
     "modo_uso": "Compresa tópica",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 400 ml",
     "conservacion": "Refrigerado 48 h",
@@ -6618,7 +7385,9 @@
       "Caléndula",
       "Matico",
       "Llantén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1147,
@@ -6660,7 +7429,9 @@
       "manzanilla",
       "rosa",
       "pasiflora"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 1149,
@@ -6702,7 +7473,9 @@
       "llantén",
       "manzanilla",
       "olivillo"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 1150,
@@ -6744,7 +7517,9 @@
       "caléndula",
       "tomillo",
       "maitén"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 1151,
@@ -6786,7 +7561,9 @@
       "cola de caballo",
       "salvia",
       "albahaca"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 1152,
@@ -6828,7 +7605,9 @@
       "rosa mosqueta",
       "caléndula",
       "centella asiática"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1171,
@@ -6839,7 +7618,7 @@
     "preparacion": "Hervir 1 litro de agua con lavanda, tilo y melisa 15 minutos. Colar. Verter en tina de baño con agua tibia. Añadir saco de avena y sales. Sumergirse 20-30 minutos.",
     "dosis": "2-3 veces por semana",
     "modo_uso": "Baño completo",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Fácil",
     "rendimiento": "1 baño",
     "conservacion": "Preparar fresco",
@@ -6871,7 +7650,9 @@
     "sinergia_plantas": [
       "manzanilla",
       "pasiflora"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos"
   },
   {
     "id": 1172,
@@ -6882,7 +7663,7 @@
     "preparacion": "Calentar oleatos al baño maría. Añadir cera de abejas y fundir. Retirar del fuego, batir e incorporar miel, vitamina E y lavanda. Envasar en frasco esterilizado.",
     "dosis": "Aplicar capa fina 2-3 veces al día sobre piel limpia",
     "modo_uso": "Crema tópica",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Media",
     "rendimiento": "90 g",
     "conservacion": "6 meses refrigerada o lugar fresco",
@@ -6915,7 +7696,9 @@
     "sinergia_plantas": [
       "llantén",
       "árnica (no en heridas abiertas)"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices"
   },
   {
     "id": 1173,
@@ -6926,7 +7709,7 @@
     "preparacion": "Preparar infusión muy concentrada de manzanilla. Mezclar todos los ingredientes hasta pasta homogénea. Aplicar capa media sobre rostro limpio evitando ojos.",
     "dosis": "Dejar actuar 10-15 minutos, retirar con agua tibia. 1-2 veces por semana.",
     "modo_uso": "Mascarilla facial",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1 aplicación",
     "conservacion": "Preparar fresca",
@@ -6959,7 +7742,9 @@
     "sinergia_plantas": [
       "caléndula",
       "lavanda"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
   },
   {
     "id": 1174,
@@ -6970,7 +7755,7 @@
     "preparacion": "Hervir agua con hierbas 15 minutos. Apagar y dejar reposar 30 minutos tapado. Colar y añadir vinagre de manzana.",
     "dosis": "Tras lavado, aplicar como último enjuague masajeando cuero cabelludo. No enjuagar.",
     "modo_uso": "Enjuague capilar",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Fácil",
     "rendimiento": "500 ml",
     "conservacion": "5 días refrigerado",
@@ -7003,7 +7788,9 @@
     "sinergia_plantas": [
       "llantén",
       "lavanda"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 1200,
@@ -7014,7 +7801,7 @@
     "preparacion": "Calentar agua y vinagre. Verter sobre hierbas. Tapar 30 minutos. Colar. Envasar en botella con dispensador.",
     "dosis": "Aplicar sobre cuero cabelludo seco, masajear, dejar 20 minutos. Lavar con shampoo suave. 2-3 veces por semana.",
     "modo_uso": "Loción capilar",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Fácil",
     "rendimiento": "500 ml",
     "conservacion": "2 meses a temperatura ambiente",
@@ -7045,7 +7832,9 @@
     "sinergia_plantas": [
       "ortiga",
       "lavanda"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "cabello"
   },
   {
     "id": 1201,
@@ -7056,7 +7845,7 @@
     "preparacion": "Calentar al baño maría aceites, cera y manteca hasta fundir. Retirar, añadir avena coloidal mezclando vigorosamente. Al entibiar, incorporar aceite esencial y vitamina E. Envasar.",
     "dosis": "Aplicar 1-2 veces al día sobre piel limpia",
     "modo_uso": "Crema corporal",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Media",
     "rendimiento": "120 g",
     "conservacion": "4-6 meses en frasco hermético",
@@ -7089,7 +7878,9 @@
     "sinergia_plantas": [
       "llantén",
       "lavanda"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "id": 1205,
@@ -7100,7 +7891,7 @@
     "preparacion": "Mezclar linaza con agua caliente y manzanilla concentrada hasta formar pasta espesa. Añadir miel. Aplicar tibia sobre forúnculo cubierta con gasa.",
     "dosis": "Cambiar cataplasma cada 4-6 horas hasta drenaje espontáneo",
     "modo_uso": "Cataplasma maduradora",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1 aplicación",
     "conservacion": "Uso inmediato",
@@ -7131,7 +7922,9 @@
     "sinergia_plantas": [
       "matico",
       "caléndula"
-    ]
+    ],
+    "modulo": "piel",
+    "submodulo": "problemas_piel"
   },
   {
     "titulo": "Aceite de Rosa Mosqueta para prevención de estrías",
@@ -7139,19 +7932,25 @@
     "origen": "Medicina tradicional chilena",
     "ingredientes": "- Aceite puro de rosa mosqueta prensado en frío (uso directo).",
     "preparacion": "- El aceite se usa directamente, sin preparación adicional.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10-15 minutos",
+    "tiempo_prep": "10-15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Alergia conocida al aceite de rosa mosqueta. - No aplicar sobre heridas abiertas. - Evitar el contacto con los ojos.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Prevención de estrías durante el embarazo y regeneración de la piel: el aceite de rosa mosqueta mejora la elasticidad cutánea y estimula la producción de colágeno, reduciendo la formación de estrías y atenuando las ya existentes.",
+    "principios_activos": "Ácidos grasos esenciales (linoleico, linolénico): precursores de prostaglandinas que regulan la regeneración celular. Vitamina A (retinol natural) y vitamina C: estimulan la síntesis de colágeno y protegen del daño oxidativo.",
+    "propiedades": [
+      "regenerador",
+      "cicatrizante",
+      "antioxidante",
+      "nutritivo",
+      "emoliente"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 2: Rosae pseudofructus. Geneva: WHO; 2002.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Sí (uso externo)",
@@ -7160,6 +7959,935 @@
     "nivel_seguridad": "✅ Seguro (uso externo)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1294
+    "id": 1294,
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel"
+  },
+  {
+    "id": 1358,
+    "titulo": "Pomada de Caléndula y Matico para Cicatrizar Heridas",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "50 g de flores secas de caléndula, 30 g de hojas secas de matico, 200 ml de aceite de oliva, 30 g de cera de abeja",
+    "preparacion": "Macerar las plantas en el aceite en un frasco de vidrio al sol durante 15 días, agitando a diario. Colar presionando bien. Calentar el aceite a baño maría y añadir la cera de abeja hasta que se disuelva. Verter en envases limpios y dejar solidificar.",
+    "dosis": "Aplicar una capa fina sobre la herida limpia 2 veces al día, mañana y noche. Usar hasta el cierre completo.",
+    "modo_uso": "Tópico — pomada o ungüento",
+    "tiempo_prep": "15 días (maceración) + 30 min",
+    "dificultad": "Media",
+    "rendimiento": "150 ml de pomada",
+    "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas infectadas con pus sin consultar al médico. Evitar en alergia a plantas de las asteráceas. No usar en embarazo sin consultar. Para uso externo exclusivamente.",
+    "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, previene infecciones y reduce la formación de cicatrices visibles.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerador",
+      "antiinflamatorio",
+      "antiséptico",
+      "emoliente"
+    ],
+    "principios_activos": "Triterpenos y flavonoides de caléndula: estimulan la proliferación de fibroblastos y la síntesis de colágeno, acelerando la epitelización. | Verbascósido y flavonoides de matico: acción antimicrobiana y antioxidante que protege la herida y mejora la calidad de la cicatriz. | Cera de abeja: forma una barrera protectora que mantiene la humedad óptima para la cicatrización.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis; Mensah AY et al. J Ethnopharmacol 2001;77(2-3):219-226"
+  },
+  {
+    "id": 1359,
+    "titulo": "Cataplasma de Llantén Fresco para Heridas Abiertas",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "5 hojas frescas de llantén, agua limpia para lavar",
+    "preparacion": "Lavar bien las hojas de llantén. Machacarlas en un mortero limpio hasta obtener una pasta. Aplicar directamente sobre la herida limpia y cubrir con una gasa. Dejar actuar 2 horas y renovar.",
+    "dosis": "Aplicar 2-3 veces al día hasta que la herida comience a cerrar. No usar más de 5 días seguidos sin evaluar.",
+    "modo_uso": "Tópico — cataplasma",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas profundas o muy sangrantes. Lavar bien las hojas para evitar contaminación. Suspender si aparece enrojecimiento o picor. No usar en caso de alergia conocida al llantén.",
+    "uso": "Cortes superficiales, raspaduras y pequeñas heridas: el llantén desinflama, detiene el sangrado leve y forma una capa protectora que acelera el cierre de la herida.",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "hemostático suave",
+      "antiséptico",
+      "emoliente"
+    ],
+    "principios_activos": "Aucubina y catalpol (iridoides): aceleran la migración de fibroblastos y la contracción de la herida, con acción antiinflamatoria local. | Mucílago: crea un ambiente húmedo que favorece la cicatrización y protege de infecciones. Taninos: leve efecto hemostático y antiséptico.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Plantago lanceolata; Kováč I et al. J Pharm Pharmacol 2015;67(1):117-125"
+  },
+  {
+    "id": 1360,
+    "titulo": "Aceite de Árbol de Té y Ajo para los Hongos de la Piel",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Naturopatía",
+    "ingredientes": "10 gotas de aceite esencial de árbol de té, 1 diente de ajo machacado, 30 ml de aceite de coco fraccionado",
+    "preparacion": "Machacar el ajo y mezclarlo con el aceite de coco. Calentar a baño maría 5 minutos (sin hervir). Dejar enfriar, colar y añadir el aceite de árbol de té. Conservar en frasco oscuro.",
+    "dosis": "Aplicar 2 gotas sobre la zona afectada, mañana y noche, después de lavar y secar bien. Usar hasta 4 semanas. Si no hay mejoría, consultar al médico.",
+    "modo_uso": "Tópico — aceite medicado",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "30 ml",
+    "conservacion": "En lugar fresco y oscuro hasta 3 meses.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Naturopatía moderna",
+    "contraindicaciones": "No usar en mucosas, ojos ni heridas abiertas. Evitar en caso de alergia al ajo o al árbol de té. No aplicar en niños menores de 6 años sin consultar. Suspender si causa irritación intensa.",
+    "uso": "Hongos superficiales como pie de atleta, onicomicosis leve o tiñas: el árbol de té y el ajo combaten eficazmente los hongos y ayudan a restaurar la piel sana.",
+    "propiedades": [
+      "antifúngico",
+      "antiséptico",
+      "antibacteriano",
+      "regenerador",
+      "calmante"
+    ],
+    "principios_activos": "Terpinen-4-ol (árbol de té): altera la membrana celular de los hongos dermatofitos, con actividad fungicida comprobada. | Alicina (ajo): potente antifúngico que inhibe la síntesis de ergosterol en la pared fúngica. | Aceite de coco: ácido láurico con acción antifúngica de refuerzo y vehículo de penetración.",
+    "referencias": "MINSAL 2010; WHO Monographs Vol.1 (1999) Melaleuca alternifolia; Carson CF et al. Clin Microbiol Rev 2006;19(1):50-62; Davis SR et al. Med J Aust 1994;160(4):236"
+  },
+  {
+    "id": 1361,
+    "titulo": "Lavado de Caléndula y Cola de Caballo para Infecciones Fúngicas",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de flores de caléndula, 2 cucharadas de cola de caballo seca, 1 litro de agua",
+    "preparacion": "Hervir el agua con las plantas durante 5 minutos. Dejar enfriar hasta temperatura tibia. Colar y usar para lavar la zona afectada o aplicar compresas empapadas durante 15 minutos.",
+    "dosis": "Lavados o compresas 2 veces al día, mañana y noche, durante 2 semanas. Repetir ciclo si es necesario.",
+    "modo_uso": "Tópico — lavado o compresas",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 litro de solución",
+    "conservacion": "Usar en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en heridas abiertas profundas. Evitar en caso de alergia a las asteráceas. No ingerir. Secar muy bien la zona después del tratamiento.",
+    "uso": "Hongos en pliegues, entre los dedos o en el cuero cabelludo: la caléndula y la cola de caballo ayudan a eliminar los hongos, reducen la picazón y restauran la integridad de la piel.",
+    "propiedades": [
+      "antifúngico",
+      "antiinflamatorio",
+      "astringente",
+      "calmante",
+      "regenerador"
+    ],
+    "principios_activos": "Flavonoides de caléndula: acción antiinflamatoria y antimicrobiana que calma la irritación. | Sílice y saponinas de cola de caballo: efecto astringente y fortalecedor de la piel, creando un entorno desfavorable para los hongos. Taninos: propiedad antifúngica suave.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis y Equisetum arvense"
+  },
+  {
+    "id": 1368,
+    "titulo": "Cataplasma de Matico Fresco para la Cicatrización de Heridas",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "5 hojas frescas de matico (Buddleja globosa), agua limpia para lavar",
+    "preparacion": "Lavar bien las hojas de matico. Machacarlas en un mortero limpio hasta obtener una pasta homogénea. Aplicar directamente sobre la herida limpia y cubrir con una gasa estéril. Dejar actuar 2 horas y renovar la cataplasma.",
+    "dosis": "Aplicar 2 a 3 veces al día hasta observar cierre de la herida. No usar más de 7 días seguidos sin evaluar.",
+    "modo_uso": "Tópico — cataplasma directa",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No conservar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas profundas, muy sangrantes o con signos de infección (pus, calor local). Evitar en caso de alergia conocida a plantas de la familia Buddlejaceae. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+    "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, desinflama la zona lesionada y ayuda a prevenir infecciones.",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "antiséptico",
+      "regenerador",
+      "astringente suave"
+    ],
+    "principios_activos": "Flavonoides y saponósidos (matico): estimulan la proliferación de fibroblastos y la migración celular, acelerando el cierre de heridas. Taninos: efecto astringente y antiséptico que protege la herida de contaminación bacteriana.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Mensah AY, Houghton PJ, Bloomfield S, Vlietinck A, Vanden Berghe D. Effects of Buddleja globosa leaf and its constituents relevant to wound healing. J Ethnopharmacol. 2001;77(2-3):219-226. doi:10.1016/S0378-8741(01)00297-5"
+  },
+  {
+    "id": 1369,
+    "titulo": "Pomada de Caléndula para la Cicatrización de Heridas",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "50 g de flores secas de caléndula (Calendula officinalis), 200 ml de aceite de oliva, 30 g de cera de abeja",
+    "preparacion": "Macerar las flores de caléndula en el aceite de oliva en un frasco de vidrio durante 15 días al sol, agitando diariamente. Colar presionando bien el material vegetal. Calentar el aceite a baño maría y añadir la cera de abeja, removiendo hasta que se disuelva completamente. Verter en envases limpios y dejar solidificar.",
+    "dosis": "Aplicar una capa fina sobre la herida limpia 2 veces al día, mañana y noche. Usar hasta el cierre completo de la herida.",
+    "modo_uso": "Tópico — pomada o ungüento",
+    "tiempo_prep": "15 días (maceración) + 30 min",
+    "dificultad": "Media",
+    "rendimiento": "150 ml de pomada",
+    "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas infectadas con pus sin consultar al médico. Evitar en caso de alergia a plantas de la familia Asteraceae. No usar durante el embarazo sin consultar. Exclusivamente para uso externo.",
+    "uso": "Heridas superficiales, cortes y raspaduras: acelera la regeneración de la piel, previene infecciones y reduce la formación de cicatrices visibles.",
+    "propiedades": [
+      "cicatrizante",
+      "regenerador",
+      "antiinflamatorio",
+      "antiséptico",
+      "emoliente"
+    ],
+    "principios_activos": "Triterpenos y flavonoides de caléndula: estimulan la proliferación de fibroblastos y la síntesis de colágeno, acelerando la epitelización. Carotenoides: acción antioxidante que protege el tejido en regeneración.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2: Flos Calendulae, 2002; Giostri GS et al. Treatment of acute wounds in hand with Calendula officinalis: A randomized clinical trial. 2022."
+  },
+  {
+    "id": 1370,
+    "titulo": "Compresas de Cola de Caballo para la Cicatrización de Heridas",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de cola de caballo seca (Equisetum arvense), 500 ml de agua",
+    "preparacion": "Hervir el agua con la cola de caballo durante 10 minutos a fuego lento. Dejar reposar 10 minutos y colar. Empapar una gasa estéril en la decocción tibia y aplicar sobre la herida limpia durante 15-20 minutos.",
+    "dosis": "Aplicar compresas 2 veces al día, mañana y noche, durante 7 a 10 días.",
+    "modo_uso": "Tópico — compresas tibias",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml (para varias aplicaciones)",
+    "conservacion": "Refrigerar la decocción hasta 48 horas. Calentar suavemente antes de usar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas profundas o infectadas sin consultar al médico. Evitar en caso de alergia a plantas de la familia Equisetaceae. No ingerir en grandes cantidades. No usar durante el embarazo sin supervisión.",
+    "uso": "Heridas superficiales y úlceras cutáneas leves: la cola de caballo acelera la regeneración de los tejidos, reduce la inflamación y fortalece la piel en proceso de cicatrización.",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "remineralizante",
+      "astringente",
+      "regenerador"
+    ],
+    "principios_activos": "Sílice (ácido silícico): estimula la síntesis de colágeno y la regeneración del tejido conectivo, acelerando la cicatrización. Flavonoides y saponinas: acción antiinflamatoria y antioxidante local.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Asgharikhatooni A et al. The Effect of Equisetum Arvense (Horse Tail) Ointment on Wound Healing. PMC. 2015."
+  },
+  {
+    "id": 1371,
+    "titulo": "Aceite de Rosa Mosqueta para Cicatrices y Regeneración de la Piel",
+    "categoria": "Cicatrizante",
+    "modulo": "piel",
+    "submodulo": "heridas_cicatrices",
+    "origen": "Popular Chileno",
+    "ingredientes": "Aceite puro de rosa mosqueta (Rosa rubiginosa o R. canina), cantidad suficiente para cubrir la zona",
+    "preparacion": "Utilizar aceite de rosa mosqueta prensado en frío, de preferencia orgánico. Aplicar unas gotas directamente sobre la cicatriz o herida ya cerrada y masajear suavemente con movimientos circulares hasta su absorción.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante al menos 8 semanas para ver resultados en cicatrices consolidadas.",
+    "modo_uso": "Tópico — aceite para masaje",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Variable según presentación comercial",
+    "conservacion": "Conservar en lugar fresco y oscuro. El aceite prensado en frío dura aproximadamente 6 meses una vez abierto.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o infectadas. Evitar en caso de alergia conocida a las rosáceas. No usar durante el embarazo sin consultar. Para uso externo exclusivamente. Realizar prueba de tolerancia en una pequeña zona antes del uso generalizado.",
+    "uso": "Cicatrices recientes y antiguas, estrías y manchas: el aceite de rosa mosqueta regenera la piel, atenúa las marcas y mejora la elasticidad y textura cutánea.",
+    "propiedades": [
+      "regenerador",
+      "cicatrizante",
+      "antioxidante",
+      "nutritivo",
+      "emoliente"
+    ],
+    "principios_activos": "Ácidos grasos esenciales (linoleico, linolénico): precursores de prostaglandinas que regulan la regeneración celular. Vitamina A (retinol natural): estimula la renovación epidérmica y la síntesis de colágeno. Vitamina C: antioxidante que protege del fotoenvejecimiento.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2, Rosae pseudofructus, 2002."
+  },
+  {
+    "id": 1372,
+    "titulo": "Aceite de Árbol de Té para los Hongos de la Piel",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Naturopatía",
+    "ingredientes": "5 gotas de aceite esencial de árbol de té (Melaleuca alternifolia), 1 cucharada de aceite de coco fraccionado o aceite de oliva",
+    "preparacion": "Mezclar el aceite esencial de árbol de té con el aceite portador. Aplicar sobre la zona afectada limpia y seca con un algodón o bastoncillo. No enjuagar.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante 2 a 4 semanas. Si no hay mejoría en 2 semanas, consultar al médico.",
+    "modo_uso": "Tópico — aceite medicado",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación (aproximadamente 5 ml)",
+    "conservacion": "Preparar en el momento. El aceite esencial puro se conserva en lugar fresco y oscuro hasta 1 año.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Naturopatía moderna",
+    "contraindicaciones": "No aplicar sobre mucosas, ojos ni heridas abiertas. No ingerir. Evitar en caso de alergia conocida al árbol de té. No usar en niños menores de 6 años sin consultar. Suspender si causa irritación intensa. Diluir siempre antes de aplicar sobre la piel.",
+    "uso": "Hongos superficiales como pie de atleta, onicomicosis leve o tiñas: el aceite de árbol de té combate eficazmente los hongos y ayuda a restaurar la piel sana.",
+    "propiedades": [
+      "antifúngico",
+      "antiséptico",
+      "antibacteriano",
+      "antiinflamatorio",
+      "regenerador"
+    ],
+    "principios_activos": "Terpinen-4-ol: altera la membrana celular de los hongos dermatofitos, con actividad fungicida comprobada in vitro. 1,8-cineol: acción antiséptica y antiinflamatoria complementaria.",
+    "referencias": "Carson CF, Hammer KA, Riley TV. Melaleuca alternifolia (Tea Tree) Oil: a Review of Antimicrobial and Other Medicinal Properties. Clin Microbiol Rev. 2006;19(1):50-62; Álvarez EM et al. Antifungal Activity of Tea Tree (Melaleuca alternifolia Cheel) Essential Oil. 2024; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1373,
+    "titulo": "Aceite de Ajo para las Infecciones Fúngicas de la Piel",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 dientes de ajo fresco (Allium sativum), 30 ml de aceite de oliva",
+    "preparacion": "Machacar los dientes de ajo y mezclarlos con el aceite de oliva. Calentar a baño maría durante 5 minutos sin que hierva. Dejar enfriar, colar y conservar en un frasco oscuro. Aplicar sobre la zona afectada limpia y seca.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante 2 semanas. No usar más de 3 semanas seguidas.",
+    "modo_uso": "Tópico — aceite medicado",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "30 ml",
+    "conservacion": "En lugar fresco y oscuro hasta 1 mes.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o piel muy irritada. Evitar en caso de alergia conocida al ajo. No usar en niños menores de 6 años sin consultar. Suspender si causa ardor o irritación intensa. Para uso externo exclusivamente.",
+    "uso": "Hongos superficiales como pie de atleta, onicomicosis y tiñas leves: el ajo contiene compuestos que destruyen los hongos y previenen su propagación en la piel.",
+    "propiedades": [
+      "antifúngico",
+      "antiséptico",
+      "antibacteriano",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Alicina: compuesto azufrado con potente acción antifúngica que inhibe el crecimiento de dermatofitos. Ajoeno: derivado de la alicina con actividad antifúngica adicional, altera la membrana celular fúngica.",
+    "referencias": "Venugopal PV, Venugopal TV. Antidermatophytic activity of garlic (Allium sativum) in vitro. Int J Dermatol. 1995;34(4):278-279; Ledezma E, Apitz-Castro R. Ajoene the main active compound of garlic (Allium sativum). J Ethnopharmacol. 2006; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1374,
+    "titulo": "Lavado de Caléndula para las Infecciones por Hongos en la Piel",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de flores secas de caléndula (Calendula officinalis), 1 litro de agua",
+    "preparacion": "Hervir el agua con las flores de caléndula durante 5 minutos. Dejar enfriar hasta temperatura tibia. Colar y usar para lavar la zona afectada o aplicar compresas empapadas durante 15 minutos.",
+    "dosis": "Lavados o compresas 2 veces al día, mañana y noche, durante 2 semanas. Repetir ciclo si es necesario.",
+    "modo_uso": "Tópico — lavado o compresas",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 litro de solución",
+    "conservacion": "Usar en el día. No guardar más de 24 horas en refrigeración.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en heridas abiertas profundas. Evitar en caso de alergia a las asteráceas. No ingerir. Secar muy bien la zona después del tratamiento. No usar durante el embarazo sin consultar.",
+    "uso": "Hongos en pliegues, entre los dedos o en el cuero cabelludo: la caléndula ayuda a eliminar los hongos, reduce la picazón y restaura la integridad de la piel.",
+    "propiedades": [
+      "antifúngico",
+      "antiinflamatorio",
+      "calmante",
+      "regenerador",
+      "antiséptico"
+    ],
+    "principios_activos": "Flavonoides de caléndula: acción antiinflamatoria y antimicrobiana que calma la irritación. Triterpenos: efecto antiséptico y regenerador de la piel dañada.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 2: Flos Calendulae, 2002."
+  },
+  {
+    "id": 1375,
+    "titulo": "Polvo de Cola de Caballo para los Hongos de los Pies",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de cola de caballo seca y pulverizada (Equisetum arvense)",
+    "preparacion": "Pulverizar la cola de caballo seca en un molinillo limpio hasta obtener un polvo fino. Espolvorear sobre los pies limpios y secos, especialmente entre los dedos, antes de poner los calcetines.",
+    "dosis": "Aplicar 1 vez al día, preferentemente por la mañana, durante 2 semanas.",
+    "modo_uso": "Tópico — polvo seco",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Varias aplicaciones",
+    "conservacion": "Conservar el polvo en frasco hermético en lugar seco hasta 3 meses.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o piel agrietada. Evitar en caso de alergia conocida a la cola de caballo. No usar en niños menores de 6 años sin consultar. Mantener los pies secos durante todo el tratamiento.",
+    "uso": "Hongos en los pies (pie de atleta) y entre los dedos: la cola de caballo mantiene la zona seca, dificulta el crecimiento de los hongos y acelera la renovación de la piel.",
+    "propiedades": [
+      "antifúngico",
+      "astringente",
+      "secante",
+      "regenerador",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Sílice: acción secante y astringente que crea un entorno desfavorable para la proliferación fúngica. Taninos: propiedad antifúngica suave que complementa la acción del sílice.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Boeing T et al. Phytochemistry and Pharmacology of the Genus Equisetum. PMC. 2021."
+  },
+  {
+    "id": 1376,
+    "titulo": "Aceite Esencial de Orégano para las Infecciones Fúngicas de la Piel",
+    "categoria": "Antifúngico",
+    "modulo": "piel",
+    "submodulo": "hongos_infecciones",
+    "origen": "Medicina Mediterránea",
+    "ingredientes": "2 gotas de aceite esencial de orégano (Origanum vulgare), 1 cucharadita de aceite de oliva",
+    "preparacion": "Diluir el aceite esencial de orégano en el aceite de oliva. Aplicar con un hisopo de algodón exclusivamente sobre la zona afectada, evitando la piel sana circundante. No cubrir con vendaje oclusivo.",
+    "dosis": "Aplicar 1 vez al día, preferentemente por la noche, durante 7 a 10 días. No usar más de 2 semanas seguidas.",
+    "modo_uso": "Tópico — aceite medicado de aplicación puntual",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación (aproximadamente 5 ml)",
+    "conservacion": "Preparar en el momento. El aceite esencial puro se conserva en lugar fresco y oscuro.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Medicina Mediterránea",
+    "contraindicaciones": "No aplicar sobre mucosas, ojos, heridas abiertas o piel muy sensible. No ingerir. Evitar en caso de alergia conocida al orégano o a las lamiáceas. No usar durante el embarazo o lactancia. No administrar a niños. Siempre diluir antes de aplicar. Puede causar irritación en pieles sensibles.",
+    "uso": "Hongos resistentes en uñas (onicomicosis) y piel: el orégano contiene potentes compuestos antifúngicos que penetran en la uña y combaten las infecciones difíciles de tratar.",
+    "propiedades": [
+      "antifúngico",
+      "antiséptico",
+      "antibacteriano",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Carvacrol y timol: fenoles monoterpénicos con potente acción antifúngica que alteran la membrana celular de los hongos y levaduras. Ácido rosmarínico: efecto antiinflamatorio y antioxidante complementario.",
+    "referencias": "MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 1, Origanum vulgare, 1999; ESCOP Monographs. Origani herba, 2018."
+  },
+  {
+    "id": 1377,
+    "titulo": "Gel de Aloe Vera para el Acné Inflamatorio",
+    "categoria": "Dermatológico",
+    "modulo": "piel",
+    "submodulo": "problemas_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "Gel puro de una hoja fresca de aloe vera (Aloe barbadensis miller)",
+    "preparacion": "Cortar una hoja de aloe vera, lavarla bien y retirar la cáscara verde. Extraer el gel transparente con una cuchara. Aplicar directamente sobre las lesiones de acné limpias, dejando secar al aire. No enjuagar.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, después de la limpieza facial. Usar durante 4 a 8 semanas para ver resultados.",
+    "modo_uso": "Tópico — gel fresco directo",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación (el gel sobrante se puede refrigerar)",
+    "conservacion": "Refrigerar el gel sobrante en frasco cerrado hasta 5 días.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia conocida al aloe vera o a las liliáceas. Evitar el contacto con los ojos. No aplicar sobre heridas abiertas profundas. Suspender si aparece irritación. No ingerir.",
+    "uso": "Acné inflamatorio con granos y espinillas: el aloe vera reduce la inflamación, combate las bacterias que causan el acné y acelera la curación de las lesiones sin resecar la piel.",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiséptico",
+      "regenerador",
+      "hidratante",
+      "calmante"
+    ],
+    "principios_activos": "Acemannano: polisacárido que estimula la regeneración celular y modula la respuesta inflamatoria. Lupeol y ácido salicílico: acción antiséptica y antiinflamatoria que reduce la colonización por Propionibacterium acnes. Giberelinas y auxinas: hormonas vegetales que estimulan la renovación de la piel.",
+    "referencias": "Pal S et al. The Effect of Aloe vera on Skin and Its Commensals: Contribution of Acemannan in Curing Acne Caused by Propionibacterium acnes. PMC. 2024; Surjushe A et al. Aloe vera: A Short Review. Indian J Dermatol. 2008; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1378,
+    "titulo": "Infusión de Manzanilla para el Eccema y la Piel Irritada",
+    "categoria": "Dermatológico",
+    "modulo": "piel",
+    "submodulo": "problemas_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de flores secas de manzanilla (Matricaria recutita), 500 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las flores de manzanilla, tapar y dejar reposar 15 minutos. Colar y dejar enfriar. Aplicar con compresas de algodón sobre las zonas afectadas durante 15-20 minutos.",
+    "dosis": "Aplicar compresas 2 a 3 veces al día durante los brotes. Usar máximo 2 semanas seguidas.",
+    "modo_uso": "Tópico — compresas frías",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml (para varias aplicaciones)",
+    "conservacion": "Refrigerar hasta 48 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia conocida a las asteráceas (puede causar dermatitis de contacto). Evitar el contacto con los ojos. No aplicar sobre heridas abiertas. Suspender si aparece enrojecimiento o picor.",
+    "uso": "Eccema, dermatitis atópica y piel irritada con picazón: la manzanilla calma la inflamación, reduce el enrojecimiento y alivia la comezón de forma rápida y suave.",
+    "propiedades": [
+      "antiinflamatorio",
+      "calmante",
+      "antipruriginoso",
+      "antiséptico",
+      "regenerador"
+    ],
+    "principios_activos": "Bisabolol y camazuleno: potente acción antiinflamatoria sobre la piel, inhiben la liberación de histamina y reducen el eritema. Flavonoides: acción antioxidante y calmante que protege la barrera cutánea.",
+    "referencias": "El Mihyaoui A et al. Chamomile (Matricaria chamomilla L.): A Review of Pharmacological Properties. PMC. 2022; Wang W et al. The Mechanism Action of German Chamomile in the Treatment of Eczema. PMC. 2021; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1379,
+    "titulo": "Crema de Aloe Vera para la Psoriasis Leve",
+    "categoria": "Dermatológico",
+    "modulo": "piel",
+    "submodulo": "problemas_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de gel de aloe vera (Aloe barbadensis miller), 1 cucharada de aceite de coco virgen",
+    "preparacion": "Mezclar el gel de aloe vera con el aceite de coco hasta obtener una crema homogénea. Guardar en frasco limpio. Aplicar una capa fina sobre las placas de psoriasis después del baño, con la piel aún húmeda.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante al menos 4 semanas para evaluar resultados.",
+    "modo_uso": "Tópico — crema",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Aproximadamente 50 ml",
+    "conservacion": "Refrigerar hasta 1 semana.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia conocida al aloe vera o al coco. Evitar el contacto con los ojos. No aplicar sobre heridas abiertas. No sustituye el tratamiento médico indicado para psoriasis moderada o severa.",
+    "uso": "Psoriasis leve con placas secas y descamación: el aloe vera hidrata y reduce la inflamación, mientras el aceite de coco suaviza las escamas y alivia la picazón.",
+    "propiedades": [
+      "antiinflamatorio",
+      "emoliente",
+      "hidratante",
+      "calmante",
+      "regenerador"
+    ],
+    "principios_activos": "Acemannano (aloe): modula la respuesta inmune local y reduce la proliferación excesiva de queratinocitos. Ácido láurico (coco): acción emoliente y antimicrobiana que protege la barrera cutánea alterada.",
+    "referencias": "Syed TA et al. Management of psoriasis with Aloe vera extract in a hydrophilic cream. Trop Med Int Health. 1996;1(4):505-509; Choonhakarn C et al. A prospective randomized clinical trial comparing topical aloe vera with triamcinolone acetonide. J Eur Acad Dermatol Venereol. 2010; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1380,
+    "titulo": "Mascarilla de Arcilla Verde y Árbol de Té para el Acné",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "problemas_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de arcilla verde en polvo, 3 gotas de aceite esencial de árbol de té, agua de rosas cantidad suficiente para formar una pasta",
+    "preparacion": "Mezclar la arcilla verde con el aceite esencial de árbol de té. Agregar agua de rosas poco a poco hasta formar una pasta untuosa. Aplicar sobre el rostro limpio evitando el contorno de ojos y labios. Dejar actuar 10-15 minutos y retirar con agua tibia.",
+    "dosis": "Aplicar 1 vez por semana. No usar más de 8 semanas seguidas sin descanso.",
+    "modo_uso": "Tópico — mascarilla facial",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre piel irritada, quemada o con heridas abiertas. Evitar en caso de alergia al árbol de té. No usar en niños menores de 12 años. Suspender si causa irritación o sequedad excesiva.",
+    "uso": "Acné con exceso de grasa y poros dilatados: la arcilla absorbe el exceso de sebo y purifica los poros, mientras el árbol de té combate las bacterias que causan los brotes.",
+    "propiedades": [
+      "antiséptico",
+      "absorbente",
+      "antiinflamatorio",
+      "purificante",
+      "astringente suave"
+    ],
+    "principios_activos": "Silicatos y óxidos minerales (arcilla verde): acción absorbente que elimina el exceso de sebo y toxinas. Terpinen-4-ol (árbol de té): antimicrobiano que reduce la colonización bacteriana en los folículos sebáceos.",
+    "referencias": "Carson CF et al. Melaleuca alternifolia (Tea Tree) Oil: a Review. Clin Microbiol Rev. 2006; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
+  },
+  {
+    "id": 1381,
+    "titulo": "Gel de Regaliz para la Psoriasis y el Eccema",
+    "categoria": "Dermatológico",
+    "modulo": "piel",
+    "submodulo": "problemas_piel",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "1 cucharadita de extracto fluido de regaliz (Glycyrrhiza glabra), 3 cucharadas de gel de aloe vera",
+    "preparacion": "Mezclar el extracto de regaliz con el gel de aloe vera hasta obtener una preparación homogénea. Guardar en frasco oscuro. Aplicar una capa fina sobre las lesiones 2 veces al día.",
+    "dosis": "Aplicar mañana y noche durante 4 semanas. Descansar 1 semana antes de reiniciar si es necesario.",
+    "modo_uso": "Tópico — gel medicado",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Aproximadamente 50 ml",
+    "conservacion": "Refrigerar hasta 2 semanas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de alergia al regaliz o al aloe vera. Evitar durante el embarazo y lactancia. No aplicar sobre heridas abiertas. No usar por más de 4 semanas seguidas sin consultar al médico. Para uso externo exclusivamente.",
+    "uso": "Psoriasis y eccema con inflamación y picazón intensas: el regaliz reduce la inflamación y el enrojecimiento, mientras el aloe vera hidrata y calma la piel irritada.",
+    "propiedades": [
+      "antiinflamatorio",
+      "calmante",
+      "antipruriginoso",
+      "regenerador",
+      "emoliente"
+    ],
+    "principios_activos": "Ácido glicirrícico y glicirricina: inhiben la 11-beta-hidroxiesteroide deshidrogenasa, reduciendo la inflamación local y la proliferación de queratinocitos. Acemannano (aloe): efecto regenerador y modulador de la respuesta inmune cutánea.",
+    "referencias": "Glycyrrhiza glabra L. for skin eruptions including dermatitis, eczema, pruritus. PubMed Clinical Trial. 2003; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs on Selected Medicinal Plants, Vol. 1, Glycyrrhiza glabra, 1999."
+  },
+  {
+    "id": 1414,
+    "titulo": "Baño de Lavanda para Relajar la Tensión Muscular",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "Un puñado de flores secas de lavanda (aproximadamente 50 g), 2 litros de agua para infusión, agua tibia para el baño",
+    "preparacion": "Hervir los 2 litros de agua y retirar del fuego. Agregar las flores de lavanda, tapar y dejar reposar 20 minutos. Colar y verter la infusión en la bañera con agua tibia. Sumergirse durante 15 a 20 minutos.",
+    "dosis": "1 baño por la noche, máximo 1 vez al día. Usar por períodos de hasta 2 semanas seguidas.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "30 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de heridas abiertas, infecciones cutáneas extensas o alergia a la lavanda. Evitar en hipotensión severa (el baño caliente puede bajar más la presión). No usar durante el embarazo sin consultar.",
+    "uso": "Tensión muscular, estrés y cansancio acumulado: el aroma de la lavanda calma la mente y los músculos, ayudando a soltar la rigidez del cuerpo y la sensación de agobio.",
+    "propiedades": [
+      "sedante",
+      "ansiolítico",
+      "miorrelajante",
+      "calmante",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Linalol y acetato de linalilo (aceite esencial de lavanda): acción ansiolítica por modulación de canales de calcio voltaje-dependientes y receptores NMDA, produciendo relajación a nivel del sistema nervioso central.",
+    "referencias": "Donelli D et al. Effects of lavender on anxiety: A systematic review. 2019. PMID: 31655395; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1415,
+    "titulo": "Baño de Tilo y Melisa para la Ansiedad y el Insomnio",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "50 g de flores de tilo, 30 g de hojas de melisa, 3 litros de agua",
+    "preparacion": "Hervir los 3 litros de agua. Retirar del fuego y añadir el tilo y la melisa. Tapar y dejar en infusión 20 minutos. Colar y verter en la bañera con agua tibia. Sumergirse durante 20 minutos antes de ir a la cama.",
+    "dosis": "1 baño por la noche, máximo 4 veces por semana. Usar por ciclos de 2 semanas.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "30 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de heridas abiertas, hipotensión severa o alergia a las plantas utilizadas. Evitar en el embarazo sin consultar. No usar en niños menores de 6 años por riesgo de ahogamiento. Precaución con la temperatura del agua.",
+    "uso": "Insomnio, ansiedad y tensión acumulada: el baño tibio relaja los músculos y el aroma de las flores calma la mente, preparando el cuerpo para un sueño profundo y reparador.",
+    "propiedades": [
+      "sedante",
+      "inductor del sueño",
+      "ansiolítico",
+      "miorrelajante",
+      "calmante"
+    ],
+    "principios_activos": "Farnesol y mucílagos (tilo): acción ansiolítica y relajante sobre el sistema nervioso. Citral y ácido rosmarínico (melisa): potencian el efecto sedante, reduciendo la actividad del sistema nervioso simpático.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Tilia spp. y Melissa officinalis."
+  },
+  {
+    "id": 1416,
+    "titulo": "Baño de Manzanilla y Avena para Pieles Irritadas",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos",
+    "origen": "Popular Chileno",
+    "ingredientes": "Un puñado de flores de manzanilla (aproximadamente 30 g), 1 taza de copos de avena envueltos en una gasa o bolsita de tela, 2 litros de agua",
+    "preparacion": "Hervir el agua y verter sobre la manzanilla. Añadir la bolsita de avena. Tapar y dejar reposar 20 minutos. Colar la infusión y exprimir bien la bolsita de avena para liberar el líquido lechoso. Verter en la bañera con agua tibia y sumergirse durante 15-20 minutos.",
+    "dosis": "1 baño al día durante brotes de irritación cutánea. Máximo 5 días seguidos.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la manzanilla o a la avena. Evitar en niños menores de 6 meses sin consultar al pediatra. No usar si hay heridas abiertas extensas.",
+    "uso": "Pieles irritadas, eccemas, dermatitis del pañal o varicela: la manzanilla desinflama y calma la picazón, mientras la avena forma una capa protectora que hidrata y suaviza la piel.",
+    "propiedades": [
+      "calmante",
+      "antiinflamatorio",
+      "antipruriginoso",
+      "hidratante",
+      "emoliente"
+    ],
+    "principios_activos": "Bisabolol y camazuleno (manzanilla): inhiben la liberación de histamina de los mastocitos y tienen acción antiinflamatoria local. Beta-glucanos (avena): forman una película protectora que retiene la humedad y calma la irritación.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+  },
+  {
+    "id": 1417,
+    "titulo": "Baño de Romero y Laurel para Activar la Circulación",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "banos_terapeuticos",
+    "origen": "Popular Chileno",
+    "ingredientes": "Un puñado de romero fresco (aproximadamente 30 g), 5 hojas de laurel, 2 litros de agua para infusión, agua caliente para el baño",
+    "preparacion": "Hervir los 2 litros de agua con el romero y el laurel durante 10 minutos a fuego lento. Dejar reposar 10 minutos y colar. Verter la infusión en la bañera con agua caliente. Sumergirse durante 15-20 minutos.",
+    "dosis": "1 baño por la mañana o al mediodía, 2 a 3 veces por semana.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de heridas abiertas o piel irritada. Evitar en el embarazo sin consultar. No usar en niños menores de 12 años sin supervisión. Precaución con la temperatura del agua.",
+    "uso": "Mala circulación, piernas cansadas y sensación de frío: el romero y el laurel activan la circulación sanguínea, calientan el cuerpo y alivian la sensación de pesadez en las piernas.",
+    "propiedades": [
+      "vasodilatador",
+      "calentador",
+      "miorrelajante",
+      "analgésico",
+      "descongestionante"
+    ],
+    "principios_activos": "Ácido rosmarínico y 1,8-cineol (romero): acción vasodilatadora periférica que mejora la microcirculación. Aceite esencial de laurel (eugenol, cineol): efecto analgésico y calentador sobre músculos y articulaciones.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Rosmarinus officinalis."
+  },
+  {
+    "id": 1418,
+    "titulo": "Loción Capilar de Romero y Ortiga para la Caída del Cabello",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cabello",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de hojas secas de romero, 2 cucharadas de hojas secas de ortiga, 500 ml de agua, 2 cucharadas de vinagre de manzana",
+    "preparacion": "Hervir el agua con el romero y la ortiga durante 10 minutos a fuego lento. Dejar enfriar completamente y colar. Añadir el vinagre de manzana y mezclar bien. Guardar en un frasco con atomizador en el refrigerador.",
+    "dosis": "Aplicar sobre el cuero cabelludo limpio y húmedo, masajeando suavemente con las yemas de los dedos. No enjuagar. Usar 1 vez al día, preferentemente por la noche.",
+    "modo_uso": "Tópico — loción capilar",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml (aproximadamente 2 semanas de uso)",
+    "conservacion": "Refrigerar hasta 2 semanas. Agitar antes de usar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de heridas en el cuero cabelludo. Evitar el contacto con los ojos. No usar durante el embarazo sin consultar. Suspender si aparece irritación.",
+    "uso": "Caída del cabello y debilitamiento capilar: el romero estimula la circulación del cuero cabelludo y la ortiga aporta minerales que fortalecen el folículo piloso, promoviendo el crecimiento de cabello más fuerte y saludable.",
+    "propiedades": [
+      "estimulante capilar",
+      "fortalecedor",
+      "antiandrogénico suave",
+      "revitalizante",
+      "astringente"
+    ],
+    "principios_activos": "Ácido carnósico y 1,8-cineol (romero): estimulan la microcirculación en el cuero cabelludo y tienen acción antiandrogénica leve sobre el folículo piloso. Sílice y minerales (ortiga): fortalecen la fibra capilar y nutren el bulbo piloso.",
+    "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1419,
+    "titulo": "Aceite de Jojoba y Romero para el Cabello Seco y Quebradizo",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cabello",
+    "origen": "Popular Chileno",
+    "ingredientes": "30 ml de aceite de jojoba, 5 gotas de aceite esencial de romero, 3 gotas de aceite esencial de lavanda",
+    "preparacion": "Mezclar todos los aceites en un frasco oscuro y agitar bien. Aplicar sobre el cuero cabelludo y el cabello, masajeando suavemente durante 5 minutos. Dejar actuar al menos 30 minutos (o toda la noche) y lavar el cabello con champú suave.",
+    "dosis": "Aplicar 1 vez por semana como tratamiento intensivo.",
+    "modo_uso": "Tópico — mascarilla capilar oleosa",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "35 ml (aproximadamente 3 aplicaciones)",
+    "conservacion": "En frasco oscuro, lugar fresco, hasta 3 meses.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a alguno de los aceites. Evitar el contacto con los ojos. No aplicar sobre el cuero cabelludo irritado o con heridas. No usar durante el embarazo sin consultar.",
+    "uso": "Cabello seco, quebradizo y con puntas abiertas: nutre en profundidad la fibra capilar, sella la cutícula y aporta brillo y suavidad.",
+    "propiedades": [
+      "nutritivo",
+      "hidratante",
+      "fortalecedor",
+      "estimulante capilar",
+      "acondicionador"
+    ],
+    "principios_activos": "Ésteres de cera líquida (jojoba): simulan el sebo natural del cuero cabelludo, hidratando sin engrasar. Ácido carnósico (romero): estimula la circulación y protege el folículo del daño oxidativo.",
+    "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1420,
+    "titulo": "Enjuague Capilar de Manzanilla y Limón para el Cabello Rubio",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cabello",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de flores secas de manzanilla, zumo de 1 limón, 500 ml de agua",
+    "preparacion": "Hervir el agua y verter sobre la manzanilla. Tapar y dejar reposar 20 minutos. Colar y añadir el zumo de limón. Después del lavado habitual, aplicar el enjuague sobre el cabello húmedo, masajear suavemente y no enjuagar.",
+    "dosis": "Usar 1 vez por semana como enjuague final después del champú.",
+    "modo_uso": "Tópico — enjuague capilar",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml (varias aplicaciones)",
+    "conservacion": "Refrigerar hasta 1 semana. Agitar antes de usar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la manzanilla o al limón. Evitar el contacto con los ojos. No exponer el cabello al sol inmediatamente después de la aplicación. No usar en cabellos teñidos oscuros (puede aclarar el color).",
+    "uso": "Cabello rubio o castaño claro: la manzanilla aclara y aporta reflejos dorados naturales, mientras el limón limpia el cuero cabelludo y aporta brillo.",
+    "propiedades": [
+      "aclarante natural",
+      "acondicionador",
+      "antiséptico",
+      "refrescante"
+    ],
+    "principios_activos": "Apigenina (manzanilla): flavonoide que se deposita sobre la cutícula capilar, aclarando gradualmente el tono con la exposición solar. Ácido cítrico (limón): cierra las escamas de la cutícula, aportando brillo y suavidad.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1421,
+    "titulo": "Aceite de Coco y Romero para el Cuero Cabelludo Seco",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cabello",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de aceite de coco virgen, 3 gotas de aceite esencial de romero",
+    "preparacion": "Calentar ligeramente el aceite de coco hasta que esté líquido (no caliente). Añadir el aceite esencial de romero y mezclar bien. Aplicar sobre el cuero cabelludo seco masajeando con las yemas de los dedos durante 10 minutos. Dejar actuar 30 minutos y lavar el cabello con champú.",
+    "dosis": "Aplicar 1 vez por semana.",
+    "modo_uso": "Tópico — masaje capilar oleoso",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar en el momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia al coco o al romero. Evitar el contacto con los ojos. No aplicar sobre el cuero cabelludo irritado o con heridas.",
+    "uso": "Cuero cabelludo seco y con descamación: el aceite de coco hidrata y calma la irritación, mientras el romero estimula la circulación y reduce la descamación.",
+    "propiedades": [
+      "hidratante",
+      "antiséptico",
+      "antiinflamatorio",
+      "estimulante capilar",
+      "emoliente"
+    ],
+    "principios_activos": "Ácido láurico (aceite de coco): acción antimicrobiana y emoliente que penetra en el tallo capilar. Ácido carnósico (romero): estimula la microcirculación del cuero cabelludo y tiene acción antiinflamatoria.",
+    "referencias": "Panahi Y et al. Rosemary oil vs minoxidil for androgenetic alopecia. 2015. PMID: 25842469; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1422,
+    "titulo": "Champú Natural de Quillay y Romero para Todo Tipo de Cabello",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cabello",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de corteza de quillay triturada, 1 cucharada de hojas secas de romero, 500 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de quillay y el romero durante 15 minutos a fuego lento. Dejar enfriar completamente y colar. Usar como champú líquido, aplicando sobre el cabello mojado, masajeando hasta formar espuma y enjuagando bien.",
+    "dosis": "Usar 2 a 3 veces por semana como champú habitual.",
+    "modo_uso": "Tópico — champú líquido",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml (aproximadamente 2 semanas de uso)",
+    "conservacion": "Refrigerar hasta 1 semana. Agitar antes de usar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia al quillay o al romero. Evitar el contacto con los ojos. No usar si el cuero cabelludo presenta heridas o irritación severa.",
+    "uso": "Cabello normal o graso: el quillay limpia suavemente sin eliminar la protección natural del cuero cabelludo, mientras el romero regula la producción de sebo y fortalece el cabello.",
+    "propiedades": [
+      "limpiador natural",
+      "regulador sebáceo",
+      "fortalecedor",
+      "antiséptico",
+      "revitalizante"
+    ],
+    "principios_activos": "Saponinas triterpénicas (quillay): tensioactivos naturales que producen espuma y limpian sin sulfatos agresivos. Ácido carnósico (romero): acción antioxidante y reguladora del sebo.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1423,
+    "titulo": "Crema de Caléndula y Rosa Mosqueta para la Piel Seca y Agrietada",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "30 g de flores secas de caléndula, 50 ml de aceite de rosa mosqueta, 20 g de manteca de karité, 10 g de cera de abeja",
+    "preparacion": "Macerar la caléndula en el aceite de rosa mosqueta durante 15 días en un frasco cerrado, agitando a diario. Colar presionando bien. Fundir la manteca de karité y la cera de abeja a baño maría. Incorporar el aceite colado y remover hasta integrar. Verter en un envase limpio y dejar solidificar.",
+    "dosis": "Aplicar una pequeña cantidad sobre la piel limpia 2 veces al día, mañana y noche.",
+    "modo_uso": "Tópico — crema hidratante",
+    "tiempo_prep": "15 días (maceración) + 20 min",
+    "dificultad": "Media",
+    "rendimiento": "100 ml aproximadamente",
+    "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o infectadas. Evitar en caso de alergia a las asteráceas o a la rosa mosqueta. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+    "uso": "Piel seca, agrietada o con tendencia a eccemas: nutre en profundidad, regenera la barrera cutánea y calma la irritación.",
+    "propiedades": [
+      "regenerador",
+      "hidratante",
+      "antiinflamatorio",
+      "nutritivo",
+      "emoliente",
+      "calmante"
+    ],
+    "principios_activos": "Ácidos grasos esenciales (rosa mosqueta): precursores de prostaglandinas que regulan la regeneración celular. Triterpenos (caléndula): estimulan la proliferación de fibroblastos y la síntesis de colágeno.",
+    "referencias": "Lei Z et al. Rosehip Oil Promotes Excisional Wound Healing. 2019. PMID: 30199901; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1424,
+    "titulo": "Tónico Facial de Matico para Pieles Grasas con Acné",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de hojas secas de matico, 250 ml de agua, 1 cucharada de vinagre de manzana",
+    "preparacion": "Hervir el agua y verter sobre el matico. Tapar y dejar reposar 15 minutos. Colar, añadir el vinagre de manzana y mezclar bien. Guardar en un frasco limpio en el refrigerador.",
+    "dosis": "Aplicar con un algodón sobre el rostro limpio 2 veces al día, después de la limpieza facial.",
+    "modo_uso": "Tópico — tónico facial",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml (aproximadamente 2 semanas de uso)",
+    "conservacion": "Refrigerar hasta 2 semanas.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre piel irritada o con heridas. Evitar el contacto con los ojos. No usar en caso de alergia al matico. Suspender si causa sequedad excesiva o irritación.",
+    "uso": "Pieles grasas con tendencia al acné: regula la producción de sebo, cierra los poros y desinflama las lesiones acneicas.",
+    "propiedades": [
+      "astringente",
+      "antiinflamatorio",
+      "antiséptico",
+      "regulador sebáceo",
+      "purificante"
+    ],
+    "principios_activos": "Flavonoides del matico: acción antiinflamatoria y astringente que reduce la producción sebácea. Taninos: efecto cicatrizante sobre las lesiones acneicas. Ácido acético (vinagre): equilibra el pH cutáneo.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Mensah AY et al. J Ethnopharmacol. 2001;77(2-3):219-226."
+  },
+  {
+    "id": 1425,
+    "titulo": "Aceite de Rosa Mosqueta para las Manchas y Cicatrices",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "Aceite puro de rosa mosqueta prensado en frío, cantidad suficiente para cubrir la zona",
+    "preparacion": "Aplicar unas gotas de aceite de rosa mosqueta directamente sobre la mancha o cicatriz limpia. Masajear suavemente con movimientos circulares hasta su completa absorción.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante al menos 8 semanas para ver resultados en manchas consolidadas.",
+    "modo_uso": "Tópico — aceite para masaje",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Variable según presentación comercial",
+    "conservacion": "Conservar en lugar fresco y oscuro. El aceite prensado en frío dura aproximadamente 6 meses una vez abierto.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o piel infectada. Evitar en caso de alergia conocida a las rosáceas. No usar durante el embarazo sin consultar. Para uso externo exclusivamente. Realizar prueba de tolerancia en una pequeña zona antes del uso generalizado.",
+    "uso": "Manchas, cicatrices recientes y estrías: regenera la piel, atenúa las marcas y mejora la elasticidad y textura cutánea.",
+    "propiedades": [
+      "regenerador",
+      "cicatrizante",
+      "antioxidante",
+      "nutritivo",
+      "emoliente",
+      "despigmentante suave"
+    ],
+    "principios_activos": "Ácido trans-retinoico (vitamina A natural): estimula la renovación epidérmica y la síntesis de colágeno. Ácidos grasos esenciales (linoleico, linolénico): precursores de prostaglandinas que regulan la regeneración celular.",
+    "referencias": "Lei Z et al. Rosehip Oil Promotes Excisional Wound Healing. 2019. PMID: 30199901; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1426,
+    "titulo": "Mascarilla Purificante de Arcilla y Llantén para el Acné",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de arcilla verde en polvo, 1 cucharada de hojas frescas de llantén machacadas, agua de rosas cantidad suficiente para formar una pasta",
+    "preparacion": "Mezclar la arcilla verde con el llantén machacado. Agregar agua de rosas poco a poco hasta obtener una pasta homogénea y untuosa. Aplicar sobre el rostro limpio evitando el contorno de ojos y labios. Dejar actuar 10-15 minutos y retirar con agua tibia.",
+    "dosis": "Aplicar 1 vez por semana. No usar más de 8 semanas seguidas sin descanso.",
+    "modo_uso": "Tópico — mascarilla facial",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre piel irritada, quemada o con heridas abiertas. Evitar en caso de alergia al llantén. No usar en niños menores de 12 años. Suspender si causa irritación o sequedad excesiva.",
+    "uso": "Acné inflamatorio con exceso de grasa: la arcilla absorbe el sebo y purifica los poros, mientras el llantén desinflama y acelera la curación de los granos.",
+    "propiedades": [
+      "antiséptico",
+      "absorbente",
+      "antiinflamatorio",
+      "purificante",
+      "cicatrizante"
+    ],
+    "principios_activos": "Silicatos y óxidos minerales (arcilla verde): acción absorbente que elimina el exceso de sebo y toxinas. Aucubina (llantén): inhibe COX-2 reduciendo la inflamación de las lesiones acneicas.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Plantago lanceolata."
+  },
+  {
+    "id": 1427,
+    "titulo": "Leche Limpiadora de Avena y Miel para Pieles Sensibles",
+    "categoria": "Cosmético",
+    "modulo": "piel",
+    "submodulo": "cosmetica_piel",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de copos de avena, 200 ml de agua, 1 cucharadita de miel, 1 cucharadita de aceite de almendras",
+    "preparacion": "Hervir el agua y verter sobre los copos de avena. Dejar reposar 15 minutos. Colar presionando bien para extraer todo el líquido lechoso. Añadir la miel y el aceite de almendras, mezclando hasta integrar completamente. Guardar en un frasco limpio.",
+    "dosis": "Aplicar sobre el rostro húmedo con un suave masaje circular, retirar con agua tibia. Usar 1 vez al día, preferentemente por la noche.",
+    "modo_uso": "Tópico — leche limpiadora facial",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "200 ml (aproximadamente 1 semana de uso)",
+    "conservacion": "Refrigerar hasta 7 días. Agitar antes de usar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la avena, miel o almendras. No administrar a menores de 1 año si contiene miel. Evitar el contacto con los ojos.",
+    "uso": "Pieles sensibles, reactivas o con tendencia a la dermatitis: limpia suavemente sin irritar, calma el enrojecimiento y restaura la barrera cutánea.",
+    "propiedades": [
+      "emoliente",
+      "calmante",
+      "hidratante",
+      "antiinflamatorio",
+      "limpiador suave"
+    ],
+    "principios_activos": "Beta-glucanos (avena): forman una película protectora que retiene la humedad y calma la irritación. Miel: acción antiséptica y humectante natural. Ácidos grasos (almendras): nutren y suavizan la piel.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
   }
 ]

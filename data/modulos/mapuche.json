@@ -41,7 +41,9 @@
       "natre",
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 28,
@@ -84,7 +86,9 @@
       "romero",
       "canelo",
       "laurel"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 38,
@@ -127,7 +131,9 @@
       "boldo",
       "romero",
       "menta"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 45,
@@ -160,7 +166,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Mezcla polifenólica de 7 plantas medicinales: sinergia de flavonoides, aceites esenciales y taninos. Iridoides ceremoniales: actividad adaptogénica e inmunomoduladora. Terpenos depurativos: limpieza orgánica y espiritual.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 56,
@@ -172,7 +187,7 @@
     "dosis": "Según ritual: 1 vez semanal o según necesidad espiritual",
     "modo_uso": "Ritual — sahumerio, baño, aspersión o uso ceremonial",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 sesión ritual",
     "conservacion": "Preparar fresco; los sahumerios usar en ventilación adecuada",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -203,7 +218,9 @@
       "ruda",
       "albahaca",
       "laurel"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 106,
@@ -213,7 +230,7 @@
     "ingredientes": "Hojas de ruda, 2 litros de agua.",
     "preparacion": "Hervir las hojas y colocar el agua en un balde con agua tibia para un baño de limpieza energética posterior al trabajo. No ingerir, la ruda es tóxica.",
     "dosis": "Según ritual: 1 vez semanal o según necesidad espiritual",
-    "modo_uso": "Oral — infusión caliente",
+    "modo_uso": "Tópico — baño",
     "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "1 sesión ritual",
@@ -245,7 +262,9 @@
       "albahaca",
       "matico",
       "laurel"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 121,
@@ -287,7 +306,9 @@
       "manzanilla",
       "cedrón",
       "melisa"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 122,
@@ -299,7 +320,7 @@
     "dosis": "Según ritual: 1 vez semanal o según necesidad espiritual",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 sesión ritual",
     "conservacion": "Preparar fresco; los sahumerios usar en ventilación adecuada",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -329,7 +350,9 @@
       "ruda",
       "albahaca",
       "cedrón"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 123,
@@ -372,7 +395,9 @@
       "cedrón",
       "melisa",
       "manzanilla"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 138,
@@ -415,7 +440,9 @@
       "albahaca",
       "cedrón",
       "lavanda"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 139,
@@ -427,7 +454,7 @@
     "dosis": "Según ritual: 1 vez semanal o según necesidad espiritual",
     "modo_uso": "Ritual — sahumerio, baño, aspersión o uso ceremonial",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 sesión ritual",
     "conservacion": "Preparar fresco; los sahumerios usar en ventilación adecuada",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -457,7 +484,9 @@
       "lavanda",
       "manzanilla",
       "cedrón"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "titulo": "Decocción de Corteza de Canelo (Foye Lawen) para Fiebre",
@@ -469,7 +498,7 @@
     "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "11 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
     "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
@@ -500,49 +529,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "titulo": "Lawen de Radal para Tos y Bronquios",
-    "categoria": "Medicina Mapuche",
-    "origen": "Mapuche Pewenche",
-    "ingredientes": "10 g de flores o corteza interna de radal (Lomatia hirsuta), 500 ml de agua, miel de ulmo al gusto.",
-    "preparacion": "Hervir la corteza en agua 10 minutos. Retirar del fuego, colar y endulzar con miel. Beber una taza caliente 3 veces al día. Usado por los lawentuchefe para tratamientos de tos persistente y afecciones bronquiales.",
-    "id": 202,
-    "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
-    "modo_uso": "Oral — infusión (lawen) o aplicación externa según preparación",
-    "tiempo_prep": "15 min",
-    "dificultad": "Medio",
-    "rendimiento": "2 tazas",
-    "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
-    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
-    "fuente_tradicion": "Mapuche",
-    "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
-    "uso": "Tos y Bronquios: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | 2-Metoxijuglona (naftoquinona): actividad antifúngica y antibacteriana sobre patógenos respiratorios. Flavonoides (quercetina, catequina): broncodilatadores leves por relajación del músculo liso bronquial vía inhibición de fosfodiesterasas. Ácidos fenólicos: acción antiinflamatoria complementaria.",
-    "propiedades": [
-      "antimicrobiano",
-      "cicatrizante",
-      "emoliente",
-      "inmunoestimulante",
-      "antioxidante",
-      "antiespasmódico bronquial"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Broncodilatadores: puede potenciar su efecto vasodilatador.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Cataplasma de Nalca para Quemaduras y Golpes",
@@ -584,7 +573,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Infusión de Luma para Infecciones y Defensas",
@@ -596,7 +587,7 @@
     "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
     "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
@@ -626,7 +617,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Decocción de Pangue para los Riñones",
@@ -638,7 +631,7 @@
     "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
     "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
@@ -668,7 +661,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Emplasto de Quilquil para Golpes y Torceduras",
@@ -701,7 +696,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Flavonoides y taninos condensados (Blechnum chilense): astringentes y antiinflamatorios. Compuestos fenólicos: antisépticos dérmicos. Mucílagos: emolientes sobre piel inflamada.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Infusión de Triwe (Laurel Chileno) para Digestión",
@@ -713,7 +717,7 @@
     "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "13 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
     "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
@@ -742,48 +746,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "titulo": "Decocción de Arrayán para Infecciones de Garganta",
-    "categoria": "Medicina Mapuche",
-    "origen": "Mapuche / Popular Patagónico",
-    "ingredientes": "15 g de hojas y ramas tiernas de arrayán (Luma apiculata), 500 ml de agua.",
-    "preparacion": "Hervir a fuego suave durante 10 minutos. Colar. Usar como gargarismo tibio 4-5 veces al día y beber una taza 2 veces al día. El arrayán tiene propiedades antisépticas ampliamente reconocidas en la medicina mapuche y patagónica.",
-    "id": 208,
-    "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
-    "modo_uso": "Oral — decocción",
-    "tiempo_prep": "15 min",
-    "dificultad": "Medio",
-    "rendimiento": "2 tazas",
-    "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
-    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
-    "fuente_tradicion": "Mapuche",
-    "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
-    "uso": "Infecciones de Garganta: los taninos producen astringencia sobre tejidos inflamados y el aceite esencial ejerce acción antiséptica directa.",
-    "principios_activos": "Taninos condensados: forman complejos con proteínas superficiales bacterianas generando efecto antiséptico y hemostático. Aceite esencial (α-pineno, cineol, metil eugenol, mirtenol): disrumpe membranas bacterianas. Flavonoides (miricetina, quercetina): antioxidantes y antiinflamatorios locales.",
-    "propiedades": [
-      "astringente",
-      "antiséptico",
-      "antiinflamatorio",
-      "antidiarreico",
-      "cicatrizante"
     ],
-    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Vapores de Maqui para Afecciones Respiratorias (Lawen de Vapor)",
@@ -824,7 +789,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "titulo": "Mukay de Maqui: Bebida Ceremonial y Nutritiva",
@@ -836,7 +803,7 @@
     "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
     "modo_uso": "Oral — infusión (lawen) o aplicación externa según preparación",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
     "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
@@ -865,7 +832,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 346,
@@ -898,7 +867,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 347,
@@ -939,7 +917,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 348,
@@ -972,7 +952,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 349,
@@ -1005,7 +994,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Ácido clorogénico (3-O-caffeoilquínico): antioxidante, antiséptico de vías urinarias y hepatoprotector. p-Hidroxiacetofenona (0.4–6.2% MS): antiséptica y antiinflamatoria. Escopoletina (0.8–1.9% MS): inhibidor no competitivo de β-D-glucuronidasa; diurética y antiinflamatoria de vías urinarias. Rutina (2.1–4.3% MS): venotónica y antiinflamatoria. 11-Hidroxi-4-amorfeno-15-oico (sesquiterpeno): gastroprotector, reduce lesiones gástricas 68% a 100 mg/kg.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 350,
@@ -1047,40 +1045,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 351,
-    "titulo": "Infusión de Bailahúen para el hígado y las penas (peuma hepático)",
-    "categoria": "Medicina Mapuche",
-    "origen": "Mapuche",
-    "ingredientes": "1 cucharada de partes aéreas de bailahúen seco, 1 taza de agua.",
-    "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio, idealmente al amanecer.",
-    "dosis": "1 taza en ayunas durante 10 días. Descansar 10 días antes de repetir.",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "1 taza",
-    "conservacion": "Preparar fresco",
-    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
-    "fuente_tradicion": "Mapuche",
-    "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista en medicina mapuche. Evitar en embarazo.",
-    "uso": "Hígado y las penas. Preparación medicinal mapuche.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 352,
@@ -1122,7 +1089,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 353,
@@ -1155,7 +1124,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Saponinas triterpénicas (en Eryngium paniculatum): antiinflamatorias y digestivas. Flavonoides: antiespasmódicos sobre mucosa gástrica. Aceites esenciales: carminativos.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 354,
@@ -1188,7 +1166,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Iridoides (en Calceolaria): antiinflamatorios tópicos. Flavonoides: antioxidantes dérmicos. Compuestos fenólicos: antimicrobianos cutáneos.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 355,
@@ -1229,7 +1216,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 356,
@@ -1270,7 +1259,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 357,
@@ -1312,7 +1303,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 358,
@@ -1345,7 +1338,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 359,
@@ -1378,7 +1380,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 360,
@@ -1419,7 +1430,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 583,
@@ -1461,7 +1474,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 584,
@@ -1502,7 +1517,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 585,
@@ -1535,7 +1552,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 586,
@@ -1547,7 +1573,7 @@
     "dosis": "Usar para limpiezas energéticas, masajes o como perfume ritual",
     "modo_uso": "Aplicar en muñecas, nuca y frente",
     "tiempo_prep": "8 días elaboración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Frasco de vidrio hermético 1 año",
     "evidencia": "Saber ancestral",
@@ -1577,7 +1603,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 587,
@@ -1617,7 +1645,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 588,
@@ -1658,7 +1688,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 589,
@@ -1691,7 +1723,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Resinas diterpénicas (ácido copálico, ácido agálico): antiinflamatorias y antimicrobianas. Monoterpenos (alfa-pineno, limoneno): ansiolíticos por vía aromática. Sesquiterpenos: ceremoniales y depurativos.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 590,
@@ -1731,7 +1772,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 591,
@@ -1743,7 +1786,7 @@
     "dosis": "Aplicar en pulso y frente en momentos de oración o meditación",
     "modo_uso": "Solo uso externo",
     "tiempo_prep": "2 horas elaboración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 ml",
     "conservacion": "Frasco oscuro 1 año",
     "evidencia": "Saber ancestral",
@@ -1764,7 +1807,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 592,
@@ -1797,7 +1849,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Lisozima (clara): enzima antibacteriana. Lecitina y colesterol (yema): reparadores de barrera lipídica démica. Proteínas completas: sustrato para ritual de limpieza energética tradicional.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 593,
@@ -1807,7 +1868,7 @@
     "ingredientes": "1 cucharadita de ajenjo seco (Artemisia absinthium), 300 ml de agua",
     "preparacion": "Hervir el agua. Infundir el ajenjo 8 min. Colar. SOLO PARA USO EXTERNO (aspersión).",
     "dosis": "Usar como agua de aspersión en el hogar o ritual",
-    "modo_uso": "Oral — infusión caliente",
+    "modo_uso": "Tópico — aspersión",
     "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "300 ml (aspersión)",
@@ -1830,7 +1891,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 594,
@@ -1871,7 +1941,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 595,
@@ -1904,7 +1976,17 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno",
+      "emoliente"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 596,
@@ -1937,7 +2019,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+    "propiedades": [
+      "purificador",
+      "ceremonial",
+      "aromático",
+      "adaptógeno"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 597,
@@ -1978,7 +2069,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 678,
@@ -2020,7 +2113,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 679,
@@ -2053,7 +2148,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Ácido clorogénico (3-O-caffeoilquínico): antioxidante, antiséptico de vías urinarias y hepatoprotector. p-Hidroxiacetofenona (0.4–6.2% MS): antiséptica y antiinflamatoria. Escopoletina (0.8–1.9% MS): inhibidor no competitivo de β-D-glucuronidasa; diurética y antiinflamatoria de vías urinarias. Rutina (2.1–4.3% MS): venotónica y antiinflamatoria. 11-Hidroxi-4-amorfeno-15-oico (sesquiterpeno): gastroprotector, reduce lesiones gástricas 68% a 100 mg/kg.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 680,
@@ -2094,7 +2198,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 681,
@@ -2135,48 +2241,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 682,
-    "titulo": "Remedio de Bailahuen y Menta para la Gripe",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Mapuche",
-    "ingredientes": "5 ramitas de bailahuen (Haplopappus baylahuen), 5 hojas de menta, 1 L de agua",
-    "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
-    "dosis": "3 tazas al día durante la gripe",
-    "modo_uso": "Tomar caliente; el bailahuen es un lawen mapuche clásico",
-    "tiempo_prep": "18 min",
-    "dificultad": "Fácil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Medicina mapuche popular",
-    "contraindicaciones": "No usar en embarazo; el bailahuen puede afectar el hígado en exceso",
-    "uso": "Gripe: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
-    "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
-    "propiedades": [
-      "antiespasmódico",
-      "digestivo",
-      "carminativo",
-      "analgésico local",
-      "expectorante"
     ],
-    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 683,
@@ -2188,7 +2255,7 @@
     "dosis": "Masajear en zona afectada 2 veces al día",
     "modo_uso": "Tópico — masaje suave sobre la zona afectada",
     "tiempo_prep": "21 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Frasco oscuro 6 meses",
     "evidencia": "Saber ancestral",
@@ -2216,7 +2283,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 684,
@@ -2249,7 +2318,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Diterpenos y taninos (Prumnopitys andina): diuréticos y antisépticos de vías urinarias. Flavonoides: antiinflamatorios renales. Compuestos fenólicos: antioxidantes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 685,
@@ -2290,7 +2368,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 686,
@@ -2332,7 +2412,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 687,
@@ -2373,7 +2455,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 688,
@@ -2415,7 +2499,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 689,
@@ -2427,7 +2513,7 @@
     "dosis": "1 vaso al día (sin alcohol excesivo)",
     "modo_uso": "Consumir cuando apenas empieza la fermentación leve",
     "tiempo_prep": "2-3 días elaboración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 L",
     "conservacion": "Refrigerar 3-5 días",
     "evidencia": "Saber ancestral",
@@ -2457,7 +2543,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 690,
@@ -2499,7 +2587,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 691,
@@ -2541,7 +2631,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 692,
@@ -2583,7 +2675,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 813,
@@ -2616,7 +2710,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Eugenol: analgésico y antiinflamatorio; inhibe COX-1/2. Cineol: expectorante y antiséptico. Ácido laúrico: antifúngico y antiviral de amplio espectro.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 814,
@@ -2657,7 +2760,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 815,
@@ -2698,7 +2803,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 816,
@@ -2740,40 +2847,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 817,
-    "titulo": "Té de Notro para el Dolor de Garganta",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Mapuche",
-    "ingredientes": "5 flores de notro (Embothrium coccineum) secas, 300 ml de agua",
-    "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
-    "dosis": "2 tazas al día durante el dolor de garganta",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "2 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Medicina mapuche del sur de Chile",
-    "contraindicaciones": "No exceder; verificar identificación correcta",
-    "uso": "Dolor de Garganta. Preparación medicinal mapuche.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 818,
@@ -2814,7 +2890,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 819,
@@ -2855,7 +2933,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 820,
@@ -2889,7 +2969,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Silicio orgánico: remineralizante articular. Flavonoides: antiinflamatorios. Mucílagos: emolientes sobre articulaciones inflamadas.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 821,
@@ -2931,7 +3020,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 822,
@@ -2964,7 +3055,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 928,
@@ -2998,7 +3098,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Cineol y terpineol: antisépticos renales y diuréticos. Taninos: astringentes de vías urinarias. Flavonoides: antiinflamatorios de pelvis renal.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 929,
@@ -3040,40 +3149,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 930,
-    "titulo": "Infusion de Chupalla para la Tos Mapuche",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Mapuche",
-    "ingredientes": "5 flores de chupalla (Fascicularia bicolor), 300 ml de agua",
-    "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
-    "dosis": "2 tazas al dia",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "12 min",
-    "dificultad": "Fácil",
-    "rendimiento": "2 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Medicina mapuche",
-    "contraindicaciones": "Verificar identificacion correcta",
-    "uso": "Tos Mapuche. Preparación medicinal mapuche.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 931,
@@ -3106,40 +3184,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 932,
-    "titulo": "Te de Michay para el Higado",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Mapuche",
-    "ingredientes": "5 flores de michay (Berberis darwinii) secas, 300 ml de agua",
-    "preparacion": "Hervir el agua. Infundir las flores 12 min. Colar.",
-    "dosis": "2 tazas al dia",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "15 min",
-    "dificultad": "Fácil",
-    "rendimiento": "2 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Saber ancestral",
-    "fuente_tradicion": "Medicina mapuche",
-    "contraindicaciones": "No en embarazo; puede interactuar con medicamentos",
-    "uso": "Higado. Preparación medicinal mapuche.",
-    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "principios_activos": "Flavonoides y compuestos fenólicos del helecho: antiinflamatorios y antioxidantes tópicos. Taninos: astringentes. Aceites esenciales: antisépticos cutáneos rituales.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 933,
@@ -3172,7 +3226,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Taninos elagitánicos y catequinas (Nothofagus obliqua): astringentes potentes y antimicrobianos. Ácido elágico: antiinflamatorio. Proantocianidinas: antioxidantes y venotónicos.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 934,
@@ -3214,7 +3277,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 935,
@@ -3247,7 +3312,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Taninos y compuestos fenólicos: antisépticos y cicatrizantes sobre heridas. Flavonoides: antiinflamatorios. Mucílagos: demulcentes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 936,
@@ -3289,7 +3363,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 937,
@@ -3322,7 +3398,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Ácido boswélico y acetil-boswélico (AKBA): antiinflamatorios potentes; inhiben 5-lipoxigenasa. Monoterpenos (alfa-pineno, limoneno): ansiolíticos aromáticos. Incensol acetato: antidepresivo por activación de canales iónicos cerebrales.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1003,
@@ -3334,7 +3419,7 @@
     "dosis": "3 a 4 tazas al dia, tibias, durante el episodio febril",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "12 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3-4 tazas",
     "conservacion": "Refrigerar hasta 24 h",
     "evidencia": "Respaldo cientifico",
@@ -3365,7 +3450,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1004,
@@ -3377,7 +3464,7 @@
     "dosis": "1 bano completo de 20 a 30 minutos, 3 veces por semana",
     "modo_uso": "El bano es aromatico, tonico y calorico. La machi usa este bano en machitun para dolores reumaticos cronicos y paralisis muscular",
     "tiempo_prep": "15 min + bano",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 bano",
     "conservacion": "Uso inmediato",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -3408,7 +3495,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1005,
@@ -3420,7 +3509,7 @@
     "dosis": "Mantener la cataplasma 30 a 60 minutos, 2 veces al dia",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 cataplasma",
     "conservacion": "Uso inmediato",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -3449,48 +3538,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1006,
-    "titulo": "Gargaras de Foye para Anginas y Dolor de Muelas",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "5 g de corteza de foye, 300 ml de agua",
-    "preparacion": "Hervir la corteza 5 minutos. Colar y dejar entibiar (no fria, no caliente quemante).",
-    "dosis": "Gargaras durante 30 segundos, 4 a 5 veces al dia",
-    "modo_uso": "Para anginas: gargaras profundas llegando a la garganta. Para dolor de muelas: retener el liquido en el lado afectado. La machi usa esta preparacion al inicio del machitun para limpiar la boca del enfermo",
-    "tiempo_prep": "8 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 sesiones",
-    "conservacion": "Refrigerar 24 h, templar antes de usar",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
-    "contraindicaciones": "Moderadamente amargo y acre. No tragar en grandes cantidades. Evitar en embarazo",
-    "uso": "Anginas y Dolor de Muelas: el poligodial bloquea la transmisión dolorosa y reduce mediadores inflamatorios.",
-    "principios_activos": "Poligodial (sesquiterpeno dialdeído, Drimys winteri): inhibe canales Nav1.7/Nav1.8 y modula receptores TRPA1 con efecto antinociceptivo potente. Vitamina C y taninos: actividad antioxidante y antiséptica complementaria.",
-    "propiedades": [
-      "analgésico",
-      "antiinflamatorio",
-      "antiséptico",
-      "febrífugo",
-      "ceremonial mapuche"
     ],
-    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1007,
@@ -3502,7 +3552,7 @@
     "dosis": "Cambiar el emplasto cada 12 horas hasta cicatrizacion",
     "modo_uso": "Tópico — emplasto sobre la zona afectada",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 sesion",
     "conservacion": "Uso inmediato; no conservar",
     "evidencia": "Respaldo cientifico",
@@ -3532,7 +3582,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1008,
@@ -3544,7 +3596,7 @@
     "dosis": "Sahumar el espacio durante 10 a 15 minutos antes de la ceremonia o cuando se necesite limpiar el ambiente",
     "modo_uso": "Inhalación — respirar los vapores",
     "tiempo_prep": "5 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "No aplica",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -3573,7 +3625,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1009,
@@ -3585,7 +3639,7 @@
     "dosis": "3 tazas al dia durante 5 dias en procesos infecciosos",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "3 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -3615,7 +3669,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1010,
@@ -3627,7 +3683,7 @@
     "dosis": "2 a 3 tazas diarias como tonico y preventivo",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -3657,7 +3713,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1011,
@@ -3669,7 +3727,7 @@
     "dosis": "Cambiar la cataplasma cada 24 horas hasta cicatrizacion completa",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "5 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 aplicacion",
     "conservacion": "Uso inmediato; preparar fresco cada vez",
     "evidencia": "Respaldo cientifico",
@@ -3699,7 +3757,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1012,
@@ -3711,7 +3771,7 @@
     "dosis": "2 a 3 tazas al dia; en hemorragias, comenzar con 1 taza y evaluar respuesta",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "18 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "4 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -3740,7 +3800,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1013,
@@ -3752,7 +3814,7 @@
     "dosis": "Lavar la herida cronica 2 a 3 veces al dia con el liquido tibio",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "3-4 lavados",
     "conservacion": "Refrigerar 24 h; templar antes de cada uso",
     "evidencia": "Respaldo cientifico",
@@ -3782,7 +3844,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1014,
@@ -3794,7 +3858,7 @@
     "dosis": "Inhalar el vapor 10 a 15 minutos, cubriendo la cabeza con una toalla para concentrar el vapor. Repetir 2 veces al dia",
     "modo_uso": "Inhalación — respirar los vapores",
     "tiempo_prep": "8 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 sesiones",
     "conservacion": "Preparar fresco cada vez",
     "evidencia": "Uso tradicional documentado",
@@ -3823,48 +3887,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1015,
-    "titulo": "Decoccion de Peciolos de Pangue para Diarrea Rebelde",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "3 a 4 peciolos (tallos) frescos de nalca/pangue, cortados en rodajas, 1 litro de agua",
-    "preparacion": "Hervir los peciolos de nalca troceados durante 15 minutos. Colar bien. El liquido sera de color verde-ambar oscuro, astringente.",
-    "dosis": "1 taza cada 4 a 6 horas hasta mejorar; en diarrea grave, 4 a 5 tazas al dia",
-    "modo_uso": "Oral — decocción",
-    "tiempo_prep": "18 min",
-    "dificultad": "Facil",
-    "rendimiento": "4-5 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche; Diego de Rosales (Siglo XVII); Aukanaw",
-    "contraindicaciones": "Usar solo los peciolos, no el rizoma (que puede ser toxico). Pelar los peciolos antes de usar. Si la diarrea dura mas de 48 h o hay sangre, consultar medico",
-    "uso": "Diarrea Rebelde: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
-    "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
-    "propiedades": [
-      "antioxidante",
-      "astringente",
-      "antiinflamatorio",
-      "nutritivo",
-      "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1016,
@@ -3876,7 +3901,7 @@
     "dosis": "Mantener 20 a 30 minutos, 2 veces al dia, hasta bajar la fiebre o reducir el dolor renal",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "Preparar fresco",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -3905,7 +3930,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1017,
@@ -3917,7 +3944,7 @@
     "dosis": "Lavar la herida con la decoccion tibia cada 4 horas; en sangrado activo, aplicar compresas empapadas y presionar",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "Varios usos",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -3947,88 +3974,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1018,
-    "titulo": "Gargaras de Pangue para Anginas y Faringitis",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "4 peciolos de nalca troceados, 500 ml de agua",
-    "preparacion": "Hervir 10 minutos. Colar y entibiar. La decoccion tendra sabor muy astringente.",
-    "dosis": "Gargaras profundas durante 30 segundos, 4 a 6 veces al dia",
-    "modo_uso": "La machi usa las gargaras de pangue en anginas y faringitis graves. El acido tanico tiene accion antibacteriana y antiinflamatoria directa sobre la mucosa faringea. Complementar bebiendo 1 taza de la misma decoccion 3 veces al dia",
-    "tiempo_prep": "12 min",
-    "dificultad": "Facil",
-    "rendimiento": "6 sesiones de gargaras",
-    "conservacion": "Refrigerar 24 h; templar antes de usar",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
-    "contraindicaciones": "Si la angina es bacteriana y hay fiebre alta, requiere antibioticos. Las gargaras complementan el tratamiento. No tragar en exceso",
-    "uso": "Anginas y Faringitis: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
-    "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
-    "propiedades": [
-      "antioxidante",
-      "astringente",
-      "antiinflamatorio",
-      "nutritivo",
-      "digestivo"
     ],
-    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1019,
-    "titulo": "Infusion de Paico en Ayunas para Parasitos Intestinales",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "10 g de planta fresca de paico (hojas y tallos), 250 ml de agua hirviendo",
-    "preparacion": "Verter el agua hirviendo sobre la planta fresca. Reposar 10 minutos tapado. Colar.",
-    "dosis": "1 taza en ayunas por la manana durante 3 a 5 dias consecutivos",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "12 min",
-    "dificultad": "Facil",
-    "rendimiento": "1 taza/dia por ciclo",
-    "conservacion": "Preparar fresco cada dia",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche; Farmacopea Homepatica; MINSAL 2010",
-    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO (abortivo). NO usar el aceite esencial puro. En ninos, reducir la dosis a la mitad. Dosis altas producen dano hepatico y neurologico. No superar 5 dias sin supervision",
-    "uso": "Parasitos Intestinales: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
-    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
-    "propiedades": [
-      "antiparasitario",
-      "vermífugo",
-      "digestivo",
-      "carminativo"
-    ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1020,
@@ -4040,7 +3988,7 @@
     "dosis": "1 taza despues de las comidas principales, 2 a 3 veces al dia",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "8 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 tazas",
     "conservacion": "Refrigerar 24 h; preparar fresco de preferencia",
     "evidencia": "Uso tradicional documentado",
@@ -4068,89 +4016,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1021,
-    "titulo": "Preparacion de Paico y Culen para Parasitos Mixtos",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "8 g de paico fresco, 8 g de hojas de culen (Otholobium glandulosum), 500 ml de agua",
-    "preparacion": "Hervir ambas plantas 5 minutos. Colar con paño fino.",
-    "dosis": "1 taza en ayunas por 5 dias consecutivos",
-    "modo_uso": "La machi combina el paico (accion antihelminitica directa via ascaridol) con el culen (accion astringente y antiespasmódica que reduce los calambres del proceso de expulsion de los parasitos). El culen facilita la tolerancia al tratamiento",
-    "tiempo_prep": "10 min",
-    "dificultad": "Facil",
-    "rendimiento": "1 taza/dia por ciclo",
-    "conservacion": "Preparar fresco cada dia",
-    "evidencia": "Saber ancestral mapuche y chileno",
-    "fuente_tradicion": "Medicina machi pehuenche y lafkenche (CONAF 2004; Aukanaw)",
-    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. No superar la dosis recomendada. En ninos, supervisar con adulto y reducir la dosis",
-    "uso": "Parasitos Mixtos: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
-    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho. | Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
-    "propiedades": [
-      "antiparasitario",
-      "vermífugo",
-      "digestivo",
-      "carminativo",
-      "antiespasmódico",
-      "hipoglucemiante"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia. Antihipertensivos: puede potenciar la reducción de presión arterial.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1022,
-    "titulo": "Lavado de Paico para Parasitos Externos y Sarna",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "100 g de planta fresca de paico, 2 litros de agua",
-    "preparacion": "Hervir el paico en el agua durante 10 minutos. Colar. Dejar entibiar hasta temperatura comoda.",
-    "dosis": "Lavar las zonas afectadas con la decoccion 2 veces al dia durante 5 dias",
-    "modo_uso": "Tópico — enjuague o lavado local",
-    "tiempo_prep": "12 min",
-    "dificultad": "Facil",
-    "rendimiento": "2 lavados diarios",
-    "conservacion": "Refrigerar 24 h; templar antes de usar",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004)",
-    "contraindicaciones": "No aplicar en mucosas ni ojos. Si hay irritacion de la piel, suspender. El paico en piel puede causar fotosensibilidad en algunas personas",
-    "uso": "Parasitos Externos y Sarna: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
-    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
-    "propiedades": [
-      "antiparasitario",
-      "vermífugo",
-      "digestivo",
-      "carminativo"
-    ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1023,
@@ -4162,7 +4030,7 @@
     "dosis": "2 a 3 tazas al dia antes de las comidas o al sentir indigestion",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "17 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "3-4 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -4191,7 +4059,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1024,
@@ -4203,7 +4073,7 @@
     "dosis": "Aplicar 2 veces al dia hasta cicatrizacion completa. El proceso en 3 pasos: jugo (limpieza), hojas frescas (antiseptico), polvo seco (cierre)",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 aplicaciones diarias",
     "conservacion": "Preparar fresco cada vez",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -4233,7 +4103,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1025,
@@ -4245,7 +4117,7 @@
     "dosis": "Bano de asiento durante 20 minutos, 2 veces al dia en crisis hemorroidal",
     "modo_uso": "La machi usa esta tecnica (bano de asiento concentrado) para hemorroides externas e internas. Los taninos del culen tienen efecto astringente que reduce la inflamacion y el sangrado hemorroidal. Para hemorroides internas tambien se puede aplicar vapor de la decoccion",
     "tiempo_prep": "12 min + bano",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 bano",
     "conservacion": "Preparar fresco",
     "evidencia": "Uso tradicional documentado",
@@ -4274,7 +4146,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1026,
@@ -4286,7 +4160,7 @@
     "dosis": "1 taza caliente al inicio de la cefalea; repetir a las 2 horas si no cede",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "17 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -4315,7 +4189,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1027,
@@ -4327,7 +4203,7 @@
     "dosis": "Beber 1 vaso (150 ml) 3 veces al dia para la fiebre. Para anginas, usar la mitad como gargara antes de tragar",
     "modo_uso": "La machi usa el maqui en el machitun como antipiretico y para inflamacion de garganta. Las antocianinas del maqui (las mas potentes entre los frutos chilenos segun indice ORAC) tienen actividad antiinflamatoria demostrada contra IL-6 y TNF-alfa",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 vasos",
     "conservacion": "Refrigerar 48 h",
     "evidencia": "Respaldo cientifico",
@@ -4357,48 +4233,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1028,
-    "titulo": "Infusion de Hojas de Maqui para Diarrea y Disenteria",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "20 a 25 g de hojas de maqui, 1 litro de agua hirviendo",
-    "preparacion": "Verter el agua caliente sobre las hojas. Reposar 15 minutos. Colar.",
-    "dosis": "1 taza cada 4 a 6 horas hasta mejorar la diarrea",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "17 min",
-    "dificultad": "Facil",
-    "rendimiento": "4 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi lafkenche (MINSAL 2010; CONAF 2004)",
-    "contraindicaciones": "Si hay sangre en las deposiciones o fiebre alta, consultar medico urgente. Mantenerse hidratado con agua y electrolitos",
-    "uso": "Diarrea y Disenteria: las antocianinas neutralizan radicales libres, mejoran la función endotelial y reducen marcadores inflamatorios sistémicos.",
-    "principios_activos": "Delfinidin y cianidina (antocianinas, 34% del total): capturan especies reactivas de oxígeno con potencia superior a otras antocianinas por sus múltiples grupos hidroxilo en el anillo B; aumentan expresión de eNOS endotelial y disminuyen síntesis de endotelina-1 vasoconstrictora.",
-    "propiedades": [
-      "antioxidante",
-      "antiinflamatorio",
-      "cardioprotector",
-      "inmunoestimulante",
-      "antidiabético"
     ],
-    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1029,
@@ -4410,7 +4247,7 @@
     "dosis": "Buches de 30 segundos, 4 a 5 veces al dia, sin tragar (o tragar poco)",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "5 buches diarios",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -4439,7 +4276,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1030,
@@ -4451,7 +4290,7 @@
     "dosis": "1 a 2 vasos al dia como tonico. Usar la preparacion fresca (hasta 48 h de fermentacion ligera)",
     "modo_uso": "El muday de maqui es bebida ceremonial y medicinal mapuche. La machi lo prescribe para anemia, debilidad general y recuperacion postparto. El maqui aporta hierro, vitamina C y antocianinas. La fermentacion aumenta la biodisponibilidad de los nutrientes",
     "tiempo_prep": "20 min + 24-48 h fermentacion",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2-3 vasos/dia",
     "conservacion": "Hasta 48 h temperatura ambiente; refrigerar despues",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -4482,7 +4321,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1031,
@@ -4494,7 +4335,7 @@
     "dosis": "Mantener 30 minutos, 2 a 3 veces al dia",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 aplicaciones diarias",
     "conservacion": "Preparar fresco",
     "evidencia": "Respaldo cientifico",
@@ -4523,90 +4364,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1032,
-    "titulo": "Infusion de Corteza de Quillay para Tos y Bronquitis",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "4 g de corteza interna de quillay (la corteza blanca, no la gris externa), 500 ml de agua caliente",
-    "preparacion": "Verter el agua caliente (no hirviendo) sobre la corteza interna. Reposar 15 minutos. Colar con cuidado.",
-    "dosis": "2 a 3 tazas al dia durante 5 dias maximos para tos y bronquitis",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "17 min",
-    "dificultad": "Facil",
-    "rendimiento": "2-3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; Farmacopea Europea; SEFIT 2020)",
-    "contraindicaciones": "No superar 5 dias de uso interno sin supervision. Las saponinas en exceso son hemolisticas. No usar en ninos pequenos ni embarazadas. Si la tos tiene sangre o fiebre alta, consultar medico",
-    "uso": "Tos y Bronquitis: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
-    "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-    "propiedades": [
-      "expectorante",
-      "mucolítico",
-      "inmunoestimulante",
-      "antiséptico",
-      "antifúngico"
     ],
-    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1033,
-    "titulo": "Lavado Capilar con Espuma de Quillay para Caspa y Caida",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "Un trozo de corteza interna de quillay del tamano de una pelota de tenis",
-    "preparacion": "Batir la corteza interna en agua fria o tibia frotando energicamente hasta producir espuma abundante y densa. La espuma sera rica y persistente.",
-    "dosis": "Aplicar la espuma sobre el cabello mojado. Masajear el cuero cabelludo durante 3 a 5 minutos. Enjuagar muy bien con agua tibia.",
-    "modo_uso": "Tópico — enjuague o lavado local",
-    "tiempo_prep": "5 min",
-    "dificultad": "Facil",
-    "rendimiento": "1 lavado capilar",
-    "conservacion": "Conservar la corteza seca indefinidamente; preparar la espuma fresca",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche; uso ancestral mapuche (CONAF 2004; MINSAL 2010)",
-    "contraindicaciones": "Enjuagar completamente: las saponinas en el ojo irritan. No tragar. Algunas personas con cuero cabelludo muy sensible pueden presentar leve irritacion",
-    "uso": "Caspa y Caida: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
-    "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
-    "propiedades": [
-      "expectorante",
-      "mucolítico",
-      "inmunoestimulante",
-      "antiséptico",
-      "antifúngico"
-    ],
-    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
-    "indicaciones_principales": [
-      "Caspa y seborrea del cuero cabelludo",
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1034,
@@ -4618,7 +4378,7 @@
     "dosis": "Aplicar 2 veces al dia sobre la zona afectada. Dejar actuar 5 minutos antes de enjuagar",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "5 min por aplicacion",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 aplicaciones diarias",
     "conservacion": "Conservar corteza seca; espuma fresca cada vez",
     "evidencia": "Respaldo cientifico",
@@ -4647,73 +4407,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1035,
-    "titulo": "Infusion de Bailahuen para Indigestion y Higado Cargado",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "8 g de ramas con hojas de bailahuen seco, 500 ml de agua hirviendo",
-    "preparacion": "Verter el agua hirviendo sobre el bailahuen. Reposar 12 minutos. Colar. Aroma intenso, levemente amargo.",
-    "dosis": "1 taza 20 minutos antes de las comidas, 3 veces al dia. En indigestion aguda, 1 taza al sintoma",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "14 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
-    "contraindicaciones": "CONTRAINDICADO EN CALCULOSIS BILIAR: puede provocar cólicos al estimular el flujo de bilis. CONTRAINDICADO EN EMBARAZO. Evitar uso prolongado mas de 2 semanas sin supervision",
-    "uso": "Indigestion y Higado Cargado. Preparación medicinal mapuche.",
-    "referencias": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1036,
-    "titulo": "Decoccion de Bailahuen para la Vesicula y la Bilis",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "15 g de ramas de bailahuen secas, 500 ml de agua",
-    "preparacion": "Hervir las ramas de bailahuen 5 minutos. Colar bien. El liquido sera ambar intenso.",
-    "dosis": "1 taza 3 veces al dia durante 7 dias en tratamiento de la vesicula biliar",
-    "modo_uso": "Oral — decocción",
-    "tiempo_prep": "8 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
-    "contraindicaciones": "CONTRAINDICADO con calculos biliares. CONTRAINDICADO EN EMBARAZO. Si hay dolor del hipocondrio derecho intenso, consultar medico (descarte colecistitis aguda)",
-    "uso": "Vesicula y la Bilis. Preparación medicinal mapuche.",
-    "referencias": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1037,
@@ -4725,7 +4421,7 @@
     "dosis": "Frotar la articulacion afectada con la decoccion caliente usando un lienzo durante 10 a 15 minutos. Repetir 2 veces al dia",
     "modo_uso": "La machi aplica la friega de bailahuen (vbvrkawe lawen) sobre rodillas, tobillos y munecas con reumatismo. El calor + los aceites esenciales (carvacrol, timol) penetran la piel y tienen efecto antiinflamatorio y analgesico local. La machi frota en sentido circular siguiendo el recorrido de los meridianos mapuche del cuerpo",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 friegas diarias",
     "conservacion": "Refrigerar 24 h; recalentar antes de usar",
     "evidencia": "Uso tradicional documentado",
@@ -4747,7 +4443,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1038,
@@ -4759,7 +4464,7 @@
     "dosis": "2 a 3 tazas calientes al dia, durante 5 a 7 dias",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -4787,7 +4492,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1039,
@@ -4799,7 +4506,7 @@
     "dosis": "2 tazas al dia en episodios febriles. Como tonico, 1 taza al dia",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -4828,7 +4535,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1040,
@@ -4840,7 +4549,7 @@
     "dosis": "1 taza caliente 3 dias antes de la fecha esperada de la menstruacion y durante los 2 primeros dias del ciclo",
     "modo_uso": "La machi mapuche usa el chilco como emenagogo (estimulante del flujo menstrual) para regularizar ciclos irregulares y facilitar la llegada de la menstruacion. En el parto, la machi administra el chilco junto al palqui y koyamlawen para estimular las contracciones (solo bajo supervision de la machi)",
     "tiempo_prep": "8 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 tazas por ciclo",
     "conservacion": "Usar fresco",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -4868,114 +4577,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1041,
-    "titulo": "Infusion de Quinchamali para Tos y Bronquitis",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "12 g de planta de quinchamalí seca (hojas, tallos y flores), 500 ml de agua hirviendo",
-    "preparacion": "Verter el agua hirviendo sobre la planta seca. Reposar 12 minutos. Colar.",
-    "dosis": "3 tazas al dia, preferiblemente con miel de ulmo si hay disponibilidad",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "14 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
-    "contraindicaciones": "No usar mas de 2 semanas sin supervision. CONTRAINDICADO EN EMBARAZO y lactancia (datos de seguridad insuficientes). En tos con sangre o dificultad respiratoria grave, consultar medico urgente",
-    "uso": "Tos y Bronquitis. Preparación medicinal mapuche.",
-    "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1042,
-    "titulo": "Decoccion de Quinchamali con Miel de Ulmo para Resfrío",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "15 g de quinchamalí fresco, 500 ml de agua, 2 cucharadas de miel de ulmo (Eucryphia cordifolia)",
-    "preparacion": "Hervir el quinchamalí en el agua 5 minutos. Colar. Dejar entibiar a menos de 40 grados. Agregar la miel de ulmo (nunca agregar la miel al agua hirviendo, pues destruye sus enzimas y principios activos).",
-    "dosis": "3 tazas al dia en resfriado agudo",
-    "modo_uso": "Oral — decocción",
-    "tiempo_prep": "8 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h; templar antes de cada uso",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010; Gloria Montenegro, Universidad de Chile)",
-    "contraindicaciones": "No dar miel a ninos menores de 1 año (riesgo de botulismo infantil). No usar en embarazo. Si el resfrío no mejora en 7 dias, consultar medico",
-    "uso": "Resfrío: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-    "propiedades": [
-      "antimicrobiano",
-      "cicatrizante",
-      "emoliente",
-      "inmunoestimulante",
-      "antioxidante"
-    ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
-  },
-  {
-    "id": 1043,
-    "titulo": "Infusion de Quinchamali para Apoyo Hepatico",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "10 g de planta de quinchamalí seca, 500 ml de agua hirviendo",
-    "preparacion": "Verter el agua hirviendo sobre la planta. Reposar 15 minutos. Colar.",
-    "dosis": "2 tazas al dia en ayunas y antes de dormir, durante 2 semanas",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "17 min",
-    "dificultad": "Facil",
-    "rendimiento": "2 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
-    "contraindicaciones": "No usar en insuficiencia hepatica grave. Si hay ictericia importante o dolor abdominal derecho, consultar medico. Hepatitis viral requiere seguimiento medico",
-    "uso": "Apoyo Hepatico. Preparación medicinal mapuche.",
-    "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1044,
@@ -4987,7 +4591,7 @@
     "dosis": "2 tazas al dia despues de las comidas",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -5008,40 +4612,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1045,
-    "titulo": "Vapor de Triwe para Resfrío y Gripe",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "50 g de hojas y ramas de triwe frescas, 2 litros de agua",
-    "preparacion": "Hervir el triwe en el agua 5 minutos. Retirar del fuego. Inhalar el vapor inclinando la cabeza sobre el recipiente, cubriendo con una toalla.",
-    "dosis": "Inhalar 10 a 15 minutos, 2 veces al dia en resfrío agudo",
-    "modo_uso": "Inhalación — respirar los vapores",
-    "tiempo_prep": "7 min",
-    "dificultad": "Facil",
-    "rendimiento": "2 sesiones",
-    "conservacion": "Preparar fresco cada sesion",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
-    "contraindicaciones": "Mantener distancia del vapor caliente. No usar en ninos sin supervision. Asmaticos: consultar antes, ya que vapores intensos pueden provocar broncoespasmo",
-    "uso": "Resfrío y Gripe. Preparación medicinal mapuche.",
-    "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
     ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "principios_activos": "Eugenol: analgésico y antiinflamatorio; inhibe COX-1/2. Cineol: expectorante y antiséptico. Ácido laúrico: antifúngico y antiviral de amplio espectro.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1046,
@@ -5053,7 +4633,7 @@
     "dosis": "Friega vigorosa sobre el costado o zona afectada durante 5 a 10 minutos. Repetir 2 veces al dia",
     "modo_uso": "La friega de ramas calientes de triwe (vbvrkawe lawen con triwe) es el tratamiento mapuche tradicional para las puntadas de aire (dolor intercostal o pleuritis leve, llamado weda kuruf en mapuche). La machi y el curandero ancestral aplican este tratamiento desde tiempos precolombinos. El calor + aceites esenciales tienen efecto analgesico y descontracturante local",
     "tiempo_prep": "5 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 friegas diarias",
     "conservacion": "No aplica; preparar fresco",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5074,7 +4654,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1047,
@@ -5086,7 +4675,7 @@
     "dosis": "1 taza al dia durante la semana previa a la menstruacion esperada",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 taza/dia semanal",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -5107,7 +4696,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1048,
@@ -5119,7 +4717,7 @@
     "dosis": "Mantener la cataplasma 30 a 45 minutos. Aplicar 2 veces al dia en crisis reumatica",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "2-3 h remojo + 10 min prep",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 cataplasmas diarias",
     "conservacion": "Remojar fresco cada vez; el cochayuyo seco indefinidamente",
     "evidencia": "Respaldo cientifico",
@@ -5141,7 +4739,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1049,
@@ -5153,7 +4760,7 @@
     "dosis": "1 a 2 tazones de caldo al dia durante 2 semanas; repetir mensualmente en casos de anemia cronica",
     "modo_uso": "El caldo de cochayuyo (chapalele con cochayuyo en Chiloe) es el tonico clasico de la machi huilliche y lafkenche para anemia, debilidad postparto, convalecencia y desnutricion. El cochayuyo aporta hierro biodisponible, vitamina B12, yodo, magnesio y proteinas completas. La machi recomienda agregar quelpen (peumo) o ajo para mejorar la absorcion del hierro",
     "tiempo_prep": "2 h remojo + 40 min coccion",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazones",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -5183,7 +4790,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1050,
@@ -5195,7 +4804,7 @@
     "dosis": "Ofrecer al bebe cuando este irritable por la denticion, por 10 a 15 minutos. Supervisar en todo momento",
     "modo_uso": "La machi huilliche y lafkenche usa el cochayuyo seco como mordedor natural para bebes en denticion. La textura firme pero flexible del cochayuyo masajea las encias, aliviando el dolor. Los minerales del cochayuyo (calcio, magnesio) son beneficiosos para el desarrollo de los dientes",
     "tiempo_prep": "2 min",
-    "dificultad": "Muy facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion",
     "conservacion": "Conservar el trozo seco; limpiar antes de cada uso",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5216,7 +4825,16 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "principios_activos": "Fucoidán (polisacárido sulfatado de Durvillaea antarctica): antiviral, inmunomodulador y anticoagulante. Ácido algínico: quelante de metales pesados y desintoxicante. Yodo orgánico: regulador tiroideo esencial.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1051,
@@ -5228,7 +4846,7 @@
     "dosis": "Administrar 1 taza tibia al paciente al inicio del machitun; la machi tambien puede tomar una cantidad pequeña para sintonizarse con el newen del enfermo",
     "modo_uso": "Este lawen ceremonial combina el poder del foye (arbol sagrado, antiinflamatorio y antimicrobiano), el triwe (purificador del aire, expectorante), el matico (cicatrizante y hemostativo) y el maqui (antioxidante y antiinflamatorio). La combinacion de sus cuatro newenes (fuerzas vitales) potencia el efecto curativo del machitun",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1-2 tazas ceremoniales",
     "conservacion": "Preparar fresco para cada machitun",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5258,7 +4876,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1052,
@@ -5270,7 +4890,7 @@
     "dosis": "Sumergirse o bañarse en el agua medicinal durante 20 a 30 minutos. Realizarlo al atardecer (hora de mayor newen segun la tradicion machi)",
     "modo_uso": "El bano de newen es prescrito por la machi para personas con decaimiento profundo, convalecencia prolongada, depresion o cuando se ha perdido la fuerza vital. El foye aporta su poder sagrado, el triwe limpia el aire viciado del cuerpo y el matico sana las heridas invisibles. La machi acompana el bano con cantos (ull) y toca el kultrun",
     "tiempo_prep": "20 min + bano",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 bano ceremonial",
     "conservacion": "Preparar fresco para cada sesion",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5300,48 +4920,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1053,
-    "titulo": "Jarabe de Miel de Ulmo y Quinchamali para Tos del Nino",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Mapuche",
-    "ingredientes": "300 ml de infusion de quinchamalí (15 g quinchamalí en 300 ml agua), 3 cucharadas de miel de ulmo (Eucryphia cordifolia)",
-    "preparacion": "Preparar la infusion de quinchamalí. Colar y dejar entibiar a menos de 40 grados. Agregar la miel de ulmo y mezclar bien.",
-    "dosis": "Para ninos de 3 a 12 anos: 1 cucharada 4 veces al dia. Para adultos: 2 cucharadas 4 veces al dia",
-    "modo_uso": "Oral — jarabe",
-    "tiempo_prep": "15 min",
-    "dificultad": "Facil",
-    "rendimiento": "Frasco de 300 ml (3 dias)",
-    "conservacion": "Refrigerar; usar en 3 dias",
-    "evidencia": "Respaldo cientifico",
-    "fuente_tradicion": "Medicina machi huilliche y lafkenche (MINSAL 2010; Gloria Montenegro, U. de Chile)",
-    "contraindicaciones": "NO dar miel a ninos MENORES DE 1 AÑO (riesgo de botulismo infantil). Si la tos es con silbido o dificultad para respirar, llevar al medico urgente",
-    "uso": "Tos del Nino: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
-    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
-    "propiedades": [
-      "antimicrobiano",
-      "cicatrizante",
-      "emoliente",
-      "inmunoestimulante",
-      "antioxidante"
     ],
-    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
-    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1054,
@@ -5353,7 +4934,7 @@
     "dosis": "1 a 2 vasos al dia como tonico preventivo, especialmente en temporada de invierno",
     "modo_uso": "La machi lafkenche combina el cochayuyo (rico en fucoidanos inmunomoduladores, vitamina B12 y minerales) con el maqui (antioxidante ORAC maximo entre frutas chilenas, antiinflamatorio). Esta combinacion fortalece las defensas naturales del organismo. Los estudios de la UdeC 2024 sobre cochayuyo confirman nuevas propiedades inmunomoduladoras",
     "tiempo_prep": "15 min + remojo",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1-2 vasos/dia",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -5382,48 +4963,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1055,
-    "titulo": "Infusion de Culen y Bailahuen para el Higado y las Emociones",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "10 g de hojas de culen, 8 g de ramas de bailahuen, 500 ml de agua hirviendo",
-    "preparacion": "Verter el agua hirviendo sobre ambas plantas. Reposar 12 minutos. Colar.",
-    "dosis": "2 tazas al dia: una en la manana en ayunas y otra antes de dormir, durante 10 dias",
-    "modo_uso": "Oral — infusión caliente",
-    "tiempo_prep": "14 min",
-    "dificultad": "Facil",
-    "rendimiento": "2 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
-    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO y en calculosis biliar. Si hay ictericia o dolor hepatico intenso, consultar medico. No combinar con medicamentos hepatotóxicos",
-    "uso": "Higado y las Emociones: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
-    "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
-    "propiedades": [
-      "digestivo",
-      "antiespasmódico",
-      "hipoglucemiante",
-      "antidiarreico",
-      "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1056,
@@ -5435,7 +4977,7 @@
     "dosis": "1 a 2 tazas/vasos al dia durante la convalecencia (2 a 4 semanas)",
     "modo_uso": "La machi prescribe esta preparacion para la convalecencia post enfermedad grave, post cirugia, postparto o tras el machitun. El foye aporta vitamina C y antibacterianos, el maqui aporta el maximo de antioxidantes de frutas chilenas y el cochayuyo aporta hierro, B12 y minerales. Triple accion: recuperacion inmunologica, antioxidante y nutricional",
     "tiempo_prep": "15 min + remojo cochayuyo",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1-2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Respaldo cientifico",
@@ -5465,7 +5007,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1057,
@@ -5477,7 +5021,7 @@
     "dosis": "Sahumar cada habitacion durante 3 a 5 minutos. Realizar al comenzar el dia o despues de una enfermedad en el hogar",
     "modo_uso": "Inhalación — respirar los vapores",
     "tiempo_prep": "10 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 sesion de purificacion",
     "conservacion": "No aplica",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5507,48 +5051,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
-  },
-  {
-    "id": 1058,
-    "titulo": "Mezcla de Bailahuen, Quinchamali y Culen para el Resfrío Mapuche",
-    "categoria": "Medicina Mapuche",
-    "origen": "Medicina Machi Mapuche",
-    "ingredientes": "5 g de bailahuen, 5 g de quinchamalí, 5 g de hojas de culen, 500 ml de agua hirviendo",
-    "preparacion": "Verter el agua sobre las tres plantas juntas. Reposar 12 minutos. Colar.",
-    "dosis": "3 tazas al dia al inicio del resfrío y durante los primeros 3 a 5 dias",
-    "modo_uso": "La machi lafkenche usa esta triple combinacion para resfrío con tos, fiebre y malestar general. El bailahuen aporta accion antipirética y diaforetica (promueve sudoracion), el quinchamalí aporta accion expectorante y antitusiva, y el culen aporta accion antiespasmódica que alivia los calambres y el malestar general",
-    "tiempo_prep": "14 min",
-    "dificultad": "Facil",
-    "rendimiento": "3 tazas",
-    "conservacion": "Refrigerar 24 h",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
-    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. CONTRAINDICADO EN CALCULOSIS BILIAR (bailahuen). Si el resfrío no mejora en 5 dias, consultar medico",
-    "uso": "Resfrío Mapuche: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
-    "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
-    "propiedades": [
-      "digestivo",
-      "antiespasmódico",
-      "hipoglucemiante",
-      "antidiarreico",
-      "carminativo"
     ],
-    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
-    "indicaciones_principales": [
-      "Enfermedades del püllü (espíritu)",
-      "Infecciones bacterianas y virales",
-      "Dolor e inflamación",
-      "Ritual de purificación y protección"
-    ],
-    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
-    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
-    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
-    "sinergia_plantas": [
-      "Maqui",
-      "Arrayán",
-      "Canelo"
-    ]
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche"
   },
   {
     "id": 1059,
@@ -5560,7 +5065,7 @@
     "dosis": "Cambiar la cataplasma cada 12 horas. Continuar hasta reduccion de la infeccion y cicatrizacion inicial",
     "modo_uso": "Tópico — cataplasma aplicada directamente sobre la piel",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 aplicacion por sesion",
     "conservacion": "Preparar fresco cada 12 h",
     "evidencia": "Respaldo cientifico",
@@ -5591,7 +5096,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1060,
@@ -5603,7 +5110,7 @@
     "dosis": "1 taza al dia como tonico de bienestar general; tomar con gratitud y en silencio segun la tradicion machi",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "14 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "1 taza ceremonial",
     "conservacion": "Refrigerar 24 h; mejor preparar fresco",
     "evidencia": "Saber ancestral mapuche y chileno",
@@ -5633,7 +5140,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1084,
@@ -5645,7 +5154,7 @@
     "dosis": "Administrado por la machi segun su diagnostico: generalmente 3-7 tazas durante la sesion del machitun (que puede durar toda la noche o varios dias). El bano del cuerpo con el lawen se combina con el consumo oral.",
     "modo_uso": "Oral + Bano ritual + Inhalacion de vapores durante el machitun",
     "tiempo_prep": "1 hora de preparacion (mas dias de preparacion espiritual de la machi)",
-    "dificultad": "Dificil (requiere conocimiento de machi)",
+    "dificultad": "Difícil",
     "rendimiento": "Para 1 sesion de machitun completa",
     "conservacion": "El lawen del machitun es sagrado y no se conserva: lo que sobre se derrama respetuosamente en la tierra (mapu) al finalizar la ceremonia.",
     "evidencia": "El machitun es la ceremonia de sanacion mapuche por excelencia, documentada desde el siglo XVII por Diego de Rosales (1674). La combinacion de foye, triwe y maqui tiene sustento farmacologico: el poligodial del foye tiene efecto antifungico e inmunomodulador; los flavonoides del maqui son antiinflamatorios; el triwe aporta alcaloides analgesicos. Documentado por Gutierrez (1985), Aukanaw (1995) y MINSAL (2010).",
@@ -5673,7 +5182,9 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
   },
   {
     "id": 1085,
@@ -5685,7 +5196,7 @@
     "dosis": "Bebida comunitaria durante el nguillatun (ceremonia de 2-3 dias): 1-2 tazas por persona en cada ritual del dia. No superar 6 tazas en total durante la ceremonia.",
     "modo_uso": "Oral (bebida ceremonial) + aspersion ritual sobre personas y animales",
     "tiempo_prep": "2 horas de preparacion ritual (mas dias de preparacion espiritual)",
-    "dificultad": "Dificil (requiere conocimiento de yatiri)",
+    "dificultad": "Difícil",
     "rendimiento": "Para comunidad de 20-50 personas",
     "conservacion": "El lawen nguillatun no se conserva: lo que sobre se derrama en la tierra como ofrenda final a la Pachamama.",
     "evidencia": "El nguillatun aymara es la ceremonia de sanacion y agradecimiento comunitaria mas importante. La combinacion de plantas del altiplano tiene sinergia farmacologica documentada: rica-rica (vasodilatador), muna (digestivo-adaptogeno), chachacoma (analgesico), ephedra (broncodilatador). Documentado por Villagran & Castro (2004) y por el Museo del Pueblo de Atacama (Aldunate 2003).",
@@ -5713,6 +5224,148 @@
       "Maqui",
       "Arrayán",
       "Canelo"
-    ]
+    ],
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual"
+  },
+  {
+    "id": 1493,
+    "titulo": "Decocción de Laurel Chileno para los Dolores de Cabeza Mapuche",
+    "categoria": "Medicina Mapuche",
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "1 hoja fresca de laurel chileno (Laurelia sempervirens / trihue), 500 ml de agua",
+    "preparacion": "Hervir el agua con la hoja de laurel chileno durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza (250 ml) cada 8 horas mientras dure el dolor de cabeza. No usar más de 3 días seguidos.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (500 ml)",
+    "conservacion": "Refrigerar hasta 24 horas. Calentar suavemente antes de consumir.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Mapuche Pewenche",
+    "contraindicaciones": "No usar durante el embarazo o lactancia sin consultar a un especialista en medicina mapuche. Evitar en caso de alergia al laurel. No administrar a niños menores de 12 años sin supervisión. No usar por períodos prolongados.",
+    "uso": "Dolores de cabeza persistentes y migrañas según la tradición mapuche: el laurel chileno ayuda a calmar el dolor y a reducir la presión en la cabeza.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "vasodilatador cerebral",
+      "calmante"
+    ],
+    "principios_activos": "Aceite esencial con safrol y cineol: acción analgésica y antiinflamatoria sobre el sistema nervioso central. Alcaloides isoquinolínicos: efecto vasodilatador cerebral que alivia la cefalea.",
+    "referencias": "Schmeda-Hirschmann G et al. Hypotensive effect of Laurelia sempervirens on normotensive rats. Phytother Res. 1994; Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1494,
+    "titulo": "Infusión de Romerillo Chileno para los Cólicos Estomacales Mapuche",
+    "categoria": "Medicina Mapuche",
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "1 cucharadita de hojas secas de romerillo chileno (Baccharis linearis), 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre el romerillo, tapar y dejar reposar 10 minutos. Colar y beber tibio después de las comidas.",
+    "dosis": "1 taza después de las comidas principales, hasta 2 veces al día. No usar más de 2 semanas seguidas.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Mapuche Pewenche",
+    "contraindicaciones": "No usar durante el embarazo sin consultar a un especialista en medicina mapuche. Evitar en caso de alergia a plantas de la familia Asteraceae. No administrar a niños menores de 6 años.",
+    "uso": "Cólicos estomacales y mala digestión según la tradición mapuche: el romerillo calma los espasmos del estómago y facilita la digestión después de las comidas.",
+    "propiedades": [
+      "digestivo",
+      "antiespasmódico",
+      "carminativo",
+      "estimulante estomacal"
+    ],
+    "principios_activos": "Aceite esencial con compuestos terpénicos: acción antiespasmódica y carminativa sobre la musculatura lisa gastrointestinal. Flavonoides: efecto antiinflamatorio sobre la mucosa digestiva.",
+    "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1495,
+    "titulo": "Cataplasma de Peumo para las Heridas según la Medicina Mapuche",
+    "categoria": "Medicina Mapuche",
+    "modulo": "mapuche",
+    "submodulo": "medicina_mapuche",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "Un puñado de hojas frescas de peumo (Cryptocarya alba), agua limpia para lavar",
+    "preparacion": "Lavar bien las hojas de peumo. Machacarlas en un mortero hasta obtener una pasta. Aplicar directamente sobre la herida limpia y cubrir con una gasa. Dejar actuar 2 horas y renovar la cataplasma.",
+    "dosis": "Aplicar 2 a 3 veces al día hasta observar mejoría de la herida. No usar más de 7 días seguidos sin evaluar.",
+    "modo_uso": "Tópico — cataplasma directa",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Mapuche Pewenche",
+    "contraindicaciones": "No aplicar sobre heridas profundas o muy sangrantes. Evitar en caso de alergia al peumo. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+    "uso": "Heridas superficiales y cortes según la tradición mapuche: las hojas de peumo ayudan a cerrar las heridas y previenen infecciones de la piel.",
+    "propiedades": [
+      "cicatrizante",
+      "antiséptico",
+      "astringente",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Taninos y flavonoides: acción astringente y antiséptica que protege la herida de infecciones. Compuestos fenólicos: efecto antiinflamatorio local que acelera la cicatrización.",
+    "referencias": "Simirgiotis MJ et al. Antioxidant capacity and inhibition of metabolic syndrome-associated enzymes by Cryptocarya alba fruits. 2023. PMID: 37605366; Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1496,
+    "titulo": "Baño de Vapor con Canelo para la Purificación Espiritual Mapuche",
+    "categoria": "Medicina Mapuche",
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "Un puñado de hojas frescas de canelo (Drimys winteri), 2 litros de agua",
+    "preparacion": "Hervir el agua con las hojas de canelo durante 15 minutos. Retirar del fuego. La persona se sienta cerca de la olla, cubierta con una manta, para recibir el vapor aromático durante 10-15 minutos, en un ambiente tranquilo y respetuoso.",
+    "dosis": "Realizar 1 sesión cuando se necesite purificación espiritual o alivio de dolores. Máximo 1 vez por semana.",
+    "modo_uso": "Inhalación de vapor — baño de vapor ritual",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Mapuche Pewenche",
+    "contraindicaciones": "No usar en niños menores de 6 años sin supervisión. Precaución con el vapor caliente para evitar quemaduras. No usar en caso de fiebre alta o infección respiratoria grave. Respetar el carácter sagrado del ritual.",
+    "uso": "Purificación espiritual, limpieza energética y alivio de dolores reumáticos según la tradición mapuche: el canelo es un árbol sagrado que limpia el cuerpo y el espíritu.",
+    "propiedades": [
+      "purificante",
+      "antiséptico",
+      "antiinflamatorio",
+      "calmante espiritual"
+    ],
+    "principios_activos": "Aceite esencial rico en cineol y pineno: acción antiséptica y antiinflamatoria sobre las vías respiratorias. Compuestos aromáticos: efecto calmante sobre el sistema nervioso central.",
+    "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1497,
+    "titulo": "Limpieza Energética con Canelo y Romero para Restaurar el Newen",
+    "categoria": "Medicina Mapuche",
+    "modulo": "mapuche",
+    "submodulo": "espiritual_ritual",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "3 hojas de canelo (Drimys winteri), 1 ramita de romero (Rosmarinus officinalis), 1 litro de agua",
+    "preparacion": "Hervir el agua con las hojas de canelo y el romero durante 10 minutos. Dejar entibiar. Con un ramo de hojas frescas, asperjar el agua por todos los rincones del hogar y sobre la persona, con intención de limpiar y renovar la energía.",
+    "dosis": "Realizar la limpieza energética 1 vez al mes o cuando se sienta el newen (fuerza vital) bajo.",
+    "modo_uso": "Ritual — aspersión y sahumerio",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 litro de agua para limpieza",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Mapuche Pewenche",
+    "contraindicaciones": "Respetar el carácter sagrado del ritual. No usar en caso de alergia a las plantas. No sustituye la atención médica convencional cuando sea necesaria.",
+    "uso": "Falta de energía vital (newen), decaimiento y sensación de estancamiento según la cosmovisión mapuche: el canelo y el romero restauran la fuerza espiritual y limpian las malas energías.",
+    "propiedades": [
+      "purificante",
+      "energizante",
+      "revitalizante",
+      "limpiador energético"
+    ],
+    "principios_activos": "Aceites esenciales de canelo y romero: acción purificante y revitalizante por vía inhalatoria. Compuestos aromáticos: efecto estimulante sobre el sistema nervioso central.",
+    "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
   }
 ]

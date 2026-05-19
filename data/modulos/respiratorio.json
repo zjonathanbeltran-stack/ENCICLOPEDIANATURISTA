@@ -41,7 +41,9 @@
       "saúco",
       "llantén",
       "menta"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 6,
@@ -74,7 +76,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina-3-glucósido): propiedades antioxidantes y antimicrobianas. Ácido elágico: actividad antiinflamatoria y antiproliferativa. Vitamina C: estimulante inmunológico y cicatrizante.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 13,
@@ -117,7 +128,9 @@
       "llantén",
       "tomillo",
       "saúco"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 15,
@@ -129,7 +142,7 @@
     "dosis": "1 taza caliente 3–4 veces al día; endulzar con miel si se desea",
     "modo_uso": "Oral — jarabe",
     "tiempo_prep": "25 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -150,7 +163,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 18,
@@ -183,7 +205,17 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina-3,7-β-O-diglucósido, y derivados de delfinidina, petunidina, peonidina y malvidina): potentes antioxidantes vasculares; reducen LDL oxidado. Ácido 5-caffeoilquínico: el hidroxicinamato más concentrado; antioxidante y hepatoprotector. Ácidos caffeoilglucáricos: antiinflamatorios y antioxidantes. Flavonoles (kaempferol, quercetina): antiinflamatorios.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante",
+      "antimicrobiano"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 22,
@@ -216,7 +248,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Diterpenoides mulinano y azorellano: antiinflamatorios y analgésicos por inhibición de COX-2. Flavonoides: antioxidantes y espasmolíticos. Compuestos fenólicos: antisépticos.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 23,
@@ -256,7 +297,9 @@
       "saúco",
       "tilo",
       "matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 29,
@@ -298,7 +341,9 @@
       "llantén",
       "tilo",
       "eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 30,
@@ -331,7 +376,16 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Leucoantocianidinas y proantocianidinas: antiinflamatorias y antimicrobianas. Taninos condensados: astringentes sobre mucosas respiratorias. Goma de algarrobo (galactomanano): emoliente y expectorante.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "broncodilatador",
+      "antiséptico"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 31,
@@ -343,7 +397,7 @@
     "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "8 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -373,7 +427,9 @@
       "saúco",
       "manzanilla",
       "boldo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 33,
@@ -385,7 +441,7 @@
     "dosis": "1 taza caliente 3–4 veces al día; endulzar con miel si se desea",
     "modo_uso": "Oral — jarabe",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -416,7 +472,9 @@
       "eucalipto",
       "llantén",
       "matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 41,
@@ -449,7 +507,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina-3-O-glucósido y cianidina-3-O-rutinósido, en tépalos): vasculoprotectoras y antioxidantes; responsables del color del copihue rojo. Compuestos volátiles (limoneno 29%, aldehídos aromáticos ~42%): aromaterapéuticos. Flavonoles: antioxidantes. Uso medicinal basado en tradición mapuche; investigación farmacológica publicada limitada a composición fitoquímica.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 47,
@@ -491,7 +558,9 @@
       "matico",
       "manzanilla",
       "tomillo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 53,
@@ -533,7 +602,9 @@
       "tomillo",
       "matico",
       "menta"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 55,
@@ -566,7 +637,16 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiviral",
+      "diaforético",
+      "antipirético"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 73,
@@ -608,7 +688,9 @@
       "llantén",
       "tomillo",
       "eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 81,
@@ -650,7 +732,9 @@
       "llantén",
       "matico",
       "manzanilla"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 86,
@@ -691,7 +775,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 90,
@@ -733,7 +819,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 94,
@@ -766,7 +854,16 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "principios_activos": "Ácido nordihidroguaiarético — NDGA (lignano): potente antioxidante e inhibidor de lipoxigenasas; antiinflamatorio y antimicrobiano. Nordihydroguaiaretic acid: activo contra Mycobacterium tuberculosis. Flavonoides: fotoprotectores y antioxidantes.",
+    "propiedades": [
+      "expectorante",
+      "broncodilatador",
+      "mucolítico",
+      "antiséptico respiratorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 96,
@@ -808,7 +905,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 97,
@@ -849,7 +948,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 109,
@@ -861,7 +962,7 @@
     "dosis": "1 taza caliente 3–4 veces al día; endulzar con miel si se desea",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "13 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -882,7 +983,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Beta-glucanos de cebada fermentada: emolientes y antiinflamatorios. Enzimas (amilasas, proteasas): demulcentes. Vitaminas del complejo B: soporte metabólico y expectorante leve.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 115,
@@ -915,7 +1025,16 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "astringente",
+      "analgésico local"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 116,
@@ -927,7 +1046,7 @@
     "dosis": "Gárgaras 3–4 veces al día; 1 taza 2–3 veces al día si es para beber",
     "modo_uso": "Oral — infusión tibia / gárgaras",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -956,7 +1075,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 141,
@@ -996,7 +1117,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 142,
@@ -1038,7 +1161,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 143,
@@ -1050,7 +1175,7 @@
     "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1080,7 +1205,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 147,
@@ -1092,7 +1219,7 @@
     "dosis": "1 taza caliente 3–4 veces al día; endulzar con miel si se desea",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "12 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1122,7 +1249,96 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
+  },
+  {
+    "titulo": "Lawen de Radal para Tos y Bronquios",
+    "categoria": "Tos",
+    "origen": "Mapuche Pewenche",
+    "ingredientes": "10 g de flores o corteza interna de radal (Lomatia hirsuta), 500 ml de agua, miel de ulmo al gusto.",
+    "preparacion": "Hervir la corteza en agua 10 minutos. Retirar del fuego, colar y endulzar con miel. Beber una taza caliente 3 veces al día. Usado por los lawentuchefe para tratamientos de tos persistente y afecciones bronquiales.",
+    "id": 202,
+    "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
+    "modo_uso": "Oral — infusión (lawen) o aplicación externa según preparación",
+    "tiempo_prep": "15 min",
+    "dificultad": "Media",
+    "rendimiento": "2 tazas",
+    "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
+    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+    "fuente_tradicion": "Mapuche",
+    "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
+    "uso": "Tos y Bronquios: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos. | 2-Metoxijuglona (naftoquinona): actividad antifúngica y antibacteriana sobre patógenos respiratorios. Flavonoides (quercetina, catequina): broncodilatadores leves por relajación del músculo liso bronquial vía inhibición de fosfodiesterasas. Ácidos fenólicos: acción antiinflamatoria complementaria.",
+    "propiedades": [
+      "antimicrobiano",
+      "cicatrizante",
+      "emoliente",
+      "inmunoestimulante",
+      "antioxidante",
+      "antiespasmódico bronquial"
+    ],
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Broncodilatadores: puede potenciar su efecto vasodilatador.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
+  },
+  {
+    "titulo": "Decocción de Arrayán para Infecciones de Garganta",
+    "categoria": "Garganta",
+    "origen": "Mapuche / Popular Patagónico",
+    "ingredientes": "15 g de hojas y ramas tiernas de arrayán (Luma apiculata), 500 ml de agua.",
+    "preparacion": "Hervir a fuego suave durante 10 minutos. Colar. Usar como gargarismo tibio 4-5 veces al día y beber una taza 2 veces al día. El arrayán tiene propiedades antisépticas ampliamente reconocidas en la medicina mapuche y patagónica.",
+    "id": 208,
+    "dosis": "Según indicación del machi; generalmente 1 taza 2 veces al día",
+    "modo_uso": "Oral — decocción; Tópico — gargarismo",
+    "tiempo_prep": "15 min",
+    "dificultad": "Media",
+    "rendimiento": "2 tazas",
+    "conservacion": "Preparar fresco cada día; parte del protocolo de medicina mapuche",
+    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+    "fuente_tradicion": "Mapuche",
+    "contraindicaciones": "Preferiblemente preparar bajo orientación de un machi o especialista en medicina mapuche.",
+    "uso": "Infecciones de Garganta: los taninos producen astringencia sobre tejidos inflamados y el aceite esencial ejerce acción antiséptica directa.",
+    "principios_activos": "Taninos condensados: forman complejos con proteínas superficiales bacterianas generando efecto antiséptico y hemostático. Aceite esencial (α-pineno, cineol, metil eugenol, mirtenol): disrumpe membranas bacterianas. Flavonoides (miricetina, quercetina): antioxidantes y antiinflamatorios locales.",
+    "propiedades": [
+      "astringente",
+      "antiséptico",
+      "antiinflamatorio",
+      "antidiarreico",
+      "cicatrizante"
+    ],
+    "referencias": "Concha J. et al. Antimicrobial Activity Arrayan. ResearchGate 2020; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "titulo": "Jarabe de Cebolla y Miel para la Tos con Flemas",
@@ -1164,7 +1380,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Vapores de Eucalipto y Tomillo para Congestión",
@@ -1206,7 +1424,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Infusión de Llantén con Anís para Flemas",
@@ -1218,7 +1438,7 @@
     "dosis": "1 taza caliente 3 veces al día, preferiblemente antes de las comidas",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "7 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1248,7 +1468,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Jarabe de Rábano Negro con Miel y Limón",
@@ -1290,7 +1512,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Infusión de Tomillo, Orégano y Miel para Tos Productiva",
@@ -1302,7 +1526,7 @@
     "dosis": "1 taza caliente 3 veces al día, preferiblemente antes de las comidas",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "13 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1332,7 +1556,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Cataplasma Caliente de Mostaza para el Pecho",
@@ -1365,7 +1591,17 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "broncodilatador",
+      "antiséptico",
+      "emoliente"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Infusión de Saúco para Bajar la Fiebre",
@@ -1377,7 +1613,7 @@
     "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1406,7 +1642,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Infusión de Menta y Saúco para Fiebre Alta",
@@ -1418,7 +1656,7 @@
     "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1447,7 +1685,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Compresas Frías de Vinagre para Bajar la Fiebre",
@@ -1480,7 +1720,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Ácido acético: antimicrobiano por reducción de pH. Ácido málico y ácido tartárico: alcalinizantes urinarios. Polifenoles (en vinagre de manzana): antioxidantes.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Infusión de Corteza de Sauce con Limón para la Fiebre",
@@ -1492,7 +1741,7 @@
     "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1522,7 +1771,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Baño Tibio con Albahaca y Romero para Bajar la Fiebre",
@@ -1534,7 +1785,7 @@
     "dosis": "1 taza cada 4 horas mientras persiste la fiebre; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión tibia / Baño externo complementario",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1563,7 +1814,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Caldo de Pollo con Ajo, Jengibre y Tomillo para el Resfrío",
@@ -1575,7 +1828,7 @@
     "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "45 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1605,7 +1858,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "titulo": "Grog Chileno: Miel, Limón, Canela y Clavo",
@@ -1617,7 +1872,7 @@
     "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1647,7 +1902,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "titulo": "Inhalación de Eucalipto, Menta y Ajo para Congestión del Resfrío",
@@ -1689,7 +1946,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "titulo": "Jarabe de Cebolla Morada, Ajo y Miel para el Resfrío",
@@ -1731,7 +1990,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "titulo": "Té de Jengibre, Miel y Pimienta de Cayena para el Resfrío",
@@ -1743,7 +2004,7 @@
     "dosis": "1 taza caliente cada 4–6 horas; máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Consumir el mismo día",
     "evidencia": "Uso tradicional documentado",
@@ -1773,7 +2034,9 @@
       "Ajo",
       "Saúco",
       "Jengibre"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 414,
@@ -1814,7 +2077,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 423,
@@ -1856,7 +2121,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 424,
@@ -1897,7 +2164,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 425,
@@ -1939,7 +2208,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 426,
@@ -1951,7 +2222,7 @@
     "dosis": "1 cucharada 4 veces al día",
     "modo_uso": "Oral — jarabe",
     "tiempo_prep": "30 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Refrigerar 5 días",
     "evidencia": "Uso tradicional documentado",
@@ -1980,7 +2251,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 427,
@@ -2021,7 +2294,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 428,
@@ -2062,7 +2337,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 429,
@@ -2074,7 +2351,7 @@
     "dosis": "Aplicar en pecho y espalda antes de dormir",
     "modo_uso": "Masajear en círculos y cubrir con ropa de abrigo",
     "tiempo_prep": "14 días macerando",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 ml",
     "conservacion": "Frasco oscuro 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -2103,7 +2380,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 430,
@@ -2144,7 +2423,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 431,
@@ -2177,7 +2458,16 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "principios_activos": "Alantoína: cicatrizante y regeneradora de mucosa bronquial. Mucílagos: demulcentes sobre bronquios irritados. Silicio orgánico: fortalece tejido epitelial pulmonar. Ácido rosmarínico: antiinflamatorio.",
+    "propiedades": [
+      "expectorante",
+      "broncodilatador",
+      "mucolítico",
+      "antiséptico respiratorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 432,
@@ -2210,7 +2500,16 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
+    "propiedades": [
+      "expectorante",
+      "broncodilatador",
+      "mucolítico",
+      "antiséptico respiratorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 433,
@@ -2251,7 +2550,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 434,
@@ -2292,7 +2593,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 435,
@@ -2334,7 +2637,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 436,
@@ -2375,7 +2680,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 437,
@@ -2387,7 +2694,7 @@
     "dosis": "Aplicar en pecho y espalda antes de dormir",
     "modo_uso": "Solo uso externo; masajear suavemente",
     "tiempo_prep": "20 min + enfriado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 g",
     "conservacion": "Temperatura ambiente 2 meses",
     "evidencia": "Uso tradicional documentado",
@@ -2417,7 +2724,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 658,
@@ -2458,7 +2767,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 659,
@@ -2491,7 +2802,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 660,
@@ -2524,7 +2844,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Sambunigrina (glucósido cianogénico): en bayas crudas; flores y bayas cocidas son seguras. Rutina y quercetina: antiinflamatorios y antivirales. Lectinas (sambucus nigra aglutinina): inmunomoduladoras.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 661,
@@ -2563,7 +2892,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 662,
@@ -2603,7 +2934,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 663,
@@ -2644,7 +2977,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 664,
@@ -2686,7 +3021,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 665,
@@ -2727,7 +3064,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 666,
@@ -2759,7 +3098,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Alcanfor (monoterpeno bicíclico): analgésico tópico por activación/desensibilización de TRPV1 y TRPM8; rubefaciente. Borneol: antiinflamatorio y antimicrobiano. Cineol: descongestionante y anestésico local.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 667,
@@ -2791,7 +3139,101 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
+    "propiedades": [
+      "antipirético",
+      "diaforético",
+      "antiinflamatorio",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
+  },
+  {
+    "id": 682,
+    "titulo": "Remedio de Bailahuen y Menta para la Gripe",
+    "categoria": "Resfriados",
+    "origen": "Medicina Mapuche",
+    "ingredientes": "5 ramitas de bailahuen (Haplopappus baylahuen), 5 hojas de menta, 1 L de agua",
+    "preparacion": "Hervir el agua. Infundir ambas plantas 15 min. Colar.",
+    "dosis": "3 tazas al día durante la gripe",
+    "modo_uso": "Tomar caliente; el bailahuen es un lawen mapuche clásico",
+    "tiempo_prep": "18 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Medicina mapuche popular",
+    "contraindicaciones": "No usar en embarazo; el bailahuen puede afectar el hígado en exceso",
+    "uso": "Gripe: el mentol relaja el músculo liso intestinal antagonizando canales de calcio y activa receptores TRPM8 con efecto analgésico tópico.",
+    "principios_activos": "Mentol (35-55% del aceite esencial): antagonista dosis-dependiente de canales de calcio tipo L en músculo liso intestinal (antiespasmódico); agonista de receptores TRPM8 de \"frío\" produciendo analgesia contrarritante. Mentona y acetato de mentilo: acción colerética.",
+    "propiedades": [
+      "antiespasmódico",
+      "digestivo",
+      "carminativo",
+      "analgésico local",
+      "expectorante"
+    ],
+    "referencias": "Grigoleit HG. & Grigoleit P. Phytomedicine 2005; 12(8):601-606; Taylor BA. et al. Br J Clin Pharmacol 1985; WHO Monographs Vol.2 (2002); MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "id": 817,
+    "titulo": "Té de Notro para el Dolor de Garganta",
+    "categoria": "Garganta",
+    "origen": "Medicina Mapuche",
+    "ingredientes": "5 flores de notro (Embothrium coccineum) secas, 300 ml de agua",
+    "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
+    "dosis": "2 tazas al día durante el dolor de garganta",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Medicina mapuche del sur de Chile",
+    "contraindicaciones": "No exceder; verificar identificación correcta",
+    "uso": "Dolor de Garganta. Preparación medicinal mapuche.",
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 840,
@@ -2833,7 +3275,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 841,
@@ -2874,7 +3318,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 842,
@@ -2915,7 +3361,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 843,
@@ -2956,7 +3404,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 844,
@@ -2998,7 +3448,9 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 845,
@@ -3040,7 +3492,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 846,
@@ -3082,7 +3536,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 847,
@@ -3123,7 +3579,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 848,
@@ -3135,7 +3593,7 @@
     "dosis": "20 gotas en agua 3 veces al día, máximo 10 días seguidos",
     "modo_uso": "No usar más de 10 días sin descanso",
     "tiempo_prep": "28 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "250 ml",
     "conservacion": "Frasco oscuro 2 años",
     "evidencia": "Uso tradicional documentado",
@@ -3164,7 +3622,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 849,
@@ -3206,7 +3666,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 850,
@@ -3239,7 +3701,16 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "astringente",
+      "analgésico local"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 851,
@@ -3280,7 +3751,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 852,
@@ -3322,7 +3795,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 853,
@@ -3364,7 +3839,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 854,
@@ -3397,7 +3874,16 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles): antioxidante liposoluble de alta concentración; frena el envejecimiento cutáneo. Escualeno: emoliente y regenerador de barrera lipídica. Ácidos grasos (oleico y linoleico): nutrición y restauración de cutícula capilar.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "astringente",
+      "analgésico local"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 855,
@@ -3430,7 +3916,16 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "principios_activos": "Marrubina e isopinocanfona (diterpenos): expectorantes y mucolíticos; estimulan secreciones bronquiales. Flavonoides (diosmina, hesperidina): venotónicos y antiinflamatorios. Aceites esenciales: antisépticos.",
+    "propiedades": [
+      "bequico",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 856,
@@ -3471,7 +3966,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 857,
@@ -3483,7 +3980,7 @@
     "dosis": "1 caramelo cada 3-4 horas",
     "modo_uso": "Dejar que se disuelva lentamente en la boca",
     "tiempo_prep": "15 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "15-20 caramelos",
     "conservacion": "Temperatura ambiente (envueltos) 2 semanas",
     "evidencia": "Uso tradicional documentado",
@@ -3513,7 +4010,51 @@
       "Salvia",
       "Tomillo",
       "Miel de ulmo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "id": 930,
+    "titulo": "Infusion de Chupalla para la Tos Mapuche",
+    "categoria": "Tos",
+    "origen": "Medicina Mapuche",
+    "ingredientes": "5 flores de chupalla (Fascicularia bicolor), 300 ml de agua",
+    "preparacion": "Hervir el agua. Infundir las flores 10 min. Colar.",
+    "dosis": "2 tazas al dia",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Medicina mapuche",
+    "contraindicaciones": "Verificar identificacion correcta",
+    "uso": "Tos Mapuche. Preparación medicinal mapuche.",
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Flavonoides y taninos (Fascicularia bicolor): antioxidantes y antiinflamatorios. Mucílagos: emolientes sobre bronquios irritados. Saponinas: bequicas y expectorantes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 978,
@@ -3554,7 +4095,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 979,
@@ -3587,7 +4130,16 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "principios_activos": "Seneginas A y B (saponinas triterpénicas): expectorantes potentes; irritan la mucosa bronquial estimulando el reflejo tusígeno. Xantinas: antiinflamatorias. Polisacáridos: inmunomoduladores.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "broncodilatador",
+      "antiséptico"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 980,
@@ -3629,7 +4181,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 981,
@@ -3670,7 +4224,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 982,
@@ -3711,7 +4267,351 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
+  },
+  {
+    "id": 1006,
+    "titulo": "Gargaras de Foye para Anginas y Dolor de Muelas",
+    "categoria": "Garganta",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "5 g de corteza de foye, 300 ml de agua",
+    "preparacion": "Hervir la corteza 5 minutos. Colar y dejar entibiar (no fria, no caliente quemante).",
+    "dosis": "Gargaras durante 30 segundos, 4 a 5 veces al dia",
+    "modo_uso": "Para anginas: gargaras profundas llegando a la garganta. Para dolor de muelas: retener el liquido en el lado afectado. La machi usa esta preparacion al inicio del machitun para limpiar la boca del enfermo",
+    "tiempo_prep": "8 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 sesiones",
+    "conservacion": "Refrigerar 24 h, templar antes de usar",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+    "contraindicaciones": "Moderadamente amargo y acre. No tragar en grandes cantidades. Evitar en embarazo",
+    "uso": "Anginas y Dolor de Muelas: el poligodial bloquea la transmisión dolorosa y reduce mediadores inflamatorios.",
+    "principios_activos": "Poligodial (sesquiterpeno dialdeído, Drimys winteri): inhibe canales Nav1.7/Nav1.8 y modula receptores TRPA1 con efecto antinociceptivo potente. Vitamina C y taninos: actividad antioxidante y antiséptica complementaria.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiséptico",
+      "febrífugo",
+      "ceremonial mapuche"
+    ],
+    "referencias": "Burgos RA. et al. J Ethnopharmacol 1999; González-Coloma A. et al. Phytochem Rev 2022; Aukanaw 2002; Villagrán & Castro 2003; Hoffmann 1992",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "id": 1018,
+    "titulo": "Gargaras de Pangue para Anginas y Faringitis",
+    "categoria": "Garganta",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "4 peciolos de nalca troceados, 500 ml de agua",
+    "preparacion": "Hervir 10 minutos. Colar y entibiar. La decoccion tendra sabor muy astringente.",
+    "dosis": "Gargaras profundas durante 30 segundos, 4 a 6 veces al dia",
+    "modo_uso": "La machi usa las gargaras de pangue en anginas y faringitis graves. El acido tanico tiene accion antibacteriana y antiinflamatoria directa sobre la mucosa faringea. Complementar bebiendo 1 taza de la misma decoccion 3 veces al dia",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "6 sesiones de gargaras",
+    "conservacion": "Refrigerar 24 h; templar antes de usar",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche (Aukanaw; MINSAL 2010)",
+    "contraindicaciones": "Si la angina es bacteriana y hay fiebre alta, requiere antibioticos. Las gargaras complementan el tratamiento. No tragar en exceso",
+    "uso": "Anginas y Faringitis: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+    "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+    "propiedades": [
+      "antioxidante",
+      "astringente",
+      "antiinflamatorio",
+      "nutritivo",
+      "digestivo"
+    ],
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "id": 1032,
+    "titulo": "Infusion de Corteza de Quillay para Tos y Bronquitis",
+    "categoria": "Tos",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "4 g de corteza interna de quillay (la corteza blanca, no la gris externa), 500 ml de agua caliente",
+    "preparacion": "Verter el agua caliente (no hirviendo) sobre la corteza interna. Reposar 15 minutos. Colar con cuidado.",
+    "dosis": "2 a 3 tazas al dia durante 5 dias maximos para tos y bronquitis",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "17 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2-3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; Farmacopea Europea; SEFIT 2020)",
+    "contraindicaciones": "No superar 5 dias de uso interno sin supervision. Las saponinas en exceso son hemolisticas. No usar en ninos pequenos ni embarazadas. Si la tos tiene sangre o fiebre alta, consultar medico",
+    "uso": "Tos y Bronquitis: las saponinas quilaicas reducen la tensión superficial del moco bronquial favoreciendo su fluidificación y expectoración.",
+    "principios_activos": "Saponinas triterpénicas (QS-7, QS-17, QS-21 derivadas del ácido quilaico): reducen la tensión superficial de membranas mucosas facilitando la eliminación del moco; modulan la respuesta inmune innata activando macrófagos. Activas frente a bacterias y hongos respiratorios.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "inmunoestimulante",
+      "antiséptico",
+      "antifúngico"
+    ],
+    "referencias": "Kensil CR. Crit Rev Ther Drug Carrier Syst 1996; 13(1-2):1-55; Muñoz et al. 1999; Hoffmann 1992; Montes & Wilkomirsky 1985",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
+  },
+  {
+    "id": 1041,
+    "titulo": "Infusion de Quinchamali para Tos y Bronquitis",
+    "categoria": "Tos",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "12 g de planta de quinchamalí seca (hojas, tallos y flores), 500 ml de agua hirviendo",
+    "preparacion": "Verter el agua hirviendo sobre la planta seca. Reposar 12 minutos. Colar.",
+    "dosis": "3 tazas al dia, preferiblemente con miel de ulmo si hay disponibilidad",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "14 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+    "contraindicaciones": "No usar mas de 2 semanas sin supervision. CONTRAINDICADO EN EMBARAZO y lactancia (datos de seguridad insuficientes). En tos con sangre o dificultad respiratoria grave, consultar medico urgente",
+    "uso": "Tos y Bronquitis. Preparación medicinal mapuche.",
+    "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004; Houghton & Manby 1985)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
+  },
+  {
+    "id": 1042,
+    "titulo": "Decoccion de Quinchamali con Miel de Ulmo para Resfrío",
+    "categoria": "Resfriados",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "15 g de quinchamalí fresco, 500 ml de agua, 2 cucharadas de miel de ulmo (Eucryphia cordifolia)",
+    "preparacion": "Hervir el quinchamalí en el agua 5 minutos. Colar. Dejar entibiar a menos de 40 grados. Agregar la miel de ulmo (nunca agregar la miel al agua hirviendo, pues destruye sus enzimas y principios activos).",
+    "dosis": "3 tazas al dia en resfriado agudo",
+    "modo_uso": "Oral — decocción",
+    "tiempo_prep": "8 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h; templar antes de cada uso",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010; Gloria Montenegro, Universidad de Chile)",
+    "contraindicaciones": "No dar miel a ninos menores de 1 año (riesgo de botulismo infantil). No usar en embarazo. Si el resfrío no mejora en 7 dias, consultar medico",
+    "uso": "Resfrío: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+    "propiedades": [
+      "antimicrobiano",
+      "cicatrizante",
+      "emoliente",
+      "inmunoestimulante",
+      "antioxidante"
+    ],
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "id": 1045,
+    "titulo": "Vapor de Triwe para Resfrío y Gripe",
+    "categoria": "Resfriados",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "50 g de hojas y ramas de triwe frescas, 2 litros de agua",
+    "preparacion": "Hervir el triwe en el agua 5 minutos. Retirar del fuego. Inhalar el vapor inclinando la cabeza sobre el recipiente, cubriendo con una toalla.",
+    "dosis": "Inhalar 10 a 15 minutos, 2 veces al dia en resfrío agudo",
+    "modo_uso": "Inhalación — respirar los vapores",
+    "tiempo_prep": "7 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 sesiones",
+    "conservacion": "Preparar fresco cada sesion",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
+    "contraindicaciones": "Mantener distancia del vapor caliente. No usar en ninos sin supervision. Asmaticos: consultar antes, ya que vapores intensos pueden provocar broncoespasmo",
+    "uso": "Resfrío y Gripe. Preparación medicinal mapuche.",
+    "referencias": "Medicina machi mapuche (CONAF 2004; MINSAL 2010)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Poligodial y drimanial (sesquiterpenos dialdeídos): antiinflamatorios potentes y antimicrobianos. Terpenos fenólicos: antisépticos respiratorios. Flavonoides: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "id": 1053,
+    "titulo": "Jarabe de Miel de Ulmo y Quinchamali para Tos del Nino",
+    "categoria": "Tos",
+    "origen": "Medicina Mapuche",
+    "ingredientes": "300 ml de infusion de quinchamalí (15 g quinchamalí en 300 ml agua), 3 cucharadas de miel de ulmo (Eucryphia cordifolia)",
+    "preparacion": "Preparar la infusion de quinchamalí. Colar y dejar entibiar a menos de 40 grados. Agregar la miel de ulmo y mezclar bien.",
+    "dosis": "Para ninos de 3 a 12 anos: 1 cucharada 4 veces al dia. Para adultos: 2 cucharadas 4 veces al dia",
+    "modo_uso": "Oral — jarabe",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Frasco de 300 ml (3 dias)",
+    "conservacion": "Refrigerar; usar en 3 dias",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi huilliche y lafkenche (MINSAL 2010; Gloria Montenegro, U. de Chile)",
+    "contraindicaciones": "NO dar miel a ninos MENORES DE 1 AÑO (riesgo de botulismo infantil). Si la tos es con silbido o dificultad para respirar, llevar al medico urgente",
+    "uso": "Tos del Nino: la acción antimicrobiana multicomponente inhibe el crecimiento de patógenos incluso resistentes y estimula la regeneración tisular.",
+    "principios_activos": "Glucosa oxidasa (aportada por abejas): genera H2O2 continuamente al diluirse en heridas produciendo efecto bactericida sin toxicidad tisular. Defensina-1 (péptido antimicrobiano): activo frente a MRSA y P. aeruginosa. Alta osmolaridad y pH ácido (3,2-4,5): inhiben proliferación de la mayoría de patógenos.",
+    "propiedades": [
+      "antimicrobiano",
+      "cicatrizante",
+      "emoliente",
+      "inmunoestimulante",
+      "antioxidante"
+    ],
+    "referencias": "Kwakman PH. et al. FASEB J 2010; 24(7):2576-2582; Molan PC. Bee World 1992; 73(1):5-28; Muñoz et al. 1999",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
+  },
+  {
+    "id": 1058,
+    "titulo": "Mezcla de Bailahuen, Quinchamali y Culen para el Resfrío Mapuche",
+    "categoria": "Resfriados",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "5 g de bailahuen, 5 g de quinchamalí, 5 g de hojas de culen, 500 ml de agua hirviendo",
+    "preparacion": "Verter el agua sobre las tres plantas juntas. Reposar 12 minutos. Colar.",
+    "dosis": "3 tazas al dia al inicio del resfrío y durante los primeros 3 a 5 dias",
+    "modo_uso": "La machi lafkenche usa esta triple combinacion para resfrío con tos, fiebre y malestar general. El bailahuen aporta accion antipirética y diaforetica (promueve sudoracion), el quinchamalí aporta accion expectorante y antitusiva, y el culen aporta accion antiespasmódica que alivia los calambres y el malestar general",
+    "tiempo_prep": "14 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
+    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. CONTRAINDICADO EN CALCULOSIS BILIAR (bailahuen). Si el resfrío no mejora en 5 dias, consultar medico",
+    "uso": "Resfrío Mapuche: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
+    "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+    "propiedades": [
+      "digestivo",
+      "antiespasmódico",
+      "hipoglucemiante",
+      "antidiarreico",
+      "carminativo"
+    ],
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi lafkenche (CONAF 2004; MINSAL 2010; Houghton & Manby 1985)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "id": 1069,
@@ -3722,8 +4622,8 @@
     "preparacion": "1. Lavar bien las murtillas y las hojas de tepu. 2. Hervir el agua y agregar las hojas de tepu. Cocer 10 minutos. 3. Agregar las murtillas al caldo caliente, aplastar con cuchara de madera para liberar jugos. 4. Continuar a fuego bajo 5 minutos mas. 5. Colar con cedazo fino, expresando bien los frutos. 6. Agregar la miel cuando este tibio y el jugo de limon. El resultado debe ser una bebida rosada y dulce.",
     "dosis": "Ninos 2-5 anos: media taza (100 ml) cada 4 horas. Ninos 6-12 anos: 1 taza (200 ml) cada 4 horas. Adultos: 2 tazas cada 4 horas. Continuar hasta que baje la fiebre.",
     "modo_uso": "Oral (bebida medicinal)",
-    "tiempo_prep": "25 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
     "rendimiento": "3 tazas",
     "conservacion": "Refrigerar hasta 24 horas. Preparar fresco para cada dia.",
     "evidencia": "La murtilla (Ugni molinae) es reconocida por su alto contenido de vitamina C y antocianinas con actividad antipiretica y antioxidante. Documentada por Villagran (2000) como lawen chilote fundamental. El tepu aporta propiedades diaforeticas (sudorificas) que facilitan la disminucion de la fiebre.",
@@ -3751,7 +4651,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 1075,
@@ -3762,8 +4664,8 @@
     "preparacion": "1. Remojar la laminaria en agua fria 30 minutos. 2. Hervir 2 litros de agua en olla grande. 3. Agregar la laminaria hidratada y hervir 10 minutos. 4. Apagar el fuego y agregar las hojas de menta en ultimo momento. 5. Colocar la olla en el suelo, inclinarse sobre ella con toalla cubriendo cabeza y olla. 6. Inhalar el vapor durante 10-15 minutos, respirando profundamente por nariz y boca alternadamente.",
     "dosis": "Una sesion de vapor 2 veces al dia (manana y noche) durante 5-7 dias para bronquitis aguda.",
     "modo_uso": "Inhalacion (vapor medicinal)",
-    "tiempo_prep": "50 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "50 min",
+    "dificultad": "Fácil",
     "rendimiento": "2 sesiones de vapor",
     "conservacion": "Usar el mismo dia de preparacion.",
     "evidencia": "La laminaria contiene fucoidan sulfatado con propiedades inmunomoduladoras y antivirales (Mitchell 1999). El vapor de agua facilita la expectoracion de mucosidades. La menta silvestre aporta mentol natural que dilata los bronquios. Uso lafkenche documentado por el MINSAL (2010).",
@@ -3791,7 +4693,9 @@
       "Eucalipto",
       "Llantén",
       "Matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 1081,
@@ -3802,8 +4706,8 @@
     "preparacion": "1. Recolectar el talhuen al amanecer, cuando el rocio del desierto ha humectado las hojas y los aceites estan concentrados. 2. Hervir el litro de agua. 3. Agregar el talhuen al agua hirviendo. 4. Reducir el fuego y cocer 20 minutos semitapado. 5. Apagar, tapar completamente y reposar 20 minutos. 6. Colar expresando bien el material. Agregar sal y miel cuando este tibio.",
     "dosis": "En fiebre aguda: 1 taza cada 3 horas hasta que baje la temperatura. En fase de mantencion: 2 tazas al dia durante 7 dias.",
     "modo_uso": "Oral (decoccion) + aplicar compresa humedecida en la infusion sobre frente y munecas",
-    "tiempo_prep": "50 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "50 min",
+    "dificultad": "Fácil",
     "rendimiento": "4-5 tazas",
     "conservacion": "Refrigerar hasta 48 horas.",
     "evidencia": "El talhuen (Eupatorium glechonophyllum) es uno de los febrifugos mas importantes de la medicina atacamena del desierto de Atacama. Contiene lactonas sesquiterpenicas con actividad antipiretica y propiedades inmunomoduladoras. Documentado por Llagostera (1988) y el Museo Atacameno de San Pedro.",
@@ -3831,7 +4735,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 1094,
@@ -3872,7 +4778,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 1096,
@@ -3913,7 +4821,9 @@
       "Eucalipto",
       "Tomillo",
       "Llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 1097,
@@ -3954,7 +4864,9 @@
       "Cebolla",
       "Miel de ulmo",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 1100,
@@ -3995,7 +4907,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 1101,
@@ -4035,7 +4949,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "id": 1108,
@@ -4046,7 +4962,7 @@
     "preparacion": "Decocción suave 10 min con tomillo y matico. Retirar, agregar flores de paño y reposar 15 min tapado. Filtrar dos veces (los pelos de paño irritan). Mezclar con miel tibia hasta disolver.",
     "dosis": "1 cucharada cada 4 horas en adultos; 1 cdta en niños mayores de 5 años",
     "modo_uso": "Jarabe",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Media",
     "rendimiento": "Aprox. 600 ml",
     "conservacion": "Refrigerado, hasta 3 semanas",
@@ -4078,7 +4994,9 @@
       "Pañil",
       "Hierba del paño",
       "Eucalipto"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 1123,
@@ -4089,8 +5007,8 @@
     "preparacion": "Agua a hervor leve, retirar y agregar flores, tapar 12 min. Colar DOS VECES con tela fina para eliminar los pelos irritantes. Mezclar con miel tibia.",
     "dosis": "1 taza 3 veces al día por máximo 7 días",
     "modo_uso": "Infusión filtrada",
-    "tiempo_prep": "20 minutos",
-    "dificultad": "Media (filtrado riguroso)",
+    "tiempo_prep": "20 min",
+    "dificultad": "Media",
     "rendimiento": "1 taza",
     "conservacion": "Recién hecha",
     "evidencia": "Comisión E aprueba Verbascum thapsus para catarros respiratorios. Tatli II. et al. (2007) revisión Verbascum.",
@@ -4120,7 +5038,9 @@
       "Llantén",
       "Tomillo",
       "Malva"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 1129,
@@ -4131,7 +5051,7 @@
     "preparacion": "Hervir 5 min a fuego suave, retirar y tapar 10 min. Colar. Endulzar con miel.",
     "dosis": "1 taza 3 veces al día durante crisis bronquial",
     "modo_uso": "Decocción",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 350 ml",
     "conservacion": "Refrigerado 24 h",
@@ -4139,7 +5059,7 @@
     "fuente_tradicion": "Mapuche y popular chilena",
     "contraindicaciones": "Embarazo (matico), úlcera péptica activa.",
     "uso": "Verbascósido del pañil es antiinflamatorio bronquial y mucoprotector; dilapiol y aceite del matico actúan como expectorante y antimicrobiano respiratorio.",
-    "principios_activos": "Verbascósido, mussaenosídico, dilapiol, β-cariofileno.",
+    "principios_activos": "Verbascósido (matico/pañil): antiinflamatorio y antimicrobiano bronquial. Aucubina y catalpol (matico, iridoides): antiinflamatorios de mucosas respiratorias. β-Cariofileno: broncodilatador por agonismo CB2 y reducción de edema mucoso. Catequina (matico): antioxidante y astringente de mucosa bronquial.",
     "propiedades": [
       "expectorante",
       "antiinflamatorio bronquial",
@@ -4161,7 +5081,9 @@
       "Matico",
       "Tomillo",
       "Hierba del paño"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 1139,
@@ -4203,7 +5125,9 @@
       "pino",
       "menta",
       "salvia"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 1140,
@@ -4245,7 +5169,9 @@
       "malva",
       "tilo",
       "llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 1141,
@@ -4287,7 +5213,9 @@
       "caléndula",
       "llantén",
       "matico"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 1142,
@@ -4329,7 +5257,9 @@
       "eucalipto",
       "jengibre",
       "pino"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 1143,
@@ -4341,7 +5271,7 @@
     "dosis": "1/2 taza una sola vez al día por la mañana, máximo 10 días",
     "modo_uso": "Oral - decocción corta",
     "tiempo_prep": "15 min",
-    "dificultad": "Avanzada",
+    "dificultad": "Avanzado",
     "rendimiento": "1 taza",
     "conservacion": "Consumir de inmediato",
     "evidencia": "Etnobotánica chilota Villagrán et al. 1983; registros del uso de Ovidia con precaución por toxicidad de dafnanos",
@@ -4371,7 +5301,9 @@
       "matico",
       "tomillo",
       "llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "id": 1165,
@@ -4382,7 +5314,7 @@
     "preparacion": "Hervir agua con tomillo, llantén, malva y cebolla 20 minutos tapado. Colar y reducir a fuego muy bajo hasta obtener 250 ml. Entibiar bajo 40°C, mezclar miel y limón. Envasar.",
     "dosis": "Adultos: 1 cucharada 4-5 veces al día. Niños mayores de 2 años: 1 cucharadita 3-4 veces al día.",
     "modo_uso": "Jarabe",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Media",
     "rendimiento": "350 ml",
     "conservacion": "Refrigerado hasta 30 días",
@@ -4416,7 +5348,9 @@
       "saúco",
       "violeta",
       "eucalipto (inhalación)"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "id": 1166,
@@ -4427,7 +5361,7 @@
     "preparacion": "Hervir agua y verter sobre las hierbas en una olla. Apagar fuego. Cubrir cabeza con toalla e inhalar vapor durante 5-10 minutos manteniendo distancia segura.",
     "dosis": "2-3 veces al día durante cuadro respiratorio",
     "modo_uso": "Inhalación de vapor",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1 sesión",
     "conservacion": "No aplica, uso inmediato",
@@ -4460,7 +5394,9 @@
       "saúco",
       "tomillo",
       "menta"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "id": 1167,
@@ -4471,7 +5407,7 @@
     "preparacion": "Hervir agua con salvia y tomillo 5 minutos. Apagar, tapar, reposar 10 minutos. Colar. Añadir sal y propóleo cuando esté tibio.",
     "dosis": "Hacer gárgaras profundas 3-4 veces al día, 30 segundos cada vez",
     "modo_uso": "Gárgaras",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "250 ml",
     "conservacion": "24 horas refrigerado",
@@ -4504,7 +5440,9 @@
       "matico",
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "id": 1197,
@@ -4515,7 +5453,7 @@
     "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 10 minutos. Colar.",
     "dosis": "1 taza 3-4 veces al día durante el cuadro respiratorio",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "350 ml",
     "conservacion": "24 horas refrigerada",
@@ -4547,7 +5485,9 @@
     "sinergia_plantas": [
       "saúco",
       "llantén"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "id": 1207,
@@ -4558,7 +5498,7 @@
     "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar y endulzar.",
     "dosis": "1 taza 2-3 veces al día durante el cuadro respiratorio",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "300 ml",
     "conservacion": "Preparar fresca",
@@ -4590,7 +5530,9 @@
     "sinergia_plantas": [
       "saúco",
       "violeta"
-    ]
+    ],
+    "modulo": "respiratorio",
+    "submodulo": "respiratorio_general"
   },
   {
     "titulo": "Decocción de Quillay para la bronquitis y tos con flemas",
@@ -4598,19 +5540,24 @@
     "origen": "Medicina tradicional mapuche y chilena. Aprobada por el MINSAL.",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de corteza seca de quillay desmenuzada. - 1 litro de agua.",
     "preparacion": "1. Hervir el agua en una olla. 2. Agregar la corteza de quillay y hervir a fuego lento durante 5 minutos. 3. Retirar del fuego, colar y dejar entibiar.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "5 minutos",
+    "tiempo_prep": "5 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "- Embarazo y lactancia. - No usar en niños menores de 6 años. - No exceder la dosis recomendada (las saponinas pueden ser irritantes).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Bronquitis y tos con flemas espesas: el quillay fluidifica el moco y estimula su expulsión, facilitando la limpieza de los bronquios.",
+    "principios_activos": "Saponinas triterpénicas (ácido quilláico): acción expectorante que fluidifica las secreciones bronquiales y estimula el movimiento ciliar, facilitando la expulsión del moco.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "broncodilatador suave",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4619,7 +5566,9 @@
     "nivel_seguridad": "⚠️ Precaución (no abusar, contiene saponinas)",
     "distribucion": "Endémico de Chile central. Presente en zonas de Chiloé.",
     "efectos_secundarios": "",
-    "id": 1241
+    "id": 1241,
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Decocción de Pingo-pingo para la sinusitis y congestión nasal",
@@ -4627,19 +5576,24 @@
     "origen": "Medicina tradicional chilena (Norte-Centro).",
     "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de ramas secas de pingo-pingo. - 1 litro de agua.",
     "preparacion": "1. Colocar las ramas en una olla con el agua. 2. Hervir durante 5 minutos. 3. Retirar del fuego, colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "5 minutos",
+    "tiempo_prep": "5 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Hipertensión arterial y problemas cardíacos. - Embarazo y lactancia.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sinusitis y congestión nasal: descongestiona las fosas nasales, reduce la inflamación de los senos paranasales y facilita la respiración.",
+    "principios_activos": "Alcaloides del grupo de la efedrina: acción vasoconstrictora sobre la mucosa nasal, reduciendo el edema y facilitando el drenaje de los senos paranasales. Flavonoides: efecto antiinflamatorio complementario.",
+    "propiedades": [
+      "descongestionante",
+      "antiinflamatorio",
+      "vasoconstrictor",
+      "expectorante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4648,7 +5602,9 @@
     "nivel_seguridad": "⚠️ Precaución (efecto cardioestimulante)",
     "distribucion": "Regiones de Arica a La Araucanía.",
     "efectos_secundarios": "",
-    "id": 1242
+    "id": 1242,
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis"
   },
   {
     "titulo": "Infusión de Siete Venas para faringitis y dolor de garganta",
@@ -4656,19 +5612,25 @@
     "origen": "Medicina tradicional chilena y europea.",
     "ingredientes": "",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. Colar. 3. Para dolor de garganta, hacer gárgaras con la infusión tibia 3-4 veces al día. También se puede beber (1 taza, 3 veces al día).",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día; o gárgaras según necesidad.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
-    "contraindicaciones": "",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "contraindicaciones": "No usar en embarazo. Precaución en personas con hipertensión arterial.",
+    "uso": "Faringitis y dolor de garganta: desinflama la mucosa faríngea, alivia el dolor y ayuda a combatir los gérmenes que causan la infección.",
+    "principios_activos": "Taninos y flavonoides: acción astringente y antiinflamatoria sobre la mucosa faríngea, reduciendo el edema y el enrojecimiento. Mucílagos: efecto emoliente que suaviza y protege la garganta irritada.",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiséptico",
+      "analgésico",
+      "astringente",
+      "emoliente"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -4677,7 +5639,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "Presente en todo Chile, incluido Chiloé.",
     "efectos_secundarios": "",
-    "id": 1243
+    "id": 1243,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
   },
   {
     "titulo": "Infusión de Natre para bajar la fiebre",
@@ -4685,19 +5649,24 @@
     "origen": "Medicina tradicional chilena.",
     "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas y tallos secos de natre. - 1 litro de agua recién hervida.",
     "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Hipotensión arterial (presión baja). - Embarazo y lactancia.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Fiebre y estados gripales: induce la sudoración y ayuda a bajar la temperatura corporal de forma natural, aliviando el malestar general.",
+    "principios_activos": "Flavonoides y compuestos amargos: acción diaforética que estimula las glándulas sudoríparas y favorece la disipación del calor corporal. Alcaloides tropánicos en baja concentración: efecto analgésico y antiinflamatorio leve.",
+    "propiedades": [
+      "febrífugo",
+      "diaforético",
+      "antiinflamatorio",
+      "analgésico suave"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4706,7 +5675,9 @@
     "nivel_seguridad": "⚠️ Precaución (hipotensión)",
     "distribucion": "Arbusto común entre Coquimbo y Colchagua.",
     "efectos_secundarios": "",
-    "id": 1244
+    "id": 1244,
+    "modulo": "respiratorio",
+    "submodulo": "fiebre"
   },
   {
     "titulo": "Infusión de Canelo para la gripe y el resfriado",
@@ -4714,19 +5685,24 @@
     "origen": "Medicina tradicional mapuche.",
     "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de canelo. - 1 litro de agua hirviendo.",
     "preparacion": "1. Colocar las hojas en una tetera o taza grande. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar. 4. Se puede endulzar con miel para potenciar su efecto calmante.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "- Embarazo y lactancia (consultar al médico).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Gripe y resfriado común: el canelo ayuda a bajar la fiebre, alivia los dolores musculares y descongestiona las vías respiratorias.",
+    "principios_activos": "Aceite esencial rico en cineol y pineno: acción antiséptica y expectorante sobre las vías respiratorias. Compuestos amargos: efecto febrífugo y diaforético que estimula la sudoración.",
+    "propiedades": [
+      "febrífugo",
+      "diaforético",
+      "antiinflamatorio",
+      "analgésico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4735,7 +5711,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "Desde Coquimbo a Cabo de Hornos, abundante en Chiloé.",
     "efectos_secundarios": "",
-    "id": 1245
+    "id": 1245,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
   },
   {
     "titulo": "Infusión de Radal para la tos seca e irritativa",
@@ -4743,19 +5721,24 @@
     "origen": "Medicina tradicional mapuche y chilena.",
     "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de radal. - 1 litro de agua recién hervida.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 5-10 minutos. Colar. 3. Endulzar con miel de abejas para un mejor efecto sobre la garganta.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
-    "contraindicaciones": "",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "contraindicaciones": "No usar en embarazo ni lactancia. Precaución en personas con hipotensión.",
+    "uso": "Tos seca e irritativa: el radal calma el reflejo de la tos, suaviza la garganta y ayuda a expectorar las flemas acumuladas.",
+    "principios_activos": "Taninos y flavonoides: acción astringente y antiinflamatoria sobre la mucosa respiratoria, reduciendo la irritación y el reflejo de la tos. Mucílagos: efecto emoliente que recubre y protege la garganta.",
+    "propiedades": [
+      "antitusivo",
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -4764,7 +5747,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "Centro-sur de Chile y Chiloé.",
     "efectos_secundarios": "",
-    "id": 1246
+    "id": 1246,
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "titulo": "Infusión de Matico para la bronquitis y el resfriado",
@@ -4772,19 +5757,24 @@
     "origen": "Medicina tradicional mapuche y chilena",
     "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de hojas secas de matico. - 1 litro de agua recién hervida.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas de matico. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "- Embarazo y lactancia: no se han confirmado riesgos, pero se recomienda evitar su uso interno sin supervisión médica. - No se han descrito contraindicaciones graves a las dosis habituales.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Bronquitis, resfriado y tos: el matico desinflama las vías respiratorias, ayuda a expulsar el moco y combate los gérmenes causantes de la infección.",
+    "principios_activos": "Flavonoides y saponósidos: acción antiinflamatoria y expectorante sobre la mucosa respiratoria, reduciendo el edema y facilitando la expulsión del moco. Taninos: efecto astringente y antiséptico.",
+    "propiedades": [
+      "expectorante",
+      "antiinflamatorio",
+      "antiséptico",
+      "cicatrizante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4793,7 +5783,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1259
+    "id": 1259,
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante"
   },
   {
     "titulo": "Infusión de Tomillo para la tos productiva",
@@ -4801,19 +5793,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas y flores secas de tomillo. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre la planta. 2. Tapar y dejar reposar durante 10 minutos. 3. Colar y beber tibio. Se puede endulzar con miel al gusto (no en menores de 1 año).",
-    "dosis": "",
+    "dosis": "1 taza, 3-4 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero). - No usar en niños menores de 12 años (algunas presentaciones específicas pueden usarse desde los 4 años, consultar prospecto).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Tos productiva con flemas: el tomillo fluidifica el moco, facilita su expulsión y combate los gérmenes en las vías respiratorias.",
+    "principios_activos": "Timol y carvacrol: fenoles monoterpénicos con potente acción antiséptica y expectorante, fluidifican el moco y combaten bacterias respiratorias. Flavonoides: acción antiespasmódica sobre la musculatura bronquial.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antiséptico",
+      "antiespasmódico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Thymus vulgaris. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -4822,7 +5819,9 @@
     "nivel_seguridad": "✅ Seguro (+12 años)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1260
+    "id": 1260,
+    "modulo": "respiratorio",
+    "submodulo": "tos"
   },
   {
     "titulo": "Infusión y Vahos de Eucalipto para el resfriado",
@@ -4832,17 +5831,22 @@
     "preparacion": "",
     "dosis": "- Infusión: 1 taza, 2-3 veces al día. - Vahos: 1-2 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- No usar en niños menores de 30 meses por riesgo de laringoespasmo (contracción de las cuerdas vocales)[reference:1]. - Las presentaciones en infusión solo para adultos y niños mayores de 12 años[reference:2]. - Evitar en el embarazo y la lactancia. - No aplicar aceite esencial puro directamente en",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Resfriado común con congestión nasal y tos: el eucalipto descongestiona las vías respiratorias, afloja las flemas y facilita la respiración profunda.",
+    "principios_activos": "1,8-cineol (eucaliptol): fluidifica las secreciones bronquiales, activa el epitelio ciliado y tiene acción antiinflamatoria y antimicrobiana sobre las vías respiratorias.",
+    "propiedades": [
+      "descongestionante",
+      "expectorante",
+      "mucolítico",
+      "antiséptico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Eucalyptus globulus. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -4851,6 +5855,761 @@
     "nivel_seguridad": "⚠️ Precaución (+12 años)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1279
+    "id": 1279,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "id": 1307,
+    "titulo": "Jarabe de Tomillo y Miel para la Tos con Flema",
+    "categoria": "Expectorante",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "3 cucharadas de tomillo seco, 300 ml de agua, 4 cucharadas de miel de abeja, 1 cucharadita de jugo de limón (opcional).",
+    "preparacion": "Hervir el agua y retirar del fuego. Agregar el tomillo seco, tapar y dejar en infusión durante 20 minutos. Colar presionando bien el material vegetal. Dejar entibiar hasta que no queme. Añadir la miel y el jugo de limón, revolviendo hasta integrar completamente. No calentar después de añadir la miel — destruye sus principios activos.",
+    "dosis": "Adultos: 1 cucharada cada 6 horas. Niños de 6 a 12 años: 1 cucharadita cada 6 horas. No exceder 7 días de uso continuo.",
+    "modo_uso": "Oral — jarabe a temperatura ambiente",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "300 ml (aproximadamente 20 cucharadas)",
+    "conservacion": "Refrigerar en frasco de vidrio oscuro hasta 5 días. Agitar antes de cada uso.",
+    "evidencia": "Uso tradicional documentado. Respaldado por OMS y ESCOP.",
+    "fuente_tradicion": "Herbolaria europea adaptada a la tradición chilena",
+    "contraindicaciones": "No usar en menores de 1 año por la miel (riesgo de botulismo infantil). Evitar en embarazo y lactancia sin supervisión profesional. No administrar en alergia a plantas de la familia Lamiaceae (menta, romero, albahaca). Consultar médico si la tos persiste más de 7 días o se acompaña de fiebre alta.",
+    "uso": "Tos productiva con flema: vuelve el moco más líquido y facilita su expulsión a través de la activación del epitelio ciliado bronquial, aliviando la sensación de pecho cargado y reduciendo los episodios de tos.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antimicrobiano",
+      "antiespasmódico",
+      "emoliente"
+    ],
+    "principios_activos": "Timol y carvacrol (fenoles monoterpénicos): efecto expectorante al aumentar la actividad ciliar y fluidificar secreciones bronquiales; acción antimicrobiana. Flavonoides del tomillo: acción antiespasmódica sobre musculatura lisa bronquial. Miel: alta osmolaridad que inhibe patógenos y peróxido de hidrógeno con efecto antiséptico suave.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Thymus vulgaris; ESCOP Monographs 2003 Thymi herba"
+  },
+  {
+    "id": 1308,
+    "titulo": "Inhalación de Eucalipto y Matico para la Tos Congestiva",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "4 hojas frescas de eucalipto, 2 cucharadas de hojas secas de matico, 1 litro de agua.",
+    "preparacion": "Poner a hervir el agua en una olla grande. Cuando rompa el hervor, agregar las hojas de eucalipto troceadas y el matico. Hervir 3 minutos y retirar del fuego. Colocar la olla sobre una superficie estable. La persona se inclina cubriendo cabeza y olla con una toalla grande formando una carpa e inhala el vapor durante 10–12 minutos. Mantener los ojos cerrados y controlar la distancia para evitar quemaduras.",
+    "dosis": "1 sesión cada 8 horas. No más de 3 días seguidos. Niños desde 6 años bajo supervisión de adulto, a mayor distancia y solo 5–7 minutos.",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "Usar la preparación en el momento. No conservar.",
+    "evidencia": "Saber ancestral documentado en Chile. Respaldado por investigación sobre 1,8-cineol.",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar en niños menores de 6 años por riesgo de quemaduras y espasmo laríngeo. Evitar en asmáticos sin indicación médica — el vapor concentrado puede desencadenar broncoespasmo. No usar con fiebre alta o infección grave de oído. Precaución extrema para evitar escaldaduras con el vapor.",
+    "uso": "Tos con mucha congestión: el vapor humedece las vías respiratorias, afloja el moco espeso y descongestiona la nariz y el pecho, calmando la tos productiva y facilitando la respiración.",
+    "propiedades": [
+      "expectorante",
+      "descongestionante",
+      "antiséptico",
+      "antiinflamatorio",
+      "mucolítico"
+    ],
+    "principios_activos": "1,8-cineol (eucaliptol): activa el epitelio ciliado bronquial, fluidifica secreciones y tiene efecto antiinflamatorio y broncodilatador leve. Flavonoides y saponósidos del matico (Buddleja globosa): reducen la inflamación de la mucosa respiratoria y favorecen la expectoración. Aceite esencial de eucalipto: efecto antiséptico respiratorio por contacto directo con las vías aéreas.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; Hoffmann A. et al. Plantas Altoandinas 2003; MINSAL 2010; Juergens UR et al. Anti-inflammatory activity of 1,8-cineol. Respir Med 2003;97(3):250-256"
+  },
+  {
+    "id": 1309,
+    "titulo": "Infusión de Llantén y Gordolobo para la Tos Irritativa Nocturna",
+    "categoria": "Tos",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de hojas de llantén fresco, 1 cucharada de flores secas de gordolobo, 500 ml de agua hirviendo, miel a gusto (opcional, solo para mayores de 1 año).",
+    "preparacion": "Colocar el llantén troceado y las flores de gordolobo en una tetera. Verter el agua hirviendo. Tapar y reposar 15 minutos. Colar usando un filtro fino para retirar los pelillos del gordolobo, que pueden irritar la garganta si no se cuelan bien. Endulzar con miel si se desea y beber tibio.",
+    "dosis": "Adultos: 1 taza (250 ml) cada 6 horas. Niños de 4 a 12 años: media taza cada 8 horas. No usar más de 5 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (500 ml)",
+    "conservacion": "Consumir el mismo día. Si se guarda, refrigerar máximo 24 horas y calentar suavemente antes de tomar.",
+    "evidencia": "Uso tradicional documentado en Chile. Respaldado por WHO Monographs para Plantago.",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en embarazo sin consultar profesional. No usar en alergia conocida al llantén o gordolobo. Si la tos se acompaña de dificultad respiratoria, sangre o fiebre alta, buscar atención médica de inmediato. Colar bien el gordolobo — sus pelos pueden irritar si quedan en la infusión.",
+    "uso": "Tos seca e irritativa que empeora de noche: recubre y suaviza la mucosa faríngea, calma el reflejo tusígeno y disminuye la inflamación de las vías respiratorias superiores, permitiendo descansar mejor.",
+    "propiedades": [
+      "emoliente",
+      "antiinflamatorio",
+      "calmante de la tos",
+      "expectorante suave",
+      "antiséptico leve"
+    ],
+    "principios_activos": "Mucílagos del llantén: forman película protectora sobre la mucosa faríngea reduciendo el estímulo tusígeno. Aucubina (iridoide del llantén): inhibe síntesis de mediadores inflamatorios en el epitelio respiratorio. Saponinas y mucílagos del gordolobo: efecto emoliente y expectorante suave, calman la tos seca. Luteolina (flavonoide): contribuye al efecto antiespasmódico bronquial.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Plantago lanceolata; Gudej J. et al. Flavonoids and iridoids of Plantago species. Acta Pol Pharm 2001;58(6):465-468"
+  },
+  {
+    "titulo": "Infusión de Sauco para Bajar la Fiebre de la Gripe",
+    "categoria": "Febrífugo",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de flores secas de sauco, 250 ml de agua, 1 cucharadita de miel (opcional para mayores de 1 año)",
+    "preparacion": "Hervir el agua. Verter sobre las flores de sauco, tapar y dejar reposar 10 minutos. Colar, añadir miel si se desea y beber bien caliente.",
+    "dosis": "Adultos: 1 taza cada 4 horas mientras dure la fiebre, máximo 4 tazas al día. Niños de 6 a 12 años: media taza cada 6 horas. No usar más de 3 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir inmediatamente. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en caso de alergia a las caprifoliáceas. No usar en enfermedades autoinmunes sin supervisión médica. Consultar si la fiebre supera 39 °C o dura más de 3 días.",
+    "uso": "Fiebre y malestar general de la gripe: induce la sudoración y ayuda a bajar la temperatura corporal de forma natural, aliviando los dolores musculares y la sensación de quebrantamiento.",
+    "principios_activos": "Flavonoides (rutina, quercetina): acción diaforética que estimula las glándulas sudoríparas y favorece la disipación del calor corporal. | Antocianinas y ácidos fenólicos: efecto antiinflamatorio sistémico, reduciendo las prostaglandinas asociadas a la fiebre. | Lectina Sambucus nigra aglutinina: actividad antiviral in vitro contra virus influenza.",
+    "propiedades": [
+      "febrífugo",
+      "diaforético",
+      "antiinflamatorio",
+      "antiviral",
+      "analgésico suave"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Sambucus nigra; MINSAL 2010; Zakay-Rones Z et al. J Altern Complement Med 2004;10(2):429-431",
+    "id": 1323,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "titulo": "Decocción de Jengibre y Canela para los Resfriados",
+    "categoria": "Resfriados",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "1 rodaja de jengibre fresco (2 cm), 1 ramita de canela, 300 ml de agua, zumo de medio limón",
+    "preparacion": "Hervir el agua con el jengibre y la canela durante 5 minutos. Apagar, añadir el zumo de limón, tapar y dejar reposar 5 minutos. Colar y beber caliente.",
+    "dosis": "1 taza cada 6 horas ante los primeros síntomas, máximo 3 tazas al día. No usar más de 5 días seguidos.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza grande (300 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No usar en caso de úlcera gástrica activa, cálculos biliares o tratamiento con anticoagulantes. Evitar durante el embarazo sin consultar al médico. No administrar a niños menores de 6 años.",
+    "uso": "Resfriado común con escalofríos: calienta el cuerpo, activa las defensas y descongestiona las vías respiratorias, ayudando a combatir los primeros síntomas del resfrío.",
+    "principios_activos": "Gingeroles y shogaoles (jengibre): acción termogénica y antiinflamatoria, mejoran la circulación periférica y reducen la sensación de frío. | Cinamaldehído (canela): efecto antimicrobiano y estimulante del sistema inmune innato. | Vitamina C del limón: coadyuvante en la función de los leucocitos.",
+    "propiedades": [
+      "diaforético",
+      "antiinflamatorio",
+      "antimicrobiano",
+      "inmunoestimulante",
+      "calentador"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Zingiber officinale; MINSAL 2010; Mashhadi NS et al. Int J Prev Med 2013;4(Suppl 1):S36-S42",
+    "id": 1324,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "titulo": "Infusión de Equinácea para Prevenir y Acortar la Gripe",
+    "categoria": "Resfriados",
+    "origen": "Naturopatía",
+    "ingredientes": "1 cucharada de raíz seca de equinácea, 300 ml de agua",
+    "preparacion": "Hervir el agua. Agregar la raíz de equinácea, reducir el fuego y mantener a fuego lento 10 minutos. Retirar, tapar y reposar 10 minutos más. Colar y beber tibio.",
+    "dosis": "1 taza cada 8 horas al primer síntoma. No usar más de 10 días seguidos. No recomendado como preventivo continuo por más de 4 semanas.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza grande (300 ml)",
+    "conservacion": "Refrigerar hasta 24 horas. Calentar antes de beber.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Naturopatía moderna",
+    "contraindicaciones": "No usar en enfermedades autoinmunes, tuberculosis, esclerosis múltiple o VIH sin supervisión médica. Evitar en caso de alergia a las asteráceas. No administrar a niños menores de 12 años sin consultar. No usar durante el embarazo.",
+    "uso": "Gripe y resfriados: estimula las defensas del cuerpo para combatir los virus y reduce la duración e intensidad de los síntomas gripales si se toma al inicio.",
+    "principios_activos": "Alquilamidas y polisacáridos: estimulan la fagocitosis y la actividad de células NK, aumentando la respuesta inmune innata frente a virus respiratorios. | Ácido chicórico y equinacósido: acción antiinflamatoria y antioxidante que modula la producción de citoquinas proinflamatorias.",
+    "propiedades": [
+      "inmunoestimulante",
+      "antiviral",
+      "antiinflamatorio",
+      "antibacteriano",
+      "preventivo"
+    ],
+    "referencias": "WHO Monographs Vol.1 (1999) Echinacea purpurea; MINSAL 2010; Schoop R et al. Clin Ther 2006;28(2):174-183; Shah SA et al. Lancet Infect Dis 2007;7(7):473-480",
+    "id": 1325,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "titulo": "Vahos de Eucalipto y Romero para la Congestión de la Gripe",
+    "categoria": "Respiratorio",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 hojas de eucalipto, 1 ramita de romero, 1 litro de agua",
+    "preparacion": "Hervir el agua en una olla. Añadir las hojas de eucalipto y el romero. Hervir 2 minutos. Retirar del fuego. Colocar la olla sobre una superficie firme. Con cuidado, inclinar la cabeza cubierta con una toalla sobre el vapor, manteniendo los ojos cerrados, durante 8-10 minutos.",
+    "dosis": "1 sesión cada 6 horas, máximo 3 veces al día. No más de 3 días seguidos.",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión (1 litro)",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en niños menores de 6 años por riesgo de quemaduras. Evitar en asmáticos sin supervisión médica (el vapor puede desencadenar broncoespasmo). No usar en fiebre alta. Precaución con el vapor caliente para evitar escaldaduras.",
+    "uso": "Congestión nasal y pecho cargado por la gripe: el vapor humedece las mucosas, afloja el moco espeso y despeja las vías respiratorias, facilitando la respiración.",
+    "principios_activos": "1,8-cineol (eucalipto): mucolítico y antiinflamatorio, activa el movimiento ciliar y fluidifica las secreciones. | Alcanfor y borneol (romero): efecto descongestionante y antiséptico sobre la mucosa nasal y bronquial, mejorando la permeabilidad de las vías aéreas.",
+    "propiedades": [
+      "descongestionante",
+      "mucolítico",
+      "antiséptico",
+      "expectorante",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Juergens UR et al. Respir Med 2003;97(3):250-256; Hoffmann A. et al. Plantas Altoandinas 2003",
+    "id": 1326,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "titulo": "Jarabe de Miel y Limón para la Tos y el Malestar de la Gripe",
+    "categoria": "Tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "4 cucharadas de miel, el zumo de 1 limón, 2 cucharadas de agua tibia",
+    "preparacion": "Mezclar el zumo de limón con el agua tibia. Añadir la miel y remover hasta que se disuelva completamente. Guardar en un frasco de vidrio limpio.",
+    "dosis": "Adultos: 1 cucharada cada 4 horas. Niños de 2 a 12 años: 1 cucharadita cada 6 horas. No usar más de 5 días.",
+    "modo_uso": "Oral — jarabe a temperatura ambiente",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Aproximadamente 6 cucharadas",
+    "conservacion": "Refrigerar hasta 4 días. Agitar antes de usar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a niños menores de 1 año por riesgo de botulismo. Evitar en diabéticos sin control de la ingesta de azúcares. No usar en caso de alergia a los cítricos. Consultar al médico si la tos persiste más de una semana.",
+    "uso": "Tos irritativa y malestar de garganta durante la gripe: la miel suaviza y recubre la garganta, mientras el limón aporta vitamina C y frescura, calmando la tos y la carraspera.",
+    "principios_activos": "Peróxido de hidrógeno (sistema glucosa oxidasa de la miel): acción antiséptica y antimicrobiana de amplio espectro en la mucosa orofaríngea. | Alta osmolaridad de la miel: inhibe proliferación bacteriana local. | Vitamina C y ácido cítrico del limón: refuerzan la respuesta inmune local y fluidifican las secreciones.",
+    "propiedades": [
+      "emoliente",
+      "antimicrobiano",
+      "calmante de la tos",
+      "inmunoestimulante",
+      "expectorante suave"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Paul IM et al. Arch Pediatr Adolesc Med 2007;161(12):1140-1146; Cohen HA et al. Pediatrics 2012;130(3):465-471",
+    "id": 1327,
+    "modulo": "respiratorio",
+    "submodulo": "gripe_resfrios"
+  },
+  {
+    "titulo": "Gárgaras de Infusión de Salvia para la Faringitis",
+    "categoria": "Garganta",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "2 cucharaditas de hojas secas de salvia, 250 ml de agua, media cucharadita de sal",
+    "preparacion": "Hervir el agua. Verter sobre la salvia y tapar. Dejar reposar 15 minutos. Colar y añadir la sal, revolviendo hasta disolver. Dejar entibiar hasta una temperatura tolerable.",
+    "dosis": "Realizar gárgaras con la infusión tibia durante 30 segundos, 3 a 4 veces al día, especialmente después de las comidas. No tragar. Usar máximo 5 días.",
+    "modo_uso": "Tópico — gárgaras (no ingerir)",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión de gárgaras (250 ml)",
+    "conservacion": "Usar en el día. Preparar fresco para cada jornada.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en niños menores de 6 años que no puedan hacer gárgaras. Evitar en el embarazo por su contenido en tuyona. No ingerir grandes cantidades. Contraindicado en epilepsia o hipoglucemia sin supervisión médica.",
+    "uso": "Dolor e inflamación de garganta por faringitis: desinflama la mucosa, alivia el dolor y ayuda a eliminar los gérmenes que causan la infección.",
+    "principios_activos": "Ácido rosmarínico y flavonoides: acción antiinflamatoria local sobre la mucosa faríngea, reduciendo el edema y el eritema. | Aceite esencial con tuyona y cineol: efecto antiséptico y analgésico tópico sobre las terminaciones nerviosas de la garganta. | Cloruro de sodio: efecto osmótico que arrastra microorganismos y fluidifica el moco.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "analgésico",
+      "astringente",
+      "descongestionante"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Salvia officinalis; MINSAL 2010; ESCOP Monographs 2003 Salviae officinalis folium",
+    "id": 1328,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "titulo": "Infusión de Tomillo y Miel para el Dolor de Garganta",
+    "categoria": "Garganta",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharada de tomillo seco, 250 ml de agua, 1 cucharadita de miel",
+    "preparacion": "Hervir el agua. Añadir el tomillo, tapar y dejar reposar 10 minutos. Colar. Cuando esté tibio, añadir la miel y remover. Beber a sorbos lentos.",
+    "dosis": "1 taza cada 4 horas, hasta 3 veces al día. Niños de 6 a 12 años: media taza cada 6 horas. No más de 5 días.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No dar a menores de 1 año por la miel. Evitar en embarazo sin supervisión médica. No usar en alergia a las lamiáceas. Precaución en personas con gastritis, ya que el tomillo puede irritar en dosis altas.",
+    "uso": "Dolor de garganta y afonía: el tomillo desinfecta y desinflama, y la miel suaviza la mucosa irritada, calmando el dolor y la carraspera.",
+    "principios_activos": "Timol y carvacrol: fenoles monoterpénicos con potente acción antiséptica y antiinflamatoria sobre la mucosa orofaríngea, activos contra bacterias grampositivas. | Flavonoides del tomillo: efecto antiespasmódico y analgésico local. | Miel: acción emoliente y antimicrobiana por su osmolaridad y producción de peróxido de hidrógeno.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "analgésico",
+      "emoliente",
+      "expectorante suave"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Thymus vulgaris; MINSAL 2010; ESCOP Monographs 2003 Thymi herba",
+    "id": 1329,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "titulo": "Jarabe de Propóleo para la Garganta Irritada",
+    "categoria": "Garganta",
+    "origen": "Naturopatía",
+    "ingredientes": "20 gotas de extracto de propóleo sin alcohol, 2 cucharadas de miel, 100 ml de agua tibia",
+    "preparacion": "Diluir el extracto de propóleo en el agua tibia. Añadir la miel y mezclar bien. Tomar a cucharadas o en pequeños sorbos.",
+    "dosis": "Adultos: 1 cucharada cada 6 horas. Niños de 6 a 12 años: 1 cucharadita cada 8 horas. No usar más de 7 días.",
+    "modo_uso": "Oral — jarabe diluido",
+    "tiempo_prep": "3 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 porción (100 ml)",
+    "conservacion": "Preparar al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Naturopatía moderna",
+    "contraindicaciones": "No usar en alérgicos a productos de la colmena (miel, propóleo) o al ácido acetilsalicílico (reactividad cruzada). Evitar en niños menores de 2 años. No administrar en asma sin supervisión médica. No usar durante el embarazo por falta de estudios.",
+    "uso": "Garganta irritada, afonía o faringitis leve: el propóleo combate virus y bacterias, y la miel alivia la irritación y el dolor de garganta.",
+    "principios_activos": "Flavonoides (galangina, pinocembrina) y ácidos fenólicos (CAPE): acción antimicrobiana, antiviral y antiinflamatoria sobre la mucosa faríngea. | Resinas y cera de propóleo: forman una película protectora que aísla la mucosa irritada del contacto con agentes externos.",
+    "propiedades": [
+      "antiséptico",
+      "antiviral",
+      "antiinflamatorio",
+      "emoliente",
+      "anestésico local suave"
+    ],
+    "referencias": "MINSAL 2010; Castaldo S et al. Fitoterapia 2002;73(Suppl 1):S1-S6; Kujumgiev A et al. J Ethnopharmacol 1999;64(3):235-240; WHO Monographs Vol.1 (1999) Propóleo",
+    "id": 1330,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "titulo": "Gárgaras de Agua con Sal y Bicarbonato para la Inflamación de Garganta",
+    "categoria": "Garganta",
+    "origen": "Popular Chileno",
+    "ingredientes": "Media cucharadita de sal, media cucharadita de bicarbonato de sodio, 250 ml de agua tibia hervida",
+    "preparacion": "Hervir el agua y dejar entibiar. Disolver la sal y el bicarbonato completamente. Realizar gárgaras sin tragar.",
+    "dosis": "Gárgaras con la mezcla completa durante 30 segundos cada 4 horas, especialmente después de comer. Máximo 4 veces al día. Usar hasta 3 días.",
+    "modo_uso": "Tópico — gárgaras (no ingerir)",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión (250 ml)",
+    "conservacion": "Preparar fresco para cada uso. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No ingerir en grandes cantidades, especialmente en hipertensos o personas con dieta baja en sodio. No usar en niños menores de 5 años que no puedan hacer gárgaras sin tragar. Evitar si hay náuseas.",
+    "uso": "Garganta inflamada y dolorosa: el agua salina reduce la hinchazón por ósmosis y el bicarbonato alcaliniza el medio, dificultando la proliferación de bacterias y hongos.",
+    "principios_activos": "Cloruro de sodio: genera un ambiente hipertónico que extrae líquido de la mucosa inflamada, reduciendo el edema y arrastrando microorganismos. | Bicarbonato de sodio: alcaliniza la superficie faríngea, creando un medio desfavorable para patógenos y ayudando a fluidificar el moco.",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiséptico",
+      "descongestionante",
+      "emoliente"
+    ],
+    "referencias": "Tradición oral chilena documentada; MINSAL 2010; Principios generales de osmoterapia en mucosa oral",
+    "id": 1331,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "titulo": "Infusión de Jengibre con Miel para la Afonía",
+    "categoria": "Garganta",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "3 rodajas finas de jengibre fresco, 250 ml de agua, 1 cucharada de miel, unas gotas de limón",
+    "preparacion": "Hervir el agua con el jengibre durante 5 minutos. Retirar del fuego, tapar y dejar reposar 5 minutos. Colar, añadir la miel y el limón cuando esté tibio. Beber a sorbos lentos.",
+    "dosis": "1 taza cada 4 horas, máximo 3 veces al día. No más de 3 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir inmediatamente. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en gastritis aguda, úlcera péptica o tratamiento con anticoagulantes. No usar en embarazo sin consultar.",
+    "uso": "Afonía y carraspera: el jengibre desinflama las cuerdas vocales y la miel suaviza la garganta, ayudando a recuperar la voz y calmar la irritación.",
+    "principios_activos": "Gingeroles (jengibre): inhiben COX-2 reduciendo las prostaglandinas proinflamatorias en la mucosa laríngea, con efecto analgésico y antiinflamatorio directo. | Miel: acción emoliente y antimicrobiana que recubre y protege el epitelio de las cuerdas vocales.",
+    "propiedades": [
+      "antiinflamatorio",
+      "emoliente",
+      "analgésico",
+      "calentador",
+      "antiséptico suave"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Zingiber officinale; MINSAL 2010; Grzanna R et al. J Med Food 2005;8(2):125-132",
+    "id": 1332,
+    "modulo": "respiratorio",
+    "submodulo": "garganta_faringitis"
+  },
+  {
+    "id": 1350,
+    "titulo": "Jarabe de Llantén y Propóleo para la Bronquitis",
+    "categoria": "Expectorante",
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante",
+    "origen": "Popular Chileno",
+    "ingredientes": "4 cucharadas de hojas frescas de llantén, 20 gotas de extracto de propóleo sin alcohol, 250 ml de agua, 3 cucharadas de miel de ulmo",
+    "preparacion": "Hervir el agua y añadir el llantén troceado. Tapar y dejar reposar 20 minutos. Colar y, cuando esté tibio, añadir la miel y el propóleo. Mezclar bien y guardar en frasco de vidrio.",
+    "dosis": "Adultos: 1 cucharada cada 6 horas. Niños de 6 a 12 años: 1 cucharadita cada 8 horas. No superar los 7 días de tratamiento.",
+    "modo_uso": "Oral — jarabe a temperatura ambiente",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml (aprox. 15 cucharadas)",
+    "conservacion": "Refrigerar hasta 5 días. Agitar antes de usar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en alérgicos al propóleo o productos de la colmena. No usar en asma sin supervisión médica. Consultar si hay fiebre alta o dificultad respiratoria.",
+    "uso": "Bronquitis con tos productiva: ayuda a fluidificar y expulsar el moco bronquial, reduce la inflamación de los conductos respiratorios y alivia la tos persistente.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "antiinflamatorio",
+      "antimicrobiano",
+      "emoliente"
+    ],
+    "principios_activos": "Mucílago del llantén: forma una capa protectora sobre el epitelio bronquial, disminuyendo el reflejo de la tos y facilitando la expectoración. | Aucubina: inhibe COX-2 con acción antiinflamatoria en la mucosa. | Propóleo: flavonoides (galangina, pinocembrina) con efecto antimicrobiano y antiviral, reduciendo la carga infecciosa bronquial.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Plantago lanceolata; Kujumgiev A et al. J Ethnopharmacol 1999;64(3):235-240"
+  },
+  {
+    "id": 1351,
+    "titulo": "Vahos de Eucalipto y Tomillo para la Bronquitis Aguda",
+    "categoria": "Expectorante",
+    "modulo": "respiratorio",
+    "submodulo": "bronquitis_expectorante",
+    "origen": "Popular Chileno",
+    "ingredientes": "5 hojas de eucalipto, 2 cucharadas de tomillo seco, 1 litro de agua",
+    "preparacion": "Hervir el agua. Añadir el eucalipto troceado y el tomillo. Hervir 3 minutos. Retirar del fuego y hacer vahos cubriendo cabeza y olla con una toalla, inhalando el vapor durante 10 minutos, con los ojos cerrados.",
+    "dosis": "1 sesión cada 8 horas, máximo 3 veces al día. No prolongar más de 4 días.",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "Usar de inmediato. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar en niños menores de 6 años por riesgo de quemaduras. Evitar en asmáticos sin indicación médica. No usar si hay fiebre alta o infección grave del oído. Precaución con el vapor caliente.",
+    "uso": "Bronquitis con mucha congestión: el vapor descongestiona los bronquios, afloja las flemas espesas y despeja las vías respiratorias, facilitando la respiración.",
+    "propiedades": [
+      "expectorante",
+      "descongestionante",
+      "antiséptico",
+      "mucolítico",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "1,8-cineol (eucalipto): fluidifica las secreciones y estimula el movimiento ciliar bronquial, con acción antiinflamatoria. | Timol y carvacrol (tomillo): potente antiséptico y expectorante que ayuda a eliminar los agentes infecciosos de la mucosa.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Juergens UR et al. Respir Med 2003;97(3):250-256; WHO Monographs Vol.1 (1999) Thymus vulgaris"
+  },
+  {
+    "id": 1352,
+    "titulo": "Infusión de Matico para la Congestión Nasal por Sinusitis",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de hojas secas de matico, 250 ml de agua, miel a gusto",
+    "preparacion": "Hervir el agua. Verter sobre el matico, tapar y dejar reposar 15 minutos. Colar y beber bien caliente.",
+    "dosis": "1 taza cada 6 horas hasta mejorar la congestión. No usar más de 5 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a niños menores de 6 años. Evitar en embarazo sin consultar. No usar si hay alergia a plantas de la familia Buddlejaceae. Consultar al médico si la sinusitis se acompaña de fiebre alta o dolor intenso.",
+    "uso": "Sinusitis con nariz tapada y secreción espesa: descongestiona las fosas nasales, reduce la inflamación de los senos paranasales y facilita la salida del moco acumulado.",
+    "propiedades": [
+      "descongestionante",
+      "antiinflamatorio",
+      "expectorante",
+      "antiséptico",
+      "astringente suave"
+    ],
+    "principios_activos": "Flavonoides y saponósidos (matico): efecto antiinflamatorio sobre la mucosa nasal y los senos paranasales, reduciendo el edema y la producción de secreciones. | Taninos: acción astringente que ayuda a disminuir la rinorrea.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Mensah AY et al. J Ethnopharmacol 2001;77(2-3):219-226"
+  },
+  {
+    "id": 1353,
+    "titulo": "Lavado Nasal con Solución de Sal Marina y Manzanilla para la Sinusitis",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "congestion_sinusitis",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores de manzanilla, 250 ml de agua, media cucharadita de sal marina",
+    "preparacion": "Hervir el agua con la manzanilla 3 minutos. Colar y dejar entibiar. Añadir la sal y disolver completamente. Con una perilla o jeringa (sin aguja) aplicar suavemente en cada fosa nasal inclinando la cabeza.",
+    "dosis": "2 lavados al día (mañana y noche) mientras dure la congestión. Máximo 5 días.",
+    "modo_uso": "Tópico — irrigación nasal",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml (para varios lavados)",
+    "conservacion": "Usar a temperatura ambiente en el día. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar en niños menores de 5 años sin supervisión. Usar agua hervida para evitar infecciones. No forzar si hay dolor intenso o hemorragia nasal. No usar en otitis aguda.",
+    "uso": "Sinusitis con abundante mucosidad espesa: la solución salina descongestiona y limpia los senos paranasales, mientras la manzanilla desinflama la mucosa nasal y calma la irritación.",
+    "propiedades": [
+      "descongestionante",
+      "antiinflamatorio",
+      "antiséptico",
+      "calmante",
+      "limpiador"
+    ],
+    "principios_activos": "Cloruro de sodio: acción osmótica que descongestiona y arrastra secreciones y alérgenos, normalizando la función ciliar. | Bisabolol y camazuleno (manzanilla): potente antiinflamatorio sobre la mucosa nasal, reduciendo el edema y la obstrucción.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Matricaria recutita; Principios de irrigación nasal salina"
+  },
+  {
+    "id": 1488,
+    "titulo": "Vahos de Eucalipto para Limpiar las Vías Respiratorias",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "5 hojas de eucalipto, 1 litro de agua",
+    "preparacion": "Hervir el agua. Añadir las hojas de eucalipto troceadas y hervir 3 minutos. Retirar del fuego. Inclinar la cabeza cubierta con una toalla sobre el vapor, manteniendo los ojos cerrados, durante 8-10 minutos.",
+    "dosis": "1 sesión cada 8 horas, máximo 3 veces al día. No prolongar más de 4 días.",
+    "modo_uso": "Inhalación de vapor",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 sesión",
+    "conservacion": "Usar de inmediato. No conservar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar en niños menores de 6 años por riesgo de quemaduras. Evitar en asmáticos sin indicación médica. No usar si hay fiebre alta. Precaución con el vapor caliente para evitar escaldaduras.",
+    "uso": "Congestión nasal, bronquial y sinusitis: el vapor de eucalipto descongestiona las vías respiratorias, afloja las flemas y facilita la respiración profunda.",
+    "propiedades": [
+      "descongestionante",
+      "mucolítico",
+      "expectorante",
+      "antiséptico",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "1,8-cineol (eucaliptol): fluidifica las secreciones bronquiales, activa el epitelio ciliado y tiene acción antiinflamatoria y antimicrobiana sobre las vías respiratorias.",
+    "referencias": "Juergens UR et al. Anti-inflammatory activity of 1,8-cineol. Respir Med. 2003;97(3):250-256; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1489,
+    "titulo": "Infusión de Eucalipto y Miel para la Congestión Respiratoria",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 hojas de eucalipto troceadas, 250 ml de agua, 1 cucharadita de miel",
+    "preparacion": "Hervir el agua. Verter sobre las hojas de eucalipto, tapar y dejar reposar 10 minutos. Colar y, cuando esté tibio, añadir la miel. Beber a sorbos lentos.",
+    "dosis": "Adultos: 1 taza cada 6 horas. Niños de 6 a 12 años: media taza cada 8 horas. No usar más de 5 días.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia al eucalipto. No usar en el embarazo sin consultar. No usar en menores de 6 años.",
+    "uso": "Resfriado común con congestión y tos: el eucalipto descongestiona las vías respiratorias y la miel suaviza la garganta, aliviando la tos y facilitando la respiración.",
+    "propiedades": [
+      "descongestionante",
+      "expectorante",
+      "antiséptico",
+      "emoliente",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "1,8-cineol: acción mucolítica y antiinflamatoria sobre la mucosa respiratoria. Miel: efecto emoliente y antimicrobiano por su osmolaridad y producción de peróxido de hidrógeno.",
+    "referencias": "Bello H et al. Actividad Antimicrobiana de Aceite Esencial de Eucalyptus globulus. 2022; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1490,
+    "titulo": "Infusión de Tomillo para la Salud Respiratoria",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de tomillo, 250 ml de agua, 1 cucharadita de miel (opcional)",
+    "preparacion": "Hervir el agua. Verter sobre el tomillo, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "Adultos: 1 taza cada 6 horas. Niños de 6 a 12 años: media taza cada 8 horas. No usar más de 5 días.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 6 años sin supervisión. Evitar en caso de alergia a las lamiáceas. No usar durante el embarazo sin consultar. No usar por períodos prolongados sin descanso.",
+    "uso": "Tos productiva, bronquitis y resfriados: el tomillo ayuda a expulsar el moco, combate las bacterias y alivia la inflamación de las vías respiratorias.",
+    "propiedades": [
+      "expectorante",
+      "antiséptico",
+      "mucolítico",
+      "antiinflamatorio",
+      "broncodilatador suave"
+    ],
+    "principios_activos": "Timol y carvacrol: fenoles monoterpénicos con potente acción antiséptica y expectorante, fluidifican el moco y combaten las bacterias respiratorias. Flavonoides: acción antiinflamatoria.",
+    "referencias": "WHO Monographs Vol.1 (1999) Thymus vulgaris; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1491,
+    "titulo": "Infusión de Llantén para la Salud Respiratoria",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de hojas secas de llantén, 250 ml de agua, 1 cucharadita de miel (opcional)",
+    "preparacion": "Hervir el agua. Verter sobre el llantén, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 6 horas, máximo 3 tazas al día. No usar más de 5 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 6 años sin supervisión. Evitar en caso de alergia al llantén. No usar durante el embarazo sin consultar.",
+    "uso": "Tos seca, irritación de garganta y bronquitis: el llantén forma una capa protectora sobre la mucosa respiratoria que calma la tos y ayuda a expectorar el moco acumulado.",
+    "propiedades": [
+      "expectorante",
+      "emoliente",
+      "antiinflamatorio",
+      "calmante de la tos",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Aucubina: inhibe COX-2 reduciendo la inflamación de la mucosa respiratoria. Mucílago: forma una capa protectora que calma la irritación y el reflejo de la tos.",
+    "referencias": "Kováč I et al. Plantago lanceolata water extract induces transition of fibroblasts and increases tensile strength of healing wounds. J Pharm Pharmacol. 2015;67(1):117-125; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1492,
+    "titulo": "Jarabe de Rábano y Miel para la Tos y la Congestión",
+    "categoria": "Respiratorio",
+    "modulo": "respiratorio",
+    "submodulo": "tos",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 rábano negro mediano, 3 cucharadas de miel",
+    "preparacion": "Cortar la tapa del rábano y hacer un hueco en el centro. Rellenar con la miel y colocar la tapa. Dejar reposar toda la noche. La miel extraerá el jugo del rábano. Tomar el jarabe resultante.",
+    "dosis": "Adultos: 1 cucharada cada 6 horas. Niños de 2 a 12 años: 1 cucharadita cada 8 horas. No usar más de 5 días.",
+    "modo_uso": "Oral — jarabe natural",
+    "tiempo_prep": "8 h (reposo) + 5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Aproximadamente 5 cucharadas de jarabe",
+    "conservacion": "Refrigerar hasta 3 días.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia al rábano o a la miel. No usar en gastritis aguda o úlcera gástrica. No administrar a niños menores de 2 años.",
+    "uso": "Tos productiva con mucha congestión bronquial: el rábano negro fluidifica el moco espeso y la miel suaviza la garganta, facilitando la expectoración y calmando la tos.",
+    "propiedades": [
+      "expectorante",
+      "mucolítico",
+      "emoliente",
+      "antiséptico",
+      "calmante de la tos"
+    ],
+    "principios_activos": "Rafanina y compuestos azufrados (rábano): acción mucolítica y expectorante, fluidifican las secreciones bronquiales. Miel: emoliente y antimicrobiana.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Raphanus sativus."
+  },
+  {
+    "id": 1503,
+    "titulo": "Infusión de Sauco para Bajar la Fiebre",
+    "categoria": "Febrífugo",
+    "modulo": "respiratorio",
+    "submodulo": "fiebre",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de flores secas de sauco, 250 ml de agua, 1 cucharadita de miel (opcional para mayores de 1 año)",
+    "preparacion": "Hervir el agua. Verter sobre las flores de sauco, tapar y dejar reposar 10 minutos. Colar, añadir miel si se desea y beber bien caliente.",
+    "dosis": "Adultos: 1 taza cada 4 horas mientras dure la fiebre, máximo 4 tazas al día. Niños de 6 a 12 años: media taza cada 6 horas. No usar más de 3 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir inmediatamente. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en caso de alergia a las caprifoliáceas. No usar en enfermedades autoinmunes sin supervisión. Consultar si la fiebre supera 39 °C o dura más de 3 días.",
+    "uso": "Fiebre y malestar general de la gripe: induce la sudoración y ayuda a bajar la temperatura corporal de forma natural, aliviando los dolores musculares y la sensación de quebrantamiento.",
+    "propiedades": [
+      "febrífugo",
+      "diaforético",
+      "antiinflamatorio",
+      "antiviral",
+      "analgésico suave"
+    ],
+    "principios_activos": "Flavonoides (rutina, quercetina): acción diaforética que estimula las glándulas sudoríparas y favorece la disipación del calor corporal. Antocianinas: efecto antiinflamatorio sistémico.",
+    "referencias": "Zakay-Rones Z et al. Inhibition of several strains of influenza virus by elderberry extract. J Altern Complement Med. 1995; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1504,
+    "titulo": "Infusión de Sauce Blanco para Bajar la Fiebre",
+    "categoria": "Febrífugo",
+    "modulo": "respiratorio",
+    "submodulo": "fiebre",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "1 cucharadita de corteza seca de sauce blanco, 250 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de sauce durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 5 minutos. Colar y beber tibio.",
+    "dosis": "Adultos: 1 taza cada 6 horas, máximo 3 tazas al día. No usar más de 3 días seguidos sin consultar al médico.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el momento o refrigerar hasta 24 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en menores de 16 años (riesgo de síndrome de Reye). Evitar en úlcera gástrica, insuficiencia renal, tratamiento con anticoagulantes o alergia a salicilatos. Contraindicado en el embarazo y lactancia.",
+    "uso": "Fiebre y dolores corporales: el sauce blanco contiene salicina, que el cuerpo convierte en ácido salicílico, bajando la fiebre y aliviando el dolor de forma natural.",
+    "propiedades": [
+      "febrífugo",
+      "analgésico",
+      "antiinflamatorio",
+      "antirreumático",
+      "diaforético"
+    ],
+    "principios_activos": "Salicina: glucósido fenólico que se transforma en ácido salicílico en el organismo, inhibiendo las prostaglandinas responsables de la fiebre y el dolor. Flavonoides: contribuyen al efecto antiinflamatorio.",
+    "referencias": "Schmid B et al. Efficacy and tolerability of a standardized willow bark extract. Eur J Clin Pharmacol. 2001; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1505,
+    "titulo": "Infusión de Manzanilla y Limón para la Fiebre Leve",
+    "categoria": "Febrífugo",
+    "modulo": "respiratorio",
+    "submodulo": "fiebre",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores de manzanilla, zumo de medio limón, 250 ml de agua, 1 cucharadita de miel (opcional)",
+    "preparacion": "Hervir el agua. Verter sobre la manzanilla, tapar y dejar reposar 10 minutos. Colar, añadir el zumo de limón y la miel. Beber tibio.",
+    "dosis": "Adultos: 1 taza cada 6 horas. Niños de 2 a 12 años: media taza cada 8 horas. No usar más de 2 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año si lleva miel. Evitar en caso de alergia a la manzanilla o al limón. Consultar al médico si la fiebre supera 38,5 °C o se acompaña de otros síntomas graves.",
+    "uso": "Fiebre leve con malestar general: la manzanilla calma el cuerpo y el limón aporta vitamina C, ayudando a bajar la temperatura suavemente mientras refuerza las defensas.",
+    "propiedades": [
+      "febrífugo suave",
+      "antiinflamatorio",
+      "calmante",
+      "inmunoestimulante",
+      "diaforético leve"
+    ],
+    "principios_activos": "Bisabolol y flavonoides (manzanilla): acción antiinflamatoria y calmante. Vitamina C (limón): refuerzo del sistema inmunológico y antioxidante.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+  },
+  {
+    "id": 1506,
+    "titulo": "Jarabe de Sauco y Miel para la Fiebre y la Tos",
+    "categoria": "Febrífugo",
+    "modulo": "respiratorio",
+    "submodulo": "fiebre",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de bayas secas de sauco, 250 ml de agua, 3 cucharadas de miel",
+    "preparacion": "Hervir el agua con las bayas de sauco durante 10 minutos a fuego lento. Colar, dejar entibiar y añadir la miel. Guardar en frasco de vidrio limpio en el refrigerador.",
+    "dosis": "Adultos: 1 cucharada cada 4 horas. Niños de 2 a 12 años: 1 cucharadita cada 6 horas. No usar más de 5 días.",
+    "modo_uso": "Oral — jarabe",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml aproximadamente",
+    "conservacion": "Refrigerar hasta 7 días. Agitar antes de usar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia al sauco. No usar en enfermedades autoinmunes sin supervisión. Consultar si la fiebre supera 39 °C.",
+    "uso": "Fiebre acompañada de tos seca y malestar: el sauco baja la fiebre y combate los virus, mientras la miel suaviza la garganta y calma la tos.",
+    "propiedades": [
+      "febrífugo",
+      "antiviral",
+      "diaforético",
+      "antiinflamatorio",
+      "emoliente"
+    ],
+    "principios_activos": "Antocianinas y flavonoides (sauco): acción antiviral y diaforética que estimula la sudoración. Peróxido de hidrógeno (miel): efecto antimicrobiano y emoliente sobre la garganta.",
+    "referencias": "Zakay-Rones Z et al. Randomized study of the efficacy and safety of oral elderberry extract in the treatment of influenza. J Altern Complement Med. 2004; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
   }
 ]

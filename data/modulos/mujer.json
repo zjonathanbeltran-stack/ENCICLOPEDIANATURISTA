@@ -40,7 +40,9 @@
       "lavanda",
       "matico",
       "milenrama"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 283,
@@ -83,7 +85,9 @@
       "milenrama",
       "matico",
       "tilo"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 284,
@@ -125,7 +129,9 @@
       "manzanilla",
       "arrayán",
       "calendula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 285,
@@ -167,7 +173,9 @@
       "matico",
       "milenrama",
       "ruda (uso experto)"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 286,
@@ -209,7 +217,9 @@
       "llantén",
       "arrayán",
       "milenrama"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 287,
@@ -251,7 +261,9 @@
       "salvia",
       "melisa",
       "tila"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 288,
@@ -294,7 +306,9 @@
       "pasiflora",
       "melisa",
       "tila"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 289,
@@ -336,7 +350,9 @@
       "salvia",
       "melisa",
       "pasiflora"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 290,
@@ -379,7 +395,9 @@
       "manzanilla",
       "melisa",
       "pasiflora"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 291,
@@ -421,7 +439,9 @@
       "matico",
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 292,
@@ -454,7 +474,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 293,
@@ -495,7 +524,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 294,
@@ -536,7 +567,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 295,
@@ -578,7 +611,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 296,
@@ -621,7 +656,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 297,
@@ -664,7 +701,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 298,
@@ -706,7 +745,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 299,
@@ -747,7 +788,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 300,
@@ -788,7 +831,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 301,
@@ -822,7 +867,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "id": 302,
@@ -864,7 +918,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 303,
@@ -897,7 +953,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Secoiridoides (eritaurina, gentiopicrina): amargos tónicos que estimulan la secreción biliar y hepática. Flavonoides (isovitexina, swertisin): antiinflamatorios y depurativos. Xantonas: antimicrobianas.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 304,
@@ -937,7 +1002,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 305,
@@ -970,7 +1037,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Taninos elágicos (en Sanguisorba minor): hemostáticos y astringentes sobre mucosa uterina. Flavonoides (quercetina): antiinflamatorios. Saponinas: emenagogos y reguladores del flujo menstrual.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 553,
@@ -1012,7 +1088,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 554,
@@ -1045,7 +1123,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Ácido gamma-linolénico GLA (omega-6): precursor de prostaglandinas antiinflamatorias PGE1; regula el ciclo menstrual. Ácido linoleico: barrera epidérmica. Vitamina E: antioxidante.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 555,
@@ -1078,7 +1165,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Frambinona (cetona de frambuesa): lipolítica y antiobesidad. Elagitaninos (sanguiína H-6): antioxidantes potentes. Vitamina C y antocianinas: inmunoestimulantes.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 556,
@@ -1111,7 +1207,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Z-Ligustilida (ftalida): espasmolítica sobre musculatura uterina; vasodilatadora. Ferulatosa y ácido ferúlico: antiinflamatorios. Cumarinas (osteol): anticoagulantes leves.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 557,
@@ -1152,7 +1257,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 558,
@@ -1185,7 +1292,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Aucubina y agnusida (iridoides): modulan dopamina y disminuyen prolactina; regulan ciclo menstrual. Casticina y luteolina: antiinflamatorias. Diterpenos: estrogénicos débiles.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 559,
@@ -1226,7 +1342,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 560,
@@ -1259,7 +1377,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Actein y 23-epi-26-deoxyactein (glucósidos triterpenoides): modulan receptores estrogénicos sin actividad hormonal directa. Ácido isoferúlico: antiinflamatorio. Formononetin: isoflavona adaptógena.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 561,
@@ -1300,7 +1427,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "id": 562,
@@ -1342,7 +1471,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 563,
@@ -1354,7 +1485,7 @@
     "dosis": "20-30 gotas en agua 2 veces al día, fuera del periodo",
     "modo_uso": "Tomar 2 semanas antes de la fecha esperada del periodo",
     "tiempo_prep": "21 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Frasco oscuro 2 años",
     "evidencia": "Uso tradicional documentado",
@@ -1375,7 +1506,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Artabsina y absintina (sesquiterpenos lactonicos): emenagogos y reguladores del ciclo menstrual. Aceites esenciales (tuyona, borneol): antisépticos y espasmolíticos uterinos. Flavonoides: antiinflamatorios.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "id": 564,
@@ -1408,7 +1548,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Ácido ricinoleico (ácido graso hidroxi): antiinflamatorio profundo por penetración transdérmica; estimula circulación linfática. Ricinina (alcaloide): a concentraciones de uso externo, sin toxicidad. Vitamina E: antioxidante.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 565,
@@ -1442,7 +1591,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Arctigenina (lignano): antiinflamatoria e inmunomoduladora; inhibe formación de citoquinas. Inulina: prebiótico que regula microbiota intestinal. Ácido clorogénico: antioxidante y depurativo hepático.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 566,
@@ -1475,7 +1633,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Diosgenina (sapogenina esteroidal): precursora sintética de hormonas; estimula libido y producción de leche. 4-Hidroxiisoleucina: insulinosensibilizante. Mucílagos: demulcentes digestivos.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 567,
@@ -1517,7 +1684,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 798,
@@ -1558,7 +1727,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 799,
@@ -1600,7 +1771,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 800,
@@ -1633,7 +1806,17 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal",
+      "emoliente"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 801,
@@ -1674,7 +1857,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 802,
@@ -1707,7 +1892,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 803,
@@ -1740,7 +1934,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Leucocianidinas y catequinas (Saraca indica): antiinflamatorias uterinas y hemostáticas. Esteroles (β-sitosterol): estabilizadores del endometrio. Flavonas: espasmolíticas sobre musculatura uterina.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 804,
@@ -1781,7 +1984,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 805,
@@ -1823,7 +2028,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 806,
@@ -1856,7 +2063,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Ácido gimnémico (saponina triterpenoide): bloquea receptores de sabor dulce; reduce la absorción intestinal de glucosa. Gurmarina: peptídico inhibidor de la absorción de azúcares. Flavonas: hipoglucemiantes.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 807,
@@ -1889,7 +2105,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Actein y 23-epi-26-deoxyactein (glucósidos triterpenoides): modulan receptores estrogénicos sin actividad hormonal directa; reducen sofocos. Ácido isoferúlico: antiinflamatorio. Formononetin: fitoestrógeno adaptógeno.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 808,
@@ -1922,7 +2147,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Macamidas y macaenos (amidas de ácidos grasos): adaptógenas que mejoran la libido y la resistencia al estrés. Glucosinolatos (glucotropaeolina): anticancerígenos. Minerales (hierro, zinc): hematopoyéticos.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 809,
@@ -1955,7 +2189,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 810,
@@ -1988,7 +2231,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Aucubina y agnusida: reducen prolactina y regulan ciclo menstrual. Casticina: antiinflamatoria. Diterpenos: estrogénicos débiles.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 811,
@@ -2030,7 +2282,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 812,
@@ -2063,7 +2317,16 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "principios_activos": "Magnesio elemental: cofactor de más de 300 enzimas; relajante muscular, regulador del SNC y estabilizador del eje HPA. Vitamina B6 (P-5-P): potencia la absorción de magnesio y la síntesis de GABA. Efecto ansiolítico y premenstrual.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo",
+      "antiinflamatorio",
+      "regulador hormonal"
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 999,
@@ -2075,7 +2338,7 @@
     "dosis": "2 tazas al dia",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Facil",
+    "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -2104,7 +2367,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 1062,
@@ -2115,7 +2380,7 @@
     "preparacion": "1. Tostar los pinones en brasa hasta que la cascara se abra levemente (20-30 minutos, removiendo constantemente). 2. Pelar los pinones tostados aun calientes. 3. Moler en piedra de moler (kutral) hasta obtener harina gruesa. 4. Hervir el agua con la rama de canelo durante 10 minutos; retirar canelo. 5. Disolver la harina de pinon en el agua caliente, revolviendo sin parar. 6. Colar con pano fino. Servir tibio.",
     "dosis": "2 tazas al dia (manana y tarde) durante los primeros 10 dias post-parto. Complementar con reposo y caldo de gallina.",
     "modo_uso": "Oral (bebida nutritiva y ceremonial)",
-    "tiempo_prep": "60 minutos",
+    "tiempo_prep": "60 min",
     "dificultad": "Media",
     "rendimiento": "4-5 tazas por preparacion",
     "conservacion": "Consumir fresco el mismo dia. No conservar mas de 24 horas en lugar fresco.",
@@ -2145,7 +2410,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1066,
@@ -2156,7 +2423,7 @@
     "preparacion": "1. Desmenuzar las hojas y ramas de tepu en trozos pequenos. 2. Hervir el agua; agregar el tepu y la corteza de patagua simultaneamente. 3. Cocer a fuego medio-bajo durante 25 minutos con la olla tapada. 4. Dejar reposar tapado 10 minutos adicionales. 5. Colar con pano fino y expresar bien el material vegetal. 6. Agregar la miel de ulmo cuando el liquido este tibio (no caliente, para preservar enzimas). Revolver.",
     "dosis": "1 taza (200 ml) cada manana en ayunas y 1 taza en la noche durante las primeras 3 semanas post-parto. A partir de la 4a semana, 1 taza diaria por 2 semanas mas.",
     "modo_uso": "Oral (decoccion con miel)",
-    "tiempo_prep": "45 minutos",
+    "tiempo_prep": "45 min",
     "dificultad": "Media",
     "rendimiento": "4 tazas por preparacion",
     "conservacion": "Refrigerar hasta 48 horas. Preparar fresco cada 2 dias.",
@@ -2186,7 +2453,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "id": 1088,
@@ -2227,7 +2496,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1093,
@@ -2269,7 +2540,9 @@
       "Manzanilla",
       "Lavanda",
       "Caléndula"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1122,
@@ -2280,7 +2553,7 @@
     "preparacion": "Agua a casi hervor. Retirar y agregar hierbas, tapar 10 min. Colar.",
     "dosis": "1 taza 2 veces al día desde 3 días antes del periodo y durante los primeros días",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1 taza",
     "conservacion": "Recién hecha",
@@ -2310,7 +2583,9 @@
       "Milenrama",
       "Manzanilla",
       "Salvia"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1128,
@@ -2321,7 +2596,7 @@
     "preparacion": "Agua a casi hervor. Retirar y agregar hierbas, tapar 8 min. Colar.",
     "dosis": "2 tazas al día desde 7 días antes del periodo",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 300 ml",
     "conservacion": "Recién hecha",
@@ -2351,7 +2626,9 @@
       "Milenrama",
       "Manzanilla",
       "Salvia"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1153,
@@ -2393,7 +2670,9 @@
       "caléndula",
       "salvia",
       "manto de dama"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1154,
@@ -2435,7 +2714,9 @@
       "cimicifuga",
       "trébol rojo",
       "manto de dama"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "id": 1175,
@@ -2446,7 +2727,7 @@
     "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos tapado. Colar.",
     "dosis": "2 tazas al día desde 7 días antes de la menstruación hasta el 3° día de regla",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "Preparar fresca",
@@ -2478,7 +2759,9 @@
     "sinergia_plantas": [
       "matricaria",
       "salvia (no en lactancia)"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1176,
@@ -2489,7 +2772,7 @@
     "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Infundir 10 minutos. Colar.",
     "dosis": "1-2 tazas al día, preferentemente noche para sofocos nocturnos",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "300 ml",
     "conservacion": "Preparar fresca",
@@ -2520,7 +2803,9 @@
     "sinergia_plantas": [
       "lúpulo",
       "valeriana"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "id": 1177,
@@ -2531,7 +2816,7 @@
     "preparacion": "Hervir agua con hierbas tapado 20 minutos. Apagar y reposar 15 minutos. Colar. Añadir sal. Verter en bidet o lavatorio cuando esté tibio.",
     "dosis": "Baño de asiento de 15-20 minutos, 1-2 veces al día durante el puerperio",
     "modo_uso": "Baño de asiento",
-    "tiempo_prep": "40 minutos",
+    "tiempo_prep": "40 min",
     "dificultad": "Fácil",
     "rendimiento": "2 litros",
     "conservacion": "Preparar fresca",
@@ -2564,7 +2849,9 @@
     "sinergia_plantas": [
       "llantén",
       "topa topa"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "id": 1178,
@@ -2575,7 +2862,7 @@
     "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar e infundir 10 minutos. Colar.",
     "dosis": "1-2 tazas al día durante la semana premenstrual",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "300 ml",
     "conservacion": "Preparar fresca",
@@ -2607,7 +2894,9 @@
     "sinergia_plantas": [
       "milenrama",
       "pasiflora"
-    ]
+    ],
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Melisa para los síntomas de la menopausia",
@@ -2615,19 +2904,25 @@
     "origen": "Medicina tradicional europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de melisa. - 250 ml de agua hirviendo.",
     "preparacion": "1. Colocar las hojas en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Síntomas nerviosos de la menopausia como ansiedad, irritabilidad e insomnio leve: la melisa calma el sistema nervioso, reduce la tensión emocional y facilita un sueño tranquilo.",
+    "principios_activos": "Ácido rosmarínico y citral: acción ansiolítica mediada por modulación del sistema GABAérgico e inhibición de la GABA-transaminasa, aumentando los niveles de GABA cerebral.",
+    "propiedades": [
+      "ansiolítico",
+      "sedante suave",
+      "antiespasmódico",
+      "carminativo",
+      "digestivo"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -2636,7 +2931,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "Cultivada en huertos de todo Chile, incluido Chiloé",
     "efectos_secundarios": "",
-    "id": 1208
+    "id": 1208,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Decocción de Jengibre para náuseas del embarazo",
@@ -2644,19 +2941,24 @@
     "origen": "Fitoterapia clínica basada en evidencia",
     "ingredientes": "- 0.5-1 g de jengibre seco en polvo (o 2 g de rizoma fresco rallado, equivalente a un trozo de 1 cm). - 250 ml de agua.",
     "preparacion": "1. Poner el jengibre en una olla con el agua. 2. Hervir a fuego lento durante 10 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Cálculos biliares. - Trastornos de la coagulación. - No combinar con anticoagulantes.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Náuseas y vómitos del embarazo: el jengibre bloquea los receptores de serotonina en el tracto digestivo y el sistema nervioso central, aliviando las náuseas de forma segura durante la gestación.",
+    "principios_activos": "Gingeroles y shogaoles: inhiben los receptores serotoninérgicos 5-HT3 a nivel gastrointestinal y central, bloqueando el reflejo del vómito. Acción anticolinérgica y antihistamínica complementaria.",
+    "propiedades": [
+      "antiemético",
+      "digestivo",
+      "carminativo",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Zingiber officinale. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Sí (máximo 1 g seco al día)",
@@ -2665,7 +2967,9 @@
     "nivel_seguridad": "✅ Seguro (dosis controlada, supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1209
+    "id": 1209,
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "titulo": "Decocción de Sauzgatillo (Vitex) para apoyo a la fertilidad",
@@ -2673,19 +2977,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de frutos secos de sauzgatillo ligeramente machacados. - 250 ml de agua.",
     "preparacion": "1. Machacar los frutos. 2. Hervir en el agua durante 10 minutos a fuego lento. 3. Colar y beber tibio por la mañana.",
-    "dosis": "",
+    "dosis": "1 taza por la mañana, durante la primera mitad del ciclo",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Suspender inmediatamente si se confirma el embarazo. - Cáncer de mama, útero u ovario. - No usar junto con anticonceptivos orales.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Apoyo a la fertilidad y regulación del ciclo menstrual: el sauzgatillo actúa sobre el eje hipotálamo-hipófisis normalizando los niveles de prolactina y favoreciendo la ovulación.",
+    "principios_activos": "Diterpenos clerodánicos (rotundifurano): acción dopaminérgica sobre los receptores D2 de la hipófisis anterior, inhibiendo la liberación de prolactina y normalizando el eje hormonal femenino. Flavonoides: efecto antioxidante complementario.",
+    "propiedades": [
+      "regulador hormonal",
+      "prolactinémico",
+      "emenagogo suave",
+      "dopaminérgico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Vitex agnus-castus. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2694,7 +3003,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1210
+    "id": 1210,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Bolsa de Pastor para reducir el flujo abundante",
@@ -2702,19 +3013,24 @@
     "origen": "Fitoterapia clínica basada en ensayos clínicos",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de bolsa de pastor desmenuzadas. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día durante la menstruación, comenzando",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Embarazo (efecto estimulante uterino). - Lactancia. - Cálculos renales (por su contenido en oxalatos). - No usar en niños ni adolescentes. - No usar como sustituto del tratamiento médico en hemorragias agudas.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Menstruaciones abundantes (hipermenorrea): la bolsa de pastor reduce el volumen del sangrado menstrual gracias a su acción vasoconstrictora y astringente sobre el endometrio.",
+    "principios_activos": "Colina y acetilcolina: acción vasoconstrictora local sobre el endometrio que reduce el sangrado. Flavonoides y taninos: efecto astringente y hemostático que disminuye la pérdida sanguínea menstrual.",
+    "propiedades": [
+      "hemostático",
+      "astringente",
+      "vasoconstrictor",
+      "regulador menstrual"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; Naafe M et al. Effect of Hydroalcoholic Extracts of Capsella Bursa-Pastoris on Menstrual Bleeding. 2018. PMID: 29641247.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "- Puede potenciar el efecto de anticoagulantes y antiplaquetarios. - Puede interferir con antihipertensivos.",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2723,7 +3039,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1211
+    "id": 1211,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Ortiga para la menorragia y prevención de anemia",
@@ -2731,19 +3049,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharada sopera (aprox. 3 g) de hojas secas de ortiga desmenuzadas. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas secas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día. Comenzar 2-3 días antes del inicio",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Insuficiencia cardíaca o renal que curse con edema. - Alergia a las urticáceas. - Embarazo: usar solo bajo supervisión médica.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Menstruaciones abundantes y prevención de anemia ferropénica: la ortiga reduce el sangrado excesivo gracias a su acción astringente y, al mismo tiempo, repone el hierro perdido.",
+    "principios_activos": "Taninos y flavonoides: acción astringente y vasoconstrictora sobre el endometrio, reduciendo el sangrado menstrual. Hierro y vitamina C endógena: favorecen la eritropoyesis y la formación de hemoglobina, previniendo la anemia.",
+    "propiedades": [
+      "hemostático",
+      "antianémico",
+      "remineralizante",
+      "astringente"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Urtica dioica. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "- La vitamina C de la ortiga mejora la absorción de hierro. - Puede potenciar diuréticos.",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2752,7 +3075,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1212
+    "id": 1212,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Canela para reducir el sangrado menstrual abundante",
@@ -2760,19 +3085,24 @@
     "origen": "Fitoterapia basada en ensayos clínicos",
     "ingredientes": "- 1 rama de canela de Ceilán (aprox. 2-3 g) o ½ cucharadita (aprox. 2 g) de canela en polvo. - 250 ml de agua.",
     "preparacion": "1. Si se usa rama: hervir en el agua durante 10 minutos. Si se usa polvo: verter agua hirviendo, tapar y reposar 10 minutos. 2. Colar (especialmente si se usa polvo) y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día, durante los días de sangrado.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Embarazo (puede estimular contracciones uterinas). - Lactancia (no hay datos suficientes de seguridad). - Úlcera gástrica activa. - Trastornos de la coagulación o tratamiento con anticoagulantes. - No usar canela cassia (Cinnamomum cassia) por su alto contenido en cumarina hepatotóxica. Usar solo ",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sangrado menstrual abundante y dolor pélvico asociado: la canela reduce la pérdida sanguínea menstrual gracias a su efecto astringente y antiespasmódico sobre el útero.",
+    "principios_activos": "Cinamaldehído y proantocianidinas: acción astringente sobre el endometrio y efecto antiespasmódico sobre la musculatura uterina. Eugenol: efecto analgésico y antiinflamatorio complementario.",
+    "propiedades": [
+      "hemostático",
+      "antiespasmódico",
+      "astringente",
+      "analgésico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Cinnamomum verum. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2781,7 +3111,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1213
+    "id": 1213,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Decocción de Jengibre para el sangrado menstrual intenso",
@@ -2789,19 +3121,24 @@
     "origen": "Fitoterapia basada en ensayos clínicos",
     "ingredientes": "- ½ cucharadita (aprox. 2 g) de jengibre seco en polvo o 3 g de rizoma fresco rallado (trozo de 2 cm). - 250 ml de agua.",
     "preparacion": "1. Poner el jengibre en una olla con el agua. 2. Hervir a fuego lento durante 10 minutos. 3. Colar y beber tibio. Puede añadirse miel al gusto.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día, durante los 3 primeros días de la",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Cálculos biliares. - Trastornos de la coagulación o tratamiento con anticoagulantes. - Cirugía programada (suspender 1 semana antes). - No usar cerca del parto o en mujeres con antecedentes de aborto espontáneo o sangrado vaginal sin diagnóstico.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sangrado menstrual intenso: el jengibre modula la producción de prostaglandinas, reduciendo el flujo sanguíneo excesivo y aliviando el dolor pélvico asociado.",
+    "principios_activos": "Gingeroles y shogaoles: inhiben la ciclooxigenasa (COX) y la lipooxigenasa (LOX), modulando la producción de prostaglandinas y tromboxanos, lo que reduce el sangrado y la inflamación uterina.",
+    "propiedades": [
+      "hemostático leve",
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Zingiber officinale. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -2810,7 +3147,9 @@
     "nivel_seguridad": "⚠️ Precaución (dosis controlada)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1214
+    "id": 1214,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Milenrama para el flujo abundante y dolor menstrual",
@@ -2818,19 +3157,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de sumidades floridas secas de milenrama desmenuzadas. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día durante los días de sangrado.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las asteráceas (margaritas, ambrosía, manzanilla). - Embarazo y lactancia (evitar uso interno). - No usar en niños menores de 12 años.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Menstruaciones abundantes y dolor menstrual: la milenrama regula el sangrado, calma los espasmos uterinos y alivia el dolor pélvico asociado al ciclo.",
+    "principios_activos": "Aquileína y taninos: acción hemostática y astringente que reduce el sangrado menstrual. Flavonoides y aceite esencial con azuleno: efecto antiespasmódico y antiinflamatorio sobre la musculatura uterina.",
+    "propiedades": [
+      "hemostático",
+      "antiespasmódico",
+      "antiinflamatorio",
+      "regulador menstrual"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Achillea millefolium. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2839,7 +3183,9 @@
     "nivel_seguridad": "✅ Seguro (+14 años)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1215
+    "id": 1215,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Hamamelis para el flujo abundante (uso interno)",
@@ -2847,19 +3193,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- ½ cucharadita (aprox. 1.5 g) de corteza seca de hamamelis desmenuzada. - 250 ml de agua fría.",
     "preparacion": "1. Colocar la corteza en una olla con el agua fría. 2. Llevar a ebullición y hervir a fuego lento durante 10 minutos. 3. Retirar del fuego, colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día durante los días de sangrado",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Embarazo y lactancia. - Insuficiencia hepática. - No usar en niños ni adolescentes. - No usar si el sangrado se acompaña de dolor intenso sin diagnóstico.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Menstruaciones abundantes y sangrado uterino leve: el hamamelis contrae los vasos sanguíneos y tonifica la mucosa, reduciendo la pérdida de sangre menstrual.",
+    "principios_activos": "Taninos (hamamelitanino): potente acción astringente y vasoconstrictora sobre el endometrio, precipitan las proteínas y reducen el sangrado. Flavonoides: efecto antiinflamatorio y protector vascular.",
+    "propiedades": [
+      "hemostático",
+      "astringente",
+      "vasoconstrictor",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Hamamelis virginiana. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "- Puede interferir con la absorción de hierro y otros minerales (por su alto contenido en taninos). Separar de suplementos y medicamentos por al menos 2 horas. - Puede potenciar el efecto de anticoagulantes.",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2868,7 +3219,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1216
+    "id": 1216,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Hojas de Frambueso para tonificar el útero",
@@ -2876,19 +3229,24 @@
     "origen": "Medicina tradicional europea (cultivada en Chile)",
     "ingredientes": "- 1 cucharada sopera (aprox. 3 g) de hojas secas de frambueso. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y reposar 15 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día. Puede tomarse de forma continua.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Estreñimiento crónico (efecto astringente leve). - Embarazo: consultar al médico (se usa tradicionalmente para tonificar el útero en el tercer trimestre, pero solo bajo supervisión).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Tonificar el útero y regular las menstruaciones: las hojas de frambueso fortalecen la musculatura uterina y ayudan a regularizar el ciclo menstrual, siendo útiles también en la preparación para el parto.",
+    "principios_activos": "Fragarina y taninos: acción tónica sobre la musculatura lisa uterina, fortaleciendo las contracciones y regulando el tono. Flavonoides: efecto antioxidante y antiinflamatorio sobre el endometrio.",
+    "propiedades": [
+      "tónico uterino",
+      "astringente",
+      "regulador menstrual",
+      "remineralizante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Rubus idaeus. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2897,7 +3255,9 @@
     "nivel_seguridad": "✅ Seguro (supervisión médica en embarazo)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1217
+    "id": 1217,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Decocción de Jengibre para sangrado menstrual intenso",
@@ -2905,19 +3265,24 @@
     "origen": "Fitoterapia basada en ensayos clínicos",
     "ingredientes": "- ½ cdta. (2 g) de jengibre seco en polvo o 3 g fresco rallado. - 250 ml de agua.",
     "preparacion": "1. Hervir a fuego lento 10 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día durante los 3 primeros días.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Cálculos biliares. - Trastornos de la coagulación.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sangrado menstrual intenso: el jengibre reduce la producción de prostaglandinas proinflamatorias, disminuyendo el volumen del sangrado y aliviando el dolor uterino.",
+    "principios_activos": "Gingeroles y shogaoles: inhiben COX y LOX, modulando la producción de prostaglandinas y tromboxanos, reduciendo el sangrado y la contractilidad uterina excesiva.",
+    "propiedades": [
+      "hemostático leve",
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Zingiber officinale. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -2926,7 +3291,9 @@
     "nivel_seguridad": "⚠️ Precaución (dosis controlada)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1218
+    "id": 1218,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Decocción de Raíz de Pimpinela Cimarrona para el flujo abundante",
@@ -2934,19 +3301,24 @@
     "origen": "Medicina tradicional chilena (centro-sur y Patagonia)",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de raíz seca desmenuzada. - 250 ml de agua fría.",
     "preparacion": "1. Colocar la raíz en una olla con el agua fría. 2. Llevar a ebullición y hervir a fuego lento durante 10-15 minutos. 3. Retirar del fuego, colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 1-2 veces al día durante los días de sangrado.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Embarazo (tradicionalmente se ha usado para \"calmar la matriz\", pero no se recomienda su uso sin supervisión médica moderna). - Lactancia.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Menstruaciones abundantes y desarreglos del ciclo: la pimpinela cimarrona ayuda a regular el sangrado menstrual y a tonificar el útero, reduciendo la pérdida excesiva.",
+    "principios_activos": "Taninos y saponinas: acción astringente y hemostática sobre el endometrio que reduce el sangrado excesivo. Compuestos fenólicos: efecto antiinflamatorio y tónico sobre la musculatura uterina.",
+    "propiedades": [
+      "hemostático",
+      "astringente",
+      "tónico uterino",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2955,7 +3327,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1219
+    "id": 1219,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Salvia para sofocos y sudoración nocturna",
@@ -2963,19 +3337,24 @@
     "origen": "Medicina tradicional europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de salvia. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Embarazo y lactancia (la salvia puede reducir la producción de leche). - Epilepsia (el aceite esencial de salvia puede ser neurotóxico; no aplica a la infusión, pero se recomienda precaución). - No usar en niños.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sofocos y sudoración nocturna en la menopausia: la salvia regula la sudoración excesiva y reduce la frecuencia e intensidad de los episodios vasomotores.",
+    "principios_activos": "Ácido rosmarínico y flavonoides: acción estrogénica suave que modula los receptores hormonales y reduce los sofocos. Aceite esencial (tuyona, cineol): efecto regulador de la sudoración a nivel hipotalámico.",
+    "propiedades": [
+      "regulador de la sudoración",
+      "antiséptico",
+      "astringente",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Salvia officinalis. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -2984,7 +3363,9 @@
     "nivel_seguridad": "⚠️ Precaución (no uso prolongado)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1220
+    "id": 1220,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Infusión de Trébol Rojo para síntomas de la menopausia",
@@ -2992,19 +3373,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores secas de trébol rojo desmenuzadas. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las flores. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Cáncer de mama, útero u ovario (condiciones sensibles a hormonas). - Trastornos de la coagulación. - Embarazo y lactancia.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sofocos, sudoración nocturna y sequedad vaginal en la menopausia: el trébol rojo contiene isoflavonas que ejercen un suave efecto estrogénico, aliviando los síntomas vasomotores y la atrofia mucosa.",
+    "principios_activos": "Isoflavonas (genisteína, daidzeína, formononetina): actúan como moduladores selectivos de los receptores estrogénicos (SERM), uniéndose a los receptores de estrógeno y ejerciendo una acción hormonal suave que compensa el déficit menopáusico.",
+    "propiedades": [
+      "fitoestrogénico",
+      "regulador hormonal",
+      "antiinflamatorio",
+      "calmante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Trifolium pratense. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3013,7 +3399,9 @@
     "nivel_seguridad": "⚠️ Precaución (condiciones sensibles a hormonas)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1221
+    "id": 1221,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Infusión de Melisa y Lavanda para el insomnio en la menopausia",
@@ -3021,19 +3409,25 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de melisa. - ½ cucharadita (aprox. 1 g) de flores secas de lavanda. - 250 ml de agua hirviendo.",
     "preparacion": "1. Mezclar las plantas secas en una taza. 2. Verter el agua hirviendo sobre ellas. 3. Tapar y dejar reposar 10 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 30-60 minutos antes de acostarse. Puede tomarse",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda, romero). - No combinar con sedantes potentes sin supervisión médica.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Insomnio, inquietud y ansiedad en la menopausia: la combinación de melisa y lavanda potencia el efecto relajante y sedante, facilitando un sueño reparador sin somnolencia residual.",
+    "principios_activos": "Ácido rosmarínico y citral (melisa): acción ansiolítica por aumento del GABA cerebral. Linalol y acetato de linalilo (lavanda): efecto sedante por modulación de canales de calcio y receptores NMDA.",
+    "propiedades": [
+      "sedante",
+      "ansiolítico",
+      "inductor del sueño",
+      "miorrelajante",
+      "calmante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis y Lavandula angustifolia. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3042,7 +3436,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1222
+    "id": 1222,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Infusión de Toronjil para el insomnio y la ansiedad en la menopausia",
@@ -3050,19 +3446,24 @@
     "origen": "Medicina tradicional europea, cultivada en Chile",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de toronjil. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 30-60 minutos antes de acostarse.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las lamiáceas (menta, lavanda).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Insomnio y ansiedad durante la menopausia: el toronjil (melisa) calma la mente, reduce la tensión nerviosa y favorece la conciliación del sueño de forma suave.",
+    "principios_activos": "Ácido rosmarínico y citral: modulan el sistema GABAérgico inhibiendo la enzima GABA-transaminasa, lo que aumenta los niveles de GABA y produce un efecto calmante y sedante.",
+    "propiedades": [
+      "ansiolítico",
+      "sedante suave",
+      "inductor del sueño",
+      "antiespasmódico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Melissa officinalis. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3071,7 +3472,9 @@
     "nivel_seguridad": "✅ Seguro",
     "distribucion": "Cultivada en huertos y jardines de todo Chile.",
     "efectos_secundarios": "",
-    "id": 1223
+    "id": 1223,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Infusión de Chachacoma para sofocos y mal de altura",
@@ -3079,19 +3482,24 @@
     "origen": "Medicina tradicional del altiplano chileno",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas secas de chachacoma. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 1-2 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina tradicional del altiplano chileno",
     "contraindicaciones": "- Embarazo y lactancia. - Alergia a las asteráceas. - Enfermedad hepática (precaución con plantas del género *Senecio*).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sofocos, mareos y síntomas similares al mal de altura durante la menopausia: la chachacoma ayuda a aliviar los sofocos y mejora la adaptación a los cambios de presión y temperatura.",
+    "principios_activos": "Aceites esenciales y compuestos fenólicos: acción adaptógena que regula la respuesta del organismo al estrés térmico y la hipoxia, reduciendo los sofocos. Flavonoides: efecto antiinflamatorio y vasorregulador.",
+    "propiedades": [
+      "adaptógeno",
+      "febrífugo suave",
+      "antiemético",
+      "antiinflamatorio"
+    ],
+    "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3100,7 +3508,9 @@
     "nivel_seguridad": "⚠️ Precaución",
     "distribucion": "Chile, altiplano y alta cordillera (Regiones de Arica-Parinacota, Tarapacá, Antofagasta).",
     "efectos_secundarios": "",
-    "id": 1224
+    "id": 1224,
+    "modulo": "mujer",
+    "submodulo": "menopausia"
   },
   {
     "titulo": "Infusión de Jengibre y Manzanilla para cólicos menstruales",
@@ -3108,19 +3518,24 @@
     "origen": "Fitoterapia clínica basada en evidencia",
     "ingredientes": "- 2 cucharaditas (aprox. 4 g) de raíz de jengibre fresco rallado. - 1 cucharadita (aprox. 2 g) de flores secas de manzanilla. - 250 ml de agua. - Miel al gusto (opcional, no en menores de 1 año).",
     "preparacion": "1. Poner el jengibre rallado en una olla con el agua. 2. Llevar a ebullición y hervir a fuego lento durante 10 minutos. 3. Retirar del fuego, añadir la manzanilla, tapar y dejar reposar 5-7 minutos más. 4. Colar, añadir miel al gusto y beber caliente.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día durante los días de dolor menstrual.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Media",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Alergia a las asteráceas (manzanilla). - Cálculos biliares (jengibre). - Trastornos de la coagulación o tratamiento con anticoagulantes.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Cólicos menstruales intensos: el jengibre bloquea las prostaglandinas que causan dolor y la manzanilla relaja los espasmos uterinos, proporcionando un alivio rápido y completo.",
+    "principios_activos": "Gingeroles (jengibre): inhiben COX-2 reduciendo las prostaglandinas proinflamatorias. Bisabolol y apigenina (manzanilla): acción antiespasmódica sobre la musculatura uterina y efecto ansiolítico suave.",
+    "propiedades": [
+      "analgésico",
+      "antiespasmódico",
+      "antiinflamatorio",
+      "calmante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Zingiber officinale y Matricaria recutita. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3129,7 +3544,9 @@
     "nivel_seguridad": "✅ Seguro (+14 años)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1225
+    "id": 1225,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Hinojo para cólicos menstruales",
@@ -3137,19 +3554,24 @@
     "origen": "Medicina tradicional persa y europea",
     "ingredientes": "- 1 cucharadita (aprox. 2-3 g) de frutos de hinojo recién machacados. - 250 ml de agua hirviendo.",
     "preparacion": "1. Machacar ligeramente los frutos de hinojo para liberar sus aceites esenciales. 2. Verter el agua hirviendo sobre ellos. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día, comenzando 2-3 días antes del",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las apiáceas (hinojo, comino, anís, apio). - Embarazo: evitar dosis altas.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Cólicos menstruales y dolor pélvico: el hinojo relaja la musculatura uterina, reduce los espasmos y alivia el dolor menstrual de forma efectiva.",
+    "principios_activos": "Anetol y fenchona: aceites esenciales con acción antiespasmódica sobre la musculatura lisa uterina, inhibiendo las contracciones dolorosas mediadas por prostaglandinas.",
+    "propiedades": [
+      "antiespasmódico",
+      "analgésico",
+      "carminativo",
+      "emenagogo suave"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3158,7 +3580,9 @@
     "nivel_seguridad": "✅ Seguro (+14 años)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1226
+    "id": 1226,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Decocción de Sauzgatillo (Vitex) para el síndrome premenstrual",
@@ -3166,19 +3590,24 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de frutos secos de sauzgatillo ligeramente machacados. - 250 ml de agua.",
     "preparacion": "1. Machacar los frutos. 2. Hervir en el agua durante 10 minutos a fuego lento. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza por la mañana, durante la segunda mitad del ciclo",
     "modo_uso": "Decocción",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Embarazo y lactancia. - Cáncer de mama, útero u ovario (condiciones sensibles a hormonas). - No usar junto con anticonceptivos orales sin supervisión médica.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Síndrome premenstrual con irritabilidad, mastalgia e hinchazón: el sauzgatillo equilibra las hormonas reduciendo la prolactina y normalizando el eje hormonal femenino.",
+    "principios_activos": "Diterpenos clerodánicos: acción dopaminérgica sobre receptores D2 de la hipófisis anterior, inhibiendo la liberación excesiva de prolactina y normalizando la relación progesterona/estrógenos.",
+    "propiedades": [
+      "regulador hormonal",
+      "prolactinémico",
+      "ansiolítico",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Vitex agnus-castus. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3187,7 +3616,9 @@
     "nivel_seguridad": "⚠️ Precaución (puede interferir con anticonceptivos)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1227
+    "id": 1227,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Decocción de Hinojo para cólicos menstruales",
@@ -3195,19 +3626,24 @@
     "origen": "Medicina tradicional europea, naturalizado en Chile",
     "ingredientes": "- 1 cucharadita (aprox. 2-3 g) de frutos de hinojo (semillas). - 250 ml de agua.",
     "preparacion": "1. Machacar ligeramente los frutos. 2. Poner en una olla con el agua y hervir a fuego lento durante 5-7 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 3 veces al día, comenzando 2-3 días antes del inicio previsto de la menstruación.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "7 minutos",
+    "tiempo_prep": "7 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las apiáceas (hinojo, comino, anís, apio). - Embarazo: evitar dosis altas.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Cólicos menstruales y espasmos uterinos: el hinojo relaja la musculatura lisa del útero y reduce el dolor menstrual de forma natural y efectiva.",
+    "principios_activos": "Anetol y fenchona: aceites esenciales con acción antiespasmódica directa sobre la musculatura uterina, inhibiendo las contracciones mediadas por prostaglandinas y reduciendo el dolor.",
+    "propiedades": [
+      "antiespasmódico",
+      "analgésico",
+      "carminativo",
+      "emenagogo suave"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3216,7 +3652,9 @@
     "nivel_seguridad": "✅ Seguro (+14 años)",
     "distribucion": "Ampliamente naturalizado en todo Chile, incluido Chiloé.",
     "efectos_secundarios": "",
-    "id": 1228
+    "id": 1228,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Chilco para aliviar el dolor menstrual",
@@ -3224,19 +3662,24 @@
     "origen": "Medicina tradicional mapuche y chilena",
     "ingredientes": "- 1 cucharada sopera (aprox. 3-4 g) de flores y hojas secas de chilco. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las flores y hojas secas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día durante los días de dolor menstrual.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "- Embarazo (el chilco es conocido como emenagogo y puede estimular la menstruación). - Lactancia: no se recomienda su uso sin supervisión médica. - Alergia a las onagráceas (familia del chilco).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Dolor menstrual y retraso de la regla: el chilco es un emenagogo tradicional mapuche que estimula el flujo menstrual y alivia los cólicos uterinos.",
+    "principios_activos": "Flavonoides y taninos: acción emenagoga que estimula suavemente las contracciones uterinas y favorece el inicio de la menstruación. Compuestos fenólicos: efecto analgésico y antiinflamatorio sobre la pelvis.",
+    "propiedades": [
+      "emenagogo",
+      "antiespasmódico",
+      "analgésico",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3245,7 +3688,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "Chile, desde la Región de Coquimbo hasta Magallanes, incluido Chiloé.",
     "efectos_secundarios": "",
-    "id": 1229
+    "id": 1229,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Cápsulas de Cúrcuma para la vaginosis bacteriana",
@@ -3253,19 +3698,24 @@
     "origen": "Fitoterapia clínica basada en ensayos clínicos",
     "ingredientes": "",
     "preparacion": "- Adquirir cápsulas de curcumina con piperina en herbolarios o farmacias especializadas.",
-    "dosis": "",
+    "dosis": "1 cápsula de 500 mg, 2 veces al día (cada 12 horas),",
     "modo_uso": "Cápsulas",
-    "tiempo_prep": "10-15 minutos",
+    "tiempo_prep": "10-15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Cálculos biliares u obstrucción de vías biliares. - Úlcera gástrica activa. - Embarazo (evitar dosis medicinales). - Cirugía programada (suspender 2 semanas antes).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Vaginosis bacteriana recurrente: la curcumina combate las bacterias causantes de la infección y reduce la inflamación de la mucosa vaginal.",
+    "principios_activos": "Curcumina: inhibe el crecimiento de bacterias anaerobias como Gardnerella vaginalis y modula la respuesta inmune local, reduciendo la inflamación y el flujo vaginal anormal. Piperina: aumenta la biodisponibilidad de la curcumina en un 2000%.",
+    "propiedades": [
+      "antimicrobiano",
+      "antiinflamatorio",
+      "antioxidante",
+      "inmunomodulador"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Curcuma longa. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3274,7 +3724,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1230
+    "id": 1230,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Baño de asiento de Caléndula para la higiene íntima",
@@ -3282,19 +3734,24 @@
     "origen": "Medicina tradicional europea",
     "ingredientes": "- 30 g de flores secas de caléndula. - 2 litros de agua.",
     "preparacion": "1. Hervir el agua y verter sobre las flores de caléndula. 2. Tapar y dejar reposar 15-20 minutos. 3. Colar y dejar entibiar hasta una temperatura agradable (37-38 °C). 4. Verter en un recipiente adecuado para baño de asiento.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Uso externo",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Media",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las asteráceas. - No usar si hay infección activa sin consultar al médico.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Higiene íntima y alivio de irritaciones vaginales: la caléndula desinflama la mucosa, calma la picazón y ayuda a restaurar el equilibrio natural de la zona íntima.",
+    "principios_activos": "Triterpenos y flavonoides de caléndula: acción antiinflamatoria y antiséptica sobre la mucosa vulvovaginal, reduciendo la irritación y el enrojecimiento. Carotenoides: efecto regenerador de los tejidos.",
+    "propiedades": [
+      "antiinflamatorio",
+      "calmante",
+      "antiséptico",
+      "regenerador"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 2: Calendula officinalis. Geneva: WHO; 2002.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3303,7 +3760,9 @@
     "nivel_seguridad": "✅ Seguro (uso externo)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1231
+    "id": 1231,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Aceite de Coco para la sequedad vaginal",
@@ -3311,19 +3770,24 @@
     "origen": "Medicina tradicional y recomendaciones clínicas",
     "ingredientes": "- Aceite de coco virgen orgánico (uso directo).",
     "preparacion": "- El aceite de coco se usa directamente, sin preparación adicional. - Debe conservarse en un frasco limpio a temperatura ambiente (se solidifica por debajo de 24 °C y se licúa al contacto con la piel).",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Uso tópico",
-    "tiempo_prep": "10-15 minutos",
+    "tiempo_prep": "10-15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia clínica",
     "contraindicaciones": "- Alergia al coco (poco frecuente). - No usar con preservativos de látex (el aceite puede degradar el látex y reducir su eficacia anticonceptiva).",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Sequedad vaginal y molestias durante las relaciones: el aceite de coco hidrata en profundidad, lubrica la mucosa vaginal y alivia la irritación y la sensación de tirantez.",
+    "principios_activos": "Ácido láurico y ácidos grasos de cadena media: acción emoliente y antimicrobiana que protege e hidrata la mucosa vaginal, restaurando su elasticidad y aliviando la sequedad.",
+    "propiedades": [
+      "emoliente",
+      "hidratante",
+      "calmante",
+      "antiséptico suave"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Cocos nucifera. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3332,7 +3796,9 @@
     "nivel_seguridad": "✅ Seguro (uso externo)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1232
+    "id": 1232,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Sandía-Lahuén para afecciones urinarias y menstruales",
@@ -3340,19 +3806,24 @@
     "origen": "Medicina tradicional chilena",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de hojas y ramillas secas de sandía-lahuén. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre la planta seca. 2. Tapar y dejar reposar 10 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Embarazo y lactancia. - No usar en niños.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Afecciones urinarias y dolores menstruales: la sandía-lahuén ayuda a desinflamar las vías urinarias y alivia los cólicos y la congestión pélvica durante la menstruación.",
+    "principios_activos": "Flavonoides y aceite esencial: acción diurética y antiséptica sobre las vías urinarias, con efecto antiespasmódico complementario sobre la musculatura uterina.",
+    "propiedades": [
+      "diurético",
+      "antiséptico urinario",
+      "antiespasmódico",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3361,7 +3832,9 @@
     "nivel_seguridad": "⚠️ Precaución",
     "distribucion": "Chile, desde la Región de Antofagasta hasta la Región del Bío-Bío.",
     "efectos_secundarios": "",
-    "id": 1233
+    "id": 1233,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Raíz de Paico para regular la menstruación",
@@ -3369,19 +3842,24 @@
     "origen": "Medicina tradicional mapuche y chilena",
     "ingredientes": "- ½ cucharadita (aprox. 1 g) de raíz seca de paico desmenuzada. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre la raíz. 2. Tapar y dejar reposar exactamente 5 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza en ayunas, solo por la mañana. NO EXCEDER ESTA DOSIS.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "5 minutos",
+    "tiempo_prep": "5 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Medicina mapuche",
     "contraindicaciones": "- Embarazo (RIESGO DE ABORTO) y lactancia. - Niños y adolescentes. - Enfermedad hepática o renal. - Personas con epilepsia o trastornos neurológicos.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Regular la menstruación y aliviar los cólicos: la raíz de paico tiene un efecto emenagogo que estimula el flujo menstrual y reduce los espasmos uterinos dolorosos.",
+    "principios_activos": "Ascaridol y compuestos amargos: acción emenagoga que estimula las contracciones uterinas y favorece el inicio de la menstruación. Flavonoides: efecto antiespasmódico y analgésico sobre la musculatura uterina.",
+    "propiedades": [
+      "emenagogo",
+      "antiespasmódico",
+      "analgésico",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "CONTRAINDICADO en embarazo y lactancia. Alto riesgo.",
@@ -3390,7 +3868,9 @@
     "nivel_seguridad": "🛑 ALTO RIESGO",
     "distribucion": "Chile, desde Arica a Magallanes, incluido Chiloé.",
     "efectos_secundarios": "",
-    "id": 1234
+    "id": 1234,
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm"
   },
   {
     "titulo": "Infusión de Canelilla para flujo vaginal y leucorrea",
@@ -3398,19 +3878,24 @@
     "origen": "Medicina tradicional chilena",
     "ingredientes": "- 1 cucharadita (aprox. 2 g) de raíz seca de canelilla desmenuzada. - 250 ml de agua fría.",
     "preparacion": "1. Colocar la raíz en una olla con el agua fría. 2. Llevar a ebullición y hervir a fuego lento durante 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2 veces al día.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Tradición chilena",
     "contraindicaciones": "- Embarazo y lactancia. - Estreñimiento crónico (por el efecto astringente de los taninos). - No usar en niñas pequeñas sin supervisión médica.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Flujo vaginal y leucorrea: la canelilla ayuda a reducir las secreciones vaginales excesivas, desinflama la mucosa y combate los gérmenes causantes de la infección.",
+    "principios_activos": "Taninos y aceites esenciales: acción astringente y antiséptica sobre la mucosa vaginal, reduciendo el flujo excesivo y combatiendo los microorganismos causantes de la leucorrea.",
+    "propiedades": [
+      "astringente",
+      "antiséptico",
+      "antiinflamatorio",
+      "tónico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; Hoffmann A. Compendio de flora medicinal indígena de Chile. Santiago: Editorial Universitaria; 1998. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3419,7 +3904,9 @@
     "nivel_seguridad": "⚠️ Precaución (supervisión médica)",
     "distribucion": "Chile, desde la Región de Valparaíso hasta Magallanes, presente en Chiloé.",
     "efectos_secundarios": "",
-    "id": 1235
+    "id": 1235,
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica"
   },
   {
     "titulo": "Infusión de Hinojo para favorecer la producción de leche",
@@ -3427,19 +3914,24 @@
     "origen": "Medicina tradicional europea",
     "ingredientes": "- 1 cucharadita (aprox. 2-3 g) de frutos de hinojo. - 250 ml de agua hirviendo.",
     "preparacion": "1. Machacar ligeramente los frutos. 2. Verter el agua hirviendo y tapar. 3. Dejar reposar 10-15 minutos. Colar.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día, preferiblemente 30 minutos",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Alergia a las apiáceas (hinojo, comino, anís, apio). - No usar en el primer trimestre del embarazo sin supervisión médica. - Suspender si el bebé muestra irritabilidad o reacción inusual.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Favorecer la producción de leche materna: el hinojo estimula suavemente la secreción de prolactina, aumentando la producción láctea de forma natural.",
+    "principios_activos": "Anetol y fenchona: fitoestrógenos que estimulan la secreción de prolactina en la hipófisis anterior, aumentando la producción de leche. Aceites esenciales: acción carminativa que alivia los cólicos del lactante a través de la leche materna.",
+    "propiedades": [
+      "galactogogo",
+      "carminativo",
+      "digestivo",
+      "antiespasmódico"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3448,7 +3940,9 @@
     "nivel_seguridad": "✅ Seguro (moderación)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1295
+    "id": 1295,
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
   },
   {
     "titulo": "Infusión de Ortiga para la recuperación posparto",
@@ -3456,19 +3950,25 @@
     "origen": "Fitoterapia clínica europea",
     "ingredientes": "- 1 cucharada sopera (aprox. 3 g) de hojas secas de ortiga. - 250 ml de agua hirviendo.",
     "preparacion": "1. Verter el agua hirviendo sobre las hojas. 2. Tapar y dejar reposar 10-15 minutos. 3. Colar y beber tibio.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Infusión",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- Insuficiencia cardíaca o renal que curse con edema. - Alergia a las urticáceas. - No usar durante el primer trimestre del embarazo sin supervisión médica.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Recuperación posparto y apoyo a la lactancia: la ortiga remineraliza el organismo tras las pérdidas del parto, combate la anemia ferropénica y estimula suavemente la producción de leche materna.",
+    "principios_activos": "Hojas ricas en hierro, calcio, magnesio, sílice, vitaminas C y K: el hierro y la vitamina C endógena mejoran la eritropoyesis combatiendo la anemia posparto; los minerales remineralizan el organismo. Flavonoides y fitoesteroles: acción galactogoga suave mediante estímulo de la secreción de prolactina.",
+    "propiedades": [
+      "remineralizante",
+      "galactogogo",
+      "antianémico",
+      "tónico",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Urtica dioica. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "- La vitamina C de la ortiga mejora la absorción del hierro. - Puede potenciar diuréticos. Consultar si se toman antihipertensivos.",
     "embarazo_lactancia": "Contraindicado en embarazo.",
@@ -3477,6 +3977,599 @@
     "nivel_seguridad": "✅ Seguro (lactancia)",
     "distribucion": "",
     "efectos_secundarios": "",
-    "id": 1296
+    "id": 1296,
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia"
+  },
+  {
+    "id": 1297,
+    "titulo": "Cataplasma de Matico para mastitis leve",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición mapuche y popular chilena",
+    "ingredientes": "10–12 hojas frescas de matico (Buddleja globosa / Pañil), agua tibia.",
+    "preparacion": "Lavar bien las hojas con agua limpia. Calentar ligeramente pasándolas por agua tibia o aplastando entre las manos para activar los aceites esenciales. Aplicar directamente sobre el pecho afectado cubriéndolo por completo, dejando el pezón libre. Cubrir con un paño suave y sostén. Cambiar cada 2–3 horas.",
+    "dosis": "3–4 aplicaciones al día durante máximo 5 días. Lavar el pezón con agua tibia antes de cada mamada.",
+    "modo_uso": "Tópico — cataplasma",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación (usar hojas frescas en cada cambio)",
+    "conservacion": "Usar hojas frescas en cada aplicación",
+    "evidencia": "Uso tradicional ampliamente documentado en Chile",
+    "fuente_tradicion": "Tradición mapuche (Pañil) y popular chilena",
+    "contraindicaciones": "Solo para mastitis leve sin fiebre alta ni absceso. Si hay fiebre >38.5 °C, dureza intensa o no mejora en 24 h, consultar médico de forma urgente — puede requerir antibióticos. No reemplaza tratamiento médico en mastitis severa.",
+    "uso": "El matico (Pañil) es la planta antiséptica y cicatrizante más utilizada en la medicina mapuche. Aplicado sobre el pecho, reduce la inflamación, el dolor y el enrojecimiento de la mastitis leve gracias a sus taninos y flavonoides que inhiben la proliferación bacteriana y disminuyen la respuesta inflamatoria local.",
+    "propiedades": [
+      "antiséptico",
+      "antiinflamatorio",
+      "cicatrizante",
+      "astringente"
+    ],
+    "principios_activos": "Maticina, taninos gálicos, flavonoides, aceites esenciales (α-pineno, 1,8-cineol): potencian la inmunidad local y reducen la proliferación bacteriana en tejidos blandos.",
+    "referencias": "Mensah AY et al. Effects of Buddleja globosa leaf relevant to wound healing. J Ethnopharmacol. 2001;77(2-3):219-226. doi:10.1016/S0378-8741(01)00297-5 | Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. U. de Chile; 1999 | MINSAL. Medicamentos Herbarios Tradicionales. Santiago; 2010"
+  },
+  {
+    "id": 1298,
+    "titulo": "Compresas de Hojas de Repollo Frío para congestión mamaria",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena",
+    "ingredientes": "4–6 hojas grandes de repollo blanco o morado (frescas y sin hervir).",
+    "preparacion": "Lavar bien las hojas y secarlas. Retirar el nervio central grueso con un cuchillo para que se adapten mejor al pecho. Golpear ligeramente las hojas con un rodillo o botella limpia para romper sus fibras y liberar los glucosinolatos activos. Refrigerar al menos 30 minutos antes de usar. Aplicar directamente sobre el pecho dejando el pezón descubierto.",
+    "dosis": "Aplicar tras cada mamada por 15–20 minutos. Hasta 4 veces al día. No usar de forma continua más de 48 horas — el uso prolongado puede reducir la producción de leche.",
+    "modo_uso": "Tópico — compresa fría",
+    "tiempo_prep": "35 min (incluyendo refrigeración)",
+    "dificultad": "Fácil",
+    "rendimiento": "2–3 aplicaciones",
+    "conservacion": "Mantener hojas en refrigerador hasta usar (máximo 2 días)",
+    "evidencia": "Evidencia clínica moderada (revisiones sugieren alivio del dolor). Uso tradicional ampliamente documentado.",
+    "fuente_tradicion": "Popular Chilena",
+    "contraindicaciones": "No usar en alergia al repollo o plantas Brassicaceae. El uso frecuente o prolongado puede reducir notablemente la producción de leche — reservar para congestión severa de los primeros días. No aplicar si hay heridas abiertas en el pezón.",
+    "uso": "Las hojas de repollo frío actúan mediante frío local y polifenoles absorbidos transdérmicamente que reducen la congestión y el dolor mamario. Se usa especialmente cuando baja la leche en los primeros días y la presión genera dolor intenso. El frío también alivia la inflamación sin afectar la producción si se usa con moderación.",
+    "propiedades": [
+      "antiinflamatorio",
+      "descongestionante",
+      "analgésico tópico"
+    ],
+    "principios_activos": "Glucosinolatos (isotiocianatos): compuestos azufrados antiinflamatorios que se liberan al romper las fibras de la hoja. Flavonoides y compuestos fenólicos: reducen el edema y la tensión mamaria. Efecto osmótico del frío: alivio inmediato del dolor por vasoconstricción local.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Tradición oral documentada con parteras y asesoras de lactancia chilenas"
+  },
+  {
+    "id": 1299,
+    "titulo": "Aceite de Caléndula para pezones agrietados",
+    "categoria": "Cicatrizante",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición herbolaria chilena",
+    "ingredientes": "2 cucharadas de flores secas de caléndula (Calendula officinalis), 100 ml de aceite de oliva extra virgen o aceite de coco.",
+    "preparacion": "Colocar las flores en un frasco de vidrio limpio. Cubrir completamente con el aceite. Cerrar bien y macerar 3–4 semanas en lugar oscuro y templado, agitando a diario. Filtrar con gasa fina y almacenar en frasco oscuro. MÉTODO RÁPIDO: Calentar aceite con flores al baño maría a temperatura máxima de 40 °C por 2–3 horas. Colar y usar.",
+    "dosis": "Aplicar una pequeña cantidad en el pezón y areola después de cada mamada. No retirar antes de amamantar — es completamente seguro para el bebé.",
+    "modo_uso": "Tópico — aceite en pezón",
+    "tiempo_prep": "3–4 semanas (maceración) o 3 horas (método rápido)",
+    "dificultad": "Fácil",
+    "rendimiento": "80–90 ml (varios meses de uso)",
+    "conservacion": "6–12 meses en frasco oscuro a temperatura ambiente",
+    "evidencia": "Estudios preliminares muestran eficacia comparable a lanolina para prevención y tratamiento de grietas del pezón. Uso tradicional documentado.",
+    "fuente_tradicion": "Tradición herbolaria chilena y europea",
+    "contraindicaciones": "Evitar en alergia a plantas de la familia Asteraceae (manzanilla, árnica). No aplicar si hay infección activa del pezón como hongos (moniliasis) o impétigo — consultar médico primero. Seguro para el bebé si ingiere pequeñas cantidades al amamantar.",
+    "uso": "La caléndula es la planta cicatrizante y antiinflamatoria de elección para piel delicada en la tradición chilena. En el pezón, hidrata, acelera la cicatrización de grietas y fisuras, reduce el dolor durante la lactancia y previene infecciones secundarias. A diferencia de cremas sintéticas, es completamente segura para el bebé si la ingiere al mamar.",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "emoliente",
+      "antimicrobiano"
+    ],
+    "principios_activos": "Flavonoides (isoquercitrina, isoramnetina), triterpenos (ácido oleanólico, ursólico), polisacáridos: estimulan la regeneración epitelial y reducen la inflamación local en piel dañada.",
+    "referencias": "LactMed. Calendula. NICHD; 2006 (PMID:30000917) | ESCOP Monographs: Calendulae flos. 2ª ed. Exeter: ESCOP; 2019 | WHO Monographs on Selected Medicinal Plants, Vol.2: Flos Calendulae. Ginebra: WHO; 2002. pp.35-44"
+  },
+  {
+    "id": 1300,
+    "titulo": "Infusión de Hinojo para estimular la producción de leche",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena",
+    "ingredientes": "1 cucharadita de semillas de hinojo (Foeniculum vulgare) ligeramente machacadas, 1 taza de agua.",
+    "preparacion": "Calentar el agua hasta hervir. Verter sobre las semillas machacadas en una taza. Tapar y dejar reposar 10 minutos. Colar y beber tibio. Se puede endulzar con una cucharadita de miel.",
+    "dosis": "1–2 tazas al día (mañana y tarde). No superar 3 tazas diarias. Tomar por ciclos de 2 semanas con descanso de 1 semana.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "Uso tradicional documentado. El hinojo contiene fitoestrógenos (anetol) con efecto galactógogo reconocido.",
+    "fuente_tradicion": "Popular Chilena y mediterránea",
+    "contraindicaciones": "Suspender si el bebé muestra signos de somnolencia excesiva, irritabilidad inusual o cólicos — el anetol pasa en pequeña cantidad a la leche materna. Evitar en recién nacidos menores de 4 semanas de vida. No superar 2 tazas diarias en ese período.",
+    "uso": "El hinojo es el galactógogo (estimulante de leche materna) más usado en la tradición chilena. El anetol actúa como fitoestrógeno estimulando la producción de prolactina. También reduce los cólicos en el bebé al transmitir propiedades carminativas a través de la leche materna.",
+    "propiedades": [
+      "galactógogo",
+      "carminativo",
+      "antiinflamatorio",
+      "digestivo"
+    ],
+    "principios_activos": "Anetol (70–90% del aceite esencial): actúa como fitoestrógeno estimulando la prolactina. Fenchona y limoneno: acción espasmolítica que facilita la bajada de leche.",
+    "referencias": "WHO Monographs Vol.1 (1999) Foeniculum vulgare; MINSAL 2010; Sim TF et al. The use of herbal medicines during breastfeeding. J Hum Lact 2013;29(4):462-470; Zapantis A et al. Use of herbals as galactagogues. Breastfeed Med 2012;7(6):456-460"
+  },
+  {
+    "id": 1301,
+    "titulo": "Baño de asiento de Matico y Llantén para cicatrización perineal",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición mapuche y popular chilena",
+    "ingredientes": "Un puñado de hojas frescas de matico (Buddleja globosa), un puñado de hojas de llantén (Plantago lanceolata o P. major), 2 litros de agua.",
+    "preparacion": "Hervir el agua. Agregar el matico y el llantén. Hervir 5 minutos a fuego bajo. Apagar y reposar 10 minutos tapado. Colar. Esperar que baje a temperatura tibia-cálida (comprobar con la muñeca — no debe quemar). Verter en una bañera de asiento o palangana grande. Sentarse con el periné en contacto con el agua por 15–20 minutos.",
+    "dosis": "1–2 baños al día durante los primeros 10 días postparto o hasta cicatrización completa. Secar la zona con palmaditas suaves con toalla limpia.",
+    "modo_uso": "Tópico — baño de asiento",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar inmediatamente. No reutilizar el agua.",
+    "evidencia": "Uso tradicional ampliamente documentado en Chile para heridas de parto, desgarros y episiotomías.",
+    "fuente_tradicion": "Tradición mapuche (Pañil) y popular chilena",
+    "contraindicaciones": "Verificar que el agua esté a temperatura tibia, nunca caliente (el calor excesivo puede aumentar el sangrado postparto). No usar en heridas con signos de infección severa (pus, fiebre >38 °C) sin consultar médico. Solo uso externo.",
+    "uso": "El matico y el llantén son las dos plantas cicatrizantes por excelencia de la medicina mapuche. En baño de asiento postparto, sus propiedades antisépticas y cicatrizantes aceleran la recuperación de desgarros, episiotomías y hemorroides. El calor suave también alivia el dolor y reduce la hinchazón del periné en los días posteriores al parto.",
+    "propiedades": [
+      "antiséptico",
+      "cicatrizante",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "principios_activos": "Matico: maticina, taninos, flavonoides. Llantén: aucubina (glucósido iridoide), mucílagos, ácido ursólico. Acción sinérgica antimicrobiana y antiinflamatoria sobre tejidos blandos.",
+    "referencias": "Kováč I et al. Plantago lanceolata water extract induces transition of fibroblasts into myofibroblasts. J Pharmacy Pharmacol. 2015;67(1):117-125. doi:10.1111/jphp.12316 | Mensah AY et al. Effects of Buddleja globosa leaf relevant to wound healing. J Ethnopharmacol. 2001;77(2-3):219-226 | Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. U. de Chile; 1999"
+  },
+  {
+    "id": 1302,
+    "titulo": "Infusión de Ortiga para anemia y recuperación postparto",
+    "categoria": "Nutritivo",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena",
+    "ingredientes": "2 cucharadas de hojas secas de ortiga (Urtica dioica), 1 taza de agua, jugo de ¼ limón (potencia absorción del hierro).",
+    "preparacion": "Hervir el agua. Verter sobre las hojas de ortiga seca. Tapar y reposar 10 minutos. Colar. Agregar el jugo de limón (la vitamina C del limón duplica la absorción del hierro vegetal). Beber tibio.",
+    "dosis": "1–2 tazas al día durante el primer mes postparto. Se puede mantener durante toda la lactancia.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "La ortiga es una de las plantas con mayor contenido de hierro, calcio y folatos. Uso tradicional documentado para recuperación postparto.",
+    "fuente_tradicion": "Popular Chilena",
+    "contraindicaciones": "Usar solo hojas secas o blanqueadas (la ortiga fresca urtica — el secado elimina el efecto urticante). No superar 3 tazas diarias. Consultar médico si la anemia es severa — puede requerir suplemento farmacológico. Evitar en hipertensión no controlada.",
+    "uso": "La ortiga es uno de los mejores reconstituyentes naturales para el postparto. Aporta hierro asimilable, calcio, magnesio, vitamina C, vitamina K y clorofila. Combate la anemia por pérdida de sangre durante el parto, refuerza la producción de leche materna y ayuda a recuperar la energía en las primeras semanas.",
+    "propiedades": [
+      "nutritivo",
+      "galactógogo",
+      "remineralizante",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Hierro no hemo (5.5 mg/100 g), calcio (481 mg/100 g), vitamina K, flavonoides (quercetina, isorramnósido), lectinas. El hierro con vitamina C del limón alcanza alta biodisponibilidad.",
+    "referencias": "LactMed. Stinging Nettle. NICHD; 2006 (PMID:30000836) | ESCOP Monographs: Urticae folium/herba. Exeter: ESCOP; 2018 | MINSAL. Medicamentos Herbarios Tradicionales. Santiago; 2010"
+  },
+  {
+    "id": 1303,
+    "titulo": "Infusión de Salvia para reducir la producción de leche al destetar",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena y mediterránea",
+    "ingredientes": "1 cucharadita de hojas secas de salvia (Salvia officinalis), 1 taza de agua.",
+    "preparacion": "Hervir el agua. Verter sobre las hojas de salvia. Tapar y reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "2–3 tazas al día solo durante el proceso de destete (máximo 1–2 semanas seguidas). SOLO usar cuando se ha tomado la decisión definitiva de destetar.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "Uso tradicional documentado. Los fitoestrógenos de la salvia inhiben la prolactina de forma natural.",
+    "fuente_tradicion": "Popular Chilena y mediterránea",
+    "contraindicaciones": "NO USAR durante la lactancia si se desea continuar amamantando — reduce notablemente la producción de leche. No usar en embarazo (estimulante uterino). No superar 2 semanas continuas de uso. Suspender si aparece fiebre — podría indicar complicación mamaria.",
+    "uso": "La salvia contiene fitoestrógenos y diterpenos que inhiben la señalización de prolactina, reduciendo de forma gradual y natural la producción de leche durante el destete. Alivia la congestión mamaria y las molestias asociadas al proceso de destete sin los efectos secundarios de los fármacos supresores.",
+    "propiedades": [
+      "antigalactógogo",
+      "antiinflamatorio",
+      "antiespasmódico"
+    ],
+    "principios_activos": "Diterpenos abietánicos, ácido rosmarínico, aceite esencial (α-tuyona, borneol): actúan sobre receptores estrogénicos inhibiendo la secreción de prolactina a nivel hipofisario.",
+    "referencias": "LactMed. Sage. NICHD; 2006 | Elgayed SH et al. Estrogenic Effect of Salvia officinalis on Reproductive Hormones. Evid-Based Complement Altern Med. 2021;2021:6633105. doi:10.1155/2021/6633105 | WHO Monographs Vol.1: Folium Salviae officinalis. WHO; 1999"
+  },
+  {
+    "id": 1304,
+    "titulo": "Ungüento de Caléndula y Llantén para grietas del pezón",
+    "categoria": "Cicatrizante",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición herbolaria chilena",
+    "ingredientes": "2 cucharadas de flores de caléndula secas, 1 cucharada de hojas de llantén secas, 50 ml de aceite de oliva extra virgen, 1 cucharada de cera de abejas rallada.",
+    "preparacion": "Macerar caléndula y llantén en aceite por 2 semanas (o baño maría a 40 °C por 2 horas). Filtrar con gasa. Calentar el aceite filtrado a fuego muy bajo. Agregar la cera de abejas y mezclar hasta disolver completamente. Verter inmediatamente en frasco pequeño de vidrio. Dejar solidificar sin tapar hasta que enfríe.",
+    "dosis": "Aplicar una pequeña cantidad sobre el pezón y la areola después de cada mamada. No es necesario retirar antes de amamantar — es completamente seguro para el bebé.",
+    "modo_uso": "Tópico — ungüento en pezón",
+    "tiempo_prep": "2 semanas (maceración) o 2.5 horas (método rápido con baño maría)",
+    "dificultad": "Media",
+    "rendimiento": "1 tarro pequeño (aproximadamente 1 mes de uso)",
+    "conservacion": "6 meses a temperatura ambiente en frasco cerrado herméticamente",
+    "evidencia": "Estudios muestran efectividad de caléndula comparable a lanolina para grietas del pezón. Uso tradicional ampliamente documentado.",
+    "fuente_tradicion": "Tradición herbolaria chilena y europea",
+    "contraindicaciones": "Evitar en alergia a Asteraceae (manzanilla, árnica, caléndula). No usar si hay infección activa del pezón (moniliasis, impétigo) — consultar médico. Seguro para el bebé en las pequeñas cantidades que puede ingerir al amamantar.",
+    "uso": "Combina las dos plantas cicatrizantes clave de la tradición chilena para piel sensible. La caléndula regenera el tejido dañado y reduce la inflamación; el llantén añade propiedades astringentes y antimicrobianas. La cera de abejas crea una barrera protectora que mantiene la humedad sin obstruir la piel, siendo superior a cremas sintéticas en tolerancia para la madre y el bebé.",
+    "propiedades": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "emoliente",
+      "antimicrobiano",
+      "astringente"
+    ],
+    "principios_activos": "Caléndula: saponinas triterpénicas, flavonoides (isorhamnetina), mucílagos. Llantén: aucubina, mucílagos, taninos. Cera de abejas: ésteres de ácidos grasos C24–C28 que forman barrera oclusiva sobre epitelio dañado.",
+    "referencias": "ESCOP Monographs: Calendulae flos. 2ª ed. Exeter: ESCOP; 2019 | WHO Monographs Vol.2: Flos Calendulae. WHO; 2002 | Kováč I et al. Plantago lanceolata water extract accelerates wound healing. J Pharmacy Pharmacol. 2015;67(1):117-125 | Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. U. de Chile; 1999"
+  },
+  {
+    "id": 1305,
+    "titulo": "Infusión de Tilo y Melisa para nerviosismo y tristeza postparto",
+    "categoria": "Sedante",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena",
+    "ingredientes": "1 cucharadita de flores de tilo (Tilia cordata), 1 cucharadita de hojas de melisa (Melissa officinalis), 1 taza de agua.",
+    "preparacion": "Hervir el agua y apagar el fuego. Verter sobre las flores de tilo y las hojas de melisa. Tapar inmediatamente (las flores de tilo pierden sus principios activos si se hierven). Reposar 8 minutos. Colar y beber tibio.",
+    "dosis": "1–2 tazas al día, preferentemente por la tarde-noche. Uso moderado durante toda la lactancia.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "13 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Consumir inmediatamente",
+    "evidencia": "Tilo y melisa son las plantas sedantes más suaves y mejor documentadas para uso durante la lactancia.",
+    "fuente_tradicion": "Popular Chilena",
+    "contraindicaciones": "No mezclar con ansiolíticos o somníferos sin consultar médico. Si los síntomas de tristeza o ansiedad son intensos o persisten más de 2 semanas, consultar profesional de salud mental — puede ser depresión postparto que requiere atención especializada. Máximo 2 tazas al día.",
+    "uso": "El postparto trae cambios hormonales bruscos que pueden generar ansiedad, tristeza y dificultad para dormir. Esta infusión combina el efecto ansiolítico suave del tilo (acción GABAérgica) con el efecto regulador del estado de ánimo de la melisa. Ambas plantas se consideran seguras en lactancia ya que pasan mínimamente a la leche materna.",
+    "propiedades": [
+      "sedante suave",
+      "ansiolítico",
+      "antidepresivo suave",
+      "antiespasmódico"
+    ],
+    "principios_activos": "Tilo: tilirósido, quercetina, aceites esenciales; acción GABAérgica. Melisa: ácido rosmarínico, citral, linalol; inhibe la degradación de GABA potenciando el efecto ansiolítico del tilo.",
+    "referencias": "WHO Monographs Vol.1 (1999) Tiliae flos; ESCOP Monographs: Melissae folium. 2ª ed. Exeter: ESCOP; 2013; LactMed. Lemon Balm. NICHD; 2006; Müller SF, Klement S. A combination of valerian and lemon balm is effective in the treatment of restlessness and dyssomnia in children. Phytomedicine. 2006;13(6):383-387"
+  },
+  {
+    "id": 1306,
+    "titulo": "Compresas tibias de Malva para aliviar la congestión mamaria",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición popular chilena",
+    "ingredientes": "Un puñado de hojas y flores de malva (Malva sylvestris), 500 ml de agua.",
+    "preparacion": "Hervir el agua. Agregar la malva y hervir 3 minutos a fuego bajo. Apagar y reposar 5 minutos tapado. Colar. Empapar un paño de algodón limpio en la infusión tibia (comprobar temperatura en la muñeca). Escurrir suavemente y aplicar sobre el pecho congestionado.",
+    "dosis": "2–3 veces al día por 15 minutos, especialmente antes de amamantar para facilitar el flujo de leche. Reemplazar el paño cuando se enfríe. NOTA: La compresa CALIENTE aumenta el flujo — usar antes de dar pecho. La compresa FRÍA (repollo) lo disminuye — usar para desinflamar.",
+    "modo_uso": "Tópico — compresa tibia",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2–3 aplicaciones (la infusión se puede refrigerar hasta 24 h)",
+    "conservacion": "Infusión refrigerada hasta 24 horas. Recalentar suavemente antes de usar.",
+    "evidencia": "Los mucílagos de la malva tienen efecto emoliente y antiinflamatorio bien documentado en uso tradicional.",
+    "fuente_tradicion": "Popular Chilena",
+    "contraindicaciones": "Verificar siempre temperatura tibia antes de aplicar. No usar en mastitis con fiebre alta — consultar médico. No confundir el efecto de calor (aumenta flujo) con el de frío (repollo, disminuye congestión): son indicaciones distintas.",
+    "uso": "La malva es una de las plantas más suaves y seguras de la tradición chilena. Sus mucílagos forman una capa protectora que calma la inflamación y reduce el dolor por congestión mamaria. Las compresas tibias aplicadas antes de amamantar abren los conductos lactíferos congestionados y facilitan la extracción de leche, aliviando la presión y el dolor.",
+    "propiedades": [
+      "emoliente",
+      "antiinflamatorio",
+      "descongestionante",
+      "calmante"
+    ],
+    "principios_activos": "Mucílagos (40–50% de la planta seca): forman gel protector sobre piel y mucosas. Antocianinas: actividad antiinflamatoria. Malvina: flavonoide antioxidante y antiinflamatorio.",
+    "referencias": "Chiclana CF, Enríquez A, Consolini AE. Actividad antiinflamatoria local de Malva sylvestris en edema por carragenina. Lat Am J Pharm. 2009;28(2):275-278 | Gasparetto JC et al. Ethnobotanical and scientific aspects of Malva sylvestris L. J Ethnopharmacol. 2011;136(3):429-438. doi:10.1016/j.jep.2011.04.023 | Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. U. de Chile; 1999"
+  },
+  {
+    "id": 1310,
+    "titulo": "Infusión de Hinojo y Alholva para Aumentar la Producción de Leche",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Tradición latinoamericana",
+    "ingredientes": "1 cucharadita de semillas de hinojo, 1 cucharadita de semillas de alholva (fenogreco), 250 ml de agua.",
+    "preparacion": "Hervir el agua. Añadir las semillas de hinojo y alholva. Tapar y dejar reposar 15 minutos. Colar y beber tibio.",
+    "dosis": "1 taza después de cada comida principal, hasta 3 veces al día. Iniciar con 1 taza diaria y aumentar gradualmente. No exceder 3 semanas de uso continuo sin consultar profesional.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Preparar y consumir en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado. Respaldado por estudios en J Hum Lact y Breastfeed Med.",
+    "fuente_tradicion": "Medicina casera popular latinoamericana",
+    "contraindicaciones": "No usar durante el embarazo — la alholva tiene efecto oxitócico y puede estimular el útero. Evitar en alergia a apiáceas (hinojo, eneldo, zanahoria, apio). Precaución en diabetes: la alholva puede bajar la glucemia — vigilar niveles si se usan hipoglucemiantes. No administrar directamente a bebés. Suspender si aparecen molestias gastrointestinales o alergia.",
+    "uso": "Producción de leche insuficiente: la combinación de hinojo y alholva suma dos mecanismos galactógogos distintos — acción fitoestrógena del anetol y efecto diosgenínico de la alholva — logrando un estímulo más potente que cada planta por separado. También reduce los cólicos en la madre y el lactante.",
+    "propiedades": [
+      "galactógogo",
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "emoliente"
+    ],
+    "principios_activos": "Anetol (hinojo): fitoestrógeno que estimula la producción de prolactina. Diosgenina (alholva): saponina esteroidea galactógoga relacionada con síntesis de hormonas esteroideas. Fitoestrógenos de alholva: isoflavonas que modulan receptores estrogénicos e influyen en el tejido mamario.",
+    "referencias": "MINSAL 2010; WHO Monographs Vol.1 (1999) Foeniculum vulgare; Sim TF et al. J Hum Lact 2013;29(4):462-470; Zapantis A et al. Breastfeed Med 2012;7(6):456-460"
+  },
+  {
+    "id": 1311,
+    "titulo": "Decocción de Cardo Mariano y Ortiga para Apoyar la Producción de Leche",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Herbolaria europea",
+    "ingredientes": "1 cucharada de semillas de cardo mariano trituradas, 1 cucharada de hojas secas de ortiga, 500 ml de agua.",
+    "preparacion": "Hervir el agua. Añadir las semillas de cardo mariano y las hojas de ortiga. Mantener a fuego lento 10 minutos. Apagar, tapar y reposar otros 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza por la mañana y otra por la noche, preferiblemente 30 minutos antes de amamantar. No sobrepasar 14 días de uso continuo sin supervisión profesional.",
+    "modo_uso": "Oral — decocción tibia",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (500 ml)",
+    "conservacion": "Refrigerar hasta 24 horas. Calentar suavemente antes de consumir.",
+    "evidencia": "Uso tradicional documentado. Respaldado por estudios en J Matern Fetal Neonatal Med y Minerva Pediatr.",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en alergia al cardo mariano o a las ortigas. Evitar durante el embarazo. Precaución en trastornos hepáticos o con medicamentos metabolizados por el hígado (CYP3A4) — la silimarina puede interferir con su metabolismo. Consultar profesional antes de combinar con otros tratamientos.",
+    "uso": "Apoyo en lactancia: favorece la producción de leche materna apoyando la función hepática y el equilibrio hormonal necesarios para una lactancia óptima. La ortiga aporta hierro, calcio y silicio que enriquecen la leche y combaten la fatiga postparto.",
+    "propiedades": [
+      "galactógogo",
+      "hepatoprotector",
+      "nutritivo",
+      "antioxidante",
+      "tónico"
+    ],
+    "principios_activos": "Silimarina (cardo mariano): complejo flavono-lignánico hepatoprotector y antioxidante que apoya el equilibrio hormonal necesario para la lactancia. Fitoesteroles, hierro, calcio y silicio (ortiga): nutren el organismo materno y mejoran la calidad y cantidad de leche.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.2 (2002) Silybum marianum; Peila C et al. J Matern Fetal Neonatal Med 2015;28(16):1910-1913; Zecca E et al. Minerva Pediatr 2016;68(5):359-364"
+  },
+  {
+    "id": 1312,
+    "titulo": "Infusión de Eneldo para Estimular la Bajada de Leche",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "postparto_lactancia",
+    "origen": "Medicina mediterránea",
+    "ingredientes": "2 cucharaditas de semillas de eneldo (Anethum graveolens), 1 taza (250 ml) de agua.",
+    "preparacion": "Machacar ligeramente las semillas en un mortero para liberar los aceites esenciales. Hervir el agua y verterla sobre las semillas. Tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza por la mañana y otra por la tarde, preferiblemente antes de las tomas. Usar hasta 2 semanas continuas. Descansar 1 semana antes de reiniciar si se necesita continuar.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Preparar y consumir en el momento. No almacenar.",
+    "evidencia": "Uso tradicional documentado. Recogido en WHO Monographs y ESCOP.",
+    "fuente_tradicion": "Herbolaria europea y mediterránea",
+    "contraindicaciones": "No usar durante el embarazo — efecto emenagogo. Evitar en alergia a apiáceas (zanahoria, apio, perejil, hinojo). Consultar si se toman sedantes o antihipertensivos — el eneldo puede potenciar sus efectos. No administrar directamente a bebés.",
+    "uso": "Estimula suavemente las glándulas mamarias para facilitar la eyección láctea (bajada de leche). También alivia los cólicos del lactante cuando la madre lo consume regularmente, al transmitir propiedades carminativas a través de la leche.",
+    "propiedades": [
+      "galactógogo",
+      "carminativo",
+      "antiespasmódico",
+      "digestivo",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Carvona y limoneno (aceite esencial): monoterpenos con efecto galactógogo y carminativo que estimulan la secreción láctea. Kaempferol y flavonoides: fitoestrógenos suaves que modulan los receptores hormonales implicados en la lactancia.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Anethum graveolens; ESCOP Monographs 2003 Anethi fructus; Briggs GG et al. Drugs in Pregnancy and Lactation 2017"
+  },
+  {
+    "id": 1366,
+    "titulo": "Infusión de Caléndula y Melisa para los Síntomas Premenstruales",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores de caléndula, 1 cucharadita de hojas de melisa, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las plantas, tapar y dejar reposar 10 minutos. Colar y beber tibio, preferentemente sin endulzar.",
+    "dosis": "1 taza cada 8 horas, desde 5 días antes de la menstruación hasta el segundo día del ciclo. No sobrepasar 7 días de uso.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo. Evitar en caso de alergia a las asteráceas o lamiáceas. No combinar con sedantes fuertes. Consultar si los síntomas son muy intensos o incapacitantes.",
+    "uso": "Síndrome premenstrual con irritabilidad, tristeza y cólicos leves: la caléndula regula el ciclo y calma los espasmos uterinos, mientras la melisa alivia la ansiedad y el mal humor.",
+    "propiedades": [
+      "antiespasmódico",
+      "emenagogo suave",
+      "ansiolítico",
+      "calmante",
+      "digestivo"
+    ],
+    "principios_activos": "Flavonoides de caléndula: acción antiespasmódica sobre la musculatura uterina y efecto emenagogo suave que ayuda a regular el ciclo. | Ácido rosmarínico y citral (melisa): efecto ansiolítico y antiespasmódico que reduce la tensión emocional y los cólicos menstruales.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Calendula officinalis y Melissa officinalis"
+  },
+  {
+    "id": 1367,
+    "titulo": "Infusión de Ñilhue para los Dolores y la Hinchazón Premenstrual",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharada de hojas secas de ñilhue (Sonchus oleraceus), 250 ml de agua",
+    "preparacion": "Hervir el agua. Agregar las hojas de ñilhue, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza 2 veces al día durante la semana previa a la menstruación. No usar más de 10 días por mes.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo o lactancia por falta de estudios. Evitar en personas con alergia a las asteráceas. No administrar a niños. Si el dolor es muy intenso, descartar otras causas.",
+    "uso": "Hinchazón y dolor premenstrual: el ñilhue ayuda a eliminar el exceso de líquidos y calma los espasmos uterinos, aliviando la sensación de pesadez y los cólicos antes de la regla.",
+    "propiedades": [
+      "diurético",
+      "antiespasmódico",
+      "antiinflamatorio",
+      "analgésico suave",
+      "depurativo"
+    ],
+    "principios_activos": "Lactonas sesquiterpénicas: efecto antiinflamatorio y analgésico suave sobre la musculatura uterina. | Flavonoides y potasio: acción diurética que reduce la retención de líquidos, la distensión abdominal y la sensibilidad mamaria.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Tradición oral campesina documentada en Chile central"
+  },
+  {
+    "id": 1483,
+    "titulo": "Infusión de Bolsa de Pastor para las Menstruaciones Abundantes",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de partes aéreas secas de bolsa de pastor, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la bolsa de pastor, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 6 horas durante los días de sangrado abundante, máximo 3 tazas al día. No usar más de 5 días por ciclo menstrual.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo. Evitar en caso de alergia a las brasicáceas. No administrar a adolescentes sin consultar. Si el sangrado es muy intenso o se acompaña de dolor severo, buscar atención médica.",
+    "uso": "Menstruaciones abundantes (hipermenorrea) y sangrado uterino leve: la bolsa de pastor reduce el volumen del sangrado menstrual de forma efectiva y segura.",
+    "propiedades": [
+      "hemostático",
+      "astringente",
+      "regulador menstrual",
+      "antiinflamatorio",
+      "diurético suave"
+    ],
+    "principios_activos": "Flavonoides y taninos: acción astringente y hemostática sobre el endometrio, reducen el sangrado menstrual excesivo. Colina y acetilcolina: efecto vasoconstrictor local.",
+    "referencias": "Naafe M et al. Effect of Hydroalcoholic Extracts of Capsella Bursa-Pastoris on Menstrual Bleeding. 2018. PMID: 29641247; MINSAL. Medicamentos Herbarios Tradicionales, 2010; EMA. Herbal monograph on Capsella bursa-pastoris. 2019."
+  },
+  {
+    "id": 1484,
+    "titulo": "Infusión de Caléndula para Regular el Ciclo Menstrual",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menstruacion_spm",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores secas de caléndula, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la caléndula, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 8 horas, desde 5 días antes de la menstruación hasta el segundo día del ciclo. No usar más de 7 días por ciclo.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo. Evitar en caso de alergia a las asteráceas. No administrar a adolescentes sin consultar. Si los ciclos son muy irregulares, buscar evaluación médica.",
+    "uso": "Ciclos menstruales irregulares y dolor menstrual: la caléndula ayuda a regular el ciclo, reduce los cólicos y alivia la tensión premenstrual.",
+    "propiedades": [
+      "emenagogo suave",
+      "antiespasmódico",
+      "antiinflamatorio",
+      "regulador hormonal suave",
+      "calmante"
+    ],
+    "principios_activos": "Flavonoides y triterpenos: acción emenagoga suave que regula el ciclo menstrual y reduce los espasmos uterinos. Carotenoides: acción antioxidante y antiinflamatoria sobre el aparato reproductor.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.2 (2002) Calendula officinalis."
+  },
+  {
+    "id": 1485,
+    "titulo": "Infusión de Salvia para los Sofocos de la Menopausia",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menopausia",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de salvia, 250 ml de agua, 1 cucharadita de miel (opcional)",
+    "preparacion": "Hervir el agua. Verter sobre la salvia, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 8 horas durante los períodos de sofocos. No usar más de 3 semanas seguidas. Descansar 1 semana antes de reiniciar.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo o lactancia. Evitar en caso de epilepsia o alergia a las lamiáceas. No administrar a niños. No usar por períodos prolongados sin descanso.",
+    "uso": "Sofocos, sudoraciones nocturnas y otros síntomas de la menopausia: la salvia regula la temperatura corporal y reduce la intensidad y frecuencia de los sofocos.",
+    "propiedades": [
+      "regulador hormonal",
+      "antiestrogénico suave",
+      "antiséptico",
+      "calmante",
+      "astringente"
+    ],
+    "principios_activos": "Ácido rosmarínico y flavonoides: acción estrogénica suave que modula los receptores hormonales y reduce los sofocos. Aceite esencial (tuyona, cineol): efecto antiséptico y regulador de la sudoración.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Salvia officinalis."
+  },
+  {
+    "id": 1486,
+    "titulo": "Baño de Asiento de Caléndula y Manzanilla para la Salud Ginecológica",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "salud_ginecologica",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de flores de caléndula, 3 cucharadas de flores de manzanilla, 2 litros de agua",
+    "preparacion": "Hervir el agua con las flores durante 5 minutos. Dejar reposar 10 minutos y colar. Verter en una palangana o bidet y realizar un baño de asiento con el agua tibia durante 10-15 minutos.",
+    "dosis": "1 baño de asiento al día, durante 5 a 7 días. Repetir según necesidad.",
+    "modo_uso": "Tópico — baño de asiento",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño de asiento",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a las asteráceas. Evitar durante el embarazo sin consultar. No usar si hay heridas abiertas o infecciones activas sin evaluación médica.",
+    "uso": "Irritación vaginal leve, flujo y molestias ginecológicas: la caléndula y la manzanilla desinflaman, calman la picazón y ayudan a restaurar el equilibrio de la mucosa.",
+    "propiedades": [
+      "antiinflamatorio",
+      "calmante",
+      "antiséptico",
+      "regenerador",
+      "astringente suave"
+    ],
+    "principios_activos": "Bisabolol y camazuleno (manzanilla): acción antiinflamatoria y calmante sobre la mucosa vaginal. Triterpenos (caléndula): efecto regenerador y antiséptico.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita y Calendula officinalis."
+  },
+  {
+    "id": 1487,
+    "titulo": "Aceite de Onagra para los Síntomas de la Menopausia",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menopausia",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "Aceite de onagra (Oenothera biennis) en perlas de 500 mg, según presentación comercial",
+    "preparacion": "Tomar las perlas de aceite de onagra con un vaso de agua, preferentemente con las comidas para mejorar su absorción.",
+    "dosis": "1 a 2 perlas de 500 mg, 2 veces al día (1.000-2.000 mg diarios). Usar durante al menos 8 semanas para evaluar resultados.",
+    "modo_uso": "Oral — cápsulas de aceite",
+    "tiempo_prep": "1 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Variable según presentación comercial",
+    "conservacion": "Conservar en lugar fresco y seco, según indicaciones del fabricante.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de epilepsia o trastornos hemorrágicos sin supervisión. Evitar en el embarazo. Puede interactuar con anticoagulantes y antihipertensivos. No administrar a niños.",
+    "uso": "Sofocos, sequedad vaginal y cambios de humor en la menopausia: el aceite de onagra ayuda a equilibrar las hormonas y reduce los síntomas vasomotores.",
+    "propiedades": [
+      "regulador hormonal",
+      "antiinflamatorio",
+      "hidratante",
+      "calmante",
+      "antioxidante"
+    ],
+    "principios_activos": "Ácido gamma-linolénico (GLA): precursor de prostaglandinas antiinflamatorias, modula la respuesta hormonal y reduce los sofocos. Ácidos grasos omega-6: mejoran la hidratación de la piel y las mucosas.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Oenothera biennis."
+  },
+  {
+    "titulo": "Infusión de Hierba del Clavo para regular la menstruación y el ánimo",
+    "categoria": "Ginecológico",
+    "modulo": "mujer",
+    "submodulo": "menopausia",
+    "origen": "Medicina tradicional mapuche y chilena",
+    "ingredientes": "- 1 cucharadita (aprox. 2 g) de partes aéreas secas de hierba del clavo.\n- 250 ml de agua hirviendo.",
+    "preparacion": "1. Verter el agua hirviendo sobre la planta.\n2. Tapar y dejar reposar 10 minutos.\n3. Colar y beber tibio.",
+    "dosis": "1 taza, 1-2 veces al día. — Usar durante 1 semana, descansar 1 semana.",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "10-15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1-2 porciones",
+    "conservacion": "Consumir el mismo día",
+    "evidencia": "Farmacia Mapuche Chilena describe que la hierba del clavo crece en las regiones centrales de Chile y \"ayuda a regular la menstruación\"[reference:7].",
+    "fuente_tradicion": "Medicina tradicional mapuche y chilena",
+    "contraindicaciones": "- Embarazo y lactancia.\n- No usar en combinación con medicamentos sedantes sin supervisión.",
+    "uso": "Ayuda a regular la menstruación y puede contribuir a estabilizar los cambios de humor en la perimenopausia.",
+    "planta_principal": "Hierba del Clavo (Glandularia laciniata)",
+    "nivel_seguridad": "⚠️ Precaución",
+    "id": 1507
   }
 ]

@@ -39,7 +39,9 @@
       "romero",
       "canelo",
       "sauce"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 39,
@@ -72,7 +74,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Solanina y solamargina (alcaloides glicoalcaloideos): antiinflamatorios y analgésicos tópicos a bajas dosis. Rutina: venotónica y antiinflamatoria. Saponinas esteroidales: antimicrobianas.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 42,
@@ -115,7 +126,9 @@
       "matico",
       "salvia",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 83,
@@ -124,10 +137,10 @@
     "origen": "Urbano",
     "ingredientes": "Flores frescas de Hipérico (Hierba de San Juan), aceite de oliva.",
     "preparacion": "Macerar las flores en aceite de oliva al sol por 3-4 semanas. Filtrar. Masajear sobre la zona del nervio ciático para aliviar el dolor.",
-    "dosis": "Aplicación tópica 2–3 veces al día o 1 taza 2 veces al día",
-    "modo_uso": "Tópico — cataplasma o frotación / Oral complementario",
+    "dosis": "Aplicar 2–3 veces al día masajeando suavemente sobre la zona del nervio ciático.",
+    "modo_uso": "Tópico — masaje con aceite",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 aplicaciones o 2 tazas",
     "conservacion": "Preparar fresco; no reutilizar cataplasma",
     "evidencia": "Saber ancestral",
@@ -157,7 +170,9 @@
       "romero",
       "árnica",
       "canelo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 99,
@@ -199,7 +214,9 @@
       "romero",
       "boldo",
       "matico"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 127,
@@ -232,7 +249,16 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 134,
@@ -265,7 +291,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "SDG (lignano): antioxidante y fitoestrogénico. Ácido alfa-linolénico omega-3: antiinflamatorio. Mucílagos: laxante y emoliente.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 135,
@@ -307,7 +342,9 @@
       "canelo",
       "lavanda",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 136,
@@ -349,7 +386,9 @@
       "cúrcuma",
       "matico",
       "romero"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 145,
@@ -391,7 +430,9 @@
       "tomillo",
       "matico",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 161,
@@ -433,7 +474,9 @@
       "clavo de olor",
       "matico",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Infusión de Corteza de Sauce Blanco para el Dolor",
@@ -445,7 +488,7 @@
     "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas",
     "conservacion": "Preparar al momento",
     "evidencia": "Uso tradicional documentado",
@@ -474,7 +517,9 @@
       "matico",
       "jengibre",
       "cúrcuma"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "titulo": "Cataplasma Caliente de Árnica para Dolores Musculares",
@@ -507,7 +552,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Helenalina y dihidrohelenalina: antiinflamatorios sesquiterpénicos potentes; inhiben NFkB. Flavonoides (isoquercetina): antiedematosos. Aceites esenciales (timol, carvacrol): antisépticos tópicos.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago"
   },
   {
     "titulo": "Aceite de Romero para Masaje Analgésico",
@@ -519,7 +573,7 @@
     "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
     "modo_uso": "Tópico — masaje suave sobre la zona afectada",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas",
     "conservacion": "Preparar al momento",
     "evidencia": "Uso tradicional documentado",
@@ -549,7 +603,9 @@
       "matico",
       "lavanda",
       "arnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "titulo": "Infusión de Jengibre y Cúrcuma contra el Dolor Crónico",
@@ -561,7 +617,7 @@
     "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas",
     "conservacion": "Preparar al momento",
     "evidencia": "Uso tradicional documentado",
@@ -591,7 +647,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "titulo": "Compresas de Clavo de Olor para Dolor de Cabeza",
@@ -632,7 +690,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
   },
   {
     "titulo": "Baño de Asiento con Manzanilla y Caléndula para Dolor Pélvico",
@@ -644,7 +704,7 @@
     "dosis": "1 taza 3 veces al día; no superar 5 días de uso continuo sin consulta",
     "modo_uso": "Oral — infusión tibia o aplicación tópica según preparación",
     "tiempo_prep": "20 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas",
     "conservacion": "Preparar al momento",
     "evidencia": "Uso tradicional documentado",
@@ -674,7 +734,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "titulo": "Decocción de Ortiga Verde para Artritis y Reumatismo",
@@ -686,7 +748,7 @@
     "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas o 1 aplicación",
     "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
     "evidencia": "Uso tradicional documentado",
@@ -708,7 +770,16 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "antioxidante",
+      "inmunomodulador"
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Gel de Aloe Vera y Cúrcuma para Inflamaciones Cutáneas",
@@ -749,7 +820,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Compresas Frías de Manzanilla para Inflamación Articular",
@@ -761,7 +834,7 @@
     "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
     "modo_uso": "Tópico — compresa caliente o fría sobre la zona afectada",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas o 1 aplicación",
     "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
     "evidencia": "Uso tradicional documentado",
@@ -790,7 +863,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Aceite de Árnica para Contusiones e Inflamaciones",
@@ -799,15 +874,15 @@
     "ingredientes": "30 g de flores de árnica seca, 250 ml de aceite de oliva.",
     "preparacion": "Macerar el árnica en aceite de oliva en frasco de vidrio al sol durante 3 semanas. Agitar diariamente. Colar con gasa fina. Aplicar masajeando suavemente sobre la zona inflamada. Nunca en piel abierta o heridas. Guardar en frasco oscuro hasta 6 meses.",
     "id": 233,
-    "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
-    "modo_uso": "Oral — infusión tibia / Tópico según preparación",
+    "dosis": "Aplicación tópica 2–3 veces al día sobre la zona inflamada. NO INGERIR — el aceite de árnica es tóxico si se ingiere.",
+    "modo_uso": "Tópico — masaje con aceite",
     "tiempo_prep": "7 días (maceración)",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas o 1 aplicación",
     "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Popular Chileno",
-    "contraindicaciones": "USO EXCLUSIVAMENTE EXTERNO. Tóxica si se ingiere. No aplicar en piel herida o mucosas.",
+    "contraindicaciones": "NO INGERIR — el aceite de árnica es tóxico por vía oral. No aplicar en piel herida o mucosas. No usar en embarazo. Puede causar dermatitis de contacto en personas sensibles.",
     "uso": "Contusiones e Inflamaciones. Reducción de la inflamación.",
     "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
     "indicaciones_principales": [
@@ -823,7 +898,17 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "antioxidante",
+      "inmunomodulador",
+      "emoliente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Té Antiinflamatorio de Cola de Caballo y Jengibre",
@@ -835,7 +920,7 @@
     "dosis": "1 taza 3 veces al día o aplicación tópica 2–3 veces al día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2–3 tazas o 1 aplicación",
     "conservacion": "Uso tópico: preparar fresco; infusión: hasta 12 h en frío",
     "evidencia": "Uso tradicional documentado",
@@ -865,7 +950,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Cataplasma de Arcilla Verde y Árnica para Inflamaciones",
@@ -898,7 +985,17 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "principios_activos": "Ácidos fenólicos (ácido rosmarínico, clorogénico): inhibición de NF-κB y reducción de citoquinas inflamatorias. Flavonoides (luteolina, apigenina): inhibición de COX-2. Terpenoides: reducción de leucotrienos proinflamatorios.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "antioxidante",
+      "inmunomodulador",
+      "emoliente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "titulo": "Enjuague de Clavo de Olor para Dolor de Muelas",
@@ -939,7 +1036,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Enjuague de Salvia y Sal Marina para las Encías",
@@ -951,7 +1050,7 @@
     "dosis": "Enjuague bucal 3 veces al día, 1–2 minutos por aplicación",
     "modo_uso": "Tópico — enjuague o lavado local",
     "tiempo_prep": "10 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 enjuagues por preparación",
     "conservacion": "Refrigerar hasta 24 h; no ingerir",
     "evidencia": "Uso tradicional documentado",
@@ -980,7 +1079,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Aceite de Coco para Oil Pulling (Enjuague Bucal Ancestral)",
@@ -1013,7 +1114,16 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Pasta Dental Natural de Bicarbonato, Coco y Aceite de Árbol del Té",
@@ -1054,7 +1164,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Enjuague de Orégano y Agua Oxigenada para Infecciones Bucales",
@@ -1095,7 +1207,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 468,
@@ -1137,7 +1251,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 469,
@@ -1149,7 +1265,7 @@
     "dosis": "Masajear la zona dolorida 2-3 veces al día",
     "modo_uso": "Tópico — masaje suave sobre la zona afectada",
     "tiempo_prep": "21 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Frasco oscuro 6 meses",
     "evidencia": "Uso tradicional documentado",
@@ -1170,7 +1286,17 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico",
+      "emoliente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 470,
@@ -1211,7 +1337,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 471,
@@ -1252,7 +1380,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 472,
@@ -1285,7 +1415,16 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "principios_activos": "Ácidos fenólicos (ácido rosmarínico, clorogénico): inhibición de NF-κB y reducción de citoquinas inflamatorias. Flavonoides (luteolina, apigenina): inhibición de COX-2. Terpenoides: reducción de leucotrienos proinflamatorios.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "antioxidante",
+      "inmunomodulador"
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 473,
@@ -1318,7 +1457,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 474,
@@ -1351,7 +1499,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 475,
@@ -1385,7 +1542,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 476,
@@ -1397,7 +1563,7 @@
     "dosis": "2 tazas al día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "18 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 tazas",
     "conservacion": "Refrigerar 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -1426,7 +1592,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 477,
@@ -1468,7 +1636,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 478,
@@ -1480,7 +1650,7 @@
     "dosis": "Masajear la articulación dolorida 2 veces al día",
     "modo_uso": "Masajear en círculos suaves durante 5 min",
     "tiempo_prep": "21 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "200 ml",
     "conservacion": "Frasco oscuro 6 meses",
     "evidencia": "Uso tradicional documentado",
@@ -1501,7 +1671,17 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Oleocanthal: antiinflamatorio por inhibición de COX similar al ibuprofeno. Ácido oleico: cardioprotector por modulación del perfil lipídico. Vitamina E y escualeno: antioxidantes y regeneradores tisulares.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico",
+      "emoliente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 479,
@@ -1534,7 +1714,16 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "principios_activos": "Ácidos fenólicos (ácido rosmarínico, clorogénico): inhibición de NF-κB y reducción de citoquinas inflamatorias. Flavonoides (luteolina, apigenina): inhibición de COX-2. Terpenoides: reducción de leucotrienos proinflamatorios.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "antioxidante",
+      "inmunomodulador"
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 480,
@@ -1567,7 +1756,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 481,
@@ -1607,7 +1805,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 482,
@@ -1640,7 +1840,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación de fase II; anticancerígeno y antiinflamatorio. Glutamina: regeneradora de mucosa gástrica. Vitamina K y vitamina C: hemostáticas y antioxidantes. Glucosinolatos: antimicrobianos.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 498,
@@ -1673,7 +1882,16 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 499,
@@ -1714,7 +1932,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 500,
@@ -1747,7 +1967,17 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente",
+      "emoliente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 501,
@@ -1788,7 +2018,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 502,
@@ -1821,7 +2053,16 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 503,
@@ -1854,24 +2095,33 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Sesquiterpenos (curzereno, lindestreno): antiinflamatorios orales. Guggulsterones: antiinflamatorios. Fenoles: antisépticos bucales.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 504,
-    "titulo": "Aceite Esencial de Árbol de Té para Encías",
+    "titulo": "Enjuague de Aceite Esencial de Árbol de Té para Encías",
     "categoria": "Dental",
     "origen": "Naturopatía Australiana",
     "ingredientes": "3 gotas de aceite esencial de árbol de té (Tea Tree), 1 vaso de agua",
-    "preparacion": "Diluir el aceite en el agua. Usar como enjuague bucal suave.",
-    "dosis": "Enjuague 2 veces al día",
-    "modo_uso": "Oral — infusión caliente",
+    "preparacion": "Diluir el aceite en el agua (nunca aplicar el aceite esencial puro). Usar como enjuague bucal suave durante 30 segundos y escupir. NO TRAGAR.",
+    "dosis": "Enjuague 2 veces al día; nunca ingerir.",
+    "modo_uso": "Tópico — enjuague bucal",
     "tiempo_prep": "2 min",
     "dificultad": "Fácil",
     "rendimiento": "1 sesión",
     "conservacion": "Preparar fresco",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Naturopatía australiana",
-    "contraindicaciones": "Nunca ingerir el aceite esencial sin diluir; tóxico si se traga",
+    "contraindicaciones": "NO INGERIR — el aceite esencial de árbol de té es tóxico si se traga. Solo uso tópico en boca, escupir siempre. No usar en niños menores de 6 años.",
     "uso": "Encías. Alivio dental y bucal.",
     "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
     "indicaciones_principales": [
@@ -1887,7 +2137,16 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "astringente"
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 505,
@@ -1928,7 +2187,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 506,
@@ -1969,7 +2230,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 507,
@@ -2010,7 +2273,9 @@
       "Clavo de olor",
       "Salvia",
       "Tomillo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 823,
@@ -2052,7 +2317,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 824,
@@ -2085,7 +2352,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 825,
@@ -2118,7 +2394,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 826,
@@ -2151,7 +2436,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Sulforafano (isotiocianato): inductor de enzimas de detoxificación; antiinflamatorio sistémico potente. Glutamina: regeneradora de mucosa. Vitamina K y glucosinolatos: hemostáticos y antimicrobianos.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 827,
@@ -2184,7 +2478,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 828,
@@ -2225,7 +2528,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 829,
@@ -2237,7 +2542,7 @@
     "dosis": "Aplicar 2 veces al día en articulaciones doloridas",
     "modo_uso": "Tópico — aplicar directamente sobre la piel",
     "tiempo_prep": "20 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 g",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -2266,7 +2571,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 830,
@@ -2307,7 +2614,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 831,
@@ -2348,7 +2657,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 832,
@@ -2381,7 +2692,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Curcumina: inhibe NF-κB y COX-2; potente antiinflamatorio equiparable al ibuprofeno. Bisdesmetoxicurcumina: mayor biodisponibilidad y actividad antioxidante. Turmerona: neuroprotector y hepatoprotector.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 833,
@@ -2393,7 +2713,7 @@
     "dosis": "25-30 gotas en agua 3 veces al día con comida",
     "modo_uso": "Tomar de forma continua por al menos 4-8 semanas",
     "tiempo_prep": "28 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "250 ml",
     "conservacion": "Frasco oscuro 2 años",
     "evidencia": "Uso tradicional documentado",
@@ -2421,7 +2741,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 834,
@@ -2462,7 +2784,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 835,
@@ -2474,7 +2798,7 @@
     "dosis": "Aplicar 2-3 veces al día en articulaciones inflamadas",
     "modo_uso": "Masajear suavemente en movimientos circulares",
     "tiempo_prep": "20 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 g",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -2503,7 +2827,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 836,
@@ -2536,7 +2862,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Violantina y escutelareína (flavonoides): antiinflamatorios y antioxidantes. Saponinas (violasaponina): expectorantes. Mucílagos: demulcentes sobre piel y mucosas. Rutina: venotónica.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 837,
@@ -2569,7 +2904,16 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "principios_activos": "Miristicina (fenilpropanoide): analgésica y antiinflamatoria tópica por inhibición de COX-2. Elemicina: analgésica y antiséptica. Safrol: rubefaciente a bajas dosis. Eugenol: anestésico local.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "rubefaciente",
+      "antiartrítico"
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 965,
@@ -2610,7 +2954,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 968,
@@ -2650,7 +2996,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 969,
@@ -2683,7 +3031,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Beta-cariofileno (sesquiterpeno): antiinflamatorio por agonismo sobre receptor CB2; analgésico. Ácido copálico: antimicrobiano de amplio espectro. Resinas diterpénicas: cicatrizantes y antisépticas.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 970,
@@ -2716,7 +3073,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Mitragynina y 7-hidroximitragynina (alcaloides indólicos): agonistas parciales de receptores mu-opioides; analgésicos potentes y antitusivos. Corynantheidina: antagonista de receptores opioides. Uso regulado; principios activos muy potentes.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 971,
@@ -2757,7 +3123,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 972,
@@ -2769,7 +3137,7 @@
     "dosis": "Aplicar en zona dolorida 2-3 veces al dia",
     "modo_uso": "Usar guantes; no tocar ojos",
     "tiempo_prep": "15 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "50 g",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -2790,7 +3158,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Borneol y alcanfor: analgésicos tópicos por desensibilización de TRPV1. Flavonoides (luteolina, apigenina): antiinflamatorios. Aceites esenciales: antisépticos dérmicos.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 973,
@@ -2830,7 +3207,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
   },
   {
     "id": 974,
@@ -2871,7 +3250,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 975,
@@ -2904,7 +3285,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Terpenos y fenilpropanoides: antisépticos, antiinflamatorios y aromaterapéuticos. Linalool u otros alcoholes terpénicos: ansiolíticos.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago"
   },
   {
     "id": 976,
@@ -2937,7 +3327,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Ácido alfa-linolénico ALA (omega-3): antiinflamatorio sistémico. Lignanos (SDG): fitoestrogénicos y antioxidantes. Mucílagos: emolientes y antiinflamatorios tópicos por calor húmedo.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 977,
@@ -2970,7 +3369,16 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Tetrahidropalmitina THP (alcaloide isoquinolínico): analgésico no opiáceo por bloqueo de dopamina D1/D2; modulador del dolor neuropático. Coptisina: antiinflamatoria. Dihidropalmatina: sedante.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "antipirético"
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 1063,
@@ -2981,7 +3389,7 @@
     "preparacion": "1. Raspar la corteza interna del tralhue con cuchillo limpio, obtener virutas o astillas finas. 2. Poner el agua a hervir en olla de greda o metalica. 3. Agregar las virutas de corteza al agua hirviendo. 4. Reducir el fuego y dejar cocer a fuego lento durante 20 minutos con la olla semitapada. 5. Retirar del fuego, tapar completamente y dejar reposar 15 minutos mas. 6. Colar. La decoccion debe quedar de color amarillo-ambar profundo.",
     "dosis": "1 taza (150 ml) tres veces al dia, 30 minutos antes de comidas, durante 21 dias consecutivos. Descansar 7 dias y repetir si es necesario.",
     "modo_uso": "Oral (decoccion)",
-    "tiempo_prep": "40 minutos",
+    "tiempo_prep": "40 min",
     "dificultad": "Media",
     "rendimiento": "3 tazas por preparacion (1 dia)",
     "conservacion": "Refrigerar hasta 48 horas. Preparar fresco cada dos dias.",
@@ -3010,7 +3418,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1068,
@@ -3021,7 +3431,7 @@
     "preparacion": "1. Lavar bien las hojas de quilquil con agua fria. 2. Machacar intensamente en mortero o majar hasta obtener pulpa verde jugosa. 3. Derretir la manteca a fuego muy bajo. 4. Incorporar la pulpa de quilquil a la manteca tibia. 5. Agregar el aceite de linaza. 6. Revolver durante 10 minutos a fuego minimo sin que hierva. 7. Retirar del fuego, dejar enfriar hasta consistencia de unguento. Guardar en tarro.",
     "dosis": "Aplicar con masaje firme sobre la zona dolorida (espalda baja, lumbar, hombros) 2 veces al dia, preferentemente al despertar y antes de dormir. Cubrir con pano de lana caliente despues de aplicar.",
     "modo_uso": "Topico (unguento + masaje)",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Media",
     "rendimiento": "15-20 aplicaciones",
     "conservacion": "Refrigerar hasta 2 semanas. Si se forman hongos, descartar.",
@@ -3050,7 +3460,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago"
   },
   {
     "id": 1070,
@@ -3061,8 +3473,8 @@
     "preparacion": "1. Recolectar la corteza interna (liber) de patagua, preferentemente en luna menguante segun practica williche. 2. Machacar la corteza en mortero con la sal hasta obtener pasta aspera. 3. Agregar el agua caliente de a poco sin dejar de machacar. 4. Incorporar el aceite y continuar mezclando hasta homogeneizar. 5. Aplicar la pasta caliente (tolerable) sobre la articulacion inflamada envolviendola.",
     "dosis": "Aplicar una vez al dia durante 1-2 horas. Cubrir con pano de lana. Repetir durante 10-15 dias.",
     "modo_uso": "Topico (emplasto caliente)",
-    "tiempo_prep": "20 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
     "rendimiento": "2-3 aplicaciones",
     "conservacion": "Preparar fresco para cada aplicacion. No conservar.",
     "evidencia": "La patagua (Crinodendron patagua) contiene lectinas y taninos con actividad antiinflamatoria documentada. La sal de mar como osmoregulador reduce el edema articular. Uso documentado por Villagran C. (2000) y el MINSAL en estudios de medicina williche.",
@@ -3090,7 +3502,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 1074,
@@ -3101,7 +3515,7 @@
     "preparacion": "1. Picar el alga huiro fino y machacar hasta obtener pulpa. 2. Calentar el aceite de pescado a fuego muy bajo (no debe humear). 3. Agregar la pulpa de huiro al aceite tibio y revolver 15 minutos. 4. Agregar la pimienta de agua machacada. 5. Incorporar el vinagre/chicha y revolver energicamente para emulsionar. 6. Colar con pano dejando pasar la fase oleosa aromatizada. Guardar en frasco oscuro.",
     "dosis": "Aplicar masaje profundo sobre articulaciones afectadas 2 veces al dia. Cubrir con pano de lana 30 minutos despues de cada aplicacion.",
     "modo_uso": "Topico (aceite medicinal de masaje)",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Media",
     "rendimiento": "20-25 aplicaciones",
     "conservacion": "Refrigerar en frasco oscuro hasta 2 semanas.",
@@ -3130,7 +3544,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1080,
@@ -3141,7 +3557,7 @@
     "preparacion": "1. Secar las hojas de chachacoma al sol durante 2 dias o en lugar ventilado. 2. Triturar las hojas secas en mortero hasta polvo grueso. 3. Mezclar la grasa de llama tibia con el polvo de chachacoma y el alcohol. 4. Revolver hasta obtener pasta homogenea. 5. Agregar la tintura de rica-rica si se dispone. 6. Aplicar sobre la frente, sienes y nuca con masaje suave.",
     "dosis": "Aplicar sobre frente, sienes y nuca al inicio del dolor de cabeza. Mantener 30-60 minutos. Repetir hasta 3 veces al dia en casos intensos.",
     "modo_uso": "Topico (cataplasma/unguento)",
-    "tiempo_prep": "30 minutos (mas 2 dias de secado)",
+    "tiempo_prep": "30 min (mas 2 dias de secado)",
     "dificultad": "Media",
     "rendimiento": "10-15 aplicaciones",
     "conservacion": "Refrigerar en tarro cerrado hasta 2 semanas.",
@@ -3170,7 +3586,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
   },
   {
     "id": 1086,
@@ -3210,7 +3628,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 1090,
@@ -3251,7 +3671,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1091,
@@ -3291,7 +3713,9 @@
       "Jengibre",
       "Cúrcuma",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 1092,
@@ -3332,7 +3756,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1095,
@@ -3374,7 +3800,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1098,
@@ -3416,7 +3844,9 @@
       "Cúrcuma",
       "Jengibre",
       "Árnica"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 1099,
@@ -3458,7 +3888,9 @@
       "Jengibre",
       "Romero",
       "Cola de caballo"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1112,
@@ -3469,7 +3901,7 @@
     "preparacion": "Hervir la corteza 10 minutos a fuego suave. Retirar, agregar menta, reposar 5 min. Colar.",
     "dosis": "1 taza al inicio del dolor; máximo 3 tazas al día",
     "modo_uso": "Decocción",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "1 taza",
     "conservacion": "Consumir recién hecha",
@@ -3500,7 +3932,9 @@
       "Matico",
       "Manzanilla",
       "Ulmaria"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
   },
   {
     "id": 1127,
@@ -3541,7 +3975,9 @@
       "Romero",
       "Árnica",
       "Matico"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1168,
@@ -3552,7 +3988,7 @@
     "preparacion": "Mezclar todos los ingredientes hasta obtener pasta homogénea. Conservar en frasco de vidrio pequeño.",
     "dosis": "Aplicar pequeña cantidad en cepillo, cepillar 2 veces al día",
     "modo_uso": "Pasta dental",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 60 g",
     "conservacion": "1 mes en frasco hermético a temperatura ambiente",
@@ -3584,7 +4020,9 @@
     "sinergia_plantas": [
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "id": 1182,
@@ -3595,7 +4033,7 @@
     "preparacion": "Mezclar todos los aceites vegetales. Añadir aceites esenciales agitando vigorosamente. Envasar en botella oscura.",
     "dosis": "Aplicar masajeando suavemente sobre área afectada 2-3 veces al día",
     "modo_uso": "Linimento tópico",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "115 ml",
     "conservacion": "6 meses en frasco oscuro",
@@ -3628,7 +4066,9 @@
     "sinergia_plantas": [
       "sauce blanco (interno)",
       "matico"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "antiinflamatorio"
   },
   {
     "id": 1183,
@@ -3639,7 +4079,7 @@
     "preparacion": "Hervir agua con sauce y jengibre 15 minutos. Apagar, añadir ulmaria y menta. Tapar 10 minutos. Colar.",
     "dosis": "1 taza cada 6-8 horas máximo 3 dosis al día por 5 días",
     "modo_uso": "Decocción",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Fácil",
     "rendimiento": "350 ml",
     "conservacion": "Consumir fresca",
@@ -3671,7 +4111,9 @@
     "sinergia_plantas": [
       "cúrcuma",
       "matico"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "dolor_cronico_general"
   },
   {
     "id": 1184,
@@ -3682,7 +4124,7 @@
     "preparacion": "Aplastar hojas de col con rodillo hasta romper nervaduras. Calentar levemente. Mezclar arcilla con agua tibia y aceite. Aplicar arcilla sobre articulación, cubrir con hojas de col machacadas y hojas de romaza encima. Fijar con venda.",
     "dosis": "Dejar 2-4 horas o toda la noche, una vez al día",
     "modo_uso": "Cataplasma",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Media",
     "rendimiento": "1 aplicación",
     "conservacion": "Uso inmediato",
@@ -3714,7 +4156,9 @@
     "sinergia_plantas": [
       "árnica tópica",
       "sauce blanco interno"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
   },
   {
     "id": 1185,
@@ -3725,7 +4169,7 @@
     "preparacion": "Hervir agua con clavos 5 minutos. Apagar, añadir salvia y matico. Tapar 10 minutos. Añadir sal. Colar.",
     "dosis": "Enjuagues de 30 segundos cada 3-4 horas mientras dure el dolor",
     "modo_uso": "Enjuague bucal",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "250 ml",
     "conservacion": "24 horas refrigerado",
@@ -3757,7 +4201,9 @@
     "sinergia_plantas": [
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "dolores",
+    "submodulo": "salud_bucal"
   },
   {
     "titulo": "Compresas frías de Menta para la cefalea tensional",
@@ -3765,19 +4211,24 @@
     "origen": "Medicina tradicional europea, cultivada en Chile",
     "ingredientes": "- 2 cucharadas de hojas frescas de menta (o 1 cucharada de hojas secas). - 500 ml de agua. - Un paño limpio.",
     "preparacion": "1. Hervir el agua y verter sobre las hojas de menta. 2. Tapar y dejar reposar 15 minutos. 3. Colar y refrigerar hasta que esté completamente fría. 4. Empapar el paño en la infusión fría, escurrir ligeramente y aplicar sobre la frente y las sienes.",
-    "dosis": "",
+    "dosis": "1 taza, 2-3 veces al día.",
     "modo_uso": "Uso externo",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Media",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir inmediatamente.",
     "evidencia": "Uso tradicional documentado",
     "fuente_tradicion": "Fitoterapia europea",
     "contraindicaciones": "- No aplicar sobre heridas abiertas o piel irritada. - Evitar el contacto con los ojos.",
-    "uso": "",
-    "principios_activos": "",
-    "propiedades": "",
-    "referencias": "",
+    "uso": "Cefalea tensional y dolor de cabeza: el frío y el mentol de la menta producen vasoconstricción local y refrescan la piel, aliviando la sensación de presión y dolor en las sienes.",
+    "principios_activos": "Mentol: activa receptores de frío (TRPM8) produciendo vasoconstricción local y reduciendo la liberación de neuropéptidos inflamatorios. Flavonoides: acción antiespasmódica sobre la musculatura lisa vascular craneal.",
+    "propiedades": [
+      "analgésico",
+      "refrescante",
+      "vasoconstrictor local",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Mentha piperita. Geneva: WHO; 1999.",
     "indicaciones_principales": "",
     "interacciones_medicamentos": "",
     "embarazo_lactancia": "",
@@ -3786,6 +4237,671 @@
     "nivel_seguridad": "✅ Seguro (uso externo)",
     "distribucion": "Cultivada en huertos de todo Chile, incluido",
     "efectos_secundarios": "",
-    "id": 1238
+    "id": 1238,
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
+  },
+  {
+    "titulo": "Infusión de Menta para el Dolor de Cabeza Tensional",
+    "categoria": "Analgésico",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharada de hojas secas de menta, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la menta, tapar y dejar reposar 8 minutos. Colar y beber caliente. También se puede aplicar la bolsita de infusión tibia sobre las sienes.",
+    "dosis": "1 taza al inicio del dolor, pudiendo repetir una segunda taza a las 4 horas si es necesario. Máximo 2 tazas al día. No usar más de 3 días seguidos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de cálculos biliares, reflujo gastroesofágico severo o alergia a las lamiáceas. Evitar en niños menores de 6 años. No aplicar aceites esenciales puros sobre la piel sin diluir. Suspender si el dolor empeora o se hace crónico.",
+    "uso": "Dolor de cabeza por tensión o estrés: relaja los músculos de la cabeza y el cuello, y alivia la sensación de presión y el malestar.",
+    "principios_activos": "Mentol: activa receptores de frío (TRPM8) produciendo vasoconstricción local y reduciendo la liberación de neuropéptidos inflamatorios. | Flavonoides: acción antiespasmódica sobre la musculatura lisa vascular craneal, disminuyendo la intensidad de la cefalea tensional.",
+    "propiedades": [
+      "analgésico",
+      "antiespasmódico",
+      "carminativo",
+      "vasodilatador periférico"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Mentha piperita; MINSAL 2010; Göbel H et al. Cephalalgia 1995;15(3):228-232",
+    "id": 1342,
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
+  },
+  {
+    "titulo": "Compresa Fría de Lavanda para la Migraña",
+    "categoria": "Analgésico",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "5 gotas de aceite esencial de lavanda, 1 litro de agua fría, un paño limpio",
+    "preparacion": "Mezclar el aceite esencial de lavanda en el agua fría. Empapar el paño, escurrirlo ligeramente y aplicarlo sobre la frente y las sienes. Mantener durante 15-20 minutos en un ambiente oscuro y silencioso.",
+    "dosis": "Aplicar al inicio de la migraña. Repetir cada 2 horas si es necesario. No usar más de 3 aplicaciones al día.",
+    "modo_uso": "Tópico — compresa fría",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar agua fresca para cada uso. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No aplicar aceites esenciales sin diluir directamente sobre la piel. Evitar en caso de alergia a la lavanda. No usar en niños menores de 6 años. No ingerir. Si la migraña se acompaña de síntomas neurológicos inusuales, buscar atención médica urgente.",
+    "uso": "Migraña y dolor de cabeza pulsátil: el frío y el aroma de la lavanda ayudan a reducir la intensidad del dolor y la sensibilidad a la luz y al ruido.",
+    "principios_activos": "Linalol y acetato de linalilo: acción analgésica por inhibición de canales de calcio voltaje-dependientes en neuronas trigeminales, reduciendo la liberación de CGRP y la vasodilatación meníngea. | Efecto de contraste térmico: la vasoconstricción local alivia la sensación pulsátil de la migraña.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "sedante",
+      "vasoconstrictor local",
+      "calmante"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Lavandula angustifolia; MINSAL 2010; Sasannejad P et al. Eur Neurol 2012;67(5):288-291",
+    "id": 1343,
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
+  },
+  {
+    "titulo": "Infusión de Corteza de Sauce para el Dolor de Cabeza",
+    "categoria": "Analgésico",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "1 cucharadita de corteza de sauce seca, 250 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de sauce. Reducir el fuego y mantener a fuego lento durante 10 minutos. Retirar, tapar y reposar 5 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 6 horas, máximo 3 tazas al día. No usar más de 5 días seguidos. No administrar a menores de 16 años.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el momento o refrigerar hasta 24 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en menores de 16 años (riesgo de síndrome de Reye). Evitar en úlcera gástrica, insuficiencia renal, tratamiento con anticoagulantes o alergia a salicilatos. Contraindicado en el embarazo y lactancia. No combinar con alcohol.",
+    "uso": "Dolor de cabeza leve a moderado: actúa de forma similar a la aspirina, reduciendo la inflamación y el dolor, sin irritar tanto el estómago.",
+    "principios_activos": "Salicina (glucósido fenólico): se convierte en ácido salicílico en el intestino, inhibiendo las enzimas COX-1 y COX-2, con la consiguiente reducción de prostaglandinas proinflamatorias y tromboxanos. | Compuestos polifenólicos: contribuyen al efecto antiinflamatorio y antioxidante.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "febrífugo",
+      "anticoagulante suave"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Salix spp.; MINSAL 2010; Schmid B et al. Eur J Clin Pharmacol 2001;57(5):387-391",
+    "id": 1344,
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
+  },
+  {
+    "titulo": "Decocción de Jengibre para la Migraña con Náuseas",
+    "categoria": "Analgésico",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "3 rodajas de jengibre fresco, 300 ml de agua",
+    "preparacion": "Hervir el agua con el jengibre durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 5 minutos. Colar y beber a sorbos lentos.",
+    "dosis": "1 taza al inicio de los síntomas, pudiendo repetir cada 6 horas si persiste. Máximo 2 tazas al día. No usar más de 3 días seguidos.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza grande (300 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No usar en caso de cálculos biliares, úlcera gástrica o tratamiento con anticoagulantes. Evitar en el embarazo sin supervisión médica. No administrar a niños menores de 6 años. Suspender si aparece acidez estomacal.",
+    "uso": "Migraña acompañada de náuseas o mareos: el jengibre alivia el dolor de cabeza y calma el estómago, reduciendo las náuseas y los vómitos que suelen acompañar a la migraña.",
+    "principios_activos": "Gingeroles y shogaoles: inhiben la síntesis de prostaglandinas y leucotrienos proinflamatorios, modulan receptores serotoninérgicos 5-HT3 (efecto antiemético) y bloquean canales de calcio en neuronas trigeminales, reduciendo la inflamación neurogénica de la migraña.",
+    "propiedades": [
+      "analgésico",
+      "antiemético",
+      "antiinflamatorio",
+      "antiespasmódico",
+      "vasodilatador periférico"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Zingiber officinale; MINSAL 2010; Grzanna R et al. J Med Food 2005;8(2):125-132; Maghbooli M et al. Phytother Res 2014;28(3):412-415",
+    "id": 1345,
+    "modulo": "dolores",
+    "submodulo": "dolor_cabeza_migrana"
+  },
+  {
+    "titulo": "Decocción de Uña de Gato para la Artritis",
+    "categoria": "Antiinflamatorio",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "1 cucharada de corteza de uña de gato, 400 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de uña de gato. Reducir el fuego y mantener a fuego lento durante 20 minutos. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza (200 ml) por la mañana y otra por la noche, fuera de las comidas. No usar más de 8 semanas seguidas sin descanso de 1 semana.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "35 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (400 ml)",
+    "conservacion": "Refrigerar hasta 48 horas. Calentar suavemente antes de consumir.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No usar en el embarazo (efecto abortivo), lactancia, trasplantes de órganos o enfermedades autoinmunes sin supervisión médica. Evitar en combinación con inmunosupresores o anticoagulantes. No administrar a niños menores de 12 años.",
+    "uso": "Artritis reumatoide y osteoartritis: reduce la inflamación y el dolor en las articulaciones, mejorando la movilidad con el uso continuado.",
+    "principios_activos": "Alcaloides oxindólicos pentacíclicos (isopteropodina, mitrafilina): moduladores del sistema inmune, inhiben la producción de factor de necrosis tumoral alfa (TNF-α) y reducen la inflamación articular. | Glicósidos triterpénicos: acción antiinflamatoria por inhibición de COX-2 y reducción de la infiltración de células inflamatorias en la sinovia.",
+    "propiedades": [
+      "antiinflamatorio",
+      "inmunomodulador",
+      "analgésico",
+      "antioxidante",
+      "condroprotector"
+    ],
+    "referencias": "WHO Monographs Vol.1 (1999) Uncaria tomentosa; MINSAL 2010; Mur E et al. J Rheumatol 2002;29(4):678-681; Sandoval M et al. Free Radic Biol Med 2000;29(1):71-78",
+    "id": 1346,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
+  },
+  {
+    "titulo": "Infusión de Ortiga para la Inflamación Articular",
+    "categoria": "Antiinflamatorio",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "2 cucharaditas de hojas secas de ortiga, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la ortiga, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 8 horas, hasta 3 veces al día. Ciclos de 3 semanas con 1 semana de descanso. No usar más de 3 meses al año sin supervisión.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. Refrigerar máximo 12 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en insuficiencia renal o cardíaca sin supervisión. Evitar en el embarazo. Puede potenciar el efecto de diuréticos, antihipertensivos y anticoagulantes. No administrar a niños menores de 12 años.",
+    "uso": "Artritis y dolores articulares: desinflama las articulaciones y elimina líquidos retenidos que empeoran la rigidez, aliviando el dolor y mejorando la movilidad.",
+    "principios_activos": "Ácidos cafeoilquínicos y flavonoides: inhiben la síntesis de citoquinas proinflamatorias (IL-1, TNF-α) en el cartílago articular, reduciendo la degradación de la matriz. | Sales minerales (sílice, potasio): efecto diurético suave que ayuda a eliminar toxinas y ácido úrico, descargando las articulaciones.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "diurético",
+      "depurativo",
+      "remineralizante"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Urtica dioica; MINSAL 2010; Randall C et al. J R Soc Med 2000;93(6):305-309",
+    "id": 1347,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
+  },
+  {
+    "titulo": "Cataplasma de Arcilla y Cola de Caballo para el Dolor Reumático",
+    "categoria": "Reumatismo",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de arcilla verde en polvo, 2 cucharadas de cola de caballo seca triturada, agua tibia necesaria para formar una pasta",
+    "preparacion": "Mezclar la arcilla y la cola de caballo. Agregar agua tibia poco a poco hasta obtener una pasta homogénea y untuosa. Aplicar directamente sobre la articulación dolorida formando una capa de 1 cm de espesor. Cubrir con un paño húmedo y dejar actuar 20-30 minutos. Retirar con agua tibia.",
+    "dosis": "Aplicar 1 vez al día, preferentemente por la noche. Ciclos de 10 días con 5 días de descanso.",
+    "modo_uso": "Tópico — cataplasma",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas, quemaduras o piel irritada. Evitar en caso de alergia a la cola de caballo. No usar en zonas con trombosis venosa profunda. Si el dolor aumenta, suspender su uso.",
+    "uso": "Dolores reumáticos y articulares crónicos: la arcilla descongestiona la zona inflamada y la cola de caballo aporta minerales que ayudan a reducir la rigidez y el dolor.",
+    "principios_activos": "Silicatos y óxidos minerales de la arcilla: efecto antiinflamatorio local por intercambio iónico y capacidad de absorber toxinas y líquido intersticial, reduciendo el edema periarticular. | Sílice y flavonoides de la cola de caballo: acción remineralizante y antiinflamatoria, favoreciendo la regeneración del tejido conectivo y la reducción de la inflamación.",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "descongestionante",
+      "remineralizante",
+      "refrescante"
+    ],
+    "referencias": "Tradición oral chilena documentada; Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Equisetum arvense",
+    "id": 1348,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
+  },
+  {
+    "titulo": "Baño de Sales de Epsom y Romero para Dolores Reumáticos",
+    "categoria": "Reumatismo",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 tazas de sales de Epsom, un puñado de romero fresco (aproximadamente 30 g), agua caliente para la bañera",
+    "preparacion": "Hervir 2 litros de agua con el romero durante 5 minutos. Dejar reposar 10 minutos y colar. Llenar la bañera con agua caliente, agregar las sales de Epsom y la infusión de romero. Revolver para disolver. Sumergirse durante 20 minutos.",
+    "dosis": "1 baño cada 48 horas, preferentemente por la noche. Ciclos de 2 semanas con 1 semana de descanso.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de heridas abiertas, insuficiencia renal o hipertensión no controlada (el agua caliente puede bajar la presión). Evitar en el embarazo sin consultar. No usar en niños menores de 12 años sin supervisión. Precaución con la temperatura del agua.",
+    "uso": "Dolores reumáticos generalizados y rigidez matutina: el magnesio de las sales relaja los músculos y el romero activa la circulación, aliviando la sensación de pesadez y el dolor.",
+    "principios_activos": "Sulfato de magnesio (sales de Epsom): absorbido por vía transdérmica, actúa como antagonista de canales de calcio en la musculatura lisa y esquelética, produciendo relajación muscular y vasodilatación. | Aceite esencial de romero (alcanfor, cineol): efecto analgésico y antiinflamatorio local, mejorando la microcirculación y la oxigenación de los tejidos periarticulares.",
+    "propiedades": [
+      "miorrelajante",
+      "antiinflamatorio",
+      "analgésico",
+      "vasodilatador",
+      "calmante"
+    ],
+    "referencias": "Tradición oral chilena documentada; Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; Gröber U et al. Nutrients 2017;9(8):813",
+    "id": 1349,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis"
+  },
+  {
+    "id": 1394,
+    "titulo": "Aceite de Árnica para el Dolor Muscular y el Lumbago",
+    "categoria": "Analgésico",
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "origen": "Popular Chileno",
+    "ingredientes": "10 g de flores secas de árnica (Arnica montana), 100 ml de aceite de oliva",
+    "preparacion": "Macerar las flores de árnica en el aceite de oliva durante 15 días en lugar oscuro, agitando a diario. Colar con un filtro fino. Aplicar mediante suaves masajes sobre la zona dolorida.",
+    "dosis": "Aplicar 2 a 3 veces al día sobre la zona afectada, durante 5 a 7 días. No usar más de 10 días seguidos.",
+    "modo_uso": "Tópico — aceite para masaje",
+    "tiempo_prep": "15 días (maceración) + 5 min",
+    "dificultad": "Media",
+    "rendimiento": "100 ml de aceite medicado",
+    "conservacion": "En frasco oscuro, lugar fresco, hasta 6 meses.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas, mucosas, ojos o piel irritada. No ingerir. No usar en caso de alergia a las asteráceas. Evitar durante el embarazo y lactancia. No usar en niños menores de 12 años. Suspender si aparece irritación cutánea.",
+    "uso": "Dolores musculares, contracturas y lumbago: el árnica desinflama los músculos tensos, alivia el dolor y acelera la recuperación después del esfuerzo físico o las malas posturas.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "miorrelajante",
+      "descongestionante",
+      "revulsivo suave"
+    ],
+    "principios_activos": "Helenalina y lactonas sesquiterpénicas: potente acción antiinflamatoria por inhibición de NF-κB, reduciendo la producción de citoquinas proinflamatorias. Flavonoides: efecto analgésico y antioxidante local.",
+    "referencias": "Clinical Trials, Potential Mechanisms, and Adverse Effects of Arnica as an Adjunct Medication for Pain Management. PubMed. 2021; Adkison JD et al. The effect of topical arnica on muscle pain. Ann Pharmacother. 2010;44(10):1579-1584; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1395,
+    "titulo": "Compresas de Romero para el Dolor de Espalda y Lumbago",
+    "categoria": "Analgésico",
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "origen": "Popular Chileno",
+    "ingredientes": "4 cucharadas de hojas secas de romero (Rosmarinus officinalis), 1 litro de agua",
+    "preparacion": "Hervir el agua con el romero durante 5 minutos. Dejar reposar 10 minutos y colar. Empapar un paño limpio en la infusión caliente, escurrir ligeramente y aplicar sobre la zona dolorida durante 15-20 minutos. Repetir calentando el paño cuando se enfríe.",
+    "dosis": "Aplicar compresas 2 veces al día, mañana y noche, durante 5 a 7 días.",
+    "modo_uso": "Tópico — compresas calientes",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 litro (para varias compresas)",
+    "conservacion": "Usar la infusión en el día. No guardar más de 24 horas en refrigeración.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o piel irritada. Evitar en caso de alergia al romero. No usar durante el embarazo sin consultar. Precaución con la temperatura para evitar quemaduras.",
+    "uso": "Dolor de espalda, lumbago y contracturas musculares: el calor y el romero relajan los músculos tensos, mejoran la circulación y alivian el dolor de forma rápida.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "miorrelajante",
+      "vasodilatador",
+      "calentador"
+    ],
+    "principios_activos": "Ácido rosmarínico y 1,8-cineol: acción antiinflamatoria y analgésica local, mejoran la microcirculación y reducen la contractura muscular. Alcanfor: efecto revulsivo que produce vasodilatación y sensación de calor.",
+    "referencias": "Efecto analgésico de Romero (Rosmarinus officinalis) en modelo inflamatorio. Revistas UAZ. 2019; In vivo analgesic and anti-inflammatory activities of Rosmarinus officinalis aqueous extracts. PubMed. 2013; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1396,
+    "titulo": "Baño de Sales de Epsom y Romero para Dolores Musculares",
+    "categoria": "Reumatismo",
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 tazas de sales de Epsom (sulfato de magnesio), un puñado de romero fresco (aproximadamente 30 g), agua caliente para la bañera",
+    "preparacion": "Hervir 2 litros de agua con el romero durante 5 minutos. Dejar reposar 10 minutos y colar. Llenar la bañera con agua caliente, agregar las sales de Epsom y la infusión de romero. Revolver para disolver. Sumergirse durante 20 minutos.",
+    "dosis": "1 baño cada 48 horas, preferentemente por la noche. Ciclos de 2 semanas con 1 semana de descanso.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de heridas abiertas, insuficiencia renal o hipertensión no controlada. Evitar en el embarazo sin consultar. No usar en niños menores de 12 años sin supervisión. Precaución con la temperatura del agua.",
+    "uso": "Dolores musculares generalizados y rigidez: el magnesio de las sales relaja los músculos y el romero activa la circulación, aliviando la sensación de pesadez y el dolor después del ejercicio.",
+    "propiedades": [
+      "miorrelajante",
+      "analgésico",
+      "antiinflamatorio",
+      "vasodilatador",
+      "calmante"
+    ],
+    "principios_activos": "Sulfato de magnesio (sales de Epsom): antagonista de canales de calcio en la musculatura, produciendo relajación muscular. Aceite esencial de romero: efecto analgésico y vasodilatador que mejora la oxigenación tisular.",
+    "referencias": "Tradición oral chilena documentada; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1397,
+    "titulo": "Pomada de Caléndula y Árnica para el Dolor Muscular",
+    "categoria": "Analgésico",
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "origen": "Popular Chileno",
+    "ingredientes": "30 g de flores secas de caléndula, 10 g de flores secas de árnica, 150 ml de aceite de oliva, 25 g de cera de abeja",
+    "preparacion": "Macerar las flores en el aceite durante 15 días. Colar y calentar a baño maría. Añadir la cera de abeja y remover hasta disolver. Verter en envases y dejar solidificar. Aplicar con suaves masajes sobre los músculos doloridos.",
+    "dosis": "Aplicar 2 a 3 veces al día, durante 5 a 7 días.",
+    "modo_uso": "Tópico — pomada para masaje",
+    "tiempo_prep": "15 días (maceración) + 30 min",
+    "dificultad": "Media",
+    "rendimiento": "100 ml de pomada",
+    "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas, mucosas o piel irritada. Evitar en alergia a las asteráceas. No usar durante el embarazo o lactancia. No administrar a niños menores de 12 años. Para uso externo exclusivamente.",
+    "uso": "Dolores musculares, contracturas y tensión acumulada: la combinación de caléndula y árnica desinflama, alivia el dolor y relaja los músculos contracturados.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "miorrelajante",
+      "regenerador",
+      "calmante"
+    ],
+    "principios_activos": "Helenalina (árnica): acción antiinflamatoria por inhibición de NF-κB. Triterpenos (caléndula): efecto regenerador y calmante sobre los tejidos. Flavonoides de ambas plantas: acción analgésica y antioxidante sinérgica.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Clinical Trials, Potential Mechanisms of Arnica for Pain Management. PubMed. 2021."
+  },
+  {
+    "id": 1398,
+    "titulo": "Cataplasma de Arcilla y Jengibre para el Lumbago Agudo",
+    "categoria": "Analgésico",
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de arcilla verde en polvo, 1 cucharadita de jengibre en polvo (Zingiber officinale), agua tibia necesaria para formar una pasta",
+    "preparacion": "Mezclar la arcilla y el jengibre. Agregar agua tibia poco a poco hasta obtener una pasta homogénea. Aplicar directamente sobre la zona lumbar dolorida formando una capa de 1 cm de espesor. Cubrir con un paño y dejar actuar 20-30 minutos. Retirar con agua tibia.",
+    "dosis": "Aplicar 1 vez al día, preferentemente por la noche, durante 5 a 7 días.",
+    "modo_uso": "Tópico — cataplasma",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas, quemaduras o piel irritada. Evitar en caso de alergia al jengibre. No usar en zonas con trombosis venosa. Si el dolor aumenta, suspender su uso.",
+    "uso": "Lumbago agudo y contractura lumbar: la arcilla descongestiona la zona inflamada y el jengibre produce un calor profundo que relaja la musculatura y alivia el dolor.",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "calentador",
+      "descongestionante",
+      "miorrelajante"
+    ],
+    "principios_activos": "Gingeroles (jengibre): acción termogénica y antiinflamatoria local, mejoran la circulación y reducen la contractura. Silicatos de la arcilla: efecto descongestionante por intercambio iónico y absorción de toxinas.",
+    "referencias": "Mashhadi NS et al. Anti-inflammatory and analgesic effects of ginger. Int J Prev Med. 2013;4(Suppl 1):S36-S42; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
+  },
+  {
+    "id": 1404,
+    "titulo": "Aceite de Clavo de Olor para el Dolor de Muelas",
+    "categoria": "Dental",
+    "modulo": "dolores",
+    "submodulo": "salud_bucal",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 gota de aceite esencial de clavo de olor (Syzygium aromaticum), un hisopo de algodón",
+    "preparacion": "Impregnar la punta del hisopo con una gota de aceite esencial de clavo de olor. Aplicar directamente sobre la muela o encía dolorida, evitando tocar la lengua y las mejillas. No enjuagar.",
+    "dosis": "Aplicar hasta 3 veces al día, durante un máximo de 3 días. Si el dolor persiste, consultar al dentista.",
+    "modo_uso": "Tópico — aplicación puntual sobre la pieza dental",
+    "tiempo_prep": "1 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "El aceite esencial puro se conserva en lugar fresco y oscuro.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No ingerir. No aplicar sobre encías sangrantes o heridas abiertas en la boca. No usar en niños menores de 6 años. Evitar en caso de alergia al clavo. No usar más de 3 días seguidos. Consultar al dentista si hay infección.",
+    "uso": "Dolor de muelas y molestias dentales: el clavo de olor adormece la zona dolorida y tiene acción antiséptica que ayuda a calmar el dolor mientras se espera la atención dental.",
+    "propiedades": [
+      "analgésico dental",
+      "antiséptico",
+      "anestésico local",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Eugenol: compuesto fenólico con potente acción anestésica local y antiséptica, bloquea los canales de sodio en las terminaciones nerviosas y combate bacterias orales.",
+    "referencias": "Potential of clove of Syzygium aromaticum in development of a therapeutic agent for periodontal disease. South African Dental Journal. 2015; Syzygium aromaticum – Role in Oral Health and Dental Care. 2023; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1405,
+    "titulo": "Gárgaras de Salvia para la Gingivitis y el Dolor de Encías",
+    "categoria": "Dental",
+    "modulo": "dolores",
+    "submodulo": "salud_bucal",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de hojas secas de salvia (Salvia officinalis), 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la salvia, tapar y dejar reposar 15 minutos. Colar y dejar entibiar. Realizar gárgaras o enjuagues bucales durante 30 segundos, 3 veces al día. No tragar.",
+    "dosis": "Enjuagues 3 veces al día, después de las comidas y del cepillado dental. Usar máximo 7 días.",
+    "modo_uso": "Tópico — enjuague bucal (no ingerir)",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml (para varios enjuagues)",
+    "conservacion": "Usar en el día. Preparar fresco diariamente.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No ingerir. No usar en niños menores de 6 años que no puedan hacer gárgaras. Evitar en el embarazo por su contenido en tuyona. Contraindicado en epilepsia. No usar más de 7 días seguidos.",
+    "uso": "Encías inflamadas, gingivitis y dolor bucal: la salvia desinflama las encías, combate las bacterias de la placa dental y alivia el dolor y el sangrado gingival.",
+    "propiedades": [
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "analgésico",
+      "astringente",
+      "antiplaca"
+    ],
+    "principios_activos": "Ácido rosmarínico y flavonoides: acción antiinflamatoria sobre la mucosa gingival. Aceite esencial con tuyona y cineol: efecto antiséptico y analgésico sobre los tejidos bucales.",
+    "referencias": "Therapeutic Activity of Salvia officinalis L. Hydro-Ethanolic Extract on Dental Disease. 2023; Efectividad del uso tópico de Salvia officinalis en la disminución del índice gingival. Elsevier. 2010; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1406,
+    "titulo": "Enjuague Bucal de Tomillo para la Salud de las Encías",
+    "categoria": "Dental",
+    "modulo": "dolores",
+    "submodulo": "salud_bucal",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharada de tomillo seco (Thymus vulgaris), 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre el tomillo, tapar y dejar reposar 15 minutos. Colar y dejar entibiar. Realizar enjuagues bucales durante 30 segundos, 2 a 3 veces al día. No tragar.",
+    "dosis": "Enjuagues 2 a 3 veces al día, después del cepillado dental. Usar máximo 7 días.",
+    "modo_uso": "Tópico — enjuague bucal (no ingerir)",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml (para varios enjuagues)",
+    "conservacion": "Refrigerar y consumir en 24 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No ingerir. No usar en niños menores de 6 años. Evitar en el embarazo sin consultar. No usar en caso de alergia a las lamiáceas. No usar más de 7 días seguidos.",
+    "uso": "Gingivitis, mal aliento y placa dental: el tomillo combate las bacterias que causan la inflamación de las encías y el mal olor bucal, dejando una sensación de frescura.",
+    "propiedades": [
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "antiplaca",
+      "refrescante",
+      "astringente"
+    ],
+    "principios_activos": "Timol y carvacrol: potentes fenoles antisépticos que inhiben el crecimiento de Streptococcus mutans y otros patógenos orales. Flavonoides: acción antiinflamatoria sobre la mucosa gingival.",
+    "referencias": "Naseri N et al. The Effect of Thymus Vulgaris Essential Oil on Oral Candida. PMC. 2022; Altındal D et al. Can thyme mouthwash prevent halitosis-A randomized trial. 2023; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1407,
+    "titulo": "Gárgaras de Agua con Sal para el Dolor de Encías",
+    "categoria": "Dental",
+    "modulo": "dolores",
+    "submodulo": "salud_bucal",
+    "origen": "Popular Chileno",
+    "ingredientes": "Media cucharadita de sal marina, 250 ml de agua tibia hervida",
+    "preparacion": "Disolver la sal completamente en el agua tibia. Realizar gárgaras o enjuagues bucales durante 30 segundos, 3 a 4 veces al día. No tragar.",
+    "dosis": "Enjuagues 3 a 4 veces al día, especialmente después de las comidas y del cepillado. Usar máximo 5 días.",
+    "modo_uso": "Tópico — enjuague bucal (no ingerir)",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "250 ml",
+    "conservacion": "Preparar fresco en cada uso. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No ingerir en grandes cantidades, especialmente en hipertensos o personas con dieta baja en sodio. No usar en niños menores de 5 años que no puedan hacer gárgaras. Evitar si hay náuseas o vómitos.",
+    "uso": "Encías inflamadas, dolor leve de muelas y después de extracciones dentales: el agua salina desinflama por ósmosis, arrastra bacterias y ayuda a mantener la boca limpia.",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiséptico",
+      "descongestionante",
+      "limpiador"
+    ],
+    "principios_activos": "Cloruro de sodio: genera un ambiente hipertónico que extrae líquido de la mucosa inflamada, reduciendo el edema gingival y arrastrando microorganismos.",
+    "referencias": "Tradición oral chilena documentada; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Principios generales de osmoterapia en mucosa oral."
+  },
+  {
+    "id": 1408,
+    "titulo": "Aceite de Coco con Clavo para la Salud Bucal",
+    "categoria": "Dental",
+    "modulo": "dolores",
+    "submodulo": "salud_bucal",
+    "origen": "Medicina Ayurveda",
+    "ingredientes": "1 cucharada de aceite de coco virgen, 1 gota de aceite esencial de clavo de olor",
+    "preparacion": "Mezclar el aceite de coco con el aceite esencial de clavo. Realizar enjuagues bucales (oil pulling) durante 10-15 minutos, pasando el aceite entre los dientes. Escupir y enjuagar con agua tibia. No tragar el aceite.",
+    "dosis": "Realizar 1 vez al día, preferentemente por la mañana en ayunas y antes del cepillado. Usar durante 2 semanas, descansar 1 semana.",
+    "modo_uso": "Tópico — enjuague oleoso bucal (oil pulling, no ingerir)",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar en el momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina Ayurveda",
+    "contraindicaciones": "No tragar el aceite. No usar en niños menores de 6 años. Evitar en caso de alergia al coco o al clavo. No sustituye el cepillado dental ni las visitas al dentista.",
+    "uso": "Salud general de las encías, prevención de caries y mal aliento: el aceite de coco arrastra bacterias y toxinas, mientras el clavo refuerza la acción antiséptica y refresca la boca.",
+    "propiedades": [
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "antiplaca",
+      "refrescante",
+      "emoliente"
+    ],
+    "principios_activos": "Ácido láurico (aceite de coco): acción antimicrobiana y antiinflamatoria que reduce la placa bacteriana y la gingivitis. Eugenol (clavo): efecto antiséptico y refrescante complementario.",
+    "referencias": "Syzygium aromaticum – Role in Oral Health and Dental Care. 2023; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Principios del oil pulling en medicina ayurvédica."
+  },
+  {
+    "titulo": "Decocción de Garra del Diablo para el Dolor Crónico Articular",
+    "categoria": "Antiinflamatorio",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "1 cucharadita de raíz seca de garra del diablo, 300 ml de agua",
+    "preparacion": "Hervir el agua con la raíz de garra del diablo durante 15 minutos a fuego lento. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza (150 ml) por la mañana y otra por la noche, fuera de las comidas. No usar más de 8 semanas seguidas.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "30 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (300 ml)",
+    "conservacion": "Refrigerar hasta 48 horas. Calentar suavemente antes de consumir.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No usar en embarazo, lactancia o úlcera gástrica activa. Evitar en caso de cálculos biliares. No administrar a niños menores de 12 años. Puede interactuar con anticoagulantes y antiarrítmicos.",
+    "uso": "Dolor crónico articular, osteoartritis y lumbago persistente: la garra del diablo reduce la inflamación y el dolor en las articulaciones, mejorando la movilidad con el uso continuado.",
+    "principios_activos": "Harpagósido: iridoide glucosídico con acción antiinflamatoria y analgésica, inhibe COX-2 y reduce la producción de citoquinas proinflamatorias. Beta-sitosterol: contribuye al efecto antiinflamatorio sistémico.",
+    "referencias": "Gxaba N et al. The Fight against Infection and Pain: Devil's Claw. Molecules. 2022; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+    "id": 1433,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "condroprotector",
+      "antioxidante",
+      "antirreumático"
+    ]
+  },
+  {
+    "titulo": "Decocción de Sauce Blanco para el Dolor Reumático",
+    "categoria": "Antiinflamatorio",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "1 cucharadita de corteza seca de sauce blanco, 250 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de sauce durante 10 minutos a fuego lento. Retirar, tapar y dejar reposar 5 minutos. Colar y beber tibio.",
+    "dosis": "1 taza cada 6 horas, máximo 3 tazas al día. No usar más de 5 días seguidos sin consultar al médico.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el momento o refrigerar hasta 24 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en menores de 16 años (riesgo de síndrome de Reye). Evitar en úlcera gástrica, insuficiencia renal, tratamiento con anticoagulantes o alergia a salicilatos. Contraindicado en el embarazo y lactancia.",
+    "uso": "Dolor reumático, artritis leve y dolores musculares: el sauce blanco actúa de forma similar a la aspirina, reduciendo la inflamación y el dolor sin irritar tanto el estómago.",
+    "principios_activos": "Salicina: glucósido fenólico que se convierte en ácido salicílico en el intestino, inhibiendo COX-1 y COX-2, con la consiguiente reducción de prostaglandinas proinflamatorias. Flavonoides: contribuyen al efecto antiinflamatorio.",
+    "referencias": "Schmid B et al. Efficacy and tolerability of a standardized willow bark extract in patients with osteoarthritis. Eur J Clin Pharmacol. 2001; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+    "id": 1434,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis",
+    "propiedades": [
+      "analgésico",
+      "antiinflamatorio",
+      "febrífugo",
+      "antirreumático",
+      "anticoagulante suave"
+    ]
+  },
+  {
+    "titulo": "Aceite de Jengibre para el Dolor Articular",
+    "categoria": "Antiinflamatorio",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de jengibre fresco rallado, 100 ml de aceite de oliva",
+    "preparacion": "Calentar el jengibre rallado en el aceite de oliva a baño maría durante 15 minutos, sin que hierva. Dejar enfriar y colar. Aplicar mediante suaves masajes sobre las articulaciones doloridas.",
+    "dosis": "Aplicar 2 veces al día, mañana y noche, durante 7 a 10 días.",
+    "modo_uso": "Tópico — aceite para masaje",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "100 ml",
+    "conservacion": "En frasco oscuro, lugar fresco, hasta 1 mes.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas o piel irritada. Evitar en caso de alergia al jengibre. No usar durante el embarazo sin consultar. Para uso externo exclusivamente.",
+    "uso": "Dolor articular y rigidez matutina: el jengibre produce un calor profundo que relaja las articulaciones, reduce la inflamación y alivia el dolor.",
+    "principios_activos": "Gingeroles y shogaoles: inhiben COX-2 y LOX, reduciendo la producción de prostaglandinas y leucotrienos proinflamatorios. Efecto termogénico que mejora la circulación local y reduce la rigidez.",
+    "referencias": "Grzanna R et al. Ginger—an herbal medicinal product with broad anti-inflammatory actions. J Med Food. 2005;8(2):125-132; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+    "id": 1435,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "calentador",
+      "vasodilatador",
+      "miorrelajante"
+    ]
+  },
+  {
+    "titulo": "Cataplasma de Arcilla y Árnica para el Dolor Muscular",
+    "categoria": "Antiinflamatorio",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de arcilla verde en polvo, 1 cucharadita de tintura de árnica, agua tibia necesaria para formar una pasta",
+    "preparacion": "Mezclar la arcilla con la tintura de árnica. Agregar agua tibia poco a poco hasta obtener una pasta homogénea. Aplicar sobre la zona dolorida formando una capa de 1 cm, cubrir con un paño y dejar actuar 20-30 minutos. Retirar con agua tibia.",
+    "dosis": "Aplicar 1 vez al día, durante 5 a 7 días.",
+    "modo_uso": "Tópico — cataplasma",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 aplicación",
+    "conservacion": "Preparar fresco en cada uso. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No aplicar sobre heridas abiertas, quemaduras o piel irritada. Evitar en alergia a las asteráceas. No usar durante el embarazo. No ingerir. Para uso externo exclusivamente.",
+    "uso": "Dolores musculares, contracturas y golpes: la arcilla descongestiona la zona inflamada y el árnica alivia el dolor y acelera la recuperación muscular.",
+    "principios_activos": "Helenalina (árnica): lactona sesquiterpénica con potente acción antiinflamatoria por inhibición de NF-κB. Silicatos (arcilla): efecto descongestionante por intercambio iónico y absorción de toxinas.",
+    "referencias": "Adkison JD et al. The effect of topical arnica on muscle pain. Ann Pharmacother. 2010;44(10):1579-1584; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+    "id": 1436,
+    "modulo": "dolores",
+    "submodulo": "dolor_muscular_lumbago",
+    "propiedades": [
+      "antiinflamatorio",
+      "analgésico",
+      "descongestionante",
+      "miorrelajante",
+      "refrescante"
+    ]
+  },
+  {
+    "titulo": "Baño de Sales y Eucalipto para el Dolor Articular Generalizado",
+    "categoria": "Antiinflamatorio",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 tazas de sales de Epsom, 10 gotas de aceite esencial de eucalipto, agua caliente para la bañera",
+    "preparacion": "Llenar la bañera con agua caliente. Agregar las sales de Epsom y el aceite esencial de eucalipto. Revolver para disolver. Sumergirse durante 20 minutos.",
+    "dosis": "1 baño cada 48 horas, preferentemente por la noche. Ciclos de 2 semanas con 1 semana de descanso.",
+    "modo_uso": "Tópico — baño de inmersión",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en heridas abiertas, insuficiencia renal o hipertensión no controlada. Evitar en el embarazo sin consultar. No usar en niños menores de 12 años sin supervisión.",
+    "uso": "Dolor articular generalizado, fibromialgia y rigidez corporal: las sales de Epsom relajan los músculos y el eucalipto desinflama las articulaciones, aliviando el dolor y la rigidez.",
+    "principios_activos": "Sulfato de magnesio (sales de Epsom): relajante muscular por antagonismo de canales de calcio. 1,8-cineol (eucalipto): acción antiinflamatoria y analgésica por absorción cutánea e inhalación.",
+    "referencias": "Juergens UR et al. Anti-inflammatory activity of 1,8-cineol. Respir Med. 2003;97(3):250-256; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010.",
+    "id": 1437,
+    "modulo": "dolores",
+    "submodulo": "reumatismo_artritis",
+    "propiedades": [
+      "miorrelajante",
+      "antiinflamatorio",
+      "analgésico",
+      "descongestionante",
+      "calmante"
+    ]
   }
 ]

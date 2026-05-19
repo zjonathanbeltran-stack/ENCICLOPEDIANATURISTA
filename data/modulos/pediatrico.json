@@ -39,7 +39,9 @@
       "anís verde",
       "cedrón",
       "toronjil"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 327,
@@ -82,7 +84,9 @@
       "toronjil",
       "avena coloidal",
       "caléndula"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 328,
@@ -124,7 +128,9 @@
       "manzanilla",
       "comino",
       "cedrón"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 329,
@@ -166,7 +172,9 @@
       "manzanilla",
       "menta",
       "tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 330,
@@ -208,7 +216,9 @@
       "manzanilla",
       "menta",
       "llantén"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 331,
@@ -251,7 +261,9 @@
       "llantén",
       "tomillo",
       "matico"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 332,
@@ -293,7 +305,9 @@
       "manzanilla",
       "tila",
       "melisa"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno"
   },
   {
     "id": 333,
@@ -335,7 +349,9 @@
       "caléndula",
       "matico",
       "manzanilla"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 334,
@@ -377,7 +393,9 @@
       "manzanilla",
       "cedrón",
       "melisa"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 335,
@@ -389,7 +407,7 @@
     "dosis": "Aplicar en zona del pañal en cada cambio, como capa protectora.",
     "modo_uso": "Tópico — aplicar localmente sobre la piel",
     "tiempo_prep": "40 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 frasco pequeño (15–20 aplicaciones)",
     "conservacion": "Conservar en lugar fresco hasta 4 semanas; no introducir dedos sucios al frasco",
     "evidencia": "Uso tradicional documentado",
@@ -420,7 +438,9 @@
       "matico",
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 336,
@@ -461,7 +481,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 337,
@@ -503,7 +525,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 338,
@@ -545,7 +569,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 339,
@@ -586,7 +612,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 340,
@@ -628,7 +656,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 341,
@@ -670,7 +700,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 342,
@@ -682,7 +714,7 @@
     "dosis": "Aplicar unas gotas en las palmas, calentar frotando y dar masaje abdominal suave al bebé en sentido horario, 2 veces al día.",
     "modo_uso": "Tópico — masaje suave sobre la zona afectada",
     "tiempo_prep": "35 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 frasco (20–30 aplicaciones)",
     "conservacion": "Conservar en lugar fresco y oscuro hasta 4 semanas",
     "evidencia": "Uso tradicional documentado",
@@ -711,7 +743,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 343,
@@ -752,7 +786,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 344,
@@ -794,7 +830,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 345,
@@ -806,7 +844,7 @@
     "dosis": "Aplicar capa delgada en zona afectada 2–3 veces al día después del baño.",
     "modo_uso": "Tópico — aplicar localmente sobre la piel",
     "tiempo_prep": "40 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 frasco (15–20 aplicaciones)",
     "conservacion": "Conservar en lugar fresco hasta 4 semanas",
     "evidencia": "Uso tradicional documentado",
@@ -835,7 +873,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 568,
@@ -877,7 +917,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 569,
@@ -918,7 +960,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 570,
@@ -960,7 +1004,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 571,
@@ -1001,7 +1047,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 572,
@@ -1042,7 +1090,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 573,
@@ -1083,7 +1133,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 574,
@@ -1095,7 +1147,7 @@
     "dosis": "Aplicar en zona del pañal en cada cambio",
     "modo_uso": "Tópico — aplicar directamente sobre la piel",
     "tiempo_prep": "20 min + solidificado",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "100 g",
     "conservacion": "Temperatura ambiente 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -1116,7 +1168,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Ácido esteárico y ácido oleico: emolientes que restauran la barrera lipídica cutánea. Polifenoles (procianidinas): antioxidantes y antiinflamatorios dérmicos. Vitamina E y fitosteroles: regeneradores celulares.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 575,
@@ -1157,7 +1218,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 576,
@@ -1190,7 +1253,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Vitamina E (tocoferoles y tocotrienoles): antioxidante liposoluble. Ácidos grasos monoinsaturados (oleico): cardioprotectores. Magnesio y calcio: relajantes musculares.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 577,
@@ -1231,7 +1303,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 578,
@@ -1273,7 +1347,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 579,
@@ -1315,7 +1391,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 580,
@@ -1356,7 +1434,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno"
   },
   {
     "id": 581,
@@ -1397,7 +1477,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 582,
@@ -1439,7 +1521,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 783,
@@ -1480,7 +1564,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 784,
@@ -1521,7 +1607,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 785,
@@ -1554,7 +1642,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Bicarbonato de sodio (NaHCO₃): alcaliniza el pH cutáneo reduciendo el prurito por mecanismo ácido-base. Acción osmótica suave: reduce inflamación cutánea. Descongestiona poros por efecto limpiador físico.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 786,
@@ -1596,7 +1693,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 787,
@@ -1637,7 +1736,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 788,
@@ -1678,7 +1779,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 789,
@@ -1720,7 +1823,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 790,
@@ -1762,7 +1867,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 791,
@@ -1795,7 +1902,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 792,
@@ -1828,7 +1944,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Ácido láurico y ácido caprílico: antifúngicos y antibacterianos de amplio espectro. Triglicéridos de cadena media (TCM): energía rápida y barrera lipídica capilar. Vitamina E: antioxidante y nutritivo del cabello.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado"
   },
   {
     "id": 793,
@@ -1861,7 +1986,16 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "principios_activos": "Verbascósido (feniletanoide): antiinflamatorio y antioxidante. Aucubina (iridoide): antiinflamatorio. Flavonoides: sedantes leves y diuréticos.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "sedante leve",
+      "antipirético"
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 794,
@@ -1902,7 +2036,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno"
   },
   {
     "id": 795,
@@ -1943,7 +2079,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 796,
@@ -1984,7 +2122,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 797,
@@ -2025,7 +2165,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 1089,
@@ -2065,7 +2207,9 @@
       "Manzanilla",
       "Melisa",
       "Tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 1120,
@@ -2076,7 +2220,7 @@
     "preparacion": "Calentar agua hasta casi hervor. Retirar y agregar hierbas. Tapar 5 min. Colar.",
     "dosis": "1/2 taza tibia para niños 3-6 años; 1 taza para mayores de 6, hasta 2 veces al día",
     "modo_uso": "Infusión suave",
-    "tiempo_prep": "8 minutos",
+    "tiempo_prep": "8 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 180 ml",
     "conservacion": "Recién hecha",
@@ -2106,7 +2250,9 @@
       "Manzanilla",
       "Anís verde",
       "Melisa"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 1164,
@@ -2117,7 +2263,7 @@
     "preparacion": "Hervir el agua. Verter sobre las hierbas. Tapar e infundir 8 minutos. Colar muy bien y entibiar.",
     "dosis": "Lactantes 4-12 meses: 30-50 ml repartidos en el día. Niños 1-3 años: 100 ml. Niños mayores: 150-200 ml.",
     "modo_uso": "Infusión tibia",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "200 ml",
     "conservacion": "Preparar fresca, máximo 8 horas refrigerada",
@@ -2150,7 +2296,9 @@
       "tilo",
       "cedrón",
       "toronjil"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 1186,
@@ -2161,7 +2309,7 @@
     "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar. Añadir limón y miel al entibiar.",
     "dosis": "Niños 1-3 años: 50-80 ml hasta 3 veces al día. Niños 4-10 años: 100-150 ml. Mayores: 1 taza.",
     "modo_uso": "Infusión tibia",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "250 ml",
     "conservacion": "Preparar fresca",
@@ -2194,7 +2342,9 @@
     "sinergia_plantas": [
       "matico (mayor 5 años)",
       "llantén"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
   },
   {
     "id": 1187,
@@ -2205,7 +2355,7 @@
     "preparacion": "Hervir agua, apagar y añadir hierbas. Tapar 15 minutos. Colar. Enfriar a temperatura corporal o templada.",
     "dosis": "Empapar paño, escurrir, aplicar en frente, axilas y pliegues inguinales. Cambiar cada 10 minutos.",
     "modo_uso": "Compresa templada",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "500 ml",
     "conservacion": "Uso inmediato",
@@ -2234,7 +2384,9 @@
     "duracion_tratamiento": "Hasta que ceda la fiebre",
     "sinergia_plantas": [
       "llantén"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado"
   },
   {
     "id": 1203,
@@ -2245,7 +2397,7 @@
     "preparacion": "Calentar agua a 90°C. Verter sobre hierbas. Tapar 8 minutos. Colar muy bien. Entibiar.",
     "dosis": "Niños 2-5 años: 50-100 ml repartidos durante el día. Mayores: 150-200 ml.",
     "modo_uso": "Infusión tibia",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "250 ml",
     "conservacion": "Preparar fresca, máximo 6 horas refrigerada",
@@ -2277,6 +2429,384 @@
     "sinergia_plantas": [
       "melisa",
       "tilo"
-    ]
+    ],
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
+  },
+  {
+    "titulo": "Agua de Hinojo para cólicos del lactante",
+    "categoria": "General",
+    "origen": "Medicina tradicional europea",
+    "ingredientes": "- ½ cucharadita (aprox. 1 g) de frutos de hinojo. - 200 ml de agua.",
+    "preparacion": "1. Hervir el agua con los frutos de hinojo durante 2 minutos. 2. Retirar del fuego, tapar y dejar reposar 10 minutos. 3. Colar con gasa fina y dejar entibiar.",
+    "dosis": "- Lactantes de 1-6 meses: 5-10 ml (1-2 cucharaditas) antes de cada toma, máximo 30-50 ml al día repartidos. - Lactantes de 6-12 meses: 10-15 ml antes de cada toma.",
+    "modo_uso": "Decocción",
+    "tiempo_prep": "2 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1-2 tazas",
+    "conservacion": "Consumir inmediatamente.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Fitoterapia europea",
+    "contraindicaciones": "- Recién nacidos menores de 1 mes. - No añadir miel en menores de 1 año. - Suspender si aparece cualquier reacción adversa.",
+    "uso": "Cólicos del lactante y gases en bebés: el hinojo relaja los espasmos intestinales y facilita la expulsión de gases, calmando el llanto y la irritabilidad del bebé.",
+    "principios_activos": "Anetol y fenchona: aceites esenciales con acción carminativa y antiespasmódica suave sobre la musculatura lisa intestinal del lactante, reduciendo la formación de gases.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "digestivo suave",
+      "calmante"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
+    "indicaciones_principales": "",
+    "interacciones_medicamentos": "",
+    "embarazo_lactancia": "",
+    "duracion_tratamiento": "3 días. No repetir sin consultar al pediatra.",
+    "sinergia_plantas": "",
+    "nivel_seguridad": "⚠️ Precaución (+1 mes, supervisión pediátrica)",
+    "distribucion": "",
+    "efectos_secundarios": "",
+    "id": 1258,
+    "modulo": "pediatrico",
+    "submodulo": "colicos_digestion"
+  },
+  {
+    "id": 1364,
+    "titulo": "Infusión de Sauco y Manzanilla para la Fiebre en Niños",
+    "categoria": "Febrífugo",
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores secas de sauco, 1 cucharadita de flores de manzanilla, 300 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las flores, tapar y dejar reposar 10 minutos. Colar y endulzar con una cucharadita de miel solo para mayores de 1 año. Dar tibio.",
+    "dosis": "Niños de 1 a 6 años: 2 cucharadas cada 6 horas. Niños de 6 a 12 años: media taza cada 6 horas. Máximo 3 veces al día. No usar más de 48 horas sin consultar al médico.",
+    "modo_uso": "Oral — infusión tibia",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza grande (300 ml, suficiente para varias dosis pediátricas)",
+    "conservacion": "Refrigerar y consumir en 12 horas. Calentar suavemente cada toma.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 3 meses. No usar miel en menores de 1 año. Consultar al médico si la fiebre supera 39 °C, dura más de 2 días o se acompaña de convulsiones, vómitos o decaimiento. No usar en caso de alergia a las plantas.",
+    "uso": "Fiebre leve a moderada en niños: induce una suave sudoración que baja la temperatura, calma el malestar y ayuda al niño a descansar.",
+    "propiedades": [
+      "febrífugo",
+      "diaforético",
+      "antiinflamatorio",
+      "calmante",
+      "digestivo suave"
+    ],
+    "principios_activos": "Flavonoides y antocianinas del sauco: acción diaforética que estimula la sudoración y reduce la fiebre. | Bisabolol de manzanilla: antiinflamatorio y calmante digestivo que alivia el malestar general. La combinación es segura y bien tolerada en la infancia.",
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Sambucus nigra y Matricaria recutita; Zakay-Rones Z et al. J Altern Complement Med 2004;10(2):429-431"
+  },
+  {
+    "id": 1365,
+    "titulo": "Compresas Tibias de Vinagre de Manzana para Bajar la Fiebre",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "fiebre_resfriado",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 parte de vinagre de manzana, 3 partes de agua tibia",
+    "preparacion": "Mezclar el vinagre con el agua tibia. Empapar un paño limpio, escurrir ligeramente y aplicar sobre la frente, pantorrillas y muñecas. Cambiar las compresas cada 10 minutos.",
+    "dosis": "Aplicar hasta 3 veces al día mientras dure la fiebre. No usar más de 24 horas seguidas sin evaluar al niño.",
+    "modo_uso": "Tópico — compresas tibias",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Varias aplicaciones",
+    "conservacion": "Preparar fresco cada vez. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en bebés menores de 6 meses. No aplicar sobre piel irritada o con heridas. No usar vinagre puro sin diluir. La temperatura del agua debe ser tibia, nunca fría, para evitar escalofríos. Complementar con hidratación oral.",
+    "uso": "Fiebre infantil: las compresas de vinagre diluido ayudan a refrescar el cuerpo y bajar la temperatura de forma suave, calmando al niño sin el uso de medicamentos.",
+    "propiedades": [
+      "febrífugo",
+      "refrescante",
+      "calmante",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Ácido acético: produce una suave vasodilatación periférica y evaporación refrescante sobre la piel, disipando el calor corporal. | La evaporación del agua tibia transfiere calor al ambiente, reduciendo la temperatura central.",
+    "referencias": "Tradición oral chilena documentada; MINSAL 2010; Principios de termorregulación y medios físicos antipiréticos"
+  },
+  {
+    "id": 1473,
+    "titulo": "Infusión de Valeriana y Melisa para el Sueño Infantil",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno",
+    "origen": "Popular Chileno",
+    "ingredientes": "Media cucharadita de raíz seca de valeriana, media cucharadita de hojas secas de melisa, 200 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las plantas, tapar y dejar reposar 10 minutos. Colar y endulzar con una cucharadita de miel (solo para mayores de 1 año). Dar tibio, 30 minutos antes de acostar al niño.",
+    "dosis": "Niños de 6 a 12 años: media taza (100 ml) antes de dormir. Niños de 2 a 6 años: 2 cucharadas antes de dormir. No usar más de 2 semanas seguidas.",
+    "modo_uso": "Oral — infusión tibia",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (200 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 2 años sin consultar al pediatra. No usar miel en menores de 1 año. Evitar en caso de alergia a las plantas. No combinar con otros sedantes. Suspender si aparece somnolencia diurna excesiva.",
+    "uso": "Dificultad para conciliar el sueño, inquietud nocturna y nerviosismo en niños: la combinación de valeriana y melisa ayuda a los niños a relajarse y dormir profundamente de forma segura.",
+    "propiedades": [
+      "sedante",
+      "inductor del sueño",
+      "calmante",
+      "ansiolítico suave"
+    ],
+    "principios_activos": "Ácido valerénico (valeriana): modula receptores GABA-A, reduciendo la excitabilidad neuronal. Ácido rosmarínico (melisa): efecto ansiolítico y sedante suave, excelente tolerabilidad en niños.",
+    "referencias": "Gromball J et al. Hyperactivity, concentration difficulties and impulsiveness improve during seven weeks' treatment with valerian root and lemon balm. Phytomedicine. 2014;21:1098-1103; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1474,
+    "titulo": "Baño Tibio de Lavanda para Relajar a los Niños antes de Dormir",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno",
+    "origen": "Popular Chileno",
+    "ingredientes": "Un puñado de flores secas de lavanda (aproximadamente 20 g), 1 litro de agua para infusión, agua tibia para el baño",
+    "preparacion": "Hervir 1 litro de agua y verter sobre la lavanda. Tapar y dejar reposar 15 minutos. Colar y verter la infusión en la bañera con agua tibia. Bañar al niño durante 10-15 minutos antes de acostarlo.",
+    "dosis": "1 baño por la noche, máximo 3 veces por semana.",
+    "modo_uso": "Tópico — baño de inmersión pediátrico",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en bebés menores de 6 meses sin consultar al pediatra. Evitar en caso de alergia a la lavanda. No usar si la piel del niño presenta heridas o irritación. Precaución con la temperatura del agua.",
+    "uso": "Niños inquietos, nerviosos o con dificultad para dormir: el baño tibio con lavanda relaja el cuerpo y la mente del niño, preparándolo para un sueño tranquilo y reparador.",
+    "propiedades": [
+      "sedante",
+      "calmante",
+      "relajante muscular",
+      "inductor del sueño"
+    ],
+    "principios_activos": "Linalol y acetato de linalilo: acción sedante y ansiolítica por vía inhalatoria y cutánea, modulando el sistema límbico y reduciendo la actividad simpática.",
+    "referencias": "Donelli D et al. Effects of lavender on anxiety: A systematic review. 2019. PMID: 31655395; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1475,
+    "titulo": "Infusión de Tilo para los Niños Nerviosos",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno",
+    "origen": "Popular Chileno",
+    "ingredientes": "Media cucharadita de flores secas de tilo, 200 ml de agua, 1 cucharadita de miel (solo para mayores de 1 año)",
+    "preparacion": "Calentar el agua hasta que hierva. Verter sobre las flores de tilo, tapar y dejar reposar exactamente 8 minutos (no más de 10). Colar y endulzar con miel si corresponde. Dar tibio.",
+    "dosis": "Niños de 2 a 6 años: 2 cucharadas antes de dormir. Niños de 6 a 12 años: media taza antes de dormir. No usar más de 1 semana seguida.",
+    "modo_uso": "Oral — infusión tibia",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (200 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 2 años sin consultar al pediatra. No usar miel en menores de 1 año. No exceder el tiempo de infusión. Evitar en caso de alergia al tilo. No usar más de 1 semana sin consultar.",
+    "uso": "Niños nerviosos, con dificultad para dormir o inquietud: el tilo calma suavemente el sistema nervioso y ayuda a los niños a relajarse antes de dormir.",
+    "propiedades": [
+      "sedante suave",
+      "ansiolítico",
+      "calmante",
+      "antiespasmódico"
+    ],
+    "principios_activos": "Farnesol y mucílagos: acción ansiolítica y relajante sobre el sistema nervioso. Flavonoides: efecto antiespasmódico suave que contribuye a la sensación de calma.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Tilia spp."
+  },
+  {
+    "id": 1476,
+    "titulo": "Leche Tibia con Miel para el Insomnio Infantil",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 taza de leche (puede ser materna, de fórmula o vegetal según la edad), 1 cucharadita de miel (solo para mayores de 1 año)",
+    "preparacion": "Calentar la leche sin que hierva. Retirar del fuego y añadir la miel cuando esté tibia. Revolver bien y dar al niño 30 minutos antes de acostarlo.",
+    "dosis": "1 taza pequeña (100-150 ml) antes de dormir, según la edad y tolerancia del niño.",
+    "modo_uso": "Oral — bebida tibia",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 porción",
+    "conservacion": "Consumir inmediatamente. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año la miel. Evitar en caso de alergia a la leche de vaca o intolerancia a la lactosa. No usar como sustituto de la leche materna en lactantes.",
+    "uso": "Dificultad para dormir en niños pequeños: la leche tibia contiene triptófano que induce el sueño de forma natural, y la miel aporta una suave sensación de bienestar.",
+    "propiedades": [
+      "inductor del sueño",
+      "nutritivo",
+      "calmante"
+    ],
+    "principios_activos": "Triptófano (leche): aminoácido precursor de serotonina y melatonina, hormonas que regulan el ciclo del sueño. Glucosa (miel): facilita la entrada de triptófano al cerebro.",
+    "referencias": "Tradición oral chilena documentada; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Principios de nutrición pediátrica."
+  },
+  {
+    "id": 1477,
+    "titulo": "Saquito de Lavanda y Manzanilla para la Cuna del Bebé",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "nervioso_sueno",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de flores secas de lavanda, 2 cucharadas de flores secas de manzanilla, una bolsita de tela de algodón",
+    "preparacion": "Mezclar las flores secas y colocarlas dentro de la bolsita de tela. Cerrar bien y colocar cerca de la cuna (nunca dentro de la cuna ni al alcance del bebé).",
+    "dosis": "Dejar el saquito cerca de la cuna durante la noche. Renovar las flores cada 2 semanas.",
+    "modo_uso": "Aromaterapia ambiental — saquito aromático",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 saquito (dura aproximadamente 2 semanas)",
+    "conservacion": "Conservar en lugar seco. Renovar las flores cada 2 semanas.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "NUNCA colocar el saquito dentro de la cuna o al alcance del bebé (riesgo de asfixia). No usar en caso de alergia a la lavanda o manzanilla. No usar en bebés prematuros o con problemas respiratorios sin consultar al pediatra.",
+    "uso": "Bebés inquietos o con dificultad para conciliar el sueño: el aroma suave de la lavanda y la manzanilla crea un ambiente tranquilo que favorece el sueño del bebé.",
+    "propiedades": [
+      "sedante ambiental",
+      "calmante",
+      "relajante"
+    ],
+    "principios_activos": "Linalol y acetato de linalilo (lavanda): acción sedante por vía inhalatoria. Bisabolol (manzanilla): efecto calmante y relajante sobre el sistema nervioso central.",
+    "referencias": "Donelli D et al. Effects of lavender on anxiety: A systematic review. 2019. PMID: 31655395; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1478,
+    "titulo": "Pomada de Caléndula y Manzanilla para la Piel del Bebé",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado",
+    "origen": "Popular Chileno",
+    "ingredientes": "30 g de flores secas de caléndula, 30 g de flores secas de manzanilla, 150 ml de aceite de oliva, 25 g de cera de abeja",
+    "preparacion": "Macerar las flores en el aceite de oliva durante 15 días, agitando a diario. Colar y calentar a baño maría. Añadir la cera de abeja y remover hasta disolver. Verter en envases limpios y dejar solidificar.",
+    "dosis": "Aplicar una capa fina sobre la zona limpia y seca del pañal en cada cambio, o sobre cualquier irritación cutánea del bebé.",
+    "modo_uso": "Tópico — pomada protectora",
+    "tiempo_prep": "15 días (maceración) + 30 min",
+    "dificultad": "Media",
+    "rendimiento": "100 ml aproximadamente",
+    "conservacion": "En lugar fresco y oscuro hasta 6 meses.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a las asteráceas. No aplicar sobre heridas abiertas o infectadas. Para uso externo exclusivamente. Si la irritación empeora o no mejora en 3 días, consultar al pediatra.",
+    "uso": "Dermatitis del pañal, irritaciones y rojeces en la piel del bebé: la caléndula y la manzanilla protegen, calman y regeneran la delicada piel del bebé.",
+    "propiedades": [
+      "protector dérmico",
+      "calmante",
+      "regenerador",
+      "antiinflamatorio",
+      "antiséptico suave"
+    ],
+    "principios_activos": "Triterpenos (caléndula): estimulan la regeneración epidérmica y tienen acción antiinflamatoria. Bisabolol (manzanilla): acción calmante y antipruriginosa. Cera de abeja: forma una barrera protectora contra la humedad.",
+    "referencias": "Adib-Hajbaghery M et al. The effects of Bentonite and Calendula on diaper dermatitis. PMC. 2014; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1479,
+    "titulo": "Baño de Avena y Manzanilla para la Piel del Bebé Irritada",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 taza de copos de avena envueltos en una gasa, 2 cucharadas de flores de manzanilla, 2 litros de agua para infusión, agua tibia para el baño",
+    "preparacion": "Hervir los 2 litros de agua. Verter sobre la manzanilla y añadir la bolsita de avena. Tapar y dejar reposar 15 minutos. Exprimir bien la bolsita de avena. Colar la infusión y verter en la bañera con agua tibia. Bañar al bebé durante 5-10 minutos.",
+    "dosis": "1 baño al día durante los brotes de irritación cutánea. Máximo 5 días seguidos.",
+    "modo_uso": "Tópico — baño de inmersión pediátrico",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 baño",
+    "conservacion": "Usar la infusión inmediatamente. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la manzanilla o a la avena. Evitar en bebés menores de 3 meses sin consultar al pediatra. No usar si hay heridas abiertas extensas.",
+    "uso": "Piel del bebé irritada, dermatitis del pañal, eccema infantil o varicela: la avena y la manzanilla calman la picazón, reducen la inflamación e hidratan la piel delicada del bebé.",
+    "propiedades": [
+      "calmante",
+      "antiinflamatorio",
+      "hidratante",
+      "antipruriginoso",
+      "emoliente"
+    ],
+    "principios_activos": "Beta-glucanos (avena): forman una película protectora que retiene la humedad y calma la irritación. Bisabolol (manzanilla): acción antiinflamatoria y calmante sobre la piel sensible.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+  },
+  {
+    "id": 1480,
+    "titulo": "Polvo de Maicena y Caléndula para la Dermatitis del Pañal",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de maicena (almidón de maíz), 1 cucharada de flores de caléndula pulverizadas",
+    "preparacion": "Pulverizar las flores secas de caléndula en un molinillo limpio hasta obtener un polvo fino. Mezclar con la maicena y guardar en un frasco limpio y seco. Espolvorear ligeramente sobre la zona del pañal limpia y seca en cada cambio.",
+    "dosis": "Aplicar en cada cambio de pañal, según necesidad.",
+    "modo_uso": "Tópico — polvo protector",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "Varias aplicaciones",
+    "conservacion": "En frasco hermético, lugar seco, hasta 3 meses.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la caléndula o al maíz. No aplicar sobre heridas abiertas. Evitar la inhalación del polvo por parte del bebé. No usar si la dermatitis empeora.",
+    "uso": "Prevención y tratamiento de la dermatitis del pañal leve: la maicena absorbe el exceso de humedad y la caléndula protege y calma la piel irritada del bebé.",
+    "propiedades": [
+      "absorbente",
+      "protector",
+      "calmante",
+      "antiinflamatorio",
+      "regenerador"
+    ],
+    "principios_activos": "Almidón de maíz: acción absorbente que mantiene la piel seca y reduce la fricción. Triterpenos (caléndula): acción antiinflamatoria y regeneradora de la epidermis.",
+    "referencias": "Adib-Hajbaghery M et al. The effects of Bentonite and Calendula on diaper dermatitis. PMC. 2014; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1481,
+    "titulo": "Aceite de Almendras y Caléndula para el Masaje del Bebé",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado",
+    "origen": "Popular Chileno",
+    "ingredientes": "50 ml de aceite de almendras dulces, 10 g de flores secas de caléndula",
+    "preparacion": "Macerar las flores de caléndula en el aceite de almendras durante 15 días en un frasco cerrado, agitando a diario. Colar con un filtro fino. Aplicar unas gotas sobre la piel del bebé y masajear suavemente.",
+    "dosis": "Usar para el masaje diario del bebé, preferentemente después del baño.",
+    "modo_uso": "Tópico — aceite para masaje pediátrico",
+    "tiempo_prep": "15 días (maceración) + 5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "50 ml (varias semanas de uso)",
+    "conservacion": "En frasco oscuro, lugar fresco, hasta 3 meses.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a las almendras o a la caléndula. Evitar el contacto con los ojos. No aplicar sobre heridas abiertas. Para uso externo exclusivamente.",
+    "uso": "Piel seca del bebé, costra láctea y prevención de irritaciones: el aceite de almendras nutre e hidrata profundamente, mientras la caléndula protege y suaviza la delicada piel del recién nacido.",
+    "propiedades": [
+      "nutritivo",
+      "hidratante",
+      "calmante",
+      "protector",
+      "regenerador"
+    ],
+    "principios_activos": "Ácidos grasos esenciales (almendras): nutren y suavizan la piel, reforzando la barrera cutánea. Triterpenos (caléndula): estimulan la regeneración celular y tienen acción calmante.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.2 (2002) Calendula officinalis."
+  },
+  {
+    "id": 1482,
+    "titulo": "Agua de Arroz y Manzanilla para las Irritaciones del Bebé",
+    "categoria": "Pediátrico",
+    "modulo": "pediatrico",
+    "submodulo": "piel_cuidado",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de arroz, 1 cucharada de flores de manzanilla, 500 ml de agua",
+    "preparacion": "Hervir el arroz en el agua durante 15 minutos. Colar y reservar el agua de cocción. Añadir las flores de manzanilla al agua caliente, tapar y dejar reposar 10 minutos. Colar y dejar enfriar. Aplicar con compresas limpias sobre la zona irritada.",
+    "dosis": "Aplicar compresas 2 a 3 veces al día, o agregar el agua de arroz y manzanilla al baño del bebé.",
+    "modo_uso": "Tópico — compresas o baño",
+    "tiempo_prep": "30 min",
+    "dificultad": "Fácil",
+    "rendimiento": "500 ml",
+    "conservacion": "Refrigerar hasta 24 horas. Desechar si se enturbia.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la manzanilla o al arroz. No aplicar sobre heridas abiertas. Usar agua hervida para preparar la receta. Consultar al pediatra si la irritación persiste.",
+    "uso": "Irritaciones leves de la piel del bebé, rozaduras y dermatitis del pañal: el agua de arroz calma y protege la piel, mientras la manzanilla desinflama y reduce el enrojecimiento.",
+    "propiedades": [
+      "calmante",
+      "protector",
+      "antiinflamatorio",
+      "emoliente",
+      "refrescante"
+    ],
+    "principios_activos": "Almidón de arroz: forma una película protectora sobre la piel que calma la irritación y reduce la fricción. Bisabolol (manzanilla): acción antiinflamatoria y calmante sobre la piel sensible.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
   }
 ]

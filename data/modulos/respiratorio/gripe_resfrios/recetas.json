@@ -829,28 +829,6 @@
       "id": 1327,
       "modulo": "respiratorio",
       "submodulo": "gripe_resfrios"
-    },
-    {
-      "titulo": "Infusión de Canelo para la gripe y el resfriado",
-      "categoria": "Respiratorio",
-      "origen": "Medicina tradicional mapuche.",
-      "ingredientes": "- 1 cucharada sopera (aprox. 4 g) de hojas secas de canelo.\n- 1 litro de agua hirviendo.",
-      "preparacion": "1. Colocar las hojas en una tetera o taza grande.\n2. Verter el agua hirviendo sobre ellas.\n3. Tapar y dejar reposar 10 minutos. Colar.\n4. Se puede endulzar con miel para potenciar su efecto calmante.",
-      "dosis": "1 taza, 3 veces al día. — 1 semana.",
-      "modo_uso": "Infusión",
-      "tiempo_prep": "10-15 min",
-      "dificultad": "Fácil",
-      "rendimiento": "1-2 tazas",
-      "conservacion": "Consumir el mismo día",
-      "evidencia": "\"La infusión de sus hojas es buena para la tos, contienen mucha\nvitamina C\" (Reconocimiento de flora, 2022)[reference:5]. El Canelo es un\nmedicamento herbario tradicional aprobado por el MINSAL[reference:6].",
-      "fuente_tradicion": "Medicina tradicional mapuche.",
-      "contraindicaciones": "- Embarazo y lactancia (consultar al médico).",
-      "id": 1544,
-      "uso": "Combatir los síntomas de la gripe y el resfriado común,\nespecialmente la tos, el malestar general y la fiebre leve. Las hojas\nson ricas en vitamina C.",
-      "planta_principal": "Canelo (Drimys winteri)",
-      "interacciones": "No se han descrito.",
-      "efectos_secundarios_nota": "No se han reportado a las dosis recomendadas.",
-      "nivel_seguridad": "✅ Seguro"
     }
   ]
 }

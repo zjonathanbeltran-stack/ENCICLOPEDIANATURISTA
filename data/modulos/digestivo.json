@@ -41,7 +41,9 @@
       "manzanilla",
       "cedrón",
       "diente de león"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 8,
@@ -83,7 +85,9 @@
       "ajo",
       "matico",
       "boldo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 10,
@@ -125,7 +129,9 @@
       "menta",
       "cedrón",
       "toronjil"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 11,
@@ -158,7 +164,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "reconstituyente",
+      "vitaminizante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 17,
@@ -200,7 +215,9 @@
       "manzanilla",
       "llantén",
       "murtilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 27,
@@ -232,7 +249,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Taninos: astringentes y hepatoprotectores. Flavonoides (quercetina, rutina): antioxidantes hepáticos. Iridoides: colerécticos y antiinflamatorios.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 32,
@@ -275,7 +301,9 @@
       "cardo mariano",
       "alcachofa",
       "menta"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 49,
@@ -308,7 +336,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio que inhibe la liberación de citoquinas proinflamatorias. Ácido fórmico y acetilcolina: responsables del efecto rubefaciente. Hierro orgánico y clorofila: apoyo en anemias ferropénicas.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "reconstituyente",
+      "vitaminizante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 51,
@@ -341,7 +378,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 52,
@@ -374,7 +420,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 54,
@@ -406,7 +461,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Flavonoides (quercetina, kaempferol): hepatoprotectores y antioxidantes. Terpenoides amargos: colereticos y colagogos. Taninos: astringentes y protectores de la mucosa hepática.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 59,
@@ -448,7 +512,9 @@
       "manzanilla",
       "cedrón",
       "boldo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 65,
@@ -490,7 +556,9 @@
       "matico",
       "llantén",
       "manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 66,
@@ -522,7 +590,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 80,
@@ -564,7 +641,9 @@
       "anís",
       "manzanilla",
       "cedrón"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 84,
@@ -606,7 +685,9 @@
       "manzanilla",
       "boldo",
       "cedrón"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 92,
@@ -648,7 +729,9 @@
       "llantén",
       "diente de león",
       "maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 101,
@@ -689,7 +772,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 110,
@@ -730,7 +815,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 114,
@@ -762,7 +849,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 119,
@@ -803,7 +899,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 126,
@@ -844,7 +942,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 137,
@@ -877,7 +977,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Absintina y artabsina (sesquiterpenos lactonicos): estimulantes de la secreción gástrica y biliaria. Tuyona (monoterpeno cetónico): estimulante del SNC en dosis bajas. Azulenes: antiinflamatorios.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nauseas_indigestion"
   },
   {
     "id": 157,
@@ -918,7 +1027,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 162,
@@ -951,7 +1062,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nauseas_indigestion"
   },
   {
     "titulo": "Decocción de Paico para Parásitos Intestinales",
@@ -990,7 +1110,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "titulo": "Semillas de Zapallo en Ayunas contra Tenias y Lombrices",
@@ -1031,7 +1153,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "titulo": "Enema de Ajo para Oxiuros y Parásitos",
@@ -1043,7 +1167,7 @@
     "dosis": "1 taza en ayunas por 7–10 días consecutivos",
     "modo_uso": "Oral — infusión tibia",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1–2 tazas",
     "conservacion": "Preparar fresco cada día",
     "evidencia": "Saber ancestral",
@@ -1071,7 +1195,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "titulo": "Infusión de Ajenjo para Parásitos Intestinales",
@@ -1103,7 +1229,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "titulo": "Jugo de Cebolla en Ayunas contra Parásitos",
@@ -1143,7 +1278,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "titulo": "Agua de Arroz con Canela y Limón para Diarrea",
@@ -1155,7 +1292,7 @@
     "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
     "modo_uso": "Oral — infusión tibia o fría",
     "tiempo_prep": "25 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Refrigerar hasta 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -1184,7 +1321,9 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "titulo": "Decocción de Hojas de Membrillo para Diarrea Aguda",
@@ -1196,7 +1335,7 @@
     "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
     "modo_uso": "Oral — decocción",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Refrigerar hasta 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -1217,7 +1356,16 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Taninos hidrolizables (ácido quínico, ácido cítrico): potentes astringentes antidiarreicos. Pectina: emoliente y reguladora del tránsito intestinal. Quercetina y kaempferol: antiinflamatorios.",
+    "propiedades": [
+      "antidiarreico",
+      "astringente",
+      "antiespasmódico",
+      "antiinflamatorio"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "titulo": "Infusión de Llantén y Arrayán para Diarrea con Cólicos",
@@ -1229,7 +1377,7 @@
     "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Refrigerar hasta 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -1259,7 +1407,9 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "titulo": "Manzanas Ralladas Oxidadas (Astringente Natural para Diarrea Infantil)",
@@ -1292,7 +1442,16 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Quercetina: antihistamínico y antiinflamatorio. Pectina: prebiótico y reductor de LDL. Ácido málico: alcalinizante y quelante suave.",
+    "propiedades": [
+      "antidiarreico",
+      "astringente",
+      "antiespasmódico",
+      "antiinflamatorio"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "titulo": "Té Astringente de Zarzamora (Hojas) para Diarrea",
@@ -1304,7 +1463,7 @@
     "dosis": "1 taza cada 4–6 horas hasta mejoría, máximo 4 tazas/día",
     "modo_uso": "Oral — infusión caliente",
     "tiempo_prep": "15 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "3–4 tazas",
     "conservacion": "Refrigerar hasta 24 h",
     "evidencia": "Uso tradicional documentado",
@@ -1325,7 +1484,58 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
+    "propiedades": [
+      "antidiarreico",
+      "astringente",
+      "antiespasmódico",
+      "antiinflamatorio"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
+  },
+  {
+    "id": 351,
+    "titulo": "Infusión de Bailahúen para el hígado y las penas (peuma hepático)",
+    "categoria": "Hepático",
+    "origen": "Mapuche",
+    "ingredientes": "1 cucharada de partes aéreas de bailahúen seco, 1 taza de agua.",
+    "preparacion": "Infusionar en agua hervida 10 minutos tapado. Colar. Beber tibio, idealmente al amanecer.",
+    "dosis": "1 taza en ayunas durante 10 días. Descansar 10 días antes de repetir.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza",
+    "conservacion": "Preparar fresco",
+    "evidencia": "Saber ancestral mapuche (medicina tradicional indígena)",
+    "fuente_tradicion": "Mapuche",
+    "contraindicaciones": "Datos de seguridad limitados. Usar bajo orientación de especialista en medicina mapuche. Evitar en embarazo.",
+    "uso": "Hígado y las penas. Preparación medicinal mapuche.",
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Evitar durante el embarazo sin supervisión médica. Lactancia: consultar con profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 373,
@@ -1337,7 +1547,7 @@
     "dosis": "1 cucharada 3 veces al día como preventivo en invierno; 2 cucharadas 4 veces al día en resfriados activos.",
     "modo_uso": "Oral — jarabe",
     "tiempo_prep": "25 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 frasco (500 ml)",
     "conservacion": "Refrigerar hasta 3 meses; no usar si fermenta",
     "evidencia": "Uso tradicional documentado",
@@ -1367,7 +1577,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 374,
@@ -1409,7 +1621,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 375,
@@ -1450,7 +1664,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 376,
@@ -1491,7 +1707,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 377,
@@ -1534,7 +1752,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 378,
@@ -1546,7 +1766,7 @@
     "dosis": "1–2 cucharadas al día como parte del desayuno.",
     "modo_uso": "Oral — mermelada natural",
     "tiempo_prep": "45 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "2 frascos pequeños",
     "conservacion": "Refrigerar hasta 3 semanas una vez abierto; hasta 6 meses sin abrir",
     "evidencia": "Uso tradicional documentado",
@@ -1576,7 +1796,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 379,
@@ -1617,7 +1839,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 380,
@@ -1658,7 +1882,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 381,
@@ -1699,7 +1925,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 382,
@@ -1740,7 +1968,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 383,
@@ -1781,7 +2011,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 384,
@@ -1822,7 +2054,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 385,
@@ -1864,7 +2098,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 386,
@@ -1876,7 +2112,7 @@
     "dosis": "1 cucharada al día para aderezar ensaladas como suplemento antiinflamatorio.",
     "modo_uso": "Oral — aceite medicado (condimento en frío)",
     "tiempo_prep": "50 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "250 ml (25 porciones)",
     "conservacion": "Refrigerar hasta 1 mes",
     "evidencia": "Uso tradicional documentado",
@@ -1906,7 +2142,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 387,
@@ -1947,7 +2185,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 388,
@@ -1988,7 +2228,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 389,
@@ -2029,7 +2271,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 390,
@@ -2070,7 +2314,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 391,
@@ -2111,7 +2357,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nauseas_indigestion"
   },
   {
     "id": 392,
@@ -2150,7 +2398,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 393,
@@ -2191,7 +2441,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 394,
@@ -2224,7 +2476,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Apiol: estimulante uterino y diurético. Miristicina: antiagregante plaquetario y neuroprotector. Vitamina K: coagulación y mineralización ósea. Flavonoides (apigenina): antiinflamatorio y espasmolítico.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 395,
@@ -2266,7 +2527,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 396,
@@ -2298,7 +2561,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Marrubiína: expectorante y mucolítico. Acteoside: antiinflamatorio. Luteolina: espasmolítica e hipoglucemiante.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 397,
@@ -2338,7 +2610,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 398,
@@ -2381,7 +2655,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 399,
@@ -2414,7 +2690,16 @@
       "Llantén",
       "Arrayán",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "antidiarreico",
+      "astringente",
+      "antiespasmódico",
+      "antiinflamatorio"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 400,
@@ -2456,7 +2741,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 401,
@@ -2497,7 +2784,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 402,
@@ -2537,7 +2826,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 403,
@@ -2578,7 +2869,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 404,
@@ -2619,7 +2912,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 405,
@@ -2660,7 +2955,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 406,
@@ -2701,7 +2998,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 407,
@@ -2742,7 +3041,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 408,
@@ -2783,7 +3084,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 409,
@@ -2824,7 +3127,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 410,
@@ -2866,7 +3171,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 411,
@@ -2899,7 +3206,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Sarsasapogenina y smilagenina (sapogeninas esteroidales): antiinflamatorias y depurativas; modulan receptores de esteroides. Sitosterol y estigmasterol: reguladores del metabolismo lipídico. Taninos: astringentes y antimicrobianos dérmicos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 412,
@@ -2941,7 +3257,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 413,
@@ -2982,7 +3300,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 415,
@@ -3015,7 +3335,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 417,
@@ -3056,7 +3385,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 418,
@@ -3098,7 +3429,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 419,
@@ -3139,7 +3472,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 420,
@@ -3179,7 +3514,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 421,
@@ -3221,7 +3558,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 422,
@@ -3254,7 +3593,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 488,
@@ -3294,7 +3642,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 489,
@@ -3326,7 +3676,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Isoflavonas (genisteína, daidzeína): fitoestrógenas y cardioprotectoras. Vitamina K2 (menaquinona): mineralización ósea. Probióticos (Lactobacillus): modulación de microbiota intestinal.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "reconstituyente",
+      "vitaminizante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 492,
@@ -3366,7 +3725,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 493,
@@ -3398,7 +3759,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Vitamina B6 (piridoxina): cofactor en síntesis de serotonina y GABA. Potasio: regulador del balance electrolítico. Triptófano: precursor de serotonina.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "reconstituyente",
+      "vitaminizante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 598,
@@ -3439,7 +3809,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 599,
@@ -3451,7 +3823,7 @@
     "dosis": "2-3 cucharadas al día con comidas",
     "modo_uso": "Comenzar con pequeñas cantidades para adaptar la flora intestinal",
     "tiempo_prep": "5 días fermentación",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 kg",
     "conservacion": "Refrigerar hasta 3 meses",
     "evidencia": "Uso tradicional documentado",
@@ -3481,7 +3853,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 600,
@@ -3522,7 +3896,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 601,
@@ -3563,7 +3939,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 602,
@@ -3575,7 +3953,7 @@
     "dosis": "2-3 cucharadas al día con comidas",
     "modo_uso": "Asegurarse de que el repollo esté siempre sumergido en su líquido",
     "tiempo_prep": "7-14 días fermentación",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 kg",
     "conservacion": "Refrigerar hasta 6 meses",
     "evidencia": "Uso tradicional documentado",
@@ -3604,7 +3982,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 603,
@@ -3646,7 +4026,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 604,
@@ -3688,7 +4070,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 605,
@@ -3729,7 +4113,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 606,
@@ -3770,7 +4156,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 607,
@@ -3811,7 +4199,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 608,
@@ -3844,7 +4234,16 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "depurativo",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 609,
@@ -3885,7 +4284,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 610,
@@ -3926,7 +4327,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 611,
@@ -3959,7 +4362,16 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "principios_activos": "Geraniol y citronelol: antibacterianos y antifúngicos. Flavonoides (quercetina, kaempferol): antiinflamatorios y cardioprotectores. Vitamina C y beta-caroteno: antioxidantes e inmunoestimulantes.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "depurativo",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 612,
@@ -4001,7 +4413,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 668,
@@ -4042,7 +4456,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 669,
@@ -4074,7 +4490,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 670,
@@ -4115,7 +4540,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 671,
@@ -4147,7 +4574,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "EPA y DHA (ácidos grasos omega-3 de cadena larga): potentes antiinflamatorios sistémicos. Vitamina A (retinol): inmunoestimulante y regeneradora epitelial. Vitamina D3: reguladora del sistema inmune y calcio óseo.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 672,
@@ -4187,7 +4623,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 673,
@@ -4227,7 +4665,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 674,
@@ -4268,7 +4708,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 675,
@@ -4300,7 +4742,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Sinigrina y sinalbina (glucosinolatos): precursores de isotiocianatos rubefacientes; aumentan circulación local y activan TRPV1. Aceites esenciales sulfurados: bactericidas tópicos. Ácido erúcico: antiinflamatorio.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 676,
@@ -4312,7 +4763,7 @@
     "dosis": "30 gotas en agua 3 veces al día con comidas",
     "modo_uso": "Tratamiento de mínimo 2 meses para hepatitis o hígado graso",
     "tiempo_prep": "28 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "250 ml",
     "conservacion": "Frasco oscuro 2 años",
     "evidencia": "Uso tradicional documentado",
@@ -4332,7 +4783,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Silimarina (complejo de flavonolignanos: silibina, silidianina, silicristina): hepatoprotectora potente; estabiliza membranas de hepatocitos y estimula la síntesis de proteínas hepáticas. Taxifolina: antioxidante y antiinflamatoria. Silibina: regeneradora hepática.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 677,
@@ -4364,7 +4824,16 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "principios_activos": "Fumarina y coptisina (alcaloides isoquinolínicos): colerécticos y antiespasmódicos sobre vías biliares. Ácido fumárico: hepatoprotector e inmunomodulador. Flavonoides: antioxidantes hepáticos.",
+    "propiedades": [
+      "colerético",
+      "colagogo",
+      "hepatoprotector",
+      "antioxidante hepático"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 693,
@@ -4406,7 +4875,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 694,
@@ -4439,7 +4910,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Ftalidas (Z-ligustilida, butilftalida): espasmolíticas sobre músculo liso; diaforéticas y febrifugas. Cumarinas (bergapteno, oxipeucedanina): anticoagulantes leves. Aceites esenciales: carminativos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 695,
@@ -4480,7 +4960,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 696,
@@ -4521,7 +5003,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 697,
@@ -4562,7 +5046,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 698,
@@ -4604,7 +5090,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 699,
@@ -4645,7 +5133,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 700,
@@ -4686,7 +5176,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 701,
@@ -4719,7 +5211,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Diosgenina (sapogenina esteroidal): precursora sintética de hormonas; estimula libido y producción de leche. 4-Hidroxiisoleucina: insulinosensibilizante. Mucílagos: demulcentes digestivos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 702,
@@ -4760,7 +5261,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 703,
@@ -4793,7 +5296,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Eugenol (fenilpropanoide): analgésico y antibacteriano. Linalool y metilchavicol: ansiolíticos y antisépticos. Ácido ursólico: antiinflamatorio e hipoglucemiante. Flavonoides (orientin, vicenin): antioxidantes.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 704,
@@ -4835,7 +5347,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 705,
@@ -4876,7 +5390,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 706,
@@ -4909,7 +5425,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Almidón resistente (prebiótico): nutre microbiota intestinal y regula el tránsito. Inositol: precursor de fosfoinosítidos; regulador del peristaltismo. Agua de arroz: demulcente y astringente suave.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 707,
@@ -4942,7 +5467,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Antocianinas (cianidina, pelargonidina): antioxidantes vasculares potentes. Ácido elágico y elagitaninos: antiinflamatorios y antiproliferativos. Vitamina C: inmunoestimulante.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 708,
@@ -4975,7 +5509,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Cinamaldehído: antibacteriano, antifúngico y antidiabético por sensibilización insulínica. Eugenol: analgésico local y antiinflamatorio por inhibición de COX-1/2. Taninos proantocianidínicos: astringentes y antidiarreicos.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 709,
@@ -5008,7 +5551,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Glicirricina (triterpeno saponínnico): antiinflamatoria 50x más potente que cortisona a dosis terapéuticas; gastroprotectora. Glicirretina: inhibidora de 11-β-HSD (efecto mineralocorticoide). Isoflavonoides: antioxidantes.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 710,
@@ -5041,7 +5593,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Arabinoxilanos (mucílagos solubles): forman gel que retarda absorción de glucosa y colesterol; prebióticos. Beta-glucanos: inmunomoduladores. Efecto mecánico de masa: laxante osmótico sin irritación.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "estrenimiento"
   },
   {
     "id": 711,
@@ -5082,7 +5643,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 712,
@@ -5115,7 +5678,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Sorbitol: laxante osmótico natural. Ácido clorogénico: estimulante de la motilidad intestinal. Procianidinas y antocianinas: antioxidantes. Fibra soluble (pectina): prebiótica.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "estrenimiento"
   },
   {
     "id": 713,
@@ -5148,7 +5720,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "1,8-Cineol (eucaliptol): carminativo, antiséptico oral y estimulante de secreciones digestivas. Acetato de terpinilo: antiespasmódico y aromaterapéutico. Alfa-terpineol: antimicrobiano.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 714,
@@ -5189,7 +5770,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 715,
@@ -5230,7 +5813,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 716,
@@ -5271,7 +5856,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 717,
@@ -5304,7 +5891,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Beta-caroteno: precursor de vitamina A; antioxidante y regenerador epitelial. Falcarinol: antifúngico y anticancerígeno. Vitamina K: hemostática.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
   },
   {
     "id": 718,
@@ -5345,7 +5941,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 719,
@@ -5384,7 +5982,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 720,
@@ -5424,7 +6024,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 721,
@@ -5456,7 +6058,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 722,
@@ -5488,7 +6099,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 723,
@@ -5500,7 +6120,7 @@
     "dosis": "15 gotas en agua 3 veces al día por 10 días",
     "modo_uso": "Tomar con comida para evitar ardor gástrico",
     "tiempo_prep": "21 días maceración",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "250 ml",
     "conservacion": "Frasco oscuro 2 años",
     "evidencia": "Uso tradicional documentado",
@@ -5528,7 +6148,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 724,
@@ -5568,7 +6190,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 725,
@@ -5609,7 +6233,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 726,
@@ -5649,7 +6275,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 727,
@@ -5681,7 +6309,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 728,
@@ -5721,47 +6358,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
-  },
-  {
-    "id": 729,
-    "titulo": "Aceite de Orégano contra Candida",
-    "categoria": "Antiparasitario",
-    "origen": "Naturopatía Moderna",
-    "ingredientes": "Aceite esencial de orégano (Origanum vulgare) diluido al 1% en aceite de oliva",
-    "preparacion": "Diluir el aceite esencial en el aceite de oliva.",
-    "dosis": "3 gotas de la mezcla en cápsula o en cucharadita 3 veces al día por 2 semanas",
-    "modo_uso": "Tomar con comida; el aceite de orégano es muy potente",
-    "tiempo_prep": "5 min",
-    "dificultad": "Fácil",
-    "rendimiento": "1 frasco 30 ml (2 semanas)",
-    "conservacion": "Temperatura ambiente 1 año",
-    "evidencia": "Uso tradicional documentado",
-    "fuente_tradicion": "Naturopatía moderna",
-    "contraindicaciones": "No usar sin diluir; puede causar ardor severo; no en embarazo",
-    "uso": "Infecciones bacterianas y fúngicas leves, afecciones gastrointestinales y respiratorias: el carvacrol disrumpe membranas bacterianas causando la muerte de patógenos incluyendo MRSA.",
-    "principios_activos": "Carvacrol (21-98% del aceite esencial): aumenta la permeabilidad de la membrana bacteriana a iones H+ y K+ causando fuga del contenido citoplasmático; inhibe la formación de biofilm. Timol (16%): mecanismo sinérgico. Activos frente a MRSA, E. coli y Candida albicans.",
-    "propiedades": [
-      "antimicrobiano",
-      "antifúngico",
-      "antioxidante",
-      "digestivo",
-      "antiespasmódico"
     ],
-    "referencias": "Burt SA. Int J Food Microbiol 2004; 94(3):223-253; WHO Monographs Vol.2 (2002); Dorman HJD. J Appl Microbiol 2000; Muñoz et al. 1999",
-    "indicaciones_principales": [
-      "Parasitosis intestinal (oxiuros, áscaris, tenias)",
-      "Náuseas asociadas a parásitos",
-      "Limpieza intestinal preventiva"
-    ],
-    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
-    "embarazo_lactancia": "Consultar con profesional de salud antes de usar durante el embarazo o la lactancia.",
-    "duracion_tratamiento": "3-7 días; repetir tras descanso de 2 semanas si es necesario",
-    "sinergia_plantas": [
-      "Ajo",
-      "Paico",
-      "Semillas de calabaza"
-    ]
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 730,
@@ -5801,7 +6400,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 731,
@@ -5833,7 +6434,16 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "principios_activos": "Compuestos fenólicos y terpénicos: acción antiparasitaria directa sobre la membrana celular de parásitos. Taninos: precipitan proteínas de superficie de helmintos y protozoos.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico intestinal",
+      "purificador"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 732,
@@ -5874,7 +6484,9 @@
       "Ajo",
       "Paico",
       "Semillas de calabaza"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 888,
@@ -5916,7 +6528,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 889,
@@ -5958,7 +6572,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 890,
@@ -5991,7 +6607,16 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "depurativo",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 891,
@@ -6033,7 +6658,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 892,
@@ -6075,7 +6702,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 893,
@@ -6117,7 +6746,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 894,
@@ -6129,7 +6760,7 @@
     "dosis": "1 taza al día",
     "modo_uso": "Las setas medicinales son reconocidas inmunomoduladoras",
     "tiempo_prep": "35 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 taza",
     "conservacion": "Refrigerar 2 días",
     "evidencia": "Uso tradicional documentado",
@@ -6150,7 +6781,16 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "depurativo",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 895,
@@ -6191,7 +6831,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 896,
@@ -6203,7 +6845,7 @@
     "dosis": "1 porción como almuerzo 3 veces por semana",
     "modo_uso": "Las nueces aportan omega-3; el ají amarillo es rico en vitamina C",
     "tiempo_prep": "40 min",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "4 porciones",
     "conservacion": "Refrigerar 3 días",
     "evidencia": "Uso tradicional documentado",
@@ -6233,7 +6875,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 897,
@@ -6266,7 +6910,16 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "principios_activos": "Vitaminas (A, B, C) y minerales (hierro, calcio, magnesio): soporte nutricional y metabólico. Clorofila y antioxidantes: depuración y protección celular.",
+    "propiedades": [
+      "nutritivo",
+      "remineralizante",
+      "depurativo",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 898,
@@ -6308,7 +6961,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 899,
@@ -6350,7 +7005,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 900,
@@ -6391,7 +7048,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 901,
@@ -6432,7 +7091,9 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 902,
@@ -6473,7 +7134,52 @@
       "Ortiga",
       "Diente de León",
       "Maqui"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
+  },
+  {
+    "id": 932,
+    "titulo": "Te de Michay para el Higado",
+    "categoria": "Hepático",
+    "origen": "Medicina Mapuche",
+    "ingredientes": "5 flores de michay (Berberis darwinii) secas, 300 ml de agua",
+    "preparacion": "Hervir el agua. Infundir las flores 12 min. Colar.",
+    "dosis": "2 tazas al dia",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Medicina mapuche",
+    "contraindicaciones": "No en embarazo; puede interactuar con medicamentos",
+    "uso": "Higado. Preparación medicinal mapuche.",
+    "referencias": "Hoffmann A. 1992; Muñoz O. et al. 1999; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Berberina (alcaloide isoquinolínico): antibacteriano, antimicótico y antiinflamatorio; inhibe la síntesis de ADN bacteriano. Berbamina: inmunomoduladora. Palmitina: antiséptica.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante",
+      "antimicrobiano"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 938,
@@ -6506,7 +7212,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Dibenzil disulfuro (en Petiveria alliacea): inmunomodulador y antiinflamatorio; activo contra hongos y bacterias. Flavonoides: antioxidantes. Cumarinas: anticoagulantes leves.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 939,
@@ -6547,7 +7262,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "estrenimiento"
   },
   {
     "id": 940,
@@ -6580,7 +7297,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Cloruro de sodio: antiséptico por presión osmótica que destruye membranas bacterianas. Minerales traza (magnesio, potasio, calcio): remineralizantes de tejidos. Efecto pH: alcalinizante bucal que inhibe Streptococcus mutans.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "estrenimiento"
   },
   {
     "id": 941,
@@ -6613,7 +7339,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Amarogentina (secoiridoide amargo): la sustancia más amarga conocida; estimula potentemente la secreción gástrica y biliar. Gentiopicrina: colerética. Swertiamarina: antiespasmódica e hipoglucemiante.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 942,
@@ -6646,7 +7381,16 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "principios_activos": "Inulina (fructooligosacárido): prebiótico que nutre bifidobacterias; hipoglucemiante. Ácido clorogénico: antioxidante y colagogo. Lactucopicrina: hepatoprotectora y amargo digestiva.",
+    "propiedades": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "colagogo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 943,
@@ -6687,7 +7431,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 944,
@@ -6727,7 +7473,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 945,
@@ -6769,7 +7517,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 946,
@@ -6781,7 +7531,7 @@
     "dosis": "200 ml al dia con las comidas",
     "modo_uso": "Probiotico natural sin lactosa; apto para intolerantes a la leche",
     "tiempo_prep": "24-48 h fermentacion",
-    "dificultad": "Medio",
+    "dificultad": "Media",
     "rendimiento": "1 L",
     "conservacion": "Refrigerar hasta 1 semana",
     "evidencia": "Uso tradicional documentado",
@@ -6811,7 +7561,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 947,
@@ -6852,7 +7604,392 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
+  },
+  {
+    "id": 1015,
+    "titulo": "Decoccion de Peciolos de Pangue para Diarrea Rebelde",
+    "categoria": "Diarrea",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "3 a 4 peciolos (tallos) frescos de nalca/pangue, cortados en rodajas, 1 litro de agua",
+    "preparacion": "Hervir los peciolos de nalca troceados durante 15 minutos. Colar bien. El liquido sera de color verde-ambar oscuro, astringente.",
+    "dosis": "1 taza cada 4 a 6 horas hasta mejorar; en diarrea grave, 4 a 5 tazas al dia",
+    "modo_uso": "Oral — decocción",
+    "tiempo_prep": "18 min",
+    "dificultad": "Fácil",
+    "rendimiento": "4-5 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche; Diego de Rosales (Siglo XVII); Aukanaw",
+    "contraindicaciones": "Usar solo los peciolos, no el rizoma (que puede ser toxico). Pelar los peciolos antes de usar. Si la diarrea dura mas de 48 h o hay sangre, consultar medico",
+    "uso": "Diarrea Rebelde: los polifenoles ejercen potente actividad antioxidante y los taninos tienen efecto astringente sobre la mucosa digestiva.",
+    "principios_activos": "Polifenoles totales en concentración extraordinaria (7.291 mg GAE/100g peso seco): incluyen ácido cafeico, ferúlico, quercetina y kaempferol con potente actividad antioxidante y antiinflamatoria. Taninos hidrolizables (ácido elágico): astringentes sobre la mucosa intestinal. Fibra cruda (11,57%): efecto prebiótico.",
+    "propiedades": [
+      "antioxidante",
+      "astringente",
+      "antiinflamatorio",
+      "nutritivo",
+      "digestivo"
+    ],
+    "referencias": "Rubilar M. et al. Inf Tecnol 2018; 29(2):185-196; Muñoz et al. 1999; Hoffmann 1992; Villagrán & Castro 2003",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
+  },
+  {
+    "id": 1019,
+    "titulo": "Infusion de Paico en Ayunas para Parasitos Intestinales",
+    "categoria": "Antiparasitario",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "10 g de planta fresca de paico (hojas y tallos), 250 ml de agua hirviendo",
+    "preparacion": "Verter el agua hirviendo sobre la planta fresca. Reposar 10 minutos tapado. Colar.",
+    "dosis": "1 taza en ayunas por la manana durante 3 a 5 dias consecutivos",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza/dia por ciclo",
+    "conservacion": "Preparar fresco cada dia",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi mapuche; Farmacopea Homepatica; MINSAL 2010",
+    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO (abortivo). NO usar el aceite esencial puro. En ninos, reducir la dosis a la mitad. Dosis altas producen dano hepatico y neurologico. No superar 5 dias sin supervision",
+    "uso": "Parasitos Intestinales: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
+    "propiedades": [
+      "antiparasitario",
+      "vermífugo",
+      "digestivo",
+      "carminativo"
+    ],
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
+  },
+  {
+    "id": 1021,
+    "titulo": "Preparacion de Paico y Culen para Parasitos Mixtos",
+    "categoria": "Antiparasitario",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "8 g de paico fresco, 8 g de hojas de culen (Otholobium glandulosum), 500 ml de agua",
+    "preparacion": "Hervir ambas plantas 5 minutos. Colar con paño fino.",
+    "dosis": "1 taza en ayunas por 5 dias consecutivos",
+    "modo_uso": "La machi combina el paico (accion antihelminitica directa via ascaridol) con el culen (accion astringente y antiespasmódica que reduce los calambres del proceso de expulsion de los parasitos). El culen facilita la tolerancia al tratamiento",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza/dia por ciclo",
+    "conservacion": "Preparar fresco cada dia",
+    "evidencia": "Saber ancestral mapuche y chileno",
+    "fuente_tradicion": "Medicina machi pehuenche y lafkenche (CONAF 2004; Aukanaw)",
+    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO. No superar la dosis recomendada. En ninos, supervisar con adulto y reducir la dosis",
+    "uso": "Parasitos Mixtos: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho. | Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+    "propiedades": [
+      "antiparasitario",
+      "vermífugo",
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "hipoglucemiante"
+    ],
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia. Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
+  },
+  {
+    "id": 1022,
+    "titulo": "Lavado de Paico para Parasitos Externos y Sarna",
+    "categoria": "Antiparasitario",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "100 g de planta fresca de paico, 2 litros de agua",
+    "preparacion": "Hervir el paico en el agua durante 10 minutos. Colar. Dejar entibiar hasta temperatura comoda.",
+    "dosis": "Lavar las zonas afectadas con la decoccion 2 veces al dia durante 5 dias",
+    "modo_uso": "Tópico — enjuague o lavado local",
+    "tiempo_prep": "12 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 lavados diarios",
+    "conservacion": "Refrigerar 24 h; templar antes de usar",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004)",
+    "contraindicaciones": "No aplicar en mucosas ni ojos. Si hay irritacion de la piel, suspender. El paico en piel puede causar fotosensibilidad en algunas personas",
+    "uso": "Parasitos Externos y Sarna: el ascaridol paraliza los helmintos interfiriendo en su cadena respiratoria mitocondrial, facilitando su expulsión.",
+    "principios_activos": "Ascaridol (endoperóxido monoterpénico, 60-80% del aceite esencial): actúa como oxidante tóxico para parásitos, disruptando su cadena respiratoria mitocondrial. Terpineno-4-ol y p-cimeno: actividad antiparasitaria complementaria. PRECAUCIÓN: margen terapéutico estrecho.",
+    "propiedades": [
+      "antiparasitario",
+      "vermífugo",
+      "digestivo",
+      "carminativo"
+    ],
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Cáceres A. et al. J Ethnopharmacol 1992; 38(1):31-8; MINSAL 2010",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Antihipertensivos: puede potenciar la reducción de presión arterial.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
+  },
+  {
+    "id": 1028,
+    "titulo": "Infusion de Hojas de Maqui para Diarrea y Disenteria",
+    "categoria": "Diarrea",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "20 a 25 g de hojas de maqui, 1 litro de agua hirviendo",
+    "preparacion": "Verter el agua caliente sobre las hojas. Reposar 15 minutos. Colar.",
+    "dosis": "1 taza cada 4 a 6 horas hasta mejorar la diarrea",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "17 min",
+    "dificultad": "Fácil",
+    "rendimiento": "4 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi lafkenche (MINSAL 2010; CONAF 2004)",
+    "contraindicaciones": "Si hay sangre en las deposiciones o fiebre alta, consultar medico urgente. Mantenerse hidratado con agua y electrolitos",
+    "uso": "Diarrea y Disenteria: las antocianinas neutralizan radicales libres, mejoran la función endotelial y reducen marcadores inflamatorios sistémicos.",
+    "principios_activos": "Delfinidin y cianidina (antocianinas, 34% del total): capturan especies reactivas de oxígeno con potencia superior a otras antocianinas por sus múltiples grupos hidroxilo en el anillo B; aumentan expresión de eNOS endotelial y disminuyen síntesis de endotelina-1 vasoconstrictora.",
+    "propiedades": [
+      "antioxidante",
+      "antiinflamatorio",
+      "cardioprotector",
+      "inmunoestimulante",
+      "antidiabético"
+    ],
+    "referencias": "Céspedes CL. et al. Food Chem 2010; 119(3):880-888; Muñoz et al. 1999; Hoffmann 1992; Aukanaw 2002",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "diarrea"
+  },
+  {
+    "id": 1035,
+    "titulo": "Infusion de Bailahuen para Indigestion y Higado Cargado",
+    "categoria": "Hepático",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "8 g de ramas con hojas de bailahuen seco, 500 ml de agua hirviendo",
+    "preparacion": "Verter el agua hirviendo sobre el bailahuen. Reposar 12 minutos. Colar. Aroma intenso, levemente amargo.",
+    "dosis": "1 taza 20 minutos antes de las comidas, 3 veces al dia. En indigestion aguda, 1 taza al sintoma",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "14 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+    "contraindicaciones": "CONTRAINDICADO EN CALCULOSIS BILIAR: puede provocar cólicos al estimular el flujo de bilis. CONTRAINDICADO EN EMBARAZO. Evitar uso prolongado mas de 2 semanas sin supervision",
+    "uso": "Indigestion y Higado Cargado. Preparación medicinal mapuche.",
+    "referencias": "Medicina machi pehuenche y lafkenche (MINSAL 2010; Universidad de Chile y Concepcion)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "id": 1036,
+    "titulo": "Decoccion de Bailahuen para la Vesicula y la Bilis",
+    "categoria": "Hepático",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "15 g de ramas de bailahuen secas, 500 ml de agua",
+    "preparacion": "Hervir las ramas de bailahuen 5 minutos. Colar bien. El liquido sera ambar intenso.",
+    "dosis": "1 taza 3 veces al dia durante 7 dias en tratamiento de la vesicula biliar",
+    "modo_uso": "Oral — decocción",
+    "tiempo_prep": "8 min",
+    "dificultad": "Fácil",
+    "rendimiento": "3 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Respaldo cientifico",
+    "fuente_tradicion": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+    "contraindicaciones": "CONTRAINDICADO con calculos biliares. CONTRAINDICADO EN EMBARAZO. Si hay dolor del hipocondrio derecho intenso, consultar medico (descarte colecistitis aguda)",
+    "uso": "Vesicula y la Bilis. Preparación medicinal mapuche.",
+    "referencias": "Medicina machi pehuenche (MINSAL 2010; CONAF 2004; Universidad de Concepcion)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Ácidos caffeoilquínicos (ácido clorogénico como principal, 30 fenólicos identificados): antioxidantes y hepatoprotectores. Ácidos feruloilquínicos: antiinflamatorios y colerécticos. Flavonoles (kaempferol y quercetina, libres y glucosilados): antiinflamatorios y antioxidantes. Cumarinas y diterpenos: antimicrobianos y hepatoprotectores.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "id": 1043,
+    "titulo": "Infusion de Quinchamali para Apoyo Hepatico",
+    "categoria": "Hepático",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "10 g de planta de quinchamalí seca, 500 ml de agua hirviendo",
+    "preparacion": "Verter el agua hirviendo sobre la planta. Reposar 15 minutos. Colar.",
+    "dosis": "2 tazas al dia en ayunas y antes de dormir, durante 2 semanas",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "17 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+    "contraindicaciones": "No usar en insuficiencia hepatica grave. Si hay ictericia importante o dolor abdominal derecho, consultar medico. Hepatitis viral requiere seguimiento medico",
+    "uso": "Apoyo Hepatico. Preparación medicinal mapuche.",
+    "referencias": "Medicina machi mapuche (MINSAL 2010; CONAF 2004)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Sin interacciones medicamentosas relevantes documentadas a las dosis de uso tradicional. Consultar si se toman medicamentos de uso crónico.",
+    "embarazo_lactancia": "Consultar con machi o especialista en medicina mapuche. En embarazo, solo bajo orientación de profesional de salud.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "principios_activos": "Ácido betulínico y ácido ursólico (triterpenos pentacíclicos): antituberculosos y antiinflamatorios; activos frente a Mycobacterium tuberculosis. Ácido oleanólico: hepatoprotector y antiinflamatorio. Daucosterol (β-sitosterol-D-glucósido): inmunomodulador. Pinocembrina (-)-2S (flavanona): antimicrobiana y antifúngica. 5,7-Dihidroxiflavona (crisina): ansiolítica y antiinflamatoria.",
+    "propiedades": [
+      "ceremonial",
+      "antiinflamatorio",
+      "adaptógeno",
+      "inmunoestimulante"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "id": 1055,
+    "titulo": "Infusion de Culen y Bailahuen para el Higado y las Emociones",
+    "categoria": "Hepático",
+    "origen": "Medicina Machi Mapuche",
+    "ingredientes": "10 g de hojas de culen, 8 g de ramas de bailahuen, 500 ml de agua hirviendo",
+    "preparacion": "Verter el agua hirviendo sobre ambas plantas. Reposar 12 minutos. Colar.",
+    "dosis": "2 tazas al dia: una en la manana en ayunas y otra antes de dormir, durante 10 dias",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "14 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas",
+    "conservacion": "Refrigerar 24 h",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+    "contraindicaciones": "CONTRAINDICADO EN EMBARAZO y en calculosis biliar. Si hay ictericia o dolor hepatico intenso, consultar medico. No combinar con medicamentos hepatotóxicos",
+    "uso": "Higado y las Emociones: el bakuchiol regula la glucosa postprandial y los flavonoides alivian espasmos gastrointestinales.",
+    "principios_activos": "Bakuchiol (meroterpeno fenólico): regulación de glucemia por acción sobre receptores PPAR-γ (efecto hipoglucemiante). Psoraleno y angelicina (furanocumarinas): espasmolíticos sobre músculo liso intestinal. Flavonoides: antioxidantes y hepatoprotectores.",
+    "propiedades": [
+      "digestivo",
+      "antiespasmódico",
+      "hipoglucemiante",
+      "antidiarreico",
+      "carminativo"
+    ],
+    "referencias": "Muñoz et al. 1999; Montes & Wilkomirsky 1985; Hoffmann 1992; MINSAL 2010; Medicina machi mapuche (CONAF 2004; Aukanaw; MINSAL 2010)",
+    "indicaciones_principales": [
+      "Enfermedades del püllü (espíritu)",
+      "Infecciones bacterianas y virales",
+      "Dolor e inflamación",
+      "Ritual de purificación y protección"
+    ],
+    "interacciones_medicamentos": "Hipoglucemiantes e insulina: puede potenciar su efecto; monitorear glucemia.",
+    "embarazo_lactancia": "Contraindicado en embarazo. Consultar con médico antes de usar durante la lactancia.",
+    "duracion_tratamiento": "Según indicación del machi o tradición familiar",
+    "sinergia_plantas": [
+      "Maqui",
+      "Arrayán",
+      "Canelo"
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1065,
@@ -6891,7 +8028,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 1073,
@@ -6902,8 +8041,8 @@
     "preparacion": "1. Remojar la luga roja en agua fria 1 hora. 2. Calentar el agua a punto de ebullicion suave. 3. Agregar la luga remojada y cocer 15 minutos a fuego medio. 4. Agregar el matico (hojas) los ultimos 5 minutos, sin hervir fuerte. 5. Colar y agregar el aceite. 6. Beber tibio, nunca frio (segun practica lafkenche el frio agrava los problemas de weda putra: estomago malo).",
     "dosis": "1 taza (200 ml) 30 minutos antes de cada comida principal (3 tazas al dia) durante 21 dias.",
     "modo_uso": "Oral (infusion de alga con hierba)",
-    "tiempo_prep": "80 minutos (incluyendo remojo)",
-    "dificultad": "Facil",
+    "tiempo_prep": "80 min (incluyendo remojo)",
+    "dificultad": "Fácil",
     "rendimiento": "4 tazas",
     "conservacion": "Refrigerar hasta 24 horas.",
     "evidencia": "La carragenina natural de la luga roja (sin procesar industrialmente) tiene propiedades protectoras de la mucosa gastrica. El matico es antisecretor gastrico documentado por la Universidad de Chile (Montenegro 2000). Uso lafkenche documentado por CONAF (2004).",
@@ -6931,7 +8070,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 1077,
@@ -6942,8 +8083,8 @@
     "preparacion": "1. Seleccionar ramas de muna con abundantes hojitas (las mas pequenas y olorosas son las mas potentes). 2. Llevar el agua a hervor. 3. Apagar el fuego. Agregar inmediatamente las ramas de muna y tapar. 4. Infundir 8 minutos exactos (mas tiempo amarga excesivamente). 5. Colar. Endulzar. 6. Beber tibio, masticando las ultimas hojitas que queden en la taza.",
     "dosis": "1 taza despues de cada comida (3 tazas al dia) durante 7 dias para molestias digestivas. Para uso preventivo en viajes al altiplano: 2 tazas al dia.",
     "modo_uso": "Oral (infusion)",
-    "tiempo_prep": "15 minutos",
-    "dificultad": "Facil",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
     "rendimiento": "1-2 tazas",
     "conservacion": "Consumir fresco. Preparar en el momento.",
     "evidencia": "La muna es una de las plantas medicinales mas importantes de los Andes centrales. Contiene pulegona, mentona e isomintona con actividad antiespasmódica gastrointestinal documentada. Usada por comunidades aymara de Putre documentado por Villagran & Castro (2004).",
@@ -6971,7 +8112,9 @@
       "Boldo",
       "Hinojo",
       "Manzanilla"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
   },
   {
     "id": 1078,
@@ -7010,7 +8153,9 @@
       "Manzanilla",
       "Romero",
       "Ajo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 1109,
@@ -7021,7 +8166,7 @@
     "preparacion": "Calentar agua hasta primer hervor. Retirar y agregar las hierbas. Tapar 7 minutos. Colar.",
     "dosis": "1 taza después de almuerzo y/o cena",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1 taza",
     "conservacion": "Consumir recién preparada",
@@ -7053,7 +8198,9 @@
       "Melisa",
       "Jengibre",
       "Boldo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1115,
@@ -7064,7 +8211,7 @@
     "preparacion": "Hervir agua. Agregar achicoria y dejar 5 min a fuego suave. Retirar del fuego, agregar boldo y tapar 7 min. Colar.",
     "dosis": "1 taza después de comidas grasas, máximo 2 veces al día",
     "modo_uso": "Decocción",
-    "tiempo_prep": "15 minutos",
+    "tiempo_prep": "15 min",
     "dificultad": "Fácil",
     "rendimiento": "1 taza",
     "conservacion": "Consumir recién hecha",
@@ -7095,7 +8242,9 @@
       "Boldo",
       "Cardo mariano",
       "Diente de león"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1130,
@@ -7106,7 +8255,7 @@
     "preparacion": "Decocción 12 min a fuego suave, reposar 5 min. Colar.",
     "dosis": "1 taza, 2 veces al día, 3 semanas con 1 de descanso",
     "modo_uso": "Decocción",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "Aprox. 350 ml",
     "conservacion": "Refrigerado 24 h",
@@ -7137,7 +8286,9 @@
       "Cardo mariano",
       "Diente de león",
       "Boldo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1134,
@@ -7179,7 +8330,9 @@
       "alcachofa",
       "menta",
       "diente de león"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1135,
@@ -7221,7 +8374,9 @@
       "anís",
       "melisa",
       "menta"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1136,
@@ -7263,7 +8418,9 @@
       "ajo",
       "tomillo",
       "natre"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 1137,
@@ -7305,7 +8462,9 @@
       "manzanilla",
       "regaliz",
       "caléndula"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
   },
   {
     "id": 1138,
@@ -7347,7 +8506,9 @@
       "tomillo",
       "orégano",
       "menta"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1159,
@@ -7358,7 +8519,7 @@
     "preparacion": "Remojar cochayuyo 30 minutos y picar. Saltear puerro, ajo, jengibre y cúrcuma en aceite de oliva. Agregar cochayuyo, zanahoria y agua. Cocinar 40 minutos. Añadir orégano y pimienta al final. Servir caliente.",
     "dosis": "1 taza, 1-2 veces al día durante convalecencia o invierno",
     "modo_uso": "Caldo",
-    "tiempo_prep": "50 minutos",
+    "tiempo_prep": "50 min",
     "dificultad": "Fácil",
     "rendimiento": "4 porciones",
     "conservacion": "Refrigerado hasta 3 días, congelado hasta 2 meses",
@@ -7392,7 +8553,9 @@
       "llantén",
       "ortiga",
       "diente de león"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 1160,
@@ -7437,7 +8600,9 @@
       "manzanilla",
       "menta",
       "hinojo"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1161,
@@ -7448,7 +8613,7 @@
     "preparacion": "Triturar levemente las semillas para liberar aceites esenciales. Verter agua a 90°C sobre las hierbas. Tapar e infundir 10 minutos. Colar.",
     "dosis": "1 taza después de cada comida principal o ante distensión abdominal",
     "modo_uso": "Infusión",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1 taza",
     "conservacion": "Consumir inmediatamente",
@@ -7481,7 +8646,9 @@
       "melisa",
       "cedrón",
       "menta"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1162,
@@ -7492,7 +8659,7 @@
     "preparacion": "Hervir agua con cardo mariano y achicoria 10 minutos. Apagar fuego, añadir boldo y diente de león, tapar e infundir 8 minutos. Colar.",
     "dosis": "1 taza en ayunas y 1 antes de la cena, durante 21 días",
     "modo_uso": "Decocción mixta",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Fácil",
     "rendimiento": "2 tazas",
     "conservacion": "24 horas refrigerado",
@@ -7526,7 +8693,9 @@
       "alcachofa",
       "bailahuén",
       "menta"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1163,
@@ -7537,7 +8706,7 @@
     "preparacion": "Triturar todos los ingredientes en mortero hasta formar pasta homogénea. Consumir fresco (no almacenar).",
     "dosis": "1 cucharada en ayunas durante 3 días consecutivos. Repetir a los 15 días.",
     "modo_uso": "Pasta oral",
-    "tiempo_prep": "10 minutos",
+    "tiempo_prep": "10 min",
     "dificultad": "Fácil",
     "rendimiento": "1 dosis",
     "conservacion": "Uso inmediato, no almacenar",
@@ -7569,7 +8738,9 @@
       "natre",
       "ruda (uso muy controlado)",
       "ajenjo (adultos)"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
   },
   {
     "id": 1192,
@@ -7580,7 +8751,7 @@
     "preparacion": "Hervir agua con cola de caballo 10 minutos. Apagar, añadir el resto. Tapar 15 minutos. Colar.",
     "dosis": "2 tazas al día durante 4-6 semanas",
     "modo_uso": "Decocción mixta",
-    "tiempo_prep": "30 minutos",
+    "tiempo_prep": "30 min",
     "dificultad": "Fácil",
     "rendimiento": "400 ml",
     "conservacion": "24 horas refrigerado",
@@ -7612,7 +8783,9 @@
     "sinergia_plantas": [
       "diente de león",
       "perejil"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "nutricion"
   },
   {
     "id": 1194,
@@ -7623,7 +8796,7 @@
     "preparacion": "Hervir agua, apagar y verter sobre hierbas. Tapar 8 minutos. Colar.",
     "dosis": "1 taza después de comidas pesadas",
     "modo_uso": "Infusión",
-    "tiempo_prep": "12 minutos",
+    "tiempo_prep": "12 min",
     "dificultad": "Fácil",
     "rendimiento": "300 ml",
     "conservacion": "Preparar fresca",
@@ -7655,7 +8828,9 @@
     "sinergia_plantas": [
       "melisa",
       "cedrón"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "digestion_lenta"
   },
   {
     "id": 1195,
@@ -7666,7 +8841,7 @@
     "preparacion": "Hervir agua con cardo mariano 8 minutos. Apagar, añadir alcachofa, diente de león y menta. Tapar 10 minutos. Colar.",
     "dosis": "1 taza en ayunas y otra antes de la cena, 4 semanas",
     "modo_uso": "Decocción",
-    "tiempo_prep": "25 minutos",
+    "tiempo_prep": "25 min",
     "dificultad": "Fácil",
     "rendimiento": "350 ml",
     "conservacion": "24 horas refrigerada",
@@ -7699,7 +8874,9 @@
     "sinergia_plantas": [
       "boldo",
       "bailahuén"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
   },
   {
     "id": 1202,
@@ -7710,7 +8887,7 @@
     "preparacion": "Hervir agua con zanahoria, ajo y semillas 10 minutos. Apagar, añadir ajenjo y manzanilla. Tapar 5 minutos. Colar muy bien.",
     "dosis": "Adultos: 1/2 taza en ayunas durante 5 días. Repetir a las 2 semanas.",
     "modo_uso": "Decocción",
-    "tiempo_prep": "20 minutos",
+    "tiempo_prep": "20 min",
     "dificultad": "Media",
     "rendimiento": "300 ml",
     "conservacion": "Preparar fresca",
@@ -7740,6 +8917,765 @@
     "sinergia_plantas": [
       "paico (controlado)",
       "natre"
-    ]
+    ],
+    "modulo": "digestivo",
+    "submodulo": "parasitos"
+  },
+  {
+    "titulo": "Tisana de Hinojo para cólicos y gases",
+    "categoria": "General",
+    "origen": "Medicina tradicional europea",
+    "ingredientes": "- 1 cucharadita (2 g) de frutos de hinojo recién machacados. - 200 ml de agua hirviendo.",
+    "preparacion": "1. Machacar ligeramente los frutos. 2. Verter el agua hirviendo sobre ellos. 3. Tapar y dejar reposar 10-15 minutos. Colar.",
+    "dosis": "1 taza, 2-3 veces al día.",
+    "modo_uso": "Infusión",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1-2 tazas",
+    "conservacion": "Consumir inmediatamente.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Fitoterapia europea",
+    "contraindicaciones": "- Alergia a apiáceas. - Evitar aceite esencial puro y dosis altas en embarazo y lactancia.",
+    "uso": "Cólicos, gases y digestión pesada: el hinojo relaja la musculatura intestinal, facilita la expulsión de gases y estimula suavemente la digestión.",
+    "principios_activos": "Anetol y fenchona: aceites esenciales con acción carminativa y antiespasmódica sobre la musculatura lisa gastrointestinal, reduciendo la formación de gases y los espasmos dolorosos.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "digestivo",
+      "galactogogo suave"
+    ],
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile; 1999. ; MINSAL. Medicamentos Herbarios Tradicionales. Santiago: MINSAL; 2010. ; WHO Monographs on Selected Medicinal Plants, Vol. 1: Foeniculum vulgare. Geneva: WHO; 1999.",
+    "indicaciones_principales": "",
+    "interacciones_medicamentos": "",
+    "embarazo_lactancia": "Contraindicado en embarazo.",
+    "duracion_tratamiento": "Uso prolongado seguro en adultos.",
+    "sinergia_plantas": "",
+    "nivel_seguridad": "✅ Seguro",
+    "distribucion": "",
+    "efectos_secundarios": "",
+    "id": 1248,
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases"
+  },
+  {
+    "titulo": "Infusión de Manzanilla para la Gastritis",
+    "categoria": "Digestivo",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "2 cucharaditas de flores secas de manzanilla, 250 ml de agua",
+    "preparacion": "Calentar el agua hasta punto de ebullición. Retirar del fuego y añadir las flores de manzanilla. Tapar y dejar reposar 10 minutos. Colar y beber tibio, sin endulzar o con una cucharadita de miel si se tolera.",
+    "dosis": "1 taza después de cada comida principal, hasta 3 veces al día. Duración máxima: 4 semanas continuas, luego descansar 1 semana.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "Evitar en personas con alergia a las asteráceas. No usar durante el embarazo sin supervisión médica. Consultar al médico si la gastritis persiste más de 15 días o hay presencia de sangrado.",
+    "uso": "Gastritis: calma la irritación de la mucosa gástrica y reduce los espasmos estomacales que provocan dolor y ardor.",
+    "principios_activos": "Bisabolol y camazuleno (aceite esencial): acción antiinflamatoria sobre la mucosa gástrica al inhibir la síntesis de prostaglandinas proinflamatorias. | Flavonoides como apigenina: efecto antiespasmódico sobre la musculatura lisa gastrointestinal, reduciendo los espasmos y la sensación de vaciamiento gástrico incómodo.",
+    "propiedades": [
+      "antiinflamatorio",
+      "antiespasmódico",
+      "carminativo",
+      "emoliente",
+      "digestivo"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Matricaria recutita; MINSAL 2010; ESCOP Monographs 2003 Matricariae flos",
+    "id": 1313,
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
+  },
+  {
+    "titulo": "Jugo de Papa Cruda para la Acidez Estomacal",
+    "categoria": "Digestivo",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 papa mediana lavada y pelada, 100 ml de agua",
+    "preparacion": "Licuar la papa cruda pelada con el agua hasta obtener un jugo homogéneo. Colar con un paño fino o colador de malla para retirar el almidón grueso. Beber inmediatamente.",
+    "dosis": "1 vaso (100 ml) en ayunas o 30 minutos antes de las comidas, máximo 2 veces al día. No usar por más de 10 días seguidos.",
+    "modo_uso": "Oral — jugo fresco a temperatura ambiente",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "100 ml (1 porción)",
+    "conservacion": "Consumir de inmediato. No conservar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar si la acidez se acompaña de dolor intenso, vómitos con sangre o pérdida de peso inexplicada. Evitar en diabéticos sin control médico por el contenido de almidón. No recomendado en caso de insuficiencia renal sin consultar al nefrólogo.",
+    "uso": "Acidez estomacal: neutraliza el exceso de ácido en el estómago y forma una capa protectora que alivia el ardor y la sensación de reflujo.",
+    "principios_activos": "Almidón en estado coloidal: forma una película protectora sobre la mucosa gástrica, actuando como antiácido mecánico. | Compuestos alcaloides suaves y minerales alcalinizantes: contribuyen a neutralizar el pH ácido del estómago sin efecto rebote.",
+    "propiedades": [
+      "antiácido",
+      "emoliente",
+      "demulcente",
+      "antiinflamatorio"
+    ],
+    "referencias": "Tradición oral chilena documentada; Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010",
+    "id": 1314,
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
+  },
+  {
+    "titulo": "Decocción de Regaliz para la Gastritis y Acidez",
+    "categoria": "Digestivo",
+    "origen": "Medicina Mediterránea",
+    "ingredientes": "1 cucharadita de raíz de regaliz seca troceada, 300 ml de agua",
+    "preparacion": "Hervir el agua con la raíz de regaliz. Bajar el fuego y mantener a fuego lento durante 10 minutos. Retirar, tapar y dejar reposar 5 minutos más. Colar y beber tibio.",
+    "dosis": "1 taza (150 ml) media hora antes de las comidas, 2 veces al día. No sobrepasar 4 semanas de uso continuo. No administrar a niños menores de 12 años.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (300 ml)",
+    "conservacion": "Refrigerar hasta 24 horas. Calentar suavemente antes de consumir.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en hipertensión arterial, insuficiencia renal, cirrosis, hipopotasemia o embarazo. Evitar en tratamiento con digitálicos, diuréticos o corticoides. No administrar por más de 4 semanas seguidas.",
+    "uso": "Gastritis y acidez: protege y regenera la mucosa del estómago, reduciendo la inflamación y la sensación de ardor. También ayuda a controlar la producción excesiva de ácido.",
+    "principios_activos": "Ácido glicirrícico: estimula la producción de prostaglandinas protectoras de la mucosa gástrica, incrementa la secreción de moco y reduce la secreción ácida. | Flavonoides del regaliz: acción antiespasmódica y antiulcerosa, inhibiendo el crecimiento de Helicobacter pylori.",
+    "propiedades": [
+      "antiulceroso",
+      "antiinflamatorio",
+      "demulcente",
+      "antiespasmódico",
+      "protector gástrico"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Glycyrrhiza glabra; MINSAL 2010; Fiore C et al. J Ethnopharmacol 2005;99(3):317-324",
+    "id": 1315,
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
+  },
+  {
+    "titulo": "Batido de Aloe Vera y Papaya para la Gastritis",
+    "categoria": "Digestivo",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "2 cucharadas de gel de aloe vera (sábila), 1 rodaja de papaya madura, 200 ml de agua",
+    "preparacion": "Extraer el gel de la hoja de sábila, evitando el látex amarillento de la cáscara. Licuar el gel con la papaya y el agua hasta obtener una mezcla suave. Colar si se desea una textura más ligera. Beber de inmediato.",
+    "dosis": "1 vaso en ayunas, una vez al día. No exceder 15 días de tratamiento continuo.",
+    "modo_uso": "Oral — batido fresco",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (200 ml)",
+    "conservacion": "Consumir en el momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No usar en caso de diarrea crónica, colitis ulcerosa o alergia al látex (reactividad cruzada). Evitar en el embarazo y lactancia sin supervisión médica. No extraer el látex de la cáscara, solo el gel transparente interno.",
+    "uso": "Gastritis: recubre y repara la mucosa del estómago inflamada, calmando el dolor y la acidez. La papaya facilita la digestión de las proteínas.",
+    "principios_activos": "Acemannano (polisacárido del aloe): forma una barrera protectora sobre la mucosa gástrica y estimula la regeneración celular. | Papaína (enzima de la papaya): acción proteolítica que facilita la digestión y reduce la carga de trabajo gástrico, disminuyendo la irritación postprandial.",
+    "propiedades": [
+      "antiulceroso",
+      "emoliente",
+      "regenerador mucoso",
+      "digestivo",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Aloe vera; MINSAL 2010; Suvitayavat W et al. Phytomedicine 2004;11(1):30-35",
+    "id": 1316,
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
+  },
+  {
+    "titulo": "Infusión de Melisa para la Acidez Nerviosa",
+    "categoria": "Digestivo",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "2 cucharaditas de hojas secas de melisa, 250 ml de agua",
+    "preparacion": "Calentar el agua hasta que hierva. Verter sobre las hojas de melisa, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza después de las comidas o en momentos de estrés, hasta 3 veces al día. No usar más de 3 semanas seguidas.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento o refrigerar máximo 12 horas.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en hipotiroidismo sin control médico. Evitar en combinación con sedantes fuertes. No recomendado en el embarazo sin consultar al especialista.",
+    "uso": "Acidez estomacal relacionada con nervios o estrés: calma el sistema nervioso y relaja la musculatura del estómago, evitando el reflujo ácido y la sensación de quemazón.",
+    "principios_activos": "Aceite esencial rico en citral y citronelal: efecto ansiolítico y antiespasmódico sobre el tracto gastrointestinal superior, reduciendo la presión del esfínter esofágico inferior. | Ácidos fenólicos (ácido rosmarínico): acción antiinflamatoria sobre la mucosa gástrica y moduladora de la motilidad.",
+    "propiedades": [
+      "antiespasmódico",
+      "carminativo",
+      "ansiolítico",
+      "digestivo",
+      "antiinflamatorio"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Melissa officinalis; MINSAL 2010; Cases J et al. Med J Nutrition Metab 2011;4(3):211-218",
+    "id": 1317,
+    "modulo": "digestivo",
+    "submodulo": "gastritis_acidez"
+  },
+  {
+    "titulo": "Infusión de Boldo para la Digestión y el Cuidado del Hígado",
+    "categoria": "Hepático",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de boldo, 250 ml de agua",
+    "preparacion": "Hervir el agua. Añadir las hojas de boldo, tapar y dejar reposar 10 minutos. Colar y beber tibio o a temperatura ambiente, sin endulzar.",
+    "dosis": "1 taza después de las comidas principales, hasta 2 veces al día. No usar más de 2 semanas seguidas. Niños mayores de 12 años: media taza una vez al día.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en obstrucción de vías biliares, embarazo, lactancia ni en menores de 12 años. Evitar en casos de enfermedad hepática avanzada sin supervisión médica. Suspender si aparece dolor abdominal intenso.",
+    "uso": "Hígado lento o con sobrecarga: estimula la producción de bilis y mejora la digestión de las grasas, aliviando la sensación de pesadez después de comer y protegiendo las células del hígado.",
+    "principios_activos": "Boldina (alcaloide aporfínico): estimula la secreción biliar y tiene efecto colerético y colagogo, además de acción hepatoprotectora por su capacidad antioxidante. | Flavonoides y aceite esencial (ascaridol, cineol): contribuyen a la protección del parénquima hepático y a la relajación de la musculatura lisa biliar.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "digestivo",
+      "antioxidante",
+      "carminativo"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; MINSAL 2010; WHO Monographs Vol.1 (1999) Peumus boldus; Speisky H et al. Pharmacol Res 1994;29(1):1-12",
+    "id": 1318,
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "titulo": "Decocción de Cardo Mariano para Proteger el Hígado",
+    "categoria": "Hepático",
+    "origen": "Herbolaria Europea",
+    "ingredientes": "1 cucharada sopera de semillas de cardo mariano trituradas, 400 ml de agua",
+    "preparacion": "Triturar las semillas en un mortero. Hervir el agua, añadir las semillas y reducir el fuego. Mantener a fuego lento durante 15 minutos. Retirar, tapar y reposar 5 minutos. Colar y beber tibio.",
+    "dosis": "1 taza (200 ml) por la mañana y otra por la noche, fuera de las comidas. No exceder 8 semanas de uso continuo sin evaluación médica.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "25 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (400 ml)",
+    "conservacion": "Refrigerar hasta 48 horas. Calentar a fuego bajo antes de consumir.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de alergia a las asteráceas. Evitar en el embarazo y lactancia sin indicación médica. Precaución en pacientes con trastornos hormonales sensibles (puede tener efecto estrogénico leve). No sustituye el tratamiento médico en hepatopatías graves.",
+    "uso": "Hígado graso o sobrecargado: regenera y protege las células del hígado, ayudando a reducir la inflamación y mejorando su funcionamiento. También se usa como apoyo en tratamientos de desintoxicación.",
+    "principios_activos": "Silimarina (complejo flavono-lignánico): inhibe la peroxidación lipídica en los hepatocitos, bloquea la entrada de toxinas y estimula la síntesis de proteínas ribosomales, favoreciendo la regeneración hepática. | Esteroles y ácidos grasos: contribuyen al efecto antiinflamatorio y estabilizador de membrana.",
+    "propiedades": [
+      "hepatoprotector",
+      "regenerador hepático",
+      "antioxidante",
+      "antiinflamatorio",
+      "depurativo"
+    ],
+    "referencias": "WHO Monographs Vol.2 (2002) Silybum marianum; MINSAL 2010; Abenavoli L et al. Phytother Res 2010;24(10):1423-1432; Flora K et al. Am J Gastroenterol 1998;93(2):139-143",
+    "id": 1319,
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "titulo": "Infusión de Diente de León para Depurar el Hígado",
+    "categoria": "Hepático",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de raíz seca de diente de león, 300 ml de agua",
+    "preparacion": "Hervir el agua. Añadir la raíz de diente de león, reducir el fuego y dejar a fuego lento 5 minutos. Retirar, tapar y reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "1 taza en ayunas y otra antes del almuerzo. No más de 3 semanas seguidas. Descansar al menos 1 semana antes de repetir.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "2 tazas (300 ml)",
+    "conservacion": "Refrigerar hasta 24 horas. Calentar antes de beber.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en obstrucción biliar, úlcera gástrica activa o insuficiencia renal. Evitar en el embarazo sin supervisión médica. Puede potenciar el efecto de diuréticos y medicamentos para la diabetes.",
+    "uso": "Hígado intoxicado o con función lenta: ayuda a eliminar toxinas y estimula la producción de bilis, mejorando la digestión y aliviando la sensación de embotamiento después de comidas pesadas.",
+    "principios_activos": "Lactonas sesquiterpénicas (taraxacina): efecto colerético y hepatoprotector, aumentando el flujo biliar y la capacidad de detoxificación hepática. | Inulina y compuestos fenólicos: acción prebiótica y antioxidante que favorece la salud intestinal y reduce el estrés oxidativo hepático.",
+    "propiedades": [
+      "hepatoprotector",
+      "depurativo",
+      "colerético",
+      "diurético suave",
+      "digestivo"
+    ],
+    "referencias": "Muñoz M. et al. 1999 Flora Medicinal de Chile; WHO Monographs Vol.1 (1999) Taraxacum officinale; MINSAL 2010; Schütz K et al. J Ethnopharmacol 2006;107(3):313-323",
+    "id": 1320,
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "titulo": "Jugo de Rábano Negro para la Congestión de la Vesícula Biliar",
+    "categoria": "Hepático",
+    "origen": "Medicina Mediterránea",
+    "ingredientes": "Medio rábano negro pequeño, 100 ml de agua",
+    "preparacion": "Lavar bien el rábano negro y pelarlo. Cortar en trozos y licuar con el agua. Colar con un paño fino y beber el jugo inmediatamente. No guardar.",
+    "dosis": "1 vaso (100 ml) en ayunas, una vez al día. Ciclos de 7 días con descanso de 7 días. No usar más de 3 ciclos sin consultar.",
+    "modo_uso": "Oral — jugo fresco",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 porción (100 ml)",
+    "conservacion": "Consumir de inmediato. No conservar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de cálculos biliares grandes u obstrucción de vías biliares, embarazo, lactancia, hipotiroidismo o gastritis aguda. Puede causar molestias gástricas leves al inicio.",
+    "uso": "Vesícula biliar perezosa o con barro biliar: estimula suavemente el vaciado de la vesícula y mejora la digestión de las grasas, previniendo la formación de cálculos pequeños.",
+    "principios_activos": "Rafanina y compuestos azufrados (glucosinolatos): efecto colagogo y colerético que favorece la contracción vesicular y la fluidificación de la bilis. | Vitamina C y antioxidantes: protegen el epitelio biliar del daño oxidativo.",
+    "propiedades": [
+      "colagogo",
+      "colerético",
+      "digestivo",
+      "depurativo",
+      "antioxidante"
+    ],
+    "referencias": "WHO Monographs Vol.1 (1999) Raphanus sativus; MINSAL 2010; ESCOP Monographs 2003 Raphani radix",
+    "id": 1321,
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "titulo": "Infusión de Alcachofera para el Hígado Graso",
+    "categoria": "Hepático",
+    "origen": "Medicina Mediterránea",
+    "ingredientes": "1 cucharada de hojas secas de alcachofera, 250 ml de agua",
+    "preparacion": "Hervir el agua. Añadir las hojas de alcachofera, tapar y dejar reposar 15 minutos. Colar y beber tibio, de preferencia sin endulzar.",
+    "dosis": "1 taza antes de cada comida principal, hasta 3 veces al día. Ciclos de 3 semanas con 1 semana de descanso.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "20 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir el mismo día. No conservar más de 12 horas.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Herbolaria europea",
+    "contraindicaciones": "No usar en caso de obstrucción biliar, alergia a compuestas o durante la lactancia (puede reducir la producción de leche). Evitar en el embarazo sin supervisión médica. No administrar a niños menores de 12 años.",
+    "uso": "Hígado graso o digestión pesada: reduce la acumulación de grasa en el hígado y estimula la producción de bilis, mejorando la metabolización de las grasas y aliviando la hinchazón abdominal.",
+    "principios_activos": "Cinarina (ácido dicafeoilquínico): efecto colerético y hepatoprotector, reduce la síntesis de colesterol hepático y mejora la regeneración de los hepatocitos. | Flavonoides luteolina y apigenina: acción antioxidante y antiinflamatoria, protegiendo al hígado del daño oxidativo.",
+    "propiedades": [
+      "hepatoprotector",
+      "colerético",
+      "hipocolesterolemiante",
+      "digestivo",
+      "antioxidante"
+    ],
+    "referencias": "WHO Monographs Vol.1 (1999) Cynara scolymus; MINSAL 2010; Bundy R et al. Phytomedicine 2008;15(8):668-675; Sahebkar A et al. Phytother Res 2013;27(2):174-181",
+    "id": 1322,
+    "modulo": "digestivo",
+    "submodulo": "higado_vesicula"
+  },
+  {
+    "id": 1453,
+    "titulo": "Batido Nutritivo de Moringa y Plátano para Prevenir la Desnutrición",
+    "categoria": "Energizante",
+    "modulo": "digestivo",
+    "submodulo": "nutricion",
+    "origen": "Tradición Latinoamericana",
+    "ingredientes": "1 cucharadita de polvo de hojas secas de moringa, 1 plátano maduro, 1 cucharadita de miel, 200 ml de leche o bebida vegetal",
+    "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente en el desayuno o a media mañana.",
+    "dosis": "1 vaso al día, preferentemente por la mañana. Se puede consumir de forma continua por períodos de hasta 3 meses.",
+    "modo_uso": "Oral — batido fresco",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (250 ml aproximadamente)",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Tradición Latinoamericana",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia a la moringa o al plátano. En diabetes, controlar el aporte de carbohidratos. No usar durante el embarazo sin consultar.",
+    "uso": "Desnutrición, debilidad y convalecencia: la moringa es un superalimento que aporta proteínas, vitaminas y minerales esenciales para recuperar la fuerza y prevenir carencias nutricionales.",
+    "propiedades": [
+      "nutritivo",
+      "reconstituyente",
+      "energizante",
+      "antioxidante",
+      "inmunoestimulante"
+    ],
+    "principios_activos": "Proteínas, calcio, hierro, vitamina A, vitamina C, potasio (moringa): la hoja de moringa es una de las fuentes vegetales más completas de nutrientes esenciales. Carbohidratos y potasio (plátano): energía rápida y electrolitos.",
+    "referencias": "Doménech Asensi G et al. Moringa oleifera: Revisión sobre aplicaciones y usos en alimentos. 2017; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1454,
+    "titulo": "Batido de Avena, Nueces y Miel para la Energía Sostenida",
+    "categoria": "Energizante",
+    "modulo": "digestivo",
+    "submodulo": "nutricion",
+    "origen": "Popular Chileno",
+    "ingredientes": "3 cucharadas de avena integral, 2 nueces peladas, 1 cucharadita de miel, 200 ml de leche o bebida vegetal",
+    "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente en el desayuno.",
+    "dosis": "1 vaso al día, por períodos prolongados. Descansar 1 semana cada 3 meses.",
+    "modo_uso": "Oral — batido fresco",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (250 ml aproximadamente)",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en caso de alergia a las nueces, avena o lácteos. En diabetes, controlar el aporte de carbohidratos.",
+    "uso": "Cansancio, debilidad y falta de energía: la avena y las nueces proporcionan energía de liberación lenta, mientras la miel aporta vitalidad inmediata para afrontar el día.",
+    "propiedades": [
+      "nutritivo",
+      "energizante",
+      "saciante",
+      "antioxidante",
+      "neuroprotector"
+    ],
+    "principios_activos": "Beta-glucanos (avena): fibra soluble que proporciona energía sostenida. Ácidos grasos omega-3 (nueces): nutrientes esenciales para el cerebro. Miel: glucosa y fructosa de rápida absorción.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1455,
+    "titulo": "Infusión de Ortiga y Miel para Reforzar el Organismo",
+    "categoria": "Energizante",
+    "modulo": "digestivo",
+    "submodulo": "nutricion",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharaditas de hojas secas de ortiga, 250 ml de agua, 1 cucharadita de miel",
+    "preparacion": "Hervir el agua. Verter sobre la ortiga, tapar y dejar reposar 10 minutos. Colar, añadir miel cuando esté tibio y beber.",
+    "dosis": "1 taza al día, preferentemente por la mañana. Ciclos de 4 semanas con 1 semana de descanso.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No administrar a menores de 1 año por la miel. Evitar en insuficiencia renal o cardíaca sin supervisión. No usar durante el embarazo sin consultar.",
+    "uso": "Debilidad, anemia y falta de vitalidad: la ortiga es rica en hierro y minerales que nutren la sangre y fortalecen el organismo, combatiendo el cansancio y la fatiga.",
+    "propiedades": [
+      "nutritivo",
+      "reconstituyente",
+      "antianémico",
+      "energizante",
+      "remineralizante"
+    ],
+    "principios_activos": "Hierro, sílice, vitamina C (ortiga): la combinación de hierro y vitamina C natural facilita la absorción del hierro y la formación de hemoglobina. Flavonoides: acción antioxidante y antiinflamatoria.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Urtica dioica."
+  },
+  {
+    "id": 1456,
+    "titulo": "Batido de Manzana, Zanahoria y Jengibre para la Vitalidad",
+    "categoria": "Energizante",
+    "modulo": "digestivo",
+    "submodulo": "nutricion",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 manzana roja con cáscara, 1 zanahoria mediana, 1 rodaja fina de jengibre fresco, 200 ml de agua",
+    "preparacion": "Lavar bien la manzana y la zanahoria. Trocearlas y licuarlas con el jengibre y el agua. Colar si se desea una textura más fina y beber de inmediato.",
+    "dosis": "1 vaso al día, preferentemente en ayunas o a media mañana.",
+    "modo_uso": "Oral — jugo fresco",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (250 ml aproximadamente)",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a los ingredientes. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 meses.",
+    "uso": "Falta de energía, piel apagada y defensas bajas: la manzana y la zanahoria aportan vitaminas y antioxidantes que revitalizan el organismo y fortalecen el sistema inmunológico.",
+    "propiedades": [
+      "nutritivo",
+      "energizante",
+      "antioxidante",
+      "inmunoestimulante",
+      "digestivo"
+    ],
+    "principios_activos": "Betacaroteno (zanahoria): precursor de vitamina A, esencial para la piel y las mucosas. Pectina (manzana): fibra soluble prebiótica. Gingeroles (jengibre): acción termogénica y estimulante.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1457,
+    "titulo": "Batido de Espirulina y Piña para la Recuperación Física",
+    "categoria": "Energizante",
+    "modulo": "digestivo",
+    "submodulo": "nutricion",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de espirulina en polvo, 1 rodaja de piña natural, 200 ml de agua o agua de coco",
+    "preparacion": "Licuar todos los ingredientes hasta obtener un batido homogéneo. Beber de inmediato, preferentemente después del ejercicio o como merienda.",
+    "dosis": "1 vaso al día. Ciclos de 4 semanas con 1 semana de descanso.",
+    "modo_uso": "Oral — batido fresco",
+    "tiempo_prep": "5 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (250 ml aproximadamente)",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a la espirulina, fenilcetonuria o enfermedades autoinmunes sin supervisión. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 años.",
+    "uso": "Fatiga, recuperación después del ejercicio y falta de vitalidad: la espirulina y la piña reponen nutrientes esenciales, combaten la inflamación y aceleran la recuperación muscular.",
+    "propiedades": [
+      "nutritivo",
+      "reconstituyente",
+      "energizante",
+      "antiinflamatorio",
+      "antioxidante"
+    ],
+    "principios_activos": "Proteínas, hierro y vitamina B12 (espirulina): fuente concentrada de nutrientes que estimulan la producción de glóbulos rojos. Bromelina (piña): enzima proteolítica con acción antiinflamatoria y digestiva.",
+    "referencias": "MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
+  },
+  {
+    "id": 1458,
+    "titulo": "Infusión de Paico para los Parásitos Intestinales",
+    "categoria": "Antiparasitario",
+    "modulo": "digestivo",
+    "submodulo": "parasitos",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de paico, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre las hojas de paico, tapar y dejar reposar exactamente 5 minutos. Colar y beber tibio.",
+    "dosis": "Adultos: 1 taza en ayunas, una vez al día, durante 3 días. Repetir el ciclo después de 1 semana. Niños de 6 a 12 años: media taza en ayunas. No usar más de 2 ciclos.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo, lactancia, insuficiencia renal o hepática. No administrar a niños menores de 6 años sin supervisión médica. No exceder la dosis ni el tiempo recomendado. Puede causar náuseas o mareos.",
+    "uso": "Parásitos intestinales como oxiuros y áscaris: el paico paraliza y ayuda a eliminar los parásitos del intestino de forma natural y efectiva.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "digestivo",
+      "antiséptico"
+    ],
+    "principios_activos": "Ascaridol: monoterpeno con potente acción antihelmíntica que paraliza la musculatura de los parásitos intestinales. Flavonoides: contribuyen a la acción antiparasitaria y antiinflamatoria intestinal.",
+    "referencias": "Sánchez Moreyra LE et al. Consumo de Chenopodium ambrosioides y parasitosis intestinal. 2025; López FC et al. Evaluación del paico como antiparasitario. 2016; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1459,
+    "titulo": "Semillas de Zapallo para Eliminar Parásitos Intestinales",
+    "categoria": "Antiparasitario",
+    "modulo": "digestivo",
+    "submodulo": "parasitos",
+    "origen": "Popular Chileno",
+    "ingredientes": "50 g de semillas de zapallo crudas y peladas, 200 ml de agua",
+    "preparacion": "Moler las semillas de zapallo con el agua hasta obtener una pasta líquida. Consumir en ayunas, preferentemente por la mañana. Esperar 2 horas antes de comer.",
+    "dosis": "Adultos: 50 g de semillas en una dosis única en ayunas. Niños de 6 a 12 años: 25 g. Repetir a los 7 días. No usar más de 2 ciclos.",
+    "modo_uso": "Oral — pasta o batido",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 dosis",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a las semillas de zapallo. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 años sin supervisión.",
+    "uso": "Parásitos intestinales comunes como la solitaria (tenia): las semillas de zapallo contienen compuestos que paralizan los parásitos y facilitan su eliminación natural.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "nutritivo",
+      "laxante suave"
+    ],
+    "principios_activos": "Cucurbitina: aminoácido con acción antihelmíntica que paraliza la musculatura de los parásitos intestinales, especialmente tenias. Ácidos grasos y fibra: facilitan el arrastre y la eliminación de los parásitos.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; Tradición oral chilena documentada."
+  },
+  {
+    "id": 1460,
+    "titulo": "Infusión de Ajenjo para las Lombrices Intestinales",
+    "categoria": "Antiparasitario",
+    "modulo": "digestivo",
+    "submodulo": "parasitos",
+    "origen": "Popular Chileno",
+    "ingredientes": "Media cucharadita de hojas secas de ajenjo, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre el ajenjo, tapar y dejar reposar exactamente 5 minutos. Colar y beber tibio, sin endulzar.",
+    "dosis": "Adultos: 1 taza en ayunas, una vez al día, durante 3 días. No administrar a niños menores de 12 años. No repetir el ciclo sin consultar al médico.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo, lactancia, úlcera gástrica, epilepsia o porfiria. No administrar a niños menores de 12 años. No exceder la dosis ni el tiempo de uso. Puede causar toxicidad neurológica si se usa en exceso.",
+    "uso": "Parásitos intestinales como lombrices y oxiuros: el ajenjo contiene compuestos amargos que paralizan y ayudan a expulsar los parásitos del tracto intestinal.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "amargo estomacal",
+      "antiséptico",
+      "digestivo"
+    ],
+    "principios_activos": "Lactonas sesquiterpénicas (absintina, artabsina): acción antihelmíntica y antimicrobiana que paraliza los parásitos intestinales. Tuya y tuyona: efecto antiséptico intestinal complementario.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Artemisia absinthium."
+  },
+  {
+    "id": 1461,
+    "titulo": "Decocción de Corteza de Granado para los Parásitos Intestinales",
+    "categoria": "Antiparasitario",
+    "modulo": "digestivo",
+    "submodulo": "parasitos",
+    "origen": "Medicina Mediterránea",
+    "ingredientes": "1 cucharadita de corteza seca de granado, 250 ml de agua",
+    "preparacion": "Hervir el agua con la corteza de granado durante 15 minutos a fuego lento. Retirar, tapar y dejar reposar 10 minutos. Colar y beber tibio.",
+    "dosis": "Adultos: 1 taza en ayunas, una vez al día, durante 3 días. No administrar a niños menores de 12 años. No repetir el ciclo sin consultar al médico.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "30 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina Mediterránea",
+    "contraindicaciones": "No usar durante el embarazo, lactancia o insuficiencia renal. No administrar a niños menores de 12 años. No exceder la dosis. Puede causar mareos o náuseas en personas sensibles.",
+    "uso": "Parásitos intestinales como tenias y lombrices: la corteza de granado contiene compuestos que paralizan los parásitos y facilitan su expulsión del intestino.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "astringente",
+      "antiséptico"
+    ],
+    "principios_activos": "Alcaloides isopelletierina y pelletierina: acción antihelmíntica que paraliza el sistema nervioso de los parásitos, especialmente las tenias. Taninos: efecto astringente que reduce la inflamación intestinal.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Punica granatum."
+  },
+  {
+    "id": 1462,
+    "titulo": "Ajo Machacado en Ayunas para los Parásitos Intestinales",
+    "categoria": "Antiparasitario",
+    "modulo": "digestivo",
+    "submodulo": "parasitos",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 dientes de ajo fresco, 100 ml de agua tibia",
+    "preparacion": "Machacar los dientes de ajo y dejarlos reposar 10 minutos para activar la alicina. Mezclar con el agua tibia y beber en ayunas.",
+    "dosis": "Adultos: 1 dosis en ayunas, una vez al día, durante 5 a 7 días. Niños de 6 a 12 años: 1 diente de ajo en la misma preparación. Repetir ciclo después de 1 semana si es necesario.",
+    "modo_uso": "Oral — maceración acuosa",
+    "tiempo_prep": "15 min (incluye reposo del ajo)",
+    "dificultad": "Fácil",
+    "rendimiento": "1 dosis (100 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Respaldo científico",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de úlcera gástrica activa, tratamiento con anticoagulantes o alergia al ajo. Evitar durante el embarazo y lactancia. Puede causar ardor estomacal en personas sensibles.",
+    "uso": "Parásitos intestinales como oxiuros, áscaris y giardia: el ajo contiene compuestos azufrados que destruyen los parásitos y sus huevos, ayudando a limpiar el intestino.",
+    "propiedades": [
+      "antiparasitario",
+      "antihelmíntico",
+      "antiséptico",
+      "antibacteriano",
+      "antifúngico"
+    ],
+    "principios_activos": "Alicina: compuesto azufrado con potente acción antiparasitaria y antimicrobiana, inhibe el crecimiento de protozoos y helmintos. Ajoeno: derivado de la alicina con actividad antiparasitaria adicional.",
+    "referencias": "Venugopal PV, Venugopal TV. Antidermatophytic activity of garlic in vitro. Int J Dermatol. 1995;34(4):278-279; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Allium sativum."
+  },
+  {
+    "id": 1463,
+    "titulo": "Infusión de Romerillo Chileno para la Digestión Lenta",
+    "categoria": "Digestivo",
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de romerillo, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre el romerillo, tapar y dejar reposar 10 minutos. Colar y beber tibio después de las comidas.",
+    "dosis": "1 taza después de cada comida principal, hasta 3 veces al día. No usar más de 3 semanas seguidas.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar durante el embarazo sin consultar. Evitar en caso de alergia a plantas de la familia Asteraceae. No administrar a niños menores de 6 años.",
+    "uso": "Digestión lenta, sensación de pesadez estomacal y cólicos leves: el romerillo chileno estimula la producción de jugos gástricos y alivia los espasmos intestinales.",
+    "propiedades": [
+      "digestivo",
+      "antiespasmódico",
+      "carminativo",
+      "estimulante estomacal",
+      "antiinflamatorio"
+    ],
+    "principios_activos": "Aceite esencial con compuestos terpénicos: acción antiespasmódica y carminativa sobre la musculatura lisa gastrointestinal. Flavonoides: efecto antiinflamatorio sobre la mucosa digestiva.",
+    "referencias": "Hoffmann A. Compendio de flora medicinal indígena de Chile. 1998; Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010."
+  },
+  {
+    "id": 1464,
+    "titulo": "Jugo de Aloe Vera y Menta para la Digestión Lenta",
+    "categoria": "Digestivo",
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases",
+    "origen": "Popular Chileno",
+    "ingredientes": "2 cucharadas de gel de aloe vera, 5 hojas frescas de menta, 200 ml de agua",
+    "preparacion": "Extraer el gel de aloe vera evitando el látex amarillento de la cáscara. Licuar con las hojas de menta y el agua. Beber inmediatamente después de las comidas copiosas.",
+    "dosis": "1 vaso después del almuerzo o cena, 1 vez al día. No usar más de 10 días seguidos.",
+    "modo_uso": "Oral — jugo fresco",
+    "tiempo_prep": "10 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 vaso (200 ml)",
+    "conservacion": "Consumir de inmediato. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de diarrea, colitis ulcerosa o alergia al aloe vera o a la menta. Evitar durante el embarazo y lactancia sin supervisión médica. No administrar a niños menores de 6 años.",
+    "uso": "Digestión lenta con sensación de pesadez y acidez: el aloe vera protege la mucosa gástrica y la menta estimula la producción de bilis, facilitando la digestión de las grasas.",
+    "propiedades": [
+      "digestivo",
+      "antiinflamatorio",
+      "emoliente",
+      "colerético",
+      "refrescante"
+    ],
+    "principios_activos": "Acemannano (aloe vera): polisacárido que forma una barrera protectora sobre la mucosa gástrica. Mentol (menta): acción colerética y antiespasmódica que estimula la secreción biliar y relaja la musculatura digestiva.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Aloe vera y Mentha piperita."
+  },
+  {
+    "id": 1465,
+    "titulo": "Infusión de Boldo para la Digestión Pesada",
+    "categoria": "Digestivo",
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de hojas secas de boldo, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre el boldo, tapar y dejar reposar 10 minutos. Colar y beber tibio, sin endulzar, después de las comidas.",
+    "dosis": "1 taza después de las comidas principales, hasta 2 veces al día. No usar más de 2 semanas seguidas.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir en el día. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en obstrucción de vías biliares, embarazo, lactancia ni en menores de 12 años. Evitar en enfermedad hepática avanzada sin supervisión médica.",
+    "uso": "Digestión lenta después de comidas grasas o copiosas: el boldo estimula la producción de bilis y mejora la digestión de las grasas, aliviando la sensación de pesadez estomacal.",
+    "propiedades": [
+      "colerético",
+      "digestivo",
+      "hepatoprotector",
+      "carminativo",
+      "antioxidante"
+    ],
+    "principios_activos": "Boldina: alcaloide aporfínico con acción colerética y colagoga, estimula la secreción biliar y la contracción de la vesícula. Flavonoides: acción antiinflamatoria sobre la mucosa digestiva.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Peumus boldus."
+  },
+  {
+    "id": 1466,
+    "titulo": "Infusión de Manzanilla y Anís Estrellado para la Digestión Lenta con Gases",
+    "categoria": "Digestivo",
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases",
+    "origen": "Popular Chileno",
+    "ingredientes": "1 cucharadita de flores de manzanilla, 1 estrella de anís, 250 ml de agua",
+    "preparacion": "Hervir el agua. Verter sobre la manzanilla y el anís estrellado, tapar y dejar reposar 10 minutos. Colar y beber tibio después de las comidas.",
+    "dosis": "1 taza después de las comidas, hasta 3 veces al día. No usar más de 2 semanas seguidas.",
+    "modo_uso": "Oral — infusión caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Saber ancestral",
+    "fuente_tradicion": "Popular Chileno",
+    "contraindicaciones": "No usar en caso de alergia a las asteráceas o al anís. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 meses.",
+    "uso": "Digestión lenta con formación de gases y distensión abdominal: la manzanilla calma los espasmos intestinales y el anís ayuda a eliminar los gases acumulados.",
+    "propiedades": [
+      "carminativo",
+      "antiespasmódico",
+      "digestivo",
+      "antiinflamatorio",
+      "calmante"
+    ],
+    "principios_activos": "Bisabolol (manzanilla): acción antiespasmódica y antiinflamatoria sobre el tracto gastrointestinal. Anetol (anís estrellado): efecto carminativo que facilita la expulsión de gases intestinales.",
+    "referencias": "Muñoz M, Barrera E, Meza I. Flora Medicinal de Chile. Santiago: Ediciones Universidad de Chile, 1999; MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Matricaria recutita."
+  },
+  {
+    "id": 1467,
+    "titulo": "Decocción de Jengibre y Cardamomo para Activar la Digestión",
+    "categoria": "Digestivo",
+    "modulo": "digestivo",
+    "submodulo": "colicos_gases",
+    "origen": "Medicina Ayurveda",
+    "ingredientes": "3 rodajas de jengibre fresco, 3 semillas de cardamomo ligeramente machacadas, 250 ml de agua",
+    "preparacion": "Hervir el agua con el jengibre y el cardamomo durante 5 minutos a fuego lento. Retirar, tapar y dejar reposar 5 minutos. Colar y beber tibio.",
+    "dosis": "1 taza media hora antes de las comidas o justo después. Máximo 2 tazas al día. No usar más de 3 semanas seguidas.",
+    "modo_uso": "Oral — decocción caliente",
+    "tiempo_prep": "15 min",
+    "dificultad": "Fácil",
+    "rendimiento": "1 taza (250 ml)",
+    "conservacion": "Consumir al momento. No guardar.",
+    "evidencia": "Uso tradicional documentado",
+    "fuente_tradicion": "Medicina Ayurveda",
+    "contraindicaciones": "No usar en caso de úlcera gástrica activa o cálculos biliares. Evitar durante el embarazo sin consultar. No administrar a niños menores de 6 años.",
+    "uso": "Digestión lenta con falta de apetito y sensación de frío estomacal: el jengibre y el cardamomo encienden el fuego digestivo y aceleran el metabolismo de los alimentos.",
+    "propiedades": [
+      "digestivo",
+      "estimulante",
+      "carminativo",
+      "calentador",
+      "antiespasmódico"
+    ],
+    "principios_activos": "Gingeroles (jengibre): acción termogénica que estimula la producción de enzimas digestivas. Aceite esencial de cardamomo (cineol, limoneno): efecto carminativo y estimulante de la secreción gástrica.",
+    "referencias": "MINSAL. Medicamentos Herbarios Tradicionales, 2010; WHO Monographs Vol.1 (1999) Zingiber officinale."
   }
 ]

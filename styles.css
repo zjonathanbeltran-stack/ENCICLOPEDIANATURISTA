@@ -1047,7 +1047,8 @@ header {
 }
 .receta-nueva-badge-hero {
     position: static !important;
-    animation: nuevaBadgePulse 2.8s ease-in-out infinite;
+    font-size: 0.65rem;
+    padding: 4px 10px;
 }
 
 /* Placeholder en modal cuando tampoco hay foto */
@@ -5937,29 +5938,26 @@ body.custom-cursor-on .cursor-ring { display: block; }
     margin: 0;
     line-height: 1.35;
 }
-/* ── Badge "✨ Nueva" — cinta diagonal esquina superior derecha ── */
+/* ── Badge "Nueva" — chip esquina superior derecha ── */
 .receta-nueva-badge {
     position: absolute;
-    top: 17px;
-    right: -22px;
-    width: 88px;
-    text-align: center;
-    transform: rotate(45deg);
-    background: linear-gradient(180deg, #d4f56a 0%, #5db829 100%);
-    color: #152808;
-    font-size: 0.52rem;
-    font-weight: 900;
-    letter-spacing: 0.08em;
+    top: 10px;
+    right: 10px;
+    background: oklch(0.92 0.16 128);
+    color: oklch(0.22 0.08 128);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: 4px 0;
+    padding: 3px 8px;
+    border-radius: 20px;
     z-index: 4;
     pointer-events: none;
-    box-shadow: 0 2px 8px rgba(93,184,41,0.55);
-    animation: nuevaBadgePulse 2.8s ease-in-out infinite;
+    border: 1px solid oklch(0.78 0.18 128 / 0.6);
 }
 @keyframes nuevaBadgePulse {
-    0%, 100% { box-shadow: 0 2px 10px rgba(100,190,46,0.55), 0 0 0 1.5px rgba(200,240,96,0.35); }
-    50%       { box-shadow: 0 2px 16px rgba(100,190,46,0.85), 0 0 0 3px rgba(200,240,96,0.2); }
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.8; }
 }
 /* Badge de pueblo originario en tarjetas del recetario */
 .rsearch-pueblo-badge {

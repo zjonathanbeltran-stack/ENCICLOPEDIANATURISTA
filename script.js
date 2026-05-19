@@ -916,16 +916,18 @@ function _pedSeg(r) {
 }
 
 function _maternSeg(r) {
-    const contra = (r.contraindicaciones || '').toLowerCase();
-    const sub    = (r.submodulo || '').toLowerCase();
+    const contra  = (r.contraindicaciones   || '').toLowerCase();
+    const embLac  = (r.embarazo_lactancia   || '').toLowerCase();
+    const allText = contra + ' ' + embLac;
+    const sub     = (r.submodulo || '').toLowerCase();
     let emb = null, lac = null;
     // Lactancia
     if (sub === 'postparto_lactancia') lac = 'apto';
-    else if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc|lactanc.*no recom/i.test(contra)) lac = 'precaucion';
-    else if (/segur.*lactanc|apto.*lactanc|favorec.*lech|galact/i.test(contra)) lac = 'apto';
+    else if (/no.*lactanc|evitar.*lactanc|contraindicad.*lactanc|lactanc.*no recom/i.test(allText)) lac = 'precaucion';
+    else if (/segur.*lactanc|apto.*lactanc|favorec.*lech|galact/i.test(allText)) lac = 'apto';
     // Embarazo
-    if (/no.*embaraz|contraindicad.*embaraz|evitar.*embaraz|embaraz.*no|peligr.*embaraz|trimestre|abort|teratog|gestac/i.test(contra)) emb = 'precaucion';
-    else if (/segur.*embaraz|apto.*embaraz/i.test(contra)) emb = 'apto';
+    if (/no.*embaraz|contraindicad.*embaraz|evitar.*embaraz|embaraz.*no|peligr.*embaraz|trimestre|abort|teratog|gestac/i.test(allText)) emb = 'precaucion';
+    else if (/segur.*embaraz|apto.*embaraz/i.test(allText)) emb = 'apto';
     return { emb, lac };
 }
 
@@ -1005,7 +1007,7 @@ function _rfRenderGrid(filtradas) {
             ? `<span class="rsearch-pueblo-badge" style="--anc-color:${puebloInfo.color}">${puebloInfo.emoji} ${puebloInfo.label}</span>`
             : '';
         const nuevaBadge = r.id >= NUEVO_DESDE_ID
-            ? `<span class="receta-nueva-badge">✨ Nueva</span>`
+            ? `<span class="receta-nueva-badge">Nueva</span>`
             : '';
         const catColor = (CAT_VISUAL[r.categoria] || {}).g?.[1] || '#4a8a3a';
         const modo = _normModo(r.modo_uso);
@@ -2799,7 +2801,7 @@ function abrirDetalleReceta(id) {
             <div class="modal-receta-overlay"></div>
             <div class="modal-receta-header-badges">
                 <span class="receta-cat-pill receta-cat-pill-hero">${r.categoria}</span>
-                ${_esNueva ? `<span class="receta-nueva-badge receta-nueva-badge-hero">✨ Nueva</span>` : ''}
+                ${_esNueva ? `<span class="receta-nueva-badge receta-nueva-badge-hero">Nueva</span>` : ''}
             </div>
         </div>
 
